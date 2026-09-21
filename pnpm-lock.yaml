@@ -265,6 +265,15 @@ importers:
         specifier: ^6.4.1
         version: 6.19.3(prisma@6.19.3(typescript@5.9.3))(typescript@5.9.3)
     devDependencies:
+      '@lexvera/legal-engine':
+        specifier: workspace:*
+        version: link:../legal-engine
+      '@lexvera/types':
+        specifier: workspace:*
+        version: link:../types
+      '@types/node':
+        specifier: ^22.13.10
+        version: 22.20.3
       prisma:
         specifier: ^6.4.1
         version: 6.19.3(typescript@5.9.3)

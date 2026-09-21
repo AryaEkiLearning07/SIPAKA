@@ -62,6 +62,17 @@ Skema 4-lapisan (`schema.prisma`) **tetap**. Tambahan yang diputuskan:
 | `title String?` | `Provision` | judul bab/pasal ("PERBUATAN YANG DILARANG") — dipakai UI, selama ini hilang dari skema |
 | `newNodeJson Json?` | `ChangeOperation` | payload lengkap node baru untuk `ADD_PROVISION` (label/type/orderIndex/children) |
 
+**Skema 4-lapisan (`schema.prisma`) tetap. Tambahan yang diputuskan (sudah diimplementasikan Tahap 1):**
+
+| Field baru | Model | Alasan |
+|---|---|---|
+| `slug String? @unique` | `LegalInstrument` | routing API & URL (`/uu/ite`) tanpa hardcode |
+| `ingestMethod` (enum MANUAL_UPLOAD/SCRAPER/OFFICIAL_FEED) | `SourceDocument` | provenance asal-usul dokumen saat bercampur manual & scraping |
+| `downloadedAt` | `SourceDocument` | jejak waktu pengadaan |
+| `title String?` | `Provision` | judul bab/pasal ("PERBUATAN YANG DILARANG") — dipakai UI |
+| `orderIndex Float` (dari Int) | `Provision` | sisipan tanpa renumber: Pasal 27A = 27.1, 27B = 27.2 |
+| `payloadJson Json?` | `ChangeOperation` | payload operasi lengkap (ChangeOperationPayload) — rekonstruksi lossless: newNode utk ADD, newExplanation utk REPLACE, repealNote utk REPEAL; kolom terstruktur tetap diisi utk query |
+
 **Backlog (belum sekarang):** `provision_references` (peta rujukan antar pasal untuk peta dampak), model `User` + role (Tahap 4), `Putusan MK` sudah tercakup `JudicialAnnotation`.
 
 **Aturan penyimpanan operasi ADD:** row `Provision` untuk node sisipan (mis. `pasal-27a`) **dibuat sejak seed** (canonicalPath final), sehingga FK `ChangeOperation.targetProvisionId` selalu valid; kontennya tinggal di `ProvisionRevision` yang terhubung ChangeSet — mesin konsolidasi tetap menganggapnya "belum ada" sebelum tanggal efektif.

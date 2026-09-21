@@ -32,6 +32,7 @@ enum InstrumentStatus {
 
 model LegalInstrument {
   id              String           @id @default(cuid())
+  slug            String?          @unique // "ite", "kuhp-2023" — dipakai API & URL
   type            InstrumentType
   number          Int              // Contoh: 11
   year            Int              // Contoh: 2008
@@ -65,6 +66,12 @@ model LegalInstrument {
   @@map("legal_instruments")
 }
 
+enum IngestMethod {
+  MANUAL_UPLOAD   // Unduh manual oleh kurator
+  SCRAPER         // Pipeline scraper otomatis
+  OFFICIAL_FEED   // Feed/kemitraan resmi JDIH (jika kelak ada)
+}
+
 model SourceDocument {
   id                String          @id @default(cuid())
   legalInstrumentId String
@@ -76,6 +83,9 @@ model SourceDocument {
   fileHashSha256    String          // Hash kriptografis integritas dokumen
   fileSizeBytes     Int
   sourceInstitution String          // "Kementerian Sekretariat Negara RI"
+
+  ingestMethod      IngestMethod    @default(MANUAL_UPLOAD)
+  downloadedAt      DateTime        @default(now())
 
   isVerified        Boolean         @default(false)
   verifiedAt        DateTime?
@@ -111,8 +121,9 @@ model Provision {
   children          Provision[]     @relation("ProvisionHierarchy")
 
   type              ProvisionType
-  orderIndex        Int             // Urutan tampilan (1, 2, 3...)
+  orderIndex        Float           // Urutan tampilan (bisa desimal: Pasal 27A = 27.1 agar tersisip tanpa renumber)
   label             String          // "BAB I", "Pasal 27", "Ayat (3)", "Huruf a"
+  title             String?         // Judul/judul singkat node: "PERBUATAN YANG DILARANG", "Perlindungan Data Pribadi"
   canonicalPath     String          // "uu-11-2008/bab-vi/pasal-27/ayat-3"
 
   revisions         ProvisionRevision[]
@@ -201,6 +212,7 @@ model ChangeOperation {
   
   previousContent String?       @db.Text
   newContent      String?       @db.Text
+  payloadJson     Json?         // Payload lengkap operasi (ChangeOperationPayload) — sumber rekonstruksi lossless: newNode utk ADD, newExplanation utk REPLACE, repealNote utk REPEAL, dll.
   
   orderInSet      Int
 

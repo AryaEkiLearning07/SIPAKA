@@ -1,84 +1,145 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
-import { 
-  ArrowLeft, Network, GitBranch, AlertTriangle, 
+import { useParams } from 'next/navigation';
+import {
+  ArrowLeft, Network, GitBranch, AlertTriangle,
   X, Scale, ExternalLink, Sparkles, SplitSquareVertical,
   Layers, Check, FileText
 } from 'lucide-react';
-import { 
-  LawReconstructor, 
-  LegalDiffGenerator, 
-  ITE_BASE_DOCUMENT_2008, 
-  ITE_ALL_CHANGESETS 
-} from '@lexvera/legal-engine';
-import { ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
+import { ConsolidatedLawDocument, ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
 
-type TimelineYear = '2008' | '2016' | '2024';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
-const TIMELINE_DATES: Record<TimelineYear, string> = {
-  '2008': '2008-12-31T00:00:00Z',
-  '2016': '2016-12-31T00:00:00Z',
-  '2024': '2024-12-31T00:00:00Z',
-};
+interface InstrumentMeta {
+  slug: string;
+  type: string;
+  number: number;
+  year: number;
+  title: string;
+  shortTitle?: string;
+  status: string;
+  availableTimelines: string[];
+  amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
+}
 
-const TIMELINE_TITLES: Record<TimelineYear, string> = {
-  '2008': 'Naskah Asli (UU No. 11 Tahun 2008)',
-  '2016': 'Naskah Konsolidasi Pasca UU No. 19 Tahun 2016',
-  '2024': 'Naskah Konsolidasi Pasca UU No. 1 Tahun 2024 (Terkini)',
-};
+interface InspectorState {
+  canonicalPath: string;
+  label: string;
+  parentLabel?: string;
+  status: string;
+  amendedBy?: string;
+  versionTag: string;
+  isRepealed?: boolean;
+  repealBasis?: string;
+  fromText: string;
+  toText: string;
+  diff: ProvisionDiffResult;
+  loading?: boolean;
+}
+
+async function fetchSnapshot(slug: string, year: string): Promise<ConsolidatedLawDocument> {
+  const res = await fetch(`${API_BASE}/api/v1/instruments/${slug}/snapshot?year=${year}`);
+  if (!res.ok) throw new Error(`snapshot ${year} gagal (HTTP ${res.status})`);
+  const json = await res.json();
+  return json.data as ConsolidatedLawDocument;
+}
 
 export default function LawWorkspacePage() {
-  const [selectedTimeline, setSelectedTimeline] = useState<TimelineYear>('2024');
-  const [activeNodePath, setActiveNodePath] = useState<string>('uu-11-2008/pasal-27');
+  const params = useParams<{ slug: string }>();
+  const slug = params?.slug ?? 'ite';
+
+  const [meta, setMeta] = useState<InstrumentMeta | null>(null);
+  const [apiError, setApiError] = useState<string | null>(null);
+  const [docCache, setDocCache] = useState<Record<string, ConsolidatedLawDocument>>({});
+  const [loadingYears, setLoadingYears] = useState<string[]>([]);
+  const docCacheRef = useRef<Record<string, ConsolidatedLawDocument>>({});
+  const inflightYears = useRef<Set<string>>(new Set());
+
+  const [selectedTimeline, setSelectedTimeline] = useState<string | null>(null);
+  const [activeNodePath, setActiveNodePath] = useState<string>('');
   const [isCompareMode, setIsCompareMode] = useState<boolean>(false);
-  const [compareFromYear, setCompareFromYear] = useState<TimelineYear>('2008');
-  const [compareToYear, setCompareToYear] = useState<TimelineYear>('2024');
+  const [compareFromYear, setCompareFromYear] = useState<string | null>(null);
+  const [compareToYear, setCompareToYear] = useState<string | null>(null);
 
   // Inspector State
-  const [inspectorNode, setInspectorNode] = useState<{
-    canonicalPath: string;
-    label: string;
-    parentLabel?: string;
-    status: string;
-    amendedBy?: string;
-    versionTag: string;
-    isRepealed?: boolean;
-    repealBasis?: string;
-    fromText: string;
-    toText: string;
-    diff: ProvisionDiffResult;
-  } | null>(null);
+  const [inspectorNode, setInspectorNode] = useState<InspectorState | null>(null);
 
-  // 1. Rekonstruksi Dokumen secara Dinamis & Deterministik via Legal Engine
-  const currentDoc = useMemo(() => {
-    return LawReconstructor.reconstructAtDate(
-      ITE_BASE_DOCUMENT_2008,
-      ITE_ALL_CHANGESETS,
-      TIMELINE_DATES[selectedTimeline]
-    );
-  }, [selectedTimeline]);
+  // 1. Metadata peraturan (dari API/database)
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`${API_BASE}/api/v1/instruments/${slug}`);
+        if (!res.ok) {
+          const body = await res.json().catch(() => ({}));
+          throw new Error(
+            body?.error === 'DATABASE_EMPTY'
+              ? 'Database kosong — jalankan `pnpm db:seed`.'
+              : body?.error === 'DATABASE_UNAVAILABLE'
+                ? 'Database tidak terjangkau — jalankan `docker compose up -d` lalu `pnpm db:migrate`.'
+                : `Peraturan "${slug}" tidak ditemukan (HTTP ${res.status}).`
+          );
+        }
+        const json = await res.json();
+        if (!cancelled) {
+          setMeta(json);
+          const years: string[] = json.availableTimelines;
+          const last = years[years.length - 1];
+          setSelectedTimeline((cur) => cur ?? last);
+          setCompareFromYear((cur) => cur ?? years[0]);
+          setCompareToYear((cur) => cur ?? last);
+        }
+      } catch (e) {
+        if (!cancelled) setApiError(e instanceof Error ? e.message : String(e));
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [slug]);
 
-  // Dokumen perbandingan untuk Compare Mode
-  const docFrom = useMemo(() => {
-    return LawReconstructor.reconstructAtDate(
-      ITE_BASE_DOCUMENT_2008,
-      ITE_ALL_CHANGESETS,
-      TIMELINE_DATES[compareFromYear]
-    );
-  }, [compareFromYear]);
+  const years = meta?.availableTimelines ?? [];
 
-  const docTo = useMemo(() => {
-    return LawReconstructor.reconstructAtDate(
-      ITE_BASE_DOCUMENT_2008,
-      ITE_ALL_CHANGESETS,
-      TIMELINE_DATES[compareToYear]
-    );
-  }, [compareToYear]);
+  const ensureYearLoaded = useCallback((year: string | null) => {
+    if (!year) return;
+    if (docCacheRef.current[year] || inflightYears.current.has(year)) return;
+    inflightYears.current.add(year);
+    setLoadingYears((l) => (l.includes(year) ? l : [...l, year]));
+    let cancelled = false;
+    fetchSnapshot(slug, year)
+      .then((doc) => {
+        if (!cancelled) {
+          docCacheRef.current[year] = doc;
+          setDocCache((c) => ({ ...c, [year]: doc }));
+        }
+      })
+      .catch((e) => {
+        if (!cancelled) setApiError(`Gagal memuat snapshot ${year}: ${e instanceof Error ? e.message : String(e)}`);
+      })
+      .finally(() => {
+        if (!cancelled) {
+          inflightYears.current.delete(year);
+          setLoadingYears((l) => l.filter((y) => y !== year));
+        }
+      });
+  }, [slug]);
+
+  // 2. Rekonstruksi snapshot point-in-time dari API (bukan engine di browser)
+  useEffect(() => { ensureYearLoaded(selectedTimeline); }, [selectedTimeline, ensureYearLoaded]);
+  useEffect(() => {
+    if (isCompareMode) {
+      ensureYearLoaded(compareFromYear);
+      ensureYearLoaded(compareToYear);
+    }
+  }, [isCompareMode, compareFromYear, compareToYear, ensureYearLoaded]);
+
+  const currentDoc = selectedTimeline ? docCache[selectedTimeline] : undefined;
+  const docFrom = compareFromYear ? docCache[compareFromYear] : undefined;
+  const docTo = compareToYear ? docCache[compareToYear] : undefined;
 
   // Flatten daftar pasal untuk navigasi sidebar
   const allArticles = useMemo(() => {
+    if (!currentDoc) return [];
     const list: { node: ProvisionNode; chapterLabel: string }[] = [];
     for (const chapter of currentDoc.nodes) {
       if (chapter.type === 'BAB' && chapter.children) {
@@ -92,61 +153,108 @@ export default function LawWorkspacePage() {
     return list;
   }, [currentDoc]);
 
-  // Handler buka inspector
-  const handleOpenInspector = (node: ProvisionNode, parentLabel?: string) => {
-    // Cari versi 2008 sebagai baseline
-    const doc2008 = LawReconstructor.reconstructAtDate(
-      ITE_BASE_DOCUMENT_2008,
-      ITE_ALL_CHANGESETS,
-      TIMELINE_DATES['2008']
-    );
-
-    let baselineContent = '';
-    const findBaseline = (nodes: ProvisionNode[]): boolean => {
-      for (const n of nodes) {
-        if (n.canonicalPath === node.canonicalPath) {
-          baselineContent = n.content;
-          return true;
-        }
-        if (n.children && findBaseline(n.children)) return true;
-      }
-      return false;
-    };
-    findBaseline(doc2008.nodes);
-
-    const fromText = baselineContent || '(Belum ada pada naskah asli 2008)';
-    const toText = node.content;
-
-    const diff = LegalDiffGenerator.computeDiff(
-      node.canonicalPath,
-      fromText,
-      toText,
-      '2008',
-      selectedTimeline
-    );
-
-    let status = 'BERLAKU';
-    if (node.isRepealed) status = 'DICABUT / DIHAPUS';
-    else if (!baselineContent) status = 'PASAL SISIPAN BARU';
-    else if (node.versionTag.startsWith('AMENDED')) status = 'DIUBAH REDAKSI';
-
+  // 3. Inspector: diff per node dihitung server-side via API
+  const handleOpenInspector = async (node: ProvisionNode, parentLabel?: string) => {
+    if (!selectedTimeline) return;
+    setActiveNodePath(node.canonicalPath);
     setInspectorNode({
       canonicalPath: node.canonicalPath,
       label: node.label,
       parentLabel,
-      status,
-      amendedBy: node.isRepealed ? (node.repealBasis || 'UU No. 1 Tahun 2024') : (node.versionTag !== 'ORIGINAL_2008' ? 'UU Pengubah' : undefined),
+      status: 'MEMUAT…',
       versionTag: node.versionTag,
       isRepealed: node.isRepealed,
       repealBasis: node.repealBasis,
-      fromText,
-      toText,
-      diff,
+      fromText: '…',
+      toText: '…',
+      diff: {
+        targetPath: node.canonicalPath,
+        sourceVersion: '',
+        targetVersion: '',
+        isContentIdentical: false,
+        tokens: [],
+        addedCount: 0,
+        removedCount: 0,
+        unchangedCount: 0,
+        similarityRatio: 0,
+      } as ProvisionDiffResult,
+      loading: true,
     });
+
+    try {
+      const baseYear = years[0] ?? '2008';
+      const res = await fetch(
+        `${API_BASE}/api/v1/provisions/diff?slug=${slug}&path=${encodeURIComponent(node.canonicalPath)}&fromYear=${baseYear}&toYear=${selectedTimeline}`
+      );
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const json = await res.json();
+
+      const baselineMissing = !json.nodeFrom;
+      const status = node.isRepealed
+        ? 'DICABUT / DIHAPUS'
+        : baselineMissing
+          ? 'PASAL SISIPAN BARU'
+          : node.versionTag.startsWith('AMENDED')
+            ? 'DIUBAH REDAKSI'
+            : 'BERLAKU';
+
+      setInspectorNode({
+        canonicalPath: node.canonicalPath,
+        label: node.label,
+        parentLabel,
+        status,
+        amendedBy: node.isRepealed
+          ? node.repealBasis || 'UU Pengubah'
+          : baselineMissing || node.versionTag.startsWith('AMENDED')
+            ? 'UU Pengubah'
+            : undefined,
+        versionTag: node.versionTag,
+        isRepealed: node.isRepealed,
+        repealBasis: node.repealBasis,
+        fromText: json.textFrom ?? '(Belum ada pada naskah asli)',
+        toText: json.textTo ?? node.content,
+        diff: json.diff,
+        loading: false,
+      });
+    } catch (e) {
+      setApiError(`Gagal menghitung diff: ${e instanceof Error ? e.message : String(e)}`);
+      setInspectorNode(null);
+    }
   };
+
+  const timelineTitle = (year: string): string => {
+    if (!meta) return '';
+    if (String(meta.year) === year) return `Naskah Asli (${meta.shortTitle ?? `UU No. ${meta.number}/${meta.year}`})`;
+    const amend = meta.amendments.find(
+      (a) => String(new Date(a.effectiveFrom).getUTCFullYear()) === year
+    );
+    return amend ? `Naskah Konsolidasi Pasca ${amend.amendingInstrument}` : `Naskah Konsolidasi (per ${year})`;
+  };
+
+  // ---------- Guard: error / loading ----------
+  if (apiError && !meta) {
+    return (
+      <div className="h-screen flex flex-col items-center justify-center bg-slate-100 gap-4 p-8 text-center">
+        <AlertTriangle className="w-10 h-10 text-rose-500" />
+        <h1 className="font-bold text-lg text-slate-900">Data Tidak Dapat Dimuat</h1>
+        <p className="text-sm text-slate-600 max-w-md">{apiError}</p>
+        <Link href="/" className="text-xs font-semibold text-indigo-600 hover:underline">
+          ← Kembali ke beranda
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div className="h-screen flex flex-col bg-slate-100 overflow-hidden font-sans">
+      {/* Banner error API (non-blokir) */}
+      {apiError && meta && (
+        <div className="bg-rose-50 border-b border-rose-200 text-rose-800 text-xs font-semibold px-4 py-2 flex items-center gap-2">
+          <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+          {apiError}
+        </div>
+      )}
+
       {/* Top Header */}
       <header className="h-14 bg-white border-b border-slate-200 px-4 flex items-center justify-between z-20 shrink-0">
         <div className="flex items-center gap-3">
@@ -155,20 +263,20 @@ export default function LawWorkspacePage() {
           </Link>
           <div>
             <h1 className="font-bold text-sm text-slate-900 leading-tight">
-              UU No. 11 Tahun 2008 (ITE)
+              {meta ? `UU No. ${meta.number} Tahun ${meta.year}${meta.shortTitle ? ` (${meta.shortTitle})` : ''}` : 'Memuat…'}
             </h1>
             <p className="text-xs text-slate-500 flex items-center gap-1.5">
-              <span className={`inline-block w-1.5 h-1.5 rounded-full ${currentDoc.status === 'BERLAKU' ? 'bg-emerald-500' : 'bg-amber-500'}`}></span>
-              {TIMELINE_TITLES[selectedTimeline]}
+              <span className={`inline-block w-1.5 h-1.5 rounded-full ${meta?.status === 'BERLAKU' ? 'bg-emerald-500' : 'bg-amber-500'}`}></span>
+              {selectedTimeline ? timelineTitle(selectedTimeline) : 'Menghubungkan ke API…'}
             </p>
           </div>
         </div>
 
-        {/* Timeline Switcher (Point-in-Time Engine) */}
+        {/* Timeline Switcher (Point-in-Time Engine via API) */}
         {!isCompareMode ? (
           <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200 text-xs font-semibold">
             <span className="text-slate-400 px-2 text-2xs uppercase">Titik Waktu:</span>
-            {(['2008', '2016', '2024'] as const).map((year) => (
+            {years.map((year) => (
               <button
                 key={year}
                 onClick={() => setSelectedTimeline(year)}
@@ -178,7 +286,7 @@ export default function LawWorkspacePage() {
                     : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
-                {year === '2008' ? '2008 (Asli)' : year === '2016' ? '2016 (Rev 1)' : '2024 (Terkini)'}
+                {String(meta?.year) === year ? `${year} (Asli)` : year}
               </button>
             ))}
           </div>
@@ -186,22 +294,20 @@ export default function LawWorkspacePage() {
           <div className="flex items-center gap-2 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-200 text-xs font-semibold text-indigo-900">
             <SplitSquareVertical className="w-4 h-4 text-indigo-600" />
             <span>Mode Komparasi:</span>
-            <select 
-              value={compareFromYear} 
-              onChange={(e) => setCompareFromYear(e.target.value as TimelineYear)}
+            <select
+              value={compareFromYear ?? ''}
+              onChange={(e) => setCompareFromYear(e.target.value)}
               className="bg-white border border-indigo-200 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
             >
-              <option value="2008">2008 (Asli)</option>
-              <option value="2016">2016 (Rev 1)</option>
+              {years.map((y) => <option key={y} value={y}>{y}</option>)}
             </select>
             <span>vs</span>
-            <select 
-              value={compareToYear} 
-              onChange={(e) => setCompareToYear(e.target.value as TimelineYear)}
+            <select
+              value={compareToYear ?? ''}
+              onChange={(e) => setCompareToYear(e.target.value)}
               className="bg-white border border-indigo-200 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
             >
-              <option value="2016">2016 (Rev 1)</option>
-              <option value="2024">2024 (Terkini)</option>
+              {years.map((y) => <option key={y} value={y}>{y}</option>)}
             </select>
           </div>
         )}
@@ -220,7 +326,7 @@ export default function LawWorkspacePage() {
             {isCompareMode ? 'Tutup Komparasi' : 'Bandingkan Versi'}
           </button>
           <Link
-            href="/neuron?id=ite"
+            href={`/neuron?id=${slug}`}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200 text-xs font-semibold transition-colors"
           >
             <Network className="w-3.5 h-3.5 text-indigo-600" />
@@ -281,16 +387,21 @@ export default function LawWorkspacePage() {
         {/* Center: Tempat Baca Naskah atau Side-by-Side Diff */}
         {!isCompareMode ? (
           <main className="flex-1 overflow-y-auto p-8 flex justify-center bg-slate-100">
+            {!currentDoc ? (
+              <div className="flex items-center justify-center w-full">
+                <span className="text-sm text-slate-500 animate-pulse">Merekonstruksi naskah konsolidasi dari API…</span>
+              </div>
+            ) : (
             <div className="max-w-3xl w-full bg-white rounded-xl shadow-xs border border-slate-200 p-10 min-h-[800px]">
               <div className="text-center pb-8 border-b border-slate-100 mb-8">
                 <h2 className="text-xs font-bold tracking-widest text-slate-400 uppercase">
                   Republik Indonesia
                 </h2>
                 <h3 className="text-lg font-bold text-slate-900 mt-1">
-                  Undang-Undang Nomor 11 Tahun 2008
+                  {meta ? `Undang-Undang Nomor ${meta.number} Tahun ${meta.year}` : ''}
                 </h3>
                 <p className="text-xs text-slate-500 mt-1">
-                  {TIMELINE_TITLES[selectedTimeline]}
+                  {selectedTimeline ? timelineTitle(selectedTimeline) : ''}
                 </p>
                 {currentDoc.activeAmendingInstruments.length > 0 && (
                   <div className="mt-3 flex items-center justify-center gap-1.5 flex-wrap">
@@ -394,10 +505,16 @@ export default function LawWorkspacePage() {
                 ))}
               </div>
             </div>
+            )}
           </main>
         ) : (
           /* Side-by-Side Compare Mode */
           <main className="flex-1 overflow-y-auto p-6 bg-slate-100">
+            {!docFrom || !docTo ? (
+              <div className="flex items-center justify-center h-full">
+                <span className="text-sm text-slate-500 animate-pulse">Memuat kedua versi untuk komparasi…</span>
+              </div>
+            ) : (
             <div className="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
               {/* Kolom Kiri: Versi Basis */}
               <div className="bg-white rounded-xl shadow-xs border border-slate-200 p-6 min-h-[700px]">
@@ -489,10 +606,11 @@ export default function LawWorkspacePage() {
                 </div>
               </div>
             </div>
+            )}
           </main>
         )}
 
-        {/* Sidebar Kanan (Inspector Detail Perubahan Berbasis LegalDiffGenerator) */}
+        {/* Sidebar Kanan (Inspector Detail Perubahan via API Diff) */}
         {inspectorNode && (
           <aside className="w-96 bg-white border-l border-slate-200 flex flex-col shrink-0 shadow-lg z-10 animate-in slide-in-from-right duration-200">
             <div className="p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
@@ -502,7 +620,7 @@ export default function LawWorkspacePage() {
                   Inspektor Perubahan
                 </span>
               </div>
-              <button 
+              <button
                 onClick={() => setInspectorNode(null)}
                 className="p-1 rounded hover:bg-slate-200 text-slate-500 transition-colors cursor-pointer"
               >
@@ -520,76 +638,84 @@ export default function LawWorkspacePage() {
                   <span className="inline-block px-2.5 py-1 rounded bg-slate-100 text-slate-800 font-bold border border-slate-200">
                     Status: {inspectorNode.status}
                   </span>
-                  <span className="inline-block px-2 py-1 rounded bg-indigo-50 text-indigo-700 font-semibold border border-indigo-200">
-                    Skor Kesamaan: {Math.round(inspectorNode.diff.similarityRatio * 100)}%
-                  </span>
+                  {!inspectorNode.loading && (
+                    <span className="inline-block px-2 py-1 rounded bg-indigo-50 text-indigo-700 font-semibold border border-indigo-200">
+                      Skor Kesamaan: {Math.round(inspectorNode.diff.similarityRatio * 100)}%
+                    </span>
+                  )}
                 </div>
               </div>
 
-              {/* Provenance Box */}
-              <div className="bg-slate-50 border border-slate-200 rounded-lg p-3.5 space-y-2">
-                <div>
-                  <span className="text-slate-400 block text-2xs">Versi Tag:</span>
-                  <span className="font-bold text-slate-800">{inspectorNode.versionTag}</span>
-                </div>
-                {inspectorNode.amendedBy && (
+              {inspectorNode.loading ? (
+                <div className="text-slate-500 animate-pulse">Menghitung diff di server…</div>
+              ) : (
+                <>
+                  {/* Provenance Box */}
+                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-3.5 space-y-2">
+                    <div>
+                      <span className="text-slate-400 block text-2xs">Versi Tag:</span>
+                      <span className="font-bold text-slate-800">{inspectorNode.versionTag}</span>
+                    </div>
+                    {inspectorNode.amendedBy && (
+                      <div>
+                        <span className="text-slate-400 block text-2xs">Dasar Amandemen:</span>
+                        <span className="font-semibold text-slate-700">{inspectorNode.amendedBy}</span>
+                      </div>
+                    )}
+                    <div>
+                      <span className="text-slate-400 block text-2xs">Perubahan Token:</span>
+                      <span className="text-slate-700">
+                        +{inspectorNode.diff.addedCount} kata baru, -{inspectorNode.diff.removedCount} kata dihapus
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Tokenized Visual Diff Highlighting */}
                   <div>
-                    <span className="text-slate-400 block text-2xs">Dasar Amandemen:</span>
-                    <span className="font-semibold text-slate-700">{inspectorNode.amendedBy}</span>
+                    <span className="font-bold text-slate-700 block mb-2">
+                      Visual Word-Level Diff (Zero-Loss):
+                    </span>
+                    <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 font-sans text-xs leading-relaxed">
+                      {inspectorNode.diff.tokens.map((token, idx) => {
+                        if (token.type === 'removed') {
+                          return (
+                            <span key={idx} className="bg-rose-100 text-rose-900 line-through px-1 py-0.5 rounded mr-0.5 font-medium">
+                              {token.value}
+                            </span>
+                          );
+                        }
+                        if (token.type === 'added') {
+                          return (
+                            <span key={idx} className="bg-emerald-100 text-emerald-900 px-1 py-0.5 rounded mr-0.5 font-semibold">
+                              {token.value}
+                            </span>
+                          );
+                        }
+                        return <span key={idx}>{token.value}</span>;
+                      })}
+                    </div>
                   </div>
-                )}
-                <div>
-                  <span className="text-slate-400 block text-2xs">Perubahan Token:</span>
-                  <span className="text-slate-700">
-                    +{inspectorNode.diff.addedCount} kata baru, -{inspectorNode.diff.removedCount} kata dihapus
-                  </span>
-                </div>
-              </div>
 
-              {/* Tokenized Visual Diff Highlighting */}
-              <div>
-                <span className="font-bold text-slate-700 block mb-2">
-                  Visual Word-Level Diff (Zero-Loss):
-                </span>
-                <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 font-sans text-xs leading-relaxed">
-                  {inspectorNode.diff.tokens.map((token, idx) => {
-                    if (token.type === 'removed') {
-                      return (
-                        <span key={idx} className="bg-rose-100 text-rose-900 line-through px-1 py-0.5 rounded mr-0.5 font-medium">
-                          {token.value}
-                        </span>
-                      );
-                    }
-                    if (token.type === 'added') {
-                      return (
-                        <span key={idx} className="bg-emerald-100 text-emerald-900 px-1 py-0.5 rounded mr-0.5 font-semibold">
-                          {token.value}
-                        </span>
-                      );
-                    }
-                    return <span key={idx}>{token.value}</span>;
-                  })}
-                </div>
-              </div>
-
-              {/* Raw Comparison */}
-              <div>
-                <span className="font-bold text-slate-700 block mb-2">Komparasi Mentah:</span>
-                <div className="space-y-2">
-                  <div className="p-3 rounded-lg bg-rose-50 border border-rose-200 text-rose-950 font-mono text-2xs leading-relaxed">
-                    <span className="font-bold text-rose-700 block mb-1">[-] SEBELUMNYA (2008):</span>
-                    {inspectorNode.fromText}
+                  {/* Raw Comparison */}
+                  <div>
+                    <span className="font-bold text-slate-700 block mb-2">Komparasi Mentah:</span>
+                    <div className="space-y-2">
+                      <div className="p-3 rounded-lg bg-rose-50 border border-rose-200 text-rose-950 font-mono text-2xs leading-relaxed">
+                        <span className="font-bold text-rose-700 block mb-1">[-] SEBELUMNYA ({years[0] ?? '2008'}):</span>
+                        {inspectorNode.fromText}
+                      </div>
+                      <div className="p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-950 font-mono text-2xs leading-relaxed">
+                        <span className="font-bold text-emerald-700 block mb-1">{'{+}'} KONSOLIDASI ({selectedTimeline}):</span>
+                        {inspectorNode.toText}
+                      </div>
+                    </div>
                   </div>
-                  <div className="p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-950 font-mono text-2xs leading-relaxed">
-                    <span className="font-bold text-emerald-700 block mb-1">{'{+}'} KONSOLIDASI ({selectedTimeline}):</span>
-                    {inspectorNode.toText}
-                  </div>
-                </div>
-              </div>
+                </>
+              )}
 
               {/* Action Button */}
               <div className="pt-2 border-t border-slate-200">
-                <button 
+                <button
                   onClick={() => alert(`Analisis Yuridis AI untuk ${inspectorNode.label} siap dieksekusi!`)}
                   className="w-full py-2.5 px-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-semibold flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
                 >
