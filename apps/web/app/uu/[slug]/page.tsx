@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import {
   ArrowLeft, Network, GitBranch, AlertTriangle,
   X, Scale, ExternalLink, Sparkles, SplitSquareVertical,
-  Layers, Check, FileText
+  Layers, Check, FileText, ChevronRight, ChevronDown
 } from 'lucide-react';
 import { ConsolidatedLawDocument, ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
 
@@ -138,21 +138,42 @@ export default function LawWorkspacePage() {
   const docFrom = compareFromYear ? docCache[compareFromYear] : undefined;
   const docTo = compareToYear ? docCache[compareToYear] : undefined;
 
-  // Flatten daftar pasal untuk navigasi sidebar
-  const allArticles = useMemo(() => {
-    if (!currentDoc) return [];
-    const list: { node: ProvisionNode; chapterLabel: string }[] = [];
+  // Daftar pasal untuk hitungan chip
+  const pasalCount = useMemo(() => {
+    if (!currentDoc) return 0;
+    let n = 0;
     for (const chapter of currentDoc.nodes) {
-      if (chapter.type === 'BAB' && chapter.children) {
-        for (const child of chapter.children) {
-          if (child.type === 'PASAL') {
-            list.push({ node: child, chapterLabel: chapter.label });
-          }
-        }
+      for (const child of chapter.children ?? []) {
+        if (child.type === 'PASAL') n += 1;
       }
     }
-    return list;
+    return n;
   }, [currentDoc]);
+
+  // Status buka-tutup daftar isi bertingkat (BAB → Pasal → Ayat/Angka → Huruf)
+  const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const toggleExpand = useCallback((path: string) => {
+    setExpanded((prev) => {
+      const next = new Set(prev);
+      if (next.has(path)) next.delete(path);
+      else next.add(path);
+      return next;
+    });
+  }, []);
+
+  // Gulir area baca ke node yang dipilih (dalam wadah scroll utama)
+  const scrollToNode = useCallback((path: string) => {
+    requestAnimationFrame(() => {
+      document.getElementById(`node-${path}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }, []);
+
+  // Saat naskah termuat: buka BAB pertama sebagai titik awal daftar isi
+  useEffect(() => {
+    if (currentDoc && expanded.size === 0 && currentDoc.nodes.length > 0) {
+      setExpanded(new Set([currentDoc.nodes[0].canonicalPath]));
+    }
+  }, [currentDoc, expanded.size]);
 
   // 3. Inspector: diff per node dihitung server-side via API
   const handleOpenInspector = async (node: ProvisionNode, parentLabel?: string) => {
@@ -347,51 +368,147 @@ export default function LawWorkspacePage() {
 
       {/* Main Workspace Body */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Sidebar Kiri: Daftar Isi Hierarki */}
-        <aside className="w-72 bg-white border-r border-ink/10 flex flex-col shrink-0">
+        {/* Sidebar Kiri: Daftar Isi Bertingkat (BAB → Pasal → Ayat → Huruf) */}
+        <aside className="w-80 bg-white border-r border-ink/10 flex flex-col shrink-0">
           <div className="p-3 border-b border-ink/5 font-semibold text-xs text-ink-mute uppercase tracking-wider flex items-center justify-between">
             <span>Daftar Isi Norma</span>
             <span className="text-2xs bg-paper px-1.5 py-0.5 rounded text-ink-mute">
-              {allArticles.length} Pasal
+              {pasalCount} Pasal
             </span>
           </div>
-          <div className="flex-1 overflow-y-auto p-2 space-y-1 text-sm">
-            {allArticles.map(({ node, chapterLabel }) => (
-              <button
-                key={node.canonicalPath}
-                onClick={() => setActiveNodePath(node.canonicalPath)}
-                className={`w-full text-left px-3 py-2 rounded-lg text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
-                  activeNodePath === node.canonicalPath
-                    ? 'bg-seal-wash text-seal-deep font-bold'
-                    : 'text-ink-soft hover:bg-paper-deep'
-                }`}
-              >
-                <div className="flex items-center gap-1.5 truncate">
-                  <span>{node.label}</span>
-                  {node.title && (
-                    <span className="text-ink-faint font-normal truncate max-w-[110px]">
-                      - {node.title}
+          <nav className="flex-1 overflow-y-auto py-2 text-sm" aria-label="Daftar isi">
+            {currentDoc?.nodes.map((bab) => {
+              const babOpen = expanded.has(bab.canonicalPath);
+              return (
+                <div key={bab.canonicalPath} className="border-b border-ink/5 last:border-b-0">
+                  {/* Level 1: BAB */}
+                  <button
+                    onClick={() => toggleExpand(bab.canonicalPath)}
+                    className={`w-full text-left px-3 py-2.5 flex items-start gap-2 transition-colors cursor-pointer ${
+                      babOpen ? 'bg-paper-deep/70' : 'hover:bg-paper-deep/50'
+                    }`}
+                  >
+                    <span className="mt-0.5 shrink-0 text-ink-faint">
+                      {babOpen ? <ChevronDown className="w-3.5 h-3.5" /> : <ChevronRight className="w-3.5 h-3.5" />}
                     </span>
+                    <span className="min-w-0">
+                      <span className="block font-display text-xs font-bold text-ink tracking-wide">
+                        {bab.label}
+                      </span>
+                      {bab.title && (
+                        <span className="block text-[10px] leading-snug text-ink-mute uppercase tracking-wide truncate">
+                          {bab.title}
+                        </span>
+                      )}
+                    </span>
+                  </button>
+
+                  {/* Level 2+: Pasal (dan anaknya bila dibuka) */}
+                  {babOpen && (
+                    <div className="pb-2">
+                      {bab.children
+                        ?.filter((c) => c.type === 'PASAL')
+                        .map((pasal) => {
+                          const pOpen = expanded.has(pasal.canonicalPath);
+                          const hasAyat = (pasal.children?.length ?? 0) > 0;
+                          return (
+                            <div key={pasal.canonicalPath}>
+                              <div
+                                className={`group flex items-center pl-5 pr-2 ${
+                                  activeNodePath === pasal.canonicalPath ? 'bg-seal-wash/60' : ''
+                                }`}
+                              >
+                                <button
+                                  onClick={() => {
+                                    setActiveNodePath(pasal.canonicalPath);
+                                    scrollToNode(pasal.canonicalPath);
+                                    if (hasAyat) {
+                                      setExpanded((prev) => new Set(prev).add(pasal.canonicalPath));
+                                    }
+                                  }}
+                                  className="flex-1 text-left py-1.5 text-xs font-semibold text-ink-soft hover:text-seal transition-colors cursor-pointer flex items-center gap-1.5 min-w-0"
+                                >
+                                  <span className="truncate">{pasal.label}</span>
+                                  {pasal.isRepealed && (
+                                    <span className="text-2xs px-1 py-0.5 rounded bg-seal text-paper shrink-0">Dihapus</span>
+                                  )}
+                                  {pasal.versionTag.startsWith('AMENDMENT_2024') && (
+                                    <span className="text-2xs px-1 py-0.5 rounded bg-sage text-paper shrink-0">Baru</span>
+                                  )}
+                                </button>
+                                {hasAyat && (
+                                  <button
+                                    onClick={() => toggleExpand(pasal.canonicalPath)}
+                                    className="p-1 text-ink-faint hover:text-seal transition-colors cursor-pointer shrink-0"
+                                    aria-label={pOpen ? 'Tutup' : 'Buka ayat'}
+                                  >
+                                    {pOpen ? <ChevronDown className="w-3 h-3" /> : <ChevronRight className="w-3 h-3" />}
+                                  </button>
+                                )}
+                              </div>
+
+                              {/* Level 3: Ayat / Angka */}
+                              {pOpen &&
+                                pasal.children?.map((ayat) => {
+                                  const aOpen = expanded.has(ayat.canonicalPath);
+                                  const hasHuruf = (ayat.children?.length ?? 0) > 0;
+                                  return (
+                                    <div key={ayat.canonicalPath}>
+                                      <div
+                                        className={`group flex items-center pl-9 pr-2 ${
+                                          activeNodePath === ayat.canonicalPath ? 'bg-seal-wash/60' : ''
+                                        }`}
+                                      >
+                                        <button
+                                          onClick={() => {
+                                            setActiveNodePath(ayat.canonicalPath);
+                                            scrollToNode(ayat.canonicalPath);
+                                          }}
+                                          className="flex-1 text-left py-1 text-[11px] text-ink-mute hover:text-seal transition-colors cursor-pointer truncate"
+                                        >
+                                          {ayat.label}
+                                          <span className="text-ink-faint"> · {ayat.content.slice(0, 34)}…</span>
+                                        </button>
+                                        {hasHuruf && (
+                                          <button
+                                            onClick={() => toggleExpand(ayat.canonicalPath)}
+                                            className="p-1 text-ink-faint hover:text-seal transition-colors cursor-pointer shrink-0"
+                                          >
+                                            {aOpen ? <ChevronDown className="w-3 h-3" /> : <ChevronRight className="w-3 h-3" />}
+                                          </button>
+                                        )}
+                                      </div>
+
+                                      {/* Level 4: Huruf */}
+                                      {aOpen &&
+                                        ayat.children?.map((huruf) => (
+                                          <button
+                                            key={huruf.canonicalPath}
+                                            onClick={() => {
+                                              setActiveNodePath(huruf.canonicalPath);
+                                              scrollToNode(huruf.canonicalPath);
+                                            }}
+                                            className={`w-full text-left pl-14 pr-3 py-0.5 text-[11px] truncate transition-colors cursor-pointer ${
+                                              activeNodePath === huruf.canonicalPath
+                                                ? 'text-seal-deep font-semibold'
+                                                : 'text-ink-faint hover:text-seal'
+                                            }`}
+                                          >
+                                            {huruf.label} · {huruf.content.slice(0, 40)}…
+                                          </button>
+                                        ))}
+                                    </div>
+                                  );
+                                })}
+                            </div>
+                          );
+                        })}
+                    </div>
                   )}
                 </div>
-                {node.isRepealed && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-seal-wash text-seal-deep border border-seal/20 shrink-0">
-                    Dihapus
-                  </span>
-                )}
-                {!node.isRepealed && node.versionTag.startsWith('AMENDMENT_2024') && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-sage-wash text-sage border border-sage/25 shrink-0">
-                    Baru 2024
-                  </span>
-                )}
-                {!node.isRepealed && node.versionTag.startsWith('AMENDED') && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-brass-wash text-brass border border-brass/30 shrink-0">
-                    Diubah
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
+              );
+            })}
+          </nav>
         </aside>
 
         {/* Center: Tempat Baca Naskah atau Side-by-Side Diff */}
@@ -443,8 +560,8 @@ export default function LawWorkspacePage() {
                     {chapter.children?.map((pasal) => (
                       <div
                         key={pasal.canonicalPath}
-                        id={pasal.canonicalPath}
-                        className={`p-4 rounded-none transition-all ${
+                        id={`node-${pasal.canonicalPath}`}
+                        className={`p-4 rounded-none scroll-mt-4 transition-all ${
                           activeNodePath === pasal.canonicalPath ? 'ring-2 ring-seal/15 bg-seal-wash/40' : ''
                         }`}
                       >
@@ -476,8 +593,9 @@ export default function LawWorkspacePage() {
                             {pasal.children.map((ayat) => (
                               <div
                                 key={ayat.canonicalPath}
+                                id={`node-${ayat.canonicalPath}`}
                                 onClick={() => handleOpenInspector(ayat, pasal.label)}
-                                className={`flex items-start gap-3 p-2.5 rounded-lg group transition-colors cursor-pointer ${
+                                className={`flex items-start gap-3 p-2.5 rounded-lg group transition-colors cursor-pointer scroll-mt-6 ${
                                   ayat.isRepealed
                                     ? 'bg-seal-wash border border-seal/20 text-seal-deep'
                                     : 'hover:bg-paper-deep'
