@@ -13,11 +13,13 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@prisma/client": "^6.4.1"
+    "@prisma/client": "^6.4.1",
+    "bcryptjs": "^3.0.3"
   },
   "devDependencies": {
     "@lexvera/legal-engine": "workspace:*",
     "@lexvera/types": "workspace:*",
+    "@types/bcryptjs": "^3.0.0",
     "@types/node": "^22.13.10",
     "prisma": "^6.4.1",
     "tsx": "^4.19.3",

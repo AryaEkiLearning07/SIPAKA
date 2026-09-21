@@ -1,5 +1,5 @@
 datasource db {
-  provider = "postgresql"
+  provider = "mysql" // XAMPP MariaDB lokal (port 3307 di mesin dev). Jalur PostgreSQL tetap rencana produksi.
   url      = env("DATABASE_URL")
 }
 
@@ -292,4 +292,45 @@ model ReviewRecord {
   createdAt   DateTime  @default(now())
 
   @@map("review_records")
+}
+
+// -------------------------------------------------------------
+// 7. PENGGUNA & SESI (mahasiswa, dosen, kurator, admin)
+// -------------------------------------------------------------
+
+enum UserRole {
+  MAHASISWA // pembaca naskah & fitur belajar
+  DOSEN     // akses kurasi ringan & anotasi
+  KURATOR   // menyetujui ChangeSet DRAFT -> PUBLISHED
+  ADMIN     // kelola pengguna & konfigurasi
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String   // bcrypt
+  role         UserRole @default(MAHASISWA)
+  isDemo       Boolean  @default(false) // akun demo seeded (ditandai agar mudah dihapus)
+
+  sessions Session[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  token     String   @unique // token acak 256-bit (cookie httpOnly)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  revokedAt DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@map("sessions")
 }

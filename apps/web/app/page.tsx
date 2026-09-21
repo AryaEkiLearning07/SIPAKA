@@ -106,10 +106,13 @@ export default function HomePage() {
       <header className="border-b rule">
         <div className="max-w-6xl mx-auto px-6 h-10 flex items-center justify-between text-[11px] font-semibold uppercase tracking-caps text-ink-mute">
           <span>Arsip Konsolidasi Perundang-Undangan</span>
-          <nav className="flex items-center gap-6">
-            <Link href="/tentang" className="hover:text-seal transition-colors">
-              Tentang &amp; Disclaimer
-            </Link>
+            <nav className="flex items-center gap-6">
+              <Link href="/tentang" className="hover:text-seal transition-colors">
+                Tentang &amp; Disclaimer
+              </Link>
+              <Link href="/masuk" className="hover:text-seal transition-colors">
+                Masuk
+              </Link>
             <span
               className={`inline-flex items-center gap-1.5 ${
                 dataSource === 'database' ? 'text-sage' : 'text-brass'

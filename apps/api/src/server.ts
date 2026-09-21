@@ -1,5 +1,6 @@
 import Fastify, { FastifyInstance } from 'fastify';
 import cors from '@fastify/cors';
+import cookie from '@fastify/cookie';
 import { prisma, LegalInstrument } from '@lexvera/database';
 import {
   LawReconstructor,
@@ -13,6 +14,7 @@ import {
   ChangeOperationPayload,
   ProvisionNode,
 } from '@lexvera/types';
+import { registerAuthRoutes } from './auth';
 
 /**
  * Mode demo: saat database belum tersambung, API melayani dataset pilot
@@ -205,7 +207,12 @@ export async function buildServer(): Promise<FastifyInstance> {
   await server.register(cors, {
     origin: process.env.CORS_ORIGIN ?? '*',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    credentials: true,
   });
+
+  await server.register(cookie);
+
+  registerAuthRoutes(server);
 
   // 1. Health check — status DB ikut dilaporkan
   server.get('/api/v1/health', async () => {

@@ -17,6 +17,15 @@ import {
   ITE_ALL_CHANGESETS,
 } from '@lexvera/legal-engine';
 import type { ChangeSetPayload, ChangeOperationPayload, ProvisionNode } from '@lexvera/types';
+import bcrypt from 'bcryptjs';
+
+/** Akun demo bertanda isDemo — mudah dikenali & dihapus ulang saat re-seed. */
+const DEMO_USERS = [
+  { email: 'admin@lexvera.local', name: 'Administrator LexVera', role: 'ADMIN' as const, password: 'lexvera-admin' },
+  { email: 'kurator@lexvera.local', name: 'Kurator Hukum', role: 'KURATOR' as const, password: 'lexvera-kurator' },
+  { email: 'dosen@lexvera.local', name: 'Dosen Fakultas Hukum', role: 'DOSEN' as const, password: 'lexvera-dosen' },
+  { email: 'mahasiswa@lexvera.local', name: 'Mahasiswa Fakultas Hukum', role: 'MAHASISWA' as const, password: 'lexvera-mahasiswa' },
+];
 
 const TARGET_SLUG = 'ite';
 
@@ -277,7 +286,16 @@ async function main() {
 
   await prisma.legalInstrument.update({ where: { id: target.id }, data: { status: 'DIUBAH' } });
 
-  // 6. Ringkasan
+  // 6. Akun demo (upsert — password di-reset saat re-seed)
+  for (const u of DEMO_USERS) {
+    await prisma.user.upsert({
+      where: { email: u.email },
+      update: { passwordHash: await bcrypt.hash(u.password, 10), name: u.name, role: u.role, isDemo: true },
+      create: { email: u.email, name: u.name, role: u.role, passwordHash: await bcrypt.hash(u.password, 10), isDemo: true },
+    });
+  }
+
+  // 7. Ringkasan
   const counts = {
     instruments: await prisma.legalInstrument.count({ where: { slug: { in: slugs } } }),
     provisions: await prisma.provision.count({ where: { legalInstrumentId: target.id } }),
@@ -285,6 +303,7 @@ async function main() {
     changeOperations: await prisma.changeOperation.count({
       where: { changeSet: { targetInstrumentId: target.id } },
     }),
+    users: await prisma.user.count({ where: { isDemo: true } }),
   };
   console.log('[seed] Selesai:', JSON.stringify(counts, null, 2));
 }
