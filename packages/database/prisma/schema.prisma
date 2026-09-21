@@ -1,0 +1,283 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// -------------------------------------------------------------
+// 1. INSTRUMEN HUKUM & SUMBER DOKUMEN RESMI (PROVENANCE)
+// -------------------------------------------------------------
+
+enum InstrumentType {
+  UUD1945
+  TAP_MPR
+  UU
+  PERPPU
+  PP
+  PERPRES
+  PERMEN
+  PERDA_PROV
+  PERDA_KABKOT
+}
+
+enum InstrumentStatus {
+  BERLAKU
+  DIUBAH
+  DICABUT
+  TIDAK_BERLAKU_SEBAGIAN
+}
+
+model LegalInstrument {
+  id              String           @id @default(cuid())
+  type            InstrumentType
+  number          Int              // Contoh: 11
+  year            Int              // Contoh: 2008
+  title           String           // Contoh: "Informasi dan Transaksi Elektronik"
+  shortTitle      String?          // Contoh: "UU ITE"
+  description     String?          @db.Text
+  status          InstrumentStatus @default(BERLAKU)
+  
+  // Dimensi Tanggal Hukum
+  enactedAt       DateTime         // Tanggal ditetapkan Presiden
+  promulgatedAt   DateTime         // Tanggal diundangkan Lembaran Negara
+  effectiveFrom   DateTime         // Tanggal berlaku efektif mengikat publik
+  expiredAt       DateTime?        // Tanggal dicabut/kedaluwarsa
+
+  // Nomor Publikasi Lembaran Negara RI
+  lnNumber        Int?             // Nomor Lembaran Negara
+  tlnNumber       Int?             // Nomor Tambahan Lembaran Negara
+
+  sourceDocuments SourceDocument[]
+  provisions      Provision[]
+  publications    Publication[]
+  
+  // Relasi Peristiwa Perubahan (Change Sets)
+  modificationsMade     ChangeSet[] @relation("AmendingInstrument")
+  modificationsReceived ChangeSet[] @relation("TargetInstrument")
+
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  @@unique([type, number, year])
+  @@map("legal_instruments")
+}
+
+model SourceDocument {
+  id                String          @id @default(cuid())
+  legalInstrumentId String
+  legalInstrument   LegalInstrument @relation(fields: [legalInstrumentId], references: [id], onDelete: Cascade)
+  
+  originalUrl       String          // URL asal (JDIHN / Setneg)
+  storagePath       String          // Path lokal / S3
+  mimeType          String          @default("application/pdf")
+  fileHashSha256    String          // Hash kriptografis integritas dokumen
+  fileSizeBytes     Int
+  sourceInstitution String          // "Kementerian Sekretariat Negara RI"
+
+  isVerified        Boolean         @default(false)
+  verifiedAt        DateTime?
+  
+  createdAt         DateTime        @default(now())
+
+  @@map("source_documents")
+}
+
+// -------------------------------------------------------------
+// 2. STRUKTUR HIERARKI NORMA (PROVISION TREE)
+// -------------------------------------------------------------
+
+enum ProvisionType {
+  BAB
+  BAGIAN
+  PARAGRAF
+  PASAL
+  AYAT
+  HURUF
+  ANGKA
+  PENJELASAN_UMUM
+  PENJELASAN_PASAL
+}
+
+model Provision {
+  id                String          @id @default(cuid())
+  legalInstrumentId String
+  legalInstrument   LegalInstrument @relation(fields: [legalInstrumentId], references: [id], onDelete: Cascade)
+
+  parentId          String?
+  parent            Provision?      @relation("ProvisionHierarchy", fields: [parentId], references: [id])
+  children          Provision[]     @relation("ProvisionHierarchy")
+
+  type              ProvisionType
+  orderIndex        Int             // Urutan tampilan (1, 2, 3...)
+  label             String          // "BAB I", "Pasal 27", "Ayat (3)", "Huruf a"
+  canonicalPath     String          // "uu-11-2008/bab-vi/pasal-27/ayat-3"
+
+  revisions         ProvisionRevision[]
+  targetOperations  ChangeOperation[]
+  judicialRulings   JudicialAnnotation[]
+
+  createdAt         DateTime        @default(now())
+
+  @@unique([legalInstrumentId, canonicalPath])
+  @@index([canonicalPath])
+  @@map("provisions")
+}
+
+model ProvisionRevision {
+  id              String          @id @default(cuid())
+  provisionId     String
+  provision       Provision       @relation(fields: [provisionId], references: [id], onDelete: Cascade)
+
+  versionTag      String          // "ORIGINAL_2008", "REVISION_2016", "REVISION_2024"
+  content         String          @db.Text
+  explanation     String?         @db.Text // Teks penjelasan resmi dari LN
+  
+  effectiveFrom   DateTime
+  effectiveUntil  DateTime?       // Null jika masih aktif
+
+  changeSetId     String?
+  changeSet       ChangeSet?      @relation(fields: [changeSetId], references: [id])
+
+  createdAt       DateTime        @default(now())
+
+  @@map("provision_revisions")
+}
+
+// -------------------------------------------------------------
+// 3. MESIN VERSION CONTROL & PERISTIWA AMANDEMEN
+// -------------------------------------------------------------
+
+enum ChangeSetStatus {
+  DRAFT
+  IN_REVIEW
+  APPROVED
+  PUBLISHED
+}
+
+model ChangeSet {
+  id                    String          @id @default(cuid())
+  amendingInstrumentId  String          // UU Pengubah (misal: UU 19/2016)
+  amendingInstrument    LegalInstrument @relation("AmendingInstrument", fields: [amendingInstrumentId], references: [id])
+  
+  targetInstrumentId    String          // UU yang diubah (misal: UU 11/2008)
+  targetInstrument      LegalInstrument @relation("TargetInstrument", fields: [targetInstrumentId], references: [id])
+
+  title                 String          // "Amandemen Pertama UU ITE"
+  legalBasisNote        String?         // "Pasal I UU No. 19 Tahun 2016"
+  status                ChangeSetStatus @default(DRAFT)
+  
+  operations            ChangeOperation[]
+  revisionsCreated      ProvisionRevision[]
+  reviews               ReviewRecord[]
+
+  createdAt             DateTime        @default(now())
+  updatedAt             DateTime        @updatedAt
+
+  @@map("change_sets")
+}
+
+enum OperationType {
+  ADD_PROVISION           // Sisipan pasal baru (Pasal 27A)
+  REPLACE_PROVISION       // Penggantian bunyi pasal/ayat
+  REPEAL_PROVISION        // Penghapusan/pencabutan norma
+  PARTIAL_REPEAL          // Pencabutan frasa/kata
+  RENUMBER                // Penomoran ulang
+  JUDICIAL_OVERRIDE       // Batal/bersyarat akibat putusan MK
+}
+
+model ChangeOperation {
+  id              String        @id @default(cuid())
+  changeSetId     String
+  changeSet       ChangeSet     @relation(fields: [changeSetId], references: [id], onDelete: Cascade)
+
+  targetProvisionId String
+  targetProvision   Provision   @relation(fields: [targetProvisionId], references: [id])
+
+  operationType   OperationType
+  sourceReference String        // "Pasal I angka 2 UU 19/2016"
+  
+  previousContent String?       @db.Text
+  newContent      String?       @db.Text
+  
+  orderInSet      Int
+
+  @@map("change_operations")
+}
+
+// -------------------------------------------------------------
+// 4. NASKAH KONSOLIDASI RESMI (SNAPSHOT PUBLIKASI)
+// -------------------------------------------------------------
+
+model Publication {
+  id                String          @id @default(cuid())
+  legalInstrumentId String
+  legalInstrument   LegalInstrument @relation(fields: [legalInstrumentId], references: [id], onDelete: Cascade)
+
+  versionName       String          // "Naskah Konsolidasi Pasca UU 1/2024"
+  asOfDate          DateTime        // Tanggal snapshot berlaku
+  snapshotJson      Json            // Pohon utuh dokumen JSON konsolidasi
+  
+  isCurrentActive   Boolean         @default(false)
+  generatedAt       DateTime        @default(now())
+
+  @@map("publications")
+}
+
+// -------------------------------------------------------------
+// 5. ANOTASI YUDISIAL (PUTUSAN MAHKAMAH KONSTITUSI & MA)
+// -------------------------------------------------------------
+
+enum CourtType {
+  MK
+  MA
+}
+
+enum RulingEffect {
+  BATAL_SELURUHNYA
+  INKONSTITUSIONAL_BERSYARAT
+  KONSTITUSIONAL_BERSYARAT
+  TIDAK_DITERIMA_NO
+  DITOLAK
+}
+
+model JudicialAnnotation {
+  id              String        @id @default(cuid())
+  provisionId     String
+  provision       Provision     @relation(fields: [provisionId], references: [id], onDelete: Cascade)
+
+  court           CourtType     @default(MK)
+  caseNumber      String        // Contoh: "50/PUU-VI/2008"
+  rulingDate      DateTime
+  effect          RulingEffect
+  
+  affectedPhrase  String?       // Frasa spesifik yang diuji
+  ratioDecidendi  String        @db.Text // Intisari pertimbangan hakim
+  rulingVerdict   String        @db.Text // Amar putusan resmi
+  sourceUrl       String?       // Tautan salinan resmi putusan MKRI
+
+  createdAt       DateTime      @default(now())
+
+  @@map("judicial_annotations")
+}
+
+// -------------------------------------------------------------
+// 6. REVIEW LOGS & AUDIT TRAIL
+// -------------------------------------------------------------
+
+model ReviewRecord {
+  id          String    @id @default(cuid())
+  changeSetId String
+  changeSet   ChangeSet @relation(fields: [changeSetId], references: [id])
+
+  reviewerName String   // Dosen / Kurator Hukum
+  reviewerRole String   // "LEGAL_EDITOR", "FACULTY_LECTURER"
+  decision    String    // "APPROVED", "CHANGES_REQUESTED"
+  notes       String?   @db.Text
+
+  createdAt   DateTime  @default(now())
+
+  @@map("review_records")
+}
