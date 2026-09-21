@@ -18,6 +18,26 @@ import {
 } from '@lexvera/legal-engine';
 import type { ChangeSetPayload, ChangeOperationPayload, ProvisionNode } from '@lexvera/types';
 import bcrypt from 'bcryptjs';
+import fs from 'node:fs';
+import path from 'node:path';
+
+/**
+ * Naskah utuh hasil parser PDF resmi (structured/uu-11-2008.json).
+ * Bila ada (>10 pasal), dipakai sebagai naskah dasar menggantikan dataset pilot.
+ */
+function muatNaskahUtuh(): ProvisionNode[] | null {
+  try {
+    const p = path.join(__dirname, '..', 'seed', 'structured', 'uu-11-2008.json');
+    const j = JSON.parse(fs.readFileSync(p, 'utf-8'));
+    if (Array.isArray(j?.nodes) && j.nodes.length > 10) {
+      console.log(`[seed] Naskah utuh: ${j.stats.bab} BAB, ${j.stats.pasal} pasal (sumber: ${j.source.url})`);
+      return j.nodes as ProvisionNode[];
+    }
+  } catch {
+    /* fallback ke dataset pilot */
+  }
+  return null;
+}
 
 /** Akun demo bertanda isDemo — mudah dikenali & dihapus ulang saat re-seed. */
 const DEMO_USERS = [
@@ -104,7 +124,8 @@ async function resolveOrCreateProvision(
   canonicalPath: string,
   newNode: ProvisionNode | undefined,
   changeSetId: string,
-  effectiveFrom: Date
+  effectiveFrom: Date,
+  parentCanonicalPath?: string
 ): Promise<{ id: string }> {
   const existing = await prisma.provision.findFirst({
     where: { legalInstrumentId, canonicalPath },
@@ -121,7 +142,7 @@ async function resolveOrCreateProvision(
   const created = await prisma.provision.create({
     data: {
       legalInstrumentId,
-      parentId: null, // akan diperbaiki di bawah berdasarkan posisi pada pohon
+      parentId: null, // dipasang di bawah berdasarkan parentCanonicalPath operasi
       type: newNode.type,
       orderIndex: newNode.orderIndex,
       label: newNode.label,
@@ -130,15 +151,9 @@ async function resolveOrCreateProvision(
     },
   });
 
-  // Pasang parent dari parentCanonicalPath operasi bila ada
-  const op = ITE_ALL_CHANGESETS.flatMap((cs) => cs.operations).find(
-    (o) => (o as { targetCanonicalPath: string }).targetCanonicalPath === canonicalPath &&
-      (o as { parentCanonicalPath?: string }).parentCanonicalPath
-  ) as { parentCanonicalPath?: string } | undefined;
-
-  if (op?.parentCanonicalPath) {
+  if (parentCanonicalPath) {
     const parent = await prisma.provision.findFirst({
-      where: { legalInstrumentId, canonicalPath: op.parentCanonicalPath },
+      where: { legalInstrumentId, canonicalPath: parentCanonicalPath },
       select: { id: true },
     });
     if (parent) {
@@ -160,7 +175,7 @@ async function resolveOrCreateProvision(
   return { id: created.id };
 }
 
-async function seedChangeSet(cs: ChangeSetPayload, amenderSlug: string, targetInstrumentId: string) {
+async function seedChangeSet(cs: ChangeSetPayload, amenderSlug: string, targetInstrumentId: string, naskahUtuh: boolean) {
   const amender = await prisma.legalInstrument.findUniqueOrThrow({
     where: { slug: amenderSlug },
     select: { id: true },
@@ -176,13 +191,20 @@ async function seedChangeSet(cs: ChangeSetPayload, amenderSlug: string, targetIn
     },
   });
 
-  for (const op of cs.operations as ChangeOperationPayload[]) {
+  for (const rawOp of cs.operations as ChangeOperationPayload[]) {
+    // Koreksi kurasi: dataset pilot draf menempatkan 27A/27B pada BAB VI;
+    // naskah resmi menetapkan PERBUATAN YANG DILARANG = BAB VII.
+    let op = rawOp;
+    if (naskahUtuh && (op as { parentCanonicalPath?: string }).parentCanonicalPath === 'uu-11-2008/bab-vi') {
+      op = { ...op, parentCanonicalPath: 'uu-11-2008/bab-vii' } as typeof op;
+    }
     const target = await resolveOrCreateProvision(
       targetInstrumentId,
       op.targetCanonicalPath,
       op.operationType === 'ADD_PROVISION' ? op.newNode : undefined,
       changeSet.id,
-      new Date(cs.effectiveFrom)
+      new Date(cs.effectiveFrom),
+      (op as { parentCanonicalPath?: string }).parentCanonicalPath
     );
 
     await prisma.changeOperation.create({
@@ -249,10 +271,12 @@ async function main() {
     },
   });
 
-  // 3. Pohon provision naskah asli
+  // 3. Pohon provision naskah (utuh bila tersedia, else dataset pilot)
+  const nodesDasar = muatNaskahUtuh() ?? ITE_BASE_DOCUMENT_2008.nodes;
+  const naskahUtuh = nodesDasar !== ITE_BASE_DOCUMENT_2008.nodes;
   const provisionCount = await seedProvisionTree(
     target.id,
-    ITE_BASE_DOCUMENT_2008.nodes,
+    nodesDasar,
     null,
     INSTRUMENTS.target.legalDate
   );
@@ -281,7 +305,7 @@ async function main() {
   // 5. Change sets + operasi
   const csSlugs = [INSTRUMENTS.amender2016.slug, INSTRUMENTS.amender2024.slug];
   for (let i = 0; i < ITE_ALL_CHANGESETS.length; i++) {
-    await seedChangeSet(ITE_ALL_CHANGESETS[i], csSlugs[i], target.id);
+    await seedChangeSet(ITE_ALL_CHANGESETS[i], csSlugs[i], target.id, naskahUtuh);
   }
 
   await prisma.legalInstrument.update({ where: { id: target.id }, data: { status: 'DIUBAH' } });

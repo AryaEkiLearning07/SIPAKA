@@ -100,20 +100,24 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
     byParent.set(key, list);
   }
 
-  const toNode = (p: (typeof instrument.provisions)[number]): ProvisionNode => {
+  const toNode = (p: (typeof instrument.provisions)[number]): ProvisionNode | null => {
+    // Node sisipan masa depan (mis. Pasal 27A prapaser 2024) sengaja dibuat sejak seed
+    // demi FK — tapi TIDAK BOLEH tampil di naskah dasar sebelum operasinya efektif.
     const rev = originalRevision.get(p.id);
+    if (!rev) return null;
     const children = (byParent.get(p.id) ?? [])
       .sort((a, b) => a.orderIndex - b.orderIndex)
-      .map(toNode);
+      .map(toNode)
+      .filter((n): n is ProvisionNode => n !== null);
     return {
       canonicalPath: p.canonicalPath,
       type: p.type,
       orderIndex: p.orderIndex,
       label: p.label,
       title: p.title ?? undefined,
-      content: rev?.content ?? '',
-      explanation: rev?.explanation ?? undefined,
-      versionTag: rev?.versionTag ?? 'ORIGINAL',
+      content: rev.content,
+      explanation: rev.explanation ?? undefined,
+      versionTag: rev.versionTag,
       isRepealed: false,
       children,
     };
@@ -130,7 +134,8 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
     activeAmendingInstruments: [],
     nodes: (byParent.get(null) ?? [])
       .sort((a, b) => a.orderIndex - b.orderIndex)
-      .map(toNode),
+      .map(toNode)
+      .filter((n): n is ProvisionNode => n !== null),
   };
 
   // --- Rakit ChangeSet payloads (lossless dari payload_json) ---

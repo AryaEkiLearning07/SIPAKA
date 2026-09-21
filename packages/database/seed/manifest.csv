@@ -1,5 +1,8 @@
 file,slug,jenis,nomor,tahun,url_sumber,sha256,tanggal_unduh,ingest_method,ln,tln,institusi,status_verifikasi
-pdfs/uu-11-2008.pdf,ite,UU,11,2008,,PENDING,2008-04-21,MANUAL_UPLOAD,58,4843,"Kementerian Sekretariat Negara RI",PENDING
-pdfs/uu-19-2016.pdf,uu-19-2016,UU,19,2016,,PENDING,2016-11-28,MANUAL_UPLOAD,251,5952,"Kementerian Sekretariat Negara RI",PENDING
-pdfs/uu-1-2024.pdf,uu-1-2024,UU,1,2024,,PENDING,2024-01-02,MANUAL_UPLOAD,8,6916,"Kementerian Sekretariat Negara RI",PENDING
+pdfs/uu-11-2008.pdf,ite,UU,11,2008,https://peraturan.bpk.go.id/Download/26683/UU%20Nomor%2011%20Tahun%202008.pdf,3c174f55b4a7982af268a24316e3353c8e712fc8a57e87a9fdf0502da4ea0af3,2026-09-22,MANUAL_UPLOAD,58,4843,"JDIH BPK (peraturan.bpk.go.id)",TERARSIP
+pdfs/uu-19-2016.pdf,uu-19-2016,UU,19,2016,https://peraturan.bpk.go.id/Download/26676/UU%20Nomor%20%2019%20Tahun%202016.pdf,1ecbeed2f762355a13b31691d19b474cb02b4912b445762c4f354c9a4ba5a1d0,2026-09-22,MANUAL_UPLOAD,251,5952,"JDIH BPK (peraturan.bpk.go.id)",TERARSIP
+pdfs/uu-1-2024.pdf,uu-1-2024,UU,1,2024,https://peraturan.bpk.go.id/Download/332870/UU%20Nomor%201%20Tahun%202024.pdf,8cdb6721dd5f46e45f13e8a3588c6c1efc614ea4361ce94efebe40e8e4289d5f,2026-09-22,MANUAL_UPLOAD,8,6916,"JDIH BPK (peraturan.bpk.go.id)",TERARSIP
 pdfs/mk-50-puu-vi-2008.pdf,-,PUTUSAN_MK,-,-,,PENDING,,MANUAL_UPLOAD,-,-,"Mahkamah Konstitusi RI",PENDING
+structured/uu-11-2008.json,ite,NASKAH,-,2008,diturunkan dari pdfs/uu-11-2008.pdf,-,2026-09-22,PARSER_AUTO,-,-,"parser pdfminer + aturan BAB/PASAL/AYAT",PARSED_AUTO_MENUNGGU_KURASI
+structured/uu-19-2016.txt,uu-19-2016,NASKAH,-,2016,diturunkan dari pdfs/uu-19-2016.pdf,-,2026-09-22,PARSER_AUTO,-,-,"ekstraksi mentah",BUTUH_KURASI_LAYOUT_2_KOLOM
+structured/uu-1-2024.txt,uu-1-2024,NASKAH,-,2024,diturunkan dari pdfs/uu-1-2024.pdf,-,2026-09-22,PARSER_AUTO,-,-,"ekstraksi mentah",BUTUH_KURASI_OCR
