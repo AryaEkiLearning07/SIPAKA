@@ -234,11 +234,11 @@ export default function LawWorkspacePage() {
   // ---------- Guard: error / loading ----------
   if (apiError && !meta) {
     return (
-      <div className="h-screen flex flex-col items-center justify-center bg-slate-100 gap-4 p-8 text-center">
-        <AlertTriangle className="w-10 h-10 text-rose-500" />
-        <h1 className="font-bold text-lg text-slate-900">Data Tidak Dapat Dimuat</h1>
-        <p className="text-sm text-slate-600 max-w-md">{apiError}</p>
-        <Link href="/" className="text-xs font-semibold text-indigo-600 hover:underline">
+      <div className="h-screen flex flex-col items-center justify-center bg-paper gap-4 p-8 text-center">
+        <AlertTriangle className="w-10 h-10 text-seal" />
+        <h1 className="font-bold text-lg text-ink">Data Tidak Dapat Dimuat</h1>
+        <p className="text-sm text-ink-mute max-w-md">{apiError}</p>
+        <Link href="/" className="text-xs font-semibold text-seal hover:underline">
           ← Kembali ke beranda
         </Link>
       </div>
@@ -246,27 +246,27 @@ export default function LawWorkspacePage() {
   }
 
   return (
-    <div className="h-screen flex flex-col bg-slate-100 overflow-hidden font-sans">
+    <div className="h-screen flex flex-col bg-paper overflow-hidden">
       {/* Banner error API (non-blokir) */}
       {apiError && meta && (
-        <div className="bg-rose-50 border-b border-rose-200 text-rose-800 text-xs font-semibold px-4 py-2 flex items-center gap-2">
+        <div className="bg-seal-wash border-b border-seal/20 text-seal-deep text-xs font-semibold px-4 py-2 flex items-center gap-2">
           <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
           {apiError}
         </div>
       )}
 
       {/* Top Header */}
-      <header className="h-14 bg-white border-b border-slate-200 px-4 flex items-center justify-between z-20 shrink-0">
+      <header className="h-14 bg-white border-b border-ink/10 px-4 flex items-center justify-between z-20 shrink-0">
         <div className="flex items-center gap-3">
-          <Link href="/" className="p-1.5 rounded-lg hover:bg-slate-100 text-slate-600 transition-colors">
+          <Link href="/" className="p-1.5 rounded-lg hover:bg-paper text-ink-mute transition-colors">
             <ArrowLeft className="w-4 h-4" />
           </Link>
           <div>
-            <h1 className="font-bold text-sm text-slate-900 leading-tight">
+            <h1 className="font-display font-semibold text-sm text-ink leading-tight">
               {meta ? `UU No. ${meta.number} Tahun ${meta.year}${meta.shortTitle ? ` (${meta.shortTitle})` : ''}` : 'Memuat…'}
             </h1>
-            <p className="text-xs text-slate-500 flex items-center gap-1.5">
-              <span className={`inline-block w-1.5 h-1.5 rounded-full ${meta?.status === 'BERLAKU' ? 'bg-emerald-500' : 'bg-amber-500'}`}></span>
+            <p className="text-xs text-ink-mute flex items-center gap-1.5">
+              <span className={`inline-block w-1.5 h-1.5 rounded-full ${meta?.status === 'BERLAKU' ? 'bg-sage' : 'bg-brass'}`}></span>
               {selectedTimeline ? timelineTitle(selectedTimeline) : 'Menghubungkan ke API…'}
             </p>
           </div>
@@ -274,16 +274,16 @@ export default function LawWorkspacePage() {
 
         {/* Timeline Switcher (Point-in-Time Engine via API) */}
         {!isCompareMode ? (
-          <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200 text-xs font-semibold">
-            <span className="text-slate-400 px-2 text-2xs uppercase">Titik Waktu:</span>
+          <div className="flex items-center gap-1 bg-paper p-1 rounded-lg border border-ink/10 text-xs font-semibold">
+            <span className="text-ink-faint px-2 text-2xs uppercase">Titik Waktu:</span>
             {years.map((year) => (
               <button
                 key={year}
                 onClick={() => setSelectedTimeline(year)}
                 className={`px-3 py-1 rounded-md transition-all cursor-pointer ${
                   selectedTimeline === year
-                    ? 'bg-white text-indigo-700 shadow-2xs font-bold'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-ink text-paper shadow-2xs font-bold'
+                    : 'text-ink-mute hover:text-ink'
                 }`}
               >
                 {String(meta?.year) === year ? `${year} (Asli)` : year}
@@ -291,13 +291,13 @@ export default function LawWorkspacePage() {
             ))}
           </div>
         ) : (
-          <div className="flex items-center gap-2 bg-indigo-50 px-3 py-1.5 rounded-lg border border-indigo-200 text-xs font-semibold text-indigo-900">
-            <SplitSquareVertical className="w-4 h-4 text-indigo-600" />
+          <div className="flex items-center gap-2 bg-brass-wash px-3 py-1.5 rounded-lg border border-brass/40 text-xs font-semibold text-ink">
+            <SplitSquareVertical className="w-4 h-4 text-seal" />
             <span>Mode Komparasi:</span>
             <select
               value={compareFromYear ?? ''}
               onChange={(e) => setCompareFromYear(e.target.value)}
-              className="bg-white border border-indigo-200 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
+              className="bg-white border border-ink/15 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
             >
               {years.map((y) => <option key={y} value={y}>{y}</option>)}
             </select>
@@ -305,7 +305,7 @@ export default function LawWorkspacePage() {
             <select
               value={compareToYear ?? ''}
               onChange={(e) => setCompareToYear(e.target.value)}
-              className="bg-white border border-indigo-200 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
+              className="bg-white border border-ink/15 rounded px-1.5 py-0.5 text-xs font-medium cursor-pointer"
             >
               {years.map((y) => <option key={y} value={y}>{y}</option>)}
             </select>
@@ -318,8 +318,8 @@ export default function LawWorkspacePage() {
             onClick={() => setIsCompareMode(!isCompareMode)}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer border ${
               isCompareMode
-                ? 'bg-indigo-600 text-white border-indigo-700'
-                : 'bg-white text-slate-700 hover:bg-slate-50 border-slate-200'
+                ? 'bg-ink text-paper border-ink'
+                : 'bg-white text-ink-soft hover:bg-paper-deep border-ink/10'
             }`}
           >
             <SplitSquareVertical className="w-3.5 h-3.5" />
@@ -327,9 +327,9 @@ export default function LawWorkspacePage() {
           </button>
           <Link
             href={`/neuron?id=${slug}`}
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 text-indigo-700 hover:bg-indigo-100 border border-indigo-200 text-xs font-semibold transition-colors"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-ink text-paper hover:bg-ink-soft border border-ink/15 text-xs font-semibold transition-colors"
           >
-            <Network className="w-3.5 h-3.5 text-indigo-600" />
+            <Network className="w-3.5 h-3.5 text-seal" />
             Peta Silsilah
           </Link>
         </div>
@@ -338,10 +338,10 @@ export default function LawWorkspacePage() {
       {/* Main Workspace Body */}
       <div className="flex-1 flex overflow-hidden">
         {/* Sidebar Kiri: Daftar Isi Hierarki */}
-        <aside className="w-72 bg-white border-r border-slate-200 flex flex-col shrink-0">
-          <div className="p-3 border-b border-slate-100 font-semibold text-xs text-slate-500 uppercase tracking-wider flex items-center justify-between">
+        <aside className="w-72 bg-white border-r border-ink/10 flex flex-col shrink-0">
+          <div className="p-3 border-b border-ink/5 font-semibold text-xs text-ink-mute uppercase tracking-wider flex items-center justify-between">
             <span>Daftar Isi Norma</span>
-            <span className="text-2xs bg-slate-100 px-1.5 py-0.5 rounded text-slate-600">
+            <span className="text-2xs bg-paper px-1.5 py-0.5 rounded text-ink-mute">
               {allArticles.length} Pasal
             </span>
           </div>
@@ -352,30 +352,30 @@ export default function LawWorkspacePage() {
                 onClick={() => setActiveNodePath(node.canonicalPath)}
                 className={`w-full text-left px-3 py-2 rounded-lg text-xs font-medium flex items-center justify-between transition-colors cursor-pointer ${
                   activeNodePath === node.canonicalPath
-                    ? 'bg-indigo-50 text-indigo-700 font-bold'
-                    : 'text-slate-700 hover:bg-slate-50'
+                    ? 'bg-seal-wash text-seal-deep font-bold'
+                    : 'text-ink-soft hover:bg-paper-deep'
                 }`}
               >
                 <div className="flex items-center gap-1.5 truncate">
                   <span>{node.label}</span>
                   {node.title && (
-                    <span className="text-slate-400 font-normal truncate max-w-[110px]">
+                    <span className="text-ink-faint font-normal truncate max-w-[110px]">
                       - {node.title}
                     </span>
                   )}
                 </div>
                 {node.isRepealed && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-rose-50 text-rose-700 border border-rose-200 shrink-0">
+                  <span className="text-2xs px-1.5 py-0.5 rounded bg-seal-wash text-seal-deep border border-seal/20 shrink-0">
                     Dihapus
                   </span>
                 )}
                 {!node.isRepealed && node.versionTag.startsWith('AMENDMENT_2024') && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700 border border-emerald-200 shrink-0">
+                  <span className="text-2xs px-1.5 py-0.5 rounded bg-sage-wash text-sage border border-sage/25 shrink-0">
                     Baru 2024
                   </span>
                 )}
                 {!node.isRepealed && node.versionTag.startsWith('AMENDED') && (
-                  <span className="text-2xs px-1.5 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 shrink-0">
+                  <span className="text-2xs px-1.5 py-0.5 rounded bg-brass-wash text-brass border border-brass/30 shrink-0">
                     Diubah
                   </span>
                 )}
@@ -386,28 +386,28 @@ export default function LawWorkspacePage() {
 
         {/* Center: Tempat Baca Naskah atau Side-by-Side Diff */}
         {!isCompareMode ? (
-          <main className="flex-1 overflow-y-auto p-8 flex justify-center bg-slate-100">
+          <main className="flex-1 overflow-y-auto p-8 flex justify-center bg-paper">
             {!currentDoc ? (
               <div className="flex items-center justify-center w-full">
-                <span className="text-sm text-slate-500 animate-pulse">Merekonstruksi naskah konsolidasi dari API…</span>
+                <span className="text-sm text-ink-mute animate-pulse">Merekonstruksi naskah konsolidasi dari API…</span>
               </div>
             ) : (
-            <div className="max-w-3xl w-full bg-white rounded-xl shadow-xs border border-slate-200 p-10 min-h-[800px]">
-              <div className="text-center pb-8 border-b border-slate-100 mb-8">
-                <h2 className="text-xs font-bold tracking-widest text-slate-400 uppercase">
+            <div className="max-w-3xl w-full bg-white rounded-none shadow-sheet border border-ink/10 p-10 min-h-[800px]">
+              <div className="text-center pb-8 border-b border-ink/5 mb-8">
+                <h2 className="text-xs font-bold tracking-widest text-ink-faint uppercase">
                   Republik Indonesia
                 </h2>
-                <h3 className="text-lg font-bold text-slate-900 mt-1">
+                <h3 className="font-display text-xl font-semibold text-ink mt-1">
                   {meta ? `Undang-Undang Nomor ${meta.number} Tahun ${meta.year}` : ''}
                 </h3>
-                <p className="text-xs text-slate-500 mt-1">
+                <p className="text-xs text-ink-mute mt-1">
                   {selectedTimeline ? timelineTitle(selectedTimeline) : ''}
                 </p>
                 {currentDoc.activeAmendingInstruments.length > 0 && (
                   <div className="mt-3 flex items-center justify-center gap-1.5 flex-wrap">
-                    <span className="text-2xs text-slate-400">Instrumen Pengubah Aktif:</span>
+                    <span className="text-2xs text-ink-faint">Instrumen Pengubah Aktif:</span>
                     {currentDoc.activeAmendingInstruments.map((inst, idx) => (
-                      <span key={idx} className="text-2xs font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+                      <span key={idx} className="text-2xs font-semibold px-2 py-0.5 rounded-full bg-seal-wash text-seal-deep border border-ink/15">
                         {inst}
                       </span>
                     ))}
@@ -416,15 +416,15 @@ export default function LawWorkspacePage() {
               </div>
 
               {/* Naskah Pasal-Pasal */}
-              <div className="space-y-10 text-slate-800 leading-relaxed">
+              <div className="space-y-10 text-ink leading-relaxed">
                 {currentDoc.nodes.map((chapter) => (
                   <div key={chapter.canonicalPath} className="space-y-6">
-                    <div className="text-center py-2 bg-slate-50 rounded-lg border border-slate-200/60">
-                      <span className="font-extrabold text-xs text-slate-700 uppercase tracking-wide block">
+                    <div className="text-center py-2 bg-paper-deep rounded-lg border border-ink/10">
+                      <span className="font-extrabold text-xs text-ink-soft uppercase tracking-wide block">
                         {chapter.label}
                       </span>
                       {chapter.title && (
-                        <span className="font-bold text-sm text-slate-900 block mt-0.5">
+                        <span className="font-display text-sm font-semibold text-ink block mt-0.5">
                           {chapter.title}
                         </span>
                       )}
@@ -434,28 +434,28 @@ export default function LawWorkspacePage() {
                       <div
                         key={pasal.canonicalPath}
                         id={pasal.canonicalPath}
-                        className={`p-4 rounded-xl transition-all ${
-                          activeNodePath === pasal.canonicalPath ? 'ring-2 ring-indigo-500/20 bg-indigo-50/30' : ''
+                        className={`p-4 rounded-none transition-all ${
+                          activeNodePath === pasal.canonicalPath ? 'ring-2 ring-seal/15 bg-seal-wash/40' : ''
                         }`}
                       >
                         <div className="flex items-center justify-between mb-3">
-                          <span className="font-extrabold text-slate-900 text-base flex items-center gap-2">
+                          <span className="font-display font-semibold text-ink text-lg flex items-center gap-2">
                             {pasal.label}
-                            {pasal.title && <span className="text-sm font-semibold text-slate-600">({pasal.title})</span>}
+                            {pasal.title && <span className="text-sm font-semibold text-ink-mute">({pasal.title})</span>}
                             {pasal.isRepealed && (
-                              <span className="text-2xs font-bold px-2 py-0.5 rounded bg-rose-100 text-rose-800">
+                              <span className="text-2xs font-bold px-2 py-0.5 rounded bg-seal text-paper">
                                 Dihapus
                               </span>
                             )}
                             {pasal.versionTag.startsWith('AMENDMENT_2024') && (
-                              <span className="text-2xs font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">
+                              <span className="text-2xs font-bold px-2 py-0.5 rounded bg-sage text-paper">
                                 Sisipan Baru (UU 1/2024)
                               </span>
                             )}
                           </span>
                           <button
                             onClick={() => handleOpenInspector(pasal, chapter.label)}
-                            className="text-xs text-indigo-600 hover:text-indigo-800 font-semibold cursor-pointer"
+                            className="text-xs text-seal hover:text-seal-deep font-semibold cursor-pointer"
                           >
                             Inspeksi Perubahan ➔
                           </button>
@@ -469,26 +469,26 @@ export default function LawWorkspacePage() {
                                 onClick={() => handleOpenInspector(ayat, pasal.label)}
                                 className={`flex items-start gap-3 p-2.5 rounded-lg group transition-colors cursor-pointer ${
                                   ayat.isRepealed
-                                    ? 'bg-rose-50/60 border border-rose-200 text-rose-900'
-                                    : 'hover:bg-slate-50'
+                                    ? 'bg-seal-wash border border-seal/20 text-seal-deep'
+                                    : 'hover:bg-paper-deep'
                                 }`}
                               >
-                                <span className="font-bold text-slate-700 shrink-0 select-none text-sm">
+                                <span className="font-bold text-ink-soft shrink-0 select-none text-sm">
                                   {ayat.label}
                                 </span>
                                 <div className="flex-1">
-                                  <p className={`text-sm ${ayat.isRepealed ? 'line-through text-rose-800 font-medium' : ''}`}>
+                                  <p className={`font-serif text-[15px] leading-relaxed ${ayat.isRepealed ? 'line-through text-seal-deep font-medium' : ''}`}>
                                     {ayat.content}
                                   </p>
                                   {ayat.isRepealed && (
-                                    <div className="mt-1 text-xs font-semibold text-rose-700 flex items-center gap-1">
+                                    <div className="mt-1 text-xs font-semibold text-seal-deep flex items-center gap-1">
                                       <AlertTriangle className="w-3 h-3" />
                                       {ayat.repealBasis || 'Ketentuan norma ini dicabut'}
                                     </div>
                                   )}
                                   {ayat.explanation && (
-                                    <div className="mt-2 pt-2 border-t border-slate-100 text-xs text-slate-500 bg-slate-50 p-2 rounded">
-                                      <span className="font-semibold text-slate-700">Penjelasan: </span>
+                                    <div className="mt-2 pt-2 border-t border-ink/5 text-xs text-ink-mute bg-paper-deep p-2 rounded">
+                                      <span className="font-semibold text-ink-soft">Penjelasan: </span>
                                       {ayat.explanation}
                                     </div>
                                   )}
@@ -497,7 +497,7 @@ export default function LawWorkspacePage() {
                             ))}
                           </div>
                         ) : (
-                          <p className="text-sm pl-2">{pasal.content}</p>
+                          <p className="font-serif text-[15px] leading-relaxed pl-2">{pasal.content}</p>
                         )}
                       </div>
                     ))}
@@ -509,48 +509,48 @@ export default function LawWorkspacePage() {
           </main>
         ) : (
           /* Side-by-Side Compare Mode */
-          <main className="flex-1 overflow-y-auto p-6 bg-slate-100">
+          <main className="flex-1 overflow-y-auto p-6 bg-paper">
             {!docFrom || !docTo ? (
               <div className="flex items-center justify-center h-full">
-                <span className="text-sm text-slate-500 animate-pulse">Memuat kedua versi untuk komparasi…</span>
+                <span className="text-sm text-ink-mute animate-pulse">Memuat kedua versi untuk komparasi…</span>
               </div>
             ) : (
             <div className="grid grid-cols-2 gap-6 max-w-6xl mx-auto">
               {/* Kolom Kiri: Versi Basis */}
-              <div className="bg-white rounded-xl shadow-xs border border-slate-200 p-6 min-h-[700px]">
-                <div className="pb-4 border-b border-slate-200 mb-6 flex items-center justify-between">
+              <div className="bg-white rounded-none shadow-sheet border border-ink/10 p-6 min-h-[700px]">
+                <div className="pb-4 border-b border-ink/10 mb-6 flex items-center justify-between">
                   <div>
-                    <span className="text-xs font-bold text-rose-700 uppercase tracking-wide block">
+                    <span className="text-xs font-bold text-seal-deep uppercase tracking-wide block">
                       Versi Basis (Sebelumnya)
                     </span>
-                    <h3 className="font-bold text-base text-slate-900">
+                    <h3 className="font-bold text-base text-ink">
                       Tahun {compareFromYear}
                     </h3>
                   </div>
-                  <span className="text-2xs px-2 py-1 rounded bg-rose-50 text-rose-700 font-semibold border border-rose-200">
+                  <span className="text-2xs px-2 py-1 rounded bg-seal-wash text-seal-deep font-semibold border border-seal/20">
                     Baseline
                   </span>
                 </div>
                 <div className="space-y-6">
                   {docFrom.nodes.map((ch) => (
                     <div key={ch.canonicalPath} className="space-y-4">
-                      <div className="font-bold text-xs text-slate-500 bg-slate-50 p-2 rounded">
+                      <div className="font-bold text-xs text-ink-mute bg-paper-deep p-2 rounded">
                         {ch.label}: {ch.title}
                       </div>
                       {ch.children?.map((p) => (
-                        <div key={p.canonicalPath} className="p-3 bg-slate-50/50 rounded-lg border border-slate-200/60">
-                          <span className="font-bold text-sm block mb-1 text-slate-800">{p.label}</span>
+                        <div key={p.canonicalPath} className="p-3 bg-paper-deep/50 rounded-lg border border-ink/10">
+                          <span className="font-bold text-sm block mb-1 text-ink">{p.label}</span>
                           {p.children && p.children.length > 0 ? (
                             <div className="space-y-2">
                               {p.children.map((a) => (
-                                <div key={a.canonicalPath} className="text-xs text-slate-700">
+                                <div key={a.canonicalPath} className="text-xs text-ink-soft">
                                   <span className="font-semibold mr-1">{a.label}</span>
                                   <span>{a.content}</span>
                                 </div>
                               ))}
                             </div>
                           ) : (
-                            <p className="text-xs text-slate-700">{p.content}</p>
+                            <p className="text-xs text-ink-soft">{p.content}</p>
                           )}
                         </div>
                       ))}
@@ -560,44 +560,44 @@ export default function LawWorkspacePage() {
               </div>
 
               {/* Kolom Kanan: Versi Banding (Baru) */}
-              <div className="bg-white rounded-xl shadow-xs border border-slate-200 p-6 min-h-[700px]">
-                <div className="pb-4 border-b border-slate-200 mb-6 flex items-center justify-between">
+              <div className="bg-white rounded-none shadow-sheet border border-ink/10 p-6 min-h-[700px]">
+                <div className="pb-4 border-b border-ink/10 mb-6 flex items-center justify-between">
                   <div>
-                    <span className="text-xs font-bold text-emerald-700 uppercase tracking-wide block">
+                    <span className="text-xs font-bold text-sage uppercase tracking-wide block">
                       Versi Konsolidasi (Terkini)
                     </span>
-                    <h3 className="font-bold text-base text-slate-900">
+                    <h3 className="font-bold text-base text-ink">
                       Tahun {compareToYear}
                     </h3>
                   </div>
-                  <span className="text-2xs px-2 py-1 rounded bg-emerald-50 text-emerald-700 font-semibold border border-emerald-200">
+                  <span className="text-2xs px-2 py-1 rounded bg-sage-wash text-sage font-semibold border border-sage/25">
                     Amandemen
                   </span>
                 </div>
                 <div className="space-y-6">
                   {docTo.nodes.map((ch) => (
                     <div key={ch.canonicalPath} className="space-y-4">
-                      <div className="font-bold text-xs text-slate-500 bg-slate-50 p-2 rounded">
+                      <div className="font-bold text-xs text-ink-mute bg-paper-deep p-2 rounded">
                         {ch.label}: {ch.title}
                       </div>
                       {ch.children?.map((p) => (
-                        <div key={p.canonicalPath} className="p-3 bg-slate-50/50 rounded-lg border border-slate-200/60">
-                          <span className="font-bold text-sm block mb-1 text-slate-800 flex items-center gap-2">
+                        <div key={p.canonicalPath} className="p-3 bg-paper-deep/50 rounded-lg border border-ink/10">
+                          <span className="font-bold text-sm block mb-1 text-ink flex items-center gap-2">
                             {p.label}
-                            {p.isRepealed && <span className="text-2xs bg-rose-100 text-rose-800 px-1.5 py-0.5 rounded">Dihapus</span>}
-                            {p.versionTag.startsWith('AMENDMENT_2024') && <span className="text-2xs bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded">Sisipan Baru</span>}
+                            {p.isRepealed && <span className="text-2xs bg-seal text-paper px-1.5 py-0.5 rounded">Dihapus</span>}
+                            {p.versionTag.startsWith('AMENDMENT_2024') && <span className="text-2xs bg-sage text-paper px-1.5 py-0.5 rounded">Sisipan Baru</span>}
                           </span>
                           {p.children && p.children.length > 0 ? (
                             <div className="space-y-2">
                               {p.children.map((a) => (
-                                <div key={a.canonicalPath} className="text-xs text-slate-700">
+                                <div key={a.canonicalPath} className="text-xs text-ink-soft">
                                   <span className="font-semibold mr-1">{a.label}</span>
-                                  <span className={a.isRepealed ? 'line-through text-rose-700' : ''}>{a.content}</span>
+                                  <span className={a.isRepealed ? 'line-through text-seal-deep' : ''}>{a.content}</span>
                                 </div>
                               ))}
                             </div>
                           ) : (
-                            <p className="text-xs text-slate-700">{p.content}</p>
+                            <p className="text-xs text-ink-soft">{p.content}</p>
                           )}
                         </div>
                       ))}
@@ -612,17 +612,17 @@ export default function LawWorkspacePage() {
 
         {/* Sidebar Kanan (Inspector Detail Perubahan via API Diff) */}
         {inspectorNode && (
-          <aside className="w-96 bg-white border-l border-slate-200 flex flex-col shrink-0 shadow-lg z-10 animate-in slide-in-from-right duration-200">
-            <div className="p-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+          <aside className="w-96 bg-white border-l border-ink/10 flex flex-col shrink-0 shadow-lift z-10 animate-in slide-in-from-right duration-200">
+            <div className="p-4 border-b border-ink/10 flex items-center justify-between bg-paper-deep">
               <div className="flex items-center gap-2">
-                <GitBranch className="w-4 h-4 text-indigo-600" />
-                <span className="font-bold text-xs text-slate-800 uppercase tracking-wide">
+                <GitBranch className="w-4 h-4 text-seal" />
+                <span className="font-bold text-xs text-ink uppercase tracking-wide">
                   Inspektor Perubahan
                 </span>
               </div>
               <button
                 onClick={() => setInspectorNode(null)}
-                className="p-1 rounded hover:bg-slate-200 text-slate-500 transition-colors cursor-pointer"
+                className="p-1 rounded hover:bg-paper-edge text-ink-mute transition-colors cursor-pointer"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -631,15 +631,15 @@ export default function LawWorkspacePage() {
             <div className="flex-1 overflow-y-auto p-5 space-y-6 text-xs">
               {/* Identitas Perubahan */}
               <div>
-                <h4 className="font-extrabold text-sm text-slate-900">
+                <h4 className="font-display font-semibold text-base text-ink">
                   {inspectorNode.label} {inspectorNode.parentLabel ? `(${inspectorNode.parentLabel})` : ''}
                 </h4>
                 <div className="mt-2 flex items-center gap-2">
-                  <span className="inline-block px-2.5 py-1 rounded bg-slate-100 text-slate-800 font-bold border border-slate-200">
+                  <span className="inline-block px-2.5 py-1 rounded bg-paper text-ink font-bold border border-ink/10">
                     Status: {inspectorNode.status}
                   </span>
                   {!inspectorNode.loading && (
-                    <span className="inline-block px-2 py-1 rounded bg-indigo-50 text-indigo-700 font-semibold border border-indigo-200">
+                    <span className="inline-block px-2 py-1 rounded bg-seal-wash text-seal-deep font-semibold border border-seal/20">
                       Skor Kesamaan: {Math.round(inspectorNode.diff.similarityRatio * 100)}%
                     </span>
                   )}
@@ -647,24 +647,24 @@ export default function LawWorkspacePage() {
               </div>
 
               {inspectorNode.loading ? (
-                <div className="text-slate-500 animate-pulse">Menghitung diff di server…</div>
+                <div className="text-ink-mute animate-pulse">Menghitung diff di server…</div>
               ) : (
                 <>
                   {/* Provenance Box */}
-                  <div className="bg-slate-50 border border-slate-200 rounded-lg p-3.5 space-y-2">
+                  <div className="bg-paper-deep border border-ink/10 rounded-lg p-3.5 space-y-2">
                     <div>
-                      <span className="text-slate-400 block text-2xs">Versi Tag:</span>
-                      <span className="font-bold text-slate-800">{inspectorNode.versionTag}</span>
+                      <span className="text-ink-faint block text-2xs">Versi Tag:</span>
+                      <span className="font-bold text-ink">{inspectorNode.versionTag}</span>
                     </div>
                     {inspectorNode.amendedBy && (
                       <div>
-                        <span className="text-slate-400 block text-2xs">Dasar Amandemen:</span>
-                        <span className="font-semibold text-slate-700">{inspectorNode.amendedBy}</span>
+                        <span className="text-ink-faint block text-2xs">Dasar Amandemen:</span>
+                        <span className="font-semibold text-ink-soft">{inspectorNode.amendedBy}</span>
                       </div>
                     )}
                     <div>
-                      <span className="text-slate-400 block text-2xs">Perubahan Token:</span>
-                      <span className="text-slate-700">
+                      <span className="text-ink-faint block text-2xs">Perubahan Token:</span>
+                      <span className="text-ink-soft">
                         +{inspectorNode.diff.addedCount} kata baru, -{inspectorNode.diff.removedCount} kata dihapus
                       </span>
                     </div>
@@ -672,21 +672,21 @@ export default function LawWorkspacePage() {
 
                   {/* Tokenized Visual Diff Highlighting */}
                   <div>
-                    <span className="font-bold text-slate-700 block mb-2">
+                    <span className="font-bold text-ink-soft block mb-2">
                       Visual Word-Level Diff (Zero-Loss):
                     </span>
-                    <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200 text-slate-800 font-sans text-xs leading-relaxed">
+                    <div className="p-3.5 rounded-lg bg-paper-deep border border-ink/10 text-ink font-sans text-xs leading-relaxed">
                       {inspectorNode.diff.tokens.map((token, idx) => {
                         if (token.type === 'removed') {
                           return (
-                            <span key={idx} className="bg-rose-100 text-rose-900 line-through px-1 py-0.5 rounded mr-0.5 font-medium">
+                            <span key={idx} className="bg-seal text-paper line-through px-1 py-0.5 rounded mr-0.5 font-medium">
                               {token.value}
                             </span>
                           );
                         }
                         if (token.type === 'added') {
                           return (
-                            <span key={idx} className="bg-emerald-100 text-emerald-900 px-1 py-0.5 rounded mr-0.5 font-semibold">
+                            <span key={idx} className="bg-sage text-paper px-1 py-0.5 rounded mr-0.5 font-semibold">
                               {token.value}
                             </span>
                           );
@@ -698,14 +698,14 @@ export default function LawWorkspacePage() {
 
                   {/* Raw Comparison */}
                   <div>
-                    <span className="font-bold text-slate-700 block mb-2">Komparasi Mentah:</span>
+                    <span className="font-bold text-ink-soft block mb-2">Komparasi Mentah:</span>
                     <div className="space-y-2">
-                      <div className="p-3 rounded-lg bg-rose-50 border border-rose-200 text-rose-950 font-mono text-2xs leading-relaxed">
-                        <span className="font-bold text-rose-700 block mb-1">[-] SEBELUMNYA ({years[0] ?? '2008'}):</span>
+                      <div className="p-3 rounded-lg bg-seal-wash border border-seal/20 text-seal-deep font-mono text-2xs leading-relaxed">
+                        <span className="font-bold text-seal-deep block mb-1">[-] SEBELUMNYA ({years[0] ?? '2008'}):</span>
                         {inspectorNode.fromText}
                       </div>
-                      <div className="p-3 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-950 font-mono text-2xs leading-relaxed">
-                        <span className="font-bold text-emerald-700 block mb-1">{'{+}'} KONSOLIDASI ({selectedTimeline}):</span>
+                      <div className="p-3 rounded-lg bg-sage-wash border border-sage/25 text-sage font-mono text-2xs leading-relaxed">
+                        <span className="font-bold text-sage block mb-1">{'{+}'} KONSOLIDASI ({selectedTimeline}):</span>
                         {inspectorNode.toText}
                       </div>
                     </div>
@@ -714,10 +714,10 @@ export default function LawWorkspacePage() {
               )}
 
               {/* Action Button */}
-              <div className="pt-2 border-t border-slate-200">
+              <div className="pt-2 border-t border-ink/10">
                 <button
                   onClick={() => alert(`Analisis Yuridis AI untuk ${inspectorNode.label} siap dieksekusi!`)}
-                  className="w-full py-2.5 px-3 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white font-semibold flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-xs"
+                  className="w-full py-2.5 px-3 rounded-lg bg-ink hover:bg-ink-soft text-white font-semibold flex items-center justify-center gap-2 transition-colors cursor-pointer shadow-sheet"
                 >
                   <Sparkles className="w-4 h-4" />
                   Analisis Delik Yuridis AI
