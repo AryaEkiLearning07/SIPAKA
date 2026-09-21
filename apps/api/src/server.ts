@@ -499,5 +499,100 @@ export async function buildServer(): Promise<FastifyInstance> {
     }
   });
 
+  // 7. Riwayat bunyi node dari tahun ke tahun (untuk inspektor kontekstual)
+  server.get('/api/v1/instruments/:slug/history', async (request, reply) => {
+    const { slug } = request.params as { slug: string };
+    const query = request.query as { path?: string };
+    if (!query.path) {
+      return reply.code(400).send({ error: 'VALIDATION', message: 'parameter path wajib' });
+    }
+    try {
+      const family = await loadFamily(slug);
+      const years = timelineYears(family);
+      const findNode = (nodes: ProvisionNode[], target: string): ProvisionNode | null => {
+        for (const n of nodes) {
+          if (n.canonicalPath === target) return n;
+          if (n.children) {
+            const res = findNode(n.children, target);
+            if (res) return res;
+          }
+        }
+        return null;
+      };
+      const versi = years.map((y) => {
+        const snap = LawReconstructor.reconstructAtDate(
+          family.baseDocument,
+          family.changeSets,
+          dateForYear(family, y)
+        );
+        const node = findNode(snap.nodes, query.path!);
+        return {
+          year: y,
+          ada: !!node,
+          isRepealed: node?.isRepealed ?? false,
+          versionTag: node?.versionTag ?? null,
+          content: node?.content ?? null,
+        };
+      });
+      return { source: family.source, path: query.path, versi };
+    } catch (e) {
+      if (e instanceof Error && (e.message === 'INSTRUMENT_NOT_FOUND' || e.message === 'DATABASE_EMPTY')) {
+        return reply.code(e.message === 'DATABASE_EMPTY' ? 503 : 404).send({ error: e.message });
+      }
+      if (isDbConnectionError(e)) {
+        return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE' });
+      }
+      throw e;
+    }
+  });
+
+  // 8. Buku besar perubahan: seluruh ChangeSet & operasi keluarga (dari DB)
+  server.get('/api/v1/instruments/:slug/changes', async (request, reply) => {
+    const { slug } = request.params as { slug: string };
+    try {
+      const family = await loadFamily(slug);
+      const changesets = family.changeSets.map((cs) => ({
+        id: cs.id,
+        amendingInstrument: cs.amendingInstrument,
+        title: cs.title,
+        effectiveFrom: cs.effectiveFrom,
+        operations: cs.operations.map((op) => {
+          let ringkas = '';
+          switch (op.operationType) {
+            case 'ADD_PROVISION':
+              ringkas = `${op.newNode.label} ditambahkan — ${op.newNode.content.slice(0, 120)}…`;
+              break;
+            case 'REPLACE_PROVISION':
+              ringkas = op.newContent?.slice(0, 140) ?? '';
+              break;
+            case 'REPEAL_PROVISION':
+              ringkas = op.repealNote;
+              break;
+            case 'PARTIAL_REPEAL':
+              ringkas = op.resultingContent.slice(0, 140);
+              break;
+            default:
+              ringkas = '';
+          }
+          return {
+            operationType: op.operationType,
+            targetCanonicalPath: op.targetCanonicalPath,
+            sourceReference: op.sourceReference,
+            ringkas,
+          };
+        }),
+      }));
+      return { source: family.source, changesets };
+    } catch (e) {
+      if (e instanceof Error && (e.message === 'INSTRUMENT_NOT_FOUND' || e.message === 'DATABASE_EMPTY')) {
+        return reply.code(e.message === 'DATABASE_EMPTY' ? 503 : 404).send({ error: e.message });
+      }
+      if (isDbConnectionError(e)) {
+        return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE' });
+      }
+      throw e;
+    }
+  });
+
   return server;
 }

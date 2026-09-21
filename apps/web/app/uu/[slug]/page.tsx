@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import {
   ArrowLeft, Network, GitBranch, AlertTriangle,
   X, Scale, ExternalLink, Sparkles, SplitSquareVertical,
-  Layers, Check, FileText, ChevronRight, ChevronDown
+  Layers, Check, FileText, ChevronRight, ChevronDown, History
 } from 'lucide-react';
 import { ConsolidatedLawDocument, ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
 
@@ -25,6 +25,29 @@ interface InstrumentMeta {
   amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
 }
 
+interface RiwayatVersi {
+  year: string;
+  ada: boolean;
+  isRepealed: boolean;
+  versionTag: string | null;
+  content: string | null;
+}
+
+interface LedgerOp {
+  operationType: string;
+  targetCanonicalPath: string;
+  sourceReference: string;
+  ringkas: string;
+}
+
+interface LedgerChangeSet {
+  id: string;
+  amendingInstrument: string;
+  title: string;
+  effectiveFrom: string;
+  operations: LedgerOp[];
+}
+
 interface InspectorState {
   canonicalPath: string;
   label: string;
@@ -37,6 +60,7 @@ interface InspectorState {
   fromText: string;
   toText: string;
   diff: ProvisionDiffResult;
+  riwayat?: RiwayatVersi[];
   loading?: boolean;
 }
 
@@ -61,6 +85,8 @@ export default function LawWorkspacePage() {
   const [selectedTimeline, setSelectedTimeline] = useState<string | null>(null);
   const [activeNodePath, setActiveNodePath] = useState<string>('');
   const [isCompareMode, setIsCompareMode] = useState<boolean>(false);
+  const [showRiwayat, setShowRiwayat] = useState<boolean>(false);
+  const [ledger, setLedger] = useState<LedgerChangeSet[] | null>(null);
   const [compareFromYear, setCompareFromYear] = useState<string | null>(null);
   const [compareToYear, setCompareToYear] = useState<string | null>(null);
 
@@ -124,6 +150,29 @@ export default function LawWorkspacePage() {
         }
       });
   }, [slug]);
+
+  // Buku besar perubahan: dimuat saat mode Riwayat dibuka pertama kali
+  useEffect(() => {
+    if (!showRiwayat || ledger) return;
+    let cancelled = false;
+    fetch(`${API_BASE}/api/v1/instruments/${slug}/changes`)
+      .then((r) => r.json())
+      .then((j) => {
+        if (!cancelled) setLedger(j.changesets ?? []);
+      })
+      .catch(() => {
+        if (!cancelled) setLedger([]);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [showRiwayat, slug, ledger]);
+
+  const bukaDariLedger = (path: string) => {
+    setShowRiwayat(false);
+    setActiveNodePath(path);
+    scrollToNode(path);
+  };
 
   // 2. Rekonstruksi snapshot point-in-time dari API (bukan engine di browser)
   useEffect(() => { ensureYearLoaded(selectedTimeline); }, [selectedTimeline, ensureYearLoaded]);
@@ -205,11 +254,17 @@ export default function LawWorkspacePage() {
 
     try {
       const baseYear = years[0] ?? '2008';
-      const res = await fetch(
-        `${API_BASE}/api/v1/provisions/diff?slug=${slug}&path=${encodeURIComponent(node.canonicalPath)}&fromYear=${baseYear}&toYear=${selectedTimeline}`
-      );
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const json = await res.json();
+      const [diffRes, histRes] = await Promise.all([
+        fetch(
+          `${API_BASE}/api/v1/provisions/diff?slug=${slug}&path=${encodeURIComponent(node.canonicalPath)}&fromYear=${baseYear}&toYear=${selectedTimeline}`
+        ),
+        fetch(
+          `${API_BASE}/api/v1/instruments/${slug}/history?path=${encodeURIComponent(node.canonicalPath)}`
+        ),
+      ]);
+      if (!diffRes.ok) throw new Error(`HTTP ${diffRes.status}`);
+      const json = await diffRes.json();
+      const hist = histRes.ok ? await histRes.json() : { versi: [] };
 
       const baselineMissing = !json.nodeFrom;
       const status = node.isRepealed
@@ -236,6 +291,7 @@ export default function LawWorkspacePage() {
         fromText: json.textFrom ?? '(Belum ada pada naskah asli)',
         toText: json.textTo ?? node.content,
         diff: json.diff,
+        riwayat: (hist.versi ?? []) as RiwayatVersi[],
         loading: false,
       });
     } catch (e) {
@@ -303,8 +359,13 @@ export default function LawWorkspacePage() {
           </div>
         </div>
 
-        {/* Timeline Switcher (Point-in-Time Engine via API) */}
-        {!isCompareMode ? (
+        {/* Timeline Switcher / Label Mode */}
+        {showRiwayat ? (
+          <div className="flex items-center gap-2 bg-brass-wash px-3 py-1.5 rounded-lg border border-brass/40 text-xs font-semibold text-ink">
+            <History className="w-4 h-4 text-brass" />
+            <span>Buku Besar Perubahan — silsilah amandemen keluarga</span>
+          </div>
+        ) : !isCompareMode ? (
           <div className="flex items-center gap-1 bg-paper p-1 rounded-lg border border-ink/10 text-xs font-semibold">
             <span className="text-ink-faint px-2 text-2xs uppercase">Titik Waktu:</span>
             {years.map((year) => (
@@ -346,7 +407,26 @@ export default function LawWorkspacePage() {
         {/* Action Buttons */}
         <div className="flex items-center gap-2">
           <button
-            onClick={() => setIsCompareMode(!isCompareMode)}
+            onClick={() => {
+              const next = !showRiwayat;
+              setShowRiwayat(next);
+              if (next) setIsCompareMode(false);
+            }}
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer border ${
+              showRiwayat
+                ? 'bg-brass text-paper border-brass'
+                : 'bg-white text-ink-soft hover:bg-paper-deep border-ink/15'
+            }`}
+          >
+            <History className="w-3.5 h-3.5" />
+            Riwayat Perubahan
+          </button>
+          <button
+            onClick={() => {
+              const next = !isCompareMode;
+              setIsCompareMode(next);
+              if (next) setShowRiwayat(false);
+            }}
             className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer border ${
               isCompareMode
                 ? 'bg-ink text-paper border-ink'
@@ -511,8 +591,71 @@ export default function LawWorkspacePage() {
           </nav>
         </aside>
 
-        {/* Center: Tempat Baca Naskah atau Side-by-Side Diff */}
-        {!isCompareMode ? (
+        {/* Center: Baca Naskah / Riwayat Perubahan / Side-by-Side Diff */}
+        {showRiwayat ? (
+          <main className="flex-1 overflow-y-auto p-8 bg-paper">
+            <div className="max-w-3xl mx-auto">
+              <p className="kicker">Buku Besar Perubahan</p>
+              <h2 className="mt-1 font-display text-3xl font-semibold tracking-tight">
+                Riwayat Amandemen Keluarga
+              </h2>
+              <p className="mt-2 font-serif text-[15px] text-ink-soft leading-relaxed">
+                Setiap operasi perubahan yang tercatat di database — dengan dasar hukumnya —
+                diurutkan per instrumen pengubah. Klik “Lihat di naskah” untuk melompat ke pasal terkait.
+              </p>
+
+              {!ledger ? (
+                <p className="mt-10 text-sm text-ink-mute animate-pulse">Memuat buku besar…</p>
+              ) : (
+                ledger.map((cs) => (
+                  <section key={cs.id} className="mt-8 border rule bg-white shadow-sheet">
+                    <header className="px-5 py-3 border-b rule flex items-start justify-between gap-4">
+                      <div>
+                        <span className="font-display text-base font-semibold text-ink">
+                          {cs.amendingInstrument}
+                        </span>
+                        <p className="text-[11px] text-ink-mute leading-snug">{cs.title}</p>
+                      </div>
+                      <span className="shrink-0 font-mono text-2xs text-ink-faint">
+                        efektif {new Date(cs.effectiveFrom).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' })}
+                      </span>
+                    </header>
+                    <ol className="divide-y divide-ink/5">
+                      {cs.operations.map((op, i) => (
+                        <li key={i} className="px-5 py-3 flex items-start gap-3 hover:bg-paper-deep/40 transition-colors">
+                          <span
+                            className={`shrink-0 text-2xs font-bold px-1.5 py-0.5 rounded ${
+                              op.operationType === 'ADD_PROVISION'
+                                ? 'bg-sage text-paper'
+                                : op.operationType === 'REPEAL_PROVISION'
+                                  ? 'bg-seal text-paper'
+                                  : 'bg-brass text-paper'
+                            }`}
+                          >
+                            {op.operationType.replace('_PROVISION', '')}
+                          </span>
+                          <div className="flex-1 min-w-0">
+                            <p className="font-mono text-[11px] text-seal">{op.targetCanonicalPath}</p>
+                            <p className="font-serif text-[13px] text-ink-soft leading-relaxed mt-0.5">
+                              {op.ringkas}
+                            </p>
+                            <p className="text-[10px] text-ink-faint mt-0.5">{op.sourceReference}</p>
+                          </div>
+                          <button
+                            onClick={() => bukaDariLedger(op.targetCanonicalPath)}
+                            className="shrink-0 text-[11px] font-semibold text-ink-mute hover:text-seal transition-colors cursor-pointer"
+                          >
+                            Lihat di naskah →
+                          </button>
+                        </li>
+                      ))}
+                    </ol>
+                  </section>
+                ))
+              )}
+            </div>
+          </main>
+        ) : !isCompareMode ? (
           <main className="flex-1 overflow-y-auto p-8 flex justify-center bg-paper">
             {!currentDoc ? (
               <div className="flex items-center justify-center w-full">
@@ -797,6 +940,39 @@ export default function LawWorkspacePage() {
                       </span>
                     </div>
                   </div>
+
+                  {/* Riwayat Bunyi dari Tahun ke Tahun */}
+                  {!inspectorNode.loading && inspectorNode.riwayat && inspectorNode.riwayat.length > 0 && (
+                    <div>
+                      <span className="font-bold text-ink-soft block mb-2">
+                        Riwayat Bunyi (titik waktu):
+                      </span>
+                      <div className="space-y-1.5">
+                        {inspectorNode.riwayat.map((v) => (
+                          <div key={v.year} className="flex items-start gap-2">
+                            <span
+                              className={`shrink-0 font-mono text-2xs px-1.5 py-0.5 rounded border ${
+                                v.ada
+                                  ? v.isRepealed
+                                    ? 'bg-seal-wash text-seal-deep border-seal/20'
+                                    : 'bg-paper-deep text-ink-mute border-ink/10'
+                                  : 'bg-paper-deep text-ink-faint border-ink/10'
+                              }`}
+                            >
+                              {v.year}
+                            </span>
+                            <span className="flex-1 text-2xs leading-relaxed text-ink-soft">
+                              {v.content
+                                ? v.content.length > 140
+                                  ? `${v.content.slice(0, 140)}…`
+                                  : v.content
+                                : '— belum ada pada titik waktu ini —'}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
 
                   {/* Tokenized Visual Diff Highlighting */}
                   <div>
