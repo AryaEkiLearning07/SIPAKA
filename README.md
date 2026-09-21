@@ -43,6 +43,47 @@ pnpm --filter @lexvera/web dev
 
 Cek cepat: `curl http://localhost:4000/api/v1/health` harus melaporkan `database: "ok"`, lalu buka `http://localhost:3000/uu/ite`.
 
+## Mode Real-DB: Dev di Laptop + Database di VPS (tanpa Docker Desktop)
+
+Program (API + web) jalan di laptop; PostgreSQL 16 + pgvector jalan di VPS yang sudah ada Docker. Data tersimpan permanen di volume VPS.
+
+**Opsi A — SSH Tunnel (direkomendasikan, port tidak dibuka ke publik):**
+
+```bash
+# 1. Di VPS (sekali saja): jalankan Postgres, bind ke localhost VPS saja
+docker run -d --name lexvera-postgres --restart unless-stopped \
+  -e POSTGRES_USER=lexvera_admin \
+  -e POSTGRES_PASSWORD=<password-kuat-anda> \
+  -e POSTGRES_DB=lexvera_db \
+  -p 127.0.0.1:5432:5432 \
+  -v lexvera_pgdata:/var/lib/postgresql/data \
+  pgvector/pgvector:pg16
+
+# 2. Di laptop (tiap sesi dev): tunnel — DB VPS tampil sebagai localhost:5432
+ssh -N -L 5432:127.0.0.1:5432 user@IP-VPS
+```
+
+**Opsi B — Direct (lebih cepat, port 5432 terbuka — wajib password sangat kuat + firewall):**
+
+```bash
+# Di VPS: ganti -p 127.0.0.1:5432:5432 menjadi -p 5432:5432
+# Di laptop: isi packages/database/.env dengan host IP-VPS
+DATABASE_URL="postgresql://lexvera_admin:<password>@IP-VPS:5432/lexvera_db?schema=public"
+```
+
+Lalu di laptop (sama untuk kedua opsi):
+
+```bash
+pnpm db:migrate   # buat 9 tabel di VPS
+pnpm db:seed      # muat keluarga UU ITE
+pnpm --filter @lexvera/api dev
+pnpm --filter @lexvera/web dev
+```
+
+Checklist real testing: badge beranda "Data Demo" → **"Database"** (hijau); `/uu/ite` tampil dari DB; timeline 2008→2024 menampilkan sisipan Pasal 27A/27B dan Pasal 27 ayat (3) berstatus "Dihapus"; mode komparasi menampilkan diff; "Inspeksi Perubahan" menghitung diff kata-per-kata. Restart VPS → data tetap ada.
+
+> Keamanan: `packages/database/.env` sudah di-gitignore — jangan pernah commit IP/password VPS.
+
 ## Perintah Berguna
 
 ```bash
