@@ -229,6 +229,8 @@ async function main() {
       year: INSTRUMENTS.target.year,
       title: INSTRUMENTS.target.title,
       shortTitle: INSTRUMENTS.target.shortTitle,
+      description:
+        'Mengatur transaksi elektronik, tanda tangan digital, perbuatan yang dilarang, fitnah online, dan alat bukti elektronik. Diubah dua kali (2016, 2024) dan menjadi pilot konsolidasi deterministik.',
       status: 'BERLAKU',
       enactedAt: INSTRUMENTS.target.legalDate,
       promulgatedAt: INSTRUMENTS.target.legalDate,

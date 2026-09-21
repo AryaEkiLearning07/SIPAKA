@@ -1,38 +1,101 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Search, BookOpen, GitBranch, Network, ArrowRight, ShieldCheck, Clock } from 'lucide-react';
 
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+
+interface LawCard {
+  id: string;
+  title: string;
+  officialNumber: string;
+  amendments: string[];
+  lastAmended: string;
+  status: string;
+  category?: string;
+  summary: string;
+  slug: string;
+}
+
+/** Fallback saat API/database belum siap — demo tetap bisa dibuka. */
+const FALLBACK_LAWS: LawCard[] = [
+  {
+    id: 'uu-ite',
+    title: 'Undang-Undang Informasi dan Transaksi Elektronik',
+    officialNumber: 'UU No. 11 Tahun 2008',
+    amendments: ['UU No. 19 Tahun 2016', 'UU No. 1 Tahun 2024'],
+    lastAmended: '2 Januari 2024',
+    status: 'KONSOLIDASI AKTIF',
+    category: 'Teknologi & Pidana Khusus',
+    summary: 'Mengatur transaksi elektronik, tanda tangan digital, perbuatan yang dilarang, fitnah online, dan alat bukti elektronik.',
+    slug: 'ite'
+  },
+  {
+    id: 'kuhp-nasional',
+    title: 'Kitab Undang-Undang Hukum Pidana (KUHP Nasional)',
+    officialNumber: 'UU No. 1 Tahun 2023',
+    amendments: [],
+    lastAmended: '2 Januari 2023',
+    status: 'MASA TRANSISI 3 TAHUN',
+    category: 'Hukum Pidana Umum',
+    summary: 'Menggantikan WvS kolonial Belanda, memuat living law, hukum adat, dan modernisasi pidana materiel.',
+    slug: 'kuhp'
+  }
+];
+
+const formatDateId = (iso: string): string => {
+  try {
+    return new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(iso));
+  } catch {
+    return iso;
+  }
+};
+
 export default function HomePage() {
   const [query, setQuery] = useState('');
+  const [laws, setLaws] = useState<LawCard[]>(FALLBACK_LAWS);
+  const [dataSource, setDataSource] = useState<'database' | 'demo'>('demo');
 
-  const sampleLaws = [
-    {
-      id: 'uu-ite',
-      title: 'Undang-Undang Informasi dan Transaksi Elektronik',
-      officialNumber: 'UU No. 11 Tahun 2008',
-      amendments: ['UU No. 19 Tahun 2016', 'UU No. 1 Tahun 2024'],
-      lastAmended: '2 Januari 2024',
-      status: 'KONSOLIDASI AKTIF',
-      category: 'Teknologi & Pidana Khusus',
-      summary: 'Mengatur transaksi elektronik, tanda tangan digital, perbuatan yang dilarang, fitnah online, dan alat bukti elektronik.',
-      slug: 'ite'
-    },
-    {
-      id: 'kuhp-nasional',
-      title: 'Kitab Undang-Undang Hukum Pidana (KUHP Nasional)',
-      officialNumber: 'UU No. 1 Tahun 2023',
-      amendments: [],
-      lastAmended: '2 Januari 2023',
-      status: 'MASA TRANSISI 3 TAHUN',
-      category: 'Hukum Pidana Umum',
-      summary: 'Menggantikan WvS kolonial Belanda, memuat living law, hukum adat, dan modernisasi pidana materiel.',
-      slug: 'kuhp'
-    }
-  ];
+  // Daftar peraturan dari API/database — fallback ke data demo bila API belum siap
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`${API_BASE}/api/v1/instruments`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const json = await res.json();
+        if (cancelled || !Array.isArray(json?.data) || json.data.length === 0) return;
+        setLaws(json.data.map((inst: {
+          slug: string | null;
+          type: string;
+          number: number;
+          year: number;
+          title: string;
+          shortTitle?: string | null;
+          description?: string | null;
+          status: string;
+          promulgatedAt: string;
+          amendingInstruments: string[];
+        }) => ({
+          id: `${inst.type}-${inst.number}-${inst.year}`,
+          title: inst.title,
+          officialNumber: `${inst.type} No. ${inst.number} Tahun ${inst.year}`,
+          amendments: inst.amendingInstruments ?? [],
+          lastAmended: formatDateId(inst.promulgatedAt),
+          status: inst.status === 'DIUBAH' ? 'KONSOLIDASI AKTIF' : inst.status,
+          summary: inst.description || 'Naskah konsolidasi deterministik beserta silsilah amandemen.',
+          slug: inst.slug ?? `uu-${inst.number}-${inst.year}`,
+        })));
+        setDataSource('database');
+      } catch {
+        // API belum siap — biarkan data demo
+      }
+    })();
+    return () => { cancelled = true; };
+  }, []);
 
-  const filtered = sampleLaws.filter(law =>
+  const filtered = laws.filter(law =>
     law.title.toLowerCase().includes(query.toLowerCase()) ||
     law.officialNumber.toLowerCase().includes(query.toLowerCase()) ||
     law.summary.toLowerCase().includes(query.toLowerCase())
@@ -51,6 +114,14 @@ export default function HomePage() {
               <span className="font-extrabold text-lg text-slate-900 tracking-tight">LexVera</span>
               <span className="ml-2 text-xs font-semibold px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">
                 Core Engine v0.1
+              </span>
+              <span className={`ml-1.5 inline-flex items-center gap-1 text-2xs font-semibold px-2 py-0.5 rounded border ${
+                dataSource === 'database'
+                  ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                  : 'bg-amber-50 text-amber-700 border-amber-200'
+              }`}>
+                <span className={`inline-block w-1.5 h-1.5 rounded-full ${dataSource === 'database' ? 'bg-emerald-500' : 'bg-amber-500'}`} />
+                {dataSource === 'database' ? 'Database' : 'Data Demo'}
               </span>
             </div>
           </div>
@@ -132,7 +203,7 @@ export default function HomePage() {
                     <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
                       {law.status}
                     </span>
-                    <span className="text-xs text-slate-400">• {law.category}</span>
+                    {law.category && <span className="text-xs text-slate-400">• {law.category}</span>}
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 group-hover:text-indigo-600 transition-colors">
                     {law.title}

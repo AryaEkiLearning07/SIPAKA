@@ -185,6 +185,7 @@ export async function buildServer(): Promise<FastifyInstance> {
             year: inst.year,
             title: inst.title,
             shortTitle: inst.shortTitle,
+            description: inst.description,
             status: inst.status,
             promulgatedAt: inst.promulgatedAt.toISOString(),
             availableTimelines: years.map((y) => ({ year: y })),
