@@ -4,6 +4,8 @@ import { prisma, LegalInstrument } from '@lexvera/database';
 import {
   LawReconstructor,
   LegalDiffGenerator,
+  ITE_BASE_DOCUMENT_2008,
+  ITE_ALL_CHANGESETS,
 } from '@lexvera/legal-engine';
 import {
   ConsolidatedLawDocument,
@@ -12,19 +14,53 @@ import {
   ProvisionNode,
 } from '@lexvera/types';
 
-/** Cache keluarga peraturan dalam memori (data pilot statis antar-request). */
-const familyCache = new Map<string, {
-  instrument: LegalInstrument;
+/**
+ * Mode demo: saat database belum tersambung, API melayani dataset pilot
+ * terverifikasi langsung dari legal-engine (sumber yang sama dengan golden test).
+ * Flag source:'engine-demo' selalu ikut di respons agar UI menandainya jujur.
+ * Matikan di produksi dengan DEMO_FALLBACK=false.
+ */
+const DEMO_FALLBACK = process.env.DEMO_FALLBACK !== 'false';
+
+type FamilySource = 'database' | 'engine-demo';
+
+interface Family {
+  source: FamilySource;
+  instrument: Pick<LegalInstrument, 'type' | 'number' | 'year' | 'title' | 'shortTitle' | 'status' | 'slug' | 'description' | 'effectiveFrom' | 'promulgatedAt'>;
   baseDocument: ConsolidatedLawDocument;
   changeSets: ChangeSetPayload[];
-}>();
+}
+
+function demoFamily(): Family {
+  return {
+    source: 'engine-demo',
+    instrument: {
+      type: 'UU',
+      number: 11,
+      year: 2008,
+      title: 'Informasi dan Transaksi Elektronik',
+      shortTitle: 'UU ITE',
+      status: 'DIUBAH',
+      slug: 'ite',
+      description:
+        'Mengatur transaksi elektronik, tanda tangan digital, perbuatan yang dilarang, fitnah online, dan alat bukti elektronik. Diubah dua kali (2016, 2024) dan menjadi pilot konsolidasi deterministik.',
+      effectiveFrom: new Date('2008-04-21T00:00:00Z'),
+      promulgatedAt: new Date('2008-04-21T00:00:00Z'),
+    },
+    baseDocument: ITE_BASE_DOCUMENT_2008,
+    changeSets: ITE_ALL_CHANGESETS,
+  };
+}
+
+/** Cache keluarga peraturan dalam memori (data pilot statis antar-request). */
+const familyCache = new Map<string, Family>();
 
 function labelOf(inst: { type: string; number: number; year: number }): string {
   return `${inst.type} No. ${inst.number} Tahun ${inst.year}`;
 }
 
 /** Ambil keluarga peraturan dari DB dan rakit payload untuk mesin konsolidasi. */
-async function loadFamily(slug: string) {
+async function loadFamilyFromDb(slug: string): Promise<Family> {
   const cached = familyCache.get(slug);
   if (cached) return cached;
 
@@ -110,9 +146,37 @@ async function loadFamily(slug: string) {
     }),
   }));
 
-  const family = { instrument, baseDocument, changeSets };
+  const family: Family = { source: 'database', instrument, baseDocument, changeSets };
   familyCache.set(slug, family);
   return family;
+}
+
+/**
+ * Circuit breaker: setelah gagal konek DB, jangan sentuh DB selama 30 dtk agar
+ * mode demo respons instan. Setelah itu dicoba lagi — begitu database hidup
+ * (mis. VPS), platform otomatis beralih dari demo ke data asli.
+ */
+let dbDownUntil = 0;
+const DB_BREAKER_MS = 30_000;
+
+/**
+ * Pintu masuk tunggal: database lebih dulu; jika DB tidak tersedia/kosong dan
+ * DEMO_FALLBACK aktif, keluarga pilot dilayani dari dataset engine (mode demo).
+ */
+async function loadFamily(slug: string): Promise<Family> {
+  if (DEMO_FALLBACK && slug === 'ite' && Date.now() < dbDownUntil) return demoFamily();
+  try {
+    return await loadFamilyFromDb(slug);
+  } catch (e) {
+    const connFail = isDbConnectionError(e);
+    if (connFail) dbDownUntil = Date.now() + DB_BREAKER_MS;
+    const isDataGap =
+      connFail ||
+      (e instanceof Error &&
+        (e.message === 'INSTRUMENT_NOT_FOUND' || e.message === 'DATABASE_EMPTY'));
+    if (DEMO_FALLBACK && slug === 'ite' && isDataGap) return demoFamily();
+    throw e;
+  }
 }
 
 /** Tanggal snapshot untuk satu "tahun timeline": akhir tahun itu (semua changeset tahun itu sudah efektif). */
@@ -148,6 +212,7 @@ export async function buildServer(): Promise<FastifyInstance> {
     let db: 'ok' | 'unavailable' = 'unavailable';
     let instruments = 0;
     try {
+      if (Date.now() < dbDownUntil) throw new Error('breaker');
       instruments = await prisma.legalInstrument.count();
       db = 'ok';
     } catch {
@@ -156,22 +221,26 @@ export async function buildServer(): Promise<FastifyInstance> {
     return {
       status: 'ok',
       service: 'lexvera-legal-api',
-      version: '0.2.0',
+      version: '0.2.1',
       timestamp: new Date().toISOString(),
       database: db,
+      demoFallback: db === 'unavailable' && DEMO_FALLBACK,
       instruments,
       activeEngines: ['LawReconstructor-v1', 'LegalDiffGenerator-LCS'],
     };
   });
 
-  // 2. Daftar peraturan (dari DB)
+  // 2. Daftar peraturan (dari DB; fallback mode demo bila DB belum siap)
   server.get('/api/v1/instruments', async (request, reply) => {
     try {
+      if (DEMO_FALLBACK && Date.now() < dbDownUntil) throw new Error('DATABASE_EMPTY');
       const instruments = await prisma.legalInstrument.findMany({
         where: { modificationsReceived: { some: {} } },
         include: { modificationsReceived: { include: { amendingInstrument: true } } },
       });
+      if (instruments.length === 0) throw new Error('DATABASE_EMPTY');
       return {
+        source: 'database' as const,
         data: instruments.map((inst) => {
           const years = [
             String(inst.year),
@@ -194,6 +263,28 @@ export async function buildServer(): Promise<FastifyInstance> {
         }),
       };
     } catch (e) {
+      if (DEMO_FALLBACK && (isDbConnectionError(e) || (e instanceof Error && e.message === 'DATABASE_EMPTY'))) {
+        const demo = demoFamily();
+        return {
+          source: demo.source,
+          data: [
+            {
+              id: `uu-${demo.instrument.number}-${demo.instrument.year}`,
+              slug: demo.instrument.slug,
+              type: demo.instrument.type,
+              number: demo.instrument.number,
+              year: demo.instrument.year,
+              title: demo.instrument.title,
+              shortTitle: demo.instrument.shortTitle,
+              description: demo.instrument.description,
+              status: demo.instrument.status,
+              promulgatedAt: demo.instrument.effectiveFrom.toISOString(),
+              availableTimelines: timelineYears(demo).map((y) => ({ year: y })),
+              amendingInstruments: demo.changeSets.map((cs) => cs.amendingInstrument),
+            },
+          ],
+        };
+      }
       if (isDbConnectionError(e)) {
         return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE', hint: 'Jalankan docker compose up -d lalu pnpm db:migrate' });
       }
@@ -208,6 +299,7 @@ export async function buildServer(): Promise<FastifyInstance> {
       const family = await loadFamily(slug);
       const inst = family.instrument;
       return {
+        source: family.source,
         id: `uu-${inst.number}-${inst.year}`,
         slug: inst.slug,
         type: inst.type,
@@ -258,7 +350,7 @@ export async function buildServer(): Promise<FastifyInstance> {
         family.changeSets,
         targetDate
       );
-      return { slug, asOfDate: targetDate, data: snapshot };
+      return { slug, asOfDate: targetDate, source: family.source, data: snapshot };
     } catch (e) {
       if (e instanceof Error && (e.message === 'INSTRUMENT_NOT_FOUND' || e.message === 'DATABASE_EMPTY')) {
         return reply.code(e.message === 'DATABASE_EMPTY' ? 503 : 404).send({

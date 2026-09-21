@@ -20,6 +20,7 @@ interface InstrumentMeta {
   title: string;
   shortTitle?: string;
   status: string;
+  source?: 'database' | 'engine-demo';
   availableTimelines: string[];
   amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
 }
@@ -247,6 +248,15 @@ export default function LawWorkspacePage() {
 
   return (
     <div className="h-screen flex flex-col bg-paper overflow-hidden">
+      {/* Banner Mode Demo (non-blokir) */}
+      {meta?.source === 'engine-demo' && (
+        <div className="bg-brass-wash border-b border-brass/30 text-ink text-xs font-semibold px-4 py-2 flex items-center gap-2">
+          <AlertTriangle className="w-3.5 h-3.5 shrink-0 text-brass" />
+          Mode Demo — data pilot dimuat langsung dari mesin konsolidasi (database belum tersambung).
+          Lihat <Link href="/tentang" className="underline decoration-brass/50 hover:text-seal">Tentang &amp; Disclaimer</Link>.
+        </div>
+      )}
+
       {/* Banner error API (non-blokir) */}
       {apiError && meta && (
         <div className="bg-seal-wash border-b border-seal/20 text-seal-deep text-xs font-semibold px-4 py-2 flex items-center gap-2">

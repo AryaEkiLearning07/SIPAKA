@@ -53,6 +53,7 @@ export default function HomePage() {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json();
         if (cancelled || !Array.isArray(json?.data) || json.data.length === 0) return;
+        setDataSource(json.source === 'database' ? 'database' : 'demo');
         setLaws(
           json.data.map(
             (inst: {
