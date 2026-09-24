@@ -1,7 +1,13 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import {
+  LogIn, UserPlus, ArrowLeft, CheckCircle2, AlertCircle,
+  ShieldCheck, BookOpen, LogOut, Lock, Mail, User as UserIcon,
+  Award
+} from 'lucide-react';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
@@ -13,20 +19,14 @@ interface PublicUser {
 }
 
 const ROLE_LABEL: Record<string, string> = {
-  MAHASISWA: 'Mahasiswa',
-  DOSEN: 'Dosen',
+  MAHASISWA: 'Mahasiswa Hukum',
+  DOSEN: 'Dosen / Peneliti',
   KURATOR: 'Kurator Hukum',
   ADMIN: 'Administrator',
 };
 
-const DEMO_ACCOUNTS = [
-  { email: 'mahasiswa@lexvera.local', password: 'lexvera-mahasiswa', ket: 'Mahasiswa — baca naskah & fitur belajar' },
-  { email: 'dosen@lexvera.local', password: 'lexvera-dosen', ket: 'Dosen — kurasi ringan & anotasi' },
-  { email: 'kurator@lexvera.local', password: 'lexvera-kurator', ket: 'Kurator — menyetujui ChangeSet' },
-  { email: 'admin@lexvera.local', password: 'lexvera-admin', ket: 'Administrator' },
-];
-
 export default function MasukPage() {
+  const router = useRouter();
   const [mode, setMode] = useState<'login' | 'register'>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -37,13 +37,15 @@ export default function MasukPage() {
   const [user, setUser] = useState<PublicUser | null>(null);
 
   // Periksa sesi aktif saat halaman dibuka
-  React.useEffect(() => {
+  useEffect(() => {
     (async () => {
       try {
         const res = await fetch(`${API_BASE}/api/v1/auth/me`, { credentials: 'include' });
         if (res.ok) {
           const json = await res.json();
-          setUser(json.user);
+          if (json.user) {
+            setUser(json.user);
+          }
         }
       } catch {
         /* belum masuk */
@@ -66,209 +68,288 @@ export default function MasukPage() {
       });
       const json = await res.json();
       if (!res.ok) {
-        setError(json?.message || json?.error || `Gagal (HTTP ${res.status})`);
+        setError(json?.message || json?.error || `Gagal masuk (HTTP ${res.status})`);
         return;
       }
       setUser(json.user);
+      router.refresh();
     } catch (err) {
-      setError(`API tidak terjangkau — jalankan API terlebih dahulu. (${err instanceof Error ? err.message : err})`);
+      setError(`API backend tidak terjangkau. Pastikan server API berjalan di port 4000.`);
     } finally {
       setBusy(false);
     }
   };
 
   const logout = async () => {
-    await fetch(`${API_BASE}/api/v1/auth/logout`, { method: 'POST', credentials: 'include' });
+    try {
+      await fetch(`${API_BASE}/api/v1/auth/logout`, { method: 'POST', credentials: 'include' });
+    } catch {
+      // ignore
+    }
     setUser(null);
-  };
-
-  const isiDemo = (e: string, p: string) => {
-    setMode('login');
-    setEmail(e);
-    setPassword(p);
-    setError(null);
+    router.refresh();
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
-      {/* Masthead */}
-      <header className="border-b rule">
-        <div className="max-w-4xl mx-auto px-6 py-5 flex items-baseline justify-between">
-          <Link href="/" className="font-display text-2xl font-semibold tracking-tight">
-            LexVera<span className="text-seal">.</span>
+    <div className="min-h-screen flex flex-col bg-slate-50 font-sans text-slate-800">
+      {/* ── Top Notice Bar (Palet Fakultas Hukum #861619 & Pill #6A2225) ── */}
+      <div className="bg-[#861619] text-white text-xs py-1.5 px-4 sm:px-6 border-b border-[#6A2225] select-none">
+        <div className="max-w-5xl mx-auto flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="bg-[#6A2225] text-amber-300 px-2 py-0.5 rounded font-mono font-bold text-[10px] tracking-wide uppercase shadow-2xs">
+              Autentikasi
+            </span>
+            <span className="text-white/95 text-[11px] truncate font-medium">
+              Ruang Akses Anggota SIPAKA · Akses Publik Naskah Terbuka Tanpa Batas
+            </span>
+          </div>
+          <div className="hidden sm:flex items-center gap-2 text-[11px] text-white/80">
+            <ShieldCheck className="w-3.5 h-3.5 text-amber-300" />
+            <span>Sesi Terenkripsi SHA-256</span>
+          </div>
+        </div>
+      </div>
+
+      {/* ── Header Brand Area (Rich Crimson #94191C) ─────────────── */}
+      <div className="bg-[#94191C] pt-6 pb-24 sm:pb-28 border-b border-[#861619] text-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="w-10 h-10 rounded-xl bg-white text-[#94191C] flex items-center justify-center font-black text-xl shadow-md border border-amber-300/40 group-hover:scale-105 transition-transform">
+              S
+            </div>
+            <div>
+              <span className="font-sans font-black text-2xl text-white tracking-tight flex items-center gap-1">
+                SIPAKA<span className="text-amber-300">.</span>
+              </span>
+              <span className="text-[10px] font-mono uppercase tracking-wider text-amber-200 block font-semibold">
+                Legal-Tech Intelligence &amp; Kodifikasi
+              </span>
+            </div>
           </Link>
-          <Link href="/" className="text-xs font-semibold uppercase tracking-caps text-ink-mute hover:text-seal transition-colors">
-            ← Kembali ke indeks
+
+          <Link
+            href="/"
+            className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-black/25 hover:bg-black/40 border border-white/20 text-xs font-semibold text-white/95 transition-all shadow-2xs hover:shadow-xs"
+          >
+            <ArrowLeft className="w-3.5 h-3.5" />
+            <span>Kembali ke Beranda</span>
           </Link>
         </div>
-        <div className="border-t rule" />
-      </header>
+      </div>
 
-      <main className="flex-1 max-w-4xl w-full mx-auto px-6 py-14 grid md:grid-cols-[5fr_4fr] gap-12 items-start">
-        {/* Form */}
-        <section>
-          <p className="kicker">Ruang Anggota</p>
-          <h1 className="mt-2 font-display text-4xl font-semibold tracking-tight leading-tight">
-            {user ? 'Selamat datang kembali.' : mode === 'login' ? 'Masuk.' : 'Daftar anggota baru.'}
-          </h1>
-          <p className="mt-3 font-serif text-[15px] leading-relaxed text-ink-soft">
-            {user
-              ? 'Sesi Anda aktif. Peran menentukan hak akses kurasi dan fitur belajar.'
-              : 'Membaca naskah tetap terbuka untuk umum; akun menghubungkan Anda dengan fitur belajar dan kurasi.'}
-          </p>
+      {/* ── Main Form Area (Floating Elegant Card -mt-16) ─────────── */}
+      <main className="flex-1 max-w-md w-full mx-auto px-4 -mt-16 sm:-mt-20 pb-16 relative z-10">
+        <div className="bg-white rounded-3xl border border-slate-200 shadow-2xl overflow-hidden">
+          {/* Card Accent Top Bar */}
+          <div className="h-1.5 bg-gradient-to-r from-[#94191C] via-[#861619] to-amber-500" />
 
-          {user ? (
-            <div className="mt-8 border rule bg-paper-deep">
-              <div className="px-5 py-3 border-b rule flex items-center justify-between">
-                <span className="kicker">Sesi Aktif</span>
-                <span className="font-mono text-[10px] text-ink-faint">httpOnly · 7 hari</span>
-              </div>
-              <dl className="px-5 py-4 text-sm space-y-2">
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ink-mute">Nama</dt>
-                  <dd className="font-semibold text-ink">{user.name}</dd>
+          <div className="p-6 sm:p-8">
+            {user ? (
+              /* State: Sesi Sudah Aktif */
+              <div>
+                <div className="text-center mb-6">
+                  <div className="w-14 h-14 rounded-2xl bg-red-50 text-[#94191C] mx-auto flex items-center justify-center font-bold text-2xl mb-3 border border-red-200 shadow-sm">
+                    {user.name.charAt(0).toUpperCase()}
+                  </div>
+                  <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-[#94191C] bg-red-50 px-2.5 py-0.5 rounded-md border border-red-200">
+                    Sesi Aktif
+                  </span>
+                  <h2 className="font-sans text-xl font-extrabold text-slate-900 mt-2">
+                    {user.name}
+                  </h2>
+                  <p className="text-xs text-slate-500 font-mono mt-0.5">{user.email}</p>
                 </div>
-                <div className="flex justify-between gap-4">
-                  <dt className="text-ink-mute">Email</dt>
-                  <dd className="font-mono text-xs text-ink">{user.email}</dd>
-                </div>
-                <div className="flex justify-between gap-4 items-center">
-                  <dt className="text-ink-mute">Peran</dt>
-                  <dd>
-                    <span className="inline-block px-2.5 py-1 text-[11px] font-bold uppercase tracking-caps bg-seal-wash text-seal-deep border border-seal/20">
+
+                <div className="rounded-2xl border border-slate-200 bg-slate-50/70 p-4 space-y-3 text-xs mb-6">
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500 font-medium">Peran Pengguna</span>
+                    <span className="font-bold text-[#94191C] bg-white px-2 py-0.5 rounded border border-slate-200">
                       {ROLE_LABEL[user.role] ?? user.role}
                     </span>
-                  </dd>
-                </div>
-              </dl>
-              <div className="px-5 py-3 border-t rule flex items-center justify-between">
-                <Link href="/uu/ite" className="text-xs font-semibold text-seal hover:underline">
-                  Buka naskah pilot →
-                </Link>
-                <button
-                  onClick={logout}
-                  className="border border-ink/20 px-4 py-2 text-xs font-semibold text-ink hover:border-seal hover:text-seal transition-colors cursor-pointer"
-                >
-                  Keluar
-                </button>
-              </div>
-            </div>
-          ) : (
-            <form onSubmit={submit} className="mt-8 space-y-4" data-testid="form-auth">
-              {mode === 'register' && (
-                <label className="block">
-                  <span className="kicker">Nama Lengkap</span>
-                  <input
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    className="mt-1 w-full bg-white border rule px-3 py-2.5 text-sm focus:outline-none focus:border-seal transition-colors"
-                    placeholder="Nama Anda"
-                  />
-                </label>
-              )}
-              <label className="block">
-                <span className="kicker">Email</span>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="mt-1 w-full bg-white border rule px-3 py-2.5 text-sm focus:outline-none focus:border-seal transition-colors"
-                  placeholder="nama@kampus.ac.id"
-                />
-              </label>
-              <label className="block">
-                <span className="kicker">Password</span>
-                <input
-                  type="password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  className="mt-1 w-full bg-white border rule px-3 py-2.5 text-sm focus:outline-none focus:border-seal transition-colors"
-                  placeholder="minimal 6 karakter"
-                />
-              </label>
-              {mode === 'register' && (
-                <div>
-                  <span className="kicker">Peran</span>
-                  <div className="mt-1 flex gap-2">
-                    {(['MAHASISWA', 'DOSEN'] as const).map((r) => (
-                      <button
-                        key={r}
-                        type="button"
-                        onClick={() => setRole(r)}
-                        className={`px-4 py-2 text-xs font-semibold border transition-colors cursor-pointer ${
-                          role === r
-                            ? 'bg-ink text-paper border-ink'
-                            : 'bg-white text-ink-mute border-ink/20 hover:border-ink/40'
-                        }`}
-                      >
-                        {ROLE_LABEL[r]}
-                      </button>
-                    ))}
                   </div>
-                  <p className="mt-2 text-[11px] text-ink-faint leading-relaxed">
-                    Peran Kurator &amp; Administrator ditetapkan fakultas melalui panel admin.
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500 font-medium">Status Otentikasi</span>
+                    <span className="text-emerald-700 font-semibold flex items-center gap-1">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                      Terverifikasi
+                    </span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500 font-medium">Akses Kurasi</span>
+                    <span className="font-mono text-slate-700">Tersinkronisasi</span>
+                  </div>
+                </div>
+
+                <div className="space-y-2.5">
+                  <Link
+                    href="/uu/ite"
+                    className="w-full inline-flex items-center justify-center gap-2 bg-[#94191C] hover:bg-[#861619] text-white py-3 px-4 rounded-xl text-xs font-bold transition-all shadow-sm cursor-pointer"
+                  >
+                    <BookOpen className="w-4 h-4" />
+                    <span>Buka Naskah Konsolidasi UU ITE</span>
+                  </Link>
+
+                  <button
+                    onClick={logout}
+                    className="w-full inline-flex items-center justify-center gap-2 bg-white hover:bg-red-50 text-slate-700 hover:text-red-700 border border-slate-200 hover:border-red-200 py-2.5 px-4 rounded-xl text-xs font-semibold transition-all cursor-pointer shadow-2xs"
+                  >
+                    <LogOut className="w-3.5 h-3.5" />
+                    <span>Keluar dari Sesi</span>
+                  </button>
+                </div>
+              </div>
+            ) : (
+              /* State: Form Masuk / Daftar Akun */
+              <div>
+                {/* Switcher Tab Masuk vs Daftar */}
+                <div className="flex items-center bg-slate-100 p-1 rounded-2xl border border-slate-200 text-xs font-semibold mb-6">
+                  <button
+                    type="button"
+                    onClick={() => { setMode('login'); setError(null); }}
+                    className={`flex-1 py-2 rounded-xl transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      mode === 'login'
+                        ? 'bg-[#94191C] text-white shadow-sm font-bold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    <LogIn className="w-3.5 h-3.5" />
+                    <span>Masuk</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => { setMode('register'); setError(null); }}
+                    className={`flex-1 py-2 rounded-xl transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      mode === 'register'
+                        ? 'bg-[#94191C] text-white shadow-sm font-bold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    <UserPlus className="w-3.5 h-3.5" />
+                    <span>Daftar</span>
+                  </button>
+                </div>
+
+                <div className="mb-5">
+                  <h2 className="font-sans text-xl font-extrabold text-slate-900">
+                    {mode === 'login' ? 'Masuk ke SIPAKA' : 'Pendaftaran Anggota Baru'}
+                  </h2>
+                  <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+                    {mode === 'login'
+                      ? 'Silakan masukkan kredensial akun terdaftar Anda.'
+                      : 'Lengkapi data untuk membuat akun mahasiswa atau dosen.'}
                   </p>
                 </div>
-              )}
-              {error && (
-                <p className="text-xs font-semibold text-seal-deep bg-seal-wash border border-seal/20 px-3 py-2">
-                  {error}
-                </p>
-              )}
-              <div className="flex items-center gap-4 pt-2">
-                <button
-                  type="submit"
-                  disabled={busy}
-                  className="bg-ink text-paper px-5 py-3 text-sm font-semibold hover:bg-ink-soft transition-colors disabled:opacity-50 cursor-pointer"
-                >
-                  {busy ? 'Memproses…' : mode === 'login' ? 'Masuk' : 'Daftar & Masuk'}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => { setMode(mode === 'login' ? 'register' : 'login'); setError(null); }}
-                  className="text-xs font-semibold text-ink-mute hover:text-seal transition-colors cursor-pointer"
-                >
-                  {mode === 'login' ? 'Belum punya akun? Daftar →' : '← Kembali masuk'}
-                </button>
-              </div>
-            </form>
-          )}
-        </section>
 
-        {/* Panel akun demo */}
-        {!user && (
-          <aside className="border rule bg-paper-deep">
-            <div className="px-5 py-3 border-b rule">
-              <span className="kicker">Akun Demo · Klik untuk mengisi</span>
-            </div>
-            <ul className="divide-y divide-ink/5">
-              {DEMO_ACCOUNTS.map((a) => (
-                <li key={a.email}>
+                <form onSubmit={submit} className="space-y-4">
+                  {mode === 'register' && (
+                    <div>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1">
+                        Nama Lengkap
+                      </label>
+                      <div className="relative flex items-center">
+                        <UserIcon className="w-4 h-4 text-slate-400 absolute left-3.5" />
+                        <input
+                          type="text"
+                          required
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
+                          placeholder="Nama lengkap dan gelar"
+                          className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#94191C] focus:bg-white focus:ring-3 focus:ring-red-100 transition-all font-medium"
+                        />
+                      </div>
+                    </div>
+                  )}
+
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      Alamat Email
+                    </label>
+                    <div className="relative flex items-center">
+                      <Mail className="w-4 h-4 text-slate-400 absolute left-3.5" />
+                      <input
+                        type="email"
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="nama@email.com"
+                        className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#94191C] focus:bg-white focus:ring-3 focus:ring-red-100 transition-all font-medium"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
+                      Kata Sandi
+                    </label>
+                    <div className="relative flex items-center">
+                      <Lock className="w-4 h-4 text-slate-400 absolute left-3.5" />
+                      <input
+                        type="password"
+                        required
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        placeholder="Minimal 6 karakter"
+                        className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#94191C] focus:bg-white focus:ring-3 focus:ring-red-100 transition-all font-medium"
+                      />
+                    </div>
+                  </div>
+
+                  {mode === 'register' && (
+                    <div>
+                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Pilih Peran Akademik
+                      </label>
+                      <div className="grid grid-cols-2 gap-2">
+                        {(['MAHASISWA', 'DOSEN'] as const).map((r) => (
+                          <button
+                            key={r}
+                            type="button"
+                            onClick={() => setRole(r)}
+                            className={`py-2 px-3 text-xs font-semibold rounded-xl border transition-all cursor-pointer ${
+                              role === r
+                                ? 'bg-[#94191C] text-white border-[#94191C] shadow-xs'
+                                : 'bg-slate-50 text-slate-600 border-slate-200 hover:border-slate-300'
+                            }`}
+                          >
+                            {ROLE_LABEL[r]}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {error && (
+                    <div className="rounded-xl text-xs font-medium text-rose-800 bg-rose-50 border border-rose-200 p-3 flex items-start gap-2">
+                      <AlertCircle className="w-4 h-4 text-rose-600 shrink-0 mt-0.5" />
+                      <span className="leading-relaxed">{error}</span>
+                    </div>
+                  )}
+
                   <button
-                    onClick={() => isiDemo(a.email, a.password)}
-                    className="w-full text-left px-5 py-3.5 hover:bg-white transition-colors cursor-pointer"
+                    type="submit"
+                    disabled={busy}
+                    className="w-full bg-[#94191C] hover:bg-[#861619] disabled:opacity-50 text-white py-3 rounded-xl text-xs sm:text-sm font-bold transition-all shadow-md cursor-pointer flex items-center justify-center gap-1.5"
                   >
-                    <p className="font-mono text-xs text-seal">{a.email}</p>
-                    <p className="text-[11px] text-ink-mute mt-0.5">
-                      {a.ket} · sandi: <span className="font-mono">{a.password}</span>
-                    </p>
+                    <span>{busy ? 'Memproses…' : mode === 'login' ? 'Masuk ke Akun' : 'Daftar Sekarang'}</span>
                   </button>
-                </li>
-              ))}
-            </ul>
-            <div className="px-5 py-3 border-t rule">
-              <p className="text-[11px] leading-relaxed text-ink-faint">
-                Akun demo hanya untuk masa pengembangan dan di-seed ulang setiap kali
-                <span className="font-mono"> db:seed</span> dijalankan.
-              </p>
-            </div>
-          </aside>
-        )}
+                </form>
+
+                {/* Penjelasan Transparansi Publik */}
+                <div className="mt-6 pt-4 border-t border-slate-100 text-center">
+                  <p className="text-[11px] text-slate-500 leading-relaxed">
+                    Seluruh naskah undang-undang dan pelacakan amandemen dapat dibaca bebas tanpa login. Akun ditujukan untuk keperluan kurasi dan pencatatan akademik.
+                  </p>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
       </main>
 
-      <footer className="border-t rule">
-        <div className="max-w-4xl mx-auto px-6 py-8 text-[11px] font-semibold uppercase tracking-caps text-ink-faint">
-          LexVera · Naskah riset non-resmi — rujuk Lembaran Negara RI untuk naskah resmi
+      {/* ── Footer Bernuansa Mahogani Gelap ───────────────────────── */}
+      <footer className="border-t border-[#3A0F08] bg-[#1E0507] text-white py-6">
+        <div className="max-w-5xl mx-auto px-4 text-center text-xs text-white/60">
+          SIPAKA · Sistem Informasi Pelacakan Amandemen, Kodifikasi, dan Advokasi Hukum
         </div>
       </footer>
     </div>

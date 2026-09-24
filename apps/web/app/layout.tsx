@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'LexVera — Version Control Perundang-Undangan Indonesia',
+  title: 'SIPAKA — Sistem Informasi Pelacakan Amandemen, Kodifikasi & Advokasi',
   description:
-    'Naskah konsolidasi deterministik, silsilah amandemen, dan diff per pasal. Alat riset hukum untuk sivitas akademika.',
+    'Sistem Informasi Pelacakan Amandemen, Kodifikasi, dan Advokasi Regulasi Indonesia. Naskah konsolidasi deterministik berbasis Lembaran Negara RI.',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap"
           rel="stylesheet"
         />
       </head>

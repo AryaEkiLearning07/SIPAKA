@@ -232,7 +232,7 @@ export async function buildServer(): Promise<FastifyInstance> {
     }
     return {
       status: 'ok',
-      service: 'lexvera-legal-api',
+      service: 'siapaka-legal-api',
       version: '0.2.1',
       timestamp: new Date().toISOString(),
       database: db,
