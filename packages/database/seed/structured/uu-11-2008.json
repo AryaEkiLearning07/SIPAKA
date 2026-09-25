@@ -29,9 +29,36 @@
      "type": "PASAL",
      "orderIndex": 1,
      "label": "Pasal 1",
-     "content": "Dalam Undang-Undang ini yang dimaksud dengan: 1. 2. 3. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya. Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya. Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
      "versionTag": "ORIGINAL_2008",
      "children": [
+      {
+       "canonicalPath": "uu-11-2008/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+       "versionTag": "ORIGINAL_2008",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-11-2008/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.",
+       "versionTag": "ORIGINAL_2008",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-11-2008/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.",
+       "versionTag": "ORIGINAL_2008",
+       "children": []
+      },
       {
        "canonicalPath": "uu-11-2008/pasal-1/angka-4",
        "type": "ANGKA",
@@ -46,7 +73,25 @@
        "type": "ANGKA",
        "orderIndex": 5,
        "label": "Angka 5",
-       "content": "Sistem . . . Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik. 6. 7. Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat. Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.",
+       "content": "Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik.",
+       "versionTag": "ORIGINAL_2008",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-11-2008/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat.",
+       "versionTag": "ORIGINAL_2008",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-11-2008/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -136,7 +181,7 @@
        "type": "ANGKA",
        "orderIndex": 17,
        "label": "Angka 17",
-       "content": "Kontrak . . . Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.",
+       "content": "Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -221,7 +266,7 @@
      "type": "PASAL",
      "orderIndex": 3,
      "label": "Pasal 3",
-     "content": "Pemanfaatan Teknologi Informasi dan Transaksi Elektronik dilaksanakan berdasarkan asas kepastian hukum, manfaat, kehati-hatian, iktikad baik, dan kebebasan memilih teknologi atau netral teknologi. Pasal 4 . . .",
+     "content": "Pemanfaatan Teknologi Informasi dan Transaksi Elektronik dilaksanakan berdasarkan asas kepastian hukum, manfaat, kehati-hatian, iktikad baik, dan kebebasan memilih teknologi atau netral teknologi. Pasal",
      "versionTag": "ORIGINAL_2008",
      "children": []
     },
@@ -275,7 +320,7 @@
          "type": "HURUF",
          "orderIndex": 2,
          "label": "Huruf b",
-         "content": "surat beserta dokumennya yang menurut Undang- Undang harus dibuat dalam bentuk akta notaril atau akta yang dibuat oleh pejabat pembuat akta. Pasal 6 . . .",
+         "content": "surat beserta dokumennya yang menurut Undang- Undang harus dibuat dalam bentuk akta notaril atau akta yang dibuat oleh pejabat pembuat akta. Pasal",
          "versionTag": "ORIGINAL_2008",
          "children": []
         }
@@ -358,7 +403,7 @@
          "type": "HURUF",
          "orderIndex": 2,
          "label": "Huruf b",
-         "content": "waktu . . . waktu penerimaan adalah ketika Informasi Elektronik dan/atau Dokumen Elektronik memasuki sistem informasi terakhir yang berada di bawah kendali Penerima.",
+         "content": "waktu penerimaan adalah ketika Informasi Elektronik dan/atau Dokumen Elektronik memasuki sistem informasi terakhir yang berada di bawah kendali Penerima.",
          "versionTag": "ORIGINAL_2008",
          "children": []
         }
@@ -425,7 +470,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Ketentuan . . . Ketentuan lebih lanjut tentang Tanda Tangan Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "content": "Ketentuan lebih lanjut tentang Tanda Tangan Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -462,7 +507,7 @@
        "type": "AYAT",
        "orderIndex": 3,
        "label": "Ayat (3)",
-       "content": "Setiap Orang yang melakukan pelanggaran ketentuan sebagaimana dimaksud pada ayat (1), bertanggung jawab atas segala kerugian dan konsekuensi hukum yang timbul. BAB IV . . .",
+       "content": "Setiap Orang yang melakukan pelanggaran ketentuan sebagaimana dimaksud pada ayat (1), bertanggung jawab atas segala kerugian dan konsekuensi hukum yang timbul. BAB",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -539,7 +584,7 @@
      "type": "PASAL",
      "orderIndex": 14,
      "label": "Pasal 14",
-     "content": "Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 13 ayat (1) sampai dengan ayat (5) harus menyediakan informasi yang akurat, jelas, dan pasti kepada setiap pengguna jasa, yang meliputi: a. metode yang digunakan untuk mengidentifikasi Penanda Tangan; b. c. hal yang dapat digunakan untuk mengetahui data diri pembuat Tanda Tangan Elektronik; dan hal yang dapat digunakan untuk menunjukkan keberlakuan dan keamanan Tanda Tangan Elektronik. Bagian Kedua . . . Bagian Kedua Penyelenggaraan Sistem Elektronik",
+     "content": "Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 13 ayat (1) sampai dengan ayat (5) harus menyediakan informasi yang akurat, jelas, dan pasti kepada setiap pengguna jasa, yang meliputi: a. metode yang digunakan untuk mengidentifikasi Penanda Tangan; b. c. hal yang dapat digunakan untuk mengetahui data diri pembuat Tanda Tangan Elektronik; dan hal yang dapat digunakan untuk menunjukkan keberlakuan dan keamanan Tanda Tangan Elektronik. Bagian Bagian Kedua Penyelenggaraan Sistem Elektronik",
      "versionTag": "ORIGINAL_2008",
      "children": []
     },
@@ -612,7 +657,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Ketentuan lebih lanjut tentang Penyelenggaraan Sistem Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. BAB V . . .",
+       "content": "Ketentuan lebih lanjut tentang Penyelenggaraan Sistem Elektronik sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. BAB",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -726,7 +771,7 @@
      "type": "PASAL",
      "orderIndex": 19,
      "label": "Pasal 19",
-     "content": "Para pihak yang melakukan Transaksi Elektronik harus menggunakan Sistem Elektronik yang disepakati. Pasal 20 . . .",
+     "content": "Para pihak yang melakukan Transaksi Elektronik harus menggunakan Sistem Elektronik yang disepakati. Pasal",
      "versionTag": "ORIGINAL_2008",
      "children": []
     },
@@ -807,7 +852,7 @@
        "type": "AYAT",
        "orderIndex": 5,
        "label": "Ayat (5)",
-       "content": "Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam hal dapat dibuktikan terjadinya keadaan memaksa, kesalahan, dan/atau kelalaian pihak pengguna Sistem Elektronik. Pasal 22 . . .",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku dalam hal dapat dibuktikan terjadinya keadaan memaksa, kesalahan, dan/atau kelalaian pihak pengguna Sistem Elektronik. Pasal",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -929,7 +974,7 @@
        "type": "AYAT",
        "orderIndex": 4,
        "label": "Ayat (4)",
-       "content": "Ketentuan lebih lanjut mengenai pengelolaan Nama Domain sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Pemerintah. Pasal 25 . . .",
+       "content": "Ketentuan lebih lanjut mengenai pengelolaan Nama Domain sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Pemerintah. Pasal",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -1023,7 +1068,7 @@
        "type": "AYAT",
        "orderIndex": 4,
        "label": "Ayat (4)",
-       "content": "Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman. Pasal 28 . . .",
+       "content": "Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman. Pasal",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }
@@ -1125,7 +1170,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Setiap . . . Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atas transmisi Informasi Elektronik dan/atau Dokumen Elektronik yang tidak bersifat publik dari, ke, dan di dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain, baik yang tidak menyebabkan perubahan apa pun maupun yang menyebabkan adanya perubahan, penghilangan, dan/atau penghentian Informasi Elektronik dan/atau Dokumen Elektronik yang sedang ditransmisikan.",
+       "content": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atas transmisi Informasi Elektronik dan/atau Dokumen Elektronik yang tidak bersifat publik dari, ke, dan di dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain, baik yang tidak menyebabkan perubahan apa pun maupun yang menyebabkan adanya perubahan, penghilangan, dan/atau penghentian Informasi Elektronik dan/atau Dokumen Elektronik yang sedang ditransmisikan.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1191,7 +1236,7 @@
      "type": "PASAL",
      "orderIndex": 33,
      "label": "Pasal 33",
-     "content": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan tindakan apa pun yang berakibat terganggunya Sistem Elektronik dan/atau mengakibatkan Sistem Elektronik menjadi tidak bekerja sebagaimana mestinya. Pasal 34 . . .",
+     "content": "Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan tindakan apa pun yang berakibat terganggunya Sistem Elektronik dan/atau mengakibatkan Sistem Elektronik menjadi tidak bekerja sebagaimana mestinya. Pasal",
      "versionTag": "ORIGINAL_2008",
      "children": []
     },
@@ -1265,7 +1310,7 @@
      "type": "PASAL",
      "orderIndex": 37,
      "label": "Pasal 37",
-     "content": "Setiap Orang dengan sengaja melakukan perbuatan yang dilarang sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 36 di luar wilayah Indonesia terhadap Sistem Elektronik yang berada di wilayah yurisdiksi Indonesia. BAB VIII . . .",
+     "content": "Setiap Orang dengan sengaja melakukan perbuatan yang dilarang sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 36 di luar wilayah Indonesia terhadap Sistem Elektronik yang berada di wilayah yurisdiksi Indonesia. BAB",
      "versionTag": "ORIGINAL_2008",
      "children": []
     }
@@ -1387,7 +1432,7 @@
        "type": "AYAT",
        "orderIndex": 5,
        "label": "Ayat (5)",
-       "content": "Instansi . . . (5) Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan perlindungan data yang dimilikinya.",
+       "content": "(5) Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan perlindungan data yang dimilikinya.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1481,7 +1526,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Penyidikan . . . Penyidikan di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan perlindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, integritas data, atau keutuhan data sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "content": "Penyidikan di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan perlindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, integritas data, atau keutuhan data sesuai dengan ketentuan Peraturan Perundang-undangan.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1579,7 +1624,7 @@
          "type": "HURUF",
          "orderIndex": 8,
          "label": "Huruf h",
-         "content": "meminta . . . meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana berdasarkan Undang-Undang ini; dan/atau",
+         "content": "meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana berdasarkan Undang-Undang ini; dan/atau",
          "versionTag": "ORIGINAL_2008",
          "children": []
         },
@@ -1674,7 +1719,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Setiap . . . Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 28 ayat (1) atau ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+       "content": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 28 ayat (1) atau ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1757,7 +1802,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Setiap . . . Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (2) dipidana dengan pidana penjara paling lama 9 (sembilan) tahun dan/atau denda paling banyak Rp3.000.000.000,00 (tiga miliar rupiah).",
+       "content": "Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (2) dipidana dengan pidana penjara paling lama 9 (sembilan) tahun dan/atau denda paling banyak Rp3.000.000.000,00 (tiga miliar rupiah).",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1840,7 +1885,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Dalam . . . ( 2) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau yang digunakan untuk layanan publik dipidana dengan pidana pokok ditambah sepertiga. ( 3) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau badan strategis termasuk dan tidak terbatas pada lembaga pertahanan, bank sentral, perbankan, keuangan, lembaga internasional, otoritas penerbangan diancam dengan pidana maksimal ancaman pidana pokok masing-masing Pasal ditambah dua pertiga.",
+       "content": "( 2) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau yang digunakan untuk layanan publik dipidana dengan pidana pokok ditambah sepertiga. ( 3) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau badan strategis termasuk dan tidak terbatas pada lembaga pertahanan, bank sentral, perbankan, keuangan, lembaga internasional, otoritas penerbangan diancam dengan pidana maksimal ancaman pidana pokok masing-masing Pasal ditambah dua pertiga.",
        "versionTag": "ORIGINAL_2008",
        "children": []
       },
@@ -1908,7 +1953,7 @@
        "type": "AYAT",
        "orderIndex": 2,
        "label": "Ayat (2)",
-       "content": "Peraturan Pemerintah harus sudah ditetapkan paling lama 2 (dua) tahun setelah diundangkannya Undang-Undang ini. Agar. . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 21 April 2008 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 April 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ANDI MATTALATA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 58",
+       "content": "Peraturan Pemerintah harus sudah ditetapkan paling lama 2 (dua) tahun setelah diundangkannya Undang-Undang ini. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 21 April 2008 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 April 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ANDI MATTALATA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 58",
        "versionTag": "ORIGINAL_2008",
        "children": []
       }

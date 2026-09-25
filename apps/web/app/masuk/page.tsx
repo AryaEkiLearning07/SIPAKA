@@ -2,11 +2,12 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import {
   LogIn, UserPlus, ArrowLeft, CheckCircle2, AlertCircle,
   ShieldCheck, BookOpen, LogOut, Lock, Mail, User as UserIcon,
-  Award
+  Eye, EyeOff, GraduationCap, Scale
 } from 'lucide-react';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
@@ -30,6 +31,7 @@ export default function MasukPage() {
   const [mode, setMode] = useState<'login' | 'register'>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [name, setName] = useState('');
   const [role, setRole] = useState<'MAHASISWA' | 'DOSEN'>('MAHASISWA');
   const [error, setError] = useState<string | null>(null);
@@ -73,8 +75,8 @@ export default function MasukPage() {
       }
       setUser(json.user);
       router.refresh();
-    } catch (err) {
-      setError(`API backend tidak terjangkau. Pastikan server API berjalan di port 4000.`);
+    } catch {
+      setError('API backend tidak terjangkau. Pastikan server API berjalan di port 4000.');
     } finally {
       setBusy(false);
     }
@@ -114,8 +116,16 @@ export default function MasukPage() {
       <div className="bg-[#94191C] pt-6 pb-24 sm:pb-28 border-b border-[#861619] text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-white text-[#94191C] flex items-center justify-center font-black text-xl shadow-md border border-amber-300/40 group-hover:scale-105 transition-transform">
-              S
+            <div className="relative h-11 w-14 sm:h-12 sm:w-16 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+              <Image
+                src="/logoSIPAKA.png"
+                alt="Logo SIPAKA"
+                width={64}
+                height={52}
+                className="w-full h-full object-contain drop-shadow-md"
+                priority
+                unoptimized
+              />
             </div>
             <div>
               <span className="font-sans font-black text-2xl text-white tracking-tight flex items-center gap-1">
@@ -284,13 +294,21 @@ export default function MasukPage() {
                     <div className="relative flex items-center">
                       <Lock className="w-4 h-4 text-slate-400 absolute left-3.5" />
                       <input
-                        type="password"
+                        type={showPassword ? 'text' : 'password'}
                         required
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Minimal 6 karakter"
-                        className="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#94191C] focus:bg-white focus:ring-3 focus:ring-red-100 transition-all font-medium"
+                        className="w-full pl-10 pr-10 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:border-[#94191C] focus:bg-white focus:ring-3 focus:ring-red-100 transition-all font-medium"
                       />
+                      <button
+                        type="button"
+                        onClick={() => setShowPassword(!showPassword)}
+                        className="absolute right-3 text-slate-400 hover:text-slate-600 focus:outline-none cursor-pointer"
+                        title={showPassword ? 'Sembunyikan kata sandi' : 'Tampilkan kata sandi'}
+                      >
+                        {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                      </button>
                     </div>
                   </div>
 
@@ -300,20 +318,30 @@ export default function MasukPage() {
                         Pilih Peran Akademik
                       </label>
                       <div className="grid grid-cols-2 gap-2">
-                        {(['MAHASISWA', 'DOSEN'] as const).map((r) => (
-                          <button
-                            key={r}
-                            type="button"
-                            onClick={() => setRole(r)}
-                            className={`py-2 px-3 text-xs font-semibold rounded-xl border transition-all cursor-pointer ${
-                              role === r
-                                ? 'bg-[#94191C] text-white border-[#94191C] shadow-xs'
-                                : 'bg-slate-50 text-slate-600 border-slate-200 hover:border-slate-300'
-                            }`}
-                          >
-                            {ROLE_LABEL[r]}
-                          </button>
-                        ))}
+                        <button
+                          type="button"
+                          onClick={() => setRole('MAHASISWA')}
+                          className={`py-2 px-3 text-xs font-semibold rounded-xl border transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                            role === 'MAHASISWA'
+                              ? 'bg-[#94191C] text-white border-[#94191C] shadow-xs'
+                              : 'bg-slate-50 text-slate-600 border-slate-200 hover:border-slate-300'
+                          }`}
+                        >
+                          <GraduationCap className="w-3.5 h-3.5" />
+                          <span>Mahasiswa</span>
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setRole('DOSEN')}
+                          className={`py-2 px-3 text-xs font-semibold rounded-xl border transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                            role === 'DOSEN'
+                              ? 'bg-[#94191C] text-white border-[#94191C] shadow-xs'
+                              : 'bg-slate-50 text-slate-600 border-slate-200 hover:border-slate-300'
+                          }`}
+                        >
+                          <Scale className="w-3.5 h-3.5" />
+                          <span>Dosen / Peneliti</span>
+                        </button>
                       </div>
                     </div>
                   )}

@@ -21,9 +21,12 @@ export interface ProvisionAmendmentDetail {
   pasalLabel: string;
   diubahOleh: string;
   tanggalPengundangan: string;
+  disahkanOleh?: string;
   lembaranNegara: string;
   statusPerubahan: 'DIUBAH' | 'SISIPAN_BARU' | 'DICABUT' | 'ASLI';
   statusBadge: string;
+  textSebelum?: string;
+  textSesudah?: string;
   putusanMk?: {
     nomor: string;
     tahun: number;
@@ -39,11 +42,14 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
   'uu-11-2008/pasal-27': {
     canonicalPath: 'uu-11-2008/pasal-27',
     pasalLabel: 'Pasal 27',
-    diubahOleh: 'UU No. 1 Tahun 2024 & UU No. 19 Tahun 2016',
-    tanggalPengundangan: '2 Januari 2024 (UU 1/2024) & 28 November 2016 (UU 19/2016)',
-    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916 (Amandemen II)',
+    diubahOleh: 'UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE (Pasal I angka 2)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2024 Nomor 8, Tambahan Lembaran Negara Nomor 6916',
     statusPerubahan: 'DIUBAH',
-    statusBadge: 'Diubah & Dipecah (UU 1/2024)',
+    statusBadge: '🟡 Diubah & Dipecah (UU 1/2024)',
+    textSebelum: 'Pasal 27 memuat 4 ayat: (1) Kesusilaan; (2) Perjudian; (3) Penghinaan atau pencemaran nama baik; (4) Pemerasan dan/atau pengancaman.',
+    textSesudah: 'Pasal 27 ayat (1) diubah redaksinya (dikecualikan untuk kepentingan umum/pembelaan diri/seni); ayat (2) diubah mempertegas judi online; ayat (3) dan ayat (4) DIHAPUS dan dipisahkan menjadi Pasal 27A dan Pasal 27B.',
     putusanMk: {
       nomor: 'Putusan MK No. 50/PUU-VI/2008 & No. 2/PUU-VII/2009',
       tahun: 2008,
@@ -103,17 +109,53 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
     ],
   },
 
+  // ── Pasal 27 ayat (1) ─────────────────────────────────────────────────────
+  'uu-11-2008/pasal-27/ayat-1': {
+    canonicalPath: 'uu-11-2008/pasal-27/ayat-1',
+    pasalLabel: 'Pasal 27 ayat (1)',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 2 huruf a)',
+    tanggalPengundangan: 'Disahkan: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    statusPerubahan: 'DIUBAH',
+    statusBadge: '🟡 Redaksi Diperjelas (UU 1/2024)',
+    textSebelum: 'Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan.',
+    textSesudah: 'Setiap Orang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum.',
+    latarBelakangPerubahan: 'Menambahkan frasa "untuk diketahui umum" serta klausul pengecualian dalam penjelasan untuk karya seni, budaya, ilmu pengetahuan, atau pembelaan diri agar ranah privasi warga tidak dikriminalisasi.',
+    peraturanTerdampak: [
+      {
+        id: 'pp-71-2019-pasal-5-p27a1',
+        type: 'PP',
+        number: 'PP No. 71 Tahun 2019',
+        year: 2019,
+        title: 'PSTE',
+        pasalTurunan: 'Pasal 5 ayat (2)',
+        status: 'PERLU_PENYESUAIAN',
+        statusLabel: '⚠️ Perlu Sinkronisasi Pengecualian',
+        ringkasanDampak: 'Kewajiban filtering PSE wajib mengecualikan transmisi konten privat antar dua individu.',
+        uuIndukSebelum: 'Larangan kesusilaan tanpa kualifikasi "untuk diketahui umum".',
+        uuIndukSesudah: 'Wajib memenuhi unsur publisitas "untuk diketahui umum".',
+        ketentuanTurunanTerdampak: 'Tata kelola takedown konten asusila oleh PSE.',
+        penjelasanPertentangan: 'PSE dilarang memblokir komunikasi privat terenkripsi end-to-end tanpa adanya distribusi ke ruang publik.',
+        rekomendasiHarmonisasi: 'Harmonisasi Permen Komdigi terkait batasan intervensi ruang percakapan privat.',
+      },
+    ],
+  },
+
   // ── Pasal 27 ayat (3) ─────────────────────────────────────────────────────
   'uu-11-2008/pasal-27/ayat-3': {
     canonicalPath: 'uu-11-2008/pasal-27/ayat-3',
     pasalLabel: 'Pasal 27 ayat (3)',
     diubahOleh: 'UU No. 1 Tahun 2024 (Dihapus) jo. UU No. 19 Tahun 2016',
-    tanggalPengundangan: '2 Januari 2024 (LN RI Tahun 2024 No. 8)',
+    tanggalPengundangan: 'Disahkan: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
     lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
     statusPerubahan: 'DICABUT',
     statusBadge: '🔴 Ketentuan Norma Dihapus / Dicabut',
+    textSebelum: 'Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik.',
+    textSesudah: '[KETENTUAN AYAT DIHAPUS OLEH PASAL I ANGKA 2 HURUF b UU NO. 1 TAHUN 2024]. Norma delik dialihkan dan diperinci secara ketat ke dalam Pasal 27A.',
     putusanMk: {
-      nomor: 'Putusan MK No. 50/PUU-VI/2008',
+      nomor: 'Putusan MK No. 50/PUU-VI/2008 & Putusan No. 2/PUU-VII/2009',
       tahun: 2008,
       amarPutusan: 'Ketentuan ini merupakan delik aduan dan merujuk pada Pasal 310 dan 311 KUHP.',
       ratioDecidendi: 'Menjamin agar penegak hukum tidak menggunakan delik ini secara ex-officio tanpa adanya permohonan dari korban yang merasa dicemarkan nama baiknya.',
@@ -136,6 +178,55 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
         penjelasanPertentangan: 'PP tidak boleh mengatur sanksi atau pelarangan yang norma induknya dalam undang-undang telah dihapus.',
         rekomendasiHarmonisasi: 'Segera lakukan revisi PP 71/2019 untuk mencabut klausul terkait Pasal 27 ayat (3).',
       },
+      {
+        id: 'skb-pedoman-polri-2021',
+        type: 'SKB',
+        number: 'Surat Telegram Kapolri No. ST/339/II/RES.1.1.1./2021',
+        year: 2021,
+        title: 'Pedoman Penanganan Perkara Siber Pasal 27 ayat (3)',
+        pasalTurunan: 'Petunjuk Teknis Gelar Perkara Siber',
+        status: 'USANG',
+        statusLabel: '🔴 Tidak Berlaku Lagi',
+        ringkasanDampak: 'Surat Telegram Kapolri terkait Pasal 27 ayat (3) tidak dapat dijadikan rujukan penyidikan lagi.',
+        uuIndukSebelum: 'Pasal 27 ayat (3) rujukan laporan pidana penghinaan.',
+        uuIndukSesudah: 'Laporan wajib merujuk Pasal 27A dengan syarat pembuktian tuduhan perbuatan spesifik.',
+        ketentuanTurunanTerdampak: 'Format Laporan Polisi (LP) di Bareskrim dan Polda.',
+        penjelasanPertentangan: 'Penyidik yang menerbitkan LP dengan sangkaan Pasal 27 ayat (3) pasca 2 Januari 2024 batal demi hukum.',
+        rekomendasiHarmonisasi: 'Kapolri menerbitkan Telegram Rahasia pembaruan format sangkaan pidana ke Pasal 27A.',
+      },
+    ],
+  },
+
+  // ── Pasal 27 ayat (4) ─────────────────────────────────────────────────────
+  'uu-11-2008/pasal-27/ayat-4': {
+    canonicalPath: 'uu-11-2008/pasal-27/ayat-4',
+    pasalLabel: 'Pasal 27 ayat (4)',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Dihapus) jo. UU No. 19 Tahun 2016',
+    tanggalPengundangan: 'Disahkan: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    statusPerubahan: 'DICABUT',
+    statusBadge: '🔴 Ketentuan Norma Dihapus / Dicabut',
+    textSebelum: 'Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman.',
+    textSesudah: '[KETENTUAN AYAT DIHAPUS OLEH PASAL I ANGKA 2 HURUF c UU NO. 1 TAHUN 2024]. Norma pemerasan dan pengancaman dialihkan ke Pasal 27B.',
+    latarBelakangPerubahan: 'Ketentuan dihapus dan diperluas konstruksinya ke Pasal 27B yang memisahkan secara spesifik antara ancaman pencemaran dengan ancaman kekerasan fisik.',
+    peraturanTerdampak: [
+      {
+        id: 'skb-pemerasan-2021',
+        type: 'SKB',
+        number: 'SKB 3 Menteri Pedoman UU ITE',
+        year: 2021,
+        title: 'Pedoman Pasal 27 ayat (4)',
+        pasalTurunan: 'Angka 4 Lampiran SKB',
+        status: 'USANG',
+        statusLabel: '🔴 Tidak Berlaku Lagi',
+        ringkasanDampak: 'Pedoman kehilangan objek pengaturan karena pasal telah dipindahkan ke Pasal 27B.',
+        uuIndukSebelum: 'Pasal 27 ayat (4) UU ITE 2016.',
+        uuIndukSesudah: 'Pasal 27B UU 1/2024.',
+        ketentuanTurunanTerdampak: 'Pedoman penuntutan jaksa.',
+        penjelasanPertentangan: 'Rujukan pasal dalam surat dakwaan harus diperbarui ke Pasal 27B.',
+        rekomendasiHarmonisasi: 'Kejaksaan menerbitkan SE pedoman dakwaan Pasal 27B.',
+      },
     ],
   },
 
@@ -143,11 +234,14 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
   'uu-11-2008/pasal-27a': {
     canonicalPath: 'uu-11-2008/pasal-27a',
     pasalLabel: 'Pasal 27A',
-    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 3)',
-    tanggalPengundangan: '2 Januari 2024',
-    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    diubahOleh: 'UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE (Pasal I angka 3)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2024 Nomor 8, Tambahan Lembaran Negara Nomor 6916',
     statusPerubahan: 'SISIPAN_BARU',
     statusBadge: '🟢 Sisipan Baru (Hukum Positif Berlaku)',
+    textSebelum: '(Ketentuan norma belum ada pada UU No. 11 Tahun 2008 maupun UU No. 19 Tahun 2016)',
+    textSesudah: 'Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik.',
     putusanMk: {
       nomor: 'Putusan MK No. 50/PUU-VI/2008 (Pondasi Konstitusional)',
       tahun: 2008,
@@ -195,11 +289,14 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
   'uu-11-2008/pasal-27b': {
     canonicalPath: 'uu-11-2008/pasal-27b',
     pasalLabel: 'Pasal 27B',
-    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 3)',
-    tanggalPengundangan: '2 Januari 2024',
-    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    diubahOleh: 'UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE (Pasal I angka 3)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2024 Nomor 8, Tambahan Lembaran Negara Nomor 6916',
     statusPerubahan: 'SISIPAN_BARU',
     statusBadge: '🟢 Sisipan Baru (Hukum Positif Berlaku)',
+    textSebelum: '(Ketentuan norma belum ada pada UU No. 11 Tahun 2008 maupun UU No. 19 Tahun 2016)',
+    textSesudah: '(1) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan... dengan maksud untuk menguntungkan diri sendiri... memaksa orang dengan ancaman pencemaran.\n(2) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan... yang berisi ancaman membuka rahasia.',
     latarBelakangPerubahan: 'Disisipkan khusus untuk menjerat delik pemerasan digital dan ancaman pencemaran (doxing untuk memeras), memisahkan antara ancaman fisik dengan ancaman membuka rahasia/aib di media sosial.',
     peraturanTerdampak: [
       {
@@ -225,11 +322,14 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
   'uu-11-2008/pasal-28': {
     canonicalPath: 'uu-11-2008/pasal-28',
     pasalLabel: 'Pasal 28',
-    diubahOleh: 'UU No. 1 Tahun 2024',
-    tanggalPengundangan: '2 Januari 2024',
-    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    diubahOleh: 'UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE (Pasal I angka 4)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2024 Nomor 8, Tambahan Lembaran Negara Nomor 6916',
     statusPerubahan: 'DIUBAH',
-    statusBadge: 'Diubah & Ditambah Ayat (UU 1/2024)',
+    statusBadge: '🟡 Diubah & Ditambah Ayat (UU 1/2024)',
+    textSebelum: 'Pasal 28 memuat 2 ayat: (1) Berita bohong yang merugikan konsumen dalam transaksi elektronik; (2) Informasi untuk menimbulkan rasa kebencian SARA.',
+    textSesudah: 'Pasal 28 ayat (1) dan (2) disempurnakan redaksinya, serta DITAMBAHKAN ayat (3) baru mengenai larangan penyebaran berita bohong yang menimbulkan kerusuhan di kalangan masyarakat.',
     putusanMk: {
       nomor: 'Putusan MK No. 78/PUU-XXI/2023',
       tahun: 2023,
@@ -257,15 +357,57 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
     ],
   },
 
+  // ── Pasal 28 ayat (3) ─────────────────────────────────────────────────────
+  'uu-11-2008/pasal-28/ayat-3': {
+    canonicalPath: 'uu-11-2008/pasal-28/ayat-3',
+    pasalLabel: 'Pasal 28 ayat (3)',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 4 huruf c)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    statusPerubahan: 'SISIPAN_BARU',
+    statusBadge: '🟢 Ayat Sisipan Baru (UU 1/2024)',
+    textSebelum: '(Ketentuan ayat belum ada pada naskah UU ITE 2008 maupun UU ITE 2016)',
+    textSesudah: 'Setiap Orang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat.',
+    putusanMk: {
+      nomor: 'Putusan MK No. 78/PUU-XXI/2023',
+      tahun: 2023,
+      amarPutusan: 'Membatalkan delik keonaran KUHP lama (UU 1/1946).',
+      ratioDecidendi: 'Istilah kerusuhan harus dimaknai sebagai kekacauan fisik nyata di ruang publik, bukan sekadar perdebatan sengit atau viral di media sosial.',
+    },
+    latarBelakangPerubahan: 'Pengganti pasal keonaran kuno dengan kualifikasi "kerusuhan di masyarakat" yang harus dibuktikan secara materiil adanya huru-hara atau kekerasan fisik.',
+    peraturanTerdampak: [
+      {
+        id: 'skb-berita-bohong-2024',
+        type: 'SKB',
+        number: 'Surat Edaran Bersama Jaksa Agung & Kapolri',
+        year: 2024,
+        title: 'Pedoman Penuntutan Delik Hoaks Penyebab Kerusuhan',
+        pasalTurunan: 'Bab Pembuktian Materiil Kerusuhan',
+        status: 'PERLU_PENYESUAIAN',
+        statusLabel: '⚠️ SOP Pembuktian Kerusuhan Nyata',
+        ringkasanDampak: 'Penyidik wajib menghadirkan bukti dampak fisik kerusuhan di lapangan, bukan sekadar kegaduhan netizen di linimasa.',
+        uuIndukSebelum: 'Belum ada ketentuan Pasal 28 ayat (3).',
+        uuIndukSesudah: 'Pasal 28 ayat (3) UU 1/2024 mewajibkan kausalitas nyata antara hoaks dengan kerusuhan.',
+        ketentuanTurunanTerdampak: 'SOP penyelidikan tindak pidana hoaks di kepolisian.',
+        penjelasanPertentangan: 'Penyidikan hoaks tanpa adanya insiden fisik kerusuhan gugur demi hukum.',
+        rekomendasiHarmonisasi: 'Penerbitan pedoman penegakan hukum siber presisi oleh Bareskrim Polri.',
+      },
+    ],
+  },
+
   // ── Pasal 26 (Data Pribadi & Right to be Forgotten) ───────────────────────
   'uu-11-2008/pasal-26': {
     canonicalPath: 'uu-11-2008/pasal-26',
     pasalLabel: 'Pasal 26',
     diubahOleh: 'UU No. 19 Tahun 2016 jo. UU No. 27 Tahun 2022 (UU PDP)',
-    tanggalPengundangan: '28 November 2016 (Amandemen I) & 17 Oktober 2022 (UU PDP)',
-    lembaranNegara: 'LN RI Tahun 2016 No. 251 & LN RI Tahun 2022 No. 196',
+    tanggalPengundangan: 'Disahkan: 25 November 2016 | Diundangkan: 28 November 2016',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Menkumham Yasonna H. Laoly',
+    lembaranNegara: 'LN RI Tahun 2016 No. 251, TLN No. 5952',
     statusPerubahan: 'DIUBAH',
-    statusBadge: 'Diubah Amandemen I & Harmonisasi UU PDP',
+    statusBadge: '🟡 Diubah Amandemen I & Harmonisasi UU PDP',
+    textSebelum: 'Pasal 26 hanya memuat 2 ayat: (1) Penggunaan data pribadi harus dengan persetujuan; (2) Gugatan atas kerugian pelanggaran data pribadi.',
+    textSesudah: 'Ditambahkan ayat (3), (4), dan (5) yang mewajibkan PSE menghapus Informasi Elektronik yang tidak relevan (Right to be Forgotten) atas penetapan pengadilan.',
     latarBelakangPerubahan: 'Amandemen I menyisipkan ayat (3), (4), dan (5) yang mewajibkan PSE menghapus informasi elektronik yang tidak relevan (Right to be Forgotten) berdasarkan penetapan pengadilan negeri.',
     peraturanTerdampak: [
       {
@@ -287,15 +429,51 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
     ],
   },
 
+  // ── Pasal 36 (Pemberatan Kerugian - Dicabut UU 1/2024) ────────────────────
+  'uu-11-2008/pasal-36': {
+    canonicalPath: 'uu-11-2008/pasal-36',
+    pasalLabel: 'Pasal 36',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 8 - Dihapus)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    statusPerubahan: 'DICABUT',
+    statusBadge: '🔴 Ketentuan Norma Dihapus / Dicabut (UU 1/2024)',
+    textSebelum: 'Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 34 yang mengakibatkan kerugian bagi Orang lain.',
+    textSesudah: '[PASAL 36 DIHAPUS OLEH PASAL I ANGKA 8 UU NO. 1 TAHUN 2024]. Ketentuan pemberatan pidana penjara 12 tahun akibat kerugian materiil tidak berlaku lagi.',
+    latarBelakangPerubahan: 'Pasal 36 dihapus karena sering dijadikan alat oleh aparat penegak hukum untuk mem-bypass ancaman pidana di bawah 5 tahun (agar tersangka bisa ditahan dengan dalih ada kerugian pihak lain hingga Rp 12 miliar).',
+    peraturanTerdampak: [
+      {
+        id: 'skb-pasal-36-2021',
+        type: 'SKB',
+        number: 'Pedoman Penuntutan Jaksa Agung RI',
+        year: 2021,
+        title: 'Pedoman Penerapan Pasal Pemberatan Kerugian UU ITE',
+        pasalTurunan: 'Matriks Penuntutan Kumulatif Pasal 36',
+        status: 'USANG',
+        statusLabel: '🔴 Tidak Berlaku Lagi (Objek Dihapus)',
+        ringkasanDampak: 'Jaksa penuntut umum dilarang menambahkan dakwaan subsidair Pasal 36 jo. Pasal 51 ayat (2).',
+        uuIndukSebelum: 'Pasal 36 memuat delik kerugian materiil dengan ancaman Pasal 51 ayat (2) hingga 12 tahun penjara.',
+        uuIndukSesudah: 'Pasal 36 DICABUT 100% dari sistem hukum pidana siber Indonesia.',
+        ketentuanTurunanTerdampak: 'Surat Tuntutan dan Dakwaan Kejaksaan.',
+        penjelasanPertentangan: 'Pencantuman Pasal 36 pasca 2 Januari 2024 mengakibatkan surat dakwaan cacat yuridis.',
+        rekomendasiHarmonisasi: 'Kejaksaan Agung menerbitkan edaran penarikan seluruh berkas yang mencantumkan Pasal 36.',
+      },
+    ],
+  },
+
   // ── Pasal 40 & 40A (Pemutusan Akses & Pelindungan Anak) ───────────────────
   'uu-11-2008/pasal-40': {
     canonicalPath: 'uu-11-2008/pasal-40',
     pasalLabel: 'Pasal 40',
-    diubahOleh: 'UU No. 1 Tahun 2024 & UU No. 19 Tahun 2016',
-    tanggalPengundangan: '2 Januari 2024',
+    diubahOleh: 'UU No. 1 Tahun 2024 & UU No. 19 Tahun 2016 (Pasal I angka 9)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
     lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
     statusPerubahan: 'DIUBAH',
-    statusBadge: 'Diubah & Disisipkan Pasal 40A (UU 1/2024)',
+    statusBadge: '🟡 Diubah & Disisipkan Pasal 40A (UU 1/2024)',
+    textSebelum: 'Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan melindungi kepentingan umum dari segala jenis gangguan (UU 19/2016 menambahkan pemutusan akses).',
+    textSesudah: 'Pemerintah bertanggung jawab mencegah penyebarluasan muatan yang dilarang dan berwenang memutus akses atau memerintahkan PSE memutus akses terhadap informasi/dokumen elektronik yang melanggar hukum.',
     latarBelakangPerubahan: 'Pemerintah diberi kewenangan memutus akses informasi elektronik yang melanggar hukum, sekaligus disisipkan Pasal 40A yang mewajibkan PSE memberikan perlindungan bagi anak dalam penggunaan sistem elektronik.',
     peraturanTerdampak: [
       {
@@ -333,17 +511,53 @@ export const PROVISION_AMENDMENT_MAP: Record<string, ProvisionAmendmentDetail> =
     ],
   },
 
+  // ── Pasal 40A (Sisipan Baru UU 1/2024 - Perlindungan Anak) ────────────────
+  'uu-11-2008/pasal-40a': {
+    canonicalPath: 'uu-11-2008/pasal-40a',
+    pasalLabel: 'Pasal 40A',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 10)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
+    lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
+    statusPerubahan: 'SISIPAN_BARU',
+    statusBadge: '🟢 Sisipan Baru (Kewajiban PSE Melindungi Anak)',
+    textSebelum: '(Ketentuan norma belum ada pada UU No. 11 Tahun 2008 maupun UU No. 19 Tahun 2016)',
+    textSesudah: '(1) Penyelenggara Sistem Elektronik wajib memberikan pelindungan bagi anak dalam penggunaan Sistem Elektronik.\n(2) Pelindungan meliputi verifikasi usia, moderasi konten kekerasan seksual/eksploitasi, dan saluran pengaduan khusus.\n(3) Pelanggaran dikenai sanksi administratif teguran tertulis, denda administratif, hingga pemutusan akses.',
+    latarBelakangPerubahan: 'Merupakan amanat baru hukum positif Indonesia pasca ratifikasi konvensi hak anak dan maraknya predator seksual anak online serta kecanduan game/judi pada anak di bawah umur.',
+    peraturanTerdampak: [
+      {
+        id: 'pp-ramah-anak-2024',
+        type: 'PP',
+        number: 'RPP Mandat Pasal 40A',
+        year: 2024,
+        title: 'Tata Cara Pelindungan Anak dalam Penyelenggaraan Sistem Elektronik',
+        pasalTurunan: 'Seluruh RPP Baru',
+        status: 'MANDAT_BARU',
+        statusLabel: '🟢 Mandat Pembentukan PP Baru',
+        ringkasanDampak: 'Kementerian Komunikasi dan Digital wajib merampungkan draf PP sebelum Januari 2026.',
+        uuIndukSebelum: 'Belum diatur dalam UU ITE.',
+        uuIndukSesudah: 'Pasal 40A ayat (4) UU 1/2024: Ketentuan lebih lanjut mengenai pelindungan anak diatur dalam Peraturan Pemerintah.',
+        ketentuanTurunanTerdampak: 'Regulasi operasional PSE anak.',
+        penjelasanPertentangan: 'Bila PP tidak kunjung terbit, penegakan sanksi denda administratif Pasal 40A ayat (3) tidak dapat dieksekusi.',
+        rekomendasiHarmonisasi: 'Akselerasi harmonisasi antarkementerian di Kemenkumham RI.',
+      },
+    ],
+  },
+
   // ── Pasal 45 (Ketentuan Sanksi Pidana) ────────────────────────────────────
   'uu-11-2008/pasal-45': {
     canonicalPath: 'uu-11-2008/pasal-45',
     pasalLabel: 'Pasal 45',
-    diubahOleh: 'UU No. 1 Tahun 2024 & UU No. 19 Tahun 2016',
-    tanggalPengundangan: '2 Januari 2024',
+    diubahOleh: 'UU No. 1 Tahun 2024 (Pasal I angka 14) jo. UU No. 19 Tahun 2016',
+    tanggalPengundangan: 'Disahkan di Jakarta: 2 Januari 2024 | Diundangkan: 2 Januari 2024',
+    disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Mensesneg Pratikno',
     lembaranNegara: 'LN RI Tahun 2024 No. 8, TLN No. 6916',
     statusPerubahan: 'DIUBAH',
-    statusBadge: 'Restrukturisasi Sanksi Pidana',
+    statusBadge: '🟡 Restrukturisasi Sanksi Pidana (UU 1/2024)',
+    textSebelum: 'Pasal 45 memuat ancaman pidana penjara paling lama 6 tahun (UU 11/2008) dan 4 tahun (UU 19/2016) untuk tindak pidana pencemaran nama baik.',
+    textSesudah: 'Pasal 45 ayat (4) UU 1/2024 menetapkan ancaman pidana penghinaan/pencemaran Pasal 27A dipangkas menjadi penjara paling lama 2 tahun atau denda paling banyak Rp400 juta. Tersangka TIDAK DAPAT DITAHAN selama penyidikan.',
     putusanMk: {
-      nomor: 'Putusan MK No. 50/PUU-VI/2008',
+      nomor: 'Putusan MK No. 50/PUU-VI/2008 & No. 2/PUU-VII/2009',
       tahun: 2008,
       amarPutusan: 'Menguatkan sifat delik aduan dan keselarasan sanksi dengan KUHP.',
       ratioDecidendi: 'Menjamin proporsionalitas penjatuhan pidana agar tidak melampaui ancaman delik pokok dalam hukum pidana materiil.',
@@ -396,12 +610,15 @@ export function getProvisionAmendmentDetail(canonicalPath: string, label: string
   return {
     canonicalPath,
     pasalLabel: label,
-    diubahOleh: 'UU No. 11 Tahun 2008 (Naskah Pokok)',
-    tanggalPengundangan: '21 April 2008',
-    lembaranNegara: 'LN RI Tahun 2008 No. 58, TLN No. 4843',
+    diubahOleh: 'UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Naskah Pokok)',
+    tanggalPengundangan: 'Disahkan di Jakarta: 21 April 2008 | Diundangkan: 21 April 2008',
+    disahkanOleh: 'Presiden RI Dr. H. Susilo Bambang Yudhoyono & Diundangkan oleh Menkumham Andi Mattalatta',
+    lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2008 Nomor 58, Tambahan Lembaran Negara Nomor 4843',
     statusPerubahan: 'ASLI',
     statusBadge: 'Naskah Asli Berlaku (Stabil)',
-    latarBelakangPerubahan: 'Norma pasal ini belum mengalami amandemen dalam perubahan UU No. 19 Tahun 2016 maupun UU No. 1 Tahun 2024. Norma tetap mengikat sesuai naskah asli pengundangan.',
+    textSebelum: 'Naskah asli UU 11/2008 yang sah diundangkan pada 21 April 2008.',
+    textSesudah: 'Norma hukum positif asli berlaku stabil tanpa modifikasi teks.',
+    latarBelakangPerubahan: 'Norma pasal ini belum mengalami amandemen dalam perubahan UU No. 19 Tahun 2016 maupun UU No. 1 Tahun 2024. Norma tetap mengikat secara penuh sesuai naskah asli pengundangan.',
     peraturanTerdampak: [
       {
         id: 'pp-71-2019-general',
@@ -422,3 +639,120 @@ export function getProvisionAmendmentDetail(canonicalPath: string, label: string
     ],
   };
 }
+
+export interface AmendedProvisionItem {
+  canonicalPath: string;
+  label: string;
+  status: 'DIUBAH' | 'SISIPAN_BARU' | 'DICABUT';
+  statusLabel: string;
+  amendingLaw: string;
+  summary: string;
+}
+
+export const ALL_AMENDED_PROVISIONS: AmendedProvisionItem[] = [
+  {
+    canonicalPath: 'uu-11-2008/pasal-26',
+    label: 'Pasal 26',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Diubah (UU 19/2016 jo. UU PDP)',
+    amendingLaw: 'UU No. 19/2016 & UU No. 27/2022',
+    summary: 'Penambahan Right to be Forgotten dan harmonisasi perlindungan data pribadi.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27',
+    label: 'Pasal 27',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Diubah & Dipecah (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 2)',
+    summary: 'Restrukturisasi 4 ayat: ayat (1)-(2) diubah, ayat (3)-(4) dicabut dan dipisah ke Pasal 27A & 27B.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27/ayat-1',
+    label: 'Pasal 27 ayat (1)',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Redaksi Diperjelas',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 2 huruf a)',
+    summary: 'Menambahkan klausul "untuk diketahui umum" dan pengecualian karya seni/pembelaan diri.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27/ayat-3',
+    label: 'Pasal 27 ayat (3)',
+    status: 'DICABUT',
+    statusLabel: '🔴 Dihapus / Dicabut',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 2 huruf b)',
+    summary: 'Dicabut secara permanen. Norma dipindahkan dan diperketat ke dalam Pasal 27A.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27/ayat-4',
+    label: 'Pasal 27 ayat (4)',
+    status: 'DICABUT',
+    statusLabel: '🔴 Dihapus / Dicabut',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 2 huruf c)',
+    summary: 'Dicabut secara permanen. Norma pemerasan siber dialihkan ke Pasal 27B.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27a',
+    label: 'Pasal 27A',
+    status: 'SISIPAN_BARU',
+    statusLabel: '🟢 Sisipan Baru (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 3)',
+    summary: 'Delik penyerangan kehormatan/nama baik dengan syarat tuduhan perbuatan spesifik.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-27b',
+    label: 'Pasal 27B',
+    status: 'SISIPAN_BARU',
+    statusLabel: '🟢 Sisipan Baru (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 3)',
+    summary: 'Delik pemerasan dan pengancaman membuka rahasia/aib di ruang digital.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-28',
+    label: 'Pasal 28',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Diubah & Ditambah Ayat',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 4)',
+    summary: 'Penyempurnaan hoaks transaksi & SARA, serta penambahan delik kerusuhan (ayat 3).',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-28/ayat-3',
+    label: 'Pasal 28 ayat (3)',
+    status: 'SISIPAN_BARU',
+    statusLabel: '🟢 Sisipan Baru (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 4 huruf c)',
+    summary: 'Larangan menyebarkan berita bohong yang menimbulkan kerusuhan fisik nyata di masyarakat.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-36',
+    label: 'Pasal 36',
+    status: 'DICABUT',
+    statusLabel: '🔴 Dihapus / Dicabut',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 8)',
+    summary: 'Pasal pemberatan kerugian dicabut 100% untuk mencegah kesewenang-wenangan penahanan.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-40',
+    label: 'Pasal 40',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Diubah (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 9)',
+    summary: 'Kewenangan pemerintah dalam memutus akses informasi elektronik yang melanggar hukum.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-40a',
+    label: 'Pasal 40A',
+    status: 'SISIPAN_BARU',
+    statusLabel: '🟢 Sisipan Baru (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 10)',
+    summary: 'Kewajiban PSE memberikan pelindungan komprehensif bagi anak di ruang siber.',
+  },
+  {
+    canonicalPath: 'uu-11-2008/pasal-45',
+    label: 'Pasal 45',
+    status: 'DIUBAH',
+    statusLabel: '🟡 Sanksi Diubah (UU 1/2024)',
+    amendingLaw: 'UU No. 1 Tahun 2024 (Pasal I angka 14)',
+    summary: 'Sanksi pencemaran dipangkas dari 4 tahun menjadi maks. 2 tahun (tersangka tidak dapat ditahan).',
+  },
+];
+

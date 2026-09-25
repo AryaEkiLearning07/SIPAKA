@@ -1,10 +1,19 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import GlobalHeader from './components/GlobalHeader';
 
 export const metadata: Metadata = {
-  title: 'SIPAKA — Sistem Informasi Pelacakan Amandemen, Kodifikasi & Advokasi',
+  title: {
+    default: 'SIPAKA — Sistem Informasi Pelacakan Amandemen & Kodifikasi Hukum',
+    template: '%s | SIPAKA',
+  },
   description:
-    'Sistem Informasi Pelacakan Amandemen, Kodifikasi, dan Advokasi Regulasi Indonesia. Naskah konsolidasi deterministik berbasis Lembaran Negara RI.',
+    'Sistem Informasi Pelacakan Amandemen & Kodifikasi Peraturan Perundang-undangan Republik Indonesia. Naskah konsolidasi deterministik berbasis Lembaran Negara RI.',
+  icons: {
+    icon: '/logoSIPAKA.png',
+    shortcut: '/logoSIPAKA.png',
+    apple: '/logoSIPAKA.png',
+  },
 };
 
 export default function RootLayout({
@@ -22,8 +31,9 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased bg-paper text-ink min-h-screen">
-        {children}
+      <body className="antialiased bg-paper text-ink min-h-screen flex flex-col">
+        <GlobalHeader />
+        <div className="flex-1 flex flex-col">{children}</div>
       </body>
     </html>
   );

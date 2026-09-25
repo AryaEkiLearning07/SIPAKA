@@ -2,7 +2,7 @@
 
 Platform riset hukum untuk **konsolidasi naskah peraturan secara deterministik**: setiap amandemen dicatat sebagai operasi terstruktur yang disetujui kurator manusia, mesin merakit naskah konsolidasi pada titik waktu mana pun (*point-in-time*), lengkap dengan diff antar versi dan silsilah perubahan per pasal.
 
-> Dokumen desain lengkap: [`RANCANGAN_TEKNIS_DETAIL.md`](./RANCANGAN_TEKNIS_DETAIL.md) · Perencanaan: [`MASTER_PLANNING_NEW.md`](./MASTER_PLANNING_NEW.md) · Eksekusi & testing: [`EXECUTION_AND_TESTING_ROADMAP.md`](./EXECUTION_AND_TESTING_ROADMAP.md)
+> Dokumen desain lengkap: [`RANCANGAN_TEKNIS_DETAIL.md`](./docs/RANCANGAN_TEKNIS_DETAIL.md) · Perencanaan: [`MASTER_PLANNING_NEW.md`](./docs/MASTER_PLANNING_NEW.md) · Eksekusi & testing: [`EXECUTION_AND_TESTING_ROADMAP.md`](./docs/EXECUTION_AND_TESTING_ROADMAP.md)
 
 ## Arsitektur
 

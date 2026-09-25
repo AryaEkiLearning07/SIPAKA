@@ -90,37 +90,7 @@ const sections = [
 
 export default function TentangPage() {
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50/60 font-sans text-slate-800">
-      {/* Top Header Glassmorphic */}
-      <header className="sticky top-0 z-30 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
-        <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-xl bg-indigo-600 flex items-center justify-center text-white shadow-xs group-hover:bg-indigo-700 transition-colors">
-              <Scale className="w-4 h-4" />
-            </div>
-            <span className="font-sans font-bold text-lg text-slate-900 tracking-tight">
-              SIPAKA<span className="text-indigo-600">.</span>
-            </span>
-          </Link>
-          <div className="flex items-center gap-2.5">
-            <Link
-              href="/pipeline"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#94191C] bg-red-50 hover:bg-red-100/80 px-3 py-1.5 rounded-xl transition-colors border border-red-200/60"
-            >
-              <Cpu className="w-3.5 h-3.5" />
-              <span>Simulasi Pipeline ETL</span>
-            </Link>
-            <Link
-              href="/"
-              className="inline-flex items-center gap-2 text-xs font-semibold text-slate-600 hover:text-slate-900 bg-slate-100 hover:bg-slate-200/70 px-3 py-1.5 rounded-xl transition-colors"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" />
-              Kembali ke Beranda
-            </Link>
-          </div>
-        </div>
-      </header>
-
+    <div className="flex-1 flex flex-col bg-slate-50/60 font-sans text-slate-800">
       <main className="flex-1 max-w-5xl mx-auto w-full px-6 py-12">
         {/* Hero Banner */}
         <div className="relative rounded-3xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-8 sm:p-12 text-white overflow-hidden shadow-xl mb-12">
