@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 12
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate Prisma Client
+        run: pnpm --filter @lexvera/database run db:generate
+
+      - name: Typecheck (semua paket)
+        run: |
+          pnpm --filter @lexvera/types lint
+          pnpm --filter @lexvera/legal-engine lint
+          pnpm --filter @lexvera/database lint
+          pnpm --filter @lexvera/api lint
+          pnpm --filter @lexvera/web exec tsc --noEmit
+
+      - name: Engine tests (unit + golden)
+        run: pnpm --filter @lexvera/legal-engine test
