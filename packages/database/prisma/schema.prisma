@@ -371,3 +371,27 @@ model ProvisionReference {
   @@index([sourceProvisionId])
   @@map("provision_references")
 }
+
+// -------------------------------------------------------------
+// 9. INDEKS KATALOG (hasil crawler database negara — daftar periksa kelengkapan)
+// -------------------------------------------------------------
+
+model CatalogIndex {
+  id        String   @id @default(cuid())
+  detailsId String   @unique // ID resmi halaman /Details/<id> di BPK
+  slug      String
+  jenis     String?  // UU | PP | PERPRES | PERMEN | PERDA | ...
+  nomor     String?
+  tahun     String?
+  judul     String?
+  pdfUrl    String?
+  sha256    String?
+  status    String   @default("TERDAFTAR") // TERDAFTAR -> TERUNDUH -> TERPARSE -> LOLOS | KARANTINA
+  skor      Int?
+
+  diupdate  DateTime @updatedAt
+
+  @@index([jenis, tahun])
+  @@index([status])
+  @@map("catalog_index")
+}

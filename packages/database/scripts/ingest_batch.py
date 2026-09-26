@@ -35,6 +35,16 @@ def proses_satu(entri: dict) -> dict:
     doc["validation"] = {"skor": laporan["skor"], "keputusan": laporan["keputusan"],
                          "issues": laporan["issues"], "publishMode": laporan["publishMode"]}
     out.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # Kebijakan penyimpanan server kecil: PDF yang PASS dihapus setelah AST tersimpan.
+    # Yang permanen disimpan: AST (produk) + sha256 + URL sumber (bukti asal; PDF publik
+    # dapat diunduh ulang dari URL yang sama kapan pun, mis. saat pindah VPS besar).
+    # PDF dokumen KARANTINA tetap disimpan untuk dibaca ulang saat penyebabnya diperbaiki.
+    if laporan["keputusan"] == "PASS":
+        pdf_path = Path(entri["pdf"])
+        if pdf_path.exists():
+            pdf_path.unlink()
+            laporan["pdfDihapus"] = True
     return laporan
 
 

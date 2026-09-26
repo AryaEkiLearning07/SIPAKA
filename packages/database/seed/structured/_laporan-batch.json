@@ -1,41 +1,5 @@
 [
  {
-  "slug": "uu-1-2023",
-  "skor": 85,
-  "keputusan": "QUARANTINE",
-  "jumlah": {
-   "bab": 42,
-   "pasal": 559,
-   "ayat_angka": 413,
-   "huruf": 322
-  },
-  "issues": [
-   "PASAL GAP (nomor hilang dari 1..623): [21, 22, 51, 70, 72, 74, 76, 77, 80, 91]…"
-  ],
-  "publishMode": "QUARANTINE",
-  "pdf": "E:\\Platfrom_Hukum\\packages\\database\\seed\\pdfs\\uu-1-2023.pdf",
-  "sha256": "975fc86cfa63204ee21810cb7a99918c3a16b5fd47e58dadd9562c5ff3f1dfa0",
-  "details": "https://peraturan.bpk.go.id/Details/234935"
- },
- {
-  "slug": "uu-27-2022",
-  "skor": 85,
-  "keputusan": "QUARANTINE",
-  "jumlah": {
-   "bab": 13,
-   "pasal": 71,
-   "ayat_angka": 112,
-   "huruf": 76
-  },
-  "issues": [
-   "PASAL GAP (nomor hilang dari 1..76): [1, 22, 27, 70, 72]"
-  ],
-  "publishMode": "QUARANTINE",
-  "pdf": "E:\\Platfrom_Hukum\\packages\\database\\seed\\pdfs\\uu-27-2022.pdf",
-  "sha256": "ed952dea04b87d14ecf037f9f324a65d50b396ddd34fc28ddf9ff014391971f6",
-  "details": "https://peraturan.bpk.go.id/Details/229798"
- },
- {
   "slug": "uu-40-2007",
   "skor": 100,
   "keputusan": "PASS",
@@ -49,40 +13,7 @@
   "publishMode": "AUTO_PUBLISH",
   "pdf": "E:\\Platfrom_Hukum\\packages\\database\\seed\\pdfs\\uu-40-2007.pdf",
   "sha256": "46b8cc0283bc99b5fe5bda856d3c3dfdefddce9661e9afe4d0106d3f96c6481b",
-  "details": "https://peraturan.bpk.go.id/Details/39965"
- },
- {
-  "slug": "uu-1-1974",
-  "skor": 85,
-  "keputusan": "QUARANTINE",
-  "jumlah": {
-   "bab": 13,
-   "pasal": 66,
-   "ayat_angka": 100,
-   "huruf": 11
-  },
-  "issues": [
-   "PASAL GAP (nomor hilang dari 1..67): [13]"
-  ],
-  "publishMode": "QUARANTINE",
-  "pdf": "E:\\Platfrom_Hukum\\packages\\database\\seed\\pdfs\\uu-1-1974.pdf",
-  "sha256": "a92f3ce36bf243747193d0170d804442144aad603930ca74e4b230fbbdb1d9e4",
-  "details": "https://peraturan.bpk.go.id/Details/47406"
- },
- {
-  "slug": "uu-8-1999",
-  "skor": 100,
-  "keputusan": "PASS",
-  "jumlah": {
-   "bab": 15,
-   "pasal": 65,
-   "ayat_angka": 102,
-   "huruf": 68
-  },
-  "issues": [],
-  "publishMode": "AUTO_PUBLISH",
-  "pdf": "E:\\Platfrom_Hukum\\packages\\database\\seed\\pdfs\\uu-8-1999.pdf",
-  "sha256": "df253c489e78e66d9da5337c85bebe1384c68763af2001335b4880b0f225d816",
-  "details": "https://peraturan.bpk.go.id/Details/45288"
+  "details": "https://peraturan.bpk.go.id/Details/39965",
+  "pdfDihapus": true
  }
 ]
