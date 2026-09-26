@@ -17,6 +17,14 @@ interface NaskahPasalProps {
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
 }
 
+
+/** Ambil nama hukum pengubah pertama dari deskripsi detail (mis. "UU No. 19 Tahun 2016"). */
+function hukumPengubah(d: ProvisionAmendmentDetail | undefined): string | null {
+  const o = d?.diubahOleh ?? '';
+  const m = o.match(/UU(?:\s+No\.?)?\s*\d+\s+Tahun\s+\d{4}/);
+  return m ? m[0] : null;
+}
+
 export default function NaskahPasal(p: NaskahPasalProps) {
   const fsCls = fontSizeClass(p.fontSize);
   const ffCls = p.fontType === 'serif' ? 'font-serif' : 'font-sans';
@@ -74,17 +82,17 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                     </span>
                     {p.showAnnotations && isNewInsert && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 border border-emerald-300 shadow-2xs">
-                        🟢 Sisipan Baru (UU 1/2024)
+                        🟢 Sisipan Baru {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && isAmended && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-100 text-amber-900 border border-amber-300 shadow-2xs">
-                        🟡 Diubah (UU 1/2024)
+                        🟡 Diubah {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && isRepealed && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-100 text-rose-800 border border-rose-300 shadow-2xs">
-                        🔴 Dicabut / Dihapus (UU 1/2024)
+                        🔴 Dicabut / Dihapus {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && hasMk && (

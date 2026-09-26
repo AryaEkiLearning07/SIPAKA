@@ -84,7 +84,7 @@ export const MAP_LAINNYA: Record<string, ProvisionAmendmentDetail> = {
   'uu-11-2008/pasal-26': {
     canonicalPath: 'uu-11-2008/pasal-26',
     pasalLabel: 'Pasal 26',
-    diubahOleh: 'UU No. 19 Tahun 2016 jo. UU No. 27 Tahun 2022 (UU PDP)',
+    diubahOleh: 'UU No. 19 Tahun 2016 tentang Perubahan UU ITE (Pasal I angka 2)',
     tanggalPengundangan: 'Disahkan: 25 November 2016 | Diundangkan: 28 November 2016',
     disahkanOleh: 'Presiden RI Joko Widodo & Diundangkan oleh Menkumham Yasonna H. Laoly',
     lembaranNegara: 'LN RI Tahun 2016 No. 251, TLN No. 5952',

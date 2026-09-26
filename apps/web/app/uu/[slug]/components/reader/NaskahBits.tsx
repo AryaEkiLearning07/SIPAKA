@@ -37,6 +37,13 @@ export default function VersiLamaBanner({
   );
 }
 
+
+function hukumAyat(d: ProvisionAmendmentDetail | undefined): string | null {
+  const o = d?.diubahOleh ?? '';
+  const m = o.match(/UU(?:\s+No\.?)?\s*\d+\s+Tahun\s+\d{4}/);
+  return m ? m[0] : null;
+}
+
 /** Satu baris ayat dengan penanda status & tombol arsip versi lama. */
 export function AyatRow({
   ayat, pasalLabel, pasalHasMk, showAnnotations, activeNodePath, provisionVersions, setProvisionVersions, fontSizeCls, fontFamilyCls, handleOpenInspector,
@@ -104,17 +111,17 @@ export function AyatRow({
         <div className="mt-1 flex items-center gap-2 flex-wrap">
           {showAnnotations && ayatIsNew && (
             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-300">
-              🟢 Sisipan Baru (UU 1/2024)
+              🟢 Sisipan Baru{hukumAyat(ayatDetail) ? ` (${hukumAyat(ayatDetail)})` : ''}
             </span>
           )}
           {showAnnotations && ayatIsAmended && (
             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-300">
-              🟡 Redaksi Diubah (UU 1/2024)
+              🟡 Redaksi Diubah{hukumAyat(ayatDetail) ? ` (${hukumAyat(ayatDetail)})` : ''}
             </span>
           )}
           {showAnnotations && ayatIsRepealed && (
             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-rose-100 text-rose-800 border border-rose-300">
-              🔴 Dicabut / Dihapus: {ayat.repealBasis || 'UU No. 1 Tahun 2024'}
+              🔴 Dicabut / Dihapus: {ayat.repealBasis || 'UU pengubah'}
             </span>
           )}
           {showAnnotations && ayatHasMk && (
