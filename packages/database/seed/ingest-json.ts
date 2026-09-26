@@ -130,7 +130,9 @@ async function main() {
     try {
       console.log('  ' + await ingest(slug, force));
     } catch (e) {
-      console.log(`  GAGAL ${slug}: ${e instanceof Error ? e.message.slice(0, 120) : String(e).slice(0, 120)}`);
+      const err = e as { code?: string; message?: string; meta?: unknown };
+      const detail = err.meta ? JSON.stringify(err.meta).slice(0, 150) : (err.message ?? '').slice(0, 150);
+      console.log(`  GAGAL ${slug}: [${err.code ?? 'ERR'}] ${detail}`);
     }
   }
 }

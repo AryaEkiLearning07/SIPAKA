@@ -42,6 +42,12 @@ def proses_satu(entri: dict) -> dict:
     # dapat diunduh ulang dari URL yang sama kapan pun, mis. saat pindah VPS besar).
     # PDF dokumen KARANTINA tetap disimpan untuk dibaca ulang saat penyebabnya diperbaiki.
     if laporan["keputusan"] == "PASS":
+        # Relasi masuk alur: setelah lolos gerbang, mesin langsung menenun
+        # relasi dokumen ini ke instrumen lain yang sudah ada di database
+        # (MENGUBAH dari changeset + MERUJUK dari rujukan teks). Idempoten.
+        import subprocess
+        subprocess.run([sys.executable, "extract_relations.py"],
+                       capture_output=True, cwd=str(Path(__file__).resolve().parent))
         pdf_path = Path(entri["pdf"])
         if pdf_path.exists():
             pdf_path.unlink()

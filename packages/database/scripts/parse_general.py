@@ -126,13 +126,18 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
         if m:
             roman = m.group(1).upper()
             bab_path = f"{slug}/{'buku-' + re.match(r'buku-([ivxlcdm]+)', buku['canonicalPath']).group(1) + '/' if buku else ''}bab-{roman.lower()}"
-            bab = {"canonicalPath": bab_path, "type": "BAB",
+            existing_bab = next((n for n in (buku["children"] if buku else nodes) if n["canonicalPath"] == bab_path), None)
+            if existing_bab:
+                bab = existing_bab
+            else:
+                bab = {"canonicalPath": bab_path, "type": "BAB",
                    "orderIndex": roman_to_int(roman), "label": f"BAB {roman}",
                    "title": judul_dari_run(), "content": "", "versionTag": "ORIGINAL",
                    "children": []}
             caps_run = []
-            target_container = buku["children"] if buku is not None else nodes
-            target_container.append(bab); pasal = ayat = huruf = None
+            if existing_bab is None:
+                (buku["children"] if buku else nodes).append(bab)
+            pasal = ayat = huruf = None
             continue
         if re_pasal.match(s):
             caps_run = []

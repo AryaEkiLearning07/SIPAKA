@@ -34,6 +34,22 @@ def cek_urutan(nums: list[float], jenis: str, issues: list[str]) -> None:
 def validate(doc: dict) -> dict:
     issues: list[str] = []
 
+    # Duplikat alamat node = artefak layout yang lolos dedupe parser
+    paths: set[str] = set()
+    dup_paths: list[str] = []
+
+    def cek_dup(ns):
+        for n in ns:
+            p = n.get("canonicalPath", "")
+            if p in paths:
+                dup_paths.append(p)
+            paths.add(p)
+            cek_dup(n.get("children", []))
+
+    cek_dup(doc.get("nodes", []))
+    if dup_paths:
+        issues.append(f"CANONICALPATH DUPLIKAT: {len(dup_paths)} ({dup_paths[:4]}{'…' if len(dup_paths) > 4 else ''}) — wajib karantina")
+
     # ATURAN PENTING: dokumen dengan 0 pasal terbaca = gagal total (scan rusak/format
     # tak dikenal), BUKAN lolos. Tanpa aturan ini dokumen tak terbaca lolos diam-diam.
     stats0 = doc.get("stats", {})
@@ -106,7 +122,7 @@ def validate(doc: dict) -> dict:
 
     skor = max(0, min(100, skor))
     tanpa_cacat_struktur = not any(
-        it.startswith(("PASAL GAP", "PASAL DUPLIKAT", "BAB GAP", "BAB DUPLIKAT")) for it in issues
+        it.startswith(("PASAL GAP", "PASAL DUPLIKAT", "BAB GAP", "BAB DUPLIKAT", "CANONICALPATH DUPLIKAT")) for it in issues
     )
     keputusan = "PASS" if (tanpa_cacat_struktur and skor >= 85) else "QUARANTINE"
 

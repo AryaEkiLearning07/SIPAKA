@@ -234,8 +234,10 @@
  ],
  "validation": {
   "skor": 100,
-  "keputusan": "PASS",
-  "issues": [],
-  "publishMode": "AUTO_PUBLISH"
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "CANONICALPATH DUPLIKAT: 1 (['uu-no-150-tahun-2024/bab-iii']) — wajib karantina"
+  ],
+  "publishMode": "QUARANTINE"
  }
 }
