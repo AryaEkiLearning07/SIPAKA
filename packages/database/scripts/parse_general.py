@@ -89,9 +89,12 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
     lines = buang_derau(teks[awal:akhir].split("\n"))
 
     nodes, bab, pasal, ayat, huruf = [], None, None, None, None
+    buku = None
     caps_run: list[str] = []
+    pasal_index: dict[str, ProvisionNode] = {}  # global lintas-bab (artefak layout)
 
     re_bab = re.compile(r"^BAB\s+([IVXLCDM]+)\s*$")
+    re_buku = re.compile(r"^BUKU\s+([IVXLCDM]+)\s*$")
     re_pasal = re.compile(r"^Pasal\s+(\d+[a-z]?)\s*$")
     re_ayat = re.compile(r"^\((\d+[a-z]?)\)\s+(.*)$")
     re_angka = re.compile(r"^(\d+)\.\s+(.*)$")
@@ -104,15 +107,32 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
 
     for ln in lines:
         s = ln.strip()
+        m = re_buku.match(s)
+        if m:
+            roman = m.group(1).upper()
+            path = f"{slug}/buku-{roman.lower()}"
+            existing = next((n for n in nodes if n["canonicalPath"] == path), None)
+            if existing:
+                buku = existing
+            else:
+                buku = {"canonicalPath": path, "type": "BUKU",
+                        "orderIndex": roman_to_int(roman), "label": f"BUKU {roman}",
+                        "title": "", "content": "", "versionTag": "ORIGINAL", "children": []}
+                nodes.append(buku)
+            caps_run = []
+            bab = pasal = ayat = huruf = None
+            continue
         m = re_bab.match(s)
         if m:
             roman = m.group(1).upper()
-            bab = {"canonicalPath": f"{slug}/bab-{roman.lower()}", "type": "BAB",
+            bab_path = f"{slug}/{'buku-' + re.match(r'buku-([ivxlcdm]+)', buku['canonicalPath']).group(1) + '/' if buku else ''}bab-{roman.lower()}"
+            bab = {"canonicalPath": bab_path, "type": "BAB",
                    "orderIndex": roman_to_int(roman), "label": f"BAB {roman}",
                    "title": judul_dari_run(), "content": "", "versionTag": "ORIGINAL",
                    "children": []}
             caps_run = []
-            nodes.append(bab); pasal = ayat = huruf = None
+            target_container = buku["children"] if buku is not None else nodes
+            target_container.append(bab); pasal = ayat = huruf = None
             continue
         if re_pasal.match(s):
             caps_run = []
@@ -120,6 +140,9 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
             caps_run.append(s)
         else:
             caps_run = []
+        if buku is not None and buku["title"] == "" and re_caps.match(s) and not s.endswith(".") and not re_pasal.match(s) and not re_bab.match(s):
+            buku["title"] = s
+            continue
         if bab is not None and pasal is None:
             if re_pasal.match(s):
                 pass
@@ -133,7 +156,7 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
             n = m.group(1)
             path = f"{slug}/pasal-{n}"
             container = bab["children"] if bab is not None else nodes
-            existing = next((c for c in container if c["canonicalPath"] == path), None)
+            existing = pasal_index.get(path) or next((c for c in container if c["canonicalPath"] == path), None)
             if existing:
                 # artefak pindah halaman: judul pasal terulang — sambung kontinuitas
                 pasal = existing
@@ -143,6 +166,7 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
             pasal = {"canonicalPath": path, "type": "PASAL",
                      "orderIndex": order, "label": f"Pasal {n}", "content": "",
                      "versionTag": "ORIGINAL", "children": []}
+            pasal_index[path] = pasal
             container.append(pasal)
             ayat = huruf = None
             continue

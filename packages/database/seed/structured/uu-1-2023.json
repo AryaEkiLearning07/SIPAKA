@@ -1,7 +1,7 @@
 {
  "slug": "uu-1-2023",
  "source": {
-  "url": "https://peraturan.bpk.go.id/Details/234935",
+  "url": "",
   "sha256": "975fc86cfa63204ee21810cb7a99918c3a16b5fd47e58dadd9562c5ff3f1dfa0",
   "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
   "metode": "pdfminer.six + parser generik",
@@ -12419,5 +12419,13 @@
     }
    ]
   }
- ]
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..623): [21, 22, 51, 70, 72, 74, 76, 77, 80, 91]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
 }

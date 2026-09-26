@@ -1793,5 +1793,13 @@
     }
    ]
   }
- ]
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..67): [13]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
 }

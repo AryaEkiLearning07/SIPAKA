@@ -50,10 +50,14 @@ model LegalInstrument {
   // Nomor Publikasi Lembaran Negara RI
   lnNumber        Int?             // Nomor Lembaran Negara
   tlnNumber       Int?             // Nomor Tambahan Lembaran Negara
+  confidenceScore Int?             // 0-100 dari gerbang keyakinan pipeline
+  publishMode     String?          // AUTO_PUBLISH | AUDITED | QUARANTINE
 
   sourceDocuments SourceDocument[]
   provisions      Provision[]
   publications    Publication[]
+  relasiDari      InstrumentRelation[] @relation("RelasiDari")
+  relasiKe        InstrumentRelation[] @relation("RelasiKe")
   
   // Relasi Peristiwa Perubahan (Change Sets)
   modificationsMade     ChangeSet[] @relation("AmendingInstrument")
@@ -100,6 +104,8 @@ model SourceDocument {
 // -------------------------------------------------------------
 
 enum ProvisionType {
+  BUKU
+  LAMPIRAN
   BAB
   BAGIAN
   PARAGRAF
@@ -129,6 +135,7 @@ model Provision {
   revisions         ProvisionRevision[]
   targetOperations  ChangeOperation[]
   judicialRulings   JudicialAnnotation[]
+  referensiDari     ProvisionReference[] @relation("ReferensiDari")
 
   createdAt         DateTime        @default(now())
 
@@ -333,4 +340,34 @@ model Session {
 
   @@index([userId])
   @@map("sessions")
+}
+
+// -------------------------------------------------------------
+// 8. RELASI ANTAR-ATURAN & ANTAR-PASAL (skala 60 ribu)
+// -------------------------------------------------------------
+
+model InstrumentRelation {
+  id          String   @id @default(cuid())
+  sourceId    String
+  source      LegalInstrument @relation("RelasiDari", fields: [sourceId], references: [id], onDelete: Cascade)
+  targetId    String
+  target      LegalInstrument @relation("RelasiKe", fields: [targetId], references: [id], onDelete: Cascade)
+  jenis       String   // DASAR_HUKUM | MENGUBAH | MENCABUT | MELAKSANAKAN | MERUJUK
+  sumberKlausa String? // klausa sumber bila diketahui
+
+  @@index([sourceId])
+  @@index([targetId])
+  @@map("instrument_relations")
+}
+
+model ProvisionReference {
+  id            String    @id @default(cuid())
+  sourceProvisionId String
+  sourceProvision Provision @relation("ReferensiDari", fields: [sourceProvisionId], references: [id], onDelete: Cascade)
+  targetPath    String    // canonicalPath tujuan (bisa lintas-instrumen)
+  jenis         String    // MERUJUK | DIRUJUK
+  keterangan    String?   @db.Text
+
+  @@index([sourceProvisionId])
+  @@map("provision_references")
 }
