@@ -3,6 +3,11 @@
 import React, { useEffect, useState } from 'react';
 import { Activity, Database, AlertTriangle, RefreshCw } from 'lucide-react';
 
+interface AntreanRow {
+  slug: string; nomor: string | null; tahun: string | null; status: string;
+  skor: number | null; pasal: number; ayat: number; perubahan: number;
+}
+
 interface MonitoringData {
   katalog: {
     total: number; terdaftar: number; terunduh: number; terparse: number;
@@ -18,6 +23,8 @@ interface MonitoringData {
 export default function MonitoringDashboard() {
   const [data, setData] = useState<MonitoringData | null>(null);
   const [err, setErr] = useState<string | null>(null);
+  const [filterStatus, setFilterStatus] = useState('KARANTINA');
+  const [antrean, setAntrean] = useState<AntreanRow[] | null>(null);
 
   useEffect(() => {
     let hidup = true;
@@ -35,6 +42,24 @@ export default function MonitoringDashboard() {
     const timer = setInterval(muat, 15000);
     return () => { hidup = false; clearInterval(timer); };
   }, []);
+
+  // Antrean per dokumen: ikut refresh periodik + saat filter berubah
+  useEffect(() => {
+    let hidup = true;
+    const muat = async () => {
+      try {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'}/api/v1/monitoring/queue?status=${filterStatus}&jenis=UU&limit=50`);
+        if (!res.ok) throw new Error(String(res.status));
+        const j = await res.json();
+        if (hidup) setAntrean(j.antrean);
+      } catch {
+        if (hidup) setAntrean([]);
+      }
+    };
+    muat();
+    const t = setInterval(muat, 15000);
+    return () => { hidup = false; clearInterval(t); };
+  }, [filterStatus]);
 
   const kartu = data ? [
     { l: 'Daftar Periksa BPK', v: data.katalog.total, c: 'text-slate-200' },
@@ -154,6 +179,71 @@ export default function MonitoringDashboard() {
               </div>
             </div>
           )}
+
+          {/* Antrean per dokumen */}
+          <div className="mt-4 rounded-2xl border border-white/10 bg-white/[0.03] p-4">
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <p className="text-[10px] font-mono font-bold uppercase tracking-wider text-slate-500">
+                Antrean per Dokumen — UU apa, berapa pasal/ayat, berapa perubahan
+              </p>
+              <div className="flex gap-1">
+                {(['LOLOS', 'KARANTINA', 'TERDAFTAR'] as const).map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => setFilterStatus(s)}
+                    className={`px-2.5 py-1 rounded-lg text-[10px] font-mono font-bold border transition-colors cursor-pointer ${
+                      filterStatus === s
+                        ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                        : 'bg-white/5 text-slate-400 border-white/10 hover:text-slate-200'
+                    }`}
+                  >
+                    {s}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {!antrean ? (
+              <p className="text-xs text-slate-500 animate-pulse">Memuat antrean…</p>
+            ) : antrean.length === 0 ? (
+              <p className="text-xs text-slate-500">Tidak ada dokumen berstatus {filterStatus}.</p>
+            ) : (
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-xs">
+                  <thead className="text-[10px] font-mono uppercase tracking-wider text-slate-500 border-b border-white/10">
+                    <tr>
+                      <th className="py-1.5 pr-3">Dokumen</th>
+                      <th className="py-1.5 pr-3">Tahun</th>
+                      <th className="py-1.5 pr-3">Pasal</th>
+                      <th className="py-1.5 pr-3">Ayat/Angka</th>
+                      <th className="py-1.5 pr-3">Perubahan</th>
+                      <th className="py-1.5">Skor</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-white/5">
+                    {antrean.map((r) => (
+                      <tr key={r.slug} className="hover:bg-white/5">
+                        <td className="py-1.5 pr-3 font-mono text-[11px] text-slate-200">{r.slug}</td>
+                        <td className="py-1.5 pr-3 tabular text-slate-400">{r.tahun ?? '-'}</td>
+                        <td className="py-1.5 pr-3 tabular text-slate-200">{r.pasal}</td>
+                        <td className="py-1.5 pr-3 tabular text-slate-200">{r.ayat}</td>
+                        <td className="py-1.5 pr-3 tabular">
+                          {r.perubahan > 0
+                            ? <span className="text-amber-300 font-semibold">{r.perubahan}</span>
+                            : <span className="text-slate-500">0</span>}
+                        </td>
+                        <td className="py-1.5 tabular">
+                          {r.skor !== null ? (
+                            <span className={r.skor >= 85 ? 'text-emerald-300' : 'text-amber-300'}>{r.skor}</span>
+                          ) : '—'}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
         </>
       )}
     </section>

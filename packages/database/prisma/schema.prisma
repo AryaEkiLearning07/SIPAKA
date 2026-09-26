@@ -388,6 +388,7 @@ model CatalogIndex {
   sha256    String?
   status    String   @default("TERDAFTAR") // TERDAFTAR -> TERUNDUH -> TERPARSE -> LOLOS | KARANTINA
   skor      Int?
+  pasalCount Int?    // jumlah pasal terbaca mesin (dari hasil parse)
 
   diupdate  DateTime @updatedAt
 

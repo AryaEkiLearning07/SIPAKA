@@ -52,4 +52,43 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
       dihitungPada: new Date().toISOString(),
     };
   });
+
+  // Antrean per dokumen: UU apa, status, berapa pasal/ayat, berapa perubahan
+  server.get('/api/v1/monitoring/queue', async (request) => {
+    const q = request.query as { status?: string; jenis?: string; limit?: string };
+    const status = q.status ?? 'LOLOS';
+    const jenis = q.jenis ?? 'UU';
+    const limit = Math.min(parseInt(q.limit ?? '50', 10) || 50, 200);
+
+    const rows = await prisma.$queryRawUnsafe<Record<string, unknown>[]>(
+      `SELECT ci.slug AS slug, ci.nomor AS nomor, ci.tahun AS tahun, ci.status AS status,
+              ci.skor AS skor,
+              COALESCE(ci.pasalCount, (SELECT COUNT(*) FROM provisions p
+                WHERE p.legalInstrumentId = li.id AND p.type = 'PASAL')) AS pasal,
+              (SELECT COUNT(*) FROM provisions p
+                WHERE p.legalInstrumentId = li.id AND p.type IN ('AYAT','ANGKA')) AS ayat,
+              (SELECT COUNT(*) FROM change_operations co
+                WHERE co.changeSetId IN
+                  (SELECT id FROM change_sets cs WHERE cs.targetInstrumentId = li.id)) AS perubahan
+       FROM catalog_index ci
+       LEFT JOIN legal_instruments li ON li.slug = ci.slug
+       WHERE ci.jenis = ? AND ci.status = ?
+       ORDER BY CAST(ci.tahun AS UNSIGNED) DESC, ci.slug
+       LIMIT ?`,
+      jenis, status, limit
+    );
+
+    const antrean = rows.map((r) => ({
+      slug: String(r.slug ?? ''),
+      nomor: r.nomor ? String(r.nomor) : null,
+      tahun: r.tahun ? String(r.tahun) : null,
+      status: String(r.status ?? ''),
+      skor: r.skor === null || r.skor === undefined ? null : Number(r.skor),
+      pasal: Number(r.pasal ?? 0),
+      ayat: Number(r.ayat ?? 0),
+      perubahan: Number(r.perubahan ?? 0),
+    }));
+
+    return { status, jenis, jumlah: antrean.length, antrean };
+  });
 }

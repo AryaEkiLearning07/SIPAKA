@@ -33,6 +33,18 @@ def cek_urutan(nums: list[float], jenis: str, issues: list[str]) -> None:
 
 def validate(doc: dict) -> dict:
     issues: list[str] = []
+
+    # ATURAN PENTING: dokumen dengan 0 pasal terbaca = gagal total (scan rusak/format
+    # tak dikenal), BUKAN lolos. Tanpa aturan ini dokumen tak terbaca lolos diam-diam.
+    stats0 = doc.get("stats", {})
+    if stats0.get("pasal", 0) == 0:
+        return {
+            "slug": doc.get("slug"),
+            "skor": 0,
+            "keputusan": "QUARANTINE",
+            "jumlah": stats0,
+            "issues": ["PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."],
+        }
     pasal_nums: list[float] = []
     pasal_kosong: list[str] = []
     ayat_dups: list[str] = []
