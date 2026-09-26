@@ -148,10 +148,12 @@ export default function InspectorPanel(p: InspectorPanelProps) {
 
             <div>
               <h5 className="font-sans font-extrabold text-xs text-slate-900 leading-snug">
-                {detail?.diubahOleh ? detail.diubahOleh.split(' (')[0] : 'UU No. 1 Tahun 2024'}
+                {detail?.diubahOleh ? detail.diubahOleh.split(' (')[0] : 'UU Pengubah'}
               </h5>
               <p className="text-[11px] text-slate-600 mt-0.5">
-                Perubahan Kedua atas UU No. 11/2008 tentang Informasi dan Transaksi Elektronik
+                {detail?.diubahOleh?.includes('19')
+                  ? 'Perubahan Pertama atas UU No. 11/2008 tentang Informasi dan Transaksi Elektronik'
+                  : 'Perubahan atas UU pokok — identitas lengkap pada kartu di atas'}
               </p>
             </div>
 
@@ -159,9 +161,11 @@ export default function InspectorPanel(p: InspectorPanelProps) {
               <div className="flex items-start gap-1.5 text-slate-600">
                 <span className="text-slate-400 shrink-0 min-w-[75px]">Dasar Pasal:</span>
                 <span className="text-slate-900 font-semibold">
-                  {detail?.diubahOleh?.includes('(')
-                    ? detail.diubahOleh.split('(')[1].replace(')', '')
-                    : 'Ketentuan Perubahan UU 1/2024'}
+                  {(() => {
+                    const o = detail?.diubahOleh ?? '';
+                    const m = o.match(/Pasal\s+[IVX]+(\s+angka\s+\d+[a-z]?)?/i);
+                    return m ? m[0] : 'Lihat naskah pengubah';
+                  })()}
                 </span>
               </div>
               <div className="flex items-start gap-1.5 text-slate-600">
