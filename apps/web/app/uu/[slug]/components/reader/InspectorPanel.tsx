@@ -254,6 +254,10 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             )}
           </div>
 
+          <p className="text-[10px] leading-relaxed text-slate-500 bg-slate-50 border border-slate-100 rounded-lg px-2.5 py-1.5">
+            Sumber data panel ini: <strong className="text-slate-700">Komparasi &amp; Riwayat</strong> dihitung dari database (operasi amandemen tersimpan); tab <strong className="text-slate-700">Pasal Terdampak / Turunan / Putusan MK</strong> saat ini masih data pilot keluarga UU ITE yang dikurasi manual.
+          </p>
+
           {/* Isi Tab */}
           <InspectorTabs
             inspectorNode={node}

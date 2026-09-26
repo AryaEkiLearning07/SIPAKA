@@ -243,7 +243,7 @@ export default function PipelineFactoryPage() {
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
               </span>
               <span className="font-mono font-bold text-xs text-emerald-400 uppercase tracking-wider">
-                LIVE LEGAL FACTORY · PABRIK KODIFIKASI REALTIME
+                SIMULATOR PABRIK · VISUALISASI TAHAPAN INGESTION (BUKAN PROSES NYATA)
               </span>
             </div>
           </div>
