@@ -2,18 +2,18 @@
 
 import React, { useState } from 'react';
 import { ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
-import { getProvisionAmendmentDetail } from './impact-data';
-import { API_BASE, InspectorState, InspectorTab, RiwayatVersi } from './reader-types';
+import { API_BASE, InspectorState, InspectorTab, OpsRow, RiwayatVersi } from './reader-types';
 
 /**
- * Hook inspektor norma: membuka panel, menghitung diff server-side,
- * dan menggabungkan detail dampak regulasi terdampak (impact-data).
+ * Hook inspektor norma — seluruh data dari database:
+ * operasi amandemen (tabel change_operations) + riwayat bunyi (rekonstruksi titik waktu).
  */
 export function useInspector(
   slug: string,
   selectedTimeline: string | null,
   years: string[],
-  setActiveNodePath: (path: string) => void
+  setActiveNodePath: (path: string) => void,
+  operations: OpsRow[]
 ) {
   const [inspectorNode, setInspectorNode] = useState<InspectorState | null>(null);
   const [inspectorTab, setInspectorTab] = useState<InspectorTab>('diff');
@@ -21,33 +21,40 @@ export function useInspector(
   const handleOpenInspector = async (node: ProvisionNode, parentLabel?: string) => {
     if (!selectedTimeline) return;
     setActiveNodePath(node.canonicalPath);
-    const detail = getProvisionAmendmentDetail(node.canonicalPath, node.label);
 
-    // KETENTUAN PENGGUNA: Sidebar kanan HANYA muncul saat memilih pasal/ayat yang mengalami amandemen!
+    const relOps = operations.filter(
+      (o) => o.targetCanonicalPath === node.canonicalPath || o.targetCanonicalPath.startsWith(node.canonicalPath + '/')
+    );
     const hasAmendment =
-      detail.statusPerubahan !== 'ASLI' ||
-      node.versionTag?.startsWith('AMENDMENT') ||
-      node.versionTag?.startsWith('AMEND') ||
-      Boolean(node.isRepealed) ||
-      Boolean(detail.putusanMk);
+      relOps.length > 0 || node.isRepealed === true || (node.versionTag ?? '').startsWith('AMEND');
 
+    // KETENTUAN PENGGUNA: panel HANYA muncul untuk pasal/ayat yang mengalami amandemen
     if (!hasAmendment) {
       setInspectorNode(null);
       return;
     }
 
     setInspectorTab('diff');
+
+    const jenis = relOps.some((o) => o.operationType === 'REPEAL_PROVISION')
+      ? 'DICABUT / DIHAPUS'
+      : relOps.some((o) => o.operationType === 'ADD_PROVISION')
+        ? 'SISIPAN BARU'
+        : 'DIUBAH';
+    const amenderNames = [...new Set(relOps.map((o) => o.amender))].join(' jo. ');
+    const opLama = relOps.find((o) => o.previousContent);
+
     setInspectorNode({
       canonicalPath: node.canonicalPath,
       label: node.label,
       parentLabel,
-      status: detail.statusBadge || 'MEMUAT…',
-      amendedBy: detail.diubahOleh,
+      status: jenis + ' (MEMUAT…)',
+      amendedBy: amenderNames,
       versionTag: node.versionTag,
       isRepealed: node.isRepealed,
       repealBasis: node.repealBasis,
-      fromText: detail.textSebelum || '…',
-      toText: detail.textSesudah || node.content || '…',
+      fromText: opLama?.previousContent ?? '…',
+      toText: node.content || '…',
       diff: {
         targetPath: node.canonicalPath,
         sourceVersion: '',
@@ -59,7 +66,7 @@ export function useInspector(
         unchangedCount: 0,
         similarityRatio: 0,
       } as ProvisionDiffResult,
-      amendmentDetail: detail,
+      ops: relOps,
       loading: true,
     });
 
@@ -77,33 +84,26 @@ export function useInspector(
       const json = diffRes && diffRes.ok ? await diffRes.json() : null;
       const hist = histRes && histRes.ok ? await histRes.json() : { versi: [] };
 
-      const baselineMissing = json ? !json.nodeFrom : node.versionTag.startsWith('AMENDMENT_2024');
-      const status = node.isRepealed
-        ? 'DICABUT / DIHAPUS'
-        : baselineMissing
-          ? 'PASAL SISIPAN BARU'
-          : node.versionTag.startsWith('AMENDED') || node.versionTag.startsWith('AMENDMENT')
-            ? 'DIUBAH REDAKSI'
-            : 'BERLAKU';
-
-      setInspectorNode((prev) => ({
-        canonicalPath: node.canonicalPath,
-        label: node.label,
-        parentLabel,
-        status: detail.statusBadge || status,
-        amendedBy: detail.diubahOleh || (node.isRepealed ? node.repealBasis || 'UU Pengubah' : 'UU Pengubah'),
-        versionTag: node.versionTag,
-        isRepealed: node.isRepealed,
-        repealBasis: node.repealBasis,
-        fromText: detail.textSebelum || json?.textFrom || '(Belum ada pada naskah asli)',
-        toText: detail.textSesudah || json?.textTo || node.content,
-        diff: json?.diff ?? (prev ? prev.diff : {} as ProvisionDiffResult),
-        riwayat: (hist?.versi ?? []) as RiwayatVersi[],
-        amendmentDetail: detail,
-        loading: false,
-      }));
+      setInspectorNode((prev) => {
+        if (!prev) return null;
+        const baselineMissing = json ? !json.nodeFrom : true;
+        const status = prev.status.startsWith('DICABUT')
+          ? prev.status
+          : baselineMissing && relOps.some((o) => o.operationType === 'ADD_PROVISION')
+            ? 'SISIPAN BARU'
+            : 'DIUBAH';
+        return {
+          ...prev,
+          status,
+          amendedBy: amenderNames,
+          fromText: json?.textFrom ?? prev.fromText,
+          toText: json?.textTo ?? prev.toText,
+          diff: json?.diff ?? prev.diff,
+          riwayat: (hist?.versi ?? []) as RiwayatVersi[],
+          loading: false,
+        };
+      });
     } catch {
-      // Fallback tetap aman dengan metadata lokal
       setInspectorNode((prev) => (prev ? { ...prev, loading: false } : null));
     }
   };

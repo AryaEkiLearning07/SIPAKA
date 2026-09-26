@@ -3,7 +3,7 @@
 import React from 'react';
 import { History } from 'lucide-react';
 import { ProvisionNode } from '@lexvera/types';
-import { PROVISION_AMENDMENT_MAP, ProvisionAmendmentDetail } from '../../impact-data';
+import { OpsRow } from '../../reader-types';
 import { formatProvisionLabel, cleanLegalText, fontSizeClass } from '../../reader-utils';
 
 /** Banner arsip versi lama (tampil saat user memilih "Lihat Naskah Sebelumnya"). */
@@ -38,19 +38,13 @@ export default function VersiLamaBanner({
 }
 
 
-function hukumAyat(d: ProvisionAmendmentDetail | undefined): string | null {
-  const o = d?.diubahOleh ?? '';
-  const m = o.match(/UU(?:\s+No\.?)?\s*\d+\s+Tahun\s+\d{4}/);
-  return m ? m[0] : null;
-}
-
 /** Satu baris ayat dengan penanda status & tombol arsip versi lama. */
 export function AyatRow({
-  ayat, pasalLabel, pasalHasMk, showAnnotations, activeNodePath, provisionVersions, setProvisionVersions, fontSizeCls, fontFamilyCls, handleOpenInspector,
+  ayat, pasalLabel, ops: opsPasal, showAnnotations, activeNodePath, provisionVersions, setProvisionVersions, fontSizeCls, fontFamilyCls, handleOpenInspector,
 }: {
   ayat: ProvisionNode;
   pasalLabel: string;
-  pasalHasMk: boolean;
+  ops: OpsRow[];
   showAnnotations: boolean;
   activeNodePath: string;
   provisionVersions: Record<string, 'CURRENT' | 'PREVIOUS'>;
@@ -59,13 +53,13 @@ export function AyatRow({
   fontFamilyCls: string;
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
 }) {
-  const ayatDetail = PROVISION_AMENDMENT_MAP[ayat.canonicalPath];
-  const ayatIsNew = ayatDetail?.statusPerubahan === 'SISIPAN_BARU';
-  const ayatIsAmended = ayatDetail?.statusPerubahan === 'DIUBAH';
-  const ayatIsRepealed = ayat.isRepealed || ayatDetail?.statusPerubahan === 'DICABUT';
-  const ayatHasMk = Boolean(ayatDetail?.putusanMk || (pasalHasMk && ayat.canonicalPath.includes('pasal-27')));
+  const op = opsPasal.find((o) => o.targetCanonicalPath === ayat.canonicalPath);
+  const ayatIsNew = op?.operationType === 'ADD_PROVISION';
+  const ayatIsAmended = op?.operationType === 'REPLACE_PROVISION' || op?.operationType === 'PARTIAL_REPEAL';
+  const ayatIsRepealed = ayat.isRepealed || op?.operationType === 'REPEAL_PROVISION';
+  const ayatHasMk = false; // anotasi putusan MK: belum ada data terdigitasi
   const isAyatActive = activeNodePath === ayat.canonicalPath;
-  const hasAyatAmendment = Boolean(ayatDetail && ayatDetail.statusPerubahan !== 'ASLI');
+  const hasAyatAmendment = Boolean(op);
   const isAyatPreviousSelected = provisionVersions[ayat.canonicalPath] === 'PREVIOUS';
 
   const ayatColorStyle = !showAnnotations
@@ -97,7 +91,7 @@ export function AyatRow({
       <div className="flex-1 min-w-0 space-y-1.5">
         {isAyatPreviousSelected ? (
           <VersiLamaBanner
-            teksSebelum={ayatDetail?.textSebelum || ''}
+            teksSebelum={op?.previousContent || ''}
             fontSizeCls={fontSizeCls}
             onKembali={() => setProvisionVersions((prev) => ({ ...prev, [ayat.canonicalPath]: 'CURRENT' }))}
           />
@@ -111,12 +105,12 @@ export function AyatRow({
         <div className="mt-1 flex items-center gap-2 flex-wrap">
           {showAnnotations && ayatIsNew && (
             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-emerald-300">
-              🟢 Sisipan Baru{hukumAyat(ayatDetail) ? ` (${hukumAyat(ayatDetail)})` : ''}
+              🟢 Sisipan Baru
             </span>
           )}
           {showAnnotations && ayatIsAmended && (
             <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-amber-100 text-amber-900 border border-amber-300">
-              🟡 Redaksi Diubah{hukumAyat(ayatDetail) ? ` (${hukumAyat(ayatDetail)})` : ''}
+              🟡 Redaksi Diubah
             </span>
           )}
           {showAnnotations && ayatIsRepealed && (
@@ -130,7 +124,7 @@ export function AyatRow({
             </span>
           )}
 
-          {hasAyatAmendment && ayatDetail?.textSebelum && !isAyatPreviousSelected && (
+          {hasAyatAmendment && op?.previousContent && !isAyatPreviousSelected && (
             <button
               onClick={(e) => {
                 e.stopPropagation();
@@ -151,10 +145,10 @@ export function AyatRow({
 
 /** Pasal satu-paragraf (tanpa ayat) — sejajar dengan margin ayat. */
 export function PasalParagraf({
-  pasal, pasalDetail, activeNodePath, provisionVersions, setProvisionVersions, fontSizeCls, fontFamilyCls, handleOpenInspector,
+  pasal, ops, activeNodePath, provisionVersions, setProvisionVersions, fontSizeCls, fontFamilyCls, handleOpenInspector,
 }: {
   pasal: ProvisionNode;
-  pasalDetail: ProvisionAmendmentDetail | undefined;
+  ops: OpsRow[];
   activeNodePath: string;
   provisionVersions: Record<string, 'CURRENT' | 'PREVIOUS'>;
   setProvisionVersions: React.Dispatch<React.SetStateAction<Record<string, 'CURRENT' | 'PREVIOUS'>>>;
@@ -163,7 +157,8 @@ export function PasalParagraf({
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
 }) {
   const isPasalPreviousSelected = provisionVersions[pasal.canonicalPath] === 'PREVIOUS';
-  const hasPasalAmendment = Boolean(pasalDetail && pasalDetail.statusPerubahan !== 'ASLI');
+  const opLama = ops.find((o) => o.previousContent);
+  const hasPasalAmendment = ops.length > 0;
 
   return (
     <div
@@ -180,7 +175,7 @@ export function PasalParagraf({
       <div className="flex-1 min-w-0 space-y-1.5">
         {isPasalPreviousSelected ? (
           <VersiLamaBanner
-            teksSebelum={pasalDetail?.textSebelum || ''}
+            teksSebelum={opLama?.previousContent || ''}
             fontSizeCls={fontSizeCls}
             onKembali={() => setProvisionVersions((prev) => ({ ...prev, [pasal.canonicalPath]: 'CURRENT' }))}
           />
@@ -190,7 +185,7 @@ export function PasalParagraf({
           </p>
         )}
 
-        {hasPasalAmendment && pasalDetail?.textSebelum && !isPasalPreviousSelected && (
+        {hasPasalAmendment && opLama?.previousContent && !isPasalPreviousSelected && (
           <div className="pt-1 flex justify-end">
             <button
               onClick={(e) => {

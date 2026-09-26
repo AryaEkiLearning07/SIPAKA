@@ -13,6 +13,9 @@ export default function LegalNeuronPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50/70 font-sans text-slate-800">
+      <div className="bg-amber-50 border-b border-amber-200 text-amber-900 text-[11px] font-semibold px-4 py-2 text-center">
+        Data contoh pilot (belum dari database) — silsilah produksi mengikuti ingestion massal.
+      </div>
       {/* Top Header Glassmorphic */}
       <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">

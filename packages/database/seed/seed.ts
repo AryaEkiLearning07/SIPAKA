@@ -181,7 +181,11 @@ async function seedChangeSet(cs: ChangeSetPayload, amenderSlug: string, targetIn
         operationType: op.operationType,
         sourceReference: op.sourceReference,
         previousContent:
-          op.operationType === 'REPLACE_PROVISION' ? op.previousContent : null,
+          op.operationType === 'REPLACE_PROVISION'
+            ? op.previousContent
+            : op.operationType === 'REPEAL_PROVISION'
+              ? null // di-backfill di bawah dari revisi ORIGINAL naskah dasar
+              : null,
         newContent:
           op.operationType === 'REPLACE_PROVISION'
             ? op.newContent
@@ -192,6 +196,22 @@ async function seedChangeSet(cs: ChangeSetPayload, amenderSlug: string, targetIn
         orderInSet: op.orderInSet,
       },
     });
+
+    // Backfill: operasi REPEAL mewarisi bunyi asli dari revisi ORIGINAL naskah dasar
+    if (op.operationType === 'REPEAL_PROVISION') {
+      const rev = await prisma.provisionRevision.findFirst({
+        where: { provisionId: target.id, changeSetId: null },
+        select: { id: true, content: true },
+      });
+      const opRow = await prisma.changeOperation.findFirst({
+        where: { changeSetId: changeSet.id, targetProvisionId: target.id, operationType: 'REPEAL_PROVISION' },
+        orderBy: { orderInSet: 'desc' },
+        select: { id: true, previousContent: true },
+      });
+      if (rev && opRow && !opRow.previousContent) {
+        await prisma.changeOperation.update({ where: { id: opRow.id }, data: { previousContent: rev.content } });
+      }
+    }
   }
   return changeSet.id;
 }

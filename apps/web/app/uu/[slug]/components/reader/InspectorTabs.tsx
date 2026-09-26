@@ -1,13 +1,9 @@
 'use client';
 
 import React from 'react';
-import {
-  Scale, X, FileText, ExternalLink, ArrowRight, ChevronRight,
-  Check, Copy, Sparkles
-} from 'lucide-react';
+import { ChevronRight, Check, Copy, Sparkles } from 'lucide-react';
 import { ProvisionNode } from '@lexvera/types';
-import { ALL_AMENDED_PROVISIONS, ImpactedRegulation } from '../../impact-data';
-import { InspectorState, InspectorTab } from '../../reader-types';
+import { InspectorState, InspectorTab, OpsRow } from '../../reader-types';
 
 export interface InspectorTabsProps {
   inspectorNode: InspectorState;
@@ -15,7 +11,7 @@ export interface InspectorTabsProps {
   setInspectorTab: (t: InspectorTab) => void;
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
   scrollToNode: (path: string) => void;
-  setSelectedImpact: (r: ImpactedRegulation) => void;
+  operations: OpsRow[];
   copiedCitation: boolean;
   salinSitasi: (node: { label: string }) => void;
   currentUser: { name: string; role: string } | null;
@@ -37,9 +33,6 @@ export default function InspectorTabs(p: InspectorTabsProps) {
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
                 Sebelumnya (Naskah Asli/Lama):
               </span>
-              <span className="text-[10px] font-mono text-slate-400">
-                UU 11/2008
-              </span>
             </div>
             <p className="text-xs font-serif text-slate-700 italic leading-relaxed pt-1 text-justify">
               {node.fromText || '(Belum diatur pada naskah awal)'}
@@ -53,52 +46,42 @@ export default function InspectorTabs(p: InspectorTabsProps) {
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
                 Setelahnya (Hukum Positif Terkini):
               </span>
-              <span className="text-[10px] font-mono text-emerald-800 font-semibold">
-                UU 1/2024
-              </span>
             </div>
             <p className="text-xs font-sans text-slate-900 font-medium leading-relaxed pt-1 text-justify">
               {node.toText || 'Norma berlaku sesuai naskah dokumen.'}
             </p>
           </div>
-
-          {/* Rasional Perubahan */}
-          {node.amendmentDetail?.latarBelakangPerubahan && (
-            <div className="p-3 rounded-xl bg-slate-50/70 border border-slate-200/70 text-[11px] text-slate-600 leading-relaxed">
-              <span className="font-semibold text-slate-800">Latar Belakang Perubahan: </span>
-              {node.amendmentDetail.latarBelakangPerubahan}
-            </div>
-          )}
         </div>
       )}
 
-      {/* Tab 2: Daftar Seluruh Pasal yang Terdampak Amandemen */}
+      {/* Tab 2: Seluruh Operasi Perubahan Instrumen Ini (dari database) */}
       {p.inspectorTab === 'affected_list' && (
         <div className="space-y-2.5 pt-1">
           <div className="flex items-center justify-between text-[11px] text-slate-500 pb-0.5">
-            <span>Daftar pasal yang disentuh oleh UU 1/2024:</span>
-            <span className="font-mono font-bold text-slate-700">{ALL_AMENDED_PROVISIONS.length} Ketentuan</span>
+            <span>Seluruh operasi perubahan yang tersimpan di database:</span>
+            <span className="font-mono font-bold text-slate-700">{p.operations.length} Operasi</span>
           </div>
 
           <div className="space-y-2 max-h-[420px] overflow-y-auto pr-1">
-            {ALL_AMENDED_PROVISIONS.map((item) => {
-              const isCurrentActive = node.canonicalPath === item.canonicalPath;
+            {p.operations.map((op) => {
+              const isCurrentActive = node.canonicalPath === op.targetCanonicalPath;
+              const jenis = op.operationType.replace('_PROVISION', '');
               return (
                 <div
-                  key={item.canonicalPath}
+                  key={op.id}
                   onClick={() => {
-                    p.scrollToNode(item.canonicalPath);
-                    const dummyNode: ProvisionNode = {
-                      canonicalPath: item.canonicalPath,
-                      type: 'PASAL',
-                      orderIndex: 0,
-                      label: item.label,
-                      title: '',
-                      content: '',
-                      versionTag: item.status === 'SISIPAN_BARU' ? 'AMENDMENT_2024' : 'AMENDED',
-                      children: [],
-                    };
-                    p.handleOpenInspector(dummyNode);
+                    p.scrollToNode(op.targetCanonicalPath);
+                    p.handleOpenInspector(
+                      {
+                        canonicalPath: op.targetCanonicalPath,
+                        type: 'PASAL',
+                        orderIndex: 0,
+                        label: op.targetLabel,
+                        content: op.newContent ?? '',
+                        versionTag: 'AMENDED',
+                        children: [],
+                      } as ProvisionNode
+                    );
                   }}
                   className={`p-2.5 rounded-xl border transition-all cursor-pointer group shadow-2xs ${
                     isCurrentActive
@@ -108,25 +91,26 @@ export default function InspectorTabs(p: InspectorTabsProps) {
                 >
                   <div className="flex items-center justify-between gap-1 mb-1">
                     <span className="font-bold text-xs text-slate-900 group-hover:text-[#94191C] transition-colors">
-                      {item.label}
+                      {op.targetLabel}
                     </span>
                     <span className={`text-[9.5px] font-mono font-bold px-1.5 py-0.5 rounded border ${
-                      item.status === 'SISIPAN_BARU'
+                      op.operationType === 'ADD_PROVISION'
                         ? 'bg-emerald-50 text-emerald-800 border-emerald-300'
-                        : item.status === 'DICABUT'
+                        : op.operationType === 'REPEAL_PROVISION'
                           ? 'bg-rose-50 text-rose-800 border-rose-300'
                           : 'bg-amber-50 text-amber-900 border-amber-300'
                     }`}>
-                      {item.statusLabel}
+                      {jenis}
                     </span>
                   </div>
 
                   <p className="text-[11px] text-slate-600 line-clamp-2 leading-relaxed">
-                    {item.summary}
+                    {(op.previousContent ? '[Lama→] ' + op.previousContent.slice(0, 80) + ' — ' : '') +
+                     (op.newContent ? '[Baru→] ' + op.newContent.slice(0, 80) : '')}
                   </p>
 
                   <div className="pt-1.5 mt-1.5 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400 font-mono">
-                    <span className="truncate max-w-[190px]">{item.amendingLaw}</span>
+                    <span className="truncate max-w-[190px]">{op.amender} · {op.sourceReference}</span>
                     <span className="text-[#94191C] font-semibold flex items-center group-hover:translate-x-0.5 transition-transform">
                       Inspeksi <ChevronRight className="w-3 h-3 ml-0.5" />
                     </span>
@@ -138,66 +122,12 @@ export default function InspectorTabs(p: InspectorTabsProps) {
         </div>
       )}
 
-      {/* Tab 3: Dampak Regulasi Turunan */}
-      {p.inspectorTab === 'impact' && (
-        <div className="space-y-3 pt-1">
-          <p className="text-[11px] text-slate-500 leading-snug">
-            Peraturan turunan yang terdampak langsung oleh amandemen pasal ini:
-          </p>
-
-          <div className="space-y-2">
-            {node.amendmentDetail?.peraturanTerdampak?.map((reg) => (
-              <div
-                key={reg.id}
-                onClick={() => p.setSelectedImpact(reg)}
-                className="p-3 rounded-xl border border-slate-200 hover:border-[#94191C]/50 hover:bg-slate-50 transition-all cursor-pointer group bg-white shadow-2xs space-y-1.5"
-              >
-                <div className="flex items-center justify-between gap-1 text-[11px]">
-                  <span className="font-bold text-slate-900 group-hover:text-[#94191C] transition-colors">
-                    {reg.number}
-                  </span>
-                  <span className="text-[10px] font-semibold text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">
-                    {reg.statusLabel}
-                  </span>
-                </div>
-
-                <h5 className="font-sans font-medium text-xs text-slate-700 leading-snug">
-                  {reg.title}
-                </h5>
-
-                <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">
-                  {reg.ringkasanDampak}
-                </p>
-
-                <div className="pt-1.5 border-t border-slate-100 flex items-center justify-between text-[11px] font-medium text-[#94191C]">
-                  <span>Pasal: {reg.pasalTurunan}</span>
-                  <span className="flex items-center group-hover:translate-x-0.5 transition-transform">
-                    Rincian Pertentangan <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* Tab 4: Putusan Mahkamah Konstitusi */}
-      {p.inspectorTab === 'mk' && node.amendmentDetail?.putusanMk && (
-        <div className="space-y-3 pt-1">
-          <div className="p-3.5 rounded-xl bg-purple-50/70 border border-purple-200 space-y-2">
-            <div className="flex items-center gap-1.5 text-purple-950 font-bold text-xs">
-              <Scale className="w-3.5 h-3.5 text-purple-700 shrink-0" />
-              <span>{node.amendmentDetail.putusanMk.nomor}</span>
-            </div>
-            <p className="text-xs text-purple-950 font-serif italic leading-relaxed">
-              &ldquo;{node.amendmentDetail.putusanMk.amarPutusan}&rdquo;
-            </p>
-          </div>
-
-          <div className="p-3 rounded-xl bg-slate-50 border border-slate-200/80 text-[11px] text-slate-600 leading-relaxed">
-            <span className="font-semibold text-slate-900 block mb-1">Pertimbangan Hukum (Ratio Decidendi):</span>
-            {node.amendmentDetail.putusanMk.ratioDecidendi}
-          </div>
+      {/* Tab Relasi: jujur — data belum ada */}
+      {p.inspectorTab === 'relasi' && (
+        <div className="rounded-xl border border-slate-200 bg-slate-50/70 p-4 text-[11px] leading-relaxed text-slate-600">
+          <span className="font-bold text-slate-800 block mb-1">Belum ada data relasi.</span>
+          Mesin relasi antar-aturan (dasar hukum, melaksanakan, merujuk) akan mengisinya
+          seiring bertambahnya dokumen yang terdigitasi.
         </div>
       )}
 

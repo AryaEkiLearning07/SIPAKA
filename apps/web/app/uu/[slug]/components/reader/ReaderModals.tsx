@@ -3,20 +3,14 @@
 import React from 'react';
 import Link from 'next/link';
 import { Lock } from 'lucide-react';
-import { ImpactedRegulation } from '../../impact-data';
 import { InspectorState } from '../../reader-types';
 import AiAnalysisModal from './AiAnalysisModal';
-import ImpactModal from './ImpactModal';
 
 interface ReaderModalsProps {
   showLoginPrompt: boolean;
   setShowLoginPrompt: (v: boolean) => void;
   showAiModal: boolean;
   setShowAiModal: (v: boolean) => void;
-  selectedImpact: ImpactedRegulation | null;
-  setSelectedImpact: (r: ImpactedRegulation | null) => void;
-  copiedHarmonisasi: boolean;
-  setCopiedHarmonisasi: (v: boolean) => void;
   inspectorNode: InspectorState | null;
   currentUser: { name: string; role: string } | null;
 }
@@ -68,15 +62,6 @@ export default function ReaderModals(p: ReaderModalsProps) {
         />
       )}
 
-      {/* Modal Baca Perubahan yang Terjadi (Komparasi Dampak Regulasi Terdampak) */}
-      {p.selectedImpact && (
-        <ImpactModal
-          impact={p.selectedImpact}
-          copied={p.copiedHarmonisasi}
-          setCopied={p.setCopiedHarmonisasi}
-          onClose={() => p.setSelectedImpact(null)}
-        />
-      )}
     </>
   );
 }

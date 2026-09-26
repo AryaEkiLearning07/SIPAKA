@@ -1,5 +1,4 @@
 import { ConsolidatedLawDocument, ProvisionDiffResult } from '@lexvera/types';
-import { ProvisionAmendmentDetail } from './impact-data';
 
 export const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
@@ -56,11 +55,25 @@ export interface InspectorState {
   toText: string;
   diff: ProvisionDiffResult;
   riwayat?: RiwayatVersi[];
-  amendmentDetail?: ProvisionAmendmentDetail;
+  ops?: OpsRow[];
   loading?: boolean;
 }
 
-export type InspectorTab = 'diff' | 'affected_list' | 'impact' | 'mk';
+export interface OpsRow {
+  id: string;
+  operationType: string;
+  sourceReference: string;
+  targetCanonicalPath: string;
+  targetLabel: string;
+  previousContent: string | null;
+  newContent: string | null;
+  changeSetTitle: string;
+  effectiveFrom: string;
+  amender: string;
+  amenderSlug: string | null;
+}
+
+export type InspectorTab = 'diff' | 'affected_list' | 'relasi';
 
 export async function fetchSnapshot(slug: string, year: string): Promise<ConsolidatedLawDocument> {
   const res = await fetch(`${API_BASE}/api/v1/instruments/${slug}/snapshot?year=${year}`);

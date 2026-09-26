@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { ConsolidatedLawDocument, ProvisionNode } from '@lexvera/types';
-import { PROVISION_AMENDMENT_MAP, ProvisionAmendmentDetail } from '../../impact-data';
+import { OpsRow } from '../../reader-types';
 import { fontSizeClass } from '../../reader-utils';
 import { AyatRow, PasalParagraf } from './NaskahBits';
 
@@ -10,6 +10,7 @@ interface NaskahPasalProps {
   currentDoc: ConsolidatedLawDocument;
   showAnnotations: boolean;
   activeNodePath: string;
+  operations: OpsRow[];
   provisionVersions: Record<string, 'CURRENT' | 'PREVIOUS'>;
   setProvisionVersions: React.Dispatch<React.SetStateAction<Record<string, 'CURRENT' | 'PREVIOUS'>>>;
   fontSize: 'sm' | 'base' | 'lg' | 'xl';
@@ -17,10 +18,16 @@ interface NaskahPasalProps {
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
 }
 
+function opsUntuk(ops: OpsRow[] | undefined, path: string): OpsRow[] {
+  return (ops ?? []).filter(
+    (o) => o.targetCanonicalPath === path || o.targetCanonicalPath.startsWith(path + '/')
+  );
+}
 
-/** Ambil nama hukum pengubah pertama dari deskripsi detail (mis. "UU No. 19 Tahun 2016"). */
-function hukumPengubah(d: ProvisionAmendmentDetail | undefined): string | null {
-  const o = d?.diubahOleh ?? '';
+
+/** Ambil nama hukum pengubah dari daftar operasi pasal ini. */
+function hukumPengubah(ops: OpsRow[]): string | null {
+  const o = ops.find((x) => x.amender)?.amender ?? '';
   const m = o.match(/UU(?:\s+No\.?)?\s*\d+\s+Tahun\s+\d{4}/);
   return m ? m[0] : null;
 }
@@ -47,11 +54,11 @@ export default function NaskahPasal(p: NaskahPasalProps) {
 
           {/* Pasal-Pasal */}
           {chapter.children?.map((pasal) => {
-            const pasalDetail = PROVISION_AMENDMENT_MAP[pasal.canonicalPath];
-            const isNewInsert = pasal.versionTag.startsWith('AMENDMENT_2024') || pasalDetail?.statusPerubahan === 'SISIPAN_BARU';
-            const isAmended = pasal.versionTag.startsWith('AMENDED') || (pasal.versionTag.startsWith('AMENDMENT') && !isNewInsert) || pasalDetail?.statusPerubahan === 'DIUBAH';
-            const isRepealed = pasal.isRepealed || pasalDetail?.statusPerubahan === 'DICABUT';
-            const hasMk = Boolean(pasalDetail?.putusanMk);
+            const pasalOps = opsUntuk(p.operations, pasal.canonicalPath);
+            const isNewInsert = pasalOps.some((o) => o.operationType === 'ADD_PROVISION');
+            const isAmended = pasalOps.some((o) => o.operationType === 'REPLACE_PROVISION' || o.operationType === 'PARTIAL_REPEAL');
+            const isRepealed = pasal.isRepealed || pasalOps.some((o) => o.operationType === 'REPEAL_PROVISION');
+            const hasMk = false; // anotasi putusan MK: data belum ada (belum terdigitasi)
             const isSelected = p.activeNodePath === pasal.canonicalPath || p.activeNodePath.startsWith(pasal.canonicalPath + '/');
 
             const borderClass = !p.showAnnotations
@@ -82,17 +89,17 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                     </span>
                     {p.showAnnotations && isNewInsert && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-emerald-100 text-emerald-800 border border-emerald-300 shadow-2xs">
-                        🟢 Sisipan Baru {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
+                        🟢 Sisipan Baru {hukumPengubah(pasalOps) ? `(${hukumPengubah(pasalOps)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && isAmended && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-amber-100 text-amber-900 border border-amber-300 shadow-2xs">
-                        🟡 Diubah {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
+                        🟡 Diubah {hukumPengubah(pasalOps) ? `(${hukumPengubah(pasalOps)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && isRepealed && (
                       <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-rose-100 text-rose-800 border border-rose-300 shadow-2xs">
-                        🔴 Dicabut / Dihapus {hukumPengubah(pasalDetail) ? `(${hukumPengubah(pasalDetail)})` : ''}
+                        🔴 Dicabut / Dihapus {hukumPengubah(pasalOps) ? `(${hukumPengubah(pasalOps)})` : ''}
                       </span>
                     )}
                     {p.showAnnotations && hasMk && (
@@ -116,7 +123,7 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                         key={ayat.canonicalPath}
                         ayat={ayat}
                         pasalLabel={pasal.label}
-                        pasalHasMk={hasMk}
+                        ops={opsUntuk(p.operations, ayat.canonicalPath)}
                         showAnnotations={p.showAnnotations}
                         activeNodePath={p.activeNodePath}
                         provisionVersions={p.provisionVersions}
@@ -130,7 +137,7 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                 ) : (
                   <PasalParagraf
                     pasal={pasal}
-                    pasalDetail={pasalDetail as ProvisionAmendmentDetail | undefined}
+                    ops={opsUntuk(p.operations, pasal.canonicalPath)}
                     activeNodePath={p.activeNodePath}
                     provisionVersions={p.provisionVersions}
                     setProvisionVersions={p.setProvisionVersions}

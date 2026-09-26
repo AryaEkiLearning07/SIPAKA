@@ -5,7 +5,8 @@ import Link from 'next/link';
 import {
   Scale, X, FileText, ExternalLink, ArrowRight, Printer
 } from 'lucide-react';
-import { InspectorState, InspectorTab } from '../../reader-types';
+import { ProvisionNode } from '@lexvera/types';
+import { InspectorState, InspectorTab, OpsRow } from '../../reader-types';
 import InspectorTabs from './InspectorTabs';
 
 interface InspectorPanelProps {
@@ -14,9 +15,9 @@ interface InspectorPanelProps {
   setActiveNodePath: (path: string) => void;
   inspectorTab: InspectorTab;
   setInspectorTab: (t: InspectorTab) => void;
-  handleOpenInspector: (node: import('@lexvera/types').ProvisionNode, parentLabel?: string) => void;
+  handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
   scrollToNode: (path: string) => void;
-  setSelectedImpact: (r: import('../../impact-data').ImpactedRegulation) => void;
+  operations: OpsRow[];
   copiedCitation: boolean;
   salinSitasi: (node: { label: string }) => void;
   currentUser: { name: string; role: string } | null;
@@ -24,9 +25,35 @@ interface InspectorPanelProps {
   setShowAiModal: (v: boolean) => void;
 }
 
+/** Kartu tindakan hukum atas node (taksonomi UU 12/2011). */
+function KartuTindakan({ ops }: { ops: OpsRow[] }) {
+  const dicabut = ops.some((o) => o.operationType === 'REPEAL_PROVISION');
+  const disisipkan = ops.some((o) => o.operationType === 'ADD_PROVISION') && !dicabut;
+  const tema = dicabut
+    ? { cls: 'from-rose-600 to-rose-700 border-rose-500', badge: 'bg-rose-800/80 border-rose-400/40 text-rose-100', badgeT: 'DICABUT', emoji: '🔴', judul: 'DIHAPUS / DICABUT DARI HUKUM POSITIF', ket: 'Ketentuan norma ditiadakan secara permanen dan tidak lagi memiliki daya laku atau kekuatan hukum mengikat.' }
+    : disisipkan
+      ? { cls: 'from-emerald-600 to-emerald-700 border-emerald-500', badge: 'bg-emerald-800/80 border-emerald-400/40 text-emerald-100', badgeT: 'SISIPAN', emoji: '🟢', judul: 'DISISIPKAN (NORMA SISIPAN BARU)', ket: 'Ketentuan norma baru yang disisipkan di antara pasal yang ada tanpa merombak nomor urut pasal lainnya.' }
+      : { cls: 'from-amber-500 to-amber-600 border-amber-400', badge: 'bg-amber-700/80 border-amber-300/40 text-amber-100', badgeT: 'DIUBAH', emoji: '🟡', judul: 'DIUBAH (REDAKSI & SUBSTANSI DIPERBARUI)', ket: 'Rumusan teks kalimat dan materi muatan norma diperbaiki, disesuaikan, atau digantikan dengan konstruksi hukum baru.' };
+  return (
+    <div className={`p-3.5 rounded-xl bg-gradient-to-br ${tema.cls} text-white shadow-sm`}>
+      <div className="flex items-center justify-between gap-1 text-[10px] font-mono tracking-wider uppercase font-bold opacity-90 mb-1">
+        <span>TINDAKAN HUKUM (UU 12/2011)</span>
+        <span className={`px-1.5 py-0.5 rounded border ${tema.badge}`}>{tema.badgeT}</span>
+      </div>
+      <h4 className="font-sans font-black text-sm tracking-wide flex items-center gap-1.5">
+        <span>{tema.emoji}</span>
+        <span>{tema.judul}</span>
+      </h4>
+      <p className="text-[11px] opacity-90 leading-relaxed mt-1 font-medium">{tema.ket}</p>
+    </div>
+  );
+}
+
 export default function InspectorPanel(p: InspectorPanelProps) {
   const node = p.inspectorNode;
-  const detail = node.amendmentDetail;
+  const ops = node.ops ?? [];
+  const opUtama = ops[0];
+  const amenderSlug = opUtama?.amenderSlug ?? null;
 
   return (
     <aside className="w-84 lg:w-96 bg-white border-l border-slate-200/80 flex flex-col shrink-0 z-10 overflow-hidden shadow-xl animate-in slide-in-from-right duration-200">
@@ -63,148 +90,80 @@ export default function InspectorPanel(p: InspectorPanelProps) {
       {/* Isi Panel Scrollable */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4 text-xs">
         <div className="space-y-4 animate-in fade-in duration-150">
-          {/* 1. KETERANGAN STATUS PERUBahan PALING ATAS */}
-          <div className="space-y-2 pb-2 border-b border-slate-100">
-            {detail?.statusPerubahan === 'SISIPAN_BARU' ? (
-              <div className="p-3.5 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-700 text-white shadow-sm border border-emerald-500">
-                <div className="flex items-center justify-between gap-1 text-[10px] font-mono tracking-wider uppercase font-bold text-emerald-100 mb-1">
-                  <span>TINDAKAN HUKUM (UU 12/2011)</span>
-                  <span className="bg-emerald-800/80 px-1.5 py-0.5 rounded border border-emerald-400/40">SISIPAN</span>
-                </div>
-                <h4 className="font-sans font-black text-sm tracking-wide flex items-center gap-1.5">
-                  <span>🟢</span>
-                  <span>DISISIPKAN (NORMA SISIPAN BARU)</span>
-                </h4>
-                <p className="text-[11px] text-emerald-50/90 leading-relaxed mt-1 font-medium">
-                  Ketentuan norma baru yang disisipkan di antara pasal yang ada tanpa merombak nomor urut pasal lainnya.
-                </p>
-              </div>
-            ) : detail?.statusPerubahan === 'DICABUT' ? (
-              <div className="p-3.5 rounded-xl bg-gradient-to-br from-rose-600 to-rose-700 text-white shadow-sm border border-rose-500">
-                <div className="flex items-center justify-between gap-1 text-[10px] font-mono tracking-wider uppercase font-bold text-rose-100 mb-1">
-                  <span>TINDAKAN HUKUM (UU 12/2011)</span>
-                  <span className="bg-rose-800/80 px-1.5 py-0.5 rounded border border-rose-400/40">DICABUT</span>
-                </div>
-                <h4 className="font-sans font-black text-sm tracking-wide flex items-center gap-1.5">
-                  <span>🔴</span>
-                  <span>DIHAPUS / DICABUT DARI HUKUM POSITIF</span>
-                </h4>
-                <p className="text-[11px] text-rose-50/90 leading-relaxed mt-1 font-medium">
-                  Ketentuan norma ditiadakan secara permanen dan tidak lagi memiliki daya laku atau kekuatan hukum mengikat.
-                </p>
-              </div>
-            ) : (
-              <div className="p-3.5 rounded-xl bg-gradient-to-br from-amber-500 to-amber-600 text-white shadow-sm border border-amber-400">
-                <div className="flex items-center justify-between gap-1 text-[10px] font-mono tracking-wider uppercase font-bold text-amber-100 mb-1">
-                  <span>TINDAKAN HUKUM (UU 12/2011)</span>
-                  <span className="bg-amber-700/80 px-1.5 py-0.5 rounded border border-amber-300/40">DIUBAH</span>
-                </div>
-                <h4 className="font-sans font-black text-sm tracking-wide flex items-center gap-1.5">
-                  <span>🟡</span>
-                  <span>DIUBAH (REDAKSI &amp; SUBSTANSI DIPERBARUI)</span>
-                </h4>
-                <p className="text-[11px] text-amber-50/90 leading-relaxed mt-1 font-medium">
-                  Rumusan teks kalimat dan materi muatan norma diperbaiki, disesuaikan, atau digantikan dengan konstruksi hukum baru.
-                </p>
-              </div>
-            )}
+          {/* 1. Tindakan hukum */}
+          <KartuTindakan ops={ops} />
 
-            {/* Anotasi Tambahan Mahkamah Konstitusi jika ada */}
-            {detail?.putusanMk && (
-              <div className="p-2.5 rounded-xl bg-purple-50 border border-purple-200 text-purple-950 flex items-start gap-2 shadow-2xs">
-                <Scale className="w-4 h-4 text-purple-700 shrink-0 mt-0.5" />
-                <div className="text-[11px]">
-                  <span className="font-bold text-purple-900 block">Terikat Putusan Mahkamah Konstitusi:</span>
-                  <span className="font-medium text-purple-800">{detail.putusanMk.nomor}</span>
-                </div>
-              </div>
-            )}
-
-            {/* Label Nama Pasal Aktif */}
-            <div className="pt-1 flex items-baseline justify-between gap-2">
-              <h3 className="font-sans font-extrabold text-lg text-slate-900 leading-snug">
-                {node.label}
-                {node.parentLabel && (
-                  <span className="text-slate-400 text-xs font-normal ml-2">({node.parentLabel})</span>
-                )}
-              </h3>
-              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">
-                {node.canonicalPath}
-              </span>
-            </div>
+          {/* Label Nama Pasal Aktif */}
+          <div className="pt-1 flex items-baseline justify-between gap-2">
+            <h3 className="font-sans font-extrabold text-lg text-slate-900 leading-snug">
+              {node.label}
+              {node.parentLabel && (
+                <span className="text-slate-400 text-xs font-normal ml-2">({node.parentLabel})</span>
+              )}
+            </h3>
+            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">
+              {node.canonicalPath}
+            </span>
           </div>
 
-          {/* 2. KARTU ATURAN PENGUBAH DETAIL & BISA DIKLIK */}
-          <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-[10px] font-mono uppercase font-bold tracking-wider text-slate-500 flex items-center gap-1">
-                <FileText className="w-3.5 h-3.5 text-[#94191C]" />
-                <span>Instrumen Regulasi Pengubah:</span>
-              </span>
-              <span className="text-[10px] font-mono font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
-                Hukum Positif Berlaku
-              </span>
-            </div>
+          {/* 2. Kartu Aturan Pengubah — seluruh data dari operasi database */}
+          {opUtama && (
+            <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/90 space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-[10px] font-mono uppercase font-bold tracking-wider text-slate-500 flex items-center gap-1">
+                  <FileText className="w-3.5 h-3.5 text-[#94191C]" />
+                  <span>Instrumen Regulasi Pengubah:</span>
+                </span>
+                <span className="text-[10px] font-mono font-bold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">
+                  Hukum Positif Berlaku
+                </span>
+              </div>
 
-            <div>
-              <h5 className="font-sans font-extrabold text-xs text-slate-900 leading-snug">
-                {detail?.diubahOleh ? detail.diubahOleh.split(' (')[0] : 'UU Pengubah'}
-              </h5>
-              <p className="text-[11px] text-slate-600 mt-0.5">
-                {detail?.diubahOleh?.includes('19')
-                  ? 'Perubahan Pertama atas UU No. 11/2008 tentang Informasi dan Transaksi Elektronik'
-                  : 'Perubahan atas UU pokok — identitas lengkap pada kartu di atas'}
-              </p>
-            </div>
+              <div>
+                <h5 className="font-sans font-extrabold text-xs text-slate-900 leading-snug">
+                  {opUtama.amender}
+                </h5>
+                <p className="text-[11px] text-slate-600 mt-0.5">{opUtama.changeSetTitle}</p>
+              </div>
 
-            <div className="space-y-1 pt-1.5 border-t border-slate-200/70 text-[11px]">
-              <div className="flex items-start gap-1.5 text-slate-600">
-                <span className="text-slate-400 shrink-0 min-w-[75px]">Dasar Pasal:</span>
-                <span className="text-slate-900 font-semibold">
-                  {(() => {
-                    const o = detail?.diubahOleh ?? '';
-                    const m = o.match(/Pasal\s+[IVX]+(\s+angka\s+\d+[a-z]?)?/i);
-                    return m ? m[0] : 'Lihat naskah pengubah';
-                  })()}
-                </span>
-              </div>
-              <div className="flex items-start gap-1.5 text-slate-600">
-                <span className="text-slate-400 shrink-0 min-w-[75px]">Pengesahan:</span>
-                <span className="text-slate-800 font-medium">
-                  {detail?.tanggalPengundangan || '2 Januari 2024'}
-                </span>
-              </div>
-              <div className="flex items-start gap-1.5 text-slate-600">
-                <span className="text-slate-400 shrink-0 min-w-[75px]">Pengesah:</span>
-                <span className="text-slate-800 font-medium">
-                  {detail?.disahkanOleh || 'Presiden RI Joko Widodo & Mensesneg Pratikno'}
-                </span>
-              </div>
-              {detail?.lembaranNegara && (
+              <div className="space-y-1 pt-1.5 border-t border-slate-200/70 text-[11px]">
                 <div className="flex items-start gap-1.5 text-slate-600">
-                  <span className="text-slate-400 shrink-0 min-w-[75px]">Publikasi:</span>
-                  <span className="text-slate-800 font-mono text-[10px] leading-tight">
-                    {detail.lembaranNegara}
+                  <span className="text-slate-400 shrink-0 min-w-[75px]">Dasar Klausul:</span>
+                  <span className="text-slate-900 font-semibold">{opUtama.sourceReference}</span>
+                </div>
+                <div className="flex items-start gap-1.5 text-slate-600">
+                  <span className="text-slate-400 shrink-0 min-w-[75px]">Berlaku Sejak:</span>
+                  <span className="text-slate-800 font-medium">
+                    {new Date(opUtama.effectiveFrom).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
                   </span>
                 </div>
+                {amenderSlug && (
+                  <div className="flex items-start gap-1.5 text-slate-600">
+                    <span className="text-slate-400 shrink-0 min-w-[75px]">Publikasi:</span>
+                    <span className="text-slate-800 font-mono text-[10px] leading-tight">
+                      Lihat naskah lengkap pengubah di platform (/{amenderSlug})
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              {amenderSlug && (
+                <Link
+                  href={`/uu/${amenderSlug}`}
+                  className="w-full py-2 px-3 rounded-lg bg-white border border-slate-200 hover:border-[#94191C] hover:bg-red-50/60 text-[#94191C] font-bold text-xs flex items-center justify-between transition-all group shadow-2xs mt-2 cursor-pointer"
+                  title="Buka naskah undang-undang pengubah di platform ini"
+                >
+                  <span className="flex items-center gap-1.5">
+                    <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                    <span>Buka Naskah Lengkap Aturan Pengubah</span>
+                  </span>
+                  <ArrowRight className="w-3.5 h-3.5 shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                </Link>
               )}
             </div>
+          )}
 
-            {/* Tombol Tautan Klikable ke Aturan Pengubah */}
-            <Link
-              href={`/uu/${detail?.diubahOleh?.includes('19') ? 'uu-19-2016' : 'uu-1-2024'}`}
-              className="w-full py-2 px-3 rounded-lg bg-white border border-slate-200 hover:border-[#94191C] hover:bg-red-50/60 text-[#94191C] font-bold text-xs flex items-center justify-between transition-all group shadow-2xs mt-2 cursor-pointer"
-              title="Buka naskah undang-undang pengubah di platform ini"
-            >
-              <span className="flex items-center gap-1.5">
-                <ExternalLink className="w-3.5 h-3.5 shrink-0" />
-                <span>Buka Naskah Lengkap Aturan Pengubah</span>
-              </span>
-              <ArrowRight className="w-3.5 h-3.5 shrink-0 group-hover:translate-x-0.5 transition-transform" />
-            </Link>
-          </div>
-
-          {/* 3. TAB SWITCHER SEGMENTED CONTROL */}
+          {/* 3. TAB SWITCHER */}
           <div className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-medium">
             <button
               onClick={() => p.setInspectorTab('diff')}
@@ -226,40 +185,25 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             >
               <span>Pasal Terdampak</span>
               <span className="w-4 h-4 rounded-full bg-red-100 text-[#94191C] text-[10px] flex items-center justify-center font-bold">
-                {detail?.peraturanTerdampak ? detail.peraturanTerdampak.length + 4 : 4}
+                {p.operations.length}
               </span>
             </button>
             <button
-              onClick={() => p.setInspectorTab('impact')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
-                p.inspectorTab === 'impact'
+              onClick={() => p.setInspectorTab('relasi')}
+              className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all cursor-pointer ${
+                p.inspectorTab === 'relasi'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              <span>Turunan</span>
-              {detail?.peraturanTerdampak?.length ? (
-                <span className="w-4 h-4 rounded-full bg-indigo-100 text-indigo-700 text-[10px] flex items-center justify-center font-bold">
-                  {detail.peraturanTerdampak.length}
-                </span>
-              ) : null}
+              Relasi
             </button>
-            {detail?.putusanMk && (
-              <button
-                onClick={() => p.setInspectorTab('mk')}
-                className={`py-1.5 px-2.5 rounded-lg text-center transition-all cursor-pointer ${
-                  p.inspectorTab === 'mk'
-                    ? 'bg-white text-purple-900 font-bold shadow-2xs'
-                    : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                Putusan MK
-              </button>
-            )}
           </div>
 
           <p className="text-[10px] leading-relaxed text-slate-500 bg-slate-50 border border-slate-100 rounded-lg px-2.5 py-1.5">
-            Sumber data panel ini: <strong className="text-slate-700">Komparasi &amp; Riwayat</strong> dihitung dari database (operasi amandemen tersimpan); tab <strong className="text-slate-700">Pasal Terdampak / Turunan / Putusan MK</strong> saat ini masih data pilot keluarga UU ITE yang dikurasi manual.
+            Sumber data panel ini: <strong className="text-slate-700">Komparasi, Riwayat, dan daftar operasi</strong> dibaca
+            langsung dari database (tabel change_operations &amp; relasi). Tab <strong className="text-slate-700">Relasi</strong> akan
+            terisi oleh mesin relasi seiring bertambahnya dokumen terdigitasi.
           </p>
 
           {/* Isi Tab */}
@@ -269,7 +213,7 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             setInspectorTab={p.setInspectorTab}
             handleOpenInspector={p.handleOpenInspector}
             scrollToNode={p.scrollToNode}
-            setSelectedImpact={p.setSelectedImpact}
+            operations={p.operations}
             copiedCitation={p.copiedCitation}
             salinSitasi={p.salinSitasi}
             currentUser={p.currentUser}

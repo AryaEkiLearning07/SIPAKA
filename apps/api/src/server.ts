@@ -5,6 +5,7 @@ import { registerAuthRoutes } from './auth';
 import { registerInstrumentRoutes } from './routes/instruments';
 import { registerAnalysisRoutes } from './routes/analysis';
 import { registerMonitoringRoutes } from './routes/monitoring';
+import { registerOperationsRoute } from './routes/operations';
 
 export async function buildServer(): Promise<FastifyInstance> {
   const server = Fastify({
@@ -25,6 +26,7 @@ export async function buildServer(): Promise<FastifyInstance> {
   registerInstrumentRoutes(server);
   registerAnalysisRoutes(server);
   registerMonitoringRoutes(server);
+  registerOperationsRoute(server);
 
   return server;
 }

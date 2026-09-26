@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { AlertTriangle } from 'lucide-react';
 import { ConsolidatedLawDocument } from '@lexvera/types';
+import { OpsRow } from './reader-types';
 import {
   API_BASE, InstrumentMeta, LedgerChangeSet,
   fetchSnapshot,
@@ -36,13 +37,26 @@ export default function LawWorkspacePage() {
   const [showAnnotations, setShowAnnotations] = useState<boolean>(true);
   const [currentUser, setCurrentUser] = useState<{ name: string; role: string } | null>(null);
   const [copiedCitation, setCopiedCitation] = useState<boolean>(false);
+  const [operations, setOperations] = useState<OpsRow[]>([]);
   const [provisionVersions, setProvisionVersions] = useState<Record<string, 'CURRENT' | 'PREVIOUS'>>({});
   const [showLoginPrompt, setShowLoginPrompt] = useState<boolean>(false);
   const [showAiModal, setShowAiModal] = useState<boolean>(false);
-  const [selectedImpact, setSelectedImpact] = useState<import('./impact-data').ImpactedRegulation | null>(null);
-  const [copiedHarmonisasi, setCopiedHarmonisasi] = useState<boolean>(false);
 
-  const inspector = useInspector(slug, selectedTimeline, meta?.availableTimelines ?? [], setActiveNodePath);
+  const inspector = useInspector(slug, selectedTimeline, meta?.availableTimelines ?? [], setActiveNodePath, operations);
+
+  // Operasi perubahan instrumen (dari change_operations — data nyata DB)
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`${API_BASE}/api/v1/instruments/${slug}/operations`);
+        if (!res.ok) return;
+        const json = await res.json();
+        if (!cancelled) setOperations(json.operations ?? []);
+      } catch { /* abaikan */ }
+    })();
+    return () => { cancelled = true; };
+  }, [slug]);
 
   // Sesi pengguna
   useEffect(() => {
@@ -202,6 +216,7 @@ export default function LawWorkspacePage() {
                   currentDoc={currentDoc}
                   showAnnotations={showAnnotations}
                   activeNodePath={activeNodePath}
+                  operations={operations}
                   provisionVersions={provisionVersions}
                   setProvisionVersions={setProvisionVersions}
                   fontSize={fontSize}
@@ -223,7 +238,7 @@ export default function LawWorkspacePage() {
             setInspectorTab={inspector.setInspectorTab}
             handleOpenInspector={inspector.handleOpenInspector}
             scrollToNode={scrollToNode}
-            setSelectedImpact={setSelectedImpact}
+            operations={operations}
             copiedCitation={copiedCitation}
             salinSitasi={salinSitasi}
             currentUser={currentUser}
@@ -236,8 +251,6 @@ export default function LawWorkspacePage() {
       <ReaderModals
         showLoginPrompt={showLoginPrompt} setShowLoginPrompt={setShowLoginPrompt}
         showAiModal={showAiModal} setShowAiModal={setShowAiModal}
-        selectedImpact={selectedImpact} setSelectedImpact={setSelectedImpact}
-        copiedHarmonisasi={copiedHarmonisasi} setCopiedHarmonisasi={setCopiedHarmonisasi}
         inspectorNode={inspector.inspectorNode} currentUser={currentUser}
       />
     </div>
