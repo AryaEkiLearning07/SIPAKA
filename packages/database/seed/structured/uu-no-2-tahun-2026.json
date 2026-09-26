@@ -1,0 +1,1277 @@
+{
+ "slug": "uu-no-2-tahun-2026",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Details/352436/uu-no-2-tahun-2026",
+  "sha256": "e11a6742d672db81a7be6d2f97014d9af2aaa12e1d1ddfea615eb0218484a83f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 36,
+  "ayat_angka": 49,
+  "huruf": 40
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan: Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pekerja Rumah Tangga yang selanjutnya disingkat PRT adalah orang yang bekerja pada pemberi kerja untuk melakukan pekerjaan kerumahtanggaan yang dibayar dengan upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pekerjaan Kerumahtanggaan adalah pekerjaan yang dilakukan dalam lingkup rumah tangga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pelindungan PRT adalah segala upaya untuk menjamin penghormatan dan pemenuhan hak PRT dan untuk memperoleh rasa aman, bebas dari kekerasan, diskriminasi, dan pelanggaran hak PRT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemberi Kerja PRT yang selanjutnya disebut Pemberi Kerja adalah orang perseorangan dar:/atau beberapa orang dalam suatu rumah tangga yang mempeke{akan PRT dengan membayar upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Hubungan Kerja PRT yang selanjutnya disebut Hubungan Kerja adalah hubungan sosiokultural dan ekonomi arLtara PRT dan Pemberi Kerja berdasarkan kesepakatan atau perjanjian kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Perusahaan Penempatan PRT yang selanjutnya disebut P3RT adalah badan usaha yang berbadan hukum yang telah memperoleh perizinan berusaha untuk menyelenggarakan pelayanan penempatan PRT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Perizinan Berusaha P3RT adalah legalitas yang diterbitkan oleh pemerintah pusat kepada P3RT sebagai izin resmi untuk melakukan kegiatan perekrutan, seleksi, dan penempatan PRT di wilayah Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Kesepakatan adalah persesuaian pernyataan kehendak antara Pemberi Kerja dan PRT yang direkrut secara langsung terkait hak dan kewajiban para pihak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Perjanjian Kerja PRT yang selanjutnya disebut Perjanjian Kerja adalah perjanjian tertulis antara PRT yang direkrut secara tidak langsung oleh Pemberi Kerja dan menjadi dasar Hubungan Kerja yang mengikat secara hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Perjanjian Kerja Sama Penempatan PRT yang selanjutnya disebut Perjanjian Kerja Sama Penempatan adalah perjanjian tertulis antara P3RT dan Pemberi Kerja yang memuat hak dan kewajiban para pihak dalam rangka penempatan dan Pelindungan PRT. SK No 275,163 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Perjanjian. . . REFUBUK INDONESIA Perjanjian Penempatan PRT yang selanjutnya disebut Perjanjian Penempatan adalah dokumen hukum antara P3RT dan calon PRT yang memuat hak dan kewajiban para pihak dalam rangka penempatan dan Pelindungan PRT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Upah PRT yang selanjutnya disebut Upah adalah hak PRT yang diterima sebagai imbalan dari Pemberi Kerja yang berupa uang dan/ atau bentuk lain sesuai dengan Kesepakatan atau Perjanjian Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pelatihan Vokasi adalah keseluruhan kegiatan untuk memberi, memperoleh, meningkatkan, dan mengembangkan kompetensi kerja, produktivitas, disiplin, sikap, dan etos kerja pada tingkat keterampilan dan keahlian tertentu sesuai dengan kebutuhan Pekerjaan Kerumahtanggaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Waktu Kerja adalah waktu untuk melakukan Pekerjaan Kerumahtanggaan berdasarkan Kesepakatan atau Perjanjian Ke{a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Cuti adalah hak PRT untuk tidak masuk kerja dan/atau tidak melakukan Pekerjaan Kerumahtanggaan dalam jangka waktu tertentu berdasarkan Kesepakatan atau Perjanjian Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Perselisihan adalah perbedaan pendapat yang mengakibatkan pertentangan yang terjadi antara PRT, Pemberi Kerja, dan/ atau P3RT mengenai pelaksanaan hak dan kewajiban.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Mediasi adalah penyelesaian Perselisihan di luar pengadilan melalui musyawarah untuk mufakat yang melibatkan rukun tetangga/ rukun warga dan/ atau pemerintah daerah yang berwenang sebagai penengah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Rukun Tetangga/ Rukun Warga yang selanjutnya disingkat RT/RW adalah lembaga kemasyarakatan desa, kelurahan, atau yang disebut dengan nama lain yang bertugas membantu kepala desa, lurah, atau sebutan lain dalam bidang pelayanan pemerintahan dan tugas lain yang diberikan kepala desa, lurah, atau sebutan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Pemerintah Pusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan. SK No275464A BABII ... FRESIDEN REFUBUK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "FRESIDEN REFUBUK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "kekeluargaan; Pelindungan PRT berasaskan: a. b. c. d. e, f. keadilan; kesejahteraan; dan kepastian hukum. hak asasi manusia; Huruf a Hurufb Yang dimaksud dengan \"kekeluargaan\" adalah Pelindungan PRT dan relasi yang dibangun antara PRT dan Pemberi Kerja harus dilakukan dengan mengedepankan nilai-nilai sosiokultural. Yang dimaksud dengan \"pelindungan\" adalah Pelindungan PRT harus dilakukan dengan memastikan bahwa PRT dalam bebas dari segala bentuk melaksanakan diskriminasi, eksploitasi, kekerasan, dan pelecehan serta mendapatkan haknya sesuai dengan ketentuan peraturan perundang-undangan. Huruf c Hurufd Yang dimaksud dengan \"penghormatan hak asasi manusia\" adalah Pelindungan PRT harus dilakukan dengan menempatkan penghormatan atas harkat dan martabat PRT sesuai dengan hak asasi manusia. Yang dimaksud dengan \"keadilan\" adalah Pelindungan PRT harus mencerminkan keadilan yang setara dan proporsional bagi setiap warga negara tanpa kecuali, baik bagi PRT maupun Pemberi Ke{a. Huruf e Yang dimaksud dengan \"kesejahteraan\" adalah Pelindungan PRT dilakukan dalam rangka meningkatkan pendapatan PRT sesuai dengan kelayakan dan standar hidup di suatu wilayah, jaminan sosial kesehatan dan jaminan sosial ketenagakerjaan, peningkatan kapasitas diri PRT melalui pendidikan dan pelatihan, termasuk peningkatan kualitas hidup PRT dan keluarganya. Hurrf f ... SK No275481A REPUELIK INDONESIA Huruf f Yang dimaksud dengan okepastian hukum\" adalah Pelindungan PRT harus selaras dengan ketentuan peraturan perundang-undangan, kepatutan, serta memberikan keadilan dan kepastian hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pelindungan PRT bertujuan: a. memberikan kepastian hukum kepada PRT, Pemberi Kerja, dan P3RT; b. mencegah segala bentuk diskriminasi, eksploitasi, kekerasan, dan pelecehan terhadap PRT; Hubungan Kerja yang harmonis dengan c. menjunjung tinggi nilai-nilai kemanusiaan dan keadilan; d. meningkatkan pengetahuan, keterampilan, dan keahlian PRT; dan e. meningkatkan ke sej ahteraan PRT. PEREKRUTAN DAN LINGKUP PEKER.IAAN KERUMAHTANGGAAN Huruf a Huruf b Cukup jelas. Yang dimaksud dengan ndiskriminasi\" adalah setiap pembatasan atau pengucilan yang langsung ataupun tak langsung kepada PRT yang didasarkan pada perbedaan agama, suku, ras, etnik, kelompok, golongan, status sosial, status ekonomi, keyakinan politik, yang berakibat pengurangan, penyimpangan, atau penghapusan pengakuan, pelaksanaan atau penggunaan hak asasi manusia dalam kehidupannya. Yang dimaksud dengan \"eksploitasi\" adalah tindakan yang bertujuan untuk mengambil keuntungan atau memanfaatkan PRT secara berlebihan dan sewen€uf g-wenang. Yang dimaksud dengan \"pelecehan\" adalah segala tindakan yang tidak diinginkan, permintaan untuk melakukan perbuatan seksual, tindakan lisan atau fisik atau isyarat yang membuat PRT merasa tersinggung, dan/atau terintimidasi. Huruf c Hurufd Huruf e Cukup jelas. Cukup jelas. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PEREKRUTAN DAN LINGKUP PEKER.IAAN KERUMAHTANGGAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Ayat (1) Cukup jelas. Ayat (2) Yang tidak termasuk sebagai PRT dalam Undang-Undang ini antara latn abdi dalem, ngenger, ngantilg atau sebutan lainnya yang saat ini masih berlaku di masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perekrutan PRT dilakukan secara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "langsung; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tidak langsung. (21 Setiap orang yang membantu pekerjaan pada lingkup Pekedaan Kerumahtanggaan yang berdasarkan adat, kekerabatan/kekeluargaan, pendidikan, atau keagamaan tidak termasuk sebagai PRT dalam Undang-Undang ini. SK No275465A Bagian FRESIDEN REPUBLIK INDONESIA Bagran Kedua Perekrutan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Persyaratan calon PRT yang direkrut sebagai berikut: a. berusia minimal 18 (delapan belas) tahun; b. memiliki kartu tanda penduduk elektronik; dan c. memiliki surat keterangan sehat dari fasilitas pelayanan kesehatan. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Cukup jelas. SK No275482A Pasal 7... EiI.FIEtrN REPUELIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perekrutan calon PRT secara langsung sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a dilakukan oleh Pemberi Ke{a. (21 Perekrutan calon PRT secara langsung sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan Kesepakatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Ayat (1) Cukup jelas. Ayat (2) Cukup jelas. Ayat (3) Cukup jelas. Ayat (4) Huruf a Cukup jelas. Huruf b Cukup jelas. Huruf c Cukup jelas. Huruf d Cukup jelas. Huruf e Huruf f Cukup jelas. Yang dimaksud dengan \"jaminan penempatan PRT' antara lain jaminan penggantian PRT dalam jangka waktu sesuai dengan Perjanjian Kerja Sama Penempatan apabila Pemberi Kerja atau PRT tidak bersedia melanjutkan Hubungan Kerja sesuai dengan Perjanjian Kerja.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perekrutan calon PRT secara tidak langsung sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf b dilakukan melalui P3RT. (21 Perekrutan calon PRT secara tidak langsung melalui P3RT sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perekrutan secara luring; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perekrutan secara daring.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perekrutan calon PRT secara tidak langsung melalui P3RT sebagaimana dimaksud pada ayat (2) dituangkan dalam Perjanjian Kerja Sama Penempatan. (41 Perjanjian Kerja Sama Penempatan sebagaimana dimaksud pada ayat (3) paling sedikit memuat: a, identitas para pihak;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hak dan kewajiban para pihak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "lingkup Pekerjaan Kerumahtanggaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "jumlah PRT yang dibutuhkan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-7/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "besaran Upah; dan f. jaminan penempatan PRT.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal P3RT dan Pemberi Ke{a telah menandatangani Perjanjian Kerja Sama Penempatan sebagaimana dimaksud dalam Pasal 7 ayat (3), PSRT melaksanakan seleksi terhadap calon PRT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Calon... SK No275465A EtrFIEtrN R,EFUELIK INDONESIA Calon PRT yang telah lulus seleksi sebagaimana dimaksud pada ayat (1) harus menandatangani Perjanjian Penempatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perjanjian Penempatan sebagaimana dimaksud pada ayat (21 paling sedikit memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "identitas para pihak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hak dan kewajiban para pihak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "jangka waktu penempatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "lokasi kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-8/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Waktu Kerja; f. Upah. l4l Perjanjian Penempatan sebagaimana dimaksud pada ayat (3) sebagai dasar bagi P3RT untuk menempatkan PRT pada Pemberi Kerja. lingkup Pekerjaan Kerumahtanggaan; dan Bagian Ketiga Waktu Kerja",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "PRT digolongkan berdasarkan Waktu Kerja meliputi: a. PRT penuh waktu; dan b. PRT paruh waktu. Bagian Keempat Lingkup Pekerjaan Kerumahtanggaan Huruf a Hurufb Yang dimaksud dengan \"PRT penuh walrtu\" adalah PRT yang secara penuh waktu bekerja dan tinggal di tempat Pemberi Kerja. Yang dimaksud dengan \"PRT paruh waktu\" adalah PRT yang bekerja paling sedikit 2 (dua) jam per hari dan tidak tinggal di tempat Pemberi Ke{a. Pasal 1O Yang dimaksud dengan \"Lingkup Pekerjaan 1 (satu) PRT tidak harus menangani 1 (satu) pekerjaan. li1 adalah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Lingkup Pekerjaan Kerumahtanggaan meliputi: a. memasak; b. mencuci dan menyetrika pakaian; c. membersihkan rumah; d. membersihkan halaman dan/ atau kebun; e. menjaga anak; f. menjaga orang sakit, orang lanjut usia, orang yang berkebutuhan khusus, dan/ atau penyandang disabilitas; g. mengemudi; h. menjaga rumah; i. mengurus binatang peliharaan; dan/atau j. Pekerjaan Kerumahtanggaan lain yang disepakati oleh Pemberi Kerja dan PRT. BAB IV. . . SK No275457A ETiEIEtrN BUK IN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "BUK IN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "(1) (2) Hubungan Kerja antara PRT dan Pemberi Kerja berdasarkan Kesepakatan atau Perjanjian Kerja. Perjanjian Kerja sebagaimana dimaksud pada ayat (1) paling sedikit memuat: a. b. c. identitas fara pihak; alamat tempat kerja; tanggal dimulai dan jangka waktu berlakunya Perjanjian Kerja; lingkup Pekerjaan Kerumahtanggaan; hak dan kewajiban para pihak; syarat- syarat kerja; besaran dan tata cara pemberian Upah; tempat dan tanggal Perjanjian Kerja dibuat; dan tanda tangan atau cap jari para pihak. d. e. f. b' h. i.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perjanjian Kerja antara PRT dan Pemberi Kerja melibatkan (4) (s) (6) P3RT. Perjanjian Kerja sebagaimana dimaksud pada ayat (3) dibuat rangkap 2 (dua) dan bermeterai dengan salinan diberikan kepada P3RT dan RT/RW. Perjanjian Kerja sebagaimana dimaksud pada ayat (l) dibuat dengan menggunakan bahasa Indonesia. Dalam hal terjadi perubahan Perjanjian Kerja sebagaimana dimaksud pada ayat (1), perubahan dibuat secara tertulis dan disetujui bersama oleh Pemberi Kerja dan PRT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Pemberi Kerja dan calon PRI yang direkrut secara langsung dapat menuangkan Kesepakatan dalam bentuk Perjanjian Ke{a. Cukup jelas. SK No275483A Pasal 13. . . EL|K INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Perjanjian Kerja sebagaimana dimaksud dalam Pasal 12 dibuat berdasarkan: a. kemampuan atau kecakapan melakukan kesepakatan dan perjanjian; b. Kesepalatan yang mengikat para pihak; c. adanya pekerjaan yang diperjanjikan; dan d. pekerjaan yang diperjanjikan tidak bertentangan dengan ketentuan peraturan perundang-undangan. SK No275468A Pasal 14. . . REPUELIK INDONESIA Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Hubungan Kerja dapat beralhir karena: a. kehendakkeduabelahpihak; b. salah satu pihak tidak melaksanakan Kesepakatan atau Perjanjian Kerja; satu sama lain; c. PRT atau Pemberi Ke{a melakukan tindak pidana terhadap d. PRT mangkir kerja selama 7 (tujuh) hari berturut-turut tanpa alasan yang jelas; e. PRT atau Pemberi Kerja meninggal dunia; f. berakhirnya jangka waktu Kesepakatan atau Perjanjian Kerja; dan/atau g. Pemberi Kerja pindah tempat dan PRT tidak bersedia untuk melanjutkan Hubungan Kerja. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "HAK DAN KEWA.JIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "berhak: menjalankan ibadah sesuai dengan agama dan kepercayaan yang dianutnya; bekerja dengan Waktu Kerja yang manusiawi; mendapatkan waktu istirahat; mendapatkan Cuti sesuai dengan Kesepakatan atau Perjanjian Kerja; mendapatkan Upah sesuai dengan Kesepakatan atau Perjanjian Kerja; mendapatkan tunjangan hari raya keagamaan berupa uang sesuai dengan Kesepakatan atau Perjanjian Ke{a; mendapatkan jaminan sosial kesehatan sesuai dengan ketentuan peraturan perundang-undangan; mendapatkan jaminan sosial ketenagalerj aan sesual dengan ketentuan peraturan perundang-undangan; mendapatkan bantuan sosial dari Pemerintah Pusat sesuai dengan ketentuan peraturan perundang- undangan; mendapatkan makanan sehat; akomodasi yang layak bagi PRT penuh waktu; Ayat (1) Huruf a Huruf b Cukup jelas. Huruf c Yang dimaksud dengan \"Walrtu Kerja yang manusiawi\" adalah pengaturan jam kerja yang adil, layak, dan tidak eksploitatif bagi PRT dengan memperhatikan jam ke{a yang terbatas dan wajar, serta tidak melebihi batas kemampuan fisik dan mental PRT. Yang dimaksud dengan \"waktu istirahat\" antara lain istirahat antara jam kerja, istirahat harian, istirahat mingguan, isdrahat sebelum dan sesudah melahirkan, atau kegugu.ran kandungan sesuai dengan Kesepakatan atau Perjanjian Kerja. Huruf d Huruf e Huruf f Huruf g Huruf h Cukup jelas. Cukup jelas. Cukup je1as. Cukup jelas. Hurufi Hurufj Huruf k Hurufl Cukup jelas. Cukup jelas. Cukup jelas. Jaminan sosial yang didapatJ<an oleh PRT paling sedikit berupa jaminan kecelakaan kerja dan jaminan kematian. Pemberian bantuan sosial dari Pemerintah Pusat diberikan dengan mencocokkan data bantuan sosial bagi keluarga sebagai penerima manfaat untuk memastikan akuntabilitas dan transparansi dengan mengacu pada Data Tunggal Sosial Ekonomi Nasional. SK No275484A Hurrf m. . . EUK INDONESIA Huruf m Cukup jelas. Huruf n Cukup jelas. Ayat (21 Cukup jelas. Ayat (3) Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-15/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "mengakhiri . . . SK No275469A REPUELIK !NDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-15/angka-1/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "mengakhiri Hubungan Kerja apabila Pemberi Kerja tidak melaksanakan Kesepakatan atau Perjanjian Kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-15/angka-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "mendapatkan lingkungan kerja yang aman dan sehat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-15/angka-1/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "mendapatkan hak lainnya sesuai dengan Kesepakatan atau Perjanjian Kerja. (21 Upah dan tunjangan hari raya keagamaan sebagaimana dimaksud pada ayat (1) huruf e dan huruf f diberikan sesuai dengan besaran dan waktu pembayaran yang telah disepakati atau sesuai dengan Perjanjian Kerja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai besaran dan waktu pembayaran Upah yang akan disepakati atau diperjanjikan sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Iuran jaminan sosial kesehatan sebagaimana dimaksud dalam Pasal 15 ayat (1) huruf g diberikan kepada PRT sebagai penerima bantuan iuran yang ditanggung oleh Pemerintah Pusat atau Pemerintah Daerah sesuai dengan ketentuan peraturan perundang-undangan. (21 Dalam hal PRT tidak termasuk sebagai penerima bantuan iuran sebagaimana dimaksud pada ayat (1), iuran jaminan sosial kesehatan ditanggung oleh Pemberi Kerja berdasarkan Kesepakatan atau Perjanjian Kerja dan diketahui oleh RT/RW.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Iuran jaminan sosial ketenagakerjaan sebagaimana dimaksud dalam Pasal 15 ayat (1) huruf h ditanggung Pemberi Kerja sesuai dengan Kesepakatan atau Perjanjian Kerja. (41 Ketentuan lebih lanjut mengenai iuran jaminan sosial kesehatan sebagaimana dimaksud pada ayat (1) dan ayat (21 serta iuran jaminan sosial ketenagakerjaan sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "PRT berkewajiban: a. memberikan informasi yang jelas dan benar mengenai identitas, keterampilan kerja, dan kondisi kesehatan kepada Pemberi Kerja dan/atau P3RT; b. menaati dan melaksanakan seluruh ketentuan dalam Kesepakatan atau Perjanjian Kerja; c. meminta . . . SK No2754704 EIIEIEIIN REFUELIK INDONESIA c. d. e. f. meminta izin kepada Pemberi Kerja apabila berhalangan melakukan pekerjaan; melakukan pekerjaan berdasar tata cara kerja yang benar dan aman; memberitahukan kepada Pemberi Kerja pengunduran diri paling lambat 1 (sahr) bulan sebelum berhenti beke{a; dan menjaga nama baik Pemberi Kerja beserta keluarganya. Bagian Kedua Hak dan Kewajiban Pemberi Kerja Huruf a Cukup jelas. Huruf b Hurufc Cukup jelas. Yang dimaksud dengan \"berhalangan\" adalah kondisi di mana PRT tidak dapat menjalankan tugas atau kewajibannya karena alasan yang sah dan dapat diterima, antara lain melahirkan, sakit, dan kedukaan anggota keluarga. Hurufd Huruf e Huruf f Cukup jelas. Cukup jelas. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Pemberi Ke{a berhak: a. memperoleh informasi yang jelas dan benar mengenai identitas dan kondisi kesehatan PRT; b. memperoleh informasi mengenai keterampilan kerja PRT; c. memberikan persetujuan atau penolakan atas permohonan izin dari PRT yang berhalangan untuk melakukan pekerjaan; d. mendapatkan hasil kerja PRT sesuai dengan Kesepakatan atau Perjanjian Kerja; lambat I (satu) bulan sebelum berhenti bekerja; e. mendapatkan pemberitahuan pengunduran diri PRT paling f. mengakhiri Hubungan Kerja apabila PRT tidak melaksanakan Kesepakatan atau Perjanjian Kerja; dan jaminan penggantian PRT dari P3RT sesuai tt dengan Perjanjian Kerja Sama Penempatan. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pemberi Kerja berkewajiban : a. b. c. membayarkan Upah dan tunjangan hari raya keagamaan sesuai dengan besaran dan waktu pembayaran dalam Kesepakatan atau sesuai dengan Perjanjian Kerja; menaati dan melaksanal<an seluruh ketentuan dalam Kesepakatan atau Perjanjian Kerja; memberikan hak PRT sesuai dengan Kesepakatan atau Pe{anjian Kerja; memberikan waktu istirahat dan Cuti; memberikan lingkungan kerja yang aman dan sehat; memberikan kesempatan dengan agama dan kepercayaannya; ibadah sesuai g. memberikan informasi yang jelas dan benar mengenai identitas Pemberi Kerja, anggota keluarganya, rincian dan prosedur pekerjaan; dan h. melaporkan keberadaan PRT yang bekerja di rumahnya d. e. f. kepada ketua RT/RW. SK No275471A Bagian REFUBLIK INDONESIA Bagian Ketiga Hak dan Kewajiban Perusahaan Penempatan Peke{a Rumah Tangga Cukup jelas. Pasal 2O Huruf a Hurufb Cukup jelas. Yang dimaksud dengan \"informasi mengenai Pemberi Kerja\" antara lain profesi/pekerjaan Pemberi Kerja, jumlah anggota keluarga, dan kondisi rumah. Yang dimaksud dengan \"imbalan jasa\" meliputi biaya administratif, penggantian biaya akomodasi, dan transportasi. Huruf c SK No275485A Pasal 21 ... E:FFIIItrN REFUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "P3RT berhak: a. informasi mengenai lingkup Pekerjaan Kerumahtanggaan dan jumlah PRT yang dibutuhkan Pemberi Kerja; b. mendapatkan informasi mengenai Pemberi Ke{a yang akan c. mendapatkan imbalan jasa dari Pemberi Kerja setelah PRT sesuai dengan Perjanjian Kerja Sama mempekerj akan PRT; dan Penempatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "P3RT berkewaj iban: a. memberikan informasi yang dibutuhkan calon PRT mengenai Pemberi Kerja yang akan mempekerjakan PRT; b. memberikan informasi mengenai identitas, keterampilan kerja, dan kondisi kesehatan calon PRT yang akan ditempatkan kepada Pemberi Kerja; c. membuat pernyataan tertulis bermaterai yang memuat kualifikasi PRT dan pertanggungjawaban P3RT kepada Pemberi Kerja; d. menyelenggarakan orientasi prapenempatan kepada calon PRT; e, PRT pengganti sesuai dengan Perjanjian Kerja Sama Penempatan apabila PRT tidak bersedia melanjutkan Hubungan Kerja sesuai dengan Perjanjian Kerja; f. menyediakan PRT pengganti sesuai dengan Perjanjian Kerja Sama Penempatan apabila Pemberi Kerja tidak bersedia melanjutkan Hubungan Kerja sesuai dengan Perjanjian Kerja; g. menjadi bagian dalam Perjanjian Kerja antara Pemberi h. SK No275472 A Kerja dan PRT; dan data perekrutan dan penempatan secara berkala dan/ atau sesuai dengan kebutuhan melalui sistem informasi ketenagakerjaan yang terintegrasi antara kementerian yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan dan dinas yang ketenagakerjaan provinsi atau kabupaten/kota. Pasal22. . . NEFUBUK INDONESIA Pasal22 Ketentuan lebih lanjut mengenai hak dan kewajiban P3RT sebagaimana dimaksud dalam Pasal 20 dan Pasal 21 diatur dengan Peraturan Menteri. PELATIHAN VOKASI CALON PEKERJA RUMAH TANGGA DAN PEKER.IA RUMAH TANGGA Hurufa Huruf b Huruf c Hurufd Cukup jelas. Cukup jelas. Cukup jelas. lingkungan kerja; Yang dimaksud dengan \"orientasi prapenempatan' adalah pemberian pembekalan yang berkaitan dengan antara lain: a. pengetahuan tentang Hubungan Kerja; b. pengetahuan dasar keselamatan dan kesehatan kerja serta c. budaya kerja; d. norma sosial dan budaya dalam masyarakat; e. kesiapan mental, disiplin, dan etos keda; dan f. tentang hak asasi manusia, hak menjalankan agama dan kepercayaannya, kesetaraan gender, pelecehan, dan kekerasan seksual di tempat kerja. Huruf e Huruf f Cukup jelas. Yang dimaksud dengan otidak bersedia melanjutl<an Hubungan Kerja\" antara lain disebabkan kemampuan ke{a PRT tidak sesuai dengan yang diperjanjikan. Hurufg Hurufh Cukup jelas. Yang dimaksud dengan \"data perekrutan dan termasuk data apabila terjadi penggantian PRT. Pasal22 Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELATIHAN VOKASI CALON PEKERJA RUMAH TANGGA DAN PEKER.IA RUMAH TANGGA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Cukup jelas. Pasal24 Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelatihan Vokasi diberikan kepada: Pembiayaan penyelenggaraan Pelatihan Vokasi bagi calon PRT dan PRT sebagaimana dimaksud dalam Pasal 23 ayat (21 huruf a dan huruf b bersumber dari anggaran pendapatan dan belanja negara, anggaran pendapatan dan belanja daerah, dan/ atau sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan. (21 Pembiayaan Pelatihan Vokasi bagi calon PRT dan PRT sebagaimana dimaksud dalam Pasal 23 ayat (5) dan ayat (6) tidak dibebankan kepada calon PRT dan PRT.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "calon PRT; dan Pemerintah Pusat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "PRT. (21 Pelatihan Vokasi sebagaimana dimaksud pada ayat (1) diselenggarakan pada lembaga peLatihan kerja milik: Pemerintah Daerah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "swasta.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelatihan Vokasi sebagaimana dimaksud pada ayat (2) huruf a dan huruf b ditetapkan sebagai kebdakan dan progrzrm kerja tahunan pada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kementerian atau organisasi perangkat daerah yang membidangi urusan pemerintahan di bidang ketenagakedaan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kementerian atau organisasi perangkat daerah lainnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelatihan Vokasi bagi calon PRT dan PRT sebagaimana dimaksud pada ayat (1) bertujuan untuk pembekalan kompetensi kerja lskilling), alih kompetensi kerja (reskillingl, dan/atau peningkatan kompetensi kerja (upskillingl dalam lingkup Pekerjaan Kerumahtanggaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "P3RT dapa.t mengirimkan dan/atau membiayai calon PRT dan PRT untuk mengikuti Pelatihan Vokasi pada lembaga pelatihan kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-23/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pemberi Kerja dapat membiayai calon PRT atau PRT yang belum memiliki keterampilan kerja dan keahlian untuk mengikuti Pelatihan Vokasi pada lembaga pelatihan kerja. SK No275473A Pasa724... FRESIDEN REPUBIJK INDONESIA PasaJ24",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Ketentuan lebih lanjut mengenai penyelenggaraan Pelatihan Vokasi bagi calon PRT dan PRT sebagaimana dimaksud dalam Pasal 23 dan Pasal 24 diat,:ur dalam Peraturan Pemerintah. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PERUSAHAAN PENEMPATAN PEKER.IA RUMAH TANGGA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "(1) (2t (3) P3RT wajib memiliki Perizinan Berusaha P3RT dari Pemerintah Pusat. Perizinan Berusaha P3RT sebagaimana dimaksud pada ayat (1), terdiri atas: a. Nomor Induk Berusaha; dan b. Sertifikat Standar. Perizinan Berusaha P3RT sebagaimana dimaksud pada ayat (1) diterbitkan oleh Pemerintah Pusat melalui lembaga pengelola dan penyelenggara sistem peizrnan berusaha terintegrasi secara elektronik. Pasal27 Perizinan Berusaha P3RT sebagaimana dimaksud dalam Pasal 26 berlaku selama P3RT menjalankan usaha dan tidak melanggar ketentuan peraturan perundang-undangan. Cukup jelas. SK No275486A PasaJ2T ... REFUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "P3RT dilarang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memotong Upah dan/ atau memungut biaya dalam bentuk dan dengan alasan apa pun kepada calon PRT dan PRT;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menahan dokumen pribadi asli dan/ atau menghalangi akses komunikasi dari calon PRT dan PRT;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menempatkan . . . SK No2754744 REPUELIK INDONESIA -t4- menempatkan PRT kepada badan usaha atau Iembaga lainnya yang bukan Pemberi Kerja perseorangan; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memalsa calon PRT dan PRT untuk terus-menerus terikat Perjanjian Penempatan setelah berakhirnya waktu perjanjian. (21 P3RT yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dan dalam Pasal 21 dikenai sanksi administratif.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sanksi administratif sebagaimana dimaksud pada ayat (2) berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peringatantertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembatasan kegiatan usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pembekuan kegiatan usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penghentian sementara atau seluruh kegiatan usaha; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-28/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pencabutan izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Ketentuan mengenai Perizinan Berusaha P3RT sebagaimana dimaksud dalam Pasal 26 dan Pasal 27 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan mengenai perizinan berusaha berbasis risiko. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PENYELESAIAN PERSELISIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyele saian Perselisihan antara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-31/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pemberi Keda dan PRT;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "P3RT dan Pemberi Kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-31/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "P3RTdan PRT; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-31/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pemberi Kerja, P3RT, dan PRT, dilakukan dengan cara musyawarah mufakat. (21 Proses musyawarah mufakat sebagaimana dimaksud pada ayat (1) dilaksanakan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal permintaan musyawarah dari salah satu pihak. Bagian Kedua Mediasi",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal musyawarah mufakat antara Pemberi Kerja dan PRT sebagaimana dimaksud dalam Pasal 31 ayat (l) huruf a tidak tercapai, penyelesaian Perselisihan dilakukan dengan cara Mediasi oleh ketua RT/ RW atau sebutan lainnya tempat PRT bekerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . SK No275476A REPUBUK INOONESIA Dalam hal musyawarah mufakat antara Pemberi Kerja, PRT, dan/ atau P3RT sebagaimana dimaksud dalam Pasal 31 ayat (1) tidak tercapai, penyelesaian Perselisihan dilakukan dengan cara Mediasi melibatkan mediator pada instansi yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan secara terkoordinasi dengan instansi terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Mediator harus menangani dan menyelesaikan Perselisihan sebagaimana dimaksud pada ayat (2) paling lambat 7 (tqjuh) hari terhitung sejak pengaduan diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-32/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Mediator dalam menangani dan menyelesaikan Perselisihan sebagaimana dimaksud pada ayat (3) dapat mengeluarkan keputusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-32/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Keputusan sebagaimana dimaksud pada ayat (4) terkait Perselisihan Upah antara Pemberi Kerja dan PRT bersifat final dan mengikat untuk dilaksanakan dengan iktikad baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Ketentuan lebih lanjut mengenai musyawarah mufakat dan Mediasi sebagaimana dimaksud dalam Pasal 31 dan Pasal 32 diatur dengan Peraturan Pemerintah. Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-2026/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PARTISIPASI MASYARAKAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Partisipasi masyarakat dalam Pelindungan PRT dapat dilakukan oleh perseorangan, kelompok masyarakat, perguruan tinggi, dan/ atau komunitas pekerja. (21 Partisipasi masyarakat sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "edukasi dan sosialisasi mengenai Pelindungan PRT dan Hubungan Kerja antara PRT, Pemberi Kerja, dan P3RT;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelindungan kepada PRT dari segala bentuk diskriminasi, eksploitasi, kekerasan, dan pelecehan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pendampingan PRT;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "peningkatan kapasitas dan keterampilan kerja PRT; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-2026/pasal-34/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pemberdayaan dan peningkatan kesejahteraan PRT. SK No275477 A BABxI. . . FRESIDEN REFUBUK INDONESIA BAB xI KETENTUAN PERALIHAN",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Pada saat Undang-Undang ini mulai berlaku: a. lembaga penempatan PRT yang tidak memiliki pet'tzinarr berusaha dan/atau belum sesuai dengan ketentuan Undang-Undang ini, wajib menyesuaikan dengan Undang-Undang ini paling lama 1 (satu) tahun sejak tanegal Undang-Undang ini diundangkan; dan b. setiap orang yang berusia di bawah 18 (delapan belas) tahun dan sudah menikah yang beke{a atau pernah bekerja sebagai PRT sebelum Undang-Undang ini berlaku, diberikan pengecualian dan tetap diakui haknya sebagai PRT. BAB )(II KETENTUAN PENUTUP Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang mengatur mengenai PRT dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini. (21 Semua peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lambat 1 (satu) tahun sejak Undang-Undang ini berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-2026/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah Pusat harus melaporkan pelaksanaan dari Undang-Undang ini kepada Dewan Perwakilan Rakyat melalui alat kelengkapan yang menangani urusan di bidang legislasi paling lambat 3 (tiga) tahun sejak Undang-Undang ini diundangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar SK No275478A REPUBUK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 30 April 2026 PRESIDEN REPUBLIK INDONESIA, ttd PRABOWO SUBIANTO Diundangkan di Jakarta pada tanggal 30 April2026 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRASETYO HADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2026 NOMOR 47 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Perundang-undangan dan trasi Hukum, Djaman SK No275479A REPUEUK INDONESIA PENJEI.ASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 2 TAHUN 2026 TENTANG PELINDUNGAN PEKER.\"'A RUMAH TANGGA I UMUM Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 mengamanatkan bahwa salah satu tujuan bernegara adalah melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia. Oleh karena itu, negara berkewajiban untuk melindungi setiap warga negara dari segala bentuk perlakuan yang tidak manusiawi yang pada akhirnya mengalibatkan terjadinya pelanggaran hak asasi manusia. Sebagai warga negara, PRT memiliki hak dasar yang harus dipenuhi oleh negara, untuk itu negara dan masyarakat memiliki tanggung jawab dalam memosisikan dan memperlakukan PRT sebagai warga negErra yang memiliki hak dan kewajiban yang sama dengan warga negara lainnya. Oleh karena itu, sebagai warga negara, PRT memiliki hak untuk dilindungi dalam menj alankan pekerjaannya. Pekerjaan sebagai PRT mempunyai karakteristik tersendiri, baik wilayah kerjanya yang berada dalam ruang privat (rumah tangga), jenis pekerjaan, Waktu Kerja, ataupun Hubungan Kerja dengan Pemberi Kerja. Keberadaan PRI semakin dibutuhkan dan secara kuantitas jumlahnya semakin meningkat. Namun demikian pelindungan terhadap pekerjaan ini masih belum memadai. Dalam budaya masyarakat tertentu, hubungan PRT dengan Pemberi Kerja lebih bersifat kekeluargaan, antara Latn abdi dalem, rqetge4 ngantrik, atau sebutan lainnya yang saat ini masih berlaku di masyaralat. PRT biasanya masih memiliki hubungan keluarga dengan Pemberi Kerja, dan Upah yang diterima tidak selalu dalam bentuk uang, melainkan dapat dalam bentuk lain, seperti disekolahkan dan dikursuskan. Sampai saat ini masih banyak permasalahan yang dihadapi oleh PRT, mulai dari Upah yang tidak dibayar atau dibayar tidak sebagaimana mestinya, jam kerja di luar batas kewajaran, hingga pelecehan ataupun kekerasan, baik secara fisik, psikis, seksual, maupun penelantaran rumah tangga. Secara SK No275480A REPUBUK INDONESIA Secara yuridis formal belum ada ketentuan peraturan perundang- undangan yang khusus mengatur mengenai PRT. Untuk itu, diperlukan Undang-Undang tentang Pelindungan Peke{a Rumah Tangga yang dapat memberikan pelindungan kepada PRT dan Pemberi Kerja, untuk memberikan kepastian hukum dalam Hubungan Kerja sehingga tercipta Hubungan Ke{a yang saling menguntungkan dan seimbang antara PRT dan Pemberi kerja, memberikan pengakuan secara hukum atas jenis pekerjaan PRT, menciptakan rasa aman dan ketenteraman bagi PRT dalam melaksanakan Pekerjaan Kerumahtanggaan, meningkatlan kesejahteraan PRT, meningkatkan harkat dan martabat PRT, serta meningkatkan pengetahuan, kemampuan, dan keterampilan keda PRT. II PASAL DEMI PASAL Cukup jelas. TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 7174 SK No275487A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-1l",
+     "type": "PASAL",
+     "orderIndex": 1.1,
+     "label": "Pasal 1l",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-2026/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Ayat (1) Cukup jelas. Ayat (2) Cukup jelas. Ayat (3) Yang dimaksud dengan \"instansi terkait' antara lain kementerian/lembaga, Pemerintah Daerah/perangkat daerah, serta pemerintah desa/ kelurahan, RT/RW, atau sebutan lain. Ayat (a) Cukup jelas. Ayat (5) Cukup jelas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ]
+}
