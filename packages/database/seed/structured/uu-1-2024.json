@@ -1,0 +1,995 @@
+{
+ "slug": "uu-1-2024",
+ "source": {
+  "url": "",
+  "sha256": "8cdb6721dd5f46e45f13e8a3588c6c1efc614ea4361ce94efebe40e8e4289d5f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 12,
+  "pasal": 56,
+  "ayat_angka": 38,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-1-2024/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-5/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya merupakan alat bukti hukum yang sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-5/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Informasi Elektronik dan/ atau Dokumen Elektronik dan/ atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan Hukum Acara yang berlaku di Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-5/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Informasi Elektronik dan/ atau Dokumen Elektronik dinyatakan sah apabila menggunakan Sistem Elektronik sesuai dengan ketentuan yang diatur dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-5/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Ketentuan mengenai Informasi Elektronik dan/atau Dokumen Elektronik sebagaimana dimaksud pada ayat (l) tidak berlaku dalam hal diatur lain dalam Undang-Undang. Ketentuan ayat (3), ayat (41, ayat (5), dan ayat (6) Pasal 13 serta penjelasan ayat (5) Pasal 13 diubah sehingga Pasal 13 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-13",
+   "type": "PASAL",
+   "orderIndex": 13,
+   "label": "Pasal 13",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Setiap Orang berhak menggunakan Penyelenggara Sertifikasi Elektronik pembuatan Tanda Tangan Elektronik. Jasa untuk (21 Penyelenggara Sertilikasi Elektronik harus memastikan keterkaitan suatu Tanda Tangan Elektronik dengan pemiliknya. Penyelenggara Sertifikasi Elektronik dapat menyelenggarakan layanan berupa: Penyelenggara Sistem Elektronik wajib memberikan pelindungan bagi anak yang menggunakan atau mengakses Sistem Elektronik. (21 Pelindungan sebagaimana dimaksud pada ayat meliputi pelindungan terhadap hak anak sebagaimana dimaksud dalam peraturan perundang-undangan mengenai penggunaan produk, layanan, dan fitur yang dikembangkan dan diselenggarakan oleh Penyelenggara Sistem Elektronik.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Tanda Tangan Elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "segel elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "penanda waktu elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "layanan pengiriman elektronik tercatat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "autentikasi situs web;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "preservasi Tanda Tangan Elektronik dan/ atau segel elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-g",
+       "type": "HURUF",
+       "orderIndex": 7,
+       "label": "Huruf g",
+       "content": "identitas digital; dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-1/huruf-h",
+       "type": "HURUF",
+       "orderIndex": 8,
+       "label": "Huruf h",
+       "content": "layanan lain yang menggunakan Sertifikat Elektronik. (21 Ketentuan lebih mengenai penyelenggaraan layanan sebagaimana dimaksqd pada ayat (1) diatur dalam Peraturan Pemerintah. lanjut",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penyelenggara Sertifikasi Elektronik yang beroperasi di Indonesia harus berbadan hukum Indonesia dan berdomisili di Indonesia. Dalam memberikan produk, layanan, dan fitur bagr anak, Penyelenggara Sistem Elektronik wajib menerapkan teknologi dan langkah teknis operasional untuk memberikan pelindungan sebagaimana dimaksud pada ayat (1) dari tahap pengembangan sampai dengan tahap Penyelenggaraan Sistem Elektronik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Ketentuan . . . SK No l90l87A i IHirEftXTIf.T.TIfdfA Ketentuan sebagaimana dimaksud pada ayat (3) dikecualikan dalam hal penyelenggaraan layanan yang menggunakan Sertifikat Elektronik belum tersedia di Indonesia. Dalam memberikan pelindungan sebagaimana dimaksud pada ayat (1), Penyelenggara Sistem Elektronik wajib menyediakan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-4/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "informasi mengenai batasan minimum usia anak yang dapat menggunakan produk atau layanannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-4/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "mekanisme verifikasi pengguna anak; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-13/ayat-4/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "mekanisme pelaporan penyalahgunaan produk, layanan, dan fitur yang melanggar atau berpotensi melanggar hak anak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Pengakuan timbal balik (mutual recognition) untuk mengenali Sertifikat Elektronik antarnegara didasarkan pada perjanjian kerja sEuna. Ketentuan . . . SK No l90l89A ihtrEILtriIi REPI'BUK INDONESIA Ketentuan lebih lanjut mengenai pelindungan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dalam Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Ketentuan lebih lanjut mengenai Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud pada ayat (3), ayat (4), dan ayat (5) diatur dalam Peraturan Pemerintah. Di antara Pasal 13 dan Pasal 14 disisipkan I (satu) pasal, yakni Pasal 13A sehingga berbunyi sebagai berikut: Pasal 13A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Penjelasan . . . SK No l90l88A .,( NEPLTBLIK INDONESIA Penjelasan ayat (1) dan ayat (2) Pasal 15 diubah sebagaimana tercantum dalam penjelasan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-13/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Di antara Pasal 16 dan Pasal 17 disisipkan 2 (dua) pasal, yakni Pasal 16A dan Pasal 168 sehingga berbunyi sebagai berikut: Pasal 16A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-168",
+   "type": "PASAL",
+   "orderIndex": 168,
+   "label": "Pasal 168",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-168/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 16A dikenai sanksi administratif. (21 Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-168/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "teguran tertulis;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-168/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "dendaadministratif;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-168/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "penghentian sementara; dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-168/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "pemutusan Akses.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-168/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Ketentuan lebih lanjut mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (21 diatur dalam Peraturan Pemerintah. Ketentuan ayat (1) Pasal 17 diubah, dan di antara ayal l2l dan ayat (3) Pasal 17 disisipkan 1 (satu) ayat, yakni ayat (2a1, dar ketentuan ayat (3) Pasal 17 diubah sehingga Pasal 17 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-17",
+   "type": "PASAL",
+   "orderIndex": 17,
+   "label": "Pasal 17",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-17/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penyelenggaraan Transaksi Elektronik dapat dilakukan dalam lingkup publik atau privat. Kontrak Elektronik internasional yang menggunakan klausula baku yang dibuat oleh Penyelenggara Sistem Elektronik diatur dengan hukum Indonesia dalam hal:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-17/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "pengguna layanan Penyelenggara Sistem Elektronik sebagai salah satu pihak dalam Transaksi Elektronik berasal dari Indonesia dan memberikan persetqjuannya dari atau dalam yurisdiksi Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-17/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "tempat pelaksanaan kontrak ada di wilayah Indonesia; dan/ atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-17/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Penyelenggara Sistem Elektronik memiliki tempat usaha atau melakukan kegiatan usaha di wilayah Indonesia. (21 Kontrak Elektronik sebagaimana dimaksud pada ayat (1) menggunakan bahasa yang sederhana, jelas, dan mudah dipahami, serta menjunjung prinsip iktikad baik dan transparansi. Ketentuan Pasal 27 diubah sehingga berbunyi sebagai berikut: PasaJ2T ... SK No l90l9l A LIK iNf.ftIf+TA -l",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-17/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Para pihak yang melakukan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) wajib beriktikad baik dalam melakukan interaksi dan/ atau pertukaran Informasi Elektronik dan/ atau Dokumen Elektronik selama transaksi berlangsung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-17/ayat-2a",
+     "type": "AYAT",
+     "orderIndex": 2.1,
+     "label": "Ayat (2a)",
+     "content": "Transaksi . . . SK No l90l90A :Ili iirl. IIIilNIinIiiEIA Transaksi Elektronik yang memiliki risiko tinggi bagi para pihak menggunakan Tanda Tangan Elektronik yang diamankan dengan Sertilikat Elektronik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-17/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Ketentuan mengenai irenyelenggaraan Transaksi Elektronik sebagaimana dimaksud pada ayat (ll, ayat (21, dan ayat (2al diatur dalam Peraturan Pemerintah. lanjut lebih Di antara Pasal 18 dan Pasal 19 disisipkan I (satu) pasal, yakni Pasal 18A sehingga berbunyi sebagai berikut: Pasal 18A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-27",
+   "type": "PASAL",
+   "orderIndex": 27,
+   "label": "Pasal 27",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-27/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Setiap Orang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum. (21 Setiap Orang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian. Di antara Pasal 27 dan Pasal 28 disisipkan 2 (dua) pasal, yakni Pasil 27A dan Pasal 27B sehingga berbunyi sebagai berikut: Pasal2TA Setiap Orang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya hal tersebut diketahui umum dalam bentuk Informasi Elektronik dan/ atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-278",
+   "type": "PASAL",
+   "orderIndex": 278,
+   "label": "Pasal 278",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-278/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-278/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "memberikan suatu barang, yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau memberikan suatu barang yang sebagial atau seluruhnya milik orang tersebut atau milik orang lain; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-278/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memberi . . . SK No l90l92A NEPUELIK INDONESTA b memberi utang, membuat pengakuan utang, atau menghapuskan piutang. (21 Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancarnan pencemaran atau dengan ancaman akan membuka rahasia, memaksa orang supaya: memberi utang, membuat pengakuan utang, atau menghapuskan piutang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-278/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut: (1) (21",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-28",
+   "type": "PASAL",
+   "orderIndex": 28,
+   "label": "Pasal 28",
+   "content": "Setiap Orang dengan sengaja dan/atau mentransmisikan Informasi Elektronik dan/ atau Dokumen Elektronik yang berisi pemberitahuan bohong atau informasi menyesatkan yang mengakibatkan kerugian materiel bagi konsumen dalam Transaksi Elektronik. Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang sifatnya menghasut, mengajak, atau memengaruhi orang lain sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu berdasarkan ras, kebangsaan, etnis, warna kulit, agama, kepercayaan, jenis kelamin, disabilitas mental, atau disabilitas fisik.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-28/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Setiap. . . SK No l90l93A tr{irEtfirrrrd{n{{n Setiap Orang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-28/angka-11",
+     "type": "ANGKA",
+     "orderIndex": 11,
+     "label": "Angka 11",
+     "content": "Ketentuan Pasal 29 diubah sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-29",
+   "type": "PASAL",
+   "orderIndex": 29,
+   "label": "Pasal 29",
+   "content": "Setiap Orang dengan sengaja dan tanpa hak Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancam.rn kekerasan dan/ atau menakut- nakuti.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-29/angka-12",
+     "type": "ANGKA",
+     "orderIndex": 12,
+     "label": "Angka 12",
+     "content": "Ketentuan Pasal 36 diubah sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-36",
+   "type": "PASAL",
+   "orderIndex": 36,
+   "label": "Pasal 36",
+   "content": "Setiap Orang dengan sengaja dan tanpa hak melakukan perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 34 yang mengakibatkan kerugian materiel bagi Orang lain.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-36/angka-13",
+     "type": "ANGKA",
+     "orderIndex": 13,
+     "label": "Angka 13",
+     "content": "Di antara ayat (2b) dan ayat (3) Pasal 40 disisipkan 2 (dua) ayat, yakni ayat l2cl dan ayat (2d), ketentuan ayat (2b), ayat (5), dan ayat (6) Pasal 4O diubah, serta penjelasan ayat (2b) Pasal 40 diubah sehingga Pasal 40 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-40",
+   "type": "PASAL",
+   "orderIndex": 40,
+   "label": "Pasal 40",
+   "content": "(l) Pemerintah memfasilitasi pemanfaatan Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan peraturan perundang- undangan.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pemerintah . . . SK No 190288A LIK;i'l (21 Pemerintah melindungi kepentingan umum dari segala jenis gangguan sebagai akibat penyalahgunaan Informasi Elektronik dan Transaksi Elektronik yang mengganggu ketertiban umum, sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-2a",
+     "type": "AYAT",
+     "orderIndex": 2.1,
+     "label": "Ayat (2a)",
+     "content": "Pemerintah wajib melakukan pencegahan penyebarluasan dan penggunaan Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang dilarang sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-2b",
+     "type": "AYAT",
+     "orderIndex": 2.1,
+     "label": "Ayat (2b)",
+     "content": "Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang melakukan pemutusan Akses dan/atau memerintahkan kepada Penyeleprggara Sistem Elektronik untuk melakukan pemutusan Akses terhadap Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar hukum. l2cl Perintah kepada Penyelenggara Sistem Elektronik sebagaimana dimaksud pada ayat (2b) berupa pemutusan Akses dan/ atau moderasi konten secara mandiri terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan pornografi, perjudian, atau muatan lain sebagaimana dimaksud dalam ketentuan peraturan perundang-undangan sepanjang dimungkinkan secara teknologi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-2d",
+     "type": "AYAT",
+     "orderIndex": 2.1,
+     "label": "Ayat (2d)",
+     "content": "Dalam melakukan pencegahan sebagaimana dimaksud pada ayat (2a), Pemerintah berwenang memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan moderasi konten terhadap Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan berbahaya bagi keselamatan nyawa atau kesehatan individu atau masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pemerintah menetapkan instansi atau institusi yang memiliki data elektronik strategis yang wajib dilindungi. Penyelenggara Sistem Elektronik wajib melaksanakan perintah sebagaimana dimaksud pada ayat (2). (41 Dalam hal Penyelenggara Sistem Elektronik melanggar kewajiban sebagaimana dimaksud pada ayat (3), Penyelenggara Sistem Elektronik dikenai sanksi administratif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Instansi. .. SK No l90l95A PrIflt dll ETrTI.If,TilTFr'IITTIf, (41 Instansi atau institusi sebagaimana dimaksud pada ayat (3) harus membuat Dokumen Elektronik dan rekam cadang elektroniknya serta menghubungkannya ke pusat data tertentu untuk kepentingan pengamanan data. dan ayat (5) diatur dalam Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Instansi atau institusi lain selain diatur pada ayat (3) membuat Dokumen Elektronik dan rekam cadang elektroniknya sesuai dengan keperluan pelindungan data yang dimilikinya. Sanksi... SK No 190196A NEPUBLIK INDONESTA Sanksi administratif sebagaimana dimalsud pada ayat (4) dapat berupa:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-40/ayat-5/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "teguran tertulis;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-40/ayat-5/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "dendaadministratif;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-40/ayat-5/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "penghentian sementara; dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-40/ayat-5/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "pemutusan Akses.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Ketentuan lebih lanjut mengenai peran Pemerintah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (2a1, ayat (2b), ayat (2c), ayat (2d1, dan ayat (3) diatur dalam Peraturan Pemerintah. Ketentuan lebih lanjut mengenai tanggung jawab Pemerintah sebagaimana dimaksud pada ayat (l ), wewenang Pemerintah sebagaimana dimaksud pada ayat (21, kewajiban Penyelepggara Sistem Elektronik sebagaimana dimaksud pada ayat (3), dan pengenaan sanksi administratif sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/angka-14",
+     "type": "ANGKA",
+     "orderIndex": 14,
+     "label": "Angka 14",
+     "content": "Di antara Pasal 40 dan Pasal 41 disisipkan 1 (satu) pasal, yakni Pasal 40A sehingga berbunyi sebagai berikut: Pasal 4OA (U Pemerintah bertanggung jawab dalam mendorong terciptanya ekosistem digital yang adil, akuntabel, aman, dan inovatif. (21 Dalam rangka melaksanakan tanggung Jawab sebagaimana dimaksud pada ayat (1), Pemerintah berwenang memerintahkan Penyelenggara Sistem Elektronik untuk melakukan penyesuaian pada Sistem Elektronik dan/atau melakukan tindakan tertentu.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-40/angka-15",
+     "type": "ANGKA",
+     "orderIndex": 15,
+     "label": "Angka 15",
+     "content": "Ketentuan ayat (2), ayat (5), dan ayat (8) Pasal 43 diubah, ketentuan ayat (5) Pasal 43 ditambahkan 1 (satu) huruf, yakni huruf l, dan penjelasan ayat (5) huruf j Pasal 43 diubah sehingga Pasal 43 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-43",
+   "type": "PASAL",
+   "orderIndex": 43,
+   "label": "Pasal 43",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Selain Penyidik Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan Pemerintah yang lingkup tugas dan tanggung jawabnya di bidang Teknologi Informasi dan Transaksi Elektronik diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-Undang tentang Hukum Acara Pidana untuk melakukan penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penyidikan. . . SK No l90l98A REPUBLIK INDONEISIA -t4- l2l Penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sebagaimana dimaksud pada ayat (1) dilakukan dengan memperhatikan pelindungan terhadap privasi, kerahasiaan, kelancaran layanan publik, dan integritas atau keutuhan data sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penggeledahan dan/atau penyitaan terhadap Sistem Elektronik yang terkait dengan dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana. (41 Dalam melakukan penggeledahan dan/ atau penyitaan sebagaimana dimaksud pada ayat (3), penyidik wajib menjaga terpeliharanya kepentingan pelayanan umum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (l) berwenang:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "menerima laporan atau pengaduan dari seseorzrng tentang adanya tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memanggil setiap Orang atau pihak lainnya untuk didengar dan diperiksa sebagai tersangka atau saksi sehubungan dengan adanya dugaan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "melakukan pemeriksaan terhadap Orang dan/ atau Badan Usaha yang patut diduga melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "melakukan . . . SK No 190199A T e melakukan pemeriksaan terhadap alat dan/ atau sarana yang berkaitan dengan kegiatan Teknologi Informasi yang diduga digunakan untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; f. c. h I J k. melakukan penggeledahan terhadap tempat tertentu yang diduga digunakan sebagai tempat untuk melakukan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; melakukan penyegelan dan penyitaan terhadap alat dan/ atau sarana kegiatan Teknologi Informasi yang diduga digunakan secara menyimpang dari ketentuan peraturan perundang-undangan ; membuat suatu data danlatau Sistem Elektronik yang terkait tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik agar tidak dapat diakses; meminta informasi yang terdapat di dalam Sistem Elektronik atau informasi yang dihasilkan oleh Sistem Elektronik kepada Penyelenggara Sistem Elektronik yang terkait dengan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; meminta bantuan ahli yang diperlukan dalam penyidikan terhadap tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik; mengadakan penghentian penyidikan tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik sesuai dengan ketentuan hukum acara pidana; dan/ atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-43/ayat-5/huruf-l",
+       "type": "HURUF",
+       "orderIndex": 12,
+       "label": "Huruf l",
+       "content": "memerintahkan . . . SK No 190200A REPITEUK INDONEISIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "memerintahkan kepada Penyelenggara Sistem Elektronik untuk melakukan pemutusan Akses secara sementara terhadap akun media sosial, rekening bank, uang elektronik, dan/ atau aset digital.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Penangkapan dan penahanan terhadap pelaku tindak pidana di bidang Teknologi Informasi dan Transaksi Elektronik dilakukan sesuai dengan ketentuan hukum acara pidana. (71 Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (l) dalam melaksanakan tugasnya memberitahukan dimulainya penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-7a",
+     "type": "AYAT",
+     "orderIndex": 7.1,
+     "label": "Ayat (7a)",
+     "content": "Dalam hal penyidikan sudah selesai, Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (l) menyampaikan hasil penyidikannya kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/ayat-8",
+     "type": "AYAT",
+     "orderIndex": 8,
+     "label": "Ayat (8)",
+     "content": "Dalam rangka mengungkap tindak pidana di bidang Teknologi Informasi dan TYansaksi Elektronik, penyidik dapat bekerja sama dengan penyidik negara lain untuk berbagi informasi dan alat bukti sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-43/angka-16",
+     "type": "ANGKA",
+     "orderIndex": 16,
+     "label": "Angka 16",
+     "content": "Ketentuan Pasal 45 diubah sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-2024/pasal-45",
+   "type": "PASAL",
+   "orderIndex": 45,
+   "label": "Pasal 45",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Setiap Orang yang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum sebagaimana dimaksud dalam Pasal 27 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rpl.000.000.000,00 (satu miliar rupiah). Setiap Orang yang dengan sengaja mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi pemberitahuan bohong informasi menyesatkan yang atau mengakibatkan kerugian materiel bagi konsumen dalam Transaksi Elektronik sebagaimana dimaksud dalam Pasal 28 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/ atau denda paling banyak Rp1.0O0.0O0.000,00 (satu miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perbuatan . . . SK No 190201A f,r{rr:rftxlTrffif{Tff, -L7- (21 Perbuatan sebagaimana dimaksud pada ayat (1) tidak dipidana dalam hal: Setiap Orang yang dengan sengaja dan tanpa mendistribusikan hak dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang sifatnya menghasut, orang lain mengajak, atau sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu berdasarkan ras, kebangsaan, etnis, warna kulit, agama, kepercayaan, jenis kelamin, disabilitas mental, atau disabilitas frsik sebagaimana dimaksud dalam Pasal 28 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/ atau denda paling banyak Rp1.0OO.0O0.000,0O (satu miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "dilakukan demi kepentingan umum;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "dilakukan untuk pembelaan atas dirinya c. sendiri; atau Informasi Elektronik dan/ atau Dokumen Elektronik tersebut merupakan karya seni, budaya, olahraga, kesehatan, dan/ atau ilmu pengetahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan, mentransmisikan, dan/ atau membuat dapat diaksesnya Informasi Elektronik dan/ atau Dokumen Elektronik yang memiliki muatan perjudian sebagaimana dimaksud dalam Pasal 27 ayat (2) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp 1 0. 000.000.000,00 (sepuluh miliar rupiah). Setiap. . . SK No 190290A NEPUELIK INDONEISIA Setiap Orang yang dengan sengaja menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang diketahuinya memuat pemberitahuan bohong yang menimbulkan kerusuhan di masyarakat sebagaimana dimaksud dalam Pasal 28 ayat (3) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/ atau denda paling banyak Rp 1.000.O0O.0O0,00 (satu miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Setiap Orang yang dengan sengaja menyerang kehormatan atau nama baik orang lain dengan cara menuduhkan suatu hal, dengan maksud supaya ha1 tersebut diketahui umum dalam bentuk Informasi Elektronik dan/ atau Dokumen Elektronik yang dilakukan melalui Sistem Elektronik sebagaimana dimaksud dalam Pasal 27A dipidana dengan pidana penjara paling lama 2 (dua) tahun dan/ atau denda paling banyak Rp4O0.000.000,00 (empat ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Ketentuan sebagaimana dimaksud pada ayat (4) merupakan tindak pidana aduan yang hanya dapat dituntut atas pengaduan korban atau orang yang terkena tindak pidana dan bukan oleh badan hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Dalam hal perbuatan sebagaimana dimaksud pada ayat (41 tidak dapat dibuktikan kebenarannya dan bertentangan dengan apa yang diketahui padahal telah diberi kesempatan untuk membuktikannya, dipidana karena fitnah dengan pidana penjara paling lama 4 (empat) tahun dan/ atau denda paling banyak Rp750.000.00O,00 (tujuh ratus lima puluh juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-7",
+     "type": "AYAT",
+     "orderIndex": 7,
+     "label": "Ayat (7)",
+     "content": "Perbuatan . . . SK No 190202A flEPUBLIK INDONESIA (71 Perbuatan sebagaimana dimaksud pada ayat (4) tidak dipidana dalam hal:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-7/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "dilakukan untuk kepentingan umum; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-7/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "dilakukan karena terpaksa membela diri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-8",
+     "type": "AYAT",
+     "orderIndex": 8,
+     "label": "Ayat (8)",
+     "content": "Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman kekerasan untuk:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-8/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "memberikan suatu barang, yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-8/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memberi utang, membuat pengakuan utang, atau menghapuskan piutang, sebagaimana dimaksud dalam Pasal 278 ayat (Ll dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-9",
+     "type": "AYAT",
+     "orderIndex": 9,
+     "label": "Ayat (9)",
+     "content": "Dalam hal perbuatan sebagaimana dimaksud pada ayat (8) dilakukan dalam lingkungan keluarga, penuntutan pidana hanya dapat dilakukan atas aduan. (1O) Setiap Orang yang dengan sengaja dan tanpa mendistribusikan hak dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik, dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, dengan ancarnan pencemaran atau dengan ancalnan akan membuka rahasia, memaksa orang supaya:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-9/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "memberikan suatu barang yang sebagian atau seluruhnya milik orang tersebut atau milik orang lain; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-2024/pasal-45/ayat-9/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memberi . . . SK No 190289A LIK-t 7l memberi utang, membuat pengakuan utang, atau menghapuskan piutang, sebagaimana dimaksud dalam Pasal 278 ayat (21 dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/ atau denda paling banyak Rp 1.000.000.000,00 (satu miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-11",
+     "type": "AYAT",
+     "orderIndex": 11,
+     "label": "Ayat (11)",
+     "content": "Tindak pidana sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/ayat-10",
+     "type": "AYAT",
+     "orderIndex": 10,
+     "label": "Ayat (10)",
+     "content": "hanya dapat dituntut atas pengaduan korban tindak pidana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/angka-17",
+     "type": "ANGKA",
+     "orderIndex": 17,
+     "label": "Angka 17",
+     "content": "Ketentuan Pasal 45A diubah sehingga berbunyi sebagai berikut: Pasal 45A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-2024/pasal-45/angka-18",
+     "type": "ANGKA",
+     "orderIndex": 18,
+     "label": "Angka 18",
+     "content": "Ketentuan Pasal 45B diubah sehingga berbunyi sebagai berikut: Pasal 45B Setiap Orang yang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik secara langsung kepada korban yang berisi ancaman kekerasan dan/ atau menakut- nakuti sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/ atau denda paling banyak Rp750.000.000,00 (tqjuh ratus lima puluh juta rupiah). Pasal II Pada saat Undang-Undang ini mulai berlaku, ketentuan dalam Pasal 27 ayat (1), Pasal 27A, Pasal. 28 ayat (2), Pasal 28 ayal (3), Pasal 36, Pasal 45 ayat (1), Pasal 45 ayat (2), Pasal 45 ayat (4), Pasal 45 ayat (5), Pasal 45 ayat (6), Pasal 45 ayat (7), Pasal 45A ayat (2), dan Pasal 45A ayat (3) berlaku sampai dengan diberlakukannya Undang-Undang Nomor 1 Tahun 2O23 tentang Kitab Undang-Undang Hukum Pidana (Lembaran Negara Republik Indonesia Tahun 2O23 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 6842). Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . SK No 190291A FRESIDEN REPUBUK INDONESIA -2t- Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam l,embaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 2 Januari2024 PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 2 Jarruari 2024 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR 1 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan trasi Hukum, Djaman SK No l90l75A TI.I JTFIIIilNFIEFI;FIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

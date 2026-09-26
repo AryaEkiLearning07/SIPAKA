@@ -1,0 +1,1797 @@
+{
+ "slug": "uu-1-1974",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Details/47406",
+  "sha256": "a92f3ce36bf243747193d0170d804442144aad603930ca74e4b230fbbdb1d9e4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 13,
+  "pasal": 66,
+  "ayat_angka": 100,
+  "huruf": 11
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-1-1974/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "DASAR PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Perkawinan ialah ikatan lahir bathin antara seorang pria dengan seorang wanita sebagai suami isteri dengan tujuan membentuk keluarga (rumah tangga) yang bahagia dan kekal berdasarkan Ketuhanan Yang Mahaesa. Pasal 2 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan adalah sah, apabila dilakukan menurut hukum masing- masing agamanya dan kepercayaannya itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tiap-tiap perkawinan dicatat menurut peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada azasnya dalam suatu perkawinan seorang pria hanya boleh mempunyai seorang isteri. Seorang wanita hanya boleh mempunyai seorang suami.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadilan, dapat memberi izin kepada seorang suami untuk beristeri lebih dari seorang apabila dikehendaki oleh fihak-fihak yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal seorang suami akan beristeri lebih dari seorang, sebagaimana tersebut dalam Pasal 3 ayat (2) Undang-undang ini, maka ia wajib mengajukan permohonan kepada Pengadilan di daerah tempat tinggalnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadilan dimaksud data ayat (1) pasal ini hanya memberikan izin kepada seorang suami yang akan beristeri lebih dari seorang apabila: a. isteri tidak dapat menjalankan kewajibannya sebagai isteri; b. isteri mendapat cacat badan atau penyakit yang tidak dapat disembuhkan; c. isteri tidak dapat melahirkan keturunan. Pasal 5 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk dapat mengajukan permohonan kepada Pengadilan, sebagaimana dimaksud dalam Pasal 4 ayat (1) Undang-undang ini, harus dipenuhi syarat-syarat sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-1-1974/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "adanya persetujuan dari isteri/isteri-isteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "adanya kepastian bahwa suami mampu menjamin keperluan- keperluan hidup isteri-isteri dan anak-anak mereka;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "adanya jaminan bahwa suami akan berlaku adil terhadap isteri- isteri dan anak-anak mereka.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persetujuan yang dimaksud pada ayat (1) huruf a pasal ini tidak diperlukan bagi seorang suami apabila isteri/isteri-isterinya tidak mungkin dimintai persetujuannya dan tidak dapat menjadi pihak dalam perjanjian, atau apabila tidak ada kabar dari isterinya selama sekurang-kurangnya 2 (dua) tahun, atau karena sebab-sebab lainnya yang perlu mendapat penilaian dari Hakim Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "SYARAT-SYARAT PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan harus didasarkan atas persetujuan kedua calon mempelai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melangsungkan perkawinan seorang yang belum mencapai umur 21 (duapuluh satu) tahun harus mendapat izin kedua orang tua.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal salah seorang dari kedua orang tua telah meninggal dunia atau dalam keadaan tidak mampu menyatakan kehendaknya, maka izin dimaksud ayat (2) pasal ini cukup diperoleh dari orang tua yang masih ... masih hidup atau dari orang tua yang mampu menyatakan kehendaknya. dan (4) pasal ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal kedua orang tua telah meninggal dunia atau dalam keadaan tidak mampu untuk menyatakan kehendaknya, maka izin diperoleh dari wali, orang yang memelihara atau keluarga yang mempunyai hubungan darah dalam garis keturunan lurus keatas selama mereka masih hidup dan dalam keadaan dapat menyatakan kehendaknya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal ada perbedaan pendapat antara orang-orang yang disebut dalam ayat (2), (3) dan (4) pasal ini, atau salah seorang atau lebih diantara mereka tidak menyatakan pendapatnya, maka Pengadilan dalam daerah hukum tempat tinggal orang yang akan melangsungkan perkawinan atas permintaan orang tersebut dapat memberikan izin setelah lebih dahulu mendengar orang-orang tersebut dalam ayat (2),",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-6/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan tersebut ayat (1) sampai dengan ayat (5) pasal ini berlaku sepanjang hukum masing-masing agamanya dan kepercayaannya itu dari yang bersangkutan tidak menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan hanya diizinkan jika pihak pria sudah mencapai umur 19 (sembilan belas) tahun dan pihak wanita sudah mencapai umur 16 (enam belas) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penyimpangan terhadap ayat (1) pasal ini dapat meminta dispensasi kepada Pengadilan atau Pejabat lain yang ditunjuk oleh kedua orang tua pihak pria maupun pihak wanita.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan- ... Ketentuan-ketentuan mengenai keadaan salah seorang atau kedua orang tua tersebut dalam Pasal 6 ayat (3) dan (4) Undang-undang ini, berlaku juga dalam hal permintaan dispensasi tersebut ayat (2) pasal ini dengan tidak mengurangi yang dimaksud dalam Pasal 6 ayat (6).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Perkawinan dilarang antara dua orang yang: a. berhubungan darah dalam garis keturunan lurus kebawah ataupun keatas; b. berhubungan darah dalam garis keturunan menyamping yaitu antara saudara, antara seorang dengan saudara orang tua dan antara seorang dengan saudara neneknya; c. berhubungan semenda, yaitu mertua, anak tiri menantu dan ibu/bapak tiri; d. berhubungan susuan, yaitu orang tua susuan, anak susuan, saudara susuan dan bibi/paman susuan; e. berhubungan saudara dengan isteri atau sebagai bibi atau kemenakan dari isteri, dalam hal seorang suami beristeri lebih dari seorang; f. mempunyai hubungan yang oleh agamanya atau peraturan lain yang berlaku, dilarang kawin.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Seorang yang masih terikat tali perkawinan dengan orang lain tidak dapat kawin lagi, kecuali dalam hal yang tersebut pada Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini. Pasal 10 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Apabila suami dan isteri yang telah cerai kawin lagi satu dengan yang lain dan bercerai lagi untuk kedua kalinya, maka diantara mereka tidak boleh dilangsungkan perkawinan lagi, sepanjang hukum masing-masing agamanya dan kepercayaannya itu dari yang bersangkutan tidak menentukan lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bagi seorang wanita yang putus perkawinannya berlaku jangka waktu tunggu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tenggang waktu jangka waktu tunggu tersebut ayat (1) akan diatur dalam Peraturan Pemerintah lebih lanjut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Tata-cara pelaksanaan perkawinan diatur dalam peraturan perundang- undangan tersendiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENCEGAHAN PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Yang dapat mencegah perkawinan ialah para keluarga dalam garis keturunan lurus keatas dan kebawah, saudara, wali nikah, wali, pengampu dari salah seorang calon mempelai dan pihak-pihak yang berkepentingan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mereka yang tersebut pada ayat (1) pasal ini berhak juga mencegah berlangsungnya perkawinan apabila salah seorang dari calon mempelai berada di bawah pengampuan, sehingga dengan perkawinan tersebut nyata-nyata mengakibatkan kesengsaraan bagi calon mempelai yang lainnya, yang mempunyai hubungan dengan orang-orang seperti tersebut dalam ayat (1) pasal ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Barang siapa karena perkawinan dirinya masih terikat dengan salah satu dari kedua belah pihak dan atas dasar masih adanya perkawinan, dapat mencegah perkawinan yang baru, dengan tidak mengurangi ketentuan Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat yang ditunjuk berkewajiban mencegah berlangsungnya perkawinan apabila ketentuan-ketentuan dalam Pasal 7 ayat (1), Pasal 8, Pasal 9, Pasal 10 dan Pasal 12 Undang-undang ini tidak dipenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mengenai Pejabat yang ditunjuk sebagaimana tersebut pada ayat (1) pasal ini diatur lebih lanjut dalam peraturan perundang-undangan. Pasal 17 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pencegahan perkawinan diajukan kepada Pengadilan dalam daerah hukum dimana perkawinan akan dilangsungkan dengan memberitahukan juga kepada pegawai pencatat perkawinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepada calon-calon mempelai diberi tahukan mengenai permohonan pencegahan perkawinan dimaksud dalam ayat (1) pasal ini oleh pegawai pencatat perkawinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Pencegahan perkawinan dapat dicabut dengan putusan Pengadilan atau dengan menarik kembali permohonan pencegahan pada Pengadilan oleh yang mencegah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Perkawinan tidak dapat dilangsungkan apabila pencegahan belum dicabut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Pegawai pencatat perkawinan tidak diperbolehkan melangsungkan atau membantu melangsungkan perkawinan bila ia mengetahui adanya pelanggaran dari ketentuan dalam Pasal 7 ayat (1), Pasal 8, Pasal 9, Pasal 10 dan Pasal 12 Undang-undang ini meskipun tidak ada pencegahan perkawinan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jika pegawai pencatat perkawinan berpendapat bahwa terhadap perkawinan tersebut ada larangan menurut Undang-undang ini, maka ia akan menolak melangsungkan perkawinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Didalam ... Didalam hal penolakan, maka permintaan salah satu pihak yang ingin melangsungkan perkawinan. oleh pegawai pencatat perkawinan akan diberikan suatu keterangan tertulis dari penolakan tersebut disertai dengan alasan-alasan penolakannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Para pihak yang perkawinannya ditolak berhak mengajukan permohonan kepada pengadilan didalam wilayah mana pegawai pencatat perkawinan yang mengadakan penolakan berkedudukan untuk memberikan keputusan, dengan menyerahkan surat keterangan penolakan tersebut diatas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengadilan akan memeriksa perkaranya dengan acara singkat dan akan memberikan ketetapan, apakah ia akan menguatkan penolakan tersebut ataukah memerintahkan, agar supaya perkawinan dilangsungkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-21/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketetapan ini hilang kekuatannya, jika rintangan-rintangan yang mengakibatkan penolakan tersebut hilang dan para pihak yang ingin kawin dapat mengulangi pemberitahuan tentang maksud mereka.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "BATALNYA PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Perkawinan dapat dibatalkan, apabila para pihak tidak memenuhi syarat- syarat untuk melangsungkan perkawinan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Yang dapat mengajukan pembatalan perkawinan yaitu : a. Para ... a. Para keluarga dalam garis keturunan lurus keatas dari suami atau isteri; b. Suami atau isteri; c. Pejabat yang berwenang hanya selama perkawinan belum diputuskan; d. Pejabat yang ditunjuk tersebut ayat (2) Pasal 16 Undang-undang ini dan setiap orang yang mempunyai kepentingan hukum secara langsung terhadap perkawinan tersebut, tetapi hanya setelah perkawinan itu putus.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Barang siapa karena perkawinan masih terikat dirinya dengan salah satu dari kedua belah pihak dan atas dasar masih adanya perkawinan dapat mengajukan pembatalan perkawinan yang baru, dengan tidak mengurangi ketentuan Pasal 3 ayat (2) dan Pasal 4 Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Permohonan pembatalan perkawinan diajukan kepada Pengadilan dalam daerah hukum dimana perkawinan dilangsungkan atau ditempat tinggal kedua suami isteri, suami atau isteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan yang dilangsungkan dimuka pegawai pencatat perkawinan yang tidak berwenang, wali-nikah yang tidak sah atau yang dilangsungkan tanpa dihadiri oleh 2 (dua) orang saksi dapat dimintakan pembatalannya oleh para keluarga dalam garis keturunan lurus keatas dari suami atau isteri, jaksa dan suami atau isteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hak ... Hak untuk membatalkan oleh suami atau isteri berdasarkan alasan dalam ayat (1) pasal ini gugur apabila mereka telah hidup bersama sebagai suami isteri dan dapat memperlihatkan akte perkawinan yang dibuat pegawai pencatat perkawinan yang tidak berwenang dan perkawinan harus diperbaharui supaya sah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seorang suami atau isteri dapat mengajukan permohonan pembatalan perkawinan apabila perkawinan dilangsungkan dibawah ancaman yang melanggar hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Seorang suami atau isteri dapat mengajukan permohonan pembatalan perkawinan apabila pada waktu berlangsungnya perkawinan terjadi salah sangka mengenai diri suami atau isteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila ancaman telah berhenti, atau yang bersalah sangka itu menyadari keadaannya, dan dalam jangka waktu 6 (enam) bulan setelah itu masih tetap hidup sebagai suami isteri, dan tidak mempergunakan haknya untuk mengajukan permohonan pembatalan, maka haknya gugur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Batalnya suatu perkawinan dimulai setelah keputusan Pengadilan mempunyai kekuatan hukum yang tetap dan berlaku sejak saat berlangsungnya perkawinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan tidak berlaku surut terhadap :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-1-1974/pasal-28/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Anak-anak yang dilahirkan dari perkawinan tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-28/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Suami ... Suami atau isteri yang bertindak dengan iktikad baik, kecuali terhadap harta bersama, bila pembatalan perkawinan didasarkan atas adanya perkawinan lain yang lebih dahulu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-28/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Orang-orang ketiga lainnya tidak termasuk dalam a dan b sepanjang mereka memperoleh hak-hak dengan iktikad baik sebelum keputusan tentang pembatalan mempunyai kekuatan hukum tetap.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PERJANJIAN PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada waktu atau sebelum perkawinan dilangsungkan, kedua pihak atas persetujuan bersama dapat mengadakan perjanjian tertulis yang disahkan oleh Pegawai pencatat perkawinan, setelah mana isinya berlaku juga terhadap pihak ketiga sepanjang pihak ketiga tersangkut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perjanjian tersebut tidak dapat disahkan bilamana melanggar batas- batas hukum, agama dan kesusilaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perjanjian tersebut mulai berlaku sejak perkawinan dilangsungkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Selama perkawinan berlangsung perjanjian tersebut tidak dapat dirubah, kecuali bila dari kedua belah pihak ada persetujuan untuk merubah dan perubahan tidak merugikan pihak ketiga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "HAK DAN KEWAJIBAN SUAMI ISTERI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Suami isteri memikul kewajiban yang luhur untuk menegakkan rumah tangga yang menjadi sendi dasar dari susunan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hak dan kedudukan isteri adalah seimbang dengan hak dan kedudukan suami dalam kehidupan rumah tangga dan pergaulan hidup bersama dalam masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Masing-masing pihak berhak untuk melakukan perbuatan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Suami adalah kepala keluarga dan isteri ibu rumah tangga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Suami isteri harus mempunyai tempat kediaman yang tetap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rumah tempat kediaman yang dimaksud dalam ayat (1) pasal ini ditentukan oleh suami isteri bersama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Suami isteri wajib saling cinta-mencintai hormat-menghormati, setia dan memberi bantuan lahir bathin yang satu kepada yang lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Suami wajib melindungi isterinya dan memberikan segala sesuatu keperluan hidup berumah tangga sesuai dengan kemampuannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Isteri wajib mengatur urusan rumah-tangga sebaik-baiknya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jika ... Jika suami atau isteri melalaikan kewajibannya masing-masing dapat mengajukan gugutan kepada Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "HARTA BENDA DALAM PERKAWINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Harta benda yang diperoleh selama perkawinan menjadi harta bersama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Harta bawaan dari masing-masing suami dan isteri dan harta benda yang diperoleh masing-masing sebagai hadiah atau warisan, adalah dibawah penguasaan masing-masing sepanjang para pihak tidak menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mengenai harta bersama, suami atau isteri dapat bertindak atas persetujuan kedua belah pihak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mengenai harta bawaan masing-masing, suami dan isteri mempunyai hak sepenuhnya untuk melakukan perbuatan hukum mengenai harta bendanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Bila perkawinan putus karena perceraian, harta bersama diatur menurut hukumnya masing-masing. BAB VIII …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PUTUSNYA PERKAWINAN SERTA AKIBATNYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Perkawinan dapat putus karena : a. kematian, b. perceraian dan c. atas keputusan Pengadilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perceraian hanya dapat dilakukan didepan Sidang Pengadilan setelah Pengadilan yang bersangkutan berusaha dan tidak berhasil mendamaikan kedua belah pihak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melakukan perceraian harus ada cukup alasan, bahwa antara suami isteri itu tidak akan dapat hidup rukun sebagai suami isteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tatacara perceraian didepan sidang Pengadilan diatur dalam peraturan perundangan tersendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gugatan perceraian diajukan kepada Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tatacara mengajukan gugatan tersebut pada ayat (1) pasal ini diatur dalam peraturan perundangan tersendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Akibat putusnya perkawinan karena perceraian ialah : a. Baik … a. Baik ibu atau bapak tetap berkewajiban memelihara dan mendidik anak-anaknya, semata-mata berdasarkan kepentingan anak; bilamana ada perselisihan mengenai penguasaan anak- anak, Pengadilan memberi keputusannya; b. Bapak yang bertanggung-jawab atas semua biaya pemeliharaan dan pendidikan yang diperlukan anak itu; bilamana bapak dalam kenyataan tidak dapat memenuhi kewajiban tersebut, Pengadilan dapat menentukan bahwa ibu ikut memikul biaya tersebut; c. Pengadilan dapat mewajibkan kepada bekas suami untuk memberikan biaya penghidupan dan/atau menentukan sesuatu kewajiban bagi bekas isteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KEDUDUKAN ANAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Anak yang sah adalah anak yang dilahirkan dalam atau sebagai akibat perkawinan yang sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anak yang dilahirkan diluar perkawinan hanya mempunyai hubungan perdata dengan ibunya dan keluarga ibunya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kedudukan anak tersebut ayat (1) diatas selanjutnya akan diatur dalam Peraturan Pemerintah. Pasal 44 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seorang suami dapat menyangkal sahnya anak yang dilahirkan oleh isterinya, bilamana ia dapat membuktikan bahwa isterinya telah berzina dan anak itu akibat daripada perzinaan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadilan memberikan keputusan tentang sah/tidaknya anak atas permintaan pihak yang berkepentingan. HAK DAN KEWAJIBAN ANTARA ORANG TUA DAN ANAK",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "HAK DAN KEWAJIBAN ANTARA ORANG TUA DAN ANAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kedua orang tua wajib memelihara dan mendidik anak-anak mereka sebaik-baiknya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kewajiban orang tua yang dimaksud dalam ayat (1) pasal ini berlaku sampai anak itu kawin atau dapat berdiri sendiri, kewajiban mana berlaku terus meskipun perkawinan antara kedua orang tua putus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anak wajib menghormati orang tua dan mentaati kehendak mereka yang baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika anak telah dewasa, ia wajib memelihara menurut kemampuannya, orang tua dan keluarga dalam garis lurus keatas, bila mereka itu memerlukan bantuannya. Pasal 47 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anak yang belum mencapai umur 18 (delapan belas) tahun atau belum pernah melangsungkan perkawinan ada dibawah kekuasaan orang tuanya selama mereka tidak dicabut dari kekuasaannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Orang tua mewakili anak tersebut mengenai segala perbuatan hukum didalam dan diluar Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Orang tua tidak diperbolehkan memindahkan hak atau menggadaikan barang-barang tetap yang dimiliki anaknya yang belum berumur 18 (delapan betas) tahun atau belum pernah melangsungkan perkawinan, kecuali apabila kepentingan anak itu menghendakinya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Salah seorang atau kedua orang tua dapat dicabut kekuasannya terhadap seorang anak atau lebih untuk waktu yang tertentu atas permintaan orang tua yang lain, keluarga anak dalam garis lurus keatas dan saudara kandung yang telah dewasa atau pejabat yang berwenang, dengan keputusan Pengadilan dalam hal-hal : a. la sangat melalaikan kewajibannya terhadap anaknya; b. la berkelakuan buruk sekali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Meskipun orang tua dicabut kekuasaannya, mereka masih tetap berkewajiban untuk memberi biaya pemeliharaan kepada anak tersebut. BAB XI …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "PERWALIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-50/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anak yang belum mencapai umur 18 (delapan belas) tahun atau belum pernah melangsungkan perkawinan, yang tidak berada dibawah kekuasaan orang tua, berada dibawah kekuasaan wali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-50/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perwalian itu mengenai pribadi anak yang bersangkutan maupun harta bendanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wali dapat ditunjuk oleh satu orang tua yang menjalankan kekuasaan orang tua, sebelum ia meninggal, dengan surat wasiat atau dengan lisan di hadapan 2 (dua) orang saksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wali sedapat-dapatnya diambil dari keluarga anak tersebut atau orang lain yang sudah dewasa, berpikiran sehat, adil, jujur dan berkelakuan baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-51/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wali wajib mengurus anak yang dibawah penguasaannya dan harta bendanya sebaik-baiknya, dengan menghormati agama dan kepercayaan anak itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-51/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Wali wajib membuat daftar harta benda anak yang berada dibawah kekuasaannya pada waktu memulai jabatannya dan mencatat semua perubahan-perubahan harta benda anak atau anak-anak itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-51/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Wali bertanggung-jawab tentang harta benda anak yang berada dibawah perwaliannya serta kerugian yang ditimbulkan karena kesalahan atau kelalaiannya. Pasal 52 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Terhadap wali berlaku juga Pasal 48 Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wali dapat dicabut dari kekuasaannya, dalam hal-hal yang tersebut dalam Pasal 49 Undang-undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-53/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal kekuasaan seorang wali dicabut, sebagaimana dimaksud pada ayat (1) pasal ini, oleh Pengadilan ditunjuk orang lain sebagai wali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Wali yang telah menyebabkan kerugian kepada harta benda anak yang dibawah kekuasaannya, atas tuntutan anak atau keluarga anak tersebut dengan Keputusan Pengadilan, yang bersangkutan dapat diwajibkan untuk mengganti kerugian tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN-KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Asal-usul seorang anak hanya dapat dibuktikan dengan akte kelahiran yang autentik, yang dikeluarkan oleh Pejabat yang berwenang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bila ... Bila akte kelahiran tersebut dalam ayat (1) pasal ini tidak ada, maka Pengadilan dapat mengeluarkan penetapan tentang asal-usul seorang anak setelah diadakan pemeriksaan yang teliti berdasarkan bukti- bukti yang memenuhi syarat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-55/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Atas dasar ketentuan Pengadilan tersebut ayat (2) pasal ini, maka instansi pencatat kelahiran yang ada dalam daerah hukum Pengadilan yang bersangkutan mengeluarkan akte kelahiran bagi anak yang bersangkutan. Bagian Kedua Perkawinan diluar Indonesia",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan yang dilangsungkan diluar Indonesia antara dua orang warganegara Indonesia atau seorang warganegara Indonesia dengan warganegara Asing adalah sah bilamana dilakukan menurut hukum yang berlaku di negara dimana perkawinan itu dilangsungkan dan bagi warganegara Indonesia tidak melanggar ketentuan-ketentuan Undang-undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam waktu 1 (satu) tahun setelah suami isteri itu kembali diwilayah Indonesia, surat bukti perkawinan mereka harus didaftarkan di Kantor Pencatatan Perkawinan tempat tinggal mereka. Bagian Ketiga Perkawinan Campuran",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "Yang dimaksud dengan perkawinan campuran dalam Undang-undang ini … ini ialah perkawinan antara dua orang yang di Indonesia tunduk pada hukum yang berlainan, karena perbedaan kewarganegaraan dan salah satu pihak berkewarganegaraan Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Bagi orang-orang yang berlainan kewarganegaraan yang melakukan perkawinan campuran, dapat memperoleh kewarganegaraan dari suami/isterinya dan dapat pula kehilangan kewarganegaraannya, menurut cara-cara yang telah ditentukan dalam Undang-undang kewarganegaraan Republik Indonesia yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kewarganegaraan yang diperoleh sebagai akibat perkawinan atau putusnya perkawinan menentukan hukum yang berlaku, baik mengenai hukum publik maupun mengenai hukum perdata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perkawinan campuran yang dilangsungkan di Indonesia dilakukan menurut Undang-undang Perkawinan ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-60/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan campuran tidak dapat dilangsungkan sebelum terbukti bahwa syarat-syarat perkawinan yang ditentukan oleh hukum yang berlaku bagi pihak masing-masing telah dipenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk membuktikan bahwa syarat-syarat tersebut dalam ayat (1) telah dipenuhi dan karena itu tidak ada rintangan untuk melangsungkan perkawinan campuran, maka oleh mereka yang menurut hukum yang berlaku bagi pihak masing-masing berwenang mencatat perkawinan, diberikan surat keterangan bahwa syarat- syarat telah dipenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-60/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jika ... Jika pejabat yang bersangkutan menolak untuk memberikan surat keterangan itu, maka atas permintaan yang berkepentingan, Pengadilan memberikan keputusan dengan tidak beracara serta tidak boleh dimintakan banding lagi tentang soal apakah penolakan pemberian surat keterangan itu beralasan atau tidak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-60/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Jika Pengadilan memutuskan bahwa penolakan tidak beralasan, maka keputusan itu menjadi pengganti keterangan yang tersebut ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-60/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Surat keterangan atau keputusan pengganti keterangan tidak mempunyai kekuatan lagi jika perkawinan itu tidak dilangsungkan dalam masa 6 (enam) bulan sesudah keterangan itu diberikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perkawinan campuran dicatat oleh pegawai pencatat yang berwenang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Barang siapa melangsungkan perkawinan campuran tanpa memperlihatkan lebih dahulu kepada pegawai pencatat yang berwenang surat keterangan atau keputusan pengganti keterangan yang disebut dalam Pasal 60 ayat (4) Undang-undang ini dihukum dengan hukuman kurungan selama-lamanya 1 (satu) bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-61/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pegawai pencatat perkawinan yang mencatat perkawinan sedangkan ia mengetahui bahwa keterangan atau keputusan pengganti keterangan tidak ada, dihukum dengan hukuman kurungan selama- lamanya 3 (tiga) bulan dan dihukum jabatan. Pasal 62 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Dalam perkawinan campuran kedudukan anak diatur sesuai dengan Pasal 59 ayat (1) Undang-undang ini. Bagian Keempat Pengadilan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-63/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Yang dimaksud dengan Pengadilan dalam Undang-undang ini ialah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-1-1974/pasal-63/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pengadilan Agama bagi mereka yang beragama Islam;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-63/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pengadilan Umum bagi lainnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-63/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap Keputusan Pengadilan Agama dikukuhkan oleh Pengadilan Umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-1-1974/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-1-1974/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Untuk perkawinan dan segala sesuatu yang berhubungan dengan perkawinan yang terjadi sebelum Undang-undang ini berlaku yang dijalankan menurut peraturan-peraturan lama, adalah sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal seorang suami beristeri lebih dari seorang baik berdasarkan hukum lama maupun berdasarkan Pasal 3 ayat (2) Undang-undang ini maka berlakulah ketentuan-ketentuan berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-1-1974/pasal-65/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Suami wajib memberi jaminan hidup yang sama kepada semua isteri dan anaknya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-65/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Isteri ... Isteri yang kedua dan seterusnya tidak mempunyai hak atas harta bersama yang telah ada sebelum perkawinan dengan isteri kedua atau berikutnya itu terjadi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-1-1974/pasal-65/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Semua isteri mempunyai hak yang sama atas harta bersama yang terjadi sejak perkawinannya masing-masing.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika Pengadilan yang memberi izin untuk beristeri lebih dari seorang menurut Undang-undang ini tidak menentukan lain, maka berlakulah ketentuan-ketentuan ayat (1) pasal ini. B A B XIV KETENTUAN PENUTUP",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "Untuk perkawinan dan segala sesuatu yang berhubungan dengan perkawinan berdasarkan atas Undang-undang ini, maka dengan berlakunya Undang-undang ini ketentuan-ketentuan yang diatur dalam Kitab Undang-undang Hukum Perdata (Burgerlijk Wetboek), Ordonansi Perkawinan Indonesia Kristen (Huwelijks Ordonantie Christen Indonesiers S.1933 No. 74), Peraturan Perkawinan Campuran (Regeling op de gemengde Huwelijken S. 1898 No. 158), dan peraturan-peraturan lain yang mengatur tentang perkawinan sejauh telah diatur dalam Undang-undang ini, dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-1-1974/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-1-1974/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Undang-undang ini mulai berlaku pada tanggal diundangkannya, yang pelaksanaannya secara efektif lebih lanjut akan diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-1-1974/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hal-hal dalam Undang-undang ini yang memerlukan pengaturan pelaksanaan, diatur lebih lanjut dengan Peraturan Pemerintah. Agar ... Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 2 Januari 1974. PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 2 Januari 1974 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. MAYOR JENDERAL TNI. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 1",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2337 @@
+{
+ "slug": "uu-8-1999",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Details/45288",
+  "sha256": "df253c489e78e66d9da5337c85bebe1384c68763af2001335b4880b0f225d816",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 15,
+  "pasal": 65,
+  "ayat_angka": 102,
+  "huruf": 68
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-8-1999/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Perlindungan konsumen adalah segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Konsumen adalah setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain, maupun makhluk hidup lain dan tidak untuk diperdagangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pelaku usaha adalah setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian penyelenggaraan kegiatan usaha dalam berbagai bidang ekonomi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Barang adalah setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Jasa adalah setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Promosi adalah kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau untuk menarik minat beli konsumen terhadap barang dan atau jasa yang akan dan sedang diperdagangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Impor barang adalah kegiatan memasukkan barang ke dalam daerah pabean.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Impor jasa adalah kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Lembaga Perlindungan Konsumen Swadaya Masyarakat adalah lembaga non-Pemerintah yang terdaftar dan diakui oleh Pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Klausula Baku adalah setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Badan Penyelesaian Sengketa Konsumen adalah badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Badan Perlindungan Konsumen Nasional adalah badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Menteri adalah menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ASAS DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Perlindungan konsumen berasaskan manfaat, keadilan, keseimbangan, keamanan dan keselamatan konsumen, serta kepastian hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Perlindungan konsumen bertujuan: a. meningkatkan kesadaran, kemampuan dan kemandirian konsumen untuk melindungi diri; b. mengangkat harkat dan martabat konsumen dengan cara menghindarkannya dari ekses negatif pemakaian barang dan/atau jasa; c. meningkatkan pemberdayaan konsumen dalam memilih, menentukan, dan menuntut hak-haknya sebagai konsumen; d. menciptakan sistem perlindungan konsumen yang mengandung unsur kepastian hukum dan keterbukaan informasi serta akses untuk mendapatkan informasi; e. menumbuhkan kesadaran pelaku usaha mengenai pentingnya perlindungan konsumen sehingga tumbuh sikap yang jujur dan bertanggungjawab dalam berusaha; f. meningkatkan kualitas barang dan/atau jasa yang menjamin kelangsungan usaha produksi barang dan/atau jasa, kesehatan, kenyamanan, keamanan, dan keselamatan konsumen.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "HAK DAN KEWAJIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Hak konsumen adalah: a. hak atas kenyamanan, keamanan, dan keselamatan dalam mengkonsumsi barang dan/atau jasa; b. hak untuk memilih barang dan/atau jasa serta mendapatkan barang dan/atau jasa tersebut sesuai dengan nilai tukar dan kondisi serta jaminan yang dijanjikan; c. hak atas informasi yang benar, jelas, dan jujur mengenai konsidi dan jaminan barang dan/atau jasa; d. hak untuk didengar pendapat dan keluhannya atas barang dan/atau jasa yang digunakan; e. hak untuk mendapatkan advokasi, perlindungan, dan upaya penyelesaian sengketa perlindungan konsumen secara patut; f. hak untuk mendapat pembinaan dan pendidikan konsumen; g. hak untuk diperlakukan atau dilayani secara benar dan jujur serta tidak diskriminatif; h. hak untuk mendapatkan kompensasi, ganti rugi dan/atau penggantian, apabila barang dan/atau jasa yang diterima tidak sesuai dengan perjanjian atau tidak sebagaimana mestinya; i. hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Kewajiban konsumen adalah: a. membaca atau mengikuti petunjuk informasi dan prosedur pemakaian atau pemanfaatan barang dan/atau jasa, demi keamanan dan keselamatan; b. beritikad baik dalam melakukan transaksi pembelian barang dan/atau jasa; c. membayar sesuai dengan nilai tukar yang disepakati; d. mengikuti upaya penyelesaian hukum sengketa perlindungan konsumen secara patut. Bagian Kedua Hak dan Kewajiban Pelaku Usaha",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Hak pelaku usaha adalah: a. hak untuk menerima pembayaran yang sesuai dengan kesepakatan mengenai kondisi dan nilai tukar barang dan/atau jasa yang diperdagangkan; b. hak untuk mendapat perlindungan hukum dari tindakan konsumen yang beritikad tidak baik; c. hak untuk melakukan pembelaan diri sepatutnya di dalam penyelesaian hukum sengketa konsumen; d. hak untuk rehabilitasi nama baik apabila terbukti secara hukum bahwa kerugian konsumen tidak diakibatkan oleh barang dan/atau jasa yang diperdagangkan; e. hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Kewajiban pelaku usaha adalah: a. beritikad baik dalam melakukan kegiatan usahanya; b. memberikan informasi yang benar, jelas dan jujur mengenai kondisi jasa serta memberi penjelasan jaminan barang dan/atau dan penggunaan, perbaikan dan pemeliharaan; c. memperlakukan atau melayani konsumen secara benar dan jujur serta tidak diskriminatif; d. menjamin mutu barang dan/atau jasa yang diproduksi dan/atau diperdagangkan berdasarkan ketentuan standar mutu barang dan/atau jasa yang berlaku; e. memberi kesempatan kepada konsumen untuk menguji, dan/atau mencoba barang dan/atau jasa tertentu serta memberi jaminan dan/atau garansi atas barang yang dibuat dan/atau yang diperdagangkan; f. memberi kompensasi, ganti rugi dan/atau penggantian atas kerugian akibat penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang diperdagangkan; g. memberi kompensasi, ganti rugi dan/atau penggantian apabila barang dan/atau jasa yang diterima atau dimanfaatkan tidak sesuai dengan perjanjian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PERBUATAN YANG DILARANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha dilarang memproduksi dan/atau memperdagangkan barang dan/atau jasa yang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tidak memenuhi atau tidak sesuai dengan standar yang dipersyaratkan dan ketentuan peraturan perundang-undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tidak sesuai dengan berat bersih, isi bersih atau netto, dan jumlah dalam hitungan sebagaimana yang dinyatakan dalam label atau etiket barang tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tidak sesuai dengan ukuran, takaran, timbangan dan jumlah dalam hitungan menurut ukuran yang sebenarnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "tidak sesuai dengan kondisi, jaminan, keistimewaan atau kemanjuran sebagaimana dinyatakan dalam label, etiket atau keterangan barang dan/atau jasa tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "tidak sesuai dengan mutu, tingkatan, komposisi, proses pengolahan, gaya, mode, atau penggunaan tertentu sebagaimana dinyatakan dalam label atau keterangan barang dan/atau jasa tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "tidak sesuai dengan label, etiket keterangan, iklan atau promosi penjualan barang dan/atau jasa tersebut; janji dinyatakan dalam",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "tisak mencantumkan tanggal kadaluwarsa atau jangka waktu penggunaan/pemanfaatan yang paling baik atas barang tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-8/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "tidak mengikuti ketentuan berproduksi secara halal, sebagaimana pernyataan \"halal\" yang dicantumkan dalam label; i. tidak memasang label atau membuat penjelasan barang yang memuat nama barang, ukuran, berat/isi bersih atau netto, komposisi, aturan pakai, tanggal pembuatan, akibat sampingan, nama dan alamat pelaku usaha serta keterangan lain untuk penggunaan yang menurut ketentuan harus di pasang/dibuat; j. tidak mencantumkan informasi dan/atau petunjuk penggunaan barang dalam bahasa Indonesia sesuai dengan ketentuan perundang-undangan yang berlaku.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha dilarang memperdagangkan barang yang rusak, cacat atau bekas, dan tercemar tanpa memberikan informasi secara lengkap dan benar atas barang dimaksud. dilarang memperdagangkan barang dan/atau jasa tersebut serta wajib menariknya dari peredaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaku usaha dilarang memperdagangkan sediaan farmasi dan pangan yang rusak, cacat atau bekas dan tercemar, dengan atau tanpa memberikan informasi secara lengkap dan benar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaku usaha yang melakukan pelanggaran pada ayat (1) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha dilarang menawarkan, mempromosikan, mengiklankan suatu barang dan/atau jasa secara tidak benar, dan/atau seolah-olah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "barang tersebut telah memenuhi dan/atau memiliki potongan harga, harga khusus, standar mutu tertentu, gaya atau mode tertentu, karakteristik tertentu, sejarah atau guna tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "barang tersebut dalam keadaan baik dan/atau baru;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "barang dan/atau jasa tersebut telah mendapatkan dan/atau tertentu, persetujuan, memiliki keuntungan tertentu, ciri-ciri kerja atau aksesori tertentu; perlengkapan sponsor,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "barang dan/atau jasa tersebut dibuat oleh perusahaan yang mempunyai sponsor, persetujuan atau afiliasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "barang dan/atau jasa tersebut tersedia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "barang tersebut tidak mengandung cacat tersembunyi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "barang tersebut merupakan kelengkapan dari barang tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "barang tersebut berasal dari daerah tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "secara langsung atau tidak langsung merendahkan barang dan/atau jasa lain;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menggunakan kata-kata yang berlebihan, seperti aman, tidak berbahaya, tidak mengandung risiko atau efek sampingan tanpa keterangan yang lengkap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-9/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "menawarkan sesuatu yang mengandung janji yang belum pasti.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Barang dan/atau jasa sebagaimana dimaksud pada ayat (1) dilarang untuk diperdagangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaku usaha yang melakukan pelanggaran terhadap ayat (1) dilarang melanjutkan penawaran, promosi, dan pengiklanan barang dan/atau jasa tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang menawarkan, mempromosikan, mengiklankan atau membuat pernyataan yang tidak benar atau menyesatkan mengenai: a. harga atau tarif suatu barang dan/atau jasa; b. kegunaan suatu barang dan/atau jasa; c. kondisi, tanggungan, jaminan, hak atau ganti rugi atas suatu barang dan/atau jasa; d. tawaran potongan harga atau hadiah menarik yang ditawarkan; e. bahaya penggunaan barang dan/atau jasa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Pelaku usaha dalam hal penjualan yang dilakukan melalui cara obral atau lelang, dilarang mengelabui/menyesatkan konsumen dengan: a. menyatakan barang dan/atau memenuhi standar mutu tertentu; b. menyatakan barang dan/atau mengandung cacat tersembunyi; jasa tersebut seolah-olah telah jasa tersebut seolah-olah tidak c. tidak berniat untuk menjual barang yang ditawarkan melainkan dengan maksud untuk menjual barang lain; d. tidak menyediakan barang dalam jumlah tertentu dan/atau jumlah yang cukup dengan maksud menjual barang yang lain; e. tidak menyediakan jasa dalam kapasitas tertentu atau dalam jumlah cukup dengan maksud menjual jasa yang lain; f. menaikkan harga atau tarif barang dan/atau jasa sebelum melakukan obral.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "usaha dilarang menawarkan, mempromosikan, Pelaku atau mengiklankan suatu barang dan/atau jasa dengan harga atau tarif khusus dalam waktu dan jumlah tertentu, jika pelaku usaha tersebut tidak bermaksud untuk melaksanakan sesuai dengan waktu dan jumlah yang ditawarkan, dipromosikan, atau diiklankan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha dilarang menawarkan, mempromosikan, atau mengiklankan suatu barang dan/atau jasa dengan cara menjanjikan pemberian hadiah berupa barang dan/atau lain secara cuma-cuma dengan maksud tidak memberikannya atau memberikan tidak sebagaimana yang dijanjikannya. jasa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha dilarang menawarkan, mempromosikan, atau mengiklankan obat, obat tradisional, suplemen makanan, alat kesehatan, dan jasa pelayanan kesehatan dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dengan memberikan hadiah melalui cara undian, dilarang masuk: a. tidak melakukan penarikan hadiah setelah batas waktu yang dijanjikan; b. mengumumkan hasilnya tidak melalui media massa; c. memberikan hadiah tidak sesuai dengan yang dijanjikan; d. mengganti hadiah yang tidak setara dengan nilai hadiah yang dijanjikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pelaku usaha dalam menawarkan barang dan/atau jasa dilarang melakukan dengan cara pemaksaan atau cara lain yang dapat menimbulkan gangguan baik fisik maupun psikis terhadap konsumen.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Pelaku usaha dalam menawarkan barang dan/atau jasa melalui pesanan dilarang untuk: a. tidak menepati pesanan dan/atau kesepakatan waktu penyelesaian sesuai dengan yang dijanjikan; b. tidak menepati janji atas suatu pelayanan dan/atau prestasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha periklanan dilarang memproduksi iklan yang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengelabui konsumen mengenai kualitas, kuantitas, bahan kegunaan dan harga barang dan/atau tarif jasa serta ketepatan waktu penerimaan barang dan/atau jasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengelabui jaminan/garansi terhadap barang dan/atau jasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memuat informasi yang keliru, salah, atau tidak tepat mengenai barang dan/atau jasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "tidak memuat informasi mengenai risiko pemakaian barang dan/atau jasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengeksploitasi kejadian dan/atau seseorang tanpa seizin yang berwenang atau persetujuan yang bersangkutan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-17/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melanggar etika dan/atau ketentuan peraturan perundang-undangan mengenai periklanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha periklanan dilarang melanjutkan peredaran iklan yang telah melanggar ketentuan pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENCANTUMAN KLAUSULA BAKU",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan atau mencantumkan klausula baku pada setiap dokumen dan/atau perjanjian apabila: dilarang membuat diperdagangkan untuk",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyatakan pengalihan tanggung jawab pelaku usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali barang yang dibeli konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali uang yang dibayarkan atas barang dan/atau jasa yang dibeli oleh konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyatakan pemberian kuasa dari konsumen kepada pelaku usaha baik secara langsung maupun tidak langsung untuk melakukan segala tindakan sepihak yang berkaitan dengan barang yang dibeli oleh konsumen secara angsuran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengatur perihal pembuktian atas hilangnya kegunaan barang atau pemanfaatan jasa yang dibeli oleh konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memberi hak kepada pelaku usaha untuk mengurangi manfaat jasa atau mengurangi harta kekayaan konsumen yang menjadi obyek jual beli jasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyatakan tunduknya konsumen kepada peraturan yang berupa aturan baru, tambahan, lanjutan dan/atau pengubahan lanjutan yang dibuat sepihak oleh pelaku usaha dalam masa konsumen memanfaatkan jasa yang dibelinya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-18/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyatakan bahwa konsumen memberi kuasa kepada pelaku usaha untuk pembebanan hak tanggungan, hak gadai, atau hak jaminan terhadap barang yang dibeli oleh konsumen secara angsuran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha dilarang mencantumkan klausula baku yang letak atau bentuknya sulit terlihat atau tidak dapat dibaca secara jelas, atau yang pengungkapannya sulit dimengerti.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap klausula baku yang telah ditetapkan oleh pelaku usaha pada dokumen atau perjanjian yang memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan batal demi hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaku usaha wajib menyesuaikan klausula baku yang bertentangan dengan Undang-undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "TANGGUNG JAWAB PELAKU USAHA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan/atau kerugian konsumen akibat mengkonsumsi barang dan/atau jasa yang dihasilkan atau diperdagangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ganti rugi sebagaimana dimaksud pada ayat (1) dapat berupa pengembalian uang atau penggantian barang dan/atau jasa yang sejenis atau setara nilainya, atau perawatan kesehatan dan/atau pemberian santunan yang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. tidak menghapuskan kemungkinan adanya tuntutan pidana berdasarkan pembuktian lanjut mengenai adanya unsur kesalahan. lebih",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemberian ganti rugi dilaksanakan dalam tenggang waktu 7 (tujuh) hari setelah tanggal transaksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemberian ganti rugi sebagaimana dimaksud pada ayat (1) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku apabila pelaku usaha dapat membuktikan bahwa kesalahan tersebut merupakan kesalahan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Pelaku usaha periklanan bertanggung jawab atas iklan yang diproduksi dan segala akibat yang ditimbulkan oleh iklan tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Importir barang bertanggung jawab sebagai pembuat barang yang diimpor apabila importasi barang tersebut tidak dilakukan oleh agen atau perwakilan produsen luar negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Importir jasa bertanggung jawab sebagai penyedia jasa asing apabila penyediaan jasa asing tersebut tidak dilakukan oleh agen atau perwakilan penyedia jasa asing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam kasus pidana sebagaimana dimaksud dalam pasal 19 ayat (4), Pasal 20, dan Pasal 21 merupakan beban dan jawab pelaku usaha menutup kemungkinan bagi jaksa untuk melakukan pembuktian. tanggung",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Pelaku usaha yang menolak dan/atau tidak memberi tanggapan dan/atau tidak memenuhi ganti rugi atas tuntutan konsumen sebagaimana dimaksud dalam Pasal 19 aya t(1), ayat (2), ayat (3), dan ayat (4), dapat digugat melalui badan penyelesaian sengketa konsumen atau mengajukan ke badan peradilan di tempat kedudukan konsumen.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha yang menjual barang dan/atau jasa kepada pelaku usaha lain bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-24/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaku usaha lain menjual kepada konsumen tanpa melakukan perubahan apapun atas barang dan/atau jasa tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-24/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaku usaha lain, di dalam transaksi jual beli tidak mengetahui adanya perubahan barang dan/atau jasa yang dilakukan oleh pelaku usaha atau tidak sesuai dengan contoh, mutu, dan komposisi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha sebagaimana dimaksud pada ayat (1) dibebaskan dari tanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha lain yang membeli barang dan/atau jasa menjual kembali kepada konsumen dengan melakukan perubahan atas barang dan/atau jasa yang tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha yang memproduksi barang yang pemanfaatannya berkelanjutan dalam batas waktu sekurang-kurangnya 1 (satu) tahun wajib menyediakan suku cadang dan/atau fasilitas purna jual dan wajib memenuhi jaminan atau garansi sesuai dengan yang diperjanjikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha sebagaimana dimaksud pada ayat (1) bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha tersebut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-25/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tidak menyediakan atau lalai menyediakan suku cadang dan/atau fasilitas perbaikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-25/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tidak memenuhi atau gagal memenuhi jaminan atau garansi yang diperjanjikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Pelaku usaha yang memperdagangkan jasa wajib memenuhi jaminan dan/atau garansi yang disepakati dan/atau yang diperjanjikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Pelaku usaha yang memproduksi barang dibebaskan dari tanggung jawab atas kerugian yang diderita konsumen, apabila: a. barang tersebut terbukti seharusnya tidak diedarkan atau tidak dimaksudkan untuk diedarkan; b. cacat barang timbul pada kemudian hari; c. cacat timbul akibat ditaatinya ketentuan mengenai kualifikasi barang; d. kelalaian yang diakibatkan oleh konsumen; e. lewatnya jangka waktu penuntutan 4 (empat) tahun sejak barang dibeli atau lewatnya jangka waktu yang diperjanjikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam gugatan ganti rugi sebagaimana dimaksud dalam Pasal 19, Pasal 22, dan Pasal 23 merupakan beban dan tanggung jawab pelaku usaha.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah bertanggung jawab atas pembinaan penyelenggaraan perlindungan konsumen yang menjamin diperolehnya hak konsumen dan pelaku usaha serta dilaksanakannya kewajiban konsumen dan pelaku usaha",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan oleh pemerintah atas penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri sebagaimana dimaksud pada ayat (2) melakukan koordinasi atas penyelenggaraan perlindungan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pembinaan penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (2) meliputi upaya untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-29/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "terciptanya iklim usaha dan tumbuhnya hubungan yang sehat antara pelaku usaha dan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-29/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berkembangnya masyarakat; lembaga perlidungan konsumen swadaya",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-29/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meningkatkan kualitas sumber daya manusia serta meningkatnya kegiatan penelitian dan pengembangan di bidang perlindungan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pembinaan penyelenggaraan perlindungan konsumen diatur dengan Peraturan Pemerintah. Bagian Kedua Pengawasan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan terhadap penyelenggaraan perlindungan konsumen serta penerapan ketentuan peraturan perundang-undangannya diselenggarakan oleh pemerintah, masyarakat, dan lembaga perlindungan konsumen swadaya masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawasan oleh pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengawasan oleh masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dilakukan terhadap barang dan/atau jasa yang beredar di pasar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Apabila hasil pengawasan sebagaimana dimaksud pada ayat (3) ternyata menyimpang dari peraturan perundang-undangan yang berlaku dan membahayakan konsumen, Menteri dan/atau menteri peraturan teknis mengambil perundang-undangan yang berlaku. tindakan dengan sesuai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Hasil pengawasan yang diselenggarakan masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dapat disebarluaskan kepada masyarakat dan dapat disampaikan kepada Menteri dan menteri teknis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-30/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan pelaksanaan tugas pengawasan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) ditetapkan dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "BADAN PERLINDUNGAN KONSUMEN NASIONAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Dalam rangka mengembangkan upaya perlindungan konsumen dibentuk Badan Perlindungan Konsumen Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Badan Perlindungan Konsumen Nasional berkedudukan di Ibu Kota Negara Republik Indonesia dan bertanggung jawab kepada Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Badan Perlindungan Konsumen Nasional mempunyai fungsi memberikan saran dan pertimbangan kepada pemerintah dalam upaya mengembangkan perlindungan konsumen di Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menjalankan fungsi sebgaimana dimaksud dalam Pasal 33 Badan Perlindungan Konsumen Nasional mempunyai tugas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memberikan saran dan rekomendasi kepada pemerintah dalam rangka penyusunan kebijaksanaan di bidang perlindungan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan penelitian dan pengkajian terhadap peraturan perundang-undangan yang berlaku di bidang perlindungan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melakukan penelitian terhadap barang dan/atau jasa yang menyangkut keselamatan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mendorong berkembangnya lembaga perlindungan konsumen swadaya masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyebarluaskan informasi melalui media mengenai perlindungan keberpihakan kepada konsumen; konsumen dan memasyarakatkan sikap",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menerima pengaduan lembaga masyarakat, masyarakat, atau pelaku usaha; tentang perlindungan konsumen dari swadaya perlindungan konsumen",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-34/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "melakukan survei yang menyangkut kebutuhan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Badan perlindungan Konsumen Nasional dapat bekerja sama dengan organisasi konsumen internasional. Bagian Kedua Susunan Organisasi dan Keanggotaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan Perlindungan Konsumen Nasional terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, serta sekurang-kurangnya 15 (lima belas) orang dan sebanyak-banyaknya 25 (dua puluh lima) orang anggota yang mewakili semua unsur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota Badan perlindungan Konsumen Nasional diangkat dan setelah diberhentikan dikonsultasikan kepada Dewan Perwakilan Rakyat Republik Indonesia. oleh Presiden usul Menteri, atas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Masa jabatan ketua, wakil ketua, dan anggota Badan Perlindungan Konsumen Nasional selama 3 (tiga) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-35/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketua dan wakil ketua Badan Perlindungan Konsumen Nasional dipilih oleh anggota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Anggota Badan Perlindungan Konsumen Nasional terdiri atas unsur: a. pemerintah; b. pelaku usaha; c. lembaga perlindungan konsumen swadaya masyarakat; d. akademis; dan e. tenaga ahli.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Persyaratan keanggotaan Badan Perlindungan Konsumen Nasional adalah: a. warga negara Republik Indonesia; b. berbadan sehat; c. berkelakuan baik; d. tidak pernah dihukum karena kejahatan; e. memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen; dan f. berusia sekurang-kurangnya 30 (tiga puluh) tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Keanggotaan Badan Perlindungan Konsumen Nasional berhenti karena: a. meninggal dunia; b. mengundurkan diri atas permintaan sendiri; c. bertempat tinggal di luar wilayah negara Republik Indonesia; d. sakit secara terus menerus; e. berakhir masa jabatan sebagai anggota; atau f. diberhentikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kelancaran pelaksanaan tugas, Badan Perlindungan Konsumen Nasional dibantu oleh sekretariat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat sebagaimana dimaksud pada ayat (1) dipimpin oleh seorang sekretaris yang diangkat oleh Ketua Badan Perlindungan Konsumen Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Fungsi, tugas, dan tata kerja sekretariat sebagaimana dimaksud pada ayat (1) diatur dalam keputusan Ketua Badan Perlindungan Konsumen Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Apabila diperlukan Badan Perlindungan Konsumen Nasional dapat membentuk Perwakilan di Ibu Kota Daerah Tingkat I untuk membantu pelaksanaan tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembentukan perwakilan sebagaimana dimaksud pada ayat (1) ditetapkan lebih lanjut dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Dalam pelaksanaan tugas, Badan Perlindungan Konsumen Nasional bekerja berdasarkan tata kerja yang diatur dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "tugas Badan Perlindungan Konsumen Biaya untuk pelaksanaan Nasional dibebankan kepada anggaran pendapatan dan belanja negara dan sumber lain yang sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Ketentuan lebih lanjut mengenai pembentukan Badan Perlindungan Konsumen Nasional diatur dalam Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "LEMBAGA PERLINDUNGAN KONSUMEN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah mengakui lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lembaga perlindungan konsumen swadaya masyarakat memiliki kesempatan untuk berperan aktif dalam mewujudkan perlindungan konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tugas lembaga perlindungan konsumen swadaya masyarakat meliputi kegiatan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-44/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyebarkan informasi dalam rangka meningkatkan kesadaran atas hak dan kewajiban dan kehati-hatian konsumen dalam mengkonsumsi barang dan/atau jasa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-44/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan nasihat kepada konsumen yang memerlukannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-44/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bekerja sama dengan instansi terkait dalam upaya mewujudkan perlindungan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-44/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "membantu konsumen dalam memperjuangkan haknya, termasuk menerima keluhan atau pengaduan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-44/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan pengawasan bersama pemerintah dan masyarakat terhadap pelaksanaan perlindungan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-44/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tugas lembaga perlindungan konsumen swadaya masyarakat sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PENYELESAIAN SENGKETA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap konsumen yang dirugikan dapat menggugat pelaku usaha melalui lembaga yang bertugas menyelesaikan sengketa antara konsumen dan pelaku usaha atau melalui peradilan yang berada di lingkungan peradilan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelesaian sengketa konsumen dapat ditempuh melalui pengadilan atau di luar pengadilan berdasarkan pilihan sukarela para pihak yang bersengketa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud jawab pidana pada ayat (2) sebagaimana diatur dalam Undang-undang. tidak menghilangkan tanggung",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-45/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "APabila telah dipilih upaya penyelesaian sengketa konsumen di luar pengadilan, gugatan melalui pengadilan hanya dapat ditempuh apabila upaya tersebut dinyatakan tidak berhasil oleh salah satu pihak atau oleh para pihak yang bersengketa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gugatan atas pelanggaran pelaku usaha dapat dilakukan oleh: huruf d diatur dengan Peraturan Pemerintah. Bagian Kedua Penyelesaian Sengketa di luar Pengadilan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-46/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "seorang konsumen yang dirugikan atau ahli waris yang bersangkutan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-46/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sekelompok konsumen yang mempunyai kepentingan yang sama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-46/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat, yaitu berbentuk badan hukum atau yayasan, yang dalam anggaran dasarnya menyebutkan dengan tegas bahwa tujuan didirikannya organisasi tersebut adalah untuk kepentingan perlindungan konsumen dan telah melaksanakan kegiatan sesuai dengan anggaran dasarnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-46/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pemerintah dan/atau instansi terkait apabila barang dan/atau jasa yang dikonsumsi atau dimanfaatkan mengakibatkan kerugian materi yang besar dan/atau korban yang tidak sedikit.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Gugatan yang diajukan oleh kelompok konsumen, lembaga perllindungan konsumen swadaya masyarakat atau pemerintah sebagaimana dimaksud pada ayat (1) huruf b, huruf c, atau huruf d diajukan kepada peradilan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai kerugian materi yang besar dan/atau korban yang tidak sedikit sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Penyelesaian sengketa konsumen di luar pengadilan diselenggarakan untuk mencapai kesepakatan mengenai bentuk dan besarnya ganti rugi dan/atau mengenai tindakan tertentu untuk menjamin tidak akan terjadi kembali atau tidak akan terulang kembali kerugian yang diderita oleh konsumen. Bagian Ketiga Penyelesaian Sengketa Melalui Pengadilan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Penyelesaian sengketa konsumen melalui pengadilan mengacu pada ketentuan tentang peradilan umum yang berlaku dengan memperhatikan ketentuan dalam Pasal 45.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "BADAN PENYELESAIAN SENGKETA KONSUMEN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah membentuk badan penyelesaian sengketa konsumen di Daerah Tingkat II untuk penyelesaian sengketa konsumen di luar pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk dapat diangkat menjadi anggota badan penyelesaian sengketa konsumen, seseorang harus memenuhi syarat sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "warga negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berbadan sehat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "berkelakuan baik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "tidak pernah dihukum karena kejahatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-49/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "berusia sekurang-kurangnya 30 (tiga puluh) tahun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-49/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota sebagaimana dimaksud pada ayat (2) terdiri atas unsur pemerintah, unsur konsumen, dan unsur pelaku usaha;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-49/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggota setiap unsur sebagaimana dimaksud pada ayat (3) berjumlah sedikit-dikitnya 3 (tiga) orang, dan sebanyak-banyaknya 5 (lima) orang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-49/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengangkatan dan pemberhentian anggota badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 49 ayat (1) terdiri atas: a. ketua merangkap anggota; b. wakil ketua merangkap anggota; c. anggota.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan penyelesaian sengketa konsumen dalam menjalankan tugasnya dibantu oleh sekretariat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat badan penyelesaian sengketa konsumen terdiri atas kepala sekretariat dan anggota sekretariat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-51/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengangkatan dan pemberhentian kepala sekretariat dan anggota sekretariat badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Tugas dan wewenang badan penyelesaian sengketa konsumen meliputi: a. melaksanakan penanganan dan penyelesaian sengketa konsumen dengan cara melalui mediasi atau arbitrase atau konsiliasi; b. memberikan konsultasi perlindungan konsumen; c. melakukan pengawasan terhadap pencantuman klausula baku; d. melaporkan kepada penyidik umum apabila terjadi pelanggaran ketentuan dalam Undang-undang ini; e. menerima pengaduan baik tertulis maupun tidak tertulis, dari konsumen tentang terjadinya pelanggaran terhadap perlindungan konsumen; f. melakukan penelitian dan pemeriksaan sengketa perlindungan konsumen; g. memanggil pelaku usaha yang diduga telah melakukan pelanggaran terhadap perlindungan konsumen; h. memanggil dan menghadirkan saksi, saksi ahli dan/atau setiap orang yang dianggap mengetahui pelanggaran terhadap Undang-undang itu; i. meminta bantuan penyidik untuk menghadirkan pelaku usaha, saksi, saksi ahli, atau setiap orang sebagaimana dimaksud pada huruf g dan huruf h, yang tidak bersedia memenuhi panggilan badan penyelesaian sengketa konsumen; j. mendapatkan, meneliti dan/atau menilai surat, dokumen, atau alat bukti lain guna penyelidikan dan/atau pemeriksaan; k. memutuskan dan menetapkan ada atau tidak adanya kerugian di pihak konsumen; l. memberitahukan putusan kepada pelaku usaha yang melakukan pelanggaran terhadap perlindungan konsumen; m. menjatuhkan sanksi administratif kepada pelaku usaha yang melanggar ketentuan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang badan penyelesaian sengketa konsumen Daerah Tingkat II diatur dalam surat keputusan menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menangani dan menyelesaikan sengketa konsumen badan penyelesaian sengketa konsumen membentuk majelis;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah anggota majelis sebagaimana dimaksud pada ayat (1) harus ganjil dan sedikit-dikitnya 3 (tiga) orang yang mewakili semua unsur sebagaimana dimaksud dalam Pasal 49 ayat (3), serta dibantu oleh seorang panitera.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-54/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Putusan majelis bersifat final dan mengikat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-54/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan teknis lebih lanjut mengenai pelaksanaan tugas majelis diatur dalam surat keputusan menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Badan penyelesaian sengketa konsumen wajib mengeluarkan putusan paling lambat dalam waktu 21 (dua puluh satu) hari kerja setelah gugatan diterima.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam waktu paling lambat 7 (tujuh) hari kerja sejak menerima putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 55 pelaku usaha wajib melaksanakan putusan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Para pihak dapat mengajukan keberatan kepada Pengadilan Negeri paling lambat 14 (empat belas) hari kerja setelah menerima pemberitahuan putusan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaku usaha yang tidak mengajukan keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (2) dianggap menerima putusan badan penyelesaian sengketa konsumen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-56/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Apabila ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) tidak dijalankan oleh pelaku usaha, badan penyelesaian sengketa konsumen menyerahkan putusan tersebut kepada penyidik untuk ketentuan melakukan penyidikan dengan sesuai perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-56/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat (3) merupakan bukti permulaan yang cukup bagi penyidik untuk melakukan penyidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "Putusan majelis sebagaimana dimaksud dalam Pasal 54 ayat (3) dimintakan penetapan eksekusinya kepada Pengadilan Negeri di tempat konsumen yang dirugikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadilan Negeri wajib mengeluarkan putusan atas keberatan sebagaimana dimaksud dalam Pasal 56 ayat (2) dalam waktu paling lambat 21 (dua puluh satu) hari sejak diterimanya keberatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap putusan Pengadilan Negeri sebagaimana dimaksud pada ayat (1), para pihak dalam waktu paling lambat 14 (empat belas) hari dapat mengajukan kasasi ke Mahkamah Agung Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-58/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Mahkamah Agung Republik Indonesia wajib mengeluarkan putusan dalam waktu paling lambat 30 (tiga puluh) hari sejak menerima permohonan kasasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "PENYIDIKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain Pejabat Polisi Negara Republik Indonesie, Pejabat Pegawai Negeri Sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas … tugas dan tanggung jawabnya di bidang perlindungan konsumen juga diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-undang Hukum Acara Pidana yang berlaku. memberitahukan dimulainya penyidikan dan hasil penyidikannya kepada Penyidik Pejabat Polisi Negara Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pemeriksaan atas kebenaran laporan dan keterangan tindak pidana di bidang perlindungan berkenaan dengan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pemeriksaan terhadap orang atau badan hukum yang tindak pidana di bidang perlindungan diduga melakukan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meminta keterangan dan bahan bukti dari orang atau badan hukum sehubungan dengan peristiwa tindak pidana di bidang perlindungan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan pemeriksaan atas pembukuan, catatan, dan dokumen lain berkenaan dengan tindak pidana di bidang perlindungan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti serta melakukan penyitaan terhadap barang hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana di bidang perlindungan konsumen;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-8-1999/pasal-59/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang perlindungan konsumen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-59/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-59/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia. BAB XIII …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "SANKSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-60/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan penyelesaian sengketa konsumen berwenang menjatuhkan sanksi administratif terhadap pelaku usaha yang melanggar Pasal 19 ayat (2) dan ayat (3), Pasal 20, Pasal 25, dan Pasal 26.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sanksi administratif berupa penetapan ganti rugi paling banyak Rp. 200.000.000,00 (dua ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-60/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tata cara penetapan sanksi administratif sebagaimana dimaksud peraturan dalam diatur lanjut lebih (1) pada ayat perundang-undangan. Bagian Kedua Sanksi Pidana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Penuntutan pidana dapat dilakukan terhadap pelaku usaha dan/atau pengurusnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-8-1999/pasal-62/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 8, Pasal 9, Pasal 10, Pasal 13 ayat (2), Pasal 15, Pasal 17 ayat (1) huruf a, huruf b, huruf c, huruf e, ayat (2), dan Pasal 18 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp.2.000.000.000,00 (dua miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-62/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13 ayat (1), Pasal 14, Pasal 16 dan Pasal 17 ayat (1) huruf d dan huruf f dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp. 500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-8-1999/pasal-62/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Terhadap … Terhadap pelanggaran yang mengakibatkan luka berat, sakit berat, cacat tetap atau kematian diberlakukan ketentuan pidana yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-8-1999/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Terhadap sanksi pidana sebagaimana dimaksud dalam Pasal 62, dapat dijadikan hukuman tambahan, berupa: a. perampasan barang tertentu; b. pengumuman keputusan hakim; c. pembayaran ganti rugi; d. perintah penghentian kegiatan timbulnya kerugian konsumen; tertentu yang menyebabkan e. kewajiban penarikan barang dari peredaran; atau f. pencabutan izin usaha.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-xiv",
+   "type": "BAB",
+   "orderIndex": 14,
+   "label": "BAB XIV",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Segala ketentuan peraturan perundang-undangan yang bertujuan melindungi konsumen yang telah ada pada saat Undang-undang ini diundangkan, dinyatakan tetap berlaku sepanjang tidak diatur secara khusus dan/atau tidak bertentangan dengan ketentuan dalam Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-8-1999/bab-xv",
+   "type": "BAB",
+   "orderIndex": 15,
+   "label": "BAB XV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-8-1999/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "Undang-undang ini mulai berlaku setelah 1 (satu) tahun sejak diundangkan. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 20 April 1999 ttd. BACHRUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 20 April 1999 MENTERI NEGARA SEKRETARIS NEGARA ttd. AKBAR TANJUNG LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 22",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ]
+}
