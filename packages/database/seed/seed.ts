@@ -26,13 +26,23 @@ import path from 'node:path';
  * Naskah utuh hasil parser PDF resmi (structured/uu-11-2008.json).
  * Bila ada (>10 pasal), dipakai sebagai naskah dasar menggantikan dataset pilot.
  */
-function muatNaskahUtuh(): ProvisionNode[] | null {
+interface NaskahUtuh {
+  nodes: ProvisionNode[];
+  preamble: { menimbang: string[]; mengingat: string[] } | null;
+  penutup: string | null;
+}
+
+function muatNaskahUtuh(): NaskahUtuh | null {
   try {
     const p = path.join(__dirname, '..', 'seed', 'structured', 'uu-11-2008.json');
     const j = JSON.parse(fs.readFileSync(p, 'utf-8'));
     if (Array.isArray(j?.nodes) && j.nodes.length > 10) {
       console.log(`[seed] Naskah utuh: ${j.stats.bab} BAB, ${j.stats.pasal} pasal (sumber: ${j.source.url})`);
-      return j.nodes as ProvisionNode[];
+      return {
+        nodes: j.nodes as ProvisionNode[],
+        preamble: j.preamble ?? null,
+        penutup: j.penutup ?? null,
+      };
     }
   } catch {
     /* fallback ke dataset pilot */
@@ -208,7 +218,12 @@ async function main() {
     console.log(`[seed] ${oldIds.length} instrument lama dibersihkan`);
   }
 
-  // 2. Instrument target
+  // 2. Naskah utuh (bila ada) — muat DULU agar preamble tersedia untuk instrument
+  const naskah = muatNaskahUtuh();
+  const nodesDasar = naskah?.nodes ?? ITE_BASE_DOCUMENT_2008.nodes;
+  const naskahUtuh = nodesDasar !== ITE_BASE_DOCUMENT_2008.nodes;
+
+  // 3. Instrument target
   const target = await prisma.legalInstrument.create({
     data: {
       slug: INSTRUMENTS.target.slug,
@@ -225,12 +240,12 @@ async function main() {
       effectiveFrom: INSTRUMENTS.target.legalDate,
       lnNumber: INSTRUMENTS.target.lnNumber,
       tlnNumber: INSTRUMENTS.target.tlnNumber,
+      preambleJson: (naskah?.preamble ?? null) as unknown as object,
+      penutupTeks: naskah?.penutup ?? null,
     },
   });
 
   // 3. Pohon provision naskah (utuh bila tersedia, else dataset pilot)
-  const nodesDasar = muatNaskahUtuh() ?? ITE_BASE_DOCUMENT_2008.nodes;
-  const naskahUtuh = nodesDasar !== ITE_BASE_DOCUMENT_2008.nodes;
   const provisionCount = await seedProvisionTree(
     target.id,
     nodesDasar,

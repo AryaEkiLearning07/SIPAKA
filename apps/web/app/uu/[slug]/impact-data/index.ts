@@ -38,7 +38,7 @@ export function getProvisionAmendmentDetail(canonicalPath: string, label: string
   return {
     canonicalPath,
     pasalLabel: label,
-    diubahOleh: 'UU No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Naskah Pokok)',
+    diubahOleh: 'Naskah Pokok Peraturan Ini (lihat sumber resmi pada dokumen asli)',
     tanggalPengundangan: 'Disahkan di Jakarta: 21 April 2008 | Diundangkan: 21 April 2008',
     disahkanOleh: 'Presiden RI Dr. H. Susilo Bambang Yudhoyono & Diundangkan oleh Menkumham Andi Mattalatta',
     lembaranNegara: 'Lembaran Negara Republik Indonesia Tahun 2008 Nomor 58, Tambahan Lembaran Negara Nomor 4843',
@@ -46,7 +46,7 @@ export function getProvisionAmendmentDetail(canonicalPath: string, label: string
     statusBadge: 'Naskah Asli Berlaku (Stabil)',
     textSebelum: 'Naskah asli UU 11/2008 yang sah diundangkan pada 21 April 2008.',
     textSesudah: 'Norma hukum positif asli berlaku stabil tanpa modifikasi teks.',
-    latarBelakangPerubahan: 'Norma pasal ini belum mengalami amandemen dalam perubahan UU No. 19 Tahun 2016 maupun UU No. 1 Tahun 2024. Norma tetap mengikat secara penuh sesuai naskah asli pengundangan.',
+    latarBelakangPerubahan: 'Dokumen ini berada di luar keluarga yang datanya sudah terdigitasi penuh — status perubahan mengikuti data operasi yang tersimpan di database.',
     peraturanTerdampak: [
       {
         id: 'pp-71-2019-general',

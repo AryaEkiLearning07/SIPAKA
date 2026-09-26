@@ -23,6 +23,8 @@ interface ParsedDoc {
   slug: string;
   source: { url: string; sha256: string; status: string };
   validation?: { skor: number; keputusan: string; publishMode: string; issues: string[] };
+  preamble?: { menimbang: string[]; mengingat: string[] } | null;
+  penutup?: string | null;
   stats: { bab: number; pasal: number; ayat_angka: number; huruf: number };
   nodes: ProvisionNode[];
 }
@@ -105,6 +107,8 @@ async function ingest(slug: string, force: boolean): Promise<string> {
       effectiveFrom: new Date(`${tahun}-01-01`),
       confidenceScore: doc.validation?.skor ?? null,
       publishMode: mode === 'AUTO_PUBLISH' ? 'AUTO_PUBLISH' : 'QUARANTINE',
+      preambleJson: (doc.preamble ?? null) as unknown as object,
+      penutupTeks: doc.penutup ?? null,
     },
   });
 

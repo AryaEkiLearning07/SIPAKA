@@ -42,42 +42,56 @@ export default function NaskahKop({ meta, fontType }: { meta: InstrumentMeta | n
 
       {/* Bagian Pendahuluan Konsiderans Asli Sesuai LNRI No. 58 Tahun 2008 */}
       <div id="pendahuluan-konsiderans" className={`mb-10 space-y-4 text-xs sm:text-sm leading-relaxed border-b border-slate-200 pb-10 ${fontType === 'serif' ? 'font-serif' : 'font-sans'}`}>
-        <div className="flex items-start gap-4">
-          <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Menimbang :</span>
-          <div className="space-y-2.5 text-slate-700 text-justify">
-            <p>a. bahwa pembangunan nasional adalah proses yang berkelanjutan yang harus senantiasa tanggap terhadap berbagai dinamika yang terjadi di masyarakat;</p>
-            <p>b. bahwa globalisasi informasi telah menempatkan Indonesia sebagai bagian dari masyarakat informasi dunia sehingga mengharuskan dibentuknya pengaturan mengenai pengelolaan Informasi dan Transaksi Elektronik di tingkat nasional sehingga pembangunan Teknologi Informasi dapat dilakukan secara optimal, merata, dan menyebar ke seluruh lapisan masyarakat guna mencerdaskan kehidupan bangsa;</p>
-            <p>c. bahwa perkembangan dan kemajuan Teknologi Informasi yang demikian pesat telah menyebabkan perubahan kegiatan kehidupan manusia dalam berbagai bidang yang secara langsung telah memengaruhi lahirnya bentuk-bentuk perbuatan hukum baru;</p>
-            <p>d. bahwa penggunaan dan pemanfaatan Teknologi Informasi harus terus dikembangkan untuk menjaga, memelihara, dan memperkukuh persatuan dan kesatuan nasional berdasarkan peraturan perundang-undangan demi kepentingan nasional;</p>
-            <p>e. bahwa pemanfaatan Teknologi Informasi berperan penting dalam perdagangan dan pertumbuhan perekonomian nasional untuk mewujudkan kesejahteraan masyarakat;</p>
-            <p>f. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e, perlu membentuk Undang-Undang tentang Informasi dan Transaksi Elektronik;</p>
-          </div>
-        </div>
+                    {meta?.preamble?.menimbang?.length ? (
+                      <>
+                        <div className="flex items-start gap-4">
+                          <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Menimbang :</span>
+                          <ol className="space-y-2.5 text-slate-700 text-justify list-none">
+                            {meta.preamble.menimbang.map((b, i) => (
+                              <li key={i} className="flex items-start gap-2">
+                                <span className="font-semibold shrink-0">{String.fromCharCode(97 + i)}.</span>
+                                <span>{b}</span>
+                              </li>
+                            ))}
+                          </ol>
+                        </div>
+                        {meta.preamble.mengingat?.length ? (
+                          <div className="flex items-start gap-4 pt-3 border-t border-slate-100">
+                            <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Mengingat :</span>
+                            <ol className="space-y-1 text-slate-700 list-none">
+                              {meta.preamble.mengingat.map((m, i) => (
+                                <li key={i} className="flex items-start gap-2">
+                                  <span className="font-semibold shrink-0 tabular">{i + 1}.</span>
+                                  <span>{m}</span>
+                                </li>
+                              ))}
+                            </ol>
+                          </div>
+                        ) : null}
+                      </>
+                    ) : (
+                      <p className="text-slate-500 italic">
+                        Konsiderans (Menimbang/Mengingat) asli dokumen ini belum terdigitasi — rujuk naskah resmi pada tautan sumber.
+                      </p>
+                    )}
 
-        <div className="flex items-start gap-4 pt-3 border-t border-slate-100">
-          <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Mengingat :</span>
-          <div className="space-y-1 text-slate-700">
-            <p>Pasal 5 ayat (1) dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;</p>
-          </div>
-        </div>
+                    <div className="text-center py-5 space-y-1.5 font-sans">
+                      <p className="text-xs uppercase tracking-wider text-slate-600 font-bold">Dengan Persetujuan Bersama</p>
+                      <p className="font-extrabold text-xs sm:text-sm uppercase tracking-wide text-slate-900">DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA</p>
+                      <p className="text-xs font-serif italic text-slate-500">dan</p>
+                      <p className="font-extrabold text-xs sm:text-sm uppercase tracking-wide text-slate-900">PRESIDEN REPUBLIK INDONESIA</p>
+                      <div className="pt-3 font-extrabold text-sm uppercase tracking-widest text-[#94191C]">
+                        MEMUTUSKAN:
+                      </div>
+                    </div>
 
-        <div className="text-center py-5 space-y-1.5 font-sans">
-          <p className="text-xs uppercase tracking-wider text-slate-600 font-bold">Dengan Persetujuan Bersama</p>
-          <p className="font-extrabold text-xs sm:text-sm uppercase tracking-wide text-slate-900">DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA</p>
-          <p className="text-xs font-serif italic text-slate-500">dan</p>
-          <p className="font-extrabold text-xs sm:text-sm uppercase tracking-wide text-slate-900">PRESIDEN REPUBLIK INDONESIA</p>
-          <div className="pt-3 font-extrabold text-sm uppercase tracking-widest text-[#94191C]">
-            MEMUTUSKAN:
-          </div>
-        </div>
-
-        <div className="flex items-start gap-4 pt-2">
-          <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Menetapkan :</span>
-          <p className="font-sans font-extrabold text-slate-900 uppercase tracking-wide">
-            UNDANG-UNDANG TENTANG {meta?.title || 'INFORMASI DAN TRANSAKSI ELEKTRONIK'}.
-          </p>
-        </div>
-      </div>
+                    <div className="flex items-start gap-4 pt-2">
+                      <span className="font-bold font-sans text-slate-900 shrink-0 w-28">Menetapkan :</span>
+                      <p className="font-sans font-extrabold text-slate-900 uppercase tracking-wide">
+                        {meta ? `UNDANG-UNDANG TENTANG ${meta.title}.` : 'UNDANG-UNDANG.'}
+                      </p>
+                    </div>
+                  </div>
     </>
   );
 }

@@ -129,6 +129,10 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
         title: inst.title,
         shortTitle: inst.shortTitle,
         status: inst.status,
+        preamble: inst.preambleJson ?? null,
+        penutup: inst.penutupTeks ?? null,
+        lnNumber: inst.lnNumber,
+        tlnNumber: inst.tlnNumber,
         promulgatedAt: inst.promulgatedAt.toISOString(),
         availableTimelines: timelineYears(family),
         amendments: family.changeSets.map((cs) => ({

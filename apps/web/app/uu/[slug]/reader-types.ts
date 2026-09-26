@@ -12,6 +12,10 @@ export interface InstrumentMeta {
   shortTitle?: string;
   status: string;
   source?: 'database' | 'engine-demo';
+  preamble?: { menimbang: string[]; mengingat: string[] } | null;
+  penutup?: string | null;
+  lnNumber?: number | null;
+  tlnNumber?: number | null;
   availableTimelines: string[];
   amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
 }

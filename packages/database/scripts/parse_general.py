@@ -62,6 +62,18 @@ def buang_derau(lines):
     return [ln for ln in lines if ln.strip() and not drop.match(ln.strip())]
 
 
+def butir(block: str, pola_item: str) -> list:
+    """Pecah blok konsiderans menjadi butir (a., b., ... / 1., 2., ...)."""
+    matches = list(re.finditer(pola_item, block))
+    if not matches:
+        return [normalisasi(block)] if block.strip() else []
+    items = []
+    for i, m in enumerate(matches):
+        akhir = matches[i + 1].start() if i + 1 < len(matches) else len(block)
+        items.append(normalisasi(block[m.end():akhir]))
+    return items
+
+
 def temukan_awal_body(teks: str) -> int:
     """Awal batang tubuh: 'Menetapkan' / 'MEMUTUSKAN'; fallback BAB pertama."""
     for kunci in ("Menetapkan", "MEMUTUSKAN"):
@@ -86,6 +98,30 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
     teks = extract_text(pdf_path)
     awal = temukan_awal_body(teks)
     akhir = temukan_akhir_body(teks, awal)
+
+    # Konsiderans (Menimbang/Mengingat): blok SEBELUM batang tubuh
+    preamble = {"menimbang": [], "mengingat": []}
+    try:
+        i_menimbang = teks.rfind("Menimbang", 0, awal)
+        i_mengingat = teks.rfind("Mengingat", 0, awal)
+        i_menetapkan = teks.rfind("Menetapkan", 0, awal)
+        if i_menimbang >= 0 and i_mengingat > i_menimbang:
+            blok_m = teks[i_menimbang:i_mengingat]
+            blok_m = blok_m.split(":", 1)[1] if ":" in blok_m else blok_m
+            preamble["menimbang"] = butir(blok_m, r"\n\s*[a-z][.\)]\s*")
+        if i_mengingat >= 0 and i_menetapkan > i_mengingat:
+            blok_i = teks[i_mengingat:i_menetapkan]
+            blok_i = blok_i.split(":", 1)[1] if ":" in blok_i else blok_i
+            preamble["mengingat"] = butir(blok_i, r"\n\s*\d+[.\)]\s*")
+    except Exception:
+        pass
+
+    # Blok pengesahan (penutup) setelah batang tubuh terakhir
+    penutup = ""
+    m_diundang = re.search(r"Diundangkan", teks[akhir:])
+    if m_diundang:
+        penutup = normalisasi(teks[akhir + m_diundang.start():])[:1200]
+
     lines = buang_derau(teks[awal:akhir].split("\n"))
 
     nodes, bab, pasal, ayat, huruf = [], None, None, None, None
@@ -235,6 +271,10 @@ def parse(pdf_path: str, slug: str, url: str = "", sha256: str = "") -> dict:
 
     return {
         "slug": slug,
+        "preamble": preamble,
+        "penutup": penutup,
+        "preamble": preamble,
+        "penutup": penutup,
         "source": {
             "url": url, "sha256": sha256,
             "penerbit": "JDIH BPK (peraturan.bpk.go.id)",

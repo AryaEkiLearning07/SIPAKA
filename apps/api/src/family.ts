@@ -22,7 +22,7 @@ type FamilySource = 'database' | 'engine-demo';
 
 export interface Family {
   source: FamilySource;
-  instrument: Pick<LegalInstrument, 'type' | 'number' | 'year' | 'title' | 'shortTitle' | 'status' | 'slug' | 'description' | 'effectiveFrom' | 'promulgatedAt'>;
+  instrument: Pick<LegalInstrument, 'type' | 'number' | 'year' | 'title' | 'shortTitle' | 'status' | 'slug' | 'description' | 'effectiveFrom' | 'promulgatedAt' | 'preambleJson' | 'penutupTeks' | 'lnNumber' | 'tlnNumber'>;
   baseDocument: ConsolidatedLawDocument;
   changeSets: ChangeSetPayload[];
 }
@@ -42,6 +42,10 @@ export function demoFamily(): Family {
         'Mengatur transaksi elektronik, tanda tangan digital, perbuatan yang dilarang, fitnah online, dan alat bukti elektronik. Diubah dua kali (2016, 2024) dan menjadi pilot konsolidasi deterministik.',
       effectiveFrom: new Date('2008-04-21T00:00:00Z'),
       promulgatedAt: new Date('2008-04-21T00:00:00Z'),
+      preambleJson: null,
+      penutupTeks: null,
+      lnNumber: 58,
+      tlnNumber: 4843,
     },
     baseDocument: ITE_BASE_DOCUMENT_2008,
     changeSets: ITE_ALL_CHANGESETS,

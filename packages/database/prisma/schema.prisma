@@ -52,6 +52,8 @@ model LegalInstrument {
   tlnNumber       Int?             // Nomor Tambahan Lembaran Negara
   confidenceScore Int?             // 0-100 dari gerbang keyakinan pipeline
   publishMode     String?          // AUTO_PUBLISH | AUDITED | QUARANTINE
+  preambleJson    Json?            // konsiderans asli: {menimbang:[], mengingat:[]} dari PDF resmi
+  penutupTeks     String?          @db.Text // blok pengesahan asli (diundangkan, penandatangan)
 
   sourceDocuments SourceDocument[]
   provisions      Provision[]
