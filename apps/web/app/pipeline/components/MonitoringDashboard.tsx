@@ -37,12 +37,12 @@ export default function MonitoringDashboard() {
   }, []);
 
   const kartu = data ? [
-    { l: 'Terdaftar (Katalog BPK)', v: data.katalog.total, c: 'text-slate-200' },
-    { l: 'Terunduh', v: data.katalog.terunduh, c: 'text-cyan-300' },
-    { l: 'Ter-parse', v: data.katalog.terparse, c: 'text-indigo-300' },
-    { l: 'Lolos Gerbang', v: data.katalog.lolos, c: 'text-emerald-300' },
-    { l: 'Karantina', v: data.katalog.karantina, c: 'text-amber-300' },
-    { l: 'Gagal', v: data.katalog.gagalUnduh + data.katalog.gagalParse, c: 'text-rose-300' },
+    { l: 'Daftar Periksa BPK', v: data.katalog.total, c: 'text-slate-200' },
+    { l: 'Menunggu Diunduh', v: data.katalog.terunduh, c: 'text-cyan-300' },
+    { l: 'Sedang Dibaca Mesin', v: data.katalog.terparse, c: 'text-indigo-300' },
+    { l: 'Lolos - Tayang Publik', v: data.katalog.lolos, c: 'text-emerald-300' },
+    { l: 'Karantina - Perlu Manusia', v: data.katalog.karantina, c: 'text-amber-300' },
+    { l: 'Gagal - Perlu Dicek', v: data.katalog.gagalUnduh + data.katalog.gagalParse, c: 'text-rose-300' },
   ] : [];
 
   const maksTahun = data ? Math.max(...data.perTahunUU.map((t) => t.jumlah), 1) : 1;
@@ -63,6 +63,20 @@ export default function MonitoringDashboard() {
           <RefreshCw className="w-3.5 h-3.5 animate-spin" style={{ animationDuration: '3s' }} />
           {data ? new Date(data.dihitungPada).toLocaleTimeString('id-ID') : 'memuat…'}
         </span>
+      </div>
+
+      {/* Strip alur dokumen: cara membaca dasbor */}
+      <div className="flex flex-wrap items-center gap-1.5 text-[10px] font-mono font-bold rounded-xl border border-white/10 bg-white/[0.03] px-3 py-2 mb-4">
+        <span className="text-slate-400 uppercase tracking-wider mr-1">Alur tiap dokumen:</span>
+        <span className="px-2 py-0.5 rounded bg-slate-500/20 text-slate-300 border border-slate-500/30">Terdaftar</span>
+        <span className="text-slate-500">→</span>
+        <span className="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">Diunduh</span>
+        <span className="text-slate-500">→</span>
+        <span className="px-2 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">Dibaca Mesin</span>
+        <span className="text-slate-500">→</span>
+        <span className="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Lolos (Tayang)</span>
+        <span className="text-slate-500">/</span>
+        <span className="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">Karantina (Manusia)</span>
       </div>
 
       {err && !data && (
