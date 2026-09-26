@@ -4,6 +4,7 @@ import cookie from '@fastify/cookie';
 import { registerAuthRoutes } from './auth';
 import { registerInstrumentRoutes } from './routes/instruments';
 import { registerAnalysisRoutes } from './routes/analysis';
+import { registerMonitoringRoutes } from './routes/monitoring';
 
 export async function buildServer(): Promise<FastifyInstance> {
   const server = Fastify({
@@ -23,6 +24,7 @@ export async function buildServer(): Promise<FastifyInstance> {
   registerAuthRoutes(server);
   registerInstrumentRoutes(server);
   registerAnalysisRoutes(server);
+  registerMonitoringRoutes(server);
 
   return server;
 }

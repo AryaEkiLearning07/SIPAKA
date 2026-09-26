@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
+import MonitoringDashboard from './components/MonitoringDashboard';
 import Link from 'next/link';
 import {
   Play, Pause, RotateCcw, ChevronRight, CheckCircle2,
@@ -298,6 +299,9 @@ export default function PipelineFactoryPage() {
 
       {/* ── Main Production Stage ─────────────────────────────────── */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+
+        {/* ── Dasbor Pemilik: Data Nyata dari Database ────────────── */}
+        <MonitoringDashboard />
 
         {/* ── Visual Ban Berjalan 6 Stasiun (Conveyor Assembly Line) ── */}
         <section className="bg-[#140608] border border-[#2D1418] rounded-3xl p-4 sm:p-5 shadow-2xl relative overflow-hidden">

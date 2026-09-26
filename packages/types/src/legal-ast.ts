@@ -16,6 +16,8 @@ export type InstrumentStatus =
   | 'TIDAK_BERLAKU_SEBAGIAN';
 
 export type ProvisionType =
+  | 'BUKU'
+  | 'LAMPIRAN'
   | 'BAB'
   | 'BAGIAN'
   | 'PARAGRAF'
