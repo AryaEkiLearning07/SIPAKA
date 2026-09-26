@@ -116,6 +116,10 @@ def jalankan_katalog(jenis: str, limit: int, delete_pass: bool):
             db_update_status(row["detailsId"], "TERPARSE")
             r = validate(doc)
             status = "LOLOS" if r["keputusan"] == "PASS" else "KARANTINA"
+            # tulis ulang JSON DENGAN hasil validasi (seeder membaca publishMode dari sini)
+            doc["validation"] = {"skor": r["skor"], "keputusan": r["keputusan"],
+                                 "issues": r["issues"], "publishMode": r["publishMode"]}
+            out.write_text(json.dumps(doc, ensure_ascii=False, indent=1), encoding="utf-8")
             db_update_status(row["detailsId"], status, r["skor"])
             if status == "LOLOS":
                 pdf_path = Path(entri["pdf"])

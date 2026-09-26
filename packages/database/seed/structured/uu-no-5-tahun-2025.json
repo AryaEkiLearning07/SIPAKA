@@ -1,0 +1,213 @@
+{
+ "slug": "uu-no-5-tahun-2025",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Details/332356/uu-no-5-tahun-2025",
+  "sha256": "d9b6a8a0ae0f382dc115570b8c03953e3b6e7a4632f0965acac4e9b2c77fda34",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 9,
+  "ayat_angka": 4,
+  "huruf": 4
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-5-tahun-2025/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "UNDANG-UNDANG TENTANG KOTA GORONTALO DI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan: l. Provinsi Gorontalo adalah bagian dari wilayah Negara Kesatuan Republik Indonesia berdasarkan Undang- Undang Nomor 38 Tahun 2O00 tentang Pembentukan Provinsi Gorontalo.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-5-tahun-2025/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kola Gorontalo adalah daerah Kota yang berada di wilayah Provinsi Gorontalo yang dibentuk berdasarkan Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-5-tahun-2025/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kecamatan adalah kecamatan yang ada di wilayah Kota Gorontalo.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Tanggal 4 Juli 1959 merupakan tanggal pembentukan Kota Gorontalo berdasarkan Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi (Lembaran Negara Tahun 1959 Nomor 74, Tambahan Lembaran Negara Nomor 1822). BABII ... SK No273455A BUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-5-tahun-2025/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "BUK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Kota Gorontalo terdiri atas 9 (sembilan) Kecamatan, yaitu: a. Kecamatan Kota Barat; b. Kecamatan Kota Selatan; c. Kecamatan Kota Utara; d. Kecamatan Dungingi; e. Kecamatan Kota Timur; f. Kecamatan Kota Tengah; g. Kecamatan Sipatana; h. Kecamatan Dumbo Raya; dan i. KecamatanHulonthalangi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kota Gorontalo mempunyai batas daerah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sebelah utara berbatasan dengan Kabupaten Gorontalo dan Kabupaten Bone Bolango;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sebelah timur berbatasan dengan Kabupaten Bone Bolango;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sebelah selatan berbatasan dengan Teluk Tomini; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sebelah barat berbatasan dengan Kabupaten Gorontalo.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-5-tahun-2025/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penegasan batas daerah Kota Gorontalo sebagaimana dimaksud pada ayat (1) secara pasti di lapangan ditetapkan dengan Peraturan Menteri Dalam Negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Kota Gorontalo memiliki karakteristik, yaitu: a. kewilayahan dengan ciri geografis utama kawasan dataran rendah, kawasan pesisir dan pantai, kawasan perairan berupa laut, kawasan dataran tinggi berupa perbukitan dan pegunungan; b. potensi perekonomian yang bersumber dari sektor jasa dan perdagangan serta potensi sumber daya alam berupa peternakan, pariwisata, pertanian, perkebunan, serta perikanan; dan SK No273304A BUK INOONESIA c adat dan budaya Kota Gorontalo berdasarkan pada nilai falsafah Adati tatla-fuila'a to Sara'a, Sara'a lula-tula'a to Kuru'ani serta kekayaan sejarah, bahasa, kesenian, dan kearifan lokal yang menunjukkan karakter religius dan ketinggian adat istiadat serta kelestarian lingkungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-5-tahun-2025/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Ketentuan mengenai susunan dan tata cara penyelenggaraan pemerintahan daerah dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi (Lembaran Negara Tahun 1959 Nomor 74, Tamba}:an Irmbaran Negara Nomor 18221, dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, ketentuan yang mengatur mengenai Kota Gorontalo dalam Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi (Lembaran Negara Tahun 1959 Nomor 74, Tarnbahan Lembaran Negara Nomor 18221, dicabut dan dinyatakan tidak berlaku. Undang-Undang diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-2025/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "ini mulai berlaku pada tanggal Agar SK No 273305 A K INOONESIA Agar setiap orang mengetahuinya, Undang-Undang ini dalam kmbaran Negara dengan Republik Disahkan di Jakarta pada tanggal 2O Agustus 2025 PRESIDEN REPUBLIK INDONESIA, ttd PRABOWO SUBIANTO Indonesia. Diundangkan di Jakarta pada tanggal 20 Agustus 2025 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRASETYO HADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR 126 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan trasi Hutum, Djaman SK No273278A BUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

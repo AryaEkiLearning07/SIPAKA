@@ -72,11 +72,18 @@ async function ingest(slug: string, force: boolean): Promise<string> {
   }
   if (slug === 'ite') return 'LEWATI ite (keluarga pilot via seed utama)';
 
-  // slug uu-<nomor>-<tahun>
-  const m = slug.match(/^uu-(\d+)-(\d{4})$/);
+  const m = slug.match(/^uu-(?:no-)?(\d+)(?:-tahun)?-(\d{4})$/);
   if (!m) return `LEWATI ${slug} (slug tidak berpola UU)`;
   const nomor = parseInt(m[1], 10);
   const tahun = parseInt(m[2], 10);
+
+  const bentrok = await prisma.legalInstrument.findFirst({
+    where: { type: 'UU', number: nomor, year: tahun },
+    select: { slug: true },
+  });
+  if (bentrok && bentrok.slug !== slug) {
+    return `LEWATI ${slug} (sudah ada sebagai ${bentrok.slug} — dokumen yang sama dari keluarga pilot)`;
+  }
 
   const existing = await prisma.legalInstrument.findUnique({ where: { slug }, select: { id: true } });
   if (existing) {
@@ -120,7 +127,11 @@ async function main() {
 
   console.log(`[ingest] ${daftar.length} dokumen…`);
   for (const slug of daftar) {
-    console.log('  ' + await ingest(slug, force));
+    try {
+      console.log('  ' + await ingest(slug, force));
+    } catch (e) {
+      console.log(`  GAGAL ${slug}: ${e instanceof Error ? e.message.slice(0, 120) : String(e).slice(0, 120)}`);
+    }
   }
 }
 

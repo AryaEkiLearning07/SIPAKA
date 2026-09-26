@@ -1,0 +1,143 @@
+{
+ "slug": "uu-no-15-tahun-2025",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Details/330989/uu-no-15-tahun-2025",
+  "sha256": "94c626e1217505467bc8ceee50de20c3dd80123bdf4965111530114ef3f5ecc8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 4,
+  "ayat_angka": 7,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-15-tahun-2025/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pertanggungjawaban atas pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2024 tertuarrg dalam laporan Keuangan Pemerintah Pusat Tahun 2024.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-15-tahun-2025/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Laporan Keuangan Pemerintah Pusat Tahun Anggaran 2024 sebagaimana dimaksud dalam Pasal 1, terdiri atas:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Ia.poran Realisasi Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2024;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "la.poran Perubahan Saldo Anggaran Lebih Tahun Anggaran2024;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Neraca per 31 Desember 2024;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Laporan Operasional Tahun Anggaran 2024;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Laporan Arus Kas Tahun Anggaran 2024;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "Laporan Perubahan Ekuitas Tahun Atggaran 2024; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-1/huruf-g",
+       "type": "HURUF",
+       "orderIndex": 7,
+       "label": "Huruf g",
+       "content": "Catatan atas Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Laporan Keuangan Pemerintah Pusat sebagaimana dimaksud pada ayat (1) merupakan laporan keuangan yang disusun dan disajikan sesuai dengan Standar Akuntansi Pemerintahan berbasis akrual.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Laporan Keuangan Pemerintah Pusat sebagaimana dimaksud pada ayat (1) dilampiri mengenai Ikhtisar Laporan Keuangan Perusahaan Negara dan Badan Lainnya,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-15-tahun-2025/pasal-2/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Laporan Keuangan Pemerintah Pusat sebagaimana dimaksud pada ayat (1) dan ayat (3) tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}
