@@ -3,25 +3,23 @@ import { prisma } from '@lexvera/database';
 import bcrypt from 'bcryptjs';
 import { randomBytes } from 'node:crypto';
 
-const SESSION_COOKIE = 'lexvera_session';
-const SESSION_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 hari
+export const USER_SESSION_COOKIE = 'lexvera_user_session';
+export const ADMIN_SESSION_COOKIE = 'lexvera_admin_session';
+export const LEGACY_SESSION_COOKIE = 'lexvera_session';
+export const SESSION_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 hari
 
-interface PublicUser {
+export interface PublicUser {
   id: string;
   email: string;
   name: string;
   role: string;
 }
 
-function toPublicUser(u: { id: string; email: string; name: string; role: string }): PublicUser {
+export function toPublicUser(u: { id: string; email: string; name: string; role: string }): PublicUser {
   return { id: u.id, email: u.email, name: u.name, role: u.role };
 }
 
-/** Baca sesi aktif dari cookie — dipakai endpoint terlindung di masa depan. */
-export async function getCurrentUser(request: {
-  cookies?: Record<string, string | undefined>;
-}): Promise<PublicUser | null> {
-  const token = request.cookies?.[SESSION_COOKIE];
+async function resolveSessionFromToken(token?: string): Promise<PublicUser | null> {
   if (!token) return null;
   const session = await prisma.session.findUnique({
     where: { token },
@@ -29,6 +27,47 @@ export async function getCurrentUser(request: {
   });
   if (!session || session.revokedAt || session.expiresAt < new Date()) return null;
   return toPublicUser(session.user);
+}
+
+/** Baca sesi pengguna (Mahasiswa/Dosen/Umum atau Admin) */
+export async function getCurrentUser(request: {
+  cookies?: Record<string, string | undefined>;
+}): Promise<PublicUser | null> {
+  // Prioritas 1: Sesi pengguna reguler
+  const userToken = request.cookies?.[USER_SESSION_COOKIE];
+  const user = await resolveSessionFromToken(userToken);
+  if (user) return user;
+
+  // Prioritas 2: Sesi admin (admin juga berhak membaca sebagai user)
+  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE];
+  const admin = await resolveSessionFromToken(adminToken);
+  if (admin) return admin;
+
+  // Prioritas 3: Sesi legacy backward-compatible
+  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE];
+  return resolveSessionFromToken(legacyToken);
+}
+
+/** Baca sesi khusus Administrator Utama (Role ADMIN) */
+export async function getCurrentAdmin(request: {
+  cookies?: Record<string, string | undefined>;
+}): Promise<PublicUser | null> {
+  // Prioritas 1: Cookie terisolasi khusus konsol admin
+  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE];
+  const admin = await resolveSessionFromToken(adminToken);
+  if (admin && admin.role === 'ADMIN') return admin;
+
+  // Prioritas 2: Cookie pengguna reguler yang memiliki peran ADMIN
+  const userToken = request.cookies?.[USER_SESSION_COOKIE];
+  const user = await resolveSessionFromToken(userToken);
+  if (user && user.role === 'ADMIN') return user;
+
+  // Prioritas 3: Cookie legacy yang memiliki peran ADMIN
+  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE];
+  const legacy = await resolveSessionFromToken(legacyToken);
+  if (legacy && legacy.role === 'ADMIN') return legacy;
+
+  return null;
 }
 
 export function registerAuthRoutes(server: FastifyInstance): void {
@@ -74,12 +113,17 @@ export function registerAuthRoutes(server: FastifyInstance): void {
     const session = await prisma.session.create({
       data: { token, userId: user.id, expiresAt: new Date(Date.now() + SESSION_TTL_MS) },
     });
-    reply.setCookie(SESSION_COOKIE, session.token, {
+
+    const cookieOpts = {
       httpOnly: true,
-      sameSite: 'lax',
+      sameSite: 'lax' as const,
       path: '/',
       expires: new Date(Date.now() + SESSION_TTL_MS),
-    });
+    };
+
+    reply.setCookie(USER_SESSION_COOKIE, session.token, cookieOpts);
+    reply.setCookie(LEGACY_SESSION_COOKIE, session.token, cookieOpts);
+
     return reply.code(201).send({ user: toPublicUser(user) });
   });
 
@@ -101,24 +145,34 @@ export function registerAuthRoutes(server: FastifyInstance): void {
     const session = await prisma.session.create({
       data: { token, userId: user.id, expiresAt: new Date(Date.now() + SESSION_TTL_MS) },
     });
-    reply.setCookie(SESSION_COOKIE, session.token, {
+
+    const cookieOpts = {
       httpOnly: true,
-      sameSite: 'lax',
+      sameSite: 'lax' as const,
       path: '/',
       expires: new Date(Date.now() + SESSION_TTL_MS),
-    });
+    };
+
+    // Jika admin login lewat form umum, pasang admin cookie dan user cookie
+    if (user.role === 'ADMIN') {
+      reply.setCookie(ADMIN_SESSION_COOKIE, session.token, cookieOpts);
+    }
+    reply.setCookie(USER_SESSION_COOKIE, session.token, cookieOpts);
+    reply.setCookie(LEGACY_SESSION_COOKIE, session.token, cookieOpts);
+
     return { user: toPublicUser(user) };
   });
 
   server.post('/api/v1/auth/logout', async (request, reply) => {
-    const token = request.cookies?.[SESSION_COOKIE];
+    const token = request.cookies?.[USER_SESSION_COOKIE] || request.cookies?.[LEGACY_SESSION_COOKIE];
     if (token) {
       await prisma.session.updateMany({
         where: { token, revokedAt: null },
         data: { revokedAt: new Date() },
       });
     }
-    reply.clearCookie(SESSION_COOKIE, { path: '/' });
+    reply.clearCookie(USER_SESSION_COOKIE, { path: '/' });
+    reply.clearCookie(LEGACY_SESSION_COOKIE, { path: '/' });
     return { ok: true };
   });
 

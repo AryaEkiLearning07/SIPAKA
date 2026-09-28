@@ -1,24 +1,27 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import { prisma } from '@lexvera/database';
-import { getCurrentUser } from '../auth';
+import bcrypt from 'bcryptjs';
+import { randomBytes } from 'node:crypto';
+import {
+  getCurrentAdmin,
+  ADMIN_SESSION_COOKIE,
+  SESSION_TTL_MS,
+  toPublicUser,
+} from '../auth';
 
 /**
- * Middleware Proteksi Otoritas Administrator Utama
+ * Middleware Proteksi Otoritas Administrator Utama (Terisolasi dari Sesi Pengguna Reguler)
  */
 async function requireAdmin(request: FastifyRequest, reply: FastifyReply) {
-  const user = await getCurrentUser(request);
-  if (!user) {
-    reply.code(401).send({ error: 'UNAUTHENTICATED', message: 'Sesi berakhir. Silakan masuk kembali.' });
-    return null;
-  }
-  if (user.role !== 'ADMIN') {
-    reply.code(403).send({
-      error: 'FORBIDDEN_ACCESS',
-      message: 'Akses Ditolak: Halaman dan wewenang ini eksklusif untuk Administrator Utama berstandar ISO 9001/27001.',
+  const admin = await getCurrentAdmin(request);
+  if (!admin) {
+    reply.code(401).send({
+      error: 'UNAUTHENTICATED',
+      message: 'Sesi Administrator Utama tidak ditemukan atau telah berakhir. Silakan masuk kembali.',
     });
     return null;
   }
-  return user;
+  return admin;
 }
 
 export function registerAdminRoutes(server: FastifyInstance): void {
@@ -244,5 +247,104 @@ export function registerAdminRoutes(server: FastifyInstance): void {
       data: logs,
       count: logs.length,
     };
+  });
+
+  // POST /api/v1/admin/auth/login — Gerbang Masuk Eksklusif Administrator (Terisolasi)
+  server.post('/api/v1/admin/auth/login', async (request, reply) => {
+    const body = request.body as { email?: string; password?: string };
+    const email = body.email?.trim().toLowerCase();
+    const password = body.password ?? '';
+
+    if (!email || !password) {
+      return reply.code(400).send({
+        error: 'VALIDATION',
+        message: 'Username/Email dan kata sandi Administrator wajib diisi.',
+      });
+    }
+
+    const user = await prisma.user.findUnique({ where: { email } });
+    if (!user || !(await bcrypt.compare(password, user.passwordHash))) {
+      return reply.code(401).send({
+        error: 'INVALID_CREDENTIALS',
+        message: 'Kredensial Administrator tidak cocok.',
+      });
+    }
+
+    if (user.role !== 'ADMIN') {
+      // Catat upaya akses tidak sah ke log audit ISO 27001
+      await prisma.auditLog.create({
+        data: {
+          userId: user.id,
+          userEmail: user.email,
+          userName: user.name,
+          userRole: user.role,
+          action: 'ADMIN_UNAUTHORIZED_LOGIN_ATTEMPT',
+          entity: 'AdminConsole',
+          details: { reason: 'User does not possess ADMIN role privilege' },
+        },
+      });
+
+      return reply.code(403).send({
+        error: 'FORBIDDEN_ACCESS',
+        message: 'Akun ini bukan Administrator Utama. Akses konsol ISO 9001/27001 ditolak.',
+      });
+    }
+
+    const token = randomBytes(32).toString('hex');
+    const session = await prisma.session.create({
+      data: { token, userId: user.id, expiresAt: new Date(Date.now() + SESSION_TTL_MS) },
+    });
+
+    const cookieOpts = {
+      httpOnly: true,
+      sameSite: 'lax' as const,
+      path: '/',
+      expires: new Date(Date.now() + SESSION_TTL_MS),
+    };
+
+    // Tetapkan cookie sesi admin terisolasi
+    reply.setCookie(ADMIN_SESSION_COOKIE, session.token, cookieOpts);
+
+    // Catat log sukses masuk
+    await prisma.auditLog.create({
+      data: {
+        userId: user.id,
+        userEmail: user.email,
+        userName: user.name,
+        userRole: user.role,
+        action: 'ADMIN_LOGIN_SUCCESS',
+        entity: 'AdminConsole',
+        details: { method: 'dedicated_admin_gateway', timestamp: new Date().toISOString() },
+      },
+    });
+
+    return {
+      success: true,
+      message: 'Autentikasi Administrator Utama Berhasil.',
+      admin: toPublicUser(user),
+    };
+  });
+
+  // POST /api/v1/admin/auth/logout — Keluar Sesi Administrator
+  server.post('/api/v1/admin/auth/logout', async (request, reply) => {
+    const token = request.cookies?.[ADMIN_SESSION_COOKIE];
+    if (token) {
+      await prisma.session.updateMany({
+        where: { token, revokedAt: null },
+        data: { revokedAt: new Date() },
+      });
+    }
+
+    reply.clearCookie(ADMIN_SESSION_COOKIE, { path: '/' });
+    return { success: true, message: 'Sesi Administrator berhasil diakhiri.' };
+  });
+
+  // GET /api/v1/admin/auth/me — Periksa Status Sesi Administrator Aktif
+  server.get('/api/v1/admin/auth/me', async (request, reply) => {
+    const admin = await getCurrentAdmin(request);
+    if (!admin) {
+      return reply.code(401).send({ error: 'UNAUTHENTICATED' });
+    }
+    return { success: true, admin };
   });
 }

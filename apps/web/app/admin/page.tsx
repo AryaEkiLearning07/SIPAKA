@@ -91,14 +91,35 @@ export default function AdminDashboardPage() {
   const [userSearch, setUserSearch] = useState('');
   const [logSearch, setLogSearch] = useState('');
 
-  // 1. Verifikasi Sesi Admin
+  // Login Form States (Khusus Gerbang Administrator Terisolasi)
+  const [adminEmail, setAdminEmail] = useState('aryaeki@admin');
+  const [adminPassword, setAdminPassword] = useState('');
+  const [showAdminPassword, setShowAdminPassword] = useState(false);
+  const [adminLoginError, setAdminLoginError] = useState<string | null>(null);
+  const [adminLoginBusy, setAdminLoginBusy] = useState(false);
+
+  // 1. Verifikasi Sesi Admin (Cek Sesi Admin Terisolasi Terlebih Dahulu)
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch(`${API_BASE}/api/v1/auth/me`, { credentials: 'include' });
-        if (res.ok) {
-          const json = await res.json();
-          setCurrentUser(json.user);
+        // Cek endpoint admin terisolasi
+        const resAdmin = await fetch(`${API_BASE}/api/v1/admin/auth/me`, { credentials: 'include' });
+        if (resAdmin.ok) {
+          const json = await resAdmin.json();
+          if (json.admin && json.admin.role === 'ADMIN') {
+            setCurrentUser(json.admin);
+            setAuthChecking(false);
+            return;
+          }
+        }
+
+        // Fallback: Cek sesi umum jika akun berstatus ADMIN
+        const resUser = await fetch(`${API_BASE}/api/v1/auth/me`, { credentials: 'include' });
+        if (resUser.ok) {
+          const json = await resUser.json();
+          if (json.user && json.user.role === 'ADMIN') {
+            setCurrentUser(json.user);
+          }
         }
       } catch {
         // Belum login
@@ -147,6 +168,35 @@ export default function AdminDashboardPage() {
       loadAdminData();
     }
   }, [currentUser]);
+
+  // Handler Login Eksklusif Administrator Utama
+  const handleAdminLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setAdminLoginError(null);
+    setAdminLoginBusy(true);
+
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/admin/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ email: adminEmail, password: adminPassword }),
+      });
+
+      const json = await res.json();
+      if (!res.ok) {
+        setAdminLoginError(json.message || json.error || `Autentikasi gagal (HTTP ${res.status})`);
+        return;
+      }
+
+      setCurrentUser(json.admin);
+      setAdminPassword('');
+    } catch {
+      setAdminLoginError('Gagal menghubungi server API. Pastikan server backend Fastify aktif di port 4000.');
+    } finally {
+      setAdminLoginBusy(false);
+    }
+  };
 
   // Handler ubah peran user
   const handleUpdateRole = async (userId: string, newRole: string) => {
@@ -197,14 +247,15 @@ export default function AdminDashboardPage() {
     }
   };
 
-  // Handler logout
+  // Handler logout administrator
   const handleLogout = async () => {
     try {
+      await fetch(`${API_BASE}/api/v1/admin/auth/logout`, { method: 'POST', credentials: 'include' });
       await fetch(`${API_BASE}/api/v1/auth/logout`, { method: 'POST', credentials: 'include' });
     } catch {
       // ignore
     }
-    router.push('/masuk');
+    setCurrentUser(null);
   };
 
   // Render kondisi loading
@@ -219,32 +270,102 @@ export default function AdminDashboardPage() {
     );
   }
 
-  // Render jika bukan admin
+  // Render Form Login Administrator Eksklusif jika belum terautentikasi
   if (!currentUser || currentUser.role !== 'ADMIN') {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-slate-900 text-slate-100 font-sans p-4">
-        <div className="max-w-md w-full bg-slate-800/90 border border-slate-700 rounded-3xl p-8 text-center space-y-4 shadow-2xl backdrop-blur-md">
-          <div className="w-16 h-16 rounded-2xl bg-rose-500/10 border border-rose-500/20 text-rose-500 mx-auto flex items-center justify-center">
-            <Lock className="w-8 h-8" />
+      <div className="min-h-screen flex items-center justify-center bg-slate-950 text-slate-100 font-sans p-4">
+        <div className="max-w-md w-full bg-slate-900 border border-slate-800 rounded-3xl p-7 sm:p-8 space-y-5 shadow-2xl backdrop-blur-md relative overflow-hidden">
+          {/* Top Line Accent */}
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#94191C] via-amber-500 to-[#94191C]" />
+
+          <div className="text-center space-y-2">
+            <div className="w-14 h-14 rounded-2xl bg-red-950/60 border border-red-800/80 text-rose-400 mx-auto flex items-center justify-center shadow-inner">
+              <KeyRound className="w-7 h-7 text-amber-400" />
+            </div>
+            <div>
+              <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-400 bg-amber-950/50 px-2.5 py-0.5 rounded border border-amber-800/60">
+                ISO 9001:2015 &amp; ISO 27001 Gateway
+              </span>
+              <h1 className="text-xl font-extrabold text-white mt-2">
+                Konsol Administrator Utama
+              </h1>
+              <p className="text-xs text-slate-400 mt-1">
+                Akses terproteksi pengendalian naskah &amp; buku log jejak audit sistem.
+              </p>
+            </div>
           </div>
-          <div>
-            <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-rose-400 bg-rose-950/60 px-2.5 py-1 rounded-md border border-rose-800">
-              Akses Terbatas: ISO 9001 / ISO 27001
-            </span>
-            <h2 className="text-xl font-extrabold text-white mt-3">
-              Gerbang Administrator Utama
-            </h2>
-            <p className="text-xs text-slate-400 mt-1.5 leading-relaxed">
-              Halaman ini diperuntukkan secara eksklusif bagi Administrator Utama (<code className="text-amber-300 font-mono">aryaeki@admin</code>) untuk tata kelola dokumen, audit ISO, dan pengesahan naskah amandemen.
-            </p>
-          </div>
-          <div className="pt-2">
-            <Link
-              href="/masuk"
-              className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#94191C] hover:bg-[#861619] text-white font-bold text-xs transition-colors shadow-lg shadow-red-950/40"
+
+          {adminLoginError && (
+            <div className="p-3 rounded-xl bg-red-950/60 border border-red-800/80 text-rose-300 text-xs flex items-start gap-2">
+              <AlertTriangle className="w-4 h-4 shrink-0 text-rose-400 mt-0.5" />
+              <span>{adminLoginError}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleAdminLogin} className="space-y-4">
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                Username / Email Administrator
+              </label>
+              <input
+                type="text"
+                required
+                value={adminEmail}
+                onChange={(e) => setAdminEmail(e.target.value)}
+                placeholder="aryaeki@admin"
+                className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 font-mono"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-semibold text-slate-300 mb-1.5">
+                Kata Sandi
+              </label>
+              <div className="relative">
+                <input
+                  type={showAdminPassword ? 'text' : 'password'}
+                  required
+                  value={adminPassword}
+                  onChange={(e) => setAdminPassword(e.target.value)}
+                  placeholder="••••••••"
+                  className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 pr-10 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-amber-400 font-mono"
+                />
+                <button
+                  type="button"
+                  onClick={() => setShowAdminPassword(!showAdminPassword)}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white cursor-pointer"
+                >
+                  {showAdminPassword ? <X className="w-4 h-4" /> : <KeyRound className="w-4 h-4" />}
+                </button>
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              disabled={adminLoginBusy}
+              className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#94191C] hover:bg-[#861619] disabled:bg-slate-700 text-white font-bold text-xs transition-colors shadow-lg shadow-red-950/60 cursor-pointer"
             >
-              <KeyRound className="w-4 h-4" />
-              <span>Masuk sebagai Administrator Utama</span>
+              {adminLoginBusy ? (
+                <>
+                  <RefreshCw className="w-4 h-4 animate-spin" />
+                  <span>Memverifikasi Kredensial ISO…</span>
+                </>
+              ) : (
+                <>
+                  <ShieldCheck className="w-4 h-4 text-amber-300" />
+                  <span>Masuk ke Konsol Administrator</span>
+                </>
+              )}
+            </button>
+          </form>
+
+          <div className="pt-2 text-center border-t border-slate-800">
+            <Link
+              href="/"
+              className="text-xs text-slate-400 hover:text-white transition-colors inline-flex items-center gap-1.5"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>Kembali ke Beranda Publik</span>
             </Link>
           </div>
         </div>

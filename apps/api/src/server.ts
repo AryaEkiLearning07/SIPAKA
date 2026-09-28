@@ -20,8 +20,21 @@ export async function buildServer(): Promise<FastifyInstance> {
   });
 
   await server.register(cors, {
-    origin: process.env.CORS_ORIGIN ?? '*',
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    origin: (origin, cb) => {
+      // Izinkan request tanpa origin (seperti curl, mobile, backend-to-backend)
+      // atau origin lokal localhost / 127.0.0.1 dan custom CORS_ORIGIN
+      if (
+        !origin ||
+        origin.includes('localhost') ||
+        origin.includes('127.0.0.1') ||
+        origin === process.env.CORS_ORIGIN
+      ) {
+        cb(null, true);
+        return;
+      }
+      cb(null, false);
+    },
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     credentials: true,
   });
 

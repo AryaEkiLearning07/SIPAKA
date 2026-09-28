@@ -184,6 +184,16 @@ export default function MasukAuthCard({ user, onAuthSuccess, onLogout }: MasukAu
                   </div>
 
                   <div className="space-y-2">
+                    {user.role === 'ADMIN' && (
+                      <Link
+                        href="/admin"
+                        className="w-full inline-flex items-center justify-center gap-2 bg-gradient-to-r from-slate-900 via-red-950 to-slate-900 hover:from-black hover:to-red-900 text-amber-300 border border-amber-500/40 py-2.5 px-4 rounded-xl text-xs font-bold transition-all shadow-sm cursor-pointer"
+                      >
+                        <Scale className="w-4 h-4 text-amber-400" />
+                        <span>Buka Konsol Administrator ISO 9001/27001</span>
+                      </Link>
+                    )}
+
                     <Link
                       href="/uu/ite"
                       className="w-full inline-flex items-center justify-center gap-2 bg-[#94191C] hover:bg-[#861619] text-white py-2.5 px-4 rounded-xl text-xs font-bold transition-all shadow-sm cursor-pointer"
