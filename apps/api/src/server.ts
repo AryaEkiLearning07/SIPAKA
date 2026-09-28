@@ -6,6 +6,11 @@ import { registerInstrumentRoutes } from './routes/instruments';
 import { registerAnalysisRoutes } from './routes/analysis';
 import { registerMonitoringRoutes } from './routes/monitoring';
 import { registerOperationsRoute } from './routes/operations';
+import { registerSearchRoutes } from './routes/search';
+import { registerBookmarkRoutes } from './routes/bookmarks';
+import { registerNoteRoutes } from './routes/notes';
+import { registerAiRoutes } from './routes/ai';
+import { registerAdminRoutes } from './routes/admin';
 
 export async function buildServer(): Promise<FastifyInstance> {
   const server = Fastify({
@@ -27,6 +32,11 @@ export async function buildServer(): Promise<FastifyInstance> {
   registerAnalysisRoutes(server);
   registerMonitoringRoutes(server);
   registerOperationsRoute(server);
+  registerSearchRoutes(server);
+  registerBookmarkRoutes(server);
+  registerNoteRoutes(server);
+  registerAiRoutes(server);
+  registerAdminRoutes(server);
 
   return server;
 }

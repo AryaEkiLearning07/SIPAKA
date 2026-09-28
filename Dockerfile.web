@@ -1,0 +1,43 @@
+# Dockerfile untuk SIPAKA Web Frontend (Next.js)
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Pasang pnpm
+RUN npm install -g pnpm@10.5.2
+
+# Argumen build untuk env client
+ARG NEXT_PUBLIC_API_URL
+ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:4000}
+
+# Salin berkas konfigurasi monorepo
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json ./
+COPY packages/ ./packages/
+COPY apps/web/ ./apps/web/
+
+# Install seluruh dependensi
+RUN pnpm install --frozen-lockfile
+
+# Build dependensi workspace internal
+RUN pnpm --filter @lexvera/types build
+RUN pnpm --filter @lexvera/legal-engine build
+
+# Build Next.js
+RUN pnpm --filter @lexvera/web build
+
+# Runner Stage
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+ENV PORT=3000
+
+RUN npm install -g pnpm@10.5.2
+
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/packages ./packages
+COPY --from=builder /app/apps/web ./apps/web
+
+EXPOSE 3000
+
+CMD ["node", "apps/web/node_modules/next/dist/bin/next", "start", "apps/web", "--port", "3000"]

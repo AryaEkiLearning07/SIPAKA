@@ -3,15 +3,21 @@
 import React from 'react';
 import Link from 'next/link';
 import { Lock } from 'lucide-react';
-import { InspectorState } from '../../reader-types';
+import { InspectorState, OpsRow } from '../../reader-types';
 import AiAnalysisModal from './AiAnalysisModal';
+import SplitDiffModal from './SplitDiffModal';
 
 interface ReaderModalsProps {
   showLoginPrompt: boolean;
   setShowLoginPrompt: (v: boolean) => void;
   showAiModal: boolean;
   setShowAiModal: (v: boolean) => void;
+  showSplitDiffModal: boolean;
+  setShowSplitDiffModal: (v: boolean) => void;
   inspectorNode: InspectorState | null;
+  operations: OpsRow[];
+  copiedCitation: boolean;
+  salinSitasi: (node: { label: string }) => void;
   currentUser: { name: string; role: string } | null;
 }
 
@@ -22,7 +28,7 @@ export default function ReaderModals(p: ReaderModalsProps) {
       {p.showLoginPrompt && (
         <div className="fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center p-4">
           <div className="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border border-slate-200 animate-in zoom-in-95 duration-150">
-            <div className="w-12 h-12 rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 mb-4">
+            <div className="w-12 h-12 rounded-2xl bg-red-50 border border-red-100 flex items-center justify-center text-[#94191C] mb-4">
               <Lock className="w-6 h-6" />
             </div>
             <h3 className="font-sans font-bold text-lg text-slate-900">
@@ -38,9 +44,9 @@ export default function ReaderModals(p: ReaderModalsProps) {
             <div className="mt-6 flex items-center gap-3">
               <Link
                 href="/masuk"
-                className="flex-1 py-2.5 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs text-center transition-colors shadow-xs"
+                className="flex-1 py-2.5 px-4 rounded-xl bg-[#94191C] hover:bg-[#861619] text-white font-semibold text-xs text-center transition-colors shadow-xs"
               >
-                Masuk Akun Demo (1-Klik) →
+                Masuk / Buat Akun →
               </Link>
               <button
                 onClick={() => p.setShowLoginPrompt(false)}
@@ -53,6 +59,17 @@ export default function ReaderModals(p: ReaderModalsProps) {
         </div>
       )}
 
+      {/* Modal Komparasi Berdampingan Split-Screen (Sebelum vs Sesudah) */}
+      {p.showSplitDiffModal && p.inspectorNode && (
+        <SplitDiffModal
+          node={p.inspectorNode}
+          operations={p.operations}
+          copiedCitation={p.copiedCitation}
+          salinSitasi={p.salinSitasi}
+          onClose={() => p.setShowSplitDiffModal(false)}
+        />
+      )}
+
       {/* Modal: Hasil Analisis Delik AI (Jika Sudah Login) */}
       {p.showAiModal && p.inspectorNode && (
         <AiAnalysisModal
@@ -61,7 +78,6 @@ export default function ReaderModals(p: ReaderModalsProps) {
           onClose={() => p.setShowAiModal(false)}
         />
       )}
-
     </>
   );
 }

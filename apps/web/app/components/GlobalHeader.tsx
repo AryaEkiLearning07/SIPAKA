@@ -22,6 +22,50 @@ const NAV_ITEMS: NavItem[] = [
 export default function GlobalHeader() {
   const pathname = usePathname();
   const [currentUser, setCurrentUser] = useState<{ id: string; name: string; email: string; role: string } | null>(null);
+  const [isVisible, setIsVisible] = useState(true);
+
+  // Reset visibilitas header saat rute halaman berganti
+  useEffect(() => {
+    setIsVisible(true);
+  }, [pathname]);
+
+  // Smart Auto-Hiding / Revealing Sticky Scroll Handler
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    const updateHeaderState = () => {
+      const currentScrollY = window.scrollY;
+
+      // Jika masih berada di area atas (< 40px), selalu tampilkan header
+      if (currentScrollY <= 40) {
+        setIsVisible(true);
+      } else {
+        const delta = currentScrollY - lastScrollY;
+        // Scroll ke bawah (delta > 8px): sembunyikan / meluncur ke atas
+        if (delta > 8 && currentScrollY > 80) {
+          setIsVisible(false);
+        }
+        // Scroll ke atas / balik arah (delta < -8px): tampilkan kembali
+        else if (delta < -8) {
+          setIsVisible(true);
+        }
+      }
+
+      lastScrollY = currentScrollY;
+      ticking = false;
+    };
+
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateHeaderState);
+        ticking = true;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     (async () => {
@@ -58,7 +102,11 @@ export default function GlobalHeader() {
   }
 
   return (
-    <header className="w-full shrink-0 select-none z-50 sticky top-0 shadow-md">
+    <header
+      className={`w-full shrink-0 select-none z-50 sticky top-0 transition-transform duration-300 ease-in-out ${
+        isVisible ? 'translate-y-0 shadow-md' : '-translate-y-full pointer-events-none shadow-none'
+      }`}
+    >
       {/* ── Top Notice Bar (Palet Sesuai Desain Resmi: #861619 & Pill #6A2225) ── */}
       <div className="bg-[#861619] text-white text-xs py-1.5 px-4 sm:px-6 border-b border-[#6A2225]">
         <div className="max-w-6xl mx-auto flex items-center justify-between">

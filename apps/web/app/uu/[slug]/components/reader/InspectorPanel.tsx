@@ -3,10 +3,11 @@
 import React from 'react';
 import Link from 'next/link';
 import {
-  Scale, X, FileText, ExternalLink, ArrowRight, Printer
+  Scale, X, FileText, ExternalLink, ArrowRight, Printer, Columns2,
+  Bookmark, BookmarkCheck, MessageSquare
 } from 'lucide-react';
 import { ProvisionNode } from '@lexvera/types';
-import { InspectorState, InspectorTab, OpsRow } from '../../reader-types';
+import { InspectorState, InspectorTab, OpsRow, InstrumentRelationsData, API_BASE } from '../../reader-types';
 import InspectorTabs from './InspectorTabs';
 
 interface InspectorPanelProps {
@@ -18,11 +19,13 @@ interface InspectorPanelProps {
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
   scrollToNode: (path: string) => void;
   operations: OpsRow[];
+  relations?: InstrumentRelationsData | null;
   copiedCitation: boolean;
   salinSitasi: (node: { label: string }) => void;
   currentUser: { name: string; role: string } | null;
   setShowLoginPrompt: (v: boolean) => void;
   setShowAiModal: (v: boolean) => void;
+  setShowSplitDiffModal: (v: boolean) => void;
 }
 
 /** Kartu tindakan hukum atas node (taksonomi UU 12/2011). */
@@ -54,6 +57,60 @@ export default function InspectorPanel(p: InspectorPanelProps) {
   const ops = node.ops ?? [];
   const opUtama = ops[0];
   const amenderSlug = opUtama?.amenderSlug ?? null;
+
+  const [isBookmarked, setIsBookmarked] = React.useState<boolean>(false);
+  const [bookmarkLoading, setBookmarkLoading] = React.useState<boolean>(false);
+
+  // Cek status bookmark saat node berganti
+  React.useEffect(() => {
+    let cancelled = false;
+    if (!p.currentUser || !node.canonicalPath) {
+      setIsBookmarked(false);
+      return;
+    }
+    (async () => {
+      try {
+        const res = await fetch(`${API_BASE}/api/v1/bookmarks?canonicalPath=${encodeURIComponent(node.canonicalPath)}`, {
+          credentials: 'include',
+        });
+        if (res.ok && !cancelled) {
+          const json = await res.json();
+          setIsBookmarked(Array.isArray(json?.data) && json.data.length > 0);
+        }
+      } catch {
+        // Abaikan
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [node.canonicalPath, p.currentUser]);
+
+  const handleToggleBookmark = async () => {
+    if (!p.currentUser) {
+      p.setShowLoginPrompt(true);
+      return;
+    }
+    setBookmarkLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/bookmarks`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({
+          canonicalPath: node.canonicalPath,
+          label: node.label,
+          instrumentSlug: node.canonicalPath.split('/')[0] || 'general',
+        }),
+      });
+      if (res.ok) {
+        const json = await res.json();
+        setIsBookmarked(json.action === 'CREATED');
+      }
+    } catch {
+      // Abaikan
+    } finally {
+      setBookmarkLoading(false);
+    }
+  };
 
   return (
     <aside className="w-84 lg:w-96 bg-white border-l border-slate-200/80 flex flex-col shrink-0 z-10 overflow-hidden shadow-xl animate-in slide-in-from-right duration-200">
@@ -93,17 +150,43 @@ export default function InspectorPanel(p: InspectorPanelProps) {
           {/* 1. Tindakan hukum */}
           <KartuTindakan ops={ops} />
 
-          {/* Label Nama Pasal Aktif */}
-          <div className="pt-1 flex items-baseline justify-between gap-2">
-            <h3 className="font-sans font-extrabold text-lg text-slate-900 leading-snug">
-              {node.label}
-              {node.parentLabel && (
-                <span className="text-slate-400 text-xs font-normal ml-2">({node.parentLabel})</span>
+          {/* Label Nama Pasal Aktif & Tombol Bookmark */}
+          <div className="pt-1 flex items-start justify-between gap-2">
+            <div>
+              <h3 className="font-sans font-extrabold text-lg text-slate-900 leading-snug">
+                {node.label}
+                {node.parentLabel && (
+                  <span className="text-slate-400 text-xs font-normal ml-2">({node.parentLabel})</span>
+                )}
+              </h3>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200 mt-1 inline-block">
+                {node.canonicalPath}
+              </span>
+            </div>
+
+            {/* Tombol Simpan Markah Buku (Bookmark) */}
+            <button
+              onClick={handleToggleBookmark}
+              disabled={bookmarkLoading}
+              title={isBookmarked ? 'Hapus dari Markah Buku' : 'Simpan ke Markah Buku Pribadi'}
+              className={`p-2 rounded-xl border transition-all cursor-pointer flex items-center gap-1 shrink-0 ${
+                isBookmarked
+                  ? 'bg-amber-50 border-amber-300 text-amber-800 shadow-2xs'
+                  : 'bg-white border-slate-200 hover:border-slate-300 text-slate-500 hover:text-slate-900'
+              }`}
+            >
+              {isBookmarked ? (
+                <>
+                  <BookmarkCheck className="w-4 h-4 text-amber-600 fill-amber-500" />
+                  <span className="text-[11px] font-bold text-amber-900 pr-1">Tersimpan</span>
+                </>
+              ) : (
+                <>
+                  <Bookmark className="w-4 h-4 text-slate-400" />
+                  <span className="text-[11px] font-semibold text-slate-600 pr-1">Markah</span>
+                </>
               )}
-            </h3>
-            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-700 border border-slate-200">
-              {node.canonicalPath}
-            </span>
+            </button>
           </div>
 
           {/* 2. Kartu Aturan Pengubah — seluruh data dari operasi database */}
@@ -126,7 +209,7 @@ export default function InspectorPanel(p: InspectorPanelProps) {
                 <p className="text-[11px] text-slate-600 mt-0.5">{opUtama.changeSetTitle}</p>
               </div>
 
-              <div className="space-y-1 pt-1.5 border-t border-slate-200/70 text-[11px]">
+              <div className="space-y-1.5 pt-2 border-t border-slate-200/70 text-[11px]">
                 <div className="flex items-start gap-1.5 text-slate-600">
                   <span className="text-slate-400 shrink-0 min-w-[75px]">Dasar Klausul:</span>
                   <span className="text-slate-900 font-semibold">{opUtama.sourceReference}</span>
@@ -137,11 +220,20 @@ export default function InspectorPanel(p: InspectorPanelProps) {
                     {new Date(opUtama.effectiveFrom).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
                   </span>
                 </div>
-                {amenderSlug && (
+                {(opUtama.amenderLnNumber || opUtama.amenderTlnNumber) && (
                   <div className="flex items-start gap-1.5 text-slate-600">
-                    <span className="text-slate-400 shrink-0 min-w-[75px]">Publikasi:</span>
-                    <span className="text-slate-800 font-mono text-[10px] leading-tight">
-                      Lihat naskah lengkap pengubah di platform (/{amenderSlug})
+                    <span className="text-slate-400 shrink-0 min-w-[75px]">Lembaran Negara:</span>
+                    <span className="text-slate-900 font-mono text-[10.5px]">
+                      {opUtama.amenderLnNumber ? `LN Tahun ${opUtama.amenderYear ?? ''} No. ${opUtama.amenderLnNumber}` : ''}
+                      {opUtama.amenderTlnNumber ? `, TLN No. ${opUtama.amenderTlnNumber}` : ''}
+                    </span>
+                  </div>
+                )}
+                {opUtama.amenderPromulgatedAt && (
+                  <div className="flex items-start gap-1.5 text-slate-600">
+                    <span className="text-slate-400 shrink-0 min-w-[75px]">Diundangkan:</span>
+                    <span className="text-slate-700">
+                      {new Date(opUtama.amenderPromulgatedAt).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}
                     </span>
                   </div>
                 )}
@@ -163,40 +255,60 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             </div>
           )}
 
+          {/* Tombol Komparasi Berdampingan Split-Screen */}
+          <button
+            onClick={() => p.setShowSplitDiffModal(true)}
+            className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-[#94191C] to-[#7c1417] hover:from-[#851619] hover:to-[#6d1215] text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-sm hover:shadow cursor-pointer"
+          >
+            <Columns2 className="w-4 h-4" />
+            <span>Buka Komparasi Berdampingan (Split-Screen)</span>
+          </button>
+
           {/* 3. TAB SWITCHER */}
           <div className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-medium">
             <button
               onClick={() => p.setInspectorTab('diff')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all cursor-pointer ${
+              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer ${
                 p.inspectorTab === 'diff'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              Komparasi Teks
+              Komparasi
             </button>
             <button
               onClick={() => p.setInspectorTab('affected_list')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
                 p.inspectorTab === 'affected_list'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
-              <span>Pasal Terdampak</span>
-              <span className="w-4 h-4 rounded-full bg-red-100 text-[#94191C] text-[10px] flex items-center justify-center font-bold">
+              <span>Perubahan</span>
+              <span className="w-3.5 h-3.5 rounded-full bg-red-100 text-[#94191C] text-[9.5px] flex items-center justify-center font-bold">
                 {p.operations.length}
               </span>
             </button>
             <button
               onClick={() => p.setInspectorTab('relasi')}
-              className={`flex-1 py-1.5 px-2 rounded-lg text-center transition-all cursor-pointer ${
+              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer ${
                 p.inspectorTab === 'relasi'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               Relasi
+            </button>
+            <button
+              onClick={() => p.setInspectorTab('catatan')}
+              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+                p.inspectorTab === 'catatan'
+                  ? 'bg-white text-[#94191C] font-bold shadow-2xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <MessageSquare className="w-3 h-3" />
+              <span>Catatan</span>
             </button>
           </div>
 
@@ -214,11 +326,13 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             handleOpenInspector={p.handleOpenInspector}
             scrollToNode={p.scrollToNode}
             operations={p.operations}
+            relations={p.relations}
             copiedCitation={p.copiedCitation}
             salinSitasi={p.salinSitasi}
             currentUser={p.currentUser}
             setShowLoginPrompt={p.setShowLoginPrompt}
             setShowAiModal={p.setShowAiModal}
+            setShowSplitDiffModal={p.setShowSplitDiffModal}
           />
         </div>
       </div>

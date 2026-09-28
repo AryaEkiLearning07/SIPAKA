@@ -11,6 +11,8 @@ interface NaskahPasalProps {
   showAnnotations: boolean;
   activeNodePath: string;
   operations: OpsRow[];
+  selectedTimeline: string | null;
+  baseYear?: number;
   provisionVersions: Record<string, 'CURRENT' | 'PREVIOUS'>;
   setProvisionVersions: React.Dispatch<React.SetStateAction<Record<string, 'CURRENT' | 'PREVIOUS'>>>;
   fontSize: 'sm' | 'base' | 'lg' | 'xl';
@@ -18,12 +20,21 @@ interface NaskahPasalProps {
   handleOpenInspector: (node: ProvisionNode, parentLabel?: string) => void;
 }
 
-function opsUntuk(ops: OpsRow[] | undefined, path: string): OpsRow[] {
-  return (ops ?? []).filter(
-    (o) => o.targetCanonicalPath === path || o.targetCanonicalPath.startsWith(path + '/')
-  );
-}
+/**
+ * Filter operasi yang HANYA terjadi pada peristiwa regulasi yang sedang aktif dipilih.
+ * Jika pengguna membuka naskah pokok awal (baseYear), tidak ada badge amandemen yang ditampilkan.
+ */
+function opsUntuk(ops: OpsRow[] | undefined, path: string, selectedTimeline: string | null, baseYear?: number): OpsRow[] {
+  if (!ops || !selectedTimeline) return [];
+  if (baseYear && String(baseYear) === selectedTimeline) return [];
 
+  return ops.filter((o) => {
+    const matchesPath = o.targetCanonicalPath === path || o.targetCanonicalPath.startsWith(path + '/');
+    if (!matchesPath) return false;
+    const opYear = o.amenderYear ? String(o.amenderYear) : String(new Date(o.effectiveFrom).getUTCFullYear());
+    return opYear === selectedTimeline;
+  });
+}
 
 /** Ambil nama hukum pengubah dari daftar operasi pasal ini. */
 function hukumPengubah(ops: OpsRow[]): string | null {
@@ -54,26 +65,37 @@ export default function NaskahPasal(p: NaskahPasalProps) {
 
           {/* Pasal-Pasal */}
           {chapter.children?.map((pasal) => {
-            const pasalOps = opsUntuk(p.operations, pasal.canonicalPath);
+            const pasalOps = opsUntuk(p.operations, pasal.canonicalPath, p.selectedTimeline, p.baseYear);
             const isNewInsert = pasalOps.some((o) => o.operationType === 'ADD_PROVISION');
             const isAmended = pasalOps.some((o) => o.operationType === 'REPLACE_PROVISION' || o.operationType === 'PARTIAL_REPEAL');
             const isRepealed = pasal.isRepealed || pasalOps.some((o) => o.operationType === 'REPEAL_PROVISION');
             const hasMk = false; // anotasi putusan MK: data belum ada (belum terdigitasi)
+            const hasAnyMutation = isNewInsert || isAmended || isRepealed;
             const isSelected = p.activeNodePath === pasal.canonicalPath || p.activeNodePath.startsWith(pasal.canonicalPath + '/');
 
-            const borderClass = !p.showAnnotations
+            // Penanda visual: Hanya disematkan jika pasal tersebut memiliki riwayat perubahan/amandemen
+            const borderClass = !p.showAnnotations || !hasAnyMutation
               ? 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent'
               : isRepealed
-              ? 'border-l-4 border-rose-500 bg-rose-50/50 pl-3 sm:pl-4 pr-2 py-3 rounded-r-xl shadow-xs'
-              : isNewInsert
-                ? 'border-l-4 border-emerald-500 bg-emerald-50/50 pl-3 sm:pl-4 pr-2 py-3 rounded-r-xl shadow-xs'
-                : isAmended
-                  ? 'border-l-4 border-amber-400 bg-amber-50/50 pl-3 sm:pl-4 pr-2 py-3 rounded-r-xl shadow-xs'
-                  : 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent';
+                ? (isSelected
+                    ? 'border-l-4 border-rose-500 bg-rose-50/50 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl'
+                    : 'border-l-4 border-rose-400 bg-rose-50/30 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl')
+                : isNewInsert
+                  ? (isSelected
+                      ? 'border-l-4 border-emerald-600 bg-emerald-50/60 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl'
+                      : 'border-l-4 border-emerald-400 bg-emerald-50/30 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl')
+                  : isAmended
+                    ? (isSelected
+                        ? 'border-l-4 border-amber-500 bg-amber-50/60 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl'
+                        : 'border-l-4 border-amber-400 bg-amber-50/30 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl')
+                    : 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent';
 
+            // Efek seleksi: Untuk pasal tanpa perubahan, TIDAK PERLU kotak/ring merah sama sekali
             const activeClass = isSelected
-              ? 'ring-2 ring-[#94191C] bg-red-50/70 rounded-xl shadow-xs'
-              : 'hover:bg-slate-50/70';
+              ? (hasAnyMutation
+                  ? 'shadow-xs'
+                  : 'bg-slate-50/60 rounded-xl')
+              : 'hover:bg-slate-50/40';
 
             return (
               <div
@@ -123,7 +145,7 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                         key={ayat.canonicalPath}
                         ayat={ayat}
                         pasalLabel={pasal.label}
-                        ops={opsUntuk(p.operations, ayat.canonicalPath)}
+                        ops={opsUntuk(p.operations, ayat.canonicalPath, p.selectedTimeline, p.baseYear)}
                         showAnnotations={p.showAnnotations}
                         activeNodePath={p.activeNodePath}
                         provisionVersions={p.provisionVersions}
@@ -137,7 +159,7 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                 ) : (
                   <PasalParagraf
                     pasal={pasal}
-                    ops={opsUntuk(p.operations, pasal.canonicalPath)}
+                    ops={opsUntuk(p.operations, pasal.canonicalPath, p.selectedTimeline, p.baseYear)}
                     activeNodePath={p.activeNodePath}
                     provisionVersions={p.provisionVersions}
                     setProvisionVersions={p.setProvisionVersions}

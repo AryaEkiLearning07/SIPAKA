@@ -14,7 +14,7 @@ import pymysql
 
 DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db")
 RE_RUJUK = re.compile(
-    r"UU(?:\s+Nomor|\s+No\.?|\s*nomor)\s*(\d{1,4})\s+Tahun\s+(\d{4})", re.IGNORECASE
+    r"(?:Undang-Undang|UU)\s+(?:Nomor|No\.?)\s*(\d{1,4})\s+Tahun\s+(\d{4})", re.IGNORECASE
 )
 
 

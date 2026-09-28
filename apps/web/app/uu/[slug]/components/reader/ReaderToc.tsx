@@ -78,7 +78,7 @@ export default function ReaderToc(p: ReaderTocProps) {
       <div className="p-3.5 border-b border-slate-200/70 font-semibold text-xs text-slate-500 uppercase tracking-wider flex items-center justify-between bg-white/50">
         <span>Daftar Isi Norma</span>
         <span className="text-[11px] font-mono bg-slate-200/70 text-slate-700 px-2 py-0.5 rounded-md font-semibold">
-          {p.pasalCount} Pasal
+          {p.pasalCount > 0 ? `${p.pasalCount} Pasal` : 'Amandemen'}
         </span>
       </div>
 
@@ -91,7 +91,7 @@ export default function ReaderToc(p: ReaderTocProps) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Cari pasal atau kata kunci…"
-            className="w-full pl-9 pr-7 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 text-slate-800 placeholder:text-slate-400 transition-all shadow-2xs"
+            className="w-full pl-9 pr-7 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:border-[#94191C] focus:ring-2 focus:ring-red-100 text-slate-800 placeholder:text-slate-400 transition-all shadow-2xs"
           />
           {searchQuery && (
             <button
@@ -115,7 +115,7 @@ export default function ReaderToc(p: ReaderTocProps) {
             }}
             className="w-full text-left px-3 py-2 text-xs font-bold text-slate-700 hover:bg-slate-100 transition-colors flex items-center gap-2"
           >
-            <FileText className="w-3.5 h-3.5 text-indigo-600" />
+            <FileText className="w-3.5 h-3.5 text-[#94191C]" />
             <span>Pendahuluan (Konsiderans)</span>
           </button>
         </div>
@@ -134,11 +134,11 @@ export default function ReaderToc(p: ReaderTocProps) {
               <button
                 onClick={() => toggleExpand(bab.canonicalPath)}
                 className={`w-full text-left px-3 py-2.5 flex items-start gap-2.5 transition-colors cursor-pointer ${
-                  babOpen ? 'bg-indigo-50/50 text-indigo-950' : 'hover:bg-slate-100/70 text-slate-800'
+                  babOpen ? 'bg-red-50/60 text-slate-950 border-l-2 border-[#94191C]' : 'hover:bg-slate-100/70 text-slate-800'
                 }`}
               >
                 <span className="mt-0.5 shrink-0 text-slate-400">
-                  {babOpen ? <ChevronDown className="w-3.5 h-3.5 text-indigo-600" /> : <ChevronRight className="w-3.5 h-3.5" />}
+                  {babOpen ? <ChevronDown className="w-3.5 h-3.5 text-[#94191C]" /> : <ChevronRight className="w-3.5 h-3.5" />}
                 </span>
                 <span className="min-w-0">
                   <span className="block font-sans text-xs font-bold text-slate-900 tracking-tight">
@@ -166,11 +166,11 @@ export default function ReaderToc(p: ReaderTocProps) {
                         <div key={pasal.canonicalPath} className="relative">
                           <div
                             className={`group flex items-center pl-5 pr-2 py-0.5 transition-all ${
-                              isActive ? 'bg-indigo-50/90 text-indigo-900 font-semibold' : 'hover:bg-slate-100/70'
+                              isActive ? 'bg-red-50/90 text-[#94191C] font-semibold' : 'hover:bg-slate-100/70'
                             }`}
                           >
                             {isActive && (
-                              <span className="absolute left-0 top-0 bottom-0 w-1 bg-indigo-600 rounded-r-sm" />
+                              <span className="absolute left-0 top-0 bottom-0 w-1 bg-[#94191C] rounded-r-sm" />
                             )}
                             <button
                               onClick={() => {
@@ -180,7 +180,7 @@ export default function ReaderToc(p: ReaderTocProps) {
                                   setExpanded((prev) => new Set(prev).add(pasal.canonicalPath));
                                 }
                               }}
-                              className="flex-1 text-left py-1 text-xs text-slate-700 hover:text-indigo-600 transition-colors cursor-pointer flex items-center gap-1.5 min-w-0"
+                              className="flex-1 text-left py-1 text-xs text-slate-700 hover:text-[#94191C] transition-colors cursor-pointer flex items-center gap-1.5 min-w-0"
                             >
                               <span className="truncate">{pasal.label}</span>
                               {pasal.isRepealed ? (
@@ -192,10 +192,10 @@ export default function ReaderToc(p: ReaderTocProps) {
                             {hasAyat && (
                               <button
                                 onClick={() => toggleExpand(pasal.canonicalPath)}
-                                className="p-1 text-slate-400 hover:text-indigo-600 transition-colors cursor-pointer shrink-0"
+                                className="p-1 text-slate-400 hover:text-[#94191C] transition-colors cursor-pointer shrink-0"
                                 aria-label={pOpen ? 'Tutup' : 'Buka ayat'}
                               >
-                                {pOpen ? <ChevronDown className="w-3 h-3 text-indigo-600" /> : <ChevronRight className="w-3 h-3" />}
+                                {pOpen ? <ChevronDown className="w-3 h-3 text-[#94191C]" /> : <ChevronRight className="w-3 h-3" />}
                               </button>
                             )}
                           </div>
@@ -208,7 +208,7 @@ export default function ReaderToc(p: ReaderTocProps) {
                                 <div key={ayat.canonicalPath} className="relative">
                                   <div
                                     className={`group flex items-center pl-8 pr-2 py-0.5 transition-colors ${
-                                      isAyatActive ? 'bg-indigo-50/80 font-semibold' : 'hover:bg-slate-100/60'
+                                      isAyatActive ? 'bg-red-50/80 font-semibold text-[#94191C]' : 'hover:bg-slate-100/60'
                                     }`}
                                   >
                                     <button
@@ -216,7 +216,7 @@ export default function ReaderToc(p: ReaderTocProps) {
                                         p.setActiveNodePath(ayat.canonicalPath);
                                         p.scrollToNode(ayat.canonicalPath);
                                       }}
-                                      className="flex-1 text-left py-1 text-[11px] text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer truncate"
+                                      className="flex-1 text-left py-1 text-[11px] text-slate-600 hover:text-[#94191C] transition-colors cursor-pointer truncate"
                                     >
                                       <span className="font-semibold text-slate-700">{ayat.label}</span>
                                       <span className="text-slate-400"> · {ayat.content.slice(0, 32)}…</span>

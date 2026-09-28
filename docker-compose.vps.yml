@@ -1,0 +1,75 @@
+# Docker Compose untuk Deployment VPS / Uji Coba Staging SIPAKA
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: siapaka-mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}
+      MYSQL_DATABASE: lexvera_db
+    ports:
+      - "127.0.0.1:3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: siapaka-api
+    restart: always
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: "mysql://root:${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}@mariadb:3306/lexvera_db"
+      PORT: 4000
+      HOST: 0.0.0.0
+      CORS_ORIGIN: ${CORS_ORIGIN:-*}
+      NODE_ENV: production
+      DEMO_FALLBACK: "false"
+    ports:
+      - "127.0.0.1:4000:4000"
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.web
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4000}
+    container_name: siapaka-web
+    restart: always
+    depends_on:
+      - api
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+    ports:
+      - "127.0.0.1:3000:3000"
+
+  # Backup Otomatis Database MariaDB setiap 12 Jam
+  db-backup:
+    image: mariadb:10.11
+    container_name: siapaka-backup
+    restart: always
+    depends_on:
+      mariadb:
+        condition: service_healthy
+    environment:
+      MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}
+    volumes:
+      - ./backups:/backups
+    entrypoint: >
+      sh -c "while true; do
+        mysqldump -h mariadb -u root lexvera_db | gzip > /backups/lexvera_db_$$(date +%Y%m%d_%H%M).sql.gz;
+        find /backups -name '*.sql.gz' -mtime +14 -delete;
+        sleep 43200;
+      done"
+
+volumes:
+  mariadb_data:

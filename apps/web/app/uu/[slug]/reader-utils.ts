@@ -22,6 +22,26 @@ export function cleanLegalText(text: string): string {
     .trim();
 }
 
+const ROMAN_NUM = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+/** Label tombol timeline berbasis peristiwa regulasi resmi. */
+export function eventTimelineLabel(meta: InstrumentMeta | null, year: string, index: number): string {
+  if (!meta) return year;
+  if (String(meta.year) === year || index === 0) {
+    return `Naskah Awal (${year})`;
+  }
+  const amend = meta.amendments?.[index - 1];
+  const roman = ROMAN_NUM[index - 1] ?? String(index);
+  if (amend?.amendingInstrument) {
+    const cleanAmender = amend.amendingInstrument
+      .replace(/^Undang-Undang\s+(?:Republik\s+Indonesia\s+)?/i, 'UU ')
+      .replace(/Nomor/i, 'No.')
+      .replace(/Tahun\s+/i, '');
+    return `Perubahan ${roman} (${cleanAmender})`;
+  }
+  return `Perubahan ${roman} (${year})`;
+}
+
 /** Judul timeline untuk satu titik waktu ("Naskah Asli", "Konsolidasi Pasca ..."). */
 export function timelineTitle(meta: InstrumentMeta | null, year: string): string {
   if (!meta) return '';

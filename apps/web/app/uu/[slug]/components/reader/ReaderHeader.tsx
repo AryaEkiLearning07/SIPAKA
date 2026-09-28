@@ -3,10 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 import {
-  ArrowLeft, Network, Cpu
+  ArrowLeft, Network, Cpu, Download
 } from 'lucide-react';
 import { InstrumentMeta } from '../../reader-types';
-import { timelineTitle } from '../../reader-utils';
+import { timelineTitle, eventTimelineLabel } from '../../reader-utils';
 
 interface ReaderHeaderProps {
   meta: InstrumentMeta | null;
@@ -49,27 +49,34 @@ export default function ReaderHeader(p: ReaderHeaderProps) {
             <span className="font-medium text-slate-600">
               {p.selectedTimeline ? timelineTitle(p.meta, p.selectedTimeline) : 'Menghubungkan ke API…'}
             </span>
+            {p.meta?.amendments && p.meta.amendments.length > 0 && (
+              <span className="hidden xl:inline text-[11px] font-mono font-medium text-slate-400 border-l border-slate-200 pl-2">
+                Telah diubah {p.meta.amendments.length} kali
+              </span>
+            )}
           </p>
         </div>
       </div>
 
-      {/* Timeline Switcher Titik Waktu */}
+      {/* Timeline Switcher Titik Waktu Berbasis Peristiwa Regulasi */}
       {!p.showRiwayat && !p.isCompareMode && (
         <div className="hidden md:flex items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200/80 text-xs font-medium">
-          <span className="text-slate-500 px-2.5 text-[11px] font-semibold tracking-wide uppercase">Titik Waktu:</span>
-          {p.years.map((year) => {
+          <span className="text-slate-500 px-2 text-[10px] font-mono font-bold tracking-wider uppercase">Titik Perubahan:</span>
+          {p.years.map((year, idx) => {
             const isSelected = p.selectedTimeline === year;
+            const btnLabel = eventTimelineLabel(p.meta, year, idx);
             return (
               <button
                 key={year}
                 onClick={() => p.setSelectedTimeline(year)}
-                className={`px-3 py-1.5 rounded-lg text-xs transition-all cursor-pointer ${
+                className={`px-3 py-1.5 rounded-lg text-xs transition-all cursor-pointer whitespace-nowrap ${
                   isSelected
-                    ? 'bg-indigo-600 text-white shadow-xs font-semibold'
+                    ? 'bg-[#94191C] text-white shadow-xs font-semibold'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
                 }`}
+                title={`Beralih ke naskah hukum positif ${btnLabel}`}
               >
-                {String(p.meta?.year) === year ? `${year} (Pokok)` : year}
+                {btnLabel}
               </button>
             );
           })}
@@ -123,6 +130,19 @@ export default function ReaderHeader(p: ReaderHeaderProps) {
           </button>
         </div>
 
+        {p.meta?.pdfUrl && (
+          <a
+            href={p.meta.pdfUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-red-200 bg-red-50/70 hover:bg-red-100 text-[#94191C] text-xs font-bold transition-all shadow-2xs cursor-pointer"
+            title="Unduh berkas PDF resmi Lembaran Negara RI (sumber JDIH BPK)"
+          >
+            <Download className="w-3.5 h-3.5 text-[#94191C]" />
+            <span className="hidden xl:inline">Unduh PDF LNRI</span>
+          </a>
+        )}
+
         <Link
           href="/pipeline"
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold transition-all shadow-2xs"
@@ -136,14 +156,14 @@ export default function ReaderHeader(p: ReaderHeaderProps) {
           href={`/neuron?id=${p.slug}`}
           className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 text-white hover:bg-slate-800 border border-slate-800 text-xs font-semibold transition-all shadow-xs"
         >
-          <Network className="w-3.5 h-3.5 text-indigo-400" />
+          <Network className="w-3.5 h-3.5 text-amber-400" />
           <span className="hidden sm:inline">Peta Silsilah</span>
         </Link>
 
         {p.currentUser ? (
           <Link
             href="/masuk"
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-50 text-indigo-900 font-semibold text-xs border border-indigo-200/80 hover:bg-indigo-100 transition-colors shadow-2xs"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-50 text-[#94191C] font-semibold text-xs border border-red-200 hover:bg-red-100 transition-colors shadow-2xs"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-500 ring-2 ring-emerald-200" />
             <span className="max-w-[100px] truncate">{p.currentUser.name}</span>

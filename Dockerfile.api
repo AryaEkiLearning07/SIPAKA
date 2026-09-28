@@ -1,0 +1,42 @@
+# Dockerfile untuk SIPAKA Legal API (Fastify)
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Pasang pnpm
+RUN npm install -g pnpm@10.5.2
+
+# Salin berkas konfigurasi monorepo
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json ./
+COPY packages/ ./packages/
+COPY apps/api/ ./apps/api/
+
+# Install seluruh dependensi
+RUN pnpm install --frozen-lockfile
+
+# Generate Prisma Client
+RUN pnpm --filter @lexvera/database db:generate
+
+# Build paket inti & API
+RUN pnpm --filter @lexvera/types build
+RUN pnpm --filter @lexvera/legal-engine build
+RUN pnpm --filter @lexvera/database build
+RUN pnpm --filter @lexvera/api build
+
+# Runner Stage
+FROM node:20-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+ENV PORT=4000
+ENV HOST=0.0.0.0
+
+RUN npm install -g pnpm@10.5.2
+
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/packages ./packages
+COPY --from=builder /app/apps/api ./apps/api
+
+EXPOSE 4000
+
+CMD ["node", "apps/api/dist/index.js"]

@@ -80,9 +80,9 @@ export function AyatRow({
       id={`node-${ayat.canonicalPath}`}
       onClick={() => handleOpenInspector(ayat, pasalLabel)}
       className={`flex items-start gap-3 py-2 px-2.5 rounded-lg transition-colors cursor-pointer group ${ayatColorStyle} ${
-        isAyatActive
-          ? 'bg-red-50/90 text-slate-900 ring-2 ring-[#94191C]/80 font-medium shadow-2xs'
-          : 'hover:bg-slate-100/70'
+        isAyatActive && hasAyatAmendment
+          ? 'bg-amber-50/80 font-medium'
+          : 'hover:bg-slate-50/70'
       }`}
     >
       <span className="font-mono font-bold text-slate-600 shrink-0 min-w-[36px] sm:min-w-[42px] text-right text-xs pt-1 select-none">
@@ -164,9 +164,9 @@ export function PasalParagraf({
     <div
       onClick={() => handleOpenInspector(pasal)}
       className={`flex items-start gap-3 py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
-        activeNodePath === pasal.canonicalPath
-          ? 'bg-red-50/90 text-slate-900 ring-2 ring-[#94191C]/80 font-medium shadow-2xs'
-          : 'hover:bg-slate-100/70'
+        activeNodePath === pasal.canonicalPath && hasPasalAmendment
+          ? 'bg-amber-50/80 font-medium'
+          : 'hover:bg-slate-50/70'
       }`}
     >
       <div className="min-w-[36px] sm:min-w-[42px] shrink-0 select-none text-right font-sans font-bold text-xs text-slate-400 pt-1">

@@ -1,4 +1,4 @@
-/** Data statis peta silsilah & matriks harmonisasi keluarga UU ITE. */
+/** Data statis peta silsilah & matriks harmonisasi lintas regulasi pokok. */
 
 export interface LegalNode {
   id: string;
@@ -23,6 +23,19 @@ export interface HarmonisasiRow {
   pasalTurunan: string;
   potensiKonflik: string;
   rekomendasi: string;
+  urgensi: 'KRITIS' | 'TINGGI' | 'SEDANG';
+  kategori: 'DELEGASI_KOSONG' | 'KONFLIK_NORMA' | 'PERUBAHAN_ASAS' | 'PUTUSAN_MK';
+}
+
+export interface HarmonisasiDataset {
+  id: string;
+  slug: string;
+  label: string;
+  shortTitle: string;
+  nomorTahun: string;
+  totalAturanTerdampak: number;
+  deskripsi: string;
+  rows: HarmonisasiRow[];
 }
 
 export const NODES_DATA: LegalNode[] = [
@@ -112,29 +125,182 @@ export const NODES_DATA: LegalNode[] = [
   },
 ];
 
-export const MATRIKS_HARMONISASI: HarmonisasiRow[] = [
+export const HARMONISASI_DATASETS: HarmonisasiDataset[] = [
   {
-    pasalUu: 'Pasal 27 ayat (3) UU 11/2008 → Dipecah ke Pasal 27A & 27B UU 1/2024',
-    statusUuTerbaru: 'Pencemaran nama baik dipisah dari pemerasan/pengancaman. Unsur "menyerang kehormatan demi kepentingan umum" dikecualikan.',
-    aturanTurunan: 'PP No. 71/2019',
-    pasalTurunan: 'Pasal 5 ayat (1) & (2)',
-    potensiKonflik: 'PP 71/2019 masih memakai istilah umum "informasi yang melanggar kesusilaan/penghinaan" tanpa klausul pengecualian pembelaan diri.',
-    rekomendasi: 'Harmonisasi definisi konten terlarang di PP 71/2019 agar tidak terjadi pemblokiran sepihak atas kritik publik yang sah.',
+    id: 'ite',
+    slug: 'ite',
+    label: 'UU Informasi & Transaksi Elektronik',
+    shortTitle: 'UU ITE (UU 1/2024)',
+    nomorTahun: 'UU No. 11/2008 jo UU No. 1/2024',
+    totalAturanTerdampak: 4,
+    deskripsi: 'Analisis ketidaksinkronan norma pasca-Amandemen Kedua UU ITE 2024 terhadap Peraturan Pemerintah & Peraturan Menteri eksisting.',
+    rows: [
+      {
+        pasalUu: 'Pasal 27 ayat (3) UU 11/2008 → Dipecah ke Pasal 27A & 27B UU 1/2024',
+        statusUuTerbaru: 'Pencemaran nama baik dipisah dari pemerasan/pengancaman. Unsur "menyerang kehormatan demi kepentingan umum" dikecualikan secara eksplisit.',
+        aturanTurunan: 'PP No. 71/2019 (PSTE)',
+        pasalTurunan: 'Pasal 5 ayat (1) & (2)',
+        potensiKonflik: 'PP 71/2019 masih memakai klausul umum "informasi yang melanggar kesusilaan/penghinaan" tanpa pengecualian pembelaan kepentingan umum.',
+        rekomendasi: 'Harmonisasi definisi konten terlarang di PP 71/2019 agar tidak terjadi pemutusan akses administratif atas pengawasan publik yang sah.',
+        urgensi: 'KRITIS',
+        kategori: 'KONFLIK_NORMA',
+      },
+      {
+        pasalUu: 'Pasal 28 ayat (3) UU 1/2024 (Pemberitahuan Bohong yang Memicu Kerusuhan)',
+        statusUuTerbaru: 'Mensyaratkan akibat riil: "kerusuhan fisik di masyarakat" (delik materiil, bukan sekadar kegaduhan daring).',
+        aturanTurunan: 'Permenkominfo No. 5/2020 (PSE Privat)',
+        pasalTurunan: 'Pasal 9 ayat (4) huruf a',
+        potensiKonflik: 'Permenkominfo masih menggunakan frasa "meresahkan masyarakat" sebagai dasar takedown kilat 4 jam tanpa verifikasi bukti benturan fisik.',
+        rekomendasi: 'Revisi Permenkominfo agar pedoman moderasi konten Komdigi selaras dengan standar pembuktian kerusuhan pada UU 1/2024.',
+        urgensi: 'TINGGI',
+        kategori: 'KONFLIK_NORMA',
+      },
+      {
+        pasalUu: 'Pasal 16A UU 1/2024 (Kewajiban Pelindungan Anak di Ruang Siber)',
+        statusUuTerbaru: 'Norma baru mewajibkan PSE menyediakan fitur pelindungan anak dan sistem verifikasi usia pengguna.',
+        aturanTurunan: 'PP No. 71/2019',
+        pasalTurunan: 'Belum diatur (Kekosongan Regulasi Pelaksana)',
+        potensiKonflik: 'Belum ada petunjuk teknis batas usia minimum anak dan sanksi operasional atas kelalaian PSE dalam menyaring konten dewasa.',
+        rekomendasi: 'Pemerintah wajib menerbitkan PP Perubahan PSTE atau Rancangan PP Perlindungan Anak di Ranah Daring sebagai mandat Pasal 16A ayat (4).',
+        urgensi: 'KRITIS',
+        kategori: 'DELEGASI_KOSONG',
+      },
+      {
+        pasalUu: 'Pasal 40 ayat (2a) & (2b) UU 1/2024 (Wewenang Pemutusan Akses)',
+        statusUuTerbaru: 'Pemerintah berwenang memutus akses konten yang melanggar hukum, dengan kewajiban menyampaikan alasan tertulis kepada PSE.',
+        aturanTurunan: 'Kepmenkominfo / SOP Dirjen Aptika',
+        pasalTurunan: 'SOP Internal Moderasi Konten',
+        potensiKonflik: 'Ketiadaan mekanisme banding administratif (due process of law) yang independen bagi pemilik situs yang terblokir keliru.',
+        rekomendasi: 'Penyusunan Peraturan Menteri Komdigi yang mengatur hak sanggah (right to appeal) dan komite independen pemulihan akses (restoration).',
+        urgensi: 'SEDANG',
+        kategori: 'PERUBAHAN_ASAS',
+      },
+    ],
   },
   {
-    pasalUu: 'Pasal 28 ayat (3) UU 1/2024 (Pemberitahuan Bohong yang Memicu Kerusuhan)',
-    statusUuTerbaru: 'Wajib ada akibat nyata: "kerusuhan fisik di masyarakat" (delik materiil).',
-    aturanTurunan: 'Permenkominfo No. 5/2020',
-    pasalTurunan: 'Pasal 9 ayat (4) huruf a',
-    potensiKonflik: 'Permenkominfo masih menggunakan frasa "meresahkan masyarakat" sebagai dasar takedown cepat 4 jam.',
-    rekomendasi: 'Menyesuaikan pedoman takedown Kementerian Komdigi agar selaras dengan standar pembuktian kerusuhan pada UU 1/2024.',
+    id: 'kuhp-2023',
+    slug: 'kuhp-2023',
+    label: 'KUHP Nasional (UU No. 1/2023)',
+    shortTitle: 'KUHP Baru (UU 1/2023)',
+    nomorTahun: 'UU No. 1 Tahun 2023',
+    totalAturanTerdampak: 5,
+    deskripsi: 'Pemetaan mandat regulasi pelaksana KUHP Nasional menjelang pemberlakuan penuh 2 Januari 2026 (Transisi Stufenbau & Lex Posteriori).',
+    rows: [
+      {
+        pasalUu: 'Pasal 2 & Pasal 597 UU 1/2023 (Living Law / Hukum Adat yang Hidup)',
+        statusUuTerbaru: 'Hukum yang hidup dalam masyarakat diakui sebagai dasar pemidanaan sepanjang tidak bertentangan dengan Pancasila dan UUD 1945.',
+        aturanTurunan: 'Rancangan Peraturan Pemerintah (RPP) Living Law',
+        pasalTurunan: 'Mandat Pasal 2 ayat (3) UU 1/2023',
+        potensiKonflik: 'Kekosongan kriteria objektif penetapan norma hukum adat ke dalam Peraturan Daerah (Perda) berisiko memicu ketidakpastian hukum lokal.',
+        rekomendasi: 'Kementerian Hukum wajib mempercepat penerbitan PP Pedoman Tata Cara Penetapan Perda Hukum yang Hidup dalam Masyarakat.',
+        urgensi: 'KRITIS',
+        kategori: 'DELEGASI_KOSONG',
+      },
+      {
+        pasalUu: 'Pasal 64, 65, & 66 UU 1/2023 (Pidana Kerja Sosial & Pidana Pengawasan)',
+        statusUuTerbaru: 'Pengenalan sanksi non-pemenjaraan sebagai alternatif pidana penjara di bawah 3-5 tahun untuk mengurangi overkapasitas lapas.',
+        aturanTurunan: 'RPP Tata Cara Pelaksanaan Pidana Pengawasan & Kerja Sosial',
+        pasalTurunan: 'Mandat Pasal 66 ayat (4) & Pasal 77 UU 1/2023',
+        potensiKonflik: 'Aparat Penegak Hukum (Jaksa Eksekutor & Pembimbing Kemasyarakatan Bapas) belum memiliki SOP integrasi dengan pemerintah daerah penyedia tempat kerja sosial.',
+        rekomendasi: 'Harmonisasi regulasi Kemenkumham, Kejaksaan Agung, dan Kemendagri dalam penyusunan MoU dan juknis pengawasan kerja sosial terpadu.',
+        urgensi: 'KRITIS',
+        kategori: 'DELEGASI_KOSONG',
+      },
+      {
+        pasalUu: 'Pasal 100 UU 1/2023 (Masa Percobaan Pidana Mati 10 Tahun)',
+        statusUuTerbaru: 'Hakim wajib menjatuhkan pidana mati bersyarat dengan tenggang percobaan 10 tahun apabila terdakwa memenuhi syarat remorse.',
+        aturanTurunan: 'RPP Penilaian Perilaku Narapidana Pidana Mati',
+        pasalTurunan: 'Mandat Pasal 100 ayat (6) UU 1/2023',
+        potensiKonflik: 'Belum adanya rubrik penilaian obyektif dan independen atas klausul "menunjukkan rasa menyesal dan ada harapan untuk diperbaiki".',
+        rekomendasi: 'Pembentukan dewan asesmen psikologis/koreksional independen guna menjamin akuntabilitas perubahan pidana mati menjadi pidana seumur hidup.',
+        urgensi: 'TINGGI',
+        kategori: 'PERUBAHAN_ASAS',
+      },
+      {
+        pasalUu: 'Pasal 613 - 624 UU 1/2023 (Aturan Peralihan Transisi KUHP Lama WvS)',
+        statusUuTerbaru: 'Pemberlakuan asas retroaktif menguntungkan (lex favor reo) jika terjadi perubahan perundang-undangan saat perkara berjalan.',
+        aturanTurunan: 'SOP Kejaksaan Agung & Mahkamah Agung',
+        pasalTurunan: 'Pedoman Penuntutan & Vonis Transisi',
+        potensiKonflik: 'Perbedaan interpretasi jaksa dan hakim dalam menangani perkara tindak pidana yang ancaman hukumannya lebih ringan pada KUHP Baru.',
+        rekomendasi: 'Mahkamah Agung dan Kejagung perlu menerbitkan SEMA (Surat Edaran MA) serta Perja Pedoman Transisi sebelum 2 Januari 2026.',
+        urgensi: 'TINGGI',
+        kategori: 'PERUBAHAN_ASAS',
+      },
+    ],
   },
   {
-    pasalUu: 'Pasal 16A UU 1/2024 (Kewajiban Pelindungan Anak di Ruang Siber)',
-    statusUuTerbaru: 'Norma baru mewajibkan PSE menyediakan fitur ramah anak dan verifikasi batas usia.',
-    aturanTurunan: 'PP No. 71/2019',
-    pasalTurunan: 'Belum diatur secara spesifik',
-    potensiKonflik: 'Ketiadaan petunjuk teknis verifikasi usia dan sanksi operasional PSE ramah anak.',
-    rekomendasi: 'Pemerintah perlu menerbitkan PP Perubahan atas PP 71/2019 atau Permen tersendiri terkait tata kelola pelindungan anak di ruang digital.',
+    id: 'pdp',
+    slug: 'pdp',
+    label: 'UU Pelindungan Data Pribadi (UU No. 27/2022)',
+    shortTitle: 'UU PDP (UU 27/2022)',
+    nomorTahun: 'UU No. 27 Tahun 2022',
+    totalAturanTerdampak: 4,
+    deskripsi: 'Audit regulasi pasca-berakhirnya masa transisi 2 tahun UU PDP (Oktober 2024) dan kepatuhan pengendali/pemroses data.',
+    rows: [
+      {
+        pasalUu: 'Pasal 58, 59, & 60 UU 27/2022 (Pembentukan Lembaga Pengawas PDP)',
+        statusUuTerbaru: 'Lembaga pengawas independen berwenang menjatuhkan sanksi administratif hingga 2% dari pendapatan tahunan pengendali data.',
+        aturanTurunan: 'Rancangan Perpres Lembaga Pelindungan Data Pribadi',
+        pasalTurunan: 'Mandat Pasal 60 UU 27/2022',
+        potensiKonflik: 'Hingga lewat masa transisi 2 tahun (17 Oktober 2024), Perpres pembentukan Lembaga PDP belum kunjung diundangkan, memicu ketidakpastian otoritas penegakan sanksi.',
+        rekomendasi: 'Pemerintah RI wajib segera menerbitkan Perpres Pembentukan Lembaga Otoritas PDP guna memberikan kepastian hukum industri dan kepatuhan publik.',
+        urgensi: 'KRITIS',
+        kategori: 'DELEGASI_KOSONG',
+      },
+      {
+        pasalUu: 'Pasal 53 & 54 UU 27/2022 (Pejabat/Petugas Pelindungan Data - DPO)',
+        statusUuTerbaru: 'Pengendali data yang memproses data berisiko tinggi wajib menunjuk Pejabat Pelindungan Data Pribadi (Data Protection Officer).',
+        aturanTurunan: 'RPP Tata Kelola PDP & SKKNI DPO',
+        pasalTurunan: 'Mandat Pasal 54 ayat (3) UU 27/2022',
+        potensiKonflik: 'Belum ada kurikulum akreditasi resmi dan standar kompetensi DPO di Indonesia, menyebabkan risiko salah tafsir peran DPO di korporasi.',
+        rekomendasi: 'Harmonisasi BNSP dan Kementerian Komdigi dalam penetapan skema sertifikasi kompetensi kerja DPO nasional yang berstandar internasional.',
+        urgensi: 'TINGGI',
+        kategori: 'DELEGASI_KOSONG',
+      },
+      {
+        pasalUu: 'Pasal 56 UU 27/2022 (Transfer Data Pribadi Lintas Batas / Cross-Border)',
+        statusUuTerbaru: 'Transfer data ke luar negeri mensyaratkan tingkat pelindungan data yang setara atau lebih tinggi di negara penerima (Adequacy Decision).',
+        aturanTurunan: 'RPP Pedoman Transfer Data Internasional',
+        pasalTurunan: 'Mandat Pasal 56 ayat (4) UU 27/2022',
+        potensiKonflik: 'Tanpa adanya daftar resmi negara setara (white-list adequacy), perusahaan multinasional dan fintech terhambat dalam kepatuhan komputasi awan.',
+        rekomendasi: 'Penerbitan daftar negara layak (adequacy countries) serta klausul kontrak standar (Standard Contractual Clauses - SCCs) versi yurisdiksi Indonesia.',
+        urgensi: 'TINGGI',
+        kategori: 'KONFLIK_NORMA',
+      },
+    ],
+  },
+  {
+    id: 'ciptaker',
+    slug: 'ciptaker',
+    label: 'UU Cipta Kerja (UU No. 6/2023)',
+    shortTitle: 'UU Ciptaker (UU 6/2023)',
+    nomorTahun: 'UU No. 6 Tahun 2023',
+    totalAturanTerdampak: 4,
+    deskripsi: 'Harmonisasi regulasi pasca-Putusan Mahkamah Konstitusi No. 168/PUU-XXI/2023 terhadap kluster ketenagakerjaan.',
+    rows: [
+      {
+        pasalUu: 'Kluster Ketenagakerjaan UU 6/2023 jo Putusan MK No. 168/PUU-XXI/2023',
+        statusUuTerbaru: 'MK membatalkan sebagian klausul PKWT, outsourcing sepihak, dan formula upah minimum tanpa indeks daya beli lokal.',
+        aturanTurunan: 'PP No. 35/2021 & PP No. 36/2021',
+        pasalTurunan: 'Pasal-pasal durasi PKWT & formula perhitungan UMP',
+        potensiKonflik: 'PP 35/2021 dan PP 36/2021 yang masih berlaku bertentangan langsung dengan amar Putusan MK No. 168/PUU-XXI/2023.',
+        rekomendasi: 'Kementerian Ketenagakerjaan wajib merevisi PP 35/2021 dan PP 36/2021, serta menyusun UU Ketenagakerjaan baru tersendiri sesuai instruksi MK paling lambat 2 tahun.',
+        urgensi: 'KRITIS',
+        kategori: 'PUTUSAN_MK',
+      },
+      {
+        pasalUu: 'Kluster AMDAL & Perizinan Berusaha Berbasis Risiko (PBBR)',
+        statusUuTerbaru: 'Penyederhanaan izin lingkungan menjadi Persetujuan Lingkungan melalui sistem OSS terpadu.',
+        aturanTurunan: 'PP No. 5/2021 (PBBR) & PP No. 22/2021 (Penyelenggaraan Lingkungan Hidup)',
+        pasalTurunan: 'Pasal 88 - 95 PP 22/2021',
+        potensiKonflik: 'Keterbatasan pelibatan masyarakat terdampak langsung dalam uji kelayakan lingkungan perizinan berisiko tinggi.',
+        rekomendasi: 'Pemerintah daerah dan KLHK perlu memperkuat instrumen verifikasi faktual lapangan sebelum persetujuan lingkungan diterbitkan secara otomatis oleh sistem OSS.',
+        urgensi: 'SEDANG',
+        kategori: 'KONFLIK_NORMA',
+      },
+    ],
   },
 ];
+
+/** Alias untuk backward compatibility */
+export const MATRIKS_HARMONISASI: HarmonisasiRow[] = HARMONISASI_DATASETS[0].rows;

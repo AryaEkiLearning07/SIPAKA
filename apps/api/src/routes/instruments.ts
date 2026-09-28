@@ -44,6 +44,21 @@ function demoListEntry(family: Family) {
   };
 }
 
+const KNOWN_PDFS: Record<string, string> = {
+  'ite': 'https://peraturan.bpk.go.id/Download/26683/UU%20Nomor%2011%20Tahun%202008.pdf',
+  'uu-1-2023': 'https://peraturan.bpk.go.id/Download/287456/UU%20Nomor%201%20Tahun%202023.pdf',
+  'uu-27-2022': 'https://peraturan.bpk.go.id/Download/224884/UU%20Nomor%2027%20Tahun%202022.pdf',
+  'uu-40-2007': 'https://peraturan.bpk.go.id/Download/29563/UU%20Nomor%2040%20Tahun%202007.pdf',
+  'uu-8-1999': 'https://peraturan.bpk.go.id/Download/32577/UU%20Nomor%208%20Tahun%201999.pdf',
+  'uu-1-2024': 'https://peraturan.bpk.go.id/Download/340058/UU%20Nomor%201%20Tahun%202024.pdf',
+  'uu-19-2016': 'https://peraturan.bpk.go.id/Download/26673/UU%20Nomor%2019%20Tahun%202016.pdf',
+};
+
+function getPdfUrl(slug: string | null | undefined, number: number, year: number): string {
+  if (slug && KNOWN_PDFS[slug]) return KNOWN_PDFS[slug];
+  return `https://peraturan.bpk.go.id/Search?keywords=Undang-Undang+Nomor+${number}+Tahun+${year}`;
+}
+
 export function registerInstrumentRoutes(server: FastifyInstance): void {
   // 1. Health check — status DB ikut dilaporkan
   server.get('/api/v1/health', async () => {
@@ -70,18 +85,20 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
   // 2. Daftar peraturan (dari DB; fallback mode demo bila DB belum siap)
   server.get('/api/v1/instruments', async (request, reply) => {
     try {
+      // Ambil SEMUA instrumen — tidak hanya yang punya changeset
       const instruments = await prisma.legalInstrument.findMany({
-        where: { modificationsReceived: { some: {} } },
-        include: { modificationsReceived: { include: { amendingInstrument: true } } },
+        include: {
+          modificationsReceived: { include: { amendingInstrument: true } },
+          _count: { select: { provisions: true } },
+        },
+        orderBy: [{ year: 'desc' }, { number: 'asc' }],
       });
       if (instruments.length === 0) throw new Error('DATABASE_EMPTY');
       return {
         source: 'database' as const,
         data: instruments.map((inst) => {
-          const years = [
-            String(inst.year),
-            ...inst.modificationsReceived.map((cs) => String(cs.amendingInstrument.year)),
-          ].sort();
+          const amendYears = inst.modificationsReceived.map((cs) => String(cs.amendingInstrument.year));
+          const years = Array.from(new Set([String(inst.year), ...amendYears])).sort();
           return {
             id: `uu-${inst.number}-${inst.year}`,
             slug: inst.slug,
@@ -93,8 +110,14 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
             description: inst.description,
             status: inst.status,
             promulgatedAt: inst.promulgatedAt.toISOString(),
+            lnNumber: inst.lnNumber,
+            tlnNumber: inst.tlnNumber,
+            confidenceScore: inst.confidenceScore,
+            publishMode: inst.publishMode,
+            pdfUrl: getPdfUrl(inst.slug, inst.number, inst.year),
             availableTimelines: years.map((y) => ({ year: y })),
             amendingInstruments: inst.modificationsReceived.map((cs) => labelOf(cs.amendingInstrument)),
+            totalArticles: (inst as any)._count?.provisions ?? 0,
           };
         }),
       };
@@ -133,6 +156,7 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
         penutup: inst.penutupTeks ?? null,
         lnNumber: inst.lnNumber,
         tlnNumber: inst.tlnNumber,
+        pdfUrl: getPdfUrl(inst.slug, inst.number, inst.year),
         promulgatedAt: inst.promulgatedAt.toISOString(),
         availableTimelines: timelineYears(family),
         amendments: family.changeSets.map((cs) => ({
@@ -210,6 +234,59 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
       return { slug, asOfDate: targetDate, tree };
     } catch (e) {
       return replyFamilyError(reply, e, slug);
+    }
+  });
+
+  // 6. Relasi instrumen (MENGUBAH, MENCABUT, MERUJUK) live dari database
+  server.get('/api/v1/instruments/:slug/relations', async (request, reply) => {
+    const { slug } = request.params as { slug: string };
+    try {
+      const inst = await prisma.legalInstrument.findUnique({
+        where: { slug },
+        select: { id: true, title: true, number: true, year: true, type: true, slug: true },
+      });
+      if (!inst) {
+        return reply.code(404).send({ error: 'INSTRUMENT_NOT_FOUND', slug });
+      }
+
+      const [outgoing, incoming] = await Promise.all([
+        prisma.instrumentRelation.findMany({
+          where: { sourceId: inst.id },
+          include: {
+            target: { select: { slug: true, title: true, shortTitle: true, number: true, year: true, type: true } },
+          },
+        }),
+        prisma.instrumentRelation.findMany({
+          where: { targetId: inst.id },
+          include: {
+            source: { select: { slug: true, title: true, shortTitle: true, number: true, year: true, type: true } },
+          },
+        }),
+      ]);
+
+      return {
+        source: 'database' as const,
+        instrument: inst,
+        relations: {
+          outgoing: outgoing.map((r) => ({
+            id: r.id,
+            jenis: r.jenis,
+            sumberKlausa: r.sumberKlausa,
+            target: r.target,
+          })),
+          incoming: incoming.map((r) => ({
+            id: r.id,
+            jenis: r.jenis,
+            sumberKlausa: r.sumberKlausa,
+            source: r.source,
+          })),
+        },
+      };
+    } catch (e) {
+      if (isDbConnectionError(e)) {
+        return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE' });
+      }
+      throw e;
     }
   });
 }

@@ -15,6 +15,7 @@ export interface InstrumentMeta {
   penutup?: string | null;
   lnNumber?: number | null;
   tlnNumber?: number | null;
+  pdfUrl?: string;
   availableTimelines: string[];
   amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
 }
@@ -71,9 +72,29 @@ export interface OpsRow {
   effectiveFrom: string;
   amender: string;
   amenderSlug: string | null;
+  amenderYear?: number | null;
+  amenderLnNumber?: number | null;
+  amenderTlnNumber?: number | null;
+  amenderPromulgatedAt?: string | null;
+  amenderEnactedAt?: string | null;
+  amenderPenutupTeks?: string | null;
+  amenderPreamble?: { menimbang?: string[]; mengingat?: string[] } | null;
 }
 
-export type InspectorTab = 'diff' | 'affected_list' | 'relasi';
+export type InspectorTab = 'diff' | 'affected_list' | 'relasi' | 'catatan';
+
+export interface InstrumentRelationItem {
+  id: string;
+  jenis: string;
+  sumberKlausa?: string | null;
+  target?: { slug: string; title: string; shortTitle?: string; number: number; year: number; type: string };
+  source?: { slug: string; title: string; shortTitle?: string; number: number; year: number; type: string };
+}
+
+export interface InstrumentRelationsData {
+  outgoing: InstrumentRelationItem[];
+  incoming: InstrumentRelationItem[];
+}
 
 export async function fetchSnapshot(slug: string, year: string): Promise<ConsolidatedLawDocument> {
   const res = await fetch(`${API_BASE}/api/v1/instruments/${slug}/snapshot?year=${year}`);
