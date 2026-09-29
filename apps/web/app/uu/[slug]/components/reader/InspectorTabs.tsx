@@ -6,7 +6,7 @@ import {
   ChevronRight, Check, Copy, Sparkles, ExternalLink, Network, ArrowRight,
   Edit3, Trash2, Plus, Lock, Loader2, MessageSquare
 } from 'lucide-react';
-import { ProvisionNode } from '@lexvera/types';
+import { ProvisionNode } from '@sipaka/types';
 import { InspectorState, InspectorTab, OpsRow, InstrumentRelationsData, API_BASE } from '../../reader-types';
 
 export interface InspectorTabsProps {

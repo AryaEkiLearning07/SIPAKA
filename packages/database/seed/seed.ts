@@ -1,6 +1,6 @@
 /**
  * Seeder Keluarga UU ITE (Pilot)
- * Sumber data: dataset terverifikasi @lexvera/legal-engine (sudah lolos golden test).
+ * Sumber data: dataset terverifikasi @sipaka/legal-engine (sudah lolos golden test).
  *
  * Prinsip:
  * - Idempoten: keluarga yang sama dihapus lalu dibuat ulang.
@@ -15,8 +15,8 @@ import { prisma, Prisma } from '../src/index';
 import {
   ITE_BASE_DOCUMENT_2008,
   ITE_ALL_CHANGESETS,
-} from '@lexvera/legal-engine';
-import type { ChangeSetPayload, ChangeOperationPayload, ProvisionNode } from '@lexvera/types';
+} from '@sipaka/legal-engine';
+import type { ChangeSetPayload, ChangeOperationPayload, ProvisionNode } from '@sipaka/types';
 import bcrypt from 'bcryptjs';
 import { DEMO_USERS, INSTRUMENTS } from './seed-data';
 import fs from 'node:fs';

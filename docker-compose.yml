@@ -3,15 +3,15 @@
 services:
   mariadb:
     image: mariadb:10.4
-    container_name: siapaka-mariadb
+    container_name: sipaka-mariadb
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-siapaka_dev_2026}
-      MYSQL_DATABASE: lexvera_db
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-sipaka_dev_2026}
+      MYSQL_DATABASE: sipaka_db
     ports:
       - "3307:3306"
     volumes:
-      - siapaka_pgdata:/var/lib/mysql
+      - sipaka_data:/var/lib/mysql
       - ./scripts/backup-db.sh:/backup.sh:ro
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
@@ -22,21 +22,21 @@ services:
   # Backup terjadwal: dump DB tiap 6 jam ke volume backups/
   backup:
     image: mariadb:10.4
-    container_name: siapaka-backup
+    container_name: sipaka-backup
     restart: unless-stopped
     depends_on:
       mariadb:
         condition: service_healthy
     environment:
-      MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-siapaka_dev_2026}
+      MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-sipaka_dev_2026}
     volumes:
       - ./backups:/backups
     entrypoint: >
       sh -c "while true; do
-        mysqldump -h mariadb -u root lexvera_db | gzip > /backups/lexvera_db_$$(date +%Y%m%d_%H%M).sql.gz;
+        mysqldump -h mariadb -u root sipaka_db | gzip > /backups/sipaka_db_$$(date +%Y%m%d_%H%M).sql.gz;
         find /backups -name '*.sql.gz' -mtime +14 -delete;
         sleep 21600;
       done"
 
 volumes:
-  siapaka_pgdata:
+  sipaka_data:

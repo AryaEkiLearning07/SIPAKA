@@ -4,7 +4,7 @@ import React, { useState, useMemo, useEffect, useCallback, useRef } from 'react'
 import Link from 'next/link';
 import { useParams, useSearchParams } from 'next/navigation';
 import { AlertTriangle, ArrowRight, FileText, CheckCircle2 } from 'lucide-react';
-import { ConsolidatedLawDocument } from '@lexvera/types';
+import { ConsolidatedLawDocument } from '@sipaka/types';
 import { OpsRow } from './reader-types';
 import {
   API_BASE, InstrumentMeta, LedgerChangeSet, InstrumentRelationsData,

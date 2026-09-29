@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { prisma } from '@lexvera/database';
+import { prisma } from '@sipaka/database';
 
 /** Dasbor pemilik: agregasi nyata dari catalog_index + instrumen (dipakai halaman /pipeline). */
 export function registerMonitoringRoutes(server: FastifyInstance): void {

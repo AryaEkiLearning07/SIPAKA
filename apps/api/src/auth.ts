@@ -1,11 +1,14 @@
 import { FastifyInstance } from 'fastify';
-import { prisma } from '@lexvera/database';
+import { prisma } from '@sipaka/database';
 import bcrypt from 'bcryptjs';
 import { randomBytes } from 'node:crypto';
 
-export const USER_SESSION_COOKIE = 'lexvera_user_session';
-export const ADMIN_SESSION_COOKIE = 'lexvera_admin_session';
-export const LEGACY_SESSION_COOKIE = 'lexvera_session';
+export const USER_SESSION_COOKIE = 'sipaka_user_session';
+export const ADMIN_SESSION_COOKIE = 'sipaka_admin_session';
+export const LEGACY_SESSION_COOKIE = 'sipaka_session';
+export const OLD_USER_COOKIE = 'lexvera_user_session';
+export const OLD_ADMIN_COOKIE = 'lexvera_admin_session';
+export const OLD_LEGACY_COOKIE = 'lexvera_session';
 export const SESSION_TTL_MS = 7 * 24 * 60 * 60 * 1000; // 7 hari
 
 export interface PublicUser {
@@ -33,18 +36,18 @@ async function resolveSessionFromToken(token?: string): Promise<PublicUser | nul
 export async function getCurrentUser(request: {
   cookies?: Record<string, string | undefined>;
 }): Promise<PublicUser | null> {
-  // Prioritas 1: Sesi pengguna reguler
-  const userToken = request.cookies?.[USER_SESSION_COOKIE];
+  // Prioritas 1: Sesi pengguna reguler SIPAKA
+  const userToken = request.cookies?.[USER_SESSION_COOKIE] || request.cookies?.[OLD_USER_COOKIE];
   const user = await resolveSessionFromToken(userToken);
   if (user) return user;
 
-  // Prioritas 2: Sesi admin (admin juga berhak membaca sebagai user)
-  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE];
+  // Prioritas 2: Sesi admin SIPAKA (admin juga berhak membaca sebagai user)
+  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE] || request.cookies?.[OLD_ADMIN_COOKIE];
   const admin = await resolveSessionFromToken(adminToken);
   if (admin) return admin;
 
   // Prioritas 3: Sesi legacy backward-compatible
-  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE];
+  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE] || request.cookies?.[OLD_LEGACY_COOKIE];
   return resolveSessionFromToken(legacyToken);
 }
 
@@ -53,17 +56,17 @@ export async function getCurrentAdmin(request: {
   cookies?: Record<string, string | undefined>;
 }): Promise<PublicUser | null> {
   // Prioritas 1: Cookie terisolasi khusus konsol admin
-  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE];
+  const adminToken = request.cookies?.[ADMIN_SESSION_COOKIE] || request.cookies?.[OLD_ADMIN_COOKIE];
   const admin = await resolveSessionFromToken(adminToken);
   if (admin && admin.role === 'ADMIN') return admin;
 
   // Prioritas 2: Cookie pengguna reguler yang memiliki peran ADMIN
-  const userToken = request.cookies?.[USER_SESSION_COOKIE];
+  const userToken = request.cookies?.[USER_SESSION_COOKIE] || request.cookies?.[OLD_USER_COOKIE];
   const user = await resolveSessionFromToken(userToken);
   if (user && user.role === 'ADMIN') return user;
 
   // Prioritas 3: Cookie legacy yang memiliki peran ADMIN
-  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE];
+  const legacyToken = request.cookies?.[LEGACY_SESSION_COOKIE] || request.cookies?.[OLD_LEGACY_COOKIE];
   const legacy = await resolveSessionFromToken(legacyToken);
   if (legacy && legacy.role === 'ADMIN') return legacy;
 
@@ -173,6 +176,8 @@ export function registerAuthRoutes(server: FastifyInstance): void {
     }
     reply.clearCookie(USER_SESSION_COOKIE, { path: '/' });
     reply.clearCookie(LEGACY_SESSION_COOKIE, { path: '/' });
+    reply.clearCookie(OLD_USER_COOKIE, { path: '/' });
+    reply.clearCookie(OLD_LEGACY_COOKIE, { path: '/' });
     return { ok: true };
   });
 

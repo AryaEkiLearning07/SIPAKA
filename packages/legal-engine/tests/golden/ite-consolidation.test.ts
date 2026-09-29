@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { LawReconstructor } from '../../src/engine';
 import { LegalDiffGenerator } from '../../src/diff-generator';
-import { ConsolidatedLawDocument, ChangeSetPayload } from '@lexvera/types';
+import { ConsolidatedLawDocument, ChangeSetPayload } from '@sipaka/types';
 
 /**
  * Golden Test Suite: Keluarga UU ITE

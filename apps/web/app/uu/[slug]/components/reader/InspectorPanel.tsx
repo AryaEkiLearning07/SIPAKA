@@ -6,7 +6,7 @@ import {
   Scale, X, FileText, ExternalLink, ArrowRight, Printer, Columns2,
   Bookmark, BookmarkCheck, MessageSquare
 } from 'lucide-react';
-import { ProvisionNode } from '@lexvera/types';
+import { ProvisionNode } from '@sipaka/types';
 import { InspectorState, InspectorTab, OpsRow, InstrumentRelationsData, API_BASE } from '../../reader-types';
 import InspectorTabs from './InspectorTabs';
 

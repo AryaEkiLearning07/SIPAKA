@@ -1,5 +1,5 @@
 {
-  "name": "@lexvera/legal-engine",
+  "name": "@sipaka/legal-engine",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -19,7 +19,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "@lexvera/types": "workspace:*"
+    "@sipaka/types": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.8.2",

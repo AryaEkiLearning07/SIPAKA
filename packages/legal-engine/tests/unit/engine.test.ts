@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { LawReconstructor } from '../../src/engine';
-import { ConsolidatedLawDocument, ChangeSetPayload } from '@lexvera/types';
+import { ConsolidatedLawDocument, ChangeSetPayload } from '@sipaka/types';
 
 describe('LawReconstructor Unit Tests', () => {
   const sampleBaseDoc: ConsolidatedLawDocument = {

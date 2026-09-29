@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { ConsolidatedLawDocument, ProvisionNode } from '@lexvera/types';
+import { ConsolidatedLawDocument, ProvisionNode } from '@sipaka/types';
 import { OpsRow } from '../../reader-types';
 import { fontSizeClass } from '../../reader-utils';
 import { AyatRow, PasalParagraf } from './NaskahBits';

@@ -59,7 +59,7 @@ def proses_satu(entri: dict) -> dict:
 # ---------- Antrean di database (catalog_index) ----------
 import pymysql
 
-DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db")
+DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
 
 def db_ambil_terdaftar(jenis: str, limit: int):
     conn = pymysql.connect(**DB)

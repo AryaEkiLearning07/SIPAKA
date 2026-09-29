@@ -1,4 +1,4 @@
-import { ConsolidatedLawDocument, ChangeSetPayload } from '@lexvera/types';
+import { ConsolidatedLawDocument, ChangeSetPayload } from '@sipaka/types';
 
 /**
  * Dataset Resmi Terverifikasi: Keluarga Peraturan UU ITE Indonesia

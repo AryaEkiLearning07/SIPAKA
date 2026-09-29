@@ -12,7 +12,7 @@ import re
 
 import pymysql
 
-DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db")
+DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
 RE_RUJUK = re.compile(
     r"(?:Undang-Undang|UU)\s+(?:Nomor|No\.?)\s*(\d{1,4})\s+Tahun\s+(\d{4})", re.IGNORECASE
 )

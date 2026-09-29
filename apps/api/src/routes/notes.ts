@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { prisma } from '@lexvera/database';
+import { prisma } from '@sipaka/database';
 import { getCurrentUser } from '../auth';
 
 export function registerNoteRoutes(server: FastifyInstance): void {

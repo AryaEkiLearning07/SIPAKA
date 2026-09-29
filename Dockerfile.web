@@ -19,11 +19,11 @@ COPY apps/web/ ./apps/web/
 RUN pnpm install --frozen-lockfile
 
 # Build dependensi workspace internal
-RUN pnpm --filter @lexvera/types build
-RUN pnpm --filter @lexvera/legal-engine build
+RUN pnpm --filter @sipaka/types build
+RUN pnpm --filter @sipaka/legal-engine build
 
 # Build Next.js
-RUN pnpm --filter @lexvera/web build
+RUN pnpm --filter @sipaka/web build
 
 # Runner Stage
 FROM node:20-alpine AS runner

@@ -1,7 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 /**
- * Bahasa desain LexVera: "arsip negara / penerbitan hukum".
+ * Bahasa desain SIPAKA: "arsip negara / penerbitan hukum".
  * Kertas hangat, tinta navy, aksen merah stempel (segel dokumen resmi),
  * brass untuk penanda arsip. Tanpa gradien, tanpa kartu SaaS generik.
  */

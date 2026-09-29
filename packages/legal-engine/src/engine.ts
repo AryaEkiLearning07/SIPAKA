@@ -3,7 +3,7 @@ import {
   ProvisionNode,
   ChangeSetPayload,
   ChangeOperationPayload,
-} from '@lexvera/types';
+} from '@sipaka/types';
 
 /**
  * Deterministic Law Consolidation Reconstructor

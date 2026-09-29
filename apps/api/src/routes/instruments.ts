@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
-import { prisma } from '@lexvera/database';
-import { LawReconstructor } from '@lexvera/legal-engine';
+import { prisma } from '@sipaka/database';
+import { LawReconstructor } from '@sipaka/legal-engine';
 import {
   loadFamily, dateForYear, timelineYears, isDbConnectionError, labelOf,
   DEMO_FALLBACK, Family,
@@ -72,7 +72,7 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
     }
     return {
       status: 'ok',
-      service: 'siapaka-legal-api',
+      service: 'sipaka-legal-api',
       version: '0.2.1',
       timestamp: new Date().toISOString(),
       database: db,

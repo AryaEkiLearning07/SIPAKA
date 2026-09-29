@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ProvisionNode, ProvisionDiffResult } from '@lexvera/types';
+import { ProvisionNode, ProvisionDiffResult } from '@sipaka/types';
 import { API_BASE, InspectorState, InspectorTab, OpsRow, RiwayatVersi } from './reader-types';
 
 /**

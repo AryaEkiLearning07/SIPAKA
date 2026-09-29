@@ -2,11 +2,11 @@
 services:
   mariadb:
     image: mariadb:10.11
-    container_name: siapaka-mariadb
+    container_name: sipaka-mariadb
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}
-      MYSQL_DATABASE: lexvera_db
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-sipaka_secret_2026}
+      MYSQL_DATABASE: sipaka_db
     ports:
       - "127.0.0.1:3306:3306"
     volumes:
@@ -21,13 +21,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.api
-    container_name: siapaka-api
+    container_name: sipaka-api
     restart: always
     depends_on:
       mariadb:
         condition: service_healthy
     environment:
-      DATABASE_URL: "mysql://root:${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}@mariadb:3306/lexvera_db"
+      DATABASE_URL: "mysql://root:${MYSQL_ROOT_PASSWORD:-sipaka_secret_2026}@mariadb:3306/sipaka_db"
       PORT: 4000
       HOST: 0.0.0.0
       CORS_ORIGIN: ${CORS_ORIGIN:-*}
@@ -42,7 +42,7 @@ services:
       dockerfile: Dockerfile.web
       args:
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4000}
-    container_name: siapaka-web
+    container_name: sipaka-web
     restart: always
     depends_on:
       - api
@@ -55,18 +55,18 @@ services:
   # Backup Otomatis Database MariaDB setiap 12 Jam
   db-backup:
     image: mariadb:10.11
-    container_name: siapaka-backup
+    container_name: sipaka-backup
     restart: always
     depends_on:
       mariadb:
         condition: service_healthy
     environment:
-      MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-siapaka_secret_2026}
+      MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-sipaka_secret_2026}
     volumes:
       - ./backups:/backups
     entrypoint: >
       sh -c "while true; do
-        mysqldump -h mariadb -u root lexvera_db | gzip > /backups/lexvera_db_$$(date +%Y%m%d_%H%M).sql.gz;
+        mysqldump -h mariadb -u root sipaka_db | gzip > /backups/sipaka_db_$$(date +%Y%m%d_%H%M).sql.gz;
         find /backups -name '*.sql.gz' -mtime +14 -delete;
         sleep 43200;
       done"

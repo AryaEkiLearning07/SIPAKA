@@ -1,4 +1,4 @@
-import { DiffToken, ProvisionDiffResult } from '@lexvera/types';
+import { DiffToken, ProvisionDiffResult } from '@sipaka/types';
 
 /**
  * LegalDiffGenerator

@@ -7,7 +7,7 @@ async function main() {
   const server = await buildServer();
   try {
     const address = await server.listen({ port: PORT, host: HOST });
-    console.log(`[LexVera API] Server running at ${address}`);
+    console.log(`[SIPAKA API] Server running at ${address}`);
   } catch (err) {
     server.log.error(err);
     process.exit(1);

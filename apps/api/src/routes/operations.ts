@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { prisma } from '@lexvera/database';
+import { prisma } from '@sipaka/database';
 import {
   loadFamily, dateForYear, timelineYears, isDbConnectionError,
 } from '../family';

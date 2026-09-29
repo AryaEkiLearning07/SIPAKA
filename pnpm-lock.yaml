@@ -181,13 +181,13 @@ importers:
       '@fastify/cors':
         specifier: ^10.0.2
         version: 10.1.0
-      '@lexvera/database':
+      '@sipaka/database':
         specifier: workspace:*
         version: link:../../packages/database
-      '@lexvera/legal-engine':
+      '@sipaka/legal-engine':
         specifier: workspace:*
         version: link:../../packages/legal-engine
-      '@lexvera/types':
+      '@sipaka/types':
         specifier: workspace:*
         version: link:../../packages/types
       bcryptjs:
@@ -212,10 +212,10 @@ importers:
 
   apps/web:
     dependencies:
-      '@lexvera/legal-engine':
+      '@sipaka/legal-engine':
         specifier: workspace:*
         version: link:../../packages/legal-engine
-      '@lexvera/types':
+      '@sipaka/types':
         specifier: workspace:*
         version: link:../../packages/types
       '@xyflow/react':
@@ -277,10 +277,10 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
     devDependencies:
-      '@lexvera/legal-engine':
+      '@sipaka/legal-engine':
         specifier: workspace:*
         version: link:../legal-engine
-      '@lexvera/types':
+      '@sipaka/types':
         specifier: workspace:*
         version: link:../types
       '@types/bcryptjs':
@@ -301,7 +301,7 @@ importers:
 
   packages/legal-engine:
     dependencies:
-      '@lexvera/types':
+      '@sipaka/types':
         specifier: workspace:*
         version: link:../types
     devDependencies:

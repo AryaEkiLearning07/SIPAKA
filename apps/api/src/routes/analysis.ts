@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
-import { LawReconstructor, LegalDiffGenerator } from '@lexvera/legal-engine';
-import { ProvisionNode } from '@lexvera/types';
+import { LawReconstructor, LegalDiffGenerator } from '@sipaka/legal-engine';
+import { ProvisionNode } from '@sipaka/types';
 import {
   loadFamily, dateForYear, timelineYears, isDbConnectionError,
   findNodeInTree,

@@ -26,7 +26,7 @@ def load_index():
 
 def main():
     slug_map = load_index()
-    conn = pymysql.connect(host="localhost", port=3307, user="root", password="", database="lexvera_db")
+    conn = pymysql.connect(host="localhost", port=3307, user="root", password="", database="sipaka_db")
     cur = conn.cursor()
     cur.execute("SELECT id, slug, number, year, title FROM legal_instruments WHERE year IN (2025, 2024)")
     rows = cur.fetchall()

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { History } from 'lucide-react';
-import { ProvisionNode } from '@lexvera/types';
+import { ProvisionNode } from '@sipaka/types';
 import { OpsRow } from '../../reader-types';
 import { formatProvisionLabel, cleanLegalText, fontSizeClass } from '../../reader-utils';
 

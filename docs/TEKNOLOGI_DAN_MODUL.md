@@ -46,7 +46,7 @@
 - Model: `User` (bcrypt) + `Session` (token 256-bit, cookie httpOnly, 7 hari, revoke).
 - Peran: **MAHASISWA** (baca + fitur belajar) · **DOSEN** (kurasi ringan, anotasi) · **KURATOR** (setujui ChangeSet → PUBLISHED) · **ADMIN** (kelola pengguna).
 - Endpoint hidup: `POST /auth/register`, `POST /auth/login`, `POST /auth/logout`, `GET /auth/me`.
-- Akun demo (di-seed): `mahasiswa@ / dosen@ / kurator@ / admin@lexvera.local` (sandi di halaman /masuk).
+- Akun demo (di-seed): `mahasiswa@ / dosen@ / kurator@ / admin@sipaka.local` (sandi di halaman /masuk).
 - **Sisa pekerjaan:** proteksi endpoint tulis (DRAFT/PUBLISH) sesuai peran — masuk bersama M4.
 
 ### M4 — Kurasi & Workflow (gerbang anti-halusinasi)

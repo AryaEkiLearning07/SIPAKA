@@ -18,4 +18,4 @@ structured/            → naskah terstruktur (Tahap 2): <slug>.yaml + <slug>-<t
 4. (Tahap 2) Strukturisasi naskah utuh ke YAML di `structured/` — dual control:
    satu orang input, satu orang memverifikasi terhadap PDF, lalu golden test.
 5. Sementara naskah utuh belum selesai, seeder memuat dataset pilot dari
-   `@lexvera/legal-engine` (satu sumber kebenaran yang sudah teruji golden test).
+   `@sipaka/legal-engine` (satu sumber kebenaran yang sudah teruji golden test).

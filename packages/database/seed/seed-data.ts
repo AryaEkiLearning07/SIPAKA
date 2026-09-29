@@ -1,12 +1,12 @@
-import type { ChangeSetPayload } from '@lexvera/types';
+import type { ChangeSetPayload } from '@sipaka/types';
 
 /** Konstanta seeder: instrumen & akun demo — dipisah agar logika seed ramping. */
 
 export const DEMO_USERS = [
-  { email: 'admin@lexvera.local', name: 'Administrator LexVera', role: 'ADMIN' as const, password: 'lexvera-admin' },
-  { email: 'kurator@lexvera.local', name: 'Kurator Hukum', role: 'KURATOR' as const, password: 'lexvera-kurator' },
-  { email: 'dosen@lexvera.local', name: 'Dosen Fakultas Hukum', role: 'DOSEN' as const, password: 'lexvera-dosen' },
-  { email: 'mahasiswa@lexvera.local', name: 'Mahasiswa Fakultas Hukum', role: 'MAHASISWA' as const, password: 'lexvera-mahasiswa' },
+  { email: 'admin@sipaka.local', name: 'Administrator SIPAKA', role: 'ADMIN' as const, password: 'sipaka-admin' },
+  { email: 'kurator@sipaka.local', name: 'Kurator Hukum', role: 'KURATOR' as const, password: 'sipaka-kurator' },
+  { email: 'dosen@sipaka.local', name: 'Dosen Fakultas Hukum', role: 'DOSEN' as const, password: 'sipaka-dosen' },
+  { email: 'mahasiswa@sipaka.local', name: 'Mahasiswa Fakultas Hukum', role: 'MAHASISWA' as const, password: 'sipaka-mahasiswa' },
 ];
 
 const TARGET_SLUG = 'ite';

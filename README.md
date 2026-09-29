@@ -35,10 +35,10 @@ pnpm db:migrate
 pnpm db:seed
 
 # 4. Jalankan API (http://localhost:4000)
-pnpm --filter @lexvera/api dev
+pnpm --filter @sipaka/api dev
 
 # 5. Jalankan Web (http://localhost:3000) — terminal lain
-pnpm --filter @lexvera/web dev
+pnpm --filter @sipaka/web dev
 ```
 
 Cek cepat: `curl http://localhost:4000/api/v1/health` harus melaporkan `database: "ok"`, lalu buka `http://localhost:3000/uu/ite`.
@@ -76,8 +76,8 @@ Lalu di laptop (sama untuk kedua opsi):
 ```bash
 pnpm db:migrate   # buat 9 tabel di VPS
 pnpm db:seed      # muat keluarga UU ITE
-pnpm --filter @lexvera/api dev
-pnpm --filter @lexvera/web dev
+pnpm --filter @sipaka/api dev
+pnpm --filter @sipaka/web dev
 ```
 
 Checklist real testing: badge beranda "Data Demo" → **"Database"** (hijau); `/uu/ite` tampil dari DB; timeline 2008→2024 menampilkan sisipan Pasal 27A/27B dan Pasal 27 ayat (3) berstatus "Dihapus"; mode komparasi menampilkan diff; "Inspeksi Perubahan" menghitung diff kata-per-kata. Restart VPS → data tetap ada.

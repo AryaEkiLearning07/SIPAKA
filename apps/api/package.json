@@ -1,5 +1,5 @@
 {
-  "name": "@lexvera/api",
+  "name": "@sipaka/api",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -13,9 +13,9 @@
   "dependencies": {
     "@fastify/cookie": "^11.1.2",
     "@fastify/cors": "^10.0.2",
-    "@lexvera/database": "workspace:*",
-    "@lexvera/legal-engine": "workspace:*",
-    "@lexvera/types": "workspace:*",
+    "@sipaka/database": "workspace:*",
+    "@sipaka/legal-engine": "workspace:*",
+    "@sipaka/types": "workspace:*",
     "bcryptjs": "^3.0.3",
     "fastify": "^5.2.1"
   },

@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@lexvera/types', '@lexvera/legal-engine'],
+  transpilePackages: ['@sipaka/types', '@sipaka/legal-engine'],
 };
 
 export default nextConfig;

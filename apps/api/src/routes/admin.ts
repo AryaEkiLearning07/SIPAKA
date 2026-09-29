@@ -1,5 +1,5 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
-import { prisma } from '@lexvera/database';
+import { prisma } from '@sipaka/database';
 import bcrypt from 'bcryptjs';
 import { randomBytes } from 'node:crypto';
 import fs from 'node:fs';
@@ -346,6 +346,7 @@ export function registerAdminRoutes(server: FastifyInstance): void {
     }
 
     reply.clearCookie(ADMIN_SESSION_COOKIE, { path: '/' });
+    reply.clearCookie('lexvera_admin_session', { path: '/' });
     return { success: true, message: 'Sesi Administrator berhasil diakhiri.' };
   });
 

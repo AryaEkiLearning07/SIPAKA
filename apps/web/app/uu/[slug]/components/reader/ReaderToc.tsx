@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import {
   FileText, ChevronRight, ChevronDown, Search
 } from 'lucide-react';
-import { ConsolidatedLawDocument, ProvisionNode } from '@lexvera/types';
+import { ConsolidatedLawDocument, ProvisionNode } from '@sipaka/types';
 
 interface ReaderTocProps {
   currentDoc: ConsolidatedLawDocument | undefined;

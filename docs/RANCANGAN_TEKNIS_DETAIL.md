@@ -139,7 +139,7 @@ operations:
     newNode: { label: Pasal 27A, type: PASAL, content: "..." }
 ```
 
-Catatan eksekusi: sampai naskah utuh selesai diketik (Tahap 2), seeder memuat dataset pilot dari `@lexvera/legal-engine` (satu sumber kebenaran yang sudah teruji golden test). YAML menjadi format wajib untuk naskah penuh — reviewable, diffable, dual-control di Git.
+Catatan eksekusi: sampai naskah utuh selesai diketik (Tahap 2), seeder memuat dataset pilot dari `@sipaka/legal-engine` (satu sumber kebenaran yang sudah teruji golden test). YAML menjadi format wajib untuk naskah penuh — reviewable, diffable, dual-control di Git.
 
 ## 8. PANEL KURATOR (DUAL-PANE PER-NODE) — SPESIFIKASI UI
 

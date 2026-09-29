@@ -32,7 +32,7 @@ from pathlib import Path
 
 import pymysql
 
-DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db")
+DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
 HERE = Path(__file__).resolve().parent.parent / "seed" / "structured"
 RICH = HERE / "catalog-rich.jsonl"
 PDF_DIR = Path(__file__).resolve().parent.parent / "seed" / "pdfs"

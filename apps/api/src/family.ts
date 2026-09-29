@@ -1,14 +1,14 @@
-import { prisma, LegalInstrument } from '@lexvera/database';
+import { prisma, LegalInstrument } from '@sipaka/database';
 import {
   ITE_BASE_DOCUMENT_2008,
   ITE_ALL_CHANGESETS,
-} from '@lexvera/legal-engine';
+} from '@sipaka/legal-engine';
 import {
   ConsolidatedLawDocument,
   ChangeSetPayload,
   ChangeOperationPayload,
   ProvisionNode,
-} from '@lexvera/types';
+} from '@sipaka/types';
 
 /**
  * Mode demo: saat database belum tersambung, API melayani dataset pilot

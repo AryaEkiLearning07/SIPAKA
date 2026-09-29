@@ -44,8 +44,8 @@ sudo usermod -aG docker $USER
 ```bash
 # Kloning repositori ke direktori /var/www atau home
 cd /var/www
-git clone <URL_REPO_ANDA> siapaka
-cd siapaka
+git clone <URL_REPO_ANDA> sipaka
+cd sipaka
 
 # Buat berkas .env dari template
 cp .env.example .env
@@ -61,10 +61,10 @@ DATABASE_URL="mysql://root:password_vps_anda@localhost:3306/lexvera_db"
 PORT=4000
 HOST=127.0.0.1
 DEMO_FALLBACK="false"
-CORS_ORIGIN="https://siapaka.domainanda.com"
+CORS_ORIGIN="https://sipaka.domainanda.com"
 
 # Web Client Next.js
-NEXT_PUBLIC_API_URL="https://siapaka.domainanda.com/api"
+NEXT_PUBLIC_API_URL="https://sipaka.domainanda.com/api"
 ```
 
 ---
@@ -76,13 +76,13 @@ NEXT_PUBLIC_API_URL="https://siapaka.domainanda.com/api"
 pnpm install
 
 # 2. Generate Prisma Client
-pnpm --filter @lexvera/database db:generate
+pnpm --filter @sipaka/database db:generate
 
 # 3. Sinkronkan skema tabel ke database MariaDB
-pnpm --filter @lexvera/database db:push
+pnpm --filter @sipaka/database db:push
 
 # 4. Ingest data awal peraturan perundang-undangan (UU ITE, KUHP Baru, UU PDP, dsb.)
-pnpm --filter @lexvera/database db:seed
+pnpm --filter @sipaka/database db:seed
 
 # 5. Ekstrak jaring relasi yuridis antar-undang-undang
 cd packages/database/scripts
@@ -105,7 +105,7 @@ cat << 'EOF' > ecosystem.config.cjs
 module.exports = {
   apps: [
     {
-      name: 'siapaka-api',
+      name: 'sipaka-api',
       script: 'node',
       args: 'apps/api/dist/index.js',
       cwd: './',
@@ -116,7 +116,7 @@ module.exports = {
       }
     },
     {
-      name: 'siapaka-web',
+      name: 'sipaka-web',
       script: 'node',
       args: 'apps/web/node_modules/next/dist/bin/next start apps/web --port 3000',
       cwd: './',
@@ -143,13 +143,13 @@ Pasang Nginx untuk mengarahkan domain publik ke aplikasi Next.js (port 3000) dan
 
 ```bash
 sudo apt install -y nginx certbot python3-certbot-nginx
-sudo nano /etc/nginx/sites-available/siapaka
+sudo nano /etc/nginx/sites-available/sipaka
 ```
 
-Konfigurasi file `/etc/nginx/sites-available/siapaka`:
+Konfigurasi file `/etc/nginx/sites-available/sipaka`:
 ```nginx
 server {
-    server_name siapaka.domainanda.com;
+    server_name sipaka.domainanda.com;
 
     # Client Web (Next.js)
     location / {
@@ -178,12 +178,12 @@ server {
 
 Aktifkan konfigurasi dan terapkan sertifikat SSL gratis Let's Encrypt:
 ```bash
-sudo ln -s /etc/nginx/sites-available/siapaka /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/sipaka /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
 
 # Pasang SSL Otomatis
-sudo certbot --nginx -d siapaka.domainanda.com
+sudo certbot --nginx -d sipaka.domainanda.com
 ```
 
 ---
@@ -201,7 +201,7 @@ Menjalankan crawler di VPS adalah keputusan yang tepat karena:
 tmux new -s crawler
 
 # Pindah ke folder scraper
-cd /var/www/siapaka/packages/database/scripts
+cd /var/www/sipaka/packages/database/scripts
 
 # Siapkan virtual environment python & dependensi
 python3 -m venv venv

@@ -16,7 +16,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { prisma } from '../src/index';
-import type { ProvisionNode } from '@lexvera/types';
+import type { ProvisionNode } from '@sipaka/types';
 
 const STRUCT = path.join(__dirname, '..', 'seed', 'structured');
 const RICH   = path.join(__dirname, '..', 'seed', 'structured', 'catalog-rich.jsonl');

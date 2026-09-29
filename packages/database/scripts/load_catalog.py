@@ -9,7 +9,7 @@ rows = [json.loads(l) for l in jsonl.read_text(encoding="utf-8").splitlines() if
 
 try:
     import pymysql
-    conn = pymysql.connect(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db")
+    conn = pymysql.connect(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
     with conn.cursor() as cur:
         for e in rows:
             cur.execute(

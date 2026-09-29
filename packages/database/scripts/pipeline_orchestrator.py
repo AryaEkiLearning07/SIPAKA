@@ -33,7 +33,7 @@ SEED = HERE.parent / "seed"
 STRUCT = SEED / "structured"
 PDFS = SEED / "pdfs"
 
-DB_CONFIG = dict(host="127.0.0.1", port=3307, user="root", password="", database="lexvera_db", charset="utf8mb4")
+DB_CONFIG = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db", charset="utf8mb4")
 
 
 def get_db_connection():
@@ -102,7 +102,7 @@ def print_status():
 
         conn.close()
 
-        print(f"\n[3] BASIS DATA MARIADB (lexvera_db @ port 3307)")
+        print(f"\n[3] BASIS DATA MARIADB (sipaka_db @ port 3307)")
         print(f"    * legal_instruments       : {inst_count} peraturan aktif")
         print(f"    * provisions              : {prov_count:,} pasal & ayat tersimpan")
         print(f"    * change_sets (Amandemen) : {cs_count} set perubahan")
