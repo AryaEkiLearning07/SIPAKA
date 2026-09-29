@@ -165,9 +165,9 @@ export default function LegalNeuronPage() {
                 <Table2 className="w-3.5 h-3.5" />Matriks Harmonisasi
               </button>
             </div>
-            <Link href="/pipeline"
+            <Link href="/admin?tab=PIPELINE"
               className="px-3.5 py-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-xs transition-colors flex items-center gap-1.5 shadow-2xs">
-              <Cpu className="w-3.5 h-3.5 text-[#94191C]" />Simulasi Pipeline
+              <Cpu className="w-3.5 h-3.5 text-[#94191C]" />Pabrik Pipeline
             </Link>
           </div>
         </div>

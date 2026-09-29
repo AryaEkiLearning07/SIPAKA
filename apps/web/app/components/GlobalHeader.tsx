@@ -95,6 +95,8 @@ export default function GlobalHeader() {
     pathname.startsWith('/uu/') ||
     pathname === '/masuk' ||
     pathname.startsWith('/masuk/') ||
+    pathname === '/admin' ||
+    pathname.startsWith('/admin/') ||
     pathname === '/pipeline' ||
     pathname.startsWith('/pipeline/')
   ) {

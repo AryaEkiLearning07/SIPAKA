@@ -5,10 +5,12 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
   ShieldAlert, ShieldCheck, Users, FileText, CheckCircle2, Clock, 
-  ArrowLeft, RefreshCw, KeyRound, AlertTriangle, Database, Activity,
+  ArrowLeft, ArrowRight, RefreshCw, KeyRound, AlertTriangle, Database, Activity,
   Lock, ExternalLink, ChevronRight, Check, X, Search, Filter, LogOut,
   Play, DownloadCloud, Cpu, Layers
 } from 'lucide-react';
+
+import PipelineManagerTab from './components/PipelineManagerTab';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
@@ -86,7 +88,7 @@ export default function AdminDashboardPage() {
   const [triggeringCrawler, setTriggeringCrawler] = useState(false);
 
   // Tab state
-  const [activeTab, setActiveTab] = useState<'OVERVIEW' | 'APPROVAL' | 'USERS' | 'LOGS'>('OVERVIEW');
+  const [activeTab, setActiveTab] = useState<'OVERVIEW' | 'PIPELINE' | 'APPROVAL' | 'USERS' | 'LOGS'>('OVERVIEW');
   const [approvalModal, setApprovalModal] = useState<ChangeSetItem | null>(null);
   const [approvalNotes, setApprovalNotes] = useState('');
   const [submittingApproval, setSubmittingApproval] = useState(false);
@@ -132,6 +134,15 @@ export default function AdminDashboardPage() {
         setAuthChecking(false);
       }
     })();
+
+    // Baca parameter ?tab= dari URL (misal diarahkan dari /pipeline)
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get('tab');
+      if (tabParam && ['OVERVIEW', 'PIPELINE', 'APPROVAL', 'USERS', 'LOGS'].includes(tabParam.toUpperCase())) {
+        setActiveTab(tabParam.toUpperCase() as any);
+      }
+    }
   }, []);
 
   // 2. Load data admin saat user terverifikasi ADMIN
@@ -527,6 +538,18 @@ export default function AdminDashboardPage() {
           </button>
 
           <button
+            onClick={() => setActiveTab('PIPELINE')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+              activeTab === 'PIPELINE'
+                ? 'bg-[#94191C] text-white shadow-xs'
+                : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+            }`}
+          >
+            <Layers className="w-4 h-4" />
+            <span>Pabrik Pipeline &amp; Harvester</span>
+          </button>
+
+          <button
             onClick={() => setActiveTab('APPROVAL')}
             className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
               activeTab === 'APPROVAL'
@@ -858,7 +881,12 @@ export default function AdminDashboardPage() {
           </div>
         )}
 
-        {/* ── TAB 2: GERBANG PERSETUJUAN NASKAH (ISO 7.5.3 APPROVAL GATE) ── */}
+        {/* ── TAB 2: PABRIK PIPELINE & HARVESTER TERPADU ── */}
+        {activeTab === 'PIPELINE' && (
+          <PipelineManagerTab onNavigateToApproval={() => setActiveTab('APPROVAL')} />
+        )}
+
+        {/* ── TAB 3: GERBANG PERSETUJUAN NASKAH (ISO 7.5.3 APPROVAL GATE) ── */}
         {activeTab === 'APPROVAL' && (
           <div className="space-y-4">
             <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-xs">
@@ -915,13 +943,13 @@ export default function AdminDashboardPage() {
                         </div>
 
                         <div className="shrink-0 flex items-center gap-2">
-                          <Link
-                            href="/pipeline"
-                            className="px-3 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold flex items-center gap-1"
+                          <button
+                            onClick={() => setActiveTab('PIPELINE')}
+                            className="px-3 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold flex items-center gap-1 cursor-pointer"
                           >
-                            <span>Lihat Diff Pipeline</span>
-                            <ExternalLink className="w-3 h-3" />
-                          </Link>
+                            <span>Buka Pipeline Terpadu</span>
+                            <ArrowRight className="w-3 h-3" />
+                          </button>
 
                           {!isPublished && (
                             <button
