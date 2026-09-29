@@ -2,12 +2,22 @@ import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
 import { prisma } from '@lexvera/database';
 import bcrypt from 'bcryptjs';
 import { randomBytes } from 'node:crypto';
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawn } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
 import {
   getCurrentAdmin,
   ADMIN_SESSION_COOKIE,
   SESSION_TTL_MS,
   toPublicUser,
 } from '../auth';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const DB_PKG = fs.existsSync(path.resolve(process.cwd(), 'packages/database'))
+  ? path.resolve(process.cwd(), 'packages/database')
+  : path.resolve(__dirname, '../../../../packages/database');
 
 /**
  * Middleware Proteksi Otoritas Administrator Utama (Terisolasi dari Sesi Pengguna Reguler)
@@ -346,5 +356,112 @@ export function registerAdminRoutes(server: FastifyInstance): void {
       return reply.code(401).send({ error: 'UNAUTHENTICATED' });
     }
     return { success: true, admin };
+  });
+
+  // GET /api/v1/admin/crawler/status — Telemetri Live Worker Harvester (JDIH BPK)
+  server.get('/api/v1/admin/crawler/status', async (request, reply) => {
+    const admin = await requireAdmin(request, reply);
+    if (!admin) return;
+
+    const statusFile = path.join(DB_PKG, 'crawler_status.json');
+    const checkpointFile = path.join(DB_PKG, 'crawler_checkpoint.json');
+    const indexFile = path.join(DB_PKG, 'seed/structured/catalog-index.jsonl');
+    const richFile = path.join(DB_PKG, 'seed/structured/catalog-rich.jsonl');
+
+    let workerStatus = { state: 'STOPPED', phase: 'IDLE', stats: {} };
+    if (fs.existsSync(statusFile)) {
+      try {
+        workerStatus = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
+      } catch {
+        // ignore
+      }
+    }
+
+    let checkpoint = { processed_slugs: [], total_processed: 0 };
+    if (fs.existsSync(checkpointFile)) {
+      try {
+        checkpoint = JSON.parse(fs.readFileSync(checkpointFile, 'utf-8'));
+      } catch {
+        // ignore
+      }
+    }
+
+    let totalIndexed = 0;
+    if (fs.existsSync(indexFile)) {
+      try {
+        totalIndexed = fs.readFileSync(indexFile, 'utf-8').split('\n').filter(Boolean).length;
+      } catch {
+        // ignore
+      }
+    }
+
+    let totalRich = 0;
+    if (fs.existsSync(richFile)) {
+      try {
+        totalRich = fs.readFileSync(richFile, 'utf-8').split('\n').filter(Boolean).length;
+      } catch {
+        // ignore
+      }
+    }
+
+    return {
+      success: true,
+      data: {
+        worker: workerStatus,
+        checkpoint: {
+          totalProcessed: checkpoint.total_processed || (checkpoint.processed_slugs || []).length,
+          lastRun: (checkpoint as any).last_run || null,
+        },
+        queue: {
+          totalIndexed,
+          totalRich,
+          pending: Math.max(0, totalIndexed - (checkpoint.processed_slugs || []).length),
+        },
+      },
+    };
+  });
+
+  // POST /api/v1/admin/crawler/trigger — Picu Batch Ingestion Langsung dari Dashboard
+  server.post('/api/v1/admin/crawler/trigger', async (request, reply) => {
+    const admin = await requireAdmin(request, reply);
+    if (!admin) return;
+
+    const body = request.body as { limit?: number; delay?: number };
+    const limit = Math.min(Math.max(body?.limit || 5, 1), 20); // Batas aman 1 - 20 dokumen
+    const delay = Math.max(body?.delay || 1.5, 1.0); // Batas minimal etis 1 detik
+
+    const workerScript = path.join(DB_PKG, 'scripts/crawler_worker.py');
+
+    // Spawn proses worker di background tanpa memblokir request HTTP
+    const child = spawn(
+      process.platform === 'win32' ? 'python' : 'python3',
+      [workerScript, '--batch', String(limit), '--delay', String(delay)],
+      {
+        cwd: DB_PKG,
+        detached: true,
+        stdio: 'ignore',
+      }
+    );
+    child.unref();
+
+    // Catat aksi picu crawler ke log jejak audit ISO 27001
+    await prisma.auditLog.create({
+      data: {
+        userId: admin.id,
+        userEmail: admin.email,
+        userName: admin.name,
+        userRole: admin.role,
+        action: 'ADMIN_CRAWLER_BATCH_TRIGGERED',
+        entity: 'CrawlerWorker',
+        details: { limit, delay, spawnedPid: child.pid },
+      },
+    });
+
+    return {
+      success: true,
+      message: `Worker Harvester berhasil dipicu untuk batch ${limit} dokumen (PID: ${child.pid}). Telemetri mulai diperbarui.`,
+      pid: child.pid,
+      limit,
+    };
   });
 }

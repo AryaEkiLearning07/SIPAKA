@@ -6,7 +6,8 @@ import { useRouter } from 'next/navigation';
 import {
   ShieldAlert, ShieldCheck, Users, FileText, CheckCircle2, Clock, 
   ArrowLeft, RefreshCw, KeyRound, AlertTriangle, Database, Activity,
-  Lock, ExternalLink, ChevronRight, Check, X, Search, Filter, LogOut
+  Lock, ExternalLink, ChevronRight, Check, X, Search, Filter, LogOut,
+  Play, DownloadCloud, Cpu, Layers
 } from 'lucide-react';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
@@ -80,6 +81,10 @@ export default function AdminDashboardPage() {
   const [auditLogs, setAuditLogs] = useState<AuditLogItem[]>([]);
   const [loadingData, setLoadingData] = useState(false);
 
+  // Crawler Worker Telemetry State
+  const [crawlerData, setCrawlerData] = useState<any>(null);
+  const [triggeringCrawler, setTriggeringCrawler] = useState(false);
+
   // Tab state
   const [activeTab, setActiveTab] = useState<'OVERVIEW' | 'APPROVAL' | 'USERS' | 'LOGS'>('OVERVIEW');
   const [approvalModal, setApprovalModal] = useState<ChangeSetItem | null>(null);
@@ -133,11 +138,12 @@ export default function AdminDashboardPage() {
   const loadAdminData = async () => {
     setLoadingData(true);
     try {
-      const [ovRes, usrRes, csRes, logRes] = await Promise.all([
+      const [ovRes, usrRes, csRes, logRes, crwRes] = await Promise.all([
         fetch(`${API_BASE}/api/v1/admin/overview`, { credentials: 'include' }),
         fetch(`${API_BASE}/api/v1/admin/users`, { credentials: 'include' }),
         fetch(`${API_BASE}/api/v1/admin/changesets`, { credentials: 'include' }),
         fetch(`${API_BASE}/api/v1/admin/audit-logs?limit=50`, { credentials: 'include' }),
+        fetch(`${API_BASE}/api/v1/admin/crawler/status`, { credentials: 'include' }),
       ]);
 
       if (ovRes.ok) {
@@ -156,6 +162,10 @@ export default function AdminDashboardPage() {
         const json = await logRes.json();
         setAuditLogs(json.data || []);
       }
+      if (crwRes.ok) {
+        const json = await crwRes.json();
+        setCrawlerData(json.data);
+      }
     } catch {
       // Abaikan
     } finally {
@@ -168,6 +178,57 @@ export default function AdminDashboardPage() {
       loadAdminData();
     }
   }, [currentUser]);
+
+  // Polling Telemetri Crawler Berkala saat Tab Ikhtisar Aktif
+  useEffect(() => {
+    if (!currentUser || currentUser.role !== 'ADMIN' || activeTab !== 'OVERVIEW') return;
+    const interval = setInterval(async () => {
+      try {
+        const res = await fetch(`${API_BASE}/api/v1/admin/crawler/status`, { credentials: 'include' });
+        if (res.ok) {
+          const json = await res.json();
+          setCrawlerData(json.data);
+        }
+      } catch {
+        // ignore
+      }
+    }, 8000);
+    return () => clearInterval(interval);
+  }, [currentUser, activeTab]);
+
+  // Handler Picu Batch Harvester
+  const handleTriggerCrawler = async (limit = 5) => {
+    setTriggeringCrawler(true);
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/admin/crawler/trigger`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify({ limit }),
+      });
+      const json = await res.json();
+      if (res.ok) {
+        setActionMessage(json.message);
+        setTimeout(() => setActionMessage(null), 5000);
+        // Muat status terbaru
+        setTimeout(async () => {
+          const cRes = await fetch(`${API_BASE}/api/v1/admin/crawler/status`, { credentials: 'include' });
+          if (cRes.ok) {
+            const cJson = await cRes.json();
+            setCrawlerData(cJson.data);
+          }
+        }, 1200);
+      } else {
+        setActionMessage(json.message || 'Gagal memicu worker crawler');
+        setTimeout(() => setActionMessage(null), 4000);
+      }
+    } catch {
+      setActionMessage('Koneksi ke backend API terputus.');
+      setTimeout(() => setActionMessage(null), 4000);
+    } finally {
+      setTriggeringCrawler(false);
+    }
+  };
 
   // Handler Login Eksklusif Administrator Utama
   const handleAdminLogin = async (e: React.FormEvent) => {
@@ -614,6 +675,144 @@ export default function AdminDashboardPage() {
                   <span className="text-slate-400 font-medium block">Kredensial Sesi Admin:</span>
                   <span className="font-bold text-[#94191C] block font-mono">{currentUser.email}</span>
                   <span className="text-[11px] text-slate-500 block">Hak wewenang approval penuh</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Pusat Kendali Worker Crawler & Ingestion Data (JDIH BPK) */}
+            <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-5">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-100">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-2xl bg-red-50 text-[#94191C] flex items-center justify-center border border-red-200 shadow-2xs">
+                    <DownloadCloud className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2">
+                      <h3 className="font-bold text-sm text-slate-900">
+                        Pusat Kendali Worker Harvester &amp; Ingestion Data (JDIH BPK)
+                      </h3>
+                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600 border border-slate-200">
+                        Ethical Limiter 1.5s
+                      </span>
+                    </div>
+                    <p className="text-xs text-slate-500 mt-0.5">
+                      Pemanenan massal otomatis: Scrape Metadata ➔ Unduh PDF ➔ Parse AST JSON ➔ QA Skor 100 ➔ Ingest MariaDB.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Status Indicator */}
+                <div className="flex items-center gap-2">
+                  {crawlerData?.worker?.state === 'RUNNING' ? (
+                    <span className="text-xs font-mono font-bold px-3 py-1.5 rounded-full bg-blue-50 text-blue-700 border border-blue-200 flex items-center gap-2">
+                      <span className="w-2 h-2 rounded-full bg-blue-500 animate-ping" />
+                      AKTIF MEMPROSES (PID: {crawlerData?.worker?.pid || '-'})
+                    </span>
+                  ) : crawlerData?.worker?.state === 'IDLE' ? (
+                    <span className="text-xs font-mono font-bold px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                      SIAP (IDLE)
+                    </span>
+                  ) : (
+                    <span className="text-xs font-mono font-bold px-3 py-1.5 rounded-full bg-slate-100 text-slate-600 border border-slate-200 flex items-center gap-1.5">
+                      <span className="w-2 h-2 rounded-full bg-slate-400" />
+                      STANDBY / SIAP DIPICU
+                    </span>
+                  )}
+                </div>
+              </div>
+
+              {/* 4 Kolom Telemetri Antrean */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 text-xs font-sans">
+                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                  <span className="text-[10.5px] font-medium text-slate-500 block">Total Terindeks di JDIH</span>
+                  <span className="text-lg font-black text-slate-900 mt-0.5 block font-mono">
+                    {crawlerData?.queue?.totalIndexed?.toLocaleString('id-ID') || '1.325'} Dokumen
+                  </span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">Katalog master BPK RI</span>
+                </div>
+
+                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                  <span className="text-[10.5px] font-medium text-slate-500 block">Metadata Kaya (Rich)</span>
+                  <span className="text-lg font-black text-slate-900 mt-0.5 block font-mono">
+                    {crawlerData?.queue?.totalRich?.toLocaleString('id-ID') || '14'} Dokumen
+                  </span>
+                  <span className="text-[10px] text-emerald-600 font-semibold mt-0.5 block">LN, TLN, &amp; Relasi Siap</span>
+                </div>
+
+                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                  <span className="text-[10.5px] font-medium text-slate-500 block">Checkpoint Sesi</span>
+                  <span className="text-lg font-black text-[#94191C] mt-0.5 block font-mono">
+                    {crawlerData?.checkpoint?.totalProcessed || 0} Selesai
+                  </span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">
+                    {crawlerData?.checkpoint?.lastRun ? new Date(crawlerData.checkpoint.lastRun).toLocaleDateString('id-ID') : 'Belum dijalankan'}
+                  </span>
+                </div>
+
+                <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                  <span className="text-[10.5px] font-medium text-slate-500 block">Sisa Antrean Pemanenan</span>
+                  <span className="text-lg font-black text-amber-700 mt-0.5 block font-mono">
+                    {crawlerData?.queue?.pending?.toLocaleString('id-ID') || '1.325'} Tertunda
+                  </span>
+                  <span className="text-[10px] text-slate-400 mt-0.5 block">Menunggu giliran worker</span>
+                </div>
+              </div>
+
+              {/* Status Dokumen yang Sedang Dikerjakan (Jika Aktif) */}
+              {crawlerData?.worker?.state === 'RUNNING' && crawlerData?.worker?.currentSlug && (
+                <div className="p-3.5 rounded-xl bg-blue-50/70 border border-blue-200/70 text-xs flex items-center justify-between">
+                  <div className="space-y-0.5">
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-100/70 px-2 py-0.5 rounded">
+                      Fase Aktif: {crawlerData.worker.phase || 'MEMPROSES'}
+                    </span>
+                    <p className="font-semibold text-slate-800 text-xs mt-1">
+                      {crawlerData.worker.currentTitle || crawlerData.worker.currentSlug}
+                    </p>
+                    <p className="text-[11px] font-mono text-slate-500">{crawlerData.worker.currentSlug}</p>
+                  </div>
+                  <RefreshCw className="w-4 h-4 text-blue-600 animate-spin shrink-0" />
+                </div>
+              )}
+
+              {/* Action Toolbar */}
+              <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    disabled={triggeringCrawler || crawlerData?.worker?.state === 'RUNNING'}
+                    onClick={() => handleTriggerCrawler(5)}
+                    className="inline-flex items-center gap-2 py-2 px-4 rounded-xl bg-[#94191C] hover:bg-[#861619] disabled:bg-slate-300 text-white font-bold text-xs transition-colors shadow-xs cursor-pointer"
+                  >
+                    {triggeringCrawler ? (
+                      <>
+                        <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                        <span>Memicu Worker Harvester…</span>
+                      </>
+                    ) : (
+                      <>
+                        <Play className="w-3.5 h-3.5 fill-current" />
+                        <span>Picu Panen 5 Dokumen Baru</span>
+                      </>
+                    )}
+                  </button>
+
+                  <button
+                    type="button"
+                    disabled={triggeringCrawler || crawlerData?.worker?.state === 'RUNNING'}
+                    onClick={() => handleTriggerCrawler(10)}
+                    className="inline-flex items-center gap-2 py-2 px-3 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 font-semibold text-xs transition-colors shadow-2xs cursor-pointer"
+                  >
+                    <Layers className="w-3.5 h-3.5 text-slate-500" />
+                    <span>Batch 10 Dokumen</span>
+                  </button>
+                </div>
+
+                <div className="flex items-center gap-2 text-xs text-slate-500">
+                  <span>Kontrol Terminal VPS:</span>
+                  <code className="bg-slate-100 text-slate-700 px-2 py-1 rounded font-mono text-[11px] border border-slate-200">
+                    ./run_worker.sh start
+                  </code>
                 </div>
               </div>
             </div>

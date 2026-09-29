@@ -10,3 +10,7 @@ coverage
 backups/
 tsconfig.tsbuildinfo
 *.tsbuildinfo
+packages/database/crawler_checkpoint.json
+packages/database/crawler_status.json
+packages/database/logs/
+packages/database/seed/pdfs/*.pdf
