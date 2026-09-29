@@ -55,9 +55,20 @@ async function seedProvisionTree(
   legalInstrumentId: string,
   nodes: ProvisionNode[],
   parentId: string | null,
+  seenPaths: Set<string> = new Set<string>()
 ): Promise<number> {
   let count = 0;
   for (const node of nodes) {
+    let cPath = node.canonicalPath;
+    if (seenPaths.has(cPath)) {
+      let suffix = 2;
+      while (seenPaths.has(`${cPath}-dup${suffix}`)) {
+        suffix++;
+      }
+      cPath = `${cPath}-dup${suffix}`;
+    }
+    seenPaths.add(cPath);
+
     const row = await prisma.provision.create({
       data: {
         legalInstrumentId,
@@ -66,7 +77,7 @@ async function seedProvisionTree(
         orderIndex: node.orderIndex,
         label: node.label,
         title: node.title ?? null,
-        canonicalPath: node.canonicalPath,
+        canonicalPath: cPath,
       },
     });
     if (node.content.trim() || node.type === 'BAB' || node.type === 'BUKU') {
@@ -80,7 +91,7 @@ async function seedProvisionTree(
         },
       });
     }
-    count += 1 + (await seedProvisionTree(legalInstrumentId, node.children ?? [], row.id));
+    count += 1 + (await seedProvisionTree(legalInstrumentId, node.children ?? [], row.id, seenPaths));
   }
   return count;
 }

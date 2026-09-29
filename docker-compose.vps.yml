@@ -1,4 +1,6 @@
 # Docker Compose untuk Deployment VPS / Uji Coba Staging SIPAKA
+# Mode Isolasi Mutlak: Aman dijalankan bersamaan dengan platform operasional perusahaan lain.
+
 services:
   mariadb:
     image: mariadb:10.11
@@ -7,10 +9,20 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-sipaka_secret_2026}
       MYSQL_DATABASE: sipaka_db
+    # Port MariaDB SIPAKA diubah ke 13307 agar TIDAK MEMBENTROK port 3306 milik database perusahaan
     ports:
-      - "127.0.0.1:3306:3306"
+      - "127.0.0.1:${SIPAKA_DB_PORT:-13307}:3306"
     volumes:
-      - mariadb_data:/var/lib/mysql
+      - sipaka_mariadb_data:/var/lib/mysql
+      - ./init-db:/docker-entrypoint-initdb.d:ro
+    networks:
+      - sipaka-network
+    # Batasi memori agar tidak menguras RAM server perusahaan
+    deploy:
+      resources:
+        limits:
+          cpus: '0.60'
+          memory: 512M
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 10s
@@ -33,15 +45,23 @@ services:
       CORS_ORIGIN: ${CORS_ORIGIN:-*}
       NODE_ENV: production
       DEMO_FALLBACK: "false"
+    # Port API menggunakan 4080 (tidak tabrakan dengan port 4000/8080/3000 milik perusahaan)
     ports:
-      - "127.0.0.1:4000:4000"
+      - "${SIPAKA_API_PORT:-4080}:4000"
+    networks:
+      - sipaka-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.60'
+          memory: 384M
 
   web:
     build:
       context: .
       dockerfile: Dockerfile.web
       args:
-        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4000}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4080}
     container_name: sipaka-web
     restart: always
     depends_on:
@@ -49,8 +69,16 @@ services:
     environment:
       NODE_ENV: production
       PORT: 3000
+    # Port Web menggunakan 3080 (tidak tabrakan dengan port 3000/80 milik perusahaan)
     ports:
-      - "127.0.0.1:3000:3000"
+      - "${SIPAKA_WEB_PORT:-3080}:3000"
+    networks:
+      - sipaka-network
+    deploy:
+      resources:
+        limits:
+          cpus: '0.60'
+          memory: 512M
 
   # Backup Otomatis Database MariaDB setiap 12 Jam
   db-backup:
@@ -64,6 +92,12 @@ services:
       MYSQL_PWD: ${MYSQL_ROOT_PASSWORD:-sipaka_secret_2026}
     volumes:
       - ./backups:/backups
+    networks:
+      - sipaka-network
+    deploy:
+      resources:
+        limits:
+          memory: 128M
     entrypoint: >
       sh -c "while true; do
         mysqldump -h mariadb -u root sipaka_db | gzip > /backups/sipaka_db_$$(date +%Y%m%d_%H%M).sql.gz;
@@ -71,5 +105,11 @@ services:
         sleep 43200;
       done"
 
+networks:
+  sipaka-network:
+    name: sipaka-isolated-network
+    driver: bridge
+
 volumes:
-  mariadb_data:
+  sipaka_mariadb_data:
+    name: sipaka_mariadb_isolated_data

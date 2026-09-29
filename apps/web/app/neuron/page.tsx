@@ -174,7 +174,82 @@ export default function LegalNeuronPage() {
       </header>
 
       {/* Main */}
-      <main className="flex-1 max-w-7xl mx-auto w-full p-6">
+      <main className="flex-1 max-w-7xl mx-auto w-full p-6 space-y-6">
+        {/* Dynamic Contextual Guide Banner */}
+        {activeTab === 'TREE' ? (
+          <div className="bg-gradient-to-r from-red-50/80 via-white to-slate-50 border border-red-100/80 rounded-2xl p-5 shadow-xs">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+              <div className="space-y-1.5 max-w-3xl">
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center gap-1 text-[11px] font-mono font-bold uppercase tracking-wider text-[#94191C] bg-red-100/70 px-2 py-0.5 rounded">
+                    Panduan Silsilah Hukum
+                  </span>
+                  <span className="text-xs text-slate-500 font-medium">
+                    Teori Jenjang Norma (Stufenbautheorie)
+                  </span>
+                </div>
+                <h2 className="text-base font-bold text-slate-900">
+                  Untuk apa Peta Silsilah Regulasi ini?
+                </h2>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Peta Silsilah memvisualisasikan <strong>garis keturunan hukum</strong> dari suatu Undang-Undang. Di Indonesia, sebuah UU Induk kerap mengalami perubahan berkali-kali melalui UU Perubahan (Amandemen) atau pengujian di Mahkamah Konstitusi (MK). Melalui peta ini, Anda dapat melacak akar kelahiran norma, setiap titik perubahannya, dan memastikan naskah yang Anda telaah merupakan hukum positif yang sah berlaku.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap md:flex-col gap-2 shrink-0 text-[11px]">
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-slate-500" />
+                  <span className="text-slate-700"><strong>UU Induk:</strong> Naskah fondasi awal</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+                  <span className="text-slate-700"><strong>UU Amandemen:</strong> Perubahan materi pasal</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#94191C]" />
+                  <span className="text-slate-700"><strong>Putusan MK:</strong> Koreksi konstitusionalitas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="bg-gradient-to-r from-indigo-50/80 via-white to-slate-50 border border-indigo-100/80 rounded-2xl p-5 shadow-xs">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+              <div className="space-y-1.5 max-w-3xl">
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center gap-1 text-[11px] font-mono font-bold uppercase tracking-wider text-indigo-700 bg-indigo-100/70 px-2 py-0.5 rounded">
+                    Audit Harmonisasi Regulasi
+                  </span>
+                  <span className="text-xs text-slate-500 font-medium">
+                    Sinkronisasi Vertikal &amp; Horizontal
+                  </span>
+                </div>
+                <h2 className="text-base font-bold text-slate-900">
+                  Untuk apa Matriks Harmonisasi ini?
+                </h2>
+                <p className="text-xs text-slate-600 leading-relaxed">
+                  Matriks Harmonisasi mendeteksi <strong>benturan aturan (disharmoni)</strong> setelah suatu UU diubah. Ketika tingkat UU diperbarui, peraturan pelaksana di bawahnya (Peraturan Pemerintah/Permen) sering kali terlambat disesuaikan, atau terjadi tumpang tindih dengan undang-undang lainnya. Matriks ini mengaudit pasal-pasal rawan agar praktisi hukum dan pembentuk kebijakan terhindar dari penerapan norma yang telah kedaluwarsa.
+                </p>
+              </div>
+
+              <div className="flex flex-wrap md:flex-col gap-2 shrink-0 text-[11px]">
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-rose-500" />
+                  <span className="text-slate-700"><strong>Kekosongan Delegasi:</strong> PP/Permen belum diterbitkan</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
+                  <span className="text-slate-700"><strong>Konflik Norma:</strong> Aturan turunan lama bertentangan</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200/80 shadow-2xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-blue-500" />
+                  <span className="text-slate-700"><strong>Perubahan Asas:</strong> Transisi sanksi / hukum acara</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         {isLoading ? (
           <div className="flex items-center justify-center h-64 text-slate-400 gap-2">
             <Loader2 className="w-5 h-5 animate-spin" />

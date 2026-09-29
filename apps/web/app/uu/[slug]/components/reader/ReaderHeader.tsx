@@ -27,156 +27,171 @@ interface ReaderHeaderProps {
 
 export default function ReaderHeader(p: ReaderHeaderProps) {
   return (
-    <header className="h-16 bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-5 flex items-center justify-between z-20 shrink-0 shadow-2xs">
-      <div className="flex items-center gap-3.5">
-        <Link
-          href="/katalog"
-          title="Kembali ke Katalog JDIH"
-          className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-1.5 text-xs font-semibold"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          <span className="hidden sm:inline">Katalog</span>
-        </Link>
-        <div>
-          <h1 className="font-sans font-bold text-sm text-slate-900 leading-tight flex items-center gap-2">
-            {p.meta ? `UU No. ${p.meta.number} Tahun ${p.meta.year}` : 'Memuat Peraturan…'}
-            {p.meta?.shortTitle && (
-              <span className="text-slate-500 font-normal">({p.meta.shortTitle})</span>
-            )}
-          </h1>
-          <p className="text-xs text-slate-500 flex items-center gap-1.5 mt-0.5">
-            <span className={`inline-block w-2 h-2 rounded-full ${p.meta?.status === 'BERLAKU' ? 'bg-emerald-500' : 'bg-amber-500'}`} />
-            <span className="font-medium text-slate-600">
-              {p.selectedTimeline ? timelineTitle(p.meta, p.selectedTimeline) : 'Menghubungkan ke API…'}
-            </span>
-            {p.meta?.amendments && p.meta.amendments.length > 0 && (
-              <span className="hidden xl:inline text-[11px] font-mono font-medium text-slate-400 border-l border-slate-200 pl-2">
-                Telah diubah {p.meta.amendments.length} kali
+    <div className="z-20 shrink-0 flex flex-col bg-white border-b border-slate-200/90 shadow-2xs">
+      {/* ── 1. Header Utama (Navigasi, Judul & Kontrol Pembaca) ── */}
+      <header className="h-14 px-4 sm:px-6 flex items-center justify-between gap-4">
+        {/* Sisi Kiri: Tombol Kembali & Judul UU */}
+        <div className="flex items-center gap-3 min-w-0">
+          <Link
+            href="/katalog"
+            title="Kembali ke Katalog JDIH"
+            className="p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-1.5 text-xs font-semibold shrink-0"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            <span className="hidden sm:inline">Katalog</span>
+          </Link>
+          <div className="min-w-0">
+            <h1 className="font-sans font-bold text-sm text-slate-900 leading-tight truncate flex items-center gap-2">
+              {p.meta ? `UU No. ${p.meta.number} Tahun ${p.meta.year}` : 'Memuat Peraturan…'}
+              {p.meta?.shortTitle && (
+                <span className="text-slate-500 font-normal">({p.meta.shortTitle})</span>
+              )}
+            </h1>
+            <p className="text-xs text-slate-500 flex items-center gap-1.5 mt-0.5 truncate">
+              <span className={`inline-block w-2 h-2 rounded-full shrink-0 ${p.meta?.status === 'BERLAKU' ? 'bg-emerald-500' : 'bg-amber-500'}`} />
+              <span className="font-medium text-slate-600 truncate">
+                {p.selectedTimeline ? timelineTitle(p.meta, p.selectedTimeline) : 'Menghubungkan ke API…'}
               </span>
-            )}
-          </p>
+              {p.meta?.amendments && p.meta.amendments.length > 0 && (
+                <span className="hidden xl:inline text-[11px] font-mono font-medium text-slate-400 border-l border-slate-200 pl-2">
+                  Telah diubah {p.meta.amendments.length} kali
+                </span>
+              )}
+            </p>
+          </div>
         </div>
-      </div>
 
-      {/* Timeline Switcher Titik Waktu Berbasis Peristiwa Regulasi */}
-      {!p.showRiwayat && !p.isCompareMode && (
-        <div className="hidden md:flex items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200/80 text-xs font-medium">
-          <span className="text-slate-500 px-2 text-[10px] font-mono font-bold tracking-wider uppercase">Titik Perubahan:</span>
-          {p.years.map((year, idx) => {
-            const isSelected = p.selectedTimeline === year;
-            const btnLabel = eventTimelineLabel(p.meta, year, idx);
-            return (
+        {/* Sisi Kanan: Action Controls & Tools (Tipografi, Unduh PDF Ramping, Peta Silsilah, User) */}
+        <div className="flex items-center gap-2 shrink-0">
+          {/* Format & Tipografi Naskah */}
+          <div className="hidden md:flex items-center gap-1 bg-slate-100 p-1 rounded-xl border border-slate-200/80 text-xs">
+            <div className="flex items-center bg-white rounded-lg p-0.5 border border-slate-200 shadow-2xs">
               <button
-                key={year}
-                onClick={() => p.setSelectedTimeline(year)}
-                className={`px-3 py-1.5 rounded-lg text-xs transition-all cursor-pointer whitespace-nowrap ${
-                  isSelected
-                    ? 'bg-[#94191C] text-white shadow-xs font-semibold'
-                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
-                }`}
-                title={`Beralih ke naskah hukum positif ${btnLabel}`}
+                onClick={() => p.setFontSize((prev) => (prev === 'xl' ? 'lg' : prev === 'lg' ? 'base' : 'sm'))}
+                disabled={p.fontSize === 'sm'}
+                className="px-1.5 py-0.5 text-slate-600 hover:text-slate-900 disabled:opacity-30 font-bold text-xs cursor-pointer"
+                title="Perkecil Ukuran Huruf (A-)"
               >
-                {btnLabel}
+                A-
               </button>
-            );
-          })}
-        </div>
-      )}
+              <span className="text-[10px] font-mono font-bold px-1 text-slate-500 select-none">
+                {p.fontSize === 'sm' ? '85%' : p.fontSize === 'base' ? '100%' : p.fontSize === 'lg' ? '115%' : '130%'}
+              </span>
+              <button
+                onClick={() => p.setFontSize((prev) => (prev === 'sm' ? 'base' : prev === 'base' ? 'lg' : 'xl'))}
+                disabled={p.fontSize === 'xl'}
+                className="px-1.5 py-0.5 text-slate-600 hover:text-slate-900 disabled:opacity-30 font-bold text-xs cursor-pointer"
+                title="Perbesar Ukuran Huruf (A+)"
+              >
+                A+
+              </button>
+            </div>
 
-      {/* Action Controls */}
-      <div className="flex items-center gap-2">
-        {/* Format & Tipografi Naskah */}
-        <div className="hidden lg:flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl border border-slate-200/80 text-xs">
-          <div className="flex items-center bg-white rounded-lg p-0.5 border border-slate-200 shadow-2xs">
             <button
-              onClick={() => p.setFontSize((prev) => (prev === 'xl' ? 'lg' : prev === 'lg' ? 'base' : 'sm'))}
-              disabled={p.fontSize === 'sm'}
-              className="px-2 py-0.5 text-slate-600 hover:text-slate-900 disabled:opacity-30 font-bold text-xs cursor-pointer"
-              title="Perkecil Ukuran Huruf (A-)"
+              onClick={() => p.setFontType((prev) => (prev === 'serif' ? 'sans' : 'serif'))}
+              className="px-2 py-1 rounded-lg bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-medium text-xs transition-colors cursor-pointer shadow-2xs"
+              title="Ganti Tipografi Serif / Sans"
             >
-              A-
+              {p.fontType === 'serif' ? 'Serif' : 'Sans'}
             </button>
-            <span className="text-[10px] font-mono font-bold px-1.5 text-slate-500 select-none">
-              {p.fontSize === 'sm' ? '85%' : p.fontSize === 'base' ? '100%' : p.fontSize === 'lg' ? '115%' : '130%'}
-            </span>
+
             <button
-              onClick={() => p.setFontSize((prev) => (prev === 'sm' ? 'base' : prev === 'base' ? 'lg' : 'xl'))}
-              disabled={p.fontSize === 'xl'}
-              className="px-2 py-0.5 text-slate-600 hover:text-slate-900 disabled:opacity-30 font-bold text-xs cursor-pointer"
-              title="Perbesar Ukuran Huruf (A+)"
+              onClick={() => p.setShowAnnotations(!p.showAnnotations)}
+              className={`px-2 py-1 rounded-lg border text-xs font-semibold transition-colors cursor-pointer shadow-2xs ${
+                p.showAnnotations
+                  ? 'bg-amber-50 text-amber-900 border-amber-300'
+                  : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
+              }`}
+              title="Toggle garis penanda perubahan"
             >
-              A+
+              {p.showAnnotations ? 'Anotasi ON' : 'Anotasi OFF'}
             </button>
           </div>
 
-          <button
-            onClick={() => p.setFontType((prev) => (prev === 'serif' ? 'sans' : 'serif'))}
-            className="px-2 py-1 rounded-lg bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-medium text-xs transition-colors cursor-pointer shadow-2xs"
-            title="Ganti Tipografi Serif / Sans"
-          >
-            {p.fontType === 'serif' ? 'Serif' : 'Sans'}
-          </button>
+          {/* Unduh PDF LNRI (Ramping, Minimalis & Elegan) */}
+          {p.meta?.pdfUrl && (
+            <a
+              href={p.meta.pdfUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 hover:border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-[#94191C] text-xs font-medium transition-colors shadow-2xs cursor-pointer"
+              title="Unduh Salinan Otentik Lembaran Negara RI Resmi (Sumber JDIH BPK)"
+            >
+              <Download className="w-3.5 h-3.5 text-slate-500" />
+              <span className="hidden sm:inline">PDF LNRI</span>
+            </a>
+          )}
 
-          <button
-            onClick={() => p.setShowAnnotations(!p.showAnnotations)}
-            className={`px-2 py-1 rounded-lg border text-xs font-semibold transition-colors cursor-pointer shadow-2xs ${
-              p.showAnnotations
-                ? 'bg-amber-50 text-amber-900 border-amber-300'
-                : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
-            }`}
-            title="Toggle garis penanda perubahan"
+          {/* Tombol Peta Silsilah */}
+          <Link
+            href={`/neuron?id=${p.slug}`}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 text-white hover:bg-slate-800 text-xs font-semibold transition-all shadow-xs"
+            title="Lihat Pohon Silsilah & Hubungan Antar-Regulasi"
           >
-            {p.showAnnotations ? 'Anotasi ON' : 'Anotasi OFF'}
-          </button>
+            <Network className="w-3.5 h-3.5 text-amber-400" />
+            <span className="hidden sm:inline">Peta Silsilah</span>
+          </Link>
+
+          {/* Akun Pengguna */}
+          {p.currentUser ? (
+            <Link
+              href="/masuk"
+              className="inline-flex items-center gap-2 px-2.5 py-1.5 rounded-xl bg-red-50 text-[#94191C] font-semibold text-xs border border-red-200 hover:bg-red-100 transition-colors shadow-2xs"
+            >
+              <span className="w-2 h-2 rounded-full bg-emerald-500 ring-2 ring-emerald-200" />
+              <span className="max-w-[90px] truncate">{p.currentUser.name}</span>
+            </Link>
+          ) : (
+            <Link
+              href="/masuk"
+              className="px-3 py-1.5 rounded-xl bg-white text-slate-700 hover:text-slate-900 hover:bg-slate-50 text-xs font-semibold border border-slate-200 transition-colors shadow-2xs"
+            >
+              Masuk
+            </Link>
+          )}
         </div>
+      </header>
 
-        {p.meta?.pdfUrl && (
-          <a
-            href={p.meta.pdfUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-red-200 bg-red-50/70 hover:bg-red-100 text-[#94191C] text-xs font-bold transition-all shadow-2xs cursor-pointer"
-            title="Unduh berkas PDF resmi Lembaran Negara RI (sumber JDIH BPK)"
-          >
-            <Download className="w-3.5 h-3.5 text-[#94191C]" />
-            <span className="hidden xl:inline">Unduh PDF LNRI</span>
-          </a>
-        )}
+      {/* ── 2. Sub-Header: Linimasa Titik Perubahan (Bilah Slider di Bawah Header) ── */}
+      {!p.showRiwayat && !p.isCompareMode && p.years.length > 0 && (
+        <div className="bg-slate-50/90 border-t border-slate-200/70 px-4 sm:px-6 py-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 overflow-x-auto no-scrollbar">
+          <div className="flex items-center gap-2 shrink-0">
+            <span className="text-[11px] font-mono font-bold tracking-wider text-slate-500 uppercase flex items-center gap-1.5">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#94191C]" />
+              Titik Perubahan Hukum:
+            </span>
+            <div className="flex items-center gap-1.5 overflow-x-auto py-0.5">
+              {p.years.map((year, idx) => {
+                const isSelected = p.selectedTimeline === year;
+                const btnLabel = eventTimelineLabel(p.meta, year, idx);
+                return (
+                  <button
+                    key={year}
+                    onClick={() => p.setSelectedTimeline(year)}
+                    className={`px-3 py-1.5 rounded-xl text-xs transition-all cursor-pointer whitespace-nowrap flex items-center gap-1.5 ${
+                      isSelected
+                        ? 'bg-[#94191C] text-white font-bold shadow-md shadow-red-950/20 ring-1 ring-[#94191C]'
+                        : 'bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 font-medium'
+                    }`}
+                    title={`Lihat naskah hukum positif berlaku ${btnLabel}`}
+                  >
+                    <span>{btnLabel}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
 
-        <Link
-          href="/pipeline"
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold transition-all shadow-2xs"
-          title="Buka Simulasi Pipeline Ingestion & AST Parsing"
-        >
-          <Cpu className="w-3.5 h-3.5 text-[#94191C]" />
-          <span className="hidden sm:inline">Pipeline ETL</span>
-        </Link>
-
-        <Link
-          href={`/neuron?id=${p.slug}`}
-          className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 text-white hover:bg-slate-800 border border-slate-800 text-xs font-semibold transition-all shadow-xs"
-        >
-          <Network className="w-3.5 h-3.5 text-amber-400" />
-          <span className="hidden sm:inline">Peta Silsilah</span>
-        </Link>
-
-        {p.currentUser ? (
-          <Link
-            href="/masuk"
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-50 text-[#94191C] font-semibold text-xs border border-red-200 hover:bg-red-100 transition-colors shadow-2xs"
-          >
-            <span className="w-2 h-2 rounded-full bg-emerald-500 ring-2 ring-emerald-200" />
-            <span className="max-w-[100px] truncate">{p.currentUser.name}</span>
-          </Link>
-        ) : (
-          <Link
-            href="/masuk"
-            className="px-3 py-1.5 rounded-xl bg-white text-slate-700 hover:text-slate-900 hover:bg-slate-50 text-xs font-semibold border border-slate-200 transition-colors shadow-2xs"
-          >
-            Masuk
-          </Link>
-        )}
-      </div>
-    </header>
+          {p.meta?.amendments && p.meta.amendments.length > 0 && (
+            <div className="text-[11px] font-mono text-slate-500 flex items-center gap-1.5 shrink-0 sm:ml-auto">
+              <span>Status Naskah:</span>
+              <strong className="text-slate-700">
+                {p.meta.amendments.length} Amandemen Telah Dikodifikasi
+              </strong>
+            </div>
+          )}
+        </div>
+      )}
+    </div>
   );
 }

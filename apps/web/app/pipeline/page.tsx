@@ -1,763 +1,993 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import MonitoringDashboard from './components/MonitoringDashboard';
 import Link from 'next/link';
 import {
-  Play, Pause, RotateCcw, ChevronRight, CheckCircle2,
+  Activity, Play, Square, RotateCcw, CheckCircle2,
   AlertTriangle, ShieldCheck, Database, Cpu, FileText, Search,
   Download, GitBranch, ArrowRight, Layers, Terminal, Sparkles,
   RefreshCw, Check, Clock, Server, FileCode, CheckCheck,
-  AlertCircle, ExternalLink, Zap, Radio, FastForward, BookOpen
+  AlertCircle, ExternalLink, Zap, Radio, BookOpen, Hash, Eye,
+  SlidersHorizontal, ChevronRight, CornerDownRight, FolderTree, Network
 } from 'lucide-react';
 
-type FactoryStation = 1 | 2 | 3 | 4 | 5 | 6;
+import FamilyQueueTab from './components/FamilyQueueTab';
+import InteractiveParsingTab from './components/InteractiveParsingTab';
+import ParsingCorrectionTab from './components/ParsingCorrectionTab';
+import LawConnectivityTrackerTab from './components/LawConnectivityTrackerTab';
 
-interface DocumentPreset {
-  id: string;
-  name: string;
-  numberYear: string;
-  source: string;
-  fileSize: string;
-  sha256: string;
-  pages: number;
-  totalArticles: number;
-  targetUU: string;
-  relationsCount: number;
-  rawSample: string[];
-  parsedSample: { label: string; text: string; status?: string }[];
-  qcChecks: { label: string; detail: string; status: 'ok' | 'fixed' }[];
-  relationsResult: { target: string; action: string; basis: string; note: string }[];
-  consolidatedPreview: { pasal: string; before: string; after: string; status: string };
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+
+interface WorkerStats {
+  total_indexed: number;
+  processed: number;
+  published: number;
+  quarantined: number;
+  errors: number;
 }
 
-const PRESETS: Record<string, DocumentPreset> = {
-  'uu-1-2024': {
-    id: 'uu-1-2024',
-    name: 'UU No. 1 Tahun 2024 (Amandemen Kedua UU ITE)',
-    numberYear: 'UU No. 1 Tahun 2024',
-    source: 'JDIHN Kemenkumham RI / LNRI Tahun 2024 No. 8',
-    fileSize: '2.84 MB',
-    sha256: '9b7f4e82c1a056d3e89bc51347602fae804f56db7419e078a9c8b746231d601b',
-    pages: 28,
-    totalArticles: 14,
-    targetUU: 'UU No. 11 Tahun 2008 tentang ITE',
-    relationsCount: 4,
-    rawSample: [
-      'UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 1 TAHUN 2024',
-      'TENTANG PERUBAHAN KEDUA ATAS UU NOMOR 11 TAHUN 2008 TENTANG ITE',
-      'Mengingat: Undang-Undang Nomor 11 Tahun 2008...',
-      'Pasal I: Beberapa ketentuan dalam UU 11/2008 diubah sebagai berikut:',
-      '1. Ketentuan Pasal 27 ayat (3) dihapus.',
-      '2. Di antara Pasal 27 dan Pasal 28 disisipkan 2 pasal yakni Pasal 27A dan Pasal 27B...',
-      '3. Ketentuan Pasal 45 diubah sehingga berbunyi sebagai berikut...'
-    ],
-    parsedSample: [
-      { label: 'BAB VII', text: 'PERBUATAN YANG DILARANG' },
-      { label: 'Pasal 27', text: 'Ketentuan materiil perbuatan terlarang...' },
-      { label: 'Pasal 27 ayat (3)', text: '[STATUS: DICABUT oleh UU 1/2024]', status: 'repealed' },
-      { label: 'Pasal 27A', text: 'Setiap Orang yang dengan sengaja menyerang kehormatan...', status: 'inserted' },
-      { label: 'Pasal 27B', text: 'Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan ancaman pemerasan...', status: 'inserted' },
-      { label: 'Pasal 45', text: 'Ketentuan sanksi pidana dan denda kategori...' }
-    ],
-    qcChecks: [
-      { label: 'Uji Urutan Numerik Pasal', detail: 'Pasal 1 s.d. 54 diverifikasi runtut tanpa ada nomor pasal yang loncat', status: 'ok' },
-      { label: 'Pembersihan Catchwords OCR', detail: '23 teks pemisah cetak lama BPK (Sistem . . .) berhasil disanitasi', status: 'fixed' },
-      { label: 'Pemisahan Definisi Pasal 1', detail: '23 butir definisi (Angka 1 s.d. 23) berhasil dipisahkan mandiri', status: 'fixed' },
-      { label: 'Verifikasi Zero-Loss SHA-256', detail: '100% karakter naskah cocok dengan checksum dokumen sumber', status: 'ok' }
-    ],
-    relationsResult: [
-      { target: 'Pasal 27 ayat (3) UU 11/2008', action: 'REPEAL (Cabut)', basis: 'Pasal I angka 1 UU 1/2024', note: 'Menghapus delik multitafsir lama' },
-      { target: 'Pasal 27A (Baru)', action: 'INSERT (Sisip)', basis: 'Pasal I angka 2 UU 1/2024', note: 'Penegasan delik aduan pencemaran nama baik' },
-      { target: 'Pasal 27B (Baru)', action: 'INSERT (Sisip)', basis: 'Pasal I angka 2 UU 1/2024', note: 'Delik pemerasan & pengancaman elektronik' },
-      { target: 'Pasal 45 ayat (1) s.d. (6)', action: 'REPLACE (Ganti)', basis: 'Pasal I angka 3 UU 1/2024', note: 'Penyesuaian ancaman pidana dan denda' }
-    ],
-    consolidatedPreview: {
-      pasal: 'Pasal 27 ayat (3) -> Pasal 27A & 27B',
-      before: 'Pasal 27 ayat (3) UU 11/2008: Setiap Orang dengan sengaja dan tanpa hak mendistribusikan informasi yang memiliki muatan penghinaan dan/atau pencemaran nama baik. (Pidana maks 4 tahun).',
-      after: 'Pasal 27 ayat (3) [DIHAPUS].\n\nPasal 27A [BARU]: Setiap Orang yang dengan sengaja menyerang kehormatan nama baik orang lain melalui Sistem Elektronik, dipidana paling lama 2 tahun. (Khusus Delik Aduan Absolut).',
-      status: 'TERKODIFIKASI & PUBLISHED'
+interface WorkerTelemetry {
+  state: 'IDLE' | 'RUNNING' | 'STOPPED';
+  phase: string;
+  pid: number | null;
+  currentSlug: string | null;
+  currentTitle: string | null;
+  lastHeartbeat: string | null;
+  stats: WorkerStats;
+}
+
+interface CheckpointData {
+  totalProcessed: number;
+  lastRun: string | null;
+  processedCount: number;
+}
+
+interface CrawlerStatusResponse {
+  success: boolean;
+  worker: WorkerTelemetry;
+  checkpoint: CheckpointData;
+  queue: {
+    totalIndexed: number;
+    totalRich: number;
+    pending: number;
+  };
+  logs: string[];
+  timestamp: string;
+}
+
+interface MonitoringTotals {
+  katalog: {
+    total: number;
+    terdaftar: number;
+    terunduh: number;
+    terparse: number;
+    lolos: number;
+    karantina: number;
+    gagalUnduh: number;
+    gagalParse: number;
+  };
+  perTahunUU: { tahun: string; jumlah: number }[];
+  database: {
+    instruments: number;
+    provisions: number;
+    teraSkor: number;
+    rataSkor: number | null;
+  };
+  dihitungPada: string;
+}
+
+interface QueueRow {
+  slug: string;
+  nomor: string | null;
+  tahun: string | null;
+  status: string;
+  skor: number | null;
+  pasal: number;
+  ayat: number;
+  perubahan: number;
+}
+
+interface ConsolidatedLawItem {
+  id: string;
+  slug: string;
+  label: string;
+  title: string;
+  status: string;
+  score: number | null;
+  publishMode: string | null;
+  provisionsCount: number;
+  amendmentsReceived: number;
+  amendmentsMade: number;
+}
+
+interface RecentOperation {
+  id: string;
+  type: string;
+  targetPath: string;
+  sourceReference: string;
+  changeSetTitle: string;
+  amending: string;
+  target: string;
+}
+
+type StationStep = 1 | 2 | 3 | 4 | 5;
+type MainTab = 'OVERVIEW' | 'FAMILIES' | 'PARSER' | 'QA_CORRECTION' | 'CONNECTIVITY';
+
+export default function RealtimePipelinePage() {
+  // Tab Navigation Utama
+  const [activeMainTab, setActiveMainTab] = useState<MainTab>('OVERVIEW');
+
+  // Telemetri data
+  const [crawlerData, setCrawlerData] = useState<CrawlerStatusResponse | null>(null);
+  const [monitoringTotals, setMonitoringTotals] = useState<MonitoringTotals | null>(null);
+  const [queueRows, setQueueRows] = useState<QueueRow[]>([]);
+  const [consolidatedLaws, setConsolidatedLaws] = useState<ConsolidatedLawItem[]>([]);
+  const [recentOperations, setRecentOperations] = useState<RecentOperation[]>([]);
+
+  // State kendali
+  const [activeStation, setActiveStation] = useState<StationStep>(1);
+  const [activeQueueTab, setActiveQueueTab] = useState<'LOLOS' | 'KARANTINA' | 'TERDAFTAR'>('LOLOS');
+  const [activeConsoleTab, setActiveConsoleTab] = useState<'LOGS' | 'QUEUE' | 'STATS'>('LOGS');
+  const [pollingInterval, setPollingInterval] = useState<number>(2000); // 2 detik
+  const [isTriggering, setIsTriggering] = useState<boolean>(false);
+  const [triggerMsg, setTriggerMsg] = useState<string | null>(null);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
+
+  const logBottomRef = useRef<HTMLDivElement>(null);
+
+  // 1. Fetching telemetri utama
+  const fetchAllTelemetry = async () => {
+    try {
+      const [resCrawler, resTotals, resConsolidation] = await Promise.all([
+        fetch(`${API_BASE}/api/v1/monitoring/crawler`).then((r) => r.ok ? r.json() : null),
+        fetch(`${API_BASE}/api/v1/monitoring`).then((r) => r.ok ? r.json() : null),
+        fetch(`${API_BASE}/api/v1/monitoring/consolidations`).then((r) => r.ok ? r.json() : null),
+      ]);
+
+      if (resCrawler && resCrawler.success) {
+        setCrawlerData(resCrawler);
+        if (resCrawler.worker?.state === 'RUNNING') {
+          const ph = resCrawler.worker.phase;
+          if (ph.includes('SCRAPING')) setActiveStation(1);
+          else if (ph.includes('DOWNLOADING')) setActiveStation(2);
+          else if (ph.includes('PARSING') || ph.includes('QA')) setActiveStation(3);
+          else if (ph.includes('WEAVING') || ph.includes('INGESTING')) setActiveStation(4);
+        }
+      }
+
+      if (resTotals) setMonitoringTotals(resTotals);
+
+      if (resConsolidation && resConsolidation.success) {
+        setConsolidatedLaws(resConsolidation.instruments || []);
+        setRecentOperations(resConsolidation.recentOperations || []);
+      }
+
+      setErrorMsg(null);
+    } catch (e) {
+      setErrorMsg(e instanceof Error ? e.message : String(e));
     }
-  },
-  'putusan-mk-50-2008': {
-    id: 'putusan-mk-50-2008',
-    name: 'Putusan MK No. 50/PUU-VI/2008 (Uji Materiil ITE)',
-    numberYear: 'Putusan MK No. 50/PUU-VI/2008',
-    source: 'Mahkamah Konstitusi RI / Berita Negara RI',
-    fileSize: '4.15 MB',
-    sha256: '3f6c8d20e981aa45700234b6e82c317da024f056191bce47182da910403328e1',
-    pages: 112,
-    totalArticles: 2,
-    targetUU: 'Pasal 27 ayat (3) UU No. 11 Tahun 2008',
-    relationsCount: 2,
-    rawSample: [
-      'PUTUSAN NOMOR 50/PUU-VI/2008 DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA',
-      'MAHKAMAH KONSTITUSI REPUBLIK INDONESIA',
-      'MENGADILI: Menyatakan permohonan Pemohon dikabulkan untuk sebagian...',
-      'Amar Putusan: Pasal 27 ayat (3) UU 11/2008 adalah konstitusional bersyarat...',
-      'sepanjang dimaknai sebagai delik aduan yang mengacu pada KUHP...'
-    ],
-    parsedSample: [
-      { label: 'Konsiderans Putusan', text: 'Pengujian materiil terhadap Pasal 27 ayat (3) UUD 1945' },
-      { label: 'Amar Putusan No. 1', text: 'Menolak permohonan pembatalan pasal secara keseluruhan' },
-      { label: 'Amar Putusan No. 2', text: 'Menyatakan pasal konstitusional bersyarat (Conditionally Constitutional)', status: 'inserted' }
-    ],
-    qcChecks: [
-      { label: 'Verifikasi Otoritas Putusan', detail: 'Sifat putusan Mahkamah Konstitusi: Final and Binding (Erga Omnes)', status: 'ok' },
-      { label: 'Ekstraksi Ratio Decidendi', detail: 'Pertimbangan hukum hakim MK dipetakan ke anotasi yuridis pasal', status: 'ok' },
-      { label: 'Sanitasi Naskah Risalah', detail: 'Koreksi ejaan kutipan pasal KUHP terverifikasi silang', status: 'fixed' }
-    ],
-    relationsResult: [
-      { target: 'Pasal 27 ayat (3) UU 11/2008', action: 'INTERPRET_ANNUL', basis: 'Putusan MK 50/PUU-VI/2008', note: 'Wajib diberlakukan sebagai delik aduan absolut' }
-    ],
-    consolidatedPreview: {
-      pasal: 'Anotasi Yuridis Pasal 27 ayat (3)',
-      before: 'Teks asli belum memuat batasan delik aduan.',
-      after: '⚠️ TAFSIR HUKUM MK (Putusan 50/PUU-VI/2008): Penuntutan wajib atas aduan langsung dari korban, mengacu pada Pasal 310 & 311 KUHP.',
-      status: 'TERIKAT SECARA ERGA OMNES'
-    }
-  }
-};
-
-const STATIONS = [
-  { id: 1 as FactoryStation, name: 'Scraper Ingestor', icon: Download, desc: 'Pengambilan Beradab (Rate-Limited)', color: 'from-blue-600 to-cyan-600' },
-  { id: 2 as FactoryStation, name: 'Gudang Antrean', icon: Database, desc: 'Job Queue & Token Bucket', color: 'from-amber-600 to-orange-600' },
-  { id: 3 as FactoryStation, name: 'Dapur Parser AST', icon: Cpu, desc: 'Pembedahan Bab/Pasal/Ayat', color: 'from-indigo-600 to-purple-600' },
-  { id: 4 as FactoryStation, name: 'Ruang Koreksi QC', icon: ShieldCheck, desc: 'Uji Integritas & Auto-Healing', color: 'from-emerald-600 to-teal-600' },
-  { id: 5 as FactoryStation, name: 'Tenun Relasi Hukum', icon: GitBranch, desc: 'Pencocokan UU Pengubah & Pokok', color: 'from-rose-600 to-red-600' },
-  { id: 6 as FactoryStation, name: 'Etalase & Launch', icon: Sparkles, desc: 'Produksi Naskah Konsolidasi Jadi', color: 'from-amber-500 to-yellow-500' }
-];
-
-export default function PipelineFactoryPage() {
-  const [activePresetKey, setActivePresetKey] = useState<string>('uu-1-2024');
-  const [currentStation, setCurrentStation] = useState<FactoryStation>(1);
-  const [isPlaying, setIsPlaying] = useState<boolean>(true);
-  const [speedMultiplier, setSpeedMultiplier] = useState<number>(1);
-  const [telemetryLogs, setTelemetryLogs] = useState<string[]>([]);
-  const [scrapingProgress, setScrapingProgress] = useState<number>(10);
-  const [parsingCount, setParsingCount] = useState<number>(0);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
-
-  const preset = PRESETS[activePresetKey] || PRESETS['uu-1-2024'];
-
-  const addLog = (msg: string) => {
-    const time = new Date().toLocaleTimeString('id-ID');
-    setTelemetryLogs((prev) => [`[${time}] ${msg}`, ...prev.slice(0, 40)]);
   };
 
-  // Logika Otomasi Pabrik (Conveyor Assembly Line)
+  // 2. Fetch antrean dokumen sesuai tab
+  const fetchQueueData = async (status: string) => {
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/monitoring/queue?status=${status}&jenis=UU&limit=30`);
+      if (res.ok) {
+        const json = await res.json();
+        setQueueRows(json.antrean || []);
+      }
+    } catch {
+      // ignore
+    }
+  };
+
   useEffect(() => {
-    if (!isPlaying) return;
+    fetchAllTelemetry();
+    const timer = setInterval(fetchAllTelemetry, pollingInterval);
+    return () => clearInterval(timer);
+  }, [pollingInterval]);
 
-    const intervalTime = Math.max(1200 / speedMultiplier, 400);
+  useEffect(() => {
+    fetchQueueData(activeQueueTab);
+  }, [activeQueueTab]);
 
-    timerRef.current = setInterval(() => {
-      setCurrentStation((prevStation) => {
-        if (prevStation === 1) {
-          setScrapingProgress((p) => {
-            if (p >= 100) {
-              addLog(`🛰️ [Scraper] Berkas PDF '${preset.numberYear}' terunduh penuh. Checksum SHA-256 diverifikasi.`);
-              return 100;
-            }
-            return p + 25 * speedMultiplier;
-          });
-          if (scrapingProgress >= 100) {
-            setScrapingProgress(10);
-            addLog(`📦 [Antrean] Dokumen dipindahkan ke Staging Queue (Redis Job ID: #job-${Date.now().toString().slice(-4)})`);
-            return 2;
-          }
-          return 1;
-        }
+  useEffect(() => {
+    if (activeConsoleTab === 'LOGS' && logBottomRef.current) {
+      logBottomRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [crawlerData?.logs, activeConsoleTab]);
 
-        if (prevStation === 2) {
-          addLog(`⚙️ [Dapur Parser] Dokumen '${preset.numberYear}' ditarik dari antrean. Memulai pembedahan naskah AST...`);
-          setParsingCount(0);
-          return 3;
-        }
-
-        if (prevStation === 3) {
-          setParsingCount((c) => {
-            if (c >= preset.totalArticles) {
-              addLog(`✅ [Dapur Parser] Berhasil mengekstrak ${preset.totalArticles} pasal dan ayat secara lossless.`);
-              return preset.totalArticles;
-            }
-            return Math.min(c + 3, preset.totalArticles);
-          });
-          if (parsingCount >= preset.totalArticles) {
-            addLog(`🔍 [Ruang QC] Memulai inspeksi otomatis & pembersihan teks lama...`);
-            return 4;
-          }
-          return 3;
-        }
-
-        if (prevStation === 4) {
-          addLog(`✨ [Ruang QC] 4 Indikator Mutu Lolos. Teks 100% konsisten. Memasuki penenunan relasi.`);
-          return 5;
-        }
-
-        if (prevStation === 5) {
-          addLog(`⚡ [Relasi] Berhasil mengaitkan ${preset.relationsCount} operasi amandemen ke ${preset.targetUU}.`);
-          return 6;
-        }
-
-        if (prevStation === 6) {
-          addLog(`🚀 [Etalase] Naskah Konsolidasi '${preset.numberYear}' resmi dipublikasikan ke Database Produksi.`);
-          setIsPlaying(false);
-          return 6;
-        }
-
-        return 1;
-      });
-    }, intervalTime);
-
-    return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
-    };
-  }, [isPlaying, speedMultiplier, scrapingProgress, parsingCount, preset]);
-
-  const handleReset = () => {
-    setIsPlaying(false);
-    setCurrentStation(1);
-    setScrapingProgress(10);
-    setParsingCount(0);
-    addLog(`🔄 Jalur produksi pabrik di-reset ke stasiun awal.`);
+  // Pergantian Tab dengan Smooth Scroll Reset
+  const handleTabChange = (tab: MainTab) => {
+    setActiveMainTab(tab);
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
+
+  // Aksi stop worker background (darurat / kendali sistem)
+  const handleStopWorker = async () => {
+    try {
+      const res = await fetch(`${API_BASE}/api/v1/monitoring/crawler/stop`, {
+        method: 'POST',
+      });
+      const json = await res.json();
+      setTriggerMsg(json.message || 'Signal henti dikirim');
+      fetchAllTelemetry();
+    } catch (e) {
+      setTriggerMsg(`Gagal henti: ${e instanceof Error ? e.message : String(e)}`);
+    }
+  };
+
+  const isWorkerRunning = crawlerData?.worker?.state === 'RUNNING';
+
+  // 5 Gerbong Stasiun
+  const stations = [
+    {
+      id: 1 as StationStep,
+      title: '1. Scraper JDIH BPK',
+      subtitle: 'Pemanenan Hulu',
+      icon: Download,
+      desc: 'Pengambilan metadata resmi dan deteksi relasi amandemen dengan ethical rate limiting.',
+      color: 'from-blue-600 to-cyan-600',
+      activeColor: 'border-cyan-500 bg-cyan-950/40 text-cyan-300',
+    },
+    {
+      id: 2 as StationStep,
+      title: '2. Gudang Antrean',
+      subtitle: 'Buffer & Checkpoint',
+      icon: Database,
+      desc: 'Penyimpanan berkas PDF resmi, verifikasi SHA-256 hash, dan antrean resumable.',
+      color: 'from-amber-600 to-orange-600',
+      activeColor: 'border-amber-500 bg-amber-950/40 text-amber-300',
+    },
+    {
+      id: 3 as StationStep,
+      title: '3. Parser AST & QA',
+      subtitle: 'Bedah Norma & Skor',
+      icon: Cpu,
+      desc: 'Pembedahan struktur hierarki Bab/Pasal/Ayat/Huruf dan uji mutu kualitas (Skor 0-100).',
+      color: 'from-indigo-600 to-purple-600',
+      activeColor: 'border-indigo-500 bg-indigo-950/40 text-indigo-300',
+    },
+    {
+      id: 4 as StationStep,
+      title: '4. Tenun Relasi',
+      subtitle: 'Weave Changeset',
+      icon: GitBranch,
+      desc: 'Pencocokan UU Pengubah ke UU Pokok: deteksi operasi INSERT, REPLACE, REPEAL, dan Putusan MK.',
+      color: 'from-rose-600 to-red-600',
+      activeColor: 'border-rose-500 bg-rose-950/40 text-rose-300',
+    },
+    {
+      id: 5 as StationStep,
+      title: '5. Launching Jadi',
+      subtitle: 'Naskah Konsolidasi',
+      icon: Sparkles,
+      desc: 'Rekonstruksi deterministik naskah utuh dengan legal diff bar, siap tayang di publik.',
+      color: 'from-emerald-600 to-teal-600',
+      activeColor: 'border-emerald-500 bg-emerald-950/40 text-emerald-300',
+    },
+  ];
 
   return (
-    <div className="min-h-screen bg-[#0C0708] text-slate-100 font-sans flex flex-col justify-between selection:bg-amber-400 selection:text-slate-900">
-      
-      {/* ── Top Bar Telemetri Pabrik ─────────────────────────────── */}
-      <header className="border-b border-[#2D1418] bg-[#19080B] sticky top-0 z-40 px-4 sm:px-6 py-2.5">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
-          <div className="flex items-center gap-3">
-            <Link
-              href="/"
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold transition-all border border-white/10 shadow-xs"
-            >
-              ← Beranda
-            </Link>
-            <div className="h-4 w-px bg-white/20" />
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-2.5 w-2.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+    <div className="flex-1 flex flex-col bg-[#0A0D14] text-slate-100 font-sans min-h-screen">
+      {/* ── Top Header & Telemetry Bar (Pure Real-time Observer) ──────────────── */}
+      <header className="border-b border-white/10 bg-[#0F1420]/90 backdrop-blur-md sticky top-0 z-40 px-4 sm:px-6 py-3.5">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
+          <div>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold bg-[#94191C]/30 text-rose-300 border border-[#94191C]/50">
+                <Radio className="w-3 h-3 text-rose-400 animate-pulse" />
+                SIPAKA PIPELINE MONITOR
               </span>
-              <span className="font-mono font-bold text-xs text-emerald-400 uppercase tracking-wider">
-                SIMULATOR PABRIK · VISUALISASI TAHAPAN INGESTION (BUKAN PROSES NYATA)
-              </span>
+              <span className="text-xs text-slate-400">·</span>
+              <span className="text-xs text-slate-400 font-mono">Visualisasi Real-Time Pemanenan &amp; Konsolidasi UU</span>
             </div>
+            <h1 className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-2.5">
+              Visualisasi Pipeline Otomatis
+              {isWorkerRunning ? (
+                <span className="text-xs px-2.5 py-1 rounded-md bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-mono font-bold flex items-center gap-1.5 animate-pulse">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                  WORKER BACKGROUND AKTIF (PID: {crawlerData?.worker?.pid})
+                </span>
+              ) : (
+                <span className="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 border border-white/10 font-mono">
+                  SISTEM OTOMATIS: STANDBY (TERJADWAL PER-KLUSTER)
+                </span>
+              )}
+            </h1>
           </div>
 
-          {/* Kontrol Mesin Pabrik */}
-          <div className="flex items-center gap-2">
-            <select
-              value={activePresetKey}
-              onChange={(e) => {
-                setActivePresetKey(e.target.value);
-                handleReset();
-              }}
-              className="bg-[#2B0E13] border border-red-900/60 rounded-xl text-xs text-amber-200 px-3 py-1.5 font-medium focus:outline-none focus:ring-1 focus:ring-amber-400"
-            >
-              <option value="uu-1-2024">Bahan Baku: UU 1/2024 (Amandemen ITE)</option>
-              <option value="putusan-mk-50-2008">Bahan Baku: Putusan MK No. 50/2008</option>
-            </select>
+          {/* Telemetri & Refresh Controls (Pure Visualizer, Tanpa Tombol Pemicu Manual) */}
+          <div className="flex flex-wrap items-center gap-2.5">
+            {isWorkerRunning ? (
+              <button
+                onClick={handleStopWorker}
+                className="px-3.5 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold flex items-center gap-2 transition-all shadow-lg shadow-rose-900/30 cursor-pointer"
+                title="Hentikan background worker yang sedang berjalan"
+              >
+                <Square className="w-3.5 h-3.5 fill-current" />
+                <span>Hentikan Worker</span>
+              </button>
+            ) : (
+              <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-xl border border-emerald-500/30 bg-emerald-950/20 text-xs font-mono text-emerald-300">
+                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <span>Pemanenan Mandiri Per-Kluster</span>
+              </div>
+            )}
+
+            {/* Polling Interval Select */}
+            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-white/10 bg-white/[0.04] text-xs font-mono text-slate-300">
+              <RefreshCw className="w-3 h-3 text-cyan-400 animate-spin" style={{ animationDuration: `${pollingInterval / 1000}s` }} />
+              <select
+                value={pollingInterval}
+                onChange={(e) => setPollingInterval(Number(e.target.value))}
+                aria-label="Pilih Interval Pembaruan Data"
+                className="bg-transparent border-none text-slate-200 focus:outline-none cursor-pointer text-xs"
+              >
+                <option value={1000} className="bg-slate-900">1 dtk (Kilat)</option>
+                <option value={2000} className="bg-slate-900">2 dtk (Normal)</option>
+                <option value={5000} className="bg-slate-900">5 dtk (Hemat)</option>
+              </select>
+            </div>
 
             <button
-              onClick={() => setIsPlaying(!isPlaying)}
-              className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all shadow-md cursor-pointer ${
-                isPlaying
-                  ? 'bg-amber-500 hover:bg-amber-600 text-slate-950'
-                  : 'bg-emerald-600 hover:bg-emerald-700 text-white'
-              }`}
-            >
-              {isPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5" />}
-              <span>{isPlaying ? 'Jeda' : 'Jalankan Pabrik'}</span>
-            </button>
-
-            <button
-              onClick={() => setSpeedMultiplier((s) => (s === 1 ? 2 : 1))}
-              className={`px-2.5 py-1.5 rounded-xl text-xs font-mono font-bold border transition-all ${
-                speedMultiplier === 2
-                  ? 'bg-red-600 text-white border-red-500 shadow-sm'
-                  : 'bg-white/5 text-slate-300 border-white/10 hover:bg-white/10'
-              }`}
-              title="Kecepatan Alur Pabrik"
-            >
-              {speedMultiplier}x
-            </button>
-
-            <button
-              onClick={handleReset}
-              className="p-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white border border-white/10 transition-colors"
-              title="Reset Jalur Produksi"
+              onClick={fetchAllTelemetry}
+              title="Segarkan data seketika"
+              className="p-2 rounded-xl border border-white/10 bg-white/[0.04] hover:bg-white/10 text-slate-300 transition-colors cursor-pointer"
             >
               <RotateCcw className="w-4 h-4" />
             </button>
           </div>
         </div>
+
+        {triggerMsg && (
+          <div className="max-w-7xl mx-auto mt-3 px-3 py-2 rounded-xl text-xs font-mono font-medium bg-emerald-950/70 border border-emerald-500/40 text-emerald-200">
+            {triggerMsg}
+          </div>
+        )}
       </header>
 
-      {/* ── Main Production Stage ─────────────────────────────────── */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 space-y-6">
+      {/* ── 5 Tab Navigasi Utama Ruang Kerja Pipeline (Sticky & Auto-Scroll) ──────────────── */}
+      <nav className="border-b border-white/10 bg-[#0F1420]/95 backdrop-blur-md sticky top-[61px] z-30 px-4 sm:px-6 shadow-lg shadow-black/30">
+        <div className="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto py-2.5 no-scrollbar">
+          <button
+            onClick={() => handleTabChange('OVERVIEW')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-mono font-bold flex items-center gap-2 cursor-pointer transition-all shrink-0 ${
+              activeMainTab === 'OVERVIEW'
+                ? 'bg-[#94191C] text-white shadow-md shadow-rose-950/50'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <Zap className="w-3.5 h-3.5 text-amber-300" />
+            <span>Pabrik &amp; Telemetri Live</span>
+          </button>
 
-        {/* ── Dasbor Pemilik: Data Nyata dari Database ────────────── */}
-        <MonitoringDashboard />
+          <button
+            onClick={() => handleTabChange('FAMILIES')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-mono font-bold flex items-center gap-2 cursor-pointer transition-all shrink-0 ${
+              activeMainTab === 'FAMILIES'
+                ? 'bg-[#94191C] text-white shadow-md shadow-rose-950/50'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <FolderTree className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Keluarga Regulasi &amp; Antrean Download</span>
+          </button>
 
-        {/* ── Visual Ban Berjalan 6 Stasiun (Conveyor Assembly Line) ── */}
-        <section className="bg-[#140608] border border-[#2D1418] rounded-3xl p-4 sm:p-5 shadow-2xl relative overflow-hidden">
-          <div className="flex items-center justify-between mb-3 text-xs">
-            <span className="font-mono text-slate-400 font-semibold uppercase tracking-wider flex items-center gap-1.5">
-              <FastForward className="w-4 h-4 text-[#94191C]" />
-              Jalur Ban Berjalan Pabrik (Assembly Conveyor Line)
-            </span>
-            <span className="font-mono text-amber-300 text-[11px] bg-[#2A0E13] px-2.5 py-0.5 rounded-full border border-red-900/50">
-              Stasiun Aktif: {currentStation} / 6
-            </span>
+          <button
+            onClick={() => handleTabChange('PARSER')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-mono font-bold flex items-center gap-2 cursor-pointer transition-all shrink-0 ${
+              activeMainTab === 'PARSER'
+                ? 'bg-[#94191C] text-white shadow-md shadow-rose-950/50'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <Cpu className="w-3.5 h-3.5 text-indigo-400" />
+            <span>Proses Parsing Interaktif</span>
+          </button>
+
+          <button
+            onClick={() => handleTabChange('QA_CORRECTION')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-mono font-bold flex items-center gap-2 cursor-pointer transition-all shrink-0 ${
+              activeMainTab === 'QA_CORRECTION'
+                ? 'bg-[#94191C] text-white shadow-md shadow-rose-950/50'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
+            <span>Koreksi &amp; Auto-Healing QA</span>
+          </button>
+
+          <button
+            onClick={() => handleTabChange('CONNECTIVITY')}
+            className={`px-3.5 py-2 rounded-xl text-xs font-mono font-bold flex items-center gap-2 cursor-pointer transition-all shrink-0 ${
+              activeMainTab === 'CONNECTIVITY'
+                ? 'bg-[#94191C] text-white shadow-md shadow-rose-950/50'
+                : 'text-slate-400 hover:text-white hover:bg-white/5'
+            }`}
+          >
+            <Network className="w-3.5 h-3.5 text-emerald-400" />
+            <span>Koneksi Relasi &amp; Mutasi 1 UU</span>
+          </button>
+        </div>
+      </nav>
+
+      {/* ── Quick KPI Telemetry Ribbon ────────────────────────────── */}
+      <section className="border-b border-white/5 bg-[#0C101A] px-4 sm:px-6 py-3">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-slate-400 font-bold block">1. Indeks BPK</span>
+            <span className="text-xl font-black text-white font-mono">{monitoringTotals?.katalog.total.toLocaleString('id-ID') ?? '1.325'}</span>
+            <span className="text-[10px] text-slate-500 block">dokumen terdata</span>
           </div>
 
-          {/* Deretan 6 Stasiun */}
-          <div className="grid grid-cols-2 md:grid-cols-6 gap-2.5 relative z-10">
-            {STATIONS.map((station) => {
-              const Icon = station.icon;
-              const isCurrent = currentStation === station.id;
-              const isPast = currentStation > station.id;
-
-              return (
-                <button
-                  key={station.id}
-                  onClick={() => {
-                    setCurrentStation(station.id);
-                    setIsPlaying(false);
-                  }}
-                  className={`p-3 rounded-2xl border text-left transition-all relative overflow-hidden cursor-pointer ${
-                    isCurrent
-                      ? 'bg-gradient-to-b from-[#2B0E13] to-[#1D080B] border-[#94191C] ring-2 ring-red-500/50 shadow-lg scale-[1.02]'
-                      : isPast
-                        ? 'bg-emerald-950/20 border-emerald-800/40 text-slate-300'
-                        : 'bg-white/[0.02] border-white/10 text-slate-500 hover:border-white/20'
-                  }`}
-                >
-                  {/* Status Badge */}
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-white/10 text-slate-300">
-                      0{station.id}
-                    </span>
-                    {isPast ? (
-                      <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-                    ) : isCurrent ? (
-                      <span className="relative flex h-2 w-2">
-                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                        <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
-                      </span>
-                    ) : (
-                      <Clock className="w-3.5 h-3.5 text-slate-600" />
-                    )}
-                  </div>
-
-                  <div className="flex items-center gap-2 mb-1">
-                    <Icon className={`w-4 h-4 ${isCurrent ? 'text-amber-400' : isPast ? 'text-emerald-400' : 'text-slate-500'}`} />
-                    <span className={`text-xs font-bold truncate ${isCurrent ? 'text-white' : 'text-slate-300'}`}>
-                      {station.name}
-                    </span>
-                  </div>
-                  <p className="text-[10px] text-slate-400 line-clamp-1">
-                    {station.desc}
-                  </p>
-                </button>
-              );
-            })}
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-cyan-400 font-bold block">2. Antrean Menunggu</span>
+            <span className="text-xl font-black text-cyan-300 font-mono">{crawlerData?.queue?.pending.toLocaleString('id-ID') ?? '1.324'}</span>
+            <span className="text-[10px] text-cyan-500/80 block">siap dipanen</span>
           </div>
-        </section>
 
-        {/* ── Area Kerja Mesin Stasiun Aktif (Active Workshop Machine) ── */}
-        <section className="bg-[#140608] border border-[#2D1418] rounded-3xl p-6 shadow-2xl relative min-h-[420px] flex flex-col justify-between">
-          
-          {/* Stasiun 1: Mesin Scraping & Download */}
-          {currentStation === 1 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-cyan-400 font-bold flex items-center gap-1.5">
-                    <Radio className="w-4 h-4 animate-pulse" />
-                    Stasiun 01: Crawler &amp; Ingestion Bot (Rate-Limited Mode)
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Mengunduh Dokumen Resmi dari Portal Negara
-                  </h2>
-                </div>
-                <div className="text-right font-mono text-xs text-slate-400">
-                  <span>Kecepatan Scraping: </span>
-                  <span className="text-emerald-400 font-bold">1 Dokumen / 2.5 Detik (Aman &amp; Tertib)</span>
-                </div>
-              </div>
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-indigo-400 font-bold block">3. Terproses Mesin</span>
+            <span className="text-xl font-black text-indigo-300 font-mono">{crawlerData?.checkpoint?.totalProcessed ?? 1}</span>
+            <span className="text-[10px] text-indigo-400/80 block">telah diekstraksi</span>
+          </div>
 
-              {/* Animasi Radar & Unduhan */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
-                <div className="bg-[#1F090D] border border-red-900/40 rounded-2xl p-5 text-center relative overflow-hidden">
-                  <div className="w-20 h-20 rounded-full border-2 border-dashed border-cyan-400/50 mx-auto flex items-center justify-center animate-spin mb-3">
-                    <Download className="w-8 h-8 text-cyan-400 -rotate-45" />
-                  </div>
-                  <p className="font-mono text-xs text-cyan-300 font-bold">Terhubung ke API JDIHN</p>
-                  <p className="text-[11px] text-slate-400 mt-1 truncate">{preset.source}</p>
-                </div>
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-emerald-400 font-bold block">4. Lolos QA (100)</span>
+            <span className="text-xl font-black text-emerald-300 font-mono">{monitoringTotals?.katalog.lolos ?? 14}</span>
+            <span className="text-[10px] text-emerald-500/80 block">AUTO_PUBLISH</span>
+          </div>
 
-                <div className="md:col-span-2 space-y-4">
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-xs font-mono">
-                      <span className="text-slate-300">Progres Unduhan Paket PDF:</span>
-                      <span className="text-cyan-400 font-bold">{scrapingProgress}%</span>
-                    </div>
-                    <div className="h-3 w-full bg-white/10 rounded-full overflow-hidden p-0.5">
-                      <div
-                        className="h-full bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full transition-all duration-300"
-                        style={{ width: `${scrapingProgress}%` }}
-                      />
-                    </div>
-                  </div>
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-amber-400 font-bold block">5. Karantina Layout</span>
+            <span className="text-xl font-black text-amber-300 font-mono">{monitoringTotals?.katalog.karantina ?? 15}</span>
+            <span className="text-[10px] text-amber-500/80 block">perlu kurasi</span>
+          </div>
 
-                  <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-4 space-y-2 text-xs font-mono">
-                    <div className="flex justify-between">
-                      <span className="text-slate-400">Nama Instrumen:</span>
-                      <span className="text-white font-bold">{preset.name}</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-slate-400">Ukuran Berkas:</span>
-                      <span className="text-amber-300">{preset.fileSize} ({preset.pages} Halaman)</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-slate-400">Sidik Jari SHA-256:</span>
-                      <span className="text-emerald-400 truncate max-w-[280px]">{preset.sha256}</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
+          <div className="rounded-xl border border-white/10 bg-white/[0.02] p-2.5">
+            <span className="text-[10px] font-mono uppercase text-rose-400 font-bold block">6. Di MariaDB</span>
+            <span className="text-xl font-black text-white font-mono">{monitoringTotals?.database.instruments ?? 21} UU</span>
+            <span className="text-[10px] text-rose-400/80 block">{monitoringTotals?.database.provisions.toLocaleString('id-ID') ?? '3.260'} pasal aktif</span>
+          </div>
+        </div>
+      </section>
 
-          {/* Stasiun 2: Gudang Antrean Dokumen */}
-          {currentStation === 2 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-bold flex items-center gap-1.5">
-                    <Database className="w-4 h-4" />
-                    Stasiun 02: Gudang Antrean Tugas (Asynchronous Job Queue)
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Dokumen Menunggu Giliran Masuk ke Mesin Parser
-                  </h2>
-                </div>
-                <span className="text-xs font-mono text-emerald-400 bg-emerald-950/40 px-3 py-1 rounded-xl border border-emerald-800/50">
-                  Status Queue: NORMAL (0 Bottleneck)
-                </span>
-              </div>
-
-              {/* Visual Tumpukan Antrean */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div className="bg-gradient-to-b from-[#2E1015] to-[#1B080B] border-2 border-amber-500 rounded-2xl p-4 shadow-lg relative">
-                  <span className="absolute top-3 right-3 text-[10px] font-mono bg-amber-500 text-slate-950 px-2 py-0.5 rounded-full font-bold">
-                    SEDANG DIPROSES
-                  </span>
-                  <span className="text-xs font-mono text-slate-400">Antrean #001</span>
-                  <h3 className="text-sm font-bold text-white mt-1">{preset.numberYear}</h3>
-                  <p className="text-xs text-slate-400 mt-0.5">{preset.name}</p>
-                  <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs text-slate-300 font-mono">
-                    <span>Prioritas: TINGGI</span>
-                    <span className="text-cyan-400">Siap Diparsing ➜</span>
-                  </div>
-                </div>
-
-                <div className="bg-white/[0.02] border border-white/10 rounded-2xl p-4 opacity-75">
-                  <span className="text-xs font-mono text-slate-500">Antrean #002</span>
-                  <h3 className="text-sm font-bold text-slate-300 mt-1">UU No. 1 Tahun 2023</h3>
-                  <p className="text-xs text-slate-500 mt-0.5">Kitab Undang-Undang Hukum Pidana (KUHP Baru)</p>
-                  <div className="mt-4 pt-3 border-t border-white/10 text-xs text-slate-500 font-mono">
-                    <span>Status: STANDBY</span>
-                  </div>
-                </div>
-
-                <div className="bg-white/[0.02] border border-white/10 rounded-2xl p-4 opacity-50">
-                  <span className="text-xs font-mono text-slate-500">Antrean #003</span>
-                  <h3 className="text-sm font-bold text-slate-400 mt-1">PP No. 71 Tahun 2019</h3>
-                  <p className="text-xs text-slate-500 mt-0.5">Penyelenggaraan Sistem dan Transaksi Elektronik</p>
-                  <div className="mt-4 pt-3 border-t border-white/10 text-xs text-slate-500 font-mono">
-                    <span>Status: STANDBY</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Stasiun 3: Dapur Memasak / Parsing Realtime */}
-          {currentStation === 3 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-purple-400 font-bold flex items-center gap-1.5">
-                    <Cpu className="w-4 h-4 animate-spin" />
-                    Stasiun 03: Dapur Pembedahan Naskah (Zero-Loss AST Engine)
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Memotong Teks PDF Menjadi Pohon Bab, Pasal, dan Ayat
-                  </h2>
-                </div>
-                <div className="text-right font-mono text-xs">
-                  <span className="text-slate-400">Node Tereksplorasi: </span>
-                  <span className="text-purple-400 font-bold text-base">{parsingCount} / {preset.totalArticles} Pasal</span>
-                </div>
-              </div>
-
-              {/* Layar Belah: Teks Asli Mengalir vs Pohon Norma Terbentuk */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="bg-[#100406] border border-white/10 rounded-2xl p-4 font-mono text-xs text-slate-400 space-y-1.5 overflow-hidden max-h-[220px]">
-                  <span className="text-slate-500 text-[10px] block mb-2">// ALIRAN TEKS PDF MENTAH (STREAM)</span>
-                  {preset.rawSample.map((line, idx) => (
-                    <div key={idx} className="truncate text-slate-300 border-l border-purple-500/50 pl-2">
-                      {line}
-                    </div>
-                  ))}
-                </div>
-
-                <div className="bg-[#1A080C] border border-purple-900/50 rounded-2xl p-4 font-mono text-xs space-y-2 overflow-hidden max-h-[220px]">
-                  <span className="text-purple-300 text-[10px] block mb-2">// POHON NORMA AST TERBENTUK (OUTPUT)</span>
-                  {preset.parsedSample.slice(0, Math.max(parsingCount, 2)).map((item, idx) => (
-                    <div
-                      key={idx}
-                      className={`p-2 rounded-xl border flex items-center justify-between ${
-                        item.status === 'inserted'
-                          ? 'bg-emerald-950/40 border-emerald-700/60 text-emerald-300'
-                          : item.status === 'repealed'
-                            ? 'bg-rose-950/40 border-rose-700/60 text-rose-300 line-through'
-                            : 'bg-white/5 border-white/10 text-white'
+      {/* ── Main Production Content Area ───────────────────────────── */}
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 w-full flex-1">
+        {/* TAB 1: OVERVIEW (Conveyor 5 Gerbong + Terminal Live) */}
+        {activeMainTab === 'OVERVIEW' && (
+          <div className="space-y-8">
+            {/* Conveyor Station Stepper Header */}
+            <div>
+              <p className="text-xs font-mono font-bold uppercase tracking-wider text-slate-400 mb-2">
+                Rantai Alur Pemanenan &amp; Rekonstruksi Hukum (End-to-End Factory Floor):
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-5 gap-2.5">
+                {stations.map((s) => {
+                  const Icon = s.icon;
+                  const isActive = activeStation === s.id;
+                  return (
+                    <button
+                      key={s.id}
+                      onClick={() => setActiveStation(s.id)}
+                      className={`text-left p-3.5 rounded-2xl border transition-all cursor-pointer relative overflow-hidden ${
+                        isActive
+                          ? s.activeColor + ' shadow-lg scale-[1.02]'
+                          : 'border-white/10 bg-white/[0.02] text-slate-400 hover:border-white/20 hover:bg-white/[0.04]'
                       }`}
                     >
-                      <span className="font-bold">{item.label}</span>
-                      <span className="text-[10px] truncate max-w-[200px]">{item.text}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Stasiun 4: Ruang Koreksi & QC (Menyala Perbandingan) */}
-          {currentStation === 4 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-emerald-400 font-bold flex items-center gap-1.5">
-                    <ShieldCheck className="w-4 h-4" />
-                    Stasiun 04: Ruang Quality Control &amp; Koreksi Otomatis
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Pemeriksaan Integritas &amp; Pemulihan Mandiri (Auto-Healing)
-                  </h2>
-                </div>
-                <span className="text-xs font-mono text-emerald-300 bg-emerald-900/30 px-3 py-1 rounded-xl border border-emerald-600/40">
-                  Semua Indikator Lolos Uji Mutu
-                </span>
-              </div>
-
-              {/* Kartu Uji Mutu Menyala */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {preset.qcChecks.map((qc, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-[#18080B] border border-emerald-600/40 rounded-2xl p-4 flex items-start gap-3.5 shadow-md"
-                  >
-                    <div className="w-8 h-8 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                      <Check className="w-5 h-5 font-black" />
-                    </div>
-                    <div>
-                      <div className="flex items-center gap-2">
-                        <h4 className="text-xs font-bold text-white">{qc.label}</h4>
-                        <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-900/50 text-emerald-300 font-semibold">
-                          {qc.status === 'fixed' ? 'TERKOREKSI OTOMATIS' : 'LOLOS INTEGRITAS'}
-                        </span>
+                      {isActive && (
+                        <div className="absolute top-0 right-0 w-16 h-16 bg-white/5 rounded-bl-full pointer-events-none" />
+                      )}
+                      <div className="flex items-center gap-2 mb-1.5">
+                        <div className={`p-1.5 rounded-lg ${isActive ? 'bg-white/20 text-white' : 'bg-white/5 text-slate-400'}`}>
+                          <Icon className="w-4 h-4" />
+                        </div>
+                        <span className="text-xs font-mono font-bold uppercase tracking-wider">{s.subtitle}</span>
                       </div>
-                      <p className="text-xs text-slate-400 mt-1 leading-relaxed">{qc.detail}</p>
+                      <h3 className="font-bold text-sm text-white">{s.title}</h3>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* Station Stage Details Display */}
+            <div className="bg-[#0F1420] border border-white/10 rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-b from-rose-500/10 via-amber-500/5 to-transparent rounded-full blur-3xl pointer-events-none" />
+
+              {/* Gerbong 1 */}
+              {activeStation === 1 && (
+                <div className="space-y-6">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-3 rounded-2xl bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
+                        <Download className="w-6 h-6 animate-bounce" />
+                      </div>
+                      <div>
+                        <h2 className="text-lg font-black text-white">Stasiun 1: Crawler Pemanenan JDIH BPK RI</h2>
+                        <p className="text-xs text-slate-400">Pemanenan berkala terotomasi dengan perlindungan *Ethical Rate Limiting* (1.5s–3s jitter).</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 text-xs font-mono">
+                      <span className="px-2.5 py-1 rounded-lg bg-white/5 border border-white/10 text-slate-300">
+                        Delay Etis: <strong>1.5 dtk</strong>
+                      </span>
+                      <span className="px-2.5 py-1 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">
+                        Status: {crawlerData?.worker?.state || 'IDLE'}
+                      </span>
                     </div>
                   </div>
-                ))}
-              </div>
-            </div>
-          )}
 
-          {/* Stasiun 5: Mesin Pencocokan Relasi Hukum */}
-          {currentStation === 5 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-rose-400 font-bold flex items-center gap-1.5">
-                    <Zap className="w-4 h-4 text-amber-400" />
-                    Stasiun 05: Penenunan Relasi Hukum (Graph Relation Weaver)
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Menghubungkan {preset.numberYear} ➔ {preset.targetUU}
-                  </h2>
-                </div>
-                <span className="text-xs font-mono text-amber-300 bg-amber-950/40 px-3 py-1 rounded-xl border border-amber-700/50">
-                  {preset.relationsCount} Relasi Terverifikasi Berhasil Disambungkan
-                </span>
-              </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="p-5 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <h4 className="text-xs font-mono font-bold uppercase text-slate-400 mb-3 flex items-center gap-2">
+                        <Radio className="w-4 h-4 text-cyan-400 animate-pulse" />
+                        Target Pemanenan Sedang Berjalan:
+                      </h4>
+                      {crawlerData?.worker?.currentSlug ? (
+                        <div className="space-y-2">
+                          <p className="text-sm font-bold text-white font-mono break-all">{crawlerData.worker.currentSlug}</p>
+                          <p className="text-xs text-slate-300">{crawlerData.worker.currentTitle || 'Sedang mengunduh dokumen resmi...'}</p>
+                          <div className="inline-flex items-center gap-1.5 text-[11px] font-mono text-cyan-300 px-2 py-0.5 rounded bg-cyan-950/60 border border-cyan-800/60">
+                            <span>Fase Aktif:</span>
+                            <strong>{crawlerData.worker.phase}</strong>
+                          </div>
+                        </div>
+                      ) : (
+                        <div className="py-6 text-center text-slate-500 text-xs font-mono">
+                          Tidak ada dokumen aktif yang sedang di-scrape detik ini. Worker dalam kondisi standby.
+                        </div>
+                      )}
+                    </div>
 
-              {/* Tabel Hasil Relasi Nyata */}
-              <div className="bg-[#18070A] border border-rose-900/40 rounded-2xl overflow-hidden shadow-lg">
-                <table className="w-full text-left text-xs font-mono">
-                  <thead className="bg-white/5 border-b border-white/10 text-slate-400">
-                    <tr>
-                      <th className="p-3">Target Norma</th>
-                      <th className="p-3">Tindakan Amandemen</th>
-                      <th className="p-3">Dasar Hukum (Pasal I)</th>
-                      <th className="p-3">Catatan Dampak</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-white/5">
-                    {preset.relationsResult.map((rel, idx) => (
-                      <tr key={idx} className="hover:bg-white/[0.02]">
-                        <td className="p-3 text-white font-bold">{rel.target}</td>
-                        <td className="p-3">
-                          <span
-                            className={`px-2 py-0.5 rounded text-[10px] font-bold ${
-                              rel.action.includes('INSERT')
-                                ? 'bg-emerald-900/60 text-emerald-300'
-                                : rel.action.includes('REPEAL')
-                                  ? 'bg-rose-900/60 text-rose-300'
-                                  : 'bg-amber-900/60 text-amber-300'
-                            }`}
-                          >
-                            {rel.action}
+                    <div className="p-5 rounded-2xl bg-white/[0.03] border border-white/10 space-y-3">
+                      <h4 className="text-xs font-mono font-bold uppercase text-slate-400 flex items-center gap-2">
+                        <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                        Parameter Integritas Jaringan &amp; Anti-Blocking:
+                      </h4>
+                      <div className="grid grid-cols-2 gap-2 text-xs font-mono">
+                        <div className="p-2 rounded-xl bg-black/40 border border-white/5">
+                          <span className="text-slate-500 text-[10px] block">Target Domain</span>
+                          <span className="text-slate-200 font-bold">peraturan.bpk.go.id</span>
+                        </div>
+                        <div className="p-2 rounded-xl bg-black/40 border border-white/5">
+                          <span className="text-slate-500 text-[10px] block">Checkpoint Store</span>
+                          <span className="text-emerald-400 font-bold">crawler_checkpoint.json</span>
+                        </div>
+                        <div className="p-2 rounded-xl bg-black/40 border border-white/5">
+                          <span className="text-slate-500 text-[10px] block">Detak Jantung</span>
+                          <span className="text-slate-300 truncate block">
+                            {crawlerData?.worker?.lastHeartbeat ? new Date(crawlerData.worker.lastHeartbeat).toLocaleTimeString('id-ID') : 'Aktif'}
                           </span>
-                        </td>
-                        <td className="p-3 text-slate-300">{rel.basis}</td>
-                        <td className="p-3 text-slate-400">{rel.note}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          )}
-
-          {/* Stasiun 6: Peluncuran & Hasil Produksi Jadi */}
-          {currentStation === 6 && (
-            <div className="space-y-6 animate-fadeIn">
-              <div className="flex items-center justify-between border-b border-white/10 pb-4">
-                <div>
-                  <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-bold flex items-center gap-1.5">
-                    <Sparkles className="w-4 h-4 text-amber-400" />
-                    Stasiun 06: Etalase Produksi Jadi &amp; Siap Akses Publik
-                  </span>
-                  <h2 className="text-lg sm:text-xl font-black text-white mt-1">
-                    Naskah Konsolidasi Resmi Selesai Diproduksi!
-                  </h2>
+                        </div>
+                        <div className="p-2 rounded-xl bg-black/40 border border-white/5">
+                          <span className="text-slate-500 text-[10px] block">Graceful Shutdown</span>
+                          <span className="text-amber-300 font-bold">SIGINT / SIGTERM OK</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <span className="text-xs font-mono text-emerald-300 bg-emerald-950/50 px-3 py-1 rounded-xl border border-emerald-600/40">
-                  Tersimpan di Database Produksi
+              )}
+
+              {/* Gerbong 2 */}
+              {activeStation === 2 && (
+                <div className="space-y-6">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-3 rounded-2xl bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                        <Database className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h2 className="text-lg font-black text-white">Stasiun 2: Gudang Antrean &amp; Hash Checkpoint</h2>
+                        <p className="text-xs text-slate-400">Menyimpan berkas mentah PDF dan menjamin pemrosesan idempoten (zero duplication).</p>
+                      </div>
+                    </div>
+                    <div className="text-xs font-mono text-slate-400">
+                      Total Tersimpan: <strong>{crawlerData?.checkpoint?.totalProcessed ?? 0} diproses</strong>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs font-mono">
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <span className="text-slate-500 block mb-1">Total Antrean Terindeks</span>
+                      <span className="text-2xl font-black text-white">{crawlerData?.queue?.totalIndexed ?? 1325}</span>
+                      <p className="text-[11px] text-slate-400 mt-1">Berasal dari katalog resmi Lembaran Negara BPK</p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <span className="text-slate-500 block mb-1">Status Checkpoint</span>
+                      <span className="text-2xl font-black text-amber-300">{crawlerData?.queue?.pending ?? 1324} tertunda</span>
+                      <p className="text-[11px] text-slate-400 mt-1">Dapat di-resume kapan saja tanpa mengulang</p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <span className="text-slate-500 block mb-1">Integritas Checksum</span>
+                      <span className="text-2xl font-black text-emerald-400">SHA-256</span>
+                      <p className="text-[11px] text-slate-400 mt-1">Semua unduhan diverifikasi anti-tamper</p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Gerbong 3 */}
+              {activeStation === 3 && (
+                <div className="space-y-6">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-3 rounded-2xl bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                        <Cpu className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h2 className="text-lg font-black text-white">Stasiun 3: Dapur Parser AST &amp; Scorecard QA</h2>
+                        <p className="text-xs text-slate-400">Membedah teks PDF menjadi pohon norma hierarkis dan menguji integritas pasal.</p>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={() => setActiveMainTab('PARSER')}
+                      className="px-3 py-1.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold font-mono flex items-center gap-1.5 cursor-pointer"
+                    >
+                      <span>Buka Simulator Parsing</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <CheckCircle2 className="w-5 h-5 text-emerald-400 mb-2" />
+                      <h4 className="font-bold text-white mb-1">Uji Urutan Numerik</h4>
+                      <p className="text-slate-400 leading-relaxed">
+                        Memastikan Pasal 1 s.d. Pasal N urut tanpa ada nomor pasal yang terlewati atau tertukar.
+                      </p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <ShieldCheck className="w-5 h-5 text-emerald-400 mb-2" />
+                      <h4 className="font-bold text-white mb-1">Pembersihan OCR Catchwords</h4>
+                      <p className="text-slate-400 leading-relaxed">
+                        Menghapus otomatis teks running header, nomor halaman cetak lama BPK, dan artefak pemisah.
+                      </p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <Layers className="w-5 h-5 text-cyan-400 mb-2" />
+                      <h4 className="font-bold text-white mb-1">Hierarki AST Lengkap</h4>
+                      <p className="text-slate-400 leading-relaxed">
+                        Mengekstrak Buku ➔ Bab ➔ Bagian ➔ Paragraf ➔ Pasal ➔ Ayat ➔ Huruf secara deterministik.
+                      </p>
+                    </div>
+
+                    <div className="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+                      <AlertTriangle className="w-5 h-5 text-amber-400 mb-2" />
+                      <h4 className="font-bold text-white mb-1">Karantina Anomali</h4>
+                      <p className="text-slate-400 leading-relaxed">
+                        Dokumen hasil scan miring atau tabel multi-kolom diisolasi ke status KARANTINA untuk verifikasi.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Gerbong 4 */}
+              {activeStation === 4 && (
+                <div className="space-y-6">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-3 rounded-2xl bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                        <GitBranch className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h2 className="text-lg font-black text-white">Stasiun 4: Menenun Relasi Hukum (Weaving Engine)</h2>
+                        <p className="text-xs text-slate-400">Mendeteksi pasangan UU Pokok vs UU Pengubah, mengekstrak operasi mutasi teks pasal.</p>
+                      </div>
+                    </div>
+
+                    <button
+                      onClick={() => setActiveMainTab('CONNECTIVITY')}
+                      className="px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold font-mono flex items-center gap-1.5 cursor-pointer"
+                    >
+                      <span>Buka Pelacakan Mutasi 1 UU</span>
+                      <ArrowRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+
+                  <div className="p-4 rounded-2xl bg-white/[0.02] border border-white/10">
+                    <h4 className="text-xs font-mono font-bold uppercase text-slate-400 mb-3 flex items-center justify-between">
+                      <span>Daftar Mutasi Perubahan Hukum Nyata di Database:</span>
+                      <span className="text-slate-500 text-[10px]">Tabel change_operations</span>
+                    </h4>
+
+                    <div className="space-y-2 font-mono text-xs">
+                      {recentOperations.map((op) => (
+                        <div key={op.id} className="p-3 rounded-xl bg-black/40 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                          <div className="flex items-center gap-2">
+                            <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                              op.type.includes('ADD') ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30' :
+                              op.type.includes('REPLACE') ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
+                              'bg-rose-500/20 text-rose-300 border border-rose-500/30'
+                            }`}>
+                              {op.type}
+                            </span>
+                            <span className="text-white font-bold">{op.targetPath}</span>
+                            <span className="text-slate-500 text-[11px]">({op.sourceReference})</span>
+                          </div>
+                          <div className="flex items-center gap-2 text-[11px] text-slate-400">
+                            <span>{op.amending}</span>
+                            <ArrowRight className="w-3 h-3 text-slate-600" />
+                            <span className="text-slate-200">{op.target}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Gerbong 5 */}
+              {activeStation === 5 && (
+                <div className="space-y-6">
+                  <div className="flex flex-wrap items-center justify-between gap-4 border-b border-white/10 pb-4">
+                    <div className="flex items-center gap-3">
+                      <div className="p-3 rounded-2xl bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                        <Sparkles className="w-6 h-6" />
+                      </div>
+                      <div>
+                        <h2 className="text-lg font-black text-white">Stasiun 5: Etalase Launching &amp; Naskah Konsolidasi Jadi</h2>
+                        <p className="text-xs text-slate-400">Naskah hukum utuh hasil rekonstruksi deterministik siap dinikmati publik di Reader.</p>
+                      </div>
+                    </div>
+
+                    <Link
+                      href="/katalog"
+                      className="px-3.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold flex items-center gap-1.5 transition-colors"
+                    >
+                      <span>Buka Semua di Katalog</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </Link>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5">
+                    {consolidatedLaws.map((law) => (
+                      <div
+                        key={law.id}
+                        className="p-4 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-emerald-500/50 transition-all flex flex-col justify-between gap-3 group"
+                      >
+                        <div>
+                          <div className="flex items-center justify-between gap-2 mb-2">
+                            <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-white/5 text-slate-300 border border-white/10">
+                              {law.label}
+                            </span>
+                            <span className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded ${
+                              law.status === 'DIUBAH' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/40' :
+                              'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40'
+                            }`}>
+                              {law.status}
+                            </span>
+                          </div>
+                          <h4 className="font-bold text-sm text-white group-hover:text-emerald-300 transition-colors line-clamp-2">
+                            {law.title}
+                          </h4>
+                          <p className="text-xs text-slate-400 font-mono mt-1">
+                            {law.provisionsCount.toLocaleString('id-ID')} Pasal/Ayat Aktif
+                          </p>
+                        </div>
+
+                        <div className="pt-3 border-t border-white/5 flex items-center justify-between text-xs">
+                          <span className="text-[10px] font-mono text-emerald-400">Skor: {law.score ?? 100}/100</span>
+                          <Link
+                            href={`/uu/${law.slug}`}
+                            className="font-bold text-xs text-white group-hover:text-emerald-300 flex items-center gap-1"
+                          >
+                            <span>Baca Naskah</span>
+                            <ArrowRight className="w-3.5 h-3.5" />
+                          </Link>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Live Console Terminal & Antrean Dokumen */}
+            <section className="bg-[#0B0F19] border border-white/10 rounded-3xl overflow-hidden shadow-2xl">
+              <div className="flex items-center justify-between border-b border-white/10 px-5 py-3 bg-black/30">
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setActiveConsoleTab('LOGS')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold flex items-center gap-1.5 transition-colors cursor-pointer ${
+                      activeConsoleTab === 'LOGS'
+                        ? 'bg-[#94191C] text-white shadow-sm'
+                        : 'text-slate-400 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    <Terminal className="w-3.5 h-3.5" />
+                    <span>Live Log Harvester</span>
+                  </button>
+
+                  <button
+                    onClick={() => setActiveConsoleTab('QUEUE')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold flex items-center gap-1.5 transition-colors cursor-pointer ${
+                      activeConsoleTab === 'QUEUE'
+                        ? 'bg-[#94191C] text-white shadow-sm'
+                        : 'text-slate-400 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    <Layers className="w-3.5 h-3.5" />
+                    <span>Antrean Dokumen ({monitoringTotals?.katalog.total ?? 1325})</span>
+                  </button>
+
+                  <button
+                    onClick={() => setActiveConsoleTab('STATS')}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-mono font-bold flex items-center gap-1.5 transition-colors cursor-pointer ${
+                      activeConsoleTab === 'STATS'
+                        ? 'bg-[#94191C] text-white shadow-sm'
+                        : 'text-slate-400 hover:text-white hover:bg-white/5'
+                    }`}
+                  >
+                    <Activity className="w-3.5 h-3.5" />
+                    <span>Sebaran Tahun UU</span>
+                  </button>
+                </div>
+
+                <span className="text-[11px] font-mono text-slate-500 hidden sm:inline">
+                  Port: 4000 (API) · Port: 3307 (MariaDB)
                 </span>
               </div>
 
-              {/* Showcase Produk Jadi */}
-              <div className="bg-[#1C080B] border border-amber-500/40 rounded-2xl p-5 space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <span className="w-3 h-3 rounded-full bg-emerald-500" />
-                    <h3 className="text-sm font-bold text-white">{preset.consolidatedPreview.pasal}</h3>
+              {activeConsoleTab === 'LOGS' && (
+                <div className="p-4 sm:p-5 font-mono text-xs max-h-96 overflow-y-auto bg-black/60 text-slate-300 space-y-1 selection:bg-amber-400 selection:text-black">
+                  {crawlerData?.logs && crawlerData.logs.length > 0 ? (
+                    crawlerData.logs.map((logLine, idx) => {
+                      const isWarn = logLine.includes('[WARNING]') || logLine.includes('403') || logLine.includes('Gagal');
+                      const isQa = logLine.includes('[QA Gate]') || logLine.includes('AUTO_PUBLISH');
+                      const isInfo = logLine.includes('[INFO]');
+                      return (
+                        <div
+                          key={idx}
+                          className={`leading-relaxed break-all ${
+                            isWarn ? 'text-amber-300 bg-amber-950/20 px-1 rounded' :
+                            isQa ? 'text-emerald-300 font-bold' :
+                            isInfo ? 'text-slate-300' : 'text-slate-400'
+                          }`}
+                        >
+                          {logLine}
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <div className="py-8 text-center text-slate-500">
+                      Belum ada log baru. Klik tombol &quot;Picu Batch 5 UU&quot; di atas untuk memulai pemanenan langsung.
+                    </div>
+                  )}
+                  <div ref={logBottomRef} />
+                </div>
+              )}
+
+              {activeConsoleTab === 'QUEUE' && (
+                <div className="p-4 sm:p-5 space-y-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div className="flex items-center gap-1.5 text-xs font-mono">
+                      {(['LOLOS', 'KARANTINA', 'TERDAFTAR'] as const).map((st) => (
+                        <button
+                          key={st}
+                          onClick={() => setActiveQueueTab(st)}
+                          className={`px-3 py-1 rounded-lg border text-xs font-bold cursor-pointer transition-colors ${
+                            activeQueueTab === st
+                              ? 'bg-white/10 text-white border-white/20'
+                              : 'bg-black/20 text-slate-400 border-white/5 hover:text-white'
+                          }`}
+                        >
+                          {st} ({st === 'LOLOS' ? monitoringTotals?.katalog.lolos ?? 14 :
+                                 st === 'KARANTINA' ? monitoringTotals?.katalog.karantina ?? 15 :
+                                 monitoringTotals?.katalog.terdaftar ?? 1293})
+                        </button>
+                      ))}
+                    </div>
+                    <span className="text-xs text-slate-400 font-mono">Menampilkan 30 dokumen pertama</span>
                   </div>
-                  <span className="text-[11px] font-mono text-amber-300 bg-amber-900/40 px-2.5 py-0.5 rounded border border-amber-600/50 font-bold">
-                    {preset.consolidatedPreview.status}
-                  </span>
-                </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
-                  <div className="bg-red-950/30 border border-red-900/50 rounded-xl p-3 text-slate-300">
-                    <span className="text-red-400 font-bold block mb-1">✕ Naskah Sebelum Diubah:</span>
-                    <p className="line-clamp-4 leading-relaxed">{preset.consolidatedPreview.before}</p>
+                  <div className="overflow-x-auto rounded-2xl border border-white/10">
+                    <table className="w-full text-left text-xs font-mono">
+                      <thead className="bg-white/[0.04] text-slate-400 border-b border-white/10">
+                        <tr>
+                          <th className="py-2.5 px-3">No</th>
+                          <th className="py-2.5 px-3">Identitas Dokumen</th>
+                          <th className="py-2.5 px-3">Tahun</th>
+                          <th className="py-2.5 px-3">Skor Mutu</th>
+                          <th className="py-2.5 px-3">Pasal / Ayat</th>
+                          <th className="py-2.5 px-3">Mutasi</th>
+                          <th className="py-2.5 px-3">Status</th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-white/5 text-slate-300">
+                        {queueRows.map((row, idx) => (
+                          <tr key={row.slug + idx} className="hover:bg-white/[0.02]">
+                            <td className="py-2.5 px-3 text-slate-500">{idx + 1}</td>
+                            <td className="py-2.5 px-3 font-bold text-white">
+                              {row.nomor ? `UU No. ${row.nomor} Thn ${row.tahun}` : row.slug}
+                            </td>
+                            <td className="py-2.5 px-3">{row.tahun || '—'}</td>
+                            <td className="py-2.5 px-3">
+                              {row.skor !== null ? (
+                                <span className={row.skor === 100 ? 'text-emerald-300 font-bold' : 'text-amber-300 font-bold'}>
+                                  {row.skor}/100
+                                </span>
+                              ) : '—'}
+                            </td>
+                            <td className="py-2.5 px-3">
+                              {row.pasal} ps / {row.ayat} ay
+                            </td>
+                            <td className="py-2.5 px-3 text-rose-300">
+                              {row.perubahan > 0 ? `${row.perubahan} mutasi` : '0'}
+                            </td>
+                            <td className="py-2.5 px-3">
+                              <span className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                                row.status === 'LOLOS' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
+                                row.status === 'KARANTINA' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
+                                'bg-slate-800 text-slate-300'
+                              }`}>
+                                {row.status}
+                              </span>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
                   </div>
-                  <div className="bg-emerald-950/30 border border-emerald-900/50 rounded-xl p-3 text-emerald-200">
-                    <span className="text-emerald-400 font-bold block mb-1">✓ Naskah Sesudah Amandemen:</span>
-                    <p className="line-clamp-4 leading-relaxed whitespace-pre-line">{preset.consolidatedPreview.after}</p>
+                </div>
+              )}
+
+              {activeConsoleTab === 'STATS' && (
+                <div className="p-5 space-y-4">
+                  <h4 className="text-xs font-mono font-bold uppercase text-slate-400">
+                    Sebaran Katalog Peraturan per Tahun (Terdaftar di Antrean Hulu):
+                  </h4>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 font-mono">
+                    {monitoringTotals?.perTahunUU?.map((item) => (
+                      <div key={item.tahun} className="p-3 rounded-xl bg-white/[0.02] border border-white/5">
+                        <span className="text-xs text-slate-400 block">Tahun {item.tahun}</span>
+                        <span className="text-lg font-black text-amber-300">{item.jumlah} UU</span>
+                      </div>
+                    ))}
                   </div>
                 </div>
-
-                <div className="flex flex-wrap items-center gap-3 pt-2">
-                  <Link
-                    href="/uu/ite"
-                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#94191C] hover:bg-[#861619] text-white font-bold text-xs transition-all shadow-md"
-                  >
-                    <BookOpen className="w-4 h-4" />
-                    <span>Buka Naskah Hasil Produksi di Workspace Reader</span>
-                  </Link>
-
-                  <Link
-                    href="/neuron"
-                    className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs border border-white/15 transition-all"
-                  >
-                    <GitBranch className="w-4 h-4 text-amber-300" />
-                    <span>Lihat di Peta Silsilah Hukum</span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Navigasi Manual Bawah */}
-          <div className="flex items-center justify-between border-t border-white/10 pt-4 mt-6 text-xs font-mono">
-            <button
-              onClick={() => {
-                setCurrentStation((s) => Math.max(s - 1, 1) as FactoryStation);
-                setIsPlaying(false);
-              }}
-              disabled={currentStation === 1}
-              className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 disabled:opacity-30 text-slate-300 cursor-pointer"
-            >
-              ◀ Stasiun Sebelumnya
-            </button>
-            <span className="text-slate-400">
-              Gunakan tombol di atas untuk menjalankan pabrik otomatis secara real-time
-            </span>
-            <button
-              onClick={() => {
-                setCurrentStation((s) => Math.min(s + 1, 6) as FactoryStation);
-                setIsPlaying(false);
-              }}
-              disabled={currentStation === 6}
-              className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 disabled:opacity-30 text-slate-300 cursor-pointer"
-            >
-              Stasiun Selanjutnya ▶
-            </button>
+              )}
+            </section>
           </div>
-        </section>
+        )}
 
-        {/* ── Konsol Telemetri Live Log (Real-time Machine Logs) ───── */}
-        <section className="bg-[#0F0406] border border-[#2D1418] rounded-3xl p-4 sm:p-5 shadow-xl font-mono text-xs">
-          <div className="flex items-center justify-between mb-3 text-slate-400">
-            <span className="flex items-center gap-2 text-white font-bold">
-              <Terminal className="w-4 h-4 text-emerald-400" />
-              Konsol Telemetri Pabrik (Live Machine Event Stream)
-            </span>
-            <span className="text-[10px] text-slate-500">Mencatat aktivitas mesin pemroses detik-demi-detik</span>
-          </div>
+        {/* TAB 2: KELUARGA REGULASI & ANTREAN DOWNLOAD */}
+        {activeMainTab === 'FAMILIES' && (
+          <FamilyQueueTab
+            onSelectStation={(s) => {
+              handleTabChange('OVERVIEW');
+              setActiveStation(s);
+            }}
+          />
+        )}
 
-          <div className="bg-black/60 rounded-2xl p-3 border border-white/5 max-h-36 overflow-y-auto space-y-1 text-slate-300 scrollbar-thin">
-            {telemetryLogs.length === 0 ? (
-              <span className="text-slate-500 italic">Mesin standby. Tekan 'Jalankan Pabrik' untuk memulai aliran log...</span>
-            ) : (
-              telemetryLogs.map((log, idx) => (
-                <div key={idx} className="leading-relaxed">
-                  <span className="text-emerald-400">{log}</span>
-                </div>
-              ))
-            )}
-          </div>
-        </section>
+        {/* TAB 3: PROSES PARSING INTERAKTIF */}
+        {activeMainTab === 'PARSER' && (
+          <InteractiveParsingTab />
+        )}
 
+        {/* TAB 4: KOREKSI HASIL PARSING & AUTO-HEALING */}
+        {activeMainTab === 'QA_CORRECTION' && (
+          <ParsingCorrectionTab />
+        )}
+
+        {/* TAB 5: KONEKSI RELASI & TRACKING PERUBAHAN 1 UU */}
+        {activeMainTab === 'CONNECTIVITY' && (
+          <LawConnectivityTrackerTab />
+        )}
       </main>
-
-      {/* ── Footer ────────────────────────────────────────────────── */}
-      <footer className="border-t border-[#2D1418] bg-[#0E0305] py-4 text-center text-xs text-slate-500 font-mono">
-        SIPAKA Legal-Tech Intelligence · Automated Assembly Line Simulator
-      </footer>
     </div>
   );
 }

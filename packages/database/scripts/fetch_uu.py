@@ -13,7 +13,11 @@ from pathlib import Path
 import requests
 
 BASE = "https://peraturan.bpk.go.id"
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 Safari/537.36 SIPAKA-Research/1.0"
+UA_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "id,en-US;q=0.7,en;q=0.3",
+}
 DELAY = 2.0
 HERE = Path(__file__).resolve().parent.parent / "seed"
 PDF_DIR = HERE / "pdfs"
@@ -22,7 +26,7 @@ STRUCT_DIR = HERE / "structured"
 
 def get(url: str) -> requests.Response | None:
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=45, allow_redirects=True)
+        r = requests.get(url, headers=UA_HEADERS, timeout=45, allow_redirects=True)
         return r
     except Exception as e:
         print(f"  ! gagal {url}: {e}")

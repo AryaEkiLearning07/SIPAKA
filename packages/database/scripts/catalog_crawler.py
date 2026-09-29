@@ -15,7 +15,11 @@ from pathlib import Path
 import requests
 
 BASE = "https://peraturan.bpk.go.id"
-UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/126 SIPAKA-Research/1.0"}
+UA = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "id,en-US;q=0.7,en;q=0.3",
+}
 DELAY = 1.5
 HERE = Path(__file__).resolve().parent.parent / "seed" / "structured"
 OUT = HERE / "catalog-index.jsonl"
