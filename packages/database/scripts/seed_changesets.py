@@ -27,12 +27,35 @@ Status output change_operations (tanpa parse pasal amandemen):
 import argparse
 import json
 import re
+import os
 import time
+import urllib.parse
 from pathlib import Path
 
 import pymysql
 
-DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
+
+def get_db_config():
+    db_url = os.environ.get("DATABASE_URL")
+    if db_url:
+        p = urllib.parse.urlparse(db_url)
+        return dict(
+            host=p.hostname or "127.0.0.1",
+            port=p.port or 3306,
+            user=p.username or "root",
+            password=p.password or "",
+            database=p.path.lstrip("/") or "sipaka_db",
+        )
+    return dict(
+        host=os.environ.get("DB_HOST", "127.0.0.1"),
+        port=int(os.environ.get("SIPAKA_DB_PORT", os.environ.get("DB_PORT", 3307))),
+        user=os.environ.get("DB_USER", "root"),
+        password=os.environ.get("MYSQL_ROOT_PASSWORD", os.environ.get("DB_PASS", "")),
+        database=os.environ.get("DB_NAME", "sipaka_db"),
+    )
+
+
+DB = get_db_config()
 HERE = Path(__file__).resolve().parent.parent / "seed" / "structured"
 RICH = HERE / "catalog-rich.jsonl"
 PDF_DIR = Path(__file__).resolve().parent.parent / "seed" / "pdfs"
@@ -199,7 +222,7 @@ def main():
                 update_status_diubah(cur, target_id, args.dry_run)
                 tambah_relasi(cur, amender_id, target_id, "MENGUBAH", basis, args.dry_run)
                 relasi_baru += 1
-                print(f"  ✓ ChangeSet: {amender_slug} → {slug}")
+                print(f"  [OK] ChangeSet: {amender_slug} -> {slug}")
             else:
                 cs_skip += 1
 
@@ -223,7 +246,7 @@ def main():
             tambah_relasi(cur, target_id, cabut_id, "MENCABUT",
                           f"{slug} mencabut {cabut_slug}", args.dry_run)
             relasi_baru += 1
-            print(f"  ✓ Relasi MENCABUT: {slug} → {cabut_slug}")
+            print(f"  [OK] Relasi MENCABUT: {slug} -> {cabut_slug}")
 
     if not args.dry_run:
         conn.commit()

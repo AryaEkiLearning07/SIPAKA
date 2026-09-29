@@ -8,11 +8,34 @@ Dua sumber relasi:
 
 Semua relasi ditulis ke instrument_relations (idempoten: tidak menduplikasi).
 """
+import os
 import re
+import urllib.parse
 
 import pymysql
 
-DB = dict(host="127.0.0.1", port=3307, user="root", password="", database="sipaka_db")
+
+def get_db_config():
+    db_url = os.environ.get("DATABASE_URL")
+    if db_url:
+        p = urllib.parse.urlparse(db_url)
+        return dict(
+            host=p.hostname or "127.0.0.1",
+            port=p.port or 3306,
+            user=p.username or "root",
+            password=p.password or "",
+            database=p.path.lstrip("/") or "sipaka_db",
+        )
+    return dict(
+        host=os.environ.get("DB_HOST", "127.0.0.1"),
+        port=int(os.environ.get("SIPAKA_DB_PORT", os.environ.get("DB_PORT", 3307))),
+        user=os.environ.get("DB_USER", "root"),
+        password=os.environ.get("MYSQL_ROOT_PASSWORD", os.environ.get("DB_PASS", "")),
+        database=os.environ.get("DB_NAME", "sipaka_db"),
+    )
+
+
+DB = get_db_config()
 RE_RUJUK = re.compile(
     r"(?:Undang-Undang|UU)\s+(?:Nomor|No\.?)\s*(\d{1,4})\s+Tahun\s+(\d{4})", re.IGNORECASE
 )
