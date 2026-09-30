@@ -39,4 +39,4 @@ COPY --from=builder /app/apps/api ./apps/api
 
 EXPOSE 4000
 
-CMD ["node", "apps/api/dist/index.js"]
+CMD ["node", "apps/api/node_modules/tsx/dist/cli.mjs", "apps/api/src/index.ts"]
