@@ -10,7 +10,7 @@ import {
   ShieldCheck, LogIn
 } from 'lucide-react';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
 export default function HomePage() {
   const router = useRouter();

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { ArrowLeft, GitGraph, Table2, Cpu, BookOpen, AlertTriangle, Loader2 } from 'lucide-react';
 import MatriksHarmonisasi from './MatriksHarmonisasi';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
 interface InstrumentNode {
   id: string;

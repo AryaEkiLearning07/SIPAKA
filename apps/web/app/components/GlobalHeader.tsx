@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { LogIn } from 'lucide-react';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
 interface NavItem {
   label: string;

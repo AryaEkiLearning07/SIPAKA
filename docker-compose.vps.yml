@@ -61,7 +61,7 @@ services:
       context: .
       dockerfile: Dockerfile.web
       args:
-        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:4080}
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-}
     container_name: sipaka-web
     restart: always
     depends_on:
@@ -69,6 +69,7 @@ services:
     environment:
       NODE_ENV: production
       PORT: 3000
+      INTERNAL_API_URL: "http://api:4000/api/:path*"
     # Port Web menggunakan 3080 (tidak tabrakan dengan port 3000/80 milik perusahaan)
     ports:
       - "${SIPAKA_WEB_PORT:-3080}:3000"
