@@ -33,13 +33,13 @@ exit /b 0
 :do_batch
 set LIMIT=%2
 if "%LIMIT%"=="" set LIMIT=5
-echo [SIPAKA] Menjalankan batch %LIMIT% dokumen dengan ethical rate limiter...
-python "%SCRIPT_DIR%crawler_worker.py" --batch %LIMIT% --delay 1.5
+echo [SIPAKA] Menjalankan batch %LIMIT% UU dengan ethical rate limiter...
+python "%SCRIPT_DIR%crawler_worker.py" --batch %LIMIT% --delay 1.5 --jenis UU
 exit /b 0
 
 :do_continuous
-echo [SIPAKA] Menjalankan worker dalam continuous loop (Ctrl+C untuk graceful stop)...
-python "%SCRIPT_DIR%crawler_worker.py" --continuous --batch 10 --delay 1.5
+echo [SIPAKA] Menjalankan worker dalam continuous loop memanen seluruh UU (Ctrl+C untuk graceful stop)...
+python "%SCRIPT_DIR%crawler_worker.py" --continuous --batch 10 --delay 1.5 --jenis UU --sleep-interval 5
 exit /b 0
 
 :do_reset

@@ -307,23 +307,26 @@ def parse_and_validate_ast(pdf_path: Path, slug: str, metadata: Dict[str, Any], 
 
 
 # ─── Modul Ingest Database MariaDB ───────────────────────────────────────────
-def ingest_ast_to_database(slug: str) -> bool:
+def ingest_ast_to_database(slug: str, force: bool = False) -> bool:
     try:
         # Jalankan seeder generik tsx
-        cmd = ["npx", "tsx", "./seed/ingest-json.ts", slug]
+        cmd = ["npx", "tsx", "./seed/ingest-json.ts"]
+        if force:
+            cmd.append("--force")
+        cmd.append(slug)
         res = subprocess.run(
             " ".join(cmd),
             cwd=str(DATABASE_PKG),
             shell=True,
             capture_output=True,
             text=True,
-            timeout=60,
+            timeout=120,
         )
         if res.returncode == 0:
-            logger.info(f"  [DB Ingest] Sukses ingest {slug} ke MariaDB.")
+            logger.info(f"  [DB Ingest] Sukses ingest {slug} ke MariaDB{' (--force)' if force else ''}.")
             return True
         else:
-            logger.warning(f"  [DB Ingest] Gagal ingest {slug}: {res.stderr}")
+            logger.warning(f"  [DB Ingest] Gagal ingest {slug}: {res.stderr or res.stdout}")
             return False
     except Exception as e:
         logger.error(f"  [DB Ingest] Error proses ingest: {e}")
@@ -341,9 +344,25 @@ def weave_relations():
 
 
 # ─── Eksekusi Alur Kerja Utama Worker ─────────────────────────────────────────
-def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY) -> Dict[str, int]:
+def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY, jenis: Optional[str] = "UU") -> Dict[str, int]:
     checkpoint = load_checkpoint()
     processed_slugs = set(checkpoint.get("processed_slugs", []))
+
+    # Sinkronisasi otomatis dengan basis data MariaDB agar tidak mendownload/memproses ulang yang sudah aktif di DB
+    try:
+        req = requests.get("http://localhost:4000/api/v1/instruments", timeout=5)
+        if req.status_code == 200:
+            for item in req.json().get("data", []):
+                db_slug = item.get("slug")
+                if db_slug:
+                    processed_slugs.add(db_slug)
+                num = item.get("number")
+                yr = item.get("year")
+                if num and yr:
+                    processed_slugs.add(f"uu-{num}-{yr}")
+                    processed_slugs.add(f"uu-no-{num}-tahun-{yr}")
+    except Exception as e:
+        logger.warning(f"Tidak dapat menghubungi API lokal untuk sync DB: {e}")
 
     if not INDEX_FILE.exists():
         logger.error(f"Berkas katalog indeks {INDEX_FILE} tidak ditemukan. Jalankan catalog_crawler.py terlebih dahulu.")
@@ -361,7 +380,14 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY) -> Dic
     total_indexed = len(entries)
     pending_entries = [e for e in entries if e.get("slug") not in processed_slugs]
 
-    logger.info(f"Antrean Ingestion: {len(pending_entries)} tertunda dari total {total_indexed:,} dokumen terindeks.")
+    if jenis:
+        pending_entries = [
+            e for e in pending_entries
+            if (e.get("jenis") or e.get("type") or "").upper() == jenis.upper()
+            or e.get("slug", "").lower().startswith(f"{jenis.lower()}-")
+        ]
+
+    logger.info(f"Antrean Ingestion ({jenis or 'SEMUA'}): {len(pending_entries)} tertunda dari total {total_indexed:,} dokumen terindeks.")
 
     stats = {
         "total_indexed": total_indexed,
@@ -414,17 +440,22 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY) -> Dic
             # 3. Parse AST & Validasi Kualitas
             update_status("RUNNING", phase="PARSING_AST", current_slug=slug, stats=stats)
             qa = parse_and_validate_ast(pdf_path, slug, meta, sha256)
+            skor = qa.get("skor", 0)
             is_pass = qa.get("publishMode") == "AUTO_PUBLISH"
+            can_ingest = is_pass or (skor >= 70)
 
             if is_pass:
                 stats["published"] += 1
-                logger.info(f"  [QA Gate] PASS (Skor {qa.get('skor', 0)}/100) -> AUTO_PUBLISH")
-                # 4. Ingest ke Database
-                update_status("RUNNING", phase="INGESTING", current_slug=slug, stats=stats)
-                ingest_ast_to_database(slug)
+                logger.info(f"  [QA Gate] PASS (Skor {skor}/100) -> AUTO_PUBLISH")
             else:
                 stats["quarantined"] += 1
-                logger.info(f"  [QA Gate] QUARANTINE (Skor {qa.get('skor', 0)}/100). Isu: {len(qa.get('issues', []))}")
+                logger.info(f"  [QA Gate] QUARANTINE (Skor {skor}/100). Isu: {len(qa.get('issues', []))}")
+
+            if can_ingest:
+                update_status("RUNNING", phase="INGESTING", current_slug=slug, stats=stats)
+                if not is_pass:
+                    stats["published"] += 1
+                ingest_ast_to_database(slug, force=(not is_pass))
 
             stats["processed"] += 1
             processed_slugs.add(slug)
@@ -451,6 +482,7 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY) -> Dic
 
 def main():
     parser = argparse.ArgumentParser(description="SIPAKA Automated Crawler & Ingestion Worker")
+    parser.add_argument("--jenis", type=str, default="UU", help="Filter jenis regulasi (default: UU, atau SEMUA)")
     parser.add_argument("--batch", type=int, default=10, help="Jumlah dokumen per siklus batch")
     parser.add_argument("--continuous", action="store_true", help="Jalankan sebagai daemon terus-menerus")
     parser.add_argument("--sleep-interval", type=int, default=300, help="Jeda tidur antar siklus daemon (detik)")
@@ -486,12 +518,13 @@ def main():
             print("Checkpoint berhasil di-reset.")
         return
 
-    logger.info(f"Memulai Worker Crawler SIPAKA (PID: {os.getpid()}, Delay Etis: {args.delay}s)...")
+    jenis_filter = None if args.jenis.upper() in ["ALL", "SEMUA"] else args.jenis
+    logger.info(f"Memulai Worker Crawler SIPAKA (PID: {os.getpid()}, Delay Etis: {args.delay}s, Target: {args.jenis})...")
 
     if args.continuous:
         logger.info(f"Mode DAEMON aktif. Worker akan berjalan terus-menerus (jeda siklus: {args.sleep_interval}s).")
         while not SHUTDOWN_REQUESTED:
-            run_worker_cycle(batch_limit=args.batch, delay=args.delay)
+            run_worker_cycle(batch_limit=args.batch, delay=args.delay, jenis=jenis_filter)
             if SHUTDOWN_REQUESTED:
                 break
             logger.info(f"Menunggu {args.sleep_interval} detik sebelum memeriksa antrean berikutnya...")
@@ -501,7 +534,7 @@ def main():
                 time.sleep(1)
         logger.info("Worker daemon dihentikan dengan aman (Graceful Shutdown).")
     else:
-        run_worker_cycle(batch_limit=args.batch, delay=args.delay)
+        run_worker_cycle(batch_limit=args.batch, delay=args.delay, jenis=jenis_filter)
 
 
 if __name__ == "__main__":

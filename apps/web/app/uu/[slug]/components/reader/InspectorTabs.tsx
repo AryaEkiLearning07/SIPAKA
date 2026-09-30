@@ -256,7 +256,9 @@ export default function InspectorTabs(p: InspectorTabsProps) {
                       ? 'bg-amber-100 text-amber-900 border-amber-300'
                       : r.jenis === 'MENCABUT'
                         ? 'bg-rose-100 text-rose-900 border-rose-300'
-                        : 'bg-blue-100 text-blue-900 border-blue-300';
+                        : r.jenis === 'DASAR_HUKUM'
+                          ? 'bg-purple-100 text-purple-900 border-purple-300'
+                          : 'bg-blue-100 text-blue-900 border-blue-300';
                     return (
                       <div key={r.id} className="p-2.5 rounded-xl border border-slate-200 bg-white shadow-2xs space-y-1">
                         <div className="flex items-center justify-between gap-1">
@@ -297,7 +299,11 @@ export default function InspectorTabs(p: InspectorTabsProps) {
                     const tgt = r.target;
                     const badgeCls = r.jenis === 'MENCABUT'
                       ? 'bg-rose-100 text-rose-900 border-rose-300'
-                      : 'bg-blue-100 text-blue-900 border-blue-300';
+                      : r.jenis === 'MENGUBAH'
+                        ? 'bg-amber-100 text-amber-900 border-amber-300'
+                        : r.jenis === 'DASAR_HUKUM'
+                          ? 'bg-purple-100 text-purple-900 border-purple-300'
+                          : 'bg-blue-100 text-blue-900 border-blue-300';
                     return (
                       <div key={r.id} className="p-2.5 rounded-xl border border-slate-200 bg-white shadow-2xs space-y-1">
                         <div className="flex items-center justify-between gap-1">

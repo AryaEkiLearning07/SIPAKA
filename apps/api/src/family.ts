@@ -101,8 +101,12 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
   const toNode = (p: (typeof instrument.provisions)[number]): ProvisionNode | null => {
     // Node sisipan masa depan (mis. Pasal 27A prapaser 2024) sengaja dibuat sejak seed
     // demi FK — tapi TIDAK BOLEH tampil di naskah dasar sebelum operasinya efektif.
-    const rev = originalRevision.get(p.id);
-    if (!rev) return null;
+    let rev = originalRevision.get(p.id);
+    if (!rev) {
+      const hasChangesetRev = p.revisions.some((r) => r.changeSetId !== null);
+      if (hasChangesetRev) return null;
+      rev = { content: '', versionTag: 'ORIGINAL', explanation: null };
+    }
     const children = (byParent.get(p.id) ?? [])
       .sort((a, b) => a.orderIndex - b.orderIndex)
       .map(toNode)

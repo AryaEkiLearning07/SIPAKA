@@ -80,17 +80,15 @@ async function seedProvisionTree(
         canonicalPath: cPath,
       },
     });
-    if (node.content.trim() || node.type === 'BAB' || node.type === 'BUKU') {
-      await prisma.provisionRevision.create({
-        data: {
-          provisionId: row.id,
-          versionTag: node.versionTag,
-          content: node.content,
-          effectiveFrom: new Date(),
-          changeSetId: null,
-        },
-      });
-    }
+    await prisma.provisionRevision.create({
+      data: {
+        provisionId: row.id,
+        versionTag: node.versionTag || 'ORIGINAL',
+        content: node.content || '',
+        effectiveFrom: new Date(),
+        changeSetId: null,
+      },
+    });
     count += 1 + (await seedProvisionTree(legalInstrumentId, node.children ?? [], row.id, seenPaths));
   }
   return count;

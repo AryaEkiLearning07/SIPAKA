@@ -992,17 +992,38 @@ function CatalogContent() {
                   {/* Footer Aksi */}
                   <div className="flex items-center justify-between pt-3 border-t border-slate-100">
                     <div className="text-[11px] text-slate-500 font-medium flex items-center gap-1.5">
-                      <span className="inline-block w-2 h-2 rounded-full bg-emerald-500" />
-                      <span>Naskah konsolidasi siap ditelusuri</span>
+                      {law.totalArticles && law.totalArticles > 0 ? (
+                        <>
+                          <span className="inline-block w-2 h-2 rounded-full bg-emerald-500" />
+                          <span>Naskah konsolidasi siap ditelusuri</span>
+                        </>
+                      ) : (
+                        <>
+                          <span className="inline-block w-2 h-2 rounded-full bg-amber-500" />
+                          <span className="text-amber-800">Menunggu digitalisasi naskah / kurasi</span>
+                        </>
+                      )}
                     </div>
-                    <Link
-                      href={`/uu/${law.slug}`}
-                      className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#94191C] hover:bg-[#861619] text-white text-xs font-bold transition-all shadow-xs hover:shadow-md cursor-pointer"
-                    >
-                      <BookOpen className="w-3.5 h-3.5" />
-                      <span>Buka Naskah</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
+                    {law.totalArticles && law.totalArticles > 0 ? (
+                      <Link
+                        href={`/uu/${law.slug}`}
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-[#94191C] hover:bg-[#861619] text-white text-xs font-bold transition-all shadow-xs hover:shadow-md cursor-pointer"
+                      >
+                        <BookOpen className="w-3.5 h-3.5" />
+                        <span>Buka Naskah</span>
+                        <ArrowRight className="w-3.5 h-3.5" />
+                      </Link>
+                    ) : (
+                      <a
+                        href={law.pdfUrl || `https://peraturan.bpk.go.id/Search?keywords=${encodeURIComponent(law.title)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-all shadow-xs cursor-pointer"
+                      >
+                        <Download className="w-3.5 h-3.5 text-slate-600" />
+                        <span>Unduh PDF LNRI</span>
+                      </a>
+                    )}
                   </div>
                 </article>
               );
