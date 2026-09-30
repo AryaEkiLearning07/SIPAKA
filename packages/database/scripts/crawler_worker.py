@@ -309,15 +309,13 @@ def parse_and_validate_ast(pdf_path: Path, slug: str, metadata: Dict[str, Any], 
 # ─── Modul Ingest Database MariaDB ───────────────────────────────────────────
 def ingest_ast_to_database(slug: str, force: bool = False) -> bool:
     try:
-        # Jalankan seeder generik tsx
-        cmd = ["npx", "tsx", "./seed/ingest-json.ts"]
+        # Jalankan seeder generik via container sipaka-api yang memiliki Prisma Client lengkap
+        cmd = ["docker", "exec", "sipaka-api", "node", "apps/api/node_modules/tsx/dist/cli.mjs", "packages/database/seed/ingest-json.ts"]
         if force:
             cmd.append("--force")
         cmd.append(slug)
         res = subprocess.run(
-            " ".join(cmd),
-            cwd=str(DATABASE_PKG),
-            shell=True,
+            cmd,
             capture_output=True,
             text=True,
             timeout=120,
@@ -350,7 +348,8 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY, jenis:
 
     # Sinkronisasi otomatis dengan basis data MariaDB agar tidak mendownload/memproses ulang yang sudah aktif di DB
     try:
-        req = requests.get("http://localhost:4000/api/v1/instruments", timeout=5)
+        api_port = os.environ.get("SIPAKA_API_PORT", "4080")
+        req = requests.get(f"http://localhost:{api_port}/api/v1/instruments", timeout=5)
         if req.status_code == 200:
             for item in req.json().get("data", []):
                 db_slug = item.get("slug")
