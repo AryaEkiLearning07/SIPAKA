@@ -12,6 +12,7 @@ import os
 import re
 import urllib.parse
 
+from pathlib import Path
 import pymysql
 
 # Auto-load .env jika belum ada di environment
