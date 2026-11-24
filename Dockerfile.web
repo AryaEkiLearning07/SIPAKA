@@ -8,7 +8,9 @@ RUN npm install -g pnpm@10.5.2
 
 # Argumen build untuk env client
 ARG NEXT_PUBLIC_API_URL
-ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:4000}
+ENV NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-}
+ARG INTERNAL_API_URL
+ENV INTERNAL_API_URL=${INTERNAL_API_URL:-http://api:4000/api/:path*}
 
 # Salin berkas konfigurasi monorepo
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml turbo.json ./

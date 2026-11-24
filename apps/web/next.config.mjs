@@ -2,7 +2,7 @@
 const nextConfig = {
   transpilePackages: ['@sipaka/types', '@sipaka/legal-engine'],
   async rewrites() {
-    const rawTarget = process.env.INTERNAL_API_URL || 'http://127.0.0.1:4000/api/:path*';
+    const rawTarget = process.env.INTERNAL_API_URL || 'http://api:4000/api/:path*';
     const apiDestination = rawTarget.includes(':path*')
       ? rawTarget
       : `${rawTarget.replace(/\/api\/?$/, '')}/api/:path*`;
