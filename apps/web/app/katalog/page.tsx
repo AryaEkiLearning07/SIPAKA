@@ -392,7 +392,12 @@ function CatalogContent() {
     if (sortBy === 'terbaru') return [...result].sort((a, b) => b.item.year - a.item.year || Number(b.item.number) - Number(a.item.number)).map(({ item }) => item);
     if (sortBy === 'terlama') return [...result].sort((a, b) => a.item.year - b.item.year || Number(a.item.number) - Number(b.item.number)).map(({ item }) => item);
     if (sortBy === 'pasal_terbanyak') return [...result].sort((a, b) => (b.item.totalArticles || 0) - (a.item.totalArticles || 0)).map(({ item }) => item);
-    return [...result].sort((a, b) => b.relevance - a.relevance).map(({ item }) => item);
+    
+    const sorted = [...result].sort((a, b) => b.item.year - a.item.year || Number(b.item.number) - Number(a.item.number)).map(({ item }) => item);
+    if (!q && selectedType === 'SEMUA' && selectedStatus === 'SEMUA' && selectedField === 'SEMUA' && selectedEra === 'SEMUA' && !customYearMin && !customYearMax) {
+      return sorted.slice(0, 20);
+    }
+    return sorted;
   }, [laws, query, matchedAlias, searchMode, provisionsBySlug, selectedType, selectedStatus, selectedFormat, selectedConsolidation, selectedField, selectedEra, customYearMin, customYearMax, sortBy]);
 
   const resetAllFilters = () => {
@@ -852,8 +857,15 @@ function CatalogContent() {
                     'Memuat data peraturan dari database…'
                   ) : (
                     <>
-                      <strong className="text-slate-900 font-mono text-sm">{filteredAndSortedLaws.length}</strong> peraturan ditemukan
-                      {query && <> untuk &ldquo;<strong className="text-slate-900">{query}</strong>&rdquo;</>}
+                      {query ? (
+                        <>
+                          <strong className="text-slate-900 font-mono text-sm">{filteredAndSortedLaws.length}</strong> peraturan ditemukan untuk &ldquo;<strong className="text-slate-900">{query}</strong>&rdquo;
+                        </>
+                      ) : (
+                        <>
+                          Menampilkan <strong className="text-slate-900 font-mono text-sm">{filteredAndSortedLaws.length}</strong> peraturan utama (Ketik kata kunci untuk pencarian spesifik)
+                        </>
+                      )}
                     </>
                   )}
                 </div>

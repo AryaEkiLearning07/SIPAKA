@@ -16,7 +16,6 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   { label: 'Beranda', href: '/', exact: true },
-  { label: 'Peraturan', href: '/katalog' },
   { label: 'Forum Kasus', href: '/forum' },
   { label: 'Repositori', href: '/repositori' },
   { label: 'Glosarium Kasus', href: '/glosarium' },
