@@ -16,12 +16,10 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   { label: 'Beranda', href: '/', exact: true },
-  { label: 'Pencarian UU', href: '/katalog' },
+  { label: 'Peraturan', href: '/katalog' },
   { label: 'Forum Kasus', href: '/forum' },
   { label: 'Repositori', href: '/repositori' },
-  { label: 'Glosarium Latin', href: '/glosarium' },
-  { label: 'Asisten AI', href: '/asisten-ai' },
-  { label: 'Peta Pipeline', href: '/pipeline' },
+  { label: 'Glosarium Kasus', href: '/glosarium' },
 ];
 
 export default function GlobalHeader() {
