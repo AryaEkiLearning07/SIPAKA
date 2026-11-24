@@ -38,6 +38,28 @@ interface LawItem {
   totalArticles?: number;
 }
 
+/** Pembersih teks hukum dari entitas XML/HTML, newline, dan sufiks portal pihak ketiga */
+function cleanLegalText(str: string | null | undefined): string {
+  if (!str) return '';
+  return str
+    .replace(/&#xD;/gi, ' ')
+    .replace(/&#xA;/gi, ' ')
+    .replace(/&#13;/gi, ' ')
+    .replace(/&#10;/gi, ' ')
+    .replace(/&#x201C;/gi, '"')
+    .replace(/&#x201D;/gi, '"')
+    .replace(/&#x2B;/gi, '+')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;|&#39;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/\s+[|–\-]\s*JDIH\s*BPK.*$/i, '')
+    .replace(/\s+[|–\-]\s*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 /** Normalise respons /api/v1/instruments ke LawItem[] */
 function normaliseLaws(data: Record<string, unknown>[]): LawItem[] {
   return data.map((item) => ({
@@ -48,8 +70,8 @@ function normaliseLaws(data: Record<string, unknown>[]): LawItem[] {
         : String(item.type ?? 'UU'),
     number: item.number as number,
     year: item.year as number,
-    title: String(item.title ?? ''),
-    shortTitle: item.shortTitle ? String(item.shortTitle) : undefined,
+    title: cleanLegalText(String(item.title ?? '')),
+    shortTitle: item.shortTitle ? cleanLegalText(String(item.shortTitle)) : undefined,
     status: (['BERLAKU', 'DIUBAH', 'DICABUT'].includes(String(item.status))
       ? item.status : 'BERLAKU') as LawItem['status'],
     promulgatedAt: item.promulgatedAt
@@ -60,7 +82,7 @@ function normaliseLaws(data: Record<string, unknown>[]): LawItem[] {
     lnNumber: item.lnNumber ? `LNRI No. ${item.lnNumber}` : undefined,
     tlnNumber: item.tlnNumber ? `TLNRI No. ${item.tlnNumber}` : undefined,
     field: item.field ? String(item.field) : undefined,
-    description: item.description ? String(item.description) : undefined,
+    description: item.description ? cleanLegalText(String(item.description)) : undefined,
     pdfUrl: item.pdfUrl ? String(item.pdfUrl) : undefined,
     amendedBy: Array.isArray(item.amendingInstruments) ? (item.amendingInstruments as string[]) : [],
     totalArticles: item.totalArticles as number | undefined,
@@ -101,11 +123,12 @@ function getLegalIdentity(law: LawItem): {
 
   const officialTitle = `${law.type} Nomor ${law.number} Tahun ${law.year}`;
   const pop = popularMap[law.slug] || popularMap[law.id];
+  const cleanedTitle = cleanLegalText(law.title);
 
   // 1. Ekstrak dari frasa "tentang ..." jika ada
-  const m = law.title.match(/tentang\s+(.+)$/i);
+  const m = cleanedTitle.match(/tentang\s+(.+)$/i);
   if (m && m[1].trim()) {
-    const rawTopic = m[1].trim().replace(/\s+[|–\-]\s+.*$/i, '').trim();
+    const rawTopic = cleanLegalText(m[1].replace(/\s+[|–\-]\s*.*$/i, ''));
     return {
       officialTitle,
       tentang: rawTopic,
@@ -114,11 +137,11 @@ function getLegalIdentity(law: LawItem): {
   }
 
   // 2. Jika title di database bukan sekadar "Undang-Undang Nomor X..."
-  const isGeneric = law.title.match(/^(?:Undang-Undang|UU)\s+(?:Nomor|No\.?)\s*\d+\s+Tahun\s+\d+$/i);
-  if (!isGeneric && law.title.trim()) {
+  const isGeneric = cleanedTitle.match(/^(?:Undang-Undang|UU)\s+(?:Nomor|No\.?)\s*\d+\s+Tahun\s+\d+$/i);
+  if (!isGeneric && cleanedTitle.trim()) {
     return {
       officialTitle,
-      tentang: law.title.trim(),
+      tentang: cleanedTitle.trim(),
       popularName: pop,
     };
   }

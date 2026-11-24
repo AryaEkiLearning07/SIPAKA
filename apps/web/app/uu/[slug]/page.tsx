@@ -66,12 +66,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     meta = getFallbackIteMeta();
   }
 
+  const cleanTopic = meta
+    ? meta.title
+        .replace(/&#[a-zA-Z0-9]+;/g, ' ')
+        .replace(/^.*?\btentang\s+/i, '')
+        .replace(/\s+[|–\-]\s*JDIH\s*BPK.*$/i, '')
+        .replace(/\s+/g, ' ')
+        .trim()
+    : '';
+
   const title = meta
-    ? `${meta.type} No. ${meta.number} Tahun ${meta.year} tentang ${meta.title} | SIPAKA`
+    ? `${meta.type} No. ${meta.number} Tahun ${meta.year} tentang ${cleanTopic} | SIPAKA`
     : `Naskah Konsolidasi Regulasi | SIPAKA`;
 
   const description = meta
-    ? `Naskah konsolidasi resmi deterministik ${meta.title} (${meta.type} ${meta.number}/${meta.year}). Uji integritas kriptografis SHA-256, pelacakan amandemen point-in-time, dan risalah pembentukan hukum.`
+    ? `Naskah konsolidasi resmi deterministik ${cleanTopic} (${meta.type} ${meta.number}/${meta.year}). Uji integritas kriptografis SHA-256, pelacakan amandemen point-in-time, dan risalah pembentukan hukum.`
     : `Sistem Informasi Pelacakan Amandemen dan Kodifikasi Hukum Indonesia.`;
 
   return {

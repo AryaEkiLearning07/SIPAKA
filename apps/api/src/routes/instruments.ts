@@ -59,6 +59,27 @@ function getPdfUrl(slug: string | null | undefined, number: number, year: number
   return `https://peraturan.bpk.go.id/Search?keywords=Undang-Undang+Nomor+${number}+Tahun+${year}`;
 }
 
+export function cleanLegalText(str: string | null | undefined): string {
+  if (!str) return '';
+  return str
+    .replace(/&#xD;/gi, ' ')
+    .replace(/&#xA;/gi, ' ')
+    .replace(/&#13;/gi, ' ')
+    .replace(/&#10;/gi, ' ')
+    .replace(/&#x201C;/gi, '"')
+    .replace(/&#x201D;/gi, '"')
+    .replace(/&#x2B;/gi, '+')
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;|&#39;/gi, "'")
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/\s+[|–\-]\s*JDIH\s*BPK.*$/i, '')
+    .replace(/\s+[|–\-]\s*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 export function registerInstrumentRoutes(server: FastifyInstance): void {
   // 1. Health check — status DB ikut dilaporkan
   server.get('/api/v1/health', async () => {
@@ -154,9 +175,9 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
             type: inst.type,
             number: inst.number,
             year: inst.year,
-            title: inst.title,
-            shortTitle: inst.shortTitle,
-            description: inst.description,
+            title: cleanLegalText(inst.title),
+            shortTitle: cleanLegalText(inst.shortTitle),
+            description: cleanLegalText(inst.description),
             status: inst.status,
             promulgatedAt: inst.promulgatedAt.toISOString(),
             lnNumber: inst.lnNumber,
@@ -202,8 +223,8 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
         type: inst.type,
         number: inst.number,
         year: inst.year,
-        title: inst.title,
-        shortTitle: inst.shortTitle,
+        title: cleanLegalText(inst.title),
+        shortTitle: cleanLegalText(inst.shortTitle),
         status: inst.status,
         preamble: inst.preambleJson ?? null,
         penutup: inst.penutupTeks ?? null,

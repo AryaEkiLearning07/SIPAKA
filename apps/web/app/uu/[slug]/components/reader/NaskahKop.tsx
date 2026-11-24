@@ -5,6 +5,29 @@ import { InstrumentMeta } from '../../reader-types';
 
 /** Kop Lembaran Negara + Konsiderans (Menimbang/Mengingat) + Penetapan. */
 export default function NaskahKop({ meta, fontType }: { meta: InstrumentMeta | null; fontType: 'serif' | 'sans' }) {
+  const displaySubject = React.useMemo(() => {
+    if (!meta?.title) return 'INFORMASI DAN TRANSAKSI ELEKTRONIK';
+    const cleaned = meta.title
+      .replace(/&#xD;/gi, ' ')
+      .replace(/&#xA;/gi, ' ')
+      .replace(/&#13;/gi, ' ')
+      .replace(/&#10;/gi, ' ')
+      .replace(/&#x201C;/gi, '"')
+      .replace(/&#x201D;/gi, '"')
+      .replace(/&#x2B;/gi, '+')
+      .replace(/&amp;/gi, '&')
+      .replace(/&quot;/gi, '"')
+      .replace(/&apos;|&#39;/gi, "'")
+      .replace(/&lt;/gi, '<')
+      .replace(/&gt;/gi, '>')
+      .replace(/\s+[|–\-]\s*JDIH\s*BPK.*$/i, '')
+      .replace(/\s+[|–\-]\s*$/i, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const m = cleaned.match(/tentang\s+(.+)$/i);
+    return m ? m[1].trim() : cleaned;
+  }, [meta?.title]);
+
   return (
     <>
       {/* Header Atas Dokumen Lembaran Negara */}
@@ -66,7 +89,7 @@ export default function NaskahKop({ meta, fontType }: { meta: InstrumentMeta | n
           TENTANG
         </p>
         <h4 className="font-sans font-extrabold text-base sm:text-lg uppercase tracking-wide text-slate-900">
-          {meta?.title || 'INFORMASI DAN TRANSAKSI ELEKTRONIK'}
+          {displaySubject}
         </h4>
         <p className="font-serif italic text-xs text-slate-600 pt-2">
           DENGAN RAHMAT TUHAN YANG MAHA ESA

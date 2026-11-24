@@ -182,7 +182,7 @@ export default function SearchAutocompleteDropdown({
                         </span>
                       </div>
                       <p className="text-xs text-slate-600 truncate mt-0.5">
-                        {law.title}
+                        {law.title.replace(/&#[a-zA-Z0-9]+;/g, ' ').replace(/\s+[|–\-]\s*JDIH\s*BPK.*$/i, '').trim()}
                       </p>
                     </div>
 
