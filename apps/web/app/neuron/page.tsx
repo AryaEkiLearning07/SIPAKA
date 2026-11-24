@@ -3,9 +3,10 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { ArrowLeft, GitGraph, Table2, Cpu, BookOpen, AlertTriangle, Loader2, GitBranch } from 'lucide-react';
+import { ArrowLeft, GitGraph, Table2, Cpu, BookOpen, AlertTriangle, Loader2, GitBranch, Sparkles } from 'lucide-react';
 import MatriksHarmonisasi from './MatriksHarmonisasi';
 import VisualLineageTree from '../components/VisualLineageTree';
+import ObsidianLegalGraph from '../components/ObsidianLegalGraph';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
@@ -31,7 +32,7 @@ function NeuronContent() {
   const [selectedSlug, setSelectedSlug] = useState<string>(initialSlug);
   const [isLoading, setIsLoading] = useState(true);
   const [apiDown, setApiDown] = useState(false);
-  const [activeTab, setActiveTab] = useState<'TREE' | 'MATRIX'>('TREE');
+  const [activeTab, setActiveTab] = useState<'OBSIDIAN' | 'TREE' | 'MATRIX'>('OBSIDIAN');
 
   useEffect(() => {
     let cancelled = false;
@@ -95,13 +96,22 @@ function NeuronContent() {
           <div className="flex items-center gap-3">
             <div className="flex items-center bg-slate-100 p-1 rounded-xl border border-slate-200 text-xs font-semibold">
               <button
+                onClick={() => setActiveTab('OBSIDIAN')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+                  activeTab === 'OBSIDIAN' ? 'bg-[#94191C] text-white shadow-xs' : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5" />
+                Graf Obsidian (Simpul UU)
+              </button>
+              <button
                 onClick={() => setActiveTab('TREE')}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
                   activeTab === 'TREE' ? 'bg-white text-[#94191C] shadow-xs' : 'text-slate-600 hover:text-slate-900'
                 }`}
               >
                 <GitGraph className="w-3.5 h-3.5" />
-                Pohon Silsilah Visual
+                Pohon Stufenbau
               </button>
               <button
                 onClick={() => setActiveTab('MATRIX')}
@@ -127,7 +137,40 @@ function NeuronContent() {
       {/* Main */}
       <main className="flex-1 max-w-7xl mx-auto w-full p-6 space-y-6">
         {/* Dynamic Contextual Guide Banner */}
-        {activeTab === 'TREE' ? (
+        {activeTab === 'OBSIDIAN' ? (
+          <div className="bg-gradient-to-r from-slate-900 via-[#111726] to-[#1E293B] text-white border border-slate-700/60 rounded-2xl p-5 shadow-md">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+              <div className="space-y-1.5 max-w-3xl">
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center gap-1 text-[11px] font-mono font-bold uppercase tracking-wider text-amber-300 bg-amber-950/80 border border-amber-700/60 px-2 py-0.5 rounded">
+                    Obsidian Interactive Knowledge Graph
+                  </span>
+                  <span className="text-xs text-slate-300 font-medium">Jejaring Relasi Hukum 4 Warna</span>
+                </div>
+                <h2 className="text-base font-bold text-white">
+                  Pohon Silsilah Relasi Undang-Undang Interaktif
+                </h2>
+                <p className="text-xs text-slate-300 leading-relaxed">
+                  Menghubungkan undang-undang pokok dengan instrumen yang dicabut (merah), undang-undang pengubah/amandemen (biru), dan regulasi terkait yang dirujuk (hijau). Geser (drag) kotak simpul untuk eksplorasi visual.
+                </p>
+              </div>
+
+              {/* Selector Cepat */}
+              <div className="shrink-0 flex items-center gap-2 bg-black/40 px-3.5 py-2 rounded-xl border border-white/10 text-xs">
+                <span className="text-slate-400 font-semibold">Fokus:</span>
+                <select
+                  value={selectedSlug}
+                  onChange={(e) => setSelectedSlug(e.target.value)}
+                  className="font-bold text-amber-300 bg-transparent focus:outline-none cursor-pointer"
+                >
+                  <option value="tipikor" className="bg-slate-900 text-white">UU Tipikor (31/1999 &amp; 20/2001)</option>
+                  <option value="ite" className="bg-slate-900 text-white">UU ITE (11/2008 &rarr; 19/2016 &rarr; 1/2024)</option>
+                  <option value="uu-1-2023" className="bg-slate-900 text-white">KUHP Nasional (UU 1/2023)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        ) : activeTab === 'TREE' ? (
           <div className="bg-gradient-to-r from-red-50/80 via-white to-slate-50 border border-red-100/80 rounded-2xl p-5 shadow-xs">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
               <div className="space-y-1.5 max-w-3xl">
@@ -155,6 +198,7 @@ function NeuronContent() {
                   onChange={(e) => setSelectedSlug(e.target.value)}
                   className="font-bold text-slate-900 bg-transparent focus:outline-none cursor-pointer"
                 >
+                  <option value="tipikor">UU Tipikor (31/1999 &amp; 20/2001)</option>
                   <option value="ite">UU ITE (11/2008 &rarr; 19/2016 &rarr; 1/2024)</option>
                   <option value="uu-1-2023">KUHP Nasional (UU 1/2023)</option>
                   <option value="uu-27-2022">UU Perlindungan Data Pribadi (27/2022)</option>
@@ -190,6 +234,8 @@ function NeuronContent() {
             <Loader2 className="w-5 h-5 animate-spin" />
             <span className="text-sm">Memuat data silsilah dari database…</span>
           </div>
+        ) : activeTab === 'OBSIDIAN' ? (
+          <ObsidianLegalGraph initialFamily={selectedSlug === 'ite' ? 'ite' : selectedSlug === 'uu-1-2023' ? 'kuhp' : 'tipikor'} />
         ) : activeTab === 'TREE' ? (
           <VisualLineageTree slug={selectedSlug} />
         ) : (

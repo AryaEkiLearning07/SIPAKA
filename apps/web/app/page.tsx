@@ -53,11 +53,13 @@ export default function HomePage() {
     <div className="flex-1 flex flex-col bg-slate-50 font-sans text-slate-800">
       {/* ── Hero Section (Bersih, Elegan, Terfokus pada Pencarian) ───── */}
       <main className="flex-1">
-        <section className="relative overflow-hidden bg-gradient-to-b from-[#94191C] via-[#861619] to-[#2B0B06] pt-8 pb-12 sm:pt-12 sm:pb-16 text-white border-b border-[#2B0B06]">
-          {/* Subtle Ambient Glow */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent pointer-events-none" />
+        <section className="relative bg-gradient-to-b from-[#94191C] via-[#861619] to-[#2B0B06] pt-8 pb-16 sm:pt-12 sm:pb-24 text-white border-b border-[#2B0B06] z-20">
+          {/* Subtle Ambient Glow (terisolasi agar tidak memotong dropdown) */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent" />
+          </div>
 
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-10">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center relative z-30">
             {/* Pill Atas */}
             <div className="inline-flex items-center gap-2 p-1 pl-3 pr-3.5 rounded-full bg-black/30 border border-white/20 text-xs font-medium text-white shadow-md mb-4 backdrop-blur-md">
               <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
@@ -80,7 +82,7 @@ export default function HomePage() {
             </p>
 
             {/* Hero Search Box Cerdas dengan Autocomplete & Typo Tolerance */}
-            <div className="mt-6 max-w-2xl mx-auto">
+            <div className="mt-6 max-w-2xl mx-auto relative z-40">
               <SearchAutocompleteDropdown
                 value={searchKeyword}
                 onChange={setSearchKeyword}

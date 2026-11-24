@@ -122,10 +122,10 @@ export default function SearchAutocompleteDropdown({
 
       {/* ── Dropdown Hasil Cerdas / Autocomplete ── */}
       {isOpen && value.trim().length > 0 && (
-        <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-slate-200 shadow-xl z-50 overflow-hidden divide-y divide-slate-100">
+        <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-slate-200 shadow-2xl z-[100] overflow-hidden divide-y divide-slate-100 flex flex-col max-h-[460px]">
           {/* Typo Correction Banner jika ada */}
           {suggestedCorrection && suggestedCorrection.toLowerCase() !== value.trim().toLowerCase() && (
-            <div className="p-3 bg-amber-50/80 border-b border-amber-200/60 flex items-center justify-between text-xs text-amber-900">
+            <div className="p-3 bg-amber-50/80 border-b border-amber-200/60 flex items-center justify-between text-xs text-amber-900 shrink-0">
               <div className="flex items-center gap-2">
                 <Sparkles className="w-4 h-4 text-amber-600 shrink-0" />
                 <span>
@@ -148,7 +148,7 @@ export default function SearchAutocompleteDropdown({
 
           {/* List Rekomendasi */}
           {suggestions.length > 0 ? (
-            <div className="py-2">
+            <div className="py-2 overflow-y-auto max-h-[320px]">
               <div className="px-4 py-1 text-[11px] font-mono font-bold uppercase tracking-wider text-slate-400">
                 Rekomendasi Dokumen Terkait
               </div>

@@ -7,7 +7,7 @@ import {
   Search, BookOpen, ArrowRight,
   AlertTriangle, RotateCcw, Calendar,
   FileText, History, Gavel, ChevronDown, Check, SlidersHorizontal,
-  X, Layers, Clock, Sparkles, Download, CheckCircle2
+  X, Layers, Clock, Sparkles, Download, CheckCircle2, GitBranch
 } from 'lucide-react';
 import {
   POPULAR_LEGAL_ALIASES,
@@ -427,38 +427,65 @@ function CatalogContent() {
 
   return (
     <div className="flex-1 flex flex-col bg-[#F8F9FA] font-sans text-slate-800">
-      {/* Header Pencarian */}
-      <div className="bg-[#94191C] text-white py-6 border-b border-[#861619]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="max-w-4xl">
-            <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white mb-2">
-              Pusat Data &amp; Pencarian Peraturan Perundang-undangan
+      {/* ── Header Pencarian Tingkat Lanjut (Clean, Modern & Ergonomis) ── */}
+      <div className="bg-gradient-to-b from-[#7A1315] via-[#861619] to-[#94191C] text-white pt-8 pb-10 border-b border-[#6A2225] relative overflow-hidden">
+        {/* Subtle Ambient Light */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-transparent to-transparent pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+          <div className="max-w-3xl">
+            {/* Kicker Pill */}
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/25 border border-white/20 text-white/90 text-xs font-semibold mb-3 backdrop-blur-md">
+              <Search className="w-3.5 h-3.5 text-amber-300" />
+              <span>Pusat Data Naskah Konsolidasi Deterministik</span>
+            </div>
+
+            <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white mb-2 leading-tight">
+              Pencarian Regulasi Perundang-undangan
             </h1>
-            <p className="text-xs sm:text-sm text-white/80 font-light mb-4">
-              Cari undang-undang, nomor, tahun, atau kata kunci pasal. Buka langsung naskah konsolidasi deterministik.
+            <p className="text-xs sm:text-sm text-white/80 font-light mb-6 leading-relaxed">
+              Ketik judul undang-undang, nomor, tahun, atau telusuri materi muatan isi pasal secara deterministik.
             </p>
-            <form onSubmit={(e) => e.preventDefault()} className="relative flex items-center shadow-lg rounded-xl">
-              <Search className="w-5 h-5 absolute left-4 text-slate-400" />
+
+            {/* Kotak Input Pencarian Utama */}
+            <form onSubmit={(e) => e.preventDefault()} className="relative flex items-center shadow-xl rounded-2xl bg-white p-1.5 border border-white/20">
+              <div className="pl-3.5 pr-2 flex items-center pointer-events-none text-slate-400">
+                <Search className="w-5 h-5 text-slate-400" />
+              </div>
               <input
-                type="text" value={query} onChange={(e) => setQuery(e.target.value)}
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
                 placeholder={
                   searchMode === 'PROVISIONS'
-                    ? 'Ketik materi muatan isi pasal (misal: pencemaran nama baik, ganti rugi, direksi, rahasia)…'
-                    : 'Ketik judul undang-undang, nomor, tahun (misal: UU 1 2024, KUHP, ITE)…'
+                    ? 'Ketik isi materi pasal (misal: pencemaran nama baik, ganti rugi, direksi, rahasia)…'
+                    : 'Ketik kata kunci, nomor UU, atau topik (misal: UU 1 2024, KUHP, Tipikor, ITE)…'
                 }
-                className="w-full pl-12 pr-24 py-3 bg-white text-slate-900 placeholder:text-slate-400 rounded-xl text-sm font-medium focus:outline-none focus:ring-4 focus:ring-amber-300/40"
+                className="w-full py-2.5 px-2 bg-transparent text-slate-900 placeholder:text-slate-400 text-sm sm:text-base font-medium focus:outline-none"
               />
               {query && (
-                <button type="button" onClick={() => setQuery('')}
-                  className="absolute right-3 px-2.5 py-1 text-xs font-semibold text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors cursor-pointer">
-                  Hapus
+                <button
+                  type="button"
+                  onClick={() => setQuery('')}
+                  className="px-2.5 py-1.5 text-xs font-bold text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors cursor-pointer mr-1.5 shrink-0 flex items-center gap-1"
+                >
+                  <X className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Hapus</span>
                 </button>
               )}
+              {/* Tombol Cari */}
+              <button
+                type="submit"
+                className="px-4 py-2 bg-gradient-to-r from-[#94191C] to-[#B91C1C] hover:from-[#7A1315] hover:to-[#94191C] text-white font-bold text-xs sm:text-sm rounded-xl transition-all shadow-md flex items-center gap-1.5 shrink-0 cursor-pointer"
+              >
+                <span>Cari</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
             </form>
 
-            {/* Rekomendasi Typo ala Search Engine Modern */}
+            {/* Rekomendasi Typo jika ada */}
             {suggestedCorrection && suggestedCorrection.toLowerCase() !== query.trim().toLowerCase() && (
-              <div className="mt-2.5 px-3.5 py-2 bg-amber-100 border border-amber-300 rounded-xl text-xs text-amber-950 flex items-center justify-between gap-2 shadow-xs">
+              <div className="mt-3 px-3.5 py-2 bg-amber-100/90 border border-amber-300 rounded-xl text-xs text-amber-950 flex items-center justify-between gap-2 shadow-xs">
                 <div className="flex items-center gap-2">
                   <Sparkles className="w-4 h-4 text-amber-700 shrink-0" />
                   <span>
@@ -468,60 +495,88 @@ function CatalogContent() {
                 <button
                   type="button"
                   onClick={() => setQuery(suggestedCorrection)}
-                  className="px-2.5 py-1 bg-amber-200 hover:bg-amber-300 rounded-lg font-bold text-[11px] text-amber-950 transition-colors cursor-pointer"
+                  className="px-3 py-1 bg-amber-200 hover:bg-amber-300 rounded-lg font-bold text-[11px] text-amber-950 transition-colors cursor-pointer"
                 >
                   Terapkan Koreksi
                 </button>
               </div>
             )}
 
-            {/* Quick Recommendation Pills */}
-            <div className="mt-3 flex items-center gap-1.5 flex-wrap">
-              <span className="text-xs text-white/70 font-medium mr-1 flex items-center gap-1">
-                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                <span>Pencarian Cepat:</span>
+            {/* Segmented Mode Toggle & Tombol Graf Obsidian */}
+            <div className="mt-4 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+              {/* Segmented Mode Button */}
+              <div className="inline-flex items-center bg-black/25 p-1 rounded-xl border border-white/15">
+                <button
+                  type="button"
+                  onClick={() => setSearchMode('METADATA')}
+                  className={`px-3 py-1.5 rounded-lg font-bold text-xs transition-all cursor-pointer ${
+                    searchMode === 'METADATA'
+                      ? 'bg-white text-slate-900 shadow-sm'
+                      : 'text-white/80 hover:text-white'
+                  }`}
+                >
+                  Pencarian Judul &amp; Nomor UU
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSearchMode('PROVISIONS')}
+                  className={`px-3 py-1.5 rounded-lg font-bold text-xs transition-all flex items-center gap-1.5 cursor-pointer ${
+                    searchMode === 'PROVISIONS'
+                      ? 'bg-amber-300 text-slate-950 shadow-sm'
+                      : 'text-white/80 hover:text-white'
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-300 group-hover:text-amber-200" />
+                  <span>Cari di Seluruh Teks Isi Pasal</span>
+                </button>
+              </div>
+
+              {/* Pintasan ke Graf Obsidian */}
+              <Link
+                href="/neuron"
+                className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-amber-400/20 hover:bg-amber-400/30 border border-amber-300/40 text-amber-200 hover:text-amber-100 font-bold text-xs transition-all shadow-xs"
+              >
+                <GitBranch className="w-3.5 h-3.5 text-amber-300" />
+                <span>Buka Graf Obsidian (Peta Relasi)</span>
+              </Link>
+            </div>
+
+            {/* Segmented Quick Pills Bar */}
+            <div className="mt-3 flex items-center gap-1.5 flex-wrap text-xs border-t border-white/10 pt-3">
+              <span className="text-[11px] font-mono uppercase tracking-wider text-white/60 font-semibold mr-1">
+                Pencarian Cepat:
               </span>
-              {POPULAR_LEGAL_ALIASES.slice(0, 7).map((alias) => (
+              {POPULAR_LEGAL_ALIASES.slice(0, 6).map((alias) => (
                 <button
                   key={alias.id}
                   type="button"
                   onClick={() => setQuery(alias.searchKeywords[0])}
-                  className="px-2.5 py-1 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-semibold transition-all cursor-pointer hover:border-amber-300 hover:text-amber-200"
+                  className="px-2.5 py-1 rounded-full bg-black/20 hover:bg-black/35 border border-white/20 text-white text-xs font-semibold transition-all cursor-pointer hover:border-amber-300 hover:text-amber-200 active:scale-95 shadow-2xs"
                 >
                   {alias.popularName.split('(')[0].trim()}
                 </button>
               ))}
             </div>
 
-            {/* Toggle Mode Pencarian: Judul vs Isi Pasal */}
-            <div className="flex flex-wrap items-center gap-2 mt-3 text-xs">
-              <button
-                type="button"
-                onClick={() => setSearchMode(searchMode === 'METADATA' ? 'PROVISIONS' : 'METADATA')}
-                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold transition-all cursor-pointer ${
-                  searchMode === 'PROVISIONS'
-                    ? 'bg-amber-300 text-slate-950 shadow-sm ring-2 ring-amber-400/50'
-                    : 'bg-white/10 hover:bg-white/20 text-white border border-white/20'
-                }`}
-              >
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Cari di Seluruh Teks Isi Pasal (Full-Text)</span>
-                {searchMode === 'PROVISIONS' && (
-                  <span className="bg-[#94191C] text-amber-300 text-[10px] px-1.5 py-0.2 rounded font-mono uppercase">
-                    Aktif
+            {/* Status Hasil Pencarian Isi Pasal (Full-Text) */}
+            {searchMode === 'PROVISIONS' && (
+              <div className="mt-2.5 text-xs text-amber-200 flex items-center gap-2">
+                {isSearchingProvisions ? (
+                  <span className="animate-pulse flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping inline-block" />
+                    <span>Menelusuri ribuan ketentuan pasal di database…</span>
+                  </span>
+                ) : query.trim().length >= 2 ? (
+                  <span>
+                    Ditemukan <strong className="text-white font-mono">{provisionResults.length}</strong> ketentuan pasal di <strong className="text-white font-mono">{Object.keys(provisionsBySlug).length}</strong> undang-undang
+                  </span>
+                ) : (
+                  <span className="text-white/70">
+                    Ketik minimal 2 karakter untuk memulai penelusuran kata kunci di seluruh isi naskah pasal.
                   </span>
                 )}
-              </button>
-              {isSearchingProvisions ? (
-                <span className="text-amber-200 text-xs flex items-center gap-1 animate-pulse">
-                  Menelusuri ribuan ketentuan pasal…
-                </span>
-              ) : searchMode === 'PROVISIONS' && query.trim().length >= 2 ? (
-                <span className="text-white/80 text-xs">
-                  Ditemukan {provisionResults.length} ketentuan pasal di {Object.keys(provisionsBySlug).length} undang-undang
-                </span>
-              ) : null}
-            </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
