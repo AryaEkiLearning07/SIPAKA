@@ -30,7 +30,7 @@ export default function MonitoringDashboard() {
     let hidup = true;
     const muat = async () => {
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'}/api/v1/monitoring`);
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/v1/monitoring`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const j = await res.json();
         if (hidup) { setData(j); setErr(null); }
@@ -48,7 +48,7 @@ export default function MonitoringDashboard() {
     let hidup = true;
     const muat = async () => {
       try {
-        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000'}/api/v1/monitoring/queue?status=${filterStatus}&jenis=UU&limit=50`);
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ''}/api/v1/monitoring/queue?status=${filterStatus}&jenis=UU&limit=50`);
         if (!res.ok) throw new Error(String(res.status));
         const j = await res.json();
         if (hidup) setAntrean(j.antrean);

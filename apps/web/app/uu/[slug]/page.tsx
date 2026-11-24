@@ -13,7 +13,7 @@ interface PageProps {
 const SERVER_API_BASE =
   process.env.INTERNAL_API_URL?.replace(/\/api(?:\/:path\*)?\/?$/, '') ||
   process.env.NEXT_PUBLIC_API_URL ||
-  'http://localhost:4000';
+  'http://api:4000';
 
 /**
  * Fallback metadata mandiri untuk pilot UU ITE jika API internal belum aktif saat SSR.

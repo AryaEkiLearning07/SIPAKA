@@ -16,7 +16,7 @@ import InteractiveParsingTab from '../../pipeline/components/InteractiveParsingT
 import ParsingCorrectionTab from '../../pipeline/components/ParsingCorrectionTab';
 import LawConnectivityTrackerTab from '../../pipeline/components/LawConnectivityTrackerTab';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
 interface WorkerStats {
   total_indexed: number;
