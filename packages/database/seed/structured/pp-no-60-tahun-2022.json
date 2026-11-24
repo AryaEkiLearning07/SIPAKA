@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-60-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   ". . . SK No 097207 A"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-60-tahun-2022",
+   "detailsId": "234931",
+   "judul": "PP No. 60 Tahun 2022 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Hutama Karya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/287452/PP%20Nomor%2060%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:29:29.479942+00:00"
+  },
+  "sha256": "117e3632b16e3f5f9bd3994d2c9272a726c60997cad4be4743e782f0a38dbbf4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-60-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Hutama Karya yang statusnya sebagai Perusahaan Perseroan (Persero) ditetapkan berdasarkan Peraturan Pemerintah Nomor 14 Tahun 1971 tentang Pengalihan Bentuk Perusahaan Bangunan Negara \"Hutama Karya\" menjadi Pemsahaan Perseroan (PERSERO).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-2022/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-60-tahun-2022/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal I sebesar Rp7.500.O0O.000.000,0O (tujuh triliun lima ratus miliar rupiah). (21 Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (l) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2022 sebagaimana ditetapkan kembali dalam Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaraa 2022.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-2022/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . SK No 097209 A REPUELIK INOONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Repirblik Indonesia. Ditetapkan di Jakarta pada tanggal 3l Desember 2022 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 2022 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 239 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan inistrasi Hukum vanna Djaman SK No 097210 A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

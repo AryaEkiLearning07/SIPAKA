@@ -1,0 +1,52 @@
+{
+ "slug": "pp-no-16-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa pelaksanaan pembangunan Nasional Semesta Berencana yang bersifat masal dan simultan memerlukan penggunaan alat-alat mekanis secara luas dan efisien; bahwa berhubung dengan hal tersebut diatas perlu didirikan suatu perusahaan negara berdasarkan Undang-undang No. 19 Prp tahun 1960 yang dapat memberikan pelayanan terhadap kebutuhan akan alat-alat mekanis tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1962",
+   "detailsId": "72371",
+   "judul": "PP No. 16 Tahun 1962 tentang Pendirian Perusahaan Bangunan Negara Nabuka Karya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62851/pp%20no%20016%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:14.396450+00:00"
+  },
+  "sha256": "325af19704d227699dd31e2a9dbc502e64e283942314e9617ae9a1f15e20d575",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-1962/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

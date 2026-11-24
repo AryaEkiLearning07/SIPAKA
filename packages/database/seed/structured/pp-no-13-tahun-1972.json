@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-13-tahun-1972",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu perlu mengeluarkan Peraturan Pemerintah yang mengatur peningkatan tunjangan-kerja bagi Pegawai Negeri dan Pejabat Negara, sebagaimana ditetapkan dalam Peraturan Pemerintah Nomor 17 Tahun 1971."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1972",
+   "detailsId": "68573",
+   "judul": "PP No. 13 Tahun 1972 tentang Peningkatan Tunjangan-Kerja Bagi Pegawai Negeri Dan Pejabat Negara Sebagaimana Ditetapkan Dalam Peraturan Pemerintah Nomor 17 Tahun 1971 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58966/PP%20NO%2013%20TH%201972.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:23.070426+00:00"
+  },
+  "sha256": "6a05faa07273f6af8fdcb95abe030a81f9fbffae07f3293ca608dd74a98b1ecf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-13-tahun-1972/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Di atas penghasilan yang berhak diterima masing-masing menurut ketentuan-ketentuan dalam Peraturan Pemerintah Nomor 17 Tahun 1971 yakni : a). Pasal I bagi Pegawai Negeri Sipil, b). Pasar II bagi Anggota Angkatan Bersenjata Republik Indonesia, c). Pasal III bagi Menteri Negara, d). Pasal IV bagi Pejabat-pejabat Lembaga-lembaga-Negara Tertinggi, diberikan tambahan tunjangan-kerja yang besarnya sama dengan 100% (seratus perseratus) gaji pokok/gaji kehormatan masing-masing, dengan ketentuan, bahwa tambahan tunjangan-kerja tersebut jumlahnya sekurang- kurangnya Rp. 1.000,- (seribu rupiah) sebulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-13-tahun-1972/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pelaksanaan Peraturan Pemerintah ini lebih lanjut diatur : a. Bagi Anggota Angkatan Bersenjata Republik Indonesia, oleh Menteri Pertahanan dan Keamanan, setelah mendengar Menteri Keuangan. b. Bagi Pegawai Negeri Sipil dan Pejabat-pejabat Negara lainnya, oleh Menteri Keuangan, setelah mendengar Kepala Kantor Urusan Pegawai. Pasal 3 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-13-tahun-1972/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini berlaku mulai tanggal 1 April 1972. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Pebruari 1972 SOEHARTO JENDERAL TNI Diundangkan di Jakarta pada tanggal 22 Pebruari 1972 WAKIL SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H. MAYOR JENDERAL T.N.I.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-45-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu segera didirikan suatu Perusahaan Umum sebagaimana yang dimaksudkan dalam Pasal 4 Peraturan Pemerintah Nomor 44 Tahun 1971 (Lembaran-Negara Republik Indonesia Tahun, 1971 Nomor 56)."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-45-tahun-1971",
+   "detailsId": "69500",
+   "judul": "PP No. 45 Tahun 1971 tentang Pendirian Perusahaan Umum Asuransi Sosial A.B.R.I - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59941/PP%20NO%2045%20TH%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:41.832088+00:00"
+  },
+  "sha256": "4f78d72824946b1680d7debc90fe1bf0ff95666bc2df4003eb99de760786d3c6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

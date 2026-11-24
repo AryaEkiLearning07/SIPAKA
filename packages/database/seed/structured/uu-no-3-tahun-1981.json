@@ -1,0 +1,89 @@
+{
+ "slug": "uu-no-3-tahun-1981",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih menyesuaikan dan menyempurnakan pelaksanaan program Pemerintah dalam Tahun Anggaran 1980/1981 diperlukan tambahan dan perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1980/1981 dimaksud dalam Undang-undang Nomor 1 Tahun 1980;",
+   "bahwa untuk lebih menjaga kelangsungan jalannya pembangunan saldo-anggaran-lebih dan sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1980/1981 ditambahkan kepada kredit anggaran Tahun 1981/1982;",
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 26 Juni 1981 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. SUDHARMONO, SH. PRESIDEN REPUBLIK INDONESIA - 3 - PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 3 TAHUN 1981 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1980/1981 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1980/1981 adalah Anggaran Pendapatan dan Belanja Negara Tahun kedua dalam rangka pelaksanaan Repelita III. Disebabkan oleh berbagai perkembangan keadaan, antara lain perkembangan ekonomi dalam dan luar negeri yang mengiringi pelaksanaannya, maka Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1980/1981 masih menghadapi hal-hal yang mengharuskan adanya beberapa tambahan dan perubahan. Dalam Tahun Anggaran 1980/1981 ini penerimaan dalam negeri dapat malampaui jumlah yang direncanakan. Peningkatan ini disebabkan karena baik penerimaan pajak langsung, pajak tidak langsung maupun penerimaan bukan pajak telah dapat melampaui jumlah yang dianggarkan dalam Anggaran Pendapatan dan Belanja Negara. Dalam pada itu penerimaan pembangunan tidak menunjukkan perkembangan sebagaimana yang direncanakan dalam Anggaran Pendap",
+ "source": {
+  "url": {
+   "slug": "uu-no-3-tahun-1981",
+   "detailsId": "47035",
+   "judul": "UU No. 3 Tahun 1981 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1980/1981 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35868/UU%20Nomor%203%20Tahun%201981.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:20.975396+00:00"
+  },
+  "sha256": "15f475629b159f7de72c25854f546e1e3223e67dc72c1f249f2eeef62f4042ea",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-3-tahun-1981/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1981/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1980/1981 diperkirakan bertambahn dengan Rp. 1.163.964.000.000,00 yang terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1981/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp. 1.171.723.000.000,00;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1981/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan berkurang dengan Rp. 7.759.000.000,00.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1981/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian . . . Perincian pendapatan tambahan dan perubahan dimaksud pada ayat (1) huruf a dan b pasal ini masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

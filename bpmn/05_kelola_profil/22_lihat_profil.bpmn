@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Lihat Profil (Kelola Profil)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Permintaan_buka_profil" name="Permintaan buka profil" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Poin_reputasi" name="Poin reputasi" />
+  <bpmn:message id="Message_Lencana_pengguna" name="Lencana pengguna" />
+  <bpmn:message id="Message_Riwayat_aktivitas" name="Riwayat aktivitas" />
+  <bpmn:dataStore id="d_poin-store" name="Poin Reputasi" />
+  <bpmn:dataStore id="d_lencana-store" name="Lencana" />
+  <bpmn:dataStore id="d_thread-store" name="Thread Diskusi" />
+  <bpmn:dataStore id="d_komen-store" name="Komentar" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Lihat Profil" processRef="lihat_profil" />
+    <bpmn:participant id="user" name="Pengguna" />
+    <bpmn:messageFlow id="m-user-mulai" name="Permintaan buka profil" sourceRef="user" targetRef="mulai" messageRef="Message_Permintaan_buka_profil" />
+    <bpmn:messageFlow id="m-tolak-user" name="Akses ditolak" sourceRef="tolak" targetRef="user" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-poin-user" name="Poin reputasi" sourceRef="poin" targetRef="user" messageRef="Message_Poin_reputasi" />
+    <bpmn:messageFlow id="m-lencana-user" name="Lencana pengguna" sourceRef="lencana" targetRef="user" messageRef="Message_Lencana_pengguna" />
+    <bpmn:messageFlow id="m-r5-user" name="Riwayat aktivitas" sourceRef="r5" targetRef="user" messageRef="Message_Riwayat_aktivitas" />
+  </bpmn:collaboration>
+  <bpmn:process id="lihat_profil" name="Lihat Profil (Kelola Profil)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Permintaan profil diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Permintaan_buka_profil" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:parallelGateway id="pisah" />
+    <bpmn:sendTask id="poin" name="Tampilkan Poin Reputasi" messageRef="Message_Poin_reputasi">
+      <bpmn:ioSpecification id="poin-io">
+        <bpmn:dataInput id="poin-in-1" name="Poin Reputasi" />
+        <bpmn:inputSet id="poin-inputs">
+          <bpmn:dataInputRefs>poin-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="poin-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="poin-dia-1">
+        <bpmn:sourceRef>d_poin</bpmn:sourceRef>
+        <bpmn:targetRef>poin-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:sendTask>
+    <bpmn:sendTask id="lencana" name="Tampilkan Lencana" messageRef="Message_Lencana_pengguna">
+      <bpmn:ioSpecification id="lencana-io">
+        <bpmn:dataInput id="lencana-in-2" name="Lencana" />
+        <bpmn:inputSet id="lencana-inputs">
+          <bpmn:dataInputRefs>lencana-in-2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="lencana-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="lencana-dia-2">
+        <bpmn:sourceRef>d_lencana</bpmn:sourceRef>
+        <bpmn:targetRef>lencana-in-2</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:sendTask>
+    <bpmn:subProcess id="riwayat" name="Tampilkan Riwayat Aktivitas">
+      <bpmn:startEvent id="r1" name="Mulai riwayat aktivitas" />
+      <bpmn:callActivity id="r2" name="Tampilkan Daftar Diskusi" calledElement="jelajahi_diskusi">
+        <bpmn:documentation>Langkah 'Tampilkan Daftar Diskusi' pada proses Jelajahi Diskusi (disaring menurut penulis)</bpmn:documentation>
+      </bpmn:callActivity>
+      <bpmn:serviceTask id="r3" name="Susun riwayat thread dan komentar pengguna">
+        <bpmn:ioSpecification id="r3-io">
+          <bpmn:dataInput id="r3-in-3" name="Thread Diskusi" />
+          <bpmn:dataInput id="r3-in-4" name="Komentar" />
+          <bpmn:inputSet id="r3-inputs">
+            <bpmn:dataInputRefs>r3-in-3</bpmn:dataInputRefs>
+            <bpmn:dataInputRefs>r3-in-4</bpmn:dataInputRefs>
+          </bpmn:inputSet>
+          <bpmn:outputSet id="r3-outputs" />
+        </bpmn:ioSpecification>
+        <bpmn:dataInputAssociation id="r3-dia-3">
+          <bpmn:sourceRef>d_thread</bpmn:sourceRef>
+          <bpmn:targetRef>r3-in-3</bpmn:targetRef>
+        </bpmn:dataInputAssociation>
+        <bpmn:dataInputAssociation id="r3-dia-4">
+          <bpmn:sourceRef>d_komen</bpmn:sourceRef>
+          <bpmn:targetRef>r3-in-4</bpmn:targetRef>
+        </bpmn:dataInputAssociation>
+      </bpmn:serviceTask>
+      <bpmn:sendTask id="r5" name="Kirim riwayat aktivitas" messageRef="Message_Riwayat_aktivitas" />
+      <bpmn:endEvent id="r4" name="Riwayat tampil" />
+      <bpmn:sequenceFlow id="f-r1-r2" sourceRef="r1" targetRef="r2" />
+      <bpmn:sequenceFlow id="f-r2-r3" sourceRef="r2" targetRef="r3" />
+      <bpmn:sequenceFlow id="f-r3-r5" sourceRef="r3" targetRef="r5" />
+      <bpmn:sequenceFlow id="f-r5-r4" sourceRef="r5" targetRef="r4" />
+    </bpmn:subProcess>
+    <bpmn:parallelGateway id="gabung" />
+    <bpmn:endEvent id="selesai" name="Profil selesai ditampilkan" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-pisah" name="ya" sourceRef="izin" targetRef="pisah">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-pisah-poin" sourceRef="pisah" targetRef="poin" />
+    <bpmn:sequenceFlow id="f-poin-gabung" sourceRef="poin" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-pisah-lencana" sourceRef="pisah" targetRef="lencana" />
+    <bpmn:sequenceFlow id="f-lencana-gabung" sourceRef="lencana" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-pisah-riwayat" sourceRef="pisah" targetRef="riwayat" />
+    <bpmn:sequenceFlow id="f-riwayat-gabung" sourceRef="riwayat" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-gabung-selesai" sourceRef="gabung" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_poin" name="Poin Reputasi" dataStoreRef="d_poin-store" />
+    <bpmn:dataStoreReference id="d_lencana" name="Lencana" dataStoreRef="d_lencana-store" />
+    <bpmn:dataStoreReference id="d_thread" name="Thread Diskusi" dataStoreRef="d_thread-store" />
+    <bpmn:dataStoreReference id="d_komen" name="Komentar" dataStoreRef="d_komen-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="1360" height="870" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="user_di" bpmnElement="user" isHorizontal="true">
+        <dc:Bounds x="0" y="910" width="1360" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="84" y="91" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="276" y="31" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="403" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="384" y="168" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pisah_di" bpmnElement="pisah">
+        <dc:Bounds x="396" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="poin_di" bpmnElement="poin">
+        <dc:Bounds x="766" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lencana_di" bpmnElement="lencana">
+        <dc:Bounds x="766" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="riwayat_di" bpmnElement="riwayat" isExpanded="true">
+        <dc:Bounds x="496" y="290" width="640" height="150" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="r1_di" bpmnElement="r1">
+        <dc:Bounds x="526" y="352" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="507" y="393" width="74" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="r2_di" bpmnElement="r2">
+        <dc:Bounds x="612" y="330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="r3_di" bpmnElement="r3">
+        <dc:Bounds x="762" y="330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="r5_di" bpmnElement="r5">
+        <dc:Bounds x="912" y="330" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="r4_di" bpmnElement="r4">
+        <dc:Bounds x="1062" y="352" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1040" y="393" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gabung_di" bpmnElement="gabung">
+        <dc:Bounds x="1186" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="1286" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1264" y="93" width="80" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_poin_di" bpmnElement="d_poin">
+        <dc:Bounds x="791" y="490" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="714" y="510" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_lencana_di" bpmnElement="d_lencana">
+        <dc:Bounds x="791" y="590" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="771" y="643" width="40" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_thread_di" bpmnElement="d_thread">
+        <dc:Bounds x="791" y="690" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="709" y="710" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_komen_di" bpmnElement="d_komen">
+        <dc:Bounds x="791" y="790" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="793" y="845" width="46" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-user-mulai_di" bpmnElement="m-user-mulai">
+        <di:waypoint x="78" y="910" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="487" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-user_di" bpmnElement="m-tolak-user">
+        <di:waypoint x="421" y="218" />
+        <di:waypoint x="421" y="910" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="426" y="552" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-poin-user_di" bpmnElement="m-poin-user">
+        <di:waypoint x="866" y="78" />
+        <di:waypoint x="886" y="78" />
+        <di:waypoint x="886" y="910" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="891" y="84" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-lencana-user_di" bpmnElement="m-lencana-user">
+        <di:waypoint x="866" y="208" />
+        <di:waypoint x="892" y="208" />
+        <di:waypoint x="892" y="910" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="897" y="214" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-r5-user_di" bpmnElement="m-r5-user">
+        <di:waypoint x="962" y="410" />
+        <di:waypoint x="962" y="910" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="967" y="648" width="96" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="poin-dia-1_di" bpmnElement="poin-dia-1">
+        <di:waypoint x="816" y="490" />
+        <di:waypoint x="816" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="lencana-dia-2_di" bpmnElement="lencana-dia-2">
+        <di:waypoint x="816" y="590" />
+        <di:waypoint x="816" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="r3-dia-3_di" bpmnElement="r3-dia-3">
+        <di:waypoint x="816" y="690" />
+        <di:waypoint x="812" y="410" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="r3-dia-4_di" bpmnElement="r3-dia-4">
+        <di:waypoint x="816" y="790" />
+        <di:waypoint x="812" y="410" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-r1-r2_di" bpmnElement="f-r1-r2">
+        <di:waypoint x="562" y="370" />
+        <di:waypoint x="612" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-r2-r3_di" bpmnElement="f-r2-r3">
+        <di:waypoint x="712" y="370" />
+        <di:waypoint x="762" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-r3-r5_di" bpmnElement="f-r3-r5">
+        <di:waypoint x="862" y="370" />
+        <di:waypoint x="912" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-r5-r4_di" bpmnElement="f-r5-r4">
+        <di:waypoint x="1012" y="370" />
+        <di:waypoint x="1062" y="370" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-pisah_di" bpmnElement="f-izin-pisah">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="403" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-poin_di" bpmnElement="f-pisah-poin">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="766" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-poin-gabung_di" bpmnElement="f-poin-gabung">
+        <di:waypoint x="866" y="70" />
+        <di:waypoint x="1186" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-lencana_di" bpmnElement="f-pisah-lencana">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="741" y="70" />
+        <di:waypoint x="741" y="200" />
+        <di:waypoint x="766" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-lencana-gabung_di" bpmnElement="f-lencana-gabung">
+        <di:waypoint x="866" y="200" />
+        <di:waypoint x="1211" y="200" />
+        <di:waypoint x="1211" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-riwayat_di" bpmnElement="f-pisah-riwayat">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="471" y="70" />
+        <di:waypoint x="471" y="365" />
+        <di:waypoint x="496" y="365" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-riwayat-gabung_di" bpmnElement="f-riwayat-gabung">
+        <di:waypoint x="1136" y="365" />
+        <di:waypoint x="1211" y="365" />
+        <di:waypoint x="1211" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-gabung-selesai_di" bpmnElement="f-gabung-selesai">
+        <di:waypoint x="1236" y="70" />
+        <di:waypoint x="1286" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,353 @@
+{
+ "slug": "perpres-no-98-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka melaksanakan ketentuan Pasal 9 Peraturan Pemerintah Nomor 13 Tahun 2005 tentang Lembaga Penyiaran Publik Televisi Republik Indonesia, perlu menetapkan penghasilan bagi Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-98-tahun-2007",
+   "detailsId": "42148",
+   "judul": "PERPRES No. 98 Tahun 2007 tentang Penghasilan Bagi Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70879/PERPRES%20NO%2098%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:11.618375+00:00"
+  },
+  "sha256": "55fe94f75e2daf18053989d0cba29ab408471c7c724e47e2e5458124a9ce6dbc",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 7,
+  "ayat_angka": 19,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Presiden ini yang dimaksud dengan :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Dewan Pengawas Televisi Republik Indonesia adalah organ lembaga penyiaran publik yang berfungsi mewakili masyarakat, pemerintah, dan unsur lembaga penyiaran publik yang menjalankan tugas pengawasan untuk mencapai tujuan lembaga penyiaran publik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Penghasilan Dewan Pengawas Televisi Republik Indonesia adalah pendapatan yang diberikan dalam bentuk uang kepada Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia dalam melaksanakan tugasnya sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepada Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia diberikan penghasilan setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penghasilan sebagaimana dimaksud pada ayat (1) terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Gaji; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Tunjangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Tunjangan sebagaimana dimaksud pada ayat (2) huruf b terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Tunjangan Jabatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Tunjangan Kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Tunjangan Perumahan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Tunjangan Transportasi; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-2/ayat-3/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Tunjangan Hari Tua. Pasal 3 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Besarnya penghasilan Ketua Dewan Pengawas Televisi Republik Indonesia adalah sebagai berikut :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Gaji Pokok : Rp 2.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Tunjangan Jabatan : Rp 2.000.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Tunjangan Kesehatan : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Tunjangan Perumahan : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Tunjangan Transportasi : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "Tunjangan Hari Tua : Rp 1.500.000,00 + Jumlah Rp 10.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Besarnya penghasilan Anggota Dewan Pengawas Televisi Republik Indonesia adalah sebagai berikut :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Gaji Pokok : Rp 2.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Tunjangan Jabatan : Rp 1.000.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Tunjangan Kesehatan : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Tunjangan Perumahan : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Tunjangan Transportasi : Rp 1.500.000,00",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-98-tahun-2007/pasal-3/ayat-2/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "Tunjangan Hari Tua : Rp 1.500.000,00 + Jumlah Rp 9.500.000,00 Pasal 4 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Penghasilan sebagaimana dimaksud dalam Pasal 2 dan Pasal 3, diberikan sejak yang bersangkutan dikukuhkan sebagai Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Pajak Penghasilan atas pemberian Gaji dan Tunjangan bagi Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia ditanggung oleh Pemerintah.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Ketua dan Anggota Dewan Pengawas Televisi Republik Indonesia yang berhenti atau berakhir masa jabatannya tidak diberikan pensiun dan/atau pesangon.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini diatur oleh Menteri Keuangan. Pasal 8 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-98-tahun-2007/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 15 Nopember 2007 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum, ttd Dr. M. Iman Santoso",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

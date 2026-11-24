@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-17-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan Peraturan Pemerintah Pengganti Undang-undang No. 6 tahun 1962 tengang Pokok-pokok Perumahan perlu diadakan peraturan pelaksanaannya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-17-tahun-1963",
+   "detailsId": "72142",
+   "judul": "PP No. 17 Tahun 1963 tentang Pokok-Pokok Pelaksanaan Peraturan Pemerintah Pengganti Undang-Undang Perumahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62624/pp%20no%20017%20tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:45:13.551125+00:00"
+  },
+  "sha256": "d0c0972b00218da186715ad0545df9a508fb256493bd9a559e556ba37b366afe",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

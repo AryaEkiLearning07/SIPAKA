@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Kelola Peran Pengguna (Kelola Akun &amp; Akses)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Permintaan_ubah_peran" name="Permintaan ubah peran" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Konfirmasi_perubahan_peran" name="Konfirmasi perubahan peran" />
+  <bpmn:dataStore id="d_peran-store" name="Peran Pengguna" />
+  <bpmn:dataStore id="d_sesi-store" name="Sesi" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Kelola Peran Pengguna" processRef="kelola_peran_pengguna" />
+    <bpmn:participant id="admin" name="Admin" />
+    <bpmn:messageFlow id="m-admin-mulai" name="Permintaan ubah peran" sourceRef="admin" targetRef="mulai" messageRef="Message_Permintaan_ubah_peran" />
+    <bpmn:messageFlow id="m-tolak-admin" name="Akses ditolak" sourceRef="tolak" targetRef="admin" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-selesai-admin" name="Konfirmasi perubahan peran" sourceRef="selesai" targetRef="admin" messageRef="Message_Konfirmasi_perubahan_peran" />
+  </bpmn:collaboration>
+  <bpmn:process id="kelola_peran_pengguna" name="Kelola Peran Pengguna (Kelola Akun &amp; Akses)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Permintaan ubah peran diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Permintaan_ubah_peran" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id="aksi" name="Aksi yang diminta?" default="f-aksi-cabut" />
+    <bpmn:serviceTask id="tetapkan" name="Tetapkan Peran Pengguna">
+      <bpmn:ioSpecification id="tetapkan-io">
+        <bpmn:dataOutput id="tetapkan-out-1" name="Peran Pengguna" />
+        <bpmn:inputSet id="tetapkan-inputs" />
+        <bpmn:outputSet id="tetapkan-outputs">
+          <bpmn:dataOutputRefs>tetapkan-out-1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="tetapkan-doa-1">
+        <bpmn:sourceRef>tetapkan-out-1</bpmn:sourceRef>
+        <bpmn:targetRef>d_peran</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="cabut" name="Cabut Peran Pengguna">
+      <bpmn:ioSpecification id="cabut-io">
+        <bpmn:dataOutput id="cabut-out-2" name="Peran Pengguna" />
+        <bpmn:inputSet id="cabut-inputs" />
+        <bpmn:outputSet id="cabut-outputs">
+          <bpmn:dataOutputRefs>cabut-out-2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="cabut-doa-2">
+        <bpmn:sourceRef>cabut-out-2</bpmn:sourceRef>
+        <bpmn:targetRef>d_peran</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="gabung" />
+    <bpmn:serviceTask id="sinkron" name="Perbarui hak akses pada sesi aktif pengguna">
+      <bpmn:ioSpecification id="sinkron-io">
+        <bpmn:dataOutput id="sinkron-out-3" name="Sesi" />
+        <bpmn:inputSet id="sinkron-inputs" />
+        <bpmn:outputSet id="sinkron-outputs">
+          <bpmn:dataOutputRefs>sinkron-out-3</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="sinkron-doa-3">
+        <bpmn:sourceRef>sinkron-out-3</bpmn:sourceRef>
+        <bpmn:targetRef>d_sesi</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="selesai" name="Peran pengguna diperbarui">
+      <bpmn:messageEventDefinition id="selesai-def" messageRef="Message_Konfirmasi_perubahan_peran" />
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-aksi" name="ya" sourceRef="izin" targetRef="aksi">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-aksi-tetapkan" name="tetapkan" sourceRef="aksi" targetRef="tetapkan">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksi = "tetapkan"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-aksi-cabut" name="cabut" sourceRef="aksi" targetRef="cabut" />
+    <bpmn:sequenceFlow id="f-tetapkan-gabung" sourceRef="tetapkan" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-cabut-gabung" sourceRef="cabut" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-gabung-sinkron" sourceRef="gabung" targetRef="sinkron" />
+    <bpmn:sequenceFlow id="f-sinkron-selesai" sourceRef="sinkron" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_peran" name="Peran Pengguna" dataStoreRef="d_peran-store" />
+    <bpmn:dataStoreReference id="d_sesi" name="Sesi" dataStoreRef="d_sesi-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="970" height="370" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="admin_di" bpmnElement="admin" isHorizontal="true">
+        <dc:Bounds x="0" y="410" width="970" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="84" y="91" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="326" y="32" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="403" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="384" y="168" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="aksi_di" bpmnElement="aksi" isMarkerVisible="true">
+        <dc:Bounds x="396" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="370" y="100" width="102" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tetapkan_di" bpmnElement="tetapkan">
+        <dc:Bounds x="496" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="cabut_di" bpmnElement="cabut">
+        <dc:Bounds x="496" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gabung_di" bpmnElement="gabung" isMarkerVisible="true">
+        <dc:Bounds x="646" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sinkron_di" bpmnElement="sinkron">
+        <dc:Bounds x="746" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="896" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="853" y="91" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_peran_di" bpmnElement="d_peran">
+        <dc:Bounds x="521" y="290" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="506" y="345" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_sesi_di" bpmnElement="d_sesi">
+        <dc:Bounds x="771" y="175" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="784" y="230" width="24" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-admin-mulai_di" bpmnElement="m-admin-mulai">
+        <di:waypoint x="78" y="410" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="237" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-admin_di" bpmnElement="m-tolak-admin">
+        <di:waypoint x="421" y="218" />
+        <di:waypoint x="421" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="426" y="302" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-selesai-admin_di" bpmnElement="m-selesai-admin">
+        <di:waypoint x="914" y="88" />
+        <di:waypoint x="914" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="825" y="382" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="tetapkan-doa-1_di" bpmnElement="tetapkan-doa-1">
+        <di:waypoint x="546" y="110" />
+        <di:waypoint x="546" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="cabut-doa-2_di" bpmnElement="cabut-doa-2">
+        <di:waypoint x="546" y="240" />
+        <di:waypoint x="546" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sinkron-doa-3_di" bpmnElement="sinkron-doa-3">
+        <di:waypoint x="796" y="110" />
+        <di:waypoint x="796" y="175" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-aksi_di" bpmnElement="f-izin-aksi">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="403" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-aksi-tetapkan_di" bpmnElement="f-aksi-tetapkan">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="496" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="453" y="55" width="46" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-aksi-cabut_di" bpmnElement="f-aksi-cabut">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="471" y="70" />
+        <di:waypoint x="471" y="200" />
+        <di:waypoint x="496" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="437" y="130" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tetapkan-gabung_di" bpmnElement="f-tetapkan-gabung">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-cabut-gabung_di" bpmnElement="f-cabut-gabung">
+        <di:waypoint x="596" y="200" />
+        <di:waypoint x="671" y="200" />
+        <di:waypoint x="671" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-gabung-sinkron_di" bpmnElement="f-gabung-sinkron">
+        <di:waypoint x="696" y="70" />
+        <di:waypoint x="746" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-sinkron-selesai_di" bpmnElement="f-sinkron-selesai">
+        <di:waypoint x="846" y="70" />
+        <di:waypoint x="896" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

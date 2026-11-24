@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  id="Definitions_SIPAKA_MultiUser"
+                  targetNamespace="http://bpmn.io/schema/bpmn"
+                  exporter="SIPAKA System Architect"
+                  exporterVersion="1.0">
+  <bpmn:collaboration id="Collaboration_MultiUser">
+    <bpmn:participant id="Participant_MultiUser" name="Platform Bisnis SIPAKA — Ekosistem Multi-User, Pembayaran &amp; Konsumsi Hukum" processRef="Process_MultiUser" />
+  </bpmn:collaboration>
+
+  <bpmn:process id="Process_MultiUser" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_MU">
+      <bpmn:lane id="Lane_Customer" name="Pengguna (Mahasiswa / Lawyer / B2B Corporate)">
+        <bpmn:flowNodeRef>Start_UserVisit</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_RegisterOrLogin</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_SelectTier</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_CheckoutQRIS</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SearchRegulation</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_ActionType</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ExploreTimeline</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_CompareDiff</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_AskAITutor</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_UserSatisfied</bpmn:flowNodeRef>
+      </bpmn:lane>
+
+      <bpmn:lane id="Lane_Gateway" name="API Gateway &amp; Billing Sentinel">
+        <bpmn:flowNodeRef>Task_ValidateToken</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_RateLimitCheck</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Reject429</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Blocked429</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_PaymentWebhook</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_UpgradeQuota</bpmn:flowNodeRef>
+      </bpmn:lane>
+
+      <bpmn:lane id="Lane_Engine" name="Core Legal Engine &amp; Cache Layer">
+        <bpmn:flowNodeRef>Gateway_CheckRedis</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ServeRedis</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ReconstructPIT</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ComputeLCSDiff</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_RAGReadOnlyAI</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+
+    <!-- Lane Customer -->
+    <bpmn:startEvent id="Start_UserVisit" name="User Mengakses SIPAKA">
+      <bpmn:outgoing>F1</bpmn:outgoing>
+    </bpmn:startEvent>
+
+    <bpmn:userTask id="Task_RegisterOrLogin" name="Login / Registrasi Akun SSO">
+      <bpmn:incoming>F1</bpmn:incoming>
+      <bpmn:outgoing>F2</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:exclusiveGateway id="Gateway_SelectTier" name="Pilihan Akun?">
+      <bpmn:incoming>F2</bpmn:incoming>
+      <bpmn:outgoing>F_Free</bpmn:outgoing>
+      <bpmn:outgoing>F_Pro</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:userTask id="Task_CheckoutQRIS" name="Bayar Langganan Pro (Midtrans / QRIS)">
+      <bpmn:incoming>F_Pro</bpmn:incoming>
+      <bpmn:outgoing>F_ToWebhook</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:userTask id="Task_SearchRegulation" name="Pencarian Regulasi &amp; Buka Naskah">
+      <bpmn:incoming>F_Free</bpmn:incoming>
+      <bpmn:incoming>F_Activated</bpmn:incoming>
+      <bpmn:outgoing>F_ToGateway</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <!-- Lane Gateway -->
+    <bpmn:serviceTask id="Task_ValidateToken" name="Autentikasi Token &amp; Cek Rate Limit IP">
+      <bpmn:incoming>F_ToGateway</bpmn:incoming>
+      <bpmn:outgoing>F_CheckLimit</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:exclusiveGateway id="Gateway_RateLimitCheck" name="Limit Tercapai?">
+      <bpmn:incoming>F_CheckLimit</bpmn:incoming>
+      <bpmn:outgoing>F_Exceeded</bpmn:outgoing>
+      <bpmn:outgoing>F_Normal</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:serviceTask id="Task_Reject429" name="Tolak Akses (HTTP 429 Too Many Requests)">
+      <bpmn:incoming>F_Exceeded</bpmn:incoming>
+      <bpmn:outgoing>F_End429</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:endEvent id="End_Blocked429" name="Cooldown Akses">
+      <bpmn:incoming>F_End429</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <bpmn:serviceTask id="Task_PaymentWebhook" name="Tangkap Webhook Pembayaran Sukses">
+      <bpmn:incoming>F_ToWebhook</bpmn:incoming>
+      <bpmn:outgoing>F_AddQuota</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_UpgradeQuota" name="Upgrade Akun ke Pro &amp; Buka Kuota">
+      <bpmn:incoming>F_AddQuota</bpmn:incoming>
+      <bpmn:outgoing>F_Activated</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- Lane Engine -->
+    <bpmn:exclusiveGateway id="Gateway_CheckRedis" name="Snapshot Ada di Redis?">
+      <bpmn:incoming>F_Normal</bpmn:incoming>
+      <bpmn:outgoing>F_CacheHit</bpmn:outgoing>
+      <bpmn:outgoing>F_CacheMiss</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:serviceTask id="Task_ServeRedis" name="Sajikan Instan dari RAM Redis (&lt;50ms)">
+      <bpmn:incoming>F_CacheHit</bpmn:incoming>
+      <bpmn:outgoing>F_ToDispatch</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_ReconstructPIT" name="Rekonstruksi Point-in-Time dari Database">
+      <bpmn:incoming>F_CacheMiss</bpmn:incoming>
+      <bpmn:outgoing>F_ToDispatch</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- User Action Branching -->
+    <bpmn:exclusiveGateway id="Gateway_ActionType" name="Fitur yang Dipilih?">
+      <bpmn:incoming>F_ToDispatch</bpmn:incoming>
+      <bpmn:outgoing>F_Timeline</bpmn:outgoing>
+      <bpmn:outgoing>F_Diff</bpmn:outgoing>
+      <bpmn:outgoing>F_AI</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:userTask id="Task_ExploreTimeline" name="Eksplorasi Linimasa Historis Pasal">
+      <bpmn:incoming>F_Timeline</bpmn:incoming>
+      <bpmn:outgoing>F_Done</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_ComputeLCSDiff" name="Hitung LCS Diff Side-by-Side Kata-per-Kata">
+      <bpmn:incoming>F_Diff</bpmn:incoming>
+      <bpmn:outgoing>F_RenderDiff</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:userTask id="Task_CompareDiff" name="Inspeksi Warna Perubahan (Merah/Hijau)">
+      <bpmn:incoming>F_RenderDiff</bpmn:incoming>
+      <bpmn:outgoing>F_Done</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_RAGReadOnlyAI" name="Socratic AI Tutor (RAG Read-Only Anti-Halusinasi)">
+      <bpmn:incoming>F_AI</bpmn:incoming>
+      <bpmn:outgoing>F_RenderAI</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:userTask id="Task_AskAITutor" name="Membaca Argumen Hukum &amp; Hermeneutika">
+      <bpmn:incoming>F_RenderAI</bpmn:incoming>
+      <bpmn:outgoing>F_Done</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:endEvent id="End_UserSatisfied" name="Riset Tuntas &amp; Ekspor Sitasi">
+      <bpmn:incoming>F_Done</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <!-- Sequence Flows -->
+    <bpmn:sequenceFlow id="F1" sourceRef="Start_UserVisit" targetRef="Task_RegisterOrLogin" />
+    <bpmn:sequenceFlow id="F2" sourceRef="Task_RegisterOrLogin" targetRef="Gateway_SelectTier" />
+    <bpmn:sequenceFlow id="F_Free" name="Paket Free" sourceRef="Gateway_SelectTier" targetRef="Task_SearchRegulation" />
+    <bpmn:sequenceFlow id="F_Pro" name="Paket Pro / B2B" sourceRef="Gateway_SelectTier" targetRef="Task_CheckoutQRIS" />
+    <bpmn:sequenceFlow id="F_ToWebhook" sourceRef="Task_CheckoutQRIS" targetRef="Task_PaymentWebhook" />
+    <bpmn:sequenceFlow id="F_AddQuota" sourceRef="Task_PaymentWebhook" targetRef="Task_UpgradeQuota" />
+    <bpmn:sequenceFlow id="F_Activated" sourceRef="Task_UpgradeQuota" targetRef="Task_SearchRegulation" />
+    <bpmn:sequenceFlow id="F_ToGateway" sourceRef="Task_SearchRegulation" targetRef="Task_ValidateToken" />
+    <bpmn:sequenceFlow id="F_CheckLimit" sourceRef="Task_ValidateToken" targetRef="Gateway_RateLimitCheck" />
+    <bpmn:sequenceFlow id="F_Exceeded" name="Rate Limit Habis" sourceRef="Gateway_RateLimitCheck" targetRef="Task_Reject429" />
+    <bpmn:sequenceFlow id="F_End429" sourceRef="Task_Reject429" targetRef="End_Blocked429" />
+    <bpmn:sequenceFlow id="F_Normal" name="Aman" sourceRef="Gateway_RateLimitCheck" targetRef="Gateway_CheckRedis" />
+    <bpmn:sequenceFlow id="F_CacheHit" name="Hit" sourceRef="Gateway_CheckRedis" targetRef="Task_ServeRedis" />
+    <bpmn:sequenceFlow id="F_CacheMiss" name="Miss" sourceRef="Gateway_CheckRedis" targetRef="Task_ReconstructPIT" />
+    <bpmn:sequenceFlow id="F_ToDispatch" sourceRef="Task_ServeRedis" targetRef="Gateway_ActionType" />
+    <bpmn:sequenceFlow id="F_Timeline" name="Linimasa" sourceRef="Gateway_ActionType" targetRef="Task_ExploreTimeline" />
+    <bpmn:sequenceFlow id="F_Diff" name="Komparasi Diff" sourceRef="Gateway_ActionType" targetRef="Task_ComputeLCSDiff" />
+    <bpmn:sequenceFlow id="F_RenderDiff" sourceRef="Task_ComputeLCSDiff" targetRef="Task_CompareDiff" />
+    <bpmn:sequenceFlow id="F_AI" name="Tanya AI" sourceRef="Gateway_ActionType" targetRef="Task_RAGReadOnlyAI" />
+    <bpmn:sequenceFlow id="F_RenderAI" sourceRef="Task_RAGReadOnlyAI" targetRef="Task_AskAITutor" />
+    <bpmn:sequenceFlow id="F_Done" sourceRef="Task_ExploreTimeline" targetRef="End_UserSatisfied" />
+  </bpmn:process>
+
+  <bpmndi:BPMNDiagram id="BPMNDiagram_MU">
+    <bpmndi:BPMNPlane id="BPMNPlane_MU" bpmnElement="Collaboration_MultiUser">
+      <bpmndi:BPMNShape id="Participant_MultiUser_di" bpmnElement="Participant_MultiUser" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1680" height="720" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Customer_di" bpmnElement="Lane_Customer" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1650" height="240" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Gateway_di" bpmnElement="Lane_Gateway" isHorizontal="true">
+        <dc:Bounds x="190" y="320" width="1650" height="220" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Engine_di" bpmnElement="Lane_Engine" isHorizontal="true">
+        <dc:Bounds x="190" y="540" width="1650" height="260" />
+      </bpmndi:BPMNShape>
+
+      <!-- Customer Lane Shapes -->
+      <bpmndi:BPMNShape id="Start_UserVisit_di" bpmnElement="Start_UserVisit">
+        <dc:Bounds x="232" y="162" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="210" y="205" width="81" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RegisterOrLogin_di" bpmnElement="Task_RegisterOrLogin">
+        <dc:Bounds x="310" y="140" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_SelectTier_di" bpmnElement="Gateway_SelectTier" isMarkerVisible="true">
+        <dc:Bounds x="465" y="155" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="456" y="125" width="68" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_CheckoutQRIS_di" bpmnElement="Task_CheckoutQRIS">
+        <dc:Bounds x="560" y="100" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SearchRegulation_di" bpmnElement="Task_SearchRegulation">
+        <dc:Bounds x="560" y="200" width="120" height="70" />
+      </bpmndi:BPMNShape>
+
+      <!-- Gateway Lane Shapes -->
+      <bpmndi:BPMNShape id="Task_PaymentWebhook_di" bpmnElement="Task_PaymentWebhook">
+        <dc:Bounds x="720" y="350" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_UpgradeQuota_di" bpmnElement="Task_UpgradeQuota">
+        <dc:Bounds x="870" y="350" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ValidateToken_di" bpmnElement="Task_ValidateToken">
+        <dc:Bounds x="720" y="440" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_RateLimitCheck_di" bpmnElement="Gateway_RateLimitCheck" isMarkerVisible="true">
+        <dc:Bounds x="885" y="450" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="874" y="426" width="73" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Reject429_di" bpmnElement="Task_Reject429">
+        <dc:Bounds x="980" y="440" width="110" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Blocked429_di" bpmnElement="End_Blocked429">
+        <dc:Bounds x="1132" y="457" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1109" y="500" width="83" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+
+      <!-- Engine Lane Shapes -->
+      <bpmndi:BPMNShape id="Gateway_CheckRedis_di" bpmnElement="Gateway_CheckRedis" isMarkerVisible="true">
+        <dc:Bounds x="885" y="585" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="870" y="555" width="80" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ServeRedis_di" bpmnElement="Task_ServeRedis">
+        <dc:Bounds x="980" y="575" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReconstructPIT_di" bpmnElement="Task_ReconstructPIT">
+        <dc:Bounds x="980" y="680" width="120" height="70" />
+      </bpmndi:BPMNShape>
+
+      <!-- Consumer Actions Shapes -->
+      <bpmndi:BPMNShape id="Gateway_ActionType_di" bpmnElement="Gateway_ActionType" isMarkerVisible="true">
+        <dc:Bounds x="1155" y="585" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1137" y="561" width="87" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ExploreTimeline_di" bpmnElement="Task_ExploreTimeline">
+        <dc:Bounds x="1260" y="140" width="110" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ComputeLCSDiff_di" bpmnElement="Task_ComputeLCSDiff">
+        <dc:Bounds x="1260" y="575" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_CompareDiff_di" bpmnElement="Task_CompareDiff">
+        <dc:Bounds x="1410" y="140" width="110" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RAGReadOnlyAI_di" bpmnElement="Task_RAGReadOnlyAI">
+        <dc:Bounds x="1260" y="680" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_AskAITutor_di" bpmnElement="Task_AskAITutor">
+        <dc:Bounds x="1410" y="230" width="110" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_UserSatisfied_di" bpmnElement="End_UserSatisfied">
+        <dc:Bounds x="1562" y="157" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1545" y="200" width="71" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+
+      <!-- Edges -->
+      <bpmndi:BPMNEdge id="F1_di" bpmnElement="F1">
+        <di:waypoint x="268" y="180" />
+        <di:waypoint x="310" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F2_di" bpmnElement="F2">
+        <di:waypoint x="420" y="180" />
+        <di:waypoint x="465" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Free_di" bpmnElement="F_Free">
+        <di:waypoint x="490" y="205" />
+        <di:waypoint x="490" y="235" />
+        <di:waypoint x="560" y="235" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="495" y="213" width="55" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Pro_di" bpmnElement="F_Pro">
+        <di:waypoint x="490" y="155" />
+        <di:waypoint x="490" y="135" />
+        <di:waypoint x="560" y="135" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="481" y="113" width="78" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_ToWebhook_di" bpmnElement="F_ToWebhook">
+        <di:waypoint x="680" y="135" />
+        <di:waypoint x="700" y="135" />
+        <di:waypoint x="700" y="385" />
+        <di:waypoint x="720" y="385" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_AddQuota_di" bpmnElement="F_AddQuota">
+        <di:waypoint x="840" y="385" />
+        <di:waypoint x="870" y="385" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Activated_di" bpmnElement="F_Activated">
+        <di:waypoint x="930" y="350" />
+        <di:waypoint x="930" y="235" />
+        <di:waypoint x="680" y="235" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_ToGateway_di" bpmnElement="F_ToGateway">
+        <di:waypoint x="620" y="270" />
+        <di:waypoint x="620" y="475" />
+        <di:waypoint x="720" y="475" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_CheckLimit_di" bpmnElement="F_CheckLimit">
+        <di:waypoint x="840" y="475" />
+        <di:waypoint x="885" y="475" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Exceeded_di" bpmnElement="F_Exceeded">
+        <di:waypoint x="935" y="475" />
+        <di:waypoint x="980" y="475" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="926" y="457" width="81" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_End429_di" bpmnElement="F_End429">
+        <di:waypoint x="1090" y="475" />
+        <di:waypoint x="1132" y="475" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Normal_di" bpmnElement="F_Normal">
+        <di:waypoint x="910" y="500" />
+        <di:waypoint x="910" y="585" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="917" y="533" width="30" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_CacheHit_di" bpmnElement="F_CacheHit">
+        <di:waypoint x="935" y="610" />
+        <di:waypoint x="980" y="610" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="948" y="592" width="16" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_CacheMiss_di" bpmnElement="F_CacheMiss">
+        <di:waypoint x="910" y="635" />
+        <di:waypoint x="910" y="715" />
+        <di:waypoint x="980" y="715" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="916" y="673" width="24" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_ToDispatch_di" bpmnElement="F_ToDispatch">
+        <di:waypoint x="1100" y="610" />
+        <di:waypoint x="1155" y="610" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Timeline_di" bpmnElement="F_Timeline">
+        <di:waypoint x="1180" y="585" />
+        <di:waypoint x="1180" y="175" />
+        <di:waypoint x="1260" y="175" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1188" y="380" width="45" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Diff_di" bpmnElement="F_Diff">
+        <di:waypoint x="1205" y="610" />
+        <di:waypoint x="1260" y="610" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1195" y="592" width="76" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_RenderDiff_di" bpmnElement="F_RenderDiff">
+        <di:waypoint x="1380" y="610" />
+        <di:waypoint x="1465" y="610" />
+        <di:waypoint x="1465" y="210" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_AI_di" bpmnElement="F_AI">
+        <di:waypoint x="1180" y="635" />
+        <di:waypoint x="1180" y="715" />
+        <di:waypoint x="1260" y="715" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1190" y="693" width="44" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_RenderAI_di" bpmnElement="F_RenderAI">
+        <di:waypoint x="1380" y="715" />
+        <di:waypoint x="1465" y="715" />
+        <di:waypoint x="1465" y="300" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Done_di" bpmnElement="F_Done">
+        <di:waypoint x="1370" y="175" />
+        <di:waypoint x="1562" y="175" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

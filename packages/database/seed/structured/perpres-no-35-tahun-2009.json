@@ -1,0 +1,98 @@
+{
+ "slug": "perpres-no-35-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka meningkatkan mutu, prestasi, pengabdian, dan semangat kerja serta kelancaran pelaksanaan tugas Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia, dipandang perlu menetapkan kembali honorarium bagi Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-35-tahun-2009",
+   "detailsId": "42311",
+   "judul": "PERPRES No. 35 Tahun 2009 tentang Honorarium bagi Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70174/PERPRES%20No.35%20TH%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-107-tahun-2007"
+   ],
+   "scrapedAt": "2026-10-06T06:15:20.886430+00:00"
+  },
+  "sha256": "b03bde1ccd1430ad23e63989ef5cb40982a774254b95d14d4e1bf34ced963f3b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Kepada Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia diberikan honorarium setiap bulan. Pasal 2 … - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya honorarium Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia sebagaimana dimaksud dalam Pasal 1 adalah sebesar Rp 7.500.000,00 (tujuh juta lima ratus ribu rupiah) setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Honorarium sebagaimana dimaksud dalam Pasal 2, diberikan terhitung mulai tanggal 1 Januari 2009.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini diatur oleh Menteri Keuangan dan/atau Gubernur Lembaga Ketahanan Nasional Republik Indonesia baik secara bersama-sama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Dengan berlakunya Peraturan Presiden ini, maka Peraturan Presiden Nomor 107 Tahun 2007 tentang Honorarium Bagi Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia, dicabut dan dinyatakan tidak berlaku. Pasal 6 ... - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-35-tahun-2009/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 5 Agustus 2009 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum, ttd Dr. M. Iman Santoso",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

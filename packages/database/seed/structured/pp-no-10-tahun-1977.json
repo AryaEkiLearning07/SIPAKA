@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-10-tahun-1977",
+ "preamble": {
+  "menimbang": [
+   "bahwa gaji pokok Menteri Negara Republik Indonesia yang diatur dalam Peraturan Pemerintah Nomor 17 Tahun 1967 sebagaimana telah beberapa kali ditambah dan diubah terakhir dengan Peraturan Pemerintah Nomor 14 Tahun 1974, dipandang tidak sesuai lagi dengan keadaan, oleh sebab itu perlu diperbaiki;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-10-tahun-1977",
+   "detailsId": "67320",
+   "judul": "PP No. 10 Tahun 1977 tentang Perubahan Atas Peraturan Pemerintah Nomor 17 Tahun 1967 Tentang Kedudukan Keuangan Menteri Negara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57659/PP%20NO%2010%20TH%201977.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:59.915905+00:00"
+  },
+  "sha256": "11b19ad1fe8a4fe326b98c3a73ce7579a531424d2d31bcc61ef94afc28338406",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-10-tahun-1977/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Gaji pokok Menteri Negara Republik Indonesia adalah Rp. 250.000,- (dua ratus lima puluh ribu rupiah) sebulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-10-tahun-1977/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Di atas gaji pokok sebagaimana dimaksud dalam Pasal 1 kepada Menteri Negara Republik Indonesia diberikan tunjangan sesuai dengan peraturan perundang-undangan yang berlaku bagi Pegawai Negeri. Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal 1 April 1977. Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal I Maret 1977 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 1 Maret 1977 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1977 NOMOR 14",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

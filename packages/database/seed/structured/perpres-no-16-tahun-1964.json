@@ -1,0 +1,43 @@
+{
+ "slug": "perpres-no-16-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "bahwa dianggap perlu untuk merubah dan menambah Peraturan Pemerintah No. 209 tahun 1961 (Lembaran-Negara tahun 1961 No. 250) tentang Kedudukan Keuangan Ketua, Wakil Ketua dan Anggota Dewan Perwakilan Rakyat Gotong Royong karena sudah tidak sesuai lagi dengan keadaan:"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-16-tahun-1964",
+   "detailsId": "42500",
+   "judul": "PERPRES No. 16 Tahun 1964 tentang Perubahan dan Tambahan Peraturan Pemerintah Nomor 209 Tahun 1961 Tentang Kedudukan Keuangan Ketua, Wakil Ketua dan Anggotan DPRGR (Lembaran Negara Tahun 1961 No. 250)&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73362/Perpres%20No.16%20Tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-26-tahun-1963"
+   ],
+   "scrapedAt": "2026-10-06T06:16:06.318694+00:00"
+  },
+  "sha256": "d099e25acec14e7a09a414c1a083e089d3a199d290bf230a9271637c97b2d7bd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

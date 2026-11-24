@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-16-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka penyederhanaan Struktur aparatur-pembangunan serta untuk mempertinggi effisiensi (daya-guna) dalam pelaksanaan tugas-tugas pembangunan khususnya di bidang prasarana (Pekerjaan Umum), perlu membubarkan perusahaan Bangunan Negara \"Nabuka-Karya\" yang didirikan dengan Peraturan Pemerintah No. 16 Tahun 1962."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1966",
+   "detailsId": "70887",
+   "judul": "PP No. 16 Tahun 1966 tentang Pembubaran Perusahaan Bangunan Negara &quot;Nabuka Karya&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61348/pp%20no%20016%20tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-16-tahun-1962"
+   ],
+   "scrapedAt": "2026-10-06T06:03:12.771918+00:00"
+  },
+  "sha256": "171153eda442333d22d62af7d3a3d67d1f58a113683bcdfad61742ad756a72ee",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

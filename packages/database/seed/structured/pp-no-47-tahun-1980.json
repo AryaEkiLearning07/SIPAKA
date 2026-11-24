@@ -1,0 +1,116 @@
+{
+ "slug": "pp-no-47-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu dipandang perlu mengubah persentase tunjangan perbaikan penghasilan sebagaimana ditetapkan dalam Peraturan Pemerintah Nomor 14 Tahun 1980;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-47-tahun-1980",
+   "detailsId": "66652",
+   "judul": "PP No. 47 Tahun 1980 tentang Perubahan Atas Peraturan Pemerintah Nomor 14 Tahun 1974 Tentang Pemberian Tunjangan Perbaikan Penghasilan Bagi Pegawai Negeri Dan Pejabat Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56980/PP%20NO%2047%20TH%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:50:05.466000+00:00"
+  },
+  "sha256": "d74e0e67dbfd687626907ce4581ebd786d02153944a6c00d0a78599ba7755c62",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 3,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-47-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(1) Besarnya tunjangan perbaikan penghasilan bagi Pegawai Negeri dan Pejabat Negara sebagaimana dimaksud dalam Pasal 1 ialah a. Untuk Pegawai Negeri:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "bagi golongan I sebesar 100% (seratus persen) dari penghasilan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "bagi golongan II sebesar 8O% (delapan puluh persen) dari penghasilan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "bagi golongan III sebesar 65% (enam puluh lima persen) dari penghasilan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "bagi golongan IV sebesar 60% (enam puluh persen) dari penghasilan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-4/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Untuk Pejabat Negara sebesar 60% (enam puluh persen) dari penghasilan; Tunjangan isteri/suami;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-4/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Untuk Anggota Majelis Permusyawaratan Rakyat yang bukan Anggota Dewan Perwakilan Rakyat sebesar 60% (enam puluh persen) dari uang kehormatan. (2) Penghasilan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b, ialah : Tunjangan anak. Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1981. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 1980. PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 27 Desember 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH. LN 1980/75",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-47-tahun-1980/pasal-2/angka-4/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Gaji pokok;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

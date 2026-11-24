@@ -1,0 +1,311 @@
+{
+ "slug": "pp-no-74-tahun-1991",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih mengamankan dan meningkatkan penerimaan Negara yang berasal dari Pajak Penghasilan atas bunga dari deposito berjangka, sertifikat deposito dan tabungan, dipandang perlu mengatur kembali pengenaan Pajak Penghasilan atas bunga deposito berjangka, sertifikat deposito dan tabungan, dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-74-tahun-1991",
+   "detailsId": "58425",
+   "judul": "PP No. 74 Tahun 1991 tentang Pajak Penghasilan Atas Bunga Deposito Berjangka, Sertifikat Bank Indonesia, Sertifikat Deposito Dan Tabungan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47919/PP%20NO%2074%20TH%201991.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-54-tahun-1990",
+    "pp-no-21-tahun-1989"
+   ],
+   "scrapedAt": "2026-10-05T18:13:15.825575+00:00"
+  },
+  "sha256": "e4682645c7a1bf807d63c15353906456098b764a795eb0ddafe39f1cd3b4229b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 8,
+  "ayat_angka": 12,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Atas penghasilan berupa bunga yang berasal dari deposito berjangka, sertifikat deposito dan tabungan serta diskonto Sertifikat Bank Indonesia (SBI) yang diterima atau diperoleh Wajib Pajak perseorangan dikenakan pemotongan Pajak Penghasilan sebesar 15% (lima belas persen) dan bersifat final. yang dalam satu tahun pajak tidak melebihi Penghasilan Tidak Kena Pajak, atas pajak yang telah dipotong tersebut dapat diajukan permohonan restitusi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Bagi Wajib Pajak Perseorangan yang seluruh penghasilannya, termasuk bunga dan diskonto sebagaimana dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Atas penghasilan berupa bunga yang berasal dari deposito berjangka, sertifikat deposito dan tabungan serta diskonto SBI yang diterima atau diperoleh Wajib Pajak Badan dikenakan Pajak Penghasilan Undang-undang Nomor 7 Tahun 1983. sebagaimana dimaksud dalam Pasal",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Atas penghasilan berupa bunga yang berasal dari deposito berjangka, sertifikat deposito dan tabungan, serta diskonto SBI yang diterima atau diperoleh:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Organisasi yang semata-mata melakukan kegiatan di bidang keagamaan, sosial atau politik;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Organisasi pegawai negeri sipil;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Organisasi istri pegawai negeri sipil dan istri anggota ABRI;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-2/ayat-2/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Organisasi serikat pekerja; dikenakan pemotongan Pajak Penghasilan sebesar 15% (limabelas persen) dan bersifat final.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan memperhatikan perkembangan keadaan, Menteri Keuangan dapat mengatur pengenaan Pajak Penghasilan atas diskonto SBI yang berbeda dari ketentuan Pasal 1 dan Pasal 2.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Atas penghasilan berupa bunga yang berasal dari deposito berjangka, sertifikat deposito, dan tabungan serta diskonto SBI yang diterima atau diperoleh Wajib Pajak luar negeri, baik perseorangan maupun badan, dipotong Pajak Penghasilan yang bersifat final berdasarkan Pasal 26 Undang-undang Nomor 7 Tahun 1983, sebesar 20% (dua puluh persen) atau sesuai tarif yang ditetapkan berdasarkan Perjanjian Penghindaran Pajak Berganda (Tax Treaty) yang berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-5/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bank, termasuk Bank Indonesia dan Lembaga Keuangan Bukan Bank (LKBB) wajib memotong:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-5/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pajak Penghasilan sebesar l5% (lima belas persen) atas bunga atau diskonto yang dibayar atau terutang sebagaimana dimaksud dalam Pasal 1 ayat (1) dan Pasal 2 ayat (2);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-5/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pajak Penghasilan Pasal 23 Undang-undang Nomor 7 Tahun 1983 sebesar 15% (lima belas persen) atas bunga yang dibayar atau terutang sebagaimana dimaksud dalam Pasal 2 ayat (1);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-5/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Pajak Penghasilan Pasal 26 Undang-undang Nomor 7 Tahun 1983, sebesar 20% (dua puluh persen) atau sesuai tarif berdasarkan Perjanjian Penghindaran Pajak Berganda (Tax Treaty) yang berlaku, atas bunga yang dibayar atau terutang sebagaimana dimaksud dalam Pasal 4.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-5/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Bunga dan diskonto yang diterima atau diperoleh Bank dan Lembaga Keuangan Bukan Bank dikecualikan dari pemotongan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dikecualikan dari pemotongan pajak dan masih tetap ditangguhkan pengenaan pajaknya:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Bunga dari tabungan kecil yang batasannya ditetapkan oleh Menteri Keuangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Bunga dari deposito berjangka, sertifikat deposito dan tabungan, serta diskonto SBI yang diterima atau diperoleh dana pensiun yang disetujui oleh Menteri Keuangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Bunga dari deposito berjangka, sertifikat deposito dan tabungan serta diskonto SBI yang diterima atau diperoleh Gerakan Pramuka Indonesia (PRAMUKA);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Bunga dari deposito berjangka, sertifikat deposito dan tabungan, serta diskonto SBI yang diterima atau diperoleh Palang Merah Indonesia (PMI);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Bunga dari tabungan pada bank yang ditunjuk Pemerintah dalam rangka pemilikan rumah sederhana, kaveling siap bangun untuk rumah sederhana, atau rumah susun sederhana sesuai dengan ketentuan yang berlaku, untuk dihuni sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-1991/pasal-6/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Ketentuan sebagaimana dimaksud-dalam ayat (1) huruf e diatur lebih lanjut oleh Menteri Keuangan, Menteri Negara Perumahan Rakyat dan Gubernur Bank Indonesia, baik secara bersama-sama maupun masing-masing. sendiri-sendiri sesuai dengan bidang tugasnya",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Tata cara pemotongan, penyetoran dan pelaporan diatur lebih lanjut oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Dengan berlakunya Peraturan Pemerintah ini, Peraturan Pemerintah Nomor 21 Tahun 1989 tentang Pajak Penghasilan atas Bunga Deposito Berjangka, Sertifikat Deposito dan Tabungan sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 54 Tahun 1990 dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1991/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1992. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Desember 1991 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 31 Desember 1991 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "perwali-kota-banjarmasin-no-130-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "untuk melaksanakan bahwa (4) Peraturan Daerah Kota Banjarmasin Nomor 3 Tahun 2024 tentang Perusahaan Umum Daerah Pasar Baiman (Perumda), perlu menetapkan Peraturan Wali Kota tentang Tarif Jasa Perusahaan Umum Daerah Pasar Baiman (Perumda); Pasal 56 ayat ketentuan"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perwali-kota-banjarmasin-no-130-tahun-2024",
+   "detailsId": "320535",
+   "judul": "Perwali Kota Banjarmasin No. 130 Tahun 2024 tentang Tarif Jasa Perusahaan Umum Daerah Pasar Baiman (Perumda) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/382201/PERWAL%20NO%20130%20TAHUN%202024.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:15:50.498495+00:00"
+  },
+  "sha256": "3aef59f6589df8e4bcc4666ecf2d72c4183bd0aae7a1dfd916829dfea0369b78",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perwali-kota-banjarmasin-no-130-tahun-2024/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PRINSIPDANBESARANTARIFJASA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perwali-kota-banjarmasin-no-130-tahun-2024/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUANPENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

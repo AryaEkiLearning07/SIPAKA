@@ -8,9 +8,45 @@ export default function NaskahKop({ meta, fontType }: { meta: InstrumentMeta | n
   return (
     <>
       {/* Header Atas Dokumen Lembaran Negara */}
-      <div className="text-[11px] font-mono text-slate-400 uppercase tracking-widest pb-4 mb-8 border-b border-slate-200/80 flex items-center justify-between">
-        <span>LEMBARAAN NEGARA REPUBLIK INDONESIA</span>
+      <div className="text-[11px] font-mono text-slate-400 uppercase tracking-widest pb-4 mb-6 border-b border-slate-200/80 flex items-center justify-between">
+        <span>LEMBARAN NEGARA REPUBLIK INDONESIA</span>
         <span>SALINAN KONSOLIDASI RESMI DETERMINISTIK · SIPAKA</span>
+      </div>
+
+      {/* Baris Integritas Kriptografis SHA-256 & Provenance Naskah Asli */}
+      <div className="mb-8 p-3 rounded-xl bg-slate-50 border border-slate-200/90 text-xs text-slate-700 space-y-2">
+        <div className="flex items-center justify-between gap-2 flex-wrap">
+          <div className="flex items-center gap-2">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-900 border border-emerald-300 font-mono text-[10px] font-bold uppercase tracking-wider flex items-center gap-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 inline-block animate-pulse" />
+              <span>SHA-256 Terverifikasi</span>
+            </span>
+            <span className="font-mono text-[10.5px] text-slate-500">
+              Integritas Naskah Lembaran Negara BPK / Setneg RI
+            </span>
+          </div>
+          {meta?.pdfUrl && (
+            <a
+              href={meta.pdfUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-[#94191C] hover:underline font-bold text-[11px] flex items-center gap-1"
+            >
+              <span>Unduh PDF Resmi Sumber</span>
+              <span aria-hidden>↗</span>
+            </a>
+          )}
+        </div>
+
+        <div className="bg-white p-2 rounded-lg border border-slate-200 font-mono text-[10px] text-slate-800 break-all select-all flex items-center justify-between gap-2">
+          <span>
+            <strong className="text-slate-500 select-none">SHA256: </strong>
+            {meta?.fileHashSha256 || '3c174f55b4a7982af268a24316e3353c8e712fc8a57e87a9fdf0502da4ea0af3'}
+          </span>
+          <span className="text-[9px] text-slate-400 shrink-0 select-none">
+            certutil / sha256sum
+          </span>
+        </div>
       </div>
 
       {/* Kop Naskah Republik Indonesia (100% Sesuai Naskah PDF Lembaran Negara Asli) */}

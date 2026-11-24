@@ -1,0 +1,68 @@
+{
+ "slug": "uu-no-11-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa perhitungan Anggaran tahun 1967 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-1971",
+   "detailsId": "47607",
+   "judul": "UU No. 11 Tahun 1971 tentang Perhitungan Anggaran Tahun 1967 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36599/UU%20Nomor%2011%20Tahun%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:55:16.609504+00:00"
+  },
+  "sha256": "e54d89480fcb90f206e4ef1621e08aaa350f8dce588a1069a06dbceda0824395",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-1971/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1). Penerimaan Negara dalam tahun 1967 adalah sebesar Rp. 83.727. 240.662,37 (delapan puluh tiga milyar tujuh ratus dua puluh tujuh juta dua ratus empat puluh ribu enam ratus enam puluh dua dan tiga puluh tujuh perseratus rupiah); (2). Pengeluaran Negara dalam tahun 1967 adalah sebesar Rp. 87.634. 810.982,60 (delapan puluh tujuh milyar enam ratus tiga puluh empat juta delapan ratus sepuluh ribu sembilan ratus delapan puluh dua dan enam puluh perseratus rupiah);",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-1971/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa … (3). Sisa kurang Perhitungan Anggaran tahun 1967 adalah sebesar Rp. 3.907.570.320,23 (tiga miliar sembilan ratus tujuh juta lima ratus tujuh puluh ribu tiga ratus dua puluh dan dua puluh tiga perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1971/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari ditetapkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran-Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 24 September 1971 SOEHARTO Jenderal TNI Diundangkan di Jakarta pada tanggal 24 September 1971 Sekretaris Negara Republik Indonesia ALAMSJAH Letnan Jenderal TNI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

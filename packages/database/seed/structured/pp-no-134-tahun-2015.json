@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-134-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Perusahaan Umum (Perum) Jaminan Kredit Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-134-tahun-2015",
+   "detailsId": "5713",
+   "judul": "PP No. 134 Tahun 2015 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Umum Perum PT Jaminan Kredit Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28571/PP%20Nomor%20134%20Tahun%202015.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:33:32.987664+00:00"
+  },
+  "sha256": "05eaac6822247e28b27a19bb71fbca2faebbadc4b011ed5a723f6eb460811d0b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-134-tahun-2015/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Indonesia melakukan penambahan Negara Republik penyertaan modal ke dalam modal Perusahaan Umum (Perum) Indonesia yang ditetapkan berdasarkan Jaminan Kredit Peraturan Pemerintah Nomor 41 Tahun 2008 tentang Perusahaan Umum (Perum) Jaminan Kredit Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-134-tahun-2015/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-134-tahun-2015/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp500.000.000.000,00 (lima ratus miliar rupiah). bersumber dari Anggaran dimaksud pada ayat Pendapatan dan Belanja Negara Tahun Anggaran 2015.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-134-tahun-2015/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-134-tahun-2015/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . setiap Agar pengundangan penempatannya Indonesia. orang mengetahuinya, memerintahkan dengan Lembaran Negara Republik Peraturan dalam Pemerintah ini Ditetapkan di Jakarta pada tanggal 28 Desember 2015 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 28 Desember 2015 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 357",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

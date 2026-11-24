@@ -1,0 +1,134 @@
+{
+ "slug": "perpres-no-5-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam menyelenggarakan pemerintahan Negara menurut Undang- undang Dasar perlu ditetapkan suatu pedoman kerja administratif (peraturan tata-tertib) bagi Aparatur Pemerintahan Negara pada tingkat tertinggi; Membaca : Memorandum Panitia 6 mengenai \"Penyempurnaan Organisasi dan Administrasi Aparatur Negara pada tingkat tertinggi\" tertinggal 30 Januari 1962, yang disampaikan kepada kami pada tanggal 13 Pebruari 1962;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-5-tahun-1962",
+   "detailsId": "42432",
+   "judul": "PERPRES No. 5 Tahun 1962 tentang Pedoman Kerja Adminstratif (Peraturan Tata Tertib) Aparatur Pemerintahan Negara Pada Tingkat Tertinggi&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70801/Perpres%20No.5%20Tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-61-tahun-1951"
+   ],
+   "scrapedAt": "2026-10-06T06:16:25.635114+00:00"
+  },
+  "sha256": "8eaca34bdda6938a784cfe8d6a6c13a49c8ce560120e3cb436c1e5b9f45c731d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-1962/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1962 NOMOR 39",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

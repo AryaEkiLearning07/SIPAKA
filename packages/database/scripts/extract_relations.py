@@ -16,7 +16,7 @@ from pathlib import Path
 import pymysql
 
 # Auto-load .env jika belum ada di environment
-for env_path in [Path(__file__).parents[3] / ".env", Path(__file__).parents[2] / ".env", Path.cwd() / ".env"]:
+for env_path in [Path(__file__).parent.parent / ".env", Path(__file__).parents[3] / ".env", Path(__file__).parents[2] / ".env", Path.cwd() / ".env"]:
     if env_path.is_file():
         for line in env_path.read_text(encoding="utf-8").splitlines():
             line = line.strip()
@@ -32,16 +32,16 @@ def get_db_config():
         p = urllib.parse.urlparse(db_url)
         return dict(
             host=p.hostname or "127.0.0.1",
-            port=p.port or 13307,
+            port=p.port or 3307,
             user=p.username or "root",
-            password=p.password or os.environ.get("MYSQL_ROOT_PASSWORD", "sipaka_secret_2026"),
+            password=p.password if p.password is not None else "",
             database=p.path.lstrip("/") or "sipaka_db",
         )
     return dict(
         host=os.environ.get("DB_HOST", "127.0.0.1"),
-        port=int(os.environ.get("SIPAKA_DB_PORT", os.environ.get("DB_PORT", 13307))),
+        port=int(os.environ.get("SIPAKA_DB_PORT", os.environ.get("DB_PORT", 3307))),
         user=os.environ.get("DB_USER", "root"),
-        password=os.environ.get("MYSQL_ROOT_PASSWORD", os.environ.get("DB_PASS", "sipaka_secret_2026")),
+        password=os.environ.get("DB_PASS", os.environ.get("MYSQL_ROOT_PASSWORD", "")),
         database=os.environ.get("DB_NAME", "sipaka_db"),
     )
 

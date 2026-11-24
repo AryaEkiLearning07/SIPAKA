@@ -1,0 +1,70 @@
+{
+ "slug": "uu-no-8-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa Konvensi Tunggal Narkotika 1961 beserta Protokol yang ubah Konvensi Tunggal Narkotika 1961 merupakan usaha bersama dan negara-negara memberantas kejahatan narkotika ; untuk mencegah antara",
+   "bahwa Republik Indonesia telah menandatangani Konvensi Tunggal Narkotika 1961 (Single Convention on Narcotic Drugs, telah 1961) menandatangani pula Protokol yang Mengubah Konvensi Tunggal Narkotika 1961 (Protocol Amending the Single Convention on Narcotic Drugs, 1961) mengajukan persyaratan dengan dan",
+   "bahwa Konvensi tersebut beserta Protokol yang Mengubahnya perlu disahkan dengan undang-undang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-8-tahun-1976",
+   "detailsId": "47213",
+   "judul": "UU No. 8 Tahun 1976 tentang Pengesahan Konvensi Tunggal Narkotika 1961 Beserta Protokol yang Mengubahnya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36146/UU%20Nomor%208%20Tahun%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:52:13.175112+00:00"
+  },
+  "sha256": "698e12b85e7a8e391666cb8c7c1759c5b1bd9508e4d686b661c98210212614b0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-8-tahun-1976/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan : 1. Konvensi Tunggal Narkotika 1961 (Single Convention on Narcotic Drugs, 1961) dengan persyaratan (reservation) terhadap Pasal 48 ayat (2) ; dan",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-1976/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Protokol yang mengubah Konvensi Tunggal Narkotika 1961 (Protocol Amending the Single Convention on Narcotic Drugs, 1961) ; yang salinan-salinan naskahnya dilampirkan pada undang-undang ini. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-1976/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 26 Juli 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI Diundangkan di Jakarta pada tanggal 26 Juli 1976. MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

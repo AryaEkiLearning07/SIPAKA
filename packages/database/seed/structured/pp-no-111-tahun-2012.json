@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-111-tahun-2012",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan tentang Penambahan Penyertaan Modal Pemerintah Negara Republik Indonesia ke dalam Modal Saham Perusahaan Perseroan (Persero) PT Pindad;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-111-tahun-2012",
+   "detailsId": "5326",
+   "judul": "PP No. 111 Tahun 2012 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Pindad - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34352/PP%20Nomor%20111%20Tahun%202012.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:34:45.194129+00:00"
+  },
+  "sha256": "a8ade8a77f55d07857dca9566280d37602164dccd671a7cdcb18cc822c4c0272",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-111-tahun-2012/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan (Persero) PT Pindad yang statusnya sebagai Perseroan Perusahaan Perseroan (Persero) ditetapkan berdasarkan tentang Peraturan Pemerintah Nomor 52 Tahun 2002 Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham PT Dirgantara Indonesia, PT PAL Indonesia, PT Pindad, PT Dahana, PT Krakatau Steel, PT Barata Indonesia, PT Boma Industri Bisma Telekomunikasi Industri Dan (Persero) PT Bahana Pembubaran Perusahaan Perseroan Pakarya Industri Strategis. Industri Kereta Api, PT Indonesia Dan PT LEN Indra, PT",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-111-tahun-2012/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-111-tahun-2012/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp300.000.000.000,00 (tiga ratus miliar rupiah). bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2012 bagian dari alokasi penyertaan modal Negara pada BUMN Strategis sebesar Rp2.000.000.000.000,00 (dua triliun rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-111-tahun-2012/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-111-tahun-2012/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . setiap orang mengetahuinya, memerintahkan Agar pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 24 Desember 2012 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 24 Desember 2012 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 280 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Deputi Bidang Perundang-undangan, Muhammad Sapta Murti SETIO SAPTO NUGROHO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

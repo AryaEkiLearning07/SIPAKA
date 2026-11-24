@@ -1,0 +1,680 @@
+{
+ "slug": "pp-no-71-tahun-1992",
+ "preamble": {
+  "menimbang": [
+   "bahwa agar dapat melaksanakan fungsinya dengan baik, maka kesinambungan usaha dan kesehatan Bank Perkreditan Rakyat, perlu diupayakan sejak pendiriannya;",
+   "bahwa berhubung dengan itu dipandang perlu untuk mengatur Bank Perkreditan Rakyat dalam Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-71-tahun-1992",
+   "detailsId": "57924",
+   "judul": "PP No. 71 Tahun 1992 tentang Bank Perkreditan Rakyat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47393/PP%20NO%2071%20TH%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:18.178594+00:00"
+  },
+  "sha256": "d8223163ff41df68ed6a9dde08543de0dcac2115345d8315c3f4927af2152f6d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 22,
+  "ayat_angka": 23,
+  "huruf": 16
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "BENTUK HUKUM, PERIZINAN DAN KEPENGURUSAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Bentuk hukum suatu Bank Perkreditan Rakyat dapat berupa salah satu dari: a. Perusahaan Daerah; b. Koperasi; c. Perseroan Terbatas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bank Perkreditan Rakyat hanya dapat didirikan dan menjalankan izin Menteri Keuangan setelah mendengar usaha dengan pertimbangan Bank Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bank Perkreditan Rakyat hanya dapat didirikan oleh",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "warga negara Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "badan hukum Indonesia yang seluruh pemiliknya warga negara Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pemerintah daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-2/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "warga negara Indonesia, badan hukum Indonesia dan/atau pemerintah daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Untuk mendirikan Bank Perkreditan Rakyat ditetapkan modal disetor sekurang-kurangnya Rp 50.000.000,00 (lima puluh juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bank Perkreditan Rakyat dapat didirikan di desa-desa di wilayah kocamatan di luar ibukota negara, ibukota propinsi, ibukota kabupaten dan kotamadya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal di dalam ibukota kabupaten atau kotamadya belum terdapat Bank Perkreditan Rakyat, pemerintah daerah setempat dapat mendirikan Bank Perkreditan Rakyat baik secara sendiri maupun bersama-sama dengan koperasi, Bank Umum milik negara dan/atau Bank Umum milik pemerintah daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Pemberian izin usaha Bank Perkreditan Rakyat sebagaimana dimaksud dalam Pasal 1 dilakukan dalam 2 (dua) tahap: a. persetujuan prinsip, yaitu persetujuan untuk melakukan persiapan pendirian Bank Perkreditan Rakyat; b. izin usaha, yaitu izin yang diberikan untuk melakukan usaha setelah persiapan sebagaimana dimaksud dalam huruf a selesai dilakukan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Permohonan untuk mendapatkan prinsip sebagaimana dimaksud dalam Pasal 5 huruf a, wajib dilampiri dengan: persetujuan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rancangan anggaran dasar;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "daftar calon pemegang saham, susunan direksi dan dewan komisaris;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "rencana susunan organisasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "rencana kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "bukti penyetoran sekurang-kurangnya sebesar 30% (tiga puluh perseratus) dari modal disetor sebagaimana dimaksud dalam Pasal 3.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bank Perkreditan Rakyat yang akan melakukan kegiatan usaha berdasarkan prinsip bagi hasil, harus secara tegas mencantumkan kegiatan usaha bank yang semata-mata berdasarkan prinsip bagi hasil dalam rancangan anggaran dasar dan rencana kerjanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Untuk mendapatkan izin usaha sebagaimana dimaksud dalam Pasal 5 huruf b, pemohon wajib menyampaikan laporan kesiapan pendirian Bank Perkreditan Rakyat dengan melampirkan: a. anggaran dasar yang telah disahkan oleh instansi yang berwenang; b. daftar pemegang saham, susunan direksi dan dewan komisaris; c. susunan organisasi, sistem dan prosedur kerja; d. bukti pelunasan modal disetor sebagaimana dimaksud dalam Pasal 3.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara perizinan pendirian Bank Perkreditan Rakyat ditetapkan oleh Menteri Keuangan setelah mendengar pertimbangan Bank Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Anggota direksi dan dewan komisaris Bank Perkreditan Rakyat harus: a. warga negara Indonesia; b. tidak pernah melakukan tindakan tercela di bidang perbankan dan/atau dihukum karena terbukti melakukan tindak pidana di bidang perbankan dan perekonomian; c. memiliki akhlak dan moral yang baik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota direksi Bank Perkreditan Rakyat dapat terdiri dari satu orang atau lebih.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal anggota direksi hanya satu orang, maka direksi yang bersangkutan harus berpengalaman operasional di bidang perbankan sekurang-kurangnya 1 (satu) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal anggota direksi lebih dari satu orang, maka sekurang-kurangnya 50% (lima puluh perseratus) dari anggota direksi Bank Perkreditan Rakyat harus berpengalaman operasional di bidang perbankan sekurang-kurangnya 1 (satu) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggota direksi Bank Perkreditan Rakyat dilarang merangkap jabatan sebagai anggota direksi atau jabatan eksekutif lainnya pada perusahaan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Seseorang hanya dapat menjadi anggota dewan komisaris pada sebanyak-banyaknya 5 (lima) Bank Perkreditan Rakyat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEPEMILIKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Bank Perkreditan Rakyat hanya dapat dimiliki oleh warga negara Indonesia, badan hukum Indonesia yang seluruh pemiliknya warga negara Indonesia, pemerintah daerah, atau dapat dimiliki bersama di antara ketiganya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "MERGER, KONSOLIDASI DAN AKUISISI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Merger atau konsolidasi hanya dapat dilakukan setelah setelah mendengar memperoleh pertimbangan Bank Indonesia. izin Menteri Keuangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Merger atau konsolidasi dapat dilakukan oleh Bank Perkreditan Rakyat dengan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-12/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Bank Perkreditan Rakyat lainnya; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-12/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Bank Umum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Merger atau konsolidasi antara Bank Perkreditan Rakyat dengan Bank Umum sebagaimana dimaksud dalam Pasal 12 ayat (2) huruf b, hanya dapat dilakukan semata-mata untuk mengatasi masalah kesehatan Bank Perkreditan Rakyat yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Merger atau konsolidasi antar bank hanya dapat dilakukan dengan ketentuan: a. salah satu diantaranya memenuhi persyaratan membuka kantor cabang; b. telah mendapat persetujuan rapat umum pemegang saham dari bank yang berbentuk hukum Perseroan Terbatas atau rapat anggota bagi bank yang berbentuk hukum Koperasi atau rapat sejenis bagi bank yang berbentuk hukum lainnya; c. tingkat kesehatan bank hasil merger atau konsolidasi sekurang-kurangnya cukup sehat; d. segala hak dan kewajiban bank yang melakukan merger atau konsolidasi beralih dan menjadi tanggung jawab bank hasil merger atau konsolidasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Permohonan untuk memperoleh izin merger atau konsolidasi diajukan kepada Menteri Keuangan dengan tembusan kepada Bank Indonesia dengan melampirkan: a. notulen rapat umum pemegang saham atau rapat anggota koperasi bank yang bersangkutan; b. rancangan akta jual beli saham bank yang akan merger atau rancangan akta perjanjian merger atau konsep surat perjanjian konsolidasi dan penetapan status dari bank-bank yang akan dikonsolidasi; c. rancangan anggaran dasar dari bank hasil merger atau konsolidasi; d. rencana susunan pengurus dan pemegang saham bank hasil merger atau konsolidasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Akuisisi Bank Perkreditan Rakyat yang dilakukan oleh bank maupun pihak lain yang melebihi batas 50% (lima puluh perseratus) dari saham Bank Perkreditan Rakyat yang diambil alih, wajib terlebih dahulu mendapat izin Menteri Keuangan setelah mendengar pertimbangan Bank Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara merger, konsolidasi dan akuisisi diatur oleh Menteri Keuangan setelah mendengar pertimbangan Bank Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENGGUNAAN TENAGA ASING",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bank Perkreditan Rakyat dapat menggunakan tenaga asing sebagai tenaga ahli, penasehat dan/atau konsultan untuk jangka waktu paling lama 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Di samping persyaratan sebagaimana dimaksud dalam Ayat (1), penggunaan tenaga kerja asing serta tata cara penggunaannya bidang mengikuti ketenagakerjaan. perundang-undangan peraturan di",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENGUKUHAN MENJADI BANK PERKREDITAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bank Desa, Lumbung Desa, Bank Pasar, Bank Pegawai, Lumbung Pitih Nagari, Lembaga Perkreditan Desa, Badan Kredit Desa, Badan Kredit Kecamatan, Kredit Usaha Rakyat Kecil, Lembaga Perkreditan Kecamatan, Bank Karya Produksi Desa dan/atau lembaga-lembaga lainnya yang dipersamakan dengan itu, yang telah memperoleh izin usaha dari Menteri Keuangan, dinyatakan menjadi Bank Perkreditan Rakyat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lembaga atau badan sebagaimana dimaksud dalam ayat (1) yang telah berdiri sebelum berlakunya Undang-undang Nomor 7 Tahun 1992 tentang Perbankan dan belum mendapatkan izin usaha sebagai- Bank Perkreditan Rakyat wajib mengajukan permohonan izin usaha sebagai Bank Perkreditan Rakyat kepada Menteri Keuangan selambat-lambatnya 5 (lima) tahun sejak berlakunya Peraturan Pemerintah ini. dapat memilih salah satu bentuk hukum sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perusahaan Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Koperasi; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Perseroan Terbatas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk dapat memperoleh izin usaha sebagai Bank Perkreditan Rakyat, lembaga atau badan sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengurus Bank Perkreditan Rakyat sebagaimana dimaksud dalam ayat (1) dan ayat (2) wajib memenuhi ketentuan sebagaimana dimaksud dalam Pasal 9.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai persyaratan dan tatacara pengukuhan menjadi Bank Perkreditan Rakyat ditetapkan oleh Menteri Keuangan setelah mendengar pertimbangan Bank Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Persetujuan prinsip atau izin usaha sebagai Bank Perkreditan Rakyat yang telah diberikan sebelum berlakunya Peraturan Pemerintah ini dinyatakan tetap berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan tentang besarnya modal disetor sebagaimana dimaksud dalam Pasal 3, tidak berlaku bagi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-20/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Bank Perkreditan Rakyat sebagaimana dimaksud dalam Pasal 19 ayat (2);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-71-tahun-1992/pasal-20/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Bank Perkreditan Rakyat yang telah mendapat persetujuan prinsip dan/atau izin usaha.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-71-tahun-1992/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bank Perkreditan Rakyat yang telah mendapat izin usaha dari Menteri Keuangan dengan bentuk hukum Maskapai Andil Indonesia (MAI) dalam melaksanakan kegiatan usahanya tunduk pada peraturan perundang-undangan di bidang perbankan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-1992/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, semua peraturan perundang-undangan mengenai Bank Perkreditan Rakyat yang bertentangan dengan Peraturan Pemerintah ini dinyatakan tidak berlaku lagi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-1992/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Oktober 1992 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 30 Oktober 1992 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

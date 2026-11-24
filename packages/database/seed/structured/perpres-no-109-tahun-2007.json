@@ -1,0 +1,70 @@
+{
+ "slug": "perpres-no-109-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa Indonesia sebagai Negara pantai memiliki potensi sumberdaya ikan tuna sirip biru selatan, yang perlu dikelola dan dimanfaatkan bagi kepentingan nasional;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu mengesahkan Konvensi tersebut dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-109-tahun-2007",
+   "detailsId": "42188",
+   "judul": "PERPRES No. 109 Tahun 2007 tentang Pengesahan Convention For The Conservation Of Southern Bluefin Tuna (Konvensi tentang Konservasi Tuna Sirip Biru Selatan) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70923/PERPRES%20NO%20109%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:20.228981+00:00"
+  },
+  "sha256": "768cb71247a22821f2bb691c55d65a2c8b841d399c9249f4a70664b30c90476f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-109-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Convention for the Conservation of Southern Bluefin Tuna (Konvensi tentang Konservasi Tuna Sirip Biru Selatan) yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Konvensi dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, maka yang berlaku adalah naskah aslinya dalam Bahasa Inggris.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 6 Desember 2007 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 6 Desember 2007 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2007 NOMOR 148",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

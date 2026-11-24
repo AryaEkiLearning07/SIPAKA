@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-137-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan tentang Penambahan Penyertaan Modal Pemerintah Negara Republik Indonesia ke Dalam Modal Saham PT Perkebunan Nusantara IX;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-137-tahun-2015",
+   "detailsId": "5716",
+   "judul": "PP No. 137 Tahun 2015 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Perkebunan Nusantara IX - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28600/PP%20Nomor%20137%20Tahun%202015.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:33:26.402434+00:00"
+  },
+  "sha256": "5b0e02d36012dbdcf22b34303475e7961990a91daf0d1a30d624877cece8c567",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-137-tahun-2015/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Indonesia melakukan Negara Republik penambahan penyertaan modal ke dalam modal saham PT Perkebunan IX yang diubah statusnya sebagai Perseroan Nusantara Terbatas berdasarkan Peraturan Pemerintah Nomor 72 Tahun 2014 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Perkebunan Nusantara III.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-137-tahun-2015/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-137-tahun-2015/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp100.000.000.000,00 (seratus miliar rupiah). bersumber dari Anggaran dimaksud pada ayat Pendapatan dan Belanja Negara Tahun Anggaran 2015.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-137-tahun-2015/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-137-tahun-2015/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Peraturan Pemerintah ini Ditetapkan di Jakarta pada tanggal 28 Desember 2015 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 28 Desember 2015 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 360",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

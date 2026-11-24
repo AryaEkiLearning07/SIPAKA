@@ -1,0 +1,61 @@
+{
+ "slug": "uu-no-2-tahun-1973",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam General Conference tersebut Indonesia telah memberikan suara setuju atas perubahan Pasal VI Anggaran Dasar International Atomic Energy Agency;",
+   "bahwa Perubahan Pasal VI Anggaran Dasar Badan Tenaga Atom Internasional dipandang perlu untuk disahkan dengan Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1973",
+   "detailsId": "47426",
+   "judul": "UU No. 2 Tahun 1973 tentang Persetujuan Pemerintah Republik Indonesia Terhadap Perubahan Pasal VI Anggaran Dasar Badan Tenaga Atom Internasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36401/UU%20Nomor%202%20Tahun%201973.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:54:25.304950+00:00"
+  },
+  "sha256": "3c364916ec059dc849a354d324a6f303292c959374dbd16377968f6413e40e1a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1973/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesyahkan Persetujuan Pemerintah Republik Indonesia terhadap Perubahan Pasal VI Anggaran Dasar Badan Tenaga Atom Internasional (An Amendment of Article VI of the Statute of the International Atomic Energy Agency), yang salinannya dilampirkan pada Undang-undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1973/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada tanggal diundangkannya. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan menempatkannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 12 Januari 1973. PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 12 Januari 1973 SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH. MAYOR JENDERAL TNI.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

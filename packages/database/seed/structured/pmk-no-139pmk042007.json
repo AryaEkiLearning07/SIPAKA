@@ -1,0 +1,366 @@
+{
+ "slug": "pmk-no-139pmk042007",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pmk-no-139pmk042007",
+   "detailsId": "146780",
+   "judul": "PMK No. 139/PMK.04/2007 tentang Pemeriksaan Pabean di Bidang Impor - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/138655/PMK%20Nomor%20139%20Tahun%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:53:54.107781+00:00"
+  },
+  "sha256": "dc7d2b7f92def169e8306e61b0a0f5094fa1d907d4fdc1ab6ddbe5bea370b55c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 26,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Menteri Keuangan ini yang dimaksudkan dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Undang-Undang Kepabeanan adalah Undang-Undang Nomor 10 Tahun 1995 Tentang Kepabeanan sebagaimana telah diubah dengan Undang- Undang Nomor 17 Tahun 2006.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Pemberitahuan pabean adalah pernyataan yang dibuat oleh orang dalam rangka melaksanakan kewajiban pabean dalam bentuk dan syarat yang ditetapkan dalam Undang-Undang Kepabeanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Orang adalah orang perseorangan atau badan hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Direktorat Jenderal adalah unsur pelaksana tugas pokok dan fungsi Departemen Keuangan di bidang kepabeanan dan cukai.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Pejabat bea dan cukai adalah pegawai Direktorat Jenderal Bea dan Cukai yang ditunjuk dalam jabatan tertentu untuk melaksanakan tugas tertentu berdasarkan Undang-Undang Kepabeanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Impor adalah kegiatan memasukkan barang ke dalam daerah pabean.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Dokumen pelengkap pabean adalah semua dokumen yang digunakan sebagai pelengkap pemberitahuan pabean, misalnya Invoice, Bill of Lading, Packing List, dan manifest.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-8",
+     "type": "ANGKA",
+     "orderIndex": 8,
+     "label": "Angka 8",
+     "content": "Penelitian dokumen adalah kegiatan yang dilakukan oleh pejabat bea dan / atau sistem komputer untuk memastikan bahwa cukai dan pemberitahuan pabean dibuat dengan lengkap dan benar.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-9",
+     "type": "ANGKA",
+     "orderIndex": 9,
+     "label": "Angka 9",
+     "content": "Pejabat pemeriksa dokumen adalah pejabat bea dan cukai yang berwenang untuk melakukan penelitian dan penetapan atas data pemberitahuan pabean .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Pemeriksaan fisik adalah kegiatan yang dilakukan oleh pejabat bea dan cukai pemeriksa barang untuk mengetahui jumlah dan jenis barang impor yang diperiksa guna keperluan pengklasifikasian dan penetapan nilai pabean.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-1/angka-11",
+     "type": "ANGKA",
+     "orderIndex": 11,
+     "label": "Angka 11",
+     "content": "Pejabat pemeriksa fisik adalah pejabat bea dan cukai yang berwenang untuk melakukan pemeriksaan fisik barang impor dan ditunjuk secara langsung melalui aplikasi pelayanan kepabeanan atau oleh pejabat bea dan cukai. Pemeriksaan jabatan adalah pemeriksaan fisik barang yang dilakukan oleh prakarsa pejabat bea dan cukai untuk mengamankan hak-hak negara dan/atau memenuhi ketentuan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Terhadap barang impor dilakukan pemeriksaan pabean.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pemeriksaan pabean sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan pemberitahuan pabean yang disampaikan oleh importir. MENTERI KEUANGAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pemeriksaan pabean sebagaimana dimaksud pada ayat (1) meliputi penelitian dokumen dan pemeriksaan fisik barang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-2/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Pemeriksaan pabean dilakukan secara selektif berdasarkan analisis manajemen risiko.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penelitian dokumen dilakukan oleh pejabat pemeriksa dokumen dan/atau sistem komputer pelayanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penelitian dokumen oleh pejabat pemeriksa dokumen dilakukan untuk memastikan bahwa pemberitahuan pabean diberitahukan dengan benar, dan dokumen pelengkap pabean yang diwajibkan telah sesuai dengan syarat yang ditentukan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penelitian dokumen oleh sistem komputer pelayanan dilakukan untuk memastikan bahwa pengisian pemberitahuan pabean yang disampaikan telah lengkap dan benar.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Pejabat pemeriksa dokumen melakukan penelitian sebagai tindak lanjut dari hasil penelitian komputer sebagaimana dimaksud pada ayat (3), yang didasarkan pada data yang disajikan oleh sistem komputer pelayanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Pejabat pemeriksa dokumen melakukan penetapan berdasarkan hasil penelitian sebagaimana dimaksud pada ayat (4)",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-3/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Pejabat pemeriksa dokumen hanya bertanggung jawab atas penetapan sebagaimana dimaksud pada ayat (5).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Pemeriksaan fisik barang impor dilakukan oleh pejabat pemeriksa fisik berdasarkan instruksi pemeriksaan yang diterbitkan oleh pejabat bea dan cukai atau sistem komputer pelayanan. Pemeriksaan fisik barang dilaksanakan di: a. Tempat Penimbunan Sementara (TPS) atau tempat lain yang disamakan",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "dengan TPS; b. Tempat Penimbunan Pabean (TPP); atau c. Tempat Penimbunan Berikat (TPB).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Apabila dalam pemeriksaan fisik barang impor dibutuhkan pengetahuan teknis tertentu, pejabat bea dan cukai dapat meminta bantuan pihak lain yang memiliki pengetahuan teknis tersebut. MENTERI KEUANGAN",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-7/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam hal dilakukan pemeriksaan fisik, importir atau kuasanya mendapat pemberitahuan pemeriksaan fisik dari pejabat bea dan cukai atau dari sistem komputer pelayanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-7/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Importir atau kuasanya wajib menyiapkan dan menyerahkan barang impor untuk diperiksa, membuka setiap bungkusan, kemasan, atau peti kemas yang akan diperiksa serta menyaksikan pemeriksaan tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-7/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Kewajiban sebagaimana dimaksud pada ayat (2) harus dilaksanakan tanggal pemberitahuan lama 3 (tiga) hari kerja setelah paling pemeriksaan fisik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-7/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Atas permintaan importir atau kuasanya, jangka waktu sebagaimana dimaksud pada ayat (3) dapat diperpanjang paling lama 2 (dua) hari kerja apabila yang bersangkutan dapat memberikan alasan tentang penyebab tidak dapat dilakukannya pemeriksaan fisik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-139pmk042007/pasal-7/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Dalam hal importir atau kuasanya tidak melaksanakan ketentuan pada ayat (2) dalam jangka waktu sebagaimana dimaksud pada ayat (3) dan ayat (4), maka pemeriksaan fisik dapat dilakukan oleh pejabat bea dan cukai atas resiko dan biaya importir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Dalam hal berdasarkan pemeriksaan pabean terdapat : a. Barang impor yang tidak diberitahukan; atau b. Barang yang dilarang atau dibatasi untuk diimpor, maka pejabat pemeriksa dokumen menyerahkan pemberitahuan pabean beserta dokumen pelengkap pabeannya tersebut kepada pejabat bea dan cukai yang bertanggung jawab dibidang pengawasan untuk dilakukan penyelidikan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "Ketentuan lebih lanjut yang diperlukan dalam rangka pelaksanaan Peraturan Menteri Keuangan ini diatur dengan peraturan Direktur Jenderal Bea dan Cukai .",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pmk-no-139pmk042007/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "Peraturan Menteri Keuangan ini mulai berlaku pada tanggal 15 Desember MENTERI KEUANGAN Agar setiap orang mengetahuinya, memerintahkan pengumuman Peraturan Menteri Keuangan ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 12 November 2007 MENTERI KEUANGAN REPUBLIK INDONESIA ttd,- SRI MULYANI INDRAWATI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

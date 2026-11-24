@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-4-tahun-1981",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Negara Tahun 1972/1973 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-1981",
+   "detailsId": "47036",
+   "judul": "UU No. 4 Tahun 1981 tentang Perhitungan Anggaran Negara Tahun 1972/1973 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35869/UU%20Nomor%204%20Tahun%201981.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:19.052846+00:00"
+  },
+  "sha256": "349d6c80e9104571712a41d8ffef3db128500a26dcab64d29392b4b8398dbfb3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-1981/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-1981/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penerimaan Negara dalam Tahun Anggaran 1972/1973 adalah sebesar Rp. 713.276.660.873,44 (tujuhratus tujuh-puluh enam juta enamratus enampuluh ribu delapanratus tujuhpuluh tiga empat puluh empat per seratus rupiah). tigabelas milyar duaratus",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1981/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengeluaran Negara dalam Tahun Anggaran 1972/1973 adalah sebesar Rp. 691.671.187.614,49 (enamratus sembilanpuluh satu milyar enam-ratus tujuhpuluh satu juta seratus delapanpuluh tujuh ribu enamratus empatbelas empatpuluh sembilan per seratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1981/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa . . . Sisa lebih Perhitungan Anggaran Negara Tahun 1972/1973 adalah sebesar Rp. 21.605.473.258,95 (duapuluh satu milyar enamratus lima juta empatratus tujuhpuluh tiga ribu duaratus limapuluh delapan sembilanpuluh lima per seratus rupiah). Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-1981/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 4 Juli 1981 PRESIDEN REPUBLIK INDONESIA, ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 4 Juli 1981 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

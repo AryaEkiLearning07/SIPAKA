@@ -1,0 +1,96 @@
+{
+ "slug": "uu-no-11-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa perbuatan dimaksud pada sub a, belum ditetapkan sebagai perbuatan yang diancam dengan pidana, oleh karena itu perlu diatur dalam undang-undang tersendiri;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-1980",
+   "detailsId": "47142",
+   "judul": "UU No. 11 Tahun 1980 tentang Tindak Pidana Suap Hak Keuangan/Administratif Pimpinan dan Anggota Lembaga Tertinggi/Tinggi Negara dan Bekas Anggota Lembaga Tinggi Negara serta Bekas Pimpinan Lembaga Tertinggi/Tinggi Negara dan Bekas Anggota Lembaga Tinggi Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36010/UU%20Nomor%2011%20Tahun%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:42.438995+00:00"
+  },
+  "sha256": "767c8bf03024b1a01cba42425c8b4d9bbf9d54a5246d8f0f44fc3ccf7a1e92d3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Yang dimaksud dengan tindak pidana suap di dalam undang-undang ini adalah tindak pidana suap di luar ketentuan peraturan perundang-undangan yang sudah ada.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Barangsiapa memberi atau menjanjikan sesuatu kepada seseorang dengan maksud untuk membujuk supaya orang itu berbuat sesuatu atau tidak berbuat sesuatu dalam tugasnya, yang berlawanan dengan kewenangan atau kewajibannya yang menyangkut kepentingan umum, dipidana karena memberi suap dengan pidana penjara selama- lamanya 5 (lima) tahun dan denda sebanyak-banyaknya Rp.15.000.000,- (lima belasjuta rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Barangsiapa menerima sesuatu atau janji, sedangkan ia mengetahui atau patut dapat menduga bahwa pemberian sesuatu atau janji itu dimaksudkan supaya ia berbuat sesuatu atau tidak berbuat sesuatu dalam tugasnya, yang berlawanan dengan kewenangan atau kewajibannya yang menyangkut kepentingan umum, dipidana karena menerima suap dengan pidana penjara selama-lamanya 3 (tiga) tahun atau denda sebanyak-banyaknya Rp.15.000.000.- (lima belas juta rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Apabila tindak pidana tersebut dalam Pasal 2 dan Pasal 3 dilakukan di luar wilayah Republik Indonesia, maka ketentuan dalam undang-undang ini berlaku juga terhadapnya. Tindak pidana dalam undang-undang ini merupakan kejahatan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-1980/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 27 Oktober 1980 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 27 Oktober 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

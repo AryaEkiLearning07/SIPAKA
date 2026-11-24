@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-39-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan telah ditetapkannya Peraturan Pemerintah No. 7 tahun 1964 tentang Ketentuan-ketentuan Pokok mengenai Pembangunan Perusahaan dan Proyek Negara dalam rangka mengerahkan Dana, Daya dan Tenaga Masyarakat (Lembaran-Negara tahun 1964 No. 17), dipandang perlu untuk segera mencabut Peraturan Pemerintah No. 23 tahun 1962 tentang penyerahan tugas dan wewenang serta penyerahan perusahaan tertentu Departemen Perindustrian Rakyat kepada Daerah Tingkat I (Lembaran-Negara tahun 1962 No. 74);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-39-tahun-1964",
+   "detailsId": "72062",
+   "judul": "PP No. 39 Tahun 1964 tentang Pencabutan Peraturan Pemerintah No. 23 Tahun 1962 Tentang Penyerahan Tugas dan Wewenang Serta Penyerahan Perusahaan Tertentu Departemen Perindustrian Rakyat Kepada Daerah Tingkat I (Lembaran-Negara Tahun 1962 No. 74) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62516/pp%20no%20039%20tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-23-tahun-1962"
+   ],
+   "scrapedAt": "2026-10-06T06:03:37.610936+00:00"
+  },
+  "sha256": "9b38309771b496b812e3f86815eac500a56357f51b0fac8a67ae3e53cd709df8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

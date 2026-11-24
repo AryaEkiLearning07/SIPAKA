@@ -1,0 +1,51 @@
+{
+ "slug": "uu-no-18-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa Anggaran Pendapatan dan Belanja Negara tahun 1961 sebagaimana ditetapkan dalam Undang-undang No. 7 tahun 1961 (Lembaran - Negara Tahun 1961 No. 22) perlu diubah dan ditambah ;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta, pada tanggal 31 Desember 1962. Sekretaris Negara, TTD MOHD. ICHSAN. LEMBARAN NEGARA TAHUN 1962 NOMOR 98",
+ "source": {
+  "url": {
+   "slug": "uu-no-18-tahun-1962",
+   "detailsId": "50983",
+   "judul": "UU No. 18 Tahun 1962 tentang Perubahan/Penambahan Anggaran Pendapatan dan Belanja Negara Untuk Tahun 1961&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40232/UU%20Nomor%2018%20Tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:59:40.269534+00:00"
+  },
+  "sha256": "9d9cb0a7c0be66002af46b977e8a18cdf136587e6443da12b51c3fae876cf3bf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-18-tahun-1962/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pendapatan Negara Routinte diubah/ditambah seperti terperici dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

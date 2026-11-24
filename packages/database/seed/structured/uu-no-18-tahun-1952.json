@@ -1,0 +1,69 @@
+{
+ "slug": "uu-no-18-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Uni Birma disetujui dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-18-tahun-1952",
+   "detailsId": "40263",
+   "judul": "UU No. 18 Tahun 1952 tentang Persetujuan Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Uni Birma - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29903/UU%20Nomor%2018%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:06:39.290639+00:00"
+  },
+  "sha256": "1931d02b3c6f99fd87556b6ee393f8b852c4242808edc55f6eecd271a8e28828",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-18-tahun-1952/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Uni Birma tertanggal tiga puluh satu (31) Maret 1951, yang salinannya dilampirkan pada Undang- undang ini, dengan ini disetujui. Perjanjian Persahabatan tersebut mulai berlaku pada tanggal pertukaran surat-surat pengesahan di Rangoon.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-1952/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-1952/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 2 Oktober 1952. Wakil Presiden Republik Indonesia, MOHAMMAD HATTA. Menteri luar Negeri, MUKARTO NOTOWIDIGDO. Diundangkan pada tanggal 7 Oktober 1952, Menteri Kehakiman, LOEKMAN WIRIADINATA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1952 NOMOR 70",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "slug": "pp-no-40-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 2l Oktober 2022 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 203 Salinan sesuai dengan aslinya KEMENTEzuAN SEKRETARIAT NEGARA REPUBLIK INDONESIA g Perundang-undangan trasi Hukum, * ,K IN ta vanna Djaman SK No 155352A PRESIDEN REPUBLIK INDONESIA PENJEI,ASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 40 TAHUN 2022 TENTANG PERUBAHAN KEDUA ATAS PERATURAN PEMERINTAH NOMOR 94 TAHUN 2012 TENTANG HAK KEUANGAN DAN FASILITAS HAKIM YANG BERADA DI BAWAH MAHKAMAH AGUNG I. UMUM Pasal 24 ayat l2l Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menyatakan \"Keknsaan leelakiman dilalsican oleh sebuah Mahkamah Agung d.an badan perodilan gang berada di baualmga dalam linglangan peradilan umuma linglatngan peradilan agama, lirqlatngan peradilan militer, litqlangan peradilan tata usaln rtegara, dan oleh sebuah Mahkamah Konstitusi\". Meskipun dalam ketentuan tersebut kekuasaan kehakiman dilakukan oleh lembaga negara, namun sesungguhnya yang melakukan secara nyata adalah hakim dalam kedudukan sebagai pejabat negara. Ketentuan Pasal 19 Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasaan Keh",
+ "source": {
+  "url": {
+   "slug": "pp-no-40-tahun-2022",
+   "detailsId": "230053",
+   "judul": "PP No. 40 Tahun 2022 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 94 Tahun 2012 tentang Hak Keuangan dan Fasilitas Hakim yang Berada di Bawah Mahkamah Agung - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/230236/PP%20Nomor%2040%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:28:07.752059+00:00"
+  },
+  "sha256": "cd12df0d1ebae634f60891a9a11107272db2eeeba07e8f1cc46fab9eb2772896",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-40-tahun-2022/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-40-tahun-2022/pasal-4/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Tunjangan jabatan Hakim sebagaimana dimaksud dalam Pasal 2 huruf b diberikan setiap bulan berdasarkan jenjang karier, wilayah penempatan tugas, dan kelas pengadilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-40-tahun-2022/pasal-4/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tunjangan jabatan sebagaimana dimaksud pada ayat (l) tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..4): [1, 2, 3]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

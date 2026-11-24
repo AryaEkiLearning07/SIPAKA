@@ -1,0 +1,58 @@
+{
+ "slug": "uu-no-70-tahun-1954",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-70-tahun-1954",
+   "detailsId": "50972",
+   "judul": "UU No. 70 Tahun 1954 tentang Penetapan Bagian I.B.W. XIV (Perusahaan Batu Bara Umbilin) dari Anggaran Republik Indonesia Untuk Tahun-Tahun Dinas 1952 dan 1953 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40221/UU%20Nomor%2070%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:05:39.443672+00:00"
+  },
+  "sha256": "b0c79bcc004a22e912c21c9c44527fff08ecbf9214098c376dbe290ca0af0e5c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-70-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Bagian IBW. XIV (Perusahaan Batu Bara Umbilin) dari anggaran Republik Indonesia tahun-tahun dinas 1952 dan 1953 ditetapkan seperti yang dinyatakan pada untuk lampiran-lampiran undang-undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-70-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan berlaku surut sampai pada tanggal 1 Januari 1952. Agarsupaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan Di Jakarta, Pada Tanggal 29 Nopember 1954 PRESIDEN REPUBLIK INDONESIA, Ttd. SOEKARNO MENTERI PEREKONOMIAN REPUBLIK INDONESIA, Ttd. ROOSSENO hukumonline.com Diundangkan, Pada Tanggal 31 Desember 1954 MENTERI KEHAKIMAN REPUBLIK INDONESIA, Ttd. DJODY GONDOKUSUMO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1954 NOMOR 141",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

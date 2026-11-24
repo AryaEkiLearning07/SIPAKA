@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-16-tahun-1947",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebelum diadakan Undang-undang yang menetapkan bentuk dan susunan pemerintahan daerah yang berdasarkan kedaulatan rakyat (demokrasi) untuk seluruh daerah Republik Indonesia, perlu diadakan Undang-undang buat sementara waktu untuk membentuk Haminte-Kota Surakarta;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-16-tahun-1947",
+   "detailsId": "25473",
+   "judul": "UU No. 16 Tahun 1947 tentang Pembentukan Haminte-Kota Surakarta - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/14267/UU%20Nomor%2016%20Tahun%201947.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:07:58.267003+00:00"
+  },
+  "sha256": "5e2dca41c0689803b860305993d6b5592ab95d01741c1151df27e9d7c0c29a6a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

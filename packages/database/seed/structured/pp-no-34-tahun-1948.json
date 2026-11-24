@@ -1,0 +1,87 @@
+{
+ "slug": "pp-no-34-tahun-1948",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-34-tahun-1948",
+   "detailsId": "63436",
+   "judul": "PP No. 34 Tahun 1948 tentang Peredaran Uang Dengan Perantaraan Bank. - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53652/PP%20No%2034%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-14-tahun-1948"
+   ],
+   "scrapedAt": "2026-10-05T18:15:39.921684+00:00"
+  },
+  "sha256": "aa3d736384d039017be317fff8d53410466c325b3b60ea8a4a62506609ee0ed1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-34-tahun-1948/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Tiap pembayaran uang yang melebihi jumlah Rp. 25.000,- harus dilakukan dengan perantaraan Bank Negara Indonesia, Bank Rakyat dan bank yang ditunjuk oleh Menteri Keuangan, menurut peraturan-peraturan yang berlaku bagi bank- bank tersebut. Bank yang ditunjuk oleh Menteri Keuangan harus memenuhi syarat-syarat, yang dipandang perlu oleh Menteri tersebut. Jika antara dua pihak yang sama dilakukan beberapa pembayaran uang, hingga dalam waktu 4 hari berturut-turut jumlahnya melebihi Rp. 25.000,-, maka pembayaran yang mengakibatkan kelebihan jumlah itu, harus dilakukan menurut ayat (1) diatas. Jika dipandang perlu, Menteri Keuangan boleh mengurangi jumlah yang dimaksud pada ayat (1).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1948/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Barangsiapa mempunyai atau mengawasi simpanan uang, yang selama 7 hari berturut-turut tidak kurang jumlahnya daripada Rp. 100.000,- harus menyerahkan bagian yang melebihi Rp. 100.000,- itu kepada bank tersebut dalam pasal 1, supaya disimpan untuknya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1948/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "(1) (2) Pemindahan uang yang jumlahnya melebihi Rp. 25.000,- kedaerah karesidenan lain harus dilakukan dengan perantaraan bank termaksud dalam pasal 1. Untuk menjalankan ketetapan dalam ayat (1), maka daerah istimewa Yogyakarta dipandang sebagai suatu karesidenan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1948/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Sampai saat yang ditetapkan oleh Menteri Keuangan, maka peraturan tersebut pada pasal 1 dan pasal 2 tidak berlaku untuk daerah karesidenan Malang dan pasal 3 ayat (1) tidak berlaku untuk pemindahan uang ke atau dari daerah karesidenan tersebut.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1948/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "(1) (2) (3) (4) (5) Barangsiapa melanggar peraturan-peraturan tersebut dalam pasal 1 sampai dengan pasal 3, dihukum dengan hukuman denda sebesar-besarnya Rp. 1.000.000,- atau hukuman penjara selama-lamanya 1 tahun. Barangsiapa menerima pembayaran dari pihak yang melanggar pasal 1 dihukum dengan hukuman denda sebesar-besarnya Rp. 1.000.000,- atau hukuman penjara selama-lamanya 1 tahun. Perbuatan termaksud dalam ayat (1) dan (2) dianggap sebagai kejahatan. Uang yang digunakan untuk melakukan kejahatan tersebut ditetapkan menjadi milik Negara. Disamping pegawai-pegawai yang pada umumnya berhak mengusut kejahatan, maka yang juga berhak mengusut kejahatan dalam pasal ini ialah pegawai- pegawai Badan Pemeriksa Keuangan Negara dan pegawai-pegawai Jawatan Pajak. Pasal 6. Peraturan ini tidak berlaku bagi Kas-kas Negara, Kantor-kantor Pos dan Bank- bank yang termaksud dalam pasal 1. Pasal 7. Peraturan ini mulai berlaku bagi Jawa dan Madura pada hari diumumkan. Hari berlakunya buat daerah diluar Jawa akan diumumkan kemudian oleh Menteri keuangan. Diumumkan pada tanggal 29 September 1948 Wakil Sekretaris Negara, RATMOKO. Ditetapkan di Yogyakarta pada tanggal 29 September 1948 PRESIDEN REPUBLIK INDONESIA, SOEKARNO.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

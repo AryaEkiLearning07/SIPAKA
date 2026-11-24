@@ -1,0 +1,2377 @@
+{
+ "slug": "pergub-prov-jawa-barat-no-86-tahun-2018",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pergub-prov-jawa-barat-no-86-tahun-2018",
+   "detailsId": "228144",
+   "judul": "PERGUB Prov. Jawa Barat No. 86 Tahun 2018 tentang Tata Kelola Sistem Pemerintahan Berbasis Elektronik - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/222964/2018pg00320086.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T12:00:23.606905+00:00"
+  },
+  "sha256": "76eea428085c13a1129d102e5439e072405ea5deb1c9067ea27a021745269605",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 43,
+  "ayat_angka": 110,
+  "huruf": 88
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Gubernur ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah Provinsi adalah Daerah Provinsi Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah Provinsi adalah Gubernur sebagai unsur penyelenggara Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan Daerah Provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Gubernur adalah Gubernur Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemerintah Daerah KabupatenlKota adalah Pemerintah Daerah KabupatenlKota di Daerah Provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Perangkat Daerah adalah Perangkat Daerah Provinsi sebagai unsur pembantu Gubernur dan Dewan Perwakilan Ralryat Daerah dalam penyelenggaraan Urusan Pemerintahan yang menjadi kewenangan Daerah Provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Dinas adalah Dinas Komunikasi dan Informatika Pemerintah Daerah Provinsi Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Sistem Pemerintahan Berbasis Elektronik adalah penyelenggaraan pemerintahan dengan memanfaatkan teknologi informasi dan komunikasi untuk memberikan layanan kepada pengguna SPBE yang selanjutnya disebut SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Teknologi Informasi dan Komunikasi yang selanjutnya disingkat TIK adalah segala kegiatan yang terkait dengan pemrosesan, manipulasi, pengelolaan, dan pemindahan informasi antar media.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Tata Kelola Sistem Pemerintahan Berbasis Elektronik yang selanjutnya disebut Tata Kelola SPBE adalah kerangka kerja yang memastikan terlaksananya pengaturan, pengarahan, dan pengendalian dalam penerapan SPBE secara terpadu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Informasi adalah keterangan, pernyataan, gagasan, dan tanda-tanda yang mengandung nilai, makna, dan pesan, baik data, fakta maupun penjelasannya yang dapat dilihat, didengar, dan dibaca yang disajikan dalam berbagai kemasan dan format sesuai dengan perkembangan teknologi informasi dan komunikasi secara elektronik ataupun nonelektronik. 1 1. Infrastruktur adalah perangkat keras, piranti lunak, dan peralatan telekomunikasi, yang ketika digunakan bersama, menjadi pondasi dasar untuk mendukung pelaksanaan sistem pemerintahan berbasis elektronik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Tim koordinasi SPBE pemerintah daerah adalah tim yang dibentuk untuk melakukan koordinasi penerapan dan kebijakan SPBE serta memberikan arahan, evaluasi, dan monitoring SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Gouernment Chief Information Officer Pemerintah Provinsi Jawa Barat yang selanjutnya disingkat GCIO adalah Kepala Dinas Komunikasi dan Informatika Provinsi Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Basis Data (Database) adalah suatu sistem yang menyimpan data dalam jumlah besar dengan mekanisme sistematis dan terstruktur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Aplikasi adalah instrumen yang mampu mengolah data atau informasi secara otomatis sedemikian rupa sehingga memberikan kemudahan dan kecepatan bagi pengguna dalam memperoleh data atau informasi yang diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Aplikasi Umum dan Aplikasi Khusus adalah jenis aplikasi sebagaimana diatur dalam Peraturan Presiden tentang Sistem Pemerintahan Berbasis Elektronik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Seruer adalah piranti khusus dalam jaringan komputer yang menjadi tempat bagi semua simpul di dalam jaringan untuk bisa melakukan resource sharing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Sistem Jaringan adalah kumpulan simpul-simpul sumber daya perangkat komputasi berupa perangkat-perangkat komputer yang saling terhubung melalui sistem komunikasi data, sehingga dapat di akses secara bersama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Penyediaan Infrastruktur adalah kegiatan yang meliputi pekerjaan konstruksi untuk membangun atau meningkatkan kemampuan infrastruktur dan/atau kegiatan pengelolaan infrastruktur dan/atau pemeliharaan infrastruktur dalam rangka meningkatkan kemanfaatan infrastruktur Informatika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Integrasi Sistem adalah proses rekayasa teknologi informasi yang berkaitan dengan penggabungan berbagai sub sistem menjadi satu sistem besar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Application Programming Interface untuk selanjutnya disingkat API adalah teknologi yang digunakan untuk memfasilitasi pertukaran informasi atau data antara dua atau lebih aplikasi perangkat lunak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Network Operation Center untuk selanjutnya disingkat NOC adalah sebuah lokasi terpusat yang digunakan untuk melakukan pengelolaan dan pengawasan jaringan internet dan intranet Pemerintah Provinsi Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Keamanan Informasi adalah suatu kondisi dimana terjaganya aspek kerahasiaan, integritas dan ketersediaan dari informasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Bandwidth adalah besaran yang menunjukkan seberapa banyak data yang dapat dilewatkan dalam koneksi melalui sebuah jaringan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Hosting adalah tempat penitipan/penyewaan untuk menampung data-data yang diperlukan oleh sebuah website sehingga dapat diakses lewat Internet.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Colocation Seraer adalah tempat yang menyediakan layanan untuk menyimpan atau menitipkan server di Data Center yang memiliki standar keamanan fisik dan infrastuktur;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Dato Center adalah suatu fasilitas yang digunakan untuk menempatkan sistem komputer dan komponen-komponen terkaitnya, seperti sistem telekomunikasi dan penyimpanan data.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-28",
+       "type": "ANGKA",
+       "orderIndex": 28,
+       "label": "Angka 28",
+       "content": "Disaster Recouery Center yang selanjutnya disingkat DRC adalah fasilitas pengganti pada saat Pusat Data (Data Center) mengalami gangguan atau tidak dapat, yang digunakan sementara waktu selama dilakukannya pemulihan pada Pusat Data.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-29",
+       "type": "ANGKA",
+       "orderIndex": 29,
+       "label": "Angka 29",
+       "content": "Seruice Leuel Agreement yang selanjutnya disingkat SLA adalah kesepakatan perjanjian layanan antara dua kelompok",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-30",
+       "type": "ANGKA",
+       "orderIndex": 30,
+       "label": "Angka 30",
+       "content": "System Deuelopment Life Cgcle yang selanjutnya disingkat SDLC adalah model dan metodologi yang digunakan untuk mengembangkan sistem perangkat lunak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-31",
+       "type": "ANGKA",
+       "orderIndex": 31,
+       "label": "Angka 31",
+       "content": "Infrastruktur TIK adalah infrastruktur mencakup perangkat keras pemrosesan informasi (server, workstation, dan peiptteral), jaringan komunikasi dan software infrastruktur (sistem operasi, tool sistem).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-32",
+       "type": "ANGKA",
+       "orderIndex": 32,
+       "label": "Angka 32",
+       "content": "Gouernment Seruice Bus adalah layanan infrastruktur integrasi data antar aplikasi Pemerintah Daerah Provinsi Jawa Barat yang selanjutnya disebut GSB;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-33",
+       "type": "ANGKA",
+       "orderIndex": 33,
+       "label": "Angka 33",
+       "content": "User Interface adalah tampilan muka pada aplikasi yang memudahkan penggunanya untuk berinteraksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-34",
+       "type": "ANGKA",
+       "orderIndex": 34,
+       "label": "Angka 34",
+       "content": "E-mail resmi adalah email yang digunakan dalam aktivitas kegiatan kedinasan di lingkup Pemerintah Daerah Provinsi Jawa Barat yaitu mail jabarprov. go.id.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-1/angka-35",
+       "type": "ANGKA",
+       "orderIndex": 35,
+       "label": "Angka 35",
+       "content": "Source Code yang selanjutnya disebut Kode Sumber/Kode Program adalah komponen dasar dari suatu program komputer atau aplikasi. Bagian Kedua Maksud dan T\\rjuan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "(1)Maksud tata kelola Sistem Pemerintahan Berbasis Elektronik adalah untuk menjamin integrasi dan sinkronisasi TIK di lingkungan Pemerintah Daerah Provinsi. (2)Tujuan pengaturan tata kelola SPBE yaitu: a. mewujudkan pengelolaan SPBE berbasis Rencana Induk SPBE ; b. mewujudkan keselarasan antara pengelolaan SPBE di Dinas dan Perangkat Daerah; dan c. mewujudkan sinkronisasi dan integrasi pengelolaan SPBE. Bagian Ketiga Kedudukan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Peraturan Gubernur ini menjadi pedoman Perangkat Daerah dalam pelaksanaan pengelolaan SPBE.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ENTITAS TATA KELOLA SPBE",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur menetapkan entitas struktur tata kelola SPBE, terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Tim Koordinasi SPBE;dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "GCIO (2)Tim Koordinasi SPBE sebagaimana dimaksud pada ayat (1) huruf a mempunyai tugas melakukan koordinasi dan penerapan kebijakan SPBE di Pemerintah Daerah. (31 Gouernment Chief Information OJficer sebagaimana dimaksud pada ayat (1) huruf b bertanggung jawab atas perencanaan, penyelarasan, penyiapan, implementasi, dan evaluasi SPBE di Pemerintah Daerah Provinsi .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "RENCANA INDUK SPBE",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "(l)Gubernur menetapkan Rencana Induk SPBE Pemerintah Daerah Provinsi untuk jangka waktu 5 (lima) tahun. (2)Rencana Induk SPBE sebagaimana dimaksud pada ayat (1) paling sedikit memuat: a. visi, misi, tujuan, dan sasaran TIK SPBE; b. kebijakan dan strategi TIK SPBE; c. prinsip-prinsip tata kelola TIK SPBE; d. indikator kinerja utama TIK SPBE; e. framework implementasi Rencana Strategis TIK; dan f. roadmap dan transition plan serta IT Budget Strategic Plan. (3)Penyusunan Rencana Induk SPBE sebagaimana dimaksud ayat (2\\ mengacu kepada Rencana Pembangunan Jangka Panjang Daerah Provinsi, Rencana Pembangunan Jangka Menengah Daerah Provinsi, dan grand design reformasi birokrasi Daerah Provinsi. (4)Rencana Induk SPBE sebagaimana dimaksud pada ayat (2) menjadi acuan dalam penJrusunan program kerja implementasi SPBE di seluruh Perangkat Daerah. (5)Rencana Induk SPBE ditetapkan dengan Peraturan Gubernur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Dinas melaksanakan pen1rusunan Rencana Induk sebagaimana dimaksud dalam Pasal 5.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "(l)Rencana Induk SPBE sebagaimana dimaksud dalam Pasal 5 dapat direview sewaktu-waktu dengan pertimbangan: a. perkembangan teknologi; b. hasil monitoring dan evaluasi Rencana Induk SPBE; c. perubahan peta rencana induk SPBE Nasional; d. perubahan ketentuan peraturan perundang-undangan; e. perubahan Rencana Pembangunan Jangka Menengah Daerah Provinsi; dan f. perubahan kebijakan. (2)Perubahan Rencana Induk SPBE dapat dilakukan atas usulan Perangkat Daerah berdasarkan pertimbangan sebagaimana dimaksud pada ayat (1). (3)Kepala Dinas selaku GCIO dapat menetapkan tata cara pelaksanaan perubahan Rencana Induk SPBE .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "ARSITEKTUR SISTEM PEMERINTAHAN BERBASIS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "(1)Arsitektur SPBE disusun dengan berpedoman pada Arsitektur SPBE Nasional dan Rencana Pembangunan Jangka Menengah Daerah. (2)Arsitektur SPBE disusun untuk jangka waktu 5 (lima) tahun. (3)Arsitektur SPBE ditetapkan oleh kepala daerah masing- masing. (4)Untuk menyelaraskan Arsitektur SPBE dengan Arsitektur SPBE Nasional, Dinas berkoordinasi dan dapat melakukan konsultasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara. (5)Arsitektur SPBE dilakukan reviu pada paruh waktu dan tahun terakhir pelaksanaan atau sewaktu-waktu sesuai dengan kebutuhan. (6)Reviu Arsitektur SPBE sebagaimana dimaksud pada ayat (5) dilakukan berdasarkan: a. perubahan Arsitektur SPBE Nasional; b. hasil pemantauan dan evaluasi SPBE di Pemerintah Daerah; c. perubahan pada unsur SPBE sebagaimana dimaksud dalam Pasal 7 ayat (1); atau d. perubahan Rencana Pembangunan Jangka Menengah Daerah. (7)Reviu Arsitektur SPBE sebagaimana dimaksud pada ayat (5) dilakukan oleh Dinas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "BELANJA PETA RENCANA SISTEM PEMERINTAHAN BERBASIS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peta Rencana SPBE disusun dengan berpedoman pada Peta Rencana SPBE Nasional, Arsitektur SPBE, Rencana Pembangunan Jangka Menengah Daerah, dan rencana strategis Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peta Rencana SPBE disusun untuk jangka waktu 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peta Rencana SPBE ditetapkan oleh kepala daerah masing- masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Untuk menyelaraskan Peta Rencana SPBE dengan Peta Rencana SPBE Nasional, Dinas berkoordinasi dan dapat melakukan konsultasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Peta Rencana SPBE dilakukan reviu pada paruh waktu dan tahun terakhir . pelaksanaan atau sewaktu-waktu sesuai dengan kebutuhan. dilakukan berdasarkan: dilakukan oleh Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perubahan Peta Rencana SPBE Nasional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perubahan rencana strategis Pemerintah Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "perubahan Arsitektur SPBE; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "hasil pemantauan dan evaluasi SPBE.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Reviu Peta Rencana SPBE sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-9/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Reviu Peta Rencana SPBE sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "MANAJEMEN BELANJA SPBE",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "(1)Menajemen belanja SPBE Pemerintah Daerah Provinsi berpedoman kepada Rencana Induk SPBE . (2)Anggaran Belanja SPBE harus disusun berdasarkan arsitektur SPBE dan Peta Rencana SPBE (3)Pengelolaan anggaran untuk keperluan belanja SPBE dilakukan melalui mekanisme penganggaran tahunan. Pasal 1 1 (1)Belanja SPBE mencakup belanja infrastruktur SPBE, aplikasi, serta peningkatan kuantitas dan kualitas SDM. (2)Dinas menJrusun standar biaya umum dan standar biaya khusus untuk belanja SPBE . (4)Standar biaya umum dan standar biaya khusus sebagaimana dimaksud pada ayat (21, ditetapkan oleh Gubernur. Bagian Kedua Penganggaran dan Pembelanjaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Penganggaran belanja SPBE pada Perangkat Daerah dikoordinasikan oleh Perangkat Daerah yang melaksanakan fungsi penunjang perencanaan pembangunan daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat Daerah mengusulkan penganggaran belanja kepada Perangkat Daerah yang melaksanakan fungsi penunjang perencanaan pembangunan daerah. (21 Perangkat Daerah yang melaksanakan fungsi penunjang perencanaan pembangunan daerah melakukan reuieut dan persetujuan terhadap usulan penganggaran belanja SPBE sebagaimana dimaksud pada ayat (1) untuk memastikan tidak adanya duplikasi anggaran dengan Perangkat Daerah lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Belanja internet, intranet, dan pembangunan/pengembangan piranti lunak yang sifatnya umum atau lintas Perangkat Daerah (integrasi) dilakukan oleh Dinas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMBANGUNAN SISTEM TEKNOLOGI INFORMASI DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah Daerah Provinsi melakukan pembangunan sistem TIK untuk mengimplementasikan perencanaan SPBE , mulai dari pemilihan sistem TIK sampai dengan evaluasi pasca implementasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembangunan sistem TIK sebagaimana dimaksud pada ayat (1), meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "identifikasi dan pemilihan sistem;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembangunan sistem elektronik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembangunan infrastruktur TIK ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "keamanan sistem TIK ; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-15/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "perancangan data dan informasi. Bagian Kedua Identifikasi dan Pemilihan Sistem",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "(1)Perangkat Daerah melakukan identifikasi pemilihan sistem TIK dengan mempertimbangkan : a. capaian program; b. kebutuhan program; c. keluaran program; dan d. kerangka acuan kerja. (2)Identifikasi pemilihan sistem TIK sebagaimana dimaksud pada ayat (1), dituangkan dalam bentuk dokumen yang memuat: a. analisis kebutuhan; dan b. analisis manfaat dari pemilihan sistem yang direncanakan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan hasil identifikasi sebagaimana dimaksud dalam Pasal 16, Perangkat Daerah mengajukan permohonan pemilihan sistem kepada Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dinas melakukan persetujuan atau penolakan terhadap pengajuan sebagaimana dimaksud pada ayat (1) berdasarkan hasil analisis yang mengacu kepada Rencana Induk SPBE .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal permohonan pemilihan sistem disetujui, Dinas melampirkan dokumen sebagaimana dimaksud dalam Pasal 16 ayat 12) dan dokumen analisis beban biaya sebagai bahan pengajuan penganggaran belanja SPBE .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal pemilihan sistem ditolak, Perangkat Daerah melakukan penyesuaian atas pemilihan sistem sesuai saran Dinas dan mengajukan pemohonan pemilihan sistem kembali. Bagian Ketiga Pembangunan Sistem Elektronik",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan aplikasi meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Aplikasi Umum; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Aplikasi khusus.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dinas atau Perangkat Daerah tidak membangun aplikasi umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah Daerah dapat tidak menggunakan aplikasi umum sebagaimana ayat 2 dengan syarat :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sudah digunakan sebelum ketentuan berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ada kajian cost and benefit;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "standar proses bisnis sesuai dengan ketentuan yang telah ditetapkan oleh Kementerian PAN RB;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "ada pertimbangan dari Kementerian Kominfo; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "disimpan pada repository aplikasi SPBE.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Perangkat daerah dapat mengajukan pembangunan aplikasi khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengembangan aplikasi khusus harus mengikuti standar standar teknis dan pengembangan yang ditentukan oleh Kementerian Kominfo;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-18/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal pembangunan piranti lunak, diutamakan harus menggunakan aplikasi kode sumber terbuka (open sourcel, jika tidak maka pembangunan aplikasi harus ada pertimbangan dari Kementerian Kominfo.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan piranti lunak sebagaimana dimaksud pada pasal 18 ayat (6) dilakukan berdasarkan metodologi System Deuelopment Life Cycle (SDLC). Dinas dan Perangkat Daerah membangun dan mengembangkan sistem elektronik dengan mengutamakan integrasi atau interoperabilitas antar aplikasi dengan memperhatikan metodologi SDLC sebagaimana dimaksud dalam Pasal 19 ayat (2). Pemerintah Daerah Provinsi menerapkan sistem Gouernment Seruice Bus (GSB) untuk mengelola integrasi informasi dan pertukaran data dengan instansi lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Metodologi SDLC sebagaimana dimaksud pada ayat (1), paling sedikit mencakup kebutuhan: Dalam membangun dan mengembangkan sistem elektronik, Dinas dan Perangkat Daerah membuat dokumentasi sistem, meliputi: Dalam melaksanakan penerapan sistem Gouerutment Seruice Bus (GSB) sebagaimana dimaksud pada ayat (1), Dinas membangun dan mengembangkan aplikasi yang berfungsi Gouernment Seruice Bus (GSB/.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerjemahan kebutuhan/persyaratan bisnis ke dalam spesifikasi desain; diagram;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan desain detail dan teknikal piranti lunak, termasuk pengendalian aplikasi/Application Control yang memungkinkan setiap pemrosesan dalam piranti lunak akurat, lengkap, tepat waktu, terotorisasi dan dapat diaudit dan pengendalian keamanan aplikasi {application seanritg control) yang memungkinkan terpenuhinya aspek kerahasiaan (confidentialitgl, ketersediaan (auailabilitg\\, dan integritas (integity) . fungsi dan modul yang terdapat dalam aplikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "implementasi desain detail dan teknikal ke dalam kode program/ sumber (coding) . struktur basis data dan relasinya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mempersiapkan desain integrasi dan interoperabilitas sistem. . diagram alir data;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mempersiapkan dan menjamin keamanan sistem dan informasi pada aplikasi user interface dan alurnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "manajemen perubahan persyaratan/kebutuhan. spesifikasi teknis aplikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "melaksanakan penjaminan mutu (Quality Assurance) manual instalasi dan konfigurasi, pemeliharaan melalui baclatp dan restore sgstem, penggunaan aplikasi paling sedikit pada penggunaan admin dan use6 dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "melaksanakan uji coba (testing), meliputi: penerapan keamanan sistem",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "unit testing;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "penetration testing;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "sgstem testing;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "integration testing; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "User Acceptance Test (UAI).",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/angka-5/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "instalasi dan akreditasi. Pasal 2O",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal pembangunan sistem elektronik dilakukan oleh Pihak Ketiga, maka kode sumber dan sistem informasi yang dibangun/dikembangkan menjadi hak cipta Pemerintah Daerah Provinsi. Pasal 2 1 Dinas memfasilitasi layanan pertukaran data dengan Pemerintah Pusat, Pemerintah Daerah provinsi, dan Pemerintah Kabupaten/ Kota. Bagian Keempat Pembangunan Infrastruktur Teknologi Informasi dan Komunikasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas melaksanakan pembangunan dan pengelolaan infrastruktur TIK , meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Data Center Pemerintah Daerah Provinsi Jawa Barat; standardisasi perangkat aktif jaringan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-22/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Jaringan internet dan intranet dari NOC Pemerintah Daerah Provinsi kepada Perangkat Daerah; dan standardisasi manajemen jaringan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-22/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Di.saster Recouery Plan. (2)Dinas melakukan standardisasi infrastruktur TIK untuk seluruh Perangkat Daerah, meliputi: standardisasi ruang perangkat aktif jaringan lokal. (3)Pembangunan infrastruktur TIK yang dilakukan oleh Perangkat Daerah hanya mencakup pengadaan rulang perangkat aktif jaringan. Bagian Kelima Keamanan SPBE",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam setiap operasi sistem TIK, Pemerintah Daerah memperhatikan persyaratan minimal aspek keamanan sistem dan keberlangsungan sistem, terutama sistem TIK yang memfasilitasi layanan-layanan kritikal. Dinas melaksanakan keamananan SPBE dengan memperhatikan aspek keamanan dan keberlangsungan SPBE sebagaimana dimaksud dalam Pasal 23.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aspek keamanan dan keberlangsungan sistem TIK sebagaimana dimaksud pada ayat (1), meliputi unsur: Dalam melakukan pengamanan SPBE, mekanisme yang harus dilakukan Dinas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "confidentialitg, yaitu penjamin kerahasiaan; untuk pengamanan dari sisi piranti lunak dapat diimplementasikan komponen standar sebagai berikut:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "integrity, yaitu keutuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "authentication, yaitu keaslian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "auailabilitg, yaitu ketersediaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "nonrepudiation,yaitu kenirsangkalan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Lingkup keamanan SPBE meliputi sumber daya SPBE, yaitu:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "data dan informasi SPBE;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "infrastruktur SPBE;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "aplikasi SPBE.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penerapan keamanan SPBE harus memenuhi standar teknis dan prosedur keamanan SPBE sesuai dengan ketentuan yang ditetapkan oleh BSSN. Pasal24",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "metoda scipting piranti lunak yang aman; l4 hardening dari sisi sistem operasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "implementasi mekanisme otentikasi dan otorisasi di dalam piranti lunak yang tepat; dan firewall, sebagai pagar untuk menghadang ancaman dari luar sistem;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "pengaturan keamanan Database yang tepat; Intrusion Detection Sgstem/ Intnttion-Preuention Systems (IDS/IPS) sebagai pendeteksi atau pencegah aktivitas ancaman terhadap sistem;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "untuk pengamanan dari sisi infrastruktur SPBE dapat diimplementasikan komponen standar sebagai berikut:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "network monitoing tool, sebagai usaha untuk melakukan monitoring atas aktivitas di dalam jaringan; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "log processor & analgsis, untuk melakukan pendeteksian dan analisi kegiatan yang terjadi di sistem;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "untuk sistem kritikal dengan SLA yang ketat, dapat ditempuh melalui penyediaan sistem cadangan yang dapat secara cepat mengambil alih sistem utama jika terjadi gangguan ketersediaan (auailabilitgl pada sistem utama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "assessment kerentanan keamanan sistem SPBE (seatrity vulnerability system) secara teratur sesuai dengan kebutuhan; dd.n",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-23/angka-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pen5rusunan IT Contingencg Plan khususnya yang terkait dengan proses proses bisnis kritikal, yang diuji validitasnya secara teratur sesuai dengan kebutuhan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "( 1 ) Perangkat Daerah harus melaksanakan pengelolaan keamanan informasi dengan cara: a. menjaga kerahasiaan informasi; b. menjaga keutuhan informasi; dan c. menjaga ketersediaan informasi.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penj agaan kerahasiaan informasi sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penetapan klasifikasi informasi; penerapan metode otentifikasi pada informasi; dan penyediaan baclotp informasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembatasan akses terhadap informasi berklasifikasi; penerapan teknik/kontrol untuk mendeteksi adanya modifikasi informasi. (4)Penjagaan ketersediaan informasi sebagaimana dimaksud pada ayat (1) dilakukan melalui: penyediaan pemulihan sistem informasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengamanan pada jaringan intra pemerintah; dan penyediaan baclanp infrastruktur. (5)Ketentuan lebih lanjut mengenai pengelolaan keamanan SPBE diatur dengan Peraturan Gubernur. Bagian Keenam Pengelolaan Data dan Informasi",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-25/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penerapan teknik/kontrol keamanan pada saat proses pembuatan, pengiriman, penyimpanan, dan pemusnahan informasi. (3)Penjagaan keutuhan informasi sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "(l)Perangkat Daerah dalam melakukan manajemen data harus berkoordinasi dengan Perangkat Daerah yang melaksanakan fungsi penunjang perencanaan pembangunan daerah. (2)Perangkat Daerah pengelola data harus memperhatikan tahapan: input, proses, dan output data. (3)Pada tahapan input, prosedur yang harus dijalankan adalah prosedur akses data, prosedur transaksi data untuk memeriksa akurasi, kelengkapan, dan validitasnya, serta prosedur pencegahan kesalahan input data. (a)Pada tahapan proses, prosedur yang harus dijalankan adalah prosedur pengolahan data, prosedur validasi dan editing, serta prosedur penanganan kesalahan. (5)Pada tahapan output, prosedur yang harus dijalankan adalah Prosedur distribusi, penanganan kesalahan, dan keamanan data. Pasal2T (1)Perangkat Daerah pengelola data melakukan tata kelola data dan informasi sesuai ketentuan peraturan perundang- undangan, melalui: a. membuat daftar data dan informasi yang dikelola; b. membuat daftar penanggungjawab data dan informasi yang dikelola; c. menetapkan klasifikasi, distribusi, dan masa retensi data dan informasi; d. membuat daftar lokasi penyimpanan data dan informasi; dan e. menentukan periode backup dan media backttp data dan informasi. (2)Daftar data dan Informasi sebagaimana dimaksud pada ayat (1) huruf a meliputi : a. basis data; b. file digital; c. Kode Sumber; dan d. dokumen TIK . (3)Klasifikasi sebagaimana dimaksud pada ayat (1) huruf c meliputi: a. publik; dan b. dikecualikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "OPERASIONALISASI SISTEM ELEKTRONIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "(l)Pemerintah Daerah Provinsi memberikan dukungan kepada proses bisnis manajemen dan kepada pihak-pihak yang membutuhkan sesuai spesifikasi minimal yang telah ditentukan dalam Rencana Induk SPBE .",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dukungan sebagaimana dimaksud padaya ayat (1) dalam bentuk Operasionalisasi Sistem Elektronik yang merupakan proses penyampaian layanan SPBE . (3)Operasionalisasi Sistem Elektronik sebagaimana dimaksud pada ayat (21meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "manajemen tingkat layanan SPBE;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "manajemen piranti lunak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "manajemen infrastruktur data;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "manajemen infrastruktur komunikasi data ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "manajemen data sistem elektronik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "manajemen layanan e-Mail;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "manajemen layanan oleh pihak ketiga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "manajemen sumber daya manusia SPBE ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "manajemen risiko TIK dan keberlangsungan bisnis TIK ; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "manajemen keamanan informasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/ayat-2/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "manajemen asset TIK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "manajemenperubahan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/angka-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "manajemen pengetahuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-28/angka-1/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "pengelolaan kepatuhan dan penilaian internal. T7 Bagian Kedua Manajemen Tingkat Layanan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "(1)Perangkat Daerah yang memberikan layanan TIK bertanggung jawab atas penyusunan dan updatekatalog layanan TIK , yang berisi sistem yang beroperasi dan layanan-layanan TIK . (2)Perangkat Daerah mengusulkan kepada Dinas layanan- layanan TIK yang kritikal untuk ditetapkan. (3)Layanan-layanan TIK harus menetapkan SLA sebagai sebuah requirement atau persyaratan oleh pemilik proses bisnis. (4)Aspek minimal yang harus tercakup dalam setiap SLA layanan TIK kritikal tersebut meliputi: a. waktu yang diperlukan untuk setiap layanan TIK yang diterima oleh konsumen; b. persentase tingkat ketersediaan (auailabilitg) sistem elektronik; dan c. waktu yang diperlukan untuk penyelesaian pengaduan insiden atau permasalahan dengan beberapa tingkatan kritikal sesuai dengan kebutuhan. (S)Dalam hal aspek minimal SLA sebagaimana dimaksud pada ayat (4) huruf c tidak terpenuhi, maka Komite Pengarah TIK memberikan surat peringatan dan/atau surat teguran kepada Dinas untuk menutup sementara web seruice sampai dengan Perangkat Daerah melakukan perbaikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat Daerah dalam melaksanakan layanan TIK wajib membuat standar operasional prosedur. (21 Pen5rusunan standar operasional prosedur sebagaimana dimaksud pada ayat (1), disusun sesuai ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Layanan TIK sebagaimana dimaksud pada ayat (1), merupakan layanan yang diberikan Perangkat Daerah kepada pihak lain dengan memanfaatkan TIK sebagai alat bantu utama. (41 Layanan TIK sebagaimana dimaksud pada ayat (1), paling sedikit memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "definisi layanan; dokumentasi hasil aktivitas tahapan-tahapan dalam SDLC;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kebijakan layanan; manual pengguna, operasi, dukungan teknis dan administrasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengelolaan gangguan dan permasalahan; materi transfer pengetahuan dan materi training.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengelolaan permintaan layanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pengelolaan hubungan dengan pelanggan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-30/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "jaminan tingkat layanan yang dapat disediakan. Bagian Ketiga Manajemen Piranti Lunak asal 31 (1)Setiap pengoperasian piranti lunak harus mengikuti standar teknis dan pengembangan sistem informasi yang ditetapkan oleh Kementerian Komunikasi dan Informasi. (2)Setiap piranti lunak harus selalu menyertakan prosedur baclcup dan restore, dan juga mengimplementasikan fungsionalitasnya di dalam sofiware aplikasi. (3)Setiap kode sumber piranti lunak harus disimpan pada repository aplikasi SPBE. (a)Setiap pengoperasian piranti lunak harus disertai oleh dokumentasi berikut ini:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat Daerah melaksanakan pengelolaan aplikasi dengan mengacu pada standar pengelolaan aplikasi yang disusun dan ditetapkan oleh Dinas. (2)Pengelolaan aplikasi TIK sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemeliharaan aplikasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengelolaan Kode Sumber. (3)Pemeliharaan aplikasi sebagaimana dimaksud pada ayat (21 huruf a, dilakukan dengan cara menjaga, memperbaiki, dan mencegah kerusakan aplikasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "pengelolaan Kode Sumber dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pembuatan salinan Kode Sumber;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kepastian hak cipta Kode Sumber berada pada Perangkat Daerah pemilik aplikasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-32/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyimpanan Kode Sumber. (5)Perangkat Daerah wajib memelihara keberlangsungan keamanan sistem dan informasi yang berada di bawah tanggungjawabnya. Bagian Keempat Manajemen Infrastruktur Data",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Setiap pengoperasian infrastruktur data selalu memperhatikan kontrol yang terkait dengan faktor keamanan dan auditability atau memungkinkan audit atas kinerja dan sejarah transaksi yang dilakukan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat Daerah wajib menempatkan aplikasi pada Hosting dan Seruerpada Colocation Seruer di Data Center yang dikelola oleh Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dinas wajib menyediakan fasilitas Data Center yang layak sesuai dengan standar-standar yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Data Center harus memenuhi SNI terkait pusat data dan manajemen pusat data atau menggunakan standar internasional yarig berlaku; (41 Data Center harus memenuhi pertimbangan kelaikan operasi dari Kementerian Kominfo;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Data Center harus memenuhi pertimbangan kelaikan keamanan dari BSSN;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Bagi Perangkat Daerah yang telah memiliki Data Center yang sesuai dengan standar yang berlaku wajib menempatkan baclatp sistem di Data Center.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Bagi Perangkat Daerah yang telah memiliki Data Center yang tidak sesuai dengan standar yang berlaku maka wajib menempatkan seluruh perangkat di Data Center.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Data Center harus terhubung dengan pusat data nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Perangkat Daerah tidak melakukan pembangunan Data Center. (lO)Penempatan aplikasi pada Hosting dan Seruerpada Colocation Seruer di Data Center sebagaimana dimaksud pada ayat (1), dilakukan dengan tahapan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perangkat Daerah mengajukan permohonan penyimpanan aplikasi dan Server di Data Center kepada Dinas ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Dinas melakukan uji keamanan dan kelayakan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Dinas melakukan analisis hasil dari uji keamanan dan kelaikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "berdasarkan hasil analisis sebagaimana dimaksud pada huruf c, Dinas menentukan:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-34/ayat-9/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "dalam hal aplikasi dikembalikan pada Perangkat Daerah sebagaimana dimaksud pada huruf d angka 2, Perangkat Daerah melakukan perbaikan terhadap aplikasi yang akan ditempatkan di Data Center . Bagian Kelima Manajemen Infrastruktur Komunikasi Data",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas menyediakan jaringan internet dan intranet bagi seluruh Perangkat Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyediaan jaringan internet dan intranet sebagaimana dimaksud pada ayat (1), dilakukan dengan cara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan analisis kebutuhan Bandwidth Pemerintah Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengatur pembagian Bandwidth ke Perangkat Daerah sesuai dengan analisis kebutuhan Bandwidth; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-35/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melakukan pengawasan dan pengendalian penggunaan BandwidthPemerintah Daerah secara rutin, berkala, dan periodik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Dinas wajib menjaga keberlangsungan jaringan internet dan intranet pendukung administrasi perkantoran Pemerintah Daerah Provinsi. Bagian Keenam Manajemen Data Sistem Elektronik",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "(1)Data dari setiap sofhaare aplikasi secara kumulatif dilakukan baclcup secara terpusat dalam media penyimpanan data, terutama sofiware aplikasi kritikal.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Backup data dilakukan secara reguler, dengan frekuensi dan jenis backup disesuaikan dengan tingkat kritikal sistem. (3)Pengujian secara teratur mekanisme baclanp dan resfore data untuk memastikan integritas dan validitas prosedur. (4)Implementasi mekanisme inventori atas media penyimpanan data, terutama media yang offline. Bagian Ketujuh Manaj emen Layan an e-Mail",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "(1)Komunikasi dalam pelaksanaan kegiatan kedinasan wajib menggunakan e-mail resmi Pemerintah Daerah Provinsi. (2)Dinas menyediakan dan mengelola e-mail resmi Pemerintah Daerah Provinsi. Bagian Kedelapan Manajemen Layanan Yang Dilakukan Pihak Ketiga",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "(1)Layanan SPBE dapat diselenggarakan sebagian atau seluruhnya oleh pihak ketiga, dengan mempertimbangkan keterbatasan sumber daya internal yang dimiliki oleh Pemerintah Daerah Provinsi untuk mencapai tingkat layanan minimal yang diberikan kepada konsumen. (2)Dalam pemilihan pihak ketiga sebagaimana dimaksud pada ayat (1) harus menjamin kompetensi dan integritas pihak ketiga. (3)Seluruh data yang diolah melalui layanan pihak ketiga adalah data milik Pemerintah Daerah Provinsi yang tidak dapat dipergunakan pihak ketiga di luar kerja sama. 2t Pasal 4O Dalam hal layanan SPBE diselenggarakan oleh pihak ketiga, Perangkat Daerah melakukan audit atas laporan yang disampaikan oleh pihak ketiga untuk memastikan validitasnya, baik dilakukan secara internal atau menggunakan jasa pihak ketiga lain yang independen. Bagian Kesembilan Manajemen Sumber Daya Manusia Sistem Pemerintahan Berbasis Elektronik",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat Daerah melaksanakan pengelolaan sumber daya melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemetaan kompetensi TIK personel Perangkat Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pimpinan Perangkat Daerah menunjuk personel pengelola TIK di internal Perangkat Daerah berdasarkan hasil pemetaan sebagaimana dimaksud pada huruf a;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "analisis kebutuhan pelatihan dengan cara membandingkan antara kebutuhan kompetensi dengan hasil pemetaan kompetensi TIK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "perencanaan program pelatihan peningkatan kompetensi personel; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "fasilitasi kepada personel yang memiliki kompetensi TIK berupa pelatihan atau pendidikan pengelolaan TIK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam upaya pengembangan sumber daya TIK, Dinas membuat rencana pelatihan peningkatan kompetensi personel TIK sesuai kebutuhan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan pelatihan dilakukan melalui kerjasama dengan Perangkat Daerah yang membidangi urusan Pengembangan Sumber Daya Manusia. Bagian Kesepuluh Manajemen Risiko dan Keberlangsungan Bisnis SPBE Pasal42 Dinas melaksanakan pengelolaan risiko dan keberlangsungan bisnis melalui tahapan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menentukan sistem pengendalian yang ada berikut efektivitasnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengestimasikan level kemungkinan risiko;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengestimasikan level dampak risiko;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menentukan level risiko; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-41/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menggambarkan kondisi risiko dalam peta risiko Perangkat Daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Dinas memastikan rencana keberlangsungan bisnis SPBE melalui uji coba terhadap seluruh sistem dan infrastruktur secara berkala. Bagian Kesebelas Manajemen Keamanan Informasi Pasa1 44",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas melaksanaka manajemen keamanan informasi sebagaimana dimaksud dalam Pasal 28 ayat (3) huruf j untuk menjamin keberlangsungan SPBE dengan meminimalkan dampak risiko keamanan informasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Manajemen keamanan informasi dilakukan melalui serangkaian proses yang meliputi penetapan rLlang lingkup, penetapan penanggung jawab, perencanaan, dukungan pengoperasian, evaluasi kinerja, dan perbaikan berkelanjutan terhadap keamanan informasi dalam SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Manajemen keamanan informasi sebagaimana dimaksud pada ayat (21 dilaksanakan berdasarkan pedoman manajemen keamanan informasi SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam pelaksanaan manajemen keamanan informasi, Dinas berkoordinasi dan dapat melakukan konsultasi dengan kepala lembaga yang menyelenggarakan tugas pemerintahan di bidang keamanan siber.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-43/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman manajemen keamanan informasi SPBE diatur dengan Peraturan Lembaga yang menyelenggarakan tugas pemerintahan di bidang keamanan siber, Bagian Keduabelas Manajemen Asset TIK",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas dan Perangkat Daerah melaksanakan manajemen aset teknologi informasi dan komunikasi sebagaimana dimaksud dalam Pasal 28 ayat (3) huruf k untuk menjamin ketersediaan dan optimalisasi pemanfaatan aset teknologi informasi dan komunikasi dalam SPBE. (21 Manajemen aset teknologi informasi dan komunikasi dilakukan melalui serangkaian proses perencanaan, pengadaan, pengelolaan, dan penghapusan perangkat keras dan perangkat lunak yang digunakan dalam SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Manajemen aset teknologi informasi dan komunikasi sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan pedoman manajemen aset teknologi informasi dan komunikasi SPBE. (41 Dalam pelaksanaan manajemen aset teknologi informasi dan komunikasi, Dinas berkoordinasi dan dapat melakukan konsultasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-45/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman manajemen aset teknologi informasi dan komunikasi SPBE diatur dengan Peraturan Menteri yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika. Bagian Ketigabelas Manajemen Perubahan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas dan Perangkat Daerah melaksanakan manajemen perubahan sebagaimana dimaksud dalam Pasal 28 ayat (3) huruf I untuk menjamin keberlangsungan dan meningkatkan kualitas Layanan SPBE melalui pengendalian perubahan yang terjadi dalam SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Manajemen perubahan dilakukan melalui serangkaian proses perencanaan, analisis, pengembangan, implementasi, pemantauan dan evaluasi terhadap perubahan SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Manajemen perubahan sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan pedoman manajemen perubahan SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam pelaksanaan manajemen perubahan, Dinas berkoordinasi dan dapat melakukan konsultasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-46/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman manajemen perubahan SPBE diatur dengan Peraturan Menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara. Bagian Keempatbelas Manajemen Pengetahuan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas dan Perangkat Daerah melaksanakan manajemen pengetahuan sebagaimana dimaksud dalam Pasal 28 ayat (3) huruf m b untuk meningkatkan kualitas Layanan SPBE dan mendukung proses pengambilan keputusan dalam SPBE. (21 Manajemen pengetahuan dilakukan melalui serangkaian proses pengumpulan, pengolahan, penyimpanan, penggunaan, dan alih pengetahuan dan teknologi yang dihasilkan dalam SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-47/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Manajemen pengetahuan sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan pedoman manajemen pengetahuan SPBE. (41 Dalam pelaksanaan manajemen pengetahLlan, Dinas berkoordinasi dan dapat melakukan konsultasi dengan kepala lembaga pemerintah non kementerian yang menyelenggarakan tugas pemerintahan di bidang pengkajian dan penerapan teknologi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-47/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman manajemen pengetahuan SPBE diatur dengan Peraturan Lembaga pemerintah non kementerian yang menyelenggarakan tugas pemerintahan di bidang pengkajian dan penerapan teknologi. Bagian Kelimabelas Manajemen Kepatuhan dan Penilaian Internal",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Dinas melaksanakan manajemen kepatuhan dan penilaian internal melalui: a. proses identifikasi persyaratan, standar, dan aturan yang berlaku; b. penentuan tingkat kepatuhan; dan c. tindak lanjut dari hasil tingkat kepatuhan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "(1)Dinas melakukan manajemen kepatuhan dan penilaian internal SPBE pada Perangkat Daerah secara sistematik, terencana, dan terdokumentasi. (2)Manajemen kepatuhan dan penilaian internal SPBE sebagaimana dimaksud pada ayat (1), dilakukan untuk melihat tingkat kesesuaian dan keefektifan implementasi pengelolaan TIK yang diterapkan. (3)Penilaian internal SPBE dilakukan oleh Tim Evaluator internal yang ditunjuk oleh GCIO. (a)Tim Evaluator internal sebagaimana dimaksud pada ayat (3), melaporkan secara tertulis hasil penilaian kepada GCIO sebagai bahan laporan kepada Tim Koordinasi SPBE setiap tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PEMANTAUAN DAN EVALUASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "(l)Dinas melaksanakan pemantauan dan evaluasi terhadap pengelolaan SPBE di lingkungan Pemerintah Daerah; (2)Pemantauan dan evaluasi sebagaimana dimaksud pada ayat (1), dilaksanakan melalui proses audit secara sistematis, objektif, dan terdokumentasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Perangkat Daerah yang telah memiliki aplikasi dan perangkat TIK dan tidak sesuai dengan Peraturan Gubernur ini, wajib menyesuaikan dengan ketentuan dalam Peraturan Gubernur ini paling lambat 1 (satu) tahun sejak ditetapkannya Peraturan Gubernur ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-jawa-barat-no-86-tahun-2018/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Peraturan Gubernur ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Gubernur ini dengan penempatannya dalam Berita Daerah Provinsi Jawa Barat. Ditetapkan di Bandung pada tanggal 10 Desember 2018 JAWA BARAT, HAMAD RIDWAN KAMIL i) (, a.! E_R $ Diundangkan di Bandung pada tanggal 10 Desember 2018 S DAERAH PROVINSI DAE, A BARAT, E r ru * Et KARNIWA BERITA DAERAH PROVINSI JAWA BARAT TAHUN 2OI8 NOMOR 86",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..52): [11, 20, 21, 24, 27, 31, 40, 42, 44]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

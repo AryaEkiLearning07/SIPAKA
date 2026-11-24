@@ -1,0 +1,60 @@
+tok 1.0 "Anotasi Teks Undang-Undang (Pelacak Dokumen Hukum)"
+
+pool p "Anotasi Teks Undang-Undang" process=anotasi_teks_undang_undang
+  store d_anot "Anotasi"
+  start mulai "Permintaan anotasi diterima" message="Pasal dan aksi anotasi"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor aksi "Aksi anotasi?"
+  receive tulis "Terima isi catatan baru" message="Isi catatan baru"
+  service buat "Buat Anotasi"
+  receive ubahisi "Terima isi catatan yang diubah" message="Isi catatan diubah"
+  service ubah "Ubah Anotasi"
+  send minta "Minta konfirmasi penghapusan catatan" message="Permintaan konfirmasi hapus"
+  eventgw tunggu
+  catch ya "Pengguna mengonfirmasi hapus" message="Konfirmasi hapus"
+  catch tidak "Pengguna membatalkan hapus" message="Batal hapus"
+  service hapus "Hapus Anotasi"
+  send tampil "Tampilkan Anotasi Pasal" message="Anotasi pasal"
+  service tanda "Beri Penanda Pasal"
+  xor gabung
+  end selesai "Anotasi diproses" message="Konfirmasi anotasi"
+  end batal "Penghapusan dibatalkan"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> aksi "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow aksi -> tulis "buat catatan" when="aksi = \"buat\""
+flow aksi -> ubahisi "ubah catatan" when="aksi = \"ubah\""
+flow aksi -> minta "hapus catatan" when="aksi = \"hapus\""
+flow aksi -> tampil "lihat catatan" when="aksi = \"lihat\""
+flow aksi -> tanda "beri penanda" default
+flow tulis -> buat -> gabung
+flow ubahisi -> ubah -> gabung
+flow minta -> tunggu
+flow tunggu -> ya
+flow tunggu -> tidak
+flow ya -> hapus -> gabung
+flow tidak -> batal
+flow tampil -> gabung
+flow tanda -> gabung
+flow gabung -> selesai
+
+writes buat d_anot
+writes ubah d_anot
+writes hapus d_anot
+reads tampil d_anot
+writes tanda d_anot
+
+message user -> mulai "Pasal dan aksi anotasi"
+message tolak -> user "Akses ditolak"
+message user -> tulis "Isi catatan baru"
+message user -> ubahisi "Isi catatan diubah"
+message minta -> user "Permintaan konfirmasi hapus"
+message user -> ya "Konfirmasi hapus"
+message user -> tidak "Batal hapus"
+message tampil -> user "Anotasi pasal"
+message selesai -> user "Konfirmasi anotasi"

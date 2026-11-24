@@ -1,0 +1,1654 @@
+{
+ "slug": "perpres-no-55-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "Menimbang SK No 008553 A PRESIDEN REPUBLIK INDONESIA -2-"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-55-tahun-2019",
+   "detailsId": "116973",
+   "judul": "PERPRES No. 55 Tahun 2019 tentang Percepatan Program Kendaraan Bermotor Listrik Berbasis Baterai (Battery Electric Vehicle) untuk Transportasi Jalan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/107874/Perpres%20Nomor%2055%20Tahun%202019.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:57.026007+00:00"
+  },
+  "sha256": "872e800aab210550268906121793ba99b1226c5c32551a9c016bc2ce6e882c2c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 35,
+  "ayat_angka": 62,
+  "huruf": 67
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Motor Listrik adalah peralatan elektromekanik yang mengonsumsi tenaga listrik untuk menghasilka.n energi mekanik sebagai penggerak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Baterai atau Media Penyimpanan Energi Listrik yang selanjutnya disebut Baterai adalah sumber listrik yang digunakan untuk memberi pasokan energi listrik pada Motor Listrik. SK No 008554 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kendaraan REPUBLIK TNDONESIA Kendaraan Bermotor Listrik Berbasis Baterai (Battery Electric Vehicle) yang selanjutnya disebut KBL Berbasis Baterai adalah kendaraan yang digerakan dengan Motor Listrik dan mendapatkan pasokan sumber daya tenaga listrik dari Baterai secara langsung di kendaraan maupun dari luar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Catu Daya Listrik adalah peralatan yang mempunyai fungsi sebagai sumber listrik untuk memberikan pasokan energi listrik pada Baterai KBL Berbasis Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Stasiun Pengisian Kendaraan Listrik Umum yang selanjutnya disingkat SPKLU adalah sarana pengisian energi listrik untuk KBL Berbasis Baterai untuk umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Uji Tipe KBL Berbasis Baterai adalah pengujian yang dilakukan terhadap fisik KBL Berbasis Baterai atau penelitian terhadap rancang bangun dan rekayasa KBL Berbasis Baterai, sebelum KBL Berbasis Baterai dibuat dan/atau dirakit dan/atau diimpor secara massal serta KBL Berbasis Baterai yang dimodihkasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Uji Berkala KtsL Berbasis Baterai adalah pengujian kendaraan bermotor Iistrik yang dilakukan secara berkala terhadap setiap KBL Berbasis Baterai yang dioperasikan di jalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Nomor Identifikasi KBL Berbasis Baterai yang selanjutnya disingkat NIK adalah identitas dalam bentuk kombinasi 17 (tujuh belas) karakter berupa huruf dan/atau arrgka yang dipasang atau dicetak pada KBL Berbasis Baterai atau yang disebut Vehicle ldentification Number (VIN).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Pemerintah Fusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom. 1 1. PT Perusahaan Listrik Negara (Persero) yang selanjutnya disebut PT PLN (Persero) adalah Perusahaan Perseroan (Persero) PT Perusahaan Listrik Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Tingkat SK No 008521 A Tingkat Komponen Dalam Negeri yang selanjutnya disebut TKDN adalah besaran kandungan dalam negeri pada Barang, Jasa, serta gabungan Barang dan Jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "KBL Berbasis Baterai Bermerek Nasional adalah KBL Berbasis Baterai yang menggunakan tanda, gambar, logo, nama, dan kata yang berciri khas atau karakteristik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "KBL Berbasis Baterai berdasarkan jenis dikelompokan ke dalam:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "KBL Berbasis Baterai beroda dua dan/atau roda tiga; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "KBL Berbasis Baterai beroda empat atau lebih. (21 Jenis KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) mengacu pada jenis dan fungsi kendaraan bermotcr sesuai dengan ketentuan peraturan perundang-undangan di bidang sarana dan prasarana lalu lintas angkutan jalan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang perindustrian dapat menetapkan spesilikasi khusus untuk KBL Berbasis Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Percepatan program KBL Berbasis Baterai untuk transportasi jalan diselenggarakan melalui: a. percepatan pengembangan industri KBL Berbasis Baterai dalam negeri; b. pemberian insentif; c. penyediaan infrastruktur pengisian listrik dan pengaturan tarif tenaga listrik untuk KBL Berbasis Baterai; d. pemenuhan terhadap ketentuan teknis KBL Berbasis Baterai; dan e. perlindungan terhadap lingkungan hidup. SK No 008555 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PERCEPATAN PENGEMBANGAN INDUSTRI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Percepatan pengembangan industri KBL Berbasis Baterai dalam negeri sebagaimana dimaksud dalam Pasal 3 huruf a dibahas dalam forum Tim Koordinasi percepatan program KBL Berbasis Baterai yang mengacu pada peta jalan pengembangan industri kendaraan bermotor nasional. (21 Peta jalan pengembangan industri kendaraan bermotor nasional sebagaimana dimaksud pada ayat (1) ditetapkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang perindustrian. Pasal 5 . Percepatan pengembangan industri KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 4 dilakukan melalui kegiatan industri KBL Berbasis Baterai danf atau industri komponen KBL Berbasrs Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Industri kendaraan bermotor roda dua dan roda empat atau lebih dan industri'komponen kendaraan bermotor yang telah memiliki izin usaha industri dan fasilitas manufa.ktur dan perakitan dapat mengikuti program percepatan KBL Berbasis Baterai untuk transportasi jalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan industri KBL Berbasis Baterai dan/atau perusahaan industri komponen KBL Berbasis Baterai dalam melakukan kegiatan industri KBL Berbasis Baterai dan/atau industri komponen KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 5 wajib membangun fasilitas manufaktur KBL Berbasis Baterai di dalam negeri. (2lKegiatan... SK No 008556 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kegiatan industri KBL Berbasis Baterai dan/atau industri komponen KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) dapat dilakukan sendiri atau melalui kerja sama produksi dengan perusahaan industri lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam rangka percepatan pengembangan industri KBL Berbasis Baterai dalam negeri sebagaimana dimaksud pada ayat (2), perusahaan industri komponen kendaraan bermotor dan/atau perusahaan industri komponen KBL Berbasis Baterai dalam negeri wajib mendukung dan melakukan kerja sama dengan industri KBL Berbasis Baterai dalam negeri. Bagian Kedua Penelitian, Pengembangan, dan Inovasi Industri untuk Kendaraan Bermotor Listrik Berbasis Baterai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan industri, perguruan tinggi, dan/atau lembaga penelitian dan pengembangan dapat melakukan penelitian, pengembangan, dan inovasi teknologi industri KBL Berbasis Baterai. (21 Pemerintah Pusat, Pemerintah Daerah, dan perusahaan industri dapat bersinergi untuk melakukan penelitian, pengembangan, dan inovasi teknologi industri KBL Berbasis Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penelitian, pengembangan, dan inovasi teknologi industri KBL Berbasis Baterai sebagaimana dimaksud pada ayat (2) dilaksanakan untuk mendukung:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengembangan komponen utama KBL Berbasis Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengembangan SPKLU yang efisien;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengembangan industri KBL Berbasis Baterai sesuai dengan perkembangan teknologi terkini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "industri KBL Berbasis Baterai dengan capaian TKDN yang tinggi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-7/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pengembangan KBL Berbasis Baterai yang memenuhi standar teknis dan ramah lingkungan. SK No 008560 A Bagian -7 Bagian Ketiga Tingkat Komponen Dalam Negeri untuk Kendaraan Bermotor Listrik Berbasis Baterai",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Industri KBL Berbasis Baterai dan industri komponen KBL Berbasis Baterai wajib mengutamakan penggunaan TKDN dengan kriteria sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk KBL Berbasis Baterai beroda dua dan/atau tiga tingkat penggunaan komponen dalam negeri sebagai berikut: 1) tahun 2Ol9 sampai dengan 2023, TKDN minimum sebesar 40% (empat puluh per seratus); 2l tahun 2024 sampai dengan 2025, TKDN minimum sebesar 600/o (enam puluh per seratus); dan 3) tahun 2026 dan seterusnya, TKDN minimum sebesar 80% (delapan puluh per seratus),",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "untuk KBL Berbasis Baterai beroda empat atau lebih tingkat penggunaan komponen dalam negeri sebagai berikut: 1) tahun 2Ol9 sampai dengan 2O2I, TKDN minimum sebesar 35% (tiga puluh lima per seratus); 2) tahun 2022 sampai dengan 2023, TKDN minimum sebesar 4Ooh (empat puluh per seratus); 3) taLrun 2024 sampai dengan 2029, TKDN minimum sebesar 600/o (enam puluh per seratus); dan 4) Tahun 2030 dan seterusnya, TKDN minimum sebesar 80% (delapan puluh per seratus).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara penghitungan TKDN sebagaimana dimaksud pada ayat (1) clitetapkan oleh menteri yang menl'elenggarakan urusan pemerintahan di bidang perindustrian dengan melibatkan kementerian/lembaga pemerintah nonkementerian danlatau pemangku kepentingan terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Produksi KBL Berbasis Baterai dilakukan oleh perusahaan industri KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 6 ayat (1) dan merupakan perusahaan yang: a. didirikan berdasarkan hukum Indonesia dan beroperasi di b. memiliki izin usaha industri untuk merakit atau wilayah Negara Kesatuan Republik Indonesia; dan memproduksi KBL Bcrbasis Baterai. SK No 008542 A Pasal 10. . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Produksi komponen KBL Berbasis Baterai dilakukan oleh perusahaan industri komponen KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 6 ayat (1) dan merupakan perusahaan yang: a. didirikan berdasarkan hukum Indonesia dan beroperasi di wilayah Negara Kesatuan Republik Indonesia; dan b. memiliki rzin usaha industri untuk merakit atau memproduksi komponen utama dan/atau komponen pendukung untuk KBL Berbasis Baterai sesuai ciengan ketentuan peraturan perundang-undangan. Pasal I 1",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal industri komponen KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 1O belum mampu memproduksi komponen utama dan/atau komponen pendukung KBL Berbasis Baterai, industri KBL Berbasis Baterai dapat melakukan pengadaan komponen yang berasal dari impor jenis:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "keadaan terurai tidak lengkap (Incompletelg Knock Dounl IKD); dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keadaan terurai lengkap (Completely Knock DownlCKD) (21 Dalam hal industri komponen KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 10 belum mampu memproduksi komponen utama dan/atau komponen pendukung KBL Berbasis Baterai, industri komponen KBL Berbasis Baterai dapat melakukan pengadaan komponen yang berasal dari impor jenis keadaan terurai tidak lengkap (Incompletely Knock Downl IKD).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai keadaan terurai tidak lengkap (Incompletely Knock Dounl IKDI dan keadaan terurai lengkap (Completely Knock Dounf CKDI sebagaimana dimaksud pada ayat (1) ditetapkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang perinclustrian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "SK No 008526 A",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalarrr rangka percepatan pelaksanaan program KBL Berbasis Baterai, industri KBL Berbasis Baterai yang akan membangun fasilitas manufaktur KBL Berbasis Baterai di dalam negeri sebagaimana dimaksud dalam Pasal 6 ayat (1) dapat melakukan pengadaan KBL Berbasis Baterai yang berasal dari impor dalam keadaan utuh (Completely Built-Up I CBq.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Impor sebagaimana dimaksud pada ayat (1) hanya boleh dilakukan dalam jangka waktu tertentu dan jumlah tertentu sejak dimulainya pembangunan fasilitas manufaktur KBL Berbasis Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai jangka waktu dan jumlah tertentu sebagaimana dimaksud pada ayat (21 diatur dalam peraturan menteri yang menyelenggarakan urusan pemerintahan di bidang perindustrian, peraturan menteri yang menyelenggarakan urusan pemerintahan di bidang perdagangan, dan/atau peraturan menterl yang menyelenggarakan urusan pemerintahan di bidang keuangan negara sesuai dengan kewenangannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Impor sebagaimana dimaksud dalam Pasal 11 wajib memperhatikan TKDN secara bertahap sesuai dengan kemampuan produksi dari fasilitas manufaktur komponen utama dan/atau komponen pendukung KBL Berbasis Baterai dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penahapan tingkat manufaktur komponen utama dan/atau komponen pendukung KBL Berbasis Baterai dalam negeri sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 8 oleh menteri yang menyelenggarakan urusan pemerintahan di bidang perindustrian. Pasal 14.. SK No OO85?7 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Perusahaan industri KBL Berbasis Baterai Bermerek Nasional merupakan perusahaan: a. yang menggunakan komponen KBL Berbasis Baterai dalam negeri yang memenuhi kriteria TKDN sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 8; b. yang memenuhi ketentuan sebagaimana dimaksud dalam Pasal 9; c. penanaman modal dalam negeri yang dapat diberikan insentif fiskal tambahan yang ditetapkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara dan insentif nonfiskal tambahan yang ditetapkan oleh menteri terkait setelah mendapat masukan dari Tim Koordinasi percepatan piogram KBL Berbasis Baterai; dan d. yang melakukan peneiitian dan/atau inovasi teknologi inclustri KBL Berbasis Baterai di dalam negeri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Perusahaan industri KBL Berbasis Baterai Bermerek Nasional sebagaimana dimaksud dalam Pasal 14 yang membangun fasilitas manufaktur dan perakitan KBL Berbasis Baterai di Indonesia dapat diberikan fasilitas tambahan. Bagian Keempat Pengendalian Penggunaan Kendaraan Bermotor Berbahan Bakar Minyak Fosil Dalam Negeri",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka percepatan penggunaan KBL Berbasis Baterai, Pemerintah Pusat dapat melakukan pengendalian penggunaan kendaraan bermotor berbahan bakar minyak fosil secara bertahap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengendalian penggunaan kendaraan bermotor berbahan bakar minyak fosil secara bertahap dilakukan berdasarkan peta jalan pengembangan industri kendaraan bermotor nasional. BAB III . SK No 008528 A PRESTDEN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PRESTDEN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah Pusat dan Pemerintah Daerah memberikan insentif untuk mempercepat program KBL Berbasis Baterai untuk transportasi jalan. (21 Insentif sebagaimana dimaksud pada ayat (1) berupa insentif fiskal dan insentif nonfiskal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Insentif sebagaimana dimaksud pada ayat (2) diberikan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perusahaan industri, pergurLlan tinggi, dan/atau lembaga penelitian dan pengembangan sebagaimana dimaksud dalam Pasal 7 ayat (1) yang melakukan kegiatan penelitian, pengembangan, dan inovasi teknologi serta vokasi industri KBL Berbasis Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perusahaan industri yang mengutamakan penggunaan prototipe dan/atau komponen yang bersumber dari perusahaan industri dan/atau lembaga penelitian dan pengembangan yang melakukan kegiatan penelitian, pengembangan, dan inovasi teknologi serta vokasi industri KBL Berbasis Baterai dalam negeri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "perusahaan industri yang memenuhi TKDN sebagaimana dimaksud dalam Pasal 8 dan yang melakukan produksi KBL Berbasis Baterai dalam negeri sebagaimana dimaksud dalam Pasal 9;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "perusahaan industri komponen KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 10;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "perusahaan industri KBL Berbasis Baterai Bermerek Nasional sebagaimana dimaksud dalam Pasal 14;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "perusahaan yang menyediakan penyewaan Baterai (battery swap) sepeda Motor Listrik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "perusahaan industri yang melakukan percepatan produksi serta penyiapan sarana dan prasarana untuk penggunaan KBL Berbasis Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "perusahaan yang. melakukan pengelolaan limbah Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "perusahaan yang menyediakan SPKLU danlatau instansi atau hunian yang menggunakan instalasi listrik privat untuk melakukan pengisian listrik KBL Berbasis Baterai; SK No 008543 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "perusahaan -t2- perusahaan angkuta.n umum yang menggunakan KBL Berbasis Baterai; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-17/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "orang perseorangan yang menggunakan KBL Berbasis Baterai.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Terhadap industri KBL Berbasis Baterai yang akan membangun fasilitas manufaktur KBL Berbasis Baterai di dalam negeri sebagaimana dimaksud dalanr Pasal 12 dapat diberikan insentif sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Insentif fiskal sebagaimana dimaksud dalam Pasal 17 ayat (2) dapat berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "insentif bea masuk atas importasi KBL Berbasis Baterai dalam keadaan terurai lengkap (Completelg Knock DounlCKD), KBL Berbasis Baterai dalam keadaan terurai tidak lengkap (Incompletely Knock Dounl IKD\\, atau komponen utama untuk jumlah dan jangka waktu tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "insentif pajak penjualan atas barang mewah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "insentif pembebasan atau pengurangan pajak pusat dan daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "insentif bea masuk atas importasi mesin, barang, dan bahan dalam rangka penanaman modal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penangguhan bea masuk dalam rangka ekspor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "insentif bea masuk ditanggung pemerintah atas importasi bahan baku dan/atau bahan penolong yang digunakan dalam rangka proses produksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "insentif pembuatan peralatan SPKLU,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "insentif pembiayaan ekspor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "insentif fiskal untuk kegiatan penelitian, pengembangan, dan inovasi teknologi serta vokasi industri komponen KBL Berbasis Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "tarif parkir di lokasi-lokasi yang ditentukan oleh",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "keringanan biaya pengisian listrik di SPKLU;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "dukungan pembiayaan pembangunan infrastruktur Pemerintah Daerah; SPKLU;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "sertifikasi kompetensi profesi bagi sumber daya manusia industri KBL Berbasis Baterai; dan SK No 008530 A n.sertifikasi...",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-1/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "sertifikasi produk dan/atau standar teknis bagi perusahaan industri KBL Berbasis Baterai dan industri komponen KBL Berbasis Baterai. (21 Pemberian insentif fiskal sebagaimana dimaksud pada ayat (1) diberikan sesuai dengan ketentuan peraturan perundang undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemberian insentif pembebasan atau pengurangan pajak daerah sebagaimana dimaksud pada ayat (1) huruf c berupa Pajak Kendaraan Bermotor (PKB) dan Bea Balik Nama Kendaraan Bermotor (BBNKB) diatur lebih lanjut dalam peraturan menteri yang menyelenggarakan urusan pemerintahan dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Insentif nonfiskal sebagaimana dimaksud dalam Pasal 17 ayat (21dapat berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-20/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengecualian dari pembatasan penggunaan jalan tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-20/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelimpahan hak produksi atas teknologi terkait KBL Berbasis Baterai yang lisensi patennya telah dipegang oleh Pemerintah Pusat dan/atau Pemerintah Daerah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-20/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembinaan keamanan dan/atau pengamanan kegiatan operasional sektor industri guna keberlangsungan atau kelancaran kegiatan logistik dan/atau produksi bagi perusahaan industri tertentu yang rnerupakan objek vital nasional. (21 Pemberian insentif nonfiskal sebagaimana dimaksud pada ayat (1) diberikan sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Dalam rangka- percepatan industri KBL Berbasis Baterai dalam negeri untuk memproduksi KBL Berbasis Baterai Bermerek Nasional sebagaimana dimaksud dalam pasal 14, Pemerintah Pusat dan Pemerintah Daerah memberikan: a. insentif fiskal sebagaimana dimaksud dalam pasal 19 dan insentif nonliskal sebagaimana dimaksud dalam pasal 20; dan b. insentif liskal dan nonfiskal tambahan. BAB IV . SK No 008558 A -t4-",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENYEDIAAN INFRASTRUKTUR PENGISIAN LISTRIK DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Infrastruktur pengisian listrik untuk KBL Berbasis Baterai meliputi'",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "fasilitas pengisian ulang (chargingl paling sedikit terdiri atas: 1) peralatan Catu Daya Listrik; 2l sistem kontrol artls, tegangan, dan komunikasi; dan 3) sistem proteksi dan keamanan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-22/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "fasiiitas penukaran Baterai. (21 Pengisian ulang (chargingl sebagaimana dimaksud pada ayat (1) huruf a dapat dilakukan pada instalasi listrik privat dan/atau SPKLU.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Infrastruktur pengisian listrik untuk KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) wajib memenuhi ketentuan keselamatan ketenagalistrikan sesuai peraturan perundang-undangan. ketentuan dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyediaan infrastruktur pengisian listrik untuk KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 22 ayat (1) dapat dilaksanakan oleh Badan Usaha Milik Negara bidang energi dan/atau badan usaha lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk pertama kali, penyediaan infrastruktur pengisian listrik untuk KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) dilaksanakan melalui penugasan kepada PT PLN (Persero).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam melakukan penugasan sebagaimana dimaksud pada ayat (2) PT PLN (Persero) dapat bekerja' sama dengan Badan Usaha Milik Negara dan/atau badan usaha lainnya sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "SK No 008544 A Pasal24 Penjualan tenaga listrik pada SPKLU dapat dilaksanakan oleh: a. pemegang rzin usaha penyediaan tenaga listrik yang memiliki wilayah usaha; dan/atau b. pemegang izin usaha penyediaan tenaga listrik yang memiliki wilayah usaha dengan bekerja sama dengan Badan Usaha Milik Negara bidang energi atau badan usaha lainnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Dalam hal badan usaha melakukan penyediaan infrastruktur pengisian listrik untuk KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 23 ayat (1) dan penjualan tenaga listrik pada SPKLU sebagaimana dimaksud dalam Pasal 24 dengan lokasi lebih dari 1 (satu) provinsi, dapat mengajukan izin usaha penyediaan tenaga listrik dengan wilayah usahanya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk mempercepat penyediaan infrastruktur pengisian listrik sebagaimana dimaksud dalam Pasal 22, diberikan kemudahan untuk penyesuaian instalasi tistrik pada pelanggan listrik yang menggunakan KBL Berbasis Baterai serta pembangunan SPKLU dan/atau tempat penukaran Baterai di tempat umum. (21 SPKLU sebagaimana dimaksud dalam Pasal 24 dan Pasal 25 disediakan di lokasi dengan kriteria:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mudah dijangkau oleh pemilik KBL Berbasis Baterai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disediakan tempat parkir khusus SPKLU; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tidak mengganggu keamanan, keselamatan, ketertiban, dan kelancaran berlalu lintas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk mempercepat program KBL Berbasis Baterai untuk transportasi jalan, SPKLU disediakan di lokasi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Stasiun Pengisian Bahan Bakar Umum (SPBU);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Stasiun Pengisian Bahan Bakar Gas (SpBG);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kantor Pemerintah Pusat dan Pemerintah Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "tempat perbelanjaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "parkiran umum di pinggir jalan raya. SK No 008561 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Instalasi (41 Instalasi listrik privat berlokasi di:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kantor Pemerintah Pusat dan Pemerintah Daerah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-26/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hunian atau perumahan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Tarif tenaga listrik yang diberlakukan pada pengisian listrik untuk KBL Berbasis Baterai ditetapkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang energi dan sumber daya mineral.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN TEKNIS KENDARAAN BERMOTOR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap KBL Berbasis Baterar yang diimpor, dibuat, dan/atau dirakit di dalam negeri yang akan dioperasikan di jalan wajib didaftarkan tipenya dan memenuhi ketentuan NIK. (21 Untuk melakukan Uji Tipe KBL Berbasis Baterai, terlebih dahulu harus mendapatkan tanda pendaftaran tipe untuk kendaraan yang diimpor dan pendaftaran NIK untuk kendaraan yang dibuat dan/atau dirakit di dalam negeri. Bagian Kedua Persyaratan Teknis dan Laik Jalan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap KBL Berbasis Baterai yang dioperasikan di jalan harus mernenuhi persyaratan teknis dan laik jalan. (21 Pemenuhan persyaratan teknis dan laik jalan KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) dilakukan melalui pengujian KBL Berbasis Baterai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengujian . SK No 008546 A _17_ Pengujian KBL Berbasis Baterai sebagaimana dimaksud pada ayat (2) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Uji Tipe KBL Berbasis Baterai; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Uji Berkala KBL Berbasis Baterai.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaksanaan Uji Tipe KBL Berbasis Baterai sebagaimana dimaksud pada ayat (3) huruf a dilaksanakan oleh unit pelaksana Uji Tipe pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Unit pelaksana Uji Tipe pemerintah sebagaimana dimaksud pada ayat (4) harus menyediakan fasilitas dan peralatan pengujian serta tenaga penguji yang memiliki kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pelaksanaan Uji Berkala KBL Berbasis sebagaimana dimaksud pada ayat (3) dilaksanakan oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "unit pelaksana pengujian milik Baterai huruf b pemerintah kabupaten/kota;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "unit pelaksana pemegang merek yang mendapat izin dari menteri yang menyelenggarakan urusan pemerintahan di bidang sarana dan prasarana lalu lintas dan angkutan jalan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "unit pelaksana pengujian swasta yang mendapat izin dari menteri yang menyelenggarakan urusan pemerintahan di bidang sarana dan prasarana lalu lintas dan angkutan jalan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-29/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Pemenuhan persyaratan teknis dan laik jalan KBL Berbasis Baterai dan pengujian KBL Berbasis Baterai sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang sarana dan prasarana lalu lintas dan angkutan jalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Industri KBL Berbasis Baterai dan/atau industri komponen KBL Berbasis Baterai wajib memberikan garansi dan layanan purnajual sesuai dengan ketentuan peraturan perundang-undangan. Bagian SK No 008535 A Bagian Ketiga Identifikasi, Klasifikasi, dan Registrasi Kendaraan Bermotor Listrik Berbasis Baterai",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan Uji Tipe KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 29 dilakukan identifikasi dan klasifikasi KBL Berbasis Baterai. (21 Identifikasi dan klasifikasi KBL Berbasis sebagaimana dimaksud pada ayat (1) berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-31/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "identihkasi rangka kendaraan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "klasifikasi terhadap masing-masing Motor pada kendaraan bermotor yang digunakan dengan spesifikasi keteknikan. Baterai Listrik sesuai",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap KBL Berbasis Baterai wajib diregistrasikan sesuai dengarr ketentuan peraturan perundang-undangan di bidang lalu lintas dan angkutan jalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-31/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaksanaan tata cara identifikasi rangka kendaraan sebagaimana dimaks'ud pada ayat (21 huruf a dan registrasi sebagdimana dimaksud pada ayat (3) sesuai dengan ketentuan peraturan perundang-undangan di bidang registrasi dan identifikasi kendaraan bermotor. PERLINDUNG-AN TERHADAP LINGKUNGAN HIDUP",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PERLINDUNG-AN TERHADAP LINGKUNGAN HIDUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penanganan limbah Baterai dari KBL Berbasis Baterai wajib dilakukan dengan daur ulang dan/atau pengelolaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penanganan limbah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh lembaga, industri KBL Berbasis Baterai, dan/atau industri komponen KBL Berbasis Baterai cialam negeri yang memiliki izin pengelolaan limbah Baterai dari KBL Berbasis Baterai yang berizin sesuai peraturan perundang-undangan di bidang pengelolaan limbah. ketentuan dengan SK No 008536 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "FRESIDEN",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Lembaga, industri KBL Berbasis Baterai, dan/atau industri komponen KBL Berbasis Baterai dalam negeri yang melakukan penanganan limbah Baterai dari KBL Berbasis Baterai sebagaimana dimaksud dalam Pasal 32 ayat (2) dapat diberikan apresiasi terhadap kontribusi lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai pemberian apresiasi sebagaimana dimaksud pada ayat (1) diatur oleh menteri yang menyelenggarakan urusan pemerintahan di bidang lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KOORDINASI PELAKSANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk mendukung pelaksanaan percepatan program KBL Berbasis Baterai untuk transportasi jalan, dibentuk Tim Koordinasi percepatan program KBL Berbasis Baterai untuk transportasi jalan yang selanjutnya disebut Tim Koordinasi. (21 Tim Lioordinasi mempunyai tugas melakukan koordinasi, menyusun rencana aksi, menyelesaikan hambatan, dan melaksanakan pengawasan percepatan pelaksanaan program KBL Berbasis Baterai untuk transportasi jalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tim Koordinasi sebagaimana dimaksud pada ayat (1) dibentuk dan diketuai oleh menteri yang menyelenggarakan koordinasi urusan pemerintahan di bidang kemaritiman dan menteri yang menyelenggarakan koordinasi urusan pemerintahan di bidang perekonomian sebagai Wakil Ketua, dengan anggota terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menteri SK No 008559 A FRESIDEN menteri yang menyelenggarakan urusan pemerintahan di bidang riset, teknologi, dan pendidikan tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang perindustrian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang perdagangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang energi dan sumber daya mineral;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang sarana dan prasarana lalu lirrtas dan angkutan jalan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan di bidang lingkungan hidup dan kehutanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menteri yang menyelenggarakan urusan pemerintahan dalam negeri; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "Kepala Kepolisian Negara Republik Indonesia. (41 Tim Koordinasi dibantu oleh Tim Kelompok Kerja yang dibentuk oleh Ketua Tim Koordinasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-55-tahun-2019/pasal-34/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai tata kerja Tim Koordinasi sebagaimana dimaksud pada ayat (1) dan Tim Kelompok Kerja sebagaimana dimaksud pada ayat (4) diatur dengan peraturan menteri yang menyelenggarakan koordinasi rrrusan pemerintahan di bidang kemaritiman selaku Ketua Tim Koordinasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Pada saat Peraturan Presiden ini berlaku, semua jenis dan tipe KBL Berbasis Baterai yang diimpor dan belum didaftarkan dan belum dilakukan pengujian tipe sebelum berlakunya Peraturan Presiden ini, importir KBL Berbasis Baterai yang melakukan importasi kendaraan bermotor wajib mendaftarkan tipe dan melakukan pengujian tipe serta melakukan registrasi dan identifikasi sesuai dengan ketentuan Peraturan Presiden ini paling lama 12 (dua belas) bulan sejak berlakunya Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-55-tahun-2019/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Peraturan pelaksanaan dari Peraturan Presiden ini harus ditetapkan paling lama I (satu) tahun terhitung sejak Peraturan Presiden ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-55-tahun-2019/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Peraturan Presiden diundangkan. ini mulai berlaku pada tanggal Agar SK No 008559 A REPUBLTK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta, pada tanggal 8 Agustus 2019 PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta, pada tanggal 12 Agustus 2019 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OI9 NOMOR 146 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA PUBLIK INDONESIA Depu dan Perundang-undangan, UI * !K vanna Djaman SK No 008541 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..37): [5, 11]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

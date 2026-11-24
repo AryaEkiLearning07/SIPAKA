@@ -1,0 +1,104 @@
+{
+ "slug": "pp-no-2-tahun-1949",
+ "preamble": {
+  "menimbang": [
+   "bahwa, sebelum ada peraturan tetap mengenai uang kehormatan dan uang duduk bagi anggota Badan Pekerja Komite Nasional Indonesia Pusat, perlu diadakan peraturan sementara mengenai hal-hal tersebut di atas;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-2-tahun-1949",
+   "detailsId": "64039",
+   "judul": "PP No. 2 Tahun 1949 tentang Peraturan Sementara Tentang Penghargaan Kedudukan Anggota-Anggota Badan Pekerja Komite Nasional Indonesia Pusat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54254/PP%20No%202%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:20.349533+00:00"
+  },
+  "sha256": "ab17dca56bedfb7880547928a8fe66118e0c4098cd8232c71e9ba696f9d311de",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-2-tahun-1949/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-2-tahun-1949/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Uang kehormatan anggota Badan Pekerja Komite Nasonal Indonesia Pusat ditetapkan empat ratus rupiah sebulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-2-tahun-1949/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Untuk tiap-tiap kali menghadiri rapat yang resmi, anggota Badan Pekerja tersebut menerima uang duduk sebesar dua puluh rupiah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-2-tahun-1949/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Jumlah uang duduk yang diberikan kepada anggota Badan Pekerja tidak boleh melebihi tiga ratus rupiah untuk tiap-tiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-2-tahun-1949/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Uang kehormatan dan uang duduk hanya diberikan kepada anggota-anggota Badan Pekerja yang bertempat tinggal di daerah (kota) Yogyakarta.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-2-tahun-1949/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Uang hadiah, uang kehormatan dan lain-lain yang telah diterima oleh Badan Pekerja mulai bulan Juni 1949 untuk anggota-anggota Badan Pekerja yang tidak bertempat tinggal di Yogyakarta, harus dikembalikan kepada kas negeri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-2-tahun-1949/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan ini mulai berlaku pada tanggal 1 Juli 1949. Ditetapkan di Yogyakarta pada tanggal 30 Juli 1949. PRESIDEN REPUBLIK INDONESIA, SOEKARNO. Menteri Keuangan ad interim, MOHAMMAD HATTA. Menteri Perburuhan dan Sosial yang diserahi pimpinan Kantor Urusan Pegawai Negeri, Diumumkan pada tanggal 30 Juli 1949. Sekretaris Negara, A. G. PRINGGODIGDO. KOESNAN",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

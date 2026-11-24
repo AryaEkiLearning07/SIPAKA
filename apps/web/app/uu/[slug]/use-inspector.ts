@@ -28,9 +28,33 @@ export function useInspector(
     const hasAmendment =
       relOps.length > 0 || node.isRepealed === true || (node.versionTag ?? '').startsWith('AMEND');
 
-    // KETENTUAN PENGGUNA: panel HANYA muncul untuk pasal/ayat yang mengalami amandemen
     if (!hasAmendment) {
-      setInspectorNode(null);
+      setInspectorTab('risalah');
+      setInspectorNode({
+        canonicalPath: node.canonicalPath,
+        label: node.label,
+        parentLabel,
+        status: 'TETAP BERLAKU (NASKAH ASLI)',
+        amendedBy: undefined,
+        versionTag: node.versionTag,
+        isRepealed: false,
+        repealBasis: undefined,
+        fromText: node.content || 'Norma naskah awal berlaku utuh tanpa amandemen.',
+        toText: node.content || 'Norma naskah awal berlaku utuh tanpa amandemen.',
+        diff: {
+          targetPath: node.canonicalPath,
+          sourceVersion: 'ORIGINAL',
+          targetVersion: 'CURRENT',
+          isContentIdentical: true,
+          tokens: [],
+          addedCount: 0,
+          removedCount: 0,
+          unchangedCount: 0,
+          similarityRatio: 1.0,
+        },
+        ops: [],
+        loading: false,
+      });
       return;
     }
 

@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-31-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa peraturan istimewa sementara bagi pemindahan pegawai Negeri Sipil keluar pulau Jawa, karena berbagai- bagai alasan dipandang perlu untuk ditarik kembali;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-31-tahun-1952",
+   "detailsId": "77797",
+   "judul": "PP No. 31 Tahun 1952 tentang Pencabutan Peraturan Pemerintah Nr 70 Tahun 1951, &#xD;&#xA;Mengenai Peraturan Istimewa Bagi Pemindahan&#xD;&#xA;Pegawai Negeri Sipil Keluar Jawa&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69056/PP%20No.%20031%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-70-tahun-1951"
+   ],
+   "scrapedAt": "2026-10-06T06:06:38.883660+00:00"
+  },
+  "sha256": "c00fae5e89faee34e826ecc40905f4c75d69965bb3275c2c208666eeba46387c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

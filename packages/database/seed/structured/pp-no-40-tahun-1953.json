@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-40-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu mengatur pemindahan kekuasaan Menteri Urusan Pegawai, yang diberikan dalam berbagai-bagai Peraturan Pemerintah, kepada Perdana Menteri."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-40-tahun-1953",
+   "detailsId": "77816",
+   "judul": "PP No. 40 Tahun 1953 tentang Pemindahan Kekuasaan Menteri Urusan Pegawai Kepada Perdana Menteri Urusan Pegawai - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69077/PP%20No.%20040%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:02.627981+00:00"
+  },
+  "sha256": "2681a799b62cd991a0dca384c8209b74953b52dce4335186cda160be462f2448",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

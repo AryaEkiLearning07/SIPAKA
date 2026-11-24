@@ -1,0 +1,97 @@
+{
+ "slug": "perpres-no-71-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut pada huruf a dan dalam rangka meningkatkan kesejahteraan dan produktivitas kerja Pegawai Negeri Sipil yang bersangkutan, dipandang perlu mengatur Tunjangan Jabatan Fungsional Inspektur Ketenagalistrikan, Inspektur Tambang, dan Inspektur Minyak dan Gas Bumi dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-71-tahun-2007",
+   "detailsId": "42127",
+   "judul": "PERPRES No. 71 Tahun 2007 tentang Tunjangan Jabatan Fungsional Inspektur Ketenagalistrikan, Inspektur Tambang, dan Inspektur Minyak dan Gas Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70795/PERPRES%20NO%2071%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-82-tahun-2005"
+   ],
+   "scrapedAt": "2026-10-06T06:15:38.514462+00:00"
+  },
+  "sha256": "acd89c9a8743c0749b16407498fb727531ea006202c9af5e4984531fd86327fe",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-71-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Presiden ini yang dimaksud dengan :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-71-tahun-2007/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Tunjangan Jabatan Fungsional Inspektur Ketenagalistrikan, yang selanjutnya disebut dengan Tunjangan Inspektur Ketenagalistrikan adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Inspektur Ketenagalistrikan, sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-71-tahun-2007/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Tunjangan ... Tunjangan Jabatan Fungsional Inspektur Tambang, yang selanjutnya disebut dengan Tunjangan Inspektur Tambang adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Inspektur Tambang, sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-71-tahun-2007/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Tunjangan Jabatan Fungsional Inspektur Minyak dan Gas Bumi, yang selanjutnya disebut dengan Tunjangan Inspektur Minyak dan Gas Bumi adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Inspektur Minyak dan Gas Bumi, sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-71-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Inspektur Ketenagalistrikan, Inspektur Tambang, dan Inspektur Minyak dan Gas Bumi, diberikan tunjangan Inspektur Ketenagalistrikan, Inspektur Tambang, dan Inspektur Minyak dan Gas Bumi setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-71-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Besarnya tunjangan Inspektur Ketenagalistrikan, Inspektur Tambang, dan Inspektur Minyak dan Gas Bumi, sebagaimana dimaksud dalam Pasal 2 adalah sebagaimana tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

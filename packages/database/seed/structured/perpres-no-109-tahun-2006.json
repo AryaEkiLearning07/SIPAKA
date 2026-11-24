@@ -1,0 +1,940 @@
+{
+ "slug": "perpres-no-109-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan telah diundangkannya Undang-Undang Nomor 17 Tahun 1985 tentang Pengesahan United Nations Convention on the Law of the Sea (Konvensi Perserikatan Bangsa-Bangsa tentang Hukum Laut), Pemerintah Indonesia berkewajiban mengembangkan suatu kebijakan dan mekanisme yang memungkinkan tindakan secara cepat, tepat, dan terkoordinasi dalam penanggulangan tumpahan minyak di laut dan penanggulangan dampak lingkungan akibat tumpahan minyak di laut dengan mengerahkan potensi lokal, daerah, dan nasional secara efektif;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Presiden tentang Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut; Mengingat ... PRESIDEN REPUBLIK INDONESIA - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-109-tahun-2006",
+   "detailsId": "42038",
+   "judul": "PERPRES No. 109 Tahun 2006 tentang Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/72198/PRPS%20NO%20109%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:29.789154+00:00"
+  },
+  "sha256": "113294dfaed9a8e06df1cfc11a7fc2e0366ab78a65a51df8642e73a821950771",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 15,
+  "ayat_angka": 62,
+  "huruf": 14
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PRESIDEN TENTANG PENANGGULANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan: 1. Penanggulangan keadaan darurat tumpahan minyak di laut adalah tindakan secara cepat, tepat, dan terkoordinasi untuk mencegah dan mengatasi penyebaran tumpahan minyak di laut serta menanggulangi dampak lingkungan akibat tumpahan minyak di laut untuk meminimalisasi kerugian masyarakat dan kerusakan lingkungan laut. 2. Tumpahan minyak di laut adalah lepasnya minyak baik langsung atau tidak langsung ke lingkungan laut yang berasal dari kegiatan pelayaran, kegiatan pengusahaan minyak dan gas bumi, atau kegiatan lain.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Minyak ... Minyak adalah minyak bumi dan berbagai hasil olahannya, dalam bentuk cair atau padat, mudah berubah bentuk atau tidak mudah berubah bentuk.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Minyak Bumi adalah hasil proses alami berupa hidrokarbon yang dalam kondisi tekanan dan temperatur atmosfer berupa fasa cair atau padat, termasuk aspal, lilin mineral atau ozokerit, dan bitumen yang diperoleh dari proses penambangan, tetapi tidak termasuk batubara atau endapan hidrokarbon lain yang berbentuk padat yang diperoleh dari kegiatan yang tidak berkaitan dengan kegiatan usaha Minyak dan Gas Bumi. 5. Laut adalah perairan pedalaman, perairan kepulauan, laut teritorial, dan Zona Ekonomi Eksklusif Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Dampak lingkungan laut adalah pengaruh perubahan pada kualitas lingkungan laut akibat tumpahan minyak. 7. Pelayaran adalah segala sesuatu yang berkaitan dengan angkutan di perairan, kepelabuhanan, serta keamanan dan keselamatannya. 8. Pengusahaan minyak dan gas bumi adalah kegiatan usaha hulu dan/atau kegiatan usaha hilir minyak dan gas bumi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kegiatan lain adalah kegiatan di luar kegiatan pelayaran dan kegiatan pengusahaan minyak dan gas bumi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Koordinator Misi adalah pejabat yang bertanggung jawab atas penyelenggaraan operasi penanggulangan keadaan darurat tumpahan minyak di laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Administrator Pelabuhan, yang selanjutnya disebut ADPEL, adalah kepala unit pelaksana teknis di lingkungan Direktorat Jenderal Perhubungan Laut pada pelabuhan laut yang diselenggarakan oleh Badan Usaha Pelabuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Kepala ... Kepala Kantor Pelabuhan, yang selanjutnya disebut KAKANPEL, adalah kepala unit pelaksana teknis di lingkungan Direktorat Jenderal Perhubungan Laut pada pelabuhan laut yang tidak diselenggarakan oleh Badan Usaha Pelabuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "ADPEL Koordinator adalah ADPEL tertentu yang bertugas selaku koordinator dalam rangka pengawasan dan pembinaan serta mempertanggungjawabkan kinerja pelaksanaan tugas dari segi keselamatan pelayaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Pusat Komando dan Pengendali Nasional Operasi Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut, yang selanjutnya disebut PUSKODALNAS, adalah pusat komando dan pengendalian operasi dalam penanggulangan tumpahan minyak di laut dan penanggulangan dampak lingkungan akibat tumpahan minyak di laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Prosedur Tetap Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut, yang selanjutnya disebut PROTAP, adalah pengaturan mengenai struktur, tanggung jawab, tugas, fungsi dan tata kerja organisasi operasional, sistem pelaporan dan komunikasi, serta prosedur dan pedoman teknis operasi penanggulangan keadaan darurat tumpahan minyak di laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Daerah Lingkungan Kerja Pelabuhan, yang selanjutnya disebut DLKR Pelabuhan, adalah wilayah perairan dan daratan pada pelabuhan umum yang dipergunakan secara langsung untuk kegiatan kepelabuhanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Daerah Lingkungan Kepentingan Pelabuhan, yang selanjutnya disebut DLKP Pelabuhan, adalah wilayah perairan di sekeliling daerah lingkungan kerja perairan pelabuhan umum yang dipergunakan untuk menjamin keselamatan pelayaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Tier ... Tier 1 adalah kategorisasi penanggulangan keadaan darurat tumpahan minyak yang terjadi di dalam atau di luar DLKP dan DLKR Pelabuhan, atau unit pengusahaan minyak dan gas bumi atau unit kegiatan lain, yang mampu ditangani oleh sarana, prasarana dan personil yang tersedia pada pelabuhan atau unit pengusahaan minyak dan gas bumi atau unit kegiatan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Tier 2 adalah kategorisasi penanggulangan keadaan darurat tumpahan minyak yang terjadi di dalam atau di luar DLKP dan DLKR Pelabuhan, atau unit pengusahaan minyak dan gas bumi atau unit kegiatan lain, yang tidak mampu ditangani oleh sarana, prasarana dan personil yang tersedia pada pelabuhan atau unit pengusahaan minyak dan gas bumi atau unit kegiatan lain berdasarkan tingkatan tier 1.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Tier 3 adalah kategorisasi penanggulangan keadaan darurat tumpahan minyak yang terjadi di dalam atau di luar DLKP dan DLKR Pelabuhan atau unit pengusahaan minyak dan gas bumi atau unit kegiatan lain, yang tidak mampu ditangani oleh sarana, prasarana dan personil yang tersedia di suatu wilayah berdasarkan tingkatan tier 2, atau menyebar melintasi batas wilayah Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Orang adalah orang perseorangan, dan/atau kelompok orang, dan/atau badan hukum. BAB II...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEWAJIBAN NAKHODA, PIMPINAN KAPAL, ADPEL, KAKANPEL,",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap nakhoda atau pimpinan kapal dan/atau pemilik atau operator kapal wajib menanggulangi terjadinya keadaan darurat tumpahan minyak di laut yang bersumber dari kapalnya serta melaporkan kejadian tersebut kepada pejabat sebagaimana dimaksud dalam Pasal 8.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap ADPEL atau KAKANPEL wajib menanggulangi terjadinya keadaan darurat tumpahan minyak di laut di dalam DLKR dan DLKP Pelabuhan yang menjadi tanggung jawabnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap pimpinan unit pengusahaan minyak dan gas bumi atau penanggung jawab unit kegiatan pengusahaan minyak lepas pantai wajib menanggulangi terjadinya keadaan darurat tumpahan minyak di laut yang bersumber dari usaha dan/atau kegiatannya serta melaporkan kejadian tersebut kepada pejabat sebagaimana dimaksud dalam Pasal 8.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap pimpinan atau penanggung jawab kegiatan lain wajib menanggulangi terjadinya keadaan darurat tumpahan minyak di laut yang bersumber dari usaha dan/atau kegiatannya serta melaporkan kejadian tersebut kepada pejabat sebagaimana dimaksud dalam Pasal 8. BAB III...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KELEMBAGAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka keterpaduan penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3, dibentuk Tim Nasional Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut, yang selanjutnya disebut Tim Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tim Nasional sebagaimana dimaksud pada ayat (1) terdiri atas: Ketua : Menteri Perhubungan; Wakil Ketua : Menteri Negara Lingkungan Hidup; Anggota : 1. Menteri Energi dan Sumberdaya Mineral;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Menteri Dalam Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Menteri Luar Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Menteri Kelautan dan Perikanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Menteri Kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Menteri Kehutanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Menteri Keuangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Menteri Hukum dan Hak Asasi Manusia; 9. Panglima Tentara Nasional Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kepala Kepolisian Negara Republik Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Kepala Badan Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Kepala Badan Pengatur Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Kegiatan Usaha Pengangkutan Gas Bumi melalui Pipa;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Gubernur, Bupati/Walikota yang sebagian wilayahnya mencakup laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tim... Tim Nasional sebagaimana dimaksud pada ayat (1) berada di bawah dan bertanggung jawab langsung kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketua Tim Nasional wajib melaporkan hasil pelaksanaan tugasnya secara berkala kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Tim Nasional sebagaimana dimaksud pada ayat (2) bertanggung jawab atas penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Tim Nasional sebagaimana dimaksud pada ayat (2) bertugas :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melaksanakan koordinasi penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan dukungan advokasi kepada setiap orang yang mengalami kerugian akibat tumpahan minyak di laut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (6), Tim Nasional berfungsi menetapkan pedoman pengembangan sistem kesiagaan dan penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut, meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-7/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan PROTAP tier 3;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-7/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menjamin ketersediaan sarana, prasarana dan personil terlatih untuk mendukung pelaksanaan operasi penanggulangan keadaan darurat tumpahan minyak di laut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-7/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menetapkan persyaratan minimal kesiagaan sarana, prasarana, dan personil di pelabuhan, terminal atau platform untuk penanggulangan tumpahan minyak di laut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-3/ayat-7/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menetapkan persyaratan minimal kesiagaan sarana, prasarana, dan personil di daerah untuk penanggulangan dampak lingkungan akibat tumpahan minyak di laut. Pasal 4...",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk membantu terlaksananya penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3 sebagaimana dimaksud dalam Pasal 3 ayat (5), Tim Nasional membentuk dan membina PUSKODALNAS.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keanggotaan PUSKODALNAS terdiri atas wakil dari instansi sebagaimana dimaksud dalam Pasal 3 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai PUSKODALNAS sebagaimana dimaksud pada ayat (1) ditetapkan oleh Ketua Tim Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka keterpaduan penyelenggaraan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 2, Bupati/Walikota sebagaimana dimaksud dalam Pasal 3 ayat (2) wajib membentuk Tim Daerah Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut, yang selanjutnya disebut Tim Daerah. paling sedikit terdiri atas wakil dari instansi yang tugas dan tanggung jawabnya meliputi perhubungan, lingkungan hidup, energi dan sumber daya mineral, kelautan dan perikanan, kesehatan, kehutanan, kepolisian, dan ADPEL Koordinator yang bertindak sebagai Koordinator Misi tier 2. Pasal 6...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk Daerah Khusus Ibukota Jakarta, Tim Daerah sebagaimana dimaksud pada ayat (1) dibentuk oleh Gubernur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam membentuk Tim Daerah dan melaksanakan penanggulangan keadaan darurat tumpahan minyak di laut sebagaimana dimaksud pada ayat (1), Bupati/Walikota wajib berkoordinasi dengan Gubernur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-5/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Susunan keanggotaan Tim Daerah sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka kesiagaan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 1, ADPEL atau KAKANPEL atau pimpinan unit pengusahaan minyak dan gas bumi atau penanggung jawab kegiatan lain wajib membentuk Tim Lokal Penanggulangan Keadaan Darurat Tumpahan Minyak di Laut, yang selanjutnya disebut Tim Lokal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pelaksanaan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 1, Tim Lokal sebagaimana dimaksud pada ayat (1) wajib berkoordinasi dengan ADPEL terdekat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bupati/Walikota sebagaimana dimaksud dalam Pasal 5 ayat (1) menetapkan PROTAP tier 2 untuk daerahnya masing-masing, kecuali untuk DKI Jakarta PROTAP tier 2 ditetapkan oleh Gubernur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "ADPEL atau KAKANPEL atau pimpinan unit pengusahaan minyak dan gas bumi atau penanggung jawab kegiatan lain sebagaimana dimaksud dalam Pasal 6 ayat (1) menetapkan PROTAP tier 1.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam menyusun PROTAP sebagaimana dimaksud pada ayat (1) dan ayat (2), Gubernur atau Bupati/Walikota dan ADPEL atau KAKANPEL atau pimpinan unit pengusahaan minyak dan gas bumi atau penanggung jawab kegiatan lain berpedoman pada PROTAP tier 3. BAB IV...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TATA CARA PELAPORAN DAN PENANGGULANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang mengetahui terjadinya tumpahan minyak di laut wajib segera menginformasikan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "PUSKODALNAS;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kantor pelabuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat yang tugas dan tanggung jawabnya di bidang teknik dan lingkungan minyak dan gas bumi, pada departemen yang tugas dan tanggung jawabnya di bidang kegiatan usaha minyak dan gas bumi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pemerintah Daerah; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Unsur pemerintah lain yang terdekat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setelah menerima informasi sebagaimana dimaksud pada ayat (1), pejabat dari instansi sebagaimana dimaksud pada ayat (1) huruf b, huruf c, huruf d, atau huruf e wajib segera menginformasikan kepada :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "ADPEL;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "KAKANPEL; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Kepala PUSKODALNAS.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setelah menerima informasi sebagaimana dimaksud pada ayat (1) dan/atau ayat (2), ADPEL atau KAKANPEL wajib segera menginformasikan kepada Kepala PUSKODALNAS.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "ADPEL, KAKANPEL, atau Kepala PUSKODALNAS setelah menerima informasi sebagaimana dimaksud pada ayat (1) dan/atau ayat (2) wajib segera melakukan pengecekan atas kebenaran laporan yang diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam... Dalam hal tumpahan minyak yang terjadi masuk dalam kategori tier 1, Tim Lokal sebagaimana dimaksud dalam Pasal 6 ayat (1) wajib segera melakukan operasi penanggulangan keadaan darurat tumpahan minyak di laut, dan ADPEL bertindak selaku Koordinator Misi tier 1.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal tumpahan minyak yang terjadi masuk dalam kategori tier 2, Tim Daerah sebagaimana dimaksud dalam Pasal 5 ayat (1) wajib segera melakukan operasi penanggulangan keadaan darurat tumpahan minyak di laut, dan ADPEL Koordinator bertindak selaku Koordinator Misi tier 2.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-8/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam hal tumpahan minyak yang terjadi masuk dalam kategori tier 3, PUSKODALNAS wajib segera melakukan koordinasi pelaksanaan operasi penanggulangan keadaan darurat tumpahan minyak di laut, dan Kepala PUSKODALNAS bertindak selaku Koordinator Misi tier 3.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Dalam hal sumber daya nasional tidak memadai dalam penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3, Ketua Tim Nasional dapat meminta bantuan internasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala PUSKODALNAS, dalam kapasitas selaku Koordinator Misi penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 3, wajib memberikan laporan pelaksanaan penanggulangan keadaan darurat tumpahan minyak di laut kepada Ketua Tim Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketua... Ketua Tim Daerah wajib memberikan laporan pelaksanaan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 2 kepada Kepala PUSKODALNAS dan Ketua Tim Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketua Tim Lokal wajib memberikan laporan pelaksanaan penanggulangan keadaan darurat tumpahan minyak di laut tingkatan tier 1 kepada Ketua Tim Daerah dengan tembusan kepada Kepala PUSKODALNAS dan Ketua Tim Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "BIAYA PENANGGULANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Setiap pemilik atau operator kapal, pimpinan tertinggi pengusahaan minyak dan gas bumi atau penanggung jawab tertinggi kegiatan pengusahaan minyak lepas pantai atau pimpinan atau penanggung jawab kegiatan lain, yang karena kegiatannya mengakibatkan terjadinya tumpahan minyak di laut, bertanggung jawab mutlak atas biaya: a. penanggulangan tumpahan minyak di laut; b. penanggulangan dampak lingkungan akibat tumpahan minyak di laut; c. kerugian masyarakat akibat tumpahan minyak di laut; dan d. kerusakan lingkungan akibat tumpahan minyak di laut. Pasal 12...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Biaya pelaksanaan operasional untuk Tim Nasional dan PUSKODALNAS dibebankan kepada APBN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-109-tahun-2006/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biaya pelaksanaan operasional untuk Tim Daerah dibebankan kepada APBD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-109-tahun-2006/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Selama belum ada pengaturan tersendiri, mekanisme sebagaimana diatur dalam Peraturan Presiden ini dapat diberlakukan terhadap penanggulangan keadaan darurat tumpahan bahan bukan minyak di laut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Segala peraturan pelaksanaan di bidang penanggulangan keadaan darurat tumpahan minyak di laut dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diganti dengan peraturan yang baru berdasarkan Peraturan Presiden ini. Pasal 15...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-109-tahun-2006/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 29 Desember 2006 ttd. DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum, ttd Lambock V. Nahattands",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

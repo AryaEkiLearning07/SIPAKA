@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-25-tahun-1947",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-25-tahun-1947",
+   "detailsId": "62877",
+   "judul": "PP No. 25 Tahun 1947 tentang Peraturan Mengadakan Perubahan Dalam Peraturan Pemerintah 1947 Nomor 17, Dari Hal Penyelenggaraan Rumah Negeri Untuk Menteri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53087/PP%20No.25%20Tahun1947.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:37.495445+00:00"
+  },
+  "sha256": "3aab6b110b4d9a0017f6e47828166f5c19b0379b90df05744f214c4044ac4879",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

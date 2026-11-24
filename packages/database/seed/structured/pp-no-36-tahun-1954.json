@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-36-tahun-1954",
+ "preamble": {
+  "menimbang": [
+   "Perlu menghapuskan batas jumlah tertinggi pokok pensiun ditambah dengan tuniangan kemahalan daerah dan tunjangan keluarga, seperti ditetapkan dalam Peraturan Pemerintah No. 47 tahun 1952 (daftar lampiran ad. III) (Lembaran Negara tahun 1952 No. 77);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-36-tahun-1954",
+   "detailsId": "77554",
+   "judul": "PP No. 36 Tahun 1954 tentang Pengubahan Peraturan Pemerintah No. 47 Tahun 1952 yang Mengenai Batas Tertinggi Jumlah Pokok Pensiun dan Tunjangan Kemahalan Daerah Serta Tunjangan Keluarga&#xD;&#xA;(Lembaran-Negara Tahun 1952 No. 77) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68638/PP%20No.%20036%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:26.661449+00:00"
+  },
+  "sha256": "49808867cc1057c77fb7fff0d43c233957c336a74397343d2e419f9f574250a3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-36-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Daftar lampiran dari Peraturan Pemerintah No. 47 tahun 1952 (Lembaran Negara tahun 1952 No. 77) diubah sebagai berikut: a. Angkatan III dan ketentuan dibelakang angka itu yang berbu- nyi \"Jumlah pokok pensiun yang bersifat pensiun ditambah dengan tunjangan kemahalan daerah dan tunjangan keluarga tidak melebihi\" serta perkataan-perkataan \" Rp. 1000,- sebulan\" termuat dalam ruang a dan b, dihapuskan. Angka IV, menjadi III. Ketentuan angka (1) dan \"Catatan\", dihapuskan. b. c.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 April 1954. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 8 April 1954. Ttd. SUKARNO Diundangkan pada tanggal 7 Mei 1954. MENTERI KEHAKIMAN Ttd. DJODY GONDOKUSUMO PERDANA MENTERI, Ttd. ALI SASTROAMIDJOJO MENTERI KEUANGAN, Ttd. ONG ENG DIE -------------------------------- CATATAN Kutipan: LEMBARAN NEGARA TAHUN 1954 YANG TELAH DICETAK ULANG Sumber: LN 1954/57",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

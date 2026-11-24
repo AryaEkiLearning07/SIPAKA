@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-6-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Negara Tahun 1971/1972 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-6-tahun-1980",
+   "detailsId": "47132",
+   "judul": "UU No. 6 Tahun 1980 tentang Perhitungan Anggaran Negara Tahun 1971/1972 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35999/UU%20Nomor%206%20Tahun%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:59.313238+00:00"
+  },
+  "sha256": "ee6e197697ef8a1cdbb4a2437e04807fff594c3ba92f9c3fd72d806f18cc332c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-6-tahun-1980/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-6-tahun-1980/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penerimaan Negara dalam Tahun Anggaran 1971/1972 adalah sebesar Rp.522.362.198.850,70 (lima ratus dua puluh dua milyar tiga ratus enam puluh dua juta seratus sembilan puluh delapan ribu delapan ratus lima puluh tujuh puluh perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-6-tahun-1980/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengeluaran Negara dalam Tahun Anggaran 1971/1972 adalah sebesar Rp.508.795.816.820,08 (lima ratus delapan milyar tujuh ratus sembilan puluh lima juta delapan ratus enam belas ribu delapan ratus dua puluh delapan perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-6-tahun-1980/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa lebih Perhitungan Anggaran Negara Tahun 1971/1972 adalah sebesar .Rp.13.566.382.030,62 (tiga belas milyar lima ratus enam puluh enam juta tiga ratus delapan dua ribu tiga puluh enam puluh dua perseratus rupiah). Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 5 Juli 1980 PRESIDEN REPUBLIK INDONESIA, ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 5 Juli 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. SUDHARMONO, SH",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

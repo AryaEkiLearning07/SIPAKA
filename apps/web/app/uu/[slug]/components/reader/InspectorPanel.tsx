@@ -30,6 +30,23 @@ interface InspectorPanelProps {
 
 /** Kartu tindakan hukum atas node (taksonomi UU 12/2011). */
 function KartuTindakan({ ops }: { ops: OpsRow[] }) {
+  if (!ops || ops.length === 0) {
+    return (
+      <div className="p-3.5 rounded-xl bg-gradient-to-br from-slate-700 to-slate-800 border border-slate-600 text-white shadow-sm">
+        <div className="flex items-center justify-between gap-1 text-[10px] font-mono tracking-wider uppercase font-bold opacity-90 mb-1">
+          <span>STATUS NORMA HUKUM</span>
+          <span className="px-1.5 py-0.5 rounded border bg-slate-850 border-slate-500 text-slate-200">TETAP BERLAKU</span>
+        </div>
+        <h4 className="font-sans font-black text-sm tracking-wide flex items-center gap-1.5">
+          <span>🔵</span>
+          <span>NORMA ASLI TETAP UTUH (TIDAK DIUBAH)</span>
+        </h4>
+        <p className="text-[11px] opacity-90 leading-relaxed mt-1 font-medium">
+          Ketentuan norma ini berlaku utuh sejak naskah awal dan belum pernah mengalami mutasi amandemen materiil.
+        </p>
+      </div>
+    );
+  }
   const dicabut = ops.some((o) => o.operationType === 'REPEAL_PROVISION');
   const disisipkan = ops.some((o) => o.operationType === 'ADD_PROVISION') && !dicabut;
   const tema = dicabut
@@ -264,11 +281,11 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             <span>Buka Komparasi Berdampingan (Split-Screen)</span>
           </button>
 
-          {/* 3. TAB SWITCHER */}
-          <div className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-medium">
+          {/* 3. TAB SWITCHER (6 Tab Analisis Termasuk 2 Inovasi Utama) */}
+          <div className="grid grid-cols-3 gap-1 bg-slate-100 p-1 rounded-xl text-[11px] font-medium">
             <button
               onClick={() => p.setInspectorTab('diff')}
-              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer ${
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer ${
                 p.inspectorTab === 'diff'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
@@ -278,20 +295,40 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             </button>
             <button
               onClick={() => p.setInspectorTab('affected_list')}
-              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
                 p.inspectorTab === 'affected_list'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
               <span>Perubahan</span>
-              <span className="w-3.5 h-3.5 rounded-full bg-red-100 text-[#94191C] text-[9.5px] flex items-center justify-center font-bold">
+              <span className="w-3.5 h-3.5 rounded-full bg-red-100 text-[#94191C] text-[9px] flex items-center justify-center font-bold">
                 {p.operations.length}
               </span>
             </button>
             <button
+              onClick={() => p.setInspectorTab('internasional')}
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+                p.inspectorTab === 'internasional'
+                  ? 'bg-white text-[#94191C] font-bold shadow-2xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <span>🌐 Int'l</span>
+            </button>
+            <button
+              onClick={() => p.setInspectorTab('risalah')}
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+                p.inspectorTab === 'risalah'
+                  ? 'bg-white text-[#94191C] font-bold shadow-2xs'
+                  : 'text-slate-600 hover:text-slate-900'
+              }`}
+            >
+              <span>🏛️ Risalah/NA</span>
+            </button>
+            <button
               onClick={() => p.setInspectorTab('relasi')}
-              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer ${
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer ${
                 p.inspectorTab === 'relasi'
                   ? 'bg-white text-slate-900 font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
@@ -301,7 +338,7 @@ export default function InspectorPanel(p: InspectorPanelProps) {
             </button>
             <button
               onClick={() => p.setInspectorTab('catatan')}
-              className={`flex-1 py-1.5 px-1.5 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
+              className={`py-1.5 px-1 rounded-lg text-center transition-all cursor-pointer flex items-center justify-center gap-1 ${
                 p.inspectorTab === 'catatan'
                   ? 'bg-white text-[#94191C] font-bold shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
@@ -313,9 +350,7 @@ export default function InspectorPanel(p: InspectorPanelProps) {
           </div>
 
           <p className="text-[10px] leading-relaxed text-slate-500 bg-slate-50 border border-slate-100 rounded-lg px-2.5 py-1.5">
-            Sumber data panel ini: <strong className="text-slate-700">Komparasi, Riwayat, dan daftar operasi</strong> dibaca
-            langsung dari database (tabel change_operations &amp; relasi). Tab <strong className="text-slate-700">Relasi</strong> akan
-            terisi oleh mesin relasi seiring bertambahnya dokumen terdigitasi.
+            Sumber data panel ini: <strong className="text-slate-700">Komparasi, Riwayat, Perjanjian Internasional (Kemlu), Naskah Akademik &amp; Risalah Terbuka MKRI</strong>. Tab <strong className="text-slate-700">Relasi</strong> terisi otomatis dari graf hukum.
           </p>
 
           {/* Isi Tab */}

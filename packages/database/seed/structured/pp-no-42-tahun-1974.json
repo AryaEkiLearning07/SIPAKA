@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-42-tahun-1974",
+ "preamble": {
+  "menimbang": [
+   "bahwa secara bertahap dipandang perlu memperbaiki penghasilan dari para penerima pensiun/tunjangan yang bersifat pensiun sesuai dengan kemampuan keuangan Negara;",
+   "bahwa berhubung dengan itu Peraturan Pemerintah Nomor 18 Tahun 1971 tentang Pemberian Uang Bantuan Pensiun kepada para Penerima Pensiun/ Tunjangan Yang Bersifat Pensiun (Lembaran Negara Tahun 1971 Nomor 23) sebagaimana telah beberapa kali ditambah dan diubah terakhir dengan Peraturan Pemerintah Nomor 13 Tahun 1974 (Lembaran Negara Tahun 1974 Nomor 16, Tambahan Lembaran Negara Nomor 3029) perlu ditin jau kembali;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-42-tahun-1974",
+   "detailsId": "67969",
+   "judul": "PP No. 42 Tahun 1974 tentang Perubahan Dan Tambahan Atas Peraturan Pemerintah Nomor 13 Tahun 1974 Tentang Pemberian Uang Bantuan Pensiun Kepada Para Penerima Pensiun/Tunjangan Yang Bersifat Pensiun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58335/PP%20NO%2042%20TH%201974.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:15.077450+00:00"
+  },
+  "sha256": "8791b9b95c10972452b2e07c32b37dc992b630bf8b9d5d9120c15a32ffbf7577",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-42-tahun-1974/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-42-tahun-1974/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Di atas penghasilan yang berhak diterima oleh penerima pensiun/ tunjangan yang bersifat pensiun/tunjangan penghargaan menurut peraturan pensiun yang berlaku bagi masing-masing, kepadanya diberikan tiap bulan uang bantuan pensiun sebesar 270% (dua ratus tujuh puluh perseratus) dari penghasilan itu. yang terendah sekurang-kurangnya Rp.4.000,- (empat ribu rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-42-tahun-1974/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Jumlah penghasilan setelah ditambah uang bantuan pensiun yang dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-42-tahun-1974/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Jumlah penghasilan baru yang setelah ditambah menurut ketentuan ayat (1) dibulatkan menjadi lima puluhan dan ratusan rupiah. Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1975. Agar … Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta, pada tanggal 10 Desember 1974 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 10 Desember 1974 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 60",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

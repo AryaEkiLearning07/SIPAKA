@@ -1,0 +1,1368 @@
+{
+ "slug": "pp-no-20-tahun-1990",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-20-tahun-1990",
+   "detailsId": "60494",
+   "judul": "PP No. 20 Tahun 1990 tentang Pengendalian Pencemaran Air - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/50317/PP%20NO%2020%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:40:31.728340+00:00"
+  },
+  "sha256": "c5dc51be6ea422d893fb38268deac56dcd4b3a771217999bd8bb8ac9f764b71d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 43,
+  "ayat_angka": 64,
+  "huruf": 25
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEMERINTAH REPUBLIK INDONESIA TENTANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Air adalah semua air yang terdapat di dalam dan atau berasal dari sumber air, dan terdapat di atas permukaan tanah, tidak termasuk dalam pengertian ini adalah air yang terdapat di bawah permukaan tanah dan air laut;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pencemaran air adalah masuknya atau dimasukkannya makhluk hidup, zat, energi, dan atau komponen lain ke dalam air oleh kegiatan manusia, sehingga kualitas air turun sampai ketingkat tertentu yang menyebabkan air tidak berfungsi lagi sesuai dengan peruntukkannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pengendalian adalah upaya pencegahan dan atau penanggulangan dan atau pemulihan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Baku mutu air adalah batas atau kadar makhluk hidup, zat, energi, atau komponen lain yang ada atau harus ada dan atau unsur pencemar yang ditenggang adanya dalam air pada sumber air tertentu sesuai dengan peruntukannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Beban pencemaran adalah jumlah suatu parameter pencemaran yang terkandung dalam sejumlah air atau limbah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Daya tampung beban pencemaran adalah kemampuan air pada sumber air menerima beban pencemaran tanpa mengakibatkan turunnya kualitas air sehingga melewati baku mutu air yang ditetapkan sesuai dengan peruntukannya; limbah",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Baku mutu limbah cair adalah batas kadar dan jumlah unsur pencemar yang ditenggang adanya dalam limbah cair untuk dibuang dari suatu jenis kegiatan tertentu;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Menteri adalah Menteri yang ditugasi mengelola lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "INVENTARISASI KUALITAS DAN KUANTITAS AIR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Gubernur menunjuk instansi teknis di daerah untuk melakukan inventarisasi kualitas dan kuantitas air untuk kepentingan pengendalian pencemaran air.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur Kepala Daerah Tingkat I, menetapkan prioritas pelaksanaan inventarisasi kualitas dan kuantitas air,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila sumber air berada atau mengalir melalui atau merupakan batas dari dua atau lebih Propinsi Daerah Tingkat I, prioritas sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Gubernur Kepala Daerah Tingkat I di bawah koordinasi Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Data kualitas dan kuantitas air disusun dan didokumentasikan jawab di bidang teknis yang bertanggung istansi pada pengelolaan lingkungan hidup di daerah. diolah oleh instansi teknis yang bersangkutan dan laporannya disampaikan kepada Menteri dan Gubernur Kepala Daerah Tingkat I yang bersangkutan, sekurang-kurangnya sekali dalam setahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Data kualitas dan kuantitas air sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur Kepala sumber-sumber pencemaran air. Daerah Tingkat I mengidentifikasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Berdasarkan hasil identifikasi sebagaimana dimaksud dalam ayat (1), Gubernur Kepala Daerah Tingkat I yang bersangkutan menetapkan tindak lanjut pengendaliannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Data kualitas dan kuantitas air sebagaimana dimaksud dalam Pasal 4 dipakai sebagai: a. dasar pertimbangan penetapan peruntukan air dan baku mutu air pada sumber air yang bersangkutan; b. dasar perhitungan daya tampung beban pencemaran air pada sumber air yang telah ditetapkan peruntukannya; c. dasar penilaian tingkat pencemaran air.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENGGOLONGAN AIR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggolongan air menurut peruntukannya ditetapkan sebagai berikut : Golongan A : Air yang dapat digunakan sebagai air minum terlebih tanpa pengolahan langsung secara dahulu; Golongan B : Air yang dapat digunakan sebagai air baku air minum; Golongan C : Air yang dapat digunakan untuk keperluan perikanan dan peternakan; Golongan D : Air yang dapat digunakan untuk keperluan pertanian, dan dapat dimanfaatkan untuk usaha perkotaan, industri, pembangkit listrik tenaga air.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dengan Peraturan Pemerintah dapat ditetapkan perluasan pemanfaatan air di luar penggolongan air sebagaimana yang telah ditetapkan dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketetapan tentang baku mutu air untuk golongan air sebagaimana dimaksud dalam Pasal 7 ditetapkan sebagaimana tercantum dalam lampiran Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dengan Peraturan Pemerintah dapat ditetapkan penambahan parameter dan baku mutu untuk parameter tersebut dalam baku mutu air sebagaimana dimaksud dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penilaian kualitas air yang menyangkut parameter yang belum tercantum dalam baku mutu air sebagaimana dimaksud dalam ayat (1) dilakukan dengan merujuk kepada fungsi dan guna air serta atau kepada ilmu pengetahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Metoda analisis untuk setiap parameter baku mutu air dan baku mutu limbah cair ditetapkan oleh Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur Kepala Daerah Tingkat I menetapkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Peruntukan air sesuai dengan penggolongan air sebagaimana dimaksud dalam Pasal 7 ayat (1), kecuali kemudian ditentukan lain oleh Menteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "baku mutu air untuk peruntukan air menurut penggolongan sebagaimana dimaksud dalam huruf a.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peruntukan air dan baku mutu air yang berada atau mengalir melalui atau merupakan batas dari dua atau lebih Propinsi Daerah Tingkat I ditetapkan oleh para Gubernur Kepala Daerah Tingkat I yang bersangkutan di bawah koordinasi Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peruntukan air dan baku mutu air pada sumber air yang berada di bawah wewenang pengelola pengelolaan sebagaimana dimaksud dalam Undang-undang Nomor 11 Tahun tentang Pengairan ditetapkan oleh Menteri yang bertanggung setelah berkonsultasi dengan Menteri. pengairan jawab bidang badan suatu di",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Apabila kualitas air lebih rendah dari kualitas air menurut golongan yang telah ditetapkan, Gubernur Kepala Daerah Tingkat I menetapkan program peningkatan kualitas air.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "air kualitas Apabila kualitas menurut penggolongannya sesuai yang telah ditetapkan, Gubernur Kepala Daerah Tingkat I menetapkan program peningkatan penggolongan peruntukannya. telah memenuhi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "UPAYA PENGENDALIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengendalian pencemaran air di daerah dilakukan oleh Gubernur Kepala Daerah Tingkat I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengendalian pencemaran air pada sumber air yang berada di atau mengalir melalui wilayah lebih dari satu Propinsi Daerah Tingkat I dilakukan oleh Para Gubernur Kepala Daerah Tingkat I yang bersangkutan setelah berkonsultasi dengan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Gubernur Kepala Daerah Tingkat I menentukan daya tampung beban pencemaran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri setelah berkonsultasi dengan Menteri lain dan atau yang pemerintah Pimpinan bersangkutan menetapkan baku mutu limbah cair. non-departemen lembaga",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melindungi kualitas air, Gubernur Kepala Daerah Tingkat I setelah berkonsultasi dengan Menteri dapat menetapkan baku mutu limbah cair lebih ketat dari baku mutu limbah cair sebagaimana dimaksud dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Baku mutu air, daya tampung beban pencemaran dan baku mutu limbah cair ditinjau secara berkala sekurang-kurangnya sekali dalam lima tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang atau badan yang membuang limbah cair wajib menaati baku mutu limbah cair sebagaimana ditentukan dalam izin pembuangan limbah cair yang ditetapkan baginya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang atau badan yang membuang limbah cair sebagaimana ditetapkan dalam izin pembuangannya, dilarang melakukan pengenceran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Pembuangan limbah dengan kandungan bahan radioaktif diatur oleh Pimpinan lembaga pemerintah yang bertanggung jawab di bidang tenaga atom setelah berkonsultasi dengan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pembuangan limbah cair ke tanah dapat dilakukan dengan izin Menteri berdasarkan hasil penelitian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Penanggung jawab kegiatan wajib membuat salutan pembuangan limbah cair sedemikian rupa, sehingga memudahkan pengambilan contoh dan pengukuran debit limbah cair di luar areal kegiatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembuangan limbah cair ke dalam air dikenakan pembayaran retribusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara dan jumlah retribusi ditetapkan dengan Peraturan Daerah Tingkat I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Dalam hal Pemerintah Daerah menyediakan tempat dan atau sarana pembuangan dan pengolahan limbah cair, Pemerintah Daerah dapat memungut retribusi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Upaya pengendalian pencemaran air yang disebabkan oleh masuknya limbah cair atau bahan lain tidak melalui sarana yang dibuat khusus untuk itu dan atau yang bukan berupa sumber yang tertentu titik masuknya ke dalam air pada sumber air diatur oleh Menteri atau Pimpinan lembaga pemerintah non departemen yang bersangkutan setelah berkonsultasi dengan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Gubernur Kepala Daerah Tingkat I menetapkan dan mengumumkan sumber air dan salurannya yang dinilai tercemar dan membahayakan keselamatan umum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PERIZINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Baku mutu limbah cair yang dizinkan dibuang ke dalam air oleh suatu I kegiatan ditetapkan oleh Gubernur Kepala Daerah Tingkat berdasarkan baku mutu limbah cair sebagaimana dimaksud dalam Pasal 15.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembuangan limbah cair ke dalam air dilakukan dengan izin yang diberikan oleh Gubernur Kepala Daerah Tingkat 1. (2) (3) Izin sebagaimana dimaksud dalam ayat (1) dicantumkan dalam izin Ordonansi Gangguan. lzin pembuangan limbah cair yang dicantumkan dalam izin Ordonansi Gangguan sebagaimana dimaksud dalam ayat (2) harus menyebutkan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jenis produksi, volume produksi dan kebutuhan air untuk produksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kualitas dan kuantitas limbah cair dan atau bahan lain yang diizinkan untuk dibuang ke dalam air serta frekuensi pembuangannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tata letak saluran pembuangan limbah cair;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sumber dari air yang digunakan dalam proses produksi atau untuk menyelenggarakan kegiatannya, serta jumlah dan kualitas air tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "larangan untuk melakukan pengenceran limbah cair,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-26/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "sarana dan prosedur penanggulangan keadaan darurat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembuangan limbah rumah tangga diatur dengan Peraturan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembuangan limbah cair ke laut diatur dengan peraturan tersendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kegiatan yang wajib membuat analisis mengenai dampak lingkungan berdasarkan Peraturan Pemerintah Nomor 29 Tahun 1986 tentang Analisis Mengenai Dampak Lingkungan, maka persyaratan dan kewajiban yang tercantum dalam rencana pengelolaan lingkungan dan rencana pemantauan lingkungan bagi kegiatan tersebut wajib dicamtumkan sebagai syarat dan kewajiban dalam izin Ordonansi Gangguan bagi kegiatan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila analisis mengenai dampak lingkungan bagi suatu kegiatan mensyaratkan baku mutu limbah cair yang lebih ketat dari baku mutu limbah cair sebagaimana dimaksudkan dalam Pasal 15 maka untuk kegiatan tersebut ditetapkan baku mutu limbah cair sebagaimana disyaratkan oleh Analisis Mengenai Dampak Lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PENGAWASAN DAN PEMANTAUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang mengetahui atau menduga terjadinya pencemaran air, berhak melaporkan kepada :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Gubernur Kepala Daerah Tingkat I atau aparat Pemerintah Daerah terdekat, atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kepala Kepolisian Resort atau aparat Kepolisian terdekat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aparat Pemerintah Daerah terdekat yang menerima laporan tentang terjadinya pencemaran air wajib segera meneruskan kepada Gubernur Kepala Daerah Tingkat I yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aparat Kepolisian terdekat yang menerima laporan tentang terjadinya pencemaran air wajib segera melaporkan kepada Kepala Kepolisian Resort yang bersangkutan untuk keperluan penyidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Gubernur Kepala Daerah Tingkat I segera melakukan penelitian tentang laporan terjadinya pencemaran air.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Apabila hasil penelitian sebagaimana dimaksud dalam ayat (4) membuktikan terjadinya pencemaran air, Gubernur Kepala Daerah Tingkat I segera melakukan atau memerintahkan dilakukannya tindakan penanggulangan dan atau pencegahan meluasnya pencemaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan kualitas air dilakukan oleh Gubernur Kepala Daerah Tingkat I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas pengawasan sebagaimana dimaksud dalam ayat (1) Gubernur Kepala Daerah Tingkat I dapat menunjuk sebuah instansi di daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tugas pengawasan sebagaimana dimaksud dalam ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemantauan dan evaluasi baku mutu limbah cair pada tempat yang ditentukan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemantauan dan evaluasi perubahan kualitas air;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengumpulan dan evaluasi data yang berhubungan dengan pencemaran air;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "evaluasi laporan tentang pembuangan limbah cair dan analisisnya yang dilakukan oleh penanggungjawab kegiatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaksanaan pengawasan dilakukan sewaktu-waktu apabila dipandang perlu. secara berkala dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Apabila hasil pengawasan menunjukkan terjadinya pencemaran air, Gubernur Kepala Daerah Tingkat I memerintahkan dilakukannya penanggulangan dan atau pencegahan meluasnya pencemaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Gubernur Kepala Daerah Tingkat I melaporkan hasil pengawasan kualitas air kepada Menteri dan Menteri lain yang terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-30/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Gubernur Kepala Daerah Tingkat I menetapkan tata laksana pengawasan di daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka melaksanakan tugasnya, petugas dari instansi sebagaimana dimaksud dalam Pasal 30 ayat (2) berwenang :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memasuki lingkungan sumber pencemaran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memeriksa bekerjanya peralatan pengolahan limbah dan atau peralatan lain yang diperlukan untuk mencegah pencemaran lingkungan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengambil contoh limbah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "meminta keterangan yang diperlukan untuk mengetahui kualitas dan kuantitas limbah yang dibuang, termasuk proses pengolahannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap penanggungjawab kegiatan wajib :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengizinkan petugas sebagaimana dimaksud dalam ayat (1) lingkungan kerjanya dan membantu untuk memasuki terlaksananya tugas petugas tersebut;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-31/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan keterangan dengan benar, baik secara lisan maupun tertulis, apabila hal itu diminta.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap penanggungjawab kegiatan wajib menyampaikan kepada Gubernur Kepala Daerah Tingkat I :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-32/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "laporan tentang pembuangan limbah cair dan hasil analisisnya sekurang-kurangnya sekali dalam 6 (enam) bulan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-32/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pernyataan bahwa laporan yang telah disampaikan adalah benar mewakili kualitas limbah cair yang sebenarnya dibuang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman dan tata cara pelaporan ditetapkan oleh Gubernur Kepala Daerah Tingkat I atau instansi yang ditunjuk untuk itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Apabila pembuangan limbah cair melanggar ketentuan baku mutu limbah cair yang telah ditetapkan dalam Pasal 15, Gubernur Kepala Daerah Tingkat I mengeluarkan surat peringatan kepada penanggungjawab kegiatan untuk memenuhi persyaratan baku mutu limbah cair dalam waktu yang ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila pada akhir waktu yang ditetapkan sebagaimana dimaksud dalam ayat (1), pembuangan limbah cair belum mencapai persyaratan baku mutu limbah maka Gubernur Kepala Daerah Tingkat I mencabut izin pembuangan limbah cair.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri menunjuk laboratorium tingkat pusat dalam rangka pengendalian pencemaran air.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Gubernur Kepala Daerah Tingkat I menunjuk laboratorium di daerah untuk melakukan analisis kualitas air dan kualitas limbah cair dalam rangka pengawasan dan pemantauan pencemaran air.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMBIAYAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembiayaan inventarisasi kualitas dan kuantitas air sebagaimana dimaksud dalam Pasal 2 dibebankan pada anggaran daerah yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembiayaan pengawasan pencemaran air dibebankan pada anggaran daerah masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Biaya pencegahan, penanggulangan dan pemulihan pencemaran air akibat suatu kegiatan dibebankan kepada penanggungjawab kegiatan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila kegiatan penanggungjawab lalai melaksanakan penanggulangan pencemaran air sebagaimana dimaksud dalam ayat (1) atau melaksanakan tidak sebagaimana mestinya, maka Gubernur Kepala Daerah Tingkat I dapat melakukan atau memerintahkan untuk melakukan penanggulangan pencemaran air tersebut atas beban pembiayaan penanggungjawab kegiatan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila dipandang perlu Bupati/Walikotamadya Kepala Daerah Tingkat II atas nama Gubernur Kepala Daerah Tingkat I dapat mengambil tindakan sebagaimana dimaksud dalam ayat (2) atas beban yang bersangkutan. penanggungjawab pembiayaan kegiatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "SANKSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barang siapa melanggar ketentuan dalam Pasal 17, Pasal 19, Pasal 20, Pasal 32 Peraturan Pemerintah ini dikenakan tindakan administratif oleh Bupati/Walikotamadya Kepala Daerah Tingkat II.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tindakan administratif sebagaimana dimaksud dalam ayat (1) tidak menutup kemungkinan dikenakan tindakan hukum lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Apabila untuk suatu jenis kegiatan belum ditentukan baku mutu limbah cairnya sebagaimana dimaksud dalam Pasal 15, maka baku mutu limbah cair yang boleh dibuang ke dalam air oleh kegiatan tersebut ditetapkan oleh Gubernur Kepala daerah Tingkat I setelah berkonsultasi dengan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Apabila pada saat diundangkannya Peraturan Pemerintah ini telah ditetapkan baku mutu limbah cair yang dibuang ke dalam air oleh suatu kegiatan lebih ketat dibandingkan dengan perhitungan menurut baku mutu limbah cair sebagaimana dimaksud dalam Pasal 15, maka untuk kegiatan tersebut tetap berlaku baku mutu limbah cair yang telah ditetapkan itu.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "lebih Apabila pada saat diundangkannya Peraturan Pemerintah ini telah ditetapkan baku mutu limbah cair yang dibuang ke dalam air oleh suatu kegiatan longgar dibandingkan dengan perhitungan menurut baku mutu limbah cair sebagaimana dimaksud dalam Pasal 15, maka baku mutu limbah cair kegiatan tersebut wajib disesuaikan dengan baku mutu limbah cair sebagaimana dimaksud dengan Pasal 15 dalam jangka waktu selambat-lambatnya satu tahun terhitung sejak diundangkannya Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Bagi kegiatan yang sudah beroperasi maka dalam waktu satu tahun setelah dikeluarkannya Peraturan Pemerintah ini, harus sudah memperoleh izin pembuangan limbah cair dari Gubernur Kepala Daerah Tingkat I.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Apabila pada saat diundangkannya Peraturan Pemerintah ini sebagaimana air menurut peruntukkannya penggolongan dimaksud dalam Pasal 7 Peraturan Pemerintah ini belum ditetapkan, maka golongan air pada badan air tersebut dinyatakan sebagai air golongan B sampai ada penetapan lebih lanjut oleh Gubernur Kepala Daerah Tingkat I sesuai dengan ketentuan Pasal 10 Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-20-tahun-1990/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Air pada badan air sebagaimana dimaksud dalam ayat (1) Pasal ini ditetapkan sebagai golongan A, apabila :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-42/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memenuhi kualitas air golongan A sebagaimana dimaksud dalam Pasal 7 Peraturan Pemerintah ini, atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-42/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berada di kawasan hutan lindung, atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-20-tahun-1990/pasal-42/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "berada di sekitar sumber mata air.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-20-tahun-1990/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1990/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 5 Juni 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 5 Juni 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

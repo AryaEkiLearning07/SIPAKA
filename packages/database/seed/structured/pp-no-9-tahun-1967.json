@@ -1,0 +1,45 @@
+{
+ "slug": "pp-no-9-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "untuk menyederhanakan struktur nilai Rupiah terhadap valuta asing, perlu ditinjau kembali penetapan nilai lawan rupiah."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-9-tahun-1967",
+   "detailsId": "70759",
+   "judul": "PP No. 9 Tahun 1967 tentang Penarikan Kembali Nilai Lawan Rupiah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61222/pp%20no%20009%20tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-20-tahun-1965",
+    "perpres-no-13-tahun-1964",
+    "pp-no-43-tahun-1959"
+   ],
+   "scrapedAt": "2026-10-06T07:38:59.295570+00:00"
+  },
+  "sha256": "f1ed2f912796f78c84923209eb89398b010b3735cf6e6519500b381d5eb40377",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

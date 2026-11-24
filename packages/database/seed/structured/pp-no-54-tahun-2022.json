@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-54-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "un 2016 tentang Perubahan atas Peraturan Pemerintah Nomor 44 Tahun 2005 tentang Tata Cara Penyertaan dan Penatausahaan Modal Negara pada Badan Usaha Milik Negara dan Perseroan Terbatas (Lembaran Negara Republik Indonesia Tahun 2016 Nomor 325, Tambahan Lembaran Negara Republik Indonesia Nomor 6006); MEMUTUSI(AN:"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-54-tahun-2022",
+   "detailsId": "232980",
+   "judul": "PP No. 54 Tahun 2022 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Perusahaan Umum (Perum) Pembangunan Perumahan Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/280236/PP%20Nomor%2054%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:29:52.435200+00:00"
+  },
+  "sha256": "8809c31e47ef246ae505e7bca03e2a2070c6bcac5df8c3278ce101dffb58fcf4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-54-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal Perusahaan Umum (Perum) Pembangunan Perumahan Nasional yang didirikan berdasarkan Peraturan Pemerintah Nomor 29 Tahun 1974 tentang Perusahaan Umum \"Pembangunan Perrrmahan Nasional\", yang selanjutnya diatur kembali terakhir dengan Peraturan Pemerintah Nomor 83 Tahun 2015 tentang Perusahaan Umum (Perum) Pembangunan Perumahan Nasional.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-2022/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-54-tahun-2022/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp1.568.000.000.000,00 (satu triliun lima ratus enam puluh delapan miliar rrpiah). (21 Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2022 sebagaimana ditetapkan kembali dalam Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2022.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-2022/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar. . . SK No 160028 A REPUBUK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 12 Desember 2022 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 12 Desember 2022 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 230 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan Hukum, Djaman SK No 160029 A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

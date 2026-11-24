@@ -1,0 +1,3071 @@
+{
+ "slug": "perpres-no-47-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 11 dan Pasal 16 Undang- Undang Nomor 39 Tahun 2008 tentang Kementerian Negara dan dalam rangka kelancaran penyelenggaraan pemerintahan negara yang berdaya guna dan berhasil guna, dipandang perlu menetapkan Peraturan Presiden tentang Pembentukan dan Organisasi Kementerian Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-47-tahun-2009",
+   "detailsId": "42320",
+   "judul": "PERPRES No. 47 Tahun 2009 tentang Pembentukan dan Organisasi Kementerian Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70285/PERPRES%20No.47%20TH%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-94-tahun-2006",
+    "perpres-no-9-tahun-2005-kedudukan-tugas-fungsi-susunan-organisasi-dan-tata-kerja",
+    "perpres-no-62-tahun-2005"
+   ],
+   "scrapedAt": "2026-10-06T06:14:36.518570+00:00"
+  },
+  "sha256": "6d6a88db9219de235c5712305a661d0763dd52738ad120a83f3408827b0ae5c3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 107,
+  "ayat_angka": 184,
+  "huruf": 26
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEMBENTUKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dengan Peraturan Presiden ini dibentuk Kementerian Negara, yang selanjutnya disebut dengan Kementerian sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian Koordinator Bidang Politik, Hukum, dan Keamanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kementerian Koordinator Bidang Perekonomian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kementerian Koordinator Bidang Kesejahteraan Rakyat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kementerian Sekretariat Negara;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kementerian Dalam Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kementerian Luar Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kementerian Pertahanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Kementerian Hukum dan Hak Asasi Manusia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kementerian Keuangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kementerian Energi dan Sumber Daya Mineral;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Kementerian Perindustrian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Kementerian Perdagangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Kementerian Pertanian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Kementerian Kehutanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Kementerian Perhubungan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kementerian Kelautan dan Perikanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Kementerian ... Kementerian Tenaga Kerja dan Transmigrasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Kementerian Pekerjaan Umum;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Kementerian Kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Kementerian Pendidikan Nasional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Kementerian Sosial;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Kementerian Agama;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Kementerian Kebudayaan dan Pariwisata;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Kementerian Komunikasi dan Informatika;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Kementerian Riset dan Teknologi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Kementerian Lingkungan Hidup;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-28",
+       "type": "ANGKA",
+       "orderIndex": 28,
+       "label": "Angka 28",
+       "content": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-29",
+       "type": "ANGKA",
+       "orderIndex": 29,
+       "label": "Angka 29",
+       "content": "Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-30",
+       "type": "ANGKA",
+       "orderIndex": 30,
+       "label": "Angka 30",
+       "content": "Kementerian Pembangunan Daerah Tertinggal;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-31",
+       "type": "ANGKA",
+       "orderIndex": 31,
+       "label": "Angka 31",
+       "content": "Kementerian Perencanaan Pembangunan Nasional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-32",
+       "type": "ANGKA",
+       "orderIndex": 32,
+       "label": "Angka 32",
+       "content": "Kementerian Badan Usaha Milik Negara;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-33",
+       "type": "ANGKA",
+       "orderIndex": 33,
+       "label": "Angka 33",
+       "content": "Kementerian Perumahan Rakyat; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-1/angka-34",
+       "type": "ANGKA",
+       "orderIndex": 34,
+       "label": "Angka 34",
+       "content": "Kementerian Pemuda dan Olah Raga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Kementerian Koordinator melakukan sinkronisasi dan koordinasi urusan kementerian. Pasal 3 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Kecuali Kementerian Koordinator, setiap Kementerian membidangi urusan tertentu dalam Pemerintahan yang terdiri atas : a. urusan pemerintahan yang nomenklatur Kementeriannya secara tegas disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; b. urusan pemerintahan yang ruang lingkupnya disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan c. urusan pemerintahan dalam rangka penajaman, koordinasi, dan sinkronisasi program pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEMENTERIAN KOORDINATOR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Kementerian Koordinator terdiri atas :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-4/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian Koordinator Bidang Politik, Hukum, dan Keamanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-4/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kementerian Koordinator Bidang Perekonomian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-4/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kementerian Koordinator Bidang Kesejahteraan Rakyat. Bagian ... Bagian Kedua Kedudukan, Tugas, dan Fungsi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Kementerian Koordinator berada di bawah dan bertanggung jawab kepada Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Kementerian Koordinator mempunyai tugas membantu Presiden dalam menyinkronkan dan mengkoordinasikan perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 6, Kementerian Koordinator menyelenggarakan fungsi : a. sinkronisasi perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya; b. koordinasi perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya; c. pengendalian penyelenggaraan urusan kementerian sebagaimana dimaksud pada huruf a dan huruf b; d. pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; e. f. pengawasan atas pelaksanaan tugasnya; dan pelaksanaan tugas tertentu yang diberikan oleh Presiden. Bagian ... Bagian Ketiga Susunan Organisasi Paragraf 1 Umum",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Susunan organisasi Kementerian Koordinator yang menyelenggarakan fungsi sebagaimana dimaksud dalam Pasal 7 terdiri atas unsur : a. b. c. d. pemimpin, yaitu Menteri Koordinator; pembantu pemimpin, yaitu sekretariat kementerian koordinator; pelaksana, yaitu deputi kementerian koordinator; dan pengawas, yaitu inspektorat. Paragraf 2 Unsur Pemimpin",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Menteri Koordinator mempunyai tugas memimpin Kementerian Koordinator sesuai dengan bidang tugas Kementerian Koordinator. Paragraf 3 Unsur Pembantu Pemimpin",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian Koordinator berada di bawah dan bertanggung jawab kepada Menteri Koordinator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Kementerian Koordinator dipimpin oleh Sekretaris Kementerian Koordinator. Pasal 11 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Sekretariat Kementerian Koordinator mempunyai tugas melaksanakan koordinasi pelaksanaan tugas, pembinaan dan pemberian dukungan administrasi kepada seluruh unit organisasi di lingkungan Kementerian Koordinator.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 11, Sekretariat Kementerian Koordinator menyelenggarakan fungsi : a. b. koordinasi kegiatan Kementerian Koordinator; koordinasi dan penyusunan rencana dan program Kementerian Koordinator; c. pembinaan dan pemberian dukungan administrasi yang meliputi ketatausahaan, kepegawaian, keuangan, kerumahtanggaan, arsip dan dokumentasi Kementerian Koordinator; d. pembinaan dan penyelenggaraan organisasi dan tata laksana, kerja sama, dan hubungan masyarakat; e. koordinasi dan penyusunan peraturan perundang-undangan dan bantuan hukum; f. g. penyelenggaraan pengelolaan barang milik/kekayaan negara; dan pelaksanaan tugas lain yang diberikan oleh Menteri Koordinator.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian Koordinator terdiri atas paling banyak 3 (tiga) Biro.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biro terdiri atas paling banyak 5 (lima) Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Khusus Bagian yang menangani urusan tata usaha pimpinan terdiri atas sejumlah Subbagian sesuai kebutuhan. Paragraf ... Paragraf 4 Unsur Pelaksana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Kementerian Koordinator berada di bawah dan bertanggung jawab kepada Menteri Koordinator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Kementerian Koordinator dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Kementerian Koordinator mempunyai tugas menyiapkan sinkronisasi dan koordinasi perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Deputi Kementerian Koordinator secara administratif dikoordinasikan oleh Sekretaris Kementerian Koordinator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 15 ayat (1), Deputi Kementerian Koordinator menyelenggarakan fungsi : a. sinkronisasi perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya; b. penyiapan koordinasi perencanaan, penyusunan, dan pelaksanaan kebijakan di bidangnya; c. pemantauan, analisis, evaluasi, dan pelaporan tentang masalah atau kegiatan sesuai dengan bidangnya; dan d. pelaksanaan tugas lain yang diberikan oleh Menteri Koordinator sesuai dengan bidangnya. Pasal 17 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "(1) Jumlah Deputi Kementerian Koordinator ditentukan sesuai dengan kebutuhan dan beban kerja.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Kementerian Koordinator terdiri atas paling banyak 5 (lima) Asisten Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Asisten Deputi terdiri atas paling banyak 4 (empat) Bidang, dan masing-masing Bidang terdiri atas 2 (dua) Subbidang. Paragraf 5 Unsur Pengawas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "(1) Inspektorat berada di bawah dan bertanggung jawab kepada Menteri Koordinator melalui Sekretaris Kementerian Koordinator. (2) Inspektorat dipimpin oleh Inspektur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "(1) Inspektorat mempunyai tugas melaksanakan pengawasan intern di lingkungan Kementerian Koordinator.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Inspektorat secara administratif dikoordinasikan oleh Sekretaris Kementerian Koordinator. Pasal 20 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 19 ayat (1), Inspektorat menyelenggarakan fungsi: a. b. penyiapan perumusan kebijakan pengawasan; pelaksanaan pengawasan intern terhadap kinerja dan keuangan melalui audit, reviu, evaluasi, pemantauan, dan kegiatan pengawasan lainnya; c. pelaksanaan pengawasan untuk tujuan tertentu atas penugasan Menteri Koordinator; d. e. penyusunan laporan hasil pengawasan; dan pelaksanaan administrasi Inspektorat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Inspektorat membawahkan 1 (satu) Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor. Paragraf 6 Staf Ahli",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri Koordinator dibantu oleh Staf Ahli, yang merupakan satu kesatuan dalam susunan organisasi Kementerian Koordinator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri Koordinator dibantu oleh paling banyak 7 (tujuh) Staf Ahli.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Staf ... Staf Ahli berada di bawah dan bertanggung jawab kepada Menteri Koordinator dan secara administratif dikoordinasikan oleh Sekretaris Kementerian Koordinator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-22/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Staf Ahli mempunyai tugas memberikan telaahan kepada Menteri Koordinator mengenai masalah tertentu sesuai bidang keahliannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KEMENTERIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Kementerian yang menangani Urusan Pemerintahan Yang Nomenklatur Kementeriannya Secara Tegas Disebutkan Dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan yang Ruang Lingkupnya Disebutkan Dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sebagaimana dimaksud dalam Pasal 3 huruf a dan huruf b terdiri atas :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian Dalam Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kementerian Luar Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kementerian Pertahanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kementerian ... Kementerian Hukum dan Hak Asasi Manusia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kementerian Keuangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kementerian Energi dan Sumber Daya Mineral;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kementerian Perindustrian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Kementerian Perdagangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kementerian Pertanian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kementerian Kehutanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Kementerian Perhubungan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Kementerian Kelautan dan Perikanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Kementerian Tenaga Kerja dan Transmigrasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Kementerian Pekerjaan Umum;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Kementerian Kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kementerian Pendidikan Nasional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Kementerian Sosial;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Kementerian Agama;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Kementerian Kebudayaan dan Pariwisata; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-23/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Kementerian Komunikasi dan Informatika. Paragraf 2 Kedudukan, Tugas, dan Fungsi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Kementerian sebagaimana dimaksud dalam Pasal 23 berada di bawah dan bertanggung jawab kepada Presiden. Pasal 25 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Kementerian sebagaimana dimaksud dalam Pasal 23 mempunyai tugas menyelenggarakan urusan tertentu dalam pemerintahan untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 25, Kementerian sebagaimana dimaksud dalam Pasal 23 angka 1, angka 2, dan angka 3, menyelenggarakan fungsi : a. perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya; b. pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; c. d. pengawasan atas pelaksanaan tugas di bidangnya; dan pelaksanaan kegiatan teknis dari pusat sampai ke daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 25, Kementerian sebagaimana dimaksud dalam Pasal 23 angka 4 sampai dengan angka 20, menyelenggarakan fungsi : a. perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya; b. pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; c. d. pengawasan atas pelaksanaan tugas di bidangnya; pelaksanaan bimbingan teknis dan supervisi atas pelaksanaan urusan kementerian di daerah; dan e. pelaksanaan kegiatan teknis yang berskala nasional. Paragraf ... Paragraf 3 Susunan Organisasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Susunan organisasi Kementerian yang menyelenggarakan fungsi sebagaimana dimaksud dalam Pasal 26 ayat (1) terdiri atas unsur : a. b. c. d. e. f. pemimpin, yaitu Menteri; pembantu pemimpin, yaitu sekretariat jenderal; pelaksana, yaitu direktorat jenderal; pengawas, yaitu inspektorat jenderal; pendukung, yaitu badan dan/atau pusat; dan pelaksana tugas pokok di daerah dan/atau perwakilan luar negeri sesuai dengan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Susunan organisasi Kementerian yang menyelenggarakan fungsi sebagaimana dimaksud dalam Pasal 26 ayat (2) terdiri atas unsur : a. b. c. d. e. pemimpin, yaitu Menteri; pembantu pemimpin, yaitu sekretariat jenderal; pelaksana, yaitu direktorat jenderal; pengawas, yaitu inspektorat jenderal; dan pendukung, yaitu badan dan/atau pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kementerian Agama, Kementerian Hukum dan Hak Asasi Manusia, dan Kementerian Keuangan, selain memiliki unsur sebagaimana dimaksud pada ayat (2), juga memiliki unsur pelaksana tugas pokok di daerah. Paragraf 4 Unsur Pemimpin",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Menteri mempunyai tugas memimpin Kementerian sesuai dengan bidang tugas Kementerian. Paragraf ... Paragraf 5 Unsur Pembantu Pemimpin",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Jenderal berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Jenderal dipimpin oleh Sekretaris Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Sekretariat Jenderal mempunyai tugas melaksanakan koordinasi pelaksanaan tugas, pembinaan dan pemberian dukungan administrasi kepada seluruh unit organisasi di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 30, Sekretariat Jenderal menyelenggarakan fungsi: a. b. c. koordinasi kegiatan Kementerian; koordinasi dan penyusunan rencana dan program Kementerian; pembinaan dan pemberian dukungan administrasi yang meliputi ketatausahaan, kepegawaian, keuangan, kerumahtanggaan, arsip dan dokumentasi Kementerian; d. pembinaan dan penyelenggaraan organisasi dan tata laksana, kerja sama, dan hubungan masyarakat; e. koordinasi dan penyusunan peraturan perundang-undangan dan bantuan hukum; f. g. penyelenggaraan pengelolaan barang milik/kekayaan negara; dan pelaksanaan tugas lain yang diberikan oleh Menteri. Pasal 32 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Jenderal terdiri atas paling banyak 5 (lima) Biro.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Masing-masing Biro terdiri atas paling banyak 4 (empat) Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian. Paragraf 6 Unsur Pelaksana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktorat Jenderal berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktorat Jenderal dipimpin oleh Direktur Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Direktorat Jenderal mempunyai tugas merumuskan serta melaksanakan kebijakan dan standardisasi teknis di bidangnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 34, Direktorat Jenderal menyelenggarakan fungsi: a. b. c. d. e. perumusan kebijakan Kementerian di bidangnya; pelaksanaan kebijakan Kementerian di bidangnya; penyusunan norma, standar, prosedur, dan kriteria di bidangnya; pemberian bimbingan teknis dan evaluasi; dan pelaksanaan administrasi Direktorat Jenderal. Pasal 36 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "(1) Jumlah Direktorat Jenderal ditentukan sesuai dengan kebutuhan dan beban kerja.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktorat Jenderal terdiri atas Sekretariat Direktorat Jenderal dan paling banyak 5 (lima) Direktorat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sekretariat Direktorat Jenderal terdiri atas paling banyak 4 (empat) Bagian, dan Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Direktorat terdiri atas paling banyak 5 (lima) Subdirektorat dan 1 (satu) Subbagian Tata Usaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-36/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Subdirektorat terdiri atas 2 (dua) Seksi. Paragraf 7 Unsur Pengawas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "(1) Inspektorat Jenderal berada di bawah dan bertanggung jawab kepada Menteri. (2) Inspektorat Jenderal dipimpin oleh Inspektur Jenderal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Inspektorat Jenderal mempunyai tugas melaksanakan pengawasan intern di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 38, Inspektorat Jenderal menyelenggarakan fungsi : a. penyiapan ... a. b. penyiapan perumusan kebijakan pengawasan intern; pelaksanaan pengawasan intern terhadap kinerja dan keuangan melalui audit, reviu, evaluasi, pemantauan, dan kegiatan pengawasan lainnya; c. pelaksanaan pengawasan untuk tujuan tertentu atas penugasan Menteri; d. e. penyusunan laporan hasil pengawasan; dan pelaksanaan administrasi Inspektorat Jenderal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "(1) Inspektorat Jenderal terdiri atas Sekretariat Inspektorat Jenderal dan paling banyak 5 (lima) Inspektorat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Inspektorat Jenderal terdiri atas paling banyak 4 (empat) Bagian, dan Bagian terdiri atas 2 (dua) Subbagian. (3) Inspektorat terdiri atas 1 (satu) Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor. Paragraf 8 Unsur Pendukung",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan dipimpin oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pusat berada di bawah dan bertanggung jawab kepada Menteri melalui Sekretaris Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-41/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pusat dipimpin oleh Kepala Pusat. Pasal 42 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Badan dan/atau Pusat mempunyai tugas melaksanakan penelitian dan pengembangan di bidangnya dan/atau pengembangan sumber daya manusia dan/atau pengelolaan data dan informasi dan/atau kegiatan lain dalam rangka pemberian dukungan pemikiran dan rekomendasi, serta peningkatan kapasitas sumber daya di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 42, Badan dan/atau Pusat menyelenggarakan fungsi: a. b. c. penyusunan kebijakan teknis, rencana dan program di bidangnya; pelaksanaan tugas di bidangnya; pemantauan, evaluasi dan pelaporan pelaksanaan tugas di bidangnya; dan d. pelaksanaan administrasi Badan dan/atau Pusat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan terdiri atas Sekretariat Badan dan paling banyak 4 (empat) Pusat/Biro.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Badan terdiri atas paling banyak 4 (empat) Bagian, dan Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pusat/Biro ... Pusat/Biro terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang/Bagian, dan masing- masing Bidang/Bagian terdiri atas 2 (dua) Subbidang/Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-44/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pusat yang tempat kedudukannya tidak satu lokasi dengan tempat kedudukan Sekretariat Badan terdiri atas 1 (satu) Subbagian Tata Usaha atau Bagian Tata Usaha yang terdiri atas 2 (dua) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang yang masing-masing Bidang terdiri atas 2 (dua) Subbidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jumlah Pusat sebagaimana dimaksud dalam Pasal 41 ayat (3) ditentukan sesuai dengan kebutuhan dan beban kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pusat sebagaimana dimaksud pada ayat (1) terdiri atas Bagian Tata Usaha dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bagian Tata Usaha terdiri atas paling banyak 3 (tiga) Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-45/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidang terdiri atas paling banyak 3 (tiga) Subbidang. Paragraf 9 Staf Ahli",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri dibantu oleh Staf Ahli, yang merupakan satu kesatuan dalam susunan organisasi Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri dibantu oleh paling banyak 5 (lima) Staf Ahli.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Staf ... Staf Ahli berada di bawah dan bertanggung jawab kepada Menteri dan secara administratif dikoordinasikan oleh Sekretaris Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-46/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Staf Ahli mempunyai tugas memberikan telaahan kepada Menteri mengenai masalah tertentu sesuai bidang keahliannya. Bagian Kedua Kementerian yang Menangani Urusan Pemerintahan Dalam Rangka Penajaman, Koordinasi, dan Sinkronisasi Program Pemerintah Paragraf 1 Umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian yang menangani Urusan Pemerintahan Dalam Rangka Penajaman, Koordinasi, dan Sinkronisasi Program Pemerintah sebagaimana dimaksud dalam Pasal 3 huruf c terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian Sekretariat Negara;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kementerian Riset dan Teknologi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kementerian Lingkungan Hidup;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kementerian Pemberdayaan Perempuan dan Perlindungan Anak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kementerian Pembangunan Daerah Tertinggal;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Kementerian Perencanaan Pembangunan Nasional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kementerian Badan Usaha Milik Negara;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kementerian Perumahan Rakyat; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Kementerian Pemuda dan Olah Raga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan ... Ketentuan mengenai Kementerian Sekretariat Negara sebagaimana dimaksud pada ayat (1) angka 1, diatur tersendiri dengan Peraturan Presiden. Paragraf 2 Kedudukan, Tugas, dan Fungsi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Kementerian sebagaimana dimaksud dalam Pasal 47 ayat (1) berada di bawah dan bertanggung jawab kepada Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Kementerian sebagaimana dimaksud dalam Pasal 47 ayat (1) mempunyai tugas menyelenggarakan urusan tertentu dalam pemerintahan untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 49, Kementerian sebagaimana dimaksud dalam Pasal 47 ayat (1), menyelenggarakan fungsi : a. b. c. perumusan dan penetapan kebijakan di bidangnya; koordinasi dan sinkronisasi pelaksanaan kebijakan di bidangnya; pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; dan d. pengawasan atas pelaksanaan tugas di bidangnya. Paragraf ... Paragraf 3 Susunan Organisasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Susunan organisasi Kementerian yang menyelenggarakan fungsi sebagaimana dimaksud dalam Pasal 50 terdiri atas unsur: a. b. c. d. pemimpin, yaitu Menteri; pembantu pemimpin, yaitu sekretariat kementerian; pelaksana, yaitu deputi kementerian; dan pengawas, yaitu inspektorat kementerian. Paragraf 4 Unsur Pemimpin",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Menteri mempunyai tugas memimpin Kementerian sesuai dengan bidang tugas Kementerian. Paragraf 5 Unsur Pembantu Pemimpin",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-53/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Kementerian dipimpin oleh Sekretaris Kementerian. Pasal 54 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Sekretariat Kementerian mempunyai tugas melaksanakan koordinasi pelaksanaan tugas, pembinaan dan pemberian dukungan administrasi kepada seluruh unit organisasi di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 54, Sekretariat Kementerian menyelenggarakan fungsi: a. b. c. koordinasi kegiatan Kementerian; koordinasi dan penyusunan rencana dan program Kementerian; pembinaan dan pemberian dukungan administrasi yang meliputi ketatausahaan, kepegawaian, keuangan, kerumahtanggaan, arsip dan dokumentasi Kementerian; d. pembinaan dan penyelenggaraan organisasi dan tata laksana, kerja sama, dan hubungan masyarakat; e. koordinasi dan penyusunan peraturan perundang-undangan dan bantuan hukum; f. g. penyelenggaraan pengelolaan barang milik/kekayaan negara; dan pelaksanaan tugas lain yang diberikan oleh Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian terdiri atas paling banyak 3 (tiga) Biro.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biro terdiri atas paling banyak 4 (empat) Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-56/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Khusus Bagian yang menangani urusan tata usaha pimpinan terdiri atas sejumlah Subbagian sesuai kebutuhan. Paragraf ... Paragraf 6 Unsur Pelaksana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Kementerian berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Kementerian dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Kementerian mempunyai tugas menyiapkan perumusan kebijakan dan koordinasi pelaksanaan kebijakan di bidangnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Deputi Kementerian secara administratif dikoordinasikan oleh Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 58 ayat (1), Deputi Kementerian menyelenggarakan fungsi : a. b. c. penyiapan perumusan kebijakan di bidangnya; koordinasi pelaksanaan kebijakan di bidangnya; pemantauan, analisis, evaluasi, dan pelaporan tentang masalah atau kegiatan sesuai dengan bidangnya; dan d. pelaksanaan tugas lain yang diberikan oleh Menteri sesuai dengan bidangnya. Pasal 60 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "(1) Jumlah Deputi Kementerian ditentukan sesuai dengan kebutuhan dan beban kerja.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Kementerian terdiri atas paling banyak 5 (lima) Asisten Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-60/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Asisten Deputi terdiri atas paling banyak 4 (empat) Bidang, dan masing-masing Bidang terdiri atas 2 (dua) Subbidang. Paragraf 7 Unsur Pengawas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "(1) Inspektorat Kementerian berada di bawah dan bertanggung jawab kepada Menteri melalui Sekretaris Kementerian. (2) Inspektorat Kementerian dipimpin oleh Inspektur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "(1) Inspektorat Kementerian mempunyai tugas melaksanakan pengawasan intern di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-62/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Inspektorat Kementerian secara administratif dikoordinasikan oleh Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 62 ayat (1), Inspektorat Kementerian menyelenggarakan fungsi : a. penyiapan ... a. b. penyiapan perumusan kebijakan pengawasan intern; pelaksanaan pengawasan intern terhadap kinerja dan keuangan melalui audit, reviu, evaluasi, pemantauan, dan kegiatan pengawasan lainnya; c. pelaksanaan pengawasan untuk tujuan tertentu atas penugasan Menteri; d. e. penyusunan laporan hasil pengawasan; dan pelaksanaan administrasi Inspektorat Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Inspektorat Kementerian terdiri atas 1 (satu) Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor. Paragraf 8 Staf Ahli",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri dibantu oleh Staf Ahli, yang merupakan satu kesatuan dalam susunan organisasi Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri dibantu oleh paling banyak 5 (lima) Staf Ahli.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Staf Ahli berada di bawah dan bertanggung jawab kepada Menteri dan secara administratif dikoordinasikan oleh Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-65/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Staf Ahli mempunyai tugas memberikan telaahan kepada Menteri mengenai masalah tertentu sesuai bidang keahliannya. Bagian ... Bagian Ketiga Lain-Lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksana tugas pokok di daerah sebagaimana dimaksud dalam Pasal 27 ayat (1) huruf f adalah instansi vertikal yang dibentuk sesuai dengan peraturan perundang-undangan dan ditetapkan dengan Peraturan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksana tugas pokok di luar negeri sebagaimana dimaksud dalam Pasal 27 ayat (1) huruf f adalah perwakilan Republik Indonesia di luar negeri yang dibentuk sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk melaksanakan tugas teknis operasional dan/atau tugas teknis penunjang tertentu, Kementerian sebagaimana dimaksud dalam Pasal 23 secara selektif dapat membentuk Unit Pelaksana Teknis. ditetapkan oleh Menteri yang bersangkutan setelah mendapat persetujuan tertulis dari Menteri yang membidangi urusan pendayagunaan aparatur negara dan reformasi birokrasi. BAB IV ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman organisasi Unit Pelaksana Teknis sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang membidangi urusan pendayagunaan aparatur negara dan reformasi birokrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-67/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Unit Pelaksana Teknis Kementerian sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "WAKIL MENTERI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "Dalam hal terdapat beban kerja yang membutuhkan penanganan secara khusus, pada Kementerian tertentu dapat dibentuk jabatan Wakil Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "Wakil Menteri sebagaimana dimaksud dalam Pasal 68 mempunyai tugas membantu Menteri dalam memimpin pelaksanaan tugas Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wakil Menteri berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil Menteri merupakan pejabat karir dan bukan merupakan anggota Kabinet.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-70/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pejabat karir sebagaimana dimaksud pada ayat (2) adalah pegawai negeri yang telah menduduki jabatan struktural eselon I.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "STAF KHUSUS MENTERI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-71/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Di lingkungan Kementerian sebagaimana dimaksud dalam Pasal 1 dapat diangkat paling banyak 3 (tiga) orang Staf Khusus Menteri yang selanjutnya disebut Staf Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-71/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Staf Khusus sebagaimana dimaksud pada ayat (1) bertanggung jawab kepada Menteri. Pasal 72 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "Staf Khusus mempunyai tugas memberikan saran dan pertimbangan kepada Menteri sesuai penugasan Menteri dan bukan merupakan bidang tugas unsur-unsur organisasi Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-73/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Staf Khusus dalam melaksanakan tugasnya wajib menerapkan prinsip koordinasi, integrasi, dan sinkronisasi yang baik dengan unit organisasi di lingkungan Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-73/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata kerja Staf Khusus diatur oleh Sekretaris Kementerian Koordinator atau Sekretaris Jenderal atau Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-74/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengangkatan Staf Khusus ditetapkan dengan Keputusan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-74/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Staf Khusus dapat berasal dari pegawai negeri atau bukan pegawai negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-74/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pegawai negeri sebagaimana dimaksud pada ayat (2) terdiri dari Pegawai Negeri Sipil, Anggota Tentara Nasional Indonesia, dan Anggota Kepolisian Negara Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-75/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai negeri yang diangkat menjadi Staf Khusus diberhentikan dari jabatan organiknya selama menjadi Staf Khusus tanpa kehilangan statusnya sebagai pegawai negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-75/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pegawai negeri yang diangkat menjadi Staf Khusus tetap menerima gaji sebagai pegawai negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-75/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pegawai ... Pegawai negeri yang diangkat sebagai Staf Khusus dinaikkan pangkatnya setiap kali setingkat lebih tinggi tanpa terikat jenjang pangkat, sesuai dengan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai negeri yang berhenti atau telah berakhir masa baktinya sebagai Staf Khusus, diaktifkan kembali sebagai pegawai negeri sesuai peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pegawai negeri yang diangkat menjadi Staf Khusus diberhentikan dengan hormat sebagai pegawai negeri apabila telah mencapai batas usia pensiun dan diberikan hak-hak kepegawaiannya sesuai dengan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "Hak keuangan dan fasilitas lainnya bagi Staf Khusus diberikan setinggi- tingginya setingkat dengan jabatan struktural eselon I.b.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-78/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Masa bakti Staf Khusus paling lama sama dengan masa jabatan Menteri yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-78/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Staf Khusus apabila berhenti atau telah berakhir masa baktinya tidak diberikan pensiun dan uang pesangon. Pasal 79...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "Staf Khusus mendapat dukungan administrasi dari Sekretariat Kementerian Koordinator atau Sekretariat Jenderal atau Sekretariat Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "Segala biaya bagi pelaksanaan tugas Staf Khusus dibebankan kepada Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "TATA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "Menteri Koordinator dan Menteri dalam melaksanakan tugas dan fungsinya, wajib bekerja sama di bawah pimpinan Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "Menteri Koordinator dan Menteri dalam melaksanakan tugas dan fungsinya, wajib menerapkan sistem akuntabilitas kinerja aparatur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-83/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan koordinasi oleh Menteri Koordinator dilakukan melalui : a. rapat koordinasi Menteri Koordinator atau rapat koordinasi gabungan antar Menteri Koordinator;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-83/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "rapat-rapat ... rapat-rapat kelompok kerja yang dibentuk oleh Menteri Koordinator sesuai dengan kebutuhan; c. forum-forum koordinasi yang sudah ada sesuai dengan peraturan perundang-undangan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-83/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "konsultasi langsung dengan para Menteri dan pimpinan lembaga lain yang terkait.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-83/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan koordinasi oleh Menteri Koordinator dilakukan secara berkala dan sewaktu-waktu sesuai kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri Koordinator melaporkan hasil pelaksanaan koordinasi kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri Koordinator menindaklanjuti hasil rapat koordinasi, baik sendiri maupun bersama-sama dengan Menteri dan/atau pimpinan lembaga lain yang terkait sesuai dengan tugas dan fungsinya masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "Menteri Koordinator dapat meminta Menteri di luar bidang koordinasinya untuk hadir dalam rapat-rapat koordinasi Kementerian Koordinator.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "Semua unsur di lingkungan Kementerian dalam melaksanakan tugasnya masing-masing wajib menerapkan prinsip koordinasi, integrasi, dan sinkronisasi, baik dalam lingkungan Kementerian sendiri, maupun dalam hubungan antar Kementerian dengan lembaga lain yang terkait. Pasal 87 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "Semua unsur di lingkungan Kementerian wajib menerapkan sistem pengendalian intern di lingkungan masing-masing.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-88",
+     "type": "PASAL",
+     "orderIndex": 88,
+     "label": "Pasal 88",
+     "content": "Setiap pimpinan satuan organisasi bertanggung jawab memimpin dan mengkoordinasikan bawahan masing-masing dan memberikan pengarahan serta petunjuk bagi pelaksanaan tugas bawahan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-89",
+     "type": "PASAL",
+     "orderIndex": 89,
+     "label": "Pasal 89",
+     "content": "Setiap pimpinan satuan organisasi wajib mengikuti dan mematuhi petunjuk dan bertanggung jawab kepada atasan masing-masing dan menyampaikan laporan berkala tepat pada waktunya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-90",
+     "type": "PASAL",
+     "orderIndex": 90,
+     "label": "Pasal 90",
+     "content": "Dalam melaksanakan tugas, setiap pimpinan satuan organisasi wajib melakukan pembinaan dan pengawasan terhadap satuan organisasi di bawahnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "ESELON, PENGANGKATAN, DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-91",
+     "type": "PASAL",
+     "orderIndex": 91,
+     "label": "Pasal 91",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-91/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wakil Menteri, Sekretaris Kementerian Koordinator, Sekretaris Jenderal, Sekretaris Kementerian, Deputi, Direktur Jenderal, Inspektur Jenderal, dan Kepala Badan adalah jabatan struktural eselon I.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-91/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Staf ... Staf Ahli adalah jabatan struktural eselon I.b atau serendah- rendahnya eselon II.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-91/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kepala Biro, Direktur, Asisten Deputi, Kepala Pusat, Inspektur, Sekretaris Direktorat Jenderal, Sekretaris Badan, dan Sekretaris Inspektorat Jenderal adalah jabatan struktural eselon II.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-91/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kepala Bagian, Kepala Bidang, dan Kepala Subdirektorat adalah jabatan struktural eselon III.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-91/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kepala Subbagian, Kepala Subbidang, dan Kepala Seksi adalah jabatan struktural eselon IV.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-92",
+     "type": "PASAL",
+     "orderIndex": 92,
+     "label": "Pasal 92",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-92/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Unit Pelaksana Teknis adalah jabatan struktural setinggi- tingginya eselon III.a.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-92/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bagi Unit Pelaksana Teknis yang pada saat berlakunya Peraturan Presiden ini telah ditetapkan sebagai jabatan struktural eselon II.a atau eselon II.b tetap berlaku dan akan dilakukan evaluasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-93",
+     "type": "PASAL",
+     "orderIndex": 93,
+     "label": "Pasal 93",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-93/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat struktural eselon I diangkat dan diberhentikan oleh Presiden atas usul Menteri yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-93/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pejabat struktural eselon II ke bawah diangkat dan diberhentikan oleh Menteri yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-93/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pejabat struktural eselon III ke bawah dapat diangkat dan diberhentikan oleh Pejabat yang diberi pelimpahan wewenang oleh Menteri yang bersangkutan. BAB VIII ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "ADMINISTRASI DAN PEMBIAYAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-94",
+     "type": "PASAL",
+     "orderIndex": 94,
+     "label": "Pasal 94",
+     "content": "Pembinaan dan pengelolaan administrasi kepegawaian, keuangan, perlengkapan, kearsipan, dokumentasi, dan persandian diselenggarakan oleh masing-masing Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-95",
+     "type": "PASAL",
+     "orderIndex": 95,
+     "label": "Pasal 95",
+     "content": "Segala pembiayaan yang diperlukan bagi pelaksanaan tugas masing- masing Kementerian dibebankan kepada Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-96",
+     "type": "PASAL",
+     "orderIndex": 96,
+     "label": "Pasal 96",
+     "content": "Pada Kementerian dapat ditetapkan jabatan fungsional tertentu selain jabatan fungsional sebagaimana dimaksud dalam Pasal 21, Pasal 40, dan Pasal 64.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-97",
+     "type": "PASAL",
+     "orderIndex": 97,
+     "label": "Pasal 97",
+     "content": "Dikecualikan dari ketentuan Pasal 32, Pasal 36, Pasal 40, Pasal 44, dan Pasal 45 dalam Peraturan Presiden ini, bagi Kementerian yang membidangi urusan luar negeri, pertahanan, hukum, hak asasi manusia, keuangan, dan agama, jumlah unit organisasinya ditetapkan sebagai berikut :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian ... Kementerian Luar Negeri",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretariat Jenderal terdiri atas paling banyak 6 (enam) Biro, masing-masing Biro dapat terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian. b. Inspektorat Jenderal terdiri atas : 1) Sekretariat Inspektorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Inspektorat paling banyak 4 (empat), dan masing-masing Inspektorat terdiri atas Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat Jenderal terdiri atas : 1) Sekretariat Direktorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Direktorat paling banyak 6 (enam), masing-masing Direktorat terdiri atas paling banyak 5 (lima) Subdirektorat dan Subbagian Tata Usaha, dan masing-masing Subdirektorat terdiri atas paling banyak 4 (empat) Seksi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Badan terdiri atas : 1) Sekretariat Badan terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Pusat paling banyak 3 (tiga), masing-masing Pusat terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 5 (lima) Bidang, dan masing-masing Bidang terdiri atas paling banyak 4 (empat) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pusat ... Pusat yang berada di bawah dan bertanggung jawab kepada Menteri terdiri atas Bagian Tata Usaha yang terdiri atas paling banyak 3 (tiga) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, masing- masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Kementerian Pertahanan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretariat Jenderal terdiri atas paling banyak 6 (enam) Biro, masing-masing Biro dapat terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Inspektorat Jenderal terdiri atas : 1) Sekretariat Inspektorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Inspektorat paling banyak 5 (lima), dan masing-masing Inspektorat terdiri atas Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat Jenderal terdiri atas : 1) Sekretariat Direktorat Jenderal terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Direktorat paling banyak 6 (enam), masing-masing Direktorat terdiri atas paling banyak 5 (lima) Subdirektorat dan Subbagian Tata Usaha, dan masing-masing Subdirektorat terdiri atas paling banyak 4 (empat) Seksi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Badan ... Badan terdiri atas : 1) Sekretariat Badan terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Pusat paling banyak 5 (lima), masing-masing Pusat terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, dan masing-masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pusat yang berada di bawah dan bertanggung jawab kepada Menteri terdiri atas Bagian Tata Usaha yang terdiri atas paling banyak 3 (tiga) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, masing-masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kementerian Hukum dan Hak Asasi Manusia",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretariat Jenderal terdiri atas paling banyak 6 (enam) Biro, masing-masing Biro dapat terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Inspektorat Jenderal terdiri atas: 1) Sekretariat Inspektorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Inspektorat paling banyak 6 (enam), dan masing-masing Inspektorat terdiri atas 1 (satu) Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat ... Direktorat Jenderal terdiri atas : 1) Sekretariat Direktorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Direktorat paling banyak 6 (enam), masing-masing Direktorat terdiri atas paling banyak 5 (lima) Subdirektorat dan Subbagian Tata Usaha, dan masing-masing Subdirektorat terdiri atas paling banyak 4 (empat) Seksi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Badan terdiri atas : 1) Sekretariat Badan terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Pusat paling banyak 4 (empat), masing-masing Pusat terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 5 (lima) Bidang, dan masing-masing Bidang terdiri atas paling banyak 4 (empat) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pusat yang berada di bawah dan bertanggung jawab kepada Menteri terdiri atas Bagian Tata Usaha yang terdiri atas paling banyak 3 (tiga) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, masing- masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kementerian Keuangan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretariat Jenderal terdiri atas paling banyak 8 (delapan) Biro, masing-masing Biro terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Inspektorat ... Inspektorat Jenderal terdiri atas : 1) Sekretariat Inspektorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Inspektorat paling banyak 8 (delapan), dan masing-masing Inspektorat terdiri atas Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat Jenderal terdiri atas : 1) Sekretariat Direktorat Jenderal terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; 2) Direktorat paling banyak 8 (delapan), masing-masing Direktorat terdiri atas paling banyak 6 (enam) Subdirektorat dan Subbagian Tata Usaha, dan masing-masing Subdirektorat terdiri atas paling banyak 4 (empat) Seksi; dan 3) Direktorat Jenderal yang menangani fungsi di bidang pajak terdiri atas paling banyak 12 (dua belas) Direktorat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Badan terdiri atas : 1) Sekretariat Badan terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian; dan 2) Pusat paling banyak 7 (tujuh), masing-masing Pusat terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 5 (lima) Bidang, dan masing-masing Bidang terdiri atas paling banyak 4 (empat) Subbidang. 3) Badan ... 3) Badan yang menangani fungsi di bidang pengawas pasar modal dan lembaga keuangan terdiri atas paling banyak 12 (dua belas) Biro, masing-masing Biro terdiri atas paling banyak 5 (lima) Bagian, dan masing-masing Bagian terdiri atas paling banyak 4 (empat) Subbagian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pusat yang berada di bawah dan bertanggung jawab kepada Menteri terdiri atas Bagian Tata Usaha yang terdiri atas paling banyak 3 (tiga) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 4 (empat) Bidang, masing-masing Bidang terdiri atas paling banyak 4 (empat) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kementerian Agama",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretariat Jenderal terdiri atas paling banyak 6 (enam) Biro, masing-masing Biro dapat terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Inspektorat Jenderal terdiri atas : 1) Sekretariat Inspektorat Jenderal terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Inspektorat paling banyak 5 (lima), dan masing-masing Inspektorat terdiri atas Subbagian Tata Usaha dan Kelompok Jabatan Fungsional Auditor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktorat Jenderal terdiri atas: 1) Sekretariat Direktorat Jenderal terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Direktorat ... 2) Direktorat paling banyak 6 (enam), masing-masing Direktorat terdiri atas paling banyak 5 (lima) Subdirektorat dan 1 (satu) Subbagian Tata Usaha, dan masing-masing Subdirektorat terdiri atas paling banyak 4 (empat) Seksi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Badan terdiri atas : 1) Sekretariat Badan terdiri atas paling banyak 4 (empat) Bagian, dan masing-masing Bagian terdiri atas paling banyak 3 (tiga) Subbagian; dan 2) Pusat paling banyak 5 (lima), masing-masing Pusat terdiri atas kelompok jabatan fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, dan masing-masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-47-tahun-2009/pasal-97/angka-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pusat yang berada di bawah dan bertanggung jawab kepada Menteri terdiri atas Bagian Tata Usaha yang terdiri atas paling banyak 3 (tiga) Subbagian, dan Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 3 (tiga) Bidang, masing- masing Bidang terdiri atas paling banyak 3 (tiga) Subbidang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-98",
+     "type": "PASAL",
+     "orderIndex": 98,
+     "label": "Pasal 98",
+     "content": "Kementerian Perencanaan Pembangunan Nasional dalam melaksanakan tugasnya menggunakan unit organisasi dan sumber daya di lingkungan Badan Perencanaan Pembangunan Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-99",
+     "type": "PASAL",
+     "orderIndex": 99,
+     "label": "Pasal 99",
+     "content": "Pejabat struktural eselon I.a yang dialihtugaskan pada jabatan Staf Ahli tetap diberikan eselon I.a. Pasal 100 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-100",
+     "type": "PASAL",
+     "orderIndex": 100,
+     "label": "Pasal 100",
+     "content": "Kedudukan, tugas, dan fungsi Kementerian serta susunan organisasi, tugas, dan fungsi eselon I pada masing-masing Kementerian ditetapkan dengan Peraturan Presiden atas usul Menteri yang bersangkutan setelah mendapat pertimbangan tertulis dari Menteri yang membidangi urusan pendayagunaan aparatur negara dan reformasi birokrasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-101",
+     "type": "PASAL",
+     "orderIndex": 101,
+     "label": "Pasal 101",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-101/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perumusan tugas, fungsi, susunan organisasi, dan tata kerja Kementerian lebih lanjut ditetapkan oleh Menteri yang bersangkutan setelah mendapat persetujuan tertulis dari Menteri yang membidangi urusan pendayagunaan aparatur negara dan reformasi birokrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-101/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Salinan Peraturan Menteri tentang Organisasi dan Tata Kerja sebagaimana dimaksud pada ayat (1) disampaikan kepada Presiden dan Menteri yang membidangi urusan pendayagunaan aparatur negara dan reformasi birokrasi, selambat-lambatnya 1 (satu) bulan setelah ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-102",
+     "type": "PASAL",
+     "orderIndex": 102,
+     "label": "Pasal 102",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-102/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian yang menangani urusan sebagaimana dimaksud dalam Pasal 3 huruf c yang sebelum berlakunya Peraturan Presiden ini melaksanakan fungsi pelaksanaan kebijakan, dalam jangka waktu paling lambat 1 (satu) tahun setelah berlakunya Peraturan Presiden ini disesuaikan dengan ketentuan Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara kecuali ditetapkan lain dengan undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-102/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyesuaian ... Penyesuaian sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dengan Peraturan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-103",
+     "type": "PASAL",
+     "orderIndex": 103,
+     "label": "Pasal 103",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-103/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada saat mulai berlakunya Peraturan Presiden ini, seluruh organisasi di lingkungan Kementerian Negara sebagaimana dimaksud dalam Peraturan Presiden Nomor 9 Tahun 2005 tentang Kedudukan, Tugas, Fungsi, Susunan Organisasi dan Tata Kerja Kementerian Negara Republik Indonesia sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 20 Tahun 2008 tetap menjalankan tugas dan fungsinya sampai dengan terbentuknya organisasi Kementerian secara terinci berdasarkan Peraturan Presiden ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-47-tahun-2009/pasal-103/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pada saat mulai berlakunya Peraturan Presiden ini, seluruh jabatan yang ada beserta pejabat yang memangku jabatan di lingkungan Kementerian Negara berdasarkan Peraturan Presiden Nomor 9 Tahun 2005 tentang Kedudukan, Tugas, Fungsi, Susunan Organisasi dan Tata Kerja Kementerian Negara Republik Indonesia sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 20 Tahun 2008 tetap melaksanakan tugas dan fungsi Kementerian sampai dengan diatur kembali berdasarkan Peraturan Presiden ini. Pasal 104 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-104",
+     "type": "PASAL",
+     "orderIndex": 104,
+     "label": "Pasal 104",
+     "content": "Seluruh peraturan pelaksanaan dari Peraturan Presiden Nomor 9 Tahun 2005 tentang Kedudukan, Tugas, Fungsi, Susunan Organisasi dan Tata Kerja Kementerian Negara Republik Indonesia sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 20 Tahun 2008 dinyatakan tetap berlaku sepanjang tidak bertentangan dan/atau belum diubah atau diganti dengan peraturan baru berdasarkan Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-105",
+     "type": "PASAL",
+     "orderIndex": 105,
+     "label": "Pasal 105",
+     "content": "Penyesuaian terhadap Peraturan Presiden ini diselesaikan dalam jangka waktu paling lambat 6 (enam) bulan sejak ditetapkannya Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-47-tahun-2009/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-106",
+     "type": "PASAL",
+     "orderIndex": 106,
+     "label": "Pasal 106",
+     "content": "Dengan berlakunya Peraturan Presiden ini, maka Peraturan Presiden Nomor 9 Tahun 2005 tentang Kedudukan, Tugas, Fungsi, Susunan Organisasi dan Tata Kerja Kementerian Negara Republik Indonesia sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 20 Tahun 2008, dicabut dan dinyatakan tidak berlaku. Pasal 107 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-47-tahun-2009/pasal-107",
+     "type": "PASAL",
+     "orderIndex": 107,
+     "label": "Pasal 107",
+     "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 3 November 2009 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

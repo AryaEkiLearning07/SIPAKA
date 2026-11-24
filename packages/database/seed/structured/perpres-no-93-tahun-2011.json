@@ -1,0 +1,881 @@
+{
+ "slug": "perpres-no-93-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa Kebun Raya sebagai bagian dari Agenda 21 Indonesia terkait konservasi keanekaragaman hayati, harus dibangun secara terencana, terkoordinasi dan memenuhi standar pembangunan Kebun Raya;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Presiden tentang Kebun Raya."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-93-tahun-2011",
+   "detailsId": "41240",
+   "judul": "PERPRES No. 93 Tahun 2011 tentang Kebun Raya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69685/Perpres_no_93_2011.PDF",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:48.973715+00:00"
+  },
+  "sha256": "7ef17be8d35b60277929d7cf1021056323bc15bed9c41c75d33eea804e04285c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 22,
+  "ayat_angka": 42,
+  "huruf": 19
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kebun Raya adalah kawasan konservasi tumbuhan secara ex situ yang memiliki koleksi tumbuhan terdokumentasi dan ditata berdasarkan pola klasifikasi taksonomi, bioregion, tematik, atau kombinasi dari pola-pola tersebut untuk tujuan kegiatan konservasi, penelitian, pendidikan, wisata dan jasa lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pembangunan Kebun Raya adalah kegiatan mendirikan Kebun Raya yang diselenggarakan melalui tahapan perencanaan, pelaksanaan dan pengelolaan, baik merupakan pembangunan baru, lanjutan pembangunan Kebun Raya maupun pengembangan Kebun Raya yang sudah ada.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Konservasi tumbuhan secara ex situ adalah upaya pelestarian, penelitian dan pemanfaatan tumbuhan secara berkelanjutan yang dilakukan di luar habitat alaminya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Koleksi tumbuhan terdokumentasi adalah koleksi tumbuhan Kebun Raya yang datanya tercatat dan terkelola dalam sistem database koleksi yang terstandar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Infrastruktur pendukung adalah bangunan fisik yang merupakan penunjang terselenggaranya fungsi Kebun Raya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kementerian adalah Kementerian yang menangani urusan di bidang pekerjaan umum dan penataan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Menteri adalah Menteri yang menangani urusan di bidang pekerjaan umum dan penataan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Lembaga adalah Lembaga Pemerintah Nonkementerian yang menangani urusan di bidang penelitian ilmu pengetahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kepala ... Kepala Lembaga adalah Kepala Lembaga Pemerintah Nonkementerian yang menangani urusan di bidang penelitian ilmu penge-tahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Pemerintah Daerah adalah Gubernur, Bupati atau Walikota dan perangkat daerah sebagai unsur penyelenggara Pemerintahan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Unit pengelola adalah unit kerja yang menangani pengelolaan Kebun Raya yang dibentuk oleh dan bertanggung jawab kepada Kepala Lembaga atau Pemerintah Daerah sesuai dengan kewenang- annya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Kebun Raya terdiri dari: a. Kebun Raya yang menjadi kewenangan Pemerintah Pusat; b. Kebun Raya yang menjadi kewenangan Pemerintah Daerah Provinsi; dan c. Kebun Raya yang menjadi kewenangan Pemerintah Daerah Kabupaten/Kota.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Kewenangan Pemerintah Pusat sebagaimana dimaksud dalam Pasal 2 huruf a dilaksanakan oleh Lembaga.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Lembaga menetapkan Rencana Pengembangan Kebun Raya Indonesia dengan mempertimbangkan usulan dari Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah … Pemerintah Daerah dapat menyusun Rencana Pengembangan Kebun Raya di wilayahnya dengan berpedoman pada Rencana Pengembangan Kebun Raya Indonesia sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PEMBANGUNAN KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Pembangunan Kebun Raya harus memperhatikan karakteristik Kebun Raya, sebagai berikut: a. memiliki lokasi yang tidak dapat dialih fungsikan; b. dapat diakses oleh masyarakat; c. memiliki koleksi tumbuhan terdokumentasi; dan d. koleksi tumbuhan ditata berdasarkan pola klasifikasi taksonomi, bioregion, tematik, atau kombinasinya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Pembangunan Kebun Raya diselenggarakan melalui tahapan: a. perencanaan; b. pelaksanaan; dan c. pengelolaan. Bagian Kedua Perencanaan Pembangunan Kebun Raya",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perencanaan pembangunan Kebun Raya sebagaimana dimaksud dalam Pasal 6 huruf a dilakukan melalui kegiatan: huruf d, paling kurang memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "studi … studi kelayakan lokasi, paling kurang meliputi status lahan, kesesuaian lahan, penentuan lokasi yang mengacu pada Rencana Tata Ruang Wilayah Provinsi atau Rencana Tata Ruang Wilayah Kabupaten/Kota, dan aksesibilitas lokasi; kondisi eksisting;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "inventarisasi dan analisis sumberdaya yang ada; analisis tapak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "inventarisasi kebutuhan infrastruktur pendukung; dan analisis sosial dan budaya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyusunan Rencana Induk (master plan). zonasi Kebun Raya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "rencana tapak dan rencana utilitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pentahapan pembangunan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "rencana pembiayaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rencana Induk (master plan) sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rencana Induk (master plan) Kebun Raya yang menjadi kewenangan Pemerintah Pusat ditetapkan oleh Lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rencana Induk (master plan) Kebun Raya yang menjadi kewenangan Pemerintah Daerah ditetapkan oleh Pemerintah Daerah setelah mendapatkan pertimbangan dari Lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Perencanaan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Kementerian, Lembaga dan/atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-7/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Perencanaan yang dilaksanakan oleh Kementerian dan/atau Pemerintah Daerah harus mendapat pendampingan teknis dari Lembaga. Bagian … Bagian Ketiga Pelaksanaan Pembangunan Kebun Raya",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Pelaksanaan pembangunan Kebun Raya sebagaimana dimaksud dalam Pasal 6 huruf b meliputi: a. penataan kawasan Kebun Raya; b. pengembangan koleksi tumbuhan; dan c. pembangunan infrastruktur pendukung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penataan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 8 huruf a dilakukan melalui penentuan zona.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Zona sebagaimana dimaksud dalam ayat (1), paling kurang mencakup zona penerima, zona pengelola dan zona koleksi.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "zona penerima paling kurang meliputi gerbang utama, loket, pusat informasi dan fasilitas penunjang untuk pengunjung.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "zona pengelola paling kurang meliputi kantor pengelola, pembibitan dan sarana penelitian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "zona koleksi paling kurang meliputi petak-petak koleksi tumbuhan yang ditentukan berdasarkan pola klasifikasi taksonomi, bioregion, tematik, atau kombinasi dari pola-pola tersebut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penataan kawasan Kebun Raya dilaksanakan oleh Lembaga atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan Koleksi Tumbuhan sebagaimana dimaksud dalam Pasal 8 huruf b dilakukan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengadaan dan peningkatan jenis koleksi tumbuhan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peningkatan kualitas koleksi tumbuhan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadaan … Pengadaan dan peningkatan jenis koleksi tumbuhan sebagaimana dimaksud pada ayat (1) huruf a dilakukan melalui kegiatan eksplorasi, pertukaran spesimen dan sumbangan material tumbuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peningkatan kualitas koleksi tumbuhan sebagaimana dimaksud pada ayat (1) huruf b meliputi peningkatan kesintasan, akurasi dan kelengkapan data koleksi tumbuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Data koleksi tumbuhan paling kurang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Asal-usul koleksi (tanggal koleksi, nomor kolektor, habitat asal, lokasi asal, kondisi populasi alami dan data pendukungnya);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Nomor akses;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Tanggal dan lokasi tanam di kebun; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Nama jenis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengembangan koleksi tumbuhan dilaksanakan oleh Lembaga atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan infrastruktur pendukung Kebun Raya sebagaimana dimaksud pada Pasal 8 huruf c dilakukan dengan prinsip efisiensi dan efektivitas, serta memperhatikan aspek sosial, budaya, kearifan lokal, keamanan, ketertiban, kenyamanan, estetika, daya dukung kawasan dan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Infrastruktur pendukung Kebun Raya sebagaimana dimaksud pada ayat (1) antara lain infrastruktur sumber daya air, jalan, bangunan gedung, drainase, air bersih dan air limbah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan infrastruktur pendukung Kebun Raya yang menjadi kewenangan Pemerintah Pusat dilaksanakan oleh Kementerian dan/atau Lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembangunan … Pembangunan infrastruktur pendukung Kebun Raya yang menjadi kewenangan Pemerintah Daerah dilaksanakan oleh Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah Daerah dapat mengajukan usulan dukungan pembangunan infrastruktur pendukung Kebun Raya kepada Kementerian melalui Lembaga. Bagian Keempat Pengelolaan Kebun Raya",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Pengelolaan Kebun Raya meliputi kegiatan pemeliharaan dan pemanfaatan kawasan Kebun Raya, koleksi tumbuhan dan infrastruktur pendukungnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemeliharaan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 13 dilaksanakan melalui kegiatan perawatan dan penataan lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeliharaan koleksi tumbuhan sebagaimana dimaksud dalam Pasal 13 dilaksanakan melalui kegiatan perbanyakan, perawatan dan pendokumentasian data koleksi tumbuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemanfaatan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 13 dilaksanakan melalui penyelenggaraan kegiatan pendidikan, wisata dan jasa lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemanfaatan koleksi tumbuhan meliputi kegiatan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Penelitian dan pengembangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pendidikan lingkungan dan konservasi tumbuhan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-93-tahun-2011/pasal-15/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Wisata lingkungan. Pasal 16 …",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Pemeliharaan dan pemanfaatan infrastruktur pendukung dilaksanakan sesuai dengan Peraturan Perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Ketentuan lebih lanjut mengenai pengelolaan Kebun Raya sebagaimana dimaksud dalam Pasal 13 diatur dengan Peraturan Kepala Lembaga.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KELEMBAGAAN KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan Kebun Raya yang menjadi kewenangan Pemerintah Pusat dilaksanakan oleh unit kerja Lembaga. belum terbentuk, maka pembentukannya harus mendapat persetujuan Menteri yang bertanggung jawab di bidang pendayagunaan aparatur negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan Kebun Raya yang menjadi kewenangan Pemerintah Daerah dilaksanakan oleh unit pengelola teknis daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal unit kerja Lembaga sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal unit pengelola teknis daerah sebagaimana dimaksud pada ayat (2) belum terbentuk, maka pembentukannya harus mendapat persetujuan Menteri Dalam Negeri dan Menteri yang bertanggung jawab di bidang pendayagunaan aparatur negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Lembaga melakukan pembinaan dan pengawasan teknis atas pembangunan Kebun Raya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-93-tahun-2011/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Gubernur … Gubernur selaku Wakil Pemerintah Pusat di daerah melakukan pembinaan dan pengawasan atas penyelenggaraan Kebun Raya yang dilaksanakan oleh Pemerintah Daerah Kabupaten/Kota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENDANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Pendanaan pembangunan Kebun Raya dapat bersumber dari: a. Anggaran Pendapatan dan Belanja Negara Kementerian dan/atau Lembaga; b. Anggaran Pendapatan dan Belanja Daerah; dan/atau c. Sumber lain-lain yang sah dan tidak mengikat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Dengan berlakunya Peraturan Presiden ini, maka: a. Rencana Induk (master plan) Kebun Raya yang tidak sesuai dengan Peraturan Presiden ini, disesuaikan berdasarkan Peraturan Presiden ini paling lambat 2 (dua) tahun terhitung sejak ditetapkannya Peraturan Presiden ini. b. Rencana Induk (master plan) yang telah sesuai dengan Peraturan Presiden ini, pembangunannya dimulai paling lambat 2 (dua) tahun terhitung sejak ditetapkannya Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-93-tahun-2011/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-93-tahun-2011/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 27 Desember 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 143 Salinan sesuai dengan aslinya Deputi Bidang Kesejahteraan Rakyat Sekretariat Kabinet, Agus Sumartono, S.H., M.H",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

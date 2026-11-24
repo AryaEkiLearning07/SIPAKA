@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-18-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "perlu mengatur Wajib Kerja pada Pemerintah bagi tenaga para-medis selaras dengan Wajib Kerja bagi Sarjana Kesehatan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-18-tahun-1964",
+   "detailsId": "50330",
+   "judul": "UU No. 18 Tahun 1964 tentang Wajib Kerja Tenaga Paramedis - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39617/UU%20Nomor%2018%20Tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:43:52.583785+00:00"
+  },
+  "sha256": "b25d35a99abe95c3d6a5f524003e3efe6894b9811715e778db56fc32a2d92494",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

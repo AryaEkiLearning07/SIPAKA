@@ -1,0 +1,52 @@
+{
+ "slug": "pp-no-65-tahun-1958",
+ "preamble": {
+  "menimbang": [
+   "1. 2. 3. Bahwa perkembangan tenaga atom merupakan soal yang sangat penting dalam usaha kemajuan dunia waktu ini; Bahwa untuk menyelenggarakan kesejahteraan Indonesia perlu usaha dalam lapangan tenaga atom dipergiat; Bahwa untuk melaksanakan maksud tersebut perlu dibentuk badan-badan Pemerintah sebagai pusat kegiatan dalam lapangan tenaga atom;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-65-tahun-1958",
+   "detailsId": "76639",
+   "judul": "PP No. 65 Tahun 1958 tentang Dewan Tenaga Atom dan Lembaga Tenaga - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67535/PP%20No.%20065%20Tahun%201958.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:33.628393+00:00"
+  },
+  "sha256": "50daeeacd3d609ab6fa75b992e69b5381131c551ce971f9c114c8eeb1100b53a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-65-tahun-1958/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "DEWAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

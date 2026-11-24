@@ -1,0 +1,54 @@
+{
+ "slug": "pp-no-38-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perusahaan Negara (P.N.) Cipta Niaga yang didirikan dengan Peraturan Pemerintah No. 7 tahun 1966 (Lembaran-Negara Republik Indonesia tahun 1966 No. 13) setelah melalui penelitian dan penilaian, dapat memenuhi ketentuan-ketentuan untuk dialihkan bentuknya menjadi Perusahaan Perseroan (PERSERO) sebagaimana termaktub dalam Peraturan Pemerintah No. 12 tahun 1969 (Lembaran- Negara Republik Indonesia tahun 1969 No. 21; Tambahan Lembaran- Negara Republik Indonesia No. 2894)."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1971",
+   "detailsId": "69494",
+   "judul": "PP No. 38 Tahun 1971 tentang Pengalihan Bentuk Perusahaan Negara (P.N) Cipta Niaga Menjadi Perusahaan Perseroan (Persero) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59935/PP%20NO%2038%20TH%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-7-tahun-1966"
+   ],
+   "scrapedAt": "2026-10-06T00:30:11.551894+00:00"
+  },
+  "sha256": "6b6ad2641db211422cce6f8ceb4c6766d061d1d5ac286297fce210495077ec1e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-38-tahun-1971/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "(PERSERO)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

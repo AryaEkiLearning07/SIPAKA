@@ -1,0 +1,61 @@
+{
+ "slug": "pp-no-75-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan Peraturan Pemerintah Peraturan Pemerintah Nomor 5 Tahun 2005 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Sekunder Perumahan; Perubahan tentang Atas"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-75-tahun-2011",
+   "detailsId": "5208",
+   "judul": "PP No. 75 Tahun 2011 tentang Perubahan Atas Peraturan Pemerintah Nomor 5 Tahun 2005 Tentang Penyertaan Modal Negara Republik Indonesia Untuk Pendirian Perusahaan Perseroan Persero Di Bidang Pembiayaan Sekunder Perumahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35807/PP%2075%20Tahun%202011.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:01.022888+00:00"
+  },
+  "sha256": "a39e72917a7bb8bbe815517c5351615258ea8b9c828f35649cdc39a110e9ae07",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-75-tahun-2011/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Maksud dan tujuan Persero untuk membangun dan mengembangkan pasar pembiayaan sekunder perumahan dan dalam kesinambungan pembiayaan perumahan yang terjangkau oleh masyarakat. rangka meningkatkan kapasitas",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-75-tahun-2011/pasal-2/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Dalam . . . Dalam BAB V Ketentuan Penutup disisipkan 1 (satu) pasal yakni Pasal 4A, yang berbunyi sebagai berikut: Pasal 4A Pelimpahan kedudukan, tugas, dan kewenangan Menteri Keuangan selaku Pemegang Saham atau Rapat Umum Pemegang Saham pada Perusahaan Perseroan (Persero) kepada Menteri Badan Usaha Milik Negara sebagaimana diatur dalam Peraturan Pemerintah Nomor 41 Tahun tentang Pelimpahan Kedudukan, Tugas dan Kewenangan Menteri Keuangan Pada Perusahaan Perseroan (Persero), Perusahaan Umum (Perum), dan Perusahaan Jawatan (Perjan) Kepada Menteri Negara Badan Usaha Milik Negara, tidak berlaku bagi Persero yang didirikan berdasarkan Peraturan Pemerintah ini. Pasal II ini Pemerintah tanggal Peraturan diundangkannya Peraturan Pemerintah Nomor 5 Tahun 2005 tentang Penyertaan Modal Negara Republik Indonesia untuk (Persero) di Bidang Pendirian Perusahaan Perseroan Pembiayaan Sekunder Perumahan. berlaku sejak Agar . . . setiap Agar pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Pemerintah Peraturan ini Ditetapkan di Jakarta Pada tanggal 29 Desember 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta Pada tanggal 29 Desember 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 163 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Asisten Deputi Perundang-undangan Bidang Perekonomian, SETIO SAPTO NUGROHO SETIO SAPTO NUGROHO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

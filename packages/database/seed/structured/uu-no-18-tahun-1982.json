@@ -1,0 +1,93 @@
+{
+ "slug": "uu-no-18-tahun-1982",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-18-tahun-1982",
+   "detailsId": "47029",
+   "judul": "UU No. 18 Tahun 1982 tentang Pembentukan Pengadilan Tinggi Sulawesi Tengah di Palu dan Perubahan Wilayah Hukum Pengadilan Tinggi Manado - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35859/UU%20Nomor%2018%20Tahun%201982.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:49:47.385382+00:00"
+  },
+  "sha256": "58b16e0552015d069a0a53b497fc1098503054fd6b4b7a0bd3bfd0ffc8c3e00e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-18-tahun-1982/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-1982/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Membentuk pengadilan tinggi Sulawesi Tengah yang berkedudukan di Palu.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-1982/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Wilayah hukum pengadilan tinggi sebagaimana dimaksud dalam ayat (1) meliputi I wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat Sulawesi Tengah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-1982/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Wilayah hukum Pengadilan Tinggi Manado dikurangi dengan wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat I Sulawesi Tengah.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-1982/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Perkara-perkara yang berasal dari pengadilan negeri dalam Propinsi Daerah Tingkat I Sulawesi Tengah yang pada saat mulai berlakunya undang-undang ini, belum diputus oleh Pengadilan Tinggi Manado, tetap didaftar, diperiksa dan diputus oleh Pengadilan Tinggi Manado sampai saat diresmikannya Pengadilan Tinggi Sulawesi Tengah. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-1982/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 20 Agustus 1982 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 20 Agustus 1982 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1982 NOMOR 45",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

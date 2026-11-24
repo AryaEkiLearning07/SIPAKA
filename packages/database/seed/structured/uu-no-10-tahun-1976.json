@@ -1,0 +1,61 @@
+{
+ "slug": "uu-no-10-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa pada tanggal 10 Pebruari 1976 di Jakarta telah ditandatangani perjanjian Ekstradisi antara Republik Indonesia dan Republik Philipina dengan disertai Protokol;",
+   "bahwa Perjanjian serta Protokol tersebut perlu disahkan dengan undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-10-tahun-1976",
+   "detailsId": "47216",
+   "judul": "UU No. 10 Tahun 1976 tentang Pengesahan Perjanjian Ekstradisi Antara Republik Indonesia dan Republik Philippina Serta Protokol - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36149/UU%20Nomor%2010%20Tahun%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:52:04.967783+00:00"
+  },
+  "sha256": "31067e52b4454a4add267cdcdef0fcfd94730be76da0108f9fecc33f41287870",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-10-tahun-1976/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Philippina serta Protokol tertanggal 10 Pebruari 1976, yang salinan naskahnya dilampirkan pada undang-undang ini. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1976/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 26 Juli 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 26 Juli 1976 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-23-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan hasil-hasil penelitian, Arga Makmur di Daratan Lajau (Lubuk Saung) Kecamatan Lais Kabupaten Daerah Tingkat II Bengkulu Utara dipandang memenuhi syarat sebagai ibukota Kabupaten Daerah Tingkat II Bengkulu Utara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-23-tahun-1976",
+   "detailsId": "67561",
+   "judul": "PP No. 23 Tahun 1976 tentang Pemindahan Ibukota Kabupaten Daerah Tingkat II Bengkulu Utara Dari Kota Bengkulu (Kotamadya Daerah Tingkat II Bengkulu) Ke Arga Makmur Di Kabupaten Daerah Tingkat II Bengkulu Utara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57900/PP%20NO%2023%20TH%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:51:38.512332+00:00"
+  },
+  "sha256": "dfc191f1951607ceb40d1b0c5a55109555225cc2b8f4ba550539e40755b4aec0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-23-tahun-1976/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1) Ibukota Kabupaten Daerah Tingkat II Bengkulu Utara dipindahkan tempat kedudukannya dari kota Bengkulu (Kotamadya Daerah Tingkat II Bengkulu) ke Arga Makmur di Kabupaten Daerah Tingkat II Bengkulu Utara seluas ± 100 km2 dengan batas-batas dari km 17 ke Utara meliputi Dusun Gunung Selan, tepian kiri menyusur Sungai Lais menurut jalan Kabupaten dari Gunung Selan ke Kuro Tidur, dengan batas Sungai Kemangar, garis lurus menuju ke Timur memotong sungai Nokan, meliputi Bendungan terus ke Telatang Kecil diseberang jembatan, terus menuju ke Selatan meliputi Dusun Talang Congok, Dusun Pematang Sapang dan Dusun Pagar Banyu Marga Air Besi Kecamatan Kerkap, menyusur Air Napal terus menuju ke Barat, meliputi Dusun Gardu Marga Air Besi, meliputi Dusun Kali dan Dusun Talang Danau Marga Lais dan terus meliputi Dusun Gunung Selan km 17 dari Lais.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-23-tahun-1976/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pemerintah … Pemerintah Kabupaten Daerah Tingkat II Bengkulu Utara berkedudukan di Arga Makmur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1976/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Tempat kedudukan Kantor-kantor Wilayah Tingkat Kabupaten Daerah Tingkat II Bengkulu Utara disesuaikan dengan tempat kedudukan Pemerintah Daerah Tingkat II Bengkulu Utara sebagaimana dimaksud dalam Pasal 1.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1976/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Segala sesuatu yang berkenaan dengan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Dalam Negeri sesuai dengan peraturan perundang-undangan yang berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1976/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 2 Oktober 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 2 Oktober 1976 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

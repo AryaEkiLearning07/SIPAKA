@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-11-tahun-1949",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk menerima baik Rancangan Konstitusi Republik Indonesia Serikat oleh Republik Indonesia diperlukan Undang-Undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-1949",
+   "detailsId": "33416",
+   "judul": "UU No. 11 Tahun 1949 tentang Pengesahan Konsitusi Republik Indonesia Serikat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/22470/UU%20Nomor%2011%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:09:47.355988+00:00"
+  },
+  "sha256": "a570c986dd2bda34082680fc34663f44aff8fcebfbdcd2bc6486bbcdbc864bd9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

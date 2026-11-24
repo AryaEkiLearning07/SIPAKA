@@ -1,0 +1,44 @@
+tok 1.0 "Buat Thread Diskusi (Forum Diskusi Kasus)"
+
+pool p "Buat Thread Diskusi" process=buat_thread_diskusi
+  store d_thread "Thread Diskusi"
+  start mulai "Judul dan isi thread diterima" message="Judul dan isi thread"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service tipe "Pilih Tipe Thread"
+  service kategori "Tetapkan Kategori Hukum"
+  xor tautan "Menautkan UU?"
+  call cari "Cari Undang-Undang" process=cari_undang_undang
+  service tautkan "Tautkan Rujukan UU"
+  xor gabung
+  service valid "Validasi Isi Thread"
+  xor ok "Isi thread valid?"
+  service simpan "Terbitkan thread"
+  call poin "Beri Poin Reputasi" process=kelola_reputasi doc="Langkah 'Beri Poin Reputasi' pada proses Kelola Reputasi"
+  end selesai "Thread diterbitkan" message="Konfirmasi thread terbit"
+  send pesan "Kirim pesan kesalahan isi thread" message="Pesan kesalahan isi thread"
+  receive perbaiki "Terima isi thread yang diperbaiki" message="Isi thread diperbaiki"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> tipe "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow tipe -> kategori -> tautan
+flow tautan -> cari "ya" when="tautkanUU"
+flow tautan -> gabung "tidak" default
+flow cari -> tautkan -> gabung
+flow gabung -> valid -> ok
+flow ok -> simpan "ya" when="threadValid"
+flow ok -> pesan "tidak" default
+flow pesan -> perbaiki -> valid
+flow simpan -> poin -> selesai
+
+writes simpan d_thread
+
+message user -> mulai "Judul dan isi thread"
+message tolak -> user "Akses ditolak"
+message selesai -> user "Konfirmasi thread terbit"
+message pesan -> user "Pesan kesalahan isi thread"
+message user -> perbaiki "Isi thread diperbaiki"

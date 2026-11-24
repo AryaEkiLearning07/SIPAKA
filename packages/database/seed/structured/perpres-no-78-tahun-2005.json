@@ -1,0 +1,99 @@
+{
+ "slug": "perpres-no-78-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa pulau-pulau kecil terluar Indonesia memiliki nilai strategis sebagai Titik Dasar dari Garis Pangkal Kepulauan Indonesia dalam penetapan wilayah Perairan Indonesia, Zona Ekonomi Eksklusif Indonesia, dan Landas Kontinen Indonesia;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Presiden tentang Pengelolaan Pulau-pulau Kecil Terluar;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-78-tahun-2005",
+   "detailsId": "42604",
+   "judul": "PERPRES No. 78 Tahun 2005 tentang Pengelolaan Pulau-Pulau Kecil Terluar - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73280/PERPRES%20NO%2078%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:46.832116+00:00"
+  },
+  "sha256": "87022a9657467dc5c83e82e86ccaf97a23e3a000be4bc856baaba2c5e2356288",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 2,
+  "huruf": 2
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-78-tahun-2005/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-78-tahun-2005/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-78-tahun-2005/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam Peraturan Presiden ini yang dimaksud dengan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-78-tahun-2005/pasal-1/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pengelolaan pulau-pulau kecil terluar adalah rangkaian kegiatan yang dilakukan secara terpadu untuk memanfaatkan dan mengembangkan potensi sumber daya pulau-pulau kecil terluar dari wilayah Republik Indonesia untuk menjaga keutuhan Negara Kesatuan Republik Indonesia.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-78-tahun-2005/pasal-1/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pulau Kecil Terluar adalah pulau dengan luas area kurang atau sama dengan 2000 km2 (dua ribu kilometer persegi) yang memiliki titik-titik dasar koordinat geografis yang menghubungkan garis pangkal laut kepulauan sesuai dengan hukum internasional dan nasional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-78-tahun-2005/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pulau . . . Pulau-pulau kecil terluar sebagaimana dimaksud pada ayat (1) huruf b dan koordinat titik terluarnya adalah sebagaimana tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,26 @@
+tok 1.0 "Otorisasi Akses (Kelola Akun & Akses)"
+
+pool p "Otorisasi Akses" process=otorisasi_akses
+  store d_sesi "Sesi"
+  store d_peran "Peran Pengguna"
+  start mulai "Permintaan akses diterima"
+  service token "Validasi Token Sesi"
+  xor tokenok "Token valid dan belum kedaluwarsa?"
+  service izin "Periksa Izin Peran"
+  xor izinok "Peran berhak mengakses fungsi?"
+  end diizinkan "Akses diizinkan"
+  end tolaksesi "Akses ditolak: sesi tidak valid"
+  end tolakperan "Akses ditolak: izin tidak cukup"
+
+
+flow mulai -> token -> tokenok
+flow tokenok -> izin "ya" when="tokenValid"
+flow tokenok -> tolaksesi "tidak" default
+flow izin -> izinok
+flow izinok -> diizinkan "ya" when="peranBerhak"
+flow izinok -> tolakperan "tidak" default
+
+reads token d_sesi
+reads izin d_peran
+
+

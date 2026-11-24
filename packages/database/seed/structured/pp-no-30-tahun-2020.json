@@ -1,0 +1,309 @@
+{
+ "slug": "pp-no-30-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-30-tahun-2020",
+   "detailsId": "139577",
+   "judul": "PP No. 30 Tahun 2020 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/130908/PP%20Nomor%2030%20Tahun%202020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-56-tahun-2015",
+    "pp-no-77-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T00:29:39.993265+00:00"
+  },
+  "sha256": "071bc591c1f7b4f2546cf5797752f9524eb8da88f11a2e4bc8948b06efc5a4c1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 13,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Undang-Undang Pajak Penghasilan adalah Undang- Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan Keempat atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, pemotong pajak, dan pemungut pajak, yang mempunyai hak dan kewajiban perpajakan sesuai ketentuan peraturan perundangan-undangan perpajakan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Perseroan Terbuka adalah perseroan publik atau perseroan yang melakukan penawaran umum saham, sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Wajib Pajak Perseroan Terbuka adalah Wajib Pajak badan dalam negeri yang berbentuk Perseroan Terbuka.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Pihak adalah orang pribadi atau badan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender kecuali Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Surat Pemberitahuan Tahunan Pajak Penghasilan yang selanjutnya disebut SPT Tahunan PPh adalah Surat Pemberitahuan Pajak Penghasilan untuk suatu Tahun Pajak atau bagian Tahun Pajak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-1/angka-8",
+     "type": "ANGKA",
+     "orderIndex": 8,
+     "label": "Angka 8",
+     "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara. Pasal 2. . . SK No 024428 A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Tarif Pajak Penghasilan yang diterapkan atas penghasilan kena pajak bagi Wajib Pajak badan dalam negeri dan bentuk usaha tetap adalah sebesar: a. 22oh (dua puluh dua persen) yang berlaku pada Tahun Pajak 2O2O dan Tahun Pajak 2O2l; dan b. 2Oo/o (dua puluh persen) yang mulai berlaku pada Tahun Pajak 2022.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Wajib Pajak dalam negeri:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "berbentuk Perseroan Terbuka; saham sebagaimana dimaksud pada ayat (1) huruf b harus dimiliki oleh paling sedikit 3OO (tiga ratus) Pihak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "dengan jumlah keseluruhan saham yang disetor diperdagangkan pada bursa efek di Indonesia paling sedikit 4Oo/o (empat puluh persen); dan masing-masing Pihak sebagaimana dimaksud dalam huruf a hanya boleh memiliki saham kurang dari Soh (lima persen) dari keseluruhan saham yang ditempatkan dan disetor penuh;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "memenuhi persyaratan tertentu, dapat memperoleh tarif sebesar 3%o (tiga persen) lebih rendah dari tarif sebagaimana dimaksud dalam Pasal 2. (21 Persyaratan tertentu sebagaimana dimaksud pada ayat (1) huruf c meliputi: ketentuan sebagaimana dimaksud pada ayat (1) huruf b serta dalam huruf a dan huruf b harus dipenuhi dalam waktu paling singkat 183 (seratus delapan puluh tiga) hari kalender dalam jangka waktu 1 (satu) Tahun Pajak; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "pemenuhan persyaratan sebagaimana dimaksud pada ayat (1) huruf b serta dalam huruf a, huruf b, dan huruf c dilakukan oleh Wajib Pajak Perseroan Terbuka dengan menyampaikan laporan kepada Direktorat Jenderal Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pihak . SK No 024429 A REPUBLIK INDONESIA Pihak sebagaimana dimaksud pada ayat (21 huruf a dan huruf b tidak termasuk:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-3/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Wajib Pajak Perseroan Terbuka yang membeli kembali sahamnya; dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-3/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "yang memiliki hubungan istimewa sebagaimana diatur dalam Undang-Undang Pajak Penghasilan dengan Wajib Pajak Perseroan Terbuka.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Hubungan istimewa sebagaimana dimaksud pada ayat (3) huruf b bagi Wajib Pajak Perseroan Terbuka meliputi pemegang saham pengendali dan/atau pemegang saham utama sebagaimana diatur dalam ketentuan perundang- undangan di bidang pasar modal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-3/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak terpenuhi, Pajak Penghasilan terutang dihitung dengan menggunakan tarif Pajak Penghasilan sebagaimana dimaksud dalam Pasal 2.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Dalam hal tertentu, ketentuan sebagaimana dimaksud dalam Pasal 3 ayat (3) huruf a dapat dikecualikan berdasarkan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Ketua Dewan Komisioner Otoritas Jasa Keuangan atau pejabat yang ditunjuk menyampaikan daftar Wajib Pajak Perseroan Terbuka yang memenuhi persyaratan tertentu sebagaimana dimaksud dalam Pasal 3 ayat (2) dan ayat (3) huruf a kepada Menteri melalui Direktur Jenderal Pajak.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Ketentuan lebih lanjut mengenai bentuk dan tata cara penyampaian: a. laporan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf d; dan b.daftar... SK No 024430 A FRESIDEN REPUtsLIK INDONESIA b daftar Wajib Pajak Perseroan Terbuka yang memenuhi persyaratan tertentu sebagaimana dimaksud dalam Pasal 5, diatur dalam Peraturan Menteri",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku: a. pemenuhan persyaratan tertentu sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf c dari awal Tahun Pajak 2O2O sampai dengan berlakunya Peraturan Pemerintah ini, mengikuti ketentuan sebagaimana diatur dalam Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 56 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka; dan b. atas Wajib Pajak Perseroan Terbuka yang menyampaikan SPT Tahunan PPh Tahun Pajak 2Ol9 dan/atau Tahun Pajak sebelumnya; dan/atau",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-30-tahun-2020/pasal-7/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "pembetulan SPT Tahunan PPh Tahun Pajak 2OI9 dan/atau Tahun Pajak sebelumnya, tetap berlaku ketentuan sebagaimana diatur dalam Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 56 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka. Pasal 8. . . SK No 040641 A trRESIDEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, semua peraturan pelaksanaan dari Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2Ol3 Nomor 186, Tambahan Lembaran Negara Republik Indonesia Nomor 5465) sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 56 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 77 Tahun 2OI3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 180, Tambahan Lembaran Negara Republik Indonesia Nomor 57251, dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Pemerintah ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan Pemerintah Nomor 77 Tahun 2013 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2Ol3 Nomor 186, Tambahan Lembaran Negara Republik Indonesia Nomor 5465) sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 56 Tahun 2015 tentang Perubahan atas Peraturan Pemerintah Nomor 77 Tahun 2Ol3 tentang Penurunan Tarif Pajak Penghasilan bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 180, Tambahan Lembaran Negara Republik Indonesia Nomor 5725l', dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-2020/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar SK No 024432 A REPUBUK INDONESIA -7 Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Juni 2O2O PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 19 Juni 2O2O MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2O NOMOR 152 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA LIK INDONESIA Hukum dan -undangan, anna Djaman SK No 040637 A REFUBLIK INDONESIA",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

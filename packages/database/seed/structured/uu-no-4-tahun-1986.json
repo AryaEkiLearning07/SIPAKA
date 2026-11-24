@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-4-tahun-1986",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Negara Tahun Anggaran 1982/1983 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 4 Juni 1986 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1986 NOMOR 40 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 4 TAHUN 1986 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1982/1983 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1982/1983 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1982/1983, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang-undang Nomor 5 Tahun 1982 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1982/1983. PASAL DEMI PASAL Pasal 1 Cukup jelas. Pasal 2 Cukup jelas. TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1986 NOMOR 3337",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-1986",
+   "detailsId": "46909",
+   "judul": "UU No. 4 Tahun 1986 tentang Perhitungan Anggaran Negara Tahun Anggaran 1982/1983 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35696/UU%20Nomor%204%20Tahun%201986.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:47:15.189944+00:00"
+  },
+  "sha256": "a65a69c8d5d8b99dcf21ba2783bae5dffae51e3048c99ef12db7d4c100640483",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-1986/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-1986/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penerimaan Negara dalam Tahun Anggaran 1982/1983 adalah sebesar Rp 14.379.819.192.957,01 (empat belas trilyun tiga ratus tujuh puluh sembilan milyar delapan ratus sembilan belas juta seratus sembilan puluh dua ribu sembilan ratus lima puluh tujuh satu perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1986/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengeluaran Negara dalam Tahun Anggaran 1982/1983 adalah sebesar Rp 14.407.769.505.712,69 (empat belas trilyun empat ratus tujuh milyar tujuh ratus enam puluh sembilan juta lima ratus lima ribu tujuh ratus dua belas enam puluh sembilan perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1986/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Saldo-anggaran-kurang Perhitungan Anggaran Tahun Anggaran 1982/1983 adalah sebesar Rp 27.950.312.755,68 (dua puluh tujuh milyar sembilan ratus lima puluh juta tiga ratus dua belas ribu tujuh ratus lima puluh enam puluh delapan perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1986/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian penerimaan, pengeluaran, dan saldo-anggaran-kurang sebagaimana dimaksud dalam ayat (1) sampai dengan ayat (3), adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

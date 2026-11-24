@@ -1,0 +1,741 @@
+{
+ "slug": "pp-no-34-tahun-1949",
+ "preamble": {
+  "menimbang": [
+   "bahwa, untuk menjamin penghidupan pegawai Negeri yang diperhentikan dengan hormat dari jabatan Negeri setelah menyumbangkan tanaganya untuk kepentingan Negara, perlu diadakan peraturan tentang pemberian pensiun; Mendengar : putusan Sidang Dewan Menteri tanggal 24 Desember 1949;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-34-tahun-1949",
+   "detailsId": "64252",
+   "judul": "PP No. 34 Tahun 1949 tentang Pemberian Pensiun Kepada Pegawai Negeri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54463/PP%20No%2034%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:11.177117+00:00"
+  },
+  "sha256": "b3d5c7a322d1363d379abbdfde70716cad5103ed3178a65aca880c715fe34829",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 23,
+  "ayat_angka": 31,
+  "huruf": 17
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-34-tahun-1949/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Arti Pegawai Negeri Yang dimaksud dengan Pegawai Negeri dalam Peraturan ini ialah mereka, yang diangkat sebagai pegawai Negeri tetap oleh Pembesar Sipil yang berwajib dan menerima gaji dari anggaran Negara untuk belanja Pegawai.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Masa kerja",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Masa kerja yang dapat dihitung untuk menentukan pensiun ialah waktu mulai tanggal 17 agustus 1945: huruf b di atas, maka yang berkepentingan dalam waktu satu tahun sesudah ia diangkat menjadi pegawai Negeri tetap harus mengajukan surat permohonan kepada Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sebagai pegawai Negeri dengan menerima gaji atau uang tunggu yang memberatkan anggaran belanja Negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sebagai pegawai Negeri tidak tetap, yang sudah disahkan sebagai masa kerja menurut ayat (3) pasal ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sebagai pegawai Negeri tetap diperbantukan pada Pemerintahan Daerah Otonom dengan menerima gaji dari Daerah Otonom tersebut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam perhitungan masa kerja untuk pensiun, pecahan bulan dibulatkan menjadi sebulan penuh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk mengesahkan masa kerja sebagai Pegawai Negeri tidak tetap termaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Dasar Pensiun Yang dimaksud dengan dasar pensiun dalam Peraturan ini ialah tertinggi sebulan yang telah diterima.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Gaji",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Yang dimaksud dengan gaji menurut Peraturan ini ialah pokok, termasuk gaji tambahan peralihan, yang diterima menurut Peraturan gaji yang berlaku pada atau sesudah tanggal 17 Agustus 1945, tidak terhitung tunjangan-tunjangan dan sebagainya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jikalau pegawai mendapat uang tunggu atau beristirahat didalam Negeri dengan hanya menerima sebagian dari gaji semestinya, maka yang dimaksud gaji untuk menghitung dasar pensiun termaksud pada pasal 3 adalah gaji menurut ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Hak pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai yang diperhentikan dengan hormat dari jabatan Negeri berhak menerima pensiun, jikalau:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mempunyai masa kerja sekurang-kurangnya 25 tahun dan telah mencapai umur 50 tahun dalam jabatan Negeri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dianggap tidak dapat bekerja lagi dalam jabatan apapun dan dalam ia menjalankan kewajiban jabatannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mempunyai masa kerja sekurang-kurangnya 5 tahun dan dianggap tidak dapat bekerja lagi dalam jabatan apapun juga dan dalam ia menjalankan kewajiban jabatannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mempunyai masa kerja sekurang-kurangnya 15 tahun dan tidak mencapai umur dalam jabatan Negeri sedemikian, sehingga jumlah masa kerja dan umur tidak kurang dari 75 tahun dan diperhentikan dengan hormat dari jabatan Negeri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam perhitungan umur, pecahan bulan dibulatkan menjadi sebulan penuh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Jumlah pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jumlah pensiun adalah sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dalam hal termaksud pada pasal 5 ayat (1) huruf a, 40% dan dasar pensiun, dengan ketentuan, bahwa untuk tiap-tiap tahun masa kerja lebih dari 25 tahun, jumlah tetapi jumlah semua tersebut ditambahkan dengan 2% dari dasar pensiun, akan paling banyak 50% dari dasar pensiun sebulan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dalam hal termaksud pada pasal 5 ayat (1) huruf b, 50% dari dasar pensiun sebulan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dalam hal termaksud pada pasal 5 ayat (10 huruf c, dan d untuk tiap-tiap tahun masa kerja 1,6% dari \"dasar pensiun\" apakah masa kerja itu tidak lebih dari 25 tahun dan untuk tiap-tiap tahun masa kerja lebih dari 25 tahun jumlah tersebut ditambah dengan 2% pensiun dengan sekurang-kurangnya 25% dan paling banyak 50% dari dasar pensiun sebulan. ketentuan, pensiun\", jumlah bahwa \"dasar dari",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah pensiun menurut ayat (1) di atas paling sedikit Rp. 45,- sebulan dan bagi mereka yang beristeri (bersuami) atau mempunyai anak kandung atau anak tiri yang menjadi tanggungannya penuh, jumlah pensiun itu paling sedikitnya Rp. 65,- sebulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jumlah pensiun dibayar dengan perhitungan rupiah bulat; pecahan rupiah dibulatkan menjadi satu rupiah penuh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Keterangan hal umur dalam surat pengangkatan. Pada surat pengangkatan pertama sebagai pegawai Negeri tetap harus disebutkan tanggal kelahiran, berdasarkan bukti-bukti yang sah atau, jikalau tanggal kelahiran itu tidak dapat diterangkan, disebutkan umur menurut taksiran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Permintaan pensiun Untuk mendapat pensiun yang berkepentingan harus mengajukan surat permintaan kepada Menteri Keuangan dengan keterangan alasan-alasan pemberhentian, disertai: a. daftar riwayat pekerjaan, yang disahkan oleh yang berwajib; b. surat penghentian pembayaran gaji; c. surat keterangan dari yang berkepentingan, bahwa semua surat-surat milik Negara, baik yang asli maupun turunan atau kutipan, jika surat-surat itu berhubung dengan kewajiban jabatan semula ada padanya, telah diserahkan kembali kepada yang berwajib; jumlah yang menerangkan keterangan kantornya, d. surat dari dan gaji penghasilan-penghasilan lainnya selama delapan bulan yang terakhir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Yang berhak memberi pensiun Pensiun diberikan oleh Menteri Keuangan dengan menyebutkan alasan-alasan pemberiannya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Pensiun sementara Apabila, berhubung dengan sesuatu hal, belum diperoleh semua keterangan untuk menetapkan jumlah pensiun, kepada yang berkepentingan dapat diberikan pensiun sementara berdasarkan keterangan-keterangan yang sudah ada dan dianggap sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Mulai dan berakhirnya pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pensiun dibayarkan mulai bulan berikutnya bulan pemberhentian dari jabatan Negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pensiun berakhir pada bulan berikutnya bulan yang berkepentingan meninggal dunia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tersebut pada pasal 13, maka pensiun berakhir pada bulan hal itu terjadi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Pencabutan pemberian pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Apabila yang mendapat pensiun diangkat kembali menjadi Pegawai Negeri, maka pemberian pensiun dicabut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jikalau yang termaksud pada ayat (1) kemudian diperhentikan dari jabatan Negeri, maka pensiunnya diberikan lagi dan perlu diatur kembali atas dasar jumlah masa kerja lama dan baru, apabila perhitungan ini lebih menguntungkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Pencabutan hak pensiun Hak pensiun hanya dapat dicabut dalam salah satu hal di bawah: a. Jikalau yang berkepentingan tidak seizin Presiden menjadi anggota tentara asing atau menjadi pegawai Negeri asing; Jikalau kemudian ternyata, bahwa yang berkepentingan dengan sengaja telah mengajukan keterangan-keterangan yang tidak benar atas dasar mana pensiunya diberikan. b.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Tanggungan pinjaman Surat penetapan pensiun setahu Kepala Daerah yang bersangkutan boleh dipergunakan untuk tanggungan guna mendapat pinjaman salah satu Bank kepunyaan Negara atau kepunyaan Pemerintah Daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pemindahan hak pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hak pensiun tidak boleh dipindahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Orang yang menerima pensiun tidak boleh menggadaikan dengan maksud itu secara lain menguasakan haknya kepada siapapun juga. di atas dianggap tidak mempunyai kekuatas hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Semua perjanjian yang bertentangan dengan yang dimaksudkan dalam ayat-ayat (1) dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Perhitungan kembali pensiun Apabila perhitungan pensiun yang telah ditetapkan dikemudian hari ternyata keliru, maka penetapan tersebut harus diubah sebagaimana mestinya dengan surat keputusan baru, yang memuat alasan-alasan perubahan itu, akan tetapi kelebihan pensiun yang mungkin telah terbayarkan tidak dipungut kembali.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Iuran pensiun",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai, yang terhadapnya Peraturan ini berlaku, diwajibkan membayar iuran pensiun, tiap-tiap bulan sebanyak 2% dari gaji, uang tunggu atau bagian gaji yang diterimanya. Apabila karena rupa-rupa sebab pemungutan iuran pensiun itu tidak dapat didalamkan, maka jumlah iuran pensiun yang belum dipungut itu dibayar berangsur-angsur tiap-tiap bulan 2% dari gaji, uang tunggu atau bagian gaji yang diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk waktu sebagai Negeri tidak tetap, yang disahkan sebagai masa kerja menurut ketentuan dalam pasal 2 ayat (3) maka pegawai yang bersangkutan diharuskan membayar iuran pensiun tiap-tiap bulan 2% dari gaji yang diterima selama waktu tersebut dengan mengingat ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jika iuran pensiun termaksud dalam ayat (2) pada waktu pegawai diperhentikan dari jabatan Negeri dengan hak pensiun belum dapat dibayar penuh, maka sisa iuran pensiun tersebut harus dipungut berangsur-angsur tiap-tiap bulan 2% dari pensiun tadi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pegawai tidak dibebaskan dari pembayaran iuran pensiun menurut Peraturan ini, sedang iuran pensiun yang telah dipungut tidak dibayarkan kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1949/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PERATURAN ISTIMEWA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Masa Kerja sebelum 17 Agustus 1945",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dengan tidak mengurangi ketentuan dalam ayat (2) dianggap sebagai masa kerja menurut dihitung pasal 2.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "waktu sebagai pegawai tetap maupun tidak tetap pada Pemerintah Hindia sipil maupun militer gaji, wachtgeld, nonactiveitsbezoldiging atau onderstand bij wijze van wachtgeld, yang memberatkan anggaran Negara, dan dihitung separoh, selama istirahat di luar negeri atau di dalam negeri sebagai ganti, selama istirahat di luar negeri (geconverteerd verlof) didapat verlofsbezoldiging; diterima apabila penuh, selama itu",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "waktu sebagai pegawai negeri dan/atau pekerja negeri semasa Pemerintahan Jepang dengan mendapat gaji penuh atau tidak penuh dihitung penuh;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-18/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "waktu sebagai pegawai pada Perusahaan partikelir, yang kemudian menjadi Jawatan Pemerintah Republik Indonesia, dihitung penuh.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jikalau masa kerja termaksud dalam ayat (1) di atas menurut Peraturan lama belum atau tidak dihitung sebagai masa kerja untuk menghitung pensiun, maka masa kerja itu harus disahkan lebih dahulu sebagai masa kerja untuk perhitungan pensiun menurut ketentuan dalam pasal 2 ayat (3) dengan ketentuan, bahwa terhadap mereka yang sebelum tanggal 17 Agustus 1945 bekerja pada perusahaan-perusahaan partikelir yang sekarang menjadi Jawatan Pemerintahan, pengesahan masa kerja menurut pasal 2 ayat (3) tersebut hanya terbatas sampai masa kerja, selama mereka tidak membayar iuran untuk Fonds pensiun partikelir. Dalam hal ini iuran pensiun dihitung atas dasar gaji yang diterima pada waktu uang berkepentingan diangkat menjadi pegawai negeri tetap menurut Peraturan ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Hak pensiun istimewa",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mereka yang pada tanggal 1 Januari 1946 sudah menjadi pegawai negeri menurut Peraturan ini, berhak mendapat pensiun setelah mempunyai masa kerja sebenarnya sekurang-kurangnya lima tahun dan mencapai umur 50 tahun dalam jabatan negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal yang termaksud pada ayat (1) di atas, jumlah pensiun untuk tiap-tiap tahun masa kerja adalah 1,6% dari dasar pensiun apabila masa kerja itu tidak lebih dari 25 tahun, dan tiap-tiap tahun masa kerja lebih dari 25 Tahun jumlah tersebut ditambah dengan 2% dari dasar pensiun, dengan ketentuan bahwa jumlah pensiun sekurang-kurangnya 25% dan paling banyak 50% dari dasar pensiun sebulan, dengan memperhatikan ketentuan pada pasal 6 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Masa kerja istimewa Masa kerja mulai tanggal 17 Agustus 1945 dalam Pemerintahan Republik Indonesia sampai pada saat) yang akan ditentukan oleh Pemerintah digandakan dua kali untuk perhitungan pensiun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1949/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PERATURAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Yang dianggap sebagai pegawai negeri tetap, selain yang termaksud dalam pasal 1 ialah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-21/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mereka yang pada tanggal 17 Agustus 1945 sampai Peraturan ini berlaku telah menjadi pegawai negeri dan pada tanggal 9 Maret 1942 terhadapnya berlaku:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-21/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Peraturan pensiun pegawai sipil;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-21/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Peraturan pensiun pegawai Daerah Otonom;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-21/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Peraturan pensiun militer; 4. salah satu Peraturan pensiun perusahaan partikelir, perusahaan mana pada hari mulai berlakunya Peraturan ini, telah menjadi Jawatan atau Kantor Pemerintah;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-21/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mereka, tidak termasuk pada huruf a, yang sejak tanggal 1 Januari 1946 terus menerus bekerja sebagai pegawai negeri sampai pada hari mulai berlakunya Peraturan ini.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1949/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mereka yang termaksud dalam ayat (1) berhak menerima pensiun jika diperhatikan dengan hormat dari jabatannya antara tanggal 17 Agustus 1945 dan tanggal mulai berlakunya Peraturan ini, apabila memenuhi syarat-syarat tersebut dalam pasal 5, dengan ketetapan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-21/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bahwa, jika kepadanya telah diberikan uang kurnia menurut Osamu Seirei No. 1 atau tunjangan kelepasan menurut Peraturan gaji pekerja negeri penduduk di Jawa, maka tetapi yang uang berkepentingan paling sedikit saban bulan harus menerima 75% dari pensiun yang ini harus diperhitungkan dengan jumlah pensiun, akan akan ditetapkan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-34-tahun-1949/pasal-21/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bahwa, apabila kepadanya telah diberikan tunjangan pensiun menurut Peraturan Pemerintah No. 14 Tahun 1947 juncto No. 30 tahun 1948, tunjangan pensiun itu mulai berlakunya Peraturan ini diubah menjadi pensiun menurut Peraturan ini, sehingga jika kepadanya telah diberikan uang kurnia menurut Osamu Seirei No. 1 atau tunjangan kelepasan menurut Peraturan Gaji pekerja negeri penduduk di Jawa dan uang tersebut belum atau belum semua diperhitungkan menurut Peraturan Pemerintah No. 14 Tahun 1947, maka jumlah itu harus diperhitungkan dengan jumlah pensiun, akan tetapi yang berkepentingan paling sedikit saban bulan harus menerima 75% dari pensiun yang akan ditetapkan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-34-tahun-1949/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Aturan-aturan khusus untuk menjalankan Peraturan ini ditetapkan oleh Menteri Keuangan. Peraturan ini mulai berlaku pada tanggal 17 Agustus 1945.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-34-tahun-1949/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Ditetapkan di Yogyakarta Pada tanggal 25 Desember 1949 PRESIDEN REPUBLIK INDONESIA, ttd. SOEKARNO. Diumumkan Pada tanggal 26 Desember 1949 Sekretaris Negara, ttd. A.G. PRINGGODOGDO. Acting Perdana Menteri, ttd. SOESANTO TIRTOPRODJO.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

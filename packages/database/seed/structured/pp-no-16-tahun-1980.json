@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-16-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa dianggap perlu untuk meningkatkan penghasilan Perintis Pergerakan Kebangsaan/Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat dalam batas-batas kemampuan keuangan Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1980",
+   "detailsId": "66571",
+   "judul": "PP No. 16 Tahun 1980 tentang Pemberian Tunjangan Perbaikan Penghasilan Bagi Perintis Pergerakan Kemerdekaan/Kebangsaan/Kemerdekaan Dan Bekas Anggota Komite Nasional Indonesia Pusat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56901/PP%20NO%2016%20TH%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:50:14.652537+00:00"
+  },
+  "sha256": "542a0e99e673893e6a0a4aad3cfb645f1a4a54f18de897cf2f2c7145f60b2483",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-1980/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1) (2) tunjangan Kepada Perintis Pergerakan Kebangsaan/Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat serta janda/dudanya diberikan tunjangan perbaikan penghasilan. Pergerakan Besarnya Kebangsaan/Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat serta janda/dudanya sebagaimana dimaksud dalam ayat (1) ialah : a. Untuk Perintis Pergerakan Kebangsaan/Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat sebesar Rp.17.500,- (tujuh belas ribu lima ratus rupiah) sebulan; penghasilan perbaikan Perintis bagi b. Untuk janda/duda Perintis Pergerakan Kebangsaan/Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat sebesar Rp.10.500,- (sepuluh ribu lima ratus rupiah) sebulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Tunjangan perbaikan penghasilan bagi Perintis Pergerakan Kebangsaan/ Kemerdekaan dan bekas Anggota Komite Nasional Indonesia Pusat serta janda/dudanya sebagaimana dimaksud dalam Pasal 1 dibayarkan bersama-sama dengan pembayaran tunjangan setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1980/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan teknis tentang pelaksanaan Peraturan Pemerintah ini ditetapkan lebih lanjut oleh Menteri Keuangan dan Kepala Badan Administrasi Kepegawaian Negara baik secara bersama-sama atau sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1980/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 April 1980. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Maret 1980 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 13 Maret 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SOEDHARMONO, SH",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "slug": "pp-no-1-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa Pasal 32 Peraturan Pemerintah Nomor 14 Tahun 1993 Penyelenggaraan Program Jaminan Sosial Tenaga Kerja memberi peluang bagi tenaga kerja yang mengalami pemutusan hubungan kerja, untuk mencairkan Jaminan Hari Tua sebelum waktunya, dengan masa tunggu 6 (enam) bulan;",
+   "bahwa masa tunggu 6 (enam) bulan yang diatur dalam Peraturan Pemerintah Nomor 14 Tahun 1993 sudah tidak sesuai ini sehingga perlu diubah; lagi dengan kondisi saat",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, huruf b, dan huruf c, perlu menetapkan tentang Perubahan Keenam Atas Peraturan Pemerintah Nomor 14 Tahun 1993 tentang Penyelenggaraan Program Jaminan Sosial Tenaga Kerja; Pemerintah Peraturan"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-1-tahun-2009",
+   "detailsId": "4911",
+   "judul": "PP No. 1 Tahun 2009 tentang Perubahan Keenam atas Peraturan Pemerintah Nomor 14 Tahun 1993 tentang Penyelenggaraan Program Jaminan Sosial Tenaga Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36198/PP_No_1_2009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:37:33.017541+00:00"
+  },
+  "sha256": "a0bed256074450e555e476b7bf38e9dde454618d6940e048a9c44bcf8b0f3277",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-1-tahun-2009/pasal-32",
+   "type": "PASAL",
+   "orderIndex": 32,
+   "label": "Pasal 32",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-1-tahun-2009/pasal-32/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam hal tenaga kerja berhenti bekerja sebelum mencapai usia 55 (lima puluh lima) tahun dan mempunyai masa kepesertaan serendah-rendahnya 5 (lima) tahun dapat menerima Jaminan Hari Tua secara sekaligus. dibayarkan setelah melewati masa tunggu 1 (satu) bulan terhitung tenaga kerja yang sejak saat bersangkutan berhenti bekerja.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-1-tahun-2009/pasal-32/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Jaminan Hari Tua sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-1-tahun-2009/pasal-32/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Dalam hal tenaga kerja dalam masa tunggu sebagaimana dimaksud pada ayat (2) bekerja kembali, jumlah Jaminan Hari Tua yang menjadi haknya Tua diperhitungkan berikutnya. Jaminan dengan Hari",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-1-tahun-2009/pasal-32/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Ketentuan mengenai tata cara pembayaran Jaminan Hari Tua sebagaimana dimaksud pada ayat (2) diatur lebih lanjut dengan Peraturan Menteri. Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . setiap Agar pengundangan penempatannya Indonesia. orang mengetahuinya, memerintahkan dengan Pemerintah Peraturan dalam Lembaran Negara Republik ini Ditetapkan di Jakarta pada tanggal 12 Januari 2009 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 12 Januari 2009 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 6 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA RI Kepala Biro Peraturan Perundang-undangan Bidang Politik dan Kesejahteraan Rakyat, Wisnu Setiawan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..32): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

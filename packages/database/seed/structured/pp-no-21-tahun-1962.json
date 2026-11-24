@@ -1,0 +1,44 @@
+{
+ "slug": "pp-no-21-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan keluarnya Instruksi Presiden/Panglima Besar Komando Tertinggi Operasi Ekonomi No. Instr. 4/Ko. T.O.E. tahun 1962 tentang Penguasaan dan Pengusahaan Pelabuhan, maka perlu dicabut kembali berlakunya Peraturan Pemerintah No. 55 tahun 1951 tentang Perbaikan Pelabuhan sebagaimana telah diubah dengan Peraturan Pemerintah No. 62 tahun 1957."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-21-tahun-1962",
+   "detailsId": "72471",
+   "judul": "PP No. 21 Tahun 1962 tentang Pencabutan Peraturan Pemerintah No. 55 Tahun 1951 Jang Telah Diubah Dengan Peraturan Pemerintah No. 62 Tahun 1957 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62950/pp%20no%20021%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-62-tahun-1957",
+    "pp-no-55-tahun-1951"
+   ],
+   "scrapedAt": "2026-10-06T06:05:05.515164+00:00"
+  },
+  "sha256": "1437081a113ce50432738af7c0b351f479cbabcfeea8dd8b830768053bceaefc",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

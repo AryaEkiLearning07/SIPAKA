@@ -1,0 +1,44 @@
+{
+ "slug": "pp-no-23-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-23-tahun-1962",
+   "detailsId": "72476",
+   "judul": "PP No. 23 Tahun 1962 tentang Penyerahan Tugas dan Wewenang Serta Penyerahan Perusahaan Tertentu Departemen Perindustrian Rakyat Kepada Daerah Tingkat I - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62956/pp%20no%20023%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-13-tahun-1954",
+    "pp-no-12-tahun-1954"
+   ],
+   "scrapedAt": "2026-10-06T06:03:38.788577+00:00"
+  },
+  "sha256": "de4852f05f0f9aa69221eb9331a0bfaf71033e7f2cceea77c6868383e2891c31",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

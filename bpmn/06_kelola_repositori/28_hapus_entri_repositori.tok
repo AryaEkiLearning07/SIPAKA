@@ -1,0 +1,40 @@
+tok 1.0 "Hapus Entri Repositori (Kelola Repositori)"
+
+pool p "Hapus Entri Repositori" process=hapus_entri_repositori
+  store d_entri "Entri Repositori"
+  start mulai "Permintaan hapus entri diterima" message="Permintaan hapus entri"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor pemilik "Pengguna pemilik entri?"
+  end bukan "Penghapusan ditolak: bukan pemilik" message="Penghapusan ditolak"
+  send minta "Minta konfirmasi penghapusan" message="Permintaan konfirmasi hapus"
+  eventgw tunggu
+  catch ya "Pengguna mengonfirmasi hapus" message="Konfirmasi hapus"
+  catch tidak "Pengguna membatalkan hapus" message="Batal hapus"
+  service hapus "Hapus Entri Repositori"
+  end selesai "Entri dihapus" message="Konfirmasi entri dihapus"
+  end batal "Penghapusan dibatalkan"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> pemilik "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow pemilik -> minta "ya" when="pemilik"
+flow pemilik -> bukan "tidak" default
+flow minta -> tunggu
+flow tunggu -> ya
+flow tunggu -> tidak
+flow ya -> hapus -> selesai
+flow tidak -> batal
+
+writes hapus d_entri
+
+message user -> mulai "Permintaan hapus entri"
+message tolak -> user "Akses ditolak"
+message bukan -> user "Penghapusan ditolak"
+message minta -> user "Permintaan konfirmasi hapus"
+message user -> ya "Konfirmasi hapus"
+message user -> tidak "Batal hapus"
+message selesai -> user "Konfirmasi entri dihapus"

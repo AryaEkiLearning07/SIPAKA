@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-113-tahun-2012",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke dalam Modal Saham Perusahaan Perseroan (Persero) PT Garam;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-113-tahun-2012",
+   "detailsId": "5328",
+   "judul": "PP No. 113 Tahun 2012 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Garam - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34354/PP%20Nomor%20113%20Tahun%202012.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:34:42.502789+00:00"
+  },
+  "sha256": "8a494a1e33452321040eeaa8ed1d1a4c69c03d999c73cd782d446bbe9462d571",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-113-tahun-2012/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Garam yang didirikan berdasarkan Peraturan Pemerintah Nomor 12 Tahun 1991 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Garam menjadi Perusahaan Perseroan (Persero).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-113-tahun-2012/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-113-tahun-2012/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp100.000.000.000,00 (seratus miliar rupiah). bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2012 bagian dari alokasi penyertaan modal Negara pada BUMN Strategis sebesar Rp2.000.000.000.000,00 (dua triliun rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-113-tahun-2012/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-113-tahun-2012/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan ini mulai berlaku pada tanggal Agar . . . Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Peraturan Pemerintah ini Ditetapkan di Jakarta pada tanggal 24 Desember 2012 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 24 Desember 2012 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 282 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Deputi Bidang Perundang-undangan, Muhammad Sapta Murti SETIO SAPTO NUGROHO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

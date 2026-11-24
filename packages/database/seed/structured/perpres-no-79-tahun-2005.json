@@ -1,0 +1,62 @@
+{
+ "slug": "perpres-no-79-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut pada huruf a, dipandang perlu mencabut Keputusan Presiden Nomor 36 Tahun 1979 tentang Pengadaan Besi Baja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-79-tahun-2005",
+   "detailsId": "42605",
+   "judul": "PERPRES No. 79 Tahun 2005 tentang Pencabutan Keputusan Presiden Nomor 36 Tahun 1979 Tentang Pengadaan Besi Baja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73281/PERPRES%20NO%2079%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "keppres-no-36-tahun-1979"
+   ],
+   "scrapedAt": "2026-10-06T06:15:46.266265+00:00"
+  },
+  "sha256": "fb793ddd46f72da31c6625abf08ee6f38799310b9b309630a8c6de2d41a45009",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-79-tahun-2005/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Keputusan Presiden Nomor 36 Tahun 1979 tentang Pengadaan Besi Baja dicabut dan dinyatakan tidak berlaku. Pasal 2 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-79-tahun-2005/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 29 Desember 2005 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum, ttd. Lambock V. Nahattands",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

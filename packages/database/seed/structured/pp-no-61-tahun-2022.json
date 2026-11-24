@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-61-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "b I"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-61-tahun-2022",
+   "detailsId": "234932",
+   "judul": "PP No. 61 Tahun 2022 tentang Penambahan Modal Badan Bank Tanah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/287453/PP%20Nomor%2061%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:29:28.752694+00:00"
+  },
+  "sha256": "f8f2ca55473fe9cb7b6c2724668be6e241b300c233b9871d9edf86e4fd8debe2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-61-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan modal kepada Badan Bank Tanah yang dibentuk berdasarkan Peraturan Pemerintah Nomor 64 Tahun 2O2l tentang Badan Bank Tanah.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-61-tahun-2022/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-61-tahun-2022/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan modal sebagaimana dimaksud dalam Pasal I sebesar Rp5OO.O00.000.000,0O (lima ratus miliar rupiah). (21 Penambahan modal sebagaimana dimaksud pada ayat berbentuk tunai dan merupakan kekayaan negara yang dipisahkan. bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2022 sebagaimana ditetapkan kembali dalam Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2022.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-61-tahun-2022/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penambahan modal sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-61-tahun-2022/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar SK No 097229 A tr,I'I-FIITT-T.I BLIK I -3 NDONESIA Agar setiap penempatannya Indonesia. orang mengetahuinya, memerintahkan Peraturan Pemerintah ini dengan dalam Lembaran Negara Republik Ditetapkan di Jakarta pada tanggal 31 Desember 2022 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 222 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 240 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan si Hukum, Djaman SK No 158421A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

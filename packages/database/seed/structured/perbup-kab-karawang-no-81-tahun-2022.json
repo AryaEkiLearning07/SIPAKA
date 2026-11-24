@@ -1,0 +1,43 @@
+{
+ "slug": "perbup-kab-karawang-no-81-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perbup-kab-karawang-no-81-tahun-2022",
+   "detailsId": "264488",
+   "judul": "PERBUP Kab. Karawang No. 81 Tahun 2022 tentang Sistem dan Prosedur Pengelolaan Keuangan Daerah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/321620/Perbup%20Nomor%2081%20Tahun%202022%20(%20SISDUR%20).pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perbup-kab-karawang-no-89-tahun-2018"
+   ],
+   "scrapedAt": "2026-10-06T14:07:06.122654+00:00"
+  },
+  "sha256": "73125eab302db0cdec0f900a7a849d28768cd6d1ca16591f4900a265a5431f45",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

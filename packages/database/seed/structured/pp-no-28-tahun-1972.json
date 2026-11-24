@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-28-tahun-1972",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk kepentingan dan kelancaran jalannya roda Pemerintahan sesuai dengan perkembangan di daerah, maka nama dan tempat kedudukan Pemerintahan Daerah Kabupaten Panarukan perlu dirubah dan dipindahkan dari Panarukan menjadi dan ke Situbondo."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-28-tahun-1972",
+   "detailsId": "68603",
+   "judul": "PP No. 28 Tahun 1972 tentang Perubahan Nama Dan Pemindahan Tempat Kedudukan Pemerintah Daerah Kabupaten Panarukan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58996/PP%20NO%2028%20TH%201972.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:53:17.555818+00:00"
+  },
+  "sha256": "1a1a95159b5b9fcce43d80ae79449c3e4442e490420df69fe3ca7e7ab1f25b2e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-28-tahun-1972/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Merubah nama Kabupaten Panarukan Menjadi Kabupaten Situbondo.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-1972/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Tempat Kedudukan Pemerintah Daerah Kabupaten Situbondo di Situbondo.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-1972/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Segala sesuatu yang berkenaan dengan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Dalam Negeri dengan memperhatikan ketentuan perundang-undangan yang berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-1972/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkannya. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 September 1972 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL T.N.I Diundangkan di Jakarta pada tanggal 19 September 1972 SEKRETARIS NEGARA REPUBLIK INDONESIA SUDHARMONO S.H. MAYOR JENDERAL T.N.I.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

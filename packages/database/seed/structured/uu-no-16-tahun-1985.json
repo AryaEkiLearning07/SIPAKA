@@ -1,0 +1,761 @@
+{
+ "slug": "uu-no-16-tahun-1985",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-16-tahun-1985",
+   "detailsId": "46967",
+   "judul": "UU No. 16 Tahun 1985 tentang Rumah Susun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35772/UU%20Nomor%2016%20Tahun%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T16:49:21.254504+00:00"
+  },
+  "sha256": "08741c9e76a11bd6ebdb6539db20600aa12037ae017610fd687f9ecc98e5d181",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 25,
+  "ayat_angka": 32,
+  "huruf": 8
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "LANDASAN DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Pembangunan rumah susun berlandaskan pada asas kesejahteraan umur keadilan dan pemerataan, serta keserasian dan keseimbangan dalam perikehidupan. Pembangunan rumah susun bertujuan untuk :",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "a. memenuhi kebutuhan perumahan yang layak bagi rakyat, terutama golongan masyarakat yang berpenghasilan rendah, yang menjami kepastian hukum dalam pemanfaatannya;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "meningkatkan daya guna dan hasil guna tanah di daerah pekotaan dengan memperhatikan kelestarian sumber daya alam dan menciptakan lingkungan pemukiman yang lengkap, serasi, dan seimbang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Memenuhi kebutuhan untuk kepentingan lainnya yang berguna bagi kehidupan masyarakat, dengan tetap mengutamakan ketentuan ayat (1 huruf a). djpp.depkumham.go.id dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMBANGUNAN RUMAH SUSUN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PEMBANGUNAN RUMAH SUSUN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan rumah susun harus memenuhi persyaratan teknis dan administratif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan-ketentuan pokok tentang persyaratan teknis dan administratif sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rumah susun hanya dapat dibangun di atas tanah hak milik, hak guna bangunan, hak pakai atas tanah Negara atau hak pengelolaan sesuai dengan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan pembangunan yang membangun rumah susun di atas tanah yang dikuasai dengan hak pengelolaan, wajib menyelesaikan status hak guna bangunan di atas hak pengelolaan tersebut sesuai dengan peraturan perundang-undangan yang berlaku sebelum menjual satuan rumah susun yang bersangkutan. djpp.depkumham.go.id bersifat perseorangan dan terpisah. menjadi haknya masing-masing satuan. perseorangan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PEMILIKAN SATUAN RUMAH SUSUN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sebagai tanda bukti hak milik atas satuan rumah susun sebagaimana dimaksud dalam Pasal 8 diterbitkan sertifikat hak milik atas satuan rumah susun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sertifikat hak milik atas satuan rumah susun sebagaimana dimaksud dalam ayat (1) terdiri atas :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Salinan Buku Tanah dan Surat Ukur atas Hak Tanah Bersama menurut ketentuan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 19 Undang-undang Nomor 5 Tahun 1960;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Gambar denah tingkat rumah susun yang bersangkutan, yang menunjukkan satuan rumah susun yang dimiliki;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-9/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pertelaan mengenai besarnya bagian hak atas bagian-bersama, benda-bersama dan tanah-bersama yang bersangkutan; kesemuanya merupakan satu kesatuan yang tidak terpisahkan. djpp.depkumham.go.id dengan Peraturan Pemerintah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hak milik atas satuan rumah susun sebagaimana dimaksud dalam Pasal 8 ayat (3) dapat beralih dengan cara pewarisan atau dengan cara pemindahan hak sesuai dengan ketentuan hukum yang berlaku. Pemerintah memberikan kemudahan bagi golongan masyarakat yang berpenghasilan rendah untuk memperoleh dan memiliki satuan rumah susun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemindahan hak sebagaimana dimaksud dalam ayat (1) dilakukan dengan akta Pejabat Pembuat Akta Tanah dan didaftarkan pada Kantor Agraria Kabupaten atau Kotamadya yang bersangkutan menurut Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 19 Undang-undang Nomor 5 Tahun 1960. Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) diatur",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PEMBEBANAN DENGAN HIPOTIK DAN FIDUSIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rumah susun berikut tanah tempat bangunan itu berdiri serta benda lainnya yang merupakan atau kesatuan dengan tanah tersebut dapat dijadikan jaminan hutang dengan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dibebani hipotik, jika tanahnya tanah hak milik atau hak guna bangunan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dibebani fidusia, jika tanahnya tanah hak pakai atas tanah Negara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hipotik atau fidusia dapat juga dibebankan atas tanah sebagaimana dimaksud dalam ayat (1) beserta rumah susun yang akan dibangun sebagai jaminan pelunasan kredit yang dimaksudkan untuk membiayai pelaksanaan pembangunan rumah susun yang telah direncanakan di atas tanah yang bersangkutan dan yang pemberian kreditnya dilakukan secara bertahap sesuai dengan pelaksanaan pembangunan rumah susun tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "djpp.depkumham.go.id bangunan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberian hipotik sebagaimana dimaksud dalam Pasal 12 dan Pasal 13 dilakukan dengan akta Pejabat Pembuat Akta Tanah dan wajib didaftarkan pada Kantor Agraria Kabupaten dan Kotamadya untuk dicatat pada buku tanah dan sertifikat hak yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam akta pemberian hipotik sebagaimana dimaksud dalam ayat (1) dapat dimuat janji-janji yang berlaku juga bagi pihak ketiga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sebagai tanda bukti adanya hipotik sebagaimana dimaksud dalam Pasal 12 dan Pasal 13, diterbitkan sertifikat hipotik yang terdiri dari salinan buku tanah hipotik dan salinan akta Pejabat Pembuat Akta Tanah sebagaimana dimaksud dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Tanggal buku tanah hipotik sebagaimana dimaksud dalam ayat (3) adalah tanggal yang ditetapkan tujuh hari setelah penerimaan secara lengkap surat-surat yang diperlukan bagi pendaftarannya oleh Kantor Agraria Kabupaten atau Kotamadya yang bersangkutan atau jika hari ketujuh itu jatuh pada hari libur, maka buku tanah yang bersangkutan diberi bertanggal hari kerja berikutnya. Dengan tidak mengurangi ketentuan Pasal 12, hak milik atas satuan rumah susun sebagaimana dimaksud dalam Pasal 8 ayat (3) dapat dijadikan jaminan hutang dengan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dibebani hipotik, jika tanahnya tanah hak milik atau hak guna",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dibebani fidusia, jika tanahnya tanah hak pakai atas tanah Negara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Sertifikat hipotik sebagaimana dimaksud dalam ayat (3) mempunyai kekuatan eksekutorial dan dapat dilaksanakan sebagai putusan pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-14/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Bentuk dan isi akta Pejabat Pembuat Akta Tanah, bentuk dan isi buku tanah hipotik sebagaimana dimaksud dalam ayat (1) serta hal-hal lain mengenai pendaftaran hipotik dan pemberian sertifikat sebagai tanda bukti, ditetapkan dan diselenggarakan berdasarkan ketentuan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 19 Undang- undang Nomor 5 Tahun 1960.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberian fidusia sebagaimana dimaksud dalam Pasal 12 dan Pasal 13 dilakukan dengan akta Pejabat Pembuat Akta Tanah dan wajib didaftarkan pada Kantor Agraria Kabupaten atau Kotamadya untuk djpp.depkumham.go.id",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam pemberian hipotik atau fidusia sebagaimana dimaksud dalam Pasal 12 dan Pasal 13 dapat diperjanjikan bahwa pelunasan hutang yang dijamin dengan hipotik atau fidusia itu dapat dilakukan dengan cara angsuran sesuai dengan tahap penjualan satuan rumah susun, yang besarnya sebanding dengan nilai satuan yang terjual. Atas kesepakatan pemberi dan pemegang hipotik atau fidusia sebagaimana dimaksud dalam Pasal 12 dan Pasal 13, eksekusi hipotik atau fidusia yang bersangkutan dapat dilaksanakan di bawah tangan jika dengan cara demikian akan dapat diperoleh harga tertinggi yang menguntungkan semua pihak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal dilakukan pelunasan dengan cara sebagaimana dimaksud dalam ayat (1), maka satuan rumah susun yang harganya telah dilunasi tersebut bebas dari hipotik atau fidusia yang semula membebaninya. dicatat pada buku tanah dan sertifikat hak yang bersangkutan. Bentuk dan isi akta Pejabat Pembuat Akta Tanah dan hal-hal lain mengenai pencatatan fidusia sebagaimana dimaksud dalam ayat (1) ditetapkan dan diselenggarakan berdasarkan ketentuan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 19 Undang-undang Nomor 5 Tahun 1960. Pelaksanaan penjualan sebagaimana dimaksud dalam ayat (1), baru dapat dilakukan setelah lewat 1 (satu) bulan sejak diberitahukan secara tertulis kepada pihak-pihak yang berkepentingan dan diumumkan dalam dua surat kabar yang beredar di daerah yang bersangkutan, dan/atau media massa cetak setempat, tanpa ada pihak yang menyatakan keberatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PENGHUNIAN DAN PENGELOLAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Satuan rumah susun yang telah dibangun baru dapat dijual untuk dihuni setelah mendapat izin kelayakan untuk dihuni dari Pemerintah Daerah yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai izin kelayakan sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah. djpp.depkumham.go.id",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perhimpunan penghuni sebagaimana dimaksud dalam ayat (1) berkewajiban untuk mengurus kepentingan bersama para pemilik dan penghuni yang bersangkutan dengan pemilikan dan penghuniannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Perhimpunan penghuni dapat membentuk atau menunjuk badan pengelola yang bertugas untuk menyelenggarakan pengelolaan yang meliputi pengawasan terhadap penggunaan bagian-bersama, benda- bersama, tanah-bersama, dan pemeliharaan serta perbaikannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan tentang perhimpunan penghuni dan badan pengelola sebagaimana dimaksud dalam ayat (1), ayat (2), ayat (3), dan ayat (4) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penghuni rumah susun wajib membentuk perhimpunan penghuni. Pengawasan terhadap pelaksanaan ketentuan Undang-undang ini dilakukan oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perhimpunan penghuni sebagaimana dimaksud dalam ayat (1) diberi kedudukan sebagai badan hukum berdasarkan Undang-undang ini. Tata cara pelaksanaan pengawasan sebagaimana dimaksud dalam ayat (1)diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barang siapa dengan sengaja melanggar ketentuan dalam Pasal 6, Pasal 17 ayat (2) dan Pasal 18 ayat (1) diancam dengan pidana penjara selama-lamanya 10 (sepuluh) tahun atau denda setinggi- tingginya Rp 100.000.000,- (seratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perbuatan pidana sebagaimana dimaksud dalam ayat (1) adalah kejahatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Barang siapa karena kelalaiannya menyebabkan pelanggaran atas ketentuan sebagaimana dimaksud dalam Pasal 6, Pasal 17 ayat (2), dan Pasal 18 ayat (1) diancam dengan pidana kurungan selama- lamanya 1 (satu) tahun atau denda setinggi-tingginya Rp 1.000.000,- (satu juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-1985/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Perbuatan pidana sebagaimana dimaksud dalam ayat (3) adalah djpp.depkumham.go.id pelanggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN-KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Pada saat mulai berlakunya Undang-undang ini semua ketentuan peraturan perundang-undangan yang berhubungan dengan rumah susun yang tidak bertentangan dengan Undang-undang ini tetap berlaku selama belum ditetapkan penggantinya berdasarkan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-1985/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1985/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Undang-undang ini mulai berlaku pada tanggal diundangkan. djpp.depkumham.go.id Diundangkan di Jakarta pada tanggal 31 Desember 1985 MENTERI/SEKRETARIS NEGARA SUDHARMONO, S.H. SOEHARTO Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 31 Desember 1985 LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1985 NOMOR 75 djpp.depkumham.go.id I. UMUM Tujuan pembangunan nasional adalah untuk mewujudkan kesejahteraan lahir dan batin seluruh rakyat Indonesia secara adil dan merata, sebagai salah satu usaha untuk mengisi cita-cita perjuangan bangsa Indonesia bagi terwujudnya masyarakat adil dan makmur berdasarkan Pancasila dan Undang-Undang Dasar 1945. Salah satu unsur pokok kesejahteraan rakyat adalah terpenuhinya kebutuhan akan perumahan, yang merupakan kebutuhan dasar bagi setiap warga negara Indonesia dan keluarganya sesuai dengan harkat dan martabatnya sebagai manusia. Di samping itu, pembangunan perumahan merupakan salah satu unsur yang penting dalam strategi pengembangan wilayah, yang menyangkut aspek-aspek yang luas di bidang kependudukan, dan berkaitan erat dengan pembangunan ekonomi dan kehidupan sosial dalam rangka pemantapan Ketahanan Nasional. Dari hal-hal tersebut di atas, jelaslah bahwa perumahan merupakan masalah nasional, yang dampaknya sangat dirasakan di seluruh wilayah tanah air, terutama di daerah pekotaan yang berkembang pesat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 80,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..26): [1]",
+   "PASAL KOSONG: 9 (['uu-no-16-tahun-1985/pasal-4', 'uu-no-16-tahun-1985/pasal-5', 'uu-no-16-tahun-1985/pasal-8']…)"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

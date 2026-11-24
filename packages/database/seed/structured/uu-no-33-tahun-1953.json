@@ -1,0 +1,77 @@
+{
+ "slug": "uu-no-33-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "Bahwa peraturan-peraturan yang termaktub dalam Undang-undang Darurat tersebut ditetapkan sebagai Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-33-tahun-1953",
+   "detailsId": "45436",
+   "judul": "UU No. 33 Tahun 1953 tentang Penetapan &quot;Undang-Undang Darurat Nomor 15 Tahun 1952, untuk Pemungutan Pajak Verponding untuk Tahun-Tahun 1953 dan Berikutnya&quot; (Lembaran-Negara Nomor 90 Tahun 1952) Sebagai Undang-Undang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33952/UU%20Nomor%2033%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:06:05.448008+00:00"
+  },
+  "sha256": "88bb0b19ee7564edb9404c22965bb9219c65faa4a92b897438c64d279af0777a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-33-tahun-1953/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dengan nama verponding dikenakan suatu pajak atas harta tetap, sebagaimana disebut dalam pasal 3 Ordonansi verponding 1928.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-33-tahun-1953/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan-ketentuan dari Undang-undang pajak verponding 1951 (Undang-undang No. 7 tahun 1952, Lembaran Negara No. 50) berlaku pula untuk tahun-tahun 1953 dan berikutnya dengan pengertian bahwa,",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-33-tahun-1953/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam Pasal II, sub 2 angka \"1951\" dibatalkan dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-33-tahun-1953/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "dalam Pasal IV, kata-kata \"selama tahun takeim 1951 tidak dijalankan\" diganti dengan \"buat sementara dicabut terhitung mulai dengan tahun takwim 1953\". Pasal II Undang-undang ini dimulai berlaku pada hari diundangkan. Agar … Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 18 Desember 1953 PRESIDEN REPUBLIK INDONESIA, ttd SOEKARNO MENTERI KEUANGAN, ttd ONG ENG DIE Diundangkan pada tanggal 28 Desember 1953 MENTERI KEHAKIMAN, ttd DJODY GONDOKUSUMO LEMBARAN NEGARA NOMOR 83 TAHUN 1953 MEMORI",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

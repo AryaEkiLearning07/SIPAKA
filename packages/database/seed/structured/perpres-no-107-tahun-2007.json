@@ -1,0 +1,87 @@
+{
+ "slug": "perpres-no-107-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mendukung kelancaran pelaksanaan tugas anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia, dipandang perlu menetapkan honorarium dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-107-tahun-2007",
+   "detailsId": "42153",
+   "judul": "PERPRES No. 107 Tahun 2007 tentang Honorarium Bagi Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70920/PERPRES%20NO%20107%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:20.672703+00:00"
+  },
+  "sha256": "3724badd0cbb2a2b0521058016e4309484dcf3cb0d9d3d80d0a7655519987f24",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-107-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Kepada Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia diberikan honorarium setiap bulan. Pasal 2 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-107-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya honorarium Anggota Dewan Pengarah Lembaga Ketahanan Nasional Republik Indonesia sebagaimana dimaksud dalam Pasal 1 adalah sebesar Rp 5.500.000,00 setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-107-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Honorarium sebagaimana dimaksud dalam Pasal 2, diberikan terhitung mulai tanggal 1 Januari 2007.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-107-tahun-2007/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini diatur oleh Menteri Keuangan dan/atau Gubernur Lembaga Ketahanan Nasional Republik Indonesia, baik secara bersama-sama maupun sendiri-sendiri menurut bidang tugasnya masing-masing. Pasal 5 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-107-tahun-2007/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 6 Desember 2007 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

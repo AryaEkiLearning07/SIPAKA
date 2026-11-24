@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-54-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan itu, perlu mengubah Peraturan Pemerintah Nomor 21 Tahun 1989 tentang Pajak Penghasilan Atas Deposito Berjangka, Sertifikat Deposito dan Tabungan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-54-tahun-1990",
+   "detailsId": "63568",
+   "judul": "PP No. 54 Tahun 1990 tentang Perubahan Atas Peraturan Pemerintah Nomor 21 Tahun 1989 Tentang Pajak Penghasilan Atas Bunga Deposito Berjangka, Sertifikat Deposito Dan Tabungan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53767/PP%20NO%2054%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:13:16.598314+00:00"
+  },
+  "sha256": "d733585f30cde40d50f9efa02a8c05f427d9cee62a7022ea0e2e6b5fac365fdf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

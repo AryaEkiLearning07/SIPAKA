@@ -1,0 +1,46 @@
+{
+ "slug": "perpres-no-42-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-42-tahun-2023",
+   "detailsId": "252136",
+   "judul": "PERPRES No. 42 Tahun 2023 tentang Perubahan atas Peraturan Presiden Nomor 5 Tahun 2013 tentang Hak Keuangan dan Fasilitas Hakim Ad Hoc - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/308751/Perpres%20Nomor%2042%20Tahun%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-5-tahun-2026",
+    "perpres-no-85-tahun-2010",
+    "keppres-no-64-tahun-2002-uang-kehormatan-bagi-hakim-ad-hoc",
+    "perpres-no-5-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T06:14:50.726847+00:00"
+  },
+  "sha256": "f14f109a50f15a805f44522ab8e47196012779a952e34edf798a057aa9a06801",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

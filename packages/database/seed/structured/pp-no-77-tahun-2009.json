@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-77-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara dan Pasal (4) Undang-Undang Nomor 1 Tahun 2004 tentang 41 ayat Perbendaharaan Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Perusahaan Pengelola Aset;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-77-tahun-2009",
+   "detailsId": "5004",
+   "judul": "PP No. 77 Tahun 2009 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Kedalam Modal Saham Perusahaan Perseroan Persero PT Perusahaan Pengelola Aset - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36722/PP_No_77_2009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:53.005709+00:00"
+  },
+  "sha256": "282bf272213012cbfd6b2b49b954a7a6814b2f92e9b16ae45120b1a58eaf1251",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-77-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Perusahaan Pengelola Aset yang didirikan berdasarkan Peraturan Pemerintah Nomor 10 Tahun 2004 tentang Pendirian Perusahaan Perseroan (Persero) di Bidang Pengelolaan Aset sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 61 Tahun 2008 tentang Perubahan Atas Peraturan Pemerintah Nomor 10 Tahun 2004 tentang Pendirian Perusahaan Perseroan (Persero) di Bidang Pengelolaan Aset.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2009/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(1) Penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 berasal dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2009.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-77-tahun-2009/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) sebesar Rp1.000.000.000.000,00 (satu triliun rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2009/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Desember 2009 PRESIDEN REPUBLIK INDONESIA, ttd. DR H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 28 Desember 2009 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 1828888 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA REPUBLIK INDONESIA Kepala Biro Peraturan Perundang-undangan Bidang Perekonomian dan Industri, SETIO SAPTO NUGROHO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

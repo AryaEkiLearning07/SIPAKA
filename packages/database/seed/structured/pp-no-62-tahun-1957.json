@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-62-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan terbentuknya Kementerian Pelajaran, dianggap perlu mengubah ketentuan-ketentuan tentang hal-hal yang ada sangkut-pautnya dengan adanya Kementerian tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-62-tahun-1957",
+   "detailsId": "76908",
+   "judul": "PP No. 62 Tahun 1957 tentang Perubahan Peraturan Pemerintah No. 55 Tahun 1951 (Lembaran-Negara No. 77 Tahun 1951) Mengenai &quot;Peraturan Perbaikan Pelabuhan&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67899/PP%20No.%2062%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:04.595667+00:00"
+  },
+  "sha256": "6f2c28246376a8c02ab0f26067e28284eb2430aded81224927b56eb144df4a0d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

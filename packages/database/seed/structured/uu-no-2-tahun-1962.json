@@ -1,0 +1,204 @@
+{
+ "slug": "uu-no-2-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan Undang-undang tentang Pokok- pokok Kesehatan perlu ditetapkan Undang-undang mengenai Karantina Udara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "50666",
+   "slug": "uu-no-2-tahun-1962",
+   "nomor": 2,
+   "tahun": 1962,
+   "jenis": "UU",
+   "judul": "UU No. 2 Tahun 1962 tentang Karantina Udara - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39909/UU%20Nomor%202%20Tahun%201962.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-10-05T16:29:37.675170+00:00"
+  },
+  "sha256": "f2758e0407098fa118c1c7b00935054125046560373a51664cc823c6b288090a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 1,
+  "ayat_angka": 3,
+  "huruf": 2
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENETAPAN DAN PENCABUTAN PENETAPAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-1962/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-1962/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pesawat udara ditetapkan terjangkit pes, jika: Pesawat udara ditetapkan terjangkit kolera jika pada waktu tiba terdapat penderita kolera didalamnya. Pesawat udara ditetapkan terjangkit cacar, jika : Pesawat udara ditetapkan terjangkit demam kuning, jika waktu tiba terdapat penderita demam kuning didalamnya.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-2-tahun-1962/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pada waktu tiba terdapat penderita pes; b. terdapat tikus pes. pada waktu tiba terdapat penderita cacar didalamnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-2-tahun-1962/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dalam perjalanan terdapat penderita cacar yang telah diturunkan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-1962/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pesawat … Pesawat udara yang tidak termasuk ayat (1) ditetapkan sehat setelah diperiksa walupun pesawatt udara itu datang atau dalam pesawat udara itu terdapat orang yang datang dari suatu pelabuhan yang terjangkit pes. Kolera. Pasal 8. Pesawat udara ditetapkan tersangka kolera, jika dalam perjalanan terdapat penderita kolera walupun ia telah diturunkan. Pesawat udara yang tidak disebut pada ayat (1), setelah diperiksa, ditetapkan sehat. Demam kuning. Pasal 10. Pesawat … Pesawat udara yang datang dari daerah demam kuning atau yang mengangkut seorang penumpang yang datang dari daerah demam kuning, ditetapkan tersangka demam kuning, jika pada waktu tiba terdapat bahwa pembasmian serangga yang dilakukan sebelumnya, tidak memuaskan menurut pendapat dokter pelabuhan dan/atau terdapat nyamuk hidup dipesawat udara itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-1962/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pesawat udara tidak termasuk ayat (1) dan ayat (2) setelah diperiksa ditetapkan sehat, walaupun pesawat udara itu datang atau dalam pesawat udara itu terdapat orang yang datang dari suatu pelabuhan yang terjangkit. Cacar. Pasal 9. Pesawat udara ditetapkan sehat, jika setelah diperiksa tidak terdapat keadaan yang disebut pada ayat (1) dan ayat (2). Tifus bercak wabahi. Pasal 11. Pesawat udara ditetapkan sehat, walupun terdapat seorang penderita tifus bercak wabahi. Demam balik-balik. Pasal 12. Semua yang ditetapkan dalam pasal 11 mengenai tifus bercak wabahi juga berlaku untuk demam balik-balik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "(2)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1962/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "LEMBARAN NEGARA TAHUN 1962 NOMOR 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..7): [1, 2, 3, 4, 5, 6]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

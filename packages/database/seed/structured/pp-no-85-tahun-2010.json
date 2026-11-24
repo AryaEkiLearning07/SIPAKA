@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-85-tahun-2010",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke dalam Modal Saham Perusahaan Perseroan (Persero) PT Sarana Multi Infrastruktur;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-85-tahun-2010",
+   "detailsId": "5110",
+   "judul": "PP No. 85 Tahun 2010 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Sarana Multi Infrastruktur - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36133/PP%2085%20Tahun%202010.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:51.415275+00:00"
+  },
+  "sha256": "c7496fede7c8bc97691d246ddba99b2486b5b66bcacb4415a0124b3a978d42a4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-85-tahun-2010/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal Negara ke dalam modal saham Perusahaan Perseroan (Persero) PT Sarana Multi Infrastruktur yang didirikan berdasarkan Peraturan Pemerintah Nomor 66 Tahun 2007 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Infrastruktur sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 75 Tahun 2008 tentang Perubahan atas Peraturan Pemerintah Nomor 66 Tahun 2007 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Infrastruktur.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-85-tahun-2010/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-85-tahun-2010/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp1.000.000.000.000,00 (satu triliun rupiah). Penambahan penyertaan modal Negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2010. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. (2)",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-85-tahun-2010/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "djpp.depkumham.go.id MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, Diundangkan di Jakarta pada tanggal 22 Desember 2010 ttd. ttd. Ditetapkan di Jakarta pada tanggal 22 Desember 2010 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 147",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

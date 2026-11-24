@@ -1,0 +1,60 @@
+{
+ "slug": "perpres-no-130-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 3O November 2O22 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 215 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETAzuAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan trasi Hukum, E UJ, * tK sil Djaman SK No 157806A",
+ "source": {
+  "url": {
+   "slug": "perpres-no-130-tahun-2022",
+   "detailsId": "235265",
+   "judul": "PERPRES No. 130 Tahun 2022 tentang Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2023 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/288242/Perpres%20Nomor%20130%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:09:08.039568+00:00"
+  },
+  "sha256": "ddd12102e65e839ab072c256d8c4c32b439466a220c101f580b9dc545f721d46",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-130-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Rincian Anggaran Pendapatan dan Belanja Negara terdiri atas rincian: a. Anggaran SK No 157816 A REPUBLIK INDONESIA a. Anggaran Pendapatan Negara; b. Anggaran Belanja Negara; dan c. Pembiayaan Anggaran.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-130-tahun-2022/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Rincian Anggaran Pendapatan Negara sebagaimana dimaksud dalam Pasal t huruf a terdiri atas rincian: a. Penerimaan Perpajakan tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

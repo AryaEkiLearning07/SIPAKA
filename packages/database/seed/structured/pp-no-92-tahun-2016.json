@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-92-tahun-2016",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-92-tahun-2016",
+   "detailsId": "5813",
+   "judul": "PP No. 92 Tahun 2016 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Perusahaan Umum (Perum) Jaminan Kredit Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28142/PP%20Nomor%2092%20Tahun%202016.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:33:11.285333+00:00"
+  },
+  "sha256": "24fbf73533275382d21a2219c1571b48ecd28b957f3c1177be1695a29ccf1845",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-92-tahun-2016/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal Perusahaan Umum (Perum) Jaminan Kredit Indonesia yang ditetapkan berdasarkan Peraturan Pemerintah Nomor 4l Tahun 2008 tentang Perusahaan Umum (Perum) Jaminan Kredit Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-92-tahun-2016/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-92-tahun-2016/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp5OO.OOO.O00.OO0,0O (lima ratus miliar r-upiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-92-tahun-2016/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2016.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-92-tahun-2016/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar REPuJrTFu,',35|n,==,o Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 3O Desember 2016 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 30 Desember 2016 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 357 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Perekonomian, ti Bidang Hukum dan undangan, Djaman",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

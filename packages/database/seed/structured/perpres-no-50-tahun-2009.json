@@ -1,0 +1,69 @@
+{
+ "slug": "perpres-no-50-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu mengesahkan Persetujuan tersebut dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-50-tahun-2009",
+   "detailsId": "42364",
+   "judul": "PERPRES No. 50 Tahun 2009 tentang Pengesahan Agreement On Comprehensive Economic Patnership Among Member States Of The Association Of Southest Asian Nation And Japan (Persetujuan Kemitraan Ekonomi Menyeluruh Antar Negara-negara Anggota Perhimpunan Bangsa-bangsa Asia Tenggara dan Jepang) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70315/PERPRES%20No.50%20TH%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:03.674628+00:00"
+  },
+  "sha256": "378ca730cecf5b02ff3884b43d51ecdb5adbf4bca0e7497488fca93541d43e29",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-50-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Agreement on Comprehensive Economic Partnership among Member States of the Association of Southeast Asian Nations and Japan (Persetujuan Kemitraan Ekonomi Menyeluruh antar Negara-negara Anggota Perhimpunan Bangsa-bangsa Asia Tenggara dan Jepang) yang telah ditandatangani oleh Pemerintah Indonesia di Jakarta, pada tanggal 31 Maret 2008 yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-50-tahun-2009/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Persetujuan dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, yang berlaku adalah naskah aslinya dalam Bahasa Inggris.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-50-tahun-2009/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Agar . . . - 3 - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 November 2009 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 19 November 2009 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 174",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

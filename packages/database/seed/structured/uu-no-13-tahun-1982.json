@@ -1,0 +1,96 @@
+{
+ "slug": "uu-no-13-tahun-1982",
+ "preamble": {
+  "menimbang": [
+   "bahwa guna peningkatan pelayanan hukum kepada masyarakat dalam rangka kesempatan memperoleh keadilan dan untuk tercapainya penyelesaian perkara secara sederhana, cepat dan biaya perkembangan berhubung ketatanegaraan, perlu dibentuk Pengadilan Tinggi Riau di Pekanbaru; dengan ringan serta",
+   "bahwa berhubung dengan huruf a, perlu mengadakan perubahan wilayah hukum Pengadilan Tinggi Padang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-13-tahun-1982",
+   "detailsId": "47009",
+   "judul": "UU No. 13 Tahun 1982 tentang Pembentukan Pengadilan Tinggi Riau di Pekanbaru dan Perubahan Wilayah Hukum Pengadilan Tinggi Padang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35835/UU%20Nomor%2013%20Tahun%201982.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:02.748147+00:00"
+  },
+  "sha256": "b6a1e0ec1541fa68e24f4f442f4731c378f8e68abddfbbb190580d9a72b7d8a4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-13-tahun-1982/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-13-tahun-1982/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Membentuk Pengadilan Tinggi Riau yang berkedudukan di Pekanbaru.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1982/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Wilayah hukum pengadilan tinggi sebagaimana dimaksud dalam ayat (1) meliputi wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat I Riau.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-13-tahun-1982/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Wilayah hukum Pengadilan Tinggi Padang dikurangi dengan wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat I Riau.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-13-tahun-1982/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Perkara-perkara yang berasal dari pengadilan negeri dalam Propinsi Daerah Tingkat I Riau yang pada saat mulai berlakunya undang-undang ini, belum diputus oleh Pengadilan Tinggi Padang, tetap didaftar, diperiksa dan diputus oleh Pengadilan Tinggi Padang sampai saat diresmikannya Pengadilan Tinggi Riau. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-13-tahun-1982/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 20 Agustus 1982 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 20 Agustus 1982 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1982 NOMOR 40",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

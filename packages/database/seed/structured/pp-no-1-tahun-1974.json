@@ -1,0 +1,70 @@
+{
+ "slug": "pp-no-1-tahun-1974",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka integrasi Angkatan Bersenjata Republik Indonesia telah ditetapkan Peraturan Pemerintah Nomor 24 Tahun 1973 tentang Kepangkatan Militer/Polisi dalam ABRI dengan sebutan-sebutan yang lebih diseragamkan.",
+   "bahwa berhubung dengan hal tersebut pada huruf a diatas perlu mengadakan perubahan/tambahan pada Peraturan Pemerintah Nomor 14 Tahun 1967 tentang Peraturan Gaji Anggota Angkatan Bersenjata Republik Indonesia (PG ABRI - 1968)."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-1-tahun-1974",
+   "detailsId": "67765",
+   "judul": "PP No. 1 Tahun 1974 tentang Perubahan/Tambahan Peraturan Pemerintah Nomor 14 Tahun 1967 Tentang Peraturan Gaji Anggota Angkatan Bersenjata Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58116/PP%20NO%201%20TH%201974.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:07.805892+00:00"
+  },
+  "sha256": "73e073d670f0e9ac4fb439f3071782997f54ec47936b075ced3e951c5b811c01",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-1-tahun-1974/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Daftar-daftar Skala Gaji tercantum dalam lampiran-lampiran A-1, A-2, A-3 dan A-4 Peraturan Pemerintah Nomor 14 Tahun 1967 (Lembaran Negara Tahun 1967 Nomor 26) diganti dengan 1 (satu) Daftar Skala Gaji Baru sebagaimana terlampir pada Peraturan Pemerintah ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1974/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Penyesuaian sebutan pangkat dan penyesuaian pangkat serta gaji berhubung dengan perubahan tersebut pada pasal 1 Peraturan Pemerintah ini diatur lebih lanjut dengan Keputusan Menteri Pertahanan dan Keamanan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1974/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan berlaku surut mulai tanggal 1 Juni 1973. Agar … Agar setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta Pada tanggal 19 Januari 1974 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 19 Januari 1974 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. MAYOR JENDERAL TNI. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 3",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

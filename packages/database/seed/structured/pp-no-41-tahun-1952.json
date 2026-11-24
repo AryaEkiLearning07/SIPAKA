@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-41-tahun-1952",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-41-tahun-1952",
+   "detailsId": "78093",
+   "judul": "PP No. 41 Tahun 1952 tentang Kedudukan Pegawai Negeri Selama Menjalankan Sesuatu Kewajiban &#xD;&#xA;Negera Diluar Lingkungan Jabatan Yang Dipangkunya.&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69552/PP%20No.%20041%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-15-tahun-1950"
+   ],
+   "scrapedAt": "2026-10-06T06:05:17.869942+00:00"
+  },
+  "sha256": "0b4f76f6a0519a825c4beabd1c1754b2d0e6d209143f7d0f676ddb1e3b6fe134",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

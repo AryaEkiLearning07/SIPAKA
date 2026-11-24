@@ -1,0 +1,107 @@
+{
+ "slug": "pp-no-59-tahun-2018",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 31 Desember 2018 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OI8 NOMOR 268 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Perekonomian, ti Bid ang Hukum dan s wati Lestari PRES I DEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 59 TAHUN 2018 TENTANG JENIS DAN TARIF ATAS JENIS PENERIMAAN NEGARA BUKAN PAJAK YANG BERLAKU PADA KEMENTERIAN AGAMA I. UMUM Untuk mengoptimalkan Penerimaan Negara Bukan Pajak guna menunjang pembangunan nasional, Penerimaan Negara Bukan Pajak pada Kementerian Agama sebagai salah satu sumber penerimaan negara, perlu dikelola dan dimanfaatkan untuk peningkatan pelayanan kepada masyarakat. Kementerian Agama telah memiliki jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak sebagaimana diatur dalam Peraturan Pemerintah Nomor 19 Tahun 2015 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Agama, namun dengan adanya penyesuaian jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak pada Kementerian Agama, perlu menga",
+ "source": {
+  "url": {
+   "slug": "pp-no-59-tahun-2018",
+   "detailsId": "99855",
+   "judul": "PP No. 59 Tahun 2018 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Kementerian Agama - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/90565/PP%20Nomor%2059%20Tahun%202018.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-19-tahun-2015"
+   ],
+   "scrapedAt": "2026-10-06T00:31:32.269334+00:00"
+  },
+  "sha256": "5ab86eac0572ca867fcde76b4bc2d56e26fbc1dca54cc9ff135ce0fa0be194b5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 5,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-59-tahun-2018/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Agama berasal dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Perguruan Tinggi Keagamaan Negeri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Kantor Urusan Agama Kecamatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Asrama Haji;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Unit Pelaksana Teknis Unit Percetakan Al-Qur an; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-59-tahun-2018/pasal-1/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Unit Pelaksana Teknis Lajnah Pentashihan Mushaf A1- Qur'an. (21 Jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak sebagaimana dimaksud pada ayat (1) ditetapkan dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

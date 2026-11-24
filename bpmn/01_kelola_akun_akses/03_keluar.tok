@@ -1,0 +1,22 @@
+tok 1.0 "Keluar (Kelola Akun & Akses)"
+
+pool p "Keluar" process=keluar
+  store d_sesi "Sesi"
+  start mulai "Permintaan keluar diterima" message="Permintaan keluar"
+  xor aktif "Sesi masih aktif?"
+  service akhiri "Akhiri Sesi"
+  service hapus "Hapus token sesi di perangkat"
+  send arah "Arahkan ke halaman masuk" message="Halaman masuk"
+  end selesai "Pengguna keluar dari SIPAKA"
+
+pool user "Pengguna"
+
+flow mulai -> aktif
+flow aktif -> akhiri "ya" when="sesiAktif"
+flow aktif -> hapus "tidak" default
+flow akhiri -> hapus -> arah -> selesai
+
+writes akhiri d_sesi
+
+message user -> mulai "Permintaan keluar"
+message arah -> user "Halaman masuk"

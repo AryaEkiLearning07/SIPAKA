@@ -1,0 +1,69 @@
+{
+ "slug": "perpres-no-77-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan pada huruf a, perlu segera mengesahkan Memorandum tersebut dengan Peraturan Presiden."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-77-tahun-2008",
+   "detailsId": "42285",
+   "judul": "PERPRES No. 77 Tahun 2008 tentang Pengesahan Memorandum Of Understanding On The ASEAN Power Grid (Memorandum Saling Pengertian Jaringan Transmisi Tenaga Listrik ASEAN) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70749/PERPRES%20NO%2077%20TH%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:11.573400+00:00"
+  },
+  "sha256": "7bf2c4fa7b47a815bdcf2dfabd4f8102d976fcb8259e1c23e0a8180ff2bc3800",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-77-tahun-2008/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Memorandum of Understanding on the ASEAN Power Grid (Memorandum Saling Pengertian mengenai Jaringan Transmisi Tenaga Listrik ASEAN) yang ditandatangani pada tanggal 23 Agustus 2007 di Singapura, yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-77-tahun-2008/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Memorandum dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, yang berlaku adalah naskah aslinya dalam Bahasa Inggris.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-77-tahun-2008/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Agar . . . - 3 - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2008 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 30 Desember 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 208",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

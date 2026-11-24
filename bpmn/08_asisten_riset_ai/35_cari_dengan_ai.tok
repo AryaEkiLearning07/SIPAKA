@@ -1,0 +1,33 @@
+tok 1.0 "Cari dengan AI (Asisten Riset AI)"
+
+pool p "Cari dengan AI" process=cari_dengan_ai
+  store d_uu "Undang-Undang"
+  start mulai "Pertanyaan bebas diterima" message="Pertanyaan atau kasus dalam bahasa sehari-hari"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service tafsir "Tafsirkan Kueri Pengguna"
+  call filter "Terapkan Filter Pencarian" process=cari_undang_undang doc="Langkah 'Terapkan Filter Pencarian' pada proses Cari Undang-Undang"
+  call ai "Tangani Permintaan AI" process=tangani_permintaan_ai
+  xor berhasil "Respons AI berhasil?"
+  end gagal "Pencarian AI gagal" message="Pesan pencarian AI gagal"
+  service urut "Urutkan Hasil Pencarian AI"
+  send hasil "Kirim hasil pencarian AI" message="Hasil pencarian AI"
+  end selesai "Hasil pencarian AI terkirim"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> tafsir "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow tafsir -> filter -> ai -> berhasil
+flow berhasil -> urut "ya" when="aiBerhasil"
+flow berhasil -> gagal "tidak" default
+flow urut -> hasil -> selesai
+
+reads urut d_uu
+
+message user -> mulai "Pertanyaan atau kasus dalam bahasa sehari-hari"
+message tolak -> user "Akses ditolak"
+message gagal -> user "Pesan pencarian AI gagal"
+message hasil -> user "Hasil pencarian AI"

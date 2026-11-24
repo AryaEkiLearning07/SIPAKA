@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-13-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "'\" PRESIDEN REPUBLIK INDONESIA 2"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-13-tahun-2014",
+   "detailsId": "41494",
+   "judul": "PERPRES No. 13 Tahun 2014 tentang Perubahan Kelima atas Peraturan Presiden Nomor 47 Tahun 2009 tentang Pembentukan dan Organisasi Kementerian Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/252277/Perpres%20Nomor%2013%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:14:30.574967+00:00"
+  },
+  "sha256": "8ab82d93aea8b6cb1cdca7e3a3037a93b1e454eb9dd0e36522e1667c03d8f49c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

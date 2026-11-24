@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-3-tahun-1991",
+ "preamble": {
+  "menimbang": [
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 18 Juli 1991 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd MOERDIONO PRESIDEN REPUBLIK INDONESIA - 5 - PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 3 TAHUN 1991 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1990/1991 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/ 1991 merupakan pelaksanaan tahun kedua Rencana Pembangunan Lima Tahun Ke V. Didasarkan atas perkembangan ekonomi dalam dan luar negeri, yang mempengaruhi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/1991 diperlukan beberapa tambahan dan perubahan. lebih tersebut disebabkan oleh Dalam Tahun Anggaran 1990/1991, realisasi pendapatan negara diperkirakan lebih besar daripada yang direncanakan. Lebih besarnya pendapatan negara tingginya pendapatan dalam negeri dari sektor minyak bumi dan gas alam dalam jumlah yang cukup besar dan dapat dilampauinya rencana penerimaan dalam negeri di luar minyak bumi dan gas alam, walaupun realisasi pendapatan pembangunan diperkirakan lebih rendah dari yang direncanakan, yaitu karena lebih rendahnya realisasi bantuan program dalam bentuk bantua",
+ "source": {
+  "url": {
+   "slug": "uu-no-3-tahun-1991",
+   "detailsId": "46655",
+   "judul": "UU No. 3 Tahun 1991 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/1991 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35393/UU%20Nomor%203%20Tahun%201991.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:44:46.526782+00:00"
+  },
+  "sha256": "b90b150007d36f7850f81460760d104ee73eb5baa330dd71f184ffc13d1d98f3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-3-tahun-1991/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1991/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1990/1991 diperkirakan bertambah dengan Rp 6.577.942.000.000,00 (enam trilyun lima ratus tujuh puluh tujuh milyar sembilan ratus empat puluh dua juta rupiah) yang terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1991/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp 7.962.842.000.000,00 (tujuh trilyun sembilan ratus enam puluh dua milyar delapan ratus empat puluh dua juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1991/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan Rp 1.384.900.000.000,00 (satu trilyun tiga ratus delapan puluh empat milyar sembilan ratus juta rupiah). berkurang dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1991/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat(1) huruf a dan huruf b masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

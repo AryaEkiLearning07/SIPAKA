@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-29-tahun-1972",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-29-tahun-1972",
+   "detailsId": "68607",
+   "judul": "PP No. 29 Tahun 1972 tentang Pemberian Tambahan Kelonggaran Perpajakan Kepada PT &quot;Baliem Valley Minerals&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/244289/PP%20NO%2029%20TH%201972.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:53:17.710810+00:00"
+  },
+  "sha256": "a92a88a1a41da64f5ff4c7e36c9730d63be5c73c77033a3cb111efa2e011aac3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

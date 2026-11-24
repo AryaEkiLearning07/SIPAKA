@@ -1,0 +1,663 @@
+{
+ "slug": "perpres-no-96-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "Menimbang bahwa sebagai tindak lanjut ditetapkannya Pembentukan Kementerian dan Kabinet Indonesia Maju Periode Tahun 2019-2024 serta untuk melaksanakan ketentuan Pasal 1i Undang-Undang Nomor 39 Tahun 2OO8 tentang Kementerian Negara, perlu menetapkan Peraturan Presiden tentang Kementerian Koperasi dan Usaha Kecil dan MenenBah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-96-tahun-2020",
+   "detailsId": "147521",
+   "judul": "PERPRES No. 96 Tahun 2020 tentang Kementerian Koperasi dan Usaha Kecil dan Menengah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/139411/Perpres%20Nomor%2096%20Tahun%202020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-62-tahun-2015"
+   ],
+   "scrapedAt": "2026-10-06T06:08:48.403084+00:00"
+  },
+  "sha256": "8ae648ff419943b2db54e3866ea3cf6bc550d58aa30bde50b6e60280a6b7f833",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 37,
+  "ayat_angka": 20,
+  "huruf": 2
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PRESIDEN TENTANG KEMENTERIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah berada di bawah dan bertanggung jawab kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah dipimpin oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam memimpin Kementerian Koperasi dan Usaha Kecil dan Menengah, Menteri dibantu oleh Wakil Menteri sesuai dengan penunjukan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil Menteri diangkat dan diberhentikan oleh Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wakil Menteri berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Wakil Menteri mempunyai tugas membantu Menteri dalam memimpin pelaksanaan tugas Kementerian Koperasi dan Usaha Kecil dan Menengah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ruang... SK No 037633 A REPUBLTK INDONESIA Ruang lingkup bidang tugas Wakil Menteri sebagaimana dimaksud pada ayat (41, meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "membantu Menteri dalam perumusan dan/atau pelaksanaan kebijakan Kementerian Koperasi dan Usaha Kecil dan Menengah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-96-tahun-2020/pasal-2/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "membantu Menteri dalam mengoordinasikan pencapaian kebijakan strategis lintas unit organisasi Jabatan Pimpinan Tinggi Madya atau Eselon I di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Menteri dan Wakil Menteri merupakan satu kesatuan unsur pemimpin kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah mempunyai tugas menyelenggarakan urusan pemerintahan di bidang koperasi dan usaha kecil dan menengah untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Dalam melaksakanakan tugas sebagaimana dimaksud dalam Pasal 4, Kementerian Koperasi dan Usaha Kecil dan Menengah menyelenggarakan fungsi: a. perumusan dan penetapan kebijakan di bidang perkoperasian, usaha mikro, usaha kecil dan menengah, dan kewirausahaan; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang perkoperasian, usaha mikro, usaha kecil dan menengah, dan kewirausahaan; c. koordinasi SK No 037634 A REPUBLIK INDONESIA c. koordinasi pelaksanaan tugas, pembinaan, dan pemberian dukungan administrasi kepada seluruh unsur organisasi di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah; d. pengelolaan barang milik negara yang menjadi tanggung jawab Kementerian Koperasi dan Usaha Kecil dan Menengah; e. pengawasan atas pelaksanaan tugas di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah; dan f. pelaksanaan fungsi lain yang diberikan oleh Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah terdiri atas: a. Sekretariat Kementerian; b. Deputi Bidang Perkoperasian; c. Deputi Bidang Usaha Mikro; d. Deputi Bidang Usaha Kecil dan Menengah; e. Deputi Bidang Kewirausahaan; f. Staf Ahli Bidang Ekonomi Makro; g. Staf Ahli Bidang Produktivitas dan Daya Saing; dan h. Staf Ahli Bidang Hubungan Antar Lembaga. Bagian SK No 037635 A FRESIDEN REPUBLIK INDONESIA Bagian Kedua Sekretariat Kementerian",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian berada di bawah dan bertanggung jawab kepada Menteri. (21 Sekretariat Kementerian dipimpin oleh Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Sekretariat Kementerian mempunyai tugas menyelenggarakan koordinasi pelaksanaan tugas, pembinaan, dan pemberian dukungan administrasi kepada seluruh unsur organisasi di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 8, Sekretariat Kementerian menyelenggarakan fungsi: a. koordinasi kegiatan Kementerian Koperasi dan Usaha Kecil dan Menengah; b. koordinasi dan pen5rusunan rencana, program, dan anggaran Kementerian Koperasi dan Usaha Kecil dan Menengah; c. pembinaan dan pemberian dukungan administrasi yang meliputi ketatausahaan, kepegawaian, keuangan, kerumahtanggaan, keda sama, hubungan masyarakat, arsip, dan dokumentasi Kementerian Koperasi dan Usaha Kecil dan Menengah; d. pembinaan dan penataan organisasi dan tata laksana; e. koordinasi SK No 037636 A FRESIDEN REPUBLIK INDONESIA e. koordinasi dan pen)rusunan peraturan perundang- undangan serta pelaksanaan advokasi hukum; f. penyelenggaraan pengelolaan barang milik/ kekayaan negara dan pengelolaan pengadaan barang/jasa; g. pengelolaan data dan informasi; dan h. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Ketiga Deputi Bidang Perkoperasian",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Perkoperasian berada di bawah dan bertanggung jawab kepada Menteri. (21 Deputi Bidang Perkoperasian dipimpin oleh Deputi. Pasal 1 1 Deputi Bidang Perkoperasian mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang perkoperasian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 11, Deputi Bidang Perkoperasian menyelenggarakan fungsi: a. perumusan kebijakan di bidang peningkatan potensi usaha koperasi, pembaharuan koperasi, kemitraan dan jaringan usaha koperasi, pembiayaan perkoperasian, peningkatan kapasitas sumber daya manusia koperasi, serta pengendalian dan pengawasan koperasi; b. koordinasi SK No 037637 A REPUBLIK INDONESIA -7 b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang peningkatan potensi usaha koperasi, pembaharuan koperasi, kemitraan dan jaringan usaha koperasi, pembiayaan perkoperasian, peningkatan kapasitas sumber daya manusia koperasi, serta pengendalian dan pengawasan koperasi; c. pemantauan, analisis, evaluasi, dan pelaporan di bidang peningkatan potensi usaha koperasi, pembaharuan koperasi, kemitraan dan jaringan usaha koperasi, pembiayaan perkoperasian, peningkatan kapasitas sumber daya manusia koperasi, serta pengendalian dan pengawasan koperasi; d. pen5rusunan norma, standar, prosedur, dan kriteria di bidang izin usaha simpan pinjam koperasi, pengawasan dan pemeriksaan koperasi, penilaian kesehatan koperasi simpan pinjam/usaha simpan pinjam, pendidikan dan latihan perkoperasian, serta pemberd ayaan dan perlindungan koperasi; e. pemberian bimbingan teknis dan supervisi di bidang izin usaha simpan pinjam koperasi, pengawasan dan pemeriksaan koperasi, penilaian kesehatan koperasi simpan pinjam/usaha simpan pinjam, pendidikan dan latihan perkoperasian, serta pemberdayaan dan perlindungan koperasi; f. pelaksanaan administrasi Deputi Bidang Perkoperasian; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian . . . SK No 037638 A PRES!DEN REPUELIK INDONESIA Bagian Keempat Deputi Bidang Usaha Mikro",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Usaha Mikro berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Usaha Mikro dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Deputi Bidang Usaha Mikro mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang usaha mikro.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 14, Deputi Bidang Usaha Mikro menyelenggarakan fungsi: a. perumusan kebijakan di bidang peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha mikro; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha mikro; c. pemantalran, analisis, evaluasi, dan pelaporan di bidang peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha mikro; d. penyusunan . SK No 037639 A R,EFUBLIK INDONESIA d e f, ob' penyusunan norma, standar, prosedur, dan kriteria di bidang pemberdayaan dan pengembangan usaha mikro; pemberian bimbingan teknis dan supervisi di bidang pemberdayaan dan pengembangan usaha mikro; pelaksanaan administrasi Deputi Bidang Usaha Mikro; dan pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Kelima Deputi Bidang Usaha Kecil dan Menengah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Usaha Kecil dan Menengah berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Usaha Kecil dan Menengah dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Deputi Bidang Usaha Kecil dan Menengah mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang usaha kecil dan menengah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 17, Deputi Bidang Usaha Kecil dan Menengah menyelenggarakan fungsi : a. perumusan kebijakan di bidang penguatan substitusi impor, peningkatan peluang pasar ekspor, peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha kecil dan menengah; b. koordinasi. . . SK No 037640 A FRESIDEN REPUBLIK INDONESIA b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang penguatan substitusi impor, peningkatan peluang pasar ekspor, peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha kecil dan menengah; c. pemantarlan, analisis, evaluasi, dan pelaporan di bidang penguatan substitusi impor, peningkatan peluang pasar ekspor, peningkatan potensi dan peluang usaha, peningkatan mutu dan kapasitas produk usaha, perlindungan usaha, pengembangan usaha, pembiayaan dan penjaminan, serta kemitraan usaha kecil dan menengah; d. pen5rusunan norma, standar, prosedur, dan kriteria di bidang pemberdayaan dan pengembangan usaha kecil dan menengah; e. pemberian bimbingan teknis dan supervisi di bidang pemberdayaan dan pengembangan usaha kecil dan menengah; f. pelaksanaan administrasi Deputi Bidang Usaha Kecil dan Menengah; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Keenam Deputi Bidang Kewirausahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Kewirausahaan berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Kewirausahaan dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "SK No 037641 A REPUBLIK INDONESIA Deputi Bidang Kewirausahaan mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang kewirausahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 20, Deputi Bidang Kewirausahaan menyelenggarakan fungsi: a, perumusan kebijakan di bidang pemetaan potensi kewirausahaan nasional, penciptaan iklim kewirausahaan, penumbuhkembangan wirausaha dan inkubasi wirausaha, serta pembiayaan kewirausahaan; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pemetaan potensi kewirausahaan nasional, penciptaan iklim kewirausahaan, penumbuhkembangan wirausaha dan inkubasi wirausaha, serta pembiayaan kewirausahaan; c. pemantauan, analisis, evaluasi, dan pelaporan di bidang pemetaan potensi kewirausahaan nasional, penciptaan iklim kewirausahaan, penumbuhkembangan wirausaha dan inkubasi wirausaha, serta pembiayaan kewirausahaan; d. penyusunan norma, standar, prosedur, dan kriteria di bidang penyelenggaraan inkubator wirausaha; e. pemberian bimbingan teknis dan supervisi di bidang penyelenggaraan inkubator wirausaha; f. pelaksanaan administrasi Deputi Bidang Kewirausahaan; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian SK No 037642 A REPIIBLIK INDONESIA -t2- Bagian Ketujuh Staf Ahli Pasal.22 Staf Ahli berada di bawah dan bertanggung jawab kepada Menteri dan secara administratif dikoordinasikan oleh Sekretaris Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Staf Ahli Bidang Ekonomi Makro mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang ekonomi makro. (21 Staf Ahli Bidang Produktivitas dan Daya Saing mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang produktivitas dan daya saing. Inspektorat dibentuk sebagai unsur pengawas di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Staf Ahli Bidang Hubungan Antar Lembaga mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang hubungan antar lembaga. Bagian Kedelapan Inspektorat Pasal24 Inspektorat Kementerian dipimpin oleh Inspektur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Inspektorat berada di bawah dan bertanggung jawab kepada Menteri melalui Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "SK No 037643 A REPUBLIK INDONESIA Inspektorat mempunyai tugas menyelenggarakan pengawasan intern di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah. Pasal26 Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 25, Inspektorat menyelenggarakan fungsi: a. pen)rusunan kebijakan teknis pengawasan internal di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah; b. pelaksanaan pengawasan internal di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah terhadap kinerja dan keuangan melalui audit, reviu, evaluasi, pemantauan, dan kegiatan pengawasan lainnya; c. pelaksanaan pengawasan untuk tujuan tertentu atas penugasan Menteri; d. penyusunan laporan hasil pengawasan di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah; e. pelaksanaan administrasi Inspektorat; dan f. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Kesembilan Jabatan Fungsional",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah dapat ditetapkan Jabatan Fungsional sesuai dengan kebutuhan yang pelaksanaannya dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TATA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Menteri dan Wakil Menteri melaksanakan koordinasi dan sinkronisasi kebijakan dalam penyelenggaraan pembangunan nasional di bidang koperasi dan usaha kecil dan menengah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Menteri dan Wakil Menteri dalam melaksanakan tugas dan fungsinya, harus menerapkan sistem akuntabilitas kinerja instansi pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian Koperasi dan Usaha Kecil dan Menengah harus men5rusun proses bisnis yang menggambarkan tata hubungan kerja yang efektif dan efisien antar unit organisasi di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah. (21 Proses bisnis antar unit organisasi di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Menteri menyampaikan laporan kepada Presiden mengenai hasil pelaksanaan urusan pemerintahan di bidang koperasi dan usaha kecil dan menengah secara berkala atau sewaktu-waktu sesuai kebutuhan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "SK No 037645 A REPUBLIK INDONESIA Kementerian Koperasi dan Usaha Kecil dan Menengah harus menyusun analisis jabatan, peta jabatan, analisis beban kerja, dan uraian tugas terhadap seluruh jabatan di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Semua unsur di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah dalam melaksanakan tugas dan fungsi harus menerapkan prinsip koordinasi, integrasi, dan sinkronisasi baik dalam lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah maupun dalam hubungan antar instansi pemerintah baik pusat maupun daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Semua unsur di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah harus menerapkan sistem pengendalian intern pemerintah di lingkungan masing- masing sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "(i) Setiap pimpinan unit organisasi bertanggung jawab memimpin dan mengoordinasikan bawahan dan memberikan pengarahan serta petunjuk bagi pelaksanaan tugas sesuai dengan uraian tugas yang telah ditetapkan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-96-tahun-2020/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengarahan SK No 037646 A REPUBLIK INDONESIA -t6- Pengarahan serta petunjuk sebagaimana dimaksud pada ayat (1) harus diikuti dan dipatuhi oleh bawahan secara bertanggung jawab serta dilaporkan secara berkala sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Dalam melaksanakan tugas, setiap pimpinan unit organisasi harus melakukan pembinaan dan pengawasan terhadap unit organisasi di bawahnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENDANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Segala pendanaan yang diperlukan untuk pelaksanaan tugas dan fungsi Kementerian Koperasi dan Usaha Kecil dan Menengah dibebankan kepada Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Ketentuan lebih lanjut mengenai tugas, fungsi, susunan organisasi, dan tata kerja Kementerian Koperasi dan Usaha Kecil dan Menengah diatur dengan Peraturan Menteri setelah mendapat persetujuan tertulis dari Menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "FRESIDEN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, semua ketentuan pelaksanaan dari Peraturan Presiden Nomor 62 Tahun 2Ol5 tentang Kementerian Koperasi dan Usaha Kecil dan Menengah (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 106), masih tetap berlaku sepanjang tidak bertentangan dan belum diubah dan/atau diganti dengan peraturan baru berdasarkan Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, seluruh jabatan yang ada beserta pejabat yang memangku jabatan di lingkungan Kementerian Koperasi dan Usaha Kecil dan Menengah, tetap melaksanakan tugas dan fungsinya sampai dengan dibentuknya jabatan baru dan diangkat pejabat baru berdasarkan Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-96-tahun-2020/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-96-tahun-2020/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, maka Peraturan Presiden Nomor 62 Tahun 2015 tentang Kementerian Koperasi dan Usaha Kecil dan Menengah (Lembaran Negara Republik Indonesia Tahun 2OL5 Nomor 106), dicabut dan dinyatakan tidak berlaku. Pasal42 Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar SK No 037648 A REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 23 September 2O2O PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 25 September 2O2O MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2O NOMOR 214 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA LIK TNDONESIA Hukum dan undangan, vanna Djaman SK No 031970 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..41): [11, 22, 24, 26]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

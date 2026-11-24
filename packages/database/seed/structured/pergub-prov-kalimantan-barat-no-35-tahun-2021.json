@@ -1,0 +1,71 @@
+{
+ "slug": "pergub-prov-kalimantan-barat-no-35-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   "1. 2."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pergub-prov-kalimantan-barat-no-35-tahun-2021",
+   "detailsId": "206150",
+   "judul": "PERGUB Prov. Kalimantan Barat No. 35 Tahun 2021 tentang PERUBAHAN KETIGA ATAS PERATURAN GUBERNUR NOMOR 156 TAHUN 2016 TENTANG PEMBAGIAN JASA PELAYANAN PADA BADAN LAYANAN UMUM DAERAH RUMAH SAKIT UMUM DAERAH DOKTER SOEDARSO - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/274166/Pergub%20No%2035%20Tahun%202021%20ocr.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T11:54:21.432522+00:00"
+  },
+  "sha256": "77e09d3e11e6b794f1498ecc7d6aa250d04822685ad001461e04f936449a3190",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pergub-prov-kalimantan-barat-no-35-tahun-2021/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Proporsi insentif pejabat manajemen adalah 9,2% (sembilan koma dua persen) dari total netto jasa pelayanan dengan pembagian berdasarkan indeks sebagai berikut : a. Direktur dengan indeks 14 (empat belas); b. Wakil Direktur dengan indeks 10 (sepuluh); c. d. e. Pejabat Eselon II Golongan II dengan indeks 6 (enam); Pejabat Eselon III Golongan IV dengan indeks 7 (tujuh); Pejabat Eselon IV atau Pejabat ungsional yang disetarakan Eselon IV Golongan III dengan indeks 4 (empat); dan Pejabat Eselon IV atau Pejabat Fungsional yang disetarakan Eselon IV Golongan IV dengan indeks 4,5 (empat koma lima). f. (2) Proporsi insentif Tenaga Pendukung Pelayanan Non Struktural dengan pembagian berdasarkan indeks sebagai berikut : a. 2,00% (dua persen) untuk Kepala Instalasi dengan ketentuan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-35-tahun-2021/pasal-8/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Kepala Instalasi yang mempunyai pendapatan langsung mendapat indeks 2(dua); dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-35-tahun-2021/pasal-8/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Kepala Instalasi yang tidak mempunyai pendapatan langsung mendapat indeks 2,5 (dua koma lima). 1,30% (satu koma tiga puluh persen) untuk Satuan Kasir. 2,00% (dua persen) untuk Satuan Klahn dan Distribusi Jasa. 0,45% (n0l koma empat puluh lima persen) untuk Pemegang Kas. 0,35% (no] koma tiga puluh lima persen) untuk IPCN/PPI. 0,35% (nol koma tiga puluh lima persen) untuk SPI. 0,60% (nol koma enam puluh persen) untuk Ketua Komite. 1,25% (satu koma dua puluh lima persen) untuk Verifikator. 0,35% (no0l koma tiga puluh lima persen) untuk Case Manager. 1,85 (satu koma delapan puluh lima persen) untuk Kepala Ruangan. 0,17 Informasi Rumah Sakit. (nol koma tujuh belas persen) untuk Programmer Sistem b. c. d. e. f. g. h. i. j. k. Pasal II Peraturan Gubernur ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Gubernur ini dengan penempatannya dalam Berita Daerah Provinsi Kalimantan Barat. Ditetapkan di Pontianak pada tanggal GUBERNUR KALIMANTAN BARAT,¢ SUTARMIDJI Diundangkan di Pontianak pada tanggal SEKRETARIS DAERAH PROVINSI KALIMAN'TAN BARAT, S e A.L. LEYSANDRI BERITA DAERAH PROVINSI KALIMANTAN BARAT TAHUN 2021 NOMOR",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..8): [1, 2, 3, 4, 5, 6, 7]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

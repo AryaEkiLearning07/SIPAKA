@@ -1,0 +1,44 @@
+tok 1.0 "Tangani Permintaan AI (Asisten Riset AI)"
+
+pool p "Tangani Permintaan AI" process=tangani_permintaan_ai
+  store d_kuota "Kuota Penggunaan AI"
+  store d_cache "Cache Respons AI"
+  store d_uu "Undang-Undang"
+  start mulai "Permintaan AI diterima dari fitur pemanggil"
+  service kuota "Periksa Kuota Penggunaan AI"
+  xor kuotaok "Kuota penggunaan masih tersedia?"
+  end habis "Ditolak: kuota penggunaan AI habis"
+  service cache "Ambil Respons AI dari Cache"
+  xor ada "Respons ada di cache?"
+  service prompt "Susun Prompt Konteks"
+  send kirim "Kirim prompt ke layanan AI" message="Prompt"
+  receive terima "Terima respons dari layanan AI" message="Respons"
+  xor berhasil "Layanan AI merespons dengan benar?"
+  end gagal "Gagal: layanan AI tidak tersedia"
+  service simpan "Simpan Respons AI ke Cache"
+  xor gabung
+  service disclaimer "Sertakan Disclaimer AI"
+  end selesai "Respons AI siap ditampilkan"
+
+pool ai "Layanan AI (penyedia eksternal)"
+
+flow mulai -> kuota -> kuotaok
+flow kuotaok -> cache "ya" when="kuotaTersedia"
+flow kuotaok -> habis "tidak" default
+flow cache -> ada
+flow ada -> gabung "ya" when="adaDiCache"
+flow ada -> prompt "tidak" default
+flow prompt -> kirim -> terima -> berhasil
+flow berhasil -> simpan "ya" when="responsBerhasil"
+flow berhasil -> gagal "tidak" default
+flow simpan -> gabung
+flow gabung -> disclaimer -> selesai
+
+reads kuota d_kuota
+writes kuota d_kuota
+reads cache d_cache
+reads prompt d_uu
+writes simpan d_cache
+
+message kirim -> ai "Prompt"
+message ai -> terima "Respons"

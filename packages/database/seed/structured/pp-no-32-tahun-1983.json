@@ -1,0 +1,68 @@
+{
+ "slug": "pp-no-32-tahun-1983",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan ketentuan ayat (1) Pasal 4 Undang-undang Nomor 5 Tahun 1982 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1982/1983 serta ketentuan ayat (1) Pasal 3 Undang-undang Nomor 3 Tahun 1983 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1982/1983, sisa kredit anggaran tersebut dapat dipindahkan kepada Tahun Anggaran 1983/ 1984;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 18 Oktober 1983 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 43 www.djpp.depkumham.go.id PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 32 TAHUN 1983 TENTANG PEMINDAHAN SISA ANGGARAN PEMBANGUNAN TAHUN ANGGARAN 1982/1983 KEPADA TAHUN ANGGARAN 1983/1984 UMUM Pelaksanaan tahun keempat Pelita III, ialah Tahun Anggaran 1982/1983 masih sebagaimana tahun- tahun terdahulu memerlukan pula penyesuaian karena rencana pekerjaan yang telah ditetapkan dalam DIP (Daftar Isian Proyek) dari masing-masing proyek belum dapat terselesaikan seluruhnya pada akhir Tahun Anggaran 1982/1983. Guna menjamin kontinuitas pelaksanaan pembangunan, maka dalam ketentuan ayat (1) Pasal 4 Undang-undang Nomor 5 Tahun 1982 ditetapkan, bahwa sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1982/1983 yang terdapat pada akhir tahun anggaran itu dapat dipindahkan dan ditambahkan pada Anggaran Pembangunan Tahun Anggaran 1983/1984 atau tahun kelima Pelita III,pengaturannya ditetapkan dengan suatu Peraturan Pemerintah. Dalam pada itu berdasarkan ketentuan ayat(3)Pasal 4 Undang-un",
+ "source": {
+  "url": {
+   "slug": "pp-no-32-tahun-1983",
+   "detailsId": "71900",
+   "judul": "PP No. 32 Tahun 1983 tentang Pemindahan Sisa Anggaran Pembangunan Tahun 1982/1983 Kepada Tahun Anggaran 1983/1984 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62352/PP%20NO.%2032%20TH%201983.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:48:50.091168+00:00"
+  },
+  "sha256": "c601f68b489cd5209086736abc175446fe4353f908797df7c7d3d859b8aaf242",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-32-tahun-1983/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-32-tahun-1983/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Sisa kredit anggaran proyek pada Anggaran Pembangunan Tahun 1982/ 1983 sebesar Rp 2.260.5 34.267.85 1,00 yang terdapat pada akhir Tahun Anggaran 1982/1983 dipindahkan kepada Tahun Anggaran 1983/1984.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-32-tahun-1983/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian sisa kredit anggaran tersebut dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

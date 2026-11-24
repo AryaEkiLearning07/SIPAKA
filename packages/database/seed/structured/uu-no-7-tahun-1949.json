@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-7-tahun-1949",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu diadakan peraturan untuk mengatur dalam hal Presiden dan Wakil Presiden mangkat, berhenti atau tidak dapat melakukan kewajibannya dalam masa jabatannya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1949",
+   "detailsId": "33402",
+   "judul": "UU No. 7 Tahun 1949 tentang Penunjukkan Pemangku-Sementara Jabatan Presiden Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/22456/UU%20Nomor%207%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:10:12.018670+00:00"
+  },
+  "sha256": "5ff0817b6d1a72d6ccd3ad8ffdfcdf86216b2e069a86afb109c2654af14315b5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

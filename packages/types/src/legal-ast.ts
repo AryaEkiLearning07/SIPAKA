@@ -7,7 +7,11 @@ export type InstrumentType =
   | 'PERPRES'
   | 'PERMEN'
   | 'PERDA_PROV'
-  | 'PERDA_KABKOT';
+  | 'PERDA_KABKOT'
+  | 'PERGUB'
+  | 'PERBUP'
+  | 'PERWALI'
+  | 'QANUN';
 
 export type InstrumentStatus =
   | 'BERLAKU'
@@ -39,6 +43,17 @@ export interface ProvisionNode {
   versionTag: string; // e.g. "ORIGINAL_2008", "AMENDMENT_2016"
   isRepealed?: boolean;
   repealBasis?: string;
+  judicialAnnotations?: Array<{
+    id?: string;
+    court?: string;
+    caseNumber: string;
+    rulingDate: string;
+    effect: 'BATAL_SELURUHNYA' | 'INKONSTITUSIONAL_BERSYARAT' | 'KONSTITUSIONAL_BERSYARAT' | 'TIDAK_DITERIMA_NO' | 'DITOLAK' | string;
+    affectedPhrase?: string;
+    ratioDecidendi?: string;
+    rulingVerdict?: string;
+    sourceUrl?: string;
+  }>;
   children: ProvisionNode[];
 }
 

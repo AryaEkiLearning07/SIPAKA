@@ -1,0 +1,39 @@
+{
+ "slug": "uu-no-9-tahun-2000",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-9-tahun-2000",
+   "detailsId": "44959",
+   "judul": "UU No. 9 Tahun 2000 tentang Perubahan atas Undang-Undang Nomor 49 Tahun 1999 tentang Pembentukan Kabupaten Kepulauan Mentawai - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33325/UU%20Nomor%209%20Tahun%202000.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:06:11.174185+00:00"
+  },
+  "sha256": "bc9f1b4dff4574b681e60c803a8e9759e40a3172f19501184fc3e3970646f5a4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

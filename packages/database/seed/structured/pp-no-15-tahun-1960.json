@@ -1,0 +1,94 @@
+{
+ "slug": "pp-no-15-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pasal 26 Undang-undang No. 83 tahun 1958 tentang Penerbangan dipandang perlu mengatur susunan dan tugas Dewan Penerbangan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-15-tahun-1960",
+   "detailsId": "74566",
+   "judul": "PP No. 15 Tahun 1960 tentang Dewan Penerbangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65064/pp%20no%20015%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-5-tahun-1955"
+   ],
+   "scrapedAt": "2026-10-06T07:38:59.448488+00:00"
+  },
+  "sha256": "268f37dff6a324d6b96d3dc9faa6d131750c09297c6f193f49af0ee25ed7850e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-15-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1960/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TUGAS DEWAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1960/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TATA-TERTIB",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1960/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1960/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "DJUANDA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

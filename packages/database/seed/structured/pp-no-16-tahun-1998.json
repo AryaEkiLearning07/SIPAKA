@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-16-tahun-1998",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka reformasi dan restrukturisasi ekonomi nasional, perlu diberikan kesempatan kepada Perusahaan Penanaman Modal Asing yang didirikan dalam rangka Undang-undang Nomor 1 Tahun 1967 untuk melakukan kegiatan sebagai Distributor/Pedagang Besar atau Pengecer;",
+   "bahwa sehubungan dengan hal tersebut, dipandang perlu melakukan perubahan terhadap Peraturan Pemerintah Nomor 6 Tahun 1996 tentang Kegiatan Perusahaan Yang Didirikan Dalam Rangka Penanaman Modal Asing Di Bidang Ekspor dan Impor, sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 42 Tahun 1997;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1998",
+   "detailsId": "54783",
+   "judul": "PP No. 16 Tahun 1998 tentang Perubahan Atas Peraturan Pemerintah Nomor 2 Tahun 1996 Tentang Kegiatan Perusahaan Yang Didirikan Dalam Rangka Penanaman Modal Asing Di Bidang Ekspor Dan Impor, Sebagaimana Telah Diubah Dengan Peraturan Pemerintah Nomor 42 Tahun 1997 Presiden Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/44223/PP%20No.%2016%20Tahun%201998.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:43:12.174830+00:00"
+  },
+  "sha256": "405a0cd78547b6a287f3cc2aa4c0803832c1cd2a94d684c6523c4e6cbba8f690",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-1998/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengubah ketentuan Pasal 2 ayat (3) Peraturan Pemerintah Nomor 2 Tahun 1996 tentang Kegiatan Perusahaan Yang Didirikan Dalam Rangka Penanaman Modal Asing Di Bidang Ekspor dan Impor, sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 42 Tahun 1997, sehingga menjadi berbunyi sebagai berikut: \"Pasal 2",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-16-tahun-1998/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "a. Perusahaan sebagaimana dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-16-tahun-1998/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "dapat melakukan penjualan barang sebagai Pengecer. dilarang merangkap sebagai Distributor/Pedagang Besar (Wholesaler) dan sekaligus Pengecer.\" Pasal II Peraturan Pemerintah ini mulai berlaku tanggal 31 Maret 1998. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 21 Januari 1998 ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 21 Januari 1998 MENTERI NEGARA SEKRETARIS NEGARA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1998 NOMOR 26",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-16-tahun-1998/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Perusahaan sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

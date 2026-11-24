@@ -1,0 +1,70 @@
+{
+ "slug": "pp-no-42-tahun-1997",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut, dipandang perlu melakukan perubahan terhadap Peraturan Pemerintah Nomor 2 Tahun 1996 tentang Kegiatan Perusahaan Yang Didirikan Dalam Rangka Penanaman Modal Asing Di Bidang Ekspor dan Impor."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-42-tahun-1997",
+   "detailsId": "56378",
+   "judul": "PP No. 42 Tahun 1997 tentang Perubahan Atas Peraturan Pemerintah Nomor 2 Tahun 1996 Tentang Kegiatan Perusahaan Yang Didirikan Dalam Rangka Penanaman Modal Asing Di Bidang Ekspor Dan Impor - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/45879/PP%20No.%2042%20Th%201997.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:43:08.335365+00:00"
+  },
+  "sha256": "2cd3b85599f2ae370b9cf7a0404f086a71ca1526b9127a0baae48db3f36e5ea2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-42-tahun-1997/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(3) a. Perusahaan yang didirikan dalam rangka Penanaman Modal Asing sebagaimana dimaksud pada ayat (1), dapat melakukan penjualan barang hasil produksi Perusahaan Penanaman Modal Asing di Bidang Produksi sebagai Distributor/Pedagang Besar seluruh wilayah Indonesia. (Wholesaler) di b. Mulai tanggal 1 Januari 2003 Perusahaan Penanaman Modal Asing sebagaimana dimaksud pada ayat (1), dapat melakukan penjualan langsung pada konsumen akhir barang hasil produksi Perusahaan Penanaman Modal Asing di Bidang Produksi di seluruh wilayah Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-42-tahun-1997/pasal-2/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Menambah ketentuan baru yang dijadikan Pasal 5a, yang berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1997/pasal-5a",
+   "type": "PASAL",
+   "orderIndex": 5.1,
+   "label": "Pasal 5a",
+   "content": "Pelanggan terhadap kegiatan perdagangan sebagaimana dimaksud dalam Peraturan Pemerintah ini dapat berakibat pencabutan Izin usaha sesuai dengan peraturan perundang-undangan yang berlaku\". Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar... - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Nopember 1997 ttd. SOEHARTO Ditetapkan di Jakarta pada tanggal 1 Nopember 1997 MENTERI NEGARA SEKRETARIS NEGARA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 89",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

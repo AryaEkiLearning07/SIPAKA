@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-17-tahun-1951",
+ "preamble": {
+  "menimbang": [
+   "Bahwa perlu mengadakan perobahan dalam Peraturan Pemerintah Republik Indonesia Serikat No. 16 tahun 1950 (L.N. No. 46), mengenai penetapan-penetapan tentang pemberian tunjangan anak, tunjangan kemahalan daerah serta gaji tambahan peralihan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-17-tahun-1951",
+   "detailsId": "77420",
+   "judul": "PP No. 17 Tahun 1951 tentang Mengubah Peraturan Pemerintah No. 16 Tahun 1950 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68457/PP%20No.%2017%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:45.021552+00:00"
+  },
+  "sha256": "e7cc0dbd6e62c3de65a0339b285d6dc48d073bbf365d56caee6d30059536f14c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "permenaker-no-14-tahun-2018",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan berlakunya Peraturan Presiden Nornor 93 Tahun 2018 tentang Perubahan atas Peraturan Presiden Nomor 67 Tahun 2017 tentang Tunjangan Kinerja Pegawai di Lingkungan Kementerian Ketenagakerjaan, perlu dilakukan perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 10 Tahun 2017 tentang Pedoman Pemberian Tunjangan Kinerja bagi Pegawai Kementerian Ketenagakerjaan;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan Peraturan Menteri Ketenagakerjaan tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 10 Tahun 2017 tentang Pedoman Pemberian Tunjangan Kinerja bagi Pegawai Kementerian Ketenagakerjaan; - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-14-tahun-2018",
+   "detailsId": "146306",
+   "judul": "Permenaker No. 14 Tahun 2018 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 10 Tahun 2017 tentang Pedoman Pemberian Tunjangan Kinerja bagi Pegawai Kementerian Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/252471/Kemnaker%20No.%2014%20Tahun%202018.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:56:52.781328+00:00"
+  },
+  "sha256": "1c1ad616aca1e7f43bd3cdfb588431a33a06a7758bfe545c8715e2b27117b884",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2018/pasal-23",
+   "type": "PASAL",
+   "orderIndex": 23,
+   "label": "Pasal 23",
+   "content": "Tunjangan Kinerja sebagaimana dimaksud dalam Pasal 21 tidak diberikan kepada: a. Pegawai yang tidak mempunyai jabatan tertentu; b. Pegawai yang diberhentikan untuk sementara dari tugas jabatan atau dinonaktifkan; c. Pegawai yang diberhentikan dari jabatan organiknya dengan diberikan uang tunggu dan belum diberhentikan sebagai Pegawai; dan d. e. dihapus; Pegawai yang diberikan Cuti di luar tanggungan negara atau dalam bebas tugas untuk menjalani masa persiapan pensiun.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2018/pasal-23/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Di antara Pasal 24 dan Pasal 25 disisipkan 1 (satu) pasal, yakni Pasal 24A sehingga berbunyi sebagai berikut: Pasa124A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2018/pasal-23/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Menteri diberikan tunjangan kinerja sebesar 150% (seratus lima puluh persen) dari tunjangan kinerja tertinggi di Kementerian Ketenagakerjaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2018/pasal-23/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tunjangan kinerja Menteri sebagaimana dirnaksud pada ayat (1) diberikan terhitung mulai bulan Januari 2017.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2018/pasal-23/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pajak penghasilan atas tunjangan kinerja sebagaimana dimaksud pada ayat (2) dibebankan pada Anggaran Pendapatan dan Belanja Negara. Pasal II Peraturan Menteri iru mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri iru dengan penempatannya dalam Berita NegaraRepublik Indonesia. Ditetapkan di Jakarta pada tanggal19 November 2018 MENTERIKETENAGAKERJAAN REPUBLlKINDONESIA, ttd. M. HANIF DHAKIRI Diundangkan di Jakarta pada tanggal 19 November2018 DlREKTURJENDERAL PERATURANPERUNDANG-UNDANGAN KEMENTERIANHUKUM DAN HAK ASASI MANUSIA REPUBLIKINDONESIA, ttd. WIDODO EKATJAHJANA BERITA NEGARAREPUBLIKINDONESIATAHUN 2018 NOMOR 1526 SALlNANSESUAI DENGANASLINYA IRO HUKUM,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..23): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

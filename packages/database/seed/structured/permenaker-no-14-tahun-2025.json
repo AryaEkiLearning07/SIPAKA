@@ -1,0 +1,43 @@
+{
+ "slug": "permenaker-no-14-tahun-2025",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-14-tahun-2025",
+   "detailsId": "343010",
+   "judul": "Permenaker No. 14 Tahun 2025 tentang Standar Kegiatan Usaha dan Standar Produk/Jasa pada Penyelenggaraan Perizinan Berusaha Berbasis Risiko Sektor Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/406184/permenaker-no-14-tahun-2025.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "permenaker-no-6-tahun-2021"
+   ],
+   "scrapedAt": "2026-10-06T13:55:51.344096+00:00"
+  },
+  "sha256": "d2d80faa1562eb7856975eb1556ff21eb2220465ce857f00af6449fbbcd4c6e3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

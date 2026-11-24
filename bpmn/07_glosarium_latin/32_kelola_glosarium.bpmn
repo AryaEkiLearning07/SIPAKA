@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Kelola Glosarium (Glosarium Latin)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Aksi_dan_data_istilah_glosarium" name="Aksi dan data istilah glosarium" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Pesan_kesalahan_data_istilah" name="Pesan kesalahan data istilah" />
+  <bpmn:message id="Message_Data_istilah_diperbaiki" name="Data istilah diperbaiki" />
+  <bpmn:message id="Message_Permintaan_konfirmasi_hapus" name="Permintaan konfirmasi hapus" />
+  <bpmn:message id="Message_Konfirmasi_hapus" name="Konfirmasi hapus" />
+  <bpmn:message id="Message_Batal_hapus" name="Batal hapus" />
+  <bpmn:message id="Message_Konfirmasi_glosarium_diperbarui" name="Konfirmasi glosarium diperbarui" />
+  <bpmn:dataStore id="d_istilah-store" name="Istilah Latin" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Kelola Glosarium" processRef="kelola_glosarium" />
+    <bpmn:participant id="admin" name="Admin" />
+    <bpmn:messageFlow id="m-admin-mulai" name="Aksi dan data istilah glosarium" sourceRef="admin" targetRef="mulai" messageRef="Message_Aksi_dan_data_istilah_glosarium" />
+    <bpmn:messageFlow id="m-tolak-admin" name="Akses ditolak" sourceRef="tolak" targetRef="admin" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-pesan-admin" name="Pesan kesalahan data istilah" sourceRef="pesan" targetRef="admin" messageRef="Message_Pesan_kesalahan_data_istilah" />
+    <bpmn:messageFlow id="m-admin-perbaiki" name="Data istilah diperbaiki" sourceRef="admin" targetRef="perbaiki" messageRef="Message_Data_istilah_diperbaiki" />
+    <bpmn:messageFlow id="m-minta-admin" name="Permintaan konfirmasi hapus" sourceRef="minta" targetRef="admin" messageRef="Message_Permintaan_konfirmasi_hapus" />
+    <bpmn:messageFlow id="m-admin-ya" name="Konfirmasi hapus" sourceRef="admin" targetRef="ya" messageRef="Message_Konfirmasi_hapus" />
+    <bpmn:messageFlow id="m-admin-tidak" name="Batal hapus" sourceRef="admin" targetRef="tidak" messageRef="Message_Batal_hapus" />
+    <bpmn:messageFlow id="m-selesai-admin" name="Konfirmasi glosarium diperbarui" sourceRef="selesai" targetRef="admin" messageRef="Message_Konfirmasi_glosarium_diperbarui" />
+  </bpmn:collaboration>
+  <bpmn:process id="kelola_glosarium" name="Kelola Glosarium (Glosarium Latin)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Permintaan kelola glosarium diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Aksi_dan_data_istilah_glosarium" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:exclusiveGateway id="aksi" name="Aksi glosarium?" default="f-aksi-minta" />
+    <bpmn:serviceTask id="valid" name="Validasi data istilah (tidak duplikat, definisi terisi)">
+      <bpmn:ioSpecification id="valid-io">
+        <bpmn:dataInput id="valid-in-1" name="Istilah Latin" />
+        <bpmn:inputSet id="valid-inputs">
+          <bpmn:dataInputRefs>valid-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="valid-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="valid-dia-1">
+        <bpmn:sourceRef>d_istilah</bpmn:sourceRef>
+        <bpmn:targetRef>valid-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="ok" name="Data istilah valid?" default="f-ok-pesan" />
+    <bpmn:sendTask id="pesan" name="Kirim pesan kesalahan data istilah" messageRef="Message_Pesan_kesalahan_data_istilah" />
+    <bpmn:receiveTask id="perbaiki" name="Terima data istilah yang diperbaiki" messageRef="Message_Data_istilah_diperbaiki" />
+    <bpmn:serviceTask id="tambah" name="Tambah Istilah Glosarium">
+      <bpmn:ioSpecification id="tambah-io">
+        <bpmn:dataOutput id="tambah-out-2" name="Istilah Latin" />
+        <bpmn:inputSet id="tambah-inputs" />
+        <bpmn:outputSet id="tambah-outputs">
+          <bpmn:dataOutputRefs>tambah-out-2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="tambah-doa-2">
+        <bpmn:sourceRef>tambah-out-2</bpmn:sourceRef>
+        <bpmn:targetRef>d_istilah</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ubah" name="Ubah Istilah Glosarium">
+      <bpmn:ioSpecification id="ubah-io">
+        <bpmn:dataOutput id="ubah-out-3" name="Istilah Latin" />
+        <bpmn:inputSet id="ubah-inputs" />
+        <bpmn:outputSet id="ubah-outputs">
+          <bpmn:dataOutputRefs>ubah-out-3</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="ubah-doa-3">
+        <bpmn:sourceRef>ubah-out-3</bpmn:sourceRef>
+        <bpmn:targetRef>d_istilah</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:sendTask id="minta" name="Minta konfirmasi penghapusan istilah" messageRef="Message_Permintaan_konfirmasi_hapus" />
+    <bpmn:eventBasedGateway id="tunggu" />
+    <bpmn:intermediateCatchEvent id="ya" name="Admin mengonfirmasi hapus">
+      <bpmn:messageEventDefinition id="ya-def" messageRef="Message_Konfirmasi_hapus" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateCatchEvent id="tidak" name="Admin membatalkan hapus">
+      <bpmn:messageEventDefinition id="tidak-def" messageRef="Message_Batal_hapus" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:serviceTask id="hapus" name="Hapus Istilah Glosarium">
+      <bpmn:ioSpecification id="hapus-io">
+        <bpmn:dataOutput id="hapus-out-4" name="Istilah Latin" />
+        <bpmn:inputSet id="hapus-inputs" />
+        <bpmn:outputSet id="hapus-outputs">
+          <bpmn:dataOutputRefs>hapus-out-4</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="hapus-doa-4">
+        <bpmn:sourceRef>hapus-out-4</bpmn:sourceRef>
+        <bpmn:targetRef>d_istilah</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="gabung" />
+    <bpmn:endEvent id="selesai" name="Glosarium diperbarui">
+      <bpmn:messageEventDefinition id="selesai-def" messageRef="Message_Konfirmasi_glosarium_diperbarui" />
+    </bpmn:endEvent>
+    <bpmn:endEvent id="batal" name="Penghapusan dibatalkan" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-aksi" name="ya" sourceRef="izin" targetRef="aksi">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-aksi-valid" name="tambah atau ubah" sourceRef="aksi" targetRef="valid">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksi = "tambah" or aksi = "ubah"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-aksi-minta" name="hapus" sourceRef="aksi" targetRef="minta" />
+    <bpmn:sequenceFlow id="f-valid-ok" sourceRef="valid" targetRef="ok" />
+    <bpmn:sequenceFlow id="f-ok-tambah" name="ya, tambah" sourceRef="ok" targetRef="tambah">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksi = "tambah"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ok-ubah" name="ya, ubah" sourceRef="ok" targetRef="ubah">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksi = "ubah"</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ok-pesan" name="tidak" sourceRef="ok" targetRef="pesan" />
+    <bpmn:sequenceFlow id="f-pesan-perbaiki" sourceRef="pesan" targetRef="perbaiki" />
+    <bpmn:sequenceFlow id="f-perbaiki-valid" sourceRef="perbaiki" targetRef="valid" />
+    <bpmn:sequenceFlow id="f-minta-tunggu" sourceRef="minta" targetRef="tunggu" />
+    <bpmn:sequenceFlow id="f-tunggu-ya" sourceRef="tunggu" targetRef="ya" />
+    <bpmn:sequenceFlow id="f-tunggu-tidak" sourceRef="tunggu" targetRef="tidak" />
+    <bpmn:sequenceFlow id="f-ya-hapus" sourceRef="ya" targetRef="hapus" />
+    <bpmn:sequenceFlow id="f-hapus-gabung" sourceRef="hapus" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-tidak-batal" sourceRef="tidak" targetRef="batal" />
+    <bpmn:sequenceFlow id="f-tambah-gabung" sourceRef="tambah" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-ubah-gabung" sourceRef="ubah" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-gabung-selesai" sourceRef="gabung" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_istilah" name="Istilah Latin" dataStoreRef="d_istilah-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="1220" height="620" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="admin_di" bpmnElement="admin" isHorizontal="true">
+        <dc:Bounds x="0" y="660" width="1220" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="50" y="2" width="56" height="47" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="326" y="32" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="403" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="384" y="168" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="aksi_di" bpmnElement="aksi" isMarkerVisible="true">
+        <dc:Bounds x="396" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="379" y="100" width="84" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="valid_di" bpmnElement="valid">
+        <dc:Bounds x="496" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ok_di" bpmnElement="ok" isMarkerVisible="true">
+        <dc:Bounds x="646" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="637" y="100" width="68" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pesan_di" bpmnElement="pesan">
+        <dc:Bounds x="746" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="perbaiki_di" bpmnElement="perbaiki">
+        <dc:Bounds x="896" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tambah_di" bpmnElement="tambah">
+        <dc:Bounds x="746" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ubah_di" bpmnElement="ubah">
+        <dc:Bounds x="746" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="minta_di" bpmnElement="minta">
+        <dc:Bounds x="496" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tunggu_di" bpmnElement="tunggu">
+        <dc:Bounds x="646" y="175" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ya_di" bpmnElement="ya">
+        <dc:Bounds x="778" y="442" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="684" y="417" width="108" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tidak_di" bpmnElement="tidak">
+        <dc:Bounds x="778" y="550" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="729" y="513" width="62" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="hapus_di" bpmnElement="hapus">
+        <dc:Bounds x="896" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gabung_di" bpmnElement="gabung" isMarkerVisible="true">
+        <dc:Bounds x="1046" y="435" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="1146" y="442" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1103" y="481" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="batal_di" bpmnElement="batal">
+        <dc:Bounds x="928" y="550" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="915" y="591" width="62" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_istilah_di" bpmnElement="d_istilah">
+        <dc:Bounds x="521" y="305" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="509" y="360" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-admin-mulai_di" bpmnElement="m-admin-mulai">
+        <di:waypoint x="78" y="660" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="362" width="96" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-admin_di" bpmnElement="m-tolak-admin">
+        <di:waypoint x="421" y="218" />
+        <di:waypoint x="421" y="660" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="426" y="427" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-pesan-admin_di" bpmnElement="m-pesan-admin">
+        <di:waypoint x="846" y="338" />
+        <di:waypoint x="866" y="338" />
+        <di:waypoint x="866" y="660" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="871" y="632" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-admin-perbaiki_di" bpmnElement="m-admin-perbaiki">
+        <di:waypoint x="1016" y="660" />
+        <di:waypoint x="1016" y="338" />
+        <di:waypoint x="996" y="338" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1021" y="632" width="68" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-minta-admin_di" bpmnElement="m-minta-admin">
+        <di:waypoint x="511" y="240" />
+        <di:waypoint x="511" y="660" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="516" y="438" width="90" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-admin-ya_di" bpmnElement="m-admin-ya">
+        <di:waypoint x="840" y="660" />
+        <di:waypoint x="840" y="468" />
+        <di:waypoint x="812" y="468" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="745" y="644" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-admin-tidak_di" bpmnElement="m-admin-tidak">
+        <di:waypoint x="796" y="660" />
+        <di:waypoint x="796" y="586" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="762" y="592" width="28" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-selesai-admin_di" bpmnElement="m-selesai-admin">
+        <di:waypoint x="1164" y="478" />
+        <di:waypoint x="1164" y="660" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1103" y="620" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="valid-dia-1_di" bpmnElement="valid-dia-1">
+        <di:waypoint x="546" y="305" />
+        <di:waypoint x="546" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="tambah-doa-2_di" bpmnElement="tambah-doa-2">
+        <di:waypoint x="758" y="110" />
+        <di:waypoint x="570" y="305" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="ubah-doa-3_di" bpmnElement="ubah-doa-3">
+        <di:waypoint x="746" y="226" />
+        <di:waypoint x="571" y="317" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="hapus-doa-4_di" bpmnElement="hapus-doa-4">
+        <di:waypoint x="896" y="444" />
+        <di:waypoint x="571" y="338" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-aksi_di" bpmnElement="f-izin-aksi">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="403" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-aksi-valid_di" bpmnElement="f-aksi-valid">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="496" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="453" y="55" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-aksi-minta_di" bpmnElement="f-aksi-minta">
+        <di:waypoint x="446" y="70" />
+        <di:waypoint x="471" y="70" />
+        <di:waypoint x="471" y="200" />
+        <di:waypoint x="496" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="437" y="130" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-valid-ok_di" bpmnElement="f-valid-ok">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ok-tambah_di" bpmnElement="f-ok-tambah">
+        <di:waypoint x="696" y="70" />
+        <di:waypoint x="746" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="704" y="55" width="56" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ok-ubah_di" bpmnElement="f-ok-ubah">
+        <di:waypoint x="696" y="70" />
+        <di:waypoint x="721" y="70" />
+        <di:waypoint x="721" y="200" />
+        <di:waypoint x="746" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="670" y="130" width="46" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ok-pesan_di" bpmnElement="f-ok-pesan">
+        <di:waypoint x="696" y="70" />
+        <di:waypoint x="721" y="70" />
+        <di:waypoint x="721" y="330" />
+        <di:waypoint x="746" y="330" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="687" y="314" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pesan-perbaiki_di" bpmnElement="f-pesan-perbaiki">
+        <di:waypoint x="846" y="330" />
+        <di:waypoint x="896" y="330" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-perbaiki-valid_di" bpmnElement="f-perbaiki-valid">
+        <di:waypoint x="946" y="290" />
+        <di:waypoint x="946" y="25" />
+        <di:waypoint x="546" y="25" />
+        <di:waypoint x="546" y="30" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-minta-tunggu_di" bpmnElement="f-minta-tunggu">
+        <di:waypoint x="596" y="200" />
+        <di:waypoint x="646" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tunggu-ya_di" bpmnElement="f-tunggu-ya">
+        <di:waypoint x="671" y="225" />
+        <di:waypoint x="671" y="460" />
+        <di:waypoint x="778" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tunggu-tidak_di" bpmnElement="f-tunggu-tidak">
+        <di:waypoint x="671" y="225" />
+        <di:waypoint x="671" y="568" />
+        <di:waypoint x="778" y="568" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ya-hapus_di" bpmnElement="f-ya-hapus">
+        <di:waypoint x="814" y="460" />
+        <di:waypoint x="896" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-hapus-gabung_di" bpmnElement="f-hapus-gabung">
+        <di:waypoint x="996" y="460" />
+        <di:waypoint x="1046" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tidak-batal_di" bpmnElement="f-tidak-batal">
+        <di:waypoint x="814" y="568" />
+        <di:waypoint x="928" y="568" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tambah-gabung_di" bpmnElement="f-tambah-gabung">
+        <di:waypoint x="846" y="70" />
+        <di:waypoint x="1071" y="70" />
+        <di:waypoint x="1071" y="435" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ubah-gabung_di" bpmnElement="f-ubah-gabung">
+        <di:waypoint x="846" y="200" />
+        <di:waypoint x="1071" y="200" />
+        <di:waypoint x="1071" y="435" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-gabung-selesai_di" bpmnElement="f-gabung-selesai">
+        <di:waypoint x="1096" y="460" />
+        <di:waypoint x="1146" y="460" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

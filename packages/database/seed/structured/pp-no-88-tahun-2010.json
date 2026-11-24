@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-88-tahun-2010",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu tentang menetapkan Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Infrastruktur Perseroan Indonesia; (Persero) PT Penjaminan Pemerintah Peraturan Mengingat: . . . - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-88-tahun-2010",
+   "detailsId": "5113",
+   "judul": "PP No. 88 Tahun 2010 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Perusahaan Persero Persero PT Penjamin Infrastruktur Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36139/PP%2088%20Tahun%202010.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:40.887010+00:00"
+  },
+  "sha256": "d2e4f2a0fe56e7e63379eef39c85d59b3e900ac2563fe8ab26aec9a60ea78d9f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-88-tahun-2010/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal Negara ke dalam modal saham Perseroan Perusahaan PT Penjaminan Infrastruktur Indonesia yang didirikan berdasarkan Peraturan Pemerintah Nomor 35 Tahun 2009 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Penjaminan Infrastruktur. (Persero)",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-88-tahun-2010/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-88-tahun-2010/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp1.000.000.000.000,00 (satu triliun rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-88-tahun-2010/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan Negara sebagaimana dimaksud pada ayat 1 bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2010. modal",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-88-tahun-2010/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan ini dengan pengundangan Peraturan Pemerintah penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 2010 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 27 Desember 2010 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 150 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA REPUBLIK INDONESIA Kepala Biro Peraturan Perundang-undangan Bidang Perekonomian dan Industri, Setio Sapto Nugroho",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

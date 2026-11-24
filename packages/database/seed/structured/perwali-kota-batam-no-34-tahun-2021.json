@@ -1,0 +1,23 @@
+{
+ "slug": "perwali-kota-batam-no-34-tahun-2021",
+ "source": {
+  "url": "https://peraturan.bpk.go.id/Download/167252/Perwako_Btm_2021_No_34.pdf",
+  "sha256": "f4977c59d9c84d7ee8503beb8490c15b284861396d745b09e7cef7683345d4d4",
+  "status": "PARSE_ERROR"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

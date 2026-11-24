@@ -1,0 +1,2220 @@
+{
+ "slug": "pp-no-94-tahun-1999",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan diundangkannya Peraturan Pemerintah Nomor 13 Tahun 1998 tentang Perusahaan Umum (PERUM) pengaturan mengenai Perusahaan Umum (PERUM) Otorita Jatiluhur sebagaimana diatur dalam Peraturan Pemerintah Nomor 42 Tahun 1990 tentang Perusahaan Umum (PERUM) Otorita Jatiluhur perlu disesuaikan;",
+   "bahwa penyesuaikan Peraturan Pemerintah sebagaimana dimaksud pada butir a, perlu dituangkan dalam Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-94-tahun-1999",
+   "detailsId": "54611",
+   "judul": "PP No. 94 Tahun 1999 tentang Perusahaan Umum (Perum) Jasa Tirta II - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/44036/PP%20No.%2094%20th%201999.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:42:07.626743+00:00"
+  },
+  "sha256": "6b54e67a4e0a9611934b17b63545f8030fc55a4e0d55c687ad3e8fc19a185de3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 72,
+  "ayat_angka": 123,
+  "huruf": 36
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-94-tahun-1999/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Perusahaan Umum (PERUM) Jasa Tirta II, yang selanjutnya dalam Peraturan Pemerintah ini disebut Perusahaan adalah Badan Usaha Milik Negara sebagaimana diatur dalam Undang-undang Nomor 9 Tahun 1969, yang bidang usahanya berada dalam lingkup tugas dan kewenangan Menteri, dimana seluruh modalnya dimiliki Negara berupa kekayaan Negara yang dipisahkan dan tidak terbagi atas saham.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pembinaan adalah kegiatan untuk memberikan pedoman bagi Perusahaan di bidang perencanaan, pelaksanaan dan pengendalian dengan maksud agar Perusahaan dapat melaksanakan tugas dan fungsinya secara berdaya guna dan berhasil guna serta dapat berkembang dengan baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pengawasan adalah seluruh proses kegiatan penilaian terhadap Perusahaan dengan tujuan agar Perusahaan dapat melaksanakan tugas dan fungsinya dengan baik dan berhasil mencapai tujuan yang telah ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemeriksaan adalah kegiatan untuk menilai Perusahaan dengan cara membandingkan dengan cara membandingkan antara keadaan yang sebesarnya dengan keadaan yang seharusnya dilakukan, baik dalam bidang keuangan maupun dalam bidang teknis operasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Pengurusan adalah kegiatan pengelolaan Perusahaan dalam upaya mencapai tujuan Perusahaan, sesuai dengan kebijakan pengembangan usaha yang ditetapkan oleh Menteri Keuangan dan pembinaan yang digariskan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Ketenagalistrikan … Ketenagalistrikan adalah segala sesuatu yang menyangkut penyediaan dan pemanfaatan tenaga listrik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Menteri Keuangan adalah Menteri yang mewakili Pemerintah dalam setiap penyertaan kekayaan Negara yang dipisahkan untuk dimasukkan ke dalam Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Menteri adalah Menteri yang bertanggung jawab dalam bidang pengairan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Direksi adalah organ Perusahaan yang bertanggung jawab atas kepengurusan Perusahaan untuk kepentingan dan tujuan Perusahaan serta mewakili Perusahaan baik di dalam maupun di luar Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Dewan Pengawas adalah organ Perusahaan yang bertugas melakukan pengawasan dan memberikan nasehat kepada Direksi dalam menjalankan kegiatan kepengurusan Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-94-tahun-1999/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENDIRIAN PERUSAHAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Umum (PERUM) Otorita Jatiluhur yang didirikan dengan Peraturan Pemerintah Nomor 20 Tahun 1970, sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 35 Tahun 1980, yang selanjutnya diatur kembali dengan Peraturan Pemerintah Nomor 42 Tahun 1990, dilanjutkan berdirinya dan meneruskan usaha-usaha berdasarkan ketentuan dalam Peraturan Pemerintah. selanjutnya diubah namanya menjadi Perusahaan Umum (PERUM) Jasa Tirta II. BAB III …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perusahaan Umum (PERUM) Otorita Jatiluhur sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-94-tahun-1999/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "ANGGARAN DASAR PERUSAHAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan adalah Badan Usaha Milik Negara yang diberi tugas dan wewenang untuk menyelenggarakan eksploitasi dan pemeliharaan prasarana pengairan, pengusahaan air dan sumber air serta kegiatan usaha lain yang berkaitan dengan air.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perusahaan melakukan usaha-usaha berdasar ketentuan-ketentuan dalam Peraturan Pemerintah ini dan peraturan perundang-undangan lainnya yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dengan tidak mengurangi ketentuan dalam Peraturan Pemerintah ini, terhadap Perusahaan berlaku Hukum Indonesia. Bagian Kedua Tempat Kedudukan dan Jangka Waktu",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Perusahaan berkedudukan dan berkantor pusat di Jatiluhur Purwakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Perusahaan didirikan untuk jangka waktu yang tidak ditentukan. Bagian … Bagian Ketiga Sifat, Maksud dan Tujuan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sifat usaha dari Perusahaan adalah menyediakan pelayanan bagi kemanfaatan umum dan sekaligus memupuk keuntungan berdasarkan prinsip pengelolaan Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Maksud didirikannya Perusahaan adalah untuk menyelenggarakan pemanfaatan umum atas air dan sumber-sumber air yang bermutu dan memadai bagi pemenuhan hajat hidup orang banyak, serta melaksanakan tugas-tugas tertentu yang diberikan Pemerintah dalam pengelolaan daerah aliran sungai, yang meliputi pelindungan, pengembangan, dan penggunaan sungai dan atau sumber-sumber air termasuk pemberian informasi, rekomendasi, penyuluhan dan bimbingan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tujuan Perusahaan adalah turut membangun ekonomi nasional dengan berperan serta melaksanakan program pembangunan nasional dalam bidang pengelolaan air dan atau sumber-sumber air dan ketenagalistrikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk mencapai maksud dan tujuan sebagaimana dimaksud dalam pasal 6, Perusahaan melakukan juga kegiatan rehabilitasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besarnya biaya untuk kegiatan rehabilitasi yang menjadi tanggung jawab Perusahaan ditetapkan dalam Rencana Kerja dan Anggaran Perusahaan. Bagian … Bagian Keempat Kegiatan dan Pengembangan Usaha",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Untuk mencapai maksud dan tujuan sebagaimana dimaksud dalam Pasal 6, Perusahaan menyelenggarakan kegiatan usaha: a. penyediaan air baku untuk perusahaan air minum, perusahaan listrik, pertanian, industri, pelabuhan, penggelontoran dan memenuhi kebutuhan lain perusahaan yang memanfaatkan air; b. usaha pembangkitan dan penyaluran listrik tenaga air PLTA Ir. H. Juanda dan PLTA lainnya serta prasarananya; c. usaha pariwisata, jasa konsultasi dan usaha pemanfaatan lahan; d. usaha-usaha lain yang dapat menunjang tercapainya maksud dan tujuan Perusahaan dengan persetujuan Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Untuk mendukung pembiayaan kegiatan dalam rangka mencapai maksud dan tujuan Perusahaan sebagaimana dimaksud dalam Pasal 6, dengan persetujuan Menteri Keuangan Perusahaan dapat: a. melakukan kerjasama usaha dengan badan usaha lain; b. membentuk anak Perusahaan; c. melakukan penyertaan modal dalam badan usaha lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan melaksanakan kegiatan-kegiatan penelitian, pembangunan, rehabilitasi, eksploitasi dan pemeliharaan dan pengendalian dalam rangka menyelenggarakan kegiatan usaha sebagaimana dimaksud dalam Pasal 8 di Wilayah sungai-sungai: Sebagaimana ... Bekasi, Cikeas, Celeungsi, Cikarang, Cijambe, Cisadang, Cikarang-Bekasi-Laut, Cilemahabang, Citarum, Citarik, Ciharus, Ciharuman, Cirasea, Cipamokolan, Cidurian, Cikapundung, Citepus, Cisangkuy, Cijalupang, Ciwidey, Cibeureum, Cimahi, Cukangkawung, Ciminyak, Cijeruk, Cilanang, Cijambu, Cihea, Cibodas, Cisokan, Cibalagung, Cikundul, Cibadak, Cilalawi, Cisomang, Cileuley, Cimeta, Cibeet, Cikao, Cisubah, Ciherang, Cibeber, Citaraje, Cijure, Cigangsa, Cikaranggelam, Cilamaya, Cijengkol Lamaya, Cikeruh, Cilandak, Ciasem, Cibarubus, Cimuja, Cinangka, Cikamiri, Cibolang, Cijuhung, Citapen, Cijengkol Asem, Cipunagara, Cipabelah, Cicenang, Cileat, Cikembang, Cikeramas, Cijere, Cijurey, Cikandung, Cilamatan, Cigadung, Cilalanang, Cipancuh, Cibinuang dan anak-anak sungainya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengusahaan air dan sumber-sumber air di sungai lainnya oleh Perusahaan ditetapkan oleh Presiden atas usul Menteri setelah mendapat persetujuan Menteri Keuangan. Bagian Kelima Modal",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Modal Perusahaan merupakan kekayaan Negara yang dipisahkan dari Anggaran Pendapatan dan Belanja Negara dan tidak terbagi atas saham-saham.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besarnya modal Perusahaan pada saat Peraturan Pemerintah ini diundangkan adalah sebesar nilai penyertaan modal Negara dalam Perusahaan sebagaimana dimaksud dalam Pasal 2, kecuali: waduk, bendung, tanggul, terowongan, dan pelurusan sungai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Pasal 12 … Setiap penambahan dan pengurangan penyertaan modal Negara yang tertanam dalam Perusahaan ditetapkan dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penerbitan obligasi dalam rangka pengerahan dana masyarakat oleh Perusahaan ditetapkan oleh Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rencana penerbitan obligasi sebagaimana dimaksud dalam ayat (1), harus diberitahukan oleh Perusahaan kepada para kreditor tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Apabila Perusahaan menerbitkan obligasi sebagaimana dimaksud dalam Pasal 13 ayat (1), dan selanjutnya Negara melakukan pengurangan penyertaan modal pada Perusahaan, maka pengurangan penyertaan modal Negara tersebut harus diberitahukan kepada kreditor sebelum ditetapkan degnan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengurangan penyertaan modal Negara sebagaimana dimaksud dalam ayat (1), tidak boleh merugikan kepentingan pihak ketiga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Semua alat-alat likuid yang tidak segera diperlukan oleh Perusahaan disimpan dalam bank sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Bagian … Bagian Keenam Pembinaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembinaan Perusahaan dilakukan oleh Menteri Keuangan dan pelaksanaan pembinaan sehari-hari dilakukan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan Perusahaan sebagaimana dimaksud dalam ayat (1) dilakukan dengan menetapkan kebijakan pengembangan usaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kebijakan pengembangan usaha merupakan arah dalam mencapai tujuan Perusahaan, baik menyangkut kebijakan investasi, pembiayaan usaha, sumber pembiayaannya, penggunaan hasil usaha Perusahaan dan kebijakan pengembangan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pembinaan sehari-hari sebagaimana dimaksud dalam ayat (1) dilakukan dengan memberikan pedoman bagi Direksi dan Dewan Pengawas dalam menjalankan kegiatan operasional Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pedoman sebagaimana dimaksud dalam ayat (4) disusun berdasarkan kebijakan pengembangan usaha sebagaimana dimaksud dalam ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-16/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam rangka memantapkan pembinaan dan pengawasan Perusahaan, Menteri Keuangan dan Menteri sewaktu-waktu apabila diperlukan dapat meminta keterangan dari Direksi dan Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Menteri Keuangan dan atau Menteri tidak bertanggung jawab atas segala akibat perbuatan hukum yang dilakukan Perusahaan dan tidak Bertanggung … bertanggung jawab atas kerugian Perusahaan melebihi nilai kekayaan Negara yang telah dipisahkan ke dalam Perusahaan kecuali apabila: a. Menteri Keuangan dan atau Menteri baik langsung maupun tidak langsung dengan itikad buruk memanfaatkan Perusahaan semata-mata untuk kepentingan pribadi; b. Menteri Keuangan dan atau Menteri terlibat dalam perbuatan melawan hukum yang dilakukan Perusahaan; atau c. Menteri Keuangan dan atau Menteri langsung secara melawan hukum menggunakan kekayaan Perusahaan. Bagian Ketujuh Direksi Perusahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepengurusan Perusahaan dilakukan oleh Direksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah anggota Direksi paling banyak 5 (lima) orang dan seorang diantaranya diangkat sebagai Direktur Utama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penambahan jumlah anggota Direksi melebihi jumlah sebagaimana dimaksud dalam ayat (2), dilakukan dengan persetujuan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Yang dapat diangkat menjadi anggota Direksi adalah orang perorangan yang: a. memenuhi kriteria keahlian, integritas, kepemimpinan, pengalaman dan berkelakuan baik serta memiliki dedikasi untuk mengembangkan usaha guna kemajuan Perusahaan. b. mampu melaksanakan perbuatan hukum dan tidak pernah dinyatakan pailit atau tidak pernah menjadi anggota Direksi, Komisaris atau b. mampu … Dewan Pengawas yang dinyatakan bersalah menyebabkan suatu perseroan atau PERUM dinyatakan pailit; dan c. berkewarganegaraan Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Antara anggota Direksi dilarang memiliki hubungan keluarga sampai derajat ketiga baik menurut garis lurus maupun garis kesamping, termasuk hubungan yang timbul karena perkawinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika hubungan keluarga sebagaimana dimaksud dalam ayat (1) terjadi sesudah pengangkatan anggota Direksi, maka anggota Direksi tersebut harus mengajukan permohonan kepada Menteri Keuangan untuk dapat melanjutkan jabatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Permohonan kepada Menteri Keuangan sebagaimana dimaksud dalam ayat (2) diajukan paling lambat 1 (satu) bulan sejak terjadinya hubungan keluarga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggota Direksi sebagaimana dimaksud dalam ayat (2), dapat melanjutkan jabatannya sampai dikeluarkannya keputusan Menteri Keuangan bagi anggota Direksi tersebut mengenai dapat atau tidak dapat melanjutkan jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Keputusan Menteri Keuangan sebagaimana dimaksud dalam ayat (4), diberikan dalam jangka waktu paling lambat 2 (dua) bulan terhitung sejak permohonan sebagaimana dimaksud dalam ayat (2) diajukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-20/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal keputusan Menteri Keuangan belum dikeluarkan dalam jangka waktu sebagaimana dimaksud dalam ayat (5), Menteri Keuangan dianggap memberikan keputusan bahwa anggota Direksi dapat melanjutkan jabatannya. Pasal 21 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Anggota Direksi dilarang memangku jabatan rangkap: a. Direktur Utama atau Direktur pada Badan Usaha Milik Negara, Daerah dan Swasta atau jabatan lain yang berhubungan dengan kepengurusan Perusahaan; b. Jabatan struktural dan fungsional lainnya dalam instansi/lembaga Pemerintah Pusat dan Daerah; c. Jabatan lainnya sesuai dengan ketentuan dalam peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Direksi diangkat dan diberhentikan oleh Menteri Keuangan atas usul Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota Direksi diangkat untuk masa jabatan 5 (llima) tahun, dan dapat diangkat kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Direksi dapat diberhentikan sebelum habis masa jabatannya oleh Menteri Keuangan setelah mendengar pertimbangan Menteri apabila berdasarkan kenyataan anggota Direksi: a. tidak melaksanakan tugasnya dengan baik; b. tidak melaksanakan ketentuan peraturan perundang-undangan dan atau ketentuan Peraturan Pemerintah ini; c. terlibat dalam tindakan yang merugikan Perusahaan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dipidana ... dipidana penjara karena dipersalahkan melakukan perbuatan pidana kejahatan dan atau kesalahan yang bersangkutan dengan kepengurusan Perusahaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan pemberhentian karena alasan sebagaimana dimaksud dalam ayat (1) huruf a, huruf b dan huruf c diambil setelah yang bersangkutan diberi kesempatan membela diri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembelaan diri sebgaimana dimaksud dalam ayat (2) dilakukan secara tertulis dan disampaikan kepada Menteri Keuangan dalam jangka waktu 1 (satu) bulan terhitung sejak anggota Direksi yang bersangkutan diberitahu secara tertulis oleh Menteri Keuangan tentang rencana pemberhentian tersebut. masih dalam proses, maka anggota Direksi yang bersangkutan dapat melanjutkan tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Selama rencana pemberhentian sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Jika dalam jangka waktu 2 (dua) bulan terhitung sejak tanggal penyampaian pembelaan diri sebagaimana dimaksud dalam ayat (3) Menteri Keuangan tidak memberikan keputusan pemberhentian anggota Direksi tersebut, maka rencana pemberhentian tersebut menjadi batal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pemberhentian karena alasan sebagaimana dimaksud dalam ayat (1) huruf d, merupakan pemberhentian tidak dengan hormat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-23/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Kedudukan sebagai anggota Direksi berakhir dengan dikeluarkannya keputusan pemberhentian oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direksi diberi tugas dan mempunyai wewenang untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memimpin, ... memimpin, mengurus dan mengelola Perusahaan sesuai dengan tujuan Perusahaan dengan senantiasa berusaha meningkatkan daya guna dan hasil guna Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menguasai, memelihara dan mengurus kekayaan Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mewakili Perusahaan di dalam dan diluar Pengadilan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melaksanakan kebijakan pengembangan usaha dalam mengurus Perusahaan yang telah digariskan Menteri Keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menetapkan kebijakan Perusahaan sesuai dengan pedoman kegiatan operasional yang ditetapkan Menteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan Rencana Jangka Panjang serta Rencana Kerja dan Anggaran Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengadakan dan memelihara pembukuan dan administrasi Perusahaan sesuai dengan kelaziman yang berlaku bagi suatu Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan struktur organisasi dan tata kerja Perusahaan lengkap dengan perincian tugasnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "melakukan kerjasama usaha, membentuk anak Perusahaan dan melakukan penyertaan modal dalam badan usaha lain dengan persetujuan Menteri Keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "mengangkat dan memberhentikan pegawai Perusahaan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "menetapkan gaji, pensiun/jaminan hari tua dan penghasilan lain bagi pegawai Perusahaan serta mengatur semua hal kepegawaian lainnya, sesuai dengan ketentuan peraturan perundang-undangan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-1/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "menyiapkan Laporan Tahunan dan laporan berkala.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk ... Untuk menyelenggarakan tugas dan wewenang sebagaimana dimaksud dalam ayat (1), Direksi berwenang menetapkan kebijaksanaan teknis dan non teknis sesuai dengan kebijakan Perusahaan sebagaimana dimaksud dalam ayat (1) huruf e.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menjalankan tugas-tugas Perusahaan sebagaimana dimaksud dalam Pasal 24:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Direktur Utama dapat bertindak atas nama Direksi berdasarkan persetujuan para anggota Direksi lainnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "para Direktur berhak dan berwenang bertindak atas nama Direksi, masing-masing untuk bidang yang menjadi tugas dan wewenangnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila salah satu atau anggota Direksi berhalangan tetap menjalankan pekerjaannya atau apabila jabatan itu terluang dan penggantinya belum diangkat atau belum memangku jabatannya, maka jabatan tersebut dipangku oleh anggota Direksi lainnya yang ditunjuk sementara oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam jangka waktu paling lambat 2 (dua) bulan terhitung sejak terjadinya keadaan sebagaimana dimaksud dalam ayat (2), Menteri Keuangan menunjuk anggota Direksi yang baru untuk memangku jabatan yang terluang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Apabila semua anggota Direksi berhalangan tetap menjalankan pekerjaannya atau jabatan Direksi terluang seluruhnya dan belum diangkat, maka sementara waktu pengurusan Perusahaan dijalankan oleh Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam … Dalam menjalankan tugas dan kewenangan sebagaimana dimaksud dalam Pasal 24 ayat (1) huruf c, Direksi dapat melaksanakan sendiri atau menyerahkan kekuasaan tersebut kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "seorang atau beberapa orang anggota Direksi; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "seorang atau beberapa orang pegawai Perusahaan baik sendiri maupun bersama-sama; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-25/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "orang atau badan lain; yang khusus ditunjuk untuk hal tersebut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Dalam melaksanakan tugasnya Direksi wajib mencurahkan perhatian dan pengabdiannya secara penuh pada tugas, kewajiban dan pencapaian tujuan Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Anggota Direksi sebagaimana dimaksud dalam Pasal 25 ayat (5) huruf a tidak berwenang mewakili Perusahaan apabila: a. terjadi perkara di depan pengadilan antara Perusahaan dengan anggota Direksi yang bersangkutan; b. anggota Direksi yang bersangkutan mempunyai kepentingan yang bertentangan dengan kepentingan Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Besar dan jenis penghasilan Direksi ditetapkan sesuai dengan peraturan perundang-undangan yang berlaku. Pasal 29 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rapat Direksi diselenggarakan sekurang-kurangnya 1 (satu) bulan sekali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam rapat sebagaimana dimaksud dalam ayat (1) dibicarakan hal-hal yang berhubungan dengan Perusahaan sesuai dengan tugas, kewenangan dan kewajibannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keputusan rapat Direksi diambil atas dasar musyawarah untuk mufakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal tidak tercapai kata mufakat, maka keputusan diambil berdasarkan suara terbanyak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Untuk setiap rapat dibuatkan risalah rapat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rencana Jangka Panjang sebagaimana dimaksud dalam Pasal 24 ayat huruf f, sekurang-kurangnya memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "evaluasi pelaksanaan Rencana Jangka Panjang sebelumnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "posisi Perusahaan pada saat Perusahaan menyusun Rencana Jangka Panjang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "asumsi-asumsi yang dipakai dalam penyusunan Rencana Jangka Panjang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penetapan sasaran, strategi kebijakan dan program kerja Rencana Jangka Panjang beserta keterkaitan antara unsur-unsur tersebut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rancangan ... Rancangan Rencana Jangka Panjang yang telah ditandatangani bersama dengan Dewan Pengawas disampaikan kepada Menteri Keuangan melalui Menteri, untuk disahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengesahan oleh Menteri Keuangan sebagaimana dimaksud dalam ayat (2), dilakukan setelah dibahas bersama dengan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rencana Kerja dan Anggaran Perusahaan sebagaimana dimaksud dalam Pasal 24 ayat (1) huruf f sekurang-kurangnya memuat: a. rencana kerja Perusahaan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "anggaran Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "proyeksi keuangan pokok Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "hal-hal lain memerlukan pengesahan oleh Menteri Keuangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rencana Kerja dan Anggaran Perusahaan sebagaimana dimaksud dalam ayat (1) diajukan kepada Menteri Keuangan melalui Menteri, paling lambat 60 (enam puluh) hari sebelum tahun anggaran dimulai, untuk memperoleh pengesahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rencana Kerja dan Anggaran Perusahaan sebagaimana dimaksud dalam ayat (1) disahkan oleh Menteri Keuangan selambat-lambatnya 30 (tiga puluh) hari setelah tahun anggaran berjalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal Rencana Kerja dan Anggaran Perusahaan belum disahkan oleh Menteri Keuangan sebagaimana dimaksud dalam ayat (2), maka Rencana Kerja dan Anggaran Perusahaan tersebut dianggap sah untuk dilaksanakan sepanjang telah memenuhi ketentuan tata cara penyusunan Rencana Kerja dan Anggaran Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-31/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kewenangan ... Kewenangan pengesahan Rencana Kerja dan Anggaran Perusahaan sebagaimana dimaksud dalam ayat (2), dapat dilimpahkan oleh Menteri Keuangan kepada Menteri. Bagian Kedelapan Dewan Pengawas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada Perusahaan dibentuk Dewan Pengawas;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah anggota Dewan Pengawas, disesuaikan dengan kebutuhan Perusahaan paling sedikit 2 (dua) orang, seorang diantaranya diangkat sebagai Ketua Dewan Pengawas. Dewan Pengawas dengan itikat baik dan penuh tanggung jawab menjalankan tugas untuk kepentingan dan tujuan Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Yang dapat diangkat sebagai Dewan Pengawas adalah orang perorangan yang: a. memiliki dedikasi, memahami, masalah-masalah manajemen perusahaan dan dapat menyediakan waktu yang cukup untuk melaksanakan tugasnya; dan b. mampu melaksanakan perbuatan hukum dan tidak pernah dinyatakan pailit atau menjadi anggota Direksi, Komisaris atau Dewan Pengawas yang dinyatakan bersalah menyebabkan suatu Perseroan atau PERUM dinyatakan pailit. Pasal 34 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Anggota Dewan Pengawas tidak dibenarkan memiliki kepentingan yang bertentangan dengan atau mengganggu kepentingan Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Dewan Pengawas terdiri dari unsur-unsur pejabat Departemen teknis yang bersangkutan, Departemen Keuangan dan Departemen/instansi lain yang kegiatannya berhubungan dengan Perusahaan atau pejabat lain yang diusulkan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Dewan Pengawas diangkat dan diberhentikan oleh Menteri Keuangan berdasarkan usul Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota Dewan Pengawas diangkat untuk masa jabatan yang sama dengan anggota Direksi dan dapat diangkat kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengangkatan Anggota Dewan Pengawas bersamaan waktunya dengan pengangkatan Direksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Dewan Pengawas dapat diberhentikan sebelum habis masa jabatannya oleh Menteri Keuangan setelah mendengar pertimbangan Menteri, apabila berdasarkan kenyataan anggota Dewan Pengawas: a. tidak melaksanakan tugasnya dengan baik; b. tidak ... b. tidak melaksanakan ketentuan perundang-undangan dan atau ketentuan Peraturan Pemerintah ini; c. terlibat dalam tindakan yang merugikan Perusahaan; atau",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dipidana penjara karena dipersalahkan melakukan perbuatan pidana kejahatan dan atau kesalahan yang berkaitan dengan tugasnya melaksanakan pengawasan dalam Perusahaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan pemberhentian sebagaimana dimaksud dalam ayat (1) huruf a, huruf b dan huruf c, diambil setelah yang bersangkutan diberi kesempatan membela diri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembelaan diri sebagaimana dimaksud dalam ayat (2) dilakukan secara tertulis dan disampaikan kepada Menteri Keuangan dalam jangka waktu 1 (satu) bulan terhitung sejak anggota Dewan Pengawas yang bersangkutan diberitahukan secara tertulis oleh Menteri Keuangan tentang rencana pemberitahuan tersebut. masih dalam proses, maka anggota Dewan Pengawas yang bersangkutan dapat menjalankan tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Selama rencana pemberhentian sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Jika dalam jangka waktu 2 (dua) bulan terhitung sejak tanggal penyampaian pembelaan diri sebagaimana dimaksud dalam ayat (3), Menteri Keuangan tidak memberikan keputusan pemberhentian anggota Dewan Pengawas tersebut, maka rencana pemberhentian tersebut menjadi batal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pemberhentian karena alasan sebagaimana dimaksud dalam ayat (1), huruf d, merupakan pemberhentian tidak dengan hormat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-37/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Kedudukan sebagai anggota Dewan Pengawas, berakhir dengan dikeluarkannya keputusan pemberhentian oleh Menteri Keuangan. Pasal 38 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dewan Pengawas bertugas untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melaksanakan pengawasan terhadap pengurusan Perusahaan yang dilakukan oleh Direksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberi nasehat kepada Direksi dalam melaksanakan kegiatan pengurusan Perusahaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawasan sebagaimana dimaksud dalam ayat (1) huruf a termasuk pengawasan terhadap pelaksanaan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Rencana Kerja dan Anggaran Perusahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ketentuan-ketentuan dalam Peraturan Pemerintah ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kebijakan yang ditetapkan oleh Menteri Keuangan dan pedoman yang disusun oleh Menteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-38/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "ketentuan peraturan perundang-undangan yang berlaku.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Dewan Pengawas dalam melaksanakan tugasnya berkewajiban: a. memberikan pendapat dan saran kepada Menteri Keuangan dan Menteri mengenai Rencana Kerja dan Anggaran Perusahaan yang diusulkan Direksil; b. mengikuti perkembangan kegiatan Perusahaan, memberikan pendapat dan saran kepada Menteri Keuangan dan Menteri mengenai setiap masalah yang dianggap penting bagi pengurusan Perusahaan; c. melaporkan dengan segera kepada Menteri Keuangan dan Menteri apabila terjadi gejala menurunnya kinerja Perusahaan; d. memberikan ... d. memberikan nasehat kepada Direksi dalam melaksanakan pengurusan Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Dalam melaksanakan tugas dan kewajibannya, Dewan Pengawas mempunyai wewenang sebagai berikut: a. melihat buku-buku, surat-surat serta dokumen-dokumen lainnya, memeriksa kas untuk keperluan verifikasi dan memeriksa kekayaan Perusahaan; b. memasuki pekarangan, gedung dan kantor yang dipergunakan oleh Perusahaan; c. meminta penjelasan dari Direksi dan atau pejabat lainnya mengenai segala persoalan yang menyangkut pengelolaan Perusahaan; d. meminta Direksi dan atau pejabat lainnya dengan sepengetahuan Direksi untuk menghadiri Rapat Dewan Pengawas Perusahaan; e. menghadiri rapat Direksi dan memberikan pandangan-pandangan terhadap hal-hal yang dibicarakan; f. berdasarkan ketentuan Peraturan Pemerintah ini, memberikan persetujuan atau bantuan kepada Direksi dalam melakukan perbuatan hukum tertentu; g. berdasarkan ketentuan Peraturan Pemerintah ini atau keputusan Rapat Pembahasan Bersama melakukan tindakan pengurusan Perusahaan dalam hal Direksi tidak ada; dan h. memberhentikan sementara Direksi, dengan menyebutkan alasannya. Pasal 41 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Untuk membantu kelancaran pelaksanaan tugas Dewan Pengawas, Menteri Keuangan dapat mengangkat seorang Sekretaris Dewan Pengawas atas beban Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Dianggap perlu Dewan Pengawas dalam melaksanakan tugasnya dapat memperoleh bantuan tenaga ahli yang diikat dengan kontrak untuk waktu tertentu atas beban Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Semua biaya yang diperlukan dalam rangka pelaksanaan tugas Dewan Pengawas dibebankan kepada Perusahaan dan secara jelas dimuat dalam Rencana Kerja dan Anggaran Perusahaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rapat Dewan Pengawas diselenggarakan sekurang-kurangnya 3 (tiga) bulan sekali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam rapat sebagaimana dimaksud dalam ayat (1), dibicarakan hal-hal yang berhubungan dengan Perusahaan sesuai dengan tugas, kewenangan dan kewajiban Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keputusan rapat Dewan Pengawas diambil atas dasar musyawarah untuk mufakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-44/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal tidak tercapai kata mufakat, keputusan diambil berdasarkan suara terbanyak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-44/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Untuk ... Untuk setiap rapat dibuat risalah rapat. Bagian Kesembilan Penetapan Tarif",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Besar iuran pembiayaan eksploitasi dan pemeliharaan prasarana pengairan dan tarif penjualan tenaga listrik ditetapkan Menteri atas usul Direksi. Bagian Kesepuluh Satuan Pengawasan Intern",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Satuan Pengawasan Intern melaksanakan pengawasan intern keuangan dan operasional Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Satuan Pengawasan Intern sebagaimana dimaksud dalam ayat (1) dipimpin oleh seorang Kepala yang bertanggung jawab kepada Direktur Utama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Satuan Pengawasan Intern bertugas: a. membantu Direktur Utama dalam melaksanakan pemeriksaan intern keuangan dan operasional Perusahaan, menilai pengendalian, pengelolaan dan pelaksanaannya pada Perusahaan serta memberikan saran-saran perbaikannya; b. memberikan … b. memberikan keterangan tentang hasil pemeriksaan atau hasil pelaksanaan tugas Satuan Pengawasan Intern sebagaimana dimaksud dalam huruf a kepada Direksi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Direksi wajib memperhatikan dan segera mengambil langkah-langkah yang diperlukan atas segala sesuatu yang dikemukakan dalam setiap laporan hasil pemeriksaan yang dibuat oleh Satuan Pengawasan Intern.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Atas permintaan tertulis Dewan Pengawas, Direksi memberikan keterangan hasil pemeriksaan atau hasil pelaksanaan tugas Satuan Pengawasan Intern sebagaimana dimaksud dalam Pasal 47 huruf b.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Dalam pelaksanaan tugasnya, Satuan Pengawasan Intern wajib menjaga kelancaran pelaksanaan tugas satuan organisasi lainnya dalam Perusahaan sesuai dengan tugas dan tanggung jawabnya masing-masing. Bagian Kesebelas Sistem Akuntansi dan Pelaporan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Tahun buku Perusahaan adalah tahun takwim, kecuali jika ditetapkan lain oleh Menteri Keuangan. Pasal 52 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Perhitungan Tahunan dibuat sesuai dengan Standar Akuntansi Keuangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Dalam waktu 5 (lima) bulan setelah tahun buku Perusahaan ditutup, Direksi wajib menyampaikan Laporan Tahunan sebagaimana dimaksud dalam Pasal 24 ayat (1) huruf 1 kepada Menteri Keuangan dan Menteri, yang memuat sekurang-kurangnya: a. perhitungan tahunan yang terdiri dari neraca akhir tahun buku yang baru lampau dan perhitungan laba rugi dari tahun buku yang bersangkutan serta penjelasan atas dokumen tersebut; b. laporan mengenai keadaan dan jalannya Perusahaan serta hasil yang telah dicapai; c. kegiatan utama Perusahaan dan perubahan selama tahun buku; d. rincian masalah yang timbul selama tahun buku yang mempengaruhi kegiatan Perusahaan; e. nama anggota Direksi dan Dewan Pengawas; dan f. gaji dan tunjangan lain bagi anggota Direksi dan Dewan Pengawas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Laporan Tahunan ditandatangani oleh semua anggota Direksi dan Dewan Pengawas serta disampaikan kepada Menteri Keuangan dan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam ... Dalam hal ada anggota Direksi atau Dewan Pengawas tidak menandatangani Laporan Tahunan sebagaimana dimaksud dalam ayat (1), harus disebutkan alasannya secara tertulis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perhitungan Tahunan disampaikan oleh Direksi kepada Badan Pengawasan Keuangan dan Pembangunan untuk diperiksa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan sebagaimana dimaksud dalam ayat (1) dapat dilakukan oleh Akuntan Publik yang ditunjuk oleh Badan Pengawas Keuangan dan Pembangunan dengan ketentuan bahwa hasil pemeriksaannya disetujui oleh Badan Pengawas Keuangan dan Pembangunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-55/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila Perusahaan mengerahkan dana masyarakat, pemeriksaan Perhitungan Tahunan dilakukan oleh Akuntan Publik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-55/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Laporan hasil Badan Pengawas Keuangan dan Pembangunan atau Akuntan Publik sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) disampaikan secara tertulis oleh Direksi kepada Menteri Keuangan, untuk disahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-55/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Perhitungan Tahunan sebagaimana dimaksud dalam ayat (4) diumumkan dalam surat kabar harian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengesahan sebagaimana dimaksud dalam Pasal 55 ayat (4) membebaskan Direksi dari tanggung jawab terhadap segala sesuatunya yang termuat dalam Perhitungan Tahunan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam ... Dalam hal dokumen Perhitungan Tahunan yang diajukan dan disahkan tersebut ternyata tidak benar dan atau menyesatkan maka anggota Direksi dan Dewan Pengawas secara langsung bertanggung jawab terhadap pihak ketiga yang dirugikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota Direksi dan Dewan Pengawas dibebaskan dari tanggung jawab sebagaimana dimaksud dalam ayat (2) apabila terbukti bahwa keadaan tersebut bukan karena kesalahannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Laporan berkala baik laporan triwulan, laporan semester maupun laporan lainnya tentang kinerja Perusahaan disampaikan kepada Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tembusan laporan berkala sebagaimana dimaksud dalam ayat (1) disampaikan kepada Menteri Keuangan dan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Laporan tahunan, Perhitungan Tahunan, laporan berkala dan laporan lainnya sebagaimana dimaksud dalam Bagian ini, disampaikan dengan bentuk, isi dan tata cara penyusunan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Bagian … Bagian Keduabelas Pegawai Perusahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Pengadaan, pengangkatan, penempatan, pemberhentian, kedudukan, kepangkatan, jabatan, gaji/upah, kesejahteraan dan penghargaan kepada pegawai Perusahaan diatur dan ditetapkan oleh Direksi sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Bagi Perusahaan tidak berlaku segala ketentuan eselonisasi jabatan yang berlaku bagi Pegawai Negeri. Bagian Ketigabelas Penggunaan Laba",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap tahun buku, Perusahaan wajib menyisihkan jumlah tertentu dari laba bersih untuk cadangan tujuan, penyusutan dan pengurangan lainnya yang wajar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Empat puluh lima persen (45%) dari sisa penyisihan laba bersih sebagaimana dimaksud dalam ayat (1), dipakai untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Cadangan umum yang dilakukan sampai cadangan mencapai sekurang-kurangnya 2 (dua) kali lipat dari modal yang ditempatkan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sosial dan pendidikan; c. jasa produksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sumbangan ... sumbangan dana pensiun; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "sokongan dan sumbangan ganti rugi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-61/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penetapan persentase pembagian laba bersih Perusahaan sebagaimana dimaksud dalam ayat (1) ditetapkan lebih lanjut oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-62/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seluruh laba bersih setelah dikurangi penyisihan sebagaimana dimaksud dalam Pasal 61 disetorkan sebagai Dana Pembangunan Semesta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-62/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dana Pembangunan Semesta yang menjadi hak Negara wajib disetorkan ke Bendahara Umum Negara segera setelah Perhitungan Tahunan disahkan sesuai ketentuan sebagaimana diatur dalam Peraturan Pemerintah ini. Bagian Keempatbelas Ketentuan Lain-lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Tata cara penjualan pemindahtanganan atau pembebanan atas aktiva tetap Perusahaan serta penerimaan pinjaman jangka menengah/ panjang dan pemberian pinjaman dalam bentuk dan cara apapun serta tidak menagih lagi dan menghapuskan dari pembukuan piutang dan persediaan barang oleh Perusahaan ditetapkan oleh Menteri Keuangan. Pasal 64 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Pengadaan barang dan jasa Perusahaan yang menggunakan dana langsung dari Anggaran Pendapatan dan Belanja Negara dilaksanakan sesuai dengan ketentuan pelaksanaan Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain organ Perusahaan, pihak lain manapun dilarang turut mencampuri pengurusan Perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Organ Perusahaan sebagaimana dimaksud dalam ayat (1) adalah Direksi dan Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Departemen/instansi Pemerintah tidak dibenarkan membebani Perusahaan dengan segela bentuk pengeluaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-65/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Perusahaan tidak dibenarkan membiayai keperluan pengeluaran Departemen/instansi Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direksi hanya dapat mengajukan permohonan ke Pengadilan Negeri agar Perusahaan dinyatakan pailit berdasarkan persetujuan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal kepailitan terjadi karena kesalahan atau kelalaian Direksi dan kekayaan Perusahaan tidak cukup untuk menutup kerugian akibat kepailitan tersebut, maka setiap anggota Direksi secara langsung renteng bertanggung jawab atas kerugian tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-66/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota ... Anggota Direksi yang dapat membuktikan bahwa kepailitan bukan karena kesalahan atau kelalaiannya, tidak bertanggung jawab secara tanggung renteng atas kerugian tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Direksi dan semua pegawai Perusahaan yang karena tindakan-tindakan melawan hukum menimbulkan kerugian bagi Perusahaan, diwajibkan mengganti kerugian tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan ganti rugi sebagaimana dimaksud dalam ayat (1) terhadap anggota Direksi diatur oleh Menteri Keuangan, sedangkan terhadap pegawai Perusahaan diatur oleh Direksi sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "Semua surat dan surat berharga yang termasuk kelompok pembukuan dan administrasi Perusahaan disimpan ditempat Perusahaan atau tempat lainnya sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-69/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembubaran Perusahaan dan penunjukan likuidaturnya ditetapkan dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Semua kekayaan Perusahaan setelah diadakan likuidasi, menjadi milik Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-69/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Likuidatur ... Likuidatur mempertanggungjawabkan pelaksanaan likuidasi kepada Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-94-tahun-1999/pasal-69/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Menteri Keuangan memberi pembebasan tanggung jawab terhadap pelaksanaan pekerjaan yang telah diselesaikan likuidatur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-94-tahun-1999/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "Pada saat berlakunya Peraturan Pemerintah ini, semua ketentuan pelaksanaan yang telah ditetapkan dan diberlakukan berdasarkan Peraturan Pemerintah Nomor 5 Tahun 1990, masih tetap berlaku sepanjang tidak bertentangan dan belum diganti dengan ketentuan baru yang ditetapkan dan diberlakukan berdasarkan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-94-tahun-1999/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, maka Peraturan Pemerintah Nomor 42 Tahun 1990 dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-94-tahun-1999/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Oktober 1999 PRESIDEN REPUBLIK INDONESIA, ttd. BACHARUDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 13 Oktober 1999 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. MULADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 203",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

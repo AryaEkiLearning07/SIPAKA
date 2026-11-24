@@ -16,6 +16,7 @@ export interface InstrumentMeta {
   lnNumber?: number | null;
   tlnNumber?: number | null;
   pdfUrl?: string;
+  fileHashSha256?: string;
   availableTimelines: string[];
   amendments: { title: string; amendingInstrument: string; effectiveFrom: string }[];
 }
@@ -81,7 +82,7 @@ export interface OpsRow {
   amenderPreamble?: { menimbang?: string[]; mengingat?: string[] } | null;
 }
 
-export type InspectorTab = 'diff' | 'affected_list' | 'relasi' | 'catatan';
+export type InspectorTab = 'diff' | 'affected_list' | 'relasi' | 'internasional' | 'risalah' | 'catatan';
 
 export interface InstrumentRelationItem {
   id: string;

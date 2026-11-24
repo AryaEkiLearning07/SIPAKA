@@ -1,0 +1,1335 @@
+{
+ "slug": "uu-no-4-tahun-2004",
+ "preamble": {
+  "menimbang": [
+   "bahwa perubahan Undang-Undang Dasar Negara Republik Indonesia terhadap Tahun 1945 penyelenggaraan kekuasaan kehakiman sehingga Undang-Undang Nomor 14 Tahun 1970 tentang Ketentuan-ketentuan Pokok Kekuasaan Kehakiman sebagaimana telah diubah dengan Undang- Undang Nomor 35 Tahun 1999 perlu dilakukan penyesuaian dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; telah membawa perubahan penting",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang-Undang tentang Kekuasaan Kehakiman;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-2004",
+   "detailsId": "40464",
+   "judul": "UU No. 4 Tahun 2004 tentang Kekuasaan Kehakiman - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/306788/UU%20Nomor%204%20Tahun%202004.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-35-tahun-1999",
+    "uu-no-14-tahun-1970"
+   ],
+   "scrapedAt": "2026-10-05T16:52:39.512019+00:00"
+  },
+  "sha256": "83cf1a8ef8fa3a134cdb81abfa13b7f813c69b77f2736fd7e1790893d2f04589",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 49,
+  "ayat_angka": 70,
+  "huruf": 9
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Kekuasaan kehakiman adalah kekuasaan negara yang merdeka untuk menyelenggarakan peradilan guna menegakkan hukum dan keadilan berdasarkan Pancasila, demi terselenggaranya Negara Hukum Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyelenggaraan kekuasaan kehakiman sebagaimana dimaksud dalam Pasal 1 dilakukan oleh sebuah Mahkamah Agung dan badan peradilan yang . . . - yang berada di bawahnya dalam lingkungan peradilan umum, lingkungan peradilan agama, lingkungan peradilan militer, lingkungan peradilan tata usaha negara, dan oleh sebuah Mahkamah Konstitusi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Semua peradilan di seluruh wilayah negara Republik Indonesia adalah peradilan negara dan ditetapkan dengan undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peradilan negara menerapkan dan menegakkan hukum dan keadilan berdasarkan Pancasila.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peradilan dilakukan \"DEMI KEADILAN BERDASARKAN KETUHANAN YANG MAHA ESA\".",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peradilan dilakukan dengan sederhana, cepat, dan biaya ringan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Segala campur tangan dalam urusan peradilan oleh pihak lain di luar kekuasaan kehakiman dilarang, kecuali dalam hal-hal sebagaimana disebut dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang yang dengan sengaja melanggar ketentuan sebagaimana dimaksud pada ayat (3) dipidana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadilan mengadili menurut hukum dengan tidak membeda- bedakan orang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadilan membantu pencari keadilan dan berusaha mengatasi segala hambatan dan rintangan untuk dapat tercapainya peradilan yang sederhana, cepat, dan biaya ringan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tidak seorang pun dapat dihadapkan di depan pengadilan selain daripada yang ditentukan oleh undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tidak seorang pun dapat dijatuhi pidana, kecuali apabila pengadilan, karena alat pembuktian yang sah menurut undang- undang, mendapat keyakinan bahwa seseorang yang dianggap dapat bertanggung jawab, telah bersalah atas perbuatan yang didakwakan atas dirinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Tidak seorang pun dapat dikenakan penangkapan, penahanan, penggeledahan, dan penyitaan, selain atas perintah tertulis oleh kekuasaan yang sah dalam hal dan menurut cara yang diatur dalam undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Setiap orang yang disangka, ditangkap, ditahan, dituntut, dan/atau dihadapkan di depan pengadilan wajib dianggap tidak bersalah sebelum ada . . . - ada putusan pengadilan yang menyatakan kesalahannya dan telah memperoleh kekuatan hukum tetap.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang ditangkap, ditahan, dituntut, atau diadili tanpa alasan berdasarkan undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkannya, berhak menuntut ganti kerugian dan rehabilitasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pejabat yang dengan sengaja melakukan perbuatan sebagaimana dimaksud pada ayat (1) dipidana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tata cara penuntutan ganti kerugian, rehabilitasi dan pembebanan ganti kerugian diatur dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "BADAN PERADILAN DAN ASASNYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kekuasaan kehakiman dilakukan oleh sebuah Mahkamah Agung dan badan peradilan yang berada di bawahnya, dan oleh sebuah Mahkamah Konstitusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan peradilan yang berada di bawah Mahkamah Agung meliputi badan peradilan dalam lingkungan peradilan umum, peradilan agama, peradilan militer, dan peradilan tata usaha negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahkamah Agung merupakan pengadilan negara tertinggi dari keempat lingkungan peradilan sebagaimana dimaksud dalam Pasal 10 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mahkamah Agung mempunyai kewenangan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengadili pada tingkat kasasi terhadap putusan yang diberikan pada tingkat terakhir oleh pengadilan di semua lingkungan peradilan yang berada di bawah Mahkamah Agung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menguji peraturan perundang-undangan di bawah undang-undang terhadap undang-undang; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kewenangan lainnya yang diberikan undang-undang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pernyataan tidak berlaku peraturan perundang-undangan sebagai hasil pengujian sebagaimana dimaksud pada ayat (2) huruf b, dapat diambil baik dalam pemeriksaan tingkat kasasi maupun berdasarkan permohonan langsung kepada Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Mahkamah Agung melakukan pengawasan tertinggi atas perbuatan pengadilan dalam lingkungan peradilan yang berada di bawahnya berdasarkan ketentuan undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menguji . . . - menguji undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; sengketa",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memutus yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; kewenangan lembaga negara",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memutus pembubaran partai politik; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memutus perselisihan tentang hasil pemilihan umum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain kewenangan sebagaimana dimaksud pada ayat (1), Mahkamah Konstitusi wajib memberikan putusan atas pendapat Dewan Perwakilan Rakyat bahwa Presiden dan/atau Wakil Presiden diduga telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya atau perbuatan tercela, dan/atau tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Organisasi, administrasi, dan finansial Mahkamah Agung dan badan peradilan yang berada di bawahnya berada di bawah kekuasaan Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Organisasi, administrasi, dan finansial Mahkamah Konstitusi berada di bawah kekuasaan dan kewenangan Mahkamah Konstitusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai organisasi, administrasi, dan finansial badan peradilan sebagaimana dimaksud pada ayat (1) untuk masing- masing lingkungan peradilan diatur dalam undang-undang sesuai dengan kekhususan lingkungan peradilan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Susunan, kekuasaan, dan hukum acara Mahkamah Agung dan badan peradilan yang berada di bawahnya sebagaimana dimaksud dalam Pasal 10 diatur dengan undang-undang tersendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Susunan, kekuasaan, dan hukum acara Mahkamah Konstitusi sebagaimana dimaksud dalam Pasal 12 diatur dengan undang- undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadilan khusus hanya dapat dibentuk dalam salah satu lingkungan peradilan sebagaimana dimaksud dalam Pasal 10 yang diatur dengan undang-undang. Pengadilan tidak boleh menolak untuk memeriksa, mengadili, dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peradilan Syariah Islam di Provinsi Nanggroe Aceh Darrussalam merupakan pengadilan khusus dalam lingkungan peradilan agama sepanjang kewenangannya menyangkut kewenangan peradilan agama, dan merupakan pengadilan khusus dalam lingkungan peradilan kewenangannya menyangkut umum kewenangan peradilan umum. sepanjang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "memutus . . . - memutus suatu perkara yang diajukan dengan dalih bahwa hukum tidak ada atau kurang jelas, melainkan wajib untuk memeriksa dan mengadilinya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) tidak menutup usaha penyelesaian perkara perdata secara perdamaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Semua pengadilan memeriksa, mengadili, dan memutus dengan sekurang-kurangnya 3 (tiga) orang hakim, kecuali undang-undang menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Di antara hakim sebagaimana dimaksud pada ayat (1), seorang bertindak sebagai ketua dan lainnya sebagai hakim anggota sidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sidang dibantu oleh seorang panitera atau seorang yang ditugaskan melakukan pekerjaan panitera.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam perkara pidana wajib hadir pula seorang penuntut umum, kecuali undang-undang menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadilan memeriksa, mengadili, dan memutus perkara pidana dengan hadirnya terdakwa, kecuali undang-undang menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal tidak hadirnya terdakwa, sedangkan pemeriksaan dinyatakan telah selesai, putusan dapat diucapkan tanpa dihadiri terdakwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sidang pemeriksaan pengadilan adalah terbuka untuk umum, kecuali undang-undang menentukan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tidak dipenuhinya ketentuan sebagaimana dimaksud pada ayat (1) mengakibatkan putusan batal demi hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rapat permusyawaratan hakim bersifat rahasia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam sidang permusyawaratan, setiap hakim wajib menyampaikan pertimbangan atau pendapat tertulis terhadap perkara yang sedang diperiksa dan menjadi bagian yang tidak terpisahkan dari putusan. dan ayat (5) diatur oleh Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal sidang permusyawaratan tidak dapat dicapai mufakat bulat, pendapat hakim yang berbeda wajib dimuat dalam putusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-19/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pelaksanaan lebih lanjut ketentuan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Semua putusan pengadilan hanya sah dan mempunyai kekuatan hukum apabila diucapkan dalam sidang terbuka untuk umum.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Terhadap putusan pengadilan tingkat pertama dapat dimintakan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "banding . . . - banding kepada pengadilan bersangkutan, kecuali undang-undang menentukan lain. tinggi oleh pihak-pihak yang",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap putusan pengadilan tidak merupakan pembebasan dari dakwaan atau putusan lepas dari segala tuntutan hukum, dapat dimintakan banding kepada pengadilan tinggi oleh pihak-pihak yang bersangkutan, kecuali undang-undang menentukan lain. tingkat pertama, yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Terhadap putusan pengadilan dalam tingkat banding dapat dimintakan kasasi kepada Mahkamah Agung oleh pihak-pihak yang bersangkutan, kecuali undang-undang menentukan lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Terhadap putusan pengadilan yang telah memperoleh kekuatan hukum tetap, pihak-pihak yang bersangkutan dapat mengajukan peninjauan kembali kepada Mahkamah Agung, apabila terdapat hal atau keadaan tertentu yang ditentukan dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap putusan peninjauan kembali tidak dapat dilakukan peninjauan kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Tindak pidana yang dilakukan bersama-sama oleh mereka yang termasuk lingkungan peradilan umum dan lingkungan peradilan militer, diperiksa dan diadili oleh pengadilan dalam lingkungan peradilan umum, kecuali dalam keadaan tertentu menurut keputusan Ketua Mahkamah Agung perkara itu harus diperiksa dan diadili oleh pengadilan dalam lingkungan peradilan militer.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Segala putusan pengadilan selain harus memuat alasan dan dasar tersebut, memuat pula pasal tertentu dari peraturan putusan perundang-undangan yang bersangkutan atau sumber hukum tak tertulis yang dijadikan dasar untuk mengadili.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tiap putusan pengadilan ditandatangani oleh ketua serta hakim yang memutus dan panitera yang ikut serta bersidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penetapan, ikhtisar rapat permusyawaratan, dan berita acara pemeriksaan sidang ditandatangani oleh ketua majelis hakim dan panitera sidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Untuk kepentingan peradilan semua pengadilan wajib saling memberi bantuan yang diminta. BAB III . . . -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "-",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Mahkamah Agung dapat memberi keterangan, pertimbangan, dan nasihat masalah hukum kepada lembaga pemerintahan apabila diminta. lembaga negara dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "HAKIM DAN KEWAJIBANNYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hakim wajib menggali, mengikuti, dan memahami nilai-nilai hukum dan rasa keadilan yang hidup dalam masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam mempertimbangkan berat ringannya pidana, hakim wajib memperhatikan pula sifat yang baik dan jahat dari terdakwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pihak yang diadili mempunyai hak ingkar terhadap hakim yang mengadili perkaranya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hak ingkar sebagaimana dimaksud pada ayat (1) adalah hak seseorang yang diadili untuk mengajukan keberatan yang disertai dengan alasan terhadap seorang hakim yang mengadili perkaranya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Seorang hakim wajib mengundurkan diri dari persidangan apabila terikat hubungan keluarga sedarah atau semenda sampai derajat ketiga, atau hubungan suami atau istri meskipun telah bercerai, dengan ketua, salah seorang hakim anggota, jaksa, advokat, atau panitera.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketua majelis, hakim anggota, jaksa, atau panitera wajib mengundurkan diri dari persidangan apabila terikat hubungan keluarga sedarah atau semenda sampai derajat ketiga, atau hubungan suami atau istri meskipun telah bercerai dengan pihak yang diadili atau advokat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Seorang hakim atau panitera wajib mengundurkan diri dari persidangan apabila ia mempunyai kepentingan langsung atau tidak langsung dengan perkara yang sedang diperiksa, baik atas kehendaknya sendiri maupun atas permintaan pihak yang berperkara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-29/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal terjadi pelanggaran terhadap ketentuan pada ayat (5), putusan dinyatakan tidak sah dan terhadap hakim atau panitera yang sanksi administratif atau dipidana bersangkutan dikenakan berdasarkan peraturan perundang-undangan. Pasal 30 . . . -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sebelum memangku jabatannya, hakim, panitera, panitera pengganti, dan juru sita untuk masing-masing lingkungan peradilan wajib mengucapkan sumpah atau janji menurut agamanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sumpah atau janji hakim sebagaimana dimaksud pada ayat (1) berbunyi sebagai berikut: Sumpah: ”Demi Allah saya bersumpah bahwa saya akan memenuhi kewajiban hakim dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang- Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa.” Janji: “Saya berjanji bahwa saya dengan sungguh-sungguh akan memenuhi kewajiban hakim dengan sebaik-baiknya dan seadil- adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang- Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa.”",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Lafal sumpah atau janji panitera, panitera pengganti, atau juru sita adalah sebagaimana yang diatur dalam peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KEDUDUKAN HAKIM DAN PEJABAT PERADILAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Hakim adalah pejabat yang melakukan kekuasaan kehakiman yang diatur dalam undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Hakim harus memiliki integritas dan kepribadian yang tidak tercela, jujur, adil, profesional, dan berpengalaman di bidang hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Dalam menjalankan tugas dan fungsinya, hakim wajib menjaga kemandirian peradilan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan mengenai syarat dan tata cara pengangkatan hakim agung",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "dilakukan . . . - dilakukan oleh Komisi Yudisial yang diatur dengan undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai syarat dan tata cara pengangkatan dan pemberhentian hakim diatur dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam rangka menjaga kehormatan, keluhuran martabat serta perilaku hakim agung dan hakim, pengawasan dilakukan oleh Komisi Yudisial yang diatur dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Panitera, panitera pengganti, dan juru sita adalah pejabat peradilan yang pengangkatan dan pemberhentiannya serta tugas pokoknya diatur dalam undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELAKSANAAN PUTUSAN PENGADILAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "oleh jaksa.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawasan pelaksanaan sebagaimana putusan dimaksud pada ayat (1) dilakukan oleh ketua pengadilan yang bersangkutan berdasarkan undang-undang. pengadilan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan putusan pengadilan dalam perkara perdata dilakukan oleh panitera dan juru sita dipimpin oleh ketua pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Putusan pengadilan dilaksanakan dengan memperhatikan nilai kemanusiaan dan keadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Setiap orang yang tersangkut perkara berhak memperoleh bantuan hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Dalam perkara pidana seorang tersangka sejak saat dilakukan penangkapan dan/atau penahanan berhak menghubungi dan meminta bantuan advokat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Dalam memberi bantuan hukum sebagaimana dimaksud dalam Pasal 37, advokat wajib membantu penyelesaian perkara dengan menjunjung tinggi hukum dan keadilan. Pasal 40 . . . -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Ketentuan sebagaimana dimaksud dalam Pasal 37 dan Pasal 38 diatur dalam undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "lain yang Badan-badan fungsinya berkaitan dengan kekuasaan kehakiman meliputi Kepolisian Negara Republik Indonesia, Kejaksaan Republik Indonesia, dan badan-badan lain diatur dalam undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengalihan organisasi, administrasi, dan finansial dalam lingkungan tata usaha negara selesai peradilan umum dan peradilan dilaksanakan paling lambat tanggal 31 Maret 2004.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengalihan organisasi, administrasi, dan finansial dalam lingkungan peradilan agama selesai dilaksanakan paling lambat tanggal 30 Juni 2004.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengalihan organisasi, administrasi, dan finansial dalam lingkungan peradilan militer selesai dilaksanakan paling lambat tanggal 30 Juni 2004.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengalihan organisasi, administrasi, dan finansial sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) ditetapkan dengan Keputusan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Keputusan Presiden sebagaimana dimaksud pada ayat (4) ditetapkan paling lambat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "30 (tiga puluh) hari sebelum jangka waktu sebagaimana dimaksud pada ayat (1) berakhir;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2004/pasal-42/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "60 (enam puluh) hari sebelum jangka waktu sebagaimana dimaksud pada ayat (2) dan ayat (3) berakhir.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Sejak dialihkannya organisasi, administrasi, dan finansial sebagaimana dimaksud dalam Pasal 42 ayat (1): a. semua pegawai Direktorat Jenderal Badan Peradilan Umum dan Peradilan Tata Usaha Negara Departemen Kehakiman dan Hak Asasi Manusia, pengadilan negeri, pengadilan tinggi, pengadilan tata usaha negara, dan pengadilan tinggi tata usaha negara, menjadi pegawai pada Mahkamah Agung; b. semua pegawai yang menduduki jabatan struktural pada Direktorat Jenderal Badan Peradilan Umum dan Peradilan Tata Usaha Negara Departemen Kehakiman dan Hak Asasi Manusia, pengadilan negeri, pengadilan . . . - pengadilan tinggi, pengadilan tata usaha negara, dan pengadilan tinggi tata usaha negara, tetap menduduki jabatannya dan tetap menerima tunjangan jabatan pada Mahkamah Agung; c. semua aset milik/barang inventaris di lingkungan pengadilan negeri dan pengadilan tinggi serta pengadilan tata usaha negara dan pengadilan tinggi tata usaha negara beralih ke Mahkamah Agung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Sejak dialihkannya organisasi, administrasi, dan finansial sebagaimana dimaksud dalam Pasal 42 ayat (2): a. semua pegawai Direktorat Pembinaan Peradilan Agama Departemen Agama menjadi pegawai Direktorat Jenderal Badan Peradilan Agama pada Mahkamah Agung, serta pegawai pengadilan agama dan pengadilan tinggi agama menjadi pegawai Mahkamah Agung; b. semua pegawai yang menduduki jabatan struktural pada Direktorat Pembinaan Peradilan Agama Departemen Agama menduduki jabatan pada Direktorat Jenderal Badan Peradilan Agama pada Mahkamah Agung, sesuai dengan peraturan perundang-undangan; c. semua aset milik/barang inventaris pada pengadilan agama dan tinggi agama beralih menjadi aset milik/barang pengadilan inventaris Mahkamah Agung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Sejak dialihkannya organisasi, administrasi, dan finansial sebagaimana dimaksud dalam Pasal 42 ayat (3): a. pembinaan personel militer di lingkungan peradilan militer dilaksanakan sesuai dengan peraturan perundang-undangan yang mengatur personel militer; b. semua pegawai negeri sipil di lingkungan peradilan militer beralih menjadi pegawai negeri sipil pada Mahkamah Agung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "Mahkamah Agung menyusun organisasi dan tata kerja yang baru di lingkungan Mahkamah Agung paling lambat 12 (dua belas) bulan sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2004/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Ketentuan dalam peraturan perundang-undangan yang mengatur kekuasaan kehakiman masih tetap berlaku sepanjang tidak bertentangan atau belum dibentuk yang baru berdasarkan Undang-Undang ini. Pasal 48 . . . -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Pada saat mulai berlakunya Undang-Undang ini, maka Undang-Undang Nomor 14 Tahun 1970 tentang Ketentuan-ketentuan Pokok Kekuasaan Kehakiman (Lembaran Negara Republik Indonesia Tahun 1970 Nomor 74 Tambahan Lembaran Negara Republik Indonesia Nomor 2951) sebagaimana telah diubah dengan Undang-Undang Nomor 35 Tahun 1999 tentang Perubahan Atas Undang-Undang Nomor 14 Tahun 1970 tentang Ketentuan-ketentuan Pokok Kekuasaan Kehakiman (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 147, Tambahan Lembaran Negara Republik Indonesia Nomor 3879) dinyatakan tidak berlaku. Undang-Undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2004/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 15 Januari 2004 PRESIDEN REPUBLIK INDONESIA, ttd MEGAWATI SOEKARNOPUTRI Diundangkan di Jakarta pada tanggal 15 Januari 2004 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd BAMBANG KESOWO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 8",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

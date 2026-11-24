@@ -1,0 +1,117 @@
+{
+ "slug": "pp-no-43-tahun-1982",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-43-tahun-1982",
+   "detailsId": "65257",
+   "judul": "PP No. 43 Tahun 1982 tentang Penambahan Penyertaan Modal Negera Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT. Industri Pesawat Terbang Nurtanio - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/55557/PP%20NO%2043%20TH%201982.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:49:11.814707+00:00"
+  },
+  "sha256": "84c4e4baf934051de0fd6333ea932371b51e9e5caf57beb42105d700d044e215",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 4,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-43-tahun-1982/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PEMERINTAH TENTANG PENAMBAHAN PENYERTAAN MODAL NEGARA REPUBLIK INDONESIA KE DALAM MODAL SAHAM PERUSAHAAN PERSEROAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-43-tahun-1982/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-43-tahun-1982/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Memisahkan sebagian dari kekayaan Negara yang pada saat ini berada di bawah pengelolaan Departemen Pertahanan-Keamanan berupa Pabrik Roket Menang di Tasikmalaya, untuk digunakan sebagai tambahan penyertaan modal Negara ke dalam modal saham Perusahaan Perseroan (PERSERO) PT. Industri Pesawat Terbang Nurtanio. Nilai dari kekayaan Negara sebagaimana dimaksud dalam ayat (1) yang akan dipergunakan sebagai penambahan modal Negara Republik Indonesia ditetapkan oleh Menteri Keuangan, berdasarkan penilaian yang dilakukan bersama oleh Departemen Keuangan dan Departemen Pertahanan-Keamanan. (2)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1982/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "(2)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-43-tahun-1982/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Pelaksanaan penambahan penyertaan modal Negara ke dalam modal saham Perusahaan Perseroan (PERSERO) PT. Industri Pesawat Terbang Nurtanio sebagaimana dimaksud dalam Pasal 1 dilakukan menurut ketentuan Kitab Undang-undang Hukum Dagang (Staatsblad Tahun 1847 Nomor 23) sebagaimana telah beberapa kali diubah dan ditambah, terakhir dengan Undang-undang Nomor 4 Tahun 1971, dengan memperhatikan ketentuan- ketentuan yang tercantum dalam Peraturan Pemerintah Nomor 12 Tahun 1969 sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 24 Tahun 1972. BAB III …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1982/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-43-tahun-1982/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Hal-hal yang belum cukup diatur dalam Peraturan Pemerintah ini akan diatur tersendiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-43-tahun-1982/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini, dengan penempatannya dalam Lembaran Negara Republik Indonesia. tanggal 18 Desember 1982 Ditetapkan di Jakarta pada ttd SOEHARTO Diundangkan di Jakarta pada tanggal 18 Desember 1982 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1982 NOMOR 70",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-34-tahun-1978",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk dapat menyesuaikan tugas kegiatan Perusahaan Umum Asuransi Kerugian Jasa Raharja dengan tugas-tugas baru yang dibebankan kepadanya, dianggap perlu untuk mengadakan perubahan atas Peraturan Pemerintah Nomor 8 Tahun 1965 tentang Pendirian Perusahaan Umum Asuransi Kerugian \"Jasa Raharja\","
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-34-tahun-1978",
+   "detailsId": "67023",
+   "judul": "PP No. 34 Tahun 1978 tentang Perubahan Atas Peraturan Pemerintah Nomor 8 Tahun 1965 Tentang Pendirian Perusahaan Umum Asuransi Kerugian &quot;Jasa Raharja&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57354/PP%20NO%2034%20TH%201978.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:18.726147+00:00"
+  },
+  "sha256": "c38f98ea956aa03e32d3bd98382d24703d529a0c446fd9781cb292c16ea076e4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-34-tahun-1978/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Nomor 8 Tahun 1965 tentang Pendirian Perusahaan Umum Asuransi Kerugian \"JASA RAHARJA\" diubah sebagai berikut :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-34-tahun-1978/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Ketentuan Pasal 8 ditambah sehingga seluruhnya berbunyi sebagai berikut : \"Perusahaan berusaha di dalam negeri khususnya dalam lapangan Asuransi Tanggungjawab Kendaraan Bermotor, Asuransi Kecelakaan Penumpang dan Surety/Bonding, yaitu dengan jalan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-34-tahun-1978/pasal-1/angka-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "mengadakan… - - mengadakan dan menutup perjanjian asuransi termasuk reasuransi dalam bidang asuransi tanggungjawab kendaraan bermotor, asuransi kecelakaan penumpang dan Surety/Bonding. Pasal 23 ditambah dengan satu ayat baru dan ditempatkan sebagai ayat (2) yang keseluruhannya berbunyi sebagai berikut : Ayat (2) Untuk pembelanjaan perluasan kapasitas perusahaan, Direksi dapat menggunakan Dana Pembangunan Semesta tersebut pada ayat (1) huruf a dengan persetujuan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-34-tahun-1978/pasal-1/angka-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memberi perantaraan dalam penutupan asuransi tanggungjawab kendaraan bermotor, asuransi kecelakaan penumpang dan Surety/ Bonding\". 2. Ayat (2) dan ayat (3) Pasal 23 selanjutnya masing-masing menjadi ayat (3) baru dan ayat (4) baru. Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar... - - Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 6 Desember 1978 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 6 Desember 1978 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1978 NOMOR 49",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

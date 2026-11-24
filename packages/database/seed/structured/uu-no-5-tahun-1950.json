@@ -1,0 +1,48 @@
+{
+ "slug": "uu-no-5-tahun-1950",
+ "preamble": {
+  "menimbang": [
+   "bahwa Dewan Perwakilan Rakyat menyutujui isi Undang-undang Darurat itu dengan beberapa perubahan dan tambahan yang dimajukan oleh Pemerintah dan oleh Dewan Perwakilan Rakyat."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-5-tahun-1950",
+   "detailsId": "37969",
+   "judul": "UU No. 5 Tahun 1950 tentang Menetapkan &#x201C;Undang-Undang Darurat tentang Susunan dan Kekuasaan Pengadilan/Kejaksaan dalam Lingkungan Peradilan Ketentaraan&#x201D; (Undang-Undang Darurat Nr 16. Tahun 1950), Sebagai Undang-Undang Federal - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27080/UU%20Nomor%205%20Tahun%201950.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-41-tahun-1947",
+    "uu-no-40-tahun-1947",
+    "uu-no-39-tahun-1947",
+    "uu-no-36-tahun-1947",
+    "uu-no-8-tahun-1946",
+    "uu-no-7-tahun-1946"
+   ],
+   "scrapedAt": "2026-10-05T17:08:18.131880+00:00"
+  },
+  "sha256": "90a029cab195725aae9bd93b4a75f5bd68c55f7fafb615bbde23567ad37b914d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

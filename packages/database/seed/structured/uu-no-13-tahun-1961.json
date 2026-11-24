@@ -1,0 +1,61 @@
+{
+ "slug": "uu-no-13-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "perlu diadakan Undang-undang tentang ketentuan-ketentuan pokok supaya Kepolisian Negara Republik Kepolisian Negara, agar hukum - dalam alat Negara penegak Indonesia menyelesaikan revolusi sebagai alat revolusi yang terutama bertugas untuk keamanan didalam negeri - dapat menunaikan tugasnya sebaik- baiknya. sebagai"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-13-tahun-1961",
+   "detailsId": "51233",
+   "judul": "UU No. 13 Tahun 1961 tentang Ketentuan-Ketentuan Pokok Kepolisian Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40486/UU%20Nomor%2013%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:08:41.723519+00:00"
+  },
+  "sha256": "64e14f57219bd815f818d387fdc7341888fba283cd478a0e60fbf74da309ce40",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-13-tahun-1961/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "Mengingat adanya wewenang Kepala Daerah yang memegang pimpinan kebijaksanaan politik polisionil dan koordinasi dinas- dinas vertikal di daerahnya maka Kepala Daerah dapat mempergunakan Kepolisian Negara yang ada dalam daerahnya untuk melaksanakan wewenangnya dengan memperhatikan hierarchi dalam Kepolisian Negara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-13-tahun-1961/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "WEWENANG DAN KEWAJIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "slug": "perpu-no-2-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka menjaga kepercayaan masyarakat terhadap perbankan dipandang perlu untuk melakukan perubahan terhadap ketentuan Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia sebagaimana telah diubah dengan Undang-Undang Nomor 3 Tahun 2004 yang mengatur mengenai kredit atau pembiayaan berdasarkan prinsip syariah dari Bank Indonesia kepada bank untuk mengatasi kesulitan pendanaan jangka pendek bank;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Pengganti Undang-Undang tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia; Pemerintah Peraturan"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpu-no-2-tahun-2008",
+   "detailsId": "53214",
+   "judul": "PERPU No. 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 Tentang Bank Indonesia&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42592/Perpu%202%20Tahun%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:00:09.554014+00:00"
+  },
+  "sha256": "dc2be2212b6eb4c3884946d30f00c92f7c0145b738deb469d8e1a30def917eb2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 5,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpu-no-2-tahun-2008/pasal-11",
+   "type": "PASAL",
+   "orderIndex": 11,
+   "label": "Pasal 11",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpu-no-2-tahun-2008/pasal-11/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bank Indonesia dapat memberikan kredit atau pembiayaan berdasarkan Prinsip Syariah untuk jangka waktu paling lama 90 (sembilan puluh) hari kepada Bank untuk mengatasi kesulitan pendanaan jangka pendek Bank yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpu-no-2-tahun-2008/pasal-11/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pelaksanaan pemberian kredit atau pembiayaan berdasarkan Prinsip Syariah sebagaimana dimaksud pada ayat (1), wajib dijamin oleh Bank penerima dengan agunan yang berkualitas tinggi yang nilainya minimal sebesar jumlah kredit atau pembiayaan yang diterimanya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpu-no-2-tahun-2008/pasal-11/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pelaksanaan ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan dengan Peraturan Bank Indonesia. berdampak",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpu-no-2-tahun-2008/pasal-11/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Dalam hal suatu Bank mengalami kesulitan keuangan berpotensi sistemik yang mengakibatkan krisis yang membahayakan sistem keuangan, Bank Indonesia dapat memberikan fasilitas pembiayaan darurat yang pendanaannya menjadi beban Pemerintah. dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpu-no-2-tahun-2008/pasal-11/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Ketentuan dan tata cara pengambilan keputusan mengenai kesulitan keuangan Bank yang berdampak sistemik, pemberian fasilitas pembiayaan darurat, dan sumber pendanaan yang berasal dari Anggaran Pendapatan dan Belanja Negara diatur dalam undang- undang tersendiri. Pasal II Peraturan Pemerintah Pengganti Undang-undang mulai berlaku pada tanggal diundangkan. ini Agar ... Agar setiap orang mengetahuinya memerintahkan pengudangan Peraturan Pemerintah Pengganti Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Oktober 2008 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 13 Oktober 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 142 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA REPUBLIK INDONESIA Kepala Biro Peraturan Perundang-undangan Bidang Perekonomian dan Industri, SETIO SAPTO NUGROHO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..11): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

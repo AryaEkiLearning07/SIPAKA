@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-52-tahun-1959",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-52-tahun-1959",
+   "detailsId": "76119",
+   "judul": "PP No. 52 Tahun 1959 tentang Penetapan Perusahaan Percetakan Milik Belanda yang dikenakan Nasionalisasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66931/PP%20No%20052%20Tahun%201959.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:44.322398+00:00"
+  },
+  "sha256": "9e1baedd91c8fd99111e65fde57e328c29ee66dfe22e6e6768a15b57680f71e9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,43 @@
+tok 1.0 "Lihat Detail Undang-Undang (Pelacak Dokumen Hukum)"
+
+pool p "Lihat Detail Undang-Undang" process=lihat_detail_undang_undang
+  store d_uu "Undang-Undang"
+  start mulai "Permintaan detail UU diterima" message="Permintaan detail UU"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  and pisah
+  send meta "Tampilkan Metadata UU" message="Metadata UU"
+  send status "Tampilkan Status Keberlakuan" message="Status keberlakuan UU"
+  and gabung
+  eventgw tunggu
+  catch unduh "Pengguna meminta unduh PDF" message="Permintaan unduh PDF"
+  catch tutup "Pengguna menutup detail UU" message="Tutup detail UU"
+  send pdf "Unduh PDF Asli" message="Berkas PDF asli"
+  end terunduh "PDF asli terkirim"
+  end selesai "Detail UU selesai ditampilkan"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> pisah "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow pisah -> meta -> gabung
+flow pisah -> status -> gabung
+flow gabung -> tunggu
+flow tunggu -> unduh
+flow tunggu -> tutup
+flow unduh -> pdf -> terunduh
+flow tutup -> selesai
+
+reads meta d_uu
+reads status d_uu
+reads pdf d_uu
+
+message user -> mulai "Permintaan detail UU"
+message tolak -> user "Akses ditolak"
+message meta -> user "Metadata UU"
+message status -> user "Status keberlakuan UU"
+message user -> unduh "Permintaan unduh PDF"
+message user -> tutup "Tutup detail UU"
+message pdf -> user "Berkas PDF asli"

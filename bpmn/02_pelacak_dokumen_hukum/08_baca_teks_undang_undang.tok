@@ -1,0 +1,54 @@
+tok 1.0 "Baca Teks Undang-Undang (Pelacak Dokumen Hukum)"
+
+pool p "Baca Teks Undang-Undang" process=baca_teks_undang_undang
+  store d_uu "Undang-Undang"
+  start mulai "Permintaan teks UU diterima" message="Permintaan buka teks UU"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  send teks "Tampilkan Teks Konsolidasi" message="Teks konsolidasi UU"
+  and pisah
+  call anotasi "Tampilkan Anotasi Pasal" process=anotasi_teks_undang_undang doc="Langkah 'Tampilkan Anotasi Pasal' pada proses Anotasi Teks Undang-Undang"
+  sub navigasi "Navigasi Struktur Dokumen"
+    start n1 "Mulai navigasi"
+    send n2 "Tampilkan Panel Bab & Pasal" message="Panel bab dan pasal"
+    end n3 "Panel navigasi tampil"
+    flow n1 -> n2 -> n3
+  call latin "Deteksi Istilah Latin" process=deteksi_istilah_latin
+  and gabung
+  xor loop
+  eventgw tunggu
+  catch rujuk "Pengguna mengklik rujukan pasal" message="Klik rujukan pasal"
+  catch istilah "Pengguna mengklik istilah Latin" message="Klik istilah Latin"
+  catch tutup "Pengguna menutup teks UU" message="Tutup teks UU"
+  service rujukan "Tautkan Rujukan Antarpasal"
+  call popup "Tampilkan Popup Istilah" process=tampilkan_popup_istilah
+  end selesai "Selesai membaca"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> teks "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow teks -> pisah
+flow pisah -> anotasi -> gabung
+flow pisah -> navigasi -> gabung
+flow pisah -> latin -> gabung
+flow gabung -> loop -> tunggu
+flow tunggu -> rujuk
+flow tunggu -> istilah
+flow tunggu -> tutup
+flow rujuk -> rujukan -> loop
+flow istilah -> popup -> loop
+flow tutup -> selesai
+
+reads teks d_uu
+reads rujukan d_uu
+
+message user -> mulai "Permintaan buka teks UU"
+message tolak -> user "Akses ditolak"
+message teks -> user "Teks konsolidasi UU"
+message n2 -> user "Panel bab dan pasal"
+message user -> rujuk "Klik rujukan pasal"
+message user -> istilah "Klik istilah Latin"
+message user -> tutup "Tutup teks UU"

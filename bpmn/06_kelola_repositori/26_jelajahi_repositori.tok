@@ -1,0 +1,32 @@
+tok 1.0 "Jelajahi Repositori (Kelola Repositori)"
+
+pool p "Jelajahi Repositori" process=jelajahi_repositori
+  store d_entri "Entri Repositori"
+  start mulai "Filter dan kata kunci diterima" message="Filter dan kata kunci repositori"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service saring "Saring Entri Repositori"
+  xor ada "Ada entri yang cocok?"
+  send tampil "Tampilkan daftar entri (milik sendiri dan yang dibagikan)" message="Daftar entri repositori"
+  end selesai "Daftar entri terkirim"
+  send kosong "Tampilkan pesan tidak ada entri" message="Pesan tidak ada entri"
+  end nihil "Tidak ada entri yang cocok"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> saring "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow saring -> ada
+flow ada -> tampil "ya" when="jumlahEntri > 0"
+flow ada -> kosong "tidak" default
+flow tampil -> selesai
+flow kosong -> nihil
+
+reads saring d_entri
+
+message user -> mulai "Filter dan kata kunci repositori"
+message tolak -> user "Akses ditolak"
+message tampil -> user "Daftar entri repositori"
+message kosong -> user "Pesan tidak ada entri"

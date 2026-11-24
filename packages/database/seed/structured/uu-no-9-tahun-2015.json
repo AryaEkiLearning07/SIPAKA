@@ -1,0 +1,672 @@
+{
+ "slug": "uu-no-9-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa ketentuan tugas dan wewenang dewan perwakilan rakyat daerah provinsi, kabupaten/kota perlu dilakukan penyesuaian dengan undang-undang yang mengatur pemilihan gubernur, bupati, dan wali kota;",
+   "bahwa untuk mengatasi permasalahan sebagaimana dimaksud pada huruf b, ketentuan tugas dan wewenang dewan perwakilan rakyat daerah provinsi, kabupaten/kota sebagaimana diatur dalam Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah perlu dilakukan perubahan;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Perubahan Kedua atas Undang- Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "38209",
+   "slug": "uu-no-9-tahun-2015",
+   "nomor": 9,
+   "tahun": 2015,
+   "jenis": "UU",
+   "judul": "UU No. 9 Tahun 2015 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah&#xD;&#xA; - JDIH BPK",
+   "lnNumber": "58",
+   "tlnNumber": "5679",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27377/UU%20Nomor%209%20Tahun%202015.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:09:21.859297+00:00"
+  },
+  "sha256": "6eeb5efc6c680f524e6eb00563081fd555b9ae1837956c0354249aa9b8f15e48",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 27,
+  "ayat_angka": 35,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-63",
+   "type": "PASAL",
+   "orderIndex": 63,
+   "label": "Pasal 63",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-63/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepala daerah sebagaimana dimaksud dalam Pasal 59 ayat (1) dibantu oleh wakil kepala daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-63/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Wakil kepala daerah sebagaimana dimaksud pada ayat (1) untuk Daerah provinsi disebut wakil gubernur, untuk Daerah kabupaten disebut wakil bupati, dan untuk Daerah kota disebut wakil wali kota.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-63/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Ketentuan ayat (1) huruf f Pasal 65 dihapus, sehingga Pasal 65 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-65",
+   "type": "PASAL",
+   "orderIndex": 65,
+   "label": "Pasal 65",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepala daerah mempunyai tugas: Wakil kepala daerah mempunyai tugas:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "memimpin pelaksanaan Urusan Pemerintahan yang menjadi kewenangan Daerah berdasarkan ketentuan peraturan perundang-undangan dan kebijakan yang ditetapkan bersama DPRD; membantu kepala daerah dalam:",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memelihara ketenteraman dan ketertiban masyarakat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "menyusun dan mengajukan rancangan Perda tentang RPJPD dan rancangan Perda tentang RPJMD kepada DPRD untuk dibahas bersama DPRD, serta menyusun dan menetapkan RKPD;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "menyusun dan mengajukan rancangan Perda tentang APBD, rancangan Perda tentang perubahan APBD, dan rancangan pertanggungjawaban tentang pelaksanaan APBD kepada DPRD untuk dibahas bersama; Perda",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "mewakili Daerahnya di dalam dan di luar pengadilan, dan kuasa hukum untuk mewakilinya sesuai dengan ketentuan peraturan perundangundangan; dan dapat menunjuk",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "dihapus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-1/huruf-g",
+       "type": "HURUF",
+       "orderIndex": 7,
+       "label": "Huruf g",
+       "content": "melaksanakan tugas lain sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1) kepala daerah berwenang:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "mengajukan rancangan Perda;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "menetapkan Perda yang telah mendapat persetujuan bersama DPRD;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "menetapkan . . . menetapkan Perkada dan keputusan kepala daerah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "mengambil keadaan mendesak yang sangat dibutuhkan oleh Daerah dan/atau masyarakat; tindakan tertentu dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-2/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "melaksanakan wewenang sesuai ketentuan peraturan perundang-undangan. lain dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Kepala daerah yang sedang menjalani masa tahanan tugas dan kewenangannya dilarang melaksanakan sebagaimana dimaksud pada ayat (1) dan ayat (2).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Dalam hal kepala daerah sedang menjalani masa tahanan sebagaimana dimaksud pada ayat (3) atau daerah berhalangan melaksanakan tugas dan wewenang kepala daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Apabila kepala daerah sedang menjalani masa tahanan sementara, kepala wakil atau berhalangan sementara dan tidak ada wakil kepala daerah, sekretaris daerah melaksanakan tugas sehari-hari kepala daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-6",
+     "type": "AYAT",
+     "orderIndex": 6,
+     "label": "Ayat (6)",
+     "content": "Apabila kepala daerah dan wakil kepala daerah sedang menjalani masa tahanan atau berhalangan sementara, sekretaris daerah melaksanakan tugas sehari-hari kepala daerah. diatur dalam peraturan pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/ayat-7",
+     "type": "AYAT",
+     "orderIndex": 7,
+     "label": "Ayat (7)",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang kepala daerah oleh wakil kepala daerah dan pelaksanaan tugas sehari-hari kepala daerah oleh sekretaris daerah sebagaimana dimaksud pada ayat (4) sampai dengan ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-65/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Ketentuan Pasal 66 ayat (3) diubah dan ditambah 1 (satu) ayat, yakni ayat (4), sehingga Pasal 66 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-66",
+   "type": "PASAL",
+   "orderIndex": 66,
+   "label": "Pasal 66",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "memimpin pelaksanaan Urusan Pemerintahan yang menjadi kewenangan Daerah;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "mengoordinasikan kegiatan Perangkat Daerah dan menindaklanjuti laporan dan/atau temuan hasil pengawasan aparat pengawasan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "memantau . . . memantau dan mengevaluasi penyelenggaraan Pemerintahan Daerah yang dilaksanakan oleh Perangkat Daerah provinsi bagi wakil gubernur; dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "memantau dan mengevaluasi penyelenggaraan pemerintahan yang dilaksanakan oleh Perangkat Daerah kabupaten/kota, kelurahan, dan/atau Desa bagi wakil bupati/wali kota; Ketentuan Pasal 88 diubah sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-4/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "memberikan saran dan pertimbangan kepada kepala daerah dalam pelaksanaan Pemerintahan Daerah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-4/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "melaksanakan tugas dan wewenang kepala daerah apabila kepala daerah menjalani masa tahanan atau berhalangan sementara; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-66/angka-4/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "melaksanakan tugas lain sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Selain melaksanakan tugas sebagaimana dimaksud pada ayat (1) wakil kepala daerah melaksanakan tugas dan kewajiban pemerintahan lainnya yang diberikan oleh kepala daerah yang ditetapkan dengan keputusan kepala daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud pada (2), wakil kepala daerah ayat menandatangani pakta integritas dan bertanggung jawab kepada kepala daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "dan ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-66/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Wakil kepala daerah wajib melaksanakan tugas bersama kepala daerah hingga akhir masa jabatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-88",
+   "type": "PASAL",
+   "orderIndex": 88,
+   "label": "Pasal 88",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-88/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam hal pengisian jabatan gubernur sebagaimana dimaksud dalam Pasal 87 ayat (1) belum dilakukan, wakil gubernur melaksanakan tugas sehari-hari gubernur sampai dilantiknya wakil gubernur sebagai gubernur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-88/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dalam hal pengisian jabatan bupati/wali kota sebagaimana dimaksud dalam Pasal 87 ayat (2) belum dilakukan, wakil bupati/wakil wali kota melaksanakan tugas sehari-hari bupati/wali kota sampai dengan dilantiknya wakil bupati/wakil wali kota sebagai bupati/wali kota.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-88/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Ketentuan . . . Ketentuan Pasal 101 ayat (1), di antara huruf d dan huruf e, disisipkan huruf d1, sehingga Pasal 101 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-101",
+   "type": "PASAL",
+   "orderIndex": 101,
+   "label": "Pasal 101",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "DPRD provinsi mempunyai tugas dan wewenang:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "membentuk Perda Provinsi bersama gubernur;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "membahas dan memberikan persetujuan Rancangan Perda Provinsi tentang APBD Provinsi yang diajukan oleh gubernur;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "melaksanakan pengawasan terhadap pelaksanaan Perda Provinsi dan APBD provinsi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "dihapus. d1.memilih gubernur dan wakil gubernur dalam hal terjadi kekosongan jabatan untuk meneruskan sisa masa jabatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "mengusulkan pengangkatan dan pemberhentian gubernur kepada Presiden melalui Menteri untuk mendapatkan pengesahan pengangkatan dan/atau pemberhentian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "memberikan pendapat dan pertimbangan kepada rencana terhadap Pemerintah Daerah provinsi perjanjian internasional di Daerah provinsi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-g",
+       "type": "HURUF",
+       "orderIndex": 7,
+       "label": "Huruf g",
+       "content": "memberikan persetujuan terhadap rencana kerja sama internasional yang dilakukan oleh Pemerintah Daerah provinsi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-h",
+       "type": "HURUF",
+       "orderIndex": 8,
+       "label": "Huruf h",
+       "content": "meminta laporan keterangan pertanggungjawaban gubernur dalam penyelenggaraan Pemerintahan Daerah provinsi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-i",
+       "type": "HURUF",
+       "orderIndex": 9,
+       "label": "Huruf i",
+       "content": "memberikan persetujuan terhadap rencana kerja sama dengan Daerah lain atau dengan pihak ketiga yang membebani masyarakat dan Daerahprovinsi; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-1/huruf-j",
+       "type": "HURUF",
+       "orderIndex": 10,
+       "label": "Huruf j",
+       "content": "melaksanakan tugas dan wewenang lain yang diatur dalam ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-101/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Ketentuan lebih lanjut mengenai tata cara pelaksanaan tugas dan wewenang sebagaimana dimaksud pada ayat (1) diatur dalam peraturan DPRD provinsi tentang tata tertib.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-101/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Ketentuan Pasal 154 ayat (1), di antara huruf d dan huruf e, disisipkan huruf d1, sehingga Pasal 154 berbunyi sebagai berikut: Pasal 154 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-2015/pasal-154",
+   "type": "PASAL",
+   "orderIndex": 154,
+   "label": "Pasal 154",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "DPRD kabupaten/kota mempunyai tugas dan wewenang: bersama Kabupaten/Kota",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "membentuk Perda bupati/wali kota;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "membahas dan memberikan persetujuan rancangan Perda mengenai APBD kabupaten/kota yang diajukan oleh bupati/wali kota;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "melaksanakan pengawasan terhadap pelaksanaan Perda dan APBD kabupaten/kota;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "dihapus. d1. memilih bupati dan wakil bupati serta wali kota dan wakil wali kota dalam hal terjadi kekosongan jabatan untuk meneruskan sisa masa jabatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "mengusulkan pengangkatan dan pemberhentian bupati/wali kota kepada Menteri melalui gubernur sebagai wakil Pemerintah Pusat untuk mendapatkan pengesahan pengangkatan dan/atau pemberhentian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "memberikan pendapat dan pertimbangan kepada Pemerintah Daerah kabupaten/kota terhadap rencana perjanjian internasional di Daerah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-g",
+       "type": "HURUF",
+       "orderIndex": 7,
+       "label": "Huruf g",
+       "content": "memberikan persetujuan terhadap rencana kerja sama internasional yang dilakukan oleh Pemerintah Daerah kabupaten/kota;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-h",
+       "type": "HURUF",
+       "orderIndex": 8,
+       "label": "Huruf h",
+       "content": "meminta laporan keterangan pertanggungjawaban bupati/wali kota dalam penyelenggaraan Pemerintahan Daerah kabupaten/kota;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-i",
+       "type": "HURUF",
+       "orderIndex": 9,
+       "label": "Huruf i",
+       "content": "memberikan persetujuan terhadap rencana kerja sama dengan Daerah lain atau dengan pihak ketiga yang membebani masyarakat dan Daerah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-1/huruf-j",
+       "type": "HURUF",
+       "orderIndex": 10,
+       "label": "Huruf j",
+       "content": "melaksanakan tugas dan wewenang lain yang diatur dalam ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-2015/pasal-154/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Ketentuan mengenai tata cara pelaksanaan tugas dan wewenang sebagaimana dimaksud pada ayat diatur dalam peraturan DPRD kabupaten/kota tentang tata tertib. (1) Undang-Undang ini mulai berlaku pada tanggal diundangkan. Pasal II Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 18 Maret 2015 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 18 Maret 2015 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 58",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..154): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

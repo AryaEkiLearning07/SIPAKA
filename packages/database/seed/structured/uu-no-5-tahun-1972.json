@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-5-tahun-1972",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Tahun 1968 perlu ditetapkan dengan Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-5-tahun-1972",
+   "detailsId": "47552",
+   "judul": "UU No. 5 Tahun 1972 tentang Perhitungan Anggaran Tahun 1968 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36538/UU%20Nomor%205%20Tahun%201972.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:54:29.006984+00:00"
+  },
+  "sha256": "836d1832a057b6565a689e57a875c9440714dda76e4d78e2c485019730c20a6e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-5-tahun-1972/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1). Penerimaan Negara dalam Tahun 1968 adalah sebesar Rp.206.222.237.705,88 (dua ratus enam milyar dua ratus dua puluh dua juta dua ratus tiga puluh tujuh ribu tujuh ratus lima delapan puluh delapan perseratus rupiah); (2). Pengeluaran Negara dalam Tahun 1968 adalah sebesar Rp. 205.365.178.791,42 (dua ratus lima milyar tiga ratus enam puluh lima juta seratus tujuh puluh delapan ribu tujuh ratus sembilan puluh satu empat puluh dua perseratus rupiah); (3). Sisa lebih Perhitungan Anggaran Tahun 1968 adalah sebesar Rp. 857.058.914,46 (delapan ratus lima puluh tujuh juta lima puluh delapan ribu sembilan ratus empat belas empat puluh enam perseratus rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-5-tahun-1972/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 13 Desember 1972 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI Diundangkan di Jakarta pada tanggal 13 Desember 1972 SEKRETARIS NEGARA REPUBLIK INDONESIA SUDHARMONO,S.H. MAYOR JENDERAL TNI.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

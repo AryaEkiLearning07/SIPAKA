@@ -1,0 +1,39 @@
+{
+ "slug": "perda-kab-cianjur-no-95-tahun-2025",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perda-kab-cianjur-no-95-tahun-2025",
+   "detailsId": "345858",
+   "judul": "Perda Kab. Cianjur No. 95 Tahun 2025 tentang Tugas Dan Fungsi Serta Tata Kerja Unit Organisasi Di Lingkungan Dinas Pangan Kabupaten Cianjur - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/409208/Perbup%20Kab%20Cianjur%20Nomor%2095%20Tahun%202025.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T08:14:33.336831+00:00"
+  },
+  "sha256": "db0baaffa1aef4c66d771f0444879b9651c7672b8f5d9449e77dd59bcc504b41",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

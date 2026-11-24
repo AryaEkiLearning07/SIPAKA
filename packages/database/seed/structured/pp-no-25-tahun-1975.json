@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-25-tahun-1975",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka penyempurnaan,pengurusan dan pengelolaan Hotel Garuda di Yogyakarta yang merupakan milik Negara, dipandang perlu untuk memasukkan Hotel tersebut ke dalam dan menjadikannya sebagai unit produksi dari Perseroan Terbatas \"Perusahaan Hotel dan Tourist Nasional\" (\"Natour Ltd.\");",
+   "bahwa sehubungan dengan hal tersebut pada huruf a di atas dipandang perlu untuk mengeluarkan suatu Peraturan Pemerintah yang menetapkan penambahan penyertaan Negara Republik Indonesia dalam modal saham Perseroan Terbatas \"Perusahaan Hotel dan Tourist Nasional\" (Natour Ltd.\");"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 16 Oktober 1975 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, TTD SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1975 NOMOR 35",
+ "source": {
+  "url": {
+   "slug": "pp-no-25-tahun-1975",
+   "detailsId": "67757",
+   "judul": "PP No. 25 Tahun 1975 tentang Penambahan Penyertaan Negara Republik Indonesia Dalam Modal Saham Perseroan Terbatas &quot;Perusahaan Hotel Dan Tourist Nasional&quot; (&quot;Natour Ltd.&quot;) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58107/PP%20NO%2025%20TH%201975.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:15:10.532379+00:00"
+  },
+  "sha256": "c72f79cd2d312578a0ade4e4b5316f252853e1ab43b6fb452c7c6f2807c2658f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-25-tahun-1975/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-25-tahun-1975/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penyertaan Negara Republik Indonesia dalam modal saham Perseroan Terbatas \"Perusahaan Hotel dan Tourist Nasional\" (\"Natour Ltd.\") sebagaimana telah diadakan penambahannya dengan Peraturan Pemerintah Nomor 4 Tahun 1973, dengan Peraturan Pemerintah ini ditambah lagi dengan memasukkan sebuah hotel milik Negara, yakni Hotel Garuda yang berkedudukan di Yogyakarta, ke dalam Perseroan Terbatas tersebut, sehingga oleh karena itu mencantumkan Hotel Garuda pada nomor urut kelima belas dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

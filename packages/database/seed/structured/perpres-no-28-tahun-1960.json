@@ -1,0 +1,86 @@
+{
+ "slug": "perpres-no-28-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Presiden No. 14 tahun 1960 tentang Peraturan Tata-tertib Dewan Perwakilan Rakyat Gotong-Royong perlu diperbaharui untuk kesempurnaan pelaksanaan prinsip demokrasi terpimpin,"
+  ],
+  "mengingat": [
+   "pasal 6 Penetapan Presiden No. 4 tahun 1960 tentang Dewan Perwakilan Rakyat Gotong-Royong : Mendengar : a. b. Pimpinan Dewan Perwakilan Rakyat Gotong-Royong, Kabinet Kerja dalam sidangnya pada tanggal 28 Desember 1960, Memutuskan : Dengan mencabut Peraturan Presiden No. 14 tahun 1960 (Lembaran-Negara tahun 1960 No. 80);"
+  ]
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-28-tahun-1960",
+   "detailsId": "69379",
+   "judul": "PERPRES No. 28 Tahun 1960 tentang Perubahan Peraturan Tata Tertib Dewan Perwakilan Rakyat Gotong Royong - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59815/Perpres%20No.28%20Tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-14-tahun-1960"
+   ],
+   "scrapedAt": "2026-10-06T06:16:41.113407+00:00"
+  },
+  "sha256": "17e2e393a815e165879f6fcc9844d47169095001113b91921c7752bba68f337e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-28-tahun-1960/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-28-tahun-1960/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "MENGANJURKAN SESEORANG DAN SURAT-",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-28-tahun-1960/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PEMBENTUKAN GOLONGAN-GOLONGAN DALAM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-28-tahun-1960/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1960 NOMOR 176",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

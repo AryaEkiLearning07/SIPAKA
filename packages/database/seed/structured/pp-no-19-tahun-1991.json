@@ -1,0 +1,143 @@
+{
+ "slug": "pp-no-19-tahun-1991",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan maksud tembut di atas, dipandang perlu mengubah ketentuan Pasal 5 Peraturan Pemerintah Nomor 20 Tahun 1975 tentang Wewenang Pengangkatan, Pemindahan, dan Pemberhentian Pegawai Negeri Sipil;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-1991",
+   "detailsId": "58140",
+   "judul": "PP No. 19 Tahun 1991 tentang Perubahan Peraturan Pemerintah Nomor 20 Tahun 1975 Tentang Wewenang Pengangkatan, Pemindahan, Dan Pemberhentian Pegawai Negeri Sipil - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47628/PP%20NO%2019%20TH%201991.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:02.292790+00:00"
+  },
+  "sha256": "c2baeb56ea87cb02c436a9c0e6fc515e25b6e38a0df89d548cea0e3ad8014290",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 7,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-19-tahun-1991/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "tentang Wewenang Mengubah ketentuan Pasal 5 Peraturan Pemerintah Nomor 20 Tahun dan Pemberhentian Pegawai Negeri Sipil, sehingga seluruhnya berbunyi sebagai berikut: Pengangkatan, Pemindahan,",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1991/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Pimpinan",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Menteri, Jaksa Agung, Pimpinan Lembaga Pemerintah Non Departemen, Lembaga Tertinggi/Tinggi Negara, dan Pejabat lain yang ditentukan oleh Presiden, menetapkan kenaikan pangkat Pegawai Negeri Sipil dalam lingkungan wewenangnya untuk menjadi Penata Muda golongan ruang III/a sampai dengan Pembina golongan ruang IV/a, kecuali sebagaimana ditetapkan dalam ayat (2). Kesekretariatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Kepala Badan Administrasi Kepegawaian Negara menetapkan kenaikan pangkat Pegawai Negeri Sipil: dapat memberikan kuasa kepada pejabat lingkungannya.\" Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Maret 1991 ttd SOEHARTO - - Diundangkan di Jakarta pada tanggal 27 Maret 1991 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1991 NOMOR 27 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Kepala Biro Hukum Dan Perundang-undangan u.b. Kepala Bagian administrasi Perundang-undangan Ttd B.P. Silitonga, S.H. - -",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-1991/pasal-5/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "untuk menjadi Juru Muda Tingkat I golongan ruang I/b sampai dengan Pengatur Tingkat I golongan ruang II/d;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1991/pasal-5/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "untuk menjadi Juru Muda Tingkat I golongan ruang I/b sampai dengan Pembina golongan ruang IV/a yang menduduki jabatan: - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Guru, Penjaga Sekolah Dasar, Penilik Sekolah, dan Pengawas Sekolah di lingkungan Departemen Pendidikan dan Kebudayaan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Guru, Penjaga Madrasah Ibtidaiyah, Penilik Madrasah, lingkungan Departemen dan Pengawas Madrasah di Agama;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Tenaga Medis dan Paramedis di lingkungan Departemen Kesehatan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Tenaga Medis dan Paramedis di lingkungan Departemen Pertahanan Keamanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1991/pasal-5/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pejabat-pejabat sebagaimana dimaksud dalam ayat (1) dan ayat lain dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..5): [2, 3, 4]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

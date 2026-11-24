@@ -1,0 +1,71 @@
+{
+ "slug": "perpres-no-17-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu mencabut Peraturan Presiden Nomor 106 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Ketua, Wakil Ketua, Dan Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Badan Pemeriksa Keuangan, Komisi Yudisial, Hakim Mahkamah Konstitusi, Dan Hakim Agung Mahkamah Agung; Mengingat: … - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-17-tahun-2014",
+   "detailsId": "41500",
+   "judul": "PERPRES No. 17 Tahun 2014 tentang Pencabutan Peraturan Presiden Nomor 106 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Ketua, Wakil Ketua, dan Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Badan Pemeriksa Keuangan, Komisi Yudisial, Hakim Mahkamah Konstitusi, dan Hakim Agung Mahkamah Agung - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65966/Perpres%20Nomor%2017%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-106-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T06:13:06.671603+00:00"
+  },
+  "sha256": "2a69f71b6bfce0896f55285f20ab7839957b5eff6b46e2e6aeaac6387960cd1e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-17-tahun-2014/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Presiden Nomor 106 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Ketua, Wakil Ketua, Dan Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Badan Pemeriksa Keuangan, Komisi Yudisial, Hakim Mahkamah Konstitusi, Dan Hakim Agung Mahkamah Agung (Lembaran Negara Republik Indonesia Tahun 2013 Nomor 228) dicabut dan dinyatakan tidak berlaku. Pasal 2 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-17-tahun-2014/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Dengan berlakunya Peraturan Presiden ini, pelayanan kesehatan bagi Ketua, Wakil Ketua, Dan Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Badan Pemeriksa Keuangan, Komisi Yudisial, Hakim Mahkamah Konstitusi, Dan Hakim Agung Mahkamah Agung yang telah dialokasikan pendanaannya dalam Anggaran Pendapatan dan Belanja Negara Tahun 2013 dan perubahannya, tetap dilaksanakan oleh penyelenggara jaminan kesehatan bagi Pegawai Negeri Sipil sampai dengan tanggal 31 Desember 2013.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-17-tahun-2014/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 1 Januari 2014. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Februari 2014 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 Februari 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 40 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Bidang Kesejahteraan Rakyat, Siswanto Roesyidi",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

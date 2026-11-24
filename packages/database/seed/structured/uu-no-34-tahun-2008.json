@@ -1,0 +1,62 @@
+{
+ "slug": "uu-no-34-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan memperhatikan aspirasi masyarakat dan dukungan dari kelembagaan pemerintahan di daerah, secara formal pemindahan Ibu Kota Kabupaten Rokan Hilir dari Ujung Tanjung ke Bagansiapiapi telah lama dikehendaki;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a dan huruf b, perlu membentuk Undang-Undang tentang Perubahan Ketiga Atas Undang-Undang Nomor 53 Tahun 1999 tentang Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-34-tahun-2008",
+   "detailsId": "39693",
+   "judul": "UU No. 34 Tahun 2008 tentang Perubahan Ketiga atas Undang-Undang Nomor 53 Tahun 1999 tentang Pembentukan Kabupaten Pelalawan, Kabupaten Rokan Hulu, Kabupaten Rokan Hilir, Kabupaten Siak, Kabupaten Karimun, Kabupaten Natuna, Kabupaten Kuantan Singingi, dan Kota Batam&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29267/UU%20Nomor%2034%20Tahun%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:05:13.240525+00:00"
+  },
+  "sha256": "bab07c42d15b1420df5e2f6b3694e842ca88b67103908ab44cd32babc02061d5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-34-tahun-2008/pasal-16",
+   "type": "PASAL",
+   "orderIndex": 16,
+   "label": "Pasal 16",
+   "content": "Ibu Kota Kabupaten Pelalawan berkedudukan di Pangkalan Kerinci. Ibu Kota Kabupaten Rokan Hulu berkedudukan di Pasir Pengaraian. Ibu Kota Kabupaten Rokan Hilir yang semula berkedudukan ke Bagansiapiapi. di Ujung dipindah Tanjung Ibu Kota Kabupaten Siak berkedudukan di Siak Sri Indrapura. Ibu Kota Kabupaten Karimun berkedudukan di Tanjung Balai Karimun. (6) Ibu Kota Kabupaten Natuna berkedudukan di Ranai. (7) Ibu Kota Kabupaten Kuantan Singingi berkedudukan di Teluk Kuantan.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-34-tahun-2008/pasal-16/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Ketentuan Pasal 27, dihapus. Pasal II Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . setiap Agar pengundangan Undang-Undang dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan ini dengan penempatannya Disahkan di Jakarta pada tanggal 21 Juli 2008 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 Juli 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 107 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA RI Kepala Biro Peraturan Perundang-undangan Bidang Politik dan Kesejahteraan Rakyat, Wisnu Setiawan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..16): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

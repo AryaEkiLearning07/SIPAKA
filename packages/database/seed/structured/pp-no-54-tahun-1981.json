@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-54-tahun-1981",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu dipandang perlu untuk mengadakan perubahan atas Peraturan Pemerintah Nomor 18 Tahun 1972 tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-54-tahun-1981",
+   "detailsId": "66470",
+   "judul": "PP No. 54 Tahun 1981 tentang Perubahan Atas Peraturan Pemerintah Nomor 18 Tahun 1972 Tentang Perusahaan Umum Listrik Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56804/PP%20NO%2054%20TH%201981.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:13:55.226834+00:00"
+  },
+  "sha256": "fddae1fe3cb6243f5da200febbf7b3b08710f52b25b799b62b383e919e017f2a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

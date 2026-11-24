@@ -1,0 +1,104 @@
+{
+ "slug": "pp-no-95-tahun-2016",
+ "preamble": {
+  "menimbang": [
+   "c."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-95-tahun-2016",
+   "detailsId": "5816",
+   "judul": "PP No. 95 Tahun 2016 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Pada International Fund For Agricultural Development - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28150/PP%20Nomor%2095%20Tahun%202016.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:33:06.370219+00:00"
+  },
+  "sha256": "f5e509a3d2d1edd9032239c906f802af4fdcce8f70264eee3462d529917d5a4d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-95-tahun-2016/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal pada International Fund for Agricultural Development yang keanggotaannya ditetapkan dengan Keputusan Presiden Nomor 4l Tahun 1977 tentang Mengesahkan \"Agreement Establishing the International Fund for Agricultural Development\" yang Telah Ditandatangani oleh Perwakilan Tetap Republik Indonesia di New York.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-95-tahun-2016/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-95-tahun-2016/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp40.500.000.000,00 (empat puluh miliar lima ratus juta rr.piah) atau setara dengan USD3,000,OOO.00 (tiga juta dolar Amerika Serikat).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-95-tahun-2016/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2OL6.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-95-tahun-2016/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pemerintah dapat melakukan pembayaran penambahan penyertaan modal negara melebihi nilai sebagaimana dimaksud dalam Pasal 2 ayat (1) yang diakibatkan oleh selisih kurs.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-95-tahun-2016/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Pelaksanaan penambahan penyertaan modal negara pada International Fund for Agricultural Development sebagaimana dimaksud dalam Pasal 2 dan Pasal 3 dilakukan oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-95-tahun-2016/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Pemerintah diundangkan. mulai berlaku pada tanggal Agar PRES IDEN REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2016 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 30 Desember 2016 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 360 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Perekonomian, puti Bidang Hukum dan ang-undangan, vanna Djaman",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

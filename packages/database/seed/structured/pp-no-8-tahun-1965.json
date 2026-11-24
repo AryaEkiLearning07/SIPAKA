@@ -1,0 +1,55 @@
+{
+ "slug": "pp-no-8-tahun-1965",
+ "preamble": {
+  "menimbang": [
+   "perasuransian kerugian untuk meningkatkan efisiensi kerja dan produktivitas masing-masing unit; bahwa berhubung dengan itu perlu didirikan suatu Perusahaan Negara menurut Undang-undang No. 19 Prp. tahun 1960 tentang Perusahaan Negara (Lembaran-Negara tahun 1960 No. 59), yang khusus berusaha dalam bidang asuransi tanggung-jawab kendaraan bermotor dan kecelakaan penumpang; spesialisasi dalam",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-8-tahun-1965",
+   "detailsId": "71290",
+   "judul": "PP No. 8 Tahun 1965 tentang Pendirian Perusahaan Negara Asuransi Kerugian Jasa Raharja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61771/pp%20no%20008%20tahun%201965.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-15-tahun-1961"
+   ],
+   "scrapedAt": "2026-10-05T18:14:18.789359+00:00"
+  },
+  "sha256": "fb230c8e0adb94d612636cdd896c06a8bc169b887e54a4be00072fb64ecd8596",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-8-tahun-1965/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "ANGGARAN DASAR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

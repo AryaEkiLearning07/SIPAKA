@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-95-tahun-1999",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk meningkatkan pelaksanaan tugas Badan Penyehatan Perbankan Nasional (BPPN), dipandang perlu menyempurnakan kembali Peraturan Pemerintah Nomor 17 Tahun 1999 tentang Badan Penyehatan Perbankan Nasional;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-95-tahun-1999",
+   "detailsId": "54613",
+   "judul": "PP No. 95 Tahun 1999 tentang Perubahan Atas Peraturan Pemerintah Nomor 17 Tahun 1999 Tentang Badan Penyehatan Perbankan Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/44038/PP%20No.%2095%20th%201999.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:41:38.225448+00:00"
+  },
+  "sha256": "4fa24ef74e4fbaff88cf1fd8da60eff5356ebee91a7ab3bf9a24aa2666f0f3d1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

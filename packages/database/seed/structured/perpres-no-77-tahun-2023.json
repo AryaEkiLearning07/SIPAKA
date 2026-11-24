@@ -1,0 +1,107 @@
+{
+ "slug": "perpres-no-77-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-77-tahun-2023",
+   "detailsId": "272898",
+   "judul": "PERPRES No. 77 Tahun 2023 tentang Perubahan Kedua atas Peraturan Presiden Nomor 27 Tahun 2010 tentang Hak Keuangan dan Fasilitas Bagi Ketua Harian dan Anggota Dewan Energi Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/331142/Perpres%20Nomor%2077%20Tahun%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:09:07.141349+00:00"
+  },
+  "sha256": "2293288c85b67d7551c42c63a70638679c372a923c5a15e68efc7be9b6d1f8f7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 3,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-77-tahun-2023/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Hak keuangan bagi Ketua Harian dan Anggota Dewan Energi Nasional sebagaimana dimaksud dalam Pasal 1 diberikan dalam bentuk honorarium setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Honorarium sebagaimana dimaksud pada ayat (1) ditetapkan besarannya, sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Ketua Harian sebesar Rp15.322.000,00 (lima belas juta tiga ratus dua puluh dua ribu rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "anggota yang berasal dari menteri dan/atau pejabat pemerintah lainnya sebesar Rp13.732.000,00 (tiga belas juta tujuh ratus tiga puluh dua ribu rupiah); dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "anggota yang berasal dari unsur pemangku kepentingan sebesar Rp42.785.O00,00 (empat puluh dua juta tujuh ratus delapan puluh lima ribu rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-77-tahun-2023/pasal-2/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Di antara Pasal 3 dan Pasal 4 disisipkan 1 (satu) pasal, yakni Pasal 3A sehingga berbunyi sebagai berikut: Pasal 3A Honorarium sebagaimana dimaksud dalam Pasal 2 dikenakan pajak penghasilan sesuai dengan ketentuan peraturan perundang-undangan. Pasal II Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar. . . SK No 202882 A INDONESIA 3- Agar setiap pengundangan penempatannya Indonesia. orang mengetahuinya, memerintahkan Peraturan Presiden ini dengan dalam Lembaran Negara Republik Ditetapkan di Jakarta pada tanggal 5 Desember 2023 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 5 Desember 2023 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2023 NOMOR 152 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA INDONESIA Perundang-undangan Hukrrm, Djaman SK No 202890 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

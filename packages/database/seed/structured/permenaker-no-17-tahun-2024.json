@@ -1,0 +1,836 @@
+{
+ "slug": "permenaker-no-17-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor PER.19/MEN/IX/2009 tentang Pembangunan dan Pengembangan Sistem Informasi dengan sudah Ketenagakerjaan perkembangan hukum, sehingga perlu diganti; bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Menteri Ketenagakerjaan tentang Sistem Informasi ketenagakerjaan; sesuai tidak",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-17-tahun-2024",
+   "detailsId": "312745",
+   "judul": "Permenaker No. 17 Tahun 2024 tentang Sistem Informasi ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/373540/permenaker-no-17-tahun-2024.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:56:40.780010+00:00"
+  },
+  "sha256": "5218ab86b5b09d40d3e4f01bda67abd707638928cadf45a496c6ee12ee2f0092",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 19,
+  "ayat_angka": 36,
+  "huruf": 20
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "sistem Aplikasi Informasi transformasi dari Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Sistem Pelayanan dan Ketenagakerjaan yang selanjutnya disebut SIAPkerja ekosistem digital ketenagakerjaan yang adalah informasi merupakan ketenagakerjaan yang mengintegrasikan seluruh layanan bidang ketenagakerjaan secara nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Data Ketenagakerjaan adalah data yang berkaitan dengan segala hal yang berhubungan dengan tenaga kerja pada waktu sebelum, selama, dan sesudah masa kerja, meliputi data yang terkait dengan pelatihan kerja, produktivitas tenaga kerja, penempatan tenaga kerja, pengembangan dan perluasan kesempatan kerja, informasi pasar kerja, pengawasan Ketenagakerjaan, kesehatan dan keselamatan kerja, hubungan industrial, jaminan sosial tenaga kerja, dan data lain sesuai kebutuhan. Interoperabilitas Data adalah kemampuan data untuk dibagipakaikan antarsistem elektronik yang saling berinteraksi. 3.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kementerian Ketenagakerjaan adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kepala Badan adalah pimpinan tinggi madya yang membidangi perencanaan ketenagakerjaan nasional, pengelolaan Data Ketenagakerjaan, dan pengembangan kebijakan di bidang ketenagakerjaan. informasi teknologi dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Dinas Provinsi adalah perangkat daerah yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Dinas Kabupaten/Kota adalah perangkat daerah yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan kabupaten/kota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sistem informasi ketenagakerjaan merupakan suatu ekosistem digital yang menjadi platform bagi segala bidang jenis ketenagakerjaan baik di pusat maupun daerah. aktivitas layanan publik dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem informasi ketenagakerjaan sebagaimana dimaksud pada ayat (1) diberi nama SIAPkerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "SIAPkerja menjadi salah satu instrumen dalam pemutakhiran satu Data Ketenagakerjaan sebagai bagian dari satu data Indonesia. dikelola sesuai dengan ketentuan pada ayat peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Satu Data Ketenagakerjaan sebagaimana dimaksud",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "LAYANAN SISTEM INFORMASI DAN APLIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "a. pelatihan vokasi dan produktivitas; b. penempatan tenaga kerja dan perluasan kesempatan kerja; c. hubungan industrial dan jaminan sosial tenaga kerja; d. pengawasan ketenagakerjaan dan keselamatan e. dan kesehatan kerja; dan ketenagakerjaan umum. pelatihan",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Layanan dan produktivitas vokasi sebagaimana dimaksud pada ayat (1) huruf a minimal meliputi: a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kelembagaan pelatihan vokasi; c. pelatihan standardisasi kompetensi dan program pelatihan; vokasi dan penyelenggaraan pemagangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "peningkatan produktivitas; e. f. instruktur dan tenaga pelatihan; dan sertifikasi profesi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Layanan penempatan tenaga kerja dan perluasan kesempatan kerja sebagaimana dimaksud pada ayat (1) huruf b minimal meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penggunaan tenaga kerja asing;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perluasan kesempatan kerja; c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengantar kerja dan petugas antarkerja. penempatan tenaga kerja dalam negeri; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Layanan hubungan industrial dan jaminan sosial tenaga kerja sebagaimana dimaksud pada ayat (1) huruf c minimal meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "hubungan kerja dan pengupahan; b. jaminan sosial tenaga kerja; c. kelembagaan dan hubungan industrial; pencegahan perselisihan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyelesaian perselisihan hubungan industrial; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mediator hubungan industrial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Layanan pengawasan ketenagakerjaan sistem pengawasan ketenagakerjaan; dan keselamatan dan kesehatan kerja sebagaimana dimaksud pada ayat (1) huruf d minimal meliputi: a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kelembagaan keselamatan dan kesehatan kerja; c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengujian keselamatan dan kesehatan kerja; dan e. ketenagakerjaan pemeriksaan norma ketenagakerjaan; penguji dan pengawas keselamatan dan kesehatan kerja. umum ketenagakerjaan sebagaimana",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Layanan dimaksud pada ayat (1) huruf e minimal meliputi: a. satu Data Ketenagakerjaan; b. jaringan dokumentasi dan informasi hukum; c. pengaduan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-6/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "berita; dan e. layanan bantuan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Layanan SIAPkerja sebagaimana dimaksud pada ayat sesuai dengan kebutuhan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "dapat berubah ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENGEMBANGAN SISTEM INFORMASI DAN APLIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "a. b. sistem; dan operasional.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengembangan sistem sebagaimana dimaksud pada ayat (1) huruf a minimal meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "basis Data Ketenagakerjaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "manajemen informasi ketenagakerjaan; c. d. layanan pelatihan dan pengembangan kompetensi; sistem terintegrasi sistem kementerian/lembaga dan pemerintah daerah; keamanan dan privasi data; aksesibilitas dan desain antarmuka; dan layanan bantuan. dengan e. f. g. yang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengembangan operasional sebagaimana dimaksud pada ayat (1) huruf b minimal meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penguatan lembaga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peningkatan kompetensi sumber daya manusia; c. infrastruktur;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-5/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "aplikasi; e. f. pengolahan dan pemanfaatan data; dan peningkatan manajemen.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENGGUNA SISTEM INFORMASI DAN APLIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "pemberi kerja; Pengguna SIAPkerja terdiri atas: a. pencari kerja; b. pekerja; c. d. pelaksana penempatan; e. lembaga pendidikan; f. lembaga pelatihan kerja; g. lembaga sertifikasi profesi; h. kementerian/lembaga; i. j. k. pengguna lainnya. pemerintah daerah provinsi; pemerintah daerah kabupaten/kota; dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengguna sebagaimana dimaksud dalam Pasal 6 dalam mengakses layanan SIAPkerja harus memiliki akun SIAPkerja berupa nama pengguna dan kata sandi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk mendapatkan akun SIAPkerja sebagaimana dimaksud pada ayat (1), pengguna SIAPkerja harus melakukan registrasi dengan mengisi nomor induk kependudukan dan data diri pada SIAPkerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian/lembaga, Dinas Provinsi, telah memiliki sistem Dinas Kabupaten/Kota atau pemangku kepentingan lainnya layanan yang ketenagakerjaan harus melakukan integrasi dengan SIAPkerja bentuk dilaksanakan Interoperabilitas Data. (1) Integrasi sebagaimana dimaksud pada ayat dilakukan melalui kerja sama yang dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. informasi dalam yang (2)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Pemerintah daerah provinsi atau pemerintah daerah kabupaten/kota yang belum memiliki sistem informasi layanan ketenagakerjaan harus menggunakan SIAPkerja yang dikelola oleh Kementerian Ketenagakerjaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENGELOLA SISTEM INFORMASI DAN APLIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "SIAPkerja dikelola oleh Menteri melalui Kepala Badan. ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelola SIAPkerja sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelola SIAPkerja harus memastikan keandalan SIAPkerja atas: dilaksanakan minimal dengan cara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "ketersediaan; menguji kelaikan sistem;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keamanan; c. d. pemeliharaan; dan integrasi. menjaga kerahasiaan data;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menentukan kebijakan hak akses data; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan audit secara periodik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keandalan SIAPkerja sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "SIAPkerja Data Pengelola Ketenagakerjaan yang sesuai dengan standar data, metadata, kaidah Interoperabilitas Data, dan kode referensi sesuai dengan ketentuan peraturan perundang-undangan. harus menyediakan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KEAMANAN SISTEM INFORMASI DAN APLIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "a. infrastruktur; b. aplikasi; dan c. data dan informasi, yang dilaksanakan perundang-undangan. sesuai dengan ketentuan",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keamanan sebagaimana dimaksud pada ayat (1) diselenggarakan oleh Kementerian Ketenagakerjaan melalui kedaulatan data yang dihasilkan oleh SIAPkerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kedaulatan data sebagaimana dimaksud pada ayat (2) merupakan hak untuk mengatur, mengendalikan, mengumpulkan, menyimpan, dan memroses data sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pihak yang mengambil, mengakses, dan/atau menggunakan data tanpa izin Kementerian Ketenagakerjaan dikenakan sanksi sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "MONITORING DAN EVALUASI SERTA PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri melalui Kepala Badan melakukan monitoring dan evaluasi terhadap penyelenggaraan SIAPkerja. dapat digunakan sebagai bahan pada ayat pertimbangan untuk pengembangan SIAPkerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan secara periodik setiap 6 (enam) bulan sekali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil monitoring dan evaluasi sebagaimana dimaksud",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Badan menyampaikan laporan penyelenggaraan SIAPkerja kepada Menteri berdasarkan hasil monitoring dan evaluasi sebagaimana dimaksud dalam Pasal 15.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan sebagaimana dimaksud pada ayat (1) dilakukan setiap 1 (satu) tahun sekali atau sewaktu- waktu apabila diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PEMBINAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri melalui Kepala Badan melakukan pembinaan kepada pengguna SIAPkerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-17-tahun-2024/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan sebagaimana dimaksud pada ayat (1) dapat dilakukan minimal melalui sosialisasi, konsultasi, dan/atau kegiatan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-17-tahun-2024/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Transmigrasi Nomor dan Menteri PER.19/MEN/IX/2009 dan tentang Pengembangan Sistem Informasi Ketenagakerjaan (Berita Negara Republik Indonesia Tahun 2009 Nomor 303), dicabut dan dinyatakan tidak berlaku. Pembangunan Peraturan Menteri diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-17-tahun-2024/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "ini mulai berlaku pada tanggal setiap Agar pengundangan penempatannya dalam Berita Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Menteri Peraturan ini PENANGGUNG JAWAB PARAF TANGGAL Pembuat Konsep (Kapusdatik) Pengendali Aspek Hukum (Kepala Biro Hukum) Pengendali Aspek Teknis (Kepala Barenbang) Pengendali Administrasi (Sekretaris Jenderal) Ditetapkan di Jakarta pada tanggal 30 Desember 2024 MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA, Œ YASSIERLI Diundangkan di Jakarta pada tanggal Д DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM REPUBLIK INDONESIA, Ѽ DHAHANA PUTRA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR Ж",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

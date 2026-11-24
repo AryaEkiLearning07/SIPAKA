@@ -1,0 +1,53 @@
+{
+ "slug": "perpu-no-4-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih mengintensifkan dan melancarkan jalannya pemerintahan, serta persiapan-persiapan yang telah jauh, sebagian dari wilayah Daerah Tingkat II Tapanuli Utara perlu dipisahkan untuk dijadikan Daerah Tingkat II yang baru yaitu Daerah Tingkat II Dairi yang berhak mengatur dan mengurus rumah tangganya sendiri,",
+   "bahwa karena keadaan mendesak hal tersebut perlu diatur dengan Peraturan Pemerintah Pengganti Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpu-no-4-tahun-1964",
+   "detailsId": "53761",
+   "judul": "PERPU No. 4 Tahun 1964 tentang Pembentukan Daerah Tingkat II Dairi Dengan Mengubah Undang-Undang No. 7 DRT. 1956 Tentang Pembentukan Daerah Otonom Kabupaten Di Propinsi Sumatera Utara &#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/43158/PERPRU%20No.%20004%20Tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T07:37:26.050976+00:00"
+  },
+  "sha256": "a5523d99f6ed5253ad31cf6b16fa8250f20fc9e583cb9bf4dd279bce918cd09c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpu-no-4-tahun-1964/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "SEKRETARIS NEGARA,",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

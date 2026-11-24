@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-38-tahun-2003",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-2003",
+   "detailsId": "52254",
+   "judul": "PP No. 38 Tahun 2003 tentang Perubahan Atas Peraturan Pemerintah Nomor 146 Tahun 2000 Tentang Impor Dan Atau Penyerahan Barang Kena Pajak Tertentu Dan Atau Penyerahan Jasa Kena Pajak Tertentu Yang Dibebaskan Dari Pengenaan Pajak Pertambahan Nilai - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/41577/PP%20No.38%20TH%202003.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:41:19.062324+00:00"
+  },
+  "sha256": "6dc8e2a5bb521e9ae9293e404c742adc44b31fda3f9c1bd9a8861942cb948514",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-6-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perjanjian sebagaimana dimaksud pada huruf a diatas perlu disahkan dengan undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-6-tahun-1976",
+   "detailsId": "47210",
+   "judul": "UU No. 6 Tahun 1976 tentang Pengesahan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36142/UU%20Nomor%206%20Tahun%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:52:21.070644+00:00"
+  },
+  "sha256": "4177e9ccd14af9caa65aa00d12fecb6b826396e6a69cdfdd073e3e38c90338fb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-6-tahun-1976/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Perjanjian Persahabatan dan Kerjasama di Asia Tenggara (Treaty of Amity and Cooperation In Southeast Asia) yang salinan naskahnya dilampirkan pada undang-undang ini. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1976/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 21 Juni 1976. PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 21 Juni 1976. MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

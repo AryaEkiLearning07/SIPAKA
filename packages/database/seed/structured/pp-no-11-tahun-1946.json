@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-11-tahun-1946",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-11-tahun-1946",
+   "detailsId": "62774",
+   "judul": "PP No. 11 Tahun 1946 tentang Peraturan Tentang Mencabut Peraturan No.6 Tahun 1946 Tentang Mahkamah Tentara Agung Luar Biasa - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/52983/PP%20No.%2011%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-11-tahun-1946",
+    "pp-no-11-tahun-1946",
+    "pp-no-6-tahun-1946"
+   ],
+   "scrapedAt": "2026-10-06T06:07:45.245739+00:00"
+  },
+  "sha256": "1a2c6faed53fd4c7b5b0182f01994d017007d832ddf26c9a285dc5655baf2f53",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

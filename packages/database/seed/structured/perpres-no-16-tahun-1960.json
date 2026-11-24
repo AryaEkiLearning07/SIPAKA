@@ -1,0 +1,91 @@
+{
+ "slug": "perpres-no-16-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu mengadakan ketentuan tentang pembiayaan Dewan Angkutan Laut yang dibentuk dengan Peraturan Presiden No. 14 tahun 1959 dan memberikan wewenang kepada Menteri Perhubungan Laut untuk sewaktu-waktu menyesuaikan Peraturan Presiden tersebut dengan ketentuan-ketentuan baru yang ditetapkan Pemerintah."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-16-tahun-1960",
+   "detailsId": "69360",
+   "judul": "PERPRES No. 16 Tahun 1960 tentang Perubahan dan Tambahan Peraturan Presiden Peraturan Presiden Nomor 14 Tahun 1959 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59796/Perpres%20No.16%20Tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:52.201064+00:00"
+  },
+  "sha256": "10a34ada37fc379219076123c40bbe8403714555be3c4d188452bb441e8df2b5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-16-tahun-1960/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Antara Bab V pasal 8 dan Bab VI pasal 9 Peraturan Presiden No. 14 tahun 1959 (Lembaran-Negara 1959 No. 152) tentang Dewan Angkutan Laut disisipkan sebuah Bab dan sebuah pasal baru yang berbunyi sebagai berikut:",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-16-tahun-1960/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "BIAYA - BIAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-16-tahun-1960/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Biaya-biaya, seperti uang sidang, biaya tata-usaha dan pengeluaran- pengeluaran lain dibebankan pada Anggaran Departemen Perhubungan Laut\" Pasal II Kata-kata \"Bab VI\", \"pasal 9\" dan \"pasal 10\" pada Peraturan Presiden No. 14 tahun 1959 (Lembaran-Negara No. 1959 No. 152) tentang Dewan Angkutan Laut diubah masing-masing menjadi \"Bab VII\" \"pasal 10 \" dan \"pasal 11\", dengan ketentuan bahwa Bab VII dan pasal 10 baru berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-16-tahun-1960/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN - KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-16-tahun-1960/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Hal-hal yang belum diatur dalam Peraturan Presiden ini dan penyesuaian peraturan ini pada ketentuan-ketentuan baru yang ditetapkan Pemerintah diatur dan dilakukan oleh Menteri Perhubungan Laut dengan jika perlu mendengar saran-saran instansi-instansi yang diwakili dalam D.A.L. Pusat\". Pasal III Peraturan Presiden ini mulai berlaku pada hari diundangkan dan mempunyai daya surut sampai pada tanggal 31 Desember 1959. Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Peraturan Presiden ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Agustus 1960 Ttd. SOEKARNO Diundangkan di Jakarta pada tanggal 1 Agustus 1960 Menteri Kehakiman, Ttd. SAHARDJO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1960 NOMOR 83",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..10): [2, 3, 4, 5, 6, 7, 8]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Jelajahi Diskusi (Forum Diskusi Kasus)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Pilihan_kategori_hukum" name="Pilihan kategori hukum" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Daftar_diskusi" name="Daftar diskusi" />
+  <bpmn:message id="Message_Pesan_belum_ada_diskusi" name="Pesan belum ada diskusi" />
+  <bpmn:dataStore id="d_thread-store" name="Thread Diskusi" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Jelajahi Diskusi" processRef="jelajahi_diskusi" />
+    <bpmn:participant id="user" name="Pengguna" />
+    <bpmn:messageFlow id="m-user-mulai" name="Pilihan kategori hukum" sourceRef="user" targetRef="mulai" messageRef="Message_Pilihan_kategori_hukum" />
+    <bpmn:messageFlow id="m-tolak-user" name="Akses ditolak" sourceRef="tolak" targetRef="user" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-daftar-user" name="Daftar diskusi" sourceRef="daftar" targetRef="user" messageRef="Message_Daftar_diskusi" />
+    <bpmn:messageFlow id="m-kosong-user" name="Pesan belum ada diskusi" sourceRef="kosong" targetRef="user" messageRef="Message_Pesan_belum_ada_diskusi" />
+  </bpmn:collaboration>
+  <bpmn:process id="jelajahi_diskusi" name="Jelajahi Diskusi (Forum Diskusi Kasus)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Pilihan kategori diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Pilihan_kategori_hukum" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="saring" name="Saring Berdasarkan Kategori Hukum">
+      <bpmn:ioSpecification id="saring-io">
+        <bpmn:dataInput id="saring-in-1" name="Thread Diskusi" />
+        <bpmn:inputSet id="saring-inputs">
+          <bpmn:dataInputRefs>saring-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="saring-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="saring-dia-1">
+        <bpmn:sourceRef>d_thread</bpmn:sourceRef>
+        <bpmn:targetRef>saring-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="ada" name="Ada diskusi?" default="f-ada-kosong" />
+    <bpmn:sendTask id="daftar" name="Tampilkan Daftar Diskusi" messageRef="Message_Daftar_diskusi">
+      <bpmn:ioSpecification id="daftar-io">
+        <bpmn:dataInput id="daftar-in-2" name="Thread Diskusi" />
+        <bpmn:inputSet id="daftar-inputs">
+          <bpmn:dataInputRefs>daftar-in-2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="daftar-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="daftar-dia-2">
+        <bpmn:sourceRef>d_thread</bpmn:sourceRef>
+        <bpmn:targetRef>daftar-in-2</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:sendTask>
+    <bpmn:endEvent id="selesai" name="Daftar diskusi terkirim" />
+    <bpmn:sendTask id="kosong" name="Tampilkan pesan belum ada diskusi" messageRef="Message_Pesan_belum_ada_diskusi" />
+    <bpmn:endEvent id="nihil" name="Tidak ada diskusi pada kategori ini" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-saring" name="ya" sourceRef="izin" targetRef="saring">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-saring-ada" sourceRef="saring" targetRef="ada" />
+    <bpmn:sequenceFlow id="f-ada-daftar" name="ya" sourceRef="ada" targetRef="daftar">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">jumlahDiskusi &gt; 0</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ada-kosong" name="tidak" sourceRef="ada" targetRef="kosong" />
+    <bpmn:sequenceFlow id="f-daftar-selesai" sourceRef="daftar" targetRef="selesai" />
+    <bpmn:sequenceFlow id="f-kosong-nihil" sourceRef="kosong" targetRef="nihil" />
+    <bpmn:dataStoreReference id="d_thread" name="Thread Diskusi" dataStoreRef="d_thread-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="870" height="370" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="user_di" bpmnElement="user" isHorizontal="true">
+        <dc:Bounds x="0" y="410" width="870" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="91" width="46" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="327" y="98" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="428" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="467" y="195" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="saring_di" bpmnElement="saring">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ada_di" bpmnElement="ada" isMarkerVisible="true">
+        <dc:Bounds x="546" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="498" y="98" width="68" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="daftar_di" bpmnElement="daftar">
+        <dc:Bounds x="646" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="796" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="774" y="93" width="80" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="kosong_di" bpmnElement="kosong">
+        <dc:Bounds x="646" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="nihil_di" bpmnElement="nihil">
+        <dc:Bounds x="796" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="766" y="223" width="96" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_thread_di" bpmnElement="d_thread">
+        <dc:Bounds x="421" y="290" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="339" y="310" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-user-mulai_di" bpmnElement="m-user-mulai">
+        <di:waypoint x="78" y="410" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="237" width="90" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-user_di" bpmnElement="m-tolak-user">
+        <di:waypoint x="462" y="208" />
+        <di:waypoint x="478" y="208" />
+        <di:waypoint x="478" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="483" y="394" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-daftar-user_di" bpmnElement="m-daftar-user">
+        <di:waypoint x="746" y="78" />
+        <di:waypoint x="766" y="78" />
+        <di:waypoint x="766" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="771" y="394" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-kosong-user_di" bpmnElement="m-kosong-user">
+        <di:waypoint x="696" y="240" />
+        <di:waypoint x="696" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="607" y="314" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="saring-dia-1_di" bpmnElement="saring-dia-1">
+        <di:waypoint x="446" y="290" />
+        <di:waypoint x="446" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="daftar-dia-2_di" bpmnElement="daftar-dia-2">
+        <di:waypoint x="471" y="290" />
+        <di:waypoint x="655" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-saring_di" bpmnElement="f-izin-saring">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="428" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-saring-ada_di" bpmnElement="f-saring-ada">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-daftar_di" bpmnElement="f-ada-daftar">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="604" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-kosong_di" bpmnElement="f-ada-kosong">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="200" />
+        <di:waypoint x="646" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="579" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-daftar-selesai_di" bpmnElement="f-daftar-selesai">
+        <di:waypoint x="746" y="70" />
+        <di:waypoint x="796" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-kosong-nihil_di" bpmnElement="f-kosong-nihil">
+        <di:waypoint x="746" y="200" />
+        <di:waypoint x="796" y="200" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

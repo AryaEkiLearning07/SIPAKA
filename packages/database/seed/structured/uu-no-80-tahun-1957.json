@@ -1,0 +1,68 @@
+{
+ "slug": "uu-no-80-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa Konpensi Organisasi Perburuhan Internasional No. 100 tentang pengupahan yang sama bagi buruh laki-laki dan wanita untuk pekerjaan yang sama nilainya, yang telah diterima oleh wakil-wakil dalam anggota-anggota Organisasi sidangnya Organisasi Perburuhan Internasional dalam sidangnya ketigapuluh empat di Jenewa (1951) dapat disetujui; Internasional Perburuhan"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-80-tahun-1957",
+   "detailsId": "52788",
+   "judul": "UU No. 80 Tahun 1957 tentang Persetujuan Konpensi Organisasi Perburuhan Internasional No. 100 Mengenai Pengupahan Yang Sama Bagi Buruh Laki-Laki dan Wanita Untuk Pekerjaan Yang Sama Nilainya&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42161/UU%20Nomor%2080%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:03:46.041282+00:00"
+  },
+  "sha256": "331b82e9c53804dbd3d3349f99826a1afeaec3e6d6f0a03ae9e17516e2d6db9e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-80-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Konpensi Organisasi Perburuhan Internasional No. 100 mengenai pengupahan yang sama bagi buruh laki-laki dan wanita untuk pekerjaan yang sama nilainya, yang telah diterima oleh wakil-wakil anggota- anggota Organisasi Perburuhan Internasional dalam sidangnya ketiga",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-80-tahun-1957/pasal-1/ayat-1951",
+     "type": "AYAT",
+     "orderIndex": 1951,
+     "label": "Ayat (1951)",
+     "content": "dan yang bunyinya sebagai dilampirkan pada puluh empat undang-undang ini, dengan ini disetujui.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-80-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar... - - supaya setiap orang dapat mengetahuinya, memerintahkan Agar pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta, pada tanggal 19 Desember 1957. PRESIDEN REPUBLIK INDONESIA, ttd SOEKARNO Diundangkan pada tanggal 31 Desember 1957. MENTERI KEHAKIMAN, ttd G.A. MAENGKOM MENTERI PERBURUHAN, ttd SAMJONO MENTERI LUAR NEGERI, ttd SUBANDRIO LEMBARAN NEGARA NOMOR 171 TAHUN 1957 MEMORI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

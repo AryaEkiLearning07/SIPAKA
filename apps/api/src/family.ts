@@ -67,7 +67,12 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
   const instrument = await prisma.legalInstrument.findUnique({
     where: { slug },
     include: {
-      provisions: { include: { revisions: true } },
+      provisions: {
+        include: {
+          revisions: true,
+          judicialRulings: true,
+        },
+      },
       modificationsReceived: {
         include: {
           amendingInstrument: true,
@@ -111,6 +116,19 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
       .sort((a, b) => a.orderIndex - b.orderIndex)
       .map(toNode)
       .filter((n): n is ProvisionNode => n !== null);
+
+    const judicialAnnotations = (p as any).judicialRulings?.map((jr: any) => ({
+      id: jr.id,
+      court: jr.court,
+      caseNumber: jr.caseNumber,
+      rulingDate: jr.rulingDate instanceof Date ? jr.rulingDate.toISOString() : String(jr.rulingDate),
+      effect: jr.effect,
+      affectedPhrase: jr.affectedPhrase,
+      ratioDecidendi: jr.ratioDecidendi,
+      rulingVerdict: jr.rulingVerdict,
+      sourceUrl: jr.sourceUrl,
+    })) || [];
+
     return {
       canonicalPath: p.canonicalPath,
       type: p.type,
@@ -121,6 +139,7 @@ async function loadFamilyFromDb(slug: string): Promise<Family> {
       explanation: rev.explanation ?? undefined,
       versionTag: rev.versionTag,
       isRepealed: false,
+      judicialAnnotations: judicialAnnotations.length > 0 ? judicialAnnotations : undefined,
       children,
     };
   };

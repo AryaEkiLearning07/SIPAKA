@@ -1,0 +1,67 @@
+{
+ "slug": "pp-no-62-tahun-1992",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-62-tahun-1992",
+   "detailsId": "57900",
+   "judul": "PP No. 62 Tahun 1992 tentang Sektor-Sektor Usaha Perusahaan Pasangan Pasangan Usaha Dari Perusahaan Modal Ventura Dalam Pelaksanaan Undang-Undang Nomor 7 Tahun 1983 Tentang Pajak Penghasilan Sebagaimana Telah Diubah Dengan Undang-Undang Nomor 7 Tahun 1991 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47369/PP%20NO%2062%20TH%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:44:54.383984+00:00"
+  },
+  "sha256": "eb86caed4e77443c29ce7af4839a8b1c83c5ce31590c33f21b53eea65776dd93",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-62-tahun-1992/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Sektor-sektor usaha perusahaan pasangan usaha dari perusahaan Modal Ventura sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf m Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah dengan Undang-undang Nomor 7 Tahun 1991 adalah: a. industri yang menghasilkan barang-barang untuk tujuan ekspor; b. industri yang menghasilkan komponen elektronika; c. industri pengolahan hasil pertanian, peternakan dan perikanan; d. usaha berskala kecil dan menengah, sesuai ketentuan Departemen Perindustrian; e. pembangunan rumah susun di daerah perkotaan; f. pertanian, perkebunan, perhutanan, perternakan dan perikanan; g. jasa angkuan darat antar kota, angkutan laut dan angkutan udara; h. jasa perdagangan penunjang ekspor.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-62-tahun-1992/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pengaturan lebih lanjut untuk pelaksanaan Peraturan Pemerintah ini ditetapkan oleh Menteri Keuangan dengan memperhatikan saran dari Menteri yang membidangi sektor usaha yang bersangkutan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-62-tahun-1992/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku untuk tahun pajak 1992. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 September 1992 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 19 September 1992 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

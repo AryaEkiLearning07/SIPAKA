@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-13-tahun-1974",
+ "preamble": {
+  "menimbang": [
+   "bahwa secara bertahap dianggap perlu untuk memperbaiki penghasilan dari para penerima pensiun/tunjangan yang bersifat pensiun, dalam batas-batas kemampuan keuangan Negara ;",
+   "bahwa berhubung dengan itu Peraturan Pemerintah Nomor 18 Tahun 1971 sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 14 Tahun 1972 juncto Peraturan Pemerintah Nomor 13 Tahun 1973 tentang pemberian uang bantuan pensiun kepada para penerima pensiun/tunjangan yang bersifat pensiun perlu ditinjau kembali."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1974",
+   "detailsId": "67859",
+   "judul": "PP No. 13 Tahun 1974 tentang Perubahan Dan Tambahan Atas Peraturan Pemerintah Nomor 13 Tahun 1973 Tentang Pemberian Uang Bantuan Pensiun Kepada Para Penerima Pensiun/Tunjangan Yang Bersifat Pensiun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58228/PP%20NO%2013%20TH%201974.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:19.162641+00:00"
+  },
+  "sha256": "18c763d85be40e234811c107e8d5cc569b7c29393b74c803f45e19e7dfec29af",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-13-tahun-1974/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Ayat (1) dan ayat (3) dari Pasal 1 Peraturan Pemerintah Nomor 18 Tahun 1971 jis Pasal 1 Peraturan Pemerintah Nomor 14 Tahun 1972 dan Pasal 1 Peraturan Pemerintah Nomor 13 Tahun 1973 diubah sehingga berbunyi sebagai berikut : \"Pasal 1",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-13-tahun-1974/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Diatas penghasilan yang berhak diterima oleh penerima pensiun/tunjangan yang bersifat pensiun menurut Peraturan Pensiun yang berlaku bagi masing-masing, kepadanya diberikan tiap bulan uang bantuan pensiun sebesar 135% (seratus tigapuluh lima perseratus) dari penghasilan itu\".",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-13-tahun-1974/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Jumlah penghasilan baru yakni setelah ditambah menurut ketentuan ayat (1) pasal ini, dibulatkan keatas menjadi limapuluhan dan ratusan rupiah\"",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-13-tahun-1974/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 April 1974. Agar … Agar setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 16 Maret 1974 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO JENDERAL-TNI. Diundangkan di Jakarta pada tanggal 16 Maret 1974 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 16",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

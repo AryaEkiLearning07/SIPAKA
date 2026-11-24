@@ -1,0 +1,198 @@
+{
+ "slug": "pp-no-29-tahun-1949",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-29-tahun-1949",
+   "detailsId": "64223",
+   "judul": "PP No. 29 Tahun 1949 tentang Penghasilan Anggota Badan Pekerja Komite Nasional Pusat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54434/PP%20No%2029%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-2-tahun-1949"
+   ],
+   "scrapedAt": "2026-10-06T06:07:13.442111+00:00"
+  },
+  "sha256": "273c01fb70fca02da60949a41609b63b1e96f4d68e86af3504bd2ed0eb3cc57f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 4,
+  "ayat_angka": 8,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-29-tahun-1949/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Kepada anggota Badan Pekerja Komite Nasional Pusat, selanjutnya disebut anggota dalam Peraturan ini, diberi penghasilan Rp. 700,- tiap bulannya, ditambah dengan tunjangan kemahalan menurut peraturan yang berlaku untuk pegawai negeri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-29-tahun-1949/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Penghasilan sebagai dimaksudkan dalam pasal 1 hanya diberikan kepada anggota yang memenuhi seluruh tugas kewajibannya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-29-tahun-1949/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Yang dimaksudkan dengan tugas kewajiban menurut pasal 2 ialah:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "menghadiri rapat pleno (terbuka maupun tertutup);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "menghadiri rapat panitia tetap;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "menghadiri rapat seksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dalam arti memenuhi seluruh tugas kewajiban menurut Peraturan ini termasuk juga:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "anggota yang tidak dapat menghadiri rapat resmi tersebut dalam ayat 1 pasal ini, karena sakit yang harus dibuktikan dengan surat keterangan tabib;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-3/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "anggota yang atas perintah tertulis dari Ketua Badan Pekerja sehingga ia berhalangan menghadiri rapat resmi termaksud di atas, yang telah ditentukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-29-tahun-1949/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-29-tahun-1949/pasal-4/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Terhadap anggota, yang tidak memenuhi tugas kewajiban tersebut dalam pasal 3, dijalankan aturan sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-4/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "anggota yang 1 sampai 5 kali tidak menghadiri rapat resmi maka penghasilannya dikurangi dengan Rp. 40,-untuk tiap kalinya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-4/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "anggota yang 6 sampai 10 kali tidak menghadiri rapat resmi maka penghasilannya dikurangi lagi dengan Rp. 50,- untuk tiap kalinya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-29-tahun-1949/pasal-4/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "anggota yang 11 kali atau lebih tidak menghadiri rapat resmi maka penghasilannya dikurangi lagi dengan Rp. 60,- untuk tiap kalinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-29-tahun-1949/pasal-4/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Anggota yang tidak hadir terus menerus dalam satu sidang, tidak menerima pembayaran sama sekali, jika kebetulan dalam bulan berikutnya tidak ada sidang, maka anggota itu juga tidak menerima pembayaran sama sekali. Peraturan ini mulai berlaku pada tanggal 1 Desember 1949.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-29-tahun-1949/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Diumumkan pada tanggal 19 Desember 1949 Sekretaris, ttd. A.G. PRINGGODIGDO Ditetapkan di Yogyakarta Pada tanggal 19 Desember 1949 PRESIDEN REPUBLIK INDONESIA, SOEKARNO Perdana Menteri, ttd. MOHAMMAD HATTA Menteri yang diserahi urusan Pegawai Negeri, ttd. KOESNAN",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

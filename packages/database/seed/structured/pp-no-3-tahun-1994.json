@@ -1,0 +1,374 @@
+{
+ "slug": "pp-no-3-tahun-1994",
+ "preamble": {
+  "menimbang": [
+   "bahwa Wajib Pajak yang menerima atau memperoleh penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan di luar kegiatan usaha pokoknya, wajib membayar Pajak Penghasilan atas penghasilan tersebut dalam tahun berjalan;",
+   "bahwa untuk meningkatkan kepatuhan Wajib Pajak memenuhi kewajiban tersebut, dipandang perlu mengatur pembayaran Pajak Penghasilan dalam tahun berjalan atas penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-3-tahun-1994",
+   "detailsId": "57176",
+   "judul": "PP No. 3 Tahun 1994 tentang Pembayaran Pajak Penghasilan Dalam Tahun Berjalan Atas Penghasilan Dari Pengalihan Hak Atas Tanah Atau Tanah Dan Bangunan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/46629/PP%20No.%203%20Th%201994.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:44:46.649852+00:00"
+  },
+  "sha256": "b07cf563650264314dd8e5926d2b939b85b6d3fc9b516463e765ca956a920f1d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 19,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penghasilan yang diperoleh atau diterima Wajib Pajak Perseorangan atau Badan dalam negeri dari pengalihan hak atas tanah atau tanah dan bangunan di luar kegiatan usaha pokoknya merupakan obyek Pajak Penghasilan sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d Undang-undang Nomor 7 Tahun 1983 sebagaimana telah diubah dengan Undang-undang Nomor 7 Tahun 1991.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengalihan hak sebagaimana dimaksud dalam ayat (1) adalah :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-1/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "penjualan, tukar menukar, atau cara lain yang disepakati dengan Wajib Pajak lainnya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-1/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "penjualan, tukar menukar atau cara lain yang disepakati secara sukarela dengan Pemerintah selain untuk pelaksanaan pembangunan untuk kepentingan umum;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-1/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "pelepasan atau pengarahan hak atas tanah atau tanah dan bangunan kepada Pemerintah untuk pelaksanaan pembangunan untuk kepentingan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Atas penghasilan yang diterima atau diperoleh Wajib Pajak Perseorangan dalam negeri dari : a. pengalihan... - -",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "pengalihan hak atas tanah atau tanah dan bangunan kepada Wajib Pajak lainnya, atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "pengalihan hak atas tanah atau tanah dan bangunan kepada Pemerintah selain untuk pelaksanaan pembangunan untuk kepentingan umum, atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-3-tahun-1994/pasal-2/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "pelepasan atau penyerahan hak atas tanah atau tanah dan bangunan kepada Pemerintah untuk pelaksanaan pembangunan untuk kepentingan umum yang tidak memerlukan persyaratan khusus, yang jumlah brutonya kurang dari Rp.60.000.000,-(enam puluh juta rupiah), Pajak Penghasilan yang terutang dalam tahun berjalan tidak wajib dibayar dengan cara sebagaimana dimaksud dalam Pasal 4 ayat (1) atau tidak wajib dipungut dengan cara sebagaimana dimaksud dalam Pasal 5 ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Atas penghasilan yang diterima atau diperoleh Wajib Pajak Perseorangan dalam negeri dari pelepasan atau penyerahan hak atas tanah atau tanah dan bangunan kepada Pemerintah dengan ganti rugi yang akan dipergunakan untuk kepentingan umum yang pembangunannya memerlukan persyaratan khusus dan dananya bersumber dari Anggaran Belanja Negara atau Anggaran Belanja Daerah, Pajak Penghasilan yang terutang dalam tahun berjalan tidak wajib dipungut dengan cara sebagaimana dimaksud dalam Pasal 5 ayat (1). Pasal 3… - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Besarnya Pajak Penghasilan yang wajib dibayar sendiri oleh Wajib Pajak dengan cara sebagaimana dimaksud dalam Pasal 4 ayat (1) dan Pajak Penghasilan yang wajib dipungut dengan cara sebagaimana dimaksud dalam Pasal 5 ayat (1) adalah sebesar 3 % (tiga perseratus) dari jumlah bruto nilai pengalihan hak atas tanah atau tanah dan bangunan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Nilai pengalihan hak sebagaimana dimaksud dalam ayat (1) adalah nilai yang tertinggi diantara nilai berdasarkan akte pengalihan hak dengan Nilai Jual Obyek Pajak (NJOP) tanah atau tanah dan bangunan yang bersangkutan sebagaimana dimaksud dalam Undang-undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan, dan dalam hal pengalihan hak kepada Pemerintah adalah nilai berdasarkan Keputusan Pejabat atau Panitia yang berwenang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Nilai Jual Obyek Pajak sebagaimana dimaksud dalam ayat (2) adalah Nilai Jual Obyek Pajak menurut Surat Pemberitahuan Pajak Terutang (SPPT) Pajak Bumi dan Bangunan tahun yang bersangkutan, atau dalam hal Surat Pemberitahuan Pajak Terutang dimaksud belum diterima, adalah Nilai Jual Obyek Pajak menurut Surat Pemberitahuan Pajak Terutang tahun pajak sebelumnya yang telah diterbit kan oleh Kepala Kantor Pelayanan Pajak Bumi dan Bangunan yang wilayah wewenangnya meliputi tanah atau tanah dan bangunan yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-3/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Apabila... - - Apabila tanah atau tanah dan bangunan tersebut belum terdaftar pada Kantor Pelayanan Pajak Bumi dan Bangunan, maka Nilai Jual Obyek Pajak yang dipakai adalah Nilai Jual Obyek Pajak menurut surat keterangan yang diterbitkan Kepala Kantor Pelayanan Pajak Bumi dan Bangunan yang wilayah wewenangnya meliputi tanah atau tanah dan bangunan yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-4/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kecuali bagi Wajib Pajak sebagaimana diatur dalam Pasal 5, Wajib Pajak yang menerima atau memperoleh penghasilan dari pengalihan hak sebagaimana dimaksud dalam Pasal 1, wajib membayar sendiri Pajak Penghasilan (PPh) yang terutang ke Bank Persepsi atau Kantor Pos dan Giro sebelum akte jual beli ditandatangani oleh Pejabat Pembuat Akte Tanah (PPAT).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-4/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pejabat Pembuat Akte Tanah hanya menandatangani akte pengalihan hak atas tanah atau tanah dan bangunan apabila kepadanya dibuktikan oleh Wajib Pajak bahwa kewajiban sebagaimana dimaksud dalam ayat (1) telah dipenuhi dengan menyerahkan fotokopi Surat Setoran Pajak (SSP) yang bersangkutan dengan menunjukkan aslinya. kepada Direktur Jenderal Pajak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-4/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pejabat Pembuat Akte Tanah wajib menyampaikan laporan bulanan mengenai penerbitan akta-akta pengalihan hak atas tanah atau tanah dan bangunan sebagaimana dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-4/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Dalam laporan bulanan sebagaimana dimaksud dalam ayat (3) mencakup pula pemenuhan kewajiban sebagaimana dimaksud dalam ayat (2). Pasal 5… - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-5/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Wajib Pajak yang menerima atau memperoleh penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan sebagaimana dimaksud dalam Pasal 1 yang pembayarannya bersumber dari Anggaran Belanja Negara atau Anggaran Belanja Daerah, dipungut Pajak Penghasilan oleh Bendaharawan atau pejabat yang berwenang melakukan pembayaran dengan memperhatikan ketentuan sebagaimana dimaksud dalam Pasal 2.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-5/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pejabat sebagaimana dimaksud dalam ayat (1), wajib menyetor Pajak Penghasilan yang telah dipungut ke Bank Persepsi atau Kantor Pos dan Giro sebelum pelaksanaan pembayaran kepada Wajib Pajak yang berhak menerimanya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-5/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penyetoran pajak sebagaimana dimaksud dalam ayat (2) dilakukan dengan menggunakan Surat Setoran Pajak atas nama Wajib Pajak yang menerima pembayaran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-5/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Pejabat sebagaimana dimaksud dalam ayat (1) wajib menyampaikan laporan kepada Direktur Jenderal Pajak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Badan Pertanahan Nasional hanya mengeluarkan sertifikat hak atas tanah, apabila permohonan sertifikat dilengkapi dengan bukti pembayaran Pajak Penghasilan atas penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan sebagaimana dimaksud dalam Pasal 4 ayat (2) dan Pasal 5 ayat (2). Pasal 7… - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-7/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pembayaran Pajak Penghasilan sebagaimana dimaksud dalam Pasal 3 ayat (1) digolongkan sebagai pembayaran Pajak Penghasilan Pasal 25 yang dapat diperhitungkan dengan Pajak Penghasilan yang terutang untuk tahun pajak yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-7/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan sebagaimana dimaksud dalam Pasal 1 dihitung sesuai dengan ketentuan dalam Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah dengan Undang-undang Nomor Tahun dan peraturan pelaksanaannya, yaitu digabungkan dengan penghasilan lainnya dan dilaporkan dalam Surat Pemberitahuan (SPT) Tahunan Pajak Penghasilan untuk tahun pajak yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Pejabat Pembuat Akte Tanah yang tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 4 ayat (2) dan atau ayat (3) dan atau ayat (4) dikenakan sanksi oleh Pejabat yang berwenang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Pasal 9… - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "Tata Cara penyampaian laporan sebagaimana dimaksud dalam Pasal 4 ayat (3), ayat (4) dan Pasal 5 ayat (4) serta tata cara pembayaran dan penyetoran Pajak Penghasilan sebagaimana dimaksud dalam Pasal 4 ayat",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1994/pasal-9/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "dan Pasal 5 ayat (2) diatur lebih lanjut oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "Dengan berlakunya Peraturan Pemerintah ini maka ketentuan dalam Pasal 20 Peraturan Pemerintah Nomor 42 Tahun 1985 tidak diterapkan sepanjang mengenai pembayaran Pajak Penghasilan dalam tahun berjalan atas penghasilan dari pengalihan hak atas tanah atau tanah dan bangunan sebagaimana dimaksud dalam Peraturan Pemerintah ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1994/pasal-11",
+   "type": "PASAL",
+   "orderIndex": 11,
+   "label": "Pasal 11",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar… - - Agar setiap orang mengetahuinya, memerintah pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 2 Maret 1994 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 2 Maret 1994 MENTERI NEGARA SEKRETARIS NEGARA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 7",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

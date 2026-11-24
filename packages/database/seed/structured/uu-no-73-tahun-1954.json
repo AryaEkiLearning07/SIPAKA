@@ -1,0 +1,58 @@
+{
+ "slug": "uu-no-73-tahun-1954",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-73-tahun-1954",
+   "detailsId": "50976",
+   "judul": "UU No. 73 Tahun 1954 tentang Penetapan Bagian I.B.W. XVIII (Perusahaan Reproduksi Jawatan Topograpi) dari Anggaran Republik Indonesia Untuk Tahun-Tahun Dinas 1952 dan 1953 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40225/UU%20Nomor%2073%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:05:30.532034+00:00"
+  },
+  "sha256": "b16a3e23f78da412be34b73d44d142333b57e4af2fd7d39ad431b2264e7a059e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-73-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Bagian IBW. XVII (Perusahaan Reproduksi Jawatan Topograpi) dari anggaran Republik Indonesia untuk tahun-tahun dinas 1952 dan 1953 ditetapkan seperti yang dinyatakan pada lampiran-lampiran undang- undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-73-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan berlaku surut sampai pada tanggal 1 Januari 1952. Agar… - - Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 29 Nopember 1954. PRESIDEN REPUBLIK INDONESIA, ttd SOEKARNO. MENTERI PERTAHANAN, ttd IWA KUSUMA SUMANTRI. Diundangkan pada tanggal 31 Desember 1954. MENTERI KEHAKIMAN, ttd DJODY GONDOKUSUMO. LEMBARAN NEGARA NOMOR 144 TAHUN 1954",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

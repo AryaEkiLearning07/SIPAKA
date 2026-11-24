@@ -1,0 +1,432 @@
+{
+ "slug": "pergub-prov-papua-no-118-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a perlu menetapkan Peraturan Gubernur Papua tentang Analisis Standar Belanja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jayapura Pada tanggal 13 Desember 2024 Pj. Sekretaris Daerah Provinsi Papua CAP/TTD YOHANES WALILO, S.Sos., M.Si BERITA DAERAH PROVINSI PAPUA TAHUN 2024 NOMOR 118 Salinan sesuai dengan aslinya Plt. KEPALA BIRO HUKUM NELWAN SAGRIM,SH.,M.Hum NIP. 19741205 200212 1 007",
+ "source": {
+  "url": {
+   "slug": "pergub-prov-papua-no-118-tahun-2024",
+   "detailsId": "350423",
+   "judul": "Pergub Prov. Papua No. 118 Tahun 2024 tentang Analisis Standar Belanja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/414155/Pergub%20Nomor%20118%20Tahun%202024.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T11:55:41.216904+00:00"
+  },
+  "sha256": "cfc532acaef6ab919df3fc829719fbabb58e14a76e76e2d1cc6e22cc58ab3596",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 14,
+  "ayat_angka": 22,
+  "huruf": 2
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Gubernur ini, yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah adalah Provinsi Papua.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Gubernur adalah Gubernur Papua.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Satuan Kerja Perangkat Daerah, yang selanjutnya disingkat SKPD adalah Satuan Kerja Perangkat Daerah di Lingkungan Pemerintah Provinsi Papua;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Rencana Kerja dan Anggaran Satuan Kerja Perangkat Daerah, yang selanjutnya disingkat RKA SKPD adalah dokumen yang memuat rencana pendapatan dan belanja SKPD atau dokumen yang memuat rencana pendapatan, belanja, dan pembiayaan SKPD yang melaksanakan fungsi Bendahara Umum Daerah yang digunakan sebagai dasar penyusunan rancangan Anggaran Pendapatan dan Belanja Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Anggaran Pendapatan dan Belanja Daerah yang selanjutnya disingkat APBD adalah rencana keuangan tahunan Daerah yang ditetapkan dengan Peraturan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Analisis Standar Belanja yang selanjutnya disingkat ASB adalah instrumen yang digunakan untuk menganalisis kewajaran beban kerja dan total belanja sub kegiatan/aktivitas yang akan dilaksanakan oleh SKPD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Analisis Standar Belanja Non Fisik yang selanjutnya disingkat ASB Non Fisik adalah instrumen yang digunakan untuk menganalisis kewajaran beban kerja dan total belanja sub kegiatan/aktivitas yang bentuk output kegiatannya tidak berwujud (intangible) yang akan dilaksanakan oleh SKPD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Analisis……./4 Analisis Standar Belanja Fisik yang selanjutnya disingkat ASB Fisik adalah instrumen yang digunakan untuk menganalisis kewajaran beban kerja dan total belanja sub kegiatan/aktivitas yang bentuk output kegiatannya berwujud (intangible) yang akan dilaksanakan oleh SKPD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kalkulator ASB adalah alat bantu yang digunakan untuk menghitung besaran pagu/plafon anggaran dan alokasi objek belanja untuk suatu aktivitas berdasarkan beban kerjanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Tim Anggaran Pemerintah Daerah, yang selanjutnya disingkat TAPD adalah tim yang bertugas menyiapkan dan melaksanakan kebijakan kepala daerah dalam rangka penyusunan Anggaran Pendapatan dan Belanja Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "MAKSUD DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyusunan ASB dimaksudkan untuk mewujudkan perencanaan dan penyusunan anggaran belanja daerah yang efektif, efisien, transparan, adil, wajar dan dapat dipertanggungjawabkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penerapan ASB bertujuan untuk: a. menentukan kewajaran belanja suatu subkegiatan/aktivitas sesuai dengan tugas dan fungsinya; b. memberikan pedoman dalam perencanaan dan penyusunan anggaran berdasarkan pada tolok ukur kinerja yang jelas; dan c. meningkatkan efisiensi dan efektivitas dalam pengelolaan keuangan daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TIPE ASB",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "ASB sebagaimana dimaksud pada Pasal 3 terdiri dari ASB Fisik dan ASB Non Fisik. Bagian Kesatu Komponen ASB Non Fisik",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Komponen ASB meliputi: a. Deskripsi; b. Pengendali Belanja; c. Satuan Pengendali Belanja Tetap; d. Satuan Pengendali Belanja Variabel; e. Rumus Penghitungan Belanja Total; f. Batasan Alokasi Objek Belanja; dan g. Keterangan. Pasal……/5",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Deskripsi sebagaimana dimaksud dalam Pasal 5 huruf a merupakan penjelasan detail operasional peruntukan dari ASB.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pengendali Belanja sebagaimana dimaksud dalam Pasal 5 huruf b merupakan faktor-faktor dari subkegiatan/aktivitas. yang mempengaruhi kecilnya belanja besar",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Satuan Pengendali Belanja Tetap sebagaimana dimaksud dalam Pasal 5 huruf c merupakan belanja yang nilainya tetap walaupun target kinerja subkegiatan/aktivitas berubah-ubah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Belanja tetap sebagaimana dimaksud pada ayat (1) tidak dipengaruhi oleh adanya perubahan volume/target kinerja subkegiatan/aktivitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besarnya nilai belanja tetap sebagaimana dimaksud pada ayat (1) merupakan batas maksimal untuk setiap subkegiatan/aktivitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Satuan Pengendali Belanja Variabel sebagaimana dimaksud dalam Pasal 5 huruf d merupakan besarnya perubahan belanja untuk masing-masing subkegiatan/aktivitas yang dipengaruhi oleh perubahan/penambahan volume subkegiatan/aktivitas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Rumus Penghitungan Belanja Total sebagaimana dimaksud dalam Pasal 5 huruf e merupakan rumus dalam menghitung besarnya belanja total dari subkegiatan/aktivitas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Batasan Alokasi Objek Belanja sebagaimana dimaksud dalam Pasal 5 huruf f merupakan proporsi objek belanja dari subkegiatan/aktivitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Proporsi sebagaimana dimaksud pada ayat (1) terbagi dalam 2 jenis, yaitu:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rata-rata; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "batas atas Pasal ……../6",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keterangan sebagaimana dimaksud dalam Pasal 5 huruf g berisi objek belanja tambahan yang dapat ditambahkan berdasarkan kebutuhan rill masing-masing SKPD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besaran objek belanja tambahan sebagaimana dimaksud pada ayat (1) sebagai penambah hasil perhitungan pagu subkegiatan/aktivitas pada kalkulator ASB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Objek belanja tambahan sebagaimana dimaksud pada ayat (1) dapat ditambahkan dengan melalui persetujuan TAPD. Bagian Kedua Komponen ASB Fisik",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Komponen ASB Fisik berisi estimasi belanja paling tinggi untuk menghasilkan pekerjaan per satuan belanja fisik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "JENIS ASB",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap aktivitas yang diselenggarakan oleh SKPD mengacu pada ASB Non Fisik dan/atau ASB Fisik. ASB 006 ASB 002 ASB 005 ASB 001 ASB 003 ASB 004",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jenis ASB Non Fisik sebagaimana dimaksud pada ayat (1) meliputi: Pelatihan Masyarakat Di Dalam Kantor Dengan Narasumber Internal – Di Ibukota Provinsi Papua Pelatihan Masyarakat Di Luar Kantor – Di Ibukota Provinsi Papua Pelatihan Masyarakat Di Kabupaten/Kota Pelatihan Pegawai Di Dalam Kantor Dengan Narasumber Internal – Di Ibukota Provinsi Papua Pelatihan Pegawai Di Luar Kantor Dengan Narasumber Internal Pelatihan Pegawai Di Luar Kantor Dengan Narasumber Eksternal Pelatihan Pegawai Disertai Fasillitas Menginap Kepada Peserta Dengan Narasumber Internal Pelatihan Pegawai Disertai Fasillitas Menginap Kepada Peserta Dengan Narasumber Eksternal Pelatihan Dengan Pengembangan Kompetensi Teknis Umum, Inti, Dan Pilihan Bagi Pejabat Sosialisasi Tatap Muka Secara Langsung Ke Pegawai Dalam Kantor – Dalam Ibu Kota Provinsi Sosialisasi Tatap Muka Secara Langsung Ke Pegawai Luar Kantor (Bukan Hotel) – Dalam Ibu Kota Provinsi Sosialisasi Tatap Muka Secara Langsung Ke Masyarakat Dalam Kantor – Dalam Ibu Kota Provinsi Sosialisasi Tatap Muka Secara Langsung Ke Masyarakat Luar Kantor (Bukan Hotel) – Di Kabupaten/Kota ASB 010 ASB 007 ASB 008 ASB 009 ASB 011 ASB 012 ASB 013 14 ASB ………../7 ASB 014 ASB 015 ASB 016 ASB 017 ASB 018 ASB 019 ASB 020 ASB 021 ASB 022 ASB 023 ASB 024 ASB 025 ASB 026 ASB 027 ASB 028 ASB 029 ASB 030 ASB 031 ASB 032 ASB 033 ASB 034 ASB 035 ASB 036 ASB 037 ASB 038 ASB 039 ASB 040 ASB 041 ASB 042 Sosialisasi Tatap Muka Secara Langsung Ke Masyarakat Luar Kantor – Hotel – Di Kabupaten/Kota Penyusunan Dokumen Perencanaan Perangkat Daerah Evaluasi Kinerja Perangkat Daerah Koordinasi dan Penyusunan Dokumen RKA- SKPD Koordinasi dan Penyusunan Dokumen Perubahan RKA- SKPD Koordinasi dan Penyusunan DPA-SKPD Koordinasi dan Penyusunan Perubahan DPA- SKPD Koordinasi dan Penyusunan Laporan Capaian Kinerja dan Ikhtisar Realisasi Kinerja SKPD Koordinasi dan Penyusunan Laporan Keuangan Bulanan/ Triwulanan/Semesteran SKPD Koordinasi dan Penyusunan Laporan Keuangan Akhir Tahun SKPD Administrasi Pembangunan Jalan – Zona 1 Administrasi Pembangunan Jalan – Zona 2 Administrasi Pembangunan Jalan – Zona 3 Administrasi Pemeliharaan Jalan – Zona 1 Administrasi Pemeliharaan Jalan – Zona 2 Administrasi Peningkatan Jalan – Zona 1 Administrasi Peningkatan Jalan – Zona 2 Administrasi Peningkatan Jalan – Zona 3 Administrasi Pembangunan Jembatan – Zona 1 Administrasi Pembangunan Drainase – Zona 1 Administrasi Pembangunan Talud – Zona 1 Administrasi Pembangunan Talud – Zona 2 Administrasi Pembangunan Gedung Kantor – Zona 1 Administrasi Pembangunan Jaringan Air Bersih/SPAM – Zona 1 Administrasi Pembangunan Jaringan Air Bersih/SPAM – Zona 2 Administrasi Pembangunan Jaringan Air Bersih/SPAM – Zona 3 Administrasi Pengadaan Prasarana Penunjang Terminal Angkutan Darat – Zona 1 Administrasi Rehabilitasi Fasilitas Bandara – Zona 1 Administrasi Pembangunan Bandara – Zona 3",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jenis ASB Fisik sebagaimana dimaksud pada ayat (1) meliputi: 1 ASB Pembangunan Jalan dengan Konstruksi 2 Lapis Perkerasan (AC/WC; AC/BC) (>2 – 5 x 106 ESA5) 2 ASB Rekonstruksi Jalan dengan Konstruksi 2 Lapis Perkerasan (AC/WC; AC/BC) (>2 – 5 x 106 ESA5) 3 ASB Rehabilitasi Jalan dengan Konstruksi 2 Lapis Perkerasan (AC/WC; AC/BC) (>2 – 5 x 106 ESA5) 4 ASB Pembangunan Jalan dengan Konstruksi 2 Lapis Perkerasan (HRS/WC; HRS/Base) (>2 – 5 x 106 ESA5) 5 ASB Rekonstruksi Jalan dengan Konstruksi 2 Lapis Perkerasan (HRS/WC; HRS/Base) (>2 – 5 x 106 ESA5) 6 ASB Rehabilitasi Jalan dengan Konstruksi 2 Lapis Perkerasan (HRS/WC; HRS/Base) (>2 – 5 x 106 ESA5) 7 ASB Pembangunan Jalan Beton Dengan Tulangan 8 ASB ……./8 8 ASB Pembangunan Bangunan Pelengkap Jalan - Saluran Drainase Saluran berbentuk U Tipe DS 2a (dengan tutup) 60 cm x 80 cm 9 ASB Pembangunan Bangunan Pelengkap Jalan - Saluran Drainase Saluran berbentuk U Tipe DS 3a (dengan tutup) 80 cm x 100 cm 10 ASB Pembangunan Bangunan Pelengkap Jalan - Saluran Drainase Kotak Beton Bertulang, Ukuran Dalam 100 cm x 100 cm 11 ASB Pembangunan Bangunan Pelengkap Jalan - Saluran Drainase Pasangan Batu dengan Mortar 12 ASB Pembangunan Bangunan Pelengkap Jalan - Dinding Penahan Tanah Pasangan Batu Kali Tinggi ≤ 1 m 13 ASB Pembangunan Bangunan Pelengkap Jalan - Dinding Penahan Tanah Pasangan Batu Kali Tinggi ≤ 2 m 14 ASB Pembangunan Bangunan Pelengkap Jalan - Dinding Penahan Tanah Pasangan Batu Kali Tinggi ≤ 3 m 15 ASB Pembangunan Bangunan Rumah Negara Tipe A 16 ASB Rehabilitasi Berat Bangunan Rumah Negara Tipe A 17 ASB Rehabilitasi Sedang Bangunan Rumah Negara Tipe A 18 ASB Rehabilitasi Ringan Bangunan Rumah Negara Tipe A 19 ASB Pembangunan Bangunan Rumah Negara Tipe B 20 ASB Rehabilitasi Berat Bangunan Rumah Negara Tipe B 21 ASB Rehabilitasi Sedang Bangunan Rumah Negara Tipe B 22 ASB Rehabilitasi Ringan Bangunan Rumah Negara Tipe B 23 ASB Pembangunan Bangunan Rumah Negara Tipe C D E 24 ASB Rehabilitasi Berat Bangunan Rumah Negara Tipe C D E 25 ASB Rehabilitasi Sedang Bangunan Rumah Negara Tipe C D E 26 ASB Rehabilitasi Ringan Bangunan Rumah Negara Tipe C D E 27 ASB Pembangunan Bangunan Gedung Negara Sederhana - Bangunan Gedung Kantor 28 ASB Rehabilitasi Berat Gedung Negara Sederhana - Bangunan Gedung Kantor 29 ASB Rehabilitasi Sedang Gedung Negara Sederhana - Bangunan Gedung Kantor 30 ASB Rehabilitasi Ringan Gedung Negara Sederhana - Bangunan Gedung Kantor 31 ASB Pembangunan Bangunan Gedung Negara Sederhana - Bangunan Gedung Terminal 32 ASB Rehabilitasi Berat Gedung Negara Sederhana - Bangunan Gedung Terminal 33 ASB Rehabilitasi Sedang Gedung Negara Sederhana - Bangunan Gedung Terminal 34 ASB Rehabilitasi Ringan Gedung Negara Sederhana - Bangunan Gedung Terminal 35 ASB Pembangunan Sistem Penyediaan Air Minum (SPAM) Sambungan 100 Rumah",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pergub-prov-papua-no-118-tahun-2024/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "ASB ……../9 ASB Non Fisik sebagaimana dimaksud dalam ayat (2), tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

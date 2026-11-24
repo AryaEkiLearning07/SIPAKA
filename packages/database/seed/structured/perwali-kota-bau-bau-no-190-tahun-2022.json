@@ -1,0 +1,59 @@
+{
+ "slug": "perwali-kota-bau-bau-no-190-tahun-2022",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perwali-kota-bau-bau-no-190-tahun-2022",
+   "detailsId": "253796",
+   "judul": "PERWALI Kota Bau-Bau No. 190 Tahun 2022 tentang Pedoman Pelaksanaan Anggaran Pendapatan Dan Belanja Daerah Kota Baubau Tahun Anggaran 2023 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/310443/PERWALI%20NO%20190%20TAHUN%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:18:16.580185+00:00"
+  },
+  "sha256": "9ded628ad7cdd6108bd2bd29fb98e69b14823026aef17ce83bdfa52cf5853d56",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perwali-kota-bau-bau-no-190-tahun-2022/pasal-206",
+   "type": "PASAL",
+   "orderIndex": 206,
+   "label": "Pasal 206",
+   "content": "Peraturan W ali Kota ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya pengundangan Wall Kata ini dengan penempatannya dalam Berita Daerah Kota Baubau. dan memerintahkan Peraturan Diundangkan di Baubau pada tanggal,30 Desember 2022 SEKRETARIS DAERAH, Ditetapkan di Baubau pada tanggal~O Desember 2022 WALI KOTA BAUBAU, PARAF KOORDINAS1 PARAr l~JSTAHSU U~IT KERJA tm. . --~ ~ 1.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perwali-kota-bau-bau-no-190-tahun-2022/pasal-206/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "A-~9fW n 5. RAH KOTA BAUBAU TAHUN 2022 NOMOR t9.9",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..206): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

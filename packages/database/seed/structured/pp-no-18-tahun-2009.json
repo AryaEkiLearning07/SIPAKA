@@ -1,0 +1,87 @@
+{
+ "slug": "pp-no-18-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 4 ayat (3) huruf a angka 1 Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan Keempat atas Undang-Undang Nomor 7 Tahun 1983 perlu menetapkan Peraturan Pemerintah tentang Bantuan atau Sumbangan termasuk Zakat atau Sumbangan Keagamaan yang Sifatnya Wajib yang Dikecualikan dari Objek Pajak Penghasilan; Penghasilan, tentang Pajak"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-18-tahun-2009",
+   "detailsId": "4932",
+   "judul": "PP No. 18 Tahun 2009 tentang Bantuan Atau Sumbangan Termasuk Zakat Atau Sumbangan Keagamaan Yang Sifatnya Wajib Yang Dikecualikan Dari Objek Pajak Penghasilan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36244/PP_No_18_2009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:29:44.862472+00:00"
+  },
+  "sha256": "9685d42f44045df477bac9596db0901ecdd29f9b27c2ccba7d830a97dd1afef1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-18-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Bantuan atau sumbangan, termasuk zakat dan sumbangan keagamaan yang sifatnya wajib bagi pemeluk agama yang diakui di Indonesia, dikecualikan sebagai objek Pajak Penghasilan sepanjang tidak ada hubungan dengan usaha, pekerjaan, kepemilikan, atau penguasaan di antara pihak- pihak yang bersangkutan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-2009/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Zakat sebagaimana dimaksud dalam Pasal 1 adalah zakat yang diterima oleh: a. badan amil zakat atau lembaga amil zakat yang dibentuk atau disahkan oleh Pemerintah; dan b. penerima zakat yang berhak.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-2009/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Sumbangan keagamaan yang sifatnya wajib bagi pemeluk agama yang diakui di Indonesia sebagaimana dimaksud dalam Pasal 1 adalah sumbangan keagamaan yang diterima oleh: a. lembaga keagamaan yang dibentuk atau disahkan oleh Pemerintah; dan b. penerima sumbangan yang berhak.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-2009/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Bantuan atau sumbangan sebagaimana dimaksud dalam Pasal 1 adalah pemberian dalam bentuk uang atau barang kepada orang pribadi atau badan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-2009/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 2009. Agar ... orang mengetahuinya, memerintahkan Agar setiap pengundangan dengan penempatannya dalam Lembaran Negara Republik Indonesia. Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 9 Februari 2009 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 9 Februari 2009 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 35 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA REPUBLIK INDONESIA Kepala Biro Peraturan Perundang-undangan Bidang Perekonomian dan Industri, SETIO SAPTO NUGROHO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

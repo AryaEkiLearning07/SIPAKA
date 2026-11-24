@@ -1,0 +1,113 @@
+{
+ "slug": "perpres-no-24-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan Keputusan Presiden No. 21 tahun 1959 tentang penyempurnaan susunan Kabinet Kerja dan berhubung dengan Peraturan Pemerintah Pengganti Undang-undang No. 21 tahun 1960 tentang Bank Pembangunan Indonesia dianggap perlu meninjau/kembali susunan Dewan Ekonomi dan Pembangunan sebagaimana ditetapkan dengan Peraturan Presiden No. 15 tahun 1959 (Lembaran-Negara 1959 No. 153);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-24-tahun-1960",
+   "detailsId": "69372",
+   "judul": "PERPRES No. 24 Tahun 1960 tentang Pengubahan Dan Tambahan Peraturan Presiden No. 15 Tahun 1959 (Lembaga - Negara 1959 No. 15) Tentang Dewan Ekonomi Dan Pembangunan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59808/Perpres%20No.24%20Tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:46.581648+00:00"
+  },
+  "sha256": "bef9ae78ceeeeb3322c95a3db900c824219861abca88dc72ae1296b1ba546842",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 7,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-24-tahun-1960/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pasal 1 Peraturan Presiden No. 15 tahun 1959 selanjutnya dibaca sebagai berikut :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dewan Ekonomi dan Pembangunan terdiri dari: 1. 2. 3. 4. 5. 6. 7. Menteri Pertama Wakil Menteri Pertama Menteri Keuangan Menteri Produksi Menteri Distribusi Menteri Pembangunan Menteri Deputy Menteri Keamanan Nasional Menteri Pertanian Menteri Perhubungan Laut 8. 9.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Menteri Perdagangan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/angka-11",
+     "type": "ANGKA",
+     "orderIndex": 11,
+     "label": "Angka 11",
+     "content": "Menteri Perindustrian Rakyat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/angka-12",
+     "type": "ANGKA",
+     "orderIndex": 12,
+     "label": "Angka 12",
+     "content": "Menteri Ketua Depernas",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/angka-13",
+     "type": "ANGKA",
+     "orderIndex": 13,
+     "label": "Angka 13",
+     "content": "Gubernur Bank Indonesia",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/angka-14",
+     "type": "ANGKA",
+     "orderIndex": 14,
+     "label": "Angka 14",
+     "content": "Presiden Direktur Bank Pembangunan Indonesia - - - - - - - - - - - - - - sebagai Ketua; sebagai Wakil Ketua, sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota; sebagai anggota;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-24-tahun-1960/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Menteri-menteri lainnya dapat menghadiri rapat-rapat Dewan Ekonomi dan Pembangunan baik atas permintaan Ketua maupun atas kehendak sendiri; Pasal II Peraturan Presiden ini mulai berlaku pada hari diundangkannya. Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Peraturan Presiden ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Oktober 1960 Pejabat Presiden Republik Indonesia Ttd. DJUANDA Diundangkan di Jakarta pada tanggal 1 Oktober 1960 Asisten Sekretaris Negara, Ttd. SANTOSO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1960 NOMOR 117",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,38 @@
+tok 1.0 "Ubah Entri Repositori (Kelola Repositori)"
+
+pool p "Ubah Entri Repositori" process=ubah_entri_repositori
+  store d_entri "Entri Repositori"
+  start mulai "Perubahan entri diterima" message="Entri dan perubahannya"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor pemilik "Pengguna pemilik entri?"
+  end bukan "Perubahan ditolak: bukan pemilik" message="Perubahan ditolak"
+  service valid "Validasi isi entri"
+  xor ok "Isi entri valid?"
+  service simpan "Ubah Entri Repositori"
+  end selesai "Entri diperbarui" message="Konfirmasi entri diperbarui"
+  send pesan "Kirim pesan kesalahan isi entri" message="Pesan kesalahan isi entri"
+  receive perbaiki "Terima isi entri yang diperbaiki" message="Isi entri diperbaiki"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> pemilik "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow pemilik -> valid "ya" when="pemilik"
+flow pemilik -> bukan "tidak" default
+flow valid -> ok
+flow ok -> simpan "ya" when="isiValid"
+flow ok -> pesan "tidak" default
+flow pesan -> perbaiki -> valid
+flow simpan -> selesai
+
+writes simpan d_entri
+
+message user -> mulai "Entri dan perubahannya"
+message tolak -> user "Akses ditolak"
+message bukan -> user "Perubahan ditolak"
+message selesai -> user "Konfirmasi entri diperbarui"
+message pesan -> user "Pesan kesalahan isi entri"
+message user -> perbaiki "Isi entri diperbaiki"

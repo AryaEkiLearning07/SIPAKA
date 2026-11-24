@@ -1,0 +1,28 @@
+tok 1.0 "Laporkan Jawaban AI Keliru (Asisten Riset AI)"
+
+pool p "Laporkan Jawaban AI Keliru" process=laporkan_jawaban_ai_keliru
+  store d_lapai "Laporan Kesalahan AI"
+  store d_cache "Cache Respons AI"
+  start mulai "Laporan jawaban keliru diterima" message="Jawaban AI dan alasan kesalahan"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service kirim "Kirim Laporan Kesalahan"
+  service tandai "Tandai Jawaban untuk Ditinjau"
+  service cache "Nonaktifkan respons keliru dari cache"
+  end selesai "Laporan terkirim" message="Konfirmasi laporan diterima"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> kirim "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow kirim -> tandai -> cache -> selesai
+
+writes kirim d_lapai
+writes tandai d_lapai
+writes cache d_cache
+
+message user -> mulai "Jawaban AI dan alasan kesalahan"
+message tolak -> user "Akses ditolak"
+message selesai -> user "Konfirmasi laporan diterima"

@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-9-tahun-1946",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk menjalankan undang-undang Nomor 12 tahun 1946 tentang \"Pembaharuan Susunan Komite Nasional Pusat\" perlu diadakan Peraturan yang khusus."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-9-tahun-1946",
+   "detailsId": "62773",
+   "judul": "PP No. 9 Tahun 1946 tentang Susunan Peraturan Akan Menjalankan Undang-Undang Tahun 1946 NO.12 Dari Hal Pembaharuan Susunan Komite Nasional Pusat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/52982/PP%20No.%209%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:50.168213+00:00"
+  },
+  "sha256": "13e43917b65445c3dbbb9baa23ca2b9bfc5860c02074b50c6e4f9d55fddfb1d4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

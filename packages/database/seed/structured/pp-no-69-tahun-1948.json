@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-69-tahun-1948",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-69-tahun-1948",
+   "detailsId": "63972",
+   "judul": "PP No. 69 Tahun 1948 tentang Perubahan Dalam Undang-Undang Nomor 20 Tahun 1948 Tentang Larangan Penimbunan Barang Penting. - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54184/PP%20No%2069%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:35.278389+00:00"
+  },
+  "sha256": "54e86d672aba12e6a961e5a2ba243c53259dc02b28e317cb5d899fcd68796117",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

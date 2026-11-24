@@ -1,0 +1,54 @@
+{
+ "slug": "uu-no-7-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa kegiatan statistik yang dilakukan oleh Biro Pusat Statistik sampai dewasa ini masih didasarkan pada \"Statistiek Ordonantie 1934\" (Staatsblad 1934 No. 508), yang dilengkapi dengan Keputusan-keputusan Perekonomian/Perdagangan, padahal ordonansi tersebut tidak sesuai lagi dengan keadaan dan kemajuan-kemajuan yang cepat yang dicapai oleh Negara kita;",
+   "bahwa disegenap kegiatan statistik perlu diadakan keseragaman, instansi-instansi koordinasi dan pembagian tugas diantara Pemerintah; Menteri",
+   "bahwa mutu statistik nasional perlu dipertinggi;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1960",
+   "detailsId": "51316",
+   "judul": "UU No. 7 Tahun 1960 tentang Stastistik - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40577/UU%20Nomor%207%20Tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:00:17.449279+00:00"
+  },
+  "sha256": "efbe7f37705cd0f7a69adaccb5d16f916cad2d4107155bb9ea2b3f4c1d7c59d6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

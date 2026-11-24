@@ -1,0 +1,114 @@
+{
+ "slug": "pp-no-57-tahun-2018",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-57-tahun-2018",
+   "detailsId": "99853",
+   "judul": "PP No. 57 Tahun 2018 tentang Modal Awal Badan Pengelola Tabungan Perumahan Rakyat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/90563/PP%20Nomor%2057%20Tahun%202018.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:00:57.257781+00:00"
+  },
+  "sha256": "33e06817604161e690b893abd13f970889bf8ac79e9cce2a99d348bb53e33c08",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 3,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-57-tahun-2018/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia memberikan modal awal kepada Badan Pengelola Tabungan Perumahan Ralryat yang dibentuk berdasarkan Undang-Undang Nomor 4 Tahun 2016 tentang Tabungan Perumahan Ralryat.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-57-tahun-2018/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-57-tahun-2018/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai modal awal sebagaimana dimaksud dalam Pasal 1 sebesar Rp2.5OO.000.000.0OO,00 (dua triliun lima ratus miliar rupiah) terdiri atas:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-57-tahun-2018/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Rp2.000.OOO.000.000,00 (dua triliun rupiah) sebagai dana kelolaan yang hasil pengelolaannya digunakan untuk pemenuhan kebutuhan biaya operasional dan investasi Badan Pengelola Tabungan Perumahan Rakyat secara berkelanjutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-57-tahun-2018/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "RpSOO.OO0.OO0.OO0,00 (lima ratus miliar rupiah) digunakan untuk pemenuhan kebutuhan kegiatan investasi Badan Pengelola Tabungan Perumahan Rakyat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-57-tahun-2018/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Modal awal sebagaimana dimaksud pada ayat (1) berbentuk tunai dan merupakan kekayaan negara yang dipisahkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-57-tahun-2018/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Modal awal sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2018.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-57-tahun-2018/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar PRES IDEN REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia' Ditetapkan di Jakarta pada tanggal 28 Desember 2018 PRESIDEN REPUBLIK INDONESIA, trd JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 2018 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OI8 NOMOR 266 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Perekonomian, Hukum dan undangan, c ti Lestari",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

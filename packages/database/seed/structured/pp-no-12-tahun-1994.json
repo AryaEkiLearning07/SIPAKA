@@ -1,0 +1,80 @@
+{
+ "slug": "pp-no-12-tahun-1994",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan itu dan untuk memenuhi aspek keadilan, dipandang perlu menetapkan kembali Besarnya Persentase Nilai Jual Kena Pajak pada Pajak Bumi dan Bangunan dengan Peraturan Pemerintah."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-12-tahun-1994",
+   "detailsId": "57190",
+   "judul": "PP No. 12 Tahun 1994 tentang Penetapan Besarnya Persentase Nilai Jual Kena Pajak Pada Pajak Bumi Dan Bangunan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/46644/PP%20No.%2012%20Th%201994.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-46-tahun-1985"
+   ],
+   "scrapedAt": "2026-10-06T00:42:53.111253+00:00"
+  },
+  "sha256": "808c7262173a0b7b2686ee07d9940d2c3938ed82f76d911da88fdc81d613c054",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-12-tahun-1994/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Besarnya persentase Nilai Jual Kena Pajak sebagai dasar perhitungan pajak terhutang sebagaimana dimaksud dalam Pasal 6 ayat (3) Undang-undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan, adalah sebagai berikut : a. Sebesar 40 % (empat puluh persen) untuk obyek pajak perumahan yang wajib pajaknya perseorangan dengan Nilai Jual Obyek Pajak sama atau lebih besar dari Rp.1.000.000.000,00 (satu milyar rupiah). b. Sebesar 20 % (dua puluh persen) untuk obyek pajak lainnya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-12-tahun-1994/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan sebagaimana diatur dalam Pasal 1 huruf a tidak berlaku untuk obyek pajak yang dimiliki, dikuasai, atau dimanfaatkan oleh Pegawai Negeri Sipil, ABRI, dan para pensiunan termasuk janda dan dudanya, yang penghasilannya semata-mata berasal dari gaji atau uang pensiun.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-12-tahun-1994/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan ditetapkannya Peraturan Pemerintah ini, maka Peraturan Pemerintah Nomor 46 Tahun 1985 tentang Penetapan Besarnya Persentase Nilai Jual Kena Pajak pada Pajak Bumi dan Bangunan, dinyatakan tidak berlaku lagi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-12-tahun-1994/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tahun takwim 1994. Agar… - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Maret 1994 ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 18 Maret 1994 MENTERI NEGARA SEKRETARIS NEGARA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 17",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

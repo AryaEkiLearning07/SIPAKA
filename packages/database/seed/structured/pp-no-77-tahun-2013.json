@@ -1,0 +1,198 @@
+{
+ "slug": "pp-no-77-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 17 ayat (2b) Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan Keempat atas Undang-Undang Nomor 7 tahun 1983 tentang Pajak Penghasilan, perlu menetapkan Peraturan Pemerintah tentang Penurunan Tarif Pajak Penghasilan Bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-77-tahun-2013",
+   "detailsId": "5412",
+   "judul": "PP No. 77 Tahun 2013 tentang Penurunan Tarif Pajak Penghasilan Bagi Wajib Pajak Badan Dalam Negeri Yang Berbentuk Perseroan Terbuka - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33761/PP%20Nomor%2077%20Tahun%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-81-tahun-2007"
+   ],
+   "scrapedAt": "2026-10-06T00:37:09.172876+00:00"
+  },
+  "sha256": "d153d2cddc660d396323cf6563f68e130ccd7328a9339d26572fc522cde94d14",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 6,
+  "ayat_angka": 4,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Pemerintah ini, yang dimaksud dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan Keempat atas Undang-Undang Nomor 7 tahun 1983 tentang Pajak Penghasilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Perseroan Terbuka adalah Perseroan Publik atau Perseroan yang melakukan penawaran umum saham, sesuai dengan ketentuan peraturan perundang-undangan di bidang pasar modal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Pihak adalah orang pribadi atau badan. Pasal 2 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Wajib Pajak badan dalam negeri yang berbentuk Perseroan Terbuka dapat memperoleh penurunan tarif Pajak Penghasilan sebesar 5% (lima persen) lebih rendah dari tarif Pajak Penghasilan Wajib Pajak badan dalam negeri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penurunan tarif Pajak Penghasilan sebagaimana dimaksud pada ayat (1) diberikan kepada Wajib Pajak badan dalam negeri setelah yang berbentuk Perseroan Terbuka memenuhi persyaratan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Paling sedikit 40% (empat puluh persen) dari jumlah keseluruhan saham yang disetor dicatat untuk diperdagangkan di bursa efek di Indonesia dan masuk dalam penitipan kolektif di lembaga penyimpanan dan penyelesaian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Saham sebagaimana dimaksud dalam huruf a harus dimiliki oleh paling sedikit 300 Pihak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "masing-masing Pihak sebagaimana dimaksud dalam huruf b hanya boleh memiliki saham kurang dari 5% (lima persen) dari keseluruhan saham yang ditempatkan dan disetor penuh; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-2/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "ketentuan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c harus dipenuhi dalam waktu paling singkat 183 (seratus delapan puluh tiga) hari kalender dalam jangka waktu 1 (satu) Tahun Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-77-tahun-2013/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Ketentuan mengenai tata dan pengawasan pemberian penurunan tarif Pajak Penghasilan bagi Wajib Pajak badan dalam negeri yang berbentuk Perseroan Terbuka diatur dengan Peraturan Menteri Keuangan. pelaksanaan cara",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dalam hal ketentuan sebagaimana dimaksud dalam Pasal 2 ayat (2) tidak terpenuhi, Pajak Penghasilan terutang dihitung berdasarkan tarif Pajak Penghasilan sebagaimana dimaksud dalam Pasal 17 ayat (2a) Undang-Undang Pajak Penghasilan. Pasal 4 . . .",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, semua peraturan pelaksanaan dari Peraturan Pemerintah Nomor 81 Tahun 2007 tentang Penurunan Tarif Pajak Penghasilan Bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 170, Tambahan Lembaran Negara Republik Indonesia Nomor 4798) dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Pemerintah ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan Pemerintah Nomor 81 Tahun 2007 tentang Penurunan Tarif Pajak Penghasilan Bagi Wajib Pajak Badan Dalam Negeri yang Berbentuk Perseroan Terbuka (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 170, Tambahan Lembaran Negara Republik Indonesia Nomor 4798), dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Ketentuan mengenai penurunan tarif Pajak Penghasilan badan sesuai dengan ketentuan sebagaimana diatur dalam Peraturan Pemerintah ini berlaku sejak Tahun Pajak 2013.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-77-tahun-2013/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . setiap Agar pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Peraturan Pemerintah ini Ditetapkan di Jakarta pada tanggal 21 November 2013 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 November 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 186",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

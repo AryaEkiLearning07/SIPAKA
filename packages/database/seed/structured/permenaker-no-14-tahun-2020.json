@@ -1,0 +1,586 @@
+{
+ "slug": "permenaker-no-14-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan Peraturan Menteri Ketenagakerjaan tentang Pedoman Pemberian Bantuan Pemerintah Berupa Subsidi Gaji/Upah bagi Pekerja/Buruh dalam Penanganan Dampak Corona Virus Disease 2019 (Covid-19);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-14-tahun-2020",
+   "detailsId": "145072",
+   "judul": "Permenaker No. 14 Tahun 2020 tentang Pedoman Pemberian Bantuan Pemerintah Berupa Subsidi Gaji/Upah bagi Pekerja/Buruh dalam Penanganan Dampak Corona Virus Disease 2019 (COVID-19) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/136875/Permenaker%20Nomor%2014%20Tahun%202020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:01:04.343256+00:00"
+  },
+  "sha256": "283bf1dbadecb49c5589e955fbd32cf70874678f4aab4939ab67f1c70777790f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 13,
+  "ayat_angka": 33,
+  "huruf": 5
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEDOMAN PEMBERIAN BANTUAN PEMERINTAH BERUPA SUBSIDI GAJI/UPAH BAGI PEKERJA/BURUH DALAM PENANGANAN DAMPAK CORONA VIRUS DISEASE 2019",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Bantuan Pemerintah adalah bantuan yang tidak memenuhi kriteria bantuan sosial yang diberikan oleh pemerintah kepada perseorangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pekerja/Buruh adalah setiap orang yang bekerja dengan menerima Gaji/Upah atau imbalan dalam bentuk lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Gaji/Upah adalah hak Pekerja/Buruh yang diterima dan dinyatakan dalam bentuk uang sebagai imbalan dari pemberi kerja kepada Pekerja/Buruh yang ditetapkan dan dibayar menurut suatu perjanjian kerja, kesepakatan, atau peraturan perundang- undangan, termasuk tunjangan bagi Pekerja/Buruh dan keluarganya atas suatu pekerjaan dan/atau jasa yang telah atau akan dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Bank Penyalur adalah bank pemerintah yang akan menyalurkan bantuan kepada penerima Bantuan Pemerintah berupasubsidi Gaji/Upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Badan Penyelenggara Jaminan Sosial Ketenagakerjaan yang selanjutnya disebut BPJS Ketenagakerjaan adalah badan hukum yang dibentuk berdasarkan Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pengguna Anggaran yang selanjutnya disingkat PA adalah menteriyang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan yang bertanggung jawab atas pengelolaan anggaran pada Kementerian Ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kuasa Pengguna Anggaran yang selanjutnya disingkat KPA adalah pejabat pada Direktorat Jenderal Pembinaan Hubungan Industrial dan Jaminan Sosial Tenaga Kerja yang memperoleh kuasa dari PA untuk melaksanakan sebagian kewenangan dan tanggung jawab penggunaan anggaran pada Direktorat Jenderal Pembinaan Hubungan Industrial dan Jaminan Sosial Tenaga KerjaKementerian Ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Pejabat Pembuat Komitmen yang selanjutnya disingkat PPK adalah pejabat yang diberi kewenangan oleh PA/KPAuntuk mengambil keputusan dan/atau tindakan yang dapat mengakibatkan pengeluaran atas beban anggaran pendapatan dan belanja negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Direktur Jenderal adalah Direktur Jenderal Pembinaan Hubungan Industrial dan Jaminan Sosial Tenaga Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Bantuan Pemerintah berupa subsidi Gaji/Upah bagi Pekerja/Buruh bertujuan untuk melindungi, mempertahankan, dan meningkatkan kemampuan ekonomi Pekerja/Buruh dalam penanganan dampak Corona Virus Disease 2019 (Covid-19). PENERIMA BANTUAN PEMERINTAH BERUPA SUBSIDI",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENERIMA BANTUAN PEMERINTAH BERUPA SUBSIDI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan Pemerintah berupa subsidi Gaji/Upah diberikan kepada Pekerja/Buruh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pekerja/Buruh sebagaimana dimaksud pada ayat (1) harus memenuhi persyaratan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "warga negara Indonesia yang dibuktikan dengan nomor induk kependudukan; b. terdaftar sebagai peserta aktif program jaminan sosial ketenagakerjaan BPJS Ketenagakerjaan yang dibuktikan dengan nomor kartu kepesertaan; c. Pekerja/Buruh penerima Gaji/Upah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kepesertaan sampai dengan bulan Juni 2020; e. peserta aktif program jaminan sosial ketenagakerjaan yang membayar iuran dengan besaran iuran yang dihitung berdasarkan Gaji/Upah dibawah Rp5.000.000,00 (lima juta rupiah) sesuai Gaji/Upah terakhir yang dilaporkan oleh pemberi kerja kepada BPJS Ketenagakerjaan dan tercatat di BPJS Ketenagakerjaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-14-tahun-2020/pasal-3/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memiliki rekening bank yang aktif.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "BESARAN DAN TATA CARA PEMBERIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan Pemerintah berupa subsidi Gaji/Upah diberikan dalam bentuk uang sebesar Rp.600.000,00 (enam ratus ribu rupiah) per bulan selama 4 (empat) bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bantuan Pemerintah sebagaimana dimaksud pada ayat (1) diberikan berdasarkan: a. jumlah Pekerja/Buruh yang memenuhi persyaratan sebagaimana dimaksud dalam Pasal 3 ayat (2); dan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-14-tahun-2020/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ketersediaan pagu anggaran dalam daftar isian pelaksana anggaran Kementerian Ketenagakerjaan. Tata Cara Pemberian Bantuan Pemerintah Berupa Subsidi Bagian Kedua Gaji/Upah",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Data calon penerima Bantuan Pemerintah berupa subsidi Gaji/Upah bersumber dari data peserta aktif program jaminan sosial ketenagakerjaan BPJS Ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "BPJS Ketenagakerjaan melakukan verifikasi dan validasi datacalon penerima Bantuan Pemerintah berupa subsidi Gaji/Upah sesuai dengan persyaratan sebagaimana dimaksud dalam Pasal 3 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Data yang telah diverifikasi dan divalidasi dituangkan dalam bentuk daftar calon penerima Bantuan Pemerintah berupa subsidi Gaji/Upah. disampaikan oleh BPJS Ketenagakerjaan kepada Menteri dengan melampirkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berita acara; dan b. surat pernyataan mengenai kebenaran/ kesesuaian data calon penerima Bantuan Pemerintah berupa subsidi Gaji/Upah yang telah diverifikasi dan divalidasi sesuai persyaratan sebagaimana dimaksud dalam Pasal 3 ayat (2) berdasarkan data yang disampaikan oleh pemberi kerja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Daftar calon penerima Bantuan Pemerintah berupa subsidi Gaji/Upah sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "KPA menetapkan penerima Bantuan Pemerintah berupa subsidi Gaji/Upah berdasarkan daftar calon penerima Bantuan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-5/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Berdasarkan penetapan penerima Bantuan Pemerintah berupa subsidi Gaji/Upah sebagaimana dimaksud pada ayat (5), KPA menyampaikan surat perintah membayar langsung (SPM LS) Bantuan Pemerintah berupa subsidi Gaji/Upah kepada Kantor Pelayanan Perbendaharaan Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kantor Pelayanan Perbendaharaan Negara sebagaimana dimaksud dalam Pasal 5 ayat (6) menyalurkan Bantuan Pemerintah berupa subsidi Gaji/Upah kepada penerima Bantuan Pemerintah berupa subsidi Gaji/Upah melalui Bank Penyalur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Proses penyaluran Bantuan Pemerintah berupa subsidi Gaji/Upah oleh Bank Penyalur sebagaimana dimaksud pada ayat (1) dilakukan dengan pemindah bukuan dana dari Bank Penyalur kepada rekening penerima Bantuan Pemerintah berupa subsidi Gaji/Upah dan dilakukan secara bertahap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Proses penyaluran Bantuan Pemerintah berupa subsidi Gaji/Upah dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal masih terdapat sisa dana Bantuan Pemerintah berupa subsidi Gaji/Upah pada Bank Penyalur sampai dengan akhir tahun anggaran, sisa dana disetor kembali ke rekening kas negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Penyaluran Bantuan Pemerintah berupa subsidi Gaji/Upah oleh Bank Penyalur dilakukan berdasarkan perjanjian kerjasama antara KPA dengan Bank Penyalur.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal pemberi kerja sebagaimana dimaksud dalam Pasal 5 ayat (4) huruf b tidak memberikan data yang sebenarnya, pemberi kerja dikenakan sanksi sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penerima Bantuan Pemerintah berupa subsidi Gaji/Upah tidak memenuhi persyaratan sebagaimana dimaksud dalam Pasal 3 ayat (2) dan telah menerima Bantuan Pemerintah berupa subsidi Gaji/Upah, penerima Bantuan Pemerintah berupa subsidi Gaji/Upah wajib mengembalikan Bantuan Pemerintah berupa subsidi Gaji/Upah yang telah diterima ke rekening kas negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Ketentuan lebih lanjut mengenai petunjuk teknis penyaluran Bantuan Pemerintah berupa subsidi Gaji/Upah ditetapkan oleh Direktur Jenderal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bank Penyalur membuat dan menyampaikan laporan data penyaluran Bantuan Pemerintah berupa subsidi Gaji/Upah kepadaKPA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan sebagaimana dimaksud pada ayat (1) berupa jumlah penerima Bantuan Pemerintah berupa subsidi Gaji/Upah dan jumlah dana yang disalurkan ke rekening penerima Bantuan Pemerintah berupa subsidi Gaji/Upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan sebagaimana dimaksud pada ayat (1) disampaikan secara luring dan/atau daring setiap 1 (satu) bulan atau sewaktu-waktu sesuai dengan kebutuhan. disampaikan melalui Sistem Informasi Ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Laporan secara daring sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Direktur Jenderal menyampaikan laporan perkembangan pelaksanaan pemberian Bantuan Pemerintah berupa subsidi Gaji/Upah kepada Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "MONITORING DAN EVALUASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktur Jenderal melakukan monitoring dan evaluasi pelaksanaan kebijakan dan kegiatan Bantuan Pemerintah berupa subsidi Gaji/Upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan untuk mengetahui dan memastikan pelaksanaan Bantuan Pemerintah berupa subsidi Gaji/Upah sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-14-tahun-2020/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Monitoring dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan secara periodik setiap 1 (satu) bulan atau sewaktu-waktu sesuai dengan kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-14-tahun-2020/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Tata cara penerbitan surat permintaan pembayaran (SPP), surat perintah membayar (SPM), dan surat perintah pencairan dana (SP2D) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-14-tahun-2020/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

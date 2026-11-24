@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-24-tahun-1969",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk menyesuaikan perkembangan kehidupan Perusahaan- perusahaan Negara, dipandang perlu untuk meninjau kembali Peraturan Pemerintah Nomor 23 tahun 1967 tentang Ketentuan- ketentuan Pokok Penggajian Pegawai Perusahaan Negara (Lembaran- Negara tahun 1967 Nomor 37, Tambahan Lembaran Negara Nomor 2845) khususnya mengenai tunjangan kemahalan seperti yang termaksud dalam pasal 11 Peraturan Pemerintah tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-24-tahun-1969",
+   "detailsId": "70233",
+   "judul": "PP No. 24 Tahun 1969 tentang Perubahan Peraturan Pemerintah Nomor 23 Tahun 1967 Tentang Ketentuan-Ketentuan Pokok Penggajian Pegawai Perusahaan Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60662/pp%20no%20024%20tahun%201969.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:28.028201+00:00"
+  },
+  "sha256": "04ad1cc1dd878366191fab54de5e62b0cb9b666dff60c7b1319920178327fe19",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-24-tahun-1969/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "11 Peraturan Pemerintah Nomor 23 tahun 1967 tentang Ketentuan- ketentuan Pokok Penggajian Pegawai Perusahaan Negara (Lembaran- Negara tahun 1967 Nomor 37, Tambahan Lembaran-Negara Nomor 2845) diubah hingga seluruhnya berbunyi sebagai berikut: \"Kepada pegawai diberikan tunjangan kemahalan yang besarnya tiap kali ditetapkan oleh Menteri yang membawahi Perusahaan- perusahaan Negara yang bersangkutan setelah mendengar Menteri Tenaga Kerja dan Menteri Keuangan\". Pasal II Peraturan Pemerintah ini mulai berlaku pada hari tanggal ditetapkannya. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya kedalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 3 September 1969 Presiden Republik Indonesia, SOEHARTO Jenderal T.N.I. Diundangkan di Jakarta pada tanggal 3 September 1969. Sekretaris Negara Republik Indonesia, ALAMSYAH. Mayor Jenderal T.N.I. -------------------------------- CATATAN Kutipan:LEMBARAN NEGARA TAHUN 1969 YANG TELAH DICETAK ULANG Sumber:LN 1969/44",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "slug": "pp-no-18-tahun-2026",
+ "preamble": {
+  "menimbang": [
+   "Menimbang SK No283536A"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 27 Maret2026 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. PRASETYO HADI LEMBARAN NEGARA REPUBLTK INDONESI.A TAHUN 2026 NOMOR 38 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARI.AT NEGARA REPUBLIK INDONESIA Pemndang-undangan dan H Djaman SK No 283573 A REPUEUK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESTA NOMOR 18 TAHUN 2026 TENTANG JENIS DAN TARIF ATAS JENIS PENERIMAAN NEGARA BUKAN PAJAK YANG BERLAKU DI LINGKUNGAN KEMENTERIAN PERTAHANAN I. UMUM Untuk mengoptimalkan Penerimaan Negara Bukan Pajak guna menunjang pembangunErn nasional, Penerimaan Negara Bukan Pajak di lingkungan Kementerian Pertahanan sebagai salah satu sumber penerimaan negara perlu dikelola dan dimanfaatkan untuk peningkatan pelayanan kepada masyarakat. Kementerian Pertahanan telah memiliki jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak sebagaimana diatur dalam Peraturan Pemerintah Nomor 57 Tahun 2013 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku di Lingkungan Kementerian Pertahanan, dan Peraturan Pemerintah Nomor 17 Tahun 2Ol4 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berasal dari Pe",
+ "source": {
+  "url": {
+   "slug": "pp-no-18-tahun-2026",
+   "detailsId": "349411",
+   "judul": "PP No. 18 Tahun 2026 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku di Lingkungan Kementerian Pertahanan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/413096/PP%20Nomor%2018%20Tahun%202026.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-17-tahun-2014",
+    "pp-no-57-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T00:27:00.885790+00:00"
+  },
+  "sha256": "d04ab7cb57ca74d032ac72c74cf42e98035b6f43d6efd8b321df0c4f9c542d7a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-18-tahun-2026/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Jenis Penerimaan Negara Bukan Pajak yang berlaku di lingkungan Kementerian Pertahanan berasal dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "layanan kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "layanan hidro-oseanografi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "produksi dan layanan lembaga farmasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "layanan psikologi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "jasa pelatihan; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-2026/pasal-1/ayat-1/huruf-f",
+       "type": "HURUF",
+       "orderIndex": 6,
+       "label": "Huruf f",
+       "content": "penggunaan sarana dan prasarana sesuai tugas dan fungsi. (21 Jenis Penerimaan Negara Bukan Pajak sebagaimana dimaksud pada ayat (1) memiliki jenis dan tarif sebagaimana tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

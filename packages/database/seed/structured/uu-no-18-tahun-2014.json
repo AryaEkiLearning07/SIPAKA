@@ -1,0 +1,2880 @@
+{
+ "slug": "uu-no-18-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "bahwa pelayanan kesehatan jiwa bagi setiap orang dan jaminan hak orang dengan gangguan jiwa belum dapat diwujudkan secara optimal;",
+   "bahwa belum optimalnya pelayanan kesehatan jiwa bagi setiap orang dan belum terjaminnya hak orang dengan gangguan jiwa mengakibatkan rendahnya produktivitas sumber daya manusia;",
+   "bahwa pengaturan penyelenggaraan upaya kesehatan jiwa dalam peraturan perundang-undangan saat ini belum diatur secara komprehensif sehingga perlu diatur secara khusus dalam satu Undang-Undang;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu membentuk Undang-Undang tentang Kesehatan Jiwa;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "38646",
+   "slug": "uu-no-18-tahun-2014",
+   "nomor": 18,
+   "tahun": 2014,
+   "jenis": "UU",
+   "judul": "UU No. 18 Tahun 2014 tentang Kesehatan Jiwa - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27929/UU%20Nomor%2018%20Tahun%202014.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:16:48.707161+00:00"
+  },
+  "sha256": "843fc1f38cb3c23dfbd81b8df1b7531731e721264f527e1065b93c3c791d7116",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 91,
+  "ayat_angka": 119,
+  "huruf": 85
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kesehatan Jiwa adalah kondisi dimana seorang individu dapat berkembang secara fisik, mental, spiritual, dan sosial sehingga individu tersebut menyadari kemampuan sendiri, dapat mengatasi tekanan, dapat bekerja secara produktif, dan mampu memberikan kontribusi untuk komunitasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Orang Dengan Masalah Kejiwaan yang selanjutnya disingkat ODMK adalah orang yang mempunyai masalah fisik, mental, sosial, pertumbuhan dan perkembangan, dan/atau kualitas hidup sehingga memiliki risiko mengalami gangguan jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Orang Dengan Gangguan Jiwa yang selanjutnya disingkat ODGJ adalah orang yang mengalami gangguan dalam pikiran, perilaku, dan perasaan yang termanifestasi dalam bentuk sekumpulan gejala dan/atau perubahan perilaku yang bermakna, serta dapat menimbulkan penderitaan dan hambatan dalam menjalankan fungsi orang sebagai manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Upaya . . . Upaya Kesehatan Jiwa adalah setiap kegiatan untuk mewujudkan derajat kesehatan jiwa yang optimal bagi setiap individu, keluarga, dan masyarakat dengan pendekatan promotif, preventif, kuratif, dan rehabilitatif yang diselenggarakan secara menyeluruh, terpadu, dan berkesinambungan oleh Pemerintah, Pemerintah Daerah, dan/atau masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan Pemerintahan Negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pemerintah Daerah adalah Gubernur, Bupati, atau Walikota dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Upaya Kesehatan Jiwa berasaskan: a. keadilan; b. perikemanusiaan; c. manfaat; d. transparansi; e. akuntabilitas; f. komprehensif; g. pelindungan; dan h. nondiskriminasi. Pasal 3 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Upaya Kesehatan Jiwa bertujuan: a. menjamin setiap orang dapat mencapai kualitas hidup yang baik, menikmati kehidupan kejiwaan yang sehat, bebas dari ketakutan, tekanan, dan gangguan lain yang dapat mengganggu Kesehatan Jiwa; b. menjamin setiap orang dapat mengembangkan berbagai potensi kecerdasan; c. memberikan pelindungan dan menjamin pelayanan Kesehatan Jiwa bagi ODMK dan ODGJ berdasarkan hak asasi manusia; d. memberikan pelayanan kesehatan secara terintegrasi, komprehensif, dan berkesinambungan melalui upaya promotif, preventif, kuratif, dan rehabilitatif bagi ODMK dan ODGJ; e. menjamin ketersediaan dan keterjangkauan sumber daya dalam Upaya Kesehatan Jiwa; f. meningkatkan mutu Upaya Kesehatan Jiwa sesuai dengan perkembangan ilmu pengetahuan dan teknologi; dan g. memberikan kesempatan kepada ODMK dan ODGJ untuk dapat memperoleh haknya sebagai Warga Negara Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "UPAYA KESEHATAN JIWA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya Kesehatan Jiwa dilakukan melalui kegiatan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "promotif . . . promotif;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "preventif;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kuratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "rehabilitatif.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Upaya Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Pemerintah, Pemerintah Daerah, dan/atau masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 4 dilaksanakan secara terintegrasi, komprehensif, dan berkesinambungan sepanjang siklus kehidupan manusia. harus dilakukan secara terkoordinasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam rangka menjamin pelaksanaan Upaya Kesehatan Jiwa yang terintegrasi, komprehensif, dan berkesinambungan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai koordinasi sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden. Bagian Kedua Upaya Promotif",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Upaya promotif sebagaimana dimaksud dalam Pasal 4 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "huruf a merupakan suatu kegiatan dan/atau rangkaian kegiatan penyelenggaraan pelayanan Kesehatan Jiwa yang bersifat promosi Kesehatan Jiwa. Pasal 7 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya promotif Kesehatan Jiwa ditujukan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mempertahankan dan meningkatkan derajat Kesehatan Jiwa masyarakat secara optimal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menghilangkan stigma, diskriminasi, pelanggaran hak asasi ODGJ sebagai bagian dari masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meningkatkan pemahaman dan peran serta masyarakat terhadap Kesehatan Jiwa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "meningkatkan penerimaan dan peran serta masyarakat terhadap Kesehatan Jiwa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Upaya promotif sebagaimana dimaksud pada ayat (1) dapat dilakukan secara terintegrasi, komprehensif, dan berkesinambungan dengan upaya promotif kesehatan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya promotif dilaksanakan di lingkungan: huruf b dilaksanakan dalam bentuk: huruf h dilaksanakan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "keluarga; menciptakan suasana belajar-mengajar yang kondusif bagi pertumbuhan dan perkembangan jiwa; dan peningkatan pengetahuan dan pemahaman warga binaan pemasyarakatan tentang Kesehatan Jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "lembaga pendidikan; keterampilan hidup terkait Kesehatan Jiwa bagi peserta didik sesuai dengan tahap perkembangannya. pelatihan kemampuan adaptasi dalam masyarakat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tempat kerja; menciptakan suasana kehidupan yang kondusif untuk Kesehatan Jiwa warga binaan pemasyarakatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "masyarakat; e. fasilitas pelayanan kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "media massa; g. lembaga keagamaan dan tempat ibadah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "lembaga pemasyarakatan dan rumah tahanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Upaya promotif di lingkungan keluarga sebagaimana dimaksud pada ayat (1) huruf a dilaksanakan dalam bentuk pola asuh dan pola komunikasi dalam keluarga yang mendukung pertumbuhan dan perkembangan jiwa yang sehat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Upaya . . . Upaya promotif di lingkungan lembaga pendidikan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Upaya promotif di lingkungan tempat kerja sebagaimana dimaksud pada ayat (1) huruf c dilaksanakan dalam bentuk komunikasi, informasi, dan edukasi mengenai Kesehatan Jiwa, serta menciptakan tempat kerja yang kondusif untuk perkembangan jiwa yang sehat agar tercapai kinerja yang optimal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Upaya promotif di lingkungan masyarakat sebagaimana dimaksud pada ayat (1) huruf d dilaksanakan dalam bentuk komunikasi, informasi, dan edukasi mengenai Kesehatan Jiwa, serta menciptakan lingkungan masyarakat yang kondusif untuk pertumbuhan dan perkembangan jiwa yang sehat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Upaya promotif di lingkungan fasilitas pelayanan kesehatan sebagaimana dimaksud pada ayat (1) huruf e dilaksanakan dalam bentuk komunikasi, informasi, dan edukasi mengenai Kesehatan Jiwa dengan sasaran kelompok pasien, kelompok keluarga, atau masyarakat di sekitar fasilitas pelayanan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Upaya promotif di media massa sebagaimana dimaksud pada ayat (1) huruf f dilaksanakan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-7/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyebarluasan informasi bagi masyarakat mengenai Kesehatan Jiwa, pencegahan, dan penanganan gangguan jiwa di masyarakat dan fasilitas pelayanan di bidang Kesehatan Jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-7/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemahaman . . . pemahaman yang positif mengenai gangguan jiwa dan ODGJ dengan tidak membuat program pemberitaan, penyiaran, artikel, dan/atau materi yang mengarah pada stigmatisasi dan diskriminasi terhadap ODGJ; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-7/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pemberitaan, penyiaran, program, artikel, dan/atau materi yang kondusif bagi pertumbuhan dan perkembangan Kesehatan Jiwa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Upaya promotif di lingkungan lembaga keagamaan dan tempat ibadah sebagaimana dimaksud pada ayat (1) huruf g dilaksanakan dalam bentuk komunikasi, informasi, dan edukasi mengenai Kesehatan Jiwa yang diintegrasikan dalam kegiatan keagamaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-8/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Upaya promotif di lingkungan lembaga pemasyarakatan dan rumah tahanan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Ketentuan lebih lanjut mengenai penyelenggaraan upaya promotif diatur dalam Peraturan Pemerintah. Bagian . . . Bagian Ketiga Upaya Preventif",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Upaya preventif sebagaimana dimaksud dalam Pasal 4 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "huruf b merupakan suatu kegiatan untuk mencegah terjadinya masalah kejiwaan dan gangguan jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Upaya preventif Kesehatan Jiwa ditujukan untuk: a. mencegah terjadinya masalah kejiwaan; b. mencegah timbulnya dan/atau kambuhnya gangguan jiwa; c. mengurangi faktor risiko akibat gangguan jiwa pada masyarakat secara umum atau perorangan; dan/atau d. mencegah timbulnya dampak masalah psikososial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Upaya preventif Kesehatan Jiwa dilaksanakan di lingkungan: a. keluarga; b. lembaga; dan c. masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Upaya preventif di lingkungan keluarga sebagaimana dimaksud dalam pasal 12 huruf a dilaksanakan dalam bentuk: a. pengembangan . . . a. pengembangan pola asuh yang mendukung pertumbuhan dan perkembangan jiwa; b. komunikasi, informasi, dan edukasi dalam keluarga; dan c. kegiatan lain sesuai dengan perkembangan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "lembaga sebagaimana Upaya preventif di dimaksud dalam Pasal 12 huruf b dilaksanakan dalam bentuk: lingkungan a. menciptakan lingkungan lembaga yang kondusif bagi perkembangan Kesehatan Jiwa; b. memberikan komunikasi, informasi, dan edukasi mengenai pencegahan gangguan jiwa; dan c. menyediakan dukungan psikososial dan Kesehatan Jiwa di lingkungan lembaga.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Upaya preventif di lingkungan masyarakat sebagaimana dimaksud dalam Pasal 12 huruf c dilaksanakan dalam bentuk: a. menciptakan lingkungan masyarakat yang kondusif; b. memberikan komunikasi, informasi, dan edukasi mengenai pencegahan gangguan jiwa; dan c. menyediakan konseling bagi masyarakat yang membutuhkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Ketentuan lebih lanjut mengenai penyelenggaraan upaya preventif diatur dalam Peraturan Pemerintah. Bagian . . . Bagian Keempat Upaya Kuratif",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Upaya kuratif sebagaimana dimaksud dalam Pasal 4 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "huruf c merupakan kegiatan pemberian pelayanan kesehatan terhadap ODGJ yang mencakup proses diagnosis dan penatalaksanaan yang tepat sehingga ODGJ dapat berfungsi kembali secara wajar di lingkungan keluarga, lembaga, dan masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Upaya kuratif Kesehatan Jiwa ditujukan untuk: a. penyembuhan atau pemulihan; b. pengurangan penderitaan; c. pengendalian disabilitas; dan d. pengendalian gejala penyakit.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Proses penegakan diagnosis terhadap orang yang diduga ODGJ dilakukan untuk menentukan: dilakukan berdasarkan kriteria diagnostik oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-19/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kondisi kejiwaan; dan dokter umum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-19/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tindak lanjut penatalaksanaan. psikolog; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-19/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dokter spesialis kedokteran jiwa. Pasal 20 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penegakan diagnosis sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penatalaksanaan kondisi kejiwaan pada ODGJ dilakukan di fasilitas pelayanan di bidang Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penatalaksanaan kondisi kejiwaan pada ODGJ dilaksanakan melalui sistem rujukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penatalaksanaan kondisi kejiwaan pada ODGJ dapat dilakukan dengan cara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-20/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rawat jalan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-20/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "rawat inap.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penatalaksanaan kondisi kejiwaan ODGJ yang dilakukan secara rawat inap sebagaimana dimaksud dalam Pasal 20 ayat (3) huruf b dilakukan atas hasil pemeriksaan psikiatrik oleh dokter spesialis kedokteran jiwa dan/atau dokter yang berwenang dengan persetujuan tindakan medis secara tertulis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persetujuan tindakan medis secara tertulis sebagaimana dimaksud pada ayat (1) dilakukan oleh ODGJ yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal ODGJ dianggap tidak cakap dalam membuat keputusan, persetujuan tindakan medis dapat diberikan oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "suami/istri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "orang tua, anak, atau saudara sekandung yang paling sedikit berusia 17 (tujuh belas) tahun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "wali atau pengampu; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pejabat yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penentuan . . . Penentuan kecakapan ODGJ untuk mengambil keputusan dalam memberikan persetujuan tindakan medis dilakukan oleh dokter spesialis kedokteran jiwa atau dokter yang memberikan layanan medis saat itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Dalam hal ODGJ menunjukkan pikiran dan/atau perilaku yang dapat membahayakan dirinya, orang lain, atau sekitarnya, maka tenaga kesehatan yang berwenang dapat melakukan tindakan medis atau pemberian obat psikofarmaka terhadap ODGJ sesuai standar pelayanan Kesehatan Jiwa yang ditujukan untuk mengendalikan perilaku berbahaya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penatalaksanaan terhadap ODGJ dengan cara lain di luar ilmu kedokteran hanya dapat dilakukan apabila dapat dipertanggungjawabkan manfaat dan keamanannya serta tidak bertentangan dengan norma agama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penatalaksanaan yang dapat dipertanggungjawabkan manfaat dan keamanannya sebagaimana dimaksud pada ayat (1) mencakup penggunaan produk, modalitas terapi, dan kompetensi pemberi pelayanan yang sesuai dengan produk dan modalitas terapi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penatalaksanaan ODGJ sebagaimana dimaksud pada ayat (1) dibina dan diawasi oleh Pemerintah dan Pemerintah Daerah agar manfaat dan keamanannya dapat dipertanggungjawabkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan . . . Ketentuan lebih lanjut mengenai penatalaksanaan ODGJ dengan cara lain di luar ilmu kedokteran diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Ketentuan lebih lanjut mengenai tata cara penyelenggaraan upaya kuratif diatur dalam Peraturan Pemerintah. Bagian Kelima Upaya Rehabilitatif",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Upaya rehabilitatif Kesehatan Jiwa merupakan kegiatan dan/atau serangkaian kegiatan pelayanan Kesehatan Jiwa yang ditujukan untuk: a. mencegah atau mengendalikan disabilitas; b. memulihkan fungsi sosial; c. memulihkan fungsi okupasional; dan d. mempersiapkan dan memberi kemampuan ODGJ agar mandiri di masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya rehabilitatif ODGJ meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-26/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rehabilitasi psikiatrik dan/atau psikososial; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-26/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "rehabilitasi sosial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rehabilitasi psikiatrik dan/atau psikososial dan rehabilitasi sosial ODGJ sebagaimana dimaksud pada ayat (1) dapat merupakan upaya yang tidak terpisahkan satu sama lain dan berkesinambungan. Pasal 27 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Upaya rehabilitasi psikiatrik dan/atau psikososial sebagaimana dimaksud dalam Pasal 26 ayat (1) huruf a dilaksanakan sejak dimulainya pemberian pelayanan Kesehatan Jiwa terhadap ODGJ.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Upaya rehabilitasi sosial sebagaimana dimaksud dalam Pasal 26 ayat (1) huruf b dapat dilaksanakan secara persuasif, motivatif, atau koersif, baik dalam keluarga, masyarakat, maupun panti sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Upaya rehabilitasi sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "motivasi dan diagnosis psikososial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perawatan dan pengasuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelatihan vokasional dan pembinaan kewirausahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "bimbingan mental spiritual;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "bimbingan fisik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "bimbingan sosial dan konseling psikososial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelayanan aksesibilitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "bantuan sosial dan asistensi sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "bimbingan resosialisasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "bimbingan lanjut; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-28/ayat-2/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "rujukan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Rehabilitasi sosial sebagaimana dimaksud dalam Pasal 26 ayat (1) huruf b dilaksanakan di panti sosial milik: a. Pemerintah . . . a. Pemerintah; b. Pemerintah Daerah; atau c. swasta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan upaya rehabilitasi psikiatrik atau psikososial sebagaimana dimaksud dalam Pasal 26 ayat huruf a merupakan tanggung jawab Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan upaya rehabilitasi sosial sebagaimana dimaksud dalam Pasal 26 ayat (1) huruf b merupakan tanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "ODGJ yang mendapatkan rehabilitasi sosial sebagaimana dimaksud dalam Pasal 26 ayat (1) huruf b tetap berhak mendapatkan rehabilitasi psikiatrik dan/atau rehabilitasi psikososial serta mempunyai akses terhadap pelayanan dan obat psikofarmaka sesuai kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Fasilitas pelayanan di luar sektor kesehatan yang tidak memberikan akses terhadap pelayanan kesehatan dan obat psikofarmaka terhadap ODGJ dikenai sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran lisan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembekuan kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pencabutan izin; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penutupan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Fasilitas . . . Fasilitas pelayanan di luar sektor kesehatan yang tidak melaksanakan rehabilitasi sesuai dengan standar profesi dan standar pelayanan Kesehatan Jiwa dikenakan sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran lisan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembekuan kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pencabutan izin; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-31/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penutupan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Ketentuan lebih lanjut mengenai tata cara penyelenggaraan upaya rehabilitatif diatur dalam Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "SISTEM PELAYANAN KESEHATAN JIWA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk melaksanakan Upaya Kesehatan Jiwa, Pemerintah membangun sistem pelayanan Kesehatan Jiwa yang berjenjang dan komprehensif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem pelayanan Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-33/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelayanan Kesehatan Jiwa dasar; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-33/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelayanan Kesehatan Jiwa rujukan. Pasal 34 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Pelayanan Kesehatan Jiwa dasar sebagaimana dimaksud dalam Pasal 33 ayat (2) huruf a merupakan pelayanan Kesehatan Jiwa yang diselenggarakan terintegrasi dalam pelayanan kesehatan umum di Puskesmas dan jejaring, klinik pratama, praktik dokter dengan kompetensi pelayanan Kesehatan Jiwa, rumah perawatan, serta fasilitas pelayanan di luar sektor kesehatan dan fasilitas rehabilitasi berbasis masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Pelayanan Kesehatan Jiwa rujukan sebagaimana dimaksud dalam Pasal 33 ayat (2) huruf b terdiri atas pelayanan Kesehatan Jiwa di rumah sakit jiwa, pelayanan Kesehatan Jiwa yang terintegrasi dalam pelayanan kesehatan umum di rumah sakit, klinik utama, dan praktik dokter spesialis kedokteran jiwa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "SUMBER DAYA DALAM UPAYA KESEHATAN JIWA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Sumber daya dalam Upaya Kesehatan Jiwa terdiri atas: a. sumber daya manusia di bidang Kesehatan Jiwa; b. fasilitas pelayanan di bidang Kesehatan Jiwa; c. perbekalan Kesehatan Jiwa; d. teknologi dan produk teknologi Kesehatan Jiwa; dan e. pendanaan . . . e. pendanaan Kesehatan Jiwa. Bagian Kedua Sumber Daya Manusia di Bidang Kesehatan Jiwa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber daya manusia di bidang Kesehatan Jiwa terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-37/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tenaga kesehatan dengan kompetensi di bidang Kesehatan Jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-37/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tenaga profesional lainnya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-37/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tenaga lain yang terlatih di bidang Kesehatan Jiwa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tenaga profesional lainnya dan tenaga lain yang terlatih di bidang Kesehatan Jiwa berperan sebagai mitra tenaga kesehatan dengan kompetensi di bidang Kesehatan Jiwa dalam menyelenggarakan Upaya Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Pemerintah menyusun perencanaan, pengadaan dan peningkatan mutu, penempatan dan pendayagunaan, serta pembinaan sumber daya manusia di bidang Kesehatan Jiwa, dalam rangka penyelenggaraan program Kesehatan Jiwa yang berkesinambungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Perencanaan sumber daya manusia di bidang Kesehatan Jiwa dilakukan oleh Pemerintah dan Pemerintah Daerah dengan memperhatikan: a. jenis upaya penyelenggaraan Kesehatan Jiwa yang dibutuhkan oleh masyarakat; b. jumlah . . . b. jumlah fasilitas pelayanan di bidang Kesehatan Jiwa; dan c. jumlah tenaga kesehatan dengan kompetensi di bidang Kesehatan Jiwa yang sesuai dengan kebutuhan pelayanan Kesehatan Jiwa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadaan dan peningkatan mutu sumber daya manusia di bidang Kesehatan Jiwa diselenggarakan oleh Pemerintah, Pemerintah Daerah, dan/atau masyarakat melalui pendidikan dan/atau pelatihan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendidikan dan/atau pelatihan sebagaimana dimaksud pada ayat (1) diselenggarakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal ketersediaan sumber daya manusia di bidang Kesehatan Jiwa secara nasional tidak mencukupi, Pemerintah menyusun dan melaksanakan upaya percepatan pengadaan sumber daya manusia di bidang Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah wajib mengatur dan menjamin ketersediaan sumber daya manusia di bidang Kesehatan Jiwa untuk pemerataan penyelenggaraan Upaya Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penempatan dan pendayagunaan sumber daya manusia di bidang Kesehatan Jiwa dilakukan dengan tetap memperhatikan hak sumber daya manusia di bidang Kesehatan Jiwa dan hak masyarakat untuk mendapatkan pelayanan Kesehatan Jiwa yang merata. Pasal 42 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah melakukan pembinaan terhadap sumber daya manusia di bidang Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan terhadap sumber daya manusia di bidang Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber daya manusia di bidang Kesehatan Jiwa dalam menjalankan tugasnya dilarang melakukan kekerasan dan/atau menyuruh orang lain untuk melakukan kekerasan atau tindakan lainnya yang tidak sesuai standar pelayanan dan standar profesi terhadap ODMK dan ODGJ.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sumber daya manusia di bidang Kesehatan Jiwa yang melakukan pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1) dapat dikenai sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-43/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peringatan lisan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-43/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peringatan tertulis; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-43/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pencabutan izin praktik atau izin kerja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Ketentuan lebih lanjut mengenai perencanaan, pengadaan dan peningkatan mutu, penempatan dan pendayagunaan, serta pembinaan sumber daya manusia di bidang Kesehatan Jiwa diatur dalam Peraturan Pemerintah. Bagian . . . Bagian Ketiga Fasilitas Pelayanan di Bidang Kesehatan Jiwa Paragraf 1 Umum",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Fasilitas pelayanan di bidang Kesehatan Jiwa meliputi: a. fasilitas pelayanan kesehatan; dan b. fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "Fasilitas pelayanan di bidang Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 45 menyelenggarakan pelayanan kesehatan promotif, preventif, kuratif, dan rehabilitatif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Fasilitas pelayanan di bidang Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 45 didirikan oleh Pemerintah, Pemerintah Daerah, atau masyarakat. Paragraf 2 Fasilitas Pelayanan Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Fasilitas pelayanan kesehatan sebagaimana dimaksud dalam Pasal 45 huruf a meliputi: a. Puskesmas . . . a. Puskesmas dan jejaring, klinik pratama, dan praktik dokter dengan kompetensi pelayanan Kesehatan Jiwa; b. rumah sakit umum; c. rumah sakit jiwa; dan d. rumah perawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas pelayanan kesehatan sebagaimana dimaksud dalam Pasal 48 wajib menyelenggarakan pelayanan Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan pelayanan Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 48 huruf b dilakukan di klinik Kesehatan Jiwa atau sebutan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Fasilitas pelayanan kesehatan harus memiliki sumber daya manusia di bidang Kesehatan Jiwa, perbekalan Kesehatan Jiwa, serta mengikuti perkembangan teknologi dan produk teknologi Kesehatan Jiwa yang berbasis bukti.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas pelayanan kesehatan harus memiliki izin dan memenuhi persyaratan keamanan, keselamatan, kenyamanan, dan kemudahan sesuai dengan pedoman yang berlaku dalam pemberian pelayanan terhadap ODMK dan ODGJ. diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan . . . Ketentuan lebih lanjut mengenai perizinan dan persyaratan fasilitas pelayanan kesehatan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-52/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah wajib mendirikan rumah sakit jiwa sebagaimana dimaksud dalam Pasal 48 huruf c sebagai pusat rujukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah Daerah Provinsi wajib mendirikan paling sedikit 1 (satu) rumah sakit jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-52/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah dapat membantu Pemerintah Daerah Provinsi dalam mendirikan rumah sakit jiwa sebagaimana dimaksud pada ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Setiap rumah sakit jiwa milik Pemerintah sebagaimana dimaksud dalam Pasal 52 ayat (1) dan rumah sakit jiwa milik Pemerintah Daerah Provinsi sebagaimana dimaksud dalam Pasal 52 ayat (2) wajib memiliki paling sedikit 1 (satu) ruang perawatan dengan tingkat keamanan yang memenuhi standar.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap rumah sakit jiwa wajib menyediakan ruang untuk pasien narkotika, psikotropika dan zat adiktif dengan jumlah tempat tidur paling sedikit 10% (sepuluh per seratus) dari jumlah tempat tidur yang ada.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap rumah sakit jiwa wajib menyediakan ruangan khusus untuk anak, wanita, dan lanjut usia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-54/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap . . . Setiap rumah sakit jiwa wajib melakukan pemisahan ruangan untuk pasien sesuai dengan jenis kelamin. Paragraf 3 Fasilitas Pelayanan di Luar Sektor Kesehatan dan Fasilitas Pelayanan Berbasis Masyarakat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud dalam Pasal 45 huruf b meliputi: a. praktik psikolog; b. praktik pekerja sosial; c. panti sosial; d. pusat kesejahteraan sosial; e. pusat rehabilitasi sosial; f. rumah pelindungan sosial; g. pesantren/institusi berbasis keagamaan; h. rumah singgah; dan i. lembaga kesejahteraan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "Fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud dalam Pasal 55 dalam menyelenggarakan pelayanan kuratif harus bekerja sama dengan fasilitas pelayanan kesehatan sebagaimana dimaksud dalam Pasal 48 yang ada di wilayahnya. Pasal 57 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat harus memiliki izin dan memenuhi persyaratan keamanan, keselamatan, kenyamanan, dan kemudahan sesuai dengan pedoman yang berlaku dalam pemberian pelayanan terhadap ODMK dan ODGJ.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai perizinan dan persyaratan fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (1) diatur dengan peraturan menteri yang menyelenggarakan urusan pemerintahan di bidang sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud dalam Pasal 55 didirikan di setiap kabupaten/kota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah Daerah Provinsi bersama dengan Pemerintah Daerah Kabupaten/Kota wajib mendirikan fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-58/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah dapat membantu Pemerintah Daerah Provinsi dan Pemerintah Daerah Kabupaten/Kota dalam mendirikan fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (2). Pasal 59 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah bertanggung jawab untuk melakukan pengawasan terhadap fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai pengawasan terhadap fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-60/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah, Pemerintah Daerah, dan/atau masyarakat mendirikan fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud dalam Pasal 45 huruf b untuk ODGJ yang membutuhkan pelayanan berkelanjutan di setiap kabupaten/kota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelayanan di fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (1) dapat berbentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-60/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelayanan residensial/inap jangka panjang; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-60/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelayanan perawatan harian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-60/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelayanan untuk ODGJ di fasilitas pelayanan di luar sektor kesehatan dan fasilitas pelayanan berbasis masyarakat sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan diagnosis dokter umum, psikolog, atau dokter spesialis kedokteran jiwa. Bagian . . . Bagian Keempat Perbekalan Kesehatan Jiwa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perbekalan Kesehatan Jiwa terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-61/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "obat psikofarmaka;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-61/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "alat kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-61/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "alat nonkesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain perbekalan Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) fasilitas pelayanan kesehatan juga harus menyediakan perbekalan kesehatan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-62/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah menjamin ketersediaan obat psikofarmaka sebagaimana dimaksud dalam Pasal 61 ayat (1) huruf a secara merata dan terjangkau oleh masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-62/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah menjamin agar obat psikofarmaka disertakan dalam layanan manfaat program Sistem Jaminan Sosial Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-63/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah menjamin ketersediaan alat kesehatan sebagaimana dimaksud dalam Pasal 61 ayat (1) huruf b di fasilitas pelayanan di bidang Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-63/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penjaminan ketersediaan alat kesehatan sebagaimana dimaksud pada ayat (1) didasarkan pada kemajuan teknologi berbasis bukti dengan memperhatikan manfaat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-63/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kemajuan . . . Kemajuan teknologi berbasis bukti sebagaimana dimaksud pada ayat (2) dinilai oleh tim penilaian teknologi kesehatan (Health Technology Assessment).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Pemerintah dan Pemerintah Daerah menjamin ketersediaan alat nonkesehatan sebagaimana dimaksud dalam Pasal 61 ayat (1) huruf c di fasilitas pelayanan di bidang Kesehatan Jiwa. Bagian Kelima Teknologi dan Produk Teknologi Kesehatan Jiwa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah, Pemerintah Daerah, dan masyarakat melakukan penelitian, pengembangan, pengadaan, dan pemanfaatan teknologi dan produk teknologi dalam Upaya Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Teknologi dan produk teknologi Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) mencakup segala metode dan alat yang digunakan untuk mendeteksi, mencegah terjadinya, meringankan penderitaan akibat, menyembuhkan, dan memulihkan diri dari gangguan jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri menetapkan fungsi yang melaksanakan sebagai pusat penelitian, pengembangan, dan pemanfaatan teknologi dan produk teknologi dalam bidang Kesehatan Jiwa. institusi/lembaga Bagian . . . Bagian Keenam Pendanaan Kesehatan Jiwa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "Pendanaan Kesehatan Jiwa bertujuan untuk menjamin Upaya Kesehatan Jiwa yang berkesinambungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber pendanaan Upaya Kesehatan Jiwa dibebankan pada Anggaran Pendapatan dan Belanja Negara serta Anggaran Pendapatan dan Belanja Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain sumber pendanaan Upaya Kesehatan Jiwa sebagaimana dimaksud pada ayat (1), masyarakat dapat memberikan dukungan dana dalam Upaya Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "HAK DAN KEWAJIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "ODMK berhak: a. mendapatkan informasi yang tepat mengenai Kesehatan Jiwa; b. mendapatkan pelayanan Kesehatan Jiwa di fasilitas pelayanan kesehatan yang mudah dijangkau; c. mendapatkan pelayanan Kesehatan Jiwa sesuai dengan standar pelayanan Kesehatan Jiwa; d. mendapatkan . . . d. mendapatkan informasi yang jujur dan lengkap tentang data kesehatan jiwanya termasuk tindakan yang telah maupun yang akan diterimanya dari tenaga kesehatan dengan kompetensi di bidang Kesehatan Jiwa; e. mendapatkan lingkungan yang kondusif bagi perkembangan jiwa; dan f. menggunakan sarana dan prasarana yang sesuai dengan pertumbuhan dan perkembangan jiwa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "ODMK berkewajiban memelihara kesehatan jiwanya dengan cara menjaga perilaku, kebiasaan, gaya hidup yang sehat, dan meningkatkan kemampuan beradaptasi dengan lingkungan sosial. Bagian Kedua Hak Orang Dengan Gangguan Jiwa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "ODGJ berhak:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mendapatkan pelayanan Kesehatan Jiwa di fasilitas pelayanan kesehatan yang mudah dijangkau;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mendapatkan pelayanan Kesehatan Jiwa sesuai dengan standar pelayanan Kesehatan Jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mendapatkan jaminan atas ketersediaan obat psikofarmaka sesuai dengan kebutuhannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memberikan persetujuan atas tindakan medis yang dilakukan terhadapnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mendapatkan . . . mendapatkan informasi yang jujur dan lengkap tentang data kesehatan jiwanya termasuk tindakan dan pengobatan yang telah maupun yang akan diterimanya dari tenaga kesehatan dengan kompetensi di bidang Kesehatan Jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mendapatkan pelindungan dari setiap bentuk penelantaran, kekerasan, eksploitasi, serta diskriminasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mendapatkan kebutuhan sosial sesuai dengan tingkat gangguan jiwa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "mengelola sendiri harta benda miliknya dan/atau yang diserahkan kepadanya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hak ODGJ untuk mengelola sendiri harta benda sebagaimana dimaksud pada ayat (1) huruf h hanya dapat dibatalkan atas penetapan pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PEMERIKSAAN KESEHATAN JIWA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-71/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan penegakan hukum, seseorang diduga ODGJ yang melakukan tindak pidana harus mendapatkan pemeriksaan Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-71/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) dilakukan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-71/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetukan . . . menentukan kemampuan seseorang dalam mempertanggungjawabkan tindak pidana yang telah dilakukannya; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-71/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menentukan kecakapan hukum seseorang untuk menjalani proses peradilan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-72/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan keperdataan, seseorang yang diduga kehilangan kecakapan untuk melakukan perbuatan hukum harus mendapatkan pemeriksaan Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-72/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Prosedur penentuan kecakapan untuk melakukan perbuatan hukum sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-73/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemeriksaan Kesehatan Jiwa untuk kepentingan hukum sebagaimana dimaksud dalam Pasal 71 dan Pasal 72 dilakukan oleh tim.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-73/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tim sebagaimana dimaksud pada ayat (1) diketuai oleh dokter spesialis kedokteran jiwa dan dapat melibatkan dokter spesialis lain, dokter umum, dan/atau psikolog klinis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-73/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman pemeriksaan Kesehatan Jiwa untuk kepentingan hukum diatur dengan Peraturan Menteri. Bagian . . . Bagian Kedua Pemeriksaan Kesehatan Jiwa untuk Kepentingan Pekerjaan atau Jabatan Tertentu",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk melaksanakan pekerjaan tertentu atau menduduki jabatan tertentu, wajib dilakukan pemeriksaan Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) harus dilakukan sebelum melaksanakan pekerjaan tertentu atau menduduki jabatan tertentu sesuai kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal diperlukan, pemeriksaan Kesehatan Jiwa sebagaimana dimaksud pada ayat (2) dapat dilakukan selama dan sesudah melaksanakan pekerjaan tertentu atau menduduki jabatan tertentu sesuai kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemeriksaan Kesehatan Jiwa sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "profil kecerdasan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "profil kepribadian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "potensi psikopatologi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "potensi khusus lainnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-74/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pedoman pemeriksaan Kesehatan Jiwa untuk kepentingan pekerjaan atau jabatan tertentu diatur dengan Peraturan Menteri. BAB VII . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "TUGAS, TANGGUNG JAWAB, DAN WEWENANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "Pemerintah dan Pemerintah Daerah memiliki tugas, dan tanggung jawab terhadap penyelenggaraan Upaya Kesehatan Jiwa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah bertugas dan bertanggung jawab mengadakan komunikasi, informasi, dan edukasi tentang Kesehatan Jiwa kepada masyarakat secara menyeluruh dan berkesinambungan. wajib berkoordinasi dengan pemangku kepentingan. dapat diselenggarakan dengan melibatkan peran serta masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah dan Pemerintah Daerah dalam mengadakan komunikasi, informasi, dan edukasi tentang Kesehatan Jiwa sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-76/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Komunikasi, informasi, dan edukasi tentang Kesehatan Jiwa sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "Pemerintah dan Pemerintah Daerah bertugas dan bertanggung jawab menyediakan sarana dan prasarana dalam penyelenggaraan Upaya Kesehatan Jiwa. Pasal 78 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "Pemerintah dan Pemerintah Daerah bertugas dan dan terhadap bertanggung kesejahteraan sumber daya manusia di bidang Kesehatan Jiwa. ketersediaan jawab",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-79/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah mengatur ketersediaan obat psikofarmaka yang dibutuhkan oleh ODGJ sesuai standar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-79/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Obat psikofarmaka yang dibutuhkan oleh ODGJ sesuai standar sebagaimana dimaksud pada ayat (1) harus tersedia secara merata di seluruh Indonesia dengan harga terjangkau oleh masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-79/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketersediaan, pemerataan, dan keterjangkauan obat psikofarmaka sebagaimana dimaksud pada ayat (2) dapat dilakukan dengan melibatkan peran swasta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "Pemerintah dan Pemerintah Daerah bertanggung jawab melakukan penatalaksanaan yang terlantar, menggelandang, mengancam keselamatan dirinya dan/atau orang lain, dan/atau mengganggu ketertiban dan/atau keamanan umum. terhadap ODGJ",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "rehabilitasi",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-81/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah wajib melakukan terlantar, upaya menggelandang, mengancam keselamatan dirinya dan/atau orang lain, dan/atau mengganggu ketertiban dan/atau keamanan umum. terhadap ODGJ",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-81/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "ODGJ . . . ODGJ terlantar, menggelandang, mengancam keselamatan dirinya dan/atau orang lain, dan/atau mengganggu ketertiban dan/atau keamanan umum sebagaimana dimaksud pada ayat (1) meliputi ODGJ:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-81/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tidak mampu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-81/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tidak mempunyai keluarga, wali atau pengampu; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-81/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tidak diketahui keluarganya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "Pemerintah dan Pemerintah Daerah wajib melakukan penampungan di fasilitas pelayanan di luar sektor kesehatan bagi ODGJ yang telah sembuh atau terkendali gejalanya yang tidak memiliki keluarga dan/atau terlantar. Bagian Kedua Wewenang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan Upaya Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 4 ayat (2), Pemerintah berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun program;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengintegrasikan Upaya Kesehatan Jiwa ke dalam sistem pelayanan kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengatur dan menjamin ketersediaan sumber daya dalam Upaya Kesehatan Jiwa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan pengawasan terhadap penyelenggaraan Upaya Kesehatan Jiwa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . Dalam melaksanakan Upaya Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 4 ayat (2), Pemerintah Daerah berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengadakan dan mendayagunakan sumber daya manusia di bidang Kesehatan Jiwa yang akan bekerja di fasilitas pelayanan di bidang Kesehatan Jiwa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-18-tahun-2014/pasal-83/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pengawasan terhadap penyelenggaraan Upaya Kesehatan Jiwa dan sumber daya dalam Upaya Kesehatan Jiwa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PERAN SERTA MASYARAKAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Masyarakat dapat berperan serta dalam Upaya Kesehatan Jiwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-18-tahun-2014/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peran serta masyarakat sebagaimana dimaksud pada ayat (1) dapat dilakukan secara perseorangan dan/atau berkelompok.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "Peran serta masyarakat dapat dilakukan dengan cara: a. memberikan bantuan tenaga, dana, fasilitas, serta sarana dan prasarana dalam penyelenggaraan Upaya Kesehatan Jiwa; b. melaporkan adanya ODGJ yang membutuhkan pertolongan; c. melaporkan tindakan kekerasan yang dialami serta yang dilakukan ODGJ; d. menciptakan . . . d. menciptakan iklim yang kondusif bagi ODGJ; e. memberikan pelatihan keterampilan khusus kepada ODGJ; f. memberikan sosialisasi kepada masyarakat mengenai pentingnya peran keluarga dalam penyembuhan ODGJ; dan g. mengawasi fasilitas pelayanan di bidang Kesehatan Jiwa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "Setiap orang yang dengan sengaja melakukan pemasungan, penelantaran, kekerasan dan/atau menyuruh orang lain untuk melakukan pemasungan, penelantaran, dan/atau kekerasan terhadap ODMK dan ODGJ atau tindakan lainnya yang melanggar hak asasi ODMK dan ODGJ, dipidana sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-18-tahun-2014/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang terkait Kesehatan Jiwa dinyatakan tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini. Pasal 88 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-88",
+     "type": "PASAL",
+     "orderIndex": 88,
+     "label": "Pasal 88",
+     "content": "Setiap fasilitas pelayanan di bidang Kesehatan Jiwa yang sudah ada sebagaimana dimaksud dalam Pasal 45 harus menyesuaikan dengan ketentuan dalam Undang-Undang ini paling lambat 5 (lima) tahun setelah Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-89",
+     "type": "PASAL",
+     "orderIndex": 89,
+     "label": "Pasal 89",
+     "content": "Pemerintah dan Pemerintah Daerah wajib mendirikan fasilitas pelayanan di bidang Kesehatan Jiwa sebagaimana dimaksud dalam Pasal 47 dalam jangka waktu paling lambat 5 (lima) tahun sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-90",
+     "type": "PASAL",
+     "orderIndex": 90,
+     "label": "Pasal 90",
+     "content": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun terhitung sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-18-tahun-2014/pasal-91",
+     "type": "PASAL",
+     "orderIndex": 91,
+     "label": "Pasal 91",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 7 Agustus 2014 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 7 Agustus 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 185",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

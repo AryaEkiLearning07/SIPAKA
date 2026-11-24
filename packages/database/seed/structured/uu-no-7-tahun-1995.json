@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-7-tahun-1995",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu Perhitungan Anggaran Negara Tahun Anggaran 1992/93 perlu ditetapkan dengan Undang-Undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 24 Agustus 1995 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 53 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 7 TAHUN 1995 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1992/93 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1992/93 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1992/93, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang-undang Nomor 6 Tahun 1992 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1992/93. Perhitungan Anggaran Negara ini merupakan tahap terakhir dari rangkaian siklus anggaran negara yang berkaitan erat dengan kebijaksanaan anggaran berimbang yang dinamis sebagaimana diamanatkan dalam Garis-garis Besar Haluan Negara. Dalam Perhitungan Anggaran Negara Tahun Anggaran 1992/93 tersebut, terdapat Sisa Anggaran Kurang sebesar Rp. 551.197.996.266,00 Lima ratus lima puluh satu miliar seratus sembilan puluh tujuh juta sembilan ratus sembilan puluh ",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1995",
+   "detailsId": "46187",
+   "judul": "UU No. 7 Tahun 1995 tentang Perhitungan Anggaran Negara Tahun Anggaran 1992/93 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34747/UU%20Nomor%207%20Tahun%201995.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:11:10.570276+00:00"
+  },
+  "sha256": "9f328ddf4ab1b0fd40b34c7dfaab2fb0511b0542273ee56034ebf8622ea6c167",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1995/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-7-tahun-1995/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara dalam Tahun Anggaran 1992/93 adalah sebesar Rp 59.960.453.046.106,00 (lima puluh sembilan triliun sembilan ratus enam puluh miliar empat ratus lima puluh tiga juta empat puluh enam ribu seratus enam rupiah);",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1995/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Belanja... - - Belanja Negara Tahun Anggaran 1992/93 adalah sebesar Rp 60.511.651.042.372,00 (enam puluh triliun lima ratus sebelas miliar enam ratus lima puluh satu juta empat puluh dua ribu tiga ratus tujuh puluh dua rupiah);",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1995/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa Anggaran Kurang Perhitungan Anggaran Negara Tahun Anggaran 1992/93 adalah sebesar Rp 551.197.996.266,00 (lima ratus lima puluh satu miliar seratus sembilan puluh tujuh juta sembilan ratus sembilan puluh enam ribu dua ratus enam puluh enam rupiah);",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1995/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian Pendapatan Negara, Belanja Negara dan Sisa Anggaran Kurang sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

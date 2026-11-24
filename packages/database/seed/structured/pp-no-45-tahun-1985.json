@@ -1,0 +1,104 @@
+{
+ "slug": "pp-no-45-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan Pasal 15 huruf d Undang-undang Nomor 8 Tahun 1971 dan Undang-undang Nomor 14 Tahun 1963, dipandang perlu menetapkan pengaturan mengenai barang yang digunakan untuk operasi pertambangan minyak dan gas bumi yang dilaksanakan oleh Perusahaan Pertambangan Minyak dan Gas Bumi Negara (PERTAMINA), kontraktor kontrak Production Sharing, dan kontraktor Perjanjian Karya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-45-tahun-1985",
+   "detailsId": "64684",
+   "judul": "PP No. 45 Tahun 1985 tentang Barang yang Digunakan Untuk Operasi Pertambangan Minyak dan Gas Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54899/PP%20NO%2045%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:48:06.056079+00:00"
+  },
+  "sha256": "e840d884a40d688fc070265f2667ee5551c1aeab30fbd23d5d87fae5e791188d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-45-tahun-1985/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-45-tahun-1985/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Barang yang digunakan untuk operasi pertambangan minyak dan gas bumi sebagaimana dimaksud dalam Pasal 15 huruf d Undang-undang Nomor 8 Tahun 1971, selanjutnya disebut Barang Operasi, adalah semua barang dan peralatan yang secara langsung digunakan untuk operasi pertambangan minyak dan gas bumi. adalah Barang Operasi yang digunakan kontraktor Perjanjian Karya sebagaimana dimaksud dalam Undang-undang Nomor 14 Tahun 1963.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-45-tahun-1985/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Termasuk dalam Barang Operasi sebagaimana dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-45-tahun-1985/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Barang Operasi sebagaimana dimaksud dalam ayat (1) hanya dapat diimpor untuk pelaksanaan usaha pertambangan minyak dan gas bumi yang meliputi eksplorasi, eksploitasi, pengilangan, pengangkutan, dan penjualan sampai dengan depot atau sub depot PERTAMINA.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-45-tahun-1985/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Tatacara impor Barang Operasi sebagaimana dimaksud dalam Pasal 1 ayat (1) ditetapkan bersama oleh Menteri Pertambangan dan Energi, Menteri Keuangan, dan Menteri Perdagangan. Pasal 3 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-45-tahun-1985/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Menteri Pertambangan dan Energi melaksanakan pengawasan atas kebutuhan impor dan penggunaan Barang Operasi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-45-tahun-1985/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 2 Desember 1985 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 2 Desember 1985 MENTERI/SEKRETARIS NEGARA ttd SUDHARMONO, S.H.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

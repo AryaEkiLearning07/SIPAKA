@@ -1,0 +1,87 @@
+{
+ "slug": "pp-no-74-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan ketentuan Pasal 4 ayat (4) Undang- Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara dan Pasal 41 ayat (4) Undang-Undang Nomor 1 Tahun 2004 tentang Perbendaharaan Negara, penyertaan modal negara perlu ditetapkan dengan Peraturan Pemerintah;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke dalam Modal Saham Perusahaan Perseroan (Persero) PT Kereta Api Indonesia; Mengingat: . . . PRESIDEN REPUBLIK INDONESIA - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-74-tahun-2007",
+   "detailsId": "4800",
+   "judul": "PP No. 74 Tahun 2007 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Kereta Api Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/38044/PP%2074%20Tahun%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:37:40.996702+00:00"
+  },
+  "sha256": "e713c616831e9d8ec583d34434f935e3f0ec5098fd51fdca911951cacdb22cae",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-74-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Kereta Api Indonesia yang didirikan berdasarkan Peraturan Pemerintah Nomor 19 Tahun 1998 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Kereta Api Menjadi Perusahaan Perseroan (Persero).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-2007/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 berasal dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2007. sebesar Rp100.000.000.000,00 (seratus miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-2007/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 10 Desember 2007 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 10 Desember 2007 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2007 NOMOR 158 Salinan sesuai dengan aslinya, DEPUTI MENTERI SEKRETARIS NEGARA BIDANG PERUNDANG-UNDANGAN, ttd MUHAMMAD SAPTA MURTI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

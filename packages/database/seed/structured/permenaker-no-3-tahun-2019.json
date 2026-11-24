@@ -1,0 +1,43 @@
+{
+ "slug": "permenaker-no-3-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-3-tahun-2019",
+   "detailsId": "163434",
+   "judul": "Permenaker No. 3 Tahun 2019 tentang Tata Naskah Dinas di Kementerian Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/156182/permen_3_2019_fix.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "permenaker-no-17-tahun-2015"
+   ],
+   "scrapedAt": "2026-10-06T13:55:50.066347+00:00"
+  },
+  "sha256": "c7433dc65f2423a0f3ccb9ed692906135c3ed2e40f81543b3f37f1f96ec7c86f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

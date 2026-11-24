@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-36-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 81 dan Pasal 185 huruf b Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja, perlu menetapkan Peraturan Pemerintah tentang Pengupahan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-36-tahun-2021",
+   "detailsId": "161909",
+   "judul": "PP No. 36 Tahun 2021 tentang Pengupahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/154587/PP%20Nomor%2036%20Tahun%202021.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-78-tahun-2015"
+   ],
+   "scrapedAt": "2026-10-06T00:27:25.514186+00:00"
+  },
+  "sha256": "fc5c7671cb02ed8715ad577d1e9a852995ef52143eb394f90a81b583381afc9b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

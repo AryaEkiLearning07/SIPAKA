@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-20-tahun-1965",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Presiden Republik Indonesia Nomor 13 tahun 1964 tentang Nilai Transaksi Rupiah dan perangsang Ekspor (Lembaran-Negara tahun 1964 Nomor 30) perlu disesuaikan dengan keadaan pada dewasa ini, khususnya dengan Kebijaksanaan Ekonomi Keuangan tahun 1966 sebagaimana ditetapkan dalam Penetapan Presiden Republik Indonesia Nomor 26 tahun 1965 (Lembaran-Negara tahun 1965 Nomor 99);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-20-tahun-1965",
+   "detailsId": "42526",
+   "judul": "PERPRES No. 20 Tahun 1965 tentang Premi Ekspor - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73335/Perpres%20No.20%20Tahun%201965.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:02.265215+00:00"
+  },
+  "sha256": "648939b0ab2f8e6e7e9c1bee2452c2378a87e3196853d0cf24ccfef02f262dfb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

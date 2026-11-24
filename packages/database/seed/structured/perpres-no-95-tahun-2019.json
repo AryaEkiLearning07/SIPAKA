@@ -1,0 +1,80 @@
+{
+ "slug": "perpres-no-95-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mendukung kesiapan Badan Riset dan Inovasi Nasional dalam menjalankan penelitian, pengembangan, pengkajian, dan penerapan, serta invensi dan inovasi yang terintegrasi perlu dilakukan perubahan Peraturan Presiden Nomor 74 Tahun 2Ol9 tentang Badan Riset dan Inovasi Nasional;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan Peraturan Presiden tentang Perubahan Atas Peraturan Presiden Nomor 74 Tahun 2Ol9 tentang Badan Riset dan Inovasi Nasional;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-95-tahun-2019",
+   "detailsId": "129203",
+   "judul": "PERPRES No. 95 Tahun 2019 tentang Perubahan atas Peraturan Presiden Nomor 74 Tahun 2019 Tentang Badan Riset dan Inovasi Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/120120/Perpres%20Nomor%2095%20Tahun%202019.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:10:32.495557+00:00"
+  },
+  "sha256": "f776a263b23fa6cffb9d09d6cd15e5859928910e533cee2f41f1c6e653a09e12",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-95-tahun-2019/pasal-36",
+   "type": "PASAL",
+   "orderIndex": 36,
+   "label": "Pasal 36",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-95-tahun-2019/pasal-36/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam rangka menjaga keberlangsungan pelaksanaan program dan anggaran dalam Tahun 2O2O, susunan organisasi BRIN yang disusun berdasarkan Peraturan Presiden Nomor 74 Tahun 2Ol9 tentang Badan Riset dan Inovasi Nasional berlaku paling lama sampai dengan tanggal 31 Maret 2O2O.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-95-tahun-2019/pasal-36/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dalam jangka waktu sebagaimana sebagaimana dimaksud pada ayat (1), organisasi BRIN harus dilakukan penataan organisasi yang disesuaikan dengan strategi BRIN dalam rangka pelaksanaan visi Presiden, yang penyusunannya disesuaikan dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-95-tahun-2019/pasal-36/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penataan organisasi BRIN sebagaimana dimaksud pada ayat (21ditetapkan dengan Peraturan Presiden atas usul menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara. Pasal II Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar SK No 016484 A REPUBLIK INDONES!A Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Desember 2019 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 2Ol9 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OI9 NOMOR 268 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Bidang Hukum dan g-undangan, na Djaman SK No 016897 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..36): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

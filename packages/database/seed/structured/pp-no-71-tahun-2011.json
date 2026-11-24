@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-71-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, dan untuk melaksanakan ketentuan Pasal 4 Ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Sarana Multigriya Finansial;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-71-tahun-2011",
+   "detailsId": "5204",
+   "judul": "PP No. 71 Tahun 2011 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Sarana Multigriya Finansial - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35796/PP%2071%20TAhun%202011.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:10.943860+00:00"
+  },
+  "sha256": "157637aff13d90a643563f45014ff048181480b01330825f84375091c667a93c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-71-tahun-2011/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Sarana Multigriya Finansial yang didirikan berdasarkan Peraturan Pemerintah Nomor 5 Tahun 2005 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Sekunder Perumahan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-2011/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-2011/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp1.000.000.000.000,00 (satu triliun rupiah). bersumber dari Anggaran dimaksud pada ayat Pendapatan dan Belanja Negara Tahun Anggaran 2011.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-71-tahun-2011/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal negara sebagaimana",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-71-tahun-2011/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Peraturan Pemerintah ini Ditetapkan di Jakarta pada tanggal 29 Desember 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 29 Desember 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 159 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Asisten Deputi Perundang-undangan Bidang Perekonomian, SETIO SAPTO NUGROHO SETIO SAPTO NUGROHO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

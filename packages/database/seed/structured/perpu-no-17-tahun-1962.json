@@ -1,0 +1,41 @@
+{
+ "slug": "perpu-no-17-tahun-1962",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpu-no-17-tahun-1962",
+   "detailsId": "53694",
+   "judul": "PERPU No. 17 Tahun 1962 tentang Perubahan Dan Tambahan Undang-Undang No. 21 PRP Tahun 1960 Tentang Bank Pembangunan Indonesia &#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/43090/PERPU%20No.%2017%20Tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpu-no-21-tahun-1960"
+   ],
+   "scrapedAt": "2026-10-06T07:37:42.713605+00:00"
+  },
+  "sha256": "1274e46470fdc7c3236696bd0dc724a56f0a41b769120a2d8ef329f19353a1fe",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-2-tahun-1984",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1984",
+   "detailsId": "46970",
+   "judul": "UU No. 2 Tahun 1984 tentang Perhitungan Anggaran Negara Tahun Anggaran 1980/1981 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35775/UU%20Nomor%202%20Tahun%201984.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:48:37.208551+00:00"
+  },
+  "sha256": "72954329ba0278b95f02f799591dc6c5c65f7492d996579368f1f2348e3ad056",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1984/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1) (2) (3) Penerimaan Nepra dalam Tahun Anggaran 1980/1981 adalah sebesar Rp 11.053.908.041.462,44 (sebelas trilyun lima puluh tiga milyar sembilan ratus delapan juta empat puluh satu ribu empat ratus enam puluh empat perseratus rupiah). Pengeluaran Negara dalam Tahun Anggaran 1980/1981 adalah sebesar Rp 11.000.093.448.274,29 (sebelas trilyun sembilan puluh tiga juta empat ratus empat puluh delapan ribu dua ratus tujuh puluh empat dua puluh sembilan perseratus rupiah). Sisa lebih Perhitungan Anggaran Tahun Anggaran 1980/1981 adalah sebesar Rp 53.814.593.188,15 (lima puluh tiga milyar delapan ratus empat belas juta lima ratus sembilan puluh tiga ribu seratus delapan puluh delapan lima belas perseratus rupiah). Undang-Undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1984/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 5 Juni 1984 TTD SOEHARTO Diundangkan di Jakarta pada tanggal 5 Juni 1984 MENTERI/SEKRETARIS NEGARA TTD SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1984 NOMOR 17",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

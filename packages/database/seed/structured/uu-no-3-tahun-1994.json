@@ -1,0 +1,79 @@
+{
+ "slug": "uu-no-3-tahun-1994",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu Perhitungan Anggaran Negara Tahun Anggaran 1991/92 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 18 Juli 1994 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 35 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 3 TAHUN 1994 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1991/1992 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1991/1992 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1991/1992, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang-undang Nomor 2 Tahun 1991/92. Sisa Anggaran Lebih Tahun Anggaran 1991/92 sebesar Rp 429.599.498.296,00 (empat ratus dua puluh sembilan milyar lima ratus sembilan puluh sembilan juta empat ratus sembilan puluh delapan ribu dua ratus sembilan puluh enam rupiah). Sisa Anggaran Lebih sampai dengan Tahun Anggaran 1990/91 sebesar Rp 4.280.688.280.934,00 (empat trilyun dua ratus delapan puluh milyar enam ratus delapan puluh delapan juta dua ratus delapan puluh ribu sembilan ratus tiga puluh empat rupiah). Sisa Anggaran Lebih sampai dengan Tahun Anggaran",
+ "source": {
+  "url": {
+   "judul": "test"
+  },
+  "sha256": "dummy",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-3-tahun-1994/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1994/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara Tahun Anggaran 1991/92 adalah sebesar Rp 52.557.129.405.058,00 (lima puluh dua triliun lima ratus lima puluh tujuh milyar seratus dua puluh sembilan juta empat ratus lima ribu lima puluh delapan rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1994/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Belanja Negara Tahun Anggaran 1991/92 adalah sebesar Rp 52.127.529.906.762,00 (lima puluh dua triliun seratus dua puluh tujuh milyar lima ratus dua puluh sembilan juta sembilan ratus enam ribu tujuh ratus enam puluh dua rupiah)",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1994/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa Anggaran Lebih Perhitungan Anggaran Negara Tahun Anggaran 1991/92 adalah sebesar Rp 429.599.498.296,00, (empat ratus dua puluh sembilan milyar lima ratus sembilan puluh sembilan juta empat ratus sembilan puluh delapan ribu dua ratus sembilan puluh enam rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1994/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian Perhitungan Pendapatan Negara, Belanja Negara, dan Sisa Anggaran Lebih sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

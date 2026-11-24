@@ -1,0 +1,200 @@
+{
+ "slug": "pp-no-89-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-89-tahun-2019",
+   "detailsId": "129232",
+   "judul": "PP No. 89 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 59 Tahun 2001 tentang Lembaga Perlindungan Konsumen Swadaya Masyarakat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/120147/PP%20Nomor%2089%20Tahun%202019.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:30:42.598886+00:00"
+  },
+  "sha256": "12ab77d3aa4b939aa7f6c181b6983b1f60671bc71331289fb2fbbbc6613982bd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 12,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-89-tahun-2019/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Perlindungan Konsumen adalah segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Konsumen adalah setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain, maupun makhluk hidup lain dan tidak untuk diperdagangkan. Ketentuan ayat (1) dan ayat (3) Pasal 2 diubah, sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Lembaga Perlindungan Konsumen Swadaya Masyarakat yang selanjutnya disebut LPKSM adalah Lembaga Non Pemerintah yang terdaftar dan diakui oleh Pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Pemerintah adalah Pemerintah Pusat dan Pemerintah Daerah Provinsi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-1/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang perdagangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-89-tahun-2019/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pemerintah mengakui LPKSM yang memenuhi syarat sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-89-tahun-2019/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "terdaftar pada Pemerintah Daerah Provinsi; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-89-tahun-2019/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "bergerak di bidang Perlindungan Konsumen sebagaimana tercantum dalam anggaran dasarnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "LPKSM sebagaimana dimaksud pada ayat (1) dapat melakukan kegiatan perlindungan konsumen di seluruh wilayah Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Ketentuan mengenai tata cara pendaftaran LPKSM sebagaimana dimaksud pada ayat (1) huruf a diatur dalam Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-2/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Ketentuan SK No 018003 A REPUBLIK INDONESIA Ketentuan ayat (21 Pasal 9 diubah, sehingga berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-89-tahun-2019/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-9/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 3, LPKSM dapat bekerja sama dengan organisasi atau lembaga lainnya, baik yang bersifat nasional maupun internasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-9/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "LPKSM melaporkan pelaksanaan tugasnya kepada Pemerintah Daerah Provinsi setiap tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-89-tahun-2019/pasal-9/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Diantara BAB IV dan BAB V disisipkan 1 (satu) bab, yakni BAB IVA sehingga berbunyi sebagai berikut: BAB IVA KETENTUAN PERALIHAN Pasal 10A LPKSM yang telah terbentuk sebelum Peraturan Pemerintah ini berlaku tetap diakui sepanjang telah terdaftar pada Pemerintah Daerah Kabupaten/Kota. Pasal II Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar SK No 018004 A PRESIOEN REPUBLIK INDONESTA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2019 PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 2019 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OT9 NOMOR 258 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Bidang Hukum dan undangan, S vanna Djaman SK No 018005 A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..9): [3, 4, 5, 6, 7, 8]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

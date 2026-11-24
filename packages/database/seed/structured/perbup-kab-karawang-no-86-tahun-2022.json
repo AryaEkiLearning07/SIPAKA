@@ -1,0 +1,519 @@
+{
+ "slug": "perbup-kab-karawang-no-86-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Karawang pada tanggal 2Q D*«emfc®r 2022 RAH KABUPATEN NG, HURI BERITA DAERAH KABUPATEN KARAWANG TAHUN 2022 NOMOR 87 . 16 LAMPIRAN I : PERATURAN BUPATI KARAWANG NOMOR 86 TAHUN 2022 TENTANG TATA CARA PENGALOKASIAN DAN PENGGUNAAN ALOKASI DANA DESA TAHUN ANGGARAN 2023 RINCIAN PENGHITUNGAN ADD ADD Desa = ADD Kab - (N1+N2+N3+N4) ADD Desax = ADDm + ADDp ADDm ADDp ADDp1 ADDp2 ADDp3 ADDp4 SV=1 SV=2 SV=3 SV=4 = (90% x ADD Desa) Xn = ADDp1 + ADDp2 + ADDp3 + ADDp4 (10% x ADD Desa) x BV1 , .. ------------------------------- SV1x Z s v 1 = (10% x ADD Desa) x BV2 ZSV2 SV2x = (10% x ADD Desa) x BV3 SV3x ZSV3 = (10% x ADD Desa) x BV4 ZSV4 SV4x = Vmin < Vx < Vmin + ( (V max -V min ) ) 4 = = (SV=1) < Vx < SV=1 + ( V max -^Vmin )) (SV=2) < Vx < SV=2 + ( V max -Vmin )) 4 SV=3 < Vx Keterangan : ADD Desa ADD Desax ADDM ADDP ADDP1 ADDP2 ADDP3 ADDP4 BV : besaran ADD setelah dikurangi kebutuhan kebutuhan penghasilan tetap Kepala Desa dan Perangkat Desa, Tunjangan BPD, Insentif Ketua RT/RW dan Insentif Linmas. : Besaran ADD Desa untuk masing-masing Desa : ADD Minimal : ADD Proporsional : ADD Proporsional dari variabel jumlah penduduk Desa : ADD Proporsional dari variabel angka kemiskinan : ADD",
+ "source": {
+  "url": {
+   "slug": "perbup-kab-karawang-no-86-tahun-2022",
+   "detailsId": "264504",
+   "judul": "PERBUP Kab. Karawang No. 86 Tahun 2022 tentang Pengalokasian, Penyaluran dan Penggunaan Alokasi Dana Desa Tahun Anggaran 2023 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/321637/Perbup%20Nomor%2086%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perbup-kab-karawang-no-1-tahun-2019",
+    "perbup-kab-karawang-no-403-tahun-2023"
+   ],
+   "scrapedAt": "2026-10-06T13:36:46.057031+00:00"
+  },
+  "sha256": "56dabbbae95019788957db2f836c2bd60ffe14befd3415445849ece20e6883e8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 4,
+  "ayat_angka": 39,
+  "huruf": 7
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "DAN PENGGUNAAN ALOKASI DANA DESA TAHUN ANGGARAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Bupati ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah Kabupaten yang selanjutnya disebut Daerah adalah Kabupaten Karawang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah Kabupaten adalah Pemerintah Kabupaten Karawang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Bupati adalah Bupati Karawang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Dinas Pemberdayaan Masyarakat dan Desa yang selanjutnya disingkat Dinas PMD adalah perangkat daerah yang menyelenggarakan urusan pemerintahan bidang masyarakat dan desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Camat adalah Perangkat Daerah yang memimpin wilayah kerja Kecamatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Desa adalah desa atau yang disebut dengan nama lain, selanjutnya disebut Desa, adalah kesatuan masyarakat hukum yang memiliki batas wilayah yang berwenang untuk mengatur dan mengurus urusan pemerintahan, kepentingan masyarakat setempat berdasarkan prakarsa masyarakat, hak asal usul, dan/atau hak tradisional yang diakui dan dihormati dalam sistem pemerintahan Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemerintahan Desa urusan pemerintahan dan kepentingan masyarakat setempat dalam sistem pemerintahan Negara Kesatuan Republik Indonesia. penyelenggaraan adalah",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Badan Permusyawaratan Desa yang selanjutnya disingkat BPD adalah lembaga yang melaksanakan fungsi pemerintahan yang anggotanya merupakan wakil dari penduduk desa berdasarkan keterwakilan wilayah dan ditetapkan secara demokratis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Pemerintah Desa adalah Kepala Desa dibantu Perangkat Desa sebagai unsur penyelenggara Pemerintahan Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kepala Desa adalah pemimpin desa yang dipilih langsung oleh penduduk desa yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Perangkat Desa adalah unsur pembantu Kepala Desa, yang terdiri dari sekretariat desa, pelaksana kewilayahan, dan pelaksana teknis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Rencana Kerja Pemerintah Desa yang selanjutnya disebut RKPDesa adalah penjabaran dari RPJM Desa untuk jangka waktu 1 (satu) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Anggaran Pendapatan dan Belanja Daerah yang selanjutnya disingkat APBD adalah APBD Kabupaten Karawang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Anggaran Pendapatan dan Belanja Desa yang selanjutnya tahunan rencana keuangan disebut APBDesa adalah Pemerintahan Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Keuangan Desa adalah semua hak dan kewajiban Desa yang dapat dinilai dengan uang serta segala sesuatu berupa uang dan barang yang berhubungan dengan pelaksanaan hak dan kewajiban desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Pengelolaan Keuangan Desa adalah keseluruhan kegiatan yang penatausahaan, meliputi pelaporan dan pertanggungjawaban keuangan Desa. perencanaan, pelaksanaan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Penerimaan Desa adalah uang yang masuk ke rekening kas Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Pengeluaran Desa adalah uang yang keluar dari rekening Kas Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Alokasi Dana Desa yang selanjutnya disingkat ADD adalah dana perimbangan yang diterima Daerah dalam Anggaran Pendapatan dan Belanja Daerah setelah dikurangi Dana Alokasi Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Pendapatan adalah semua penerimaan desa dalam 1 (satu) tahun anggaran yang menjadi hak desa dan tidak perlu dikembalikan oleh Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Belanja Desa adalah semua pengeluaran yang merupakan kewajiban desa dalam 1 (satu) tahun anggaran yang tidak akan diterima kembali oleh Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Pemegang Kekuasaan Pengelolaan Keuangan Desa yang selanjutnya disingkat PKPKD adalah Kepala Desa atau sebutan jabatannya mempunyai kewenangan lain yang, karena menyelenggarakan keseluruhan pengelolaan keuangan Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Pelaksana Pengelolaan Keuangan Desa yang selanjutnya disingkat PPKD adalah perangkat Desa yang melaksanakan pengelolaan keuangan Desa berdasarkan keputusan Kepala Desa yang menguasakan sebagian kekuasaan PKPKD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Sekretaris Desa adalah perangkat Desa yang berkedudukan sebagai unsur pimpinan sekretariat desa yang menjalankan tugas sebagai koordinator PPKD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Kepala Urusan yang selanjutnya disebut Kaur adalah perangkat Desa yang berkedudukan sebagai unsur staf sekretariat Desa yang menjalankan tugas PPKD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Kepala Seksi yang selanjutnya disebut Kasi adalah perangkat Desa yang berkedudukan sebagai pelaksana teknis yang menjalankan tugas PPKD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Penghasilan Tetap adalah jumlah penerimaan yang sah yang diterima oleh Kepala Desa dan Perangkat Desa setiap bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-28",
+       "type": "ANGKA",
+       "orderIndex": 28,
+       "label": "Angka 28",
+       "content": "Rekening Kas Desa selanjutnya disebut RKD adalah rekening tempat menyimpan uang Pemerintahan Desa yang menampung seluruh penerimaan Desa dan digunakan untuk membayar seluruh pengeluaran Desa yang ditetapkan dengan Keputusan Kepala Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-29",
+       "type": "ANGKA",
+       "orderIndex": 29,
+       "label": "Angka 29",
+       "content": "Dokumen Pelaksanaan Anggaran yang selanjutnya disingkat DPA adalah dokumen yang memuat rincian setiap kegiatan, anggaran yang disediakan dan rencana penarikan dana untuk kegiatan yang akan dilaksanakan berdasarkan kegiatan telah ditetapkan dalam APB Desa. yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-30",
+       "type": "ANGKA",
+       "orderIndex": 30,
+       "label": "Angka 30",
+       "content": "Dokumen Pelaksanaan Perubahan Anggaran yang selanjutnya disingkat DPPA adalah dokumen yang memuat perubahan rincian kegiatan, anggaran yang disediakan dan rencana penarikan dana untuk kegiatan yang akan dilaksanakan berdasarkan kegiatan yang telah ditetapkan dalam perubahan APB Desa dan/atau perubahan Penjabaran APB Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-31",
+       "type": "ANGKA",
+       "orderIndex": 31,
+       "label": "Angka 31",
+       "content": "Dokumen Pelaksanaan Anggaran Lanjutan yang selanjutnya disingkat DPAL adalah dokumen yang memuat kegiatan, anggaran dan rencana penarikan dana untuk kegiatan lanjutan yang anggarannya berasal dari SILPA tahun anggaran sebelumnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-32",
+       "type": "ANGKA",
+       "orderIndex": 32,
+       "label": "Angka 32",
+       "content": "Pengadaan barang/jasa Desa yang selanjutnya disebut dengan pengadaan barang/jasa adalah kegiatan untuk memperoleh barang/jasa oleh Pemerintah Desa, baik dilakukan melalui swakelola dan/atau penyedia barang/jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-33",
+       "type": "ANGKA",
+       "orderIndex": 33,
+       "label": "Angka 33",
+       "content": "Rencana Anggaran Kas Desa yang selanjutnya disebut RAK Desa adalah dokumen yang memuat arus kas masuk dan arus kas keluar yang digunakan mengatur penarikan dana dari rekening Kas untuk mendanai pengeluaran-pengeluaran berdasarkan DPA yang telah disahkan oleh Kepala Desa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-34",
+       "type": "ANGKA",
+       "orderIndex": 34,
+       "label": "Angka 34",
+       "content": "Surat Permintaan Pembayaran yang selanjutnya disingkat SPP adalah dokumen pengajuan untuk mendanai kegiatan pengadaan barang dan jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-1/angka-35",
+       "type": "ANGKA",
+       "orderIndex": 35,
+       "label": "Angka 35",
+       "content": "Tim Fasilitasi adalah tim lintas sektoral yang dibentuk dan ditetapkan dengan Surat Keputusan Bupati untuk memfasilitasi perhitungan, penetapan serta pengelolaan dana desa dan APBDes.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENGALOKASIAN, PEMBAGIAN DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah Daerah mengalokasikan ADD dalam APBD setiap tahun anggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengalokasian ADD sebagaimana dimaksud pada ayat (1) paling sedikit sebesar 10% (sepuluh persen) dari dana perimbangan yang diterima Daerah dalam anggaran pendapatan dan belanja daerah setelah dikurangi dana alokasi khusus. Bagian Kedua Pembagian",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pembagian ADD untuk setiap Desa dengan mempertimbangkan : a. kebutuhan penghasilan tetap Kepala Desa dan Perangkat Desa yang didalamnya termasuk untuk Pemotongan, Penyetoran dan Pembayaran Iuran Jaminan Kesehatan; dan b. jumlah penduduk desa, angka kemiskinan desa, luas wilayah desa, dan tingkat kesulitan geografis. Bagian Ketiga Penggunaan dan Penghitungan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan ADD terdiri dari :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Penghasilan tetap Kepala Desa dan Perangkat Desa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tunjangan BPD;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Operasional BPD;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Insentif RT/RW; Insentif Linmas; e.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "Operasional Pemerintahan Desa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "Pemberdayaan Masyarakat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "Jaminan Sosial Ketenagakerjaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-karawang-no-86-tahun-2022/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rincian penghitungan ADD sebagaimana dimaksud ayat (1) tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "slug": "perpres-no-79-tahun-2010",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu mengesahkan Persetujuan tersebut dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-79-tahun-2010",
+   "detailsId": "41135",
+   "judul": "PERPRES No. 79 Tahun 2010 tentang Pengesahan Agreement On The ASEAN Harmonized Electrical And Electronic Equipment Regulatory Regime (Persetujuan ASEAN Mengenai Harmonisasi Tata Cara Pengaturan Peralatan Listrik dan Elektronika) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69887/Perpres%20No.79%20Tahun%202010.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:14:57.194952+00:00"
+  },
+  "sha256": "224718747d23e7dec2ef2e632e68a39fb241ce69be3a9ca8ea6802523a2f6951",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-79-tahun-2010/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan Agreement on the ASEAN Harmonized Electrical and Electronic Equipment Regulatory Regime (Persetujuan ASEAN mengenai Harmonisasi Tata Cara Pengaturan Peralatan Listrik dan Elektronika), yang telah ditandatangani di Kuala Lumpur, Malaysia, pada tanggal 9 Desember 2005 yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-79-tahun-2010/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Persetujuan dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, yang berlaku adalah naskah aslinya dalam Bahasa Inggris. Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-79-tahun-2010/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 21 Desember 2010 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 Desember 2010 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 145",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

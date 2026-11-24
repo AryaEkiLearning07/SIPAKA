@@ -1,0 +1,100 @@
+{
+ "slug": "pp-no-16-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "Menimbang untuk melaksanakan ketentuan Pasal (2) Undang-Undang Pendidikan bahwa ayat tentang Peraturan Sumatera Utara; Pemerintah 66 2012 Nomor 12 Tahun Tinggi, ten tang perlu menetapkan Statuta Universitas"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan pada tangga128 Februari 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARANNEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 42 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA RI PRESIDEN REPU8LIK INDONESIA PENJELASAN ATAS PERATURANPEMERINTAHREPUBLIKINDONESIA NOMOR16 TAHUN2014 TENTANG STATUTAUNIVERSITASSUMATERAUTARA I. UMUM dan tumpah untuk kehidupan Tujuan Negara Kesatuan Republik Indonesia Indonesia umum, mencerdaskan berdasarkan Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun \"...melindungi segenap bangsa Indonesia dan 1945, diantaranya: memajukan darah seluruh bangsa, kesejahtcraan berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial ...\". Untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, berdasarkan Pasal 31 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dinyatakan setiap orang berhak mendapatkan pendidikau dan mengamanatkan agar Pemerintah mengusahakan dan yang menyelenggarakan meningkatkan kcimanan dan ketakwaan kepada Tuhan Yang Maha Esa serta akhlak mulia dalarm, rangka mencerdaskan kehidupan bangsa yang diatur dalam undang-undang, serta agar Pemerintah memajukan ilmu",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-2014",
+   "detailsId": "5453",
+   "judul": "PP No. 16 Tahun 2014 tentang Statuta Universitas Sumatera Utara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/244277/PP%20Nomor%2016%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-56-tahun-2003"
+   ],
+   "scrapedAt": "2026-10-06T00:39:41.960632+00:00"
+  },
+  "sha256": "471e78a8d15a2501e73ff91612c92ac9d00e1d3b7f60010c7794ce4bb7854322",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-2014/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Tanggal 20 (dua puluh) Agustus ditetapkan sebagai hari jadi (dies naialis) USU. Bagian Kedua Lambang, Bendera, Himne, Mars, dan Busana Akademik \\ .Pasal8",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-16-tahun-2014/pasal-7/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "USU memiliki lambang, bendera, himne, mars, .' dan busana akademik. USU memiliki bendera berbentuk empat persegi panjang dengan warna dasar hijau tua, di tengahnya di bawahnya terdapat tulisan Universitas Sumatera Utara. lambang USU, dan terdapat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-16-tahun-2014/pasal-7/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Lambang USU digunakan bangunan, ijazah, dan segala sesuatu yang kantor, cap, dalam hal memiliki kekuasaan, kewenangan, dan kepemilikan USU. kedudukan formal pada Pasal9 ... REPUBLIK INDONESIA Pasa19 Setiap Fakultas memiliki bendera masing masing.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-16-tahun-2014/pasal-7/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Ketentuan lebih lanjut mengenai bendera USU dan bendera Fakultas sebagaimana dimaksud pada ayat (1)dan ayat (2)diatur dalam Peraturan MWA. Pasall0 Himne USU dan Mars USU diperdengarkan pada upacara resmi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-2014/pasal-11",
+   "type": "PASAL",
+   "orderIndex": 11,
+   "label": "Pasal 11",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-16-tahun-2014/pasal-11/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Lambang, bendera, himne, dan mars tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..11): [1, 2, 3, 4, 5, 6, 8, 9, 10]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

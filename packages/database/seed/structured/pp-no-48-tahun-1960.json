@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-48-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-48-tahun-1960",
+   "detailsId": "75279",
+   "judul": "PP No. 48 Tahun 1960 tentang Penentuan Perusahaan Pertanggungan Jiwa Milik Belanda yang dikenakan Nasionalisasi&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/76258/pp%20no%20048%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:28.668858+00:00"
+  },
+  "sha256": "6a340a5c6eb73796e8a1bb5d06776d857867fb74a69e3081bfdbc16eb657cc22",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

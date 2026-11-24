@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-73-tahun-1996",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk memberikan kemudahan dan kepastian hukum serta meningkatkan kepatuhan Wajib Pajak dalam memenuhi kewajiban Pajak Penghasilan atas penghasilan tersebut dan sesuai dengan Pasal 4 ayat (2) Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir dengan Undang-undang Nomor 10 Tahun 1994, dipandang perlu mengatur tentang pengenaan Pajak Penghasilan atas penghasilan tertentu berupa penghasilan dari usaha jasa konstruksi dan jasa konsultan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-73-tahun-1996",
+   "detailsId": "56795",
+   "judul": "PP No. 73 Tahun 1996 tentang Pajak Penghasilan Atas Penghasilan Dari Usaha Jasa Konstruksi Dan Jasa Konsultan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/46274/PP%20No.%2073%20Th%201996.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:43:16.285341+00:00"
+  },
+  "sha256": "87f12773dfd0f714df2f0db6bd10b5f35b204ec66d176642d288cd8268a6722a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-73-tahun-1996/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Atas penghasilan Wajib Pajak yang bergerak di bidang usaha jasa pelaksanaan konstruksi dan Wajib Pajak yang bergerak di bidang usaha jasa perencanaan konstruksi, jasa pengawasan konstruksi dan/atau jasa konsultan, kecuali konsultan hukum dan konsultan pajak, dikenakan Pajak Penghasilan yang bersifat final.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-1996/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya Pajak Penghasilan sebagaimana dimaksud dalam Pasal adalah sebagai berikut : a. b. atas imbalan jasa pelaksanaan konstruksi adalah 2% (dua persen); atas imbalan jasa perencanaan konstruksi adalah 4% (empat persen); c. atas… - - c. d. atas imbalan jasa pengawasan konstruksi adalah 4% (empat persen); atas imbalan jasa konsultan adalah 4% (empat persen); dari jumlah imbalan bruto.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-1996/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini ditetapkan oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-1996/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini berlaku pada tanggal 1 Januari 1997. Agar… - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 20 Desember 1996 PRESIDEN REPUBLIK INDONESIA, ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 20 Desember 1996 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

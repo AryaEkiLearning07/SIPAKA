@@ -1,0 +1,1148 @@
+{
+ "slug": "pp-no-15-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk mencapai maksud tersebut di atas dan sebagai tentang pelaksanaan Undang-undang Nomor 9 Tahun 1985 Perikanan, dipandang perlu untuk mengatur usaha perikanan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-15-tahun-1990",
+   "detailsId": "58848",
+   "judul": "PP No. 15 Tahun 1990 tentang Usaha Perikanan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/48371/PP%20NO%2015%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:45:53.607222+00:00"
+  },
+  "sha256": "5df00a34436a2d36f8015ed99abe287bbba6c7621e365292cc369f9f2ecc0ba5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 26,
+  "ayat_angka": 47,
+  "huruf": 37
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Usaha Perikanan adalah semua usaha perorangan atau badan hukum untuk menangkap atau membudidayakan ikan, termasuk kegiatan menyimpan, mendinginkan atau mengawetkan ikan untuk tujuan komersial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Perusahaan Perikanan adalah perusahaan yang melakukan Usaha Perikanan dan dilakukan oleh warga negara Republik Indonesia atau badan hukum Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Nelayan adalah orang yang mata pencahariannya melakukan penangkapan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Petani Ikan adalah orang yang mata pencahariannya melakukan pembudidayaan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Izin Usaha Perikanan (IUP) adalah izin tertulis yang harus dimiliki Perusahaan Perikanan untuk melakukan Usaha Perikanan dengan menggunakan sarana produksi yang tercantum dalam izin tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Persetujuan Penggunaan Kapal Asing (PPKA) adalah persetujuan yang diberikan kepada Perusahaan Perikanan yang telah memiliki IUP untuk menggunakan kapal perikanan berbendera asing dalam rangka kerjasama dengan orang atau badan hukum asing untuk menangkap ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kapal Perikanan adalah kapal atau perahu atau alat apung lainnya yang dipergunakan untuk melakukan penangkapan ikan, termasuk untuk melakukan survai atau eksplorasi perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Perluasan Usaha Penangkapan Ikan adalah penambahan jumlah kapal perikanan dan atau penambahan jenis kegiatan usaha yang berkaitan yang belum tercantum dalam IUP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Perluasan Usaha Pembudidayaan Ikan adalah penambahan areal lahan dan atau penambahan jenis kegiatan usaha yang belum tercantum dalam IUP. 10.Surat Penangkapan Ikan (SPI) adalah surat yang harus dimiliki setiap kapal perikanan berbendera Indonesia untuk melakukan kegiatan penangkapan ikan di Perairan Indonesia untuk melakukan kegiatan penangkapan ikan di Perairan Indonesia dan atau Zona Ekonomi Eksklusif Indonesia (ZEEI) yang merupakan bagian yang tidak terpisahkan dari IUP. 11.Surat Izin Penangkapan Ikan (SIPI) adalah surat izin yang harus dimiliki setiap kapal perikanan berbendera asing yang digunakan oleh Perusahaan Perikanan Indonesia yang telah memiliki IUP dan PPKA untuk melakukan penangkapan ikan di Indonesia (ZEEI) dan merupakan bagian yang tidak terpisahkan dari PPKA. 12.Menteri adalah Menteri yang bertanggung jawab di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha Perikanan terdiri atas :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Usaha Panangkapan Ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Usaha Pembudidayaan Ikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Usaha Pembudidayaan Ikan sebagaimana dimaksud dalam ayat (1) huruf b meliputi jenis kegiatan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pembudidayaan ikan di air tawar; dan atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembudidayaan ikan di air payau; dan atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembudidayaan ikan di laut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha Perikanan di Wilayah Perikanan Republik Indonesia hanya boleh dilakukan oleh perorangan warga negara Republik Indonesia atau badan hukum Indonesia termasuk Koperasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengecualian terhadap ketentuan sebagaimana dimaksud dalam ayat (1) hanya dapat diberikan di bidang penangkapan ikan, sepanjang hal tersebut menyangkut kewajiban Negara Republik Indonesia berdasarkan ketentuan persetujuan internasional atau hukum internasional yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wilayah Perikanan Republik Indonesia sebagaimana dimaksud dalam ayat (1) meliputi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perairan Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Sungai, danau, waduk, rawa dan genangan air lainnya di dalam wilayah Republik Indonesia,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-3/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Zona Ekonomi Eksklusif Indonesia (ZEEI).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Perusahaan Perikanan dapat bekerjasama dengan Nelayan dan atau Petani Ikan dalam suatu bentuk kerjasama yang saling menguntungkan berdasarkan pedoman yang ditetapkan oleh Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Perikanan dapat menggunakan kapal perikanan berbendera asing untuk melakukan penangkapan ikan di ZEEI melalui kerjasama atau sewa dengan orang atau badan hukum asing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Cara kerjasama atau sewa sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PERIZINAN USAHA PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Perikanan yang melakukan Usaha Perikanan di Wilayah Perikanan Republik Indonesia wajib memiliki Izin Usaha Perikanan (IUP). (2) IUP diberikan untuk masing-masing Usaha Perikanan sebagaimana dimaksud dalam Pasal 2 ayat (1) dan berlaku selama perusahaan masih melakukan Usaha Perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam IUP untuk Usaha Penangkapan Ikan dicantumkan koordinat daerah penangkapan ikan, jumlah dan ukuran Kapal Perikanan Serta jenis alat tangkap yang digunakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam IUT untuk Usaha Pembudidayaan Ikan dicantumkan luas lahan atau perairan dan letak lokasinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kapal Perikanan berbendera Indonesia yang digunakan oleh Perusahaan Perikanan sebagaimana dimaksud dalam Pasal 6 ayat yang melakukan Usaha Penangkapan Ikan wajib dilengkapi Surat Penangkapan Ikan (SPI).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam SPI dicantumkan ketetapan mengenai daerah penangkapan ikan dan jenis alat penangkap ikan yang digunakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "SPI berlaku selama 3 (tiga) tahun dan seterusnya untuk setiap kali berakhir masa berlakunya diberikan perpanjangan selama 3 (tiga) tahun oleh pemberi izin sepanjang kapal dimaksud masih dipergunakan oleh Perusahaan Perikanan yang bersangkutan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Untuk kepentingan kelestarian sumberdaya ikan, pemberi izin setiap sekali meninjau kembali ketetapan mengenai daerah tahun penangkapan ikan dan atau jenis alat penangkap ikan sebagaimana tercantum dalam IUP dan SPI.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Perikanan yang telah memiliki IUP yang akan menggunakan Kapal Perikanan berbendera asing untuk menangkap ikan di ZEEI wajib memiliki Persetujuan Penggunaan Kapal Asing (PPKA) dan berlaku selama 3 (tiga) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam PPKA dicantumkan koordinat daerah penangkapan ikan, jumlah dan ukuran Kapal Perikanan serta jenis alat tangkap yang digunakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kapal Perikanan berbendera asing yang digunakan oleh Perusahaan Perikanan sebagaimana dimaksud dalam ayat (1) wajib dilengkapi dengan Surat Izin Penangkapan Ikan (SIPI).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "SIPI berlaku selama 1 (satu) tahun dan setiap kali masa berlakunya berakhir, dapat diperbaharui untuk jangka waktu 1 (satu) tahun sepanjang kebijaksanaan untuk memberikan kesempatan menggunakan kapal berbendera asing masih berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur Kepala Daerah Tingkai I atau Pejabat yang ditunjuk memberikan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "IUP dan SPI kepada Perusahaan Perikanan yang melakukan penangkapan ikan yang berdomisili di wilayah administrasinya, yang menggunakan Kapal Perikanan tidak bermotor, Kapal Perikanan bermotor luar, dan Kapal Perikanan bermotor dalam yang berukuran tidak lebih dari 30 GT dan atau yang mesinnya berkekuatan tidak lebih dari 90 Daya Kuda (DK), dan berpangkalan di wilayah administrasinya tidak menggunakan modal dan atau tenaga asing; serta",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "IUP kepada yang melakukan pembudidayaan ikan di air tawar, di air payau dan di laut yang tidak menggunakan modal asing dan atau tenaga asing. Perusahaan Perikanan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai SPI sebagaimana dimaksud dalam ayat (1), diatur oleh Gubernur Kepala Daerah Tingkat I dengan berpedoman kepada Tatacara Pemberian Izin Usaha Perikanan yang diatur oleh Menteri. tatacara pemberian IUP dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kecuali terhadap kegiatan-kegiatan yang menjadi kewenangan Gubernur Kepala Daerah Tingkat I sebagaimana dimaksud dalam Pasal 10, Menteri atau Pejabat yang ditunjuknya memberikan IUP, PPKA, SPI dan SIPI kepada Perusahaan Perikanan sebagaimana dimaksud dalam Pasal 6 dan Pasal 8.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kewenangan memberikan IUP kepada Perusahaan Perikanan yang penanaman modalnya dilakukan dalam rangka Undang-undang Nomor 1 Tahun 1970 tentang Penanaman Modal Dalam Negeri sebagaimana telah diubah dengan Undang-undang Nomor 11 Tahun 1970 dan dalam rangka Undang-undang Nomor 6 Tahun 1968 tentang Penanaman Modal Asing sebagaimana telah diubah dengan Undang-undang Nomor 12 Tahun 1970 sebagaimana dimaksud dalam ayat (1) dilimpahkan oleh Menteri kepada Ketua Badan Koordinasi Penanaman Modal (BKPM).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tatacara pemberian IUP dan SPI serta PPKA dan SIPI sebagaimana dimaksud dalam ayat (1) maupun pelimpahan kewenangan kepada Ketua Badan Koordinasi Penanaman Modal sebagaimana dimaksud dalam ayat (2) diatur oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Perusahaan Perikanan yang telah memiliki IUP dapat melakukan atau Perluasan Usaha Perluasan Usaha Penangkapan Pembudidayaan Ikan setelah mendapat persetujuan pemberi izin. Ikan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemegang IUP berkewajiban :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Melaksanakan ketentuan yang tercantum dalam IUP dan SIP;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Memohon persetujuan tertulis dari pemberi izin dalam hal memindah-tangankan IUP-nya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Menyampaikan laporan kegiatan usaha setiap 6 (enam) bulan sekali.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemegang PPKA berkewajiban :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Melaksanakan ketentuan yang tercantum dalam PPKA dan SIPI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-13/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Menyampaikan laporan kegiatan usaha setiap 3 (tiga) bulan sekali kepada pemberi izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kewajiban memiliki IUP sebagaimana dimaksud dalam Pasal 6 ayat (1) dikecualikan bagi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kegiatan penangkapan ikan yang dilakukan oleh Nelayan dengan menggunakan sebuah Kapal Perikanan tidak bermotor atau menggunakan motor luar atau motor dalam berukuran tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kegiatan pembudidayaan ikan di air tawar yang dilakukan oleh Petani Ikan di kolam air tenang dengan areal lahan tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Kegiatan pembudidayaan ikan di air payau yang dilakukan oleh Petani Ikan dengan areal lahan tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Kegiatan pembudidayaan ikan di laut yang dilakukan oleh Petani Ikan dengan areal lahan atau perairan tertentu.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ukuran Kapal Perikanan dan luas areal lahan atau perairan sebagaimana dimaksud dalam ayat (1) diatur oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nelayan dan Petani Ikan sebagaimana dimaksud dalam ayat (1) wajib mencatatkan kegiatan perikanannya kepada Dinas Perikanan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENCABUTAN IUP, SPI, PPKA DAN SIPI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "(1) IUP dapat dicabut oleh pemberi izin dalam, hal Perusahaan Perikanan : a. Melakukan perluasan usaha tanpa persetujuan tertulis dari pemberi izin; atau b. Tidak menyampaikan laporan kegiatan usaha 3 (tiga) kali berturut-turut atau dengan sengaja menyampaikan laporan yang tidak benar; atau c. Tidak melaksanakan ketentuan yang tercantum dalam IUP; atau d. Memindah-tangankan IUP-nya tanpa persetujuan tertulis dari pemberi izin; atau e. Selama 1 (satu) tahun berturut-turut sejak IUP dikeluarkan tidak melaksanakan kegiatan usahanya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "SPI dapat dicabut oleh pemberi izin apabila :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perusahaan Perikanan tidak melaksanakan ketentuan yang tercantum dalam IUP dan atau SPI; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Perusahaan Perikanan menggunakan Kapal Perikanan di luar kegiatan penangkapan ikan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-15/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Perusahaan Perikanan tidak lagi menggunakan Kapal Perikanan yang dilengkapi dengan SPI tersebut; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-15/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "IUP yang dimiliki oleh Perusahaan Perikanan dicabut oleh pemberi izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPKA dapat dicabut oleh pemberi izin apabila :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perusahaan Perikanan tidak melaksanakan ketentuan yang tercantum dalam PPKA; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Perusahaan Perikanan tidak menyampaikan laporan kegiatan usaha 3 (tiga) kali berturut-turut atau dengan sengaja menyampaikan laporan yang tidak benar; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Perusahaan Perikanan selama 1 (satu) tahun berturut-turut tidak melaksanakan kegiatan sejak PPKA dikeluarkan usahanya; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "IUP dicabut oleh pemberi izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "SIPI dapat dicabut oleh pemberi izin apabila Perusahaan Perikanan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Tidak melaksanakan ketentuan yang tercantum dalam PPKA dan atau SIPI; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Menggunakan Kapal Perikanan di luar kegiatan penangkapan ikan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Tidak lagi menggunakan Kapal Perikanan yang dilengkapi dengan SIPI tersebut; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-16/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "IUP dan atau PPKA dicabut oleh pemberi izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Ketentuan mengenai tatacara pencabutan IUP dan SPI serta PPKA dan SIPI ditetapkan oleh Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PUNGUTAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Perikanan yang melakukan Usaha Penangkapan Ikan atau Usaha Pembudidayaan Ikan di laut atau perairan lainnya di Wilayah Perikanan Republik Indonesia, dikenakan pungutan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pungutan perikanan tidak dikenakan bagi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-18/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Usaha pembudidayaan ikan yang dilakukan di tambak atau di kolam peraturan perundang-undangan telah menjadi hak tertentu dari yang yang menurut tanah atas di bersangkutan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-18/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Nelayan dan Petani Ikan sebagaimana dimaksud'dalam Pasal 1 ayat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pungutan Perikanan dikenakan kepada Perusahaan Perikanan atas ikan hasil penangkapan atau pembudidayaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pungutan Perikanan sebagaimana dimaksud dalam Pasal 19 ditetapkan sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-20/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Untuk kegiatan penangkapan ikan sebesar 2,5 % (dua setengah prosen) dari harga jual seluruh hasil ikan yang ditangkap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-20/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Untuk kegiatan pembudidayaan ikan sebesar 1 % (satu prosen) dari harga jual seluruh hasil ikan yang dibudidayakan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tatacara pemungutan Pungutan Perikanan diatur oleh Menteri dengan persetujuan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Pungutan Perikanan bagi Perusahaan Perikanan yang menggunakan Kapal Perikanan berbendera asing untuk menangkap ikan di ZEEI ditetapkan oleh Menteri dengan persetujuan Menteri Keuangan dan digunakan khusus untuk membiayai pembangunan perikanan nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pungutan perikanan sebagaimana dimaksud dalam Pasal 20 yang izin usahanya diberikan oleh Menteri atau pejabat yang ditunjuknya, merupakan pendapatan Pemerintah Pusat dan dialokasikan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sebesar 70 % (tujuh puluh prosen) untuk Pemerintah Pusat dan digunakan khusus untuk membiayaj pembangunan perikanan nasional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-15-tahun-1990/pasal-22/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sebesar 30 % (tiga puluh prosen) merupakan pendapatan langsung Pemerintah Daerah yang bersangkutan dan digunakan untuk membiayai pembangunan perikanan Daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembinaan dan pengawasan terhadap kegiatan Usaha Perikanan, Nelayan dan Petani Ikan dilakukan oleh Menteri dan Gubernur Kepala Daerah Tingkat I secara teratur dan berkesinambungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan sebagaimana dimaksud dalam ayat (1) meliputi teknik produksi, sarana usaha, iklim usaha, pembinaan pemasaran dan mutu hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-15-tahun-1990/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengawasan sebagaimana dimaksud dalam ayat (1) dilakukan terhadap dipenuhinya ketentuan dalam Peraturan Pemerintah ini dan ketentuan peraturan perundang-undangan lainnya yang berkaitan dengan kegiatan penangkapan ikan dan pembudidayaan ikan serta pananganan hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Setiap Perusahaan Perikanan yang melanggar ketentuan Pasal 6 dipidana menurut ketentuan Pasal 25, 26 dan Pasal 29 Undang-undang Nomor 9 Tahun 1985 tentang Perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Izin Usaha Perikanan yang telah diberikan sebelum ditetapkannya Peraturan Penierintah ini, tetap berlaku sampai habis masa berlakunya dan harus diperbaharui sepanjang Perusahaan Perikanan yang bersangkutan masih melanjutkan kegiatannya berdasarkan ketentuan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-15-tahun-1990/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-15-tahun-1990/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Mei 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 28 Mei 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

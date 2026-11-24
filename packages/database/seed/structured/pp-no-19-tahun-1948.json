@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-19-tahun-1948",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-1948",
+   "detailsId": "63050",
+   "judul": "PP No. 19 Tahun 1948 tentang Pengeluaran Surat Tanda Penerima Uang Berhubungan Dengan Kurangnya Uang Kecil - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66675/PP%20No.%2019%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:24.576332+00:00"
+  },
+  "sha256": "7a9a79a36482c5e0bc19d4a76a0356faadebb5dcb5e91278d29c5840d8ae49d1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-19-tahun-1948/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Surat tanda penerimaan uang sebagai termaksud dalam pasal 1 dapat ditukarkan dengan uang sah, dan uang sah dapat ditukarkan dengan surat tanda penerimaan uang, ditempat-tempat yang ditunjuk oleh Kepala-kepala Daerah Karesidenan, kepala Daerah Istimewa Yogyakarta atau Kepala Daerah Surakarta, dengan persetujuan Menteri Keuangan. Pasal 3.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1948/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Surat tanda penerimaan uang sebagai termaksud dalam pasal 1 harus ditukar kembali dengan uang sah atau dengan surat tanda penerimaan uang baru selambat-lambatnya dua bulan setelah mulai diperedarkan. Surat tanda penerimaan uang sebagai termaksud dalam pasal 1 hanya dapat digunakan untuk pembayaran dalam daerah kekuasaan Kepala Daerah yang mengusahakan pengeluarannya, atau daerah yang lebih kecil, menurut petunjuk Menteri Keuangan. Surat tanda penerimaan uang sebagai termaksud dalam pasal 1 hanya boleh dikeluarkan untuk menukarkan uang sah atau tanda penerimaan uang yang dikeluarkan terakhir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1948/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tiap lembar surat tanda penerimaan uang tersebut harus memuat dengan jelas tanggal mulai diperedarkan dan tanggal selambat- lambatnya untuk menukar kembali dengan uang sah. Surat tanda tersebut tidak dapat digunakan untuk pembayaran kepada kas-kas Negara dan kas-kas lain yang dilarang menerimanya oleh Menteri Keuangan. Pasal 5. Uang sah atau surat tanda penerimaan uang yang dikeluarkan terakhir, yang diterima karena penukaran, harus disimpan dan dibukukan menurut petunjuk Menteri Keuangan. Pasal 6. Peraturan lain untuk menjalankan Peraturan Pemerintah ini, ditetapkan oleh Menteri Keuangan. Pasal 7. Peraturan Pemerintah ini mulai berlaku pada hari diumumkan. Diumumkan pada tanggal 26 Agustus 1948. Ditetapkan di Yogyakarta pada tanggal 26 Agustus 1948. PRESIDEN REPUBLIK INDONESIA, SOEKARNO. Wakil Sekretaris Negara, RATMOKO Menteri Keuangan a.i. MOHAMMAD HATTA. Menteri Dalam Negeri, SOEKIMAN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1948/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Menteri Keuangan memberikan peraturan lebih lanjut tentang serat tanda yang belum ditukarkan pada hari tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1948/pasal-2/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Bon yang maksudnya sama dengan surat tanda tersebut, yang pada hari pengumuman Peraturan Pemerintah ini telah diperedarkan, harus diganti dengan uang sah atau dengan surat tanda penerimaan, yang memenuhi syarat-syarat yang diadakan dengan atau berdasarkan atas Peraturan Pemerintah ini, selambat-lambatnya pada tanggal 15 September 1948. Pasal 4.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

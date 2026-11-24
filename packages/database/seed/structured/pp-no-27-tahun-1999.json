@@ -1,0 +1,1643 @@
+{
+ "slug": "pp-no-27-tahun-1999",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka melaksanakan pembangunan berwawasan lingkungan hidup sebagai upaya sadar dan berencana mengelola sumber daya secara bijaksana dalam pembangunan yang berkelanjutan untuk meningkatkan kesejahteraan dan mutu hidup, perlu dijaga keserasian antar berbagai usaha dan/atau kegiatan;",
+   "bahwa setiap usaha dan/atau kegiatan pada dasarnya menimbulkan dampak terhadap lingkungan hidup yang perlu dianalisis sejak awal perencanaannya, sehingga langkah pengendalian dampak negatif dan pengembangan dampak positif dapat dipersiapkan sedini mungkin;",
+   "bahwa analisis mengenai dampak lingkungan hidup diperlukan bagi proses pengambilan keputusan tentang pelaksanaan rencana usaha dan/atau kegiatan yang mempunyai dampak besar dan penting terhadap lingkungan hidup;",
+   "bahwa dengan diundangkannya Undang-undang Nomor 23 Tahun 1997 tentang Pengelolaan Lingkungan Hidup, perlu dilakukan penyesuaian terhadap Peraturan Pemerintah Nomor 51 Tahun 1993 tentang Analisis Mengenai Dampak Lingkungan;",
+   "bahwa berdasarkan hal tersebut di atas dipandang perlu menetapkan Peraturan Pemerintah tentang Analisis Mengenai Dampak Lingkungan Hidup;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-27-tahun-1999",
+   "detailsId": "54280",
+   "judul": "PP No. 27 Tahun 1999 tentang Analisis Mengenai Dampak Lingkungan Hidup - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/43677/PP%20No.%2027%20th%201999.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-51-tahun-1993"
+   ],
+   "scrapedAt": "2026-10-06T00:45:26.173555+00:00"
+  },
+  "sha256": "f33853021aaa1df33886f8be82ff6588a791506cb681d548be3d52fc59ea46c6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 42,
+  "ayat_angka": 94,
+  "huruf": 26
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PEMERINTAH TENTANG ANALISIS MENGENAI DAMPAK LINGKUNGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Analisis mengenai dampak lingkungan hidup (AMDAL) adalah kajian mengenai dampak besar dan penting suatu usaha dan/atau kegiatan yang direncanakan pada lingkungan hidup yang diperlukan bagi proses pengambilan keputusan tentang penyelenggaraan usaha dan/atau kegiatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Dampak besar dan penting adalah perubahan lingkungan hidup yang sangat mendasar yang diakibatkan oleh suatu usaha dan/atau kegiatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kerangka acuan adalah ruang lingkup kajian analisis mengenai dampak lingkungan hidup yang merupakan hasil pelingkupan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Analisis dampak lingkungan hidup (ANDAL) adalah telaahan secara cermat dan mendalam tentang dampak besar dan penting suatu rencana usaha dan/atau kegiatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Rencana pengelolaan lingkungan hidup (RKL) adalah upaya penanganan dampak besar dan penting terhadap lingkungan hidup yang ditimbulkan akibat dari rencana usaha dan/atau kegiatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Rencana pemantauan lingkungan hidup (RPL) adalah upaya pemantauan komponen lingkungan hidup yang terkena dampak besar dan penting akibat dari rencana usaha dan/atau kegiatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemrakarsa adalah orang atau badan hukum yang bertanggung jawab atas suatu 8. 9. rencana usaha dan/atau kegiatan yang akan dilaksanakan; Instansi yang berwenang adalah instansi yang berwenang memberikan keputusan izin melakukan usaha dan/atau kegiatan; Instansi yang bertanggung jawab adalah instansi yang berwenang memberikan keputusan kelayakan lingkungan hidup dengan pengertian bahwa kewenangan di tingkat pusat berada pada Kepala instansi yang ditugasi mengendalikan dampak lingkungan dan di tingkat daerah berada pada Gubernur;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Instansi yang membidangi usaha dan/atau kegiatan adalah instansi yang membina secara teknis usaha dan/atau kegiatan dimaksud;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Komisi penilai adalah komisi yang bertugas menilai dokumen analisis mengenai dampak lingkungan hidup dengan pengertian di tingkat pusat oleh komisi penilai pusat dan di tingkat daerah oleh komisi penilai daerah;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Menteri adalah Menteri yang ditugasi untuk mengelola lingkungan hidup;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Instansi yang ditugasi mengendalikan dampak lingkungan adalah instansi yang bertanggung jawab di bidang pengendalian dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Gubernur adalah Gubernur Kepala Daerah Tingkat I atau Gubernur Kepala Daerah Istimewa atau Gubernur Kepala Daerah Khusus Ibu Kota Jakarta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Analisis mengenai dampak lingkungan hidup merupakan bagian kegiatan studi kelayakan rencana usaha dan/atau kegiatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil analisis mengenai dampak lingkungan hidup digunakan sebagai bahan perencanaan pembangunan wilayah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyusunan analisis mengenai dampak lingkungan hidup dapat dilakukan melalui pendekatan studi terhadap kegiatan tunggal, terpadu atau kegiatan dalam kawasan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha dan/atau kegiatan yang kemungkinan dapat menimbulkan dampak besar dan penting terhadap lingkungan hidup meliputi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengubahan bentuk lahan dan bentang alam;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "eksploitasi sumber daya alam baik yang terbaharui maupun yang tak terbaharui;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "proses dan kegiatan yang secara potensial dapat menimbulkan pemborosan, pencemaran dan kerusakan lingkungan hidup, serta kemerosotan sumber daya alam dalam pemanfaatannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "proses dan kegiatan yang hasilnya dapat mempengaruhi lingkungan alam, lingkungan buatan, serta lingkungan sosial dan budaya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "proses dan kegiatan yang hasilnya akan dapat mempengaruhi pelestarian kawasan konservasi sumber daya alam dan/atau perlindungan cagar budaya; introduksi jenis tumbuh-tumbuhan, jenis hewan, dan jasad renik; f.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pembuatan dan penggunaan bahan hayati dan non-hayati;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "penerapan teknologi yang diperkirakan mempunyai potensi besar untuk i. mempengaruhi lingkungan hidup; kegiatan yang mempunyai risiko tinggi, dan/atau mempengaruhi pertahanan negara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jenis usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1) yang wajib memiliki analisis mengenai dampak lingkungan hidup ditetapkan oleh Menteri setelah mendengar dan memperhatikan saran dan pendapat Menteri lain dan/atau Pimpinan Lembaga Pemerintah Non Departemen yang terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jenis usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (2) dapat ditinjau kembali sekurang-kurangnya dalam waktu 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bagi rencana usaha dan/atau kegiatan di luar usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (2) wajib melakukan upaya pengelolaan lingkungan hidup dan upaya pemantauan lingkungan hidup yang pembinaannya berada pada instansi yang membidangi usaha dan/atau kegiatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pejabat dari instansi yang berwenang menerbitkan izin melakukan usaha dan/atau kegiatan wajib mencantumkan upaya pengelolaan lingkungan hidup dan upaya pemantauan lingkungan hidup dalam izin melakukan usaha dan/atau kegiatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai persyaratan dan kewajiban upaya pengelolaan lingkungan hidup dan upaya pemantauan lingkungan hidup sebagaimana dimaksud pada ayat (5) ditetapkan oleh instansi yang membidangi usaha dan/atau kegiatan setelah mempertimbangkan masukan dari instansi yang bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha dan/atau kegiatan yang akan dibangun di dalam kawasan yang sudah dibuatkan analisis mengenai dampak lingkungan hidup tidak diwajibkan membuat analisis mengenai dampak lingkungan hidup lagi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1) diwajibkan untuk melakukan pengendalian dampak lingkungan hidup dan perlindungan fungsi lingkungan hidup sesuai dengan rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup kawasan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kriteria mengenai dampak besar dan penting suatu usaha dan/atau kegiatan terhadap lingkungan hidup antara lain : ditetapkan oleh Kepala instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jumlah manusia yang akan terkena dampak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "luas wilayah persebaran dampak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "intensitas dan lamanya dampak berlangsung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "banyaknya komponen lingkungan lainnya yang terkena dampak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "sifat kumulatif dampak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "berbalik (reversible) atau tidak berbaliknya (irreversible) dampak.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman mengenai penentuan dampak besar dan penting sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Analisis mengenai dampak lingkungan hidup sebagaimana dimaksud dalam Pasal 3 ayat (2) tidak perlu dibuat bagi rencana usaha dan/atau kegiatan untuk menanggulangi suatu keadaan darurat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri lain dan/atau Pimpinan Lembaga Pemerintah Non Departemen yang membidangi usaha dan/atau kegiatan yang bersangkutan menetapkan telah terjadinya suatu keadaan darurat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Analisis mengenai dampak lingkungan hidup merupakan syarat yang harus dipenuhi untuk mendapatkan izin melakukan usaha dan/atau kegiatan yang diterbitkan oleh pejabat yang berwenang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan izin melakukan usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1) diajukan oleh pemrakarsa kepada pejabat yang berwenang menurut peraturan perundang- undangan yang berlaku dan wajib melampirkan keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan sebagaimana dimaksud dalam Pasal 19 ayat (2) yang diberikan oleh instansi yang bertanggungjawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pejabat yang berwenang sebagaimana dimaksud pada ayat (2) mencantumkan syarat dan kewajiban sebagaimana ditentukan dalam rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup sebagai ketentuan dalam izin melakukan usaha dan/atau kegiatan yang diterbitkannya. wajib dipatuhi dan dilaksanakan oleh pemrakarsa, dalam menjalankan usaha dan/atau kegiatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan dalam izin melakukan usaha dan/atau kegiatan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KOMISI PENILAI ANALISIS MENGENAI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi penilai dibentuk :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "di tingkat pusat : oleh Menteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "di tingkat daerah : oleh Gubernur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Komisi penilai sebagaimana dimaksud pada ayat (1) :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "di tingkat pusat berkedudukan di instansi yang ditugasi mengendalikan dampak lingkungan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "di tingkat daerah berkedudukan di instansi yang ditugasi mengendalikan dampak lingkungan Daerah Tingkat I.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Komisi penilai menilai kerangka acuan, analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam menjalankan tugasnya, Komisi Penilai sebagaimana dimaksud pada ayat (1) dibantu oleh tim teknis yang bertugas memberikan pertimbangan teknis atas kerangka acuan, analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam menjalankan tugasnya, komisi penilai pusat sebagaimana dimaksud pada ayat (1) huruf a dibantu oleh tim teknis dari masing-masing sektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Komisi penilai sebagaimana dimaksud pada ayat (1) menyerahkan hasil penilaiannya kepada instansi yang bertanggung jawab untuk dijadikan dasar keputusan atas kerangka acuan, analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan mengenai tata kerja komisi penilai dimaksud, baik pusat maupun daerah, ditetapkan oleh Menteri, setelah mendengar dan memperhatikan saran/pendapat Menteri Dalam Negeri dan Menteri lain dan/atau Pimpinan Lembaga Pemerintah Non Departemen yang terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-8/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan mengenai tata kerja tim teknis sebagaimana dimaksud pada ayat (5) ditetapkan lebih lanjut oleh Komisi Penilai Pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi penilai pusat sebagaimana dimaksud dalam Pasal 8 ayat (1) huruf a terdiri atas unsur- unsur instansi yang ditugasi mengelola lingkungan hidup, instansi yang ditugasi mengendalikan dampak lingkungan, Departemen Dalam Negeri, instansi yang ditugasi bidang kesehatan, instansi yang ditugasi bidang pertahanan keamanan, instansi yang ditugasi bidang perencanaan pembangunan nasional, instansi yang ditugasi bidang penanaman modal, instansi yang ditugasi bidang pertanahan, instansi yang ditugasi bidang ilmu pengetahuan, departemen dan/atau Lembaga Pemerintah Non Departemen yang membidangi usaha dan/atau kegiatan yang bersangkutan, departemen dan/atau Lembaga Pemerintah Non Departemen yang terkait, wakil Propinsi Daerah Tingkat I yang bersangkutan, Wakil Kabupaten/Walikotamadya Daerah Tingkat II yang bersangkutan, ahli di bidang lingkungan hidup, ahli di bidang yang berkaitan, organisasi lingkungan hidup sesuai dengan bidang usaha dan/atau kegiatan yang dikaji, wakil masyarakat terkena dampak, serta anggota lain yang dipandang perlu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai susunan anggota komisi penilai pusat sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi penilai daerah sebagaimana dimaksud dalam Pasal 8 ayat (1) huruf b terdiri atas unsur-unsur : Badan Perencanaan Pembangunan Daerah Tingkat I, instansi yang ditugasi mengendalikan dampak lingkungan, instansi yang ditugasi mengendalikan dampak lingkungan Daerah Tingkat I, instansi yang ditugasi bidang penanaman modal daerah, instansi yang ditugasi bidang pertanahan di daerah, instansi yang ditugasi bidang pertahanan keamanan daerah, instansi yang ditugasi bidang kesehatan Daerah Tingkat I, wakil instansi pusat dan/atau daerah yang membidangi usaha dan/atau kegiatan yang bersangkutan, wakil instansi terkait di Propinsi Daerah Tingkat I, wakil Kabupaten/Kotamadya Daerah Tingkat II yang bersangkutan, pusat studi lingkungan hidup perguruan tinggi daerah yang bersangkutan, ahli di bidang lingkungan hidup, ahli di bidang yang berkaitan, organisasi lingkungan hidup di daerah, organisasi lingkungan hidup sesuai dengan bidang usaha dan/atau kegiatan yang dikaji, warga masyarakat yang terkena dampak, serta anggota lain yang dipandang perlu. Komisi penilai pusat berwenang menilai hasil analisis mengenai dampak lingkungan hidup bagi jenis usaha dan/atau kegiatan yang memenuhi kriteria :",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai susunan anggota komisi penilai daerah sebagaimana dimaksud pada ayat (1) ditetapkan oleh Gubernur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "a. usaha dan/atau kegiatan bersifat strategis dan/atau menyangkut ketahanan dan keamanan negara; b. usaha dan/atau kegiatan yang lokasinya meliputi lebih dari satu wilayah propinsi daerah tingkat I; c. usaha dan/atau kegiatan yang berlokasi di wilayah sengketa dengan negara lain; d. usaha dan/atau kegiatan yang berlokasi di wilayah ruang lautan; e. Usaha dan/atau kegiatan yang berlokasi di lintas batas negara kesatuan Republik Indonesia dengan negara lain;",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Komisi penilai daerah berwenang menilai analisis mengenai dampak lingkungan hidup bagi jenis-jenis usaha dan/atau kegiatan yang diluar kriteria sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tim teknis sebagaimana dimaksud dalam Pasal 8 ayat (4) terdiri atas para ahli dari instansi teknis yang membidangi usaha dan/atau kegiatan yang bersangkutan dan instansi yang ditugasi mengendalikan dampak lingkungan, serta ahli lain dengan bidang ilmu yang terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai susunan anggota tim teknis sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri untuk komisi penilai pusat, dan oleh Gubernur untuk komisi penilai daerah tingkat I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Dalam melaksanakan tugasnya, komisi penilai sebagaimana dimaksud dalam Pasal 8 ayat (1), wajib memperhatikan kebijaksanaan nasional pengelolaan lingkungan hidup, rencana pengembangan wilayah, rencana tata ruang wilayah dan kepentingan pertahanan keamanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TATA LAKSANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerangka acuan sebagai dasar pembuatan analisis dampak lingkungan hidup disusun oleh pemrakarsa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kerangka acuan sebagaimana dimaksud pada ayat (1) disusun berdasarkan pedoman yang ditetapkan oleh Kepala instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerangka acuan sebagaimana dimaksud dalam Pasal 14 ayat (1) disampaikan oleh pemrakarsa kepada instansi yang bertanggung jawab, dengan ketentuan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "di tingkat pusat : kepada Kepala instansi yang ditugasi mengendalikan dampak lingkungan melalui komisi penilai pusat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "di tingkat daerah : kepada Gubernur melalui komisi penilai daerah tingkat I.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Komisi penilai sebagaimana dimaksud pada ayat (1) wajib memberikan tanda bukti penerimaan kepada pemrakarsa dengan menuliskan hari dan tanggal diterimanya kerangka acuan pembuatan analisis dampak lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerangka acuan sebagaimana dimaksud dalam Pasal 15 dinilai oleh komisi penilai bersama dengan pemrakarsa untuk menyepakati ruang lingkup kajian analisis dampak lingkungan hidup yang akan dilaksanakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan atas penilaian kerangka acuan sebagaimana dimaksud pada ayat (1) wajib diberikan oleh instansi yang bertanggung jawab dalam jangka waktu selambat-lambatnya 75 (tujuh puluh lima) hari kerja terhitung sejak tanggal diterimanya kerangka acuan sebagaimana dimaksud dalam Pasal 15 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila instansi yang bertanggung jawab tidak menerbitkan keputusan dalam jangka waktu sebagaimana dimaksud pada ayat (2), maka instansi yang bertanggung jawab dianggap menerima kerangka acuan dimaksud.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Instansi yang bertanggung jawab wajib menolak kerangka acuan sebagaimana dimaksud pada ayat (2) apabila rencana lokasi dilaksanakannya usaha dan/atau kegiatan terletak dalam kawasan yang tidak sesuai dengan rencana tata ruang wilayah dan/atau rencana tata ruang kawasan. Bagian Kedua Analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemrakarsa menyusun analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup, berdasarkan kerangka acuan yang telah mendapatkan keputusan dari instansi yang bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyusunan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup, berpedoman pada pedoman penyusunan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup yang ditetapkan oleh Kepala instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Analisis dampak lingkungan hidup,rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup, diajukan oleh pemrakarsa kepada : Analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup dinilai :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "di tingkat pusat : Kepala instansi yang ditugasi mengendalikan dampak lingkungan melalui komisi penilai pusat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "di tingkat daerah : Gubernur melalui komisi penilai daerah tingkat I.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Komisi penilai sebagaimana dimaksud pada ayat (1) wajib memberikan tanda bukti penerimaan kepada pemrakarsa dengan menuliskan hari dan tanggal diterimanya analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "a. di tingkat pusat : oleh komisi penilai pusat; b. di tingkat daerah : oleh komisi penilai daerah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instansi yang bertanggung jawab menerbitkan keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan berdasarkan hasil penilaian analisis dampak lingkungan hidup, rencana pengelolaan lingkungan dan rencana pemantauan lingkungan hidup sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam keputusan kelayakan lingkungan hidup sebagaimana dimaksud pada ayat (2) wajib dicantumkan dasar pertimbangan dikeluarkannya keputusan itu, dan pertimbangan terhadap saran, pendapat, dan tanggapan yang diajukan oleh warga masyarakat sebagaimana dimaksud dalam Pasal 34 ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Instansi yang bertanggung jawab menerbitkan keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan sebagaimana dimaksud dalam Pasal 19 ayat (2), dalam jangka waktu selambat-lambatnya 75 (tujuh puluh lima) hari kerja terhitung sejak tanggal diterimanya dokumen analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup sebagaimana dimaksud dalam Pasal 18 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila instansi yang bertanggung jawab tidak menerbitkan keputusan dalam jangka waktu sebagaimana dimaksud pada ayat (1), maka rencana usaha dan/atau kegiatan yang bersangkutan dianggap layak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Instansi yang bertanggung jawab mengembalikan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup kepada pemrakarsa untuk diperbaiki apabila kualitas analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup tidak sesuai dengan pedoman penyusunan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup. Apabila hasil penilaian komisi penilai menyimpulkan bahwa :",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perbaikan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup diajukan kembali kepada instansi yang bertanggung jawab sesuai dengan ketentuan dalam Pasal 17, Pasal 18, Pasal 19, dan Pasal 20.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penilaian atas analisis dampak lingkungan hidup,rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup serta pemberian keputusan kelayakan lingkungan hidup atas usaha dan/atau kegiatan dilakukan sesuai dengan ketentuan dalam Pasal 19 dan Pasal 20.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "a. dampak besar dan penting negatif yang akan ditimbulkan oleh usaha dan/atau kegiatan yang bersangkutan tidak dapat ditanggulangi oleh teknologi yang tersedia, atau b. biaya penanggulangan dampak besar dan penting negatif lebih besar dari pada manfaat dampak besar dan penting positif yang akan ditimbulkan oleh usaha dan/atau kegiatan yang bersangkutan. c. maka instansi yang bertanggung jawab memberikan keputusan bahwa rencana usaha dan/atau kegiatan yang bersangkutan tidak layak lingkungan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instansi yang berwenang menolak permohonan izin melakukan usaha dan/atau kegiatan yang bersangkutan apabila instansi yang bertanggung jawab memberikan keputusan sebagaimana dimaksud pada ayat (1)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Salinan analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup, serta salinan keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan disampaikan oleh : a. di tingkat pusat : instansi yang ditugasi mengendalikan dampak lingkungan kepada instansi yang berwenang menerbitkan izin melakukan usaha dan/atau kegiatan yang bersangkutan, instansi terkait yang berkepentingan, Gubernur dan Bupati/ Walikotamadya Kepala Daerah Tingkat II yang bersangkutan. b. di tingkat daerah : Gubernur kepada Menteri, Kepala instansi yang ditugasi mengendalikan dampak lingkungan, instansi yang berwenang menerbitkan izin melakukan usaha dan/atau kegiatan yang bersangkutan, dan instansi yang terkait. Bagian Ketiga Kadaluwarsa dan batalnya keputusan hasil Analisis Dampak Lingkungan Hidup, Rencana Pengelolaan Lingkungan Hidup, Rencana Pemantauan Lingkungan Hidup",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan dinyatakan kadaluwarsa atas kekuatan Peraturan Pemerintah ini, apabila rencana usaha dan/atau kegiatan tidak dilaksanakan dalam jangka waktu 3 (tiga) tahun sejak diterbitkannya keputusan kelayakan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila keputusan kelayakan lingkungan hidup dinyatakan kadaluwarsa sebagaimana dimaksud pada ayat (1), maka untuk melaksanakan rencana usaha dan/atau kegiatannya, pemrakarsa wajib mengajukan kembali permohonan persetujuan atas analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup kepada instansi yang bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Terhadap permohonan sebagaimana dimaksud pada ayat (2) instansi yang bertanggung jawab memutuskan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-24/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup yang pernah disetujui dapat sepenuhnya dipergunakan kembali; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-24/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pemrakarsa wajib membuat analisis mengenai dampak lingkungan hidup baru sesuai dengan ketentuan Peraturan Pemerintah ini.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan menjadi batal atas kekuatan Peraturan Pemerintah ini apabila pemrakarsa memindahkan lokasi usaha dan/atau kegiatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila pemrakarsa hendak melaksanakan usaha dan/atau kegiatan di lokasi sebagaimana dimaksud pada ayat (1), pemrakarsa wajib membuat analisis mengenai dampak lingkungan hidup baru sesuai dengan ketentuan Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan menjadi batal atas kekuatan Peraturan Pemerintah ini apabila pemrakarsa mengubah desain dan/atau proses dan/atau kapasitas dan/atau bahan baku dan/atau bahan penolong.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila pemrakarsa hendak melaksanakan usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1), maka pemrakarsa wajib membuat analisis mengenai dampak lingkungan hidup baru sesuai dengan ketentuan Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keputusan kelayakan lingkungan hidup suatu usaha dan/atau kegiatan menjadi batal atas kekuatan Peraturan Pemerintah ini apabila terjadi perubahan lingkungan hidup yang sangat mendasar akibat peristiwa alam atau karena akibat lain sebelum dan pada waktu usaha dan/atau kegiatan yang bersangkutan dilaksanakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila pemrakarsa hendak melaksanakan usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1), maka pemrakarsa wajib membuat analisis mengenai dampak lingkungan hidup baru sesuai dengan ketentuan Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMBINAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "lnstansi yang ditugasi mengendalikan dampak lingkungan melakukan pembinaan teknis terhadap komisi penilai pusat dan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instansi yang membidangi usaha dan/atau kegiatan melakukan pembinaan teknis pelaksanaan pengelolaan dan pemantauan lingkungan hidup yang menjadi bagian dari izin.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendidikan, pelatihan, dan pengembangan di bidang analisis mengenai dampak lingkungan hidup dilakukan dengan koordinasi instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lembaga pendidikan dan pelatihan di bidang analisis mengenai dampak lingkungan hidup diselenggarakan dengan koordinasi dari instansi yang ditugasi mengendalikan dampak lingkungan dengan memperhatikan sistem akreditasi sesuai dengan ketentuan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Kualifikasi penyusun analisis mengenai dampak lingkungan hidup dengan pemberian lisensi/sertifikasi dan pengaturannya ditetapkan oleh instansi yang ditugasi mengendalikan dampak lingkungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Penyusunan analisis mengenai dampak lingkungan hidup bagi usaha dan/atau golongan ekonomi lemah dibantu pemerintah, dan ditetapkan lebih lanjut oleh Menteri setelah memperhatikan saran dan pendapat instansi yang membidangi usaha dan/atau kegiatan yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemrakarsa usaha dan/atau kegiatan wajib menyampaikan laporan pelaksanaan rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup kepada instansi yang membidangi usaha dan/atau kegiatan yang bersangkutan, instansi yang ditugasi mengendalikan dampak lingkungan dan Gubernur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "lnstansi yang ditugasi mengendalikan dampak lingkungan melakukan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-32/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengawasan dan pengevaluasian penerapan peraturan perundang-undangan di bidang analisis mengenai dampak lingkungan hidup;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-32/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengujian laporan yang disampaikan oleh pemrakarsa usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-27-tahun-1999/pasal-32/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyampaian laporan pengawasan dan evaluasi hasilnya kepada Menteri secara berkala, sekurang-kurangnya 2 (dua) kali dalam 1 (satu) tahun, dengan tembusan kepada instansi yang berwenang menerbitkan izin dan Gubernur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETERBUKAAN INFORMASI DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap usaha dan/atau kegiatan sebagaimana dimaksud dalam Pasal 3 ayat (2) wajib diumumkan terlebih dahulu kepada masyarakat sebelum pemrakarsa menyusun analisis mengenai dampak lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengumuman sebagaimana dimaksud pada ayat (1) dilakukan oleh instansi yang bertanggung jawab dan pemrakarsa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam jangka waktu 30 (tiga puluh) hari kerja sejak diumumkannya rencana usaha dan/atau kegiatan sebagaimana dimaksud pada ayat (1), warga masyarakat yang berkepentingan berhak mengajukan saran, pendapat, dan tanggapan tentang akan dilaksanakannya rencana usaha dan/atau kegiatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Saran, pendapat, dan tanggapan sebagaimana dimaksud pada ayat (3) diajukan secara tertulis kepada instansi yang bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Saran, pendapat, dan tanggapan sebagaimana dimaksud pada ayat (3) wajib dipertimbangkan dan dikaji dalam analisis mengenai dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-33/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Tata cara dan bentuk pengumuman sebagaimana dimaksud pada ayat (1), serta tata cara penyampaian saran, pendapat, dan tanggapan sebagaimana dimaksud pada ayat (3) ditetapkan oleh Kepala instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Warga masyarakat yang berkepentingan wajib dilibatkan dalam proses penyusunan kerangka acuan, penilaian kerangka acuan, analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bentuk dan tata cara keterlibatan warga masyarakat sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Semua dokumen analisis mengenai dampak lingkungan hidup, saran, pendapat, dan tanggapan warga masyarakat yang berkepentingan, kesimpulan komisi penilai, dan keputusan kelayakan lingkungan hidup dari usaha dan/atau kegiatan bersifat terbuka untuk umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instansi yang bertanggung jawab wajib menyerahkan dokumen sebagaimana dimaksud pada ayat (1) kepada suatu lembaga dokumentasi dan/atau kearsipan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMBIAYAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Biaya pelaksanaan kegiatan komisi penilai dan tim teknis analisis mengenai dampak lingkungan hidup dibebankan : a. di tingkat pusat : pada anggaran instansi yang ditugasi mengendalikan dampak lingkungan; b. di tingkat daerah : pada anggaran instansi yang ditugasi mengendalikan dampak lingkungan daerah tingkat I",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Biaya penyusunan dan penilaian kerangka acuan, analisis dampak lingkungan hidup, rencana pengelolaan lingkungan hidup, dan rencana pemantauan lingkungan hidup dibebankan kepada pemrakarsa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Biaya pembinaan teknis dan pengawasan sebagaimana dimaksud dalam Pasal 28 ayat (1) dan Pasal 32 ayat (2) dibebankan pada anggaran instansi yang ditugasi mengendalikan dampak lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biaya pengumuman yang dilakukan oleh instansi yang bertanggung jawab sebagaimana dimaksud dalam Pasal 33 ayat (2) dibebankan pada anggaran instansi yang bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-27-tahun-1999/pasal-38/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Biaya pembinaan pelaksanaan rencana pengelolaan lingkungan hidup dan rencana pemantauan lingkungan hidup sebagaimana dimaksud dalam Pasal 28 ayat (2) dibebankan pada anggaran instansi yang membidangi usaha dan/atau kegiatan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Penilaian analisis mengenai dampak lingkungan hidup suatu usaha dan/atau kegiatan yang pada saat diberlakukannya Peraturan Pemerintah ini : a. sedang dalam proses penilaian oleh komisi penilai analisis mengenai dampak lingkungan hidup yang bersangkutan; atau b. sudah diajukan kepada instansi yang membidangi usaha dan/atau kegiatan yang bersangkutan, tetap dinilai oleh komisi penilai instansi yang bersangkutan, dan harus selesai paling lambat 6 (enam) bulan sejak Peraturan Pemerintah ini berlaku secara efektif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-27-tahun-1999/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Pada saat berlakunya Peraturan Pemerintah ini semua peraturan perundang-undangan tentang analisis mengenai dampak lingkungan hidup yang telah ada tetap berlaku sepanjang tidak bertentangan dengan dan belum diganti berdasarkan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, maka Peraturan Pemerintah Nomor 51 Tahun 1993 tentang Analisis Mengenai Dampak Lingkungan (Lembaran Negara Tahun 1993 Nomor 84, Tambahan Lembaran Negara Nomor 3538) dinyatakan tidak berlaku lagi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-27-tahun-1999/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Peraturan Pemerintah ini mulai berlaku efektif 18 (delapan belas) bulan sejak tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 7 Mei 1999 ttd. BACHARUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 7 Mei 1999 MENTERI NEGARA SEKRETARIS NEGARA ttd. AKBAR TANDJUNG LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 59",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

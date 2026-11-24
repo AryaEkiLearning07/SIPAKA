@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-60-tahun-2002",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk memberlakukan secara efektif Undang-undang Nomor 2 Tahun 2001 tentang Pembentukan Kota Lhokseumawe sebagaimana dimaksud pada huruf a, perlu ditetapkan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-60-tahun-2002",
+   "detailsId": "52591",
+   "judul": "PP No. 60 Tahun 2002 tentang Pemberlakuan Secara Efektif Undang-Undang Nomor 2 Tahun 2001 Tentang. Pembentukan Kota Lhokseumawe - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/41954/PP%20No.60%20TH%202002.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:40:16.027739+00:00"
+  },
+  "sha256": "9126f86a6df6b6ce3cc6a7daa930bddcc40ac080d7046c64e95ded19617cfafc",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-60-tahun-2002/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Undang-undang Nomor 2 Tahun 2001 tentang Pembentukan Kota Lhokseumawe dinyatakan berlaku secara efektif.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-2002/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 21 Juni 2002. - - Agar... Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 12 Nopember 2002 PRESIDEN REPUBLIK INDONESIA, ttd MEGAWATI SOEKARNOPUTRI - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

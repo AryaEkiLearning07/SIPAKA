@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-1-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "bahwa dianggap perlu untuk menunda pelaksanaan beberapa ketentuan dari Peraturan Presiden Nomor 17 Tahun 1965;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-1-tahun-1966",
+   "detailsId": "42536",
+   "judul": "PERPRES No. 1 Tahun 1966 tentang Penangguhan Pelaksanaan Beberapa Ketentuan dari Peraturan Presiden Nomor 17 Tahun 1965&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73298/Perpres%20No.%201%20Tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:01.674877+00:00"
+  },
+  "sha256": "8dae674220fb1406fb2fa48ee0e9a728a6407654f57bc4645697605a80f5f13b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

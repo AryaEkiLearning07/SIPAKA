@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-63-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa kekayaan Negara yang berada pada Direktorat Jenderal Perhubungan Laut, Departemen Perhubungan berupa suku cadang kapal-kapal keruk dan Kapal Tunda Anoman VII dapat ditetapkan untuk dijadikan penambahan penyertaan modal Negara Republik Indonesia ke dalam modal Perusahaan Umum (PERUM) Pengerukan;",
+   "bahwa penambahan penyertaan modal Negara tersebut, perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-63-tahun-1990",
+   "detailsId": "63586",
+   "judul": "PP No. 63 Tahun 1990 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Umum (Perum) Pengerukan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53786/PP%20NO%2063%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:45.192307+00:00"
+  },
+  "sha256": "45048646e48a82b12dad5a293a3f40592410416b5d5016c967a771b692e52e96",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-63-tahun-1990/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Terhitung tanggal 20 Agustus 1987 kekayaan Negara yang berada pada Direktorat Jenderal Perhubungan Laut, Departemen Perhubungan berupa suku cadang kapal-kapal keruk yang berasal dari dana bantuan Belanda dan Jepang serta Kapal Tunda Anoman VII dialihkan dan ditetapkan sebagai penambahan penyertaan modal Negara kedalam modal Perusahaan Umum (PERUM) Pengerukan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-63-tahun-1990/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Nilai penambahan penyertaan modal Negara Republik Indonesia kedalam modal Perusahaan Umum (PERUM) Pengerukan sebagaimana dimaksud dalam Pasal 1 sebesar Rp 10.104.626.203,41 (sepuluh milyar seratus empat juta enam ratus dua puluh enam ribu dua ratus tiga rupiah empat puluh satu sen).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-63-tahun-1990/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini diatur oleh Menteri Perhubungan dan Menteri Keuangan, baik secara bersama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-63-tahun-1990/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 29 Desember 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 29 Desember 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

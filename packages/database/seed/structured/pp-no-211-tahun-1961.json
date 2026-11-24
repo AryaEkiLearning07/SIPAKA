@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-211-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Pemerintah No. 59 tahun 1959, tentang peraturan tentang kedudukan keuangan Wakil Ketua, Anggota dan Sekretaris Jenderal/Sekretaris Dewan Pertimbangan Agung Sementara Republik Indonesia perlu diperbaiki:"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-211-tahun-1961",
+   "detailsId": "75783",
+   "judul": "PP No. 211 Tahun 1961 tentang Kedudukan Keuangan Wakil Ketua, Anggota Dan Sekretaris Jenderal/Sekretaris Dewan Pertimbangan Agung Sementara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66534/pp%20no%20211%20tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-59-tahun-1959"
+   ],
+   "scrapedAt": "2026-10-06T06:02:54.924332+00:00"
+  },
+  "sha256": "4ac9541c6aaf3e0e9c13e104e5d3ce879f7033cec4dcaaf5203160361b011561",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

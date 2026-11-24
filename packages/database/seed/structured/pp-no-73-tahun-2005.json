@@ -1,0 +1,1235 @@
+{
+ "slug": "pp-no-73-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 127 ayat (1) Undang-Undang Nomor 32 Tahun 2004 Tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437) sebagaimana telah diubah dengan Peraturan Pemerintah Pengganti Undang-Undang Nomor 3 Tahun 2005 tentang Perubahan Atas Undang-Undang Nomor 32 Tahun 2004 Tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2005 Nomor 38, Tambahan Lembaran Negara Republik Indonesia Nomor 4493) yang telah ditetapkan dengan Undang-Undang Nomor 8 Tahun 2005 (Lembaran Negara Indonesia Tahun 2005 Nomor 108, Tambahan Republik Lembaran Negara Republik Indonesia Nomor 4548), perlu ditetapkan Peraturan Pemerintah Tentang Kelurahan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-73-tahun-2005",
+   "detailsId": "49854",
+   "judul": "PP No. 73 Tahun 2005 tentang Kelurahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39132/PP%20NO%2073%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:38:12.476686+00:00"
+  },
+  "sha256": "8e97eb7dbc762e712963d688b94875003a1c5493df2b5092412d3e198e538cdf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 32,
+  "ayat_angka": 47,
+  "huruf": 39
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pemerintah Pusat, selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah adalah Gubernur, Bupati atau Walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pemerintahan Daerah adalah Penyelenggaraan urusan pemerintahan oleh Pemerintah Daerah dan DPRD menurut asas otonomi dan tugas pembantuan dengan prinsip otonomi seluas-luasnya dalam sistem dan prinsip Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Dewan Perwakilan Rakyat Daerah yang selanjutnya disebut DPRD adalah lembaga perwakilan rakyat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kelurahan adalah wilayah kerja lurah sebagai perangkat Daerah Kabupaten/Kota dalam wilayah kerja Kecamatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Lembaga Kemasyarakatan atau sebutan lain adalah lembaga yang dibentuk oleh masyarakat sesuai dengan kebutuhan lurah dalam memberdayakan dan merupakan mitra masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Menteri adalah Menteri Dalam Negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PEMBENTUKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kelurahan dibentuk di wilayah kecamatan. dapat berupa penggabungan beberapa kelurahan atau bagian . . . bagian kelurahan yang bersandingan, atau pemekaran dari satu kelurahan menjadi dua kelurahan atau lebih. harus sekurang-kurangnya memenuhi syarat :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jumlah penduduk;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "luas wilayah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bagian wilayah kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sarana dan prasarana pemerintahan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembentukan kelurahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembentukan kelurahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kelurahan yang kondisi masyarakat dan wilayahnya tidak lagi memenuhi persyaratan sebagaimana dimaksud pada ayat (3) dapat dihapus atau digabung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pemekaran dari satu kelurahan menjadi dua kelurahan atau lebih sebagaimana dimaksud pada ayat (2) dapat dilakukan setelah mencapai paling sedikit 5 (lima) tahun penyelenggaraan pemerintahan kelurahan. diatur dengan Peraturan Daerah Kabupaten/Kota dengan berpedoman pada Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-2/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai pembentukan, penghapusan dan penggabungan kelurahan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), ayat (4) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KEDUDUKAN DAN TUGAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kelurahan merupakan perangkat daerah Kabupaten/Kota yang berkedudukan di wilayah kecamatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kelurahan sebagaimana dimaksud pada ayat (1) dipimpin oleh Lurah yang berada di bawah dan bertanggungjawab kepada Bupati/Walikota melalui Camat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Lurah sebagaimana dimaksud pada ayat (2) diangkat oleh Bupati/Walikota atas usul Camat dari Pegawai Negeri Sipil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Syarat-syarat lurah sebagaimana dimaksud pada ayat (2) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pangkat/golongan minimal Penata (III/c).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Masa kerja minimal 10 tahun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-3/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Kemampuan pemerintahan masyarakat setempat. teknis dan memahami dibidang administrasi budaya sosial Pasal 4 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Lurah sebagaimana dimaksud dalam Pasal 3 ayat (2) mempunyai tugas pokok menyelenggarakan urusan pemerintahan, pembangunan dan kemasyarakatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain tugas sebagaimana dimaksud pada ayat (1), Lurah melaksanakan urusan pemerintahan yang dilimpahkan oleh Bupati/Walikota. disesuaikan dengan kebutuhan kelurahan dengan memperhatikan prinsip efisiensi dan peningkatan akuntabilitas. disertai dengan sarana, prasarana, pada ayat pembiayaan dan personil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Urusan pemerintahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelimpahan urusan pemerintahan sebagaimana dimaksud",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pelimpahan urusan pemerintahan sebagaimana dimaksud pada Peraturan ditetapkan Bupati/Walikota dengan berpedoman pada Peraturan Menteri. dalam ayat (2)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan tugas pokok sebagaimana dimaksud dalam Pasal 4, Lurah mempunyai tugas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaksanaan kegiatan pemerintahan kelurahan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemberdayaan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelayanan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyelenggaraan ketentraman dan ketertiban umum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pemeliharaan prasarana dan fasilitas pelayanan umum; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-5/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pembinaan lembaga kemasyarakatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "SUSUNAN ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kelurahan terdiri dari Lurah dan perangkat kelurahan terdiri dari Sekretaris Kelurahan dan Seksi sebanyak- banyaknya 4 (empat) Seksi serta jabatan fungsional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perangkat kelurahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam . . . Dalam melaksanakan tugasnya, Perangkat Kelurahan sebagaimana dimaksud pada ayat (2) bertanggungjawab kepada Lurah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Perangkat Kelurahan sebagaimana dimaksud pada ayat (2), diisi dari Pegawai Negeri Sipil yang diangkat oleh Sekretaris Daerah Kabupaten/Kota atas usul Camat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-6/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai struktur organisasi dan tata kerja kelurahan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Daerah Kabupaten/Kota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "TATA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Dalam melaksanakan tugas dan fungsinya, lurah melakukan koordinasi dengan Camat dan instansi vertikal yang berada di wilayah kerjanya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pimpinan satuan kerja tingkat kelurahan bertanggungjawab memimpin dan mengkoordinasikan pelaksanaan tugas pokok dan fungsi masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap pimpinan satuan kerja di Kelurahan wajib membina dan mengawasi bawahannya masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KEUANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keuangan Kelurahan bersumber dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "APBD Kabupaten/Kota yang dialokasikan sebagaimana perangkat daerah lainnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Bantuan Pemerintah, Pemerintah Provinsi, Pemerintah Kabupaten/Kota, dan bantuan pihak ketiga",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Sumber-sumber lain yang sah dan tidak mengikat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Alokasi . . . Alokasi anggaran Kelurahan yang berasal dari APBD Kabupaten/Kota sebagaimana dimaksud pada ayat (1) huruf sekurang- kurangnya: a memperhatikan faktor-faktor,",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jumlah penduduk;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kepadatan penduduk;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "luas wilayah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kondisi geografis/karakteristik wilayah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "jenis dan volume pelayanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-9/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "besaran pelimpahan tugas yang diberikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "LEMBAGA KEMASYARAKATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Di kelurahan dapat dibentuk lembaga kemasyarakatan. dilakukan atas prakarsa Bagian Kedua Tugas, Fungsi, dan Kewajiban",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembentukan dimaksud pada ayat masyarakat melalui musyawarah dan mufakat. lembaga kemasyarakatan sebagaimana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Lembaga Kemasyarakatan sebagaimana dimaksud dalam Pasal 10 mempunyai tugas membantu lurah dalam pelaksanaan urusan pemerintahan, pembangunan, sosial kemasyarakatan dan pemberdayaan masyarakat. Pasal 12 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 11 lembaga kemasyarakatan mempunyai fungsi: a. penampungan dan penyaluran aspirasi masyarakat; b. penanaman dan pemupukan rasa persatuan dan kesatuan masyarakat dalam kerangka memperkokoh Negara Kesatuan Republik Indonesia; c. peningkatan kualitas dan percepatan pelayanan pemerintahan kepada masyarakat; d. penyusun rencana, pelaksana dan pengelola pembangunan serta pemanfaat, pelestarian dan pengembangan hasil-hasil pembangunan secara partisipatif; e. penumbuhkembangan dan penggerak prakarsa dan partisipasi, serta swadaya gotong royong masyarakat; f. penggali, pendayagunaan dan pengembangan potensi sumber daya serta keserasian lingkungan hidup; g. pengembangan kreatifitas, pencegahan kenakalan, penyalahgunaan obat terlarang (Narkoba) bagi remaja; h. pemberdayaan dan peningkatan kesejahteraan keluarga; i. pemberdayaan dan perlindungan hak politik masyarakat; dan j. pendukung media komunikasi, informasi, sosialisasi antara pemerintah desa/kelurahan dan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Lembaga kemasyarakatan sebagaimana dimaksud dalam Pasal 10 mempunyai kewajiban: a. memegang teguh dan mengamalkan Pancasila, melaksanakan Undang-undang Dasar Negara Republik Indonesia Tahun 1945 serta mempertahankan dan keutuhan Negara Kesatuan Republik memelihara Indonesia; b. menjalin hubungan kemitraan dengan berbagai pihak yang terkait; c. mentaati seluruh peraturan perundang-undangan; d. menjaga etika dan norma dalam kehidupan bermasyarakat; dan e. membantu . . . e. membantu Lurah dalam pelaksanaan kegiatan pemerintahan, pembangunan dan kemasyarakatan. Bagian Ketiga Kegiatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Lembaga kemasyarakatan mempunyai kegiatan: a. peningkatan pelayanan masyarakat; b. peningkatan peran serta masyarakat dalam pembangunan; c. pengembangan kemitraan; d. pemberdayaan masyarakat meliputi bidang politik, ekonomi, sosial budaya, dan lingkungan hidup; dan e. peningkatan kegiatan lainnya sesuai kebutuhan dan kondisi masyarakat setempat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pelaksanaan kegiatan sebagaimana dimaksud dalam Pasal 14 lembaga kemasyarakatan melalui sistem dikelola oleh manajemen pembangunan kelurahan yang partisipatif. Bagian Keempat Kepengurusan dan Keanggotaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengurus lembaga secara musyawarah dari anggota masyarakat yang mempunyai kemauan, kemampuan dan kepedulian. kemasyarakatan dipilih",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Susunan dan kebutuhan. jumlah pengurus disesuaikan dengan Pasal 17 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keanggotaan lembaga kemasyarakatan adalah warga Negara Republik Indonesia, penduduk kelurahan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keanggotaan sebagaimana dimaksud pada ayat disesuaikan dengan bidang lembaga kemasyarakatan. (1) Bagian Kelima Tata Kerja",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Tata kerja lembaga kemasyarakatan kelurahan dengan Lurah bersifat konsultatif dan koordinatif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hubungan kerja antar lembaga kemasyarakatan bersifat koordinatif dan konsultatif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hubungan kerja lembaga kemasyarakatan dengan pihak ketiga bersifat kemitraan. Bagian Keenam Pendanaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Sumber pendanaan lembaga kemasyarakatan dapat diperoleh dari : a. Swadaya masyarakat; b. Bantuan dari Anggaran Pemerintah Kelurahan; c. Bantuan dari Pemerintah, Pemerintah Provinsi, Pemerintah Kabupaten/Kota; dan/atau d. Bantuan lainnya yang sah dan tidak mengikat. Pasal 21 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Departemen, Lembaga Non Departemen, Dinas, Badan, Lembaga Teknis Daerah dan Kantor yang mempunyai kegiatan di kelurahan dapat menggunakan lembaga kemasyarakatan. pemberdayaan masyarakat dibidang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan kegiatan pemberdayaan masyarakat sebagaimana dimaksud pada ayat (1) dilakukan melalui sistem manajemen pembangunan kelurahan. dibidang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan Lembaga Kemasyarakatan di Kelurahan diatur dengan Peraturan Daerah Kabupaten/Kota. mengenai lanjut lebih",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peraturan Daerah sebagaimana dimaksud pada ayat (1) sekurang-kurangnya memuat :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mekanisme pembentukan mulai dari musyawarah masyarakat sampai dengan pengesahan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "maksud dan tujuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tugas, fungsi dan kewajiban;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kepengurusan meliputi pemilihan pengurus, syarat- syarat pengurus, masa bhakti pengurus, hak dan kewajiban;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "keanggotaan meliputi syarat-syarat anggota, hak dan kewajiban;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "tata kerja; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-22/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "sumber dana.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembinaan pemerintahan kelurahan dan lembaga kemasyarakatan dilakukan oleh Pemerintah dan Pemerintah Provinsi. penyelenggaraan umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan . . . Pembinaan teknis dan pengawasan penyelenggaraan pemerintahan kelurahan dan lembaga kemasyarakatan dilakukan oleh Pemerintah Kabupaten/Kota dan Camat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Pembinaan Pemerintah sebagaimana dimaksud dalam Pasal 23 ayat (1) meliputi : a. memberikan pedoman dan standar pelaksanaan urusan pemerintahan kelurahan; b. memberikan pedoman umum administrasi, tata naskah dinas dan pelaporan; c. memberikan pedoman tentang bantuan pembiayaan dari pemerintah, pemerintah provinsi dan kabupaten/kota kepada kelurahan; d. memberikan pedoman dan standar tanda Jabatan, pakaian dinas dan atribut bagi Lurah dan perangkat kelurahan; e. memberikan pedoman pendidikan dan pelatihan; f. memberikan bimbingan, supervisi dan konsultasi pelaksanaan pemerintahan kelurahan dan pemberdayaan lembaga kemasyarakatan; g. memberikan yang dilaksanakan dalam penyelenggaraan pemerintahan kelurahan; penghargaan prestasi atas h. melakukan pendidikan dan pelatihan tertentu kepada aparatur pemerintah daerah yang bertugas membina Pemerintahan kelurahan; i. memberikan sanksi atas penyimpangan yang dilakukan oleh lurah dan perangkat kelurahan sebagaimana diatur dalam peraturan perundang-undangan; j. melakukan upaya-upaya percepatan atau akselerasi pembangunan kelurahan; k. pembinaan lainnya yang diperlukan. Pasal 25 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Pembinaan Pemerintah Provinsi sebagaimana dimaksud dalam Pasal 23 ayat (1) meliputi : a. menetapkan bantuan keuangan dari pemerintah provinsi; b. memfasilitasi penyusunan peraturan daerah kabupaten/kota; c. melakukan pengawasan peraturan daerah kabupaten/kota; d. memfasilitasi keberadaan kesatuan masyarakat hukum adat, nilai adat istiadat, lembaga adat beserta hak-hak pemerintahan tradisionalnya kelurahan; pelaksanaan dalam e. memfasilitasi pelaksanaan pedoman administrasi, tata naskah dinas dan pelaporan; f. melaksanakan pendidikan dan pelatihan tertentu skala provinsi; g. memberikan penghargaan atas prestasi penyelenggaraan pemerintahan kelurahan tingkat provinsi; h. melakukan upaya-upaya percepatan atau akselerasi pembangunan perkotaan skala provinsi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Pembinaan Pemerintah Kabupaten/Kota sebagaimana dimaksud dalam Pasal 23 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "meliputi : pengawasan teknis dan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan pelimpahan tugas Bupati/Walikota kepada lurah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan pedoman administrasi, tata naskah dinas dan pelaporan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menetapkan alokasi dana dari APBD;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengawasi pengelolaan keuangan kelurahan dan pendayagunaan aset daerah yang dikelola oleh kelurahan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan pembinaan dan pengawasan penyelenggaraan pemerintahan kelurahan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mamfasilitasi . . . memfasilitasi keberadaan kesatuan masyarakat hukum adat, nilai adat istiadat, lembaga adat beserta hak-hak tradisionalnya pemerintahan kelurahan; pelaksanaan dalam",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyelenggarakan pendidikan dan pelatihan bagi lurah, perangkat kelurahan dan lembaga kemasyarakatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menetapkan pakaian dan atribut lainnya bagi lurah, dan Perangkat Kelurahan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "memberikan yang dilaksanakan dalam penyelenggaraan pemerintahan kelurahan; dan penghargaan prestasi atas",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-73-tahun-2005/pasal-26/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "melakukan upaya-upaya percepatan atau akselerasi pembangunan perkotaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Pembinaan teknis dan pengawasan Camat sebagaimana dimaksud dalam Pasal 23 ayat (2) meliputi : a. memfasilitasi administrasi tata pemerintahan kelurahan; b. memfasilitasi pengelolaan keuangan kelurahan dan pendayagunaan aset daerah yang dikelola oleh kelurahan; c. memfasilitasi penerapan dan penegakan peraturan perundang-undangan; d. memfasilitasi pelaksanaan tugas lurah dan perangkat kelurahan; e. memfasilitasi upaya penyelenggaraan ketentraman dan ketertiban umum; f. memfasilitasi pengembangan lembaga kemasyarakatan; g. memfasilitasi pembangunan partisipatif; h. memfasilitasi kerjasama kelurahan dengan pihak ketiga; dan i. memfasilitasi pelaksanaan pemberdayaan masyarakat kelurahan. BAB IX . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Khusus untuk Provinsi Daerah Khusus Ibukota Jakarta karena kedudukannya sebagai Ibukota Negara Republik Indonesia, pembentukan dan struktur organisasi kelurahan dan lembaga kemasyarakatan diatur dengan peraturan daerah provinsi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-73-tahun-2005/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Semua peraturan pelaksanaan yang mengatur mengenai kelurahan dan lembaga kemasyarakatan yang bertentangan dengan Peraturan Pemerintah ini dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Peraturan Daerah Kabupaten/Kota atau Peraturan Daerah Provinsi Khusus Ibu Kota Jakarta sebagai pelaksanaan Peraturan Pemerintah ini ditetapkan paling lama 1 (satu) tahun sejak Peraturan Pemerintah ini ditetapkan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Menteri wajib memfasilitasi pelaksanaan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-73-tahun-2005/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . Agar setiap orang dapat mengetahuinya, memerintahkan pengundangan dengan penempatannya dalam Lembaran Negara Republik Indonesia. Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 30 Desember 2005 ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 30 Desember 2005 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd HAMID AWALUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2005 NOMOR 159 Salinan sesuai dengan aslinya DEPUTI MENTERI SEKRETARIS NEGARA BIDANG PERUNDANG-UNDANGAN, ttd ABDUL WAHID",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

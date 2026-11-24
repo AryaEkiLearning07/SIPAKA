@@ -19,6 +19,16 @@ const DB_PKG = fs.existsSync(path.resolve(process.cwd(), 'packages/database'))
   ? path.resolve(process.cwd(), 'packages/database')
   : path.resolve(__dirname, '../../../../packages/database');
 
+function isProcessRunning(pid: number | null | undefined): boolean {
+  if (!pid || typeof pid !== 'number' || pid <= 0) return false;
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch (e: any) {
+    return e.code === 'EPERM';
+  }
+}
+
 /**
  * Middleware Proteksi Otoritas Administrator Utama (Terisolasi dari Sesi Pengguna Reguler)
  */
@@ -373,6 +383,10 @@ export function registerAdminRoutes(server: FastifyInstance): void {
     if (fs.existsSync(statusFile)) {
       try {
         workerStatus = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
+        if (workerStatus.state === 'RUNNING' && !isProcessRunning((workerStatus as any).pid)) {
+          workerStatus.state = 'STOPPED';
+          workerStatus.phase = 'STOPPED_SAFELY';
+        }
       } catch {
         // ignore
       }

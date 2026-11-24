@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-2-tahun-1994",
+ "preamble": {
+  "menimbang": [
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 20 April 1994 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 23 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 2 TAHUN 1994 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1993/94 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1993/94 merupakan pelaksanaan tahun kelima Rencana Pembangunan Lima Tahun Ke V. Didasarkan atas perkembangan ekonomi dalam dan luar negeri yang mempengaruhi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1993/94 diperlukan beberapa tambahan dan perubahan. Dalam Tahun Anggaran 1993/94, realisasi pendapatan negara diperkirakan lebih besar dari pada yang direncanakan. Lebih besarnya pendapatan negara tersebut disebabkan oleh lebih tingginya penerimaan pembangunan. Dalam periode yang sama, penerimaan dalam negeri sedikit lebih rendah dari rencananya, terutama disebabkan oleh lebih rendahnya penerimaan sektor minyak bumi dan gas alam sebagai akibat dari menurunnya harga rata-rata minyak dari yang diperkirakan semula, walaupun penerima",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1994",
+   "detailsId": "46215",
+   "judul": "UU No. 2 Tahun 1994 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1993/94 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34778/UU%20Nomor%202%20Tahun%201994.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:25:08.585190+00:00"
+  },
+  "sha256": "ffb11e60029c4948eb04ef5a752d472001ad8831cf8058c6ed5bdbbaf7ae25e7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1994/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-1994/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara Tahun Anggaran 1993/94 diperkirakan bertambah dengan Rp. 329.598.000.000,00 (tiga ratus dua puluh sembilan miliar lima ratus sembilan puluh delapan juta rupiah) yang terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-1994/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin berkurang dengan Rp.489.180.000.000,00 (empat ratus delapan puluh sembilan miliar seratus delapan puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-1994/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan... - - Pendapatan Pembangunan bertambah dengan Rp 818.778.000.000,00 (delapan ratus delapan belas miliar tujuh ratus tujuh puluh delapan juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-1994/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

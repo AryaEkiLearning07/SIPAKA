@@ -1,0 +1,88 @@
+{
+ "slug": "perpres-no-63-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mendukung terselenggaranya tertib administrasi pemerintahan dan peningkatan kinerja Kabinet Indonesia Bersatu, dipandang perlu mengubah Peraturan Presiden Nomor 10 Tahun 2005 tentang Unit Organisasi dan Tugas Eselon I Kementerian Negara Republik Indonesia sebagaimana telah diubah dengan Peraturan Presiden Nomor 15 Tahun 2005;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-63-tahun-2005",
+   "detailsId": "42590",
+   "judul": "PERPRES No. 63 Tahun 2005 tentang Perubahan Kedua atas Peraturan Presiden Nomor 10 Tahun 2005 Tentang Unit Organisasi Dan Tugas Eselon I Kementerian Negara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73263/PERPRES%20NO%2063%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:45.351003+00:00"
+  },
+  "sha256": "f02cb209abd57127cab2be53f2cec0a7aab9cf40bd7a97e75c700613503467c3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-63-tahun-2005/pasal-59",
+   "type": "PASAL",
+   "orderIndex": 59,
+   "label": "Pasal 59",
+   "content": "Kementerian Negara Perencanaan Pembangunan Nasional terdiri dari : a. Sekretariat Kementerian Negara; b. Staf Ahli.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-63-tahun-2005/pasal-60",
+   "type": "PASAL",
+   "orderIndex": 60,
+   "label": "Pasal 60",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-63-tahun-2005/pasal-60/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Sekretariat Kementerian Negara mempunyai tugas melaksanakan koordinasi pelaksanaan tugas serta pembinaan dan pemberian dukungan administrasi Kementerian Negara. Kementerian Negara Perencanaan Pembangunan Nasional dalam melaksanakan tugasnya menggunakan unit organisasi dan sumber daya di lingkungan Badan Perencanaan Pembangunan Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-63-tahun-2005/pasal-60/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Staf Ahli mempunyai tugas memberikan telaahan kepada Menteri Negara Perencanaan Pembangunan Nasional mengenai masalah tertentu sesuai bidang keahliannya, yang tidak menjadi bidang tugas Sekretariat Kementerian Negara dan Deputi.” Sekretaris Kementerian Negara Perencanaan Pembangunan Nasional sekaligus menjadi Sekretaris Utama Badan Perencanaan Pembangunan Nasional.” Pasal II ... Pasal II Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 14 Oktober 2005 PRESIDEN REPUBLIK INDONESIA, ttd. Dr. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum dan Perundang-undangan, ttd Lambock V. Nahattands",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-63-tahun-2005/pasal-60/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Ketentuan Pasal 67 diubah, sehingga berbunyi sebagai berikut : “Pasal 67",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..60): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

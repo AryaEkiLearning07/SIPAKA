@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Otorisasi Akses (Kelola Akun &amp; Akses)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:dataStore id="d_sesi-store" name="Sesi" />
+  <bpmn:dataStore id="d_peran-store" name="Peran Pengguna" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Otorisasi Akses" processRef="otorisasi_akses" />
+  </bpmn:collaboration>
+  <bpmn:process id="otorisasi_akses" name="Otorisasi Akses (Kelola Akun &amp; Akses)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Permintaan akses diterima" />
+    <bpmn:serviceTask id="token" name="Validasi Token Sesi">
+      <bpmn:ioSpecification id="token-io">
+        <bpmn:dataInput id="token-in-1" name="Sesi" />
+        <bpmn:inputSet id="token-inputs">
+          <bpmn:dataInputRefs>token-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="token-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="token-dia-1">
+        <bpmn:sourceRef>d_sesi</bpmn:sourceRef>
+        <bpmn:targetRef>token-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="tokenok" name="Token valid dan belum kedaluwarsa?" default="f-tokenok-tolaksesi" />
+    <bpmn:serviceTask id="izin" name="Periksa Izin Peran">
+      <bpmn:ioSpecification id="izin-io">
+        <bpmn:dataInput id="izin-in-2" name="Peran Pengguna" />
+        <bpmn:inputSet id="izin-inputs">
+          <bpmn:dataInputRefs>izin-in-2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="izin-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="izin-dia-2">
+        <bpmn:sourceRef>d_peran</bpmn:sourceRef>
+        <bpmn:targetRef>izin-in-2</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="izinok" name="Peran berhak mengakses fungsi?" default="f-izinok-tolakperan" />
+    <bpmn:endEvent id="diizinkan" name="Akses diizinkan" />
+    <bpmn:endEvent id="tolaksesi" name="Akses ditolak: sesi tidak valid" />
+    <bpmn:endEvent id="tolakperan" name="Akses ditolak: izin tidak cukup" />
+    <bpmn:sequenceFlow id="f-mulai-token" sourceRef="mulai" targetRef="token" />
+    <bpmn:sequenceFlow id="f-token-tokenok" sourceRef="token" targetRef="tokenok" />
+    <bpmn:sequenceFlow id="f-tokenok-izin" name="ya" sourceRef="tokenok" targetRef="izin">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">tokenValid</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-tokenok-tolaksesi" name="tidak" sourceRef="tokenok" targetRef="tolaksesi" />
+    <bpmn:sequenceFlow id="f-izin-izinok" sourceRef="izin" targetRef="izinok" />
+    <bpmn:sequenceFlow id="f-izinok-diizinkan" name="ya" sourceRef="izinok" targetRef="diizinkan">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">peranBerhak</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izinok-tolakperan" name="tidak" sourceRef="izinok" targetRef="tolakperan" />
+    <bpmn:dataStoreReference id="d_sesi" name="Sesi" dataStoreRef="d_sesi-store" />
+    <bpmn:dataStoreReference id="d_peran" name="Peran Pengguna" dataStoreRef="d_peran-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="720" height="340" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="33" y="93" width="90" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="token_di" bpmnElement="token">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tokenok_di" bpmnElement="tokenok" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="326" y="98" width="68" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izinok_di" bpmnElement="izinok" isMarkerVisible="true">
+        <dc:Bounds x="546" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="576" y="20" width="96" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="diizinkan_di" bpmnElement="diizinkan">
+        <dc:Bounds x="646" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="622" y="93" width="84" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolaksesi_di" bpmnElement="tolaksesi">
+        <dc:Bounds x="428" y="167" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="334" y="206" width="108" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolakperan_di" bpmnElement="tolakperan">
+        <dc:Bounds x="646" y="167" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="610" y="208" width="108" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_sesi_di" bpmnElement="d_sesi">
+        <dc:Bounds x="171" y="160" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="184" y="215" width="24" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_peran_di" bpmnElement="d_peran">
+        <dc:Bounds x="421" y="260" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="406" y="315" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="token-dia-1_di" bpmnElement="token-dia-1">
+        <di:waypoint x="196" y="160" />
+        <di:waypoint x="196" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="izin-dia-2_di" bpmnElement="izin-dia-2">
+        <di:waypoint x="446" y="260" />
+        <di:waypoint x="446" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-token_di" bpmnElement="f-mulai-token">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-token-tokenok_di" bpmnElement="f-token-tokenok">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tokenok-izin_di" bpmnElement="f-tokenok-izin">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tokenok-tolaksesi_di" bpmnElement="f-tokenok-tolaksesi">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="185" />
+        <di:waypoint x="428" y="185" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="170" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-izinok_di" bpmnElement="f-izin-izinok">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izinok-diizinkan_di" bpmnElement="f-izinok-diizinkan">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="604" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izinok-tolakperan_di" bpmnElement="f-izinok-tolakperan">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="185" />
+        <di:waypoint x="646" y="185" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="579" y="170" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

@@ -1,0 +1,88 @@
+{
+ "slug": "uu-no-20-tahun-1958",
+ "preamble": {
+  "menimbang": [
+   "Bahwa Pemerintah berdasarkan pasal 96 ayat 1 Undang-undang Dasar Sementara telah menetapkan Undang-undang Darurat No.22 tahun 1957 tentang pembentukan Daerah Swatantra Tingkat I Maluku (Lembaran-Negara tahun 1957 No.79).",
+   "Bahwa peraturan-peraturan yang termaktub dalam undang- undang darurat tersebut perlu ditetapkan sebagai undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "51717",
+   "slug": "uu-no-20-tahun-1958",
+   "nomor": 20,
+   "tahun": 1958,
+   "jenis": "UU",
+   "judul": "UU No. 20 Tahun 1958 tentang Penetapan Undang-Undang Darurat No. 22 Tahun 1957 tentang Pembentukan Daerah Swatantra Tingkat I Maluku (Lembaran-Negara Tahun 1957 No. 79) Sebagai Undang-Undang - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/41003/UU%20Nomor%2020%20Tahun%201958.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:19:24.072478+00:00"
+  },
+  "sha256": "715e97162eaf9b8077cbb0c8f36c7fbe716cbb02747cd1868c29ebca7808e4fa",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-20-tahun-1958/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-20-tahun-1958/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TENTANG URUSAN RUMAH TANGGA DAERAH",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-20-tahun-1958/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-20-tahun-1958/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

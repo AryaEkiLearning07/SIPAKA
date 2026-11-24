@@ -4,10 +4,13 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { 
   ChevronRight, Check, Copy, Sparkles, ExternalLink, Network, ArrowRight,
-  Edit3, Trash2, Plus, Lock, Loader2, MessageSquare
+  Edit3, Trash2, Plus, Lock, Loader2, MessageSquare, Globe, Landmark, BookOpen,
+  CheckCircle2, ShieldAlert, FileText, Scale
 } from 'lucide-react';
 import { ProvisionNode } from '@sipaka/types';
 import { InspectorState, InspectorTab, OpsRow, InstrumentRelationsData, API_BASE } from '../../reader-types';
+import { getInternationalBenchmarksFor, getOriginalIntentFor } from '../../legal-intelligence-data';
+import { LatinTermBadge } from '@/app/components/LatinTermPopup';
 
 export interface InspectorTabsProps {
   inspectorNode: InspectorState;
@@ -141,6 +144,11 @@ export default function InspectorTabs(p: InspectorTabsProps) {
             <p className="text-xs font-sans text-slate-900 font-medium leading-relaxed pt-1 text-justify">
               {node.toText || 'Norma berlaku sesuai naskah dokumen.'}
             </p>
+            {node.toText && (
+              <div className="pt-1.5 border-t border-emerald-100/80">
+                <LatinTermBadge text={node.toText} />
+              </div>
+            )}
           </div>
         </div>
       )}
@@ -335,6 +343,187 @@ export default function InspectorTabs(p: InspectorTabsProps) {
               )}
             </div>
           )}
+        </div>
+      )}
+
+      {/* Tab: Instrumen Internasional & Bilateral (Inovasi A) */}
+      {p.inspectorTab === 'internasional' && (
+        <div className="space-y-3 pt-1">
+          <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200/80 space-y-1">
+            <div className="flex items-center gap-1.5 text-blue-900 font-bold text-xs">
+              <Globe className="w-3.5 h-3.5 text-blue-700" />
+              <span>Hukum Internasional &amp; Treaty Room Kemlu</span>
+            </div>
+            <p className="text-[11px] text-blue-800 leading-relaxed">
+              Pelacakan basis ratifikasi traktat internasional dan benchmark komparatif global yang relevan dengan regulasi ini.
+            </p>
+          </div>
+
+          <div className="space-y-3 max-h-[420px] overflow-y-auto pr-1">
+            {getInternationalBenchmarksFor(node.canonicalPath).map((b) => (
+              <div key={b.id} className="p-3 rounded-xl border border-slate-200 bg-white shadow-2xs space-y-2">
+                <div className="flex items-center justify-between gap-1 flex-wrap">
+                  <span className={`text-[9px] font-mono font-bold px-1.5 py-0.5 rounded border ${
+                    b.scope === 'BILATERAL'
+                      ? 'bg-blue-50 text-blue-800 border-blue-300'
+                      : b.scope === 'MULTILATERAL'
+                        ? 'bg-purple-50 text-purple-800 border-purple-300'
+                        : b.scope === 'MODEL_LAW'
+                          ? 'bg-amber-50 text-amber-900 border-amber-300'
+                          : 'bg-emerald-50 text-emerald-800 border-emerald-300'
+                  }`}>
+                    {b.scope} · {b.year}
+                  </span>
+                  <span className={`text-[9.5px] font-mono font-bold px-2 py-0.5 rounded flex items-center gap-1 ${
+                    b.treatyStatusRI === 'DIRATIFIKASI'
+                      ? 'bg-emerald-100 text-emerald-900 border border-emerald-300'
+                      : 'bg-amber-100 text-amber-900 border border-amber-300'
+                  }`}>
+                    <CheckCircle2 className="w-3 h-3 text-emerald-700" />
+                    <span>{b.treatyStatusRI.replace('_', ' ')}</span>
+                  </span>
+                </div>
+
+                <div>
+                  <h5 className="font-sans font-bold text-xs text-slate-900 leading-snug">
+                    {b.title}
+                  </h5>
+                  <p className="text-[10px] text-slate-500 font-mono mt-0.5">{b.sourceOrg}</p>
+                </div>
+
+                {b.ratificationLegalBasis && (
+                  <div className="p-2 rounded-lg bg-slate-50 border border-slate-200/80 text-[10.5px] text-slate-700 space-y-0.5">
+                    <span className="font-semibold text-slate-900 block font-mono text-[9.5px] uppercase">
+                      Dasar Ratifikasi / Harmonisasi RI:
+                    </span>
+                    <p className="italic">{b.ratificationLegalBasis}</p>
+                  </div>
+                )}
+
+                <div className="p-2.5 rounded-lg bg-amber-50/50 border border-amber-200/60 text-[11px] space-y-1.5">
+                  <span className="font-bold text-amber-900 block font-mono text-[9.5px] uppercase">
+                    Matriks Komparasi Norma:
+                  </span>
+                  <div className="space-y-1 text-slate-700 text-[10.5px] leading-relaxed">
+                    <p><strong className="text-slate-900">Norma Nasional:</strong> {b.nationalComparison.nationalProvision}</p>
+                    <p><strong className="text-slate-900">Standar Global:</strong> {b.nationalComparison.internationalNorm}</p>
+                    <p className="pt-1 text-amber-950 italic border-t border-amber-200/50"><strong className="not-italic">Gap Analysis:</strong> {b.nationalComparison.gapAnalysis}</p>
+                  </div>
+                </div>
+
+                {b.officialDocUrl && (
+                  <a
+                    href={b.officialDocUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-[11px] font-bold text-[#94191C] hover:underline pt-1"
+                  >
+                    <span>Akses Naskah Traktat Asli</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Tab: Risalah Pembentukan & Original Intent (Inovasi B) */}
+      {p.inspectorTab === 'risalah' && (
+        <div className="space-y-3 pt-1">
+          <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-200/80 space-y-1">
+            <div className="flex items-center gap-1.5 text-purple-900 font-bold text-xs">
+              <Landmark className="w-3.5 h-3.5 text-purple-700" />
+              <span>Risalah Pembentukan &amp; Original Intent (DPR/MK)</span>
+            </div>
+            <p className="text-[11px] text-purple-800 leading-relaxed">
+              Penelusuran kehendak asli pembentuk undang-undang melalui Naskah Akademik, DIM DPR RI, dan Risalah Sidang Terbuka Mahkamah Konstitusi.
+            </p>
+          </div>
+
+          {(() => {
+            const oi = getOriginalIntentFor(node.canonicalPath);
+            if (!oi) {
+              return (
+                <div className="p-4 rounded-xl bg-white border border-slate-200 text-[11px] text-slate-600 space-y-2 text-center">
+                  <BookOpen className="w-8 h-8 text-slate-300 mx-auto" />
+                  <p className="font-semibold text-slate-800">
+                    Anotasi Risalah Spesifik Berada pada Pasal-Pasal Pidana &amp; Tata Kelola Utama
+                  </p>
+                  <p className="text-slate-500 text-[10.5px] leading-relaxed">
+                    Naskah Akademik dan transkrip sidang MKRI berfokus pada pasal materiil (mis. Pasal 26 Perlindungan Data, Pasal 27 &amp; 27A Pencemaran Nama Baik, Pasal 28 Hoaks/SARA, Pasal 45 Sanksi Pidana). Silakan klik pasal terkait pada naskah untuk membaca telaah lengkapnya.
+                  </p>
+                </div>
+              );
+            }
+
+            return (
+              <div className="space-y-3 max-h-[420px] overflow-y-auto pr-1">
+                {/* 1. Naskah Akademik */}
+                <div className="p-3 rounded-xl bg-white border border-slate-200 space-y-2 shadow-2xs">
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-slate-900 pb-1 border-b border-slate-100">
+                    <FileText className="w-3.5 h-3.5 text-[#94191C]" />
+                    <span>Naskah Akademik RUU ({oi.provisionLabel})</span>
+                  </div>
+                  <div className="space-y-2 text-[11px] text-slate-700 leading-relaxed text-justify">
+                    <div>
+                      <span className="font-mono font-bold text-[9.5px] uppercase text-slate-500 block">Latar Belakang Sosiologis:</span>
+                      <p>{oi.naskahAkademik.latarBelakang}</p>
+                    </div>
+                    <div>
+                      <span className="font-mono font-bold text-[9.5px] uppercase text-slate-500 block">Landasan Filosofis:</span>
+                      <p className="italic text-slate-800">{oi.naskahAkademik.landasanFilosofis}</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 2. Daftar Inventarisasi Masalah (DIM) Fraksi DPR */}
+                <div className="p-3 rounded-xl bg-white border border-slate-200 space-y-2 shadow-2xs">
+                  <div className="flex items-center gap-1.5 text-xs font-bold text-slate-900 pb-1 border-b border-slate-100">
+                    <Scale className="w-3.5 h-3.5 text-amber-700" />
+                    <span>DIM Pembahasan DPR RI &amp; Pemerintah</span>
+                  </div>
+                  <div className="p-2 rounded-lg bg-amber-50/60 border border-amber-200/70 text-[10.5px] space-y-1">
+                    <span className="font-mono font-bold text-[9.5px] uppercase text-amber-900 block">{oi.dimDpr.nomorDim}</span>
+                    <p><strong className="text-slate-900">Sikap Fraksi DPR:</strong> {oi.dimDpr.sikapFraksiDpr}</p>
+                    <p><strong className="text-slate-900">Sikap Pemerintah:</strong> {oi.dimDpr.sikapPemerintah}</p>
+                    <p className="pt-1 border-t border-amber-200/50 text-amber-950 font-medium"><strong className="text-slate-900 font-semibold">Kompromi Akhir:</strong> {oi.dimDpr.catatanKompromi}</p>
+                  </div>
+                </div>
+
+                {/* 3. Transkrip Sidang Terbuka Mahkamah Konstitusi */}
+                <div className="p-3 rounded-xl bg-white border border-slate-200 space-y-2 shadow-2xs">
+                  <div className="flex items-center justify-between gap-1 pb-1 border-b border-slate-100">
+                    <div className="flex items-center gap-1.5 text-xs font-bold text-slate-900">
+                      <Landmark className="w-3.5 h-3.5 text-purple-700" />
+                      <span>Risalah Uji Materiil MKRI</span>
+                    </div>
+                    <span className="text-[9.5px] font-mono font-bold px-1.5 py-0.5 rounded bg-purple-50 text-purple-800 border border-purple-200">
+                      {oi.risalahMk.nomorPerkara}
+                    </span>
+                  </div>
+                  <div className="space-y-1.5 text-[11px] text-slate-700 leading-relaxed text-justify">
+                    <div>
+                      <span className="font-mono font-bold text-[9.5px] uppercase text-slate-500 block">Keterangan Resmi Pembentuk UU di Sidang:</span>
+                      <p className="italic text-slate-600">{oi.risalahMk.keteranganDprPresiden}</p>
+                    </div>
+                    <div className="p-2 rounded-lg bg-purple-50/50 border border-purple-200/50">
+                      <span className="font-mono font-bold text-[9.5px] uppercase text-purple-900 block">Ratio Decidendi Mahkamah:</span>
+                      <p className="text-purple-950 font-medium text-[10.5px]">{oi.risalahMk.ratioDecidendi}</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 4. Penjelasan Resmi Lembaran Negara */}
+                {oi.penjelasanResmi && (
+                  <div className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-[11px] space-y-1">
+                    <span className="font-mono font-bold text-[9.5px] uppercase text-slate-500 block">Penjelasan Resmi Naskah UU:</span>
+                    <p className="italic text-slate-700 text-justify">{oi.penjelasanResmi}</p>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </div>
       )}
 

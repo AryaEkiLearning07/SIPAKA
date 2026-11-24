@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-37-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "bahwa gaji Wakil Ketua Dewan Pengawas Keuangan perlu diatur;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-37-tahun-1953",
+   "detailsId": "77805",
+   "judul": "PP No. 37 Tahun 1953 tentang Penetapan gaji Wakil Ketua Dewan Pengawas Keuangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69066/PP%20No.%20037%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:06.792384+00:00"
+  },
+  "sha256": "7fc7cea835dbbad7a6512e7aec921125bce39989d57cc64cf109096b718623f9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

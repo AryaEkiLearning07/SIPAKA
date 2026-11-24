@@ -1,0 +1,43 @@
+{
+ "slug": "uu-no-7-tahun-1948",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan keputusan Badan Pekerja Komite Nasional Pusat No. 62/B.P. 3/47 U yang tidak menyetujui Peraturan Pemerintah No. 22 tahun 1947, Peraturan Pemerintah ini harus dicabut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1948",
+   "detailsId": "25543",
+   "judul": "UU No. 7 Tahun 1948 tentang Pencabutan Peraturan Pemerintah Nomor 22 Tahun 1947 tentang Susunan dan Acara Pengadilan Tentara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/14334/UU%20Nomor%207%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-22-tahun-1947"
+   ],
+   "scrapedAt": "2026-10-06T05:59:00.326109+00:00"
+  },
+  "sha256": "21929330510cc38a78de6352b8806fcbb0aabe6dee5da7ce3a456c5fe994715f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

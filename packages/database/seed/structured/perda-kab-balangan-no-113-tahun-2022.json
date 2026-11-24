@@ -1,0 +1,1955 @@
+{
+ "slug": "perda-kab-balangan-no-113-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 4 Peraturan Daerah Kabupaten Balangan Nomor 2 Tahun 2021 tentang Pembentukan dan Susunan Perangkat Daerah Kabupaten Balangan;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Bupati tentang Tugas, Fungsi dan Uraian Tugas Dinas Satuan Polisi Pamong Praja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perda-kab-balangan-no-113-tahun-2022",
+   "detailsId": "296743",
+   "judul": "PERDA Kab. Balangan No. 113 Tahun 2022 tentang Tugas, Fungsi dan Uraian Tugas Satuan Polisi Pamong Praja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/356178/2022%20PB%20NO%20113%20TUPOKSI%20SATUAN%20POLISI%20PAMONG%20PRAJA.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T08:17:47.716674+00:00"
+  },
+  "sha256": "414e0368feb5bd0038ac7f7a41b0ea3529c47c551352134585b13b6b8f6d79de",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 16,
+  "ayat_angka": 38,
+  "huruf": 150
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Bupati ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah adalah Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah adalah Kepala Daerah sebagai unsur penyelenggara yang memimpin pelaksanaan urusan pemerintahan Daerah pemerintahan yang menjadi kewenangan pemerintah Daerah otonom.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kepala Daerah yang selanjutnya disebut Bupati adalah Bupati Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Satuan Polisi Pamong Praja adalah Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kepala Satuan Polisi Pamong Praja adalah Kepala Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Sekretariat adalah Sekretariat pada Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Bidang adalah bidang-bidang di lingkungan Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Sub Bagian adalah sub-sub bagian pada Sekretariat Satuan Polisi Pamong Praja dan Sub Bagian Tata Usaha pada unit-unit pelaksana teknis pada Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Unit Pelaksana Satuan Polisi Pamong Praja Kabupaten, selanjutnya disebut Unit Pelaksana Satpol PP Kabupaten adalah Unit Pelaksana Satuan Polisi Pamong Praja Kabupaten Balangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Jabatan Fungsional adalah sekelompok jabatan yang berisi fungsi dan tugas berkaitan dengan pelayanan fungsional yang berdasarkan pada keahlian dan keterampilan tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TUGAS, FUNGSI DAN URAIAN TUGAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas Satuan Polisi Pamong Praja mempunyai tugas sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "membantu Bupati melaksanakan urusan Pemerintahan dibidang ketenteraman, ketertiban umum dan perlindungan masyarakat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melaksanakan tugas pembantuan yang diberikan Bupati.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud pada ayat (1), Satuan Polisi Pamong Praja menyelenggarakan fungsi sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan di bidang ketenteraman, ketertiban umum dan perlindungan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan di bidang ketenteraman, ketertiban umum dan perlindungan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang ketenteraman, ketertiban umum dan perlindungan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pelaksanaan administrasi satuan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Bupati terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Satuan Polisi Pamong Praja sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengoordinasikan, membina dan mengawasi perumusan kebijakan teknis dibidang penegakan perundang-undang Daerah, ketertiban umum dan ketenteraman masyarakat, sumber daya aparatur dan perlindungan masyakarat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengoordinasikan, membina dan mengawasi perumusan kebijakan teknis bidang penegakan perundang-undang Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengoordinasikan, membina dan mengawasi perumusan kebijakan teknis bidang ketertiban umum dan ketenteraman masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengoordinasikan, membina dan mengawasi perumusan kebijakan teknis sumber daya aparatur;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengoordinasikan, membina dan mengawasi perumusan kebijakan teknis bidang perlindungan masyakarat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mengoordinasikan dan mensinkronisasikan pelaksanaan kebijakan teknis bidang penegakan perundang-undang Daerah, ketertiban umum dan ketenteraman masyarakat, sumber daya aparatur dan perlindungan masyakarat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengoordinasikan, membina dan mengawasi pemantauan, evaluasi dan pelaporan pelaksanaan kebijakan teknis bidang penegakan perundang-undang Daerah, ketertiban umum dan ketenteraman masyarakat, sumber daya aparatur dan perlindungan masyakarat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "membina dan mengawasi pengelolaan kesekretariatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-2/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "melaksanakan tugas lain yang diberikan oleh Bupati sesuai bidang tugas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "UNSUR-UNSUR ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Unsur-unsur organisasi Dinas Satuan Polisi Pamong Praja terdiri dari : a. Sekretariat; b. Bidang Penegakan Perundang-Undangan Daerah; c. Bidang Ketertiban Umum dan Ketenteraman Masyarakat; d. Bidang Sumber Daya Aparatur; e. Bidang Perlindungan Masyarakat; dan f. Jabatan Fungsional. Bagian Kesatu Sekretariat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat sebagaimana dimaksud dalam Pasal 3 huruf a mempunyai tugas sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengoordinasikan, membina dan mengendalikan penyusunan rencana dan program;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengelolaan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyelenggarakan urusan umum dan administrasi kepegawaian lingkup Satuan Polisi Pamong Praja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana di maksud pada ayat (1), Sekretariat mempunyai fungsi sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian penyusunan program dan rencana kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian evaluasi dan pelaporan kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian penyusunan anggaran dan pengelolaan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian pengelolaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian pengelolaan surat-menyurat dan rumah tangga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian pengelolaan administrasi kepegawaian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "penyusunan program, koordinasi, pembinaan dan pengendalian pengelolaan organisasi, tatalaksana dan hubungan masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Sekretariat sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun program, mengoordinasikan, membina mengendalikan penyusunan program dan rencana kegiatan; program, mengoordinasikan, membina",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun dan dan mengendalikan evaluasi dan pelaporan kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyusun program, mengoordinasikan, membina dan mengendalikan penyusunan anggaran dan pengelolaan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyusun program, mengoordinasikan, membina dan mengendalikan pengelolaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyusun program, mengoordinasikan, membina dan mengendalikan pengelolaan surat-menyurat dan rumah tangga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyusun program, mengoordinasikan, membina dan mengendalikan pengelolaan administrasi kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyusun dan mengendalikan pengelolaan organisasi, tatalaksana dan hubungan masyarakat ; dan program, mengoordinasikan, membina",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-4/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Sekretariat sebagaimana dimaksud dalam Pasal 3 huruf a terdiri dari : a. Sub Bagian Perencanaan dan Pelaporan; b. Sub Bagian Keuangan; dan c. Sub Bagian Umum dan Kepegawaian. Paragraf 1 Sub Bagian Perencanaan dan Pelaporan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sub Bagian Perencanaan dan Pelaporan sebagaimana dimaksud dalam Pasal 5 huruf a mempunyai tugas sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melaksanakan penyusunan program, rencana kegiatan dan evaluasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melaksanakan penyusunan laporan pelaksanaan kegiatan lingkup Dinas Satuan Polisi Pamong Praja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Uraian tugas Sub Bagian Perencanaan dan Pelaporan sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyiapkan bahan dan menyusun program dan rencana kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menghimpun, mengolah, menganalisis dan menyajikan sesuai kebutuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyiapkan bahan dan melaksanakan kerjasama penyusunan rencana strategis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan dan mengevaluasi kegiatan program dan rencana kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyiapkan bahan dan menyusun sistem informasi sesuai kebutuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan melaksanaan kerjasama penyusunan Laporan Akuntabilitas Kinerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan Laporan Pertanggungjawaban dan Laporan Keterangan Pertanggungjawaban;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja penyusunan dan menyusun bahan bahan program; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-6/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Paragraf 2 Sub Bagian Keuangan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sub Bagian Keuangan sebagaimana dimaksud dalam Pasal 5 huruf b mempunyai tugas sebagai berikut: adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melaksanakan penyusunan rencana anggaran; menyiapkan bahan dan menyusun rencana kegiatan pengelolaan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melaksanakan penatausahaan dan pelaporan keuangan lingkup Dinas Satuan Polisi Pamong Praja. menyiapkan bahan dan menyusun petunjuk teknis pengelolaan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyiapkan bahan dan melaksanakan kerjasama penyusunan rencana anggaran pendapatan dan belanja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan dan mengelola penatausahaan dan akuntansi keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja dan pertanggung jawaban keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan memfasilitasi pemeriksaan internal maupun eksternal serta tindak lanjut hasil pemeriksaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Paragraf 3 Sub Bagian Umum dan Kepegawaian",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Uraian tugas Sub Bagian Keuangan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sub Bagian Umum dan Kepegawaian sebagaimana dimaksud dalam Pasal 5 huruf c mempunyai tugas sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengelola surat-menyurat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengelola ekspedisi dan kearsipan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengelola urusan rumah tangga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengelolaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "hubungan masyarakat dan keprotokolan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "organisasi dan ketatalaksanaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengelola administrasi kepegawaian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Uraian tugas Sub Bagian Umum dan Kepegawaian sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyiapkan bahan dan menyusun rencana kegiatan pengelolaan surat-menyurat, ekspedisi dan kearsipan, urusan rumah tangga, pengelolaan aset, hubungan masyarakat dan keprotokolan, organisasi dan ketatalaksanaan serta administrasi kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyiapkan bahan dan menyusun petunjuk teknis pengelolaan surat-menyurat, ekspedisi dan kearsipan, urusan rumah tangga, pengelolaan aset, hubungan masyarakat dan keprotokolan, organisasi dan ketatalaksanaan serta kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyiapkan bahan dan melaksanakan pengelolaan surat-surat dan ekspedisi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan, mengelola arsip dan menyusun jadwal retensi serta penghapusan arsip;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyiapkan bahan, mengelola fasilitas kerumahtanggaan, mengendalikan ketertiban dan keamanan lingkungan kantor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan, dan melaksanakan análisis kebutuhan dan menyusun Rencana Kebutuhan Barang Unit dan Rencana Tahunan Barang Unit;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan bahan dan melaksanakan pengelolaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan dan melaksanakan laporan penatausahaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menyiapkan bahan dan menyusun laporan pengelolaan aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menyiapkan bahan dan melaksanakan kegiatan hubungan masyarakat dan keprotokolan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "menyiapkan bahan analisa dan evaluasi efektivitas organisasi dan ketatalaksanaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "menyiapkan bahan dan memproses administrasi pembayaran gaji dan tunjangan ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "menyiapkan bahan dan menyusun daftar nominatif dan daftar urut kepangkatan pegawai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "menyiapkan bahan dan melaksanakan fasilitasi penilaian kinerja pegawai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "menyiapkan bahan dan memproses administrasi mutasi kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "menyiapkan bahan dan mengelola dokumen dan data kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "menyiapkan bahan dan mengelola informasi kepegawaian ;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "menyiapkan bahan pembinaan pegawai ; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-8/ayat-2/huruf-s",
+         "type": "HURUF",
+         "orderIndex": 19,
+         "label": "Huruf s",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Bagian Kedua Bidang Penegakan Perudang-Undangan Daerah",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Penegakan Perundang-Undangan Daerah sebagaimana dimaksud dalam Pasal 3 huruf b mempunyai tugas mengoordinasikan, membina, mengatur dan mengendalikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pembinaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengawasan dan penyuluhan; serta",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyelidikan dan penyidikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud pada ayat (1), Bidang Penegakan Perundang-Undangan Daerah mempunyai fungsi sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian pembinaan, pengawasan dan penyuluhan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian penyelidikan dan penyidikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Bidang Penegakan Perundang-Undangan Daerah sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan pembinaan, pengawasan dan penyuluhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyiapkan bahan dan menyusun rencana kegiatan pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengumpulkan, mengolah, menganalisis dan menyajikan data pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyiapkan bahan dan menyusun petunjuk teknis pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan melaksanakan fasilitasi dan supervisi pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan bahan koordinasi dan melaksanakan kerja sama dengan satuan/unit kerja dan instansi terkait dalam pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan dan melaksanakan pemantauan dan evaluasi pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "melakukan pemantauan dan evaluasi terhadap pelaksanaan urusan pembinaan, pengawasan, penyuluhan, penyelidikan dan penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "sosialisasi penegakan Peraturan Daerah dan Peraturan Bupati;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pengawasan atas kepatuhan terhadap pelaksanaan peraturan Daerah dan peraturan Bupati;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "penataan atas pelanggaran Peraturan Daerah dan Peraturan Bupati; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-9/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Bagian Ketiga Bidang Ketertiban Umum dan Ketenteraman Masyarakat",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Ketertiban Umum dan Ketenteraman Masyarakat sebagaimana dimaksud dalam Pasal 3 huruf c mempunyai tugas sebagai mengoordinasikan, membina, mengatur dan mengendalikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "operasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengendalian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kerjasama.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud pada ayat (1), Bidang Ketertiban Umum dan Ketenteraman Masyarakat mempunyai fungsi sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian operasi dan pengendalian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian kerjasama.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Bidang Ketertiban Umum dan Ketenteraman Masyarakat sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun kebijakan teknis operasi dan pengendalian serta kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan teknis operasi dan pengendalian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan dan menyusun rencana kegiatan operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengumpulkan, mengolah, menganalisis dan menyajikan data operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan menyusun petunjuk teknis operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan bahan dan melaksanakan fasilitasi dan supervisi operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan koordinasi dan melaksanakan kerja sama dengan satuan/unit kerja dan instansi terkait dalam operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menyiapkan bahan dan melaksanakan pemantauan dan evaluasi operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "melakukan pemantauan dan evaluasi terhadap pelaksanaan urusan operasi, pengendalian dan kerjasama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pencegahan gangguan ketentraman dan ketertiban umum melalui deteksi dini dan cegah dini, pembinaan dan penyuluhan, pelaksanaan patroli, pengamanan dan pengawalan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "penindakan atas gangguan ketentraman dan ketertiban umum berdasarkan perda dan perkada melalui penerbitan dan penanganan unjuk rasa dan kerusuhan masa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "melaksanakan koordinasi penyelenggaraan ketentraman dan ketertiban umum serta perlindungan masyarakat tingkat kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "melaksanakan kerjasama antar lembaga dan kemitraan dalam teknik pencegahan dan penanganan gangguan ketentraman dan ketertiban umum; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-10/ayat-3/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Bagian Keempat Bidang Sumber Daya Aparatur",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Sumber Daya Aparatur sebagaimana dimaksud dalam Pasal 3 huruf d mempunyai tugas mengoordinasikan, membina, mengatur dan mengendalikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelatihan dasar; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelatihan teknis fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud pada ayat (1), Bidang Sumber Daya Aparatur mempunyai fungsi sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian pelatihan dasar; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian pelatihan teknis fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Bidang Sumber Daya Aparatur sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun kebijakan teknis mengendalikan pelatihan dasar serta pelatihan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan pelatihan dasar;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan pelatihan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan dan menyusun rencana kegiatan pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengumpulkan, mengolah, menganalisis dan menyajikan data pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan menyusun petunjuk teknis pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan bahan dan melaksanakan fasilitasi dan supervisi pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan koordinasi dan melaksanakan kerja sama dengan satuan/unit kerja dan instansi terkait dalam pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menyiapkan bahan dan melaksanakan pemantauan dan evaluasi kinerja pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja pelatihan dasar dan teknis fungsional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "melakukan pemantauan dan evaluasi terhadap pelaksanaan urusan pelatihan dasar dan teknis fungsional; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-11/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Bagian Kelima Bidang Perlindungan Masyarakat",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Perlindungan Masyarakat sebagaimana dimaksud dalam Pasal 3 huruf e mempunyai tugas mengoordinasikan, membina, mengatur dan mengendalikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "satuan anggota linmas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bina potensi masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud pada ayat (1), Bidang Perlindungan Masyarakat mempunyai fungsi sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian satuan linmas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyusunan program, koordinasi, pembinaan, pengaturan, dan pengendalian bina potensi masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Uraian tugas Bidang Perlindungan Masyarakat sebagaimana dimaksud pada ayat (1) adalah sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun kebijakan teknis satuan linmas serta bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan satuan linmas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyusun program, mengoordinasikan, membina, mengatur, dan mengendalikan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menyiapkan bahan dan menyusun rencana kegiatan satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengumpulkan, mengolah, menganalisis dan menyajikan data satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyiapkan bahan dan menyusun petunjuk teknis satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyiapkan bahan dan melaksanakan fasilitasi dan supervisi satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "menyiapkan bahan koordinasi dan melaksanakan kerja sama dengan satuan/unit kerja dan instansi terkait dalam satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menyiapkan bahan dan melaksanakan pemantauan dan evaluasi satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menyiapkan bahan dan menyusun laporan kinerja satuan linmas dan bina potensi masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "melakukan pemantauan dan evaluasi terhadap pelaksanaan urusan satuan linmas dan bina potensi masyarakat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-12/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "melaksanakan tugas lain sesuai bidang tugas dan kewenangannya. Bagian Kelima Jabatan Fungsional",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jabatan Fungsional sebagaimana dimaksud dalam Pasal 3 huruf f mempunyai tugas memberikan pelayanan fungsional berdasarkan keahlian dan keterampilan tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jabatan Fungsional sebagaimana dimaksud pada ayat (1) terdiri dari sejumlah tenaga fungsional yang terbagi dalam berbagai kelompok sesuai dengan bidang keahlian dan keterampilannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jumlah Jabatan Fungsional sebagaimana dimaksud pada ayat (1) ditentukan berdasarkan kebutuhan dan beban kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Jenis dan jenjang Jabatan Fungsional sebagaimana dimaksud pada ayat (1) diatur sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pejabat Fungsional sebagaimana dimaksud dalam Pasal 3 huruf g berkedudukan di bawah dan bertanggung jawab secara langsung kepada pejabat pimpinan tinggi pratama, pejabat administrator, atau pejabat pengawas yang memiliki keterkaitan dengan pelaksanaan tugas Jabatan Fungsional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pada saat Peraturan Bupati ini berlaku, Peraturan Bupati Balangan Nomor 87 Tahun 2021 tentang Tugas Pokok, Fungsi dan Uraian Tugas Satuan Polisi Pamong Praja (Berita Daerah Kabupaten Balangan Tahun 2021 Nomor 87) dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perda-kab-balangan-no-113-tahun-2022/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Balangan. Ditetapkan di Paringin pada tanggal 30 Desember 2022 BUPATI BALANGAN, ttd H. ABDUL HADI Salinan sesuai dengan aslinya KABAG. HUKUM SETDA KABUPATEN BALANGAN MUHAMMAD ROJI, SH NIP. 19830710 201001 1 020 Diundangkan di Paringin pada tanggal 30 Desember 2022 SEKRETARIS DAERAH KABUPATEN BALANGAN, ttd H. SUTIKNO BERITA DAERAH KABUPATEN BALANGAN TAHUN 2022 NOMOR 113",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

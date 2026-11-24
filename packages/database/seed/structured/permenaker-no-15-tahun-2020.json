@@ -1,0 +1,374 @@
+{
+ "slug": "permenaker-no-15-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "Menimbang bahwa untuk melaksanakan ketentuan Pasal 6 ayat (3), Pasal 8 ayat (3), Pasal 14 ayat (3), dan Pasal 15 ayat (2) Peraturan Presiden Nomor 39 Tahun 2019 tentang Satu Data Indonesia, perlu menetapkan Peraturan Menteri Ketenagakerjaan tentang Satu Data Ketenagakerjaan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tan^al 8 September 2020 DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. WIDODO EKATJAHJANA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2020 NOMOR 1008 SAUNAN SESUAI DENGAN ASLINYA Pit. KEFA] A BIRO HUKUM. R ENTMTOSIDAYANTI NIP 19720603 199903 2 001 - 24 - LAMPIRAN PERATURAN MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA NOMOR 15 TAHUN 2020 TENTANG SATU DATA KETENAGAKERJAAN DAFTAR LAMPIRAN 1. FORMAT A - TATA CARA PENYUSUNAN STANDAR DATA KETENAGAKERJAAN. 2. 3. FORMAT B - TATA CARA PENYUSUNAN METADATA. FORMATC - PENGELOLAAN SATU DATA KETENAGAKERJAAN. MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA, ttd. IDA FAUZIAH SALINAN SESUAI DENGAN ASLINYA Pit. KEPALA BIRO HUKUM, SIDAYANTI NIP 19720603 199903 2 001 -25- FORMAT A - TATA CARA PENYUSUNAN STANDAR DATA KETENAGAKERJAAN Data ketenagakeijaan yang disusun berdasarkan standar Data adalah Data yang memiliki prinsip karakteristik sebagai berikut: a. Konsep, yaitu ide yang mendasari Data dan tujuan Data tersebut diproduksi; b. Definisi, yaitu penjelasan tentang Data yang memberi batas atau membedakan secara jelas arti dan cakupan Data tertentu dengan Data yang lain;",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-15-tahun-2020",
+   "detailsId": "163390",
+   "judul": "Permenaker No. 15 Tahun 2020 tentang Satu Data Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/156137/Permen_15_2020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:02:54.906951+00:00"
+  },
+  "sha256": "710162a9094d60ef5f4c514d79e470b90975d9db104907ad0b3f3a397dd101c5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 7,
+  "ayat_angka": 23,
+  "huruf": 4
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-15-tahun-2020/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Ketenagakeijaan adalah segala hal yang berhubungan dengan tenaga keija pada waktu sebelum, selama dan sesudah masa keija.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Data adalah catatan atas kumpulan fakta atau deskripsi berupa angka, karakter, simbol, gambar, peta, tanda, isyarat, tulisan, suara, dan/atau bunyi, yang merepresentasikan keadaan sebenamya atau menunjukkan suatu ide, objek, kondisi, atau situasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Data Ketenagakeijaan adalah Data yang berkaitan dengan segala hal yang berhubungan dengan tenaga kerja pada waktu sebelum, selama dan sesudah masa keija, meliputi Data yang terkait dengan pelatihan keija, produktivitas tenaga keija, penempatan tenaga keija, pengembangan dan perluasan kesempatan keija, informasi pasar keija, pengawasan Ketenagakeijaan, kesehatan dan keselamatan keija, hubungan industrial, jaminan sosial tenaga keija, dan Data lain sesuai kebutuhan. 4. Standar Data adalah standar yang mendasari Data tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Metadata adalah informasi dalam bentuk struktur dan format yang baku untuk menggambarkan Data, menjelaskan Data, serta memudahkan pencarian, penggunaan, dan pengelolaan informasi Data. 6. Interoperabilitas Data adalah kemampuan Data untuk dibagipakaikan antarsistem elektronik yang saling berinteraksi. 7. Kode Referensi adalah tanda berisi karakter yang mengandung atau menggambarkan makna, maksud, atau norma tertentu sebagai rujukan identitas Data yang bersifat unik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Data Induk adalah Data yang merepresentasikan objek dalam proses bisnis pemerintah yang ditetapkan untuk digunakan bersama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Data Prioritas adalah Data terpilih yang berasal dari daftar Data yang akan dikumpulkan pada tahun selanjutnya yang disepakati dalam Forum Satu Data Ketenagakeij aan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Satu Data Ketenagakeijaan adalah kebijakan tata kelola data pemerintah di sektor Ketenagakeijaan untuk menghasilkan Data Ketenagakeijaan yang akurat, mutakhir, terpadu, dan dapat dipertanggungjawabkan, serta mudah diakses dan dibagipakaikan antar Instansi Pusat dan Daerah melalui pemenuhan Standar Data, Metadata, Interoperabilitas Data, dan menggunakan Kode Referensi dan/atau Data Induk.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Walidata Ketenagakeijaan adalah unit keija yang menyelengarakan tugas dan fungsi di bidang pengelolaan Data di Kementerian Ketenagakeijaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Produsen Data Ketenagakeijaan adalah unit keija pada Instansi Pusat dan Instanai Daerah yang menghasilkan Data Ketenagakeijaan berdasarkan kewenangan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pengguna Data adalah Instansi Pusat, Instansi Daerah, perseorangan, kelompok orang, atau badan hukum yang menggunakan Data.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Portal Satu Data Ketenagakeijaan adalflh media bagi- pakai Data Ketenagakeijaan di tingkat nasionaJ, provinsi, dan kabupaten/kota yang dapat diakses melalui pemanfaatan teknologi informasi dan komunikasi. 15. Instansi Pusat adalah kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, kesekretariatan lembaga nonstruktural, dan lembaga pemerintah lainnya. 16. Instansi Daerah adalah perangkat daerah provinsi dan perangkat daerah kabupaten/kota, meliputi sekretariat daerah, sekretariat dewan perwakilan ralq'at daerah, dinas daerah, dan lembaga teknis daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Forum Satu Data Ketenagakeijaan adaiah wadah komunikasi dan koordinasi Instansi P^usat dan/atau Instansi Daerah untuk penyelenggaraan Satu Data Ketenagakeij aan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Kementerian adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang ketenagakeij aan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang Ketenagakeijaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Satu Data Ketenagakeijaan dimaksudkan untuk mengatur penyelenggaraan tata kelola Data Ketenagakeijaan yang dihasilkan oleh Instansi Pusat dan Instansi Daerah agar pengelolaan dan pengembangan Data Ketenagakeijaan memenuhi prinsip-prinsip satu Data Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Satu Data Ketenagakeijaan bertujuan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memberikan acuan pelaksanaan dan pedoman bagj Instansi Pusat dan Instansi Daerah dalam rangka penyelenggaraan tata kelola Data Ketenagakeijaan untuk mendukung perencanaan, pelaksanaan, evaluasi, dan pengendalian pembangunan sektor Ketenagakerjaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mewujudkan ketersediaan Data Ketenagakeijaan yang terstandar, akurat, mutakhir, terpadu, dapat dipertanggungjawabkan, serta mudah diakses dan dibagipakaikan antar Instansi Pusat dan Instansi Daerah sebagai dasar perencanaan, pelaksanaan, evaluasi, dan pengendalian pembangunan sektor Ketenagakeijaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mendorong keterbukaan dan transparansi Data Ketenagakeijaan sehingga tercipta perencanaan dan perumusan kebijakan pembangunan sektor Ketenagakeijaan yang berbasis pada Data; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-15-tahun-2020/pasal-2/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "meningkatkan kualitas dan integritas Data Ketenagakeijaan dalam mendukung kebijakan pemerintah di sektor Ketenagakeijaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-15-tahun-2020/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PRINSIP SATU DATA KETENAGAKERJAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Data Ketenagakeijaan yang dihasilkan oleh Produsen Data Ketenagakeijaan hams sesuai dengan prinsip satu Data Indonesia, yaitu: a. memenuhi Standar Data; b. memiliki Metadata; c. memenuhi kaidah Interoperabilitas Data; dan d. menggunakan Kode Referensi dan/atau Data Induk.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Standar Data sebagaimana dimaksud dalam Pasal 3",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "huruf a, terdiri atas: a. b. c. d. konsep; definisi; klasifikasi; ukuran; dan e. satuan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Konsep sebagaimana dimaksud pada ayat (1) huruf a merupakan ide yang mendasari Data dan tujuan Data tersebut diproduksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Definisi sebagaimana dimaksud pada ayat (1) huruf b merupakan penjelasan tentang Data yang memberi batas atau membedakan secara jelas arti dan cakupan Data tertentu dengan Data yang lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Klasifiksi sebagaimana dimaksud pada ayat (1) huruf c merupakan penggolongan Data secara sistematis ke dalam kelompok atau kategori berdasarkan kriteria yang ditetapkan oleh pembina Data Ketenagakeijaan atau dibakukan secara luas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ukuran sebagaimana dimaksud pada ayat (1) huruf d merupakan unit yang digunakan dalam pengukuran jumlah, kadar, atau cakupan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-4/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Satuan sebagaimana dimaksud pada ayat (1) huruf e merupakan besaran tertentu dalam Data yang digunakan sebagai standar untuk mengukur atau menakar sebagai satu kesatuan data yang utuh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Standar Data sebagaimana dimaksud dalam Pasal 4 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-15-tahun-2020/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "disusun oleh Walidata Ketenagakerjaan atas masukan dari Produsen Data Ketenagakeijaan dan ditetapkan oleh pembina Data Ketenagakeijaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Standar Data yang berlaku lintas Instansi Pusat dan/atau Instansi Daerah ditetapkan oleh badan yang melaksanakan tugas pemerintahan di bidang kegiatan statistik atas usulan pembina Data Ketenagakeijaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-15-tahun-2020/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Tata cara penyusunan Standar Data seb^aimana dimaksud dalam Pasal 4 ayat (1) mengacu pada Format A sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

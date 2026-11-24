@@ -1,0 +1,34 @@
+tok 1.0 "Kirim Komentar (Forum Diskusi Kasus)"
+
+pool p "Kirim Komentar" process=kirim_komentar
+  store d_komen "Komentar"
+  start mulai "Komentar diterima" message="Isi komentar"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service valid "Validasi Isi Komentar"
+  xor ok "Komentar valid?"
+  service simpan "Simpan komentar ke thread"
+  call poin "Beri Poin Reputasi" process=kelola_reputasi doc="Langkah 'Beri Poin Reputasi' pada proses Kelola Reputasi"
+  end selesai "Komentar tampil di thread" message="Konfirmasi komentar tampil"
+  send pesan "Kirim pesan kesalahan isi komentar" message="Pesan kesalahan komentar"
+  receive perbaiki "Terima komentar yang diperbaiki" message="Komentar diperbaiki"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> valid "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow valid -> ok
+flow ok -> simpan "ya" when="komentarValid"
+flow ok -> pesan "tidak" default
+flow pesan -> perbaiki -> valid
+flow simpan -> poin -> selesai
+
+writes simpan d_komen
+
+message user -> mulai "Isi komentar"
+message tolak -> user "Akses ditolak"
+message selesai -> user "Konfirmasi komentar tampil"
+message pesan -> user "Pesan kesalahan komentar"
+message user -> perbaiki "Komentar diperbaiki"

@@ -1,0 +1,71 @@
+{
+ "slug": "pp-no-14-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan adanya perubahan gaji pokok Hakim yang berlaku terhitung mulai tanggal 1 Januari 2007 sebagaimana dimaksud dalam Peraturan Pemerintah Nomor 10 Tahun 2007 tentang Perubahan Keempat atas Peraturan Pemerintah Nomor 8 Tahun 2000 tentang Peraturan Gaji Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama, perlu menetapkan pensiun pokok pensiunan Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama serta Janda/Dudanya dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 10 Januari 2007 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd DR. HAMID AWALUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2007 NOMOR 30",
+ "source": {
+  "url": {
+   "slug": "pp-no-14-tahun-2007",
+   "detailsId": "4735",
+   "judul": "PP No. 14 Tahun 2007 tentang Penetapan Pensiun Pokok Pensiunan Hakim Peradilan Umum Peradilan Tata Usaha Negara Dan Peradilan Agama Serta Janda Dudanya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/37553/PP%2014%20Tahun%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-71-tahun-2005"
+   ],
+   "scrapedAt": "2026-10-06T00:38:24.841925+00:00"
+  },
+  "sha256": "d79e817c733fff0fe4e11bfe30866e75f2e587f5a87d6f0522c7476ad88cc5f9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-14-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-14-tahun-2007/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pensiun Hakim dan pensiun Janda/Dudanya yang dipensiun setelah berlakunya Peraturan Pemerintah Nomor 10 Tahun 2007 tentang Perubahan Keempat atas Peraturan Pemerintah Nomor 8 Tahun 2000 tentang Peraturan Gaji Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama, pensiun pokoknya ditetapkan sebagai berikut;",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-14-tahun-2007/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "bagi pensiun Hakim yang perhitungan pensiun pokoknya sebagaimana tersebut dalam lajur 2, ditetapkan menjadi sebagaimana tersebut dalam lajur 3 Daftar I-A sampai dengan Daftar I-Q",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

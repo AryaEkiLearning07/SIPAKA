@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-34-tahun-1956",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk mencapai ketertiban dalam penyelenggaraan Tambang Minyak Sumatera Utara perlu ditetapkan dasar dan cara penyelenggaraan tersebut."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-34-tahun-1956",
+   "detailsId": "77013",
+   "judul": "PP No. 34 Tahun 1956 tentang Tambang Minyak Sumatera Utara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68004/PP%20No.%2034%20Tahun%201956.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:20.766591+00:00"
+  },
+  "sha256": "62fe9d90a45ad58f271cc1ddbf65425207b3ad5040ecadfdb596569b0d926f50",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

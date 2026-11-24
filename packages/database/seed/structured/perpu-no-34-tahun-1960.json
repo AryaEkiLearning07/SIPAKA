@@ -1,0 +1,42 @@
+{
+ "slug": "perpu-no-34-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa dipandang perlu untuk menambah penghasilan Negara;",
+   "bahwa karena keadaan memaksa soal tersebut diatur dengan Peraturan Pemerintah Pengganti Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpu-no-34-tahun-1960",
+   "detailsId": "53550",
+   "judul": "PERPU No. 34 Tahun 1960 tentang Pajak Transfer - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42933/perpu%20034%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T07:37:35.020121+00:00"
+  },
+  "sha256": "151a044d1af2139d5ee57f6ffe6c48f8956e361dfe602db754ab5b6087a3834c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

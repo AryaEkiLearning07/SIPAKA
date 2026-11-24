@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-20-tahun-1948",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-20-tahun-1948",
+   "detailsId": "63055",
+   "judul": "PP No. 20 Tahun 1948 tentang Pemberian Ijin Kepada Pedagang Untuk Menimbun Barang Penting - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66676/PP%20No.%2020%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:35.621644+00:00"
+  },
+  "sha256": "2c3240c0618a6763ba1dbfc36b8f8ac39e0579729a3965d1f9bf983226e27350",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-20-tahun-1948/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Surat ijin termaksud dalam pasal 1 diberikan kepada: a. b. c. Pedagang yang membeli, menerima atau menyimpan beras, gabah, padi, menir atau tepung beras semata-mata guna keperluan Pemerintah; Pedagang yang mendapat gula atau minyak tanah dari Jawatan P.P.B.M. karena pertukaran dengan bahan makanan; Pedagang yang membeli guna langsung dari Kantor Penjualan Gula (K.P.G.) di Surakarta. Pasal 3.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-20-tahun-1948/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Untuk mempunyai atau menyimpan garam lebih dari pada jumlah termuat dalam pasal 3 ayat (1) dari Undang-Undang tentang Penimbunan Barang Penting (Undang-Undang No. 29 tahun 1948) orang atau badan badan yang menghasilkan garam harus mempunyai surat ijin dari Kepala Jawatan Candu dan Garam atau pegawai yang ditunjuknya. Surat ijin termaksud dalam pasal 1 dan 4 berlaku buat selama- lamanya 3 (tiga) bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1948/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Untuk mendapat surat ijin termaksud dalam ayat (1) orang atau badan yang berkepentingan harus memajukan surat permintaan kepada Kepala Jawatan Candu dan Garam atau pegawai yang ditunjuknya. Pasal 4. Surat ijin termaksud dalam pasal 3 diberikan kepada orangatau badan yang mempunyai perusahaan pergaraman yang hasil garamnya rata-rata sehari lebih dari pada 100 (seratus) kilogram. Pasal 5. Surat ijin termaksud dalampasal 4 oleh Kepala jawatan Candu dan Garam atau pegawai yangditunjuknya dapat disertai perjanjian bahwa garam yang ditimbun tidak boleh melebihi jumlah yangtertentu. Pasal 6. Surat ijin tersebut dalam ayat (1) sehabis masanya dapat diperpanjang oleh Kepala Jawatan yang berkepentyingan tiap- tiap kali buat selama-lamanya 3 (tiga) bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-20-tahun-1948/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Untuk memperpanjang surat ijin tersebut dalam ayat (1) orang atau badan yang berkepentingan harus memajukan surat permintaan kepada Kepala Jawatan Candu dan garam. Pasal 7. Peraturan ini mulai berlaku pada hari berlakunya Undang- Undang tentang Penimbunan Barang penting (Undang-Undang No. 29 tahun 1948). Ditetapkan di Yogyakarta pada tanggal 3 September 1948. PRESIDEN REPUBLIK INDONESIA, SOEKARNO. Diumumkan pada tanggal 3 September 1948. Menteri Persediaan Makanan Rakyat, I. J. KASIMO. Menteri keuangan a.i., MOHAMMAD HATTA. Wakil Sekretaris Negara, RATMOKO. Menteri Kemakmuran, SAFRUDIN PRAWIRANEGARA.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

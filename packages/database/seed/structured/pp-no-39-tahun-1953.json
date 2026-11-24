@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-39-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu diadakan peraturan tentang cara mengangkat sumpah (menyatakan keterangan) anggota-anggota badan-badan penyelenggara pemilihan; Mengingat: Pasal 27 ayat (2) dan Pasal 135 Undang-undang Nomor 7 tahun 1953;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-39-tahun-1953",
+   "detailsId": "77811",
+   "judul": "PP No. 39 Tahun 1953 tentang Cara Mengangkat Sumpah (Menyatakan Keterangan) Anggota-Anggota Badan-Badan Penyelenggara Pimilihan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69072/PP%20No.%20039%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:02.781959+00:00"
+  },
+  "sha256": "b11ffb59ce086d3bd70530b054b007995243b153b2534c25f54f4909a9982c0d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-39-tahun-1953/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pengangkatan sumpah (pernyataan keterangan) yang dilakukan berdasarkan instruksi Menteri Dalam Negeri tanggal 4 Nopember 1953 No. Und.5/18/3 dan sesuai dengan ketentuan-ketentuan dalam Pasal 1 dan 2 disahkan dengan Peraturan Pemerintah ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-39-tahun-1953/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini berlaku mulai hari diundangkan dan berlaku surat sampai dengan 7 April 1953. Agar supaya setiap orang dapat mengetahuinya memerintahkan perundangan Peraturan Pemerintah ini dengan menempatkan dalam Lembaran-Negara. Disahkan di Jakarta pada tanggal 27 Nopember 1953 PRESIDEN REPUBLIK INDONESIA, ttd (SOEKARNO) MENTERI KEHAKIMAN, ttd (JODY GONDOKUSUMO) MENTERI DALAM NEGERI, ttd (HAZAIRIN) Diundangkan pada tanggal 27 Nopember 1953 MENTERI KEHAKIMAN, ttd (DJODY GONDOKUSUMO)",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

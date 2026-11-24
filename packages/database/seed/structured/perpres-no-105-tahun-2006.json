@@ -1,0 +1,106 @@
+{
+ "slug": "perpres-no-105-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Sandiman dan Operator Transmisi Sandi, perlu diberikan tunjangan jabatan fungsional yang sesuai dengan beban kerja dan tanggung jawab pekerjaannya;",
+   "bahwa sehubungan dengan hal tersebut pada huruf a dan dalam rangka meningkatkan kesejahteraan dan produktivitas kerja Pegawai Negeri Sipil yang bersangkutan, dipandang perlu mengatur Tunjangan Jabatan Fungsional Sandiman dan Operator Transmisi Sandi dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-105-tahun-2006",
+   "detailsId": "42034",
+   "judul": "PERPRES No. 105 Tahun 2006 tentang Tunjangan Jabatan Fungsional Sandiman dan Operator Transmisi Sandi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/72192/PRPS%20NO%20105%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:35.446061+00:00"
+  },
+  "sha256": "a9e4e022d48072b40cd622d7ce7299634eb46dc104ba9cea07498b672f5cf4f1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-105-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Presiden ini yang dimaksud dengan :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-105-tahun-2006/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Tunjangan Jabatan Fungsional Sandiman, yang selanjutnya disebut dengan Tunjangan Sandiman adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Sandiman sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-105-tahun-2006/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Tunjangan Jabatan Fungsional Operator Transmisi Sandi, yang selanjutnya disebut dengan Tunjangan Operator Transmisi Sandi adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Operator Transmisi Sandi sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-105-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-105-tahun-2006/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Sandiman, diberikan tunjangan Sandiman setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-105-tahun-2006/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Operator Transmisi Sandi, diberikan tunjangan Operator Transmisi Sandi setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-105-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Besarnya tunjangan Sandiman dan Operator Transmisi Sandi sebagaimana dimaksud dalam Pasal 2 adalah sebagaimana tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -11,6 +11,16 @@ const DB_PKG = fs.existsSync(path.resolve(process.cwd(), 'packages/database'))
   ? path.resolve(process.cwd(), 'packages/database')
   : path.resolve(__dirname, '../../../../packages/database');
 
+function isProcessRunning(pid: number | null | undefined): boolean {
+  if (!pid || typeof pid !== 'number' || pid <= 0) return false;
+  try {
+    process.kill(pid, 0);
+    return true;
+  } catch (e: any) {
+    return e.code === 'EPERM';
+  }
+}
+
 /** Dasbor pemilik: agregasi nyata dari catalog_index + instrumen + worker telemetry (dipakai halaman /pipeline). */
 export function registerMonitoringRoutes(server: FastifyInstance): void {
   server.get('/api/v1/monitoring', async () => {
@@ -106,7 +116,8 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
   server.get('/api/v1/monitoring/crawler', async () => {
     const statusFile = path.join(DB_PKG, 'crawler_status.json');
     const checkpointFile = path.join(DB_PKG, 'crawler_checkpoint.json');
-    const logFile = path.join(DB_PKG, 'logs/crawler_worker.log');
+    const parallelLogFile = path.join(DB_PKG, 'logs/parallel_pipeline.log');
+    const logFile = fs.existsSync(parallelLogFile) ? parallelLogFile : path.join(DB_PKG, 'logs/crawler_worker.log');
     const indexFile = path.join(DB_PKG, 'seed/structured/catalog-index.jsonl');
     const richFile = path.join(DB_PKG, 'seed/structured/catalog-rich.jsonl');
 
@@ -122,6 +133,10 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
     if (fs.existsSync(statusFile)) {
       try {
         workerStatus = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
+        if (workerStatus.state === 'RUNNING' && !isProcessRunning(workerStatus.pid)) {
+          workerStatus.state = 'STOPPED';
+          workerStatus.phase = 'STOPPED_SAFELY';
+        }
       } catch {}
     }
 
@@ -174,18 +189,41 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
     };
   });
 
-  // Picu Batch Pemanenan Worker Harvester
-  server.post('/api/v1/monitoring/crawler/trigger', async (request, reply) => {
-    const body = request.body as { limit?: number; delay?: number } | undefined;
-    const limit = Math.min(Math.max(body?.limit || 5, 1), 50);
-    const delay = Math.max(body?.delay || 1.5, 1.0);
+  // Picu / Mulai Worker Harvester (ON)
+  server.post('/api/v1/monitoring/crawler/start', async (request, reply) => {
+    const body = request.body as { continuous?: boolean; limit?: number; delay?: number; jenis?: string } | undefined;
+    const continuous = body?.continuous !== false; // Default true (ON mode)
+    const limit = Math.min(Math.max(body?.limit || 10, 1), 100);
+    const delay = Math.max(body?.delay || 2.0, 1.0);
+    const jenis = body?.jenis || 'UU';
 
-    const workerScript = path.join(DB_PKG, 'scripts/crawler_worker.py');
+    const stopFlag = path.join(DB_PKG, 'crawler_stop_requested.flag');
+    if (fs.existsSync(stopFlag)) {
+      try { fs.unlinkSync(stopFlag); } catch {}
+    }
+
+    const statusFile = path.join(DB_PKG, 'crawler_status.json');
+    if (fs.existsSync(statusFile)) {
+      try {
+        const st = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
+        if (st.state === 'RUNNING' && st.pid && isProcessRunning(st.pid)) {
+          return {
+            success: true,
+            alreadyRunning: true,
+            message: `Harvester sudah dalam kondisi ON / AKTIF (PID: ${st.pid}).`,
+            pid: st.pid,
+          };
+        }
+      } catch {}
+    }
+
+    const workerScript = path.join(DB_PKG, 'scripts/parallel_pipeline.py');
+    const args = [workerScript, '--workers', '3', '--delay', String(delay)];
 
     try {
       const child = spawn(
         process.platform === 'win32' ? 'python' : 'python3',
-        [workerScript, '--batch', String(limit), '--delay', String(delay)],
+        args,
         {
           cwd: DB_PKG,
           detached: true,
@@ -194,12 +232,23 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
       );
       child.unref();
 
+      // Tulis status awal STARTING
+      const initialStatus = {
+        state: 'RUNNING',
+        pid: child.pid,
+        phase: 'INITIALIZING',
+        lastHeartbeat: new Date().toISOString(),
+        stats: { mode: continuous ? 'CONTINUOUS_DAEMON' : 'BATCH' },
+      };
+      fs.writeFileSync(statusFile, JSON.stringify(initialStatus, null, 2), 'utf-8');
+
       return {
         success: true,
-        message: `Worker crawler berhasil dipicu untuk batch ${limit} dokumen (PID: ${child.pid}).`,
+        message: `Mesin Harvester dihidupkan (ON) dalam mode ${continuous ? 'Daemon Berkelanjutan' : 'Batch'} (PID: ${child.pid}).`,
         pid: child.pid,
         limit,
         delay,
+        continuous,
       };
     } catch (err) {
       return reply.code(500).send({
@@ -209,24 +258,45 @@ export function registerMonitoringRoutes(server: FastifyInstance): void {
     }
   });
 
-  // Hentikan Worker Harvester secara Graceful
+  // Alias trigger untuk kompatibilitas
+  server.post('/api/v1/monitoring/crawler/trigger', async (request, reply) => {
+    return (server as any).inject ? null : reply.redirect('/api/v1/monitoring/crawler/start');
+  });
+
+  // Matikan Worker Harvester secara Graceful (OFF)
   server.post('/api/v1/monitoring/crawler/stop', async () => {
+    const stopFlag = path.join(DB_PKG, 'crawler_stop_requested.flag');
     const statusFile = path.join(DB_PKG, 'crawler_status.json');
-    if (fs.existsSync(statusFile)) {
-      try {
-        const st = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
-        if (st.pid && typeof st.pid === 'number') {
-          process.kill(st.pid, 'SIGTERM');
-        }
-        st.state = 'STOPPED';
-        st.phase = 'INTERRUPTED_BY_USER';
-        fs.writeFileSync(statusFile, JSON.stringify(st, null, 2), 'utf-8');
-        return { success: true, message: `Signal henti dikirim ke worker (PID: ${st.pid}).` };
-      } catch (e) {
-        return { success: false, error: e instanceof Error ? e.message : String(e) };
+
+    try {
+      // 1. Tulis file stop flag agar dideteksi instan oleh worker Python
+      fs.writeFileSync(stopFlag, `STOP_REQUESTED_AT=${new Date().toISOString()}\n`, 'utf-8');
+
+      let pid = null;
+      let currentState = 'STOPPED';
+
+      if (fs.existsSync(statusFile)) {
+        try {
+          const st = JSON.parse(fs.readFileSync(statusFile, 'utf-8'));
+          pid = st.pid;
+          currentState = st.state;
+          st.state = 'STOPPING';
+          st.phase = 'GRACEFUL_STOP_REQUESTED';
+          st.requestedState = 'STOP';
+          fs.writeFileSync(statusFile, JSON.stringify(st, null, 2), 'utf-8');
+        } catch {}
       }
+
+      return {
+        success: true,
+        message: 'Permintaan henti (OFF) berhasil dikirim. Mesin akan menyelesaikan dokumen aktif saat ini, menyimpan ke database dan checkpoint, lalu mati dengan aman sebelum laptop dimatikan.',
+        pid,
+        previousState: currentState,
+        flagCreated: true,
+      };
+    } catch (e) {
+      return { success: false, error: e instanceof Error ? e.message : String(e) };
     }
-    return { success: true, message: 'Tidak ada status worker aktif.' };
   });
 
   // Produk Launching & Naskah Konsolidasi Jadi Terkini

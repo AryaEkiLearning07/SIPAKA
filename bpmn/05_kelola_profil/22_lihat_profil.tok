@@ -1,0 +1,44 @@
+tok 1.0 "Lihat Profil (Kelola Profil)"
+
+pool p "Lihat Profil" process=lihat_profil
+  store d_poin "Poin Reputasi"
+  store d_lencana "Lencana"
+  store d_thread "Thread Diskusi"
+  store d_komen "Komentar"
+  start mulai "Permintaan profil diterima" message="Permintaan buka profil"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  and pisah
+  send poin "Tampilkan Poin Reputasi" message="Poin reputasi"
+  send lencana "Tampilkan Lencana" message="Lencana pengguna"
+  sub riwayat "Tampilkan Riwayat Aktivitas"
+    start r1 "Mulai riwayat aktivitas"
+    call r2 "Tampilkan Daftar Diskusi" process=jelajahi_diskusi doc="Langkah 'Tampilkan Daftar Diskusi' pada proses Jelajahi Diskusi (disaring menurut penulis)"
+    service r3 "Susun riwayat thread dan komentar pengguna"
+    send r5 "Kirim riwayat aktivitas" message="Riwayat aktivitas"
+    end r4 "Riwayat tampil"
+    flow r1 -> r2 -> r3 -> r5 -> r4
+  and gabung
+  end selesai "Profil selesai ditampilkan"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> pisah "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow pisah -> poin -> gabung
+flow pisah -> lencana -> gabung
+flow pisah -> riwayat -> gabung
+flow gabung -> selesai
+
+reads poin d_poin
+reads lencana d_lencana
+reads r3 d_thread
+reads r3 d_komen
+
+message user -> mulai "Permintaan buka profil"
+message tolak -> user "Akses ditolak"
+message poin -> user "Poin reputasi"
+message lencana -> user "Lencana pengguna"
+message r5 -> user "Riwayat aktivitas"

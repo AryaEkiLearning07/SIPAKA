@@ -1,0 +1,43 @@
+{
+ "slug": "pergub-no-65-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pergub-no-65-tahun-2021",
+   "detailsId": "173508",
+   "judul": "PERGUB No. 65 Tahun 2021 tentang Penyusunan Kebutuhan Dan Pengadaan Calon Pegawai Negeri Sipil di Lingkungan Pemerintah Daerah Daerah Istimewa Yogyakarta - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/166701/Pergub%20DIY%20No.65%20Tahun%202021%20ttg%20Penyusunan%20Kebutuhan%20Dan%20Pengadaan%20Calon%20Pegawai%20Negeri%20Sipil%20di%20Lingkungan%20Pemerintah%20Daerah%20Daerah%20Istimewa%20Yogyakarta.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pergub-prov-diy-no-18-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T11:53:54.217054+00:00"
+  },
+  "sha256": "17260256ff6e8b65a734b00f0b61288904dc2efa5f684b6e8d86325dd1fe14b6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

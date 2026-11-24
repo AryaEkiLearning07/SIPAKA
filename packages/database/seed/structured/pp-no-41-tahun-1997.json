@@ -1,0 +1,61 @@
+{
+ "slug": "pp-no-41-tahun-1997",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk itu perlu dilakukan penyempurnaan terhadap Peraturan Pemerintah Nomor 35 Tahun 1996 tentang Perubahan atas Peraturan Pemerintah Nomor 36 Tahun 1977 tentang Pengakhiran Kegiatan Usaha Asing Dalam Bidang Perdagangan sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 19 Tahun 1988;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-41-tahun-1997",
+   "detailsId": "56377",
+   "judul": "PP No. 41 Tahun 1997 tentang Perubahan Atas Peraturan Pemerintah Nomor 36 Tahun 1977 Tentang Pengakhiran Kegiatan Usaha Asing Dalam Bidang Perdagangan Sebagaimana Telah Beberapa Kali Diubah Terakhir Dengan Peraturan Pemerintah Nomor 35 Tahun 1996 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/45878/PP%20No.%2041%20Th%201997.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:28.109477+00:00"
+  },
+  "sha256": "1cd5414c12a5b34eafa8c3a926638e0c98520116720eede1356047c1aa4151cc",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-41-tahun-1997/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Penjualan hasil produksinya sendiri: sebagai Distributor/Pedagang Besar (Wholesaler) di seluruh wilayah Indonesia; atau dengan menunjuk Perusahaan Penanaman Modal Asing yang khusus didirikan untuk itu dan/atau Perusahaan Berbadan Hukum Indonesia yang bukan dalam rangka Penanaman Modal Asing di seluruh wilayah Indonesia sebagai Distributor/Pedagang Besar (Wholesaler); atau dengan menunjuk Perusahaan Berbadan Hukum Indonesia yang bukan dalam rangka Penanaman Modal Asing sebagai Distributor/Pedagang Besar dan/atau Pengecer. Indonesia (Wholesaler) seluruh wilayah di Terhitung tanggal 1 Januari 2003 Perusahaan Penanaman Modal Asing di Bidang Produksi dapat melakukan penjualan barang hasil produksinya kepada konsumen akhir melalui Perusahaan Penanaman Modal Asing yang khusus didirikan untuk itu, atau dengan menunjuk Perusahaan yang Berbadan Hukum Indonesia yang bukan dalam rangka Penanaman Modal Asing di seluruh wilayah Indonesia. kegiatan terhadap Pelanggaran sebagaimana dimaksud dalam Peraturan Pemerintah ini dapat berakibat ketentuan Izin pencabutan perundang-undangan yang berlaku. perdagangan dengan Usaha sesuai 4) 5) Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar... - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Nopember 1997 ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 1 Nopember 1997 MENTERI NEGARA SEKRETARIS NEGARA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 88 Salinan sesuai dengan aslinya SEKRETARIAT KABINET R.I Kepala Biro Hukum dan Perundang-undangan ttd Lambock V. Nahattands",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-41-tahun-1997/pasal-3/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Ketentuan Pasal 3 diubah dengan menambah ayat (4) dan ayat (5) baru, yang berbunyi sebagai berikut: Pasal 3… - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..3): [1, 2]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-10-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk memberi penghargaan atas jasa-jasa dan pengabdian Anggota Dewan Perwakilan Rakyat dan sambil menunggu peninjauan masalah pensiun bagi Lembaga Negara secara keseluruhan, dianggap perlu mengadakan perubahan dalam angka-angka persentasi jumlah pensiun yang ditentukan dalam pasal 2 ayat (1) Undang-undang No. 9 Tahun 1953 tersebut diatas, sesuai dengan kebutuhan dan perkembangan pembangunan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-10-tahun-1971",
+   "detailsId": "47606",
+   "judul": "UU No. 10 Tahun 1971 tentang Perubahan terhadap Undang-Undang No. 9 Tahun 1953 tentang Pemberian Tunjangan yang Bersifat Pensiun Kepada Bekas Ketua Dan Bekas Anggota Dewan Perwakilan Rakyat Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36597/UU%20Nomor%2010%20Tahun%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:35.745751+00:00"
+  },
+  "sha256": "5c9dfddfd91d4f5f2109ddaa6674cc178caab11505d20c0a3a0afa20c382af1c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-10-tahun-1971/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pasal 2 ayat (1) Undang-undang No. 9 tahun 1953 diubah sehingga berbunyi sebagai berikut : Pasal 2 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1971/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(1). Pensiun termaksud dalam Pasal 1 diatas ini diberikan atas dasar lamanya masa jabatan. Jumlah pensiun ini ialah untuk tiap-tiap satu bulan masa jabatan 3/4% (tiga perempat perseratus) dari dasar pensiun, dengan ketentuan, bahwa sedikit-dikitnya diberikan 41/2% (empat setengah perseratus) dan sebanyak-banyaknya 60% (enam puluh perseratus) dari dasar pensiun. Dasar pensiun ialah jumlah yang sama dengan gaji tertinggi atau gaji kehormatan tertinggi sebulan yang pernah ditetapkan semasa ia menjabat Ketua/ Wakil Ketua atau Anggota Dewan Perwakilan Rakyat Republik Indonesia. Pasal II Undang-undang ini mulai berlaku pada hari diundangkan. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 18 September 1971 SOEHARTO Jenderal TNI Diundangkan di Jakarta pada tanggal 24 September 1971 Sekretaris Negara Republik Indonesia ALAMSJAH Letnan Jenderal TNI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "pp-no-46-tahun-2004",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung status Badan Urusan Logistik telah berubah dari Lembaga Pemerintah Non Departemen menjadi Perusahaan Umum (PERUM), maka dipandang perlu menetapkan Peraturan Pemerintah tentang Pencabutan atas Peraturan Pemerintah Nomor 18 Tahun 2001 tentang Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Badan Urusan Logistik;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-46-tahun-2004",
+   "detailsId": "66261",
+   "judul": "PP No. 46 Tahun 2004 tentang Pencabutan Atas Peraturan Pemerintah Nomor 18 Tahun 2001 Tentang Tarif Atas Jenis Penerimaan Negara Bukan Pajak - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56595/PP%20No.46%20TH%202004.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-18-tahun-2001"
+   ],
+   "scrapedAt": "2026-10-06T00:39:01.226586+00:00"
+  },
+  "sha256": "8d6ecc7a3c92b27fce5fdf6106ccfbe379a55221eea203374b3dcb6c763d050d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-46-tahun-2004/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Nomor 18 Tahun 2001 tentang Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Badan Urusan Logistik (Lembaran Negara Republik Indonesia Tahun 2001 Nomor 36, Tambahan Lembaran Negara Nomor 4088), dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-46-tahun-2004/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 20 Januari 2003. setiap Agar pengundangan orang mengetahuinya, memerintahkan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Oktober 2004 PRESIDEN REPUBLIK INDONESIA, MEGAWATI SOEKARNOPUTRI ttd. Diundangkan di Jakarta pada tanggal 18 Oktober 2004 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. BAMBANG KESOWO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 148",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

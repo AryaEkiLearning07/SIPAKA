@@ -1,0 +1,95 @@
+{
+ "slug": "pp-no-61-tahun-1992",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan hal tersebut di atas dipandang perlu mengatur pengertian penghasilan bersih perusahaan Reksa Dana dan dividen yang dibagikan kepada para pemodal dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-61-tahun-1992",
+   "detailsId": "57896",
+   "judul": "PP No. 61 Tahun 1992 tentang Pajak Penghasilan Perusahaan Reksa Dana - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47365/PP%20NO%2061%20TH%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:44:54.317532+00:00"
+  },
+  "sha256": "f2055e3a30cbec7339cc6b4399bc26e2520e821ed88c32a41fcaa424874f8890",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-61-tahun-1992/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-61-tahun-1992/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Penghasilan bersih perusahaan Reksa Dana adalah penghasilan bruto setelah dikurangi biaya seperti yang diatur dalam Pasal 6 Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah dengan Undang-undang Nomor 7 Tahun 1991;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-61-tahun-1992/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Saham dividen adalah dividen yang dibagikan berupa saham kepada pemegang saham yang merupakan kapitalisasi dari keuntungan yang diterima atau diperoleh perusahaan Reksa Dana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-61-tahun-1992/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Penghasilan bersih yang diterima atau diperoleh perusahaan Reksa Dana tidak termasuk obyek Pajak Penghasilan sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf 1 Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah dengan Undang-undang Nomor 7 tahun 1991, sepanjang seluruhnya dibagikan sebagai dividen kepada pemegang saham dalam bentuk tunai dan/atau saham dividen.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-61-tahun-1992/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan mengenai saham dividen perusahaan Reksa Dana akan diatur lebih lanjut oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-61-tahun-1992/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 September 1992 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 19 September 1992 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

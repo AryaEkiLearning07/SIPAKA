@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-17-tahun-1992",
+ "preamble": {
+  "menimbang": [
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 24 Agustus 1992 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd MOERDIONO PRESIDEN REPUBLIK INDONESIA - 5 - PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 17 TAHUN 1992 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1991/92 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1991/ 92 merupakan pelaksanaan tahun ketiga Rencana Pembangunan Lima Tahun Ke V. Didasarkan atas perkembangan ekonomi dalam dan luar negeri, yang mempengaruhi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1991/92 diperlukan beberapa tambahan dan perubahan. tersebut disebabkan oleh Dalam Tahun Anggaran 1991/92, realisasi pendapatan negara diperkirakan lebih besar daripada yang direncanakan. Lebih besarnya tingginya pendapatan negara pendapatan dalam negeri, baik dari sektor minyak bumi dan gas alam maupun di luar minyak bumi dan gas alam, khususnya dari perpajakan. Di samping itu juga karena lebih tingginya realisasi pendapatan pembangunan, baik dari bantuan luar negeri yang dapat dirupiahkan, maupun dari bantuan proyek. lebih Disisi pengeluaran, realisasi belanja rutin sedikit leb",
+ "source": {
+  "url": {
+   "slug": "uu-no-17-tahun-1992",
+   "detailsId": "46614",
+   "judul": "UU No. 17 Tahun 1992 tentang Anggaran Pendapatan Dan Belanja Negara Tahun Anggaran 1991/1992 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35338/UU%20Nomor%2017%20Tahun%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:44:27.187041+00:00"
+  },
+  "sha256": "6f98f6db671db96b72bccf78e8d3753e340b4b4215c201b0a0cc305bfd1a1b3f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-17-tahun-1992/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-17-tahun-1992/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1991/92 diperkirakan bertambah deagan Rp 1.438.412.000.000,00 (satu trilyun empat ratus tiga puluh delapan milyar empat ratus dua belas juta rupiah) yang terdiri dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-17-tahun-1992/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp 1.400.812.000.000,00 (satu trilyun empat ratus milyar delapan ratus dua belas juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-17-tahun-1992/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan Rp 37.600.000.000,00 (tiga puluh tujuh milyar enam ratus juta rupiah); bertambah dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-17-tahun-1992/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

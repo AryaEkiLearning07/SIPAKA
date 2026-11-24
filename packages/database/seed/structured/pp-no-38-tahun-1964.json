@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-38-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "perlu mengadakan peraturan khusus tentang penghargaan pengalaman bekerja bagi pegawai negeri sipil;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1964",
+   "detailsId": "72058",
+   "judul": "PP No. 38 Tahun 1964 tentang Peraturan Khusus Tentang Penghargaan Pengalaman Bekerja Bagi Pegawai Negeri Sipil - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/87938/pp%20no%20038%20tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:40.577749+00:00"
+  },
+  "sha256": "46ca92725ee7e8bfdbf14b160e1cb914547ceb3eca33431d9575ca8e3397889d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

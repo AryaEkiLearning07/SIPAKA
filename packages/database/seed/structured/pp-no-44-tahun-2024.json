@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-44-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu menetapkan Peraturan Pemerintah tentang Perubahan Ketiga atas Peraturan Pemerintah Nomor 94 Tahun 2OL2 tentang Hak Keuangan dan Fasilitas Hakim yang Berada di Bawah Mahkamah Agung;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 18 Oktober 2024 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR 239 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Hukum, Djaman SK No243815A PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 44TAHUN 2024 TENTANG PERUBAHAN KETIGA ATAS PERATURAN PEMERINTAH NOMOR 94 TAHUN 2012 TENTANG HAK KEUANGAN DAN FASILITAS HAKIM YANG BERADA DI BAWAH MAHKAMAH AGUNG I. UMUM Pasal 24 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menyatakan \"Kekuasaan kehakiman dilakukan oleh sebuah Mahkamah Agung dan badan peradilan yang berada di bawahnya dalam lingkungan peradilan umum, lingkungan peradilan agama, lingkungan peradilan militer, lingkungan peradilan tata usaha negara, dan oleh sebuah Mahkamah Konstitusi\". Meskipun dalam ketentuan tersebut kekuasaan kehakiman dilakukan oleh lembaga-lembaga negara, namun sesungguhnya yang melakukan secara nyata adalah Hakim dalam kedudukan sebagai pejabat negara. Ketentuan Pasal 19 Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasaan Kehakiman menyebutkan bahwa \"hakim dan hakim k",
+ "source": {
+  "url": {
+   "slug": "pp-no-44-tahun-2024",
+   "detailsId": "305090",
+   "judul": "PP No. 44 Tahun 2024 tentang Perubahan Ketiga atas Peraturan Pemerintah Nomor 94 Tahun 2012 tentang Hak Keuangan dan Fasilitas Hakim yang Berada di Bawah Mahkamah Agung - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/365214/PP%20Nomor%2044%20Tahun%202024.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-10-tahun-2007",
+    "pp-no-70-tahun-2005",
+    "pp-no-12-tahun-2003",
+    "pp-no-27-tahun-2001",
+    "pp-no-8-tahun-2000",
+    "pp-no-40-tahun-2022",
+    "pp-no-74-tahun-2016",
+    "pp-no-94-tahun-2012"
+   ],
+   "scrapedAt": "2026-10-06T00:27:47.858434+00:00"
+  },
+  "sha256": "10ac018ead94a1739313b559b85804f7439a008ed34551056c6614ec52ad06fd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-44-tahun-2024/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-44-tahun-2024/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Gaji pokok Hakim sebagaimana dimaksud dalam Pasal 2 huruf a diberikan setiap bulan berdasarkan golongan ruang yang ditetapkan untuk pangkat dan masa kerja golongan Hakim.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-44-tahun-2024/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Besaran gaji pokok Hakim sebagaimana dimaksud pada ayat (1) tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..3): [1, 2]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

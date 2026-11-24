@@ -1,0 +1,63 @@
+{
+ "slug": "pp-no-43-tahun-1994",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan berlakunya Undang-undang Nomor 9 Tahun 1994 tentang Perubahan atas Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan, maka Peraturan Pemerintah Nomor 35 Tahun 1983 Tentang Pendaftaran, Pemberian Nomor Pokok Wajib Pajak, Penyampaian Surat Pemberitahuan, dan Persyaratan Pengajuan Keberatan, dan Peraturan Pemerintah Nomor 31 Tahun 1986 tentang Tata Cara Pemeriksaan di Bidang Perpajakan tidak sesuai lagi, sehingga dipandang perlu mencabut Peraturan Pemerintah tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-43-tahun-1994",
+   "detailsId": "57267",
+   "judul": "PP No. 43 Tahun 1994 tentang Pencabutan Atas Peraturan Pemerintah Republik Indonesia Nomor 35 Tahun 1983 Tentang Pendaftaran, Pemberian Nomor Pokok Wajib Pajak, Penyampaian Surat Pemberitahuan, Dan Persyaratan Pengajuan Keberatan, Dan Atas Peraturan Pemerintah Republik Indonesia Nomor 31 Tahun 1986 Tentang Tata Cara Pemeriksaan Di Bidang Perpajakan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/46723/PP%20No.%2043%20Th%201994.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-31-tahun-1986",
+    "pp-no-35-tahun-1983"
+   ],
+   "scrapedAt": "2026-10-06T00:45:13.937647+00:00"
+  },
+  "sha256": "2534b64da0b702448fa4d6454e7b7a12a31ebeb395ea8a5b271385da1b4e71ca",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-43-tahun-1994/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Republik Indonesia Nomor 35 Tahun 1983 tentang Pendaftaran, Pemberian Nomor Pokok Wajib Pajak, Penyampaian Surat Pemberitahuan, dan Persyaratan Pengajuan Keberatan dan Peraturan Pemerintah Nomor 31 Tahun 1986 tentang Tata Cara Pemeriksaan di Bidang Perpajakan, dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1994/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995. - - Agar… Agar setiap orang mengetahui, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 23 Desember 1994 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 23 Desember 1994 MENTERI SEKRETARIS NEGARA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 72",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,514 @@
+{
+ "slug": "perpres-no-3-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa guna membuka peluang bagi tenaga profesional di luar Pegawai Negeri untuk dapat menjabat sebagai Kepala pada Lembaga Pemerintah Non Kementerian tertentu dan dalam rangka terselenggaranya tertib administrasi pemerintahan, perlu menetapkan Peraturan Presiden tentang Perubahan Ketujuh Atas Keputusan Presiden Nomor 103 Tahun 2001 tentang Kedudukan, Tugas, Fungsi, Kewenangan, Susunan Organisasi, dan Tata Kerja Lembaga Pemerintah Non Kementerian;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-3-tahun-2013",
+   "detailsId": "41373",
+   "judul": "PERPRES No. 3 Tahun 2013 tentang Perubahan Ketujuh atas Keputusan Presiden Nomor 103 Tahun 2001 tentang Kedudukan, Tugas, Fungsi, Kewenangan, Susunan Organisasi, dan Tata Kerja Lembaga Pemerintah Non Kementerian - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/262247/Perpres%2003%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-62-tahun-2010",
+    "perpres-no-64-tahun-2005-perubahan-keenam-atas-keputusan-presiden-nomor-103-tahu",
+    "perpres-no-11-tahun-2005",
+    "keppres-no-9-tahun-2004-perubahan-atas-keputusan-presiden-nomor-103-tahun-2001-t",
+    "keppres-no-30-tahun-2003-perubahan-atas-keputusan-presiden-nomor-103-tahun-2001"
+   ],
+   "scrapedAt": "2026-10-06T06:12:36.834472+00:00"
+  },
+  "sha256": "c7402526566ccb3756a21adfce6fb3bd4806dc884aebae7b258cb1a3c1ac1038",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 38,
+  "ayat_angka": 5,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "LPNK terdiri dari :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Lembaga Administrasi Negara disingkat LAN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Arsip Nasional Republik Indonesia disingkat ANRI; Bagian kelimabelas diubah, sehingga keseluruhan bagian kelimabelas berbunyi sebagai berikut: Badan Kependudukan dan Keluarga Berencana Nasional Bagian Kelimabelas",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Badan Kepegawaian Negara disingkat BKN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Perpustakaan Nasional Republik Indonesia disingkat PERPUSNAS; 5. Badan Standardisasi Nasional disingkat BSN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Badan ... ,), //\\ .. } / /-/ . I REPUBLIK INDONESIA Badan Pengawas Tenaga Nuklir disingkat BAPETEN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Badan Tenaga Nuklir Nasional disingkat BATAN; 8. Lembaga Sandi Negara disingkat LEMSANEG;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-9",
+     "type": "ANGKA",
+     "orderIndex": 9,
+     "label": "Angka 9",
+     "content": "Badan Kependudukan dan Keluarga Berencana Nasional disingkat BKKBN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Lembaga Penerbangan Antariksa Nasional disingkat LAPAN;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-11",
+     "type": "ANGKA",
+     "orderIndex": 11,
+     "label": "Angka 11",
+     "content": "Badan Pengawasan Keuangan dan Pembangunan disingkat BPKP;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-12",
+     "type": "ANGKA",
+     "orderIndex": 12,
+     "label": "Angka 12",
+     "content": "Lembaga Ilmu Pengetahuan Indonesia disingkat LIPI;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-13",
+     "type": "ANGKA",
+     "orderIndex": 13,
+     "label": "Angka 13",
+     "content": "Badan Pengkajian dan Penerapan Teknologi disingkat BPPT;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-3/angka-14",
+     "type": "ANGKA",
+     "orderIndex": 14,
+     "label": "Angka 14",
+     "content": "Badan Pengawasan Obat dan Makanan disingkat BPOM;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-43",
+   "type": "PASAL",
+   "orderIndex": 43,
+   "label": "Pasal 43",
+   "content": "BKKBN mempunyai tugas melaksanakan tugas pemerintahan di bidang pengendalian penduduk dan penyelenggaraan keluarga berencana.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-44",
+   "type": "PASAL",
+   "orderIndex": 44,
+   "label": "Pasal 44",
+   "content": "Dalam melaksanakan tugas se bagaimana dimaksud dalam Pasal 43, BKKBN menyelenggarakan fungsi: a. perumusan kebijakan nasional di bidang pengendalian penduduk dan penyelenggaraan keluarga berencana; b. penetapan norma, standar, prosedur, dan kriteria di bidang pengendalian berencana; c. pelaksanaan pengendalian berencana; penduduk dan penyelenggaraan keluarga advokasi dan koordinasi di penduduk dan penyelenggaraan bi dang keluarga d. penyelenggaraan ... , I \\\\ \\ ., REPUBLIK INDONESIA d. penyelenggaraan komunikasi, informasi, dan edukasi di bidang pengendalian penduduk dan penyelenggaraan keluarga berencana; e. penyelenggaraan pemantauan dan evaluasi di bidang pengendalian penduduk clan penyelenggaraan keluarga berencana; f. pembinaan, pembimbingan, clan fasilitasi di bidang pengendalian penduduk clan penyelenggaraan keluarga berencana. Pasal45 Selain menyelenggarakan fungsi sebagaimana dimaksud dalam Pasal 44, BKKBN juga menyelenggarakan fungsi: a. penyelenggaraan pelatihan, penelitian, dan pengembangan di bidang pengendalian penduduk dan penyelenggaraan keluarga berencana; b. pembinaan clan koordinasi pelaksanaan tugas administrasi umum di lingkungan BKKBN; c. pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawab BKKBN; d. pengawasan atas pelaksanaan tugas di lingkungan BKKBN; clan e. penyampaian laporan, saran, dan pertimbangan di bidang pengendalian penduduk clan penyelenggaraan keluarga berencana.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Diantara Pasal 86 clan Pasal 87 disisipkan 1 (satu) Pasal, yakni Pasal 86A, yang berbunyi sebagai berikut: Pasal 86A Khusus di lingkungan BKKBN: Masing-masing ... REPUBLIK INDONESIA Masing-rnasing Bagian terdiri atas paling banyak 3 (tiga) Subbagian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Sekretariat Utama terdiri atas paling banyak 5 (lima) Biro.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Masing-masing Biro terdiri atas paling banyak 4 (empat) Bagian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Khusus Bagian yang menangani urusan tata usaha pimpinan terdiri atas sejumlah Subbagian sesuai kebutuhan. Diantara Pasal 90 dan Pasal 91 disisipkan 1 (satu) Pasal, yakni Pasal 90A, yang berbunyi sebagai berikut: Pasal 90A Khusus di lingkungan BKKBN,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Setiap kedeputian terdiri dari paling banyak 4 (empat) Direktorat, masing-rnasing Direktorat terdiri atas paling banyak (tiga) Subdirektorat, dan masing-masing Subdirektorat terdiri atas paling banyak 2 (dua) Seksi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Kedeputian yang menangam bidang advokasi, penggerakan dan informasi terdiri dari (lima) Direktorat, masing-masing Direktorat terdiri atas paling banyak (tiga) Subdirektorat dan masing-rnasing Subdirektorat terdiri atas paling banyak 2 (dua) Seksi. Masing-rnasing Inspektorat membawahkan Kelompok Jabatan Fungsional Auditor.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Kedeputian yang menangani bidang pelatihan, penelitian, dan pengembangan terdiri atas paling banyak 4 (empat) Pusat, masing-masing Pusat terdiri atas paling banyak 2 (dua) Bidang dan (satu) Subbagian Tata Usaha dan masing-rnasing Bidang terdiri atas paling banyak 2 (dua) Subbidang. Bagian Tata Usaha terdiri atas paling banyak 2 (dua) Subbagian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Diantara Pasal 95 dan Pasal 96 disisipkan 1 (satu) Pasal, yakni Pasal 95A, yang berbunyi sebagai berikut: Pasal95A (1) Inspektorat Utama terdiri atas paling banyak 3 (tiga) Inspektorat dan 1 (satu) Bagian Tata Usaha.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-44/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Dian tar a ... REPUBLIK INDONESIA Diantara Pasal 105 dan Pasal 106 ditambahkan 6 (enam) Pasal, yakni Pasal 105A, Pasal 105B, Pasal 105C, Pasal 105D, Pasal 105E, dan Pasal 105F, yang berbunyi sebagai berikut: Pasal 105A Semua unsur di lingkungan LPNK dalam melaksanakan tugasnya wajib menerapkan prinsip koordinasi, integrasi, dan sinkronisasi baik dalam lingkungan maupun dalam hubungan antar instansi pemerintah baik pusat maupun daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-1058",
+   "type": "PASAL",
+   "orderIndex": 1058,
+   "label": "Pasal 1058",
+   "content": "Setiap pimpinan satuan organisasi di lingkungan LPNK wajib melaksanakan sistem pengendalian intern di lingkungan masing-masing untuk mewujudkan terlaksananya mekanisme akuntabilitas publik. Pasal 105C Setiap pimpinan satuan organisasi di lingkungan LPNK bertanggung jawab merrumpm dan mengkoordinasikan bawahan masing-masing dan memberikan pengarahan serta petunjuk bagi pelaksanaan tugas bawahan. Pasal 105D Setiap pimpinan satuan organisasi di lingkungan LPNK wajib mengikuti dan mematuhi petunjuk dan bertanggung jawab pada atasan masing-masing serta menyampaikan laporan secara berkala tepat pada waktunya. Pasal 105E Dalam melaksanakan tugas, setiap pimpinan satuan organisasi di lingkungan LPNK wajib melakukan pembinaan dan pengawasan terhadap satuan organisasi di bawahnya. Pasal ... REPUBLIK INDONESIA Pasal 105F Ketentuan LPNK diatur oleh Kepala LPNK masing-masing tata kerja di lingkungan dengan lebih lanjut mengenai memperhatikan ketentuan peraturan perundang-undangan.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-1058/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Ketentuan Pasal 106 ayat berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-1058/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "diubah, sehingga Pasal 106",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-106",
+   "type": "PASAL",
+   "orderIndex": 106,
+   "label": "Pasal 106",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dalam melaksanakan tugasnya, masing-masing LPNK dikoordinasikan oleh Menteri, yang meliputi:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Menteri Pertahanan bagi LEMSANEG;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Menteri Kesehatan bagi BKKBN dan BPOM; Kebudayaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Menteri Pendidikan dan bagi PERPUSNAS;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Menteri Pendayagunaan dan Reformasi Birokrasi bagi LAN, ANRI, BKN, dan BPKP; Aparatur Negara",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "Menteri Riset dan Teknologi bagi BSN, BAPETEN, BATAN, LAPAN, LIPI, dan BPPT; sebagaimana dimaksud",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Koordinasi pada ayat (1) meliputi koordinasi dalam perumusan kebijakan yang serta berkaitan dengan instansi pemerintah lainnya penyelesaian permasalahan yang timbul dalam pelaksanaan kebijakan dimaksud.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/angka-8",
+     "type": "ANGKA",
+     "orderIndex": 8,
+     "label": "Angka 8",
+     "content": "Ketentuan Pasal 112 ayat (1) diubah dan diantara ayat (1) dan ayat (2) disisipkan 1 (satu) ayat, yakni ayat (la), serta",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-106/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "dihapus, ayat berikut: sehingga Pasal 112 berbunyi sebagai",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-112",
+   "type": "PASAL",
+   "orderIndex": 112,
+   "label": "Pasal 112",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-112/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bagi Kepala LPNK yang berasal dari Pegawai Negeri dan fasilitas administrasi, diberikan hak keuangan, fasilitas lain jabatan eselon I.a. ( 1 a) Bagi Kepala LPNK yang berasal bukan dari Pegawai Negeri diberikan hak keuangan, administrasi, dan (2) lain setingkat jabatan eselon I.a. fasilitas-fasilitas Segala pembiayaan yang diperlukan untuk pelaksanaan pada Anggaran Pendapatan tugas LPNK dibebankan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-112/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Dihapus. dihapus, sehingga Pasal 115 berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-112/angka-9",
+     "type": "ANGKA",
+     "orderIndex": 9,
+     "label": "Angka 9",
+     "content": "Dian tar a ... REPUBLIK INDONESIA Diantara ayat (1) dan ayat (2) Pasal 115 disisipkan 1 (satu) ayat, yakni ayat (la), serta ayat (2) dan ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-115",
+   "type": "PASAL",
+   "orderIndex": 115,
+   "label": "Pasal 115",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepala LPNK adalah jabatan negeri. (la) Khusus Kepala pada: Pada saat mulai berlakunya Peraturan Presiden ini, Perwakilan Badan Koordinasi Keluarga Berencana Nasional menjadi Perwakilan BKKBN Provinsi sampai dengan terbentuknya semua Badan Kependudukan dan Keluarga Berencana Daerah Provinsi dan Badan Kependudukan dan Keluarga Berencana Daerah Kabupaten/Kota se bagaimana dimaksud dalam Undang-Undang Nomor 52 Tahun tentang Perkembangan Kependudukan dan Pembangunan Keluarga.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Badan Standardisasi Nasional;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Badan Pengawas Tenaga Nuklir;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Badan Kependudukan dan Keluarga Berencana Nasional: dapat dijabat oleh bukan Pegawai Negeri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dihapus. BKKBN .... REPUBLIK INDONESIA 9 - BKKBN melalui Perwakilan BKKBN Provinsi melakukan pembinaan dan memfasilitasi terbentuknya Badan Kependudukan dan Keluarga Berencana Daerah Provinsi dan Badan Kependudukan dan Keluarga Berencana Daerah Kabupaten/Kota sebagaimana dimaksud pada ayat (1) sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Dihapus. Perwakilan BKKBN Provinsi sebagaimana dimaksud pada ayat (1) mempunyai tugas melaksanakan sebagian tugas BKKBN di provinsi. ( 4) Dikecualikan dari keten tuan se bagaimana dimaksud pada ayat (3), untuk tugas pelaksanaan pengendalian penduduk dan penyelenggaraan keluarga berencana di wilayah Provinsi Daerah Khusus lbukota Jakarta dilaksanakan sendiri oleh pemerintah daerah Provinsi Daerah Khusus Ibukota Jakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Diantara Pasal 117 dan Pasal 118 disisipkan 4 (empat) Pasal, yakni Pasal 117 A, 1178, 117C, dan 117D, yang berbunyi sebagai berikut: Pasal 117A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-3-tahun-2013/pasal-115/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Susunan organisasi dan tata kerja Perwakilan BKKBN Provinsi ditetapkan oleh Kepala BKKBN setelah mendapat persetujuan dari Menteri yang bertanggung jawab di bidang pendayagunaan aparatur negara dan reformasi birokrasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-3-tahun-2013/pasal-1178",
+   "type": "PASAL",
+   "orderIndex": 1178,
+   "label": "Pasal 1178",
+   "content": "Pada saat mulai berlakunya Peraturan Presiden ini, Unit Pelaksana Teknis Badan Koordinasi Keluarga Berencana Nasional yang dibentuk berdasarkan Keputusan Presiden Nomor 103 Tahun 2001 tentang Kedudukan, Tugas, Fungsi, Kewenangan, Susunan Organisasi, dan Tata Kerja Lembaga Pemerintah Non Kementerian sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 64 Tahun 2005 dan Keputusan Presiden Nomor 110 Tahun '·; tentang Unit Organisasi dan Tugas Eselon I Lembaga Pemerintah ... REPUBLIK INDONESIA - Pemerintah Non Kementerian sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 52 Tahun 2005, menjadi Unit Pelaksana Teknis BKKBN dan tetap menjalankan tugas dan fungsinya sesuai dengan ketentuan peraturan perundang-undangan sampai dengan diatur kembali berdasarkan Peraturan Presiden ini. Pasal l l 7C Peraturan pelaksanaan Peraturan Presiden Nomor 62 Tahun tentang Badan Kependudukan dan Keluarga Berencana Nasional masih tetap berlaku sepanjang belum diubah dan/ atau diganti dengan peraturan yang baru bersasarkan Peraturan Presiden ini. Pasal 117D Dengan berlakunya Peraturan Presiden ini, maka Peraturan Presiden Nomor 62 Tahun tentang Badan Kependudukan dan Keluarga Berencana Nasional dicabut dan dinyatakan tidak berlaku. Pasal II Peraturan Presiden mi mulai berlaku pada tanggal diundangkan. Agar ... REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 4 Januari 2013 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 4 Januari 2013 MENTER! HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 10 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Bidang Politik, Hukum,",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..1178): [1, 2, 4, 5, 6, 7, 8, 9, 10, 11]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "slug": "uu-no-1-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perjanjian Persahabatan antara Republik Indonesia dan Persekutuan Tanah Melayu tertanggal 17 April 1959 telah diperbaharui dengan Perjanjian Persahabatan antara Pemerintah Republik Indonesia dan Pemerintah Malaysia tertanggal 17 Maret 1970;",
+   "bahwa Perjanjian Persahabatan antara Republik Indonesia dan Malaysia yang baru perlu disetujui dengan Undang-undang;",
+   "bahwa dengan mulai berlakunya Undang-undang tentang Perjanjian Persahabatan yang baru, maka Undang-undang tentang Perjanjian Persahabatan antara Republik Indonesia dan Persekutuan Tanah Melayu tertanggal 17 April 1959 perlu dicabut."
+  ],
+  "mengingat": [
+   "Amanat Presiden Republik Indonesia kepada Ketua Dewan Perwakilan Rakyat tanggal 22 Agustus 1960 No. 2826/HK/1960. Dengan persetujuan Dewan Perwakilan Rakyat Gotong Royong. MEMUTUSKAN: Dengan mencabut Undang-undang No. 4 Tahun 1960 tentang Perjanjian Persahabatan antara Republik Indonesia dan Persekutuan Tanah Melayu (Lembaran-Negara Republik Indonesia tahun 1960 No. 15; Tambahan Lembaran-Negara No. 1936)."
+  ]
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-1-tahun-1971",
+   "detailsId": "47555",
+   "judul": "UU No. 1 Tahun 1971 tentang Perjanjian Persahabatan Antara Republik Indonesia dan Malaysia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36542/UU%20Nomor%201%20Tahun%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-4-tahun-1960"
+   ],
+   "scrapedAt": "2026-10-05T18:00:35.493856+00:00"
+  },
+  "sha256": "09d8be9094572fc2c9785bb9e0f05b1c7a9a42af9ef5742a583579fc8258a3fd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-1-tahun-1971/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Perjanjian Persahabatan antara Republik Indonesia dan Malaysia tertanggal 17 Maret 1970, yang salinannya dilampirkan pada Undang-undang ini, dengan ini disetujui.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-1-tahun-1971/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Perjanjian tersebut diatas mulai berlaku pada tanggal pertukaran Piagam Pengesahan yang akan dilakukan di Jakarta.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-1-tahun-1971/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Undang-undang ini mulai berlaku pada hari tanggal diundangkan. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran-Negara Republik Indonesia. Disahkan di Jakarta, pada tanggal 10 Maret 1971, Presiden Republik Indonesia, SOEHARTO Jenderal T.N.I. Diundangkan di Jakarta, pada tanggal 10 Maret 1971. Sekretaris Negara Republik Indonesia, ALAMSJAH Letnan Jenderal T.N.I.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

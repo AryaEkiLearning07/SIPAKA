@@ -1,0 +1,51 @@
+{
+ "slug": "uu-no-7-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu Persetujuan antara Pemerintah Kerajaan Belanda dan Pemerintah Republik Indonesia tentang soal-soal keuangan disetujui dengan Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1966",
+   "detailsId": "49798",
+   "judul": "UU No. 7 Tahun 1966 tentang Persetujuan antara Pemerintah Kerajaan Belanda dan Pemerintah Republik Indonesia Tenang Soal-Soal Keuangan&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39076/UU%20Nomor%207%20Tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:57:56.322234+00:00"
+  },
+  "sha256": "198360580c87fad3b0a1b07f48b2ccbbec09c4b5934df3a8ff586cc4c12b207a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1966/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 8 Nopember 1966. PRESIDEN REPUBLIK INDONESIA, ttd SUKARNO. Diundangkan di Jakarta pada tanggal 8 Nopember 1966. SEKRETARIS NEGARA, ttd MOHD. ICHSAN. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1966 NOMOR 34",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

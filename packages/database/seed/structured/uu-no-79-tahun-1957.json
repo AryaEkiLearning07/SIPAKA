@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-79-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu diadakan undang-undang tentang pengesahan pernyataan keadaan perang sebagai yang telah dilakukan pada tanggal 17 Desember 1957, yang menentukan kelanjutan waktu keadaan perang tersebut; Mengingat : 1. Keputusan Presiden Republik Indonesia Nomor 225 tahun 1957 tanggal 17 Desember 1957 tentang pencabutan \"Staat van Beleg\" dan pernyataan seluruh wilayah Republik Indonesia, termasuk semua perairan teritornya, dalam keadaan perang menurut Undang-undang Keadaan Bahaya 1957; 2. Pasal 4 ayat 3 dan pasal 5 ayat 1 dan 2 Undang-undang Keadaan Bahaya 1957 (Undang-undang No. 74 tahun 1957, Lembaran Negara tahun 1957 No. 160);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-79-tahun-1957",
+   "detailsId": "52781",
+   "judul": "UU No. 79 Tahun 1957 tentang Pengesahan Pernyataan Keadaan Perang Sebagai Yang Telah Dilakukan Dengan Keputusan Presiden Republik Indonesia Nomor 225 Tahun 1957 Tanggal 17 Desember 1957&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42154/UU%20Nomor%2079%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:03:52.568579+00:00"
+  },
+  "sha256": "04a4ed037de46db455217b43d4f5f73e18c076d497b76c395aa53c6d1b7b5b56",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-79-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dengan ini, maka pernyataan seluruh wilayah Republik Indonesia, termasuk semua perairan teritornya, dalam keadaan perang menurut Undang-undang Keadaan Bahaya 1957, yang telah dilakukan dengan Keputusan Presiden Republik Indonesia No. 225 tahun 1957 tanggal 17 Desember 1957, disahkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-79-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar... - - Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 27 Desember 1957. ttd SOEKARNO Diundangkan pada tanggal 27 Desember 1957. MENTERI KEHAKIMAN, ttd G.A. MAENGKOM PERDANA MENTERI/MENTERI PERTAHANAN, ttd DJUANDA LEMBARAN NEGARA NOMOR 170 TAHUN 1957",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-19-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagian kekayaan Negara yang berasal dari Departemen Pertanian dan dana bantuan luar negeri yang digunakan untuk membiayai Proyek Benih Padi dan Palawija dapat ditetapkan untuk dijadikan penambahan penyertaan modal Negara Republik. Indonesia ke dalam modal Perusahaan Umum (PERUM) Sang Hyang Seri;",
+   "bahwa penambahan penyertaan modal Negara tersebut pada huruf b, perlu ditetapkan dengan Peraturan Pemerintah:"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-1989",
+   "detailsId": "63641",
+   "judul": "PP No. 19 Tahun 1989 tentang Penambahan Penyertaan Modal Negera Republik Indonesia Ke Dalam Modal Perusahaan Umum (Perum) Sang Hyang Seri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53845/PP%20NO%2019%20TH%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:47:05.901397+00:00"
+  },
+  "sha256": "61be49df67fe5d0abed4f340ab486a5346d58df947158e0ecee4288d4d1dcab1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-19-tahun-1989/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Kekayaan Negara yang berasal dari Departemen Pertanian dan dana bantuan luar negeri sampai dengan tanggal 31 Desember 1987 yang digunakan untuk membiayai Proyek Benih Padi dan Palawija dan pada saat ini dikelola oleh Perusahaan Umum (PERUM) Sang Hyang Seri dialihkan dan ditetapkan menjadi tambahan penyertaan modal Negara pada Perusahaan Umum (PERUM) Sang Hyang Seri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1989/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Nilai kekayaan Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp. 27.506.250.500,62 (dua puluh tujuh milyar lima ratus enam juta dua ratus lima puluh ribu lima ratus rupiah enam puluh dua sen).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1989/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini diatur oleh Menteri Keuangan dan Menteri Pertanian, baik secara bersama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1989/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 9 Nopember 1989 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 9 Nopember 1989 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

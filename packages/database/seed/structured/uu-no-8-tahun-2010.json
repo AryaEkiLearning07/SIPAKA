@@ -1,0 +1,3822 @@
+{
+ "slug": "uu-no-8-tahun-2010",
+ "preamble": {
+  "menimbang": [
+   "bahwa pencegahan dan pemberantasan tindak pidana Pencucian Uang memerlukan landasan hukum yang kuat untuk menjamin kepastian hukum, efektivitas penegakan dan pengembalian Harta Kekayaan hasil tindak pidana; penelusuran hukum, serta",
+   "bahwa Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 perlu disesuaikan dengan perkembangan kebutuhan penegakan hukum, praktik, dan standar internasional sehingga perlu diganti dengan undang-undang baru;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-8-tahun-2010",
+   "detailsId": "38547",
+   "judul": "UU No. 8 Tahun 2010 tentang Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27793/UU%20Nomor%20%208%20Tahun%202010.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-15-tahun-2002"
+   ],
+   "scrapedAt": "2026-10-05T16:51:02.054999+00:00"
+  },
+  "sha256": "fbe09bac263214d6cae1eb21344fab2a7331cef885a6fbfe3d848d4c69500967",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 13,
+  "pasal": 100,
+  "ayat_angka": 198,
+  "huruf": 97
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "TENTANG PENCEGAHAN DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pencucian Uang adalah segala perbuatan yang memenuhi unsur-unsur tindak pidana sesuai dengan ketentuan dalam Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pusat Pelaporan dan Analisis Transaksi Keuangan yang selanjutnya lembaga independen yang dibentuk dalam rangka mencegah dan memberantas tindak pidana Pencucian Uang. disingkat adalah PPATK",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Transaksi adalah seluruh kegiatan yang menimbulkan hak dan/atau kewajiban atau menyebabkan timbulnya hubungan hukum antara dua pihak atau lebih.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Transaksi Keuangan adalah Transaksi untuk melakukan atau menerima penempatan, penyetoran, penarikan, pemindahbukuan, pentransferan, pembayaran, hibah, sumbangan, penitipan, dan/atau penukaran atas sejumlah uang atau tindakan dan/atau kegiatan lain yang berhubungan dengan uang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Transaksi Keuangan Mencurigakan adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Transaksi Keuangan yang menyimpang dari profil, karakteristik, atau kebiasaan pola Transaksi dari Pengguna Jasa yang bersangkutan; dilakukan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Transaksi Keuangan oleh Pengguna Jasa yang patut untuk diduga menghindari yang bersangkutan yang wajib dilakukan oleh Pihak Pelapor sesuai dengan ketentuan Undang-Undang ini; tujuan Transaksi pelaporan dengan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Transaksi Keuangan yang dilakukan atau batal dilakukan dengan menggunakan Harta Kekayaan yang diduga berasal dari hasil tindak pidana; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Transaksi Keuangan yang diminta oleh PPATK untuk dilaporkan oleh Pihak Pelapor karena melibatkan Harta Kekayaan yang diduga berasal dari hasil tindak pidana.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Transaksi . . . Transaksi Keuangan Tunai adalah Transaksi Keuangan yang dilakukan dengan menggunakan uang kertas dan/atau uang logam.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemeriksaan adalah proses dan identifikasi masalah, Keuangan analisis, Transaksi independen, Mencurigakan yang dilakukan secara objektif, dan profesional untuk menilai dugaan adanya tindak pidana. evaluasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Hasil Pemeriksaan adalah penilaian akhir dari seluruh identifikasi masalah, analisis dan evaluasi proses Transaksi Keuangan Mencurigakan yang dilakukan secara independen, objektif, dan profesional yang disampaikan kepada penyidik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Setiap Orang adalah orang perseorangan atau Korporasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Korporasi adalah kumpulan orang dan/atau kekayaan yang terorganisasi, baik merupakan badan hukum maupun bukan badan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Pihak Pelapor adalah Setiap Orang yang menurut laporan ini wajib menyampaikan Undang-Undang kepada PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Pengguna Jasa adalah pihak yang menggunakan jasa Pihak Pelapor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Harta Kekayaan adalah semua benda bergerak atau benda tidak bergerak, baik yang berwujud maupun yang tidak berwujud, yang diperoleh baik secara langsung maupun tidak langsung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Personil Pengendali Korporasi adalah setiap orang yang memiliki kekuasaan atau wewenang sebagai penentu kebijakan Korporasi atau memiliki kewenangan untuk melakukan kebijakan Korporasi tersebut tanpa harus mendapat otorisasi dari atasannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Permufakatan Jahat adalah perbuatan dua orang atau lebih yang bersepakat untuk melakukan tindak pidana Pencucian Uang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Dokumen adalah data, rekaman, atau informasi yang dapat dilihat, dibaca, dan/atau didengar, yang dapat dikeluarkan dengan atau tanpa bantuan suatu sarana, baik yang tertuang di atas kertas atau benda fisik apa pun selain kertas maupun yang terekam secara elektronik, termasuk tetapi tidak terbatas pada: a. tulisan, suara, atau gambar;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-16/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peta . . . peta, rancangan, foto, atau sejenisnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-16/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "huruf, tanda, angka, simbol, atau perforasi yang memiliki makna atau dapat dipahami oleh orang yang mampu membaca atau memahaminya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Lembaga Pengawas dan Pengatur adalah lembaga yang pengaturan, memiliki dan/atau pengenaan sanksi terhadap Pihak Pelapor. pengawasan, kewenangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Pengawasan Kepatuhan adalah serangkaian kegiatan Lembaga Pengawas dan Pengatur serta PPATK untuk memastikan kepatuhan Pihak Pelapor atas kewajiban pelaporan menurut Undang-Undang ini dengan mengeluarkan ketentuan atau pedoman pelaporan, melakukan audit kepatuhan, memantau kewajiban pelaporan, dan mengenakan sanksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hasil tindak pidana adalah Harta Kekayaan yang diperoleh dari tindak pidana: di bidang perasuransian; kepabeanan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "korupsi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyuapan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "narkotika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "psikotropika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyelundupan tenaga kerja; f. penyelundupan migran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "di bidang perbankan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "di bidang pasar modal; i. j.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "cukai; l.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "perdagangan senjata gelap; n.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "penculikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "pencurian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "penggelapan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "penipuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-s",
+         "type": "HURUF",
+         "orderIndex": 19,
+         "label": "Huruf s",
+         "content": "pemalsuan uang; t. perjudian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-u",
+         "type": "HURUF",
+         "orderIndex": 21,
+         "label": "Huruf u",
+         "content": "prostitusi; perdagangan orang; terorisme;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-v",
+         "type": "HURUF",
+         "orderIndex": 22,
+         "label": "Huruf v",
+         "content": "di bidang . . . di bidang perpajakan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-w",
+         "type": "HURUF",
+         "orderIndex": 23,
+         "label": "Huruf w",
+         "content": "di bidang kehutanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-x",
+         "type": "HURUF",
+         "orderIndex": 24,
+         "label": "Huruf x",
+         "content": "di bidang lingkungan hidup;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-1/huruf-y",
+         "type": "HURUF",
+         "orderIndex": 25,
+         "label": "Huruf y",
+         "content": "di bidang kelautan dan perikanan; atau z. tindak pidana lain yang diancam dengan pidana penjara 4 (empat) tahun atau lebih, yang dilakukan di wilayah Negara Kesatuan Republik Indonesia atau di luar wilayah Negara Kesatuan Republik Indonesia dan tindak pidana tersebut juga merupakan tindak pidana menurut hukum Indonesia.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Harta Kekayaan yang diketahui atau patut diduga akan digunakan dan/atau digunakan secara langsung atau tidak langsung untuk kegiatan terorisme, organisasi teroris, atau teroris perseorangan disamakan sebagai hasil tindak pidana sebagaimana dimaksud pada ayat (1) huruf n.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TINDAK PIDANA PENCUCIAN UANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Setiap Orang yang menempatkan, mentransfer, mengalihkan, membelanjakan, membayarkan, menghibahkan, menitipkan, membawa ke luar negeri, mengubah bentuk, menukarkan dengan mata uang atau surat berharga atau perbuatan lain atas Harta Kekayaan yang diketahuinya atau patut diduganya merupakan hasil tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat tujuan menyembunyikan atau menyamarkan asal usul Harta Kekayaan dipidana karena tindak pidana Pencucian Uang dengan pidana penjara paling lama 20 (dua puluh) tahun dan denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Setiap Orang yang menyembunyikan atau menyamarkan asal usul, sumber, lokasi, peruntukan, pengalihan hak-hak, atau kepemilikan yang sebenarnya atas Harta Kekayaan yang diketahuinya atau patut diduganya merupakan hasil tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1) dipidana karena tindak pidana Pencucian Uang dengan pidana penjara paling lama 20 (dua puluh) tahun dan denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah). Pasal 5 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Orang pembayaran, pentransferan, yang menerima atau menguasai hibah, penempatan, sumbangan, penitipan, penukaran, atau menggunakan Harta Kekayaan yang diketahuinya atau patut diduganya merupakan hasil tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku bagi Pihak Pelapor yang melaksanakan kewajiban pelaporan sebagaimana diatur dalam Undang- Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal tindak pidana Pencucian Uang sebagaimana dimaksud dalam Pasal 3, Pasal 4, dan Pasal 5 dilakukan oleh Korporasi, pidana dijatuhkan terhadap Korporasi dan/atau Personil Pengendali Korporasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pidana dijatuhkan terhadap Korporasi apabila tindak pidana Pencucian Uang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dilakukan atau diperintahkan oleh Personil Pengendali Korporasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dilakukan dalam rangka pemenuhan maksud dan tujuan Korporasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dilakukan sesuai dengan tugas dan fungsi pelaku atau pemberi perintah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-6/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dilakukan dengan maksud memberikan manfaat bagi Korporasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pidana pokok yang dijatuhkan terhadap Korporasi banyak adalah Rp100.000.000.000,00 (seratus miliar rupiah). pidana denda paling",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain pidana denda sebagaimana dimaksud pada ayat (1), terhadap Korporasi juga dapat dijatuhkan pidana tambahan berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengumuman putusan hakim;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembekuan sebagian atau seluruh kegiatan usaha Korporasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pencabutan . . . pencabutan izin usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pembubaran dan/atau pelarangan Korporasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-7/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "perampasan aset Korporasi untuk negara; dan/atau f. pengambilalihan Korporasi oleh negara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Dalam hal harta terpidana tidak cukup untuk membayar pidana denda sebagaimana dimaksud dalam Pasal 3, Pasal 4, dan Pasal 5, pidana denda tersebut diganti dengan pidana kurungan paling lama 1 (satu) tahun 4 (empat) bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Korporasi tidak mampu membayar pidana denda sebagaimana dimaksud dalam Pasal 7 ayat (1), pidana denda tersebut diganti dengan perampasan Harta Kekayaan milik Korporasi atau Personil Pengendali Korporasi yang nilainya sama dengan putusan pidana denda yang dijatuhkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penjualan Harta Kekayaan milik Korporasi yang dirampas sebagaimana dimaksud pada ayat (1) tidak mencukupi, pidana kurungan pengganti denda dijatuhkan terhadap Personil Pengendali Korporasi dengan memperhitungkan denda yang telah dibayar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Setiap Orang yang berada di dalam atau di luar wilayah Negara Kesatuan Republik Indonesia yang turut serta melakukan percobaan, pembantuan, atau Permufakatan Jahat untuk melakukan tindak pidana Pencucian Uang dipidana dengan pidana yang sama sebagaimana dimaksud dalam Pasal 3, Pasal 4, dan Pasal 5. BAB III . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TINDAK PIDANA LAIN YANG BERKAITAN DENGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat atau pegawai PPATK, penyidik, penuntut umum, hakim, dan Setiap Orang yang memperoleh Dokumen atau keterangan dalam rangka pelaksanaan tugasnya ini wajib merahasiakan menurut Undang-Undang Dokumen atau keterangan tersebut, kecuali untuk memenuhi kewajiban menurut Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap Orang yang melanggar ketentuan sebagaimana dimaksud pada ayat (1) dipidana dengan pidana penjara paling lama 4 (empat) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku bagi pejabat atau pegawai PPATK, penyidik, penuntut umum, dan hakim jika dilakukan dalam rangka memenuhi kewajiban sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direksi, komisaris, pengurus atau pegawai Pihak Pelapor dilarang memberitahukan kepada Pengguna Jasa atau pihak tidak langsung, dengan cara apa pun mengenai laporan Transaksi Keuangan Mencurigakan yang sedang disusun atau telah disampaikan kepada PPATK. langsung maupun lain, baik secara",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai larangan sebagaimana dimaksud pada ayat (1) tidak berlaku untuk pemberian informasi kepada Lembaga Pengawas dan Pengatur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pejabat atau pegawai PPATK atau Lembaga Pengawas laporan dan Pengatur dilarang memberitahukan Transaksi Keuangan Mencurigakan yang akan atau telah dilaporkan kepada PPATK secara langsung atau tidak langsung dengan cara apa pun kepada Pengguna Jasa atau pihak lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan mengenai larangan sebagaimana dimaksud pada ayat (3) tidak berlaku dalam rangka pemenuhan kewajiban menurut Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pelanggaran atas ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan pidana denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah). Pasal 13 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Dalam hal terpidana tidak mampu membayar pidana denda sebagaimana dimaksud dalam Pasal 12 ayat (5), pidana denda tersebut diganti dengan pidana kurungan paling lama 1 (satu) tahun 4 (empat) bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Setiap Orang yang melakukan campur tangan terhadap pelaksanaan tugas dan kewenangan PPATK sebagaimana dimaksud dalam Pasal 37 ayat (3) dipidana dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pejabat atau pegawai PPATK yang melanggar kewajiban sebagaimana dimaksud dalam Pasal 37 ayat (4) dipidana dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Dalam hal pejabat atau pegawai PPATK, penyidik, penuntut umum, atau hakim, yang menangani perkara tindak pidana Pencucian Uang yang sedang diperiksa, melanggar ketentuan sebagaimana dimaksud dalam Pasal 83 ayat (1) dan/atau Pasal 85 ayat (1) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PELAPORAN DAN PENGAWASAN KEPATUHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pihak Pelapor meliputi: diatur dengan Peraturan dimaksud pada ayat Pemerintah. Bagian Kedua Penerapan Prinsip Mengenali Pengguna Jasa",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-17/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyedia jasa keuangan:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "bank; perusahaan properti/agen properti;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "perusahaan pembiayaan; pedagang kendaraan bermotor;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "perusahaan asuransi dan perusahaan pialang asuransi; pedagang permata dan perhiasan/logam mulia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "dana . . . dana pensiun lembaga keuangan; pedagang barang seni dan antik; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "perusahaan efek; balai lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "manajer investasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "kustodian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "wali amanat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "perposan sebagai penyedia jasa giro;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "pedagang valuta asing;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "penyelenggara alat pembayaran menggunakan kartu;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "penyelenggara e-money dan/atau e-wallet;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "koperasi yang melakukan kegiatan simpan pinjam;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "pegadaian;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "perusahaan di perdagangan berjangka komoditi; atau bergerak yang bidang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "penyelenggara kegiatan usaha pengiriman uang.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-17/angka-16/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyedia barang dan/atau jasa lain:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai Pihak Pelapor selain sebagaimana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Lembaga Pengawas dan Pengatur menetapkan ketentuan prinsip mengenali Pengguna Jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pihak Pelapor wajib menerapkan prinsip mengenali Pengguna Jasa yang ditetapkan oleh setiap Lembaga Pengawas dan Pengatur sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kewajiban . . . Kewajiban menerapkan prinsip mengenali Pengguna Jasa sebagaimana dimaksud pada ayat (2) dilakukan pada saat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan hubungan usaha dengan Pengguna b. c. Jasa; terdapat Transaksi Keuangan dengan mata uang rupiah dan/atau mata uang asing yang nilainya dengan setara atau paling Rp100.000.000,00 (seratus juta rupiah); terdapat Transaksi Keuangan Mencurigakan yang terkait tindak pidana Pencucian Uang dan tindak pidana pendanaan terorisme; atau sedikit",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pihak Pelapor meragukan kebenaran informasi yang dilaporkan Pengguna Jasa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Lembaga Pengawas dan Pengatur wajib melaksanakan pengawasan atas kepatuhan Pihak Pelapor dalam menerapkan prinsip mengenali Pengguna Jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Prinsip mengenali Pengguna Jasa sekurang-kurangnya memuat: a. identifikasi Pengguna Jasa;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "verifikasi Pengguna Jasa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pemantauan Transaksi Pengguna Jasa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-18/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal belum terdapat Lembaga Pengawas dan Pengatur, ketentuan mengenai prinsip mengenali Pengguna Jasa dan pengawasannya diatur dengan Peraturan Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Orang yang melakukan Transaksi dengan Pihak Pelapor wajib memberikan identitas dan informasi yang benar yang dibutuhkan oleh Pihak Pelapor dan sekurang-kurangnya memuat identitas diri, sumber dana, dan tujuan Transaksi dengan mengisi formulir yang disediakan oleh Pihak Pelapor dan melampirkan Dokumen pendukungnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Transaksi dilakukan untuk kepentingan pihak lain, Setiap Orang sebagaimana dimaksud pada ayat (1) wajib memberikan informasi mengenai identitas diri, sumber dana, dan tujuan Transaksi pihak lain tersebut. Pasal 20 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pihak Pelapor wajib mengetahui bahwa Pengguna Jasa yang melakukan Transaksi dengan Pihak Pelapor bertindak untuk diri sendiri atau untuk dan atas nama orang lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Transaksi dengan Pihak Pelapor dilakukan untuk diri sendiri atau untuk dan atas nama orang lain, Pihak Pelapor wajib meminta informasi mengenai identitas dan Dokumen pendukung dari Pengguna Jasa dan orang lain tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal identitas dan/atau Dokumen pendukung yang diberikan sebagaimana dimaksud pada ayat (2) tidak lengkap, Pihak Pelapor wajib menolak Transaksi dengan orang tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "(1) Identitas dan Dokumen pendukung yang diminta oleh Pihak Pelapor harus sesuai dengan ketentuan peraturan perundang-undangan yang ditetapkan oleh setiap Lembaga Pengawas dan Pengatur.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pihak Pelapor wajib menyimpan catatan dan Dokumen mengenai identitas pelaku Transaksi paling singkat 5 (lima) tahun sejak berakhirnya hubungan usaha dengan Pengguna Jasa tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pihak Pelapor yang tidak melakukan kewajiban sebagaimana dimaksud pada ayat (2) dikenai sanksi sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyedia jasa keuangan sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a wajib memutuskan hubungan usaha dengan Pengguna Jasa jika:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pengguna Jasa menolak untuk mematuhi prinsip mengenali Pengguna Jasa; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-22/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyedia jasa keuangan meragukan kebenaran informasi yang disampaikan oleh Pengguna Jasa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyedia jasa keuangan sebagaimana dimaksud pada ayat (1) wajib melaporkannya kepada PPATK mengenai tindakan pemutusan hubungan usaha tersebut sebagai Transaksi Keuangan Mencurigakan. Bagian . . . Bagian Ketiga Pelaporan Paragraf 1 Penyedia Jasa Keuangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyedia jasa keuangan sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf a wajib menyampaikan laporan kepada PPATK yang meliputi: huruf b sebagaimana dimaksud pada ayat dikecualikan terhadap: huruf b tidak berlaku untuk Transaksi yang dikecualikan. Pasal 24 . . .",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Transaksi Keuangan Mencurigakan; Transaksi yang dilakukan oleh penyedia jasa keuangan dengan pemerintah dan bank sentral;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Transaksi Keuangan Tunai dalam jumlah paling sedikit Rp500.000.000,00 (lima ratus juta rupiah) atau dengan mata uang asing yang nilainya setara, yang dilakukan baik dalam satu kali Transaksi maupun beberapa kali Transaksi dalam 1 (satu) hari kerja; dan/atau Transaksi untuk pembayaran gaji atau pensiun; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Transaksi Keuangan transfer dana dari dan ke luar negeri. Transaksi lain yang ditetapkan oleh Kepala PPATK atau atas permintaan penyedia jasa keuangan yang disetujui oleh PPATK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perubahan besarnya jumlah Transaksi Keuangan Tunai sebagaimana dimaksud pada ayat (1) huruf b ditetapkan dengan Keputusan Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besarnya jumlah Transaksi Keuangan transfer dana dari dan ke luar negeri yang wajib dilaporkan sebagaimana dimaksud pada ayat (1) huruf c diatur dengan Peraturan Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kewajiban pelaporan atas Transaksi Keuangan Tunai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-23/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kewajiban pelaporan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyedia jasa keuangan wajib membuat dan menyimpan daftar Transaksi yang dikecualikan sebagaimana dimaksud dalam Pasal 23 ayat (4).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyedia jasa keuangan yang tidak membuat dan yang dikecualikan menyimpan daftar Transaksi sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyampaian laporan Transaksi Keuangan Mencurigakan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf a dilakukan sesegera mungkin paling lama 3 (tiga) hari kerja setelah penyedia jasa keuangan mengetahui adanya unsur Transaksi Keuangan Mencurigakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian laporan Transaksi Keuangan Tunai sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf b dilakukan paling lama 14 (empat belas) hari kerja terhitung sejak tanggal Transaksi dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyampaian laporan Transaksi Keuangan transfer dana dari dan ke luar negeri sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c dilakukan paling lama 14 (empat belas) hari kerja tanggal Transaksi dilakukan. terhitung sejak",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-25/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyedia jasa keuangan yang tidak menyampaikan laporan kepada PPATK sebagaimana dimaksud pada ayat (3), dikenai sanksi administratif. (2), dan ayat (1), ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-25/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai bentuk, jenis, dan tata cara penyampaian laporan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyedia jasa keuangan dapat melakukan penundaan Transaksi paling lama 5 (lima) hari kerja terhitung sejak penundaan Transaksi dilakukan. dilakukan dalam hal Pengguna Jasa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan Transaksi diduga menggunakan Harta Kekayaan yang berasal dari hasil tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1); patut yang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki rekening untuk menampung Harta Kekayaan yang berasal dari hasil tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1); atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "diketahui dan/atau patut diduga menggunakan Dokumen palsu.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penundaan . . . Penundaan Transaksi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan sebagaimana dimaksud pada ayat (1) dicatat dalam berita acara penundaan Transaksi. penundaan Transaksi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyedia jasa keuangan memberikan salinan berita acara penundaan Transaksi kepada Pengguna Jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penyedia jasa keuangan wajib melaporkan penundaan Transaksi kepada PPATK dengan melampirkan berita acara penundaan Transaksi dalam waktu paling lama 24 (dua puluh empat) terhitung sejak waktu penundaan Transaksi dilakukan. jam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Setelah menerima laporan penundaan Transaksi sebagaimana dimaksud pada ayat (5) PPATK wajib memastikan Transaksi pelaksanaan dilakukan sesuai dengan Undang-Undang ini. penundaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-26/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam hal penundaan Transaksi telah dilakukan sampai dengan hari kerja kelima, penyedia jasa keuangan harus memutuskan akan melaksanakan Transaksi atau menolak Transaksi tersebut. Paragraf 2 Penyedia Barang dan/atau Jasa lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyedia barang dan/atau jasa lain sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf b wajib menyampaikan laporan Transaksi yang dilakukan oleh Pengguna Jasa dengan mata uang rupiah dan/atau mata uang asing yang nilainya paling sedikit atau setara dengan Rp500.000.000,00 juta rupiah) kepada PPATK. (lima ratus",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan . . . Laporan Transaksi sebagaimana dimaksud pada ayat (1) disampaikan paling lama 14 (empat belas) hari kerja terhitung sejak tanggal Transaksi dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyedia barang dan/atau tidak menyampaikan laporan kepada PPATK sebagaimana dimaksud pada ayat (1) dan ayat (2) dikenai sanksi administratif. lain yang jasa Paragraf 3 Pelaksanaan Kewajiban Pelaporan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Pelaksanaan kewajiban pelaporan oleh Pihak Pelapor dikecualikan dari ketentuan kerahasiaan yang berlaku bagi Pihak Pelapor yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Kecuali terdapat unsur penyalahgunaan wewenang, Pihak Pelapor, pejabat, dan pegawainya tidak dapat dituntut, baik secara perdata maupun pidana, atas pelaksanaan kewajiban pelaporan menurut Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 25 ayat (4) dan Pasal 27 ayat (3) dilakukan oleh Lembaga Pengawas dan Pengatur sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Lembaga Pengatur sebagaimana dimaksud pada ayat (1) belum dibentuk, pengenaan sanksi administratif terhadap Pihak Pelapor dilakukan oleh PPATK. Pengawas dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sanksi administratif yang dikenakan oleh PPATK sebagaimana dimaksud pada ayat (2) dapat berupa: diatur dengan Peraturan Kepala PPATK. Bagian Keempat Pengawasan Kepatuhan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peringatan; b. teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengumuman kepada publik mengenai tindakan atau sanksi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "denda administratif.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penerimaan . . . Penerimaan hasil denda administratif sebagaimana dimaksud pada ayat (3) huruf d dinyatakan sebagai Penerimaan Negara Bukan Pajak sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-30/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara pemberian sanksi administratif sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan Kepatuhan atas kewajiban pelaporan bagi Pihak Pelapor sebagaimana dimaksud dalam Pasal 17 ayat (1) dilakukan oleh Lembaga Pengawas dan Pengatur dan/atau PPATK. disampaikan kepada PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Pengawasan Kepatuhan atas kewajiban pelaporan sebagaimana dimaksud pada ayat (1) tidak dilakukan atau belum terdapat Lembaga Pengawas dan Pengatur, Pengawasan Kepatuhan atas kewajiban pelaporan dilakukan oleh PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil pelaksanaan Pengawasan Kepatuhan yang dilakukan oleh Lembaga Pengawas dan Pengatur sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-31/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Tata cara pelaksanaan Pengawasan Kepatuhan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur oleh Lembaga Pengawas dan Pengatur dan/atau PPATK sesuai dengan kewenangannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Dalam hal Lembaga Pengawas dan Pengatur menemukan Transaksi Keuangan Mencurigakan yang tidak dilaporkan oleh Pihak Pelapor kepada PPATK, Lembaga Pengawas dan Pengatur segera menyampaikan temuan tersebut kepada PPATK.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Lembaga Pengawas dan Pengatur wajib memberitahukan kepada PPATK setiap kegiatan atau Transaksi Pihak Pelapor yang diketahuinya atau patut diduganya dilakukan baik langsung maupun tidak langsung dengan tujuan melakukan tindak pidana Pencucian Uang sebagaimana dimaksud dalam Pasal 3, Pasal 4, dan Pasal 5. BAB V . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PEMBAWAAN UANG TUNAI DAN INSTRUMEN PEMBAYARAN LAIN KE DALAM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang membawa uang tunai dalam mata uang rupiah dan/atau mata uang asing, dan/atau instrumen pembayaran lain dalam bentuk cek, cek perjalanan, surat sanggup bayar, atau bilyet giro paling sedikit Rp100.000.000,00 (seratus juta rupiah) atau yang nilainya setara dengan itu ke dalam atau ke luar daerah pabean Indonesia wajib memberitahukannya kepada Direktorat Jenderal Bea dan Cukai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktorat Jenderal Bea dan Cukai wajib membuat laporan mengenai pembawaan uang tunai dan/atau lain sebagaimana dimaksud instrumen pembayaran pada ayat (1) dan menyampaikannya kepada PPATK paling lama 5 (lima) hari kerja sejak diterimanya pemberitahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "PPATK dapat meminta tambahan dari Direktorat Jenderal Bea dan Cukai mengenai instrumen tunai pembawaan pembayaran lain sebagaimana dimaksud pada ayat (1). dan/atau informasi uang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang tidak memberitahukan pembawaan uang tunai dan/atau lain sebagaimana dimaksud dalam Pasal 34 ayat (1) dikenai sanksi administratif berupa denda sebesar 10% (sepuluh perseratus) dari seluruh jumlah uang tunai dan/atau instrumen pembayaran lain yang dibawa dengan jumlah paling banyak Rp300.000.000,00 (tiga ratus juta rupiah). instrumen pembayaran instrumen pembayaran dan ayat (2) yang berkaitan dengan pembawaan uang tunai diambil langsung dari uang tunai yang dibawa dan disetorkan ke kas negara oleh Direktorat Jenderal Bea dan Cukai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang telah memberitahukan pembawaan uang tunai dan/atau lain sebagaimana dimaksud dalam Pasal 34 ayat (1), tetapi jumlah uang tunai dan/atau instrumen pembayaran lain yang dibawa lebih besar dari jumlah yang diberitahukan dikenai sanksi administratif berupa denda sebesar 10% (sepuluh perseratus) dari kelebihan jumlah uang tunai dan/atau instrumen pembayaran lain yang dibawa dengan jumlah paling banyak Rp300.000.000,00 (tiga ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sanksi . . . Sanksi administratif sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-35/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Direktorat Jenderal Bea dan Cukai harus membuat laporan mengenai pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) dan ayat (2) dan menyampaikannya kepada PPATK paling lama 5 (lima) hari kerja sejak sanksi administratif ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Ketentuan lebih lanjut mengenai tata cara pemberitahuan pembawaan uang tunai dan/atau instrumen pembayaran lain, pengenaan sanksi administratif, dan penyetoran ke kas negara sebagaimana dimaksud dalam Pasal 34 dan Pasal 35 diatur dengan Peraturan Pemerintah. PUSAT PELAPORAN DAN ANALISIS TRANSAKSI KEUANGAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PUSAT PELAPORAN DAN ANALISIS TRANSAKSI KEUANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPATK dalam melaksanakan tugas dan kewenangannya bersifat independen dan bebas dari campur tangan dan pengaruh kekuasaan mana pun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "PPATK bertanggung jawab kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap Orang dilarang melakukan segala bentuk campur tangan terhadap pelaksanaan tugas dan kewenangan PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-37/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "PPATK wajib menolak dan/atau mengabaikan segala bentuk campur tangan dari pihak mana pun dalam rangka pelaksanaan tugas dan kewenangannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPATK berkedudukan di Ibukota Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal diperlukan, perwakilan PPATK dapat dibuka di daerah. Bagian . . . Bagian Kedua Tugas, Fungsi, dan Wewenang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "PPATK mempunyai tugas mencegah dan memberantas tindak pidana Pencucian Uang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 39, PPATK mempunyai fungsi sebagai berikut: a. pencegahan dan pemberantasan tindak pidana Pencucian Uang; b. pengelolaan data dan informasi yang diperoleh PPATK; c. pengawasan terhadap kepatuhan Pihak Pelapor; dan d. analisis atau pemeriksaan informasi Transaksi Keuangan yang berindikasi tindak pidana lain Pencucian Uang dan/atau sebagaimana dimaksud dalam Pasal 2 ayat (1). tindak pidana laporan dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan tindak fungsi pidana pencegahan dan pemberantasan Pencucian Uang sebagaimana dimaksud dalam Pasal 40 huruf a, PPATK berwenang: huruf a dikecualikan dari ketentuan kerahasiaan. informasi oleh",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "meminta dan mendapatkan data dan informasi dari instansi pemerintah dan/atau lembaga swasta yang memiliki kewenangan mengelola data dan informasi, termasuk dari instansi pemerintah dan/atau lembaga swasta yang menerima laporan dari profesi tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menetapkan identifikasi Transaksi pedoman Keuangan Mencurigakan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengoordinasikan upaya pencegahan tindak pidana Pencucian Uang dengan instansi terkait;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memberikan mengenai upaya pencegahan Pencucian Uang; rekomendasi kepada pemerintah tindak pidana",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mewakili pemerintah Republik Indonesia dalam organisasi dan forum internasional yang berkaitan dengan pencegahan dan pemberantasan tindak pidana Pencucian Uang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menyelenggarakan . . . menyelenggarakan program pendidikan dan pelatihan antipencucian uang; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyelenggarakan sosialisasi pencegahan dan pemberantasan tindak pidana Pencucian Uang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian data dan instansi pemerintah dan/atau lembaga swasta kepada PPATK sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara penyampaian data dan informasi oleh instansi pemerintah dan/atau lembaga swasta sebagaimana dimaksud pada ayat (1) huruf a diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Dalam melaksanakan fungsi pengelolaan data dan informasi sebagaimana dimaksud dalam Pasal 40 huruf b, PPATK berwenang menyelenggarakan sistem informasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Dalam rangka melaksanakan fungsi pengawasan terhadap kepatuhan Pihak Pelapor sebagaimana dimaksud dalam Pasal 40 huruf c, PPATK berwenang: a. menetapkan ketentuan dan pedoman tata cara pelaporan bagi Pihak Pelapor; b. menetapkan kategori Pengguna Jasa yang berpotensi melakukan tindak pidana Pencucian Uang; c. melakukan audit kepatuhan atau audit khusus; d. menyampaikan informasi dari hasil audit kepada lembaga yang berwenang melakukan pengawasan terhadap Pihak Pelapor; e. memberikan peringatan kepada Pihak Pelapor yang melanggar kewajiban pelaporan; f. merekomendasikan kepada lembaga yang berwenang mencabut izin usaha Pihak Pelapor; dan g. menetapkan ketentuan pelaksanaan prinsip mengenali Pengguna Jasa bagi Pihak Pelapor yang tidak memiliki Lembaga Pengawas dan Pengatur. Pasal 44 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka melaksanakan pemeriksaan dimaksud dalam Pasal 40 huruf d, PPATK dapat: laporan dan fungsi analisis atau informasi sebagaimana",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "meminta dan menerima laporan dan informasi dari Pihak Pelapor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "meminta informasi kepada instansi atau pihak terkait;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meminta informasi kepada Pihak Pelapor berdasarkan pengembangan hasil analisis PPATK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "meminta kepada informasi berdasarkan permintaan dari hukum atau mitra kerja di luar negeri; Pihak Pelapor instansi penegak",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "meneruskan informasi dan/atau hasil analisis kepada instansi peminta, baik di dalam maupun di luar negeri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menerima laporan dan/atau informasi dari masyarakat mengenai adanya dugaan tindak pidana Pencucian Uang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "meminta keterangan kepada Pihak Pelapor dan pihak lain yang terkait dengan dugaan tindak pidana Pencucian Uang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "merekomendasikan penegak kepada hukum mengenai pentingnya melakukan intersepsi atau penyadapan elektronik dan/atau dokumen elektronik sesuai dengan ketentuan peraturan perundang-undangan; informasi instansi atas",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "meminta penyedia untuk jasa menghentikan sementara seluruh atau sebagian Transaksi yang diketahui atau dicurigai merupakan hasil tindak pidana; keuangan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "meminta informasi perkembangan penyelidikan dan penyidikan yang dilakukan oleh penyidik tindak pidana asal dan tindak pidana Pencucian Uang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "mengadakan kegiatan administratif lain dalam lingkup tugas dan tanggung jawab sesuai dengan ketentuan Undang-Undang ini; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-1/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "meneruskan hasil analisis atau pemeriksaan kepada penyidik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyedia . . . Penyedia jasa keuangan sebagaimana dimaksud pada ayat (1) huruf i harus segera menindaklanjuti setelah menerima permintaan dari PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "sebagaimana Dalam melaksanakan dimaksud dalam Undang-Undang ini, terhadap PPATK tidak berlaku ketentuan peraturan perundang-undangan dan kode etik yang mengatur kerahasiaan. kewenangannya",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "Ketentuan lebih lanjut mengenai tata cara pelaksanaan kewenangan PPATK diatur dengan Peraturan Presiden. Bagian Ketiga Akuntabilitas",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPATK membuat laporan pelaksanaan tugas, fungsi, dan wewenangnya secara berkala setiap 6 (enam) bulan. dan menyampaikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan sebagaimana dimaksud pada ayat (1) disampaikan kepada Presiden dan Dewan Perwakilan Rakyat. Bagian Keempat Susunan Organisasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Susunan organisasi PPATK terdiri atas: a. kepala; b. wakil kepala; c. d. jabatan struktural lain; dan jabatan fungsional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala PPATK sebagaimana dimaksud dalam Pasal 48 luar huruf a mewakili PPATK di dalam dan di pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala . . . Kepala PPATK dapat menyerahkan kewenangan mewakili sebagaimana dimaksud pada ayat (1) kepada Wakil Kepala PPATK, seorang atau beberapa orang pegawai PPATK, dan/atau pihak lain yang khusus ditunjuk untuk itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Kepala PPATK adalah penanggung jawab yang memimpin dan mengendalikan pelaksanaan tugas, fungsi, dan wewenang PPATK.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Untuk dapat diangkat sebagai Kepala atau Wakil Kepala PPATK, seorang calon harus memenuhi syarat sebagai berikut: a. warga negara Indonesia; b. berusia paling rendah 40 (empat puluh) tahun dan (enam puluh) tahun pada saat paling tinggi 60 pengangkatan; sehat jasmani dan rohani; takwa, jujur, adil, dan memiliki integritas pribadi yang baik; c. d. e. memiliki salah satu keahlian di bidang ekonomi, akuntansi, keuangan, atau hukum dan pengalaman kerja di bidang tersebut paling singkat 10 (sepuluh) tahun; bukan pemimpin partai politik; f. g. bersedia memberikan informasi mengenai daftar Harta Kekayaan; tidak merangkap jabatan atau pekerjaan lain; dan tidak pernah dijatuhi pidana penjara. h. i.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-52/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wakil Kepala PPATK bertugas membantu Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil Kepala PPATK dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1) bertanggung jawab kepada Kepala PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-52/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Kepala PPATK berhalangan, Wakil Kepala dan fungsi, dan PPATK mengendalikan pelaksanaan wewenang PPATK. bertanggung memimpin tugas, jawab Pasal 53 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Kepala dan Wakil Kepala PPATK sebagaimana dimaksud dalam Pasal 48 huruf a dan huruf b diangkat dan diberhentikan oleh Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala dan Wakil Kepala PPATK sebelum memangku jabatannya wajib mengucapkan sumpah atau janji menurut agama dan kepercayaannya di hadapan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sumpah atau janji sebagaimana dimaksud pada ayat (1) berbunyi sebagai berikut: \"Saya bersumpah/berjanji bahwa saya untuk menjadi Kepala/Wakil Kepala PPATK tidak langsung dengan nama dan dalih apa pun tidak memberikan atau menjanjikan untuk memberikan sesuatu kepada siapa pun\". langsung atau bersumpah/berjanji \"Saya dalam tidak melakukan sesuatu dalam melakukan atau jabatan ini tidak akan menerima langsung atau tidak langsung dari siapa pun janji atau pemberian dalam bentuk apa pun\". juga sesuatu bahwa saya bersumpah/berjanji \"Saya akan merahasiakan kepada siapa pun hal-hal yang menurut peraturan perundang-undangan wajib dirahasiakan\". bahwa saya bersumpah/berjanji akan \"Saya melaksanakan selaku dan Kepala/Wakil Kepala PPATK dengan sebaik-baiknya dan dengan penuh rasa tanggung jawab\". kewenangan bahwa tugas saya \"Saya bersumpah/berjanji bahwa saya akan setia terhadap negara, konstitusi, dan peraturan perundang- undangan yang berlaku\".",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Kepala dan Wakil Kepala PPATK memegang jabatan selama 5 (lima) tahun dan dapat diangkat kembali hanya untuk 1 (satu) kali masa jabatan berikutnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "Jabatan Kepala atau Wakil Kepala PPATK berhenti karena: a. meninggal dunia; b. mengundurkan . . . b. mengundurkan diri; c. berakhir masa jabatannya; atau d. diberhentikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberhentian Kepala atau Wakil Kepala PPATK sebagaimana dimaksud dalam Pasal 56 huruf d dilakukan karena:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bertempat tinggal di luar wilayah Negara Kesatuan Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kehilangan kewarganegaraannya sebagai warga negara Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menderita sakit yang penyembuhannya memerlukan waktu lebih dari 3 tidak memungkinkan bulan (tiga) melaksanakan tugasnya; terus-menerus yang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dijatuhi pidana penjara berdasarkan putusan telah memperoleh kekuatan pengadilan yang hukum tetap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "merangkap jabatan; f.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "melanggar sumpah atau janji jabatan. dinyatakan pailit oleh pengadilan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Kepala dan/atau Wakil Kepala PPATK menjadi terdakwa tindak pidana yang berkaitan dengan penyalahgunaan jabatannya, Kepala dan/atau Wakil Kepala PPATK diberhentikan sementara dari jabatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tuntutan terhadap Kepala dan/atau Wakil Kepala PPATK menjadi terdakwa dinyatakan tidak terbukti berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap, jabatan yang bersangkutan dipulihkan kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-57/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemberhentian sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan oleh Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala dan Wakil Kepala PPATK berhak memperoleh penghasilan, hak-hak lain, penghargaan, dan fasilitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai penghasilan, hak-hak lain, penghargaan, dan fasilitas bagi Kepala dan Wakil Kepala PPATK diatur dengan Peraturan Pemerintah. Pasal 59 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Kepala PPATK dapat mengangkat tenaga ahli paling banyak 5 (lima) orang untuk memberikan pertimbangan mengenai masalah tertentu sesuai dengan bidang keahliannya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Ketentuan lebih lanjut mengenai susunan organisasi dan tata kerja PPATK diatur dengan Peraturan Presiden. Bagian Kelima Manajemen Sumber Daya Manusia",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Kepala PPATK adalah pejabat pembina kepegawaian di lingkungan PPATK.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-62/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala PPATK selaku pejabat pembina kepegawaian menyelenggarakan manajemen sumber daya manusia PPATK yang meliputi perencanaan, pengangkatan, pemindahan, pengembangan, pemberhentian, dan pemberian remunerasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-62/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan manajemen sumber daya manusia PPATK sebagaimana dimaksud pada ayat (1) disusun dan dilaksanakan berdasarkan prinsip meritokrasi. diatur dengan Peraturan Pemerintah. Bagian Keenam Pembiayaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-62/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai manajemen sumber daya manusia PPATK sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Biaya untuk pelaksanaan tugas PPATK dibebankan kepada Anggaran Pendapatan dan Belanja Negara. BAB VII . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMERIKSAAN DAN PENGHENTIAN SEMENTARA TRANSAKSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-64/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPATK melakukan pemeriksaan terhadap Transaksi Keuangan Mencurigakan terkait dengan adanya indikasi tindak pidana Pencucian Uang atau tindak pidana lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-64/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal ditemukan adanya indikasi tindak pidana Pencucian Uang atau tindak pidana lain, PPATK menyerahkan Hasil Pemeriksaan kepada penyidik untuk dilakukan penyidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-64/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam melaksanakan sebagaimana dimaksud pada ayat (2), penyidik melakukan koordinasi dengan PPATK. penyidikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PPATK dapat meminta penyedia jasa keuangan untuk menghentikan sebagian Transaksi sebagaimana dimaksud dalam Pasal 44 ayat huruf i. seluruh atau sementara",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penyedia jasa keuangan memenuhi permintaan PPATK sebagaimana dimaksud pada ayat (1), pelaksanaan penghentian sementara dicatat dalam berita acara penghentian sementara Transaksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penghentian sementara sebagaimana dimaksud dalam Pasal 65 ayat (1) dilaksanakan dalam waktu paling lama 5 (lima) hari kerja setelah menerima berita acara penghentian sementara Transaksi. Transaksi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "PPATK dapat memperpanjang penghentian sementara Transaksi sebagaimana dimaksud pada ayat (1) dalam waktu paling lama 15 (lima belas) hari kerja untuk melengkapi hasil analisis atau pemeriksaan yang akan disampaikan kepada penyidik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal tidak ada orang dan/atau pihak ketiga yang mengajukan keberatan dalam waktu 20 (dua puluh) hari sejak tanggal penghentian sementara Transaksi, PPATK menyerahkan penanganan Harta Kekayaan yang diketahui atau patut diduga merupakan hasil tindak pidana tersebut kepada penyidik untuk dilakukan penyidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . Dalam hal yang diduga sebagai pelaku tindak pidana tidak ditemukan dalam waktu 30 (tiga puluh) hari, penyidik dapat mengajukan permohonan kepada pengadilan negeri untuk memutuskan Harta Kekayaan tersebut sebagai aset negara atau dikembalikan kepada yang berhak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-67/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengadilan sebagaimana dimaksud pada ayat (2) harus memutus dalam waktu paling lama 7 (tujuh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PENYIDIKAN, PENUNTUTAN, DAN PEMERIKSAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "Penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan telah serta pelaksanaan putusan memperoleh kekuatan hukum tetap terhadap tindak pidana sebagaimana dimaksud dalam Undang-Undang ini dilakukan sesuai dengan ketentuan peraturan perundang-undangan, kecuali ditentukan lain dalam Undang-Undang ini. yang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "Untuk dapat dilakukan penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan terhadap tindak pidana Pencucian Uang tidak wajib dibuktikan terlebih dahulu tindak pidana asalnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyidik, penuntut umum, atau hakim berwenang memerintahkan Pihak Pelapor untuk melakukan penundaan Transaksi terhadap Harta Kekayaan yang diketahui atau patut diduga merupakan hasil tindak pidana. dilakukan paling lama 5 (lima) hari kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perintah penyidik, penuntut umum, atau hakim sebagaimana dimaksud pada ayat (1) harus dilakukan secara jelas tertulis dengan menyebutkan secara mengenai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nama dan Transaksi; jabatan yang meminta penundaan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "identitas . . . b. identitas Setiap Orang yang Transaksinya akan dilakukan penundaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "alasan penundaan Transaksi; dan d. tempat Harta Kekayaan berada.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penundaan Transaksi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pihak Pelapor wajib melaksanakan penundaan Transaksi sesaat setelah surat perintah/permintaan penundaan Transaksi diterima dari penyidik, penuntut umum, atau hakim.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-70/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pihak Pelapor wajib menyerahkan berita acara pelaksanaan penundaan Transaksi kepada penyidik, penuntut umum, atau hakim yang meminta penundaan Transaksi paling lama 1 (satu) hari kerja sejak tanggal pelaksanaan penundaan Transaksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyidik, penuntut umum, atau hakim berwenang memerintahkan Pihak Pelapor untuk melakukan pemblokiran Harta Kekayaan yang diketahui atau patut diduga merupakan hasil tindak pidana dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Setiap Orang yang telah dilaporkan oleh PPATK kepada penyidik; tersangka; atau terdakwa. b. c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perintah penyidik, penuntut umum, atau hakim sebagaimana dimaksud pada ayat (1) harus dilakukan secara jelas tertulis dengan menyebutkan secara mengenai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nama dan jabatan penyidik, penuntut umum, atau hakim; b. identitas Setiap Orang yang telah dilaporkan oleh PPATK kepada penyidik, tersangka, atau terdakwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "alasan pemblokiran; d. tindak pidana yang disangkakan atau didakwakan; dan e. tempat Harta Kekayaan berada.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemblokiran sebagaimana dimaksud pada ayat dilakukan paling lama 30 (tiga puluh) hari kerja. (1)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam . . . Dalam hal jangka waktu pemblokiran sebagaimana dimaksud pada ayat (3) berakhir, Pihak Pelapor wajib mengakhiri pemblokiran demi hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pihak Pelapor wajib melaksanakan pemblokiran sesaat setelah surat perintah pemblokiran diterima dari penyidik, penuntut umum, atau hakim.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pihak Pelapor wajib menyerahkan berita acara pelaksanaan pemblokiran kepada penyidik, penuntut umum, atau hakim yang memerintahkan pemblokiran paling lama 1 (satu) hari kerja sejak tanggal pelaksanaan pemblokiran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-71/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Harta Kekayaan yang diblokir harus tetap berada pada Pihak Pelapor yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan pemeriksaan dalam perkara tindak pidana Pencucian Uang, penyidik, penuntut umum, atau hakim berwenang meminta Pihak Pelapor untuk memberikan keterangan secara tertulis mengenai Harta Kekayaan dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "orang yang telah dilaporkan oleh PPATK kepada penyidik; tersangka; atau terdakwa. b. c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam meminta keterangan sebagaimana dimaksud pada ayat (1), bagi penyidik, penuntut umum, atau hakim tidak berlaku ketentuan peraturan perundang- undangan yang mengatur rahasia bank dan kerahasiaan Transaksi Keuangan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Permintaan keterangan sebagaimana dimaksud pada ayat (1) harus diajukan dengan menyebutkan secara jelas mengenai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nama dan jabatan penyidik, penuntut umum, atau b. hakim; identitas orang yang terindikasi dari hasil analisis atau pemeriksaan PPATK, tersangka, atau terdakwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "uraian singkat tindak pidana yang disangkakan atau didakwakan; dan tempat Harta Kekayaan berada. d.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Permintaan . . . Permintaan sebagaimana dimaksud pada ayat (3) harus disertai dengan: a. laporan polisi dan surat perintah penyidikan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat penunjukan sebagai penuntut umum; atau c. surat penetapan majelis hakim.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Surat permintaan untuk memperoleh keterangan sebagaimana dimaksud pada ayat (1) dan ayat (3) harus ditandatangani oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kepala Kepolisian Negara Republik Indonesia atau kepala kepolisian daerah dalam hal permintaan diajukan oleh penyidik dari Kepolisian Negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pimpinan instansi atau lembaga atau komisi dalam hal permintaan diajukan oleh penyidik selain penyidik Kepolisian Negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Jaksa Agung atau kepala kejaksaan tinggi dalam hal permintaan diajukan oleh jaksa penyidik dan/atau penuntut umum; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "hakim ketua majelis yang memeriksa perkara yang bersangkutan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-72/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Surat permintaan sebagaimana dimaksud pada ayat (5) ditembuskan kepada PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "Alat bukti yang sah dalam pembuktian tindak pidana Pencucian Uang ialah: a. alat bukti sebagaimana dimaksud dalam Hukum Acara Pidana; dan/atau b. alat bukti lain berupa informasi yang diucapkan, dikirimkan, diterima, atau disimpan secara elektronik dengan alat optik atau alat yang serupa optik dan Dokumen. Bagian Kedua Penyidikan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "Penyidikan tindak pidana Pencucian Uang dilakukan oleh penyidik tindak pidana asal sesuai dengan ketentuan hukum acara dan ketentuan peraturan perundang-undangan, kecuali ditentukan lain menurut Undang-Undang ini. Pasal 75 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "Dalam hal penyidik menemukan bukti permulaan yang cukup terjadinya tindak pidana Pencucian Uang dan tindak pidana asal, penyidik menggabungkan penyidikan tindak pidana asal dengan penyidikan tindak pidana Pencucian Uang dan memberitahukannya kepada PPATK. Bagian Ketiga Penuntutan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penuntut umum wajib menyerahkan berkas perkara tindak pidana Pencucian Uang kepada pengadilan negeri paling lama 30 (tiga puluh) hari kerja terhitung sejak tanggal diterimanya berkas perkara yang telah dinyatakan lengkap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penuntut umum telah menyerahkan berkas perkara kepada pengadilan negeri sebagaimana dimaksud pada ayat (1), ketua pengadilan negeri wajib membentuk majelis hakim perkara tersebut paling lama 3 (tiga) hari kerja sejak diterimanya berkas perkara tersebut. Bagian Keempat Pemeriksaan di Sidang Pengadilan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "Untuk kepentingan pemeriksaan di sidang pengadilan, terdakwa wajib membuktikan bahwa Harta Kekayaannya bukan merupakan hasil tindak pidana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-78/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam pemeriksaan di sidang pengadilan sebagaimana dimaksud dalam Pasal 77, hakim memerintahkan terdakwa agar membuktikan bahwa Harta Kekayaan yang terkait dengan perkara bukan berasal atau terkait dengan tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-78/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terdakwa membuktikan bahwa Harta Kekayaan yang terkait dengan perkara bukan berasal atau terkait dengan tindak pidana sebagaimana dimaksud dalam Pasal 2 ayat (1) dengan cara mengajukan alat bukti yang cukup. Pasal 79 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal terdakwa telah dipanggil secara sah dan patut tidak hadir di sidang pengadilan tanpa alasan yang sah, perkara dapat diperiksa dan diputus tanpa hadirnya terdakwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal terdakwa hadir pada sidang berikutnya sebelum putusan dijatuhkan, terdakwa wajib diperiksa dan segala keterangan saksi dan surat yang dibacakan dalam sidang sebelumnya dianggap sebagai diucapkan dalam sidang yang sekarang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Putusan yang dijatuhkan tanpa kehadiran terdakwa diumumkan oleh penuntut umum pada papan pengumuman pengadilan, kantor pemerintah daerah, atau diberitahukan kepada kuasanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal terdakwa meninggal dunia sebelum putusan dijatuhkan dan terdapat bukti yang cukup kuat bahwa yang bersangkutan telah melakukan tindak pidana Pencucian Uang, hakim atas tuntutan penuntut umum memutuskan perampasan Harta Kekayaan yang telah disita.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penetapan perampasan sebagaimana dimaksud pada ayat (4) tidak dapat dimohonkan upaya hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-79/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Setiap Orang yang berkepentingan dapat mengajukan keberatan kepada pengadilan yang telah menjatuhkan penetapan sebagaimana dimaksud pada ayat (5) dalam waktu 30 (tiga puluh) hari sejak tanggal pengumuman sebagaimana dimaksud pada ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-80/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal hakim memutus sebagaimana dimaksud dalam Pasal 79 ayat (3), terdakwa dapat mengajukan banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-80/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengajuan banding sebagaimana dimaksud pada ayat (1) harus dilakukan langsung oleh terdakwa paling lama 7 (tujuh) hari setelah putusan diucapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "Dalam hal diperoleh bukti yang cukup bahwa masih ada Harta Kekayaan yang belum disita, hakim memerintahkan jaksa penuntut umum untuk melakukan penyitaan Harta Kekayaan tersebut. Pasal 82 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "Dalam hal tindak pidana dilakukan oleh Korporasi, panggilan disampaikan kepada pengurus di tempat tinggal pengurus atau di tempat pengurus berkantor.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PELINDUNGAN BAGI PELAPOR DAN SAKSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-83/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat dan pegawai PPATK, penyidik, penuntut umum, atau hakim wajib merahasiakan Pihak Pelapor dan pelapor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-83/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelanggaran terhadap ketentuan sebagaimana dimaksud pada ayat (1) memberikan hak kepada pelapor atau ahli warisnya untuk menuntut ganti kerugian melalui pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Orang yang melaporkan terjadinya dugaan tindak pidana Pencucian Uang wajib diberi pelindungan khusus oleh negara dari kemungkinan ancaman yang membahayakan diri, jiwa, dan/atau hartanya, termasuk keluarganya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai tata cara pemberian pelindungan khusus sebagaimana dimaksud pada ayat (1) diatur dalam peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-85/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Di sidang pengadilan, saksi, penuntut umum, hakim, dan orang lain yang terkait dengan tindak pidana Pencucian Uang yang sedang dalam pemeriksaan dilarang menyebutkan nama atau alamat pelapor atau hal lain yang memungkinkan dapat terungkapnya identitas pelapor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-85/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam setiap persidangan sebelum sidang pemeriksaan dimulai, hakim wajib mengingatkan saksi, penuntut umum, dan orang lain yang terkait dengan pemeriksaan larangan sebagaimana perkara dimaksud pada ayat (1). tersebut mengenai Pasal 86 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-86/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Orang yang memberikan kesaksian dalam pemeriksaan tindak pidana Pencucian Uang wajib diberi pelindungan khusus oleh negara dari kemungkinan ancaman yang membahayakan diri, jiwa, dan/atau hartanya, termasuk keluarganya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-86/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai tata cara pemberian pelindungan khusus sebagaimana dimaksud pada ayat (1) diatur dalam peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-87/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelapor dan/atau saksi tidak dapat dituntut, baik secara laporan dan/atau perdata maupun pidana, atas kesaksian yang diberikan oleh yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-87/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Saksi yang memberikan keterangan palsu di atas sumpah dipidana sesuai dengan ketentuan dalam Kitab Undang-Undang Hukum Pidana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KERJA SAMA DALAM PENCEGAHAN DAN PEMBERANTASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-88",
+     "type": "PASAL",
+     "orderIndex": 88,
+     "label": "Pasal 88",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-88/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerja sama nasional yang dilakukan PPATK dengan pihak yang terkait dituangkan dengan atau tanpa bentuk kerja sama formal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-88/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pihak yang terkait sebagaimana dimaksud pada ayat (1) adalah pihak yang mempunyai keterkaitan langsung langsung dengan pencegahan dan atau pemberantasan tindak pidana Pencucian Uang di Indonesia. tidak",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-89",
+     "type": "PASAL",
+     "orderIndex": 89,
+     "label": "Pasal 89",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-89/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerja sama internasional dilakukan oleh PPATK dengan lembaga sejenis yang ada di negara lain dan lembaga internasional yang terkait dengan pencegahan dan pemberantasan tindak pidana Pencucian Uang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-89/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kerja sama internasional yang dilakukan PPATK dapat dilaksanakan dalam bentuk kerja sama formal atau berdasarkan bantuan timbal balik atau prinsip resiprositas. Pasal 90 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-90",
+     "type": "PASAL",
+     "orderIndex": 90,
+     "label": "Pasal 90",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melakukan pencegahan dan pemberantasan tindak pidana Pencucian Uang, PPATK dapat melakukan kerja sama pertukaran informasi berupa permintaan, pemberian, dan penerimaan informasi dengan pihak, baik dalam lingkup nasional maupun internasional, yang meliputi: a. b. instansi penegak hukum; lembaga yang berwenang melakukan pengawasan terhadap penyedia jasa keuangan; lembaga yang bertugas memeriksa pengelolaan dan tanggung jawab keuangan negara; lembaga lain yang terkait dengan pencegahan dan pemberantasan tindak pidana Pencucian Uang atau tindak pidana lain terkait dengan tindak pidana Pencucian Uang; dan financial intelligence unit negara lain. c. d. e. kepada PPATK diajukan secara ditandatangani oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "hakim ketua majelis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kepala Kepolisian Negara Republik Indonesia atau kepala kepolisian daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Jaksa Agung atau kepala kejaksaan tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pimpinan instansi atau lembaga atau komisi dalam hal permintaan diajukan oleh penyidik, selain penyidik Kepolisian Negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pemimpin, direktur atau pejabat yang setingkat, atau pemimpin satuan kerja atau kantor di lembaga yang berwenang melakukan pengawasan terhadap penyedia jasa keuangan; pimpinan lembaga yang bertugas memeriksa pengelolaan dan tanggung jawab keuangan negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pimpinan dari lembaga lain yang terkait dengan pencegahan dan pemberantasan tindak pidana Pencucian Uang atau tindak pidana lain terkait dengan tindak pidana Pencucian Uang; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pimpinan financial intelligence unit negara lain. f. Pasal 91 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permintaan, pemberian, dan penerimaan informasi dalam pertukaran informasi sebagaimana dimaksud pada ayat (1) dapat dilakukan atas inisiatif sendiri atau atas permintaan pihak yang dapat meminta informasi kepada PPATK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-90/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Permintaan informasi sebagaimana dimaksud pada ayat tertulis dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-91",
+     "type": "PASAL",
+     "orderIndex": 91,
+     "label": "Pasal 91",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-91/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka mencegah dan memberantas tindak pidana Pencucian Uang, dapat dilakukan kerja sama bantuan timbal balik dalam masalah pidana dengan negara lain melalui forum bilateral atau multilateral sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-91/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kerja sama bantuan timbal balik sebagaimana dimaksud pada ayat (1) dapat dilaksanakan jika negara dimaksud telah mengadakan perjanjian kerja sama bantuan timbal balik dengan Negara Kesatuan Republik Indonesia atau berdasarkan prinsip resiprositas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-92",
+     "type": "PASAL",
+     "orderIndex": 92,
+     "label": "Pasal 92",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-92/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk meningkatkan koordinasi antarlembaga terkait dalam pencegahan dan pemberantasan tindak pidana Pencucian Uang, dibentuk Komite Koordinasi Nasional Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-2010/pasal-92/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembentukan Komite Koordinasi Nasional Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang diatur dengan Peraturan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-93",
+     "type": "PASAL",
+     "orderIndex": 93,
+     "label": "Pasal 93",
+     "content": "Dalam hal ada perkembangan konvensi internasional atau internasional di bidang pencegahan dan rekomendasi pemberantasan tindak pidana Pencucian Uang dan pendanaan terorisme, PPATK dan instansi terkait dapat melaksanakan ketentuan tersebut sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-94",
+     "type": "PASAL",
+     "orderIndex": 94,
+     "label": "Pasal 94",
+     "content": "Pada saat Undang-Undang ini mulai berlaku: a. PPATK yang dibentuk berdasarkan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang- Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang, ditetapkan sebagai PPATK berdasarkan Undang-Undang ini. b. PPATK . . . b. PPATK yang dibentuk berdasarkan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang- Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang tetap menjalankan tugas, fungsi, dan wewenangnya berdasarkan Undang-Undang ini. c. Susunan organisasi PPATK yang dibentuk berdasarkan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang tetap berlaku sampai terbentuknya susunan organisasi PPATK yang baru berdasarkan Undang-Undang ini. d. Kepala dan Wakil Kepala PPATK yang diangkat berdasarkan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang tetap menjalankan tugas, fungsi, dan wewenangnya sampai dengan diangkatnya Kepala dan Wakil Kepala PPATK yang baru paling lambat 1 (satu) tahun sejak berlakunya Undang-Undang ini. e. Komite Koordinasi Pencegahan dan Nasional Pemberantasan Tindak Pidana Pencucian Uang yang dibentuk berdasarkan Keputusan Presiden Nomor 1 Tahun 2004 tetap menjalankan tugas, fungsi, dan wewenangnya sampai dibentuk Komite Koordinasi Nasional Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang berdasarkan Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-95",
+     "type": "PASAL",
+     "orderIndex": 95,
+     "label": "Pasal 95",
+     "content": "Tindak Pidana Pencucian Uang yang dilakukan sebelum ini, diperiksa dan diputus berlakunya Undang-Undang dengan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang. BAB XIII . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-2010/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-96",
+     "type": "PASAL",
+     "orderIndex": 96,
+     "label": "Pasal 96",
+     "content": "Pelaksanaan kewajiban pelaporan oleh penyedia barang dan/atau jasa lain sebagaimana dimaksud dalam Pasal 27 ayat (1) dilaksanakan paling lambat 2 (dua) tahun setelah Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-97",
+     "type": "PASAL",
+     "orderIndex": 97,
+     "label": "Pasal 97",
+     "content": "Pelaksanaan kewajiban pelaporan Transaksi Keuangan transfer dana dari dan ke luar negeri sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c dilaksanakan paling lambat 5 (lima) tahun setelah Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-98",
+     "type": "PASAL",
+     "orderIndex": 98,
+     "label": "Pasal 98",
+     "content": "Semua peraturan pelaksanaan Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang, dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diganti berdasarkan Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-99",
+     "type": "PASAL",
+     "orderIndex": 99,
+     "label": "Pasal 99",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, Undang- Undang Nomor 15 Tahun 2002 tentang Tindak Pidana (Lembaran Negara Republik Indonesia Pencucian Uang Tahun 2002 Nomor 30, Tambahan Lembaran Negara Republik Indonesia Nomor 4191) sebagaimana telah diubah dengan Undang-Undang Nomor 25 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 15 Tahun 2002 tentang Tindak Pidana Pencucian Uang (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 108, Tambahan Lembaran Negara Republik Indonesia Nomor 4324) dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-2010/pasal-100",
+     "type": "PASAL",
+     "orderIndex": 100,
+     "label": "Pasal 100",
+     "content": "Undang-Undang diundangkan. ini mulai berlaku pada tanggal Agar . . . setiap Agar orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 22 Oktober 2010 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 22 Oktober 2010 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 122 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA REPUBLIK INDONESIA Kepala Biro Peraturan Perundang-undangan Bidang Perekonomian dan Industri, Setio Sapto Nugroho",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

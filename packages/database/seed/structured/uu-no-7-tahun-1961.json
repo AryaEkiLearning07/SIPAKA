@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-7-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1961",
+   "detailsId": "51147",
+   "judul": "UU No. 7 Tahun 1961 tentang Anggaran Pendapatan dan Belanja Negara Tahun 1961 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40399/UU%20Nomor%207%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:59:44.629834+00:00"
+  },
+  "sha256": "9797f76592c6ecb6939c8d7d06dc0e655e92363a29628be693a7124b1d2a9b57",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1961/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pendapatan Negara menurut perkiraan berjumlah Rp. 66 milyar, yang terdiri atas: a. penerimaan biasa sebesar Rp. 47 milyar dan b. penerimaan luar biasa sebesar Rp. 19 milyar; seperti dimuat secara terperinci dalam lampiran I Undang-undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1961/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Belanja Negara menurut perkiraan berjumlah Rp. 82,65 milyar, yang terdiri atas: a. pengeluaran routine sebesar Rp. 52,65 milyar seperti dimuat secara terperinci dalam lampiran II undang-undang ini dan b. pengeluaran pembangunan termasuk Anggaran Pembangunan Khusus sebesar Rp. 30 milyar.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1961/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Penggunaan pengeluaran Rp. 30 milyar untuk membiayai pembangunan nasional semesta berencana termaksud dalam Pasal 2 huruf b diatur oleh Presiden/Mandataris Majelis Permusyawaratan Rakyat Sementara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1961/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan-ketentuan dalam Undang-undang Perbendaharaan Negara (I.C.W.) yang bertentangan dengan bentuk dan susunan undang-undang ini, tidak berlaku lagi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1961/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan mempunyai daya surut sampai tanggal 1 Januari 1961. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 1 Maret 1961. PRESIDEN REPUBLIK SUKARNO. INDONESIA Diundangkan di Jakarta pada tanggal 1 Maret 1961. SEKRETARIS NEGARA, MOHD. ICHSAN. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1961 NOMOR 22",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

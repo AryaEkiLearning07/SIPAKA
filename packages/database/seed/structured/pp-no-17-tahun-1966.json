@@ -1,0 +1,52 @@
+{
+ "slug": "pp-no-17-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung sampai sekarang belum ada suatu peraturan yang mengatur pemberian cuti yang berlaku secara umum bagi anggota ABRI maka dipandang perlu untuk segera mengadakan peraturan tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-17-tahun-1966",
+   "detailsId": "70889",
+   "judul": "PP No. 17 Tahun 1966 tentang Pemberian Cuti Kepada Anggota Angkatan Bersenjata Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61350/pp%20no%20017%20tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:12.694274+00:00"
+  },
+  "sha256": "ccb3db286bad41e06bb89280166b83eadde53910e07bde4225a99ee4b27af9e0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-17-tahun-1966/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PRESIDEN REPUBLIK INDONESIA,",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

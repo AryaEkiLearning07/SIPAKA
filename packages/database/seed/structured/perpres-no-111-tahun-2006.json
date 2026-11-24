@@ -1,0 +1,95 @@
+{
+ "slug": "perpres-no-111-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka memenuhi tuntutan perkembangan dan kebutuhan ilmu pengetahuan Agama Islam serta dalam rangka mewujudkan sumber daya manusia yang berkualitas di bidang ilmu pengetahuan Agama Islam, dipandang perlu menetapkan Peraturan Presiden tentang Perubahan Sekolah Tinggi Agama Islam Negeri Ambon menjadi Institut Agama Islam Negeri Ambon;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-111-tahun-2006",
+   "detailsId": "42040",
+   "judul": "PERPRES No. 111 Tahun 2006 tentang Perubahan Sekolah Tinggi Agama Islam Negeri Ambon Menjadi Institut Agama Islam Ambon - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73188/PRPS%20NO%20111%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:28.723260+00:00"
+  },
+  "sha256": "c3280838aa3a571a10877251351568e9b6d0deb7cddde1e01c3d8bdb065bd954",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-111-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-111-tahun-2006/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Mengubah bentuk Sekolah Tinggi Agama Islam Negeri Ambon menjadi (2) Institut Agama Islam Negeri Ambon. Institut Agama Islam Negeri Ambon merupakan perguruan tinggi di lingkungan Departemen Agama.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-111-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini, diatur oleh Menteri Pendidikan Nasional dan Menteri Agama, baik secara bersama-sama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing- masing dengan memperhatikan ketentuan peraturan perundang-undangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-111-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan berlakunya Peraturan Presiden ini, semua ketentuan mengenai Sekolah Tinggi Agama Islam Negeri Ambon yang tidak bertentangan dengan Peraturan Presiden ini masih tetap berlaku sampai dengan diubah dan/atau diadakan peraturan yang baru berdasarkan Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-111-tahun-2006/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "pendirian Sekolah Tinggi Agama Dengan berlakunya Peraturan Presiden ini, maka ketentuan yang mengatur Islam Negeri Ambon mengenai sebagaimana dimaksud dalam Keputusan Presiden Nomor 11 Tahun 1997 tentang Pendirian Sekolah Tinggi Agama Islam Negeri, dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-111-tahun-2006/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

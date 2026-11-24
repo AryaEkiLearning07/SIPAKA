@@ -1,0 +1,79 @@
+{
+ "slug": "uu-no-7-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan peninjauan yang telah dilakukan oleh Delegasi Pemerintah Republik Indonesia di wilayah Timor Timur, telah diperoleh keyakinan, bahwa Rakyat Timor Timur benar- benar mempunyai kehendak yang kuat dan bebas untuk menyatukan Timor Timur ke dalam Negara Kesatuan Republik Indonesia;",
+   "bahwa kehendak Rakyat dan Pemerintah Sementara Timor Timur tersebut dalam huruf a telah diterima oleh Pemerintah dan Rakyat Indonesia dan karena itu perlu ditetapkan undang- undang yang mengesahkan penyatuan Timor Timur ke dalam Negara Kesatuan Republik Indonesia dan yang membentuk Propinsi Daerah Tingkat I Timor Timur;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1976",
+   "detailsId": "47212",
+   "judul": "UU No. 7 Tahun 1976 tentang Pengesahan Penyatuan Timor-Timur ke Dalam Negara Kesatuan Republik Indonesia dan Pembentukan Propinsi Daerah Tingkat I Timor-Timur&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36145/UU%20Nomor%207%20Tahun%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:52:17.151121+00:00"
+  },
+  "sha256": "8cca06c547e95da4cea55a699f56a405b2d67679f2d8c9b9848e6f73cd8fc611",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1976/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1976/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Membentuk propinsi Daerah Tingkat I Timor Timur yang wilayahnya meliputi wilayah bekas koloni Portugis di Timor.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1976/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Hal-hal yang berhubungan dengan pelaksanaan ketentuan tersebut dalam Pasal 2 lebih lanjut dengan peraturan perundang-undangan tersendiri, dengan diatur memperhatikan keadaan dan perkembangan di wilayah Timor Timur. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1976/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 17 Juli 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 17 Juli 1976 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

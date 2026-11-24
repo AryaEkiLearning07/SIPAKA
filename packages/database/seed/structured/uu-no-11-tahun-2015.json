@@ -1,0 +1,74 @@
+{
+ "slug": "uu-no-11-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa ketentuan Pasal 22 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menyatakan dalam hal Peraturan Pemerintah Pengganti Undang- Undang yang diajukan oleh Presiden tidak mendapat persetujuan oleh Dewan Perwakilan Rakyat, Peraturan Pemerintah Pengganti Undang-Undang tersebut harus dicabut;",
+   "bahwa Peraturan Pemerintah Pengganti Undang-Undang Nomor 4 Tahun 2008 tentang Jaring Pengaman Sistem Keuangan yang diajukan oleh Presiden tidak mendapat persetujuan Dewan Perwakilan Rakyat dalam Rapat Paripurna tanggal 30 September 2009;",
+   "bahwa untuk memberikan kepastian hukum dan berdasarkan ketentuan Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang- Undangan, dalam hal Peraturan Pemerintah Pengganti Undang-Undang tidak mendapat persetujuan Dewan Perwakilan Rakyat, Presiden mengajukan rancangan undang-undang Peraturan Pemerintah Pengganti Undang-Undang yang dapat mengatur segala akibat hukum dari pencabutan Peraturan Pemerintah Pengganti Undang-Undang; pencabutan tentang",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Peraturan Undang-Undang Pemerintah Pengganti Undang-Undang Nomor 4 Tahun 2008 tentang Jaring Pengaman Sistem Keuangan; Pencabutan tentang Mengingat : . . . - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-2015",
+   "detailsId": "38534",
+   "judul": "UU No. 11 Tahun 2015 tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang Nomor 4 Tahun 2008 Tentang Jaring Pengaman Sistem Keuangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27779/UU%20Nomor%2011%20Tahun%202015.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpu-no-4-tahun-2008"
+   ],
+   "scrapedAt": "2026-10-05T16:45:03.471681+00:00"
+  },
+  "sha256": "e66589b0d5dc532e3524694103614849e76fd7e3749d2e07df11d484094654f0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-2015/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 4 Tahun 2008 tentang Jaring Pengaman Sistem Keuangan (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 149, Tambahan Lembaran Negara Republik Indonesia Nomor 4907) dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2015/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Keputusan yang telah ditetapkan oleh Komite Stabilitas Sistem Keuangan dalam rangka melaksanakan tugas dan wewenangnya berdasarkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 4 Tahun 2008 tentang Jaring Pengaman Sistem Keuangan tetap sah dan mengikat.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2015/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . setiap Agar orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 6 Agustus 2015 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 6 Agustus 2015 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 182",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

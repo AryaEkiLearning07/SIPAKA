@@ -1,0 +1,5072 @@
+{
+ "slug": "pp-no-68-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 66 ayat (2) Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi, perlu menetapkan Peraturan Pemerintah tentang Statuta Universitas Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-68-tahun-2013",
+   "detailsId": "5403",
+   "judul": "PP No. 68 Tahun 2013 tentang Statuta Universitas Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33698/PP%20Nomor%2068%20Tahun%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-152-tahun-2000"
+   ],
+   "scrapedAt": "2026-10-06T00:41:00.780880+00:00"
+  },
+  "sha256": "bdf1e619cf8940551808f835118cb73943c0572b925da3d2d951f59275d1e2d3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 88,
+  "ayat_angka": 289,
+  "huruf": 157
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEMERINTAH TENTANG STATUTA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Universitas . . . Universitas Indonesia yang selanjutnya disingkat UI adalah perguruan tinggi negeri badan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Statuta UI adalah peraturan dasar pengelolaan UI yang digunakan sebagai landasan penyusunan peraturan dan prosedur operasional di UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Majelis Wali Amanat yang selanjutnya disingkat MWA adalah organ UI yang menyusun dan menetapkan kebijakan umum UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Rektor adalah organ UI yang memimpin penyelenggaraan dan pengelolaan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Senat Akademik yang selanjutnya disingkat SA adalah organ UI yang menyusun, merumuskan, dan menetapkan kebijakan, memberikan pertimbangan, dan melakukan pengawasan di bidang akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Dewan Guru Besar yang selanjutnya disingkat DGB adalah organ UI yang menjalankan fungsi pengembangan keilmuan, penegakan etika, dan pengembangan budaya akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Komite Audit yang selanjutnya disingkat KA adalah perangkat MWA yang secara independen berfungsi melakukan evaluasi hasil audit internal dan eksternal atas penyelenggaraan UI untuk dan atas nama MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Fakultas adalah himpunan sumber daya pendukung, yang dapat dikelompokkan menurut jurusan/departemen, yang menyelenggarakan dan mengelola pendidikan akademik, vokasi, atau profesi dalam satu rumpun disiplin ilmu pengetahuan, teknologi dan/atau seni.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Departemen adalah unsur dari Fakultas yang mendukung penyelenggaraan kegiatan akademik dalam satu atau beberapa cabang ilmu pengetahuan, teknologi, dan/atau seni dalam jenis pendidikan akademik, profesi, atau vokasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Program . . . Program Studi adalah kesatuan kegiatan pendidikan dan pembelajaran yang memiliki kurikulum dan metode pembelajaran tertentu dalam satu jenis pendidikan akademik, pendidikan profesi, dan/atau pendidikan vokasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Dekan adalah pimpinan Fakultas di lingkungan UI yang berwenang dan bertanggung jawab terhadap penyelenggaraan pendidikan di masing-masing Fakultas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Dosen adalah pendidik profesional dan ilmuwan dengan tugas utama mentransformasikan, mengembangkan, dan menyebarluaskan ilmu pengetahuan dan teknologi melalui pendidikan, penelitian, dan pengabdian kepada masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Mahasiswa adalah peserta didik pada jenjang pendidikan tinggi di UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Tenaga Kependidikan adalah anggota masyarakat yang mengabdikan diri dan diangkat dengan tugas utama menunjang penyelenggaraan pendidikan tinggi di UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Rencana Kerja Anggaran yang selanjutnya disingkat RKA adalah rencana kerja anggaran pendapatan dan rencana kerja anggaran belanja yang merupakan dasar pengelolaan keuangan yang disusun berdasarkan pada rencana kerja yang merupakan penjabaran dari rencana strategis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kementerian adalah perangkat pemerintah yang membidangi urusan pemerintahan di bidang pendidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang pendidikan. Pasal 2 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI memiliki visi untuk menjadi pusat ilmu pengetahuan, teknologi, dan kebudayaan yang unggul dan berdaya saing, melalui upaya mencerdaskan kehidupan bangsa untuk meningkatkan kesejahteraan masyarakat, sehingga berkontribusi bagi pembangunan masyarakat Indonesia dan dunia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "UI memiliki misi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyediakan akses yang luas dan adil, serta pendidikan dan pengajaran yang berkualitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyelenggarakan kegiatan Tridharma yang bermutu dan relevan dengan tantangan nasional serta global;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menciptakan lulusan yang berintelektualitas tinggi, berbudi pekerti luhur, dan mampu bersaing secara global; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-2/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menciptakan iklim akademik yang mampu mendukung perwujudan visi UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "UI bertujuan: a. menciptakan komunitas pendidikan yang inklusif, berdasar pada adab, kepercayaan, integritas, saling menghargai dan kebhinekaan dalam lingkungan yang aman dan bersahabat; b. menyiapkan peserta didik agar menjadi lulusan yang cerdas dan bernurani melalui penyediaan program pendidikan yang jelas dan terfokus sehingga dapat menerapkan, mengembangkan, memperkaya, dan memajukan ilmu pengetahuan, teknologi, dan kebudayaan; c. mengembangkan . . . c. mengembangkan dan menyebarluaskan ilmu pengetahuan, teknologi, dan kebudayaan serta mengupayakan penerapannya untuk meningkatkan martabat dan kehidupan masyarakat, dan memperkaya kebudayaan nasional; d. mendorong dan mendukung peran serta aktif sivitas akademika dalam pembangunan dan pengabdian kepada masyarakat yang demokratis, sejahtera, dan beradab sebagai kekuatan moral yang mandiri; e. memperkuat peran sebagai penyelenggara pendidikan tinggi, dan bekerjasama dengan lembaga dan asosiasi profesi, sehingga lulusan dapat memperoleh keahlian pada tingkat profesional; f. meningkatkan kuantitas dan kualitas pelayanan kepada bangsa, negara, dan dunia melalui kolaborasi, kemitraan, dan kesempatan untuk pengayaan budaya dan pendidikan berkelanjutan; dan g. berinvestasi pada pengembangan profesional bagi semua warga UI dan juga dalam teknologi yang bermanfaat dalam rangka mencapai keunggulan kompetitif melalui pengajaran, penelitian, dan pengabdian kepada masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "IDENTITAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "UI merupakan perguruan tinggi negeri badan hukum yang mengelola bidang akademik dan nonakademik secara otonom. Pasal 5 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "UI berkedudukan di Jakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Tanggal 2 Februari merupakan hari jadi (dies natalis) UI. Bagian Kedua Lambang, Himne, dan Bendera",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI memiliki lambang, himne, dan bendera, sebagai atribut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lambang UI sebagaimana dimaksud pada ayat (1) berbentuk makara berwarna kuning keemasan yang menggambarkan pohon ilmu pengetahuan dengan air yang memancar dari mulut makara, yang ditampung oleh kerang kearifan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Lambang dan himne sebagaimana dimaksud pada ayat (1) tercantum dalam lampiran yang merupakan bagian yang tidak terpisahkan dari Peraturan Pemerintah ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai lambang, himne, dan bendera diatur dengan Peraturan Rektor. BAB III . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENYELENGGARAAN TRIDHARMA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sivitas akademika UI memiliki kebebasan akademik dan otonomi keilmuan dalam melaksanakan kegiatan yang terkait dengan pendidikan dan pengembangan ilmu pengetahuan, teknologi, dan/atau seni secara bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kode etik kebebasan akademik dan otonomi keilmuan adalah bagian dari kode etik sivitas akademika yang ditetapkan Rektor dengan persetujuan DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Otonomi keilmuan wajib dikembangkan UI sebagai wujud keteladanan, untuk membangun profesionalitas, kemandirian berpikir dan bertindak, serta dapat dipertanggungjawabkan secara akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Otonomi keilmuan sebagaimana dimaksud pada ayat (1) merupakan otonomi sivitas akademika pada suatu cabang ilmu pengetahuan, teknologi, dan/atau seni dalam menemukan, mengembangkan, mengungkapkan, dan/atau mempertahankan kebenaran ilmiah menurut kaidah, metode ilmiah, dan budaya akademis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "DGB . . . DGB bertanggung jawab untuk melakukan pemantauan, pengembangan, dan penjaminan otonomi keilmuan di UI. Paragraf 2 Penerimaan Mahasiswa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "UI menjamin suatu sistem penerimaan Mahasiswa untuk seluruh jenjang pendidikan yang dilakukan secara objektif, transparan, akuntabel, dan memperhatikan pemerataan pendidikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI melakukan penerimaan Mahasiswa baru jenjang sarjana melalui pola penerimaan secara nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain pola penerimaan sebagaimana dimaksud pada ayat (1), UI dapat melakukan penerimaan Mahasiswa baru jenjang sarjana melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penelusuran minat dan bakat; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penerimaan lainnya yang diselenggarakan UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "UI wajib mencari dan menjaring calon Mahasiswa berkewarganegaraan Indonesia yang memiliki prestasi akademik yang terbaik namun kurang mampu secara ekonomi, dengan ketentuan paling sedikit 20% (dua puluh persen) dari keseluruhan jumlah Mahasiswa baru pada jenjang sarjana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Untuk memenuhi ketentuan sebagaimana dimaksud pada ayat (2), UI menyediakan beasiswa atau bantuan biaya pendidikan yang dibebankan pada anggaran pendapatan dan belanja negara/anggaran pendapatan dan belanja daerah, dan/atau pihak lain sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "UI . . . UI wajib mengalokasikan beasiswa atau bantuan biaya pendidikan bagi Mahasiswa berkewarganegaraan Indonesia yang kurang mampu secara ekonomi dan/atau Mahasiswa yang memiliki prestasi akademik yang baik, minimal 20% (dua puluh persen) dari keseluruhan jumlah Mahasiswa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Mahasiswa sebagaimana dimaksud pada ayat (2) dapat membayar biaya pendidikan sesuai dengan kemampuan ekonominya, memperoleh beasiswa, menerima bantuan biaya pendidikan, dan/atau dibebaskan biaya pendidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Beasiswa dan/atau bantuan biaya pendidikan sebagaimana dimaksud pada ayat (4) ditanggung Pemerintah, pemerintah daerah, UI, dan/atau pihak lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan mengenai penerimaan mahasiswa baru pendidikan pasca sarjana, pendidikan profesi, dan pendidikan vokasi diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-11/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara pengalokasian dan penerimaan Mahasiswa sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (5) diatur dengan Peraturan Rektor. Paragraf 3 Sidang Terbuka",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sidang terbuka UI dilakukan dalam rangka pelaksanaan wisuda, dies natalies, pengukuhan Guru Besar, dan pengangkatan Doctor Honoris Causa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sidang terbuka UI diikuti oleh SA dan DGB dengan dipimpin oleh Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sidang . . . Sidang terbuka MWA diselenggarakan untuk mendengarkan pidato tahunan Rektor dan pidato akhir masa jabatan Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sidang terbuka MWA diselenggarakan oleh MWA dan diikuti oleh SA dan DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara dan tata tertib pelaksanaan sidang terbuka UI diatur dalam Peraturan MWA. Paragraf 4 Gelar dan Penghargaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "UI memberikan gelar kepada lulusan sesuai dengan jenjang dan jenis pendidikan yang diikutinya sesuai dengan ketentuan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI berhak memberikan gelar doktor kehormatan (doctor honoris causa) kepada seseorang karena pengabdian, pemikiran, dan jasanya yang luar biasa dalam menggali, mengembangkan, dan memajukan ilmu pengetahuan, teknologi, dan/atau seni. pemberian",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara kehormatan gelar sebagaimana dimaksud pada ayat (1) diatur dalam dan Peraturan MWA pertimbangan DGB. berdasarkan usulan doktor Bagian Kedua . . . Bagian Kedua Penelitian",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI dapat mengembangkan penelitian yang bertujuan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengembangkan ilmu pengetahuan, teknologi, seni, dan memperkaya pembelajaran dan khazanah ilmu pengetahuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menjadi indikator tingkat kemajuan perguruan tinggi serta kemajuan dan tingkat peradaban bangsa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meningkatkan kemandirian, kemajuan, daya saing, kesejahteraan masyarakat, dan mutu kehidupan manusia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memenuhi kebutuhan strategis pembangunan nasional; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mendorong masyarakat Indonesia menjadi masyarakat berpengetahuan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penelitian sebagaimana dimaksud pada ayat (1) dikembangkan baik secara mandiri oleh UI maupun melalui kerja sama dengan lembaga, badan usaha, dan/atau kerja sama nasional dan/atau internasional sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "UI berhak menggunakan pendapatan yang diperoleh dari kegiatan penelitian dan pemanfaatan hasil penelitian untuk pengembangan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai penelitian diatur dalam Peraturan Rektor. Pasal 16 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI wajib mendukung, memfasilitasi, dan mendorong kegiatan penelitian sebagai bentuk kebebasan berpikir, kebebasan akademik, dan tanggung jawab akademik sivitas akademika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kegiatan penelitian sebagaimana dimaksud pada ayat (1) berpedoman pada suatu sistem penelitian di lingkungan UI yang diatur dengan Peraturan Rektor setelah memperhatikan pertimbangan SA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "UI berkewajiban untuk mengalokasikan dana sekurang-kurangnya 10% (sepuluh persen) dari biaya operasional UI untuk kegiatan penelitian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil penelitian sivitas akademika UI wajib disebarluaskan melalui seminar, publikasi, dan/atau paten yang didukung UI, kecuali hasil penelitian yang bersifat rahasia, mengganggu, atau membahayakan kepentingan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-16/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Hasil penelitian sivitas akademika yang diterbitkan dalam jurnal internasional dapat memperoleh paten untuk dimanfaatkan industri, teknologi tepat guna, dan/atau hasilnya digunakan sebagai sumber belajar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor membentuk pusat atau lembaga yang mengelola penelitian bidang ilmu tertentu atau kajian strategis yang berkesinambungan sesuai dengan visi dan misi UI, setelah mendapat pertimbangan SA dari aspek akademik dan MWA dari aspek nonakademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembentukan pusat atau lembaga sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Rektor. Bagian Ketiga . . . Bagian Ketiga Pengabdian Kepada Masyarakat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengabdian kepada masyarakat merupakan kegiatan sivitas akademika dalam mengamalkan dan menerapkan ilmu pengetahuan, teknologi, dan/atau seni untuk memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa tanpa berorientasi pada keuntungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelayanan kepada masyarakat merupakan kegiatan sivitas akademika dalam mengamalkan dan membudayakan ilmu pengetahuan, teknologi, dan/atau seni untuk memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa yang mengedepankan prinsip nirlaba.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengabdian dan pelayanan kepada masyarakat dilakukan dalam berbagai bentuk kegiatan sesuai budaya akademik, keahlian, dan/atau otonomi keilmuan sivitas akademika serta kondisi sosial budaya masyarakat, dengan tetap memenuhi prinsip penyelenggaraan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil pengabdian dan pelayanan kepada masyarakat digunakan sebagai proses pengembangan ilmu pengetahuan, teknologi, seni, proses budaya pengayaan sumber belajar dan/atau untuk pembelajaran dan pematangan sivitas akademika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pengabdian kepada masyarakat sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dengan Peraturan Rektor setelah mendapat persetujuan SA. BAB IV . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "SISTEM PENGELOLAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Organ UI terdiri atas: a. MWA; b. Rektor; c. SA; dan d. DGB.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Organ UI sebagaimana dimaksud dalam Pasal 19 tugas dan fungsi sesuai dengan menjalankan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hubungan antar organ UI dilandasi oleh semangat kolegialitas dengan saling menilik serta mengimbangi satu terhadap yang lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengambilan keputusan dalam rapat yang diselenggarakan oleh MWA, SA, atau DGB dilakukan secara musyawarah untuk mencapai mufakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Apabila sebagaimana pengambilan dimaksud pada ayat tercapai, maka (3) pengambilan keputusan dilakukan berdasarkan keputusan tidak pemungutan suara dalam rapat yang memenuhi kuorum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pemungutan suara sebagaimana dimaksud pada ayat (4) diatur dalam Peraturan MWA. Pasal 21 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rapat koordinasi antar organ UI merupakan pertemuan berkala yang diselenggarakan MWA bersama dengan Rektor, SA, dan DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rapat koordinasi antar organ UI juga dapat diselenggarakan untuk penanganan masalah tertinggi di UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila dalam rapat koordinasi antar organ UI sebagaimana dimaksud pada ayat (1) dan ayat (2) diperlukan pengambilan keputusan, maka dilakukan secara musyawarah untuk mencapai mufakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal rapat koordinasi antar organ UI sebagaimana dimaksud pada ayat (3) tidak berhasil mengambil keputusan, MWA memiliki kewenangan untuk mengambil keputusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengambilan keputusan oleh MWA sebagaimana dimaksud pada ayat (4) dilakukan secara musyawarah untuk mencapai mufakat oleh dan di antara para peserta musyawarah dalam rapat MWA yang memenuhi kuorum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Apabila pengambilan keputusan sebagaimana dimaksud pada ayat (5) tidak tercapai, maka pengambilan keputusan dilakukan berdasarkan pemungutan suara dalam rapat MWA yang memenuhi kuorum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-21/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan lebih lanjut mengenai pemungutan suara sebagaimana dimaksud pada ayat (6) diatur dalam Peraturan MWA. Bagian Kedua . . . Bagian Kedua Majelis Wali Amanat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "MWA beranggotakan 17 (tujuh belas) orang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Unsur-unsur dalam MWA terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Menteri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Rektor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "wakil Dosen 7 (tujuh) orang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "wakil Masyarakat 6 (enam) orang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "wakil Tenaga Kependidikan 1 (satu) orang; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "wakil Mahasiswa 1 (satu) orang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota MWA diangkat dan diberhentikan oleh Menteri berdasarkan usulan SA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri dapat menunjuk pejabat di lingkungan Kementerian untuk menghadiri rapat MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota MWA yang mewakili unsur Dosen sebagaimana dimaksud dalam Pasal 22 ayat (2) huruf c dipilih oleh SA dari Dosen di luar anggota SA yang memiliki pengalaman dan/atau keahlian yang diperlukan serta memiliki komitmen, integritas, prestasi akademik yang baik, dan wawasan serta minat terhadap pendidikan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota MWA yang mewakili unsur Masyarakat sebagaimana dimaksud dalam Pasal 22 ayat (2) huruf d dipilih oleh SA yang memiliki reputasi baik, komitmen, kemampuan, integritas, visi, wawasan dan minat terhadap pengembangan pendidikan tinggi, tidak memiliki konflik kepentingan, serta bukan anggota partai politik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggota . . . Anggota MWA yang mewakili unsur Tenaga Kependidikan sebagaimana dimaksud dalam Pasal 22 ayat (2) huruf e dipilih secara demokratis oleh Tenaga Kependidikan, dan wajib mempunyai komitmen, kemampuan, integritas, dan prestasi kerja yang baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-23/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Anggota MWA yang mewakili unsur Mahasiswa sebagaimana dimaksud dalam Pasal 22 ayat (2) huruf f dipilih secara demokratis oleh Mahasiswa, dan wajib mempunyai komitmen, kemampuan, integritas dan berkinerja baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota MWA, kecuali yang mewakili unsur Mahasiswa dipilih untuk masa jabatan 5 (lima) tahun, dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota MWA yang mewakili unsur Mahasiswa dipilih untuk masa jabatan 1 (satu) tahun, dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "MWA dipimpin oleh seorang ketua dan dibantu oleh seorang sekretaris untuk masa jabatan 2,5 (dua koma lima) tahun, dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggota MWA mempunyai hak suara yang sama kecuali dalam pemilihan dan pemberhentian Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam pemilihan dan pemberhentian Rektor, anggota MWA dari unsur Menteri mempunyai 35% (tiga puluh lima persen) hak suara dari jumlah seluruh hak suara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam rapat MWA yang melakukan penilaian kinerja Rektor, maka rapat dilaksanakan tanpa kehadiran Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-24/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Anggota . . . Anggota MWA yang memiliki konflik kepentingan mengenai suatu materi pembahasan yang tengah dibahas oleh MWA, tidak memiliki hak suara apabila terjadi pengambilan keputusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "MWA memiliki tugas dan kewajiban: huruf g tidak dapat diselesaikan oleh MWA, penyelesaian dilakukan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan kebijakan umum UI setelah mendapatkan pertimbangan dari SA dan DGB;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pengawasan terhadap kondisi keuangan UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengesahkan Rencana Pembangunan Jangka Panjang (RPJP), Rencana Strategis (Renstra), dan RKA serta mengevaluasi implementasinya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memberikan masukan kepada Rektor atas pengelolaan UI, dan pelaksanaan peraturan perundang-undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan penilaian atas kinerja Rektor sekali dalam setahun, bersama-sama dengan SA dan DGB;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mengangkat dan memberhentikan Rektor UI; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyelesaikan permasalahan UI yang tidak dapat diselesaikan organ lain setelah melalui pertimbangan rapat koordinasi antar organ.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penyelesaian masalah sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "MWA dapat mendelegasikan kewenangannya secara tertulis kepada Rektor untuk tugas-tugas tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugasnya MWA dibantu oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "KA . . . KA; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "komite risiko.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai penugasan dan macam tugas sebagaimana diatur dalam ayat (1) ditetapkan dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-26/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggaran yang diperlukan untuk pelaksanaan tugas MWA dibebankan pada anggaran UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "KA sebagaimana dimaksud dalam Pasal 26 ayat (2) huruf a berjumlah paling sedikit 5 (lima) orang yang terdiri atas ketua, sekretaris, dan anggota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketua KA merupakan anggota MWA yang berasal dari unsur masyarakat dan memiliki kompetensi di bidang organisasi, akuntansi, dan keuangan dan memiliki cukup waktu dan komitmen untuk melaksanakan tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota KA diangkat untuk masa jabatan 5 (lima) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketua, sekretaris, dan anggota KA diangkat dan diberhentikan oleh MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "KA bertugas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menelaah kebijakan audit internal UI yang dibuat satuan pengawas internal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberi rekomendasi kepada MWA untuk menunjuk dan mengangkat tenaga audit eksternal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meminta dan menelaah laporan audit internal secara berkala;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memantau proses tindak lanjut laporan audit eksternal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mempelajari . . . mempelajari dan menilai hasil audit internal maupun eksternal untuk disampaikan kepada MWA; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-5/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melakukan analisis manajemen risiko sebagai bahan pertimbangan bagi MWA dalam memberikan persetujuan terhadap perjanjian yang menyangkut pemanfaatan kekayaan UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam melaksanakan pekerjaannya KA dapat memperoleh semua informasi yang dibutuhkan dari satuan pengawas internal maupun auditor eksternal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Keterbukaan informasi antara KA dengan auditor diatur dalam Piagam Komite Audit dan Piagam Audit Internal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Tugas KA secara rinci dijabarkan dalam Piagam Komite Audit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "KA bertanggung jawab kepada MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-10",
+       "type": "AYAT",
+       "orderIndex": 10,
+       "label": "Ayat (10)",
+       "content": "Ketentuan lebih lanjut mengenai persyaratan, tata cara pengangkatan, dan pemberhentian anggota KA diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-11",
+       "type": "AYAT",
+       "orderIndex": 11,
+       "label": "Ayat (11)",
+       "content": "KA harus terdiri dari anggota yang secara keseluruhan memiliki keahlian dalam bidang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-11/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "akuntansi, termasuk akuntansi sektor publik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-11/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "audit;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-11/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "organisasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-11/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-27/ayat-12",
+       "type": "AYAT",
+       "orderIndex": 12,
+       "label": "Ayat (12)",
+       "content": "Anggaran pelaksanaan tugas KA dibebankan pada anggaran UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komite risiko sebagaimana dimaksud dalam Pasal 26 ayat (2) huruf b berjumlah paling sedikit 5 (lima) orang yang terdiri atas ketua, sekretaris, dan anggota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketua . . . Ketua komite risiko merupakan anggota MWA yang berasal dari unsur masyarakat dan memiliki kompetensi di bidang bisnis, organisasi, dan manajemen risiko.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota komite risiko diangkat untuk masa jabatan 5 (lima) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketua, sekretaris, dan anggota komite risiko diangkat dan diberhentikan oleh MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Komite risiko bertanggung jawab kepada MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Komite risiko bertugas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menelaah pedoman risiko UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menelaah risiko aspek pada kebijakan pengembangan dan kerja sama UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memastikan bahwa UI melakukan analisis risiko terhadap rencana pengembangan dan kerja sama yang signifikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-6/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan evaluasi terhadap analisis risiko usulan pengembangan dan kerja sama UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Komite risiko harus terdiri dari anggota yang secara keseluruhan memiliki keahlian dalam bidang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "manajemen risiko;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "komunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pemasaran; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-7/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "teknologi informasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-28/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan lebih lanjut mengenai analisis risiko, tata cara pengangkatan, dan pemberhentian anggota komite risiko diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Ketua dan sekretaris MWA dilarang memangku jabatan rangkap sebagai: a. pimpinan . . . a. pimpinan dan pejabat pada jabatan struktural lainnya pada UI atau perguruan tinggi lain; b. pejabat pada jabatan struktural pada instansi dan lembaga pemerintah pusat dan daerah; atau c. pejabat pada jabatan lainnya yang dapat menimbulkan pertentangan kepentingan dengan kepentingan UI. Bagian Ketiga Rektor Paragraf 1 Rektor dan wakil Rektor",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor merupakan pemimpin dalam menyelenggarakan UI yang dibantu oleh wakil Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam mengelola dan menyelenggarakan UI, Rektor dibantu oleh paling banyak 4 (empat) wakil Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembidangan tugas dan kewenangan masing-masing wakil Rektor dapat terdiri atas bidang akademik dan kemahasiswaan, bidang penelitian dan inovasi, bidang pengembangan dan kerja sama, serta bidang keuangan dan administrasi umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor diangkat dan diberhentikan oleh MWA untuk memegang jabatan selama 5 (lima) tahun dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil Rektor diangkat dan diberhentikan oleh Rektor untuk masa jabatan 5 (lima) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan. Pasal 32 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Calon Rektor dijaring oleh suatu panitia penjaringan dan penyaringan calon Rektor yang dibentuk oleh MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Panitia penjaringan dan penyaringan calon Rektor berasal dari kelompok pemangku kepentingan termasuk Dosen, pegawai, Masyarakat, walaupun masing-masing kepentingan kelompoknya, melainkan sebagai anggota tim yang bertujuan mengidentifikasi dan merekomendasi calon tidak mewakili Rektor yang paling berkualitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota panitia penjaringan dan penyaringan calon Rektor harus memenuhi syarat, berintegritas, profesional, memiliki kompetensi yang diperlukan, tidak memiliki konflik kepentingan, tidak berafiliasi dengan partai politik, memiliki jejaring yang luas, serta berkomitmen untuk kepentingan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Panitia penjaringan dan penyaringan calon Rektor melakukan proses penelusuran dan penyaringan calon Rektor melalui publikasi umum dengan prinsip akuntabilitas, transparansi, dan meritokrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Panitia penjaringan dan penyaringan calon Rektor menyerahkan sejumlah nama calon Rektor kepada MWA untuk dipilih.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-32/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai pemilihan Rektor diatur dengan Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Rektor harus memenuhi persyaratan utama sebagai berikut: a. berkewarganegaraan Indonesia; b. sehat jasmani dan rohani; c. berpendidikan dan bergelar doktor; d. memiliki . . . d. memiliki integritas, komitmen, dan kepemimpinan yang tinggi; e. memiliki kreativitas untuk pengembangan potensi UI; f. berwawasan luas mengenai pendidikan tinggi; g. belum berusia 60 (enam puluh) tahun pada saat dilantik menjadi Rektor sesuai dengan jadwal yang telah ditetapkan; h. bebas dari kepentingan politik, ekonomi, maupun kepentingan pihak di luar UI lainnya yang bertentangan dengan kepentingan UI; dan i. tidak pernah ditetapkan menjadi terdakwa atas dugaan melakukan tindak pidana yang diancam pidana penjara paling singkat 5 (lima) tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jabatan Rektor berakhir apabila yang bersangkutan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "telah berusia 65 (enam puluh lima) tahun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mundur atas permintaan sendiri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meninggal dunia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan tindakan tercela;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "sakit jasmani atau rohani terus menerus;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "tidak cakap melaksanakan tugas; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menjadi terdakwa dan/atau terpidana dalam tindak pidana yang diancam pidana penjara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberhentian Rektor dilakukan MWA setelah mendapatkan pertimbangan SA dan DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jabatan Rektor yang diberhentikan diisi oleh salah satu wakil Rektor sampai dengan berakhirnya masa jabatan tersebut, sesuai dengan ketetapan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Rektor dan wakil Rektor dilarang merangkap sebagai: a. pejabat . . . a. pejabat pada satuan pendidikan lain, baik yang diselenggarakan pemerintah maupun masyarakat; b. pejabat pada instansi pemerintah, baik pusat maupun daerah; c. pejabat pada badan usaha milik negara/daerah maupun swasta; d. anggota partai politik atau organisasi yang berafiliasi dengan partai politik; dan/atau e. pejabat pada jabatan lain yang memiliki pertentangan kepentingan dengan UI.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor memiliki tugas dan kewajiban:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyiapkan rencana strategis untuk disetujui MWA;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyiapkan RKA dan perubahannya untuk disahkan MWA;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengelola pendidikan, penelitian, pengabdian/pelayanan kepada masyarakat sesuai dengan RKA;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengangkat dan memberhentikan pejabat di bawah Rektor, pimpinan Fakultas, dan pimpinan unit-unit lain yang berada di bawahnya sesuai ketentuan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengangkat dan memberhentikan pegawai yang berstatus bukan pegawai negeri sipil sesuai dengan ketentuan peraturan perundang-undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melaksanakan fungsi manajemen UI yang baik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengelola kekayaan UI dan secara optimal memanfaatkannya untuk kepentingan UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "membina dan mengembangkan hubungan baik UI dengan lingkungan dan masyarakat pada umumnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "menindaklanjuti . . . menindaklanjuti rekomendasi dan keputusan unsur-unsur organisasi UI sesuai fungsi dan perannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "mendirikan, menggabungkan, dan/atau membubarkan Fakultas, Departemen dan/atau program studi yang dipandang perlu, atas persetujuan SA; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "menyampaikan pertanggungjawaban kinerja dan keuangan UI kepada MWA.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai kewenangan Rektor sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rektor bertanggung jawab atas pengelolaan dan penyelenggaraan UI yang menjadi kewenangannya kepada MWA untuk bidang nonakademik, dan kepada SA untuk bidang akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor berwenang mewakili UI di dalam dan di luar pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rektor tidak berwenang mewakili UI apabila:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-37/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "terjadi perkara di pengadilan antara UI dan Rektor atau pihak yang ditunjuk sebagai kuasanya; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-37/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mempunyai pertentangan kepentingan dengan kepentingan UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal terjadi keadaan sebagaimana dimaksud pada ayat (2), MWA dapat menunjuk seseorang untuk mewakili kepentingan UI. Paragraf 2 . . . Paragraf 2 Perangkat Rektor",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Perangkat Rektor meliputi: a. unsur pelaksana akademik terdiri dari Fakultas, sekolah, Departemen, lembaga, dan pusat; b. unsur penunjang akademik dapat dibentuk di tingkat UI maupun Fakultas; c. unsur pelaksana administrasi terdiri dari direktorat dan bagian pada tingkat UI, serta bagian pada tingkat Fakultas; d. unsur penjaminan mutu terdiri dari unit di tingkat UI maupun Fakultas untuk bidang akademik, dan satuan pengawas internal untuk bidang nonakademik; e. unsur pelaksana kegiatan komersial dan pengembangan; dan f. unsur pelaksana pelayanan umum. Bagian Keempat Senat Akademik",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "SA terdiri dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "anggota ex-officio yang terdiri dari Rektor, Dekan Fakultas dan pemimpin sekolah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "wakil Guru Besar dari setiap Fakultas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "wakil Dosen bukan Guru Besar dari setiap Fakultas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil Guru Besar diusulkan oleh DGB Fakultas berjumlah paling banyak 2 (dua) orang untuk setiap Fakultas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam . . . Dalam hal di Fakultas jumlah Guru Besar kurang dari 2 (dua) orang, dapat diisi oleh wakil dosen bukan Guru Besar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Wakil Dosen non Guru Besar diusulkan oleh Fakultas paling banyak 2 (dua) orang untuk setiap Fakultas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Anggota SA harus memenuhi persyaratan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki reputasi akademik yang menonjol khususnya dalam pendidikan dan penelitian, dan diakui dalam bidang atau kelompok kelimuannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berwawasan luas mengenai pendidikan tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "berpendidikan dan bergelar doktor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Dosen tetap yang menduduki jabatan fungsional akademik paling rendah jenjang lektor kepala;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "telah memiliki pengalaman mengajar paling singkat 5 (lima) tahun di UI pada bidangnya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-5/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memiliki komitmen dan integritas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Anggota SA diangkat untuk masa jabatan 5 (lima) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "SA dipimpin oleh seorang ketua dan dibantu oleh seorang sekretaris untuk masa jabatan 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Anggota SA ex-officio tidak dapat dipilih menjadi ketua dan tidak mempunyai hak suara dalam hal terjadi pemungutan suara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Ketua SA tidak dapat merangkap sebagai ketua organ UI lainnya, serta ketua unit lain di lingkungan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-10",
+       "type": "AYAT",
+       "orderIndex": 10,
+       "label": "Ayat (10)",
+       "content": "Dalam melaksanakan tugas, SA dapat membentuk komisi-komisi yang tugas, wewenang, tata kerja dan susunan anggotanya ditetapkan oleh SA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-39/ayat-11",
+       "type": "AYAT",
+       "orderIndex": 11,
+       "label": "Ayat (11)",
+       "content": "Ketentuan mengenai tata cara penyelenggaraan rapat SA diatur dalam Peraturan MWA. Pasal 40 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "SA memiliki tugas dan kewajiban:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan norma dan ketentuan akademik serta mengawasi penerapannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan pertimbangan/masukan kepada Rektor dalam menyusun dan/atau mengubah RPJP, Renstra, atau RKA dalam bidang akademik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberi pertimbangan pada Rektor terkait dengan pembukaan, penggabungan, atau penutupan Fakultas, Departemen, dan program studi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengawasi kebijakan dan pelaksanaan Tridharma Perguruan Tinggi di UI yang telah ditetapkan dalam Renstra;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengawasi kebijakan dan pelaksanaan penjaminan mutu pendidikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memberi pertimbangan kepada MWA tentang kinerja Rektor di bidang akademik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil penyusunan dan perumusan pada ayat (1) disampaikan kepada MWA untuk ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Memilih anggota MWA yang mewakili unsur Dosen dan Masyarakat serta mengusulkan anggota MWA untuk ditetapkan oleh Menteri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-40/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggaran pelaksanaan tugas SA dibebankan pada anggaran UI. Bagian Kelima Dewan Guru Besar",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "DGB memiliki tugas dan kewajiban:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pembinaan kehidupan akademik dan integritas moral serta etika sivitas akademika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menetapkan . . . menetapkan dan memastikan pelaksanaan kode etik sivitas akademika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberikan pertimbangan dan arahan dalam pengembangan keilmuan di UI baik dalam disiplin ilmu tertentu, maupun untuk menuju ke arah pengembangan multi disiplin dan lintas disiplin;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memastikan penerapan peraturan pelaksanaan kebebasan akademik, kebebasan mimbar akademik, dan otonomi keilmuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan penilaian dan memberikan persetujuan pada kenaikan jabatan fungsional lektor kepala dan Guru Besar untuk ditindaklanjuti oleh Rektor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melakukan pemeriksaan dan menyusun rekomendasi sanksi terhadap pelanggaran norma dan etika oleh sivitas akademika untuk ditetapkan dan dilaksanakan oleh Rektor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengusulkan pemberian atau pencabutan gelar kehormatan dan penghargaan akademik untuk ditetapkan oleh Rektor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "melakukan koordinasi dan konsultasi dengan DGB Fakultas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "melakukan pemantauan, pengembangan, dan penjaminan otonomi keilmuan di UI; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "memberikan pertimbangan/masukan kepada Rektor dalam penyusunan dan/atau perubahan RPJP, Renstra, atau RKA di bidang akademik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota DGB merupakan wakil dari setiap DGB Fakultas yang berjumlah 5 (lima) orang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "DGB dipimpin seorang ketua dan dibantu seorang sekretaris yang keduanya dipilih dari dan oleh anggota DGB untuk 5 (lima) tahun masa jabatan dan dapat dipilih kembali dengan ketentuan tidak melebihi 2 (dua) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam . . . Dalam melaksanakan tugas, DGB dapat membentuk sejumlah komite yang tugas, wewenang, dan tata kerjanya ditetapkan oleh DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pelaksanaan tugas koordinasi komite sebagaimana dimaksud pada ayat (4) dilaksanakan oleh badan pekerja DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Anggota badan pekerja DGB dan anggota komite, diusulkan oleh DGB Fakultas setelah melalui pemilihan di Fakultas masing-masing secara demokratis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Masa tugas anggota badan pekerja DGB dan komite untuk 5 (lima) tahun, dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-41/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Anggaran yang diperlukan untuk pelaksanaan tugas DGB dibebankan pada anggaran UI. Bagian Keenam Ketenagaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai UI terdiri atas Dosen dan Tenaga Kependidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pegawai sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pegawai negeri sipil yang dipekerjakan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pegawai tetap; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pegawai tidak tetap.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pegawai negeri sipil yang dipekerjakan sebagaimana dimaksud pada ayat (2) huruf a adalah pegawai negeri sipil yang memenuhi syarat yang telah ditentukan untuk dipekerjakan sebagai pegawai UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pegawai tetap dan pegawai tidak tetap sebagaimana dimaksud pada ayat (2) huruf b dan huruf c diatur dengan Peraturan Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-42/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Gaji . . . Gaji pegawai negeri sipil yang dipekerjakan sebagaimana dimaksud pada ayat (2) huruf a, dibayar sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rekrutmen Dosen dan Tenaga Kependidikan berstatus pegawai negeri sipil dilaksanakan oleh Pemerintah berdasarkan usulan UI yang dilandasi dengan analisis kebutuhan dalam suatu rencana pengembangan sumber daya manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengangkatan dan pembinaan karir Dosen dan Tenaga Kependidikan yang berstatus pegawai negeri sipil dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai kepegawaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hak dan kewajiban serta pembinaan karir fungsional Dosen tetap UI disetarakan sama dengan Dosen pegawai negeri sipil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Posisi jabatan yang bersifat karir diutamakan untuk dijabat oleh Tenaga Kependidikan yang memenuhi kualifikasi yang diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai kualifikasi sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dosen pegawai negeri sipil dari kementerian lain sebagai Dosen tetap UI diangkat berdasarkan usulan dari Fakultas berdasarkan kebutuhan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan . . . Pembinaan karir fungsional Dosen sebagaimana dimaksud pada ayat (1) dilakukan oleh UI yang hasil penilaian angka kredit jabatan fungsionalnya disampaikan ke kementerian lain sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dosen tidak tetap diangkat berdasarkan perjanjian kerja dengan UI dan selanjutnya dapat diangkat menjadi Dosen tetap atau pegawai negeri sipil sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengangkatan Tenaga Kependidikan tidak tetap UI khusus untuk tenaga penunjang, dilakukan sesuai kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Dalam hal UI menggunakan alih daya harus mengacu pada ketentuan peraturan perundang-undangan dan mewajibkan perusahaan alih daya untuk penyelesaian pekerjaan, dengan syarat perusahaan tadi memenuhi ketentuan pedoman perilaku sesuai dengan etika UI. Bagian Ketujuh Mahasiswa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahasiswa UI memiliki hak:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memperoleh pendidikan yang berkualitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memanfaatkan sarana dan prasarana pendidikan untuk kegiatan kurikuler, kokurikuler, dan ekstrakurikuler;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "membentuk . . . membentuk organisasi kemahasiswaan dan mendapatkan dukungan sarana dan prasarana serta dana untuk mendukung kegiatan organisasi kemahasiswaan tersebut; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mendapatkan beasiswa dan bantuan biaya pendidikan sesuai dengan persyaratan yang ditentukan UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mahasiswa mempunyai kewajiban:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menjaga norma pendidikan untuk menjamin penyelenggaraan proses dan keberhasilan pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menjaga etika dan mematuhi tata tertib yang ditetapkan UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "ikut menanggung biaya penyelenggaraan pendidikan, kecuali yang dibebaskan dari kewajiban tersebut sesuai dengan ketentuan UI; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mempertanggungjawabkan penggunaan dana yang dialokasikan untuk mendukung kegiatan kemahasiswaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-48/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai hak dan kewajiban Mahasiswa sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Warga negara asing dapat menjadi Mahasiswa UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara penerimaan warga negara asing sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Rektor. Pasal 50 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahasiswa mengembangkan bakat, minat, dan kemampuan dirinya melalui kegiatan kokurikuler dan ekstrakurikuler sebagai bagian dari pendidikan. dapat dilaksanakan melalui organisasi kemahasiswaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kegiatan kokurikuler dilakukan secara terprogram untuk memperkaya kompetensi lulusan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kegiatan ekstrakurikuler dapat diikuti oleh Mahasiswa sebagai penunjang kompetensi lulusan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kegiatan kokurikuler dan ekstrakurikuler sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Organisasi kemahasiswaan UI berkewajiban menyelenggarakan organisasi dan melaksanakan fungsinya sesuai dengan nilai, tujuan, asas, dan prinsip UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "UI menyediakan sarana dan prasarana serta dana untuk mendukung kegiatan organisasi kemahasiswaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-50/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan lebih lanjut mengenai kegiatan kokurikuler dan ekstrakurikuler serta organisasi kemahasiswaan sebagaimana dimaksud pada ayat (1) dan ayat (4) diatur dalam Peraturan Rektor. Bagian Kedelapan Alumni",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Alumni UI memiliki organisasi yang bernama Ikatan Alumni UI (ILUNI UI).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai hubungan UI dan ILUNI UI diatur dalam Peraturan Rektor. BAB V . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "SISTEM PENJAMINAN MUTU INTERNAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan terhadap penerapan norma dan ketentuan akademik di UI dilakukan oleh SA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rektor berkewajiban melakukan pemantauan dan evaluasi kegiatan akademik sebagai bentuk akuntabilitas kegiatan akademik UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Evaluasi sebagaimana dimaksud pada ayat (2) dilaksanakan oleh Badan Penjaminan Mutu Akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Evaluasi sebagaimana dimaksud pada ayat (2) dilakukan terhadap:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "hasil belajar Mahasiswa, untuk memantau proses, kemajuan, dan perbaikan hasil belajar secara berkesinambungan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-52/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "program studi pada semua jenjang, untuk menilai pencapaian Standar Nasional Pendidikan Tinggi dan Standar Pendidikan Tinggi. Bagian Kedua Pengawasan Nonakademik",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan terhadap penyelenggaraan kegiatan nonakademik dilakukan MWA dan KA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-53/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rektor melakukan pemantauan dan evaluasi terhadap penyelenggaraan kegiatan nonakademik bersama pimpinan UI lainnya. BAB VI . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KODE ETIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Warga UI terikat dalam kode etik yang mengatur keharusan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menjaga pribadinya; dan mempertahankan integritas",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menjaga dan memelihara harkat dan martabat UI; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "berdisiplin dalam menjalankan dan melaksanakan tugas dan kewajiban.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kode etik sebagaimana dimaksud pada ayat (1) disusun oleh SA dan DGB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-54/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kode etik sebagaimana dimaksud pada ayat (2) ditetapkan oleh Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Warga UI yang melakukan tindakan dan/atau kegiatan yang bertentangan dengan Statuta UI dan/atau peraturan/keputusan yang berlaku di lingkungan UI dikenakan sanksi oleh pejabat yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai mekanisme pengenaan sanksi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan MWA. BAB VII . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "BENTUK DAN TATA CARA PENETAPAN PERATURAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain berlaku peraturan perundang-undangan, di UI berlaku peraturan internal UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peraturan internal UI sebagaimana dimaksud pada ayat (1) terdiri atas peraturan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "MWA;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Rektor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "SA;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "DGB; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Dekan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "MWA bersama dengan Rektor, SA, dan DGB menyusun anggaran rumah tangga yang ditetapkan dengan Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Anggaran rumah tangga sebagaimana dimaksud pada ayat (3) merupakan petunjuk pelaksanaan Statuta UI yang wajib dipatuhi oleh semua organ UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-56/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara pembentukan peraturan di lingkungan UI diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PERENCANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Organ UI secara bersama-sama menyusun RPJP dengan mengacu kepada visi dan misi UI, dengan memperhatikan masukan dari semua pemangku kepentingan dan masyarakat luas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "RPJP . . . RPJP disusun untuk periode 20 (dua puluh) tahun oleh suatu Tim yang anggotanya berasal dari pimpinan UI, MWA, SA dan DGB, yang dapat dikaji ulang serta disempurnakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-57/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tim RPJP ditetapkan berdasarkan Keputusan Rektor atas usulan organ terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-57/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "RPJP UI disahkan oleh MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Renstra disusun Rektor untuk periode 5 (lima) tahun pada setiap awal jabatannya dengan mengacu pada RPJP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Renstra diajukan kepada MWA untuk mendapatkan persetujuan paling lambat 3 (tiga) bulan setelah Rektor dipilih.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-58/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Renstra yang telah disetujui MWA menjadi acuan utama bagi penyusunan RKA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-58/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai Renstra UI diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PENDANAAN DAN KEKAYAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan keuangan UI dikelola secara otonom, tertib, wajar dan adil, taat pada ketentuan peraturan perundang-undangan, efisien, efektif, transparan, akuntabel, dan bertanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan . . . Pengelolaan keuangan dijalankan dengan menerapkan prinsip-prinsip pengendalian internal yang baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-59/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengelolaan keuangan tidak boleh menghambat proses penyelenggaraan kegiatan Tridharma Perguruan Tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Pengelolaan keuangan UI meliputi: a. perencanaan; b. penganggaran; c. pelaksanaan; d. pengawasan; dan e. pertanggungjawaban. Paragraf 2 Perencanaan dan Penganggaran",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Periode anggaran UI sejak 1 Januari hingga 31 Desember.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "RKA disusun Rektor setiap tahunnya sebagai hasil konsolidasi rencana anggaran dari seluruh unit kerja di UI yang memuat paling sedikit program, kegiatan, dan nilai anggarannya berdasarkan pada target kinerja yang ingin dicapai. Pasal 63 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-63/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "RKA diajukan oleh Rektor kepada MWA paling lambat 2 (dua) bulan sebelum tahun anggaran berjalan untuk mendapatkan persetujuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-63/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal MWA memberikan pertimbangan yang mengakibatkan adanya perubahan dan/atau perbaikan dalam RKA, maka Rektor harus menyusunnya dalam waktu sesegera mungkin sejak pertimbangan MWA diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-63/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "RKA yang telah disetujui dan disahkan MWA merupakan dokumen pelaksanaan anggaran yang menjadi pedoman semua unit kerja dalam melaksanakan program dan kegiatan yang tertuang dalam RKA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-63/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara pelaksanaan dokumen pelaksanaan anggaran beserta pemantauan dan pengawasannya diatur dengan Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-64/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor dapat mengajukan dokumen pelaksanaan anggaran perubahan selama tahun berjalan jika: harus mendapatkan persetujuan dari MWA. Paragraf 3 . . . Paragraf 3 Pelaksanaan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-64/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "terdapat perubahan asumsi pendapatan yang signifikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-64/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "terdapat perubahan target kinerja; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-64/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "terdapat alokasi dana/program dan kegiatan dari anggaran pendapatan dan belanja negara perubahan atau anggaran pendapatan dan belanja daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-64/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dokumen pelaksanaan anggaran perubahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor memegang kewenangan pengelolaan keuangan UI sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rektor menjalankan kewenangannya dalam pengelolaan keuangan UI sebagaimana dimaksud pada ayat (1) secara bertanggung jawab, transparan, dan akuntabel.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bendahara UI melaksanakan fungsi menerima, menyimpan, mengeluarkan, dan menyerahkan uang, barang, dan/atau surat berharga serta membukukannya sesuai dengan kebutuhan UI berdasarkan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-65/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rektor dapat mendelegasikan kewenangan pengelolaan keuangan kepada wakil Rektor yang menangani urusan keuangan, Fakultas, sekolah dan Lembaga Penunjang Kegiatan Tridharma Perguruan Tinggi yang diatur lebih lanjut dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam mengelola keuangan, UI melakukan hal-hal berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "merencanakan penerimaan dan pengeluaran kas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menerima pendapatan dari berbagai sumber yang sah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyimpan kas dan mengelola rekening bank;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan pembayaran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mendapatkan sumber dana untuk menutup defisit jangka pendek; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mengelola . . . mengelola kas, termasuk pemanfaatan surplus kas jangka pendek dengan cara yang efektif, efisien, dan memberikan keuntungan bagi UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan kas, termasuk pemenuhan anggaran unit kerja dilaksanakan melalui suatu sistem anggaran yang tertib dan teratur dengan berpegang pada kepastian jumlah, kepastian waktu, wajar, dan adil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembukaan dan penutupan rekening bank dilakukan Rektor dengan berpegang pada prinsip kehati-hatian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemanfaatan surplus jangka pendek sebagaimana dimaksud pada ayat (1) huruf f dilakukan dalam bentuk investasi jangka pendek berupa instrumen keuangan yang berisiko rendah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-66/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pengelolaan keuangan UI diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Semua penerimaan harus disetorkan ke rekening UI dan semua pengeluaran harus dilakukan melalui rekening UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penerimaan yang menggunakan nama UI harus dilaporkan kepada Rektor secara lengkap, termasuk pajak yang terkait dengan penerimaan tersebut. Paragraf 4 Pengawasan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sistem akuntansi UI ditujukan untuk menyajikan laporan keuangan UI yang dilaksanakan berdasarkan standar akuntansi yang berlaku umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem akuntansi UI meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sistem akuntansi keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sistem . . . sistem akuntansi barang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sistem akuntansi jasa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-68/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sistem akuntansi biaya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-69/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seluruh transaksi keuangan harus didukung oleh bukti transaksi yang handal dan disimpan ditempat yang aman.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bendahara UI menyimpan seluruh bukti kekayaan UI sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menjaga kehandalan laporan keuangan UI maka:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-70/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sistem akuntansi dijalankan dengan menerapkan sistem pengendalian internal yang baik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-70/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sistem akuntansi UI harus menyajikan laporan keuangan seluruh unit kerja di UI yang dapat diakses oleh Rektor dan unit kerja yang bersangkutan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-70/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sistem akuntansi harus menjamin dilakukannya rekonsiliasi keuangan antara pencatatan akuntansi di Pusat Administrasi UI dan di unit kerja.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai sistem akuntansi diatur dalam Peraturan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sistem pengendalian internal UI dilakukan secara terus menerus melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaksanaan kegiatan yang efisien dan efektif;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keandalan . . . keandalan pembukuan/catatan dan laporan keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengamanan aset; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "ketaatan terhadap kebijakan/peraturan UI dan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem Pengendalian Internal merupakan tanggung jawab Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kecukupan pengendalian internal dievaluasi terus menerus oleh satuan pengawasan internal, auditor eksternal dan secara periodik dilaporkan kepada KA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-71/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai sistem pengendalian internal diatur dalam Peraturan Rektor.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-72/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Laporan Keuangan UI diaudit oleh Kantor Akuntan Publik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-72/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "MWA menetapkan Kantor Akuntan Publik yang proses seleksinya dilakukan oleh KA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-72/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila diperlukan, MWA dapat meminta dilakukannya audit khusus. Paragraf 5 Pertanggungjawaban",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pertanggungjawaban pengelolaan UI, setiap tahun Rektor harus menyampaikan laporan tahunan kepada MWA, SA, dan DGB, yang terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "laporan keuangan yang sudah diaudit oleh auditor eksternal; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "laporan kinerja kegiatan akademik dan nonakademik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan . . . Laporan keuangan sebagaimana dimaksud pada ayat (1) huruf a merupakan laporan konsolidasi dari laporan keuangan UI dan laporan keuangan unsur pelaksana kegiatan komersial dan pengembangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan keuangan sebagaimana dimaksud pada ayat (1) huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "laporan realisasi anggaran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "laporan aktivitas/laporan operasional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "laporan arus kas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "catatan atas laporan keuangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Laporan keuangan sebagaimana dimaksud pada ayat (1) huruf a dilampiri dengan laporan keuangan unsur pelaksana kegiatan komersial dan pengembangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Laporan keuangan UI disusun berdasarkan standar akuntansi yang berlaku umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ikhtisar laporan keuangan yang telah diaudit diumumkan kepada masyarakat dan menjadi dokumen publik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam rangka pertanggungjawaban akhir masa jabatan, Rektor harus menyampaikan laporan akhir masa jabatan dalam sidang terbuka MWA yang terdiri dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-7/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "laporan keuangan yang sudah diaudit oleh auditor eksternal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-7/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "laporan keuangan internal sampai saat pergantian kepemimpinan pada tahun akhir masa jabatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-7/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "laporan realisasi kegiatan akademik dan nonakademik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-73/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan lebih lanjut mengenai laporan kinerja akademik dan nonakademik sebagaimana dimaksud pada ayat (1) huruf b diatur dengan Peraturan MWA. Bagian Kedua . . . Bagian Kedua Pendapatan, Pembiayaan, dan Beban Paragraf 1 Pendapatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menyediakan untuk penyelenggaraan pendidikan tinggi oleh UI yang dialokasikan dalam anggaran pendapatan dan belanja negara. dana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain yang disediakan dari anggaran pendapatan dan belanja negara sebagaimana dimaksud pada ayat (1), pendapatan UI juga dapat berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "biaya pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengelolaan dana abadi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pendapatan dari badan/satuan usaha UI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "kerjasama Tridharma;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pengelolaan kekayaan negara yang diberikan oleh pemerintah dan pemerintah daerah untuk kepentingan pengembangan pendidikan tinggi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "sumber lain yang sah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pendapatan UI dari sumber dana sebagaimana dimaksud pada ayat (2) merupakan penghasilan UI transparan, dan yang dikelola secara otonom, akuntabel.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pendapatan UI sebagaimana dimaksud pada ayat (2) bukan merupakan penerimaan negara bukan pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pendapatan UI berupa biaya pendidikan ditentukan berdasarkan standar satuan biaya operasional menurut ketentuan peraturan perundang-undangan dengan memperhatikan kemampuan Mahasiswa, orangtua Mahasiswa, yang membiayainya. atau pihak lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pendapatan . . . Pendapatan UI sebagaimana dimaksud pada ayat (1) dan ayat (2) dikelompokkan berdasarkan jenisnya yaitu:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendapatan tidak terikat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pendapatan terikat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-74/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Selain pendapatan sebagaimana dimaksud pada ayat (1) dan ayat (2) UI dapat menerima pendapatan melalui anggaran pendapatan dan belanja daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "Pendapatan UI yang berasal dari anggaran pendapatan dan belanja negara/anggaran pendapatan dan belanja daerah harus dimasukkan ke dalam RKA dengan ketentuan sebagai berikut: a. dalam hal anggaran pendapatan dan belanja negara/ anggaran pendapatan dan belanja daerah menuangkannya dalam bentuk subsidi, hibah, bantuan, atau sumbangan, maka dituangkan dalam RKA sebagai anggaran pendapatan; dan b. program dan kegiatan yang pembiayaannya bersumber dari anggaran pendapatan dan belanja negara/anggaran pendapatan dan belanja daerah harus dimasukkan ke dalam RKA sekaligus sebagai anggaran pendapatan UI dan anggaran pengeluaran program dan kegiatan. Paragraf 2 Pembiayaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendapatan UI sebagaimana dimaksud dalam Pasal 74 ayat (1) dan ayat (2) digunakan untuk membiayai beban operasional UI berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemenuhan . . . pemenuhan kepentingan peserta didik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan Tridharma Perguruan Tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "peningkatan kualitas layanan pendidikan dan pengajaran; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penggunaan lain sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penggunaan pendapatan UI sebagaimana dimaksud pada ayat (1) dituangkan dalam RKA sesuai dengan ketentuan peraturan perundang-undangan. Paragraf 3 Beban",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "UI wajib mengalokasikan beban untuk program Tridharma Perguruan Tinggi dengan proporsi sesuai dengan kebijakan UI yang ditetapkan oleh MWA. Bagian Ketiga Pengadaan Barang/Jasa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-78/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadaan barang/jasa dilakukan berdasarkan prinsip efisiensi dan ekonomis, transparan, serta akuntabel.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-78/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadaan barang/jasa yang sumber dananya berasal dari anggaran pendapatan dan belanja negara mengacu pada ketentuan peraturan perundang- udangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-78/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai pengadaan barang/jasa yang sumber dananya bukan berasal dari anggaran pendapatan dan belanja negara diatur dengan Peraturan Rektor. Bagian Keempat . . . Bagian Keempat Kekayaan Paragraf 1 Asas Umum dan Ruang Lingkup",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-79/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan kekayaan UI dilaksanakan untuk mencapai tujuan UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-79/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan kekayaan UI dikelola secara otonom, wajar, tertib, efisien, efektif, transparan, akuntabel dan taat pada ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-79/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengelolaan kekayaan UI dijalankan dengan memenuhi prinsip-prinsip pengendalian internal yang baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-80/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kekayaan UI terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-80/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "benda tetap, kecuali tanah yang bersumber dari anggaran pendapatan dan belanja negara dan/atau anggaran pendapatan dan belanja daerah dan berasal dari perolehan lainnya yang sah sesuai ketentuan peraturan perundang- undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-80/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "benda bergerak; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-68-tahun-2013/pasal-80/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kekayaan intelektual, yang terbukti sah sebagai milik UI.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-80/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kekayaan intelektual sebagaimana dimaksud pada ayat (1) huruf c terdiri atas paten, hak cipta, dan hak kekayaan intelektual lain, baik dimiliki seluruh maupun sebagian oleh UI. Paragraf 2 . . . Paragraf 2 Tanah dan Bangunan UI",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kekayaan awal UI merupakan kekayaan negara yang dipisahkan, kecuali tanah. dapat dimanfaatkan oleh UI dan hasilnya menjadi pendapatan UI untuk menunjang pelaksanaan tugas dan fungsi UI. dapat dilaksanakan oleh UI setelah mendapat persetujuan urusan menteri pemerintahan di bidang keuangan serta dilaporkan kepada Menteri. menyelenggarakan yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besarnya kekayaan awal UI sebagaimana dimaksud pada ayat (1) merupakan kekayaan negara yang tertanam pada UI, yang nilainya ditetapkan oleh urusan menteri menyelenggarakan yang pemerintahan di bidang keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Barang milik negara berupa tanah dalam penguasaan UI sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemanfaatan kekayaan negara berupa tanah sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Tanah sebagaimana dimaksud pada ayat (1) merupakan barang milik negara yang penggunaannya diserahkan dapat UI dipindahtangankan dan dijaminkan kepada pihak lain. kepada tidak dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Tanah sebagaimana dimaksud pada ayat (1) dibukukan sebagai kekayaan dalam neraca UI dengan pengungkapan yang memadai dalam catatan atas laporan keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Penatausahaan pemisahan kekayaan negara untuk UI ditempatkan kekayaan sebagai awal diselenggarakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-81/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Tanah . . . Tanah yang diperoleh dan dimiliki oleh UI selain tanah sebagaimana dimaksud pada ayat (1) dapat dialihkan kepada pihak lain setelah mendapatkan persetujuan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-82/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bangunan yang digunakan oleh UI dan telah diserah terimakan oleh negara merupakan kekayaan negara yang dipisahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-82/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bangunan milik UI yang tidak dipergunakan untuk kegiatan Tridharma Perguruan Tinggi, dapat dialihkan pengelolaannya kepada pihak lain setelah memperoleh persetujuan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-82/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengalihfungsian dan/atau pengelolaan bangunan yang bukan merupakan kekayaan negara yang dipisahkan dapat dilakukan setelah mendapatkan persetujuan MWA dan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-82/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penerimaan hasil bangunan sebagaimana dimaksud pada ayat (3) merupakan pendapatan UI. pengalihfungsian",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UI pengelolaan wajib menyesuaikan dan penyelenggaraan UI dari status Badan Hukum Milik Negara menjadi perguruan tinggi negeri badan hukum paling tahun sejak Peraturan Pemerintah ini mulai berlaku. lambat 1 (satu)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "UI wajib menyesuaikan struktur, penamaan, jumlah, dan fungsi unit organisasi sesuai dengan ketentuan dalam Peraturan Pemerintah ini dalam jangka waktu tahun sejak Peraturan paling Pemerintah ini mulai berlaku. lama 1 (satu)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk . . . Untuk pertama kalinya berdasarkan Peraturan Pemerintah ini, DGB membentuk SA paling lambat 3 (tiga) bulan sejak Peraturan Pemerintah ini mulai berlaku. pemilihan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "SA sebagaimana dimaksud pada ayat (3) dalam jangka waktu paling lama 2 (dua) bulan memilih dan dan mengkoordinir mengusulkan kepada Menteri. Peraturan sesuai Pemerintah ini dilaksanakan oleh MWA paling lambat 1 (satu) tahun sejak Peraturan Pemerintah ini mulai berlaku. anggota MWA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pemilihan dengan Rektor",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-83/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Penyesuaian sebagaimana dimaksud pada ayat (2) setelah ditetapkan dengan Keputusan Rektor mendapat persetujuan MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-68-tahun-2013/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pegawai tetap UI dan pegawai UI Badan Hukum Milik Negara dapat dialihkan statusnya menjadi pegawai negeri sipil sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Dosen dan Tenaga Kependidikan di UI tidak bersedia untuk menjadi pegawai negeri sipil, dapat menjadi pegawai tetap UI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-85/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rektor menetapkan status bagi Dosen dan Tenaga Kependidikan yang tidak dapat memiliki status sebagaimana diatur dalam Pasal 84 ayat (1) menjadi pegawai tetap UI melalui sistem rekrutmen yang ditetapkan dengan memperhitungkan masa kerja, golongan, pendidikan, gaji, pangkat, dan karier yang bersangkutan. dalam Keputusan Rektor",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-85/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan . . . Penetapan status kepegawaian sebagaimana dimaksud pada ayat (1) diperuntukkan bagi Dosen dan Tenaga Kependidikan yang memiliki masa kerja paling singkat 2 (dua) tahun secara berturut-turut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-68-tahun-2013/pasal-85/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Masa kerja, golongan, pendidikan, gaji, pangkat, dan karier sebagaimana dimaksud pada ayat (1) diperhitungkan sejak seorang Dosen atau Tenaga Kependidikan diangkat pertama kali berdasarkan Surat Keputusan Dekan, atau pimpinan unit kerja yang diakui keberadaannya di UI yang menjalankan setidaknya salah satu dari fungsi Tridharma Perguruan Tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "Semua peraturan dan ketetapan di lingkungan UI yang ada tetap berlaku sepanjang tidak bertentangan atau belum diganti dengan yang baru berdasarkan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan Pemerintah Nomor 152 Tahun 2000 tentang Penetapan Universitas Indonesia Sebagai Badan Hukum Milik Negara (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 270) dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-68-tahun-2013/pasal-88",
+     "type": "PASAL",
+     "orderIndex": 88,
+     "label": "Pasal 88",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal di undangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 14 Oktober 2013 PRESIDEN REPUBLIK INDONESIA, ttd. DR.H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 14 Oktober 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 166",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

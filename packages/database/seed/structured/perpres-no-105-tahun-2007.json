@@ -1,0 +1,68 @@
+{
+ "slug": "perpres-no-105-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu menetapkan Peraturan Presiden tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2008;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-105-tahun-2007",
+   "detailsId": "42151",
+   "judul": "PERPRES No. 105 Tahun 2007 tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2008 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70918/PERPRES%20NO%20105%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:22.503999+00:00"
+  },
+  "sha256": "dda9fd0f23776feae9c264753f99f902a6a6efb6406a704a28e75617840819d6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-105-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-105-tahun-2007/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2008 sebagaimana dimaksud dalam Pasal 7 ayat (2) Undang-Undang Nomor 45 Tahun 2007 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2008, dirinci menurut bagian anggaran/unit organisasi, fungsi/sub fungsi, program, kegiatan, satuan kerja, lokasi dan jenis belanja.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-105-tahun-2007/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Rincian … Rincian Anggaran Belanja Pemerintah Pusat sebagaimana dimaksud pada ayat (1) ditetapkan dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-67-tahun-1951",
+ "preamble": {
+  "menimbang": [
+   "Bahwa untuk membantu meringankan beban dari pegawai umumnya dianggap perlu mengadakan peraturan untuk pembagian beras kepada pegawai negeri;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-67-tahun-1951",
+   "detailsId": "77819",
+   "judul": "PP No. 67 Tahun 1951 tentang Peraturan Pembagian Beras Untuk Pegawai Negeri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69080/PP%20No.%2067%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:44.331869+00:00"
+  },
+  "sha256": "bffe409f05a05e2c5d5030a4ad4605a680cd2259e1182b7be07f878d3e1b57e7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

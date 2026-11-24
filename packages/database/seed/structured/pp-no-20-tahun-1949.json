@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-20-tahun-1949",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-20-tahun-1949",
+   "detailsId": "64144",
+   "judul": "PP No. 20 Tahun 1949 tentang Mengadakan Perubahan Dalam Peraturan Pemerintah No. 37 Tahun 1949, Mengenai Sekolah Tinggi Hukum - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54356/PP%20No%2020%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:29.142852+00:00"
+  },
+  "sha256": "e012ac6347c5358e2cdeb12d35d6680fc66e5c004b48e368334f579518633490",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

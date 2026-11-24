@@ -1,0 +1,62 @@
+{
+ "slug": "pp-no-50-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-50-tahun-1963",
+   "detailsId": "72324",
+   "judul": "PP No. 50 Tahun 1963 tentang Pernyataan mulai berlakunya dan pelaksanaan undang-undang&#xD;&#xA;Penyerahan pemerintahan umum&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62804/pp%20no%20050%20tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:53.262358+00:00"
+  },
+  "sha256": "52a07727365f699249796c559484b9861ee76a4e2629b34f2cb531d8b2a5fc45",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-50-tahun-1963/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERNYATAAN MULAI BERLAKUNYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1963/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PELAKSANAAN PENYERAHAN TUGAS-TUGAS PEMERINTAH PUSAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

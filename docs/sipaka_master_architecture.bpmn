@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  id="Definitions_SIPAKA_Actual"
+                  targetNamespace="http://bpmn.io/schema/bpmn"
+                  exporter="SIPAKA Core Architecture"
+                  exporterVersion="1.0">
+  <bpmn:collaboration id="Collaboration_SIPAKA_Actual">
+    <bpmn:participant id="Participant_SIPAKA_Actual" name="Platform SIPAKA (LexVera) — Arsitektur Sistem Riil (100% Sesuai Source Code)" processRef="Process_SIPAKA_Actual" />
+  </bpmn:collaboration>
+
+  <bpmn:process id="Process_SIPAKA_Actual" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_Actual">
+      <!-- Lane 1: Pengguna (Mahasiswa & Dosen) -->
+      <bpmn:lane id="Lane_Client" name="1. Pengguna (Mahasiswa &amp; Dosen Hukum)">
+        <bpmn:flowNodeRef>Start_ClientVisit</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_LoginSession</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SearchKatalog</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_UserAction</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_TimelinePointInTime</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ViewDiffLCS</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ViewAnotasiMK</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_AddBookmarkAnnotation</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_ClientResearch</bpmn:flowNodeRef>
+      </bpmn:lane>
+
+      <!-- Lane 2: Fastify REST API -->
+      <bpmn:lane id="Lane_FastifyAPI" name="2. Fastify REST API Service (apps/api)">
+        <bpmn:flowNodeRef>Task_AuthCookieHttpOnly</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_SnapshotCheck</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ServeSnapshotJson</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_InvokeLegalEngine</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_RunLCSDiffGenerator</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_QueryMKAndRelations</bpmn:flowNodeRef>
+      </bpmn:lane>
+
+      <!-- Lane 3: Database MariaDB/MySQL (Prisma 4-Lapisan) -->
+      <bpmn:lane id="Lane_DatabaseCore" name="3. MariaDB / MySQL Database (Prisma Skema 4-Lapisan)">
+        <bpmn:flowNodeRef>Task_ReadPublicationsTable</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ReadProvisionsAndOps</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SaveConsolidatedSnapshot</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_WriteChangeSetPublished</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SaveUserAnnotations</bpmn:flowNodeRef>
+      </bpmn:lane>
+
+      <!-- Lane 4: Ingestion Crawler & Kurasi ISO 7.5.3 -->
+      <bpmn:lane id="Lane_IngestionKurasi" name="4. Crawler JDIH, Parser AST &amp; Kurator (ISO 7.5.3)">
+        <bpmn:flowNodeRef>Start_CrawlerWorker</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_FetchJDIHBPK</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_DownloadSavePDF</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ASTIngestJSON</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_ScoreCheck</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_KarantinaDokumen</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>End_Karantina</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ReviewerCurator</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_SignReviewRecords</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+
+    <!-- Lane 4 (Ingestion & Kurasi) -->
+    <bpmn:startEvent id="Start_CrawlerWorker" name="Pemicu: START_HARVESTER.bat (Daemon)">
+      <bpmn:outgoing>F_Ingest1</bpmn:outgoing>
+    </bpmn:startEvent>
+
+    <bpmn:serviceTask id="Task_FetchJDIHBPK" name="Crawler JDIH BPK (crawler_worker.py --jenis UU)">
+      <bpmn:incoming>F_Ingest1</bpmn:incoming>
+      <bpmn:outgoing>F_Ingest2</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_DownloadSavePDF" name="Simpan PDF Resmi &amp; Catat fileHashSha256">
+      <bpmn:incoming>F_Ingest2</bpmn:incoming>
+      <bpmn:outgoing>F_Ingest3</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_ASTIngestJSON" name="Pecah Struktur AST (ingest-json.ts: Bab, Pasal, Ayat)">
+      <bpmn:incoming>F_Ingest3</bpmn:incoming>
+      <bpmn:outgoing>F_Ingest4</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:exclusiveGateway id="Gateway_ScoreCheck" name="Skor &gt;= 70?">
+      <bpmn:incoming>F_Ingest4</bpmn:incoming>
+      <bpmn:outgoing>F_FailScore</bpmn:outgoing>
+      <bpmn:outgoing>F_PassScore</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:serviceTask id="Task_KarantinaDokumen" name="Karantina Naskah Cacat (publishMode: QUARANTINE)">
+      <bpmn:incoming>F_FailScore</bpmn:incoming>
+      <bpmn:outgoing>F_EndQ</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:endEvent id="End_Karantina" name="Menunggu Koreksi Manual">
+      <bpmn:incoming>F_EndQ</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <bpmn:userTask id="Task_ReviewerCurator" name="Kurasi Kurator Hukum (PipelineManagerTab.tsx)">
+      <bpmn:incoming>F_PassScore</bpmn:incoming>
+      <bpmn:outgoing>F_Approve</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_SignReviewRecords" name="Catat Bukti ISO 7.5.3 ke review_records">
+      <bpmn:incoming>F_Approve</bpmn:incoming>
+      <bpmn:outgoing>F_ToDBPublish</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- Lane 3 (Database Write from Kurasi) -->
+    <bpmn:serviceTask id="Task_WriteChangeSetPublished" name="Mutasi Status ChangeSet menjadi PUBLISHED">
+      <bpmn:incoming>F_ToDBPublish</bpmn:incoming>
+      <bpmn:outgoing>F_DBReady</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- Lane 1 (User / Client) -->
+    <bpmn:startEvent id="Start_ClientVisit" name="Pengguna Mengakses SIPAKA Web (apps/web)">
+      <bpmn:outgoing>FC1</bpmn:outgoing>
+    </bpmn:startEvent>
+
+    <bpmn:userTask id="Task_LoginSession" name="Login via Cookie Session 256-bit (Session Table)">
+      <bpmn:incoming>FC1</bpmn:incoming>
+      <bpmn:outgoing>FC2</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:userTask id="Task_SearchKatalog" name="Pilih Regulasi &amp; Buka Legal Reader (/uu/:slug)">
+      <bpmn:incoming>FC2</bpmn:incoming>
+      <bpmn:outgoing>FC_ToAPI</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <!-- Lane 2 (Fastify API) -->
+    <bpmn:serviceTask id="Task_AuthCookieHttpOnly" name="Verifikasi Token HttpOnly &amp; Role User">
+      <bpmn:incoming>FC_ToAPI</bpmn:incoming>
+      <bpmn:outgoing>FA_CheckSnapshot</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:exclusiveGateway id="Gateway_SnapshotCheck" name="Ada di tabel publications?">
+      <bpmn:incoming>FA_CheckSnapshot</bpmn:incoming>
+      <bpmn:outgoing>FA_SnapshotFound</bpmn:outgoing>
+      <bpmn:outgoing>FA_SnapshotMissing</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:serviceTask id="Task_ServeSnapshotJson" name="Ambil snapshotJson langsung dari Database">
+      <bpmn:incoming>FA_SnapshotFound</bpmn:incoming>
+      <bpmn:outgoing>FA_ToClientReader</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_InvokeLegalEngine" name="Rekonstruksi Deterministik (LawReconstructor)">
+      <bpmn:incoming>FA_SnapshotMissing</bpmn:incoming>
+      <bpmn:outgoing>FA_SaveNewSnapshot</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- Lane 3 (Database Read / Write Engine) -->
+    <bpmn:serviceTask id="Task_ReadPublicationsTable" name="Kueri SELECT snapshotJson dari publications">
+      <bpmn:incoming>FA_SnapshotFound</bpmn:incoming>
+      <bpmn:outgoing>FA_ServeDirect</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_ReadProvisionsAndOps" name="Kueri provisions, revisions, change_operations">
+      <bpmn:incoming>FA_SnapshotMissing</bpmn:incoming>
+      <bpmn:outgoing>FA_EngineExec</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:serviceTask id="Task_SaveConsolidatedSnapshot" name="Simpan Hasil Rekonstruksi ke publications">
+      <bpmn:incoming>FA_SaveNewSnapshot</bpmn:incoming>
+      <bpmn:outgoing>FA_ToClientReader</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <!-- Fitur Riset Hukum -->
+    <bpmn:exclusiveGateway id="Gateway_UserAction" name="Aksi Peneliti?">
+      <bpmn:incoming>FA_ToClientReader</bpmn:incoming>
+      <bpmn:outgoing>FC_Timeline</bpmn:outgoing>
+      <bpmn:outgoing>FC_Diff</bpmn:outgoing>
+      <bpmn:outgoing>FC_MK</bpmn:outgoing>
+      <bpmn:outgoing>FC_Annotate</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:userTask id="Task_TimelinePointInTime" name="Eksplorasi Linimasa Historis Naskah (/snapshot?year=)">
+      <bpmn:incoming>FC_Timeline</bpmn:incoming>
+      <bpmn:outgoing>FC_End</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_RunLCSDiffGenerator" name="Hitung LCS Diff Kata-per-Kata (LegalDiffGenerator)">
+      <bpmn:incoming>FC_Diff</bpmn:incoming>
+      <bpmn:outgoing>FA_SendDiff</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:userTask id="Task_ViewDiffLCS" name="Inspeksi Komparasi Naskah Side-by-Side">
+      <bpmn:incoming>FA_SendDiff</bpmn:incoming>
+      <bpmn:outgoing>FC_End</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_QueryMKAndRelations" name="Kueri judicial_annotations &amp; instrument_relations">
+      <bpmn:incoming>FC_MK</bpmn:incoming>
+      <bpmn:outgoing>FA_SendMK</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:userTask id="Task_ViewAnotasiMK" name="Lihat Anotasi Putusan MK &amp; Graf Relasi (MENCABUT/MENGUBAH)">
+      <bpmn:incoming>FA_SendMK</bpmn:incoming>
+      <bpmn:outgoing>FC_End</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:userTask id="Task_AddBookmarkAnnotation" name="Simpan Bookmark &amp; Catatan Riset Pribadi">
+      <bpmn:incoming>FC_Annotate</bpmn:incoming>
+      <bpmn:outgoing>FC_SaveNote</bpmn:outgoing>
+    </bpmn:userTask>
+
+    <bpmn:serviceTask id="Task_SaveUserAnnotations" name="Tulis ke tabel user_bookmarks &amp; user_annotations">
+      <bpmn:incoming>FC_SaveNote</bpmn:incoming>
+      <bpmn:outgoing>FC_End</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:endEvent id="End_ClientResearch" name="Riset Yuridis Selesai">
+      <bpmn:incoming>FC_End</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <!-- Sequence Flows -->
+    <bpmn:sequenceFlow id="F_Ingest1" sourceRef="Start_CrawlerWorker" targetRef="Task_FetchJDIHBPK" />
+    <bpmn:sequenceFlow id="F_Ingest2" sourceRef="Task_FetchJDIHBPK" targetRef="Task_DownloadSavePDF" />
+    <bpmn:sequenceFlow id="F_Ingest3" sourceRef="Task_DownloadSavePDF" targetRef="Task_ASTIngestJSON" />
+    <bpmn:sequenceFlow id="F_Ingest4" sourceRef="Task_ASTIngestJSON" targetRef="Gateway_ScoreCheck" />
+    <bpmn:sequenceFlow id="F_FailScore" name="Skor &lt; 70" sourceRef="Gateway_ScoreCheck" targetRef="Task_KarantinaDokumen" />
+    <bpmn:sequenceFlow id="F_EndQ" sourceRef="Task_KarantinaDokumen" targetRef="End_Karantina" />
+    <bpmn:sequenceFlow id="F_PassScore" name="Lolos" sourceRef="Gateway_ScoreCheck" targetRef="Task_ReviewerCurator" />
+    <bpmn:sequenceFlow id="F_Approve" sourceRef="Task_ReviewerCurator" targetRef="Task_SignReviewRecords" />
+    <bpmn:sequenceFlow id="F_ToDBPublish" sourceRef="Task_SignReviewRecords" targetRef="Task_WriteChangeSetPublished" />
+    <bpmn:sequenceFlow id="F_DBReady" sourceRef="Task_WriteChangeSetPublished" targetRef="Task_ReadProvisionsAndOps" />
+
+    <bpmn:sequenceFlow id="FC1" sourceRef="Start_ClientVisit" targetRef="Task_LoginSession" />
+    <bpmn:sequenceFlow id="FC2" sourceRef="Task_LoginSession" targetRef="Task_SearchKatalog" />
+    <bpmn:sequenceFlow id="FC_ToAPI" sourceRef="Task_SearchKatalog" targetRef="Task_AuthCookieHttpOnly" />
+    <bpmn:sequenceFlow id="FA_CheckSnapshot" sourceRef="Task_AuthCookieHttpOnly" targetRef="Gateway_SnapshotCheck" />
+    <bpmn:sequenceFlow id="FA_SnapshotFound" name="Ada Snapshot" sourceRef="Gateway_SnapshotCheck" targetRef="Task_ServeSnapshotJson" />
+    <bpmn:sequenceFlow id="FA_SnapshotMissing" name="Perlu Rekonstruksi" sourceRef="Gateway_SnapshotCheck" targetRef="Task_InvokeLegalEngine" />
+    <bpmn:sequenceFlow id="FA_SaveNewSnapshot" sourceRef="Task_InvokeLegalEngine" targetRef="Task_SaveConsolidatedSnapshot" />
+    <bpmn:sequenceFlow id="FA_ToClientReader" sourceRef="Task_ServeSnapshotJson" targetRef="Gateway_UserAction" />
+    <bpmn:sequenceFlow id="FA_ToClientReader2" sourceRef="Task_SaveConsolidatedSnapshot" targetRef="Gateway_UserAction" />
+
+    <bpmn:sequenceFlow id="FC_Timeline" name="Linimasa" sourceRef="Gateway_UserAction" targetRef="Task_TimelinePointInTime" />
+    <bpmn:sequenceFlow id="FC_Diff" name="Diff Kata" sourceRef="Gateway_UserAction" targetRef="Task_RunLCSDiffGenerator" />
+    <bpmn:sequenceFlow id="FA_SendDiff" sourceRef="Task_RunLCSDiffGenerator" targetRef="Task_ViewDiffLCS" />
+    <bpmn:sequenceFlow id="FC_MK" name="Putusan MK" sourceRef="Gateway_UserAction" targetRef="Task_QueryMKAndRelations" />
+    <bpmn:sequenceFlow id="FA_SendMK" sourceRef="Task_QueryMKAndRelations" targetRef="Task_ViewAnotasiMK" />
+    <bpmn:sequenceFlow id="FC_Annotate" name="Catatan Pribadi" sourceRef="Gateway_UserAction" targetRef="Task_AddBookmarkAnnotation" />
+    <bpmn:sequenceFlow id="FC_SaveNote" sourceRef="Task_AddBookmarkAnnotation" targetRef="Task_SaveUserAnnotations" />
+    <bpmn:sequenceFlow id="FC_End" sourceRef="Task_TimelinePointInTime" targetRef="End_ClientResearch" />
+  </bpmn:process>
+
+  <bpmndi:BPMNDiagram id="BPMNDiagram_SIPAKA_Actual">
+    <bpmndi:BPMNPlane id="BPMNPlane_SIPAKA_Actual" bpmnElement="Collaboration_SIPAKA_Actual">
+      <bpmndi:BPMNShape id="Participant_SIPAKA_Actual_di" bpmnElement="Participant_SIPAKA_Actual" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1860" height="980" />
+      </bpmndi:BPMNShape>
+
+      <bpmndi:BPMNShape id="Lane_Client_di" bpmnElement="Lane_Client" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1830" height="240" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_FastifyAPI_di" bpmnElement="Lane_FastifyAPI" isHorizontal="true">
+        <dc:Bounds x="190" y="320" width="1830" height="220" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_DatabaseCore_di" bpmnElement="Lane_DatabaseCore" isHorizontal="true">
+        <dc:Bounds x="190" y="540" width="1830" height="230" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_IngestionKurasi_di" bpmnElement="Lane_IngestionKurasi" isHorizontal="true">
+        <dc:Bounds x="190" y="770" width="1830" height="290" />
+      </bpmndi:BPMNShape>
+
+      <!-- Lane 4 (Ingestion & Kurasi) Shapes -->
+      <bpmndi:BPMNShape id="Start_CrawlerWorker_di" bpmnElement="Start_CrawlerWorker">
+        <dc:Bounds x="232" y="862" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="207" y="905" width="87" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_FetchJDIHBPK_di" bpmnElement="Task_FetchJDIHBPK">
+        <dc:Bounds x="320" y="840" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_DownloadSavePDF_di" bpmnElement="Task_DownloadSavePDF">
+        <dc:Bounds x="480" y="840" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ASTIngestJSON_di" bpmnElement="Task_ASTIngestJSON">
+        <dc:Bounds x="640" y="840" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_ScoreCheck_di" bpmnElement="Gateway_ScoreCheck" isMarkerVisible="true">
+        <dc:Bounds x="805" y="855" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="800" y="825" width="60" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_KarantinaDokumen_di" bpmnElement="Task_KarantinaDokumen">
+        <dc:Bounds x="770" y="945" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_Karantina_di" bpmnElement="End_Karantina">
+        <dc:Bounds x="922" y="962" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="903" y="1005" width="75" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReviewerCurator_di" bpmnElement="Task_ReviewerCurator">
+        <dc:Bounds x="900" y="840" width="125" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SignReviewRecords_di" bpmnElement="Task_SignReviewRecords">
+        <dc:Bounds x="1065" y="840" width="125" height="80" />
+      </bpmndi:BPMNShape>
+
+      <!-- Lane 3 (Database Write) -->
+      <bpmndi:BPMNShape id="Task_WriteChangeSetPublished_di" bpmnElement="Task_WriteChangeSetPublished">
+        <dc:Bounds x="1065" y="615" width="125" height="80" />
+      </bpmndi:BPMNShape>
+
+      <!-- Lane 1 (Client) Shapes -->
+      <bpmndi:BPMNShape id="Start_ClientVisit_di" bpmnElement="Start_ClientVisit">
+        <dc:Bounds x="232" y="162" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="207" y="205" width="87" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_LoginSession_di" bpmnElement="Task_LoginSession">
+        <dc:Bounds x="320" y="140" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SearchKatalog_di" bpmnElement="Task_SearchKatalog">
+        <dc:Bounds x="480" y="140" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_UserAction_di" bpmnElement="Gateway_UserAction" isMarkerVisible="true">
+        <dc:Bounds x="1225" y="155" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1218" y="125" width="65" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_TimelinePointInTime_di" bpmnElement="Task_TimelinePointInTime">
+        <dc:Bounds x="1340" y="100" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ViewDiffLCS_di" bpmnElement="Task_ViewDiffLCS">
+        <dc:Bounds x="1490" y="100" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ViewAnotasiMK_di" bpmnElement="Task_ViewAnotasiMK">
+        <dc:Bounds x="1490" y="180" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_AddBookmarkAnnotation_di" bpmnElement="Task_AddBookmarkAnnotation">
+        <dc:Bounds x="1340" y="220" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="End_ClientResearch_di" bpmnElement="End_ClientResearch">
+        <dc:Bounds x="1662" y="152" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1648" y="195" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+
+      <!-- Lane 2 (Fastify API) Shapes -->
+      <bpmndi:BPMNShape id="Task_AuthCookieHttpOnly_di" bpmnElement="Task_AuthCookieHttpOnly">
+        <dc:Bounds x="480" y="380" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_SnapshotCheck_di" bpmnElement="Gateway_SnapshotCheck" isMarkerVisible="true">
+        <dc:Bounds x="655" y="390" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="646" y="353" width="68" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ServeSnapshotJson_di" bpmnElement="Task_ServeSnapshotJson">
+        <dc:Bounds x="760" y="350" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_InvokeLegalEngine_di" bpmnElement="Task_InvokeLegalEngine">
+        <dc:Bounds x="760" y="445" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RunLCSDiffGenerator_di" bpmnElement="Task_RunLCSDiffGenerator">
+        <dc:Bounds x="1340" y="380" width="120" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_QueryMKAndRelations_di" bpmnElement="Task_QueryMKAndRelations">
+        <dc:Bounds x="1340" y="465" width="120" height="70" />
+      </bpmndi:BPMNShape>
+
+      <!-- Lane 3 (Database Read / Save) Shapes -->
+      <bpmndi:BPMNShape id="Task_SaveConsolidatedSnapshot_di" bpmnElement="Task_SaveConsolidatedSnapshot">
+        <dc:Bounds x="930" y="615" width="120" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_SaveUserAnnotations_di" bpmnElement="Task_SaveUserAnnotations">
+        <dc:Bounds x="1490" y="615" width="120" height="80" />
+      </bpmndi:BPMNShape>
+
+      <!-- Edges Ingestion -->
+      <bpmndi:BPMNEdge id="F_Ingest1_di" bpmnElement="F_Ingest1">
+        <di:waypoint x="268" y="880" />
+        <di:waypoint x="320" y="880" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Ingest2_di" bpmnElement="F_Ingest2">
+        <di:waypoint x="440" y="880" />
+        <di:waypoint x="480" y="880" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Ingest3_di" bpmnElement="F_Ingest3">
+        <di:waypoint x="600" y="880" />
+        <di:waypoint x="640" y="880" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Ingest4_di" bpmnElement="F_Ingest4">
+        <di:waypoint x="760" y="880" />
+        <di:waypoint x="805" y="880" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_FailScore_di" bpmnElement="F_FailScore">
+        <di:waypoint x="830" y="905" />
+        <di:waypoint x="830" y="945" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="836" y="922" width="48" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_EndQ_di" bpmnElement="F_EndQ">
+        <di:waypoint x="890" y="980" />
+        <di:waypoint x="922" y="980" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_PassScore_di" bpmnElement="F_PassScore">
+        <di:waypoint x="855" y="880" />
+        <di:waypoint x="900" y="880" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="864" y="862" width="27" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_Approve_di" bpmnElement="F_Approve">
+        <di:waypoint x="1025" y="880" />
+        <di:waypoint x="1065" y="880" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="F_ToDBPublish_di" bpmnElement="F_ToDBPublish">
+        <di:waypoint x="1127" y="840" />
+        <di:waypoint x="1127" y="695" />
+      </bpmndi:BPMNEdge>
+
+      <!-- Edges Client & API -->
+      <bpmndi:BPMNEdge id="FC1_di" bpmnElement="FC1">
+        <di:waypoint x="268" y="180" />
+        <di:waypoint x="320" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC2_di" bpmnElement="FC2">
+        <di:waypoint x="440" y="180" />
+        <di:waypoint x="480" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_ToAPI_di" bpmnElement="FC_ToAPI">
+        <di:waypoint x="540" y="220" />
+        <di:waypoint x="540" y="380" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_CheckSnapshot_di" bpmnElement="FA_CheckSnapshot">
+        <di:waypoint x="600" y="415" />
+        <di:waypoint x="655" y="415" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_SnapshotFound_di" bpmnElement="FA_SnapshotFound">
+        <di:waypoint x="680" y="390" />
+        <di:waypoint x="680" y="385" />
+        <di:waypoint x="760" y="385" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="675" y="363" width="70" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_SnapshotMissing_di" bpmnElement="FA_SnapshotMissing">
+        <di:waypoint x="680" y="440" />
+        <di:waypoint x="680" y="480" />
+        <di:waypoint x="760" y="480" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="674" y="493" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_SaveNewSnapshot_di" bpmnElement="FA_SaveNewSnapshot">
+        <di:waypoint x="880" y="480" />
+        <di:waypoint x="905" y="480" />
+        <di:waypoint x="905" y="655" />
+        <di:waypoint x="930" y="655" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_ToClientReader_di" bpmnElement="FA_ToClientReader">
+        <di:waypoint x="880" y="385" />
+        <di:waypoint x="1250" y="385" />
+        <di:waypoint x="1250" y="205" />
+      </bpmndi:BPMNEdge>
+
+      <!-- Edges Features -->
+      <bpmndi:BPMNEdge id="FC_Timeline_di" bpmnElement="FC_Timeline">
+        <di:waypoint x="1275" y="180" />
+        <di:waypoint x="1305" y="180" />
+        <di:waypoint x="1305" y="135" />
+        <di:waypoint x="1340" y="135" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1295" y="113" width="45" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_Diff_di" bpmnElement="FC_Diff">
+        <di:waypoint x="1250" y="205" />
+        <di:waypoint x="1250" y="415" />
+        <di:waypoint x="1340" y="415" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1258" y="293" width="44" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_SendDiff_di" bpmnElement="FA_SendDiff">
+        <di:waypoint x="1460" y="415" />
+        <di:waypoint x="1550" y="415" />
+        <di:waypoint x="1550" y="170" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_MK_di" bpmnElement="FC_MK">
+        <di:waypoint x="1250" y="205" />
+        <di:waypoint x="1250" y="500" />
+        <di:waypoint x="1340" y="500" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1260" y="473" width="60" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FA_SendMK_di" bpmnElement="FA_SendMK">
+        <di:waypoint x="1460" y="500" />
+        <di:waypoint x="1550" y="500" />
+        <di:waypoint x="1550" y="250" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_Annotate_di" bpmnElement="FC_Annotate">
+        <di:waypoint x="1275" y="180" />
+        <di:waypoint x="1305" y="180" />
+        <di:waypoint x="1305" y="255" />
+        <di:waypoint x="1340" y="255" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1272" y="263" width="76" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_SaveNote_di" bpmnElement="FC_SaveNote">
+        <di:waypoint x="1460" y="255" />
+        <di:waypoint x="1475" y="255" />
+        <di:waypoint x="1475" y="655" />
+        <di:waypoint x="1490" y="655" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="FC_End_di" bpmnElement="FC_End">
+        <di:waypoint x="1460" y="135" />
+        <di:waypoint x="1662" y="135" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

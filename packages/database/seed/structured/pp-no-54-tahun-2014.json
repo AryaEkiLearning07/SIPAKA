@@ -1,0 +1,62 @@
+{
+ "slug": "pp-no-54-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "c. bahwa untuk penyertaan modal Negara Republik International Rubber Consortium Indonesia pada Limited telah ditetapkan Peraturan Pemerintah Nomor 98 Tahun 2013 tentang Penyertaan Modal Negara International Rubber pada Republik Consortium Limited yang sumber dananya berasal dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2013; Indonesia bahwa berhubung sampai dengan berakhirnya Tahun Anggaran 2013 belum tercapai kesepakatan kembali antara Negara Indonesia, Malaysia, dan Thailand mengenai waktu pelaksanaan pembayaran penambahan modal pada International Rubber Consortium Limited, perlu mencabut Peraturan Pemerintah Nomor 98 Tahun tentang Penyertaan Modal Negara Republik 2013 Indonesia pada International Rubber Consortium Limited; berdasarkan pertimbangan sebagaimana bahwa dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah tentang Pencabutan Peraturan Pemerintah Nomor 98 Tahun 2013 tentang Penyertaan Modal Negara Republik Indonesia pada International Rubber Consortium Limited;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-54-tahun-2014",
+   "detailsId": "5494",
+   "judul": "PP No. 54 Tahun 2014 tentang Pencabutan Peraturan Pemerintah Nomor 98 Tahun 2013 Tentang Penyertaan Modal Negara Republik Indonesia Pada International Rubber Consortium Limited - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/30594/PP%20Nomor%2054%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-98-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T00:34:11.899072+00:00"
+  },
+  "sha256": "5816c828ab16e2d332735c58e4925198e7d0a94c304b5f87a8ee4c3838907ad2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-54-tahun-2014/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Nomor 98 Tahun 2013 tentang Penyertaan Modal Negara Republik Indonesia pada International Rubber Consortium Limited (Lembaran Negara Republik Indonesia Tahun 2013 Nomor 250) dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-2014/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan dengan pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 3 Juli 2014 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 4 Juli 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 153",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

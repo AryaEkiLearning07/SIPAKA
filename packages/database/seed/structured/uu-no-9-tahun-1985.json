@@ -1,0 +1,1064 @@
+{
+ "slug": "uu-no-9-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan pembangunan nasional dengan Wawasan Nusantara pengelolaan sumber daya ikan perlu dilakukan sebaik-baiknya berdasarkan keadilan dan pemerataan dalam pemanfaatannya dengan mengutamakan perluasan kesempatan kerja dan peningkatan taraf hidup bagi nelayan dan petani ikan kecil serta terbinanya kelestarian sumber daya ikan dan lingkungannya yang akan meningkatkan ketahanan nasional;",
+   "bahwa peraturan perundang-undangan di bidang perikanan yang berlaku sampai sekarang kurang luas jangkauannya dan kurang mampu menampung perkembangan keadaan serta kebutuhan pembangunan pada umumnya dan pembangunan hukum nasional pada khususnya, sehingga dipandang perlu untuk menetapkan ketentuan-ketentuan baru dalam bentuk. Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-9-tahun-1985",
+   "detailsId": "46958",
+   "judul": "UU No. 9 Tahun 1985 tentang Perikanan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35763/UU%20Nomor%209%20Tahun%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:48:10.140914+00:00"
+  },
+  "sha256": "851be00d4d0b5e428872b28f815dd7693d374ec72d45c56d6bd92f2e5a21b558",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 35,
+  "ayat_angka": 59,
+  "huruf": 4
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Perikanan adalah semua kegiatan yang berhubungan dengan pengelolaan dan pemanfaatan sumber daya ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Sumber daya ikan adalah semua jenis ikan termasuk biota perairan lainnya,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pengelolaan sumber daya ikan adalah semua upaya yang bertujuan agar sumber daya ikan dapat dimanfaatkan secara optimal dan berlangsung terus menerus;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemanfaatan sumber daya ikan adalah kegiatan penangkapan ikan dan/atau pembudidayaan ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Usaha perikanan adalah semua usaha perorangan atau badan hukum untuk menangkap atau membudidayakan ikan, termasuk kegiatan menyimpan, mendinginkan atau mengawetkan ikan untuk tujuan komersial;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Penangkapan ikan adalah kegiatan yang bertujuan untuk memperoleh ikan di perairan yang tidak dalam keadaan dibudidayakan dengan alat atau cara apapun, termasuk kegiatan yang menggunakan kapal untuk memuat, mengangkut, menyimpan, mendinginkan, mengolah atau mengawetkannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Alat penangkap ikan adalah sarana dan perlengkapan atau benda-benda lainnya yang dipergunakan untuk menangkap ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Kapal perikanan adalah kapal atau perahu atau alat apung lainnya yang dipergunakan untuk melakukan penangkapan ikan, termasuk untuk melakukan survai atau eksplorasi perikanan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Pembudidayaan ikan adalah kegiatan untuk memelihara, membesarkan dan/atau membiakkan ikan dan memanen hasilnya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Nelayan adalah orang yang mata pencahariannya melakukan penangkapan ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Petani ikan adalah orang yang mata pencahariannya melakukan pembudidayaan ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Lingkungan sumber daya ikan adalah perairan tempat kehidupan sumber daya ikan, termasuk biota dan faktor alamiah sekitarnya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pencemaran sumber daya ikan adalah tercampurnya sumber daya ikan dengan makhluk hidup, zat, energi dan/atau komponen lain akibat perbuatan manusia sehingga sumber daya ikan menjadi kurang atau tidak berfungsi sebagaimana seharusnya dan/atau berbahaya bagi yang memanfaatkannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Kerusakan sumber daya ikan adalah terjadinya penurunan potensi sumber daya ikan yang dapat membahayakan kelestariannya di suatu lokasi perairan tertentu yang diakibatkan oleh perbuatan seseorang atau badan hukum yang telah menimbulkan gangguan sedemikian rupa terhadap keseimbangan biologi atau daur hidup sumber daya ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Pencemaran lingkungan sumber daya ikan adalah masuknya atau dimasukkannya makhluk hidup, zat, energi dan/atau komponen lain ke dalam lingkungan sumber daya ikan sehingga kualitas lingkungan sumber daya ikan turun sampai tingkat tertentu yang menyebabkan lingkungan sumber daya ikan menjadi kurang atau tidak dapat berfungsi lagi sesuai dengan peruntukannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kerusakan lingkungan sumber daya ikan adalah suatu keadaan lingkungan sumber daya ikan di suatu lokasi perairan tertentu yang telah mengalami perubahan fisik, kimiawi dan hayati, sehingga tidak atau kurang berfungsi sebagai tempat hidup, mencari makan, berkembang biak atau berlindung sumber daya ikan, karena telah mengalami gangguan sedemikian rupa sebagai akibat perbuatan seseorang atau badan hukum; 17. Pemerintah adalah Pemerintah Republik Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Menteri adalah Menteri yang bertanggung jawab di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "WILAYAH PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Wilayah perikanan Republik Indonesia meliputi: a. Perairan Indonesia; b. Sungai, danau, waduk, rawa, dan genangan air lainnya di dalam wilayah Republik Indonesia; c. Zona Ekonomi Eksklusif Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENGELOLAAN SUMBER DAYA IKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan sumber daya ikan dalam wilayah perikanan Republik Indonesia ditujukan kepada tercapainya manfaat yang sebesar-besarnya bagi bangsa Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk mencapai tujuan sebagaimana dimaksud dalam ayat (1), Pemerintah melaksanakan pengelolaan sumber daya ikan secara terpadu dan terarah dengan melestarikan sumber daya ikan beserta lingkungannya bagi kesejahteraan dan kemakmuran rakyat Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Dalam melaksanakan pengelolaan sumber daya ikan, Menteri menetapkan ketentuan- ketentuan mengenai:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "alat-alat penangkapan ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "syarat-syarat teknis perikanan yang harus dipenuhi oleh kapal perikanan dengan tidak mengurangi ketentuan peraturan perundang-undangan yang berlaku mengenai keselamatan pelayaran;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "jumlah yang boleh ditangkap dan jenis serta ukuran ikan yang tidak boleh ditangkap;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "daerah, jalur dan waktu atau musim penangkapan; 5 . pencegahan pencemaran dan kerusakan, rehabilitasi dan peningkatan sumber daya ikan serta lingkungannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "penebaran ikan jenis baru;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "pembudidayaan ikan dan perlindungannya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "pencegahan dan pemberantasan hama serta penyakit ikan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-4/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "hal-hal lain yang dipandang perlu untuk mencapai tujuan pengelolaan sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Pengangkutan ikan hidup antar pulau di dalam wilayah Republik Indonesia atau antara wilayah Indonesia dengan negara asing dikenakan ketentuan-ketentuan karantina ikan sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang atau badan hukum dilarang melakukan kegiatan penangkapan dan pembudidayaan ikan dengan menggunakan bahan dan/atau alat yang dapat membahayakan kelestarian sumber daya ikan dan lingkungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "kegiatan penangkapan dan pembudidayaan ikan dengan menggunakan bahan dan/atau alat sebagaimana dimaksud dalam ayat (1) untuk kepentingan ilmiah dan kepentingan tertentu lainnya diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang atau badan hukum dilarang melakukan perbuatan yang mengakibatkan pencemaran dan kerusakan sumber daya ikan dan/atau lingkungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku sepanjang mengenai perbuatan yang dilakukan untuk kepentingan kegiatan penelitian dan kegiatan ilmiah lainnya yang diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan ilmu pengetahuan, kebudayaan atau pelestarian alam perairan, Pemerintah menetapkan jenis ikan tertentu yang dilindungi dan/atau lokasi perairan tertentu sebagai suaka perikanan berdasarkan ciri yang khas jenis ikan atau keadaan alam perairan termaksud.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pengaturan ketentuan sebagaimana dimaksud dalam ayat (1) Pemerintah dapat menetapkan pembatasan terhadap kegiatan penangkapan atau pembudidayaan ikan atau kegiatan lainnya di lokasi tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMANFAATAN SUMBER DAYA IKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha perikanan di wilayah perikanan Republik Indonesia hanya boleh dilakukan oleh warga negara Republik Indonesia atau badan hukum Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengecualian terhadap ketentuan sebagaimana dimaksud dalam ayat (1) hanya dapat diberikan di bidang penangkapan ikan, sepanjang hal tersebut menyangkut kewajiban Negara Republik Indonesia berdasarkan ketentuan persetujuan internasional atau hukum internasional yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang atau badan hukum yang melakukan usaha perikanan diwajibkan memiliki izin usaha perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nelayan dan petani ikan kecil atau perorangan lainnya yang sifat usahanya merupakan mata pencaharian untuk memenuhi kebutuhan hidup sehari-hari tidak dikenakan kewajiban memiliki izin usaha perikanan sebagaimana dimaksud dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang atau badan hukum yang melakukan usaha perikanan di bidang penangkapan atau pembudidayaan ikan di laut atau di perairan lainnya di wilayah perikanan Republik Indonesia dikenakan pungutan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nelayan dan petani ikan kecil yang melakukan penangkapan atau pembudidayaan ikan yang hanya untuk memenuhi kebutuhan hidup sehari-hari tidak dikenakan pungutan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kapal perikanan yang digunakan oleh warganegara Republik Indonesia atau badan hukum Indonesia untuk melakukan penangkapan ikan di dalam wilayah perikanan Republik Indonesia harus berbendera Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengecualian terhadap ketentuan sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan untuk kegiatan penelitian serta kegiatan ilmiah lainnya di wilayah perikanan Republik Indonesia dan kegiatan penangkapan ikan di Zona Ekonomi Eksklusif Indonesia. Kegiatan penangkapan dan pembudidayaan ikan di dalam wilayah perikanan Republik Indonesia yang tidak untuk tujuan komersial diatur oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PEMBINAAN DAN PENGEMBANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pemerintah menyelenggarakan pembinaan sistem informasi dan menyelenggarakan pengumpulan, pengolahan, dan penyebaran seluas-luasnya mengenai data teknik dan data produksi perikanan guna menunjang pelaksanaan pengelolaan sumber daya ikan serta pengembangan usaha perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah membina dan mengembangkan penelitian dan kegiatan lainnya di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam menyelenggarakan kegiatan sebagaimana dimaksud dalam ayat (1), Pemerintah dapat mengadakan kerja sama dengan lembaga swasta nasional, lembaga internasional atau lembaga asing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menyelenggarakan pendidikan, latihan, penyuluhan dan bimbingan di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan kegiatan sebagaimana dimaksud dalam ayat (1) Pemerintah dapat mengikutsertakan masyarakat dan lembaga-lembaga kemasyarakatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Pemerintah mendorong, menggerakkan, membantu dan melindungi usaha nelayan dan petani ikan kecil terutama melalui koperasi nelayan dan/atau koperasi petani ikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah membangun dan membina prasarana perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan pelaksanaan mengenai pengadaan, kedudukan, fungsi, pengelolaan dan penggunaan prasarana perikanan sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pemerintah mengatur tata niaga ikan dan melaksanakan pembinaan mutu hasil perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Menteri menetapkan larangan pengeluaran atau pemasukan jenis ikan tertentu dari atau ke wilayah Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PENYERAHAN URUSAN DAN TUGAS PEMBANTUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Penyerahan sebagian urusan perikanan dari Pemerintah Pusat kepada Pemerintah Daerah dan penarikannya kembali ditetapkan dengan Peraturan Pemerintah. Pemerintah Pusat dapat menugaskan kepada Pemerintah Daerah untuk melaksanakan urusan tugas pembantuan di bidang perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PENGAWASAN DAN PENGENDALIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menjamin terselenggaranya pengelolaan dan pemanfaatan sumber daya ikan secara berdaya guna dan berhasil guna, dilakukan pengawasan dan pengendalian terhadap pelaksanaan ketentuan-ketentuan di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Barangsiapa di dalam wilayah perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 2 huruf a dan huruf b melanggar ketentuan sebagaimana dimaksud dalam Pasal 6 ayat (1) dan Pasal 7 ayat (1) dipidana dengan pidana penjara selama-lamanya 10 (sepuluh) tahun dan/atau denda sebanyak- banyaknya Rp 100.000.000,- (seratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Barangsiapa di dalam wilayah perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 2 huruf a dan huruf b melakukan usaha perikanan di bidang penangkapan ikan tanpa izin sebagaimana dimaksud dalam Pasal 10: a. dipidana dengan pidana penjara selama-lamanya 5 (lima) tahun atau denda sebanyak-banyaknya Rp 50.000.000,- (lima puluh juta rupiah), apabila dalam kegiatannya menggunakan kapal bermotor berukuran 30 (tiga puluh) gros ton atau lebih; b. dipidana dengan pidana penjara selama-lamanya 2 (dua) tahun 6 (enam) bulan atau denda sebanyak-banyaknya Rp 25.000.000,- (dua puluh lima juta rupiah), apabila dalam kegiatannya menggunakan kapal bermotor berukuran kurang dari 30 (tiga puluh) gros ton.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Barangsiapa di dalam wilayah perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 2 huruf a dan huruf b melakukan usaha perikanan di bidang pembudidayaan ikan tanpa izin sebagaimana dimaksud dalam Pasal 10 dipidana dengan pidana kurungan selama-lamanya 6 (enam) bulan atau denda sebanyak-banyaknya Rp 5.000.000,- (lima juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barangsiapa melanggar ketentuan yang ditetapkan berdasarkan Pasal 4 dipidana dengan pidana denda sebanyak-banyaknya Rp 25.000.000,- (dua puluh lima juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Barangsiapa melanggar ketentuan yang ditetapkan berdasarkan Pasal 20 dipidana dengan pidana denda sebanyak-banyaknya Rp 5.000.000,- (lima juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tindak pidana sebagaimana dimaksud dalam Pasal 24 dan Pasal 25 adalah kejahatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tindak pidana sebagaimana dimaksud dalam Pasal 26 dan Pasal 27 adalah pelanggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Benda-benda yang dipergunakan dalam dan yang dihasilkan dari tindak pidana sebagaimana dimaksud dalam ketentuan Pasal 24, Pasal 25, Pasal 26, dan Pasal 27 dapat dirampas untuk negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Barangsiapa melanggar ketentuan-ketentuan Undang-undang ini di Zona Ekonomi Eksklusif Indonesia dipidana sesuai dengan ketentuan pidana dalam Undang-undang Nomor 5 Tahun 1983 tentang Zona Ekonomi Eksklusif Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN-KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat aparatur penegak hukum yang berwenang melaksanakan penyidikan terhadap pelanggaran ketentuan Undang-undang ini di perairan Indonesia adalah pejabat penyidik sebagaimana ditetapkan dalam Pasal 14 ayat (1) Undang-undang Nomor 5 Tahun 1983 tentang Zona Ekonomi Eksklusif Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pejabat pegawai negeri sipil tertentu yang bertugas di bidang perikanan dapat diberikan kewenangan untuk melaksanakan penyidikan terhadap pelanggaran ketentuan Undang-undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pejabat penyidik pegawai negeri sipil tertentu di bidang perikanan sebagaimana dimaksud dalam ayat (2) karena kewajibannya mempunyai kewenangan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menerima laporan atau pengaduan dari seseorang tentang adanya pelanggaran ketentuan Undang-undang ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pemanggilan dan pemeriksaan terhadap tersangka pelaku pelanggaran ketentuan Undang-undang ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menggeledah kapal perikanan, sarana angkutan dan tempat menyimpan, mendinginkan dan mengawetkan ikan yang diduga dipergunakan dalam atau menjadi tempat melakukan pelanggaran ketentuan Undang-undang ini.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan penyitaan ikan yang dihasilkan, alat-alat dan surat-surat yang digunakan dalam melakukan perbuatan yang melanggar ketentuan Undang- undang ini.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1985/pasal-31/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyidikan dan kewenangan sebagaimana dimaksud dalam pasal ini dilaksanakan dengan memperhatikan Undang-undang Nomor 8 Tahun 1981 tentang Kitab Undang-undang Hukum Acara Pidana dan ketentuan hukum acara pidana lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Semua peraturan pelaksanaan dari peraturan perundang-undangan di bidang perikanan yang telah ada sepanjang tidak bertentangan dengan Undang-undang ini, tetap berlaku sampai dikeluarkannya peraturan pelaksanaan yang baru berdasarkan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-9-tahun-1985/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Pada saat mulai berlakunya Undang-undang ini, maka: a. Algemeene regelen voor het visschen naar Parelschelpen, Parelmoerschelpen, Teripang en Sponsen binnen de afstand van niet meer dan drie Engelsche zeemijlen van de kusten van Nederlandsch Indie (Staatsblad Tahun 1916 Nomor 157); b. Visscherij Bepalingen ter Bescherming van den Vischsstand (Staatsblad Tahun 1920 Nomor 396); c. Algemeene Regeling voor de Visscherij binnen het zeegebied van Nederlandsch Indie (Staatsblad Tahun 1927 Nomor 144); d. Algemeene regelen voor de jacht op walvisschen binnen den afstand van drie zeemijlen van de kusten van Nederlandsch Indie (Staatsblad Tahun 1927 Nomor 145); e. Ketentuan mengenai perikanan dalam Territoriale Zee en Maritieme Kringen Ordonnantie (Staatsblad Tahun 1939 Nomor 442), kecuali ketentuan-ketentuan yang menyangkut acara pelaksanaan penegakan hukum di laut; dengan segala perubahannya, dinyatakan tidak berlaku lagi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Hal-hal yang belum cukup diatur dalam Undang-undang ini akan diatur lebih lanjut dengan Peraturan Pemerintah. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1985/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 19 Juni 1985 ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 19 Juni 1985 MENTERI/SEKRETARIS NEGARA ttd. SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1985 NOMOR 46",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 2 (['uu-no-9-tahun-1985/pasal-13', 'uu-no-9-tahun-1985/pasal-22'])"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

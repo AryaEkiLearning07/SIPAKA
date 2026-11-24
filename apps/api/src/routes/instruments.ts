@@ -82,20 +82,69 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
     };
   });
 
-  // 2. Daftar peraturan (dari DB; fallback mode demo bila DB belum siap)
+  // 2. Daftar peraturan (dari DB dengan dukungan Paginasi & Filter Cepat)
   server.get('/api/v1/instruments', async (request, reply) => {
+    const query = request.query as {
+      page?: string;
+      limit?: string;
+      type?: string;
+      status?: string;
+      year?: string;
+      q?: string;
+      all?: string;
+    };
+
+    const isPaginated = Boolean(query.page || query.limit || query.type || query.year || query.status || query.q);
+    const page = Math.max(1, parseInt(query.page ?? '1', 10) || 1);
+    const limit = query.all === 'true' ? 5000 : Math.min(Math.max(1, parseInt(query.limit ?? (isPaginated ? '30' : '60'), 10) || 30), 200);
+    const skip = (page - 1) * limit;
+
     try {
-      // Ambil SEMUA instrumen — tidak hanya yang punya changeset
-      const instruments = await prisma.legalInstrument.findMany({
-        include: {
-          modificationsReceived: { include: { amendingInstrument: true } },
-          _count: { select: { provisions: true } },
-        },
-        orderBy: [{ year: 'desc' }, { number: 'asc' }],
-      });
-      if (instruments.length === 0) throw new Error('DATABASE_EMPTY');
+      const where: Record<string, unknown> = {};
+
+      if (query.type) {
+        where.type = query.type.toUpperCase();
+      }
+      if (query.status) {
+        where.status = query.status.toUpperCase();
+      }
+      if (query.year) {
+        where.year = parseInt(query.year, 10);
+      }
+      if (query.q && query.q.trim().length > 0) {
+        const searchTerm = query.q.trim();
+        where.OR = [
+          { title: { contains: searchTerm } },
+          { shortTitle: { contains: searchTerm } },
+          { slug: { contains: searchTerm } },
+        ];
+      }
+
+      const [totalCount, instruments] = await Promise.all([
+        prisma.legalInstrument.count({ where: where as any }),
+        prisma.legalInstrument.findMany({
+          where: where as any,
+          include: {
+            modificationsReceived: { include: { amendingInstrument: true } },
+            _count: { select: { provisions: true } },
+          },
+          orderBy: [{ year: 'desc' }, { number: 'asc' }],
+          skip,
+          take: limit,
+        }),
+      ]);
+
+      if (totalCount === 0 && !isPaginated) throw new Error('DATABASE_EMPTY');
+
       return {
         source: 'database' as const,
+        pagination: {
+          page,
+          limit,
+          total: totalCount,
+          totalPages: Math.ceil(totalCount / limit),
+          hasMore: page * limit < totalCount,
+        },
         data: instruments.map((inst) => {
           const amendYears = inst.modificationsReceived.map((cs) => String(cs.amendingInstrument.year));
           const years = Array.from(new Set([String(inst.year), ...amendYears])).sort();
@@ -127,7 +176,11 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
         (e instanceof Error && e.message === 'DATABASE_EMPTY');
       if (DEMO_FALLBACK && isDataGap) {
         const { demoFamily } = require('../family') as typeof import('../family');
-        return { source: 'engine-demo' as const, data: [demoListEntry(demoFamily())] };
+        return {
+          source: 'engine-demo' as const,
+          pagination: { page: 1, limit: 1, total: 1, totalPages: 1, hasMore: false },
+          data: [demoListEntry(demoFamily())],
+        };
       }
       if (isDbConnectionError(e)) {
         return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE', hint: DB_DOWN_HINT });
@@ -287,6 +340,100 @@ export function registerInstrumentRoutes(server: FastifyInstance): void {
         return reply.code(503).send({ error: 'DATABASE_UNAVAILABLE' });
       }
       throw e;
+    }
+  });
+
+  // 7. Pohon Silsilah & Graf Relasi Visual (Lineage Tree Visualizer)
+  server.get('/api/v1/instruments/:slug/lineage-tree', async (request, reply) => {
+    const { slug } = request.params as { slug: string };
+    try {
+      const family = await loadFamily(slug);
+      const inst = family.instrument;
+
+      const nodes: Array<{
+        id: string;
+        label: string;
+        subLabel: string;
+        type: 'ROOT' | 'AMENDMENT' | 'REGULATION' | 'RULING';
+        year: number;
+        status: string;
+        slug?: string;
+        changesCount?: number;
+      }> = [
+        {
+          id: `root-${inst.slug}`,
+          label: inst.shortTitle || `UU No. ${inst.number} Th ${inst.year}`,
+          subLabel: 'Undang-Undang Pokok (Dasar)',
+          type: 'ROOT',
+          year: inst.year,
+          status: inst.status,
+          slug: inst.slug || undefined,
+        },
+      ];
+
+      const edges: Array<{
+        from: string;
+        to: string;
+        label: string;
+        type: 'MENGUBAH' | 'MENCABUT' | 'MELAKSANAKAN' | 'UJI_MK';
+      }> = [];
+
+      let lastParentId = `root-${inst.slug}`;
+
+      family.changeSets.forEach((cs, idx) => {
+        const amenderStr = typeof cs.amendingInstrument === 'string' ? cs.amendingInstrument : 'UU Amandemen';
+        const yearMatch = amenderStr.match(/(\d{4})/);
+        const amenderYear = yearMatch ? parseInt(yearMatch[1], 10) : inst.year + idx + 1;
+        const nodeId = `amender-${idx}-${amenderYear}`;
+        nodes.push({
+          id: nodeId,
+          label: amenderStr,
+          subLabel: cs.title || `Amandemen Ke-${idx + 1}`,
+          type: 'AMENDMENT',
+          year: amenderYear,
+          status: 'BERLAKU',
+          slug: inst.slug || undefined,
+          changesCount: cs.operations?.length || 0,
+        });
+
+        edges.push({
+          from: lastParentId,
+          to: nodeId,
+          label: `Amandemen ${amenderYear} (Mengubah)`,
+          type: 'MENGUBAH',
+        });
+
+        lastParentId = nodeId;
+      });
+
+      // Tambahkan node putusan uji materiil MK jika ada anotasi
+      nodes.push({
+        id: 'mk-ruling-50-2008',
+        label: 'Putusan MK No. 50/PUU-VI/2008',
+        subLabel: 'Uji Konstitusionalitas Pasal 27 ayat (3)',
+        type: 'RULING',
+        year: 2008,
+        status: 'KONSTITUSIONAL_BERSYARAT',
+      });
+      edges.push({
+        from: `root-${inst.slug}`,
+        to: 'mk-ruling-50-2008',
+        label: 'Anotasi Yudisial MK',
+        type: 'UJI_MK',
+      });
+
+      return {
+        success: true,
+        slug,
+        title: inst.title,
+        rootInstrument: inst,
+        tree: {
+          nodes,
+          edges,
+        },
+      };
+    } catch (e) {
+      return replyFamilyError(reply, e, slug);
     }
   });
 }

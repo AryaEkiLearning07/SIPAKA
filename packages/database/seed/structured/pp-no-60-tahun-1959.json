@@ -1,0 +1,104 @@
+{
+ "slug": "pp-no-60-tahun-1959",
+ "preamble": {
+  "menimbang": [
+   "sosialisme a la Indonesia;",
+   "sendi kehidupan ekonomi bangsa Indonesia,",
+   "dasar untuk mengatur perekonomian rakyat guna mencapai taraf hidup yang layak dalam susunan masyarakat adil dan makmur yang demokratis, 2. 3. bahwa Pemerintah wajib mengambil sikap yang aktip dalam membina Gerakan Koperasi berdasarkan azas-azas Demokrasi Terpimpin; bahwa perlu diadakan Peraturan Pemerintah untuk menyesuaikan pelaksanaan Undang-undang Koperasi dengan Undang-undang Dasar 1945 dan Manifesto Politik Presiden Republik Indonesia tanggal 17 Agustus 1959, untuk menumbuhkan, mendorong, membimbing, melindungi dan mengawasi perkembangan Gerakan Koperasi; sehingga terjamin, terpelihara dan terpupuknya dinamika baik dikalangan masyarakat sendiri maupun dalam kalangan petugas negara, serta terselenggaranya koperasi secara serentak, intensip, berencana dan terpimpin."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-60-tahun-1959",
+   "detailsId": "76178",
+   "judul": "PP No. 60 Tahun 1959 tentang Pergerakan Gerakan Koperasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67003/PP%20No%20060%20Tahun%201959.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:36.053600+00:00"
+  },
+  "sha256": "df50b4d8e10dd60d4e172fa1d33562ab08febb5b53846b08be3171834a1be3b5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-60-tahun-1959/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "slug": "uu-no-7-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih menjaga kelangsungan jalannya pembangunan saldo-anggaran-lebih dan sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1984/1985 ditambahkan kepada kredit anggaran Tahun Anggaran 1985/1986;",
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 10 Juni 1985 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd. SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1985 NOMOR 43 www.djpp.depkumham.go.id PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 7 TAHUN 1985 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1984/1985 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1994/1985 merupakan pelaksanaan Tahun pertama Repelita IV. Didasarkan atas perkembangan keadaan, terutama perkembangan ekonomi dalam dan luar negeri, yang mengiringi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985 diperlukan beberapa tambahan dan perubahan. Dalam Tahun Anggaran 1994/1985, realisasi penerimaan negara diperkirakan lebih rendah dari jumlah yang direncanakan. Lebih rendahnya penerimaan negara tersebut terutama disebabkan perkiraan realisasi bantuan proyek yang lebih rendah dari jumlah yang direncanakan semula. Realisasi penerimaan dalam negeri juga diperkirakan lebih rendah dari rencana, tetapi telah dapat diimbangi oleh penghematan dalam pengeluaran rutin yang sebagian terbesar disebabkan adanya pengurangan ",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1985",
+   "detailsId": "46928",
+   "judul": "UU No. 7 Tahun 1985 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35730/UU%20Nomor%207%20Tahun%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:48:39.320417+00:00"
+  },
+  "sha256": "47449417e456c889d27f217593e31a30755a205d24e202bce55507b520ea71c4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1985/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-7-tahun-1985/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1984/1985 diperkirakan berkurang dengan Rp 1.176.896.000.000,00 (satu trilyun seratus tuiuh puluh enam milyar delapan ratus sembilan puluh enam juta rupiah) yang terdiri dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-7-tahun-1985/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin berkurang dengan Rp 243.928.000.000,00 (dua ratus empat puluh tiga milyar sembilan ratus dua puluh delapan juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-7-tahun-1985/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan berkurang dengan Rp 932.968.000.000,00 (sembilan ratus tiga puluh dua milyar sembilan ratus enam puluh delapan juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1985/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b pasal ini masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

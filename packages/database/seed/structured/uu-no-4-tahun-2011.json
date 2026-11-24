@@ -1,0 +1,2368 @@
+{
+ "slug": "uu-no-4-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam mengelola sumber daya alam dan sumber lainnya serta penanggulangan bencana dalam daya wilayah Negara Kesatuan Republik Indonesia dan wilayah yurisdiksinya diperlukan informasi geospasial;",
+   "bahwa agar informasi geospasial dapat terselenggara dengan tertib, terpadu, berhasil guna, dan berdaya guna sehingga terjamin keakuratan, kemutakhiran, dan kepastian hukum, maka perlu pengaturan mengenai penyelenggaraan informasi geospasial;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Informasi Geospasial;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "39136",
+   "slug": "uu-no-4-tahun-2011",
+   "nomor": 4,
+   "tahun": 2011,
+   "jenis": "UU",
+   "judul": "UU No. 4 Tahun 2011 tentang Informasi Geospasial - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28545/UU%204%20Tahun%202011.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:34:36.136636+00:00"
+  },
+  "sha256": "30366dc54349b6df8b22216d211a0eeccdf4bc761c029cfcb6aa7bc8fef1f67a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 12,
+  "pasal": 71,
+  "ayat_angka": 127,
+  "huruf": 39
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Spasial adalah aspek keruangan suatu objek atau kejadian yang mencakup lokasi, letak, dan posisinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Geospasial atau ruang kebumian adalah aspek keruangan yang menunjukkan lokasi, letak, dan posisi suatu objek atau kejadian yang berada di bawah, pada, atau di atas permukaan bumi yang dinyatakan dalam sistem koordinat tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Data Geospasial yang selanjutnya disingkat DG adalah data tentang lokasi geografis, dimensi atau ukuran, dan/atau karakteristik objek alam dan/atau buatan manusia yang berada di bawah, pada, atau di atas permukaan bumi. 4. 5. Informasi Geospasial yang selanjutnya disingkat IG adalah DG yang sudah diolah sehingga dapat digunakan sebagai alat bantu dalam perumusan kebijakan, pengambilan keputusan, dan/atau pelaksanaan kegiatan yang berhubungan dengan ruang kebumian. Informasi Geospasial Dasar yang selanjutnya disingkat IGD adalah IG yang berisi tentang objek yang dapat dilihat secara langsung atau diukur dari kenampakan fisik di muka bumi dan yang tidak berubah dalam waktu yang relatif lama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Informasi . . . 6. Informasi Geospasial Tematik yang selanjutnya disingkat IGT adalah IG yang menggambarkan satu atau lebih tema tertentu yang dibuat mengacu pada IGD.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Skala adalah angka perbandingan antara jarak dalam suatu IG dengan jarak sebenarnya di muka bumi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Titik Kontrol Geodesi adalah posisi di muka bumi yang ditandai dengan bentuk fisik tertentu yang dijadikan sebagai kerangka acuan posisi untuk IG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Jaring Kontrol Horizontal Nasional yang selanjutnya disingkat JKHN adalah sebaran titik kontrol geodesi horizontal yang terhubung satu sama lain dalam satu kerangka referensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Jaring Kontrol Vertikal Nasional yang selanjutnya disingkat JKVN adalah sebaran titik kontrol geodesi vertikal yang terhubung satu sama lain dalam satu kerangka referensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Jaring Kontrol Gayaberat Nasional yang selanjutnya disingkat JKGN adalah sebaran titik kontrol geodesi gayaberat yang terhubung satu sama lain dalam satu kerangka referensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Peta Rupabumi Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah darat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Peta Lingkungan Pantai Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah pesisir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Peta Lingkungan Laut Nasional adalah peta dasar yang memberikan informasi secara khusus untuk wilayah laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Pemerintah daerah adalah gubernur, bupati atau sebagai unsur walikota, dan perangkat daerah penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Badan . . . Badan adalah lembaga pemerintah nonkementerian yang fungsi, dan kewenangan yang ini bidang mempunyai membidangi urusan tertentu dalam hal penyelenggaraan IGD. tugas,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Instansi Pemerintah adalah kementerian dan lembaga pemerintah nonkementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Setiap orang adalah orang perseorangan, kelompok orang, atau badan usaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Badan Usaha adalah badan usaha milik negara, badan usaha milik daerah, atau badan usaha yang berbadan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ASAS DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "IG diselenggarakan berdasarkan asas: a. kepastian hukum; b. keterpaduan; c. keterbukaan; d. kemutakhiran; e. keakuratan; f. kemanfaatan; dan g. demokratis.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Undang-Undang ini bertujuan untuk: a. menjamin ketersediaan dan akses terhadap IG yang dapat dipertanggungjawabkan; b. mewujudkan penyelenggaraan IG yang berdaya guna dan berhasil guna melalui kerja sama, koordinasi, integrasi, dan sinkronisasi; dan c. mendorong penggunaan IG dalam penyelenggaraan pemerintahan dan dalam berbagai aspek kehidupan masyarakat. BAB III . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "JENIS INFORMASI GEOSPASIAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Jenis IG terdiri atas: a. IGD; dan b. IGT. Bagian Kedua Informasi Geospasial Dasar",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "IGD sebagaimana dimaksud dalam Pasal 4 huruf a meliputi: a. jaring kontrol geodesi; dan b. peta dasar.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 5 huruf a meliputi: a. JKHN; b. JKVN; dan c. JKGN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b berupa: a. Peta Rupabumi Indonesia; b. Peta Lingkungan Pantai Indonesia; dan c. Peta Lingkungan Laut Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "JKHN sebagaimana dimaksud dalam Pasal 6 huruf a digunakan sebagai kerangka acuan posisi horizontal untuk IG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Koordinat JKHN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam sistem referensi koordinat tertentu, dan diwujudkan dalam bentuk tanda fisik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "JKHN . . . JKHN diklasifikasikan berdasarkan tingkat ketelitian koordinat horizontal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "JKVN sebagaimana dimaksud dalam Pasal 6 huruf b digunakan sebagai kerangka acuan posisi vertikal untuk IG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tinggi JKVN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam datum vertikal tertentu, sistem tinggi tertentu, dan diwujudkan dalam bentuk tanda fisik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "JKVN diklasifikasikan berdasarkan tingkat ketelitian vertikal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "JKGN sebagaimana dimaksud dalam Pasal 6 huruf c digunakan sebagai kerangka acuan gayaberat untuk IG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "JKGN ditetapkan dengan metode pengukuran geodetik tertentu, mengacu pada titik acuan gayaberat absolut, dan diwujudkan dalam bentuk tanda fisik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "JKGN diklasifikasikan berdasarkan tingkat ketelitian gayaberat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Setiap orang wajib menjaga tanda fisik jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b terdiri atas: a. garis pantai; b. hipsografi; c. perairan; d. nama rupabumi; e. batas wilayah; f. transportasi . . . f. transportasi dan utilitas; g. bangunan dan fasilitas umum; dan h. penutup lahan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Garis pantai sebagaimana dimaksud dalam Pasal 12 huruf a merupakan garis pertemuan antara daratan dengan lautan yang dipengaruhi oleh pasang surut air laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Garis pantai sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "garis pantai surut terendah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "garis pantai pasang tertinggi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "garis pantai tinggi muka air laut rata-rata.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pada Peta Rupabumi Indonesia, garis pantai ditetapkan berdasarkan garis kedudukan muka air laut rata-rata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, garis pantai ditetapkan berdasarkan kedudukan muka air laut surut terendah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-13/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Garis pantai sebagaimana dimaksud pada ayat (2) ditentukan dengan mengacu pada JKVN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hipsografi sebagaimana dimaksud dalam Pasal 12 huruf b merupakan garis khayal untuk menggambarkan semua titik yang mempunyai ketinggian yang sama di permukaan bumi atau kedalaman yang sama di dasar laut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pada Peta Rupabumi Indonesia, hipsografi digambarkan dalam bentuk garis kontur mukabumi dan titik ketinggian di darat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, hipsografi digambarkan dalam bentuk garis kontur mukabumi, titik ketinggian di darat, batimetri, dan titik kedalaman di laut. Pasal 15 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Nama rupabumi sebagaimana dimaksud dalam Pasal 12 huruf d dikumpulkan dengan menggunakan tata cara pengumpulan nama rupabumi sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Batas wilayah sebagaimana dimaksud dalam Pasal 12 huruf e digambarkan berdasarkan dokumen penetapan penentuan batas wilayah secara pasti di lapangan oleh Instansi Pemerintah yang berwenang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal terdapat batas wilayah yang belum ditetapkan secara pasti di lapangan oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), yang wilayah digunakan penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus. sementara batas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "(1) IGD diselenggarakan secara bertahap dan sistematis untuk seluruh wilayah Negara Kesatuan Republik Indonesia dan wilayah yurisdiksinya. (2) IGD sebagaimana dimaksud pada ayat (1) dimutakhirkan secara periodik dalam jangka waktu tertentu.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal terjadi bencana alam, perang, pemekaran atau perubahan wilayah administratif, atau kejadian lainnya yang berakibat berubahnya unsur IGD sebagaimana dimaksud dalam Pasal 5 sehingga mempengaruhi pola dan struktur kehidupan masyarakat, pemutakhiran IGD harus dilakukan tanpa menunggu pemutakhiran secara periodik sebagaimana dimaksud pada ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai norma, standar, prosedur, dan kriteria pemutakhiran IGD diatur dengan Peraturan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-17/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai jangka waktu pemutakhiran IGD diatur dalam Peraturan Pemerintah. Pasal 18 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peta Rupabumi Indonesia sebagaimana dimaksud dalam Pasal 7 huruf a diselenggarakan pada skala 1:1.000.000, 1:500.000, 1:250.000, 1:100.000, 1:50.000, 1:25.000, 1:10.000, 1:5.000, 1:2.500, dan 1:1.000.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peta Lingkungan sebagaimana dimaksud dalam Pasal 7 huruf b diselenggarakan pada skala 1:250.000, 1:50.000, 1:25.000, dan 1:10.000. Indonesia Pantai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peta Lingkungan Laut Nasional sebagaimana dimaksud dalam Pasal 7 huruf c diselenggarakan pada skala 1:500.000, 1:250.000, dan 1:50.000. Bagian Ketiga Informasi Geospasial Tematik",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "IGT sebagaimana dimaksud dalam Pasal 4 huruf b wajib mengacu pada IGD.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Dalam membuat IGT dilarang: a. mengubah posisi dan tingkat ketelitian geometris bagian IGD; dan/atau b. membuat skala IGT lebih besar daripada skala IGD yang diacunya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "(1) IGT yang menggambarkan suatu batas yang mempunyai kekuatan hukum dokumen penetapan batas secara pasti oleh Instansi Pemerintah yang berwenang. berdasarkan dibuat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan batas yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah yang berwenang dilampiri dengan dokumen IGT yang akurat dan dapat dipertanggungjawabkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal terdapat batas yang belum ditetapkan secara pasti oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), digunakan batas sementara yang penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus. BAB IV . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENYELENGGARA INFORMASI GEOSPASIAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "(1) IG yang berjenis IGD sebagaimana dimaksud dalam Pasal 4 huruf a hanya diselenggarakan oleh Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan IGD sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "dilakukan oleh Badan yang disebut Badan Informasi Geospasial sebagai pengganti Badan Koordinasi Survei dan Pemetaan Nasional sesuai dengan amanat Undang- Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Badan sebagaimana (2) berkedudukan di bawah dan bertanggung jawab kepada Presiden. dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-22/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tugas, fungsi, susunan organisasi, dan tata kerja Badan diatur dengan Peraturan Presiden. (1) (2) (3)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "IG yang berjenis IGT sebagaimana dimaksud dalam Pasal Instansi 4 huruf b dapat diselenggarakan oleh Pemerintah, Pemerintah daerah, dan/atau setiap orang. Instansi Pemerintah atau Pemerintah daerah dalam menyelenggarakan IGT berdasarkan tugas, fungsi, dan kewenangannya sesuai dengan ketentuan peraturan perundang-undangan. Pemerintah daerah Instansi sebagaimana dalam menyelenggarakan IGT dapat bekerja sama dengan Badan. Pemerintah dimaksud pada atau ayat (2)",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang dapat menyelenggarakan IGT hanya untuk kepentingan sendiri dan selain yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah. Pasal 24 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan dapat mengintegrasikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-24/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "lebih dari satu IGT yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah menjadi satu IGT baru; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-24/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "IGT yang diselenggarakan oleh lebih dari satu Instansi Pemerintah dan/atau Pemerintah daerah menjadi satu IGT baru.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan dapat menyelenggarakan IGT dalam hal IGT yang belum diselenggarakan oleh Instansi Pemerintah selain Badan atau yang belum diselenggarakan oleh Pemerintah daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENYELENGGARAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Penyelenggaraan IG dilakukan melalui kegiatan: a. pengumpulan DG; b. pengolahan DG dan IG; c. penyimpanan dan pengamanan DG dan IG; d. penyebarluasan DG dan IG; dan e. penggunaan IG. Bagian Kedua Pengumpulan Data Geospasial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengumpulan DG sebagaimana dimaksud dalam Pasal 25 huruf a merupakan proses atau cara untuk mendapatkan DG yang dilakukan dengan menggunakan metode dan instrumen pengumpulan DG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "DG sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-26/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "DG Dasar; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-26/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "DG Tematik. Pasal 27 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengumpulan DG dilakukan dengan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "survei dengan menggunakan instrumentasi ukur dan/atau rekam, yang dilakukan di darat, pada wahana air, pada wahana udara, dan/atau pada wahana angkasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pencacahan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "cara lain sesuai dengan perkembangan ilmu pengetahuan dan teknologi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengumpulan DG sebagaimana dimaksud pada ayat (1) harus dilakukan sesuai dengan standar yang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sistem referensi geospasial; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "jenis, definisi, kriteria, dan format data.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara dan standar pengumpulan DG sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengumpulan DG harus memperoleh izin apabila:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-28/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dilakukan di daerah terlarang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-28/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berpotensi menimbulkan bahaya; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-28/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menggunakan wahana milik asing selain satelit. (2) Izin sebagaimana dimaksud pada ayat (1) dimaksudkan untuk menjamin keselamatan dan keamanan bagi pengumpul data dan bagi masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-28/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara memperoleh izin sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "(1) Instansi Pemerintah atau Pemerintah daerah dalam pengumpulan DG pada suatu kawasan harus memberitahukan kepada pemilik, penguasa, atau penerima manfaat dari kawasan tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemilik, penguasa, atau penerima manfaat dari kawasan sebagaimana dimaksud pada ayat (1) dapat menolak dan/atau menyarankan agar kegiatan pengumpulan data dilaksanakan pada waktu lain hanya apabila di kawasan tersebut ada hal yang dapat membahayakan pengumpul data.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penolakan . . . Penolakan dan/atau saran sebagaimana dimaksud pada ayat (2) harus disampaikan paling lambat 7 (tujuh) hari setelah pemberitahuan disampaikan oleh pengumpul data.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengumpul data dapat melanjutkan kegiatan pada kawasan tersebut apabila pemilik, penguasa, atau penerima manfaat dari kawasan tidak memberi jawaban (tujuh) hari sebagaimana dalam dimaksud pada ayat (3). jangka waktu 7 Bagian Ketiga Pengolahan Data dan Informasi Geospasial",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Pengolahan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf b merupakan proses atau cara mengolah data dan informasi geospasial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengolahan DG dan IG dilakukan dengan menggunakan perangkat lunak yang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-31/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berlisensi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bersifat bebas dan terbuka.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah memberikan insentif bagi setiap orang yang dapat membangun, mengembangkan, dan/atau menggunakan perangkat lunak pengolah DG dan IG yang bersifat bebas dan terbuka.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-31/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengolahan DG dan IG harus dilakukan di dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal sumber daya manusia dan/atau peralatan yang dibutuhkan belum tersedia di dalam negeri, pengolahan DG dan IG dapat dilakukan di luar negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengolahan . . . Pengolahan DG dan IG di luar negeri sebagaimana dimaksud pada ayat (2) dilakukan setelah mendapat izin sesuai dengan ketentuan peraturan dari Badan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Pengolahan DG dan penyajian IG. IG meliputi pemrosesan DG dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemrosesan DG sebagaimana dimaksud dalam Pasal 33 harus dilakukan sesuai dengan standar yang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sistem proyeksi dan sistem koordinat yang dengan jelas dan pasti dapat ditransformasikan ke dalam sistem koordinat standar nasional; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "format, basisdata, dan metadata yang dapat dengan mudah diintegrasikan dengan IG lain.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Standar sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "IG sebagaimana dimaksud dalam Pasal 33 Penyajian dilakukan dalam bentuk: a. tabel informasi berkoordinat; b. peta cetak, baik dalam bentuk lembaran maupun buku atlas; c. peta digital; d. peta interaktif, termasuk yang dapat diakses melalui teknologi informasi dan komunikasi; e. peta multimedia; f. bola dunia; atau g. model tiga dimensi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Penyajian IG dalam bentuk sebagaimana dimaksud dalam Pasal 35 huruf b sampai dengan huruf g wajib menggunakan skala yang ditentukan berdasarkan tingkat ketelitian sumber data dan tujuan penggunaan IG. Bagian Keempat . . . Bagian Keempat Penyimpanan dan Pengamanan Data dan Informasi Geospasial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Penyimpanan dan pengamanan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf c merupakan cara menempatkan DG dan IG pada tempat yang aman dan tidak rusak atau hilang untuk menjamin ketersediaan IG.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyimpanan dan pengamanan sebagaimana dimaksud dalam Pasal 37 dilakukan sesuai dengan standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyimpanan dan pengamanan sebagaimana dimaksud pada ayat (1) dilakukan dengan menggunakan media penyimpanan elektronik atau cetak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-38/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "(1) Instansi Pemerintah menyerahkan duplikat IGT yang diselenggarakannya kepada Instansi Pemerintah yang bertanggung jawab di bidang perpustakaan nasional dan di bidang arsip nasional dan dapat mengaksesnya kembali.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah daerah menyerahkan duplikat IGT yang diselenggarakannya kepada instansi yang bertanggung jawab di bidang perpustakaan daerah dan di bidang arsip daerah dan dapat mengaksesnya kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara penyerahan IGT sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah. Pasal 40 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengamanan DG dan IG juga dilakukan terhadap tanda fisik sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengamanan DG dan IG sebagaimana dimaksud pada ayat (1) dilakukan untuk menjamin agar IG:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-40/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tetap tersedia dan terjaga keutuhannya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-40/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "terjaga kerahasiaannya untuk IG yang bersifat tertutup. Bagian Kelima Penyebarluasan Data dan Informasi Geospasial",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Penyebarluasan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf d merupakan kegiatan pemberian akses, pendistribusian, dan pertukaran DG dan IG yang dapat dilakukan dengan menggunakan media elektronik dan media cetak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "IGD sebagaimana dimaksud dalam Pasal 4 huruf a bersifat terbuka.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "(1) (2) IGT yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah bersifat terbuka. IGT tertentu yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah dapat bersifat tertutup sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara IG yang bersifat terbuka menyebarluaskan IG sebagaimana dimaksud dalam Pasal 41 dengan cara yang berdaya guna dan berhasil guna.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggara . . . Penyelenggara IG sebagaimana dimaksud pada ayat (1) membuat dan mengumumkan standar pelayanan minimal untuk penyebarluasan IG yang diselenggarakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah dapat memberikan penghargaan bagi setiap orang yang membantu menyebarluaskan IG yang bersifat terbuka.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah membangun jaringan IG untuk penyebarluasan IG secara elektronik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jaringan IG sebagaimana dimaksud pada ayat (1) terintegrasi pada dibangun secara bertingkat dan jaringan IG pusat dan jaringan IG daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jaringan IG pusat dilaksanakan oleh Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-45/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Jaringan IG daerah dilaksanakan oleh Pemerintah daerah dan diintegrasikan dengan jaringan IG pusat oleh Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-45/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan mengenai jaringan IG dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "Dalam hal IG memiliki kekuatan hukum, IG tersebut wajib disahkan oleh pejabat yang berwenang sebelum diumumkan dan disebarluaskan. Bagian Keenam Penggunaan Informasi Geospasial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan IG sebagaimana dimaksud dalam Pasal 25 huruf e merupakan kegiatan untuk memperoleh manfaat, baik langsung maupun tidak langsung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara memperoleh manfaat sebagaimana dimaksud pada ayat (1) diatur oleh penyelenggara IG. Pasal 48 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "yang Untuk memperoleh diselenggarakan oleh Instansi Pemerintah dan Pemerintah daerah dapat dikenakan biaya tertentu yang besarnya sesuai dengan ketentuan peraturan perundang-undangan. dan menggunakan IG",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengguna IG berhak mengetahui kualitas IG yang diperolehnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggara IG wajib memberitahukan kualitas setiap IG yang diselenggarakannya dalam bentuk metadata dan/atau riwayat data. dibuat dalam pada ayat ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-49/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengguna IG berhak menolak hasil IG yang tidak berkualitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-49/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Metadata dan/atau riwayat data sebagaimana dimaksud format tertentu yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Instansi Pemerintah, Pemerintah daerah, dan setiap orang yang membuat produk turunan suatu IG dengan maksud untuk diperjualbelikan wajib mendapat izin dari pemilik IG.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Instansi Pemerintah dan Pemerintah daerah harus menggunakan IG yang akurat dalam pengambilan keputusan dan/atau penentuan kebijakan yang berhubungan dengan ruang kebumian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Untuk keperluan penanggulangan bencana, setiap orang harus memberikan IGT yang dimilikinya apabila diminta oleh Instansi Pemerintah atau Pemerintah daerah yang diberi tugas dalam urusan penanggulangan bencana. Bagian Ketujuh . . . Bagian Ketujuh Infrastruktur Penyelenggaraan Informasi Geospasial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah pembangunan infrastruktur IG untuk memperlancar penyelenggaraan IG. memfasilitasi wajib (2) Infrastruktur IG sebagaimana dimaksud pada ayat (1) terdiri atas kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-53/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah. lanjut mengenai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELAKSANA INFORMASI GEOSPASIAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Kegiatan penyelenggaraan IG oleh Instansi Pemerintah atau Pemerintah daerah dapat dilaksanakan oleh setiap orang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan IG sebagaimana dimaksud dalam Pasal 54 yang dilakukan oleh orang perseorangan wajib memenuhi kualifikasi kompetensi yang dikeluarkan oleh lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan IG yang dilakukan oleh kelompok orang wajib memenuhi kualifikasi sebagai kelompok yang bergerak di bidang IG sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan IG yang dilakukan oleh badan usaha wajib memenuhi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "persyaratan administratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "persyaratan teknis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan . . . Persyaratan administratif sebagaimana dimaksud pada ayat (1) huruf a paling sedikit meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "akte pendirian badan hukum Indonesia; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "izin usaha sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persyaratan teknis sebagaimana dimaksud pada ayat (1) huruf b meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki sertifikat yang memenuhi klasifikasi dan kualifikasi sebagai penyedia jasa di bidang IG; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki tenaga profesional yang tersertifikasi di bidang IG.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sertifikasi sebagaimana dimaksud pada ayat (3) huruf a dilakukan oleh lembaga independen yang telah mendapat akreditasi dari Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Sertifikat tenaga profesional sebagaimana dimaksud pada ayat (3) huruf b diterbitkan oleh lembaga yang berwenang sesuai dengan ketentuan Peraturan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-56/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara sertifikasi sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PEMBINAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan melakukan pembinaan mengenai pemaknaan, terhadap evaluasi pengarahan, perencanaan, dan penyelenggaraan IGT.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan penyelenggaraan IGT sebagaimana dimaksud pada ayat (1) dilakukan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyelenggara IGT; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengguna IG.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembinaan kepada penyelenggara IGT sebagaimana dimaksud pada ayat (2) huruf a dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengaturan dalam bentuk penerbitan peraturan dan perundang-undangan, spesifikasi teknis serta sosialisasinya; pedoman, standar,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemberian . . . pemberian bimbingan, supervisi, pendidikan, dan pelatihan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "perencanaan, penelitian, pengembangan, pemantauan, dan evaluasi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyelenggaraan jabatan fungsional secara nasional untuk sumber daya manusia di Instansi Pemerintah dan Pemerintah daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pembinaan kepada pengguna IG sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui: diatur dengan Peraturan Pemerintah. lanjut mengenai lebih",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sosialisasi keberadaan IG beserta kemungkinan pemanfaatannya; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pendidikan dan pelatihan teknis penggunaan IG.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-57/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan pembinaan sebagaimana dimaksud pada ayat (1) sampai dengan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "LARANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Setiap orang yang tanpa hak dan melawan hukum dilarang menghilangkan, merusak, mengambil, memindahkan, atau mengubah tanda fisik yang merupakan bagian dari JKHN, JKVN, dan JKGN serta instrumen survei yang sedang digunakan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang mengubah IGD tanpa izin dari Badan dan menyebarluaskan hasilnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang dilarang menyebarluaskan IGD yang diubah-tanpa izin sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-60/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang mengubah IGT tanpa izin dari penyelenggara IGT dan menyebarluaskan hasilnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang dilarang menyebarluaskan IGT yang diubah- tanpa izin sebagaimana dimaksud pada ayat (1). Pasal 61 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Setiap orang dilarang membuat IG yang penyajiannya tidak tingkat ketelitian sumber data yang sesuai dengan mengakibatkan timbulnya kerugian orang dan/atau barang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Setiap orang dilarang menyebarluaskan IG yang belum disahkan sebagaimana dimaksud dalam Pasal 46.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "SANKSI ADMINISTRATIF",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang melanggar ketentuan Pasal 20, Pasal 36, Pasal 46, Pasal 49 ayat (2), Pasal 50, atau Pasal 55 dapat dikenai sanksi administratif. berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peringatan tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penghentian sementara sebagian atau seluruh kegiatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "denda administratif; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pencabutan izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sanksi administratif sebagaimana dimaksud pada ayat diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-63/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara pelaksanaan sanksi administratif sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-64/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 58 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-64/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp1.250.000.000,00 (satu miliar dua ratus lima puluh juta rupiah). Pasal 65 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 59 ayat (1) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 59 ayat (2) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 60 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 60 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-66/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "Setiap orang yang memenuhi unsur Pasal 61 dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah). Pasal 68 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-68/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memenuhi unsur Pasal 62 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-68/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-69/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada saat Undang-Undang ini berlaku, penyelenggara IG tetap dapat menjalankan kegiatannya dengan ketentuan dalam waktu paling tahun wajib menyesuaikan berdasarkan Undang-Undang ini. lama 3 (tiga)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sebelum Badan yang dimaksudkan Undang-Undang ini ditetapkan, penyelenggaraan IGD dilakukan oleh Badan Koordinasi Survei dan Pemetaan Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2011/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peraturan Pemerintah dan peraturan pelaksanaan lainnya dari Undang-Undang ini ditetapkan paling lambat 2 (dua) tahun sejak Undang-Undang ini berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2011/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pada saat berlakunya Undang-Undang ini, maka segala yang mengatur peraturan dan/atau berkaitan dengan penyelenggaraan IG dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-Undang ini. perundang-undangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2011/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . setiap Agar orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 21 April 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 April 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 49 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA RI Asisten Deputi Perundang-undangan Bidang Perekonomian, Setio Sapto Nugroho",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "slug": "uu-no-21-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "..."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "217806",
+   "slug": "uu-no-21-tahun-2022",
+   "nomor": 21,
+   "tahun": 2022,
+   "jenis": "UU",
+   "judul": "UU No. 21 Tahun 2022 tentang Provinsi Nusa Tenggara Timur - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/224678/UU%20Nomor%2021%20Tahun%202022-.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-64-tahun-1958"
+   ],
+   "scrapedAt": "2026-09-30T01:21:06.847332+00:00"
+  },
+  "sha256": "9080ff6f0fe2d4a7f83e9d1e3b440a0ceca678dd7f1829d7ba831f47b4f77899",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-21-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-21-tahun-2022/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Provinsi Nusa Tenggara Timur adalah bagian dari wilayah Negara Kesatuan dibentuk berdasarkan tentang Pembentukan Daerah-Daerah Tingkat I Bali, Nusa Tenggara Barat dan Nusa Tenggara Timur. Republik Undang-Undang Nomor 64 Tahun Indonesia yang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-21-tahun-2022/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Kabupaten /Kota adalah kabupaten/kota yang ada di wilayah Provinsi Nusa Tenggara Timur. Pasal2 Tanggal 14 Agustus tanggal pembentukan 1958 merupakan Provinsi Nusa Tenggara Timur berdasarkan Undang-Undang Nomor 64 Tahun 1958 tentang Pembentukan Daerah-Daerah Tingkat I Bali, Nusa Tenggara Barat dan Nusa Tenggara Timur (Lembaran Negara Tahun 115, Tambahan Lembaran Negara Nomor 1649). 1958 Nomor",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-21-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "CAKUPANWILAYAH,ISU KOTA,DAN KARAKTERISTIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

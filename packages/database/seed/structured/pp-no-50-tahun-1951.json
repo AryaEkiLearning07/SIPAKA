@@ -1,0 +1,42 @@
+{
+ "slug": "pp-no-50-tahun-1951",
+ "preamble": {
+  "menimbang": [
+   "Peraturan Sementara tentang gaji pegawai Negeri Sipil, yang ditetapkan dalam Peraturan Pemerintah Republik Indonesia tanggal 22 Juli 1950 No. 16; Undang-undang Darurat No. 10 tahun 1951 tentang pencabutan kembali Undang-undang Darurat No. 5 tahun 1950 tentang Peraturan Gaji Militer tahun 1950;",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-50-tahun-1951",
+   "detailsId": "77654",
+   "judul": "PP No. 50 Tahun 1951 tentang Peraturan Sementara Tentang Penetapan Gaji Tentara &#xD;&#xA;Angkatan Darat&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68870/PP%20No.%2050%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:35.334022+00:00"
+  },
+  "sha256": "4012ee5f1302dbf9e759aad314bb5cedd3faec4b1eeb01271c1f6b94af91026a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

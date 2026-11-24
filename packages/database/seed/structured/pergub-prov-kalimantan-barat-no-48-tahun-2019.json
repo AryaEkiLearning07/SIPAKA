@@ -1,0 +1,90 @@
+{
+ "slug": "pergub-prov-kalimantan-barat-no-48-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mendorong motivasi kerja dan peningkatan kesejahteraan pegawai Rumah Sakit Umum telah diterbitkan Peraturan Daerah Dokter Soedarso Gubernur Nomor 156 Tahun 2016 tentang Pembagian Jasa Pelayanan Pada Badan Layanan Umum Daerah Rumah Sakit Umum Daerah Dokter Soedarso;",
+   "bahwa sehubungan dengan perkembangan situasi dan kondisi saat ini, dan setelah dievaluasi maka Peraturan 156 Tahun 2016 dimaksud perlu Gubernur Nomor dilakukan penyesuaian dan perubahan;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a clan huruf b, perlu menetapkan Peraturan Gubernur tentang Perubahan Atas Peraturan Gubernur tentang Pembagian Jasa Nomor Pelayanan Pada Badan Layanan Umum Daerah Rumah Sakit Umum Daerah Dokter Soedarso; 156 Tahun 2016"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pergub-prov-kalimantan-barat-no-48-tahun-2019",
+   "detailsId": "145394",
+   "judul": "PERGUB Prov. Kalimantan Barat No. 48 Tahun 2019 tentang PERUBAHAN ATAS PERATURAN GUBERNUR NOMOR 156 TAHUN 2016 TENTANG PEMBAGIAN JASA PELAYANAN PADA BADAN LAYANAN UMUM DAERAH RUMAH SAKIT UMUM DAERAH DOKTER SOEDARSO - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/275682/Pergub%20No%2048%20Tahun%202019%20ocr.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T11:54:25.720626+00:00"
+  },
+  "sha256": "bdf7007591901d892f8ce48537c8f84e75f5f23c25d61c10b82a75ed1fe6e58b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pergub-prov-kalimantan-barat-no-48-tahun-2019/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-48-tahun-2019/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendanaan bersumber dari Penerimaan BLUD Rumah Sakit Umum Daerah Dokter Soedarso yang terdiri dari Jasa Sarana dan Jasa Pelayanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-48-tahun-2019/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tarif Jasa Pelayanan sebagaimana dimaksud pada ayat (1) paling tinggi sebesar 50% (Lima Puluh Persen). KARO UKUM ] ASISTER EDA ,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-48-tahun-2019/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pembayaran yang diperoleh dari pasien peserta Badan Pengelola Jaminan Sosial (BPJS) tarif dihitung berdasarkan INA CBG's, dengan rincian untuk Jasa Sarana sebesar 60% (Enam Puluh Persen) dan Jasa Pelayanan sebesar 40% (Empat Puluh Persen).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pergub-prov-kalimantan-barat-no-48-tahun-2019/pasal-3/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Pembayaran yang diperoleh dari Pelayanan Pasien Umum dilaksanakan sesuai ketentuan yang mengatur tentang tarif pelayanan kesehatan Rumah Sakit Umum Daerah Dokter Soedarso. Pasal II Peraturan Gubemur ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Gubemur ini dengan penempatannya dalam Berita Daerah Provinsi Kalimantan Barat. Ditetapkan di Pontianak pada tanggal \\8 Secs»l 2o\\9 GUBERNUR KALIMANTAN BARAT, ttd SUTARMIDJI Diundangkan di Pontianak IC Scp!usher pada tanggal SEKRETARIS DAERAH PROVINS! KALIMANTAN BARAT, ttd A.L. LEYSANDRI BERITA DAERAH PROVINSI KALIMANTAN BARAT TAHUN 2019 NOMOR 49",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..3): [1, 2]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

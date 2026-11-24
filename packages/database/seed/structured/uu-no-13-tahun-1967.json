@@ -1,0 +1,105 @@
+{
+ "slug": "uu-no-13-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa Anggaran Pendapatan dan Belanja Negara untuk tahun 1968 perlu ditetapkan dengan Undang-undang:"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 30 Desember 1967. Kabinet Ampera Republik Indonesia Sekretaris, ttd SUDHARMONO S.H. Brig. Jen. T.N.I. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1967 NOMOR 33 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG NO. 13 TAHUN 1967 TENTANG ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN 1968 UMUM. Memenuhi ketentuan-ketentuan perundangan, maka di dalam Undang-undang Anggaran Pendapatan dan Belanja Negara tahun 1968 yang dicantumkan secara ringkas jumlah-jumlah Pendapatan dan Belanja Negara tahun 1968. Untuk tahun ini secara terpisah disebutkan sumber-sumber untuk Anggaran Routine dan sumber- sumber untuk Anggaran Pembangunan karena Pemerintah bermaksud melaksanakan anggaran belanja fungsional yang berarti program oriented. Sehingga Anggaran Pendapatan dan Belanja Negara dalam aspek pembiayaannya diarahkan sedemikian rupa sehingga penerimaan dari dalam Negeri diperuntukkan pembiayaan routine, sedangkan pembiayaan pembangunan. luar Negeri dikhususkan penerimaan untuk dari Selanjutnya Pemerintah dengan berpegang pada azas Balanced budget, berusaha agar penerimaan routine seimbang dengan pengeluaran routine, dan penerimaan pembangunan seimbang dengan p",
+ "source": {
+  "url": {
+   "slug": "uu-no-13-tahun-1967",
+   "detailsId": "49590",
+   "judul": "UU No. 13 Tahun 1967 tentang Anggaran Pendapatan Dan Belanja Negara Tahun 1968 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/38868/UU%20Nomor%2013%20Tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:56:15.314414+00:00"
+  },
+  "sha256": "ebd766d2d1848911ebf508437dee85100f36e460cec7c47fafb4f86b1ca10e4e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-13-tahun-1967/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara tahun 1968 diperoleh dari: sub a menurut perkiraan berjumlah Rp 97.185.960.100,-.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "sumber-sumber Anggaran Routine dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "sumber-sumber Anggaran Pembangunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pendapatan Routine dimaksud pada ayat dan (3) diatas berturut-turut dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pendapatan... - - Pendapatan Pembangunan dimaksud pada ayat (1) sub b menurut perkiraan berjumlah Rp 41.500.000.000,,-.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1967/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian pendapatan dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

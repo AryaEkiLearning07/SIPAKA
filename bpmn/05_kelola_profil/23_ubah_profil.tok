@@ -1,0 +1,33 @@
+tok 1.0 "Ubah Profil (Kelola Profil)"
+
+pool p "Ubah Profil" process=ubah_profil
+  store d_profil "Profil Pengguna"
+  start mulai "Perubahan profil diterima" message="Data profil baru"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service valid "Validasi data profil"
+  xor ok "Data profil valid?"
+  service simpan "Simpan perubahan profil"
+  end selesai "Profil diperbarui" message="Konfirmasi profil diperbarui"
+  send pesan "Kirim pesan kesalahan data profil" message="Pesan kesalahan profil"
+  receive perbaiki "Terima data profil yang diperbaiki" message="Data profil diperbaiki"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> valid "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow valid -> ok
+flow ok -> simpan "ya" when="profilValid"
+flow ok -> pesan "tidak" default
+flow pesan -> perbaiki -> valid
+flow simpan -> selesai
+
+writes simpan d_profil
+
+message user -> mulai "Data profil baru"
+message tolak -> user "Akses ditolak"
+message selesai -> user "Konfirmasi profil diperbarui"
+message pesan -> user "Pesan kesalahan profil"
+message user -> perbaiki "Data profil diperbaiki"

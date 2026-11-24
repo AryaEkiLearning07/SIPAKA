@@ -1,0 +1,60 @@
+{
+ "slug": "perpres-no-71-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa percepatan pembangunan pembangkit tenaga listrik sebagaimana dimaksud dalam huruf a memerlukan kepastian hukum dalam proses pengadaan tanahnya;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menugaskan kepada PT Perusahaan Listrik Negara (Persero) selaku Pemegang Kuasa Usaha Ketenagalistrikan untuk melakukan percepatan pembangunan pembangkit tenaga listrik yang menggunakan batubara dalam Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-71-tahun-2006",
+   "detailsId": "42005",
+   "judul": "PERPRES No. 71 Tahun 2006 tentang Penugasan Kepada PT Perusahaan Listrik Negara (Persero) Untuk Melakukan Percepatan Pembangunan Pembangkit Tenaga Listrik yang Menggunakan Batubara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/71044/PERPRES%20No.71%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:12:34.872191+00:00"
+  },
+  "sha256": "bb9eb4b3b600a3598a271767fa9227d1955602c8f302b30abda40f9cd8073864",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-71-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-71-tahun-2006/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pemerintah menugaskan kepada PT Perusahaan Listrik Negara (Persero), yang selanjutnya disebut PT PLN (Persero), untuk menyelenggarakan pengadaan pembangunan pembangkit tenaga listrik yang menggunakan batubara di lokasi dan dengan jadwal operasi proyek sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

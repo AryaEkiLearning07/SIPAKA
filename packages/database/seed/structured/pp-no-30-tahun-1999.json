@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-30-tahun-1999",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan berlakunya Undang-undang Nomor 10 Tahun 1998 tentang Perubahan Atas Undang-undang Nomor 7 Tahun 1992 tentang Perbankan, ketentuan pelaksanaan mengenai Bank Umum, Bank Perkreditan Rakyat dan Bank Berdasarkan Prinsip Syariah ditetapkan oleh Bank Indonesia;",
+   "bahwa ketentuan pelaksanaan mengenai Bank Umum, Bank Perkreditan Rakyat dan Bank Berdasarkan Prinsip Bagi Hasil selama ini diatur dalam Peraturan Pemerintah Nomor 70 Tahun 1992 sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Pemerintah Nomor 73 Tahun 1998, Peraturan Pemerintah Nomor 71 Tahun 1992 dan Peraturan Pemerintah Nomor 72 Tahun 1992;",
+   "bahwa berhubung dengan itu perlu ditetapkan pencabutan Peraturan Pemerintah dimaksud dalam Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-30-tahun-1999",
+   "detailsId": "54290",
+   "judul": "PP No. 30 Tahun 1999 tentang Pencabutan Peraturan Pemerintah Nomor 70 Tahun 1992 Tentang Bank Umum Sebagaimana Telah Beberapa Kali Diubah Terakhir Dengan Peraturan Pemerintah Nomor 73 Tahun 1998, Peraturan Pemerintah Nomor 71 Tahun 1992 Tentang Bank Perkreditan Rakyat, Dan Peraturan Pemerintah Nomor 72 Tahun 1992 Tentang Bank Berdasarkan Prinsip Bagi Hasil. - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/43687/PP%20No.%2030%20th%201999.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-73-tahun-1998",
+    "pp-no-54-tahun-1998",
+    "pp-no-38-tahun-1998",
+    "pp-no-60-tahun-1996",
+    "pp-no-72-tahun-1992",
+    "pp-no-71-tahun-1992",
+    "pp-no-70-tahun-1992"
+   ],
+   "scrapedAt": "2026-10-06T00:46:13.846693+00:00"
+  },
+  "sha256": "3a7045830c74ad6f94ee8bf046883836f99f05f3bdd5e1d9850a06367c94fbcf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-30-tahun-1999/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mencabut dan menyatakan tidak berlaku : a. Peraturan Pemerintah Nomor 70 Tahun 1992 tentang Bank Umum (Lembaran Negara Tahun 1992 Nomor 117, Tambahan Lembaran Negara Nomor 3503) sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Pemerintah Nomor 73 Tahun 1998 (Lembaran Negara Tahun 1998 Nomor 162, Tambahan Lembaran Negara Nomor 3782); b. Peraturan … b. Peraturan Pemerintah Nomor 71 Tahun 1992 tentang Bank Perkreditan Rakyat (Lembaran Negara Tahun 1992 Nomor 118, Tambahan Lembaran Negara Nomor 3504); dan c. Peraturan Pemerintah Nomor 72 Tahun 1992 tentang Bank Berdasarkan Prinsip Bagi Hasil (Lembaran Negara Tahun 1992 Nomor 119, Tambahan Lembaran Negara Nomor 3505).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-1999/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan-ketentuan pelaksanaan dari Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 1 dinyatakan tetap berlaku sampai dengan dicabut, diganti atau diperbaharui, sepanjang tidak bertentangan dengan Undang-undang Nomor 7 Tahun 1992 tentang Perbankan sebagaimana telah diubah dengan Undang-undang Nomor 10 Tahun 1998 dan peraturan pelaksanaannya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-1999/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku sejak tanggal Bank Indonesia mengeluarkan peraturan tentang Bank Umum, Bank Perkreditan Rakyat dan Bank Berdasarkan Prinsip Syariah. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 7 Mei 1999 PRESIDEN REPUBLIK INDONESIA, ttd. BACHARUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 7 Mei 1999 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. AKBAR TANDJUNG LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 63",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

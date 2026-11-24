@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-45-tahun-1948",
+ "preamble": {
+  "menimbang": [
+   "Bahwa perlu mengganti Peraturan Pemerintah No. S. 4 tahun 1948 dengan peraturan baru yang sesuai dengan adanya Mahkamah dan Kejaksaan Tentara Tinggi;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-45-tahun-1948",
+   "detailsId": "63857",
+   "judul": "PP No. 45 Tahun 1948 tentang Pemberian Pangkat Militer Kepada Hakim dan lain Sebagainya Dalam Peradilan Ketentaraan. - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54066/PP%20No%2045%20Tahun1948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:27.334440+00:00"
+  },
+  "sha256": "cca6577591e50505afa609b11f4a2ffcd05bd697560eb6183cf7342b475584b8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-45-tahun-1948/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "Ditetapkan di Yogyakarta pada tanggal 9 Oktober 1948. PRESIDEN REPUBLIK INDONESIA, Diumumkan pada tanggal 9 Oktober 1948. Menteri Pertahanan a.i. MOHAMMAD HATTA. Sekretaris Negara, A.G. PRINGGODIGDO. Menteri Kehakiman, SOESANTO TIRTOPRODJO.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

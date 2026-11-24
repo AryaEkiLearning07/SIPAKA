@@ -1,0 +1,291 @@
+{
+	"SIPAKA": {
+		"Kelola Akun & Akses": {
+			"Daftarkan Akun": {
+				"Validasi Data Registrasi": {},
+				"Buat Akun Pengguna": {
+					"Tetapkan Peran Pengguna": {
+						"$ref": "SIPAKA/Kelola Akun & Akses/Kelola Peran Pengguna/Tetapkan Peran Pengguna"
+					}
+				}
+			},
+			"Masuk": {
+				"Verifikasi Kredensial": {},
+				"Buat Sesi": {}
+			},
+			"Keluar": {
+				"Akhiri Sesi": {}
+			},
+			"Otorisasi Akses": {
+				"Validasi Token Sesi": {},
+				"Periksa Izin Peran": {}
+			},
+			"Kelola Peran Pengguna": {
+				"Tetapkan Peran Pengguna": {},
+				"Cabut Peran Pengguna": {}
+			}
+		},
+		"Pelacak Dokumen Hukum": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Cari Undang-Undang": {
+				"Urai Kueri Pencarian": {},
+				"Terapkan Filter Pencarian": {},
+				"Urutkan Hasil Pencarian": {},
+				"Tampilkan Hasil Pencarian": {}
+			},
+			"Lihat Detail Undang-Undang": {
+				"Tampilkan Metadata UU": {},
+				"Tampilkan Status Keberlakuan": {},
+				"Unduh PDF Asli": {}
+			},
+			"Baca Teks Undang-Undang": {
+				"Tampilkan Teks Konsolidasi": {
+					"Tampilkan Anotasi Pasal": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Anotasi Teks Undang-Undang/Tampilkan Anotasi Pasal"
+					}
+				},
+				"Navigasi Struktur Dokumen": {
+					"Tampilkan Panel Bab & Pasal": {},
+					"Tautkan Rujukan Antarpasal": {}
+				},
+				"Deteksi Istilah Latin": {
+					"$ref": "SIPAKA/Glosarium Latin/Deteksi Istilah Latin"
+				},
+				"Tampilkan Popup Istilah": {
+					"$ref": "SIPAKA/Glosarium Latin/Tampilkan Popup Istilah"
+				}
+			},
+			"Lacak Amandemen": {
+				"Tampilkan Linimasa Amandemen": {
+					"Kelompokkan Amandemen per Tahun": {},
+					"Tampilkan Teks Versi Terpilih": {}
+				},
+				"Terapkan Penandaan Warna Perubahan": {
+					"Tandai Teks Dihapus": {},
+					"Tandai Teks Disisipkan atau Direvisi": {}
+				},
+				"Tampilkan Sidebar Detail Perubahan": {
+					"Ambil Riwayat Perubahan": {},
+					"Tampilkan Sumber UU Pengubah": {
+						"Lihat Detail Undang-Undang": {
+							"$ref": "SIPAKA/Pelacak Dokumen Hukum/Lihat Detail Undang-Undang"
+						}
+					},
+					"Bandingkan Versi Pasal": {
+						"Hitung Selisih Teks": {},
+						"Tampilkan Tampilan Berdampingan": {}
+					}
+				},
+				"Visualisasikan Relasi Undang-Undang": {
+					"Bangun Graf Relasi": {},
+					"Tampilkan Graf Relasi": {}
+				}
+			},
+			"Anotasi Teks Undang-Undang": {
+				"Buat Anotasi": {},
+				"Ubah Anotasi": {},
+				"Hapus Anotasi": {},
+				"Tampilkan Anotasi Pasal": {},
+				"Beri Penanda Pasal": {}
+			}
+		},
+		"Kelola Konten Hukum": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Impor Dokumen UU": {
+				"Uraikan PDF UU": {},
+				"Ekstrak Struktur Dokumen": {},
+				"Validasi Metadata UU": {},
+				"Terbitkan Dokumen UU": {}
+			},
+			"Daftarkan Amandemen": {
+				"Tautkan UU Pengubah": {},
+				"Identifikasi Ketentuan Baru": {
+					"Hitung Selisih Teks": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Lacak Amandemen/Tampilkan Sidebar Detail Perubahan/Bandingkan Versi Pasal/Hitung Selisih Teks"
+					}
+				},
+				"Susun Teks Konsolidasi": {},
+				"Perbarui Status Keberlakuan": {}
+			},
+			"Ubah Metadata UU": {},
+			"Hapus Dokumen UU": {}
+		},
+		"Forum Diskusi Kasus": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Jelajahi Diskusi": {
+				"Saring Berdasarkan Kategori Hukum": {},
+				"Tampilkan Daftar Diskusi": {}
+			},
+			"Buat Thread Diskusi": {
+				"Validasi Isi Thread": {},
+				"Pilih Tipe Thread": {},
+				"Tetapkan Kategori Hukum": {},
+				"Tautkan Rujukan UU": {
+					"Cari Undang-Undang": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Cari Undang-Undang"
+					}
+				},
+				"Beri Poin Reputasi": {
+					"$ref": "SIPAKA/Kelola Profil & Repositori/Kelola Reputasi/Beri Poin Reputasi"
+				}
+			},
+			"Lihat Thread Diskusi": {
+				"Tampilkan Isi Thread": {},
+				"Urutkan Komentar": {},
+				"Tampilkan Lencana Verifikasi": {},
+				"Deteksi Istilah Latin": {
+					"$ref": "SIPAKA/Glosarium Latin/Deteksi Istilah Latin"
+				},
+				"Tampilkan Popup Istilah": {
+					"$ref": "SIPAKA/Glosarium Latin/Tampilkan Popup Istilah"
+				}
+			},
+			"Kirim Komentar": {
+				"Validasi Isi Komentar": {},
+				"Beri Poin Reputasi": {
+					"$ref": "SIPAKA/Kelola Profil & Repositori/Kelola Reputasi/Beri Poin Reputasi"
+				}
+			},
+			"Upvote Komentar": {
+				"Alihkan Status Upvote": {},
+				"Beri Poin Reputasi": {
+					"$ref": "SIPAKA/Kelola Profil & Repositori/Kelola Reputasi/Beri Poin Reputasi"
+				}
+			},
+			"Verifikasi Argumen": {
+				"Tinjau Argumen Hukum": {},
+				"Tandai Argumen Terverifikasi": {},
+				"Lampirkan Lencana Verifikasi": {},
+				"Beri Poin Reputasi": {
+					"$ref": "SIPAKA/Kelola Profil & Repositori/Kelola Reputasi/Beri Poin Reputasi"
+				}
+			},
+			"Moderasi Konten": {
+				"Laporkan Konten": {},
+				"Tinjau Konten Dilaporkan": {},
+				"Hapus Konten": {}
+			}
+		},
+		"Kelola Profil": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Lihat Profil": {
+				"Tampilkan Poin Reputasi": {},
+				"Tampilkan Lencana": {},
+				"Tampilkan Riwayat Aktivitas": {
+					"Tampilkan Daftar Diskusi": {
+						"$ref": "SIPAKA/Forum Diskusi Kasus/Jelajahi Diskusi/Tampilkan Daftar Diskusi"
+					}
+				}
+			},
+			"Ubah Profil": {},
+			"Kelola Reputasi": {
+				"Beri Poin Reputasi": {
+					"Hitung Nilai Poin": {},
+					"Evaluasi Kelayakan Lencana": {
+						"Berikan Lencana Prestasi": {}
+					}
+				}
+			}
+		},
+		"Kelola Repositori": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Tambah Entri Repositori": {
+				"Buat Entri Studi Kasus": {},
+				"Lampirkan Catatan Pasal": {
+					"Tampilkan Anotasi Pasal": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Anotasi Teks Undang-Undang/Tampilkan Anotasi Pasal"
+					}
+				},
+				"Lampirkan Analisis Hukum": {}
+			},
+			"Jelajahi Repositori": {
+				"Saring Entri Repositori": {}
+			},
+			"Ubah Entri Repositori": {},
+			"Hapus Entri Repositori": {},
+			"Atur Visibilitas Entri": {}
+		},
+		"Glosarium Latin": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Deteksi Istilah Latin": {
+				"Pindai Teks untuk Istilah Glosarium": {},
+				"Sorot Istilah Latin": {}
+			},
+			"Tampilkan Popup Istilah": {
+				"Cari Definisi Istilah": {},
+				"Susun Popup Istilah": {}
+			},
+			"Kelola Glosarium": {
+				"Tambah Istilah Glosarium": {},
+				"Ubah Istilah Glosarium": {},
+				"Hapus Istilah Glosarium": {}
+			}
+		},
+		"Asisten Riset AI": {
+			"Otorisasi Akses": {
+				"$ref": "SIPAKA/Kelola Akun & Akses/Otorisasi Akses"
+			},
+			"Tangani Permintaan AI": {
+				"Periksa Kuota Penggunaan AI": {},
+				"Ambil Respons AI dari Cache": {},
+				"Susun Prompt Konteks": {},
+				"Simpan Respons AI ke Cache": {},
+				"Sertakan Disclaimer AI": {}
+			},
+			"Jelaskan Undang-Undang": {
+				"Jelaskan Makna Pasal": {},
+				"Ringkas Linimasa Amandemen": {
+					"Kelompokkan Amandemen per Tahun": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Lacak Amandemen/Tampilkan Linimasa Amandemen/Kelompokkan Amandemen per Tahun"
+					},
+					"Ambil Riwayat Perubahan": {
+						"$ref": "SIPAKA/Pelacak Dokumen Hukum/Lacak Amandemen/Tampilkan Sidebar Detail Perubahan/Ambil Riwayat Perubahan"
+					}
+				},
+				"Tangani Permintaan AI": {
+					"$ref": "SIPAKA/Asisten Riset AI/Tangani Permintaan AI"
+				},
+				"Tambah Entri Repositori": {
+					"$ref": "SIPAKA/Kelola Repositori/Tambah Entri Repositori"
+				}
+			},
+			"Cari dengan AI": {
+				"Tafsirkan Kueri Pengguna": {},
+				"Urutkan Hasil Pencarian AI": {},
+				"Terapkan Filter Pencarian": {
+					"$ref": "SIPAKA/Pelacak Dokumen Hukum/Cari Undang-Undang/Terapkan Filter Pencarian"
+				},
+				"Tangani Permintaan AI": {
+					"$ref": "SIPAKA/Asisten Riset AI/Tangani Permintaan AI"
+				}
+			},
+			"Temukan Kasus Serupa": {
+				"Ekstrak Fakta Kasus": {},
+				"Ambil Kasus Paralel": {},
+				"Tampilkan Riwayat Penanganan Kasus": {},
+				"Tangani Permintaan AI": {
+					"$ref": "SIPAKA/Asisten Riset AI/Tangani Permintaan AI"
+				},
+				"Tambah Entri Repositori": {
+					"$ref": "SIPAKA/Kelola Repositori/Tambah Entri Repositori"
+				}
+			},
+			"Laporkan Jawaban AI Keliru": {
+				"Kirim Laporan Kesalahan": {},
+				"Tandai Jawaban untuk Ditinjau": {}
+			}
+		}
+	}
+}

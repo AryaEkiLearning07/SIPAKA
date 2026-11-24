@@ -1,0 +1,69 @@
+{
+ "slug": "uu-no-7-tahun-1973",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perjanjian tersebut pada huruf a diatas dipandang perlu untuk disetujui dengan Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1973",
+   "detailsId": "47436",
+   "judul": "UU No. 7 Tahun 1973 tentang Perjanjian antara Republik Indonesia dan Republik Singapura Mengenai Penetapan Garis Batas Laut Wilayah Kedua Negara di Selat Singapura - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36412/UU%20Nomor%207%20Tahun%201973.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:54:08.515729+00:00"
+  },
+  "sha256": "d170f39c74a9bff051ef70db05ccb940146265f116f4e6f4f95dab1ab039246a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1973/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Menyetujui Perjanjian antara Republik Indonesia dan Republik Singapura tentang Penetapan Garis Batas Laut Wilayah kedua Negara di Selat Singapura yang ditandatangani pada tanggal 25 Mei 1973 dan yang salinannya dilampirkan pada Undang-undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1973/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Perjanjian tersebut diatas mulai berlaku pada tanggal pertukaran Piagam Pengesahannya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1973/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Undang-undang ini mulai berlaku pada hari tanggal diundangkannya. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 8 Desember 1973 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 8 Desember 1973 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH. MAYOR JENDERAL TNI.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

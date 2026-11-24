@@ -1,0 +1,100 @@
+{
+ "slug": "perpres-no-103-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa pertumbuhan kawasan perkotaan dan meningkatnya populasi penduduk di Provinsi Daerah Khusus Ibukota (DKI) Jakarta yang sangat pesat, telah menimbulkan permasalahan khususnya di bidang transportasi;",
+   "bahwa permasalahan transportasi di Provinsi DKI Jakarta tersebut, telah mengganggu kelancaran aktivitas penduduk di Provinsi DKI Jakarta pada umumnya, sehingga mempengaruhi citra Provinsi DKI Jakarta sebagai Ibukota Negara Republik Indonesia;",
+   "bahwa untuk mengatasi permasalahan transportasi di Provinsi DKI Jakarta dimaksud, dipandang perlu membangun suatu sarana angkutan massal yang mampu melayani pergerakan manusia di kawasan perkotaan;",
+   "bahwa sebagai Ibukota Negara Republik Indonesia, pembangunan angkutan massal di daerah Provinsi DKI Jakarta tersebut perlu mendapat dukungan pemerintah dalam bentuk pemberian jaminan;",
+   "bahwa ... PRESIDEN REPUBLIK INDONESIA - 2 -",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, huruf b, huruf c dan huruf d, perlu menetapkan Peraturan Presiden tentang Pemberian Jaminan Pemerintah Untuk Pembangunan Proyek Monorail Jakarta;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-103-tahun-2006",
+   "detailsId": "42032",
+   "judul": "PERPRES No. 103 Tahun 2006 tentang Pemberian Jaminan Pemerintah Untuk Pembangunan Proyek Monorail Jakarta - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/72190/PRPS%20NO%20103%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:36.284103+00:00"
+  },
+  "sha256": "83324e6197ed8ccbbed19d2faed7b0f839054436343ca669ad303faa436f4ee4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-103-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-103-tahun-2006/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Terhadap pembangunan Proyek Monorail Jakarta yang dilakukan oleh Pemerintah Provinsi Daerah Khusus Ibukota (DKI) Jakarta melalui kerjasama dengan Badan Usaha, Pemerintah dapat memberikan jaminan. (2) Jaminan … (2) Jaminan Pemerintah sebagaimana dimaksud pada ayat (1), diberikan sebesar 50% (lima puluh perseratus) dari shortfall atas batas penumpang minimum sebanyak 160.000 (seratus enam puluh ribu) penumpang per hari atau 50% (lima puluh perseratus) dari nilai maksimum sebesar USD 22,500,000 (dua puluh dua juta lima ratus ribu dolar Amerika) per tahun selama 5 (lima) tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-103-tahun-2006/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Pemberian jaminan sebagaimana dimaksud pada ayat (2), dilakukan oleh Menteri Keuangan setelah memperoleh kepastian kesanggupan Pemerintah Provinsi DKI Jakarta untuk menjamin 50% (lima puluh perseratus) sisa nilai penjaminan yang tidak dijamin oleh Pemerintah, dan memenuhi persyaratan lainnya yang ditetapkan oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-103-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pelaksanaan jaminan Pemerintah sebagaimana dimaksud dalam Pasal 1, dilakukan melalui mekanisme Anggaran Pendapatan dan Belanja Negara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-103-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan lebih lanjut bagi pelaksanaan Peraturan Presiden ini ditetapkan dengan Peraturan Menteri Keuangan. Pasal 4 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-103-tahun-2006/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 13 Desember 2006 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum ttd Lambock V. Nahattands",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

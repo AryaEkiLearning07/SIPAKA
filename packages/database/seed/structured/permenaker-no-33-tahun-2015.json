@@ -1,0 +1,98 @@
+{
+ "slug": "permenaker-no-33-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Menteri Ketenagakerjaan Nomor 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja sudah tidak sesuai dengan prosedur pelayanan keselamatan dan kesehatan kerja listrik di tempat kerja;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan Peraturan Menteri tentang Perubahan Atas Peraturan Menteri Ketenagakerjaan Nomor 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-33-tahun-2015",
+   "detailsId": "146032",
+   "judul": "Permenaker No. 33 Tahun 2015 tentang Perubahan atas Peraturan Menteri Ketenagakerjaan Nomor 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/251954/Kemnaker%20No.%2033%20Tahun%202015.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:54:49.599565+00:00"
+  },
+  "sha256": "f8c25a6cf267abbf73692aff1fc0d520d2047c4d0f6257cae82a6f24b17d5948",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 5,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pemeriksaan dan pengujian sebagaimana dimaksud dalam Pasal 9 ayat dan ayat dilakukan: a. b. c. sebelum penyerahan kepada pemilikjpengguna; setelah ada perubahanjperbaikan; dan secara berkala.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "dilakukan oleh: a. b. Pengawas Ketenagakerjaan Spesialis K3 Listrik; Ahli K3 bidang Listrik pada Perusahaan; danjatau c. Ahli K3 bidang Listrik pada PJK3. Pemeriksaan dan pengujian sebagaimana dimaksud pada ayat digunakan sebagai bahan pertimbangan pembinaan danjatau tindakan hukum oleh Pengawas Ketenagakerjaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Hasil pemeriksaan dan pengujian sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Dihapus.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-33-tahun-2015/pasal-10/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "Dihapus. Pasal II Peraturan Menteri rru mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri Inl dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 16 0kto ber 2015 MENTERIKETENAGAKERJAAN REPUBLIK INDONESIA, ttd. M. HANIF DHAKIRI Diundangkan di Jakarta pada tanggal 20 Oktober DIREKTUR JENDERAL PERATURANPERUNDANG-UNDANGAN KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. WIDODO EKATJAHJANA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 1535 SALINAN SESUAI DENGAN ASLINYA 0 HUKUM, ALA AN,SH 9600324 198903 1 001",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..10): [1, 2, 3, 4, 5, 6, 7, 8, 9]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

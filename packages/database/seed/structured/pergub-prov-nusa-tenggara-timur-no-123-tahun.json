@@ -1,0 +1,41 @@
+{
+ "slug": "pergub-prov-nusa-tenggara-timur-no-123-tahun",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pergub-prov-nusa-tenggara-timur-no-123-tahun",
+   "detailsId": "263403",
+   "judul": "PERGUB Prov. Nusa Tenggara Timur No. 123 Tahun 2022 tentang Sistem Pembelajaran Terintegrasi dalam Pengembangan Kompetensi Aparatur Sipil Negara di Lingkungan Pemerintah Provinsi Nusa Tenggara Timur - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/320512/Pergub%20NTT%20No.%20123%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T12:03:58.185018+00:00"
+  },
+  "sha256": "aab63ededa774b7f809b11a5eb3dd10a464fb8ff03efbbf59c6e7d481ba60257",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

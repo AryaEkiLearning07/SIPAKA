@@ -1,0 +1,58 @@
+{
+ "slug": "pp-no-2-tahun-1945",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-2-tahun-1945",
+   "detailsId": "77867",
+   "judul": "PP No. 2 Tahun 1945 tentang Masih Tetap Berlakunya Segala Badan-Badan Negara dan Peraturan-Peraturan yang Ada Sampai Berdirinya Negara Republik Indonesia Pada Tanggal 17 Agustus 1945, Selama Belum Diadakan yang Baru Menurut Undang-Undang Dasar - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69148/PP%20No.2%20Tahun%201945.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:15:48.578246+00:00"
+  },
+  "sha256": "0fa179645cfed818e97b0ef2d32cf64ece4168984f1e2f0796d423e2239b9450",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-2-tahun-1945/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Segala Badan-Badan Negara dan Peraturan-Peraturan yang ada sampai berdirinya Negara Republik Indonesia pada tanggal 17 Agustus 1945, selama belum diadakan yang baru menurut Undang-Undang Dasar masih berlaku asal saja tidak bertentangan dengan Undang-Undang Dasar tersebut.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-2-tahun-1945/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan ini mulai berlaku pada tanggal 17 Agustus 1945. Jakarta, tanggal 10 Oktober 1945, PRESIDEN REPUBLIK INDONESIA, SOEKARNO Diumumkan Pada Tanggal 10 Oktober 1945 Sekretaris Negara, A.G. PRINGGODIGDO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

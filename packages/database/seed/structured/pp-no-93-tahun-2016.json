@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-93-tahun-2016",
+ "preamble": {
+  "menimbang": [
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-93-tahun-2016",
+   "detailsId": "5814",
+   "judul": "PP No. 93 Tahun 2016 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) Pt Asuransi Kredit Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28146/PP%20Nomor%2093%20Tahun%202016.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:33:07.877039+00:00"
+  },
+  "sha256": "b8eb7832b111d9e304e5388def86fa27c02198b762e13f23255cb9f549397979",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-93-tahun-2016/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Asuransi Kredit Indonesia yang statusnya sebagai Perusahaan Perseroan (Persero) ditetapkan berdasarkan Peraturan Pemerintah Nomor 1 Tahun 1971 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan Dalam Bidang Perasuransian Kredit.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-93-tahun-2016/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(1) (2) Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp50O.OO0.000.000,00 (lima ratus miliar rupiah). Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2OL6.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-93-tahun-2016/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar PRESIDET\\I REPUBLIK INDOi\\IESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2016 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO )iundangkan di Jakarta pada tanggal 30 Desember 2016 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 358 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Perekonomian, $puti Bidang Hukum dan dang-undangan, ilvanna Djaman",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

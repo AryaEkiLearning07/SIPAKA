@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-2-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa perlu segera melaksanakan Undang-undang No. 19 Prp tahun 1960 terhadap perusahaan-perusahaan negara yang berada dibawah lingkungan Departemen Penerangan; bahwa berhubung dengan itu perlu didirikan suatu Badan Pimpinan Umum jang diserahi tugas menyelenggarakan pekerjaan menguasai dan mengurus perusahaan negara yang berusaha dalam lapangan pencetakan, penerbitan dan periklanan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-2-tahun-1962",
+   "detailsId": "72334",
+   "judul": "PP No. 2 Tahun 1962 tentang Pencabutan Peraturan Pemerintah No. 66 Tahun 1958 tentang Pengawasan dan Penyaluran Pengusahaan Minyak Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62814/pp%20no%20002%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-66-tahun-1958"
+   ],
+   "scrapedAt": "2026-10-06T06:04:50.560037+00:00"
+  },
+  "sha256": "a5ac2a2763a92bea33ae87d0043e672d456ebfa70b0e70450ec64d263f429d7b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

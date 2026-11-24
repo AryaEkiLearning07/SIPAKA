@@ -1,0 +1,51 @@
+{
+ "slug": "perpres-no-150-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu menetapkan Peraturan Presiden tentang Perubahan Kedua Atas Peraturan Presiden Nomor 33 Tahun 2010 tentang Dewan Nasional dan Dewan Kawasan Kawasan Ekonomi Khusus;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-150-tahun-2014",
+   "detailsId": "41642",
+   "judul": "PERPRES No. 150 Tahun 2014 tentang Perubahan Kedua atas Peraturan Presiden Nomor 33 Tahun 2010 tentang Dewan Nasional dan Dewan Kawasan Kawasan Ekonomi Khusus - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67104/Perpres%20Nomor%20150%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:14:01.602665+00:00"
+  },
+  "sha256": "c7dff95714ea80f1127b6b44f44b9e23b02dd4de7aff691d5451947eed4040ef",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-150-tahun-2014/pasal-13",
+   "type": "PASAL",
+   "orderIndex": 13,
+   "label": "Pasal 13",
+   "content": "Gaji dan tunjangan kinerja yang diberikan kepada pejabat dan pegawai Sekretariat Dewan Nasional KEK, ditetapkan sesuai dengan ketentuan yang berlaku di lingkungan Kementerian Koordinator Bidang perekonomian. Pasal II Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar ... Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 17 Oktober 2014 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 17 Oktober 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 277 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Bidang Perekonomian, ttd. Ratih Nurdiati",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

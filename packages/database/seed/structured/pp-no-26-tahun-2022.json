@@ -1,0 +1,114 @@
+{
+ "slug": "pp-no-26-tahun-2022",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 15 Agustus 2022 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 167 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Deprl rundang-undangan dan Hukum Djaman SK No 135270 A PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 26 TAHUN 2022 TENTANG JENIS DAN TARIF ATAS JENIS PENERIMAAN NEGARA BUKAN PAJAK YANG BERLAKU PADA KEMENTERIAN ENERGI DAN SUMBER DAYA MINERAL I. UMUM Bahwa untuk mengoptimalkan Penerimaan Negara Bukan Pajak guna memperkuat ketahanan fiskal dan mendukung pembangunan nasional yang berkelanjutan dan berkeadilan, meningkatkan pelaksanaan tugas dan fungsi Kementerian Energi dan Sumber Daya Mineral, memberikan kepastian hukum dan pelindungan masyarakat, perlu dikelola dan dimanfaatkan untuk peningkatan pelayanan kepada masyarakat. Kementerian Energi dan Sumber Daya Mineral telah memiliki jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak sebagaimana diatur dalam Pemerintah Nomor 81 Tahun 2Ol9 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Energi dan Su",
+ "source": {
+  "url": {
+   "slug": "pp-no-26-tahun-2022",
+   "detailsId": "220075",
+   "judul": "PP No. 26 Tahun 2022 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Kementerian Energi dan Sumber Daya Manusia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/214495/PP%20Nomor%2026%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-81-tahun-2019"
+   ],
+   "scrapedAt": "2026-10-06T00:31:30.519145+00:00"
+  },
+  "sha256": "67d7277f944bd3a6287f784a6dd1c6122595d0d413eee8803e0547ad4ace6870",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 5,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-26-tahun-2022/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Energi dan Sumber Daya Mineral berasal dari penerimaan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "pemanfaatan sumber daya alam;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "pelayanan bidang energi dan sumber daya mineral;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "penggunaan sarana dan prasarana sesuai dengan tugas dan fungsi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "denda administratif; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-1/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "penempatan jaminan bidang energi dan sumber daya mineral.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-26-tahun-2022/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Jenis Penerimaan Negara Bukan Pajak sebagaimana dimaksud pada ayat (1) memiliki jenis dan tarif sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

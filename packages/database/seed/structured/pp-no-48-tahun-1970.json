@@ -1,0 +1,78 @@
+{
+ "slug": "pp-no-48-tahun-1970",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa dalam rangka proses integrasi Proyek-proyek/Pabrik pabrik kedalam Perusahaan-perusahaan Negara yang telah ada, dipandang perlu untuk mengintegrasikan Proyek Perluasan PN Leces kedalam Perusahaan Negara (PN) Leces; bahwa berdasarkan pertimbangan tersebut sub a diatas, perlu mengeluarkan Peraturan Pemerintah tentang Penambahan Modal Perusahaan Negara (PN) Leces yang telah didirikan berdasarkan Peraturan Pemerintah Nomor 137 tahun 1961 (Lembaran Negara Republik Indonesia tahun 1961 Nomor 161)."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-48-tahun-1970",
+   "detailsId": "70176",
+   "judul": "PP No. 48 Tahun 1970 tentang Penambahan Modal Perusahaan Negara (PN) Leces - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60604/pp%20no%20048%20tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:11.404784+00:00"
+  },
+  "sha256": "8482124c336ed18a4ede4cae157375e74e72bcb1765182f77b3784facc27b3ff",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-48-tahun-1970/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Terhitung mulai berlakunya Peraturan Pemerintah ini Proyek Perluasan PN Leces dinyatakan sebagai kekayaan Negara yang dipisahkan dan ditetapkan sebagai tambahan modal dari Perusahaan Negara (PN) Leces yang telah didirikan berdasarkan Peraturan Pemerintah Nomor 137 tahun 1961 (Lembaran Negara Republik Indonesia tahun 1961 Nomor 16 1). Besarnya nilai uang dari modal tambahan termaksud dalam pasal 1 Peraturan Pemerintah ini, akan ditetapkan secara bersama oleh Metneri Keuangan dengan Menteri Perindustrian.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-48-tahun-1970/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Hal-hal yang belum cukup diatur dalam Peraturan Pemerintah ini akan diatur tersendiri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-48-tahun-1970/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada hari tanggal diundangkannya. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-48-tahun-1970/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 4 Nopember 1970. Presiden Republik Indonesia, SOEHARTO Jenderal TNI Diundangkan di Jakarta pada tanggal 4 Nopember 1970. Sekretaris Negara Republik Indonesia, ALAMSJAH Mayor Jenderal TNI Kutipan: LEMBARAN NEGARA TAHUN 1970 YANG TELAH DICETAK ULANG Sumber: LN 1970/66",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

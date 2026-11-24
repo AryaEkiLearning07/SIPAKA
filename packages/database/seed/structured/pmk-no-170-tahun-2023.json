@@ -1,0 +1,3201 @@
+{
+ "slug": "pmk-no-170-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   "sebagaimana bahwa untuk menyesuaikan perkembangan kebutuhan pengelolaan aset dan untuk lebih mengoptimalkan pengelolaan aset eks bank dalam likuidasi, serta untuk melaksanakan ketentuan Pasal 104 Peraturan Pemerintah Nomor 27 Tahun 2014 tentang Pengelolaan Barang Milik Negara/Daerah telah diubah dalam Peraturan Pemerintah Nomor 28 Tahun 2014 tentang Perubahan atas Peraturan Pemerintah Nomor 27 Tahun 2020 tentang Pengelolaan Barang Milik Negara/Daerah telah ditetapkan Peraturan Menteri Keuangan Nomor 185/PMK.06/2019 tentang Pengelolaan Aset eks Bank dalam Likuidasi oleh Menteri Keuangan; bahwa sebagai tindak lanjut rekomendasi temuan Badan Pemeriksa Keuangan atas Laporan Keuangan Pemerintah Pusat tahun 2021 dan untuk dapat memenuhi kebutuhan hukum pengelolaan kekayaan negara berupa barang milik negara yang berasal dari eks bank dalam likuidasi, Peraturan Menteri Keuangan Nomor 185/PMK.06/2019 tentang Pengelolaan Aset eks Bank dalam Likuidasi oleh Menteri Keuangan perlu diganti; bahwa berdasarkan pertimbangan se bagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Menteri Keuangan tentang Pengelolaan Aset Eks Bank dalam Likuidasi oleh Menteri Keuangan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pmk-no-170-tahun-2023",
+   "detailsId": "287051",
+   "judul": "PMK No. 170 Tahun 2023 tentang Pengelolaan Aset Eks Bank Dalam Likuidasi Oleh Menteri Keuangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/346197/2023pmkeuangan170.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pmk-no-185pmk062019"
+   ],
+   "scrapedAt": "2026-10-06T13:52:27.315588+00:00"
+  },
+  "sha256": "c1de91f84a31f680b2bc6a71577b92254323e7fcb559d5eb7734deca2d019c0e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 91,
+  "ayat_angka": 207,
+  "huruf": 34
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Bank Dalam Likuidasi yang selanjutnya disingkat BDL adalah bank yang telah menerima dana talangan, fasilitas pembiayaan dan/ atau dana penjaminan dari pemerintah serta dicabut izin usahanya yang diikuti dengan likuidasi bank.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Tim Likuidasi adalah tim yang bertugas melakukan likuidasi bank yang dicabut izin usahanya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Neraca Akhir Likuidasi yang selanjutnya disingkat NAL adalah neraca yang disusun oleh Tim Likuidasi setelah pelaksanaan likuidasi selesai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerin tahan di bi dang keuangan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Aset eks BDL yang selanjutnya disebut dengan Aset adalah harta atau kekayaan eks BDL.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kas adalah uang tunai dan/ atau saldo simpanan di bank yang setiap saat dapat dicairkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Aset Kredit adalah hak pemerintah yang berasal dari tagihan BDL terhadap debiturnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Aset Inventaris adalah Aset yang berupa barang selain termasuk kendaraan tanah dan/ atau bangunan, bermotor, yang merupakan aset milik eks BDL dan/ a tau tercatat Pemerintah Pusat/Laporan Keuangan Bendahara Umum Negara Transaksi Khusus. Laporan Keuangan dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Surat Berharga adalah surat pengakuan utang, wesel, saham, obligasi, sekuritas kredit, atau setiap derivatifnya, atau kepentingan lain, atau suatu kewajiban dari penerbit, dalam bentuk yang lazim diperdagangkan dalam pasar modal dan pasar uang, yang merupakan aset milik eks r tercatat dalam Laporan Keuangan BDL dan/atau Pemerintah Pusat/Laporan Keuangan Bendahara Umum Negara Transaksi Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Aset Saham adalah Aset berupa bukti kepemilikan suatu Perseroan Terbatas yang merupakan milik eks BDL dan/atau tercatat dalam Laporan Keuangan Pemerintah Pusat/Laporan Keuangan Bendahara Umum Negara Transaksi Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Aset Obligasi adalah Aset berupa surat utang jangka menengah dan jangka panjang yang berisi janji dari pihak yang menerbitkan untuk membayar imbalan berupa bunga pada periode tertentu dan melunasi pokok utang pada waktu yang telah ditentukan kepada pihak pemegang obligasi yang merupakan milik eks BDL dan/atau tercatat dalam Laporan Keuangan Pemerintah Pusat/Laporan Keuangan Bendahara Umum Negara Transaksi Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Aset Penempatan pada bank lain yang selanjutnya disebut Aset Penempatan adalah penanaman dana BDL pada bank atau lembaga keuangan lain, baik di dalam negeri maupun di luar negeri, dalam bentuk pinjaman antarbank (interbank call money}, tabungan, deposito berjangka, dan bentuk lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Aset Properti adalah Aset berupa tanah dan/atau bangunan serta hak atas satuan rumah susun yang dokumen kepemilikannya dan/ a tau peralihannya berada dalam pengelolaan Menteri dan/ atau tercatat dalam Daftar Nominatif dan/ atau Laporan Keuangan Pemerintah Pusat/Laporan Keuangan Bendahara Umum Negara Transaksi Khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Barang Milik Negara yang selanjutnya disingkat BMN adalah semua barang yang dibeli atau diperoleh atas beban Anggaran Pendapatan dan Belanja Negara atau berasal dari perolehan lainnya yang sah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Direktur Jenderal adalah pejabat eselon I di lingkungan Kementerian Keuangan yang memiliki kewenangan, tugas, dan fungsi di bidang pengelolaan kekayaan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Direktorat Jenderal adalah unit eselon I di lingkungan Kementerian Keuangan yang memiliki kewenangan, tugas, dan fungsi di bidang pengelolaan kekayaan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Direktur adalah pejabat eselon II pada kantor pusat Direktorat Jenderal yang memiliki kewenangan, tugas, dan fungsi di bidang pengelolaan kekayaan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Direktorat adalah unit eselon II di lingkungan Direktorat Jenderal yang memiliki kewenangan, tugas, dan fungsi di bidang pengelolaan kekayaan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Kantor Wilayah adalah kantor wilayah Direktorat Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Kantor Pelayanan adalah unit vertikal pelayanan pada Kantor Wilayah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Kementerian Negara adalah yang disebut selanjutnya perangkat pemerintah yang Kementerian membidangi urusan tertentu dalam pemerintahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Lembaga adalah organisasi non Kementerian Negara dan instansi lain pengguna anggaran yang dibentuk untuk tertentu berdasarkan Undang- melaksanakan tugas r Undang Dasar Negara Republik Indonesia Tahun 1945 atau peraturan perundang-undangan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Inventarisasi adalah kegiatan pendataan, pencatatan, dan pelaporan Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Verifikasi adalah kegiatan pemeriksaan mengenai kebenaran hasil Inventarisasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Penilai Pemerintah adalah Pegawai Negeri Sipil di lingkungan pemerintah yang diberi tugas, wewenang, dan tanggung jawab untuk melakukan Penilaian, termasuk atas hasil penilaiannya secara independen sesuai dengan ketentuan peraturan perundang-undangan. dalam diatur",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Penilai Publik adalah penilai selain Penilai Pemerintah ketentuan peraturan sebagaimana perundang-undangan yang mengatur Penilai Publik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Penilaian adalah suatu proses kegiatan yang dilakukan oleh penilai untuk memberikan suatu opini nilai yang didasarkan pada data/fakta yang objektif dan relevan dengan menggunakan metode/teknik tertentu atas objek tertentu pada saat tanggal Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-28",
+       "type": "ANGKA",
+       "orderIndex": 28,
+       "label": "Angka 28",
+       "content": "Nilai Wajar adalah estimasi harga yang akan diterima dari penjualan Aset atau dibayarkan untuk penyelesaian kewajiban antara pelaku pasar yang memahami dan berkeinginan untuk melakukan transaksi wajar pada tanggal Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-29",
+       "type": "ANGKA",
+       "orderIndex": 29,
+       "label": "Angka 29",
+       "content": "Nilai Limit adalah nilai minimal barang yang akan dilelang dan ditetapkan oleh penjual.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-30",
+       "type": "ANGKA",
+       "orderIndex": 30,
+       "label": "Angka 30",
+       "content": "Sewa adalah pemanfaatan Aset Properti oleh pihak lain dalam jangka waktu tertentu dengan imbalan uang tunai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-31",
+       "type": "ANGKA",
+       "orderIndex": 31,
+       "label": "Angka 31",
+       "content": "Lelang adalah penjualan barang yang terbuka untuk um um dengan penawaran harga secara tertulis dan/ atau lisan yang semakin meningkat atau menurun untuk mencapai harga tertinggi, yang didahului dengan pengumuman lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-32",
+       "type": "ANGKA",
+       "orderIndex": 32,
+       "label": "Angka 32",
+       "content": "Nasabah Penyimpan Dana adalah nasabah penyimpan dana eks BDL yang tercatat dalam pembukuan BDL dan tidak termasuk yang dijamin oleh pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-33",
+       "type": "ANGKA",
+       "orderIndex": 33,
+       "label": "Angka 33",
+       "content": "Pengguna Anggaran yang selanjutnya disingkat PA adalah pejabat pemegang kewenangan penggunaan anggaran Kernen terian/ Lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-34",
+       "type": "ANGKA",
+       "orderIndex": 34,
+       "label": "Angka 34",
+       "content": "Kuasa Pengguna Anggaran yang selanjutnya disingkat KPA adalah pejabat yang memperoleh kuasa dari PA untuk melaksanakan sebagian kewenangan dan tanggung jawab penggunaan anggaran pada Kementerian/Lembaga yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-35",
+       "type": "ANGKA",
+       "orderIndex": 35,
+       "label": "Angka 35",
+       "content": "Pejabat Pembuat Komitmen yang selanjutnya disingkat PPK adalah pejabat yang melaksanakan kewenangan PA/KPA untuk mengambil keputusan dan/atau tindakan yang untuk pengeluaran pembayaran kepada Nasabah Penyimpan Dana. dapat mengakibatkan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-36",
+       "type": "ANGKA",
+       "orderIndex": 36,
+       "label": "Angka 36",
+       "content": "Pejabat Penandatangan Surat Perintah Membayar yang selanjutnya disingkat dengan PPSPM adalah pejabat yang diberi kewenangan oleh PA/KPA untuk melakukan pengujian atas permintaan pembayaran dan menerbitkan perintah pembayaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-37",
+       "type": "ANGKA",
+       "orderIndex": 37,
+       "label": "Angka 37",
+       "content": "Kantor Pelayanan Perbendaharaan Negara yang selanjutnya disingkat KPPN adalah instansi vertikal Direktorat Jenderal Perbendaharaan yang memperoleh kuasa untuk dari Bendahara Umum Negara melaksanakan sebagian fungsi kuasa Bendahara Umum Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-38",
+       "type": "ANGKA",
+       "orderIndex": 38,
+       "label": "Angka 38",
+       "content": "Surat Ketetapan Pembayaran Nasabah Penyimpan Dana yang selanjutnya disingkat SKP adalah dokumen sebagai dasar pembayaran kepada Nasabah Penyimpan Dana yang memuat rincian besaran hak Nasabah Penyimpan Dana yang akan disetorkan ke rekening pada bank yang ditunjuk oleh Otoritas Jasa Keuangan dalam periode tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-39",
+       "type": "ANGKA",
+       "orderIndex": 39,
+       "label": "Angka 39",
+       "content": "Surat Permintaan Pembayaran yang selanjutnya disingkat SPP adalah dokumen yang diterbitkan oleh PPK, yang berisi permintaan pembayaran tagihan kepada negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-40",
+       "type": "ANGKA",
+       "orderIndex": 40,
+       "label": "Angka 40",
+       "content": "Surat Perintah Membayar Nasabah Penyimpan Dana yang selanjutnya disebut SPM Nasabah Penyimpan Dana adalah dokumen yang diterbitkan oleh PPSPM untuk pembayaran Nasabah Penyimpan Dana ke rekening pada bank yang ditunjuk oleh Otoritas Jasa Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-1/angka-41",
+       "type": "ANGKA",
+       "orderIndex": 41,
+       "label": "Angka 41",
+       "content": "Surat Perintah Pencairan Dana yang selanjutnya disingkat SP2D adalah surat perintah yang diterbitkan KPPN selaku Kuasa Bendahara Umum Negara berdasarkan SPM Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri berwenang melakukan pengelolaan Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pelaksanaan pengelolaan Aset sebagaimana ( 1), Menteri melimpahkan dimaksud pada ayat kewenangannya kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Direktur Jenderal dalam bentuk subdelegasi; atau b. pejabat di lingkungan Direktorat Jenderal dalam bentuk mandat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kewenangan subdelegasi pada Direktur Jenderal sebagaimana dimaksud pada ayat (2) huruf a dapat dilimpahkan dalam bentuk mandat kepada pejabat di lingkungan Direktorat Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Aset se bagaimana dimaksud dalam Pasal 2 meliputi: a. Kas; b. Aset Kredit; c. Aset Inventaris; d. Surat Berharga berupa Saham dan Obligasi; e. Aset Penempatan; dan f. Aset Properti, yang telah diserahkan kepada pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENGELOLAAN ASET",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "( 1) Direktorat melaksanakan pengelolaan Kas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan Kas sebagaimana dimaksud pada ayat (1) dilakukan dengan cara: a. b. konfirmasi; pencatatan pada suatu sistem informasi pengelolaan aset; dan pelaporan c. atas penyetoran Aset berupa Kas ke kas negara. Bagian Kedua Aset Kredit",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "( 1) Direktorat melakukan pengelolaan atas Aset Kredit.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan Aset Kredit sebagaimana dimaksud pada ayat (1), meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penatausahaan;dan b. penyerahan pengurusan kepada Panitia Urusan Piutang Negara. Paragraf 1 Penatausahaan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penatausahaan Aset Kredit dilakukan dengan cara: Inventarisasi; a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Verifikasi; dan c. pelaporan pengelolaan Aset Kredit.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penatausahaan Aset Kredit dilakukan oleh Direktorat terhadap dokumen Aset Kredit dari jaminannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil penatausahaan Aset Kredit sebagaimana dimaksud pada ayat ( 1) dicatat dalam suatu sistem informasi pengelolaan Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pelaporan pengelolaan Aset Kredit yang telah diserahkan pengurusannya kepada Panitia Urusan Piutang Negara, dilakukan ( satu) kali dalam 1 (satu) semester antara Direktorat dengan Panitia Urusan Piutang Negara/Kantor Pelayanan. rekonsiliasi minimal Paragraf 2 Penyerahan Pengurusan Kepada Panitia Urusan Piutang Negara",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "( 1) Penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada Akta Pengalihan Hak Atas Tagihan (cessie).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal tidak terdapat Akta Pengalihan Hak Atas Tagihan (cessie) sebagaimana dimaksud pada ayat (1), penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada surat pengakuan utang dari debitur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tidak terdapat surat pengakuan sebagaimana dimaksud pada ayat (2), penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan ..,,,- pada putusan pengadilan yang telah berkekuatan hukum tetap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal terdapat Akta Pengalihan Hak Atas Tagihan (cessie) dan putusan pengadilan yang telah berkekuatan hukum tetap, penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada Akta Pengalihan Hak Atas Tagihan (cessie) dan putusan pengadilan yang telah berkekuatan hukum tetap.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "( 1) Nilai penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada Akta Pengalihan Hak Atas Tagihan (cessie).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal terdapat putusan pengadilan yang telah berkekuatan hukum tetap, nilai penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada putusan pengadilan yang telah berkekuatan hukum tetap tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "( 1) Dalam hal penyerahan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara didasarkan pada surat pengakuan sebagaimana dimaksud dalam Pasal 8 ayat (2), nilai penyerahan yang digunakan merupakan jumlah/ nilai utang yang laporan keuangan tanggal pisah batas pembukuan (cut off date). tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal tidak terdapat laporan keuangan tanggal pisah batas pembukuan (cut off date), nilai penyerahan yang digunakan merupakan jumlah/ nilai utang yang tercantum dalam NAL.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tidak terdapat NAL sebagaimana dimaksud pada ayat (2), nilai penyerahan yang digunakan merupakan jumlah/nilai utang yang tercantum pada perjanjian kredit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Direktur Jenderal menyerahkan pengurusan Aset Kredit kepada Panitia Urusan Piutang Negara sesuai dengan ketentuan peraturan perundang-undangan bidang pengurusan piutang negara. di",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktur Jenderal selaku penyerah pengurusan Aset Kredit memiliki wewenang atas Aset Kredit yang telah diserahkan pengurusannya kepada Panitia Urusan Piutang Negara untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memberi persetujuan penolakan atau atas permintaan pertimbangan yang diajukan oleh Panitia Urusan Piutang Negara terhadap permohonan penebusan barang jaminan dengan nilai di bawah nilai pembebanan hak atas barang jaminan utang Aset Kredit;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberi persetujuan atas permintaan pertimbangan yang diajukan oleh Panitia terhadap permohonan Urusan Piutang Negara penolakan atau penjualan tanpa melalui Lelang dengan nilai di bawah -: nilai pembebanan atau tidak ada pembebanan hak atas barang jaminan utang Aset Kredit;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melakukan koreksi atas jumlah utang yang telah diserahkan pengurusannya kepada Panitia Urusan Piutang Negara dalam hal terdapat: 1. kekeliruan penyerahan; atau sebab lain yang dapat di pertanggungjawabkan secara hukum; pencantuman dalam nilai 2.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengajukan permohonan pencabutan pemblokiran, pengangkatan sita atas pemblokiran dan penyitaan yang sebelumnya dimohonkan oleh BDL atau Tim Likuidasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengajukan permohonan roya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mengajukan permohonan atau pembaruan hak atas barangjaminan Aset Kredit yang akan/telah berakhir masa berlakunya; atau perpanjangan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengajukan permohonan penggantian dokumen barang jaminan Aset Kredit yang rusak.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permintaan pertimbangan sebagaimana dimaksud pada ayat ( 1) huruf a minimal dilengkapi dengan: a. b. c. resume berkas kasus piutang negara; laporan Penilaian yang masih berlaku; fotokopi dokumen kepemilikan dan/ atau dokumen pengikatan; dan fotokopi surat permohonan dari pemilik atau ahli waris. d.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Permintaan pertimbangan sebagaimana dimaksud pada ayat ( 1) huruf b minimal dilengkapi dengan: a. b. c. resume berkas kasus piutang negara; laporan Penilaian yang masih berlaku; fotokopi dokumen kepemilikan dan/ a tau dokumen pengikatan; dan fotokopi surat permohonan dari debitur atau ahli waris. d.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Persetujuan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b, diberikan dalam hal nilai permohonan minimal sebesar Nilai Wajar berdasarkan laporan Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "( 1) Aset Kredit yang pengurusannya ditolak oleh panitia urusan piutang negara disebabkan belum terpenuhinya kelengkapan persyaratan penyerahan piutang negara ditindaklanjuti oleh Direktorat dengan melakukan upaya pemenuhan kelengkapan persyaratan sesuai dengan ketentuan peraturan perundang-undangan di bidang piutang negara.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal kelengkapan persyaratan sebagaimana dimaksud pada ayat ( 1): a. telah terpenuhi, Direktorat menyerahkan kembali pengurusannya kepada Panitia Urusan Piutang Negara; a tau tidak terpenuhi, Direktorat melakukan upaya optimal berupa panggilan kepada debitur melalui media cetak b. � atau website, dalam rangka penyelesaian kewajiban debitur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal debitur memenuhi panggilan sebagaimana dimaksud pada ayat (2) huruf b, dan setelah dilakukan wawancara/penelitian diperoleh dokumen/informasi yang dapat memenuhi persyaratan, Direktorat menyerahkan kembali pengurusannya kepada Panitia Urusan Piutang Negara. terhadap debitur",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal Direktorat telah melakukan upaya optimal, Direktur Jenderal atas nama Menteri menetapkan Aset tidak dapat diserahkan Kredit pengurusannya kepada Panitia Urusan Piutang Negara. eks BDL yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-13/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Berdasarkan penetapan sebagaimana dimaksud pada ayat (4), Aset Kredit dicatat dalam daftar Aset Kredit yang tidak dapat diserahkan pengurusannya kepada Panitia Urusan Piutang Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Terhadap Aset Kredit yang dikembalikan pengurusannya oleh Panitia Urusan Piutang Negara berdasarkan ketentuan peraturan perundang-undangan di bidang pengurusan piutang negara, Direktorat melakukan: a. pencatatan secara terpisah dengan disertai keterangan alasan pengembalian oleh Panitia Urusan Piutang Negara; dan b. upaya lebih lanjut pengelolaan Aset Kredit sesuai dengan ketentuan perundang-undangan di bidang pengurusan piutang negara. Bagian Ketiga Aset lnventaris",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pengelolaan atas Aset Inventaris meliputi: a. b. c. d. penatausahaan; pengamanan dan pemeliharaan; penjualan secara Lelang; dan penetapan menjadi BMN. Paragraf 1 Penatausahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Penatausahaan Aset Inventaris dilakukan oleh Direktorat dengan cara: a. b. lnventarisasi; dan pelaporan pengelolaan Aset Inventaris.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Terhadap Aset Inventaris dilakukan Inventarisasi untuk mengetahui jumlah dan kondisi Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil Inventarisasi dicatat dalam suatu sistem informasi pengelolaan Aset. Paragraf 2 Pengamanan dan Pemeliharaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "( 1) Pengamanan dan pemeliharaan fisik beserta dokumen Aset Inventaris dilakukan oleh Direktorat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan pengamanan dan pemeliharaan fisik sebagaimana dimaksud pada ayat (1) dapat diserahkan kepada Kantor Wilayah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengamanan fisik Aset Inventaris dilakukan dengan cara menyimpan Aset Inventaris di dalam Aset Properti atau di tempat lain yang ditentukan oleh Direktur. Paragraf 3 Penjualan Secara Lelang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktur Jenderal dapat melakukan penjualan atas Aset Inventaris.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penjualan sebagaimana dimaksud pada ayat (1) harus dilakukan melalui Lelang berdasarkan ketentuan peraturan perundang-undangan di bidang Lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Lelang sebagaimana dimaksud pada ayat (2) dilakukan melalui Kantor Pelayanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Lelang Aset Inventaris dilakukan dalam kondisi sebagaimana adanya (as is).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal kondisi Aset Inventaris rusak berat dan tidak dapat digunakan berdasarkan hasil penelitian fisik oleh sebagai Direktorat, Aset rongsokan (scrap). Inventaris dapat dilelang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Nilai Limit Lelang ditetapkan oleh Direktur Jenderal minimal sama dengan Nilai Wajar berdasarkan laporan penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-19/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Nilai Limit sebagaimana dimaksud pada ayat (6) berlaku untuk jangka waktu paling lama 1 (satu) tahun sejak tanggal ditetapkan, kecuali terdapat perubahan kondisi yang signifikan atas Aset Inventaris.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "lelang sebagaimana Dalam hal pelaksanaan penjualan dimaksud dalam pasal 19 tidak laku, Aset Inventaris dapat ditetapkan statusnya sebagai BMN. Paragraf 4 Penetapan Menjadi BMN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penetapan Aset Inventaris menjadi BMN sebagaimana dimaksud dalam Pasal 20 dilakukan berdasarkan permohonan dari pimpinan Kementerian/Lembaga kepada Direktur J enderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan sebagaimana dimaksud pada ayat (1) minimal memuat alasan yang mendasari permohonan dan dilengkapi dengan: a. data Aset Inventaris; b. c. d. surat pernyataan komitmen menggunakan Aset Inventaris untuk penyelenggaraan tugas dan fungsi; surat pernyataan kesediaan menerima Aset Inventaris, dalam kondisi fisik dan/ atau dokumen sebagaimana adanya (as is); dan surat pernyataan kesediaan dan tanggung jawab penuh untuk melunasi dan menyelesaikan segala biaya serta kewajiban yang melekat pada Aset Inventaris tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "( 1) Direktorat melakukan penelitian atas permohonan se bagaimana dimaksud dalam Pasal 21 ayat ( 1).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal berdasarkan hasil penelitian: a. b. permohonan disetujui, Aset Inventaris ditetapkan sebagai BMN dan ditetapkan status penggunaannya kepada Kementerian/Lembaga; atau tidak disetujui, Direktur Jenderal permohonan memberitahukan secara tertulis kepada pimpinan Kementerian/Lembaga, disertai dengan alasan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "( 1) Penetapan Aset Inventaris menjadi BMN dan penetapan status penggunaannya sebagaimana dimaksud dalam Pasal 22 dilakukan oleh Direktur Jenderal atas nama Menteri melalui Keputusan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan Menteri sebagaimana dimaksud pada c. d. e. huruf a minimal memuat: a. b. pertimbangan penetapan status penggunaan; identitas Aset Inventaris yang ditetapkan statusnya menjadi BMN; pengguna barang; tindak lanjut penetapan status penggunaan; dan kewajiban pembayaran hak Nasabah Penyimpan Dana, dalam hal Aset Inventaris yang ditetapkan (Dalam merupakan aset dari PT Bank Asiatic Likuidasi), PT Bank Dagang Bali (Dalam Likuidasi), dan PT Bank Global Internasional Tbk (Dalam Likuidasi).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam identitas Aset Inventaris sebagaimana dimaksud pada ayat (2) huruf b, memuat pula nilai Aset Inventaris yang merupakan Nilai Wajar berdasarkan laporan Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-23/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penetapan Inventaris ditindaklanjuti dengan pembuatan berita acara serah terima Aset kepada Kementerian/ Lembaga. penggunaan Aset dari Direktorat Inventaris status Bagian Keempat Surat Berharga",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Pengelolaan Surat Berharga meliputi: a. b. penatausahaan; permintaan konfirmasi kepemilikan; c. menghadiri Rapat Umum Pemegang Saham (RUPS) atau Rapat Umum Pemegang Obligasi (RUPO); permintaan pembayaran atas dividen saham atau bunga obligasi; pencairan obligasi; dan penjualan Aset Saham. d. e. f. Paragraf 1 Penatausahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "( 1) Penatausahaan Surat Berharga dilakukan oleh Direktorat Inventarisasi; dengan cara: a. b. Verifikasi; dan c. pelaporan pengelolaan Surat Berharga.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penatausahaan Surat Berharga dilakukan oleh Direktorat terhadap dokumen Surat Berharga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil penatausahaan Surat Berharga sebagaimana dimaksud pada ayat ( 1) dicatat dalam suatu sis tern informasi pengelolaan Aset. Paragraf 2 Permintaan Konfirmasi Kepemilikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Direktur meminta konfirmasi kepemilikan Surat Berharga yang telah ditatausahakan kepada: a. Biro Administrasi Ef ek; b. c. Emiten; dan/ atau d. PT Kustodian Sentral Efek Indonesia; penerbit obligasi. Paragraf 3 Menghadiri Rapat Umum Pemegang Saham dan Rapat Umum Pemegang Obligasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "( 1) Direktur ber hak menghadiri dan mengam bil kepu tusan dalam RUPS sesuai dengan ketentuan pada anggaran dasar perseroan atau RUPO sesuai dengan perjanjian perwaliamanatan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktur dapat memberikan kuasa kepada pejabat atau pegawai dibawahnya dengan hak substitusi untuk menghadiri dan memberikan suara dalam RUPS atau RUPO sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengambilan keputusan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak dimaksudkan untuk melakukan penambahan modal oleh Menteri. Paragraf 4 Permintaan Pembayaran Atas Dividen Saham atau Bunga Obligasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "( 1) Direktur melakukan monitoring atas pembayaran dividen atau bunga obligasi.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pelaksanaan monitoring sebagaimana dimaksud pada ayat (1), Direktur meminta pembayaran atas: a. b. dividen saham; dan/ atau bunga obligasi setiap jatuh tempo. Paragraf 5 Pencairan Obligasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Direktur melakukan pencairan Surat Berharga berupa obligasi. Paragraf 6 Penjualan Aset Saham",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktur Jenderal dapat melakukan penjualan atas Aset Saham:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-30/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melalui Lelang; atau tanpa melalui Lelang. b.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penjualan Aset Saham sebagaimana dimaksud pada ayat (1) dilaksanakan dengan memperhatikan ketentuan anggaran dasar perusahaan, perjanjian antar pemegang saham, dan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan penjualan Aset Saham sebagaimana ( 1) dapat dikuasakan kepada dimaksud pada ayat Direktur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "( 1) (2) (3) (4) (5) (6) Penjualan Aset Saham melalui Lelang sebagaimana dimaksud dalam Pasal 30 ayat ( 1) huruf a dilakukan melalui Kantor Pelayanan. Penjualan Aset Saham sebagaimana dimaksud pada ayat (1) meliputi: a. Aset Saham pada perusahaan saham dan/ a tau karyawan pemegang menggunakan haknya untuk membeli; dan/ atau saham pada perusahaan terbuka yang tidak tercatat di bursa efek. b. tertutup yang tidak Nilai Limit penjualan melalui Lelang ditetapkan oleh Direktur Jenderal minimal sama dengan Nilai Wajar berdasarkan laporan Penilaian yang dilakukan oleh penilai. Nilai Limit sebagaimana dimaksud pada ayat (3) berlaku selama 3 (tiga) bulan sejak ditetapkan. Penilai sebagaimana dimaksud pada ayat (3) meliputi: a. b. Penilai Publik yang ditunjuk oleh Direktur. Permohonan Penilaian Aset Saham kepada Pemerintah disampaikan oleh Direktur sesuai Penilai Pemerintah; atau Penilai dengan ,/' ketentuan peraturan perundang-undangan di bidang Penilaian.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-31/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan mengenai Lelang berpedoman pada ketentuan peraturan perundang undangan di bidang Lelang. penjualan melalui",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Dalam hal Aset Saham pada perusahaan tertutup yang anggaran dasar perusahaan mengatur mengenai adanya hak pemegang saham atau karyawan untuk membeli terlebih dahulu, penawaran penjualan Aset Saham dilakukan dengan menggunakan Nilai Wajar berdasarkan laporan Penilaian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Aset Saham yang dilakukan penjualan tanpa melalui Lelang sebagaimana dimaksud dalam pasal 30 ayat (1) huruf b merupakan Aset Saham pada perusahaan terbuka yang tercatat/ terdaftar di bursa efek.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penjualan sebagaimana dimaksud pada ayat (1) dapat dilakukan baik melalui bursa efek maupun di luar bursa efek dengan memperhatikan ketentuan peraturan perundang-undangan di bidang pasar modal dan ketentuan terkait lainnya. perundang-undangan peraturan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nilai Limit penjualan Aset Saham tanpa melalui Lelang ditetapkan oleh Direktur Jenderal berdasarkan hasil analisis perhitungan rata-rata penutupan harian yang diperoleh dari harga penutupan selama 30 (tiga puluh) hari kerja sebelum proses penjualan Aset Saham.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-33/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Nilai limit sebagaimana dimaksud pada ayat (3) berlaku selama 3 (tiga) bulan sejak ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-33/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Harga penjualan minimal sama dengan Nilai Limit. Bagian Kelima Aset Penempatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Pengelolaan Aset Penempatan meliputi: a. b. penatausahaan; dan pencairan dan/atau penagihan dana pada bank penyimpan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penatausahaan Aset Penempatan dilakukan oleh",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Direktorat dengan cara: a. Inventarisasi; b. Verifikasi; dan c. pelaporan pengelolaan Aset Penempatan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penatausahaan Aset Penempatan dilakukan Direktorat terhadap dokumen Aset Penempatan. oleh",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil penatausahaan Aset Penempatan sebagaimana dimaksud pada ayat ( 1) dicatat dalam suatu sistem informasi pengelolaan Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Direktur melakukan pencairan dan/ atau penagihan Aset Penempatan dengan cara mengajukan permintaan pencairan dan/atau penagihan pada bank penyimpan. Bagian Keenam Aset Properti",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Aset Properti terdiri atas: a. Aset tetap, yaitu Aset Properti yang berasal dari milik eks BDL; b. Barang Jaminan Diambil Alih, yaitu Aset Properti yang berasal dari barangjaminan kredit yang telah diambil alih dan/ atau dikuasai oleh eks BDL; c. Aset yang diperoleh berdasarkan penetapan/ putusan pengadilan yang telah berkekuatan hukum tetap; dan d. Aset yang berasal dari penyerahan pemegang saham kepada BDL untuk menyelesaikan permasalahan permodalan dan likuiditas BDL.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Pengelolaan atas Aset Properti meliputi: a. b. c. d. e. penatausahaan; pengamanan dan pemeliharaan; penjualan; penetapan Aset Properti menjadi BMN; dan pemanfaatan dalam bentuk Sewa. Paragraf 1 Penatausahaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "( 1) Direktorat melaksanakan penatausahaan Aset Properti (2) (3) melalui Inventarisasi dan Verifikasi dokumen. Inventarisasi dan Verifikasi dokumen Aset Properti se bagaimana dimaksud pada ayat ( 1) didasarkan pada: a. dokumen yang dikuasai oleh Kementerian Keuangan; dan/atau dokumen lain yang terkait dengan status Aset Properti. b. Inventarisasi dan Verifikasi dokumen sebagaimana dimaksud pada ayat ( 1) termasuk: a. b. c. d. proses Verifikasi Aset Properti; peninjauan fisik atas Aset Properti; kodifikasi atas Aset Properti; dan pencatatan setiap perubahan jumlah Aset Properti, nilai Aset Properti, dan penerimaan hasil pengelolaan Aset Properti yang dikarenakan adanya penjualan, penetapan Aset Properti menjadi BMN, putusan pengadilan yang telah berkekuatan hukum tetap, atau perubahan lain yang sah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-39/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil Inventarisasi dan Verifikasi dokumen sebagaimana dimaksud pada ayat ( 1), dicatat oleh Direktorat dalam suatu sistem informasi pengelolaan Aset. r Paragraf 2 Pengamanan dan Pemeliharaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Pengamanan dan pemeliharaan Aset Properti dilakukan terhadap: a. b. fisik Aset Properti; dan dokumen Aset Properti. ( 1) Pengamanan dan pemeliharaan dilakukan oleh Kantor Wilayah. fisik Aset Properti",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Aset Properti tidak berada dalam penguasaan tidak berhak, dapat dilakukan lain yang pihak pembayaran atas biaya pemeliharaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam pengamanan sebagaimana dimaksud pada ayat (1) Kantor Wilayah menunjuk wakil kerja untuk melaksanakan pengamanan fisik Aset Properti.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-41/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kantor Wilayah menyampaikan laporan mengenai pelaksanaan pengamanan dan pemeliharaan Aset Properti kepada Direktorat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-41/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Direktorat melakukan evaluasi atas laporan yang disampaikan oleh Kantor Wilayah yang hasilnya dilaporkan kepada Direktur Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-41/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Direktorat/Kantor Wilayah dapat meminta bantuan kepada unit kerja terkait di lingkungan Kementerian Keuangan dan/ atau instansi berwenang lainnya, guna pengamanan fisik Aset Properti.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "( 1) Pengamanan dan pemeliharaan atas dokumen Aset Properti dilaksanakan oleh Direktur.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengamanan dan pemeliharaan dokumen Aset Properti sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-42/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Verifikasi masa berlaku hak atas Aset Properti; b. terkait di konfirmasi atas status hukum Aset Properti kepada unit kerja lingkungan Kementerian Keuangan dan/ atau instansi terkait; dan penyimpanan dokumen Aset Properti secara tertib dan rapi di tempat yang aman. c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam pelaksanaan pengamanan dan pemeliharaan dokumen Aset Properti, Direktur dapat meminta bantuan kepada unit kerja terkait di lingkungan Kementerian Keuangan dan/ atau instansi berwenang lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk pengamanan Aset Properti, Direktur dapat melakukan pemblokiran Aset Properti. Direktur Jenderal dapat melakukan penjualan atas Aset Properti. sebagaimana dimaksud pada ayat (1)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pelaksanaan pemblokiran Aset Properti, Direktur dapat meminta bantuan Kepala Kantor wilayah atau Kepala Kantor Pelayanan setempat. Paragraf 3 Penjualan Pasal44 Penjualan dilakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-43/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melalui Lelang; b. tanpa melalui Lelang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penjualan melalui Lelang sebagaimana dimaksud dalam pasal 44 ayat (2) huruf a dilaksanakan melalui Kantor sesuai ketentuan peraturan perundang Pelayanan undangan di bidang Lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset Properti yang dilakukan penjualan melalui lelang merupakan Aset Properti dalam kondisi fisik dan/ a tau dokumen apa adanya (as is}, termasuk biaya terutang (tunggakan biaya) yang melekat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nilai Limit penjualan melalui Lelang ditetapkan oleh Direktur Jenderal minimal sama dengan Nilai Wajar berdasarkan laporan Penilaian yang dilakukan oleh penilai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penilai sebagaimana dimaksud pada ayat (3) meliputi: Penilai Pemerintah; atau a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Penilai Publik yang ditunjuk oleh Direktur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Permohonan penilaian Aset Properti kepada Penilai Pemerintah sebagaimana dimaksud ayat (4) huruf a dilakukan oleh Direktur sesuai dengan ketentuan peraturan perundang-undangan di bidang Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Nilai Limit yang ditetapkan oleh Direktur Jenderal berlaku selama 1 (satu) tahun terhitung sejak tanggal penetapan Nilai Limit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam hal terdapat perubahan yang signifikan atas kondisi Aset Properti, masa berlaku Nilai Limit sebagaimana dimaksud pada ayat (6) dapat kurang dari 1 (satu) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Perubahan yang signifikan atas kondisi Aset Properti sebagaimana dimaksud pada ayat (7) meliputi: a. perubahan fisik yang antara lain disebabkan karena pelebaran jalan, bencana alam, dan abrasi; atau perubahan peruntukan. b.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Terhadap Aset Properti sebagaimana dimaksud pada ayat (8), dilakukan Penilaian ulang untuk memperoleh Nilai Wajar terbaru atas Aset Properti.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-45/ayat-10",
+       "type": "AYAT",
+       "orderIndex": 10,
+       "label": "Ayat (10)",
+       "content": "Direktur Jenderal menetapkan Nilai Limit minimal sama dengan Nilai Wajar Aset Properti berdasarkan hasil Penilaian pada sebagaimana ayat (6). dimaksud ulang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Aset Properti tidak laku terjual dalam dua kali Lelang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk Lelang selanjutnya dapat diberikan faktor penyesuai atas Nilai Wajar Aset Properti sebagaimana dimaksud dalam Pasal 45 ayat (10); atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Aset Properti dilakukan Penjualan Tanpa melalui Lelang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Faktor penyesuai sebagaimana dimaksud pada ayat (1) huruf a dapat diberikan berdasarkan pertimbangan dan kajian oleh Direktorat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Faktor penyesuai sebagaimana dimaksud pada ayat (1) huruf a dapat diberikan dengan prosentase pengurangan paling besar 30 % (tiga puluh persen) dari nilai wajar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-46/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam pemberian sebagaimana dimaksud pada ayat (1) huruf a, Direktur Jenderal dapat meminta bantuan aparat pengawasan internal pemerintah untuk melakukan reviu. faktor penyesuai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penjualan tanpa melalui Lelang sebagaimana dimaksud dalam Pasal 44 ayat (2) hurufb dapat dilaksanakan dalam hal: a. tidak terpenuhinya legalitas formal subjek dan objek Lelang sesuai peraturan perundang- undangan di bidang Lelang untuk dapat dilakukan penjualan Aset Properti melalui Lelang; atau huruf a berdasarkan hasil Verifikasi oleh ayat Direktorat dan/ atau rekomendasi komite penyelesaian Aset Properti yang dibentuk Direktur Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Aset Properti tidak terjual dalam dua kali penjualan melalui Lelang sebagaimana dimaksud dalam Pasal 46 ayat (1) huruf b.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana sebagaimana dimaksud pada",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pihak yang dapat melakukan Penjualan tanpa melalui Lelang atas Aset Properti se bagaimana dimaksud pada ayat ( 1) meliputi: a. pihak lain yang namanya tercantum dalam dokumen kepemilikan atau orang lain yang dinyatakan sebagai pemilik berdasarkan putusan pengadilan yang telah berkekuatan hukum tetap, atau ahli warisnya, dan tidak termasuk nominee; badan hukum yang namanya tercantum dalam dokumen kepemilikan yang diwakili oleh pengurus yang masih aktif sesuai dengan ketentuan peraturan perundang-undangan; eks debitur terkait yang sudah tidak mempunyai kewajiban kepada BDL c.q. Pemerintah Republik Indonesia; pihak lain yang telah menguasai Aset Properti secara fisik minimal 20 (dua puluh) tahun dan telah mendirikan bangunan permanen; atau pihak selain pihak sebagaimana dimaksud pada huruf a, huruf b, huruf c, dan huruf d setelah mendapat persetujuan Direktur Jenderal. b. c. d. e.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam pemberian persetujuan sebagaimana dimaksud pada ayat (2) huruf e, Direktur Jenderal dapat meminta bantuan aparat pengawasan internal pemerintah untuk y melakukan reviu atas permohonan pembelian tanpa melalui Lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Eks debitur terkait sebagaimana dimaksud pada ayat (2) huruf c hanya dapat mengikuti penjualan tanpa melalui Lelang atas Aset Properti berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Barang Jaminan Diambil Alih; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-47/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Barang Jaminan Diambil Alih yang dicatat sebagai Aset Tetap pada laporan keuangan BDL.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-48/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pihak yang terafiliasi dengan eks BDL tidak dapat mengikuti penjualan tanpa melalui Lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pihak terafiliasi sebagaimana dimaksud pada ayat (1) meliputi: a. b. c. komisaris/pengawas eks BDL; direksi/pengurus eks BDL; dan/atau pemegang saham eks BDL.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-48/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pihak terafiliasi sebagaimana dimaksud pada ayat (2) termasuk keluarga sedarah maupun semenda dalam garis keturunan lurus satu derajat dan/ a tau ke samping satu derajat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pihak yang dapat menjadi pembeli dalam penjualan tanpa melalui Lelang atas Aset Properti sebagaimana dimaksud",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-49/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "harus mengajukan surat dalam pasal 4 7 ayat permohonan kepada Direktur Jenderal, yang minimal memuat: a. uraian Aset Properti yang akan dimohonkan untuk dilaksanakan penjualan tanpa melalui Lelang; identitas pemohon; dan nilai penawaran. b. c.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-49/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan sebagaimana dimaksud pada ayat (1) dilampiri dengan surat pernyataan secara notariil dari pemohon yang menyatakan bukan se bagai pihak terafiliasi sebagaimana dimaksud Pasal 48 ayat (2) dan ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penjualan tanpa melalui Lelang atas Aset Properti dapat disetujui apabila nilai penawaran minimal sama dengan Nilai Wajar berdasarkan laporan Penilaian. Menteri dapat menetapkan Aset Properti menjadi BMN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nilai penjualan tanpa melalui Lelang ditetapkan oleh Direktur Jenderal minimal sama dengan Nilai Wajar berdasarkan laporan Penilaian yang dilakukan oleh penilai. Aset Properti yang dapat ditetapkan menjadi BMN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penilai sebagaimana dimaksud pada ayat (2) meliputi: Penilai Pemerintah; atau a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Penilai Publik yang ditunjuk oleh Direktur. sebagaimana dimaksud pada ayat",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Permohonan Penilaian Aset Properti kepada Penilai (3) Pemerintah disampaikan oleh Direktur sesuai dengan ketentuan peraturan perundang-undangan di bidang Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Persetujuan penjualan tanpa melalui Lelang atas Aset Properti diberikan oleh Direktur Jenderal berdasarkan rekomendasi dari Direktur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Permohonan penjualan tanpa melalui Lelang sebagaimana dimaksud dalam Pasal 49 dapat disetujui apabila nilai penawaran minimal sama dengan Nilai Wajar Aset Properti berdasarkan laporan Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam kondisi tertentu, atas Nilai Wajar Aset Properti sebagaimana dimaksud pada ayat (6) dapat diberikan faktor penyesuai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Faktor penyesuai sebagaimana dimaksud pada ayat (7) diberikan dengan pertimbangan terpenuhinya legalitas formal subjek dan objek Lelang sesuai peraturan perundang-undangan di bidang Lelang. tidak",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Faktor penyesuai sebagaimana dimaksud pada ayat (7) diberikan prosentase pengurangan dari Nilai Wajar paling tinggi sebesar 30 % (tiga puluh persen).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-50/ayat-10",
+       "type": "AYAT",
+       "orderIndex": 10,
+       "label": "Ayat (10)",
+       "content": "Dalam pemberian sebagaimana dimaksud pada ayat (7), Direktur Jenderal dapat meminta bantuan aparat pengawasan internal pemerintah untuk melakukan reviu. faktor penyesuai Paragraf 4 Penetapan Aset Properti Menjadi BMN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "meliputi: a. Aset Properti yang dilengkapi dengan: 1. 2. dokumen pengalihan hak dari Tim Likuidasi; a tau dokumen pengalihan hak dari pemilik asal kepada BDL/Tim Likuidasi; b. Aset Properti yang tidak dilengkapi dokumen sebagaimana dimaksud dalam huruf a, namun tercatat pada NAL sebagai Aset Properti; dan c. Aset Properti yang tidak dilengkapi dokumen sebagaimana dimaksud dalam huruf a dan tidak tercatat pada NAL.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-51/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dokumen pengalihan hak sebagaimana dimaksud pada ayat (2) huruf a tidak terbatas pada akta kuasa untuk menjual, ppjb, ajb, Risalah Lelang, surat pernyataan dari pemilik/eks BDL/Tim Likuidasi, berita acara serah terima atau dokumen pengalihan hak lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "( 1) A set Properti se bagaimana dimaksud dalam Pasal 51 ayat (2) huruf b, dapat ditetapkan sebagai BMN dengan mekanisme: a. Verifikasi; dan b. diumumkan dalam media cetak sebanyak 2 (dua) kali dengan rentang waktu 30 (tiga puluh) hari.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam proses penetapan sebagai BMN sebagaimana dimaksud pada ayat (1), Direktorat dapat meminta reviu aparat pengawasan internal pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Aset Properti sebagaimana dimaksud dalam Pasal 51 ayat (2) huruf c ditetapkan menjadi BMN setelah mendapatkan putusan pengadilan yang telah berkekuatan hukum tetap.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Penetapan Aset Properti menjadi BMN sebagaimana dimaksud dalam Pasal 51 ayat ( 1) dilakukan: a. berdasarkan Kementerian/Lembaga kepada Direktur Jenderal; atau tanpa didahului permohonan dari Kementerian/Lembaga. permohonan pimpinan dari b.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Permohonan sebagaimana dimaksud dalam Pasal 54 huruf a minimal memuat alasan yang mendasari permohonan dan dilampiri dengan: a. b. data Aset Properti; surat pernyataan komitmen menggunakan Aset Properti untuk penyelenggaraan tugas dan fungsi; surat pernyataan kesediaan menerima Aset Properti, dalam kondisi fisik dan/ atau dokumen sebagaimana adanya (as is); dan surat pernyataan kesediaan dan tanggung jawab penuh untuk melunasi dan menyelesaikan segala biaya serta kewajiban yang melekat pada Aset Properti tersebut. c. d.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Aset Properti berasal dari PT Bank Asiatic (Dalam Likuidasi), PT Bank Dagang Bali (Dalam Likuidasi), dan PT Bank Global lnternasional Tbk (Dalam Likuidasi) selain kelengkapan sebagaimana dimaksud pada ayat (1), permohonan sebagaimana dimaksud dalam Pasal 54 huruf a dilampiri pula dengan surat pernyataan bersedia menyelesaikan kewajiban pembayaran kepada Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "( 1) Direktorat melakukan penelitian atas permohonan sebagaimana dimaksud dalam Pasal 55 ayat (1).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal berdasarkan hasil penelitian: a. b. permohonan disetujui, Aset Properti ditetapkan sebagai BMN dan ditetapkan status penggunaannya kepada Kementerian/Lembaga; atau tidak disetujui, Direktur Jenderal permohonan memberitahukan secara tertulis kepada pimpinan Kementerian/Lembaga, disertai dengan alasan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penetapan Aset Properti menjadi BMN dan penetapan status penggunaannya se bagaimana dimaksud dalam Pasal 56 ayat (2) huruf a ditetapkan oleh Direktur Jenderal atas nama Menteri melalui Keputusan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan Menteri sebagaimana dimaksud pada ayat ( 1) minimal memuat: a. b. pertimbangan penetapan status penggunaan; identitas Aset Properti yang ditetapkan statusnya menjadi BMN; c. d. e. f. nilai Aset Properti; pengguna barang; tindak lanjut penetapan status penggunaan; dan kewajiban pembayaran hak Nasabah Penyimpan Dana, dalam hal Aset Properti yang ditetapkan merupakan aset dari PT Bank Asiatic (Dalam Likuidasi), PT Bank Dagang Bali (Dalam Likuidasi), dan PT Bank Global Internasional Tbk (Dalam Likuidasi).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-57/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nilai Aset Properti sebagaimana dimaksud pada ayat (2) huruf c merupakan Nilai Wajar berdasarkan laporan Penilaian dan diperhitungkan sebagai pengurang kewajiban eks BDL kepada pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-57/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penetapan Aset Properti menjadi BMN dan penetapan status penggunaannya ditindaklanjuti dengan pembuatan berita acara serah terima Aset Properti dari Direktorat kepada Kementerian/ Lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penetapan Aset Properti menjadi BMN tanpa didahului permohonan sebagaimana dimaksud dalam Pasal 54 huruf b dilaksanakan dengan tahapan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Direktorat menyusun daftar Aset Properti yang direncanakan akan ditetapkan menjadi BMN; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Direktorat melakukan kajian atas Aset Properti sebagaimana dimaksud dalam huruf a.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan Aset Properti menjadi BMN sebagaimana dimaksud pada ayat ( 1) dilakukan oleh Direktur J enderal atas nama Menteri melalui Keputusan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keputusan Menteri sebagaimana dimaksud pada ayat (2) minimal memuat: a. b. c. d. pertimbangan penetapan Aset Properti menjadi BMN; identitas Aset Properti yang ditetapkan menjadi BMN; nilai Aset Properti; dan kewajiban pembayaran hak Nasabah Penyimpan Dana, dalam hal Aset Properti yang ditetapkan merupakan aset dari PT Bank Asiatic (Dalam Likuidasi), PT Bank Dagang Bali (Dalam Likuidasi), dan PT Bank Global Internasional Tbk (Dalam Likuidasi).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Nilai Aset Properti sebagaimana dimaksud pada ayat (2) huruf c merupakan Nilai Wajar berdasarkan laporan sebagai pengurang Penilaian dan diperhitungkan kewajiban eks BDL kepada pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-58/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Aset Properti yang telah ditetapkan menjadi BMN sebagaimana dimaksud pada ayat (1) pengelolaannya berada pada Direktorat Jenderal. Paragraf 5 Pemanfaatan Dalam Bentuk Sewa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Kantor Wilayah atas nama Menteri dapat melakukan pemanfaatan Aset Properti dengan cara Sewa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-59/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sewa Aset Properti dilakukan dengan tujuan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-59/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mencegah penggunaan Aset Properti oleh pihak lain secara tidak sah; atau 1. 2.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-59/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengoptimalkan Aset Properti yang: belum diajukan Lelang; belum dilakukan penjualan Lelang; atau belum ditetapkan menjadi BMN.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-59/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jangka waktu Sewa paling lama 2 (dua) tahun dan dapat rencana tanpa melalui diperpanjang dalam hal belum pengelolaan lainnya atas Aset Properti. terdapat 3.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "( 1) Calon penyewa Aset Properti mengajukan permohonan secara tertulis kepada Kepala Kantor Wilayah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan secara tertulis sebagaimana dimaksud pada ayat (1) minimal memuat: uraian Aset Properti yang akan disewa; a. identitas calon penyewa; b. c. rencana peruntukan Sewa;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "usulan besaran Sewa; dan usulan jangka waktu Sewa. e.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Permohonan secara tertulis sebagaimana dimaksud pada ayat (1) dilampiri dengan surat pernyataan untuk tidak menyewakan atau menyerahkan dalam bentuk dan cara apapun objek Sewa kepada pihak lain. kembali kepada pihak lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kantor Wilayah melakukan penelitian atas permohonan Sewa atas Aset Properti se bagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penelitian sebagaimana dimaksud pada ayat (4) termasuk melakukan konfirmasi kepada Direktorat atas rencana pengelolaan Aset Properti yang dimohonkan Sewa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-60/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal permohonan sebagaimana dimaksud pada ayat (1): a. b. disetujui, Kepala Kantor Wilayah menerbitkan persetujuan Sewa; atau tidak disetujui, Kepala Kantor Wilayah menerbitkan surat penolakan kepada calon penyewa disertai dengan alasannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan persetujuan Sewa sebagaimana dimaksud dalam Pasal 60 ayat (6) huruf a, Kepala Kantor Wilayah menindaklanjuti dengan penandatanganan perjanjian Sewa dengan pihak penyewa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Kantor Wilayah melaporkan pelaksanaan penandatangan perjanjian Sewa sebagaimana dimaksud pada ayat ( 1) kepada Direktur dengan melampirkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-61/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Persetujuan Sewa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-61/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Bukti Setor; dan Perjanjian Sewa. c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Pembayaran uang Sewa secara sekaligus paling lambat dibayarkan sebelum ditandatanganinya perjanjian Sewa -r dengan cara disetorkan ke kas negara dan diperhitungkan sebagai pengurang kewajiban eks BDL kepada pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Sewa berakhir dalam hal: a. berakhirnya jangka waktu Sewa sebagaimana tertuang dalam perjanjian Sewa; berlakunya syarat batal sesuai perjanjian; dan/ a tau ketentuan lain sesuai ketentuan peraturan perundang undangan. b. c.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Ketentuan pemanfaatan dalam bentuk Sewa atas Aset Properti tidak diatur dalam Peraturan Menteri mi sepanjang sesuai ketentuan peraturan perundang dilaksanakan undangan di bidang pengelolaan BMN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "INVENTARISASI DAN PENILAIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Aset Kredit, Aset Inventaris, Surat Berharga berupa saham dan obligasi, Aset Penempatan, dan Aset Properti yang telah dilakukan diserahkan Inventarisasi dan Penilaian. Pemerin tah kepada",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penilaian sebagaimana dimaksud pada ayat (1), dilakukan oleh: a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Penilai Publik yang ditunjuk oleh Direktur. Penilai Pemerintah; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Penilaian dilakukan oleh Penilai Publik sebagaimana dimaksud pada ayat (2) huruf b, proses pengadaan jasa Penilai Publik dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang pengadaan barang dan jasa oleh instansi pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaksanaan Inventarisasi dan Penilaian sebagaimana dimaksud pada ayat ( 1) berpedoman pada ketentuan dibidang Inventarisasi dan Penilaian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Hasil dari pelaksanaan Inventarisasi dan Penilaian ditindaklanjuti dengan: a. pencatatan pada suatu sistem informasi pengelolaan aset; dan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-65/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penatausahaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "Pelaksanaan sebagaimana Inventarisasi dan Penilaian dimaksud dalam Pasal 65 dibiayai dari Anggaran Pendapatan dan Belanja Negara dengan memperhatikan kemampuan keuangan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "HASIL PENGELOLAAN ASET",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "b. hasil pengelolaan Aset yang bukan berupa uang tunai.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-67/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil pengelolaan Aset berupa uang tunai berasal dari: a. telah pembayaran/pelunasan Aset Kredit yang diserahkan pengurusannya kepada Panitia Urusan Piutang Negara;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-67/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Lelang Aset Inventaris; c. d. e. f. pembayaran atas dividen saham dan bunga obligasi; pencairan obligasi; penjualan atas Surat Berharga; dan/atau pencairan Penempatan pada bank penyimpan; Lelang Aset Properti; g.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-67/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "penjualan tanpa melalui Lelang Aset Properti; dan i. Sewa Aset Properti. dana Aset penagihan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-67/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil pengelolaan Aset yang bukan berupa uang tunai berasal dari: a. b. penetapan Aset Inventaris menjadi BMN; dan penetapan Aset Properti menjadi BMN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-68/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hasil pengelolaan Aset berupa uang tunai yang berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-68/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Lelang Aset Inventaris; b. c. d. e. pembayaran atas dividen saham dan bunga obligasi; pencairan obligasi; penjualan atas Surat Berharga; pencairan dan/ atau Penempatan pada bank penyimpan; Lelang Aset Properti; penjualan tanpa melalui Lelang; dan f. g.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-68/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "Sewa Aset Properti, dikenakan biaya pengelolaan Aset. penagihan dana Aset",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-68/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biaya pengelolaan Aset sebagaimana dimaksud pada ayat (1) merupakan Penerimaan Negara Bukan Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-68/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengenaan Biaya pengelolaan Aset dilaksanakan berdasarkan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "( 1) Hasil pengelolaan A set se bagaimana dimaksud dalam e. Pasal 67 ayat (2) yang berasal dari: a. b. c. d. PT Bank Anrico (Dalam Likuidasi); PT Bank Guna Internasional (Dalam Likuidasi); PT Bank Harapan Sentosa (Dalam Likuidasi); PT Bank Citrahasta Dhanamanunggal Likuidasi); PT Bank Kosagraha Semesta Sejahtera (Dalam Likuidasi); PT Bank Mataram Dhanarta (Dalam Likuidasi); PT Bank Pasific (Dalam Likuidasi); PT Sejahtera Bank Umum (Dalam Likuidasi); PT South East Asia Bank (Dalam Likuidasi); PT Bank Dwipa Semesta (Dalam Likuidasi); PT Astria Raya Bank (Dalam Likuidasi) ; PT Bank Pinaesaan (Dalam Likuidasi); f. g. h. 1. J. k. 1. m. PT Bank Industri (Dalam Likuidasi); dan (Dalam PT Bank Prasidha Utama (Dalam Likuidasi), n. setelah dikurangi biaya pengelolaan Aset merupakan hak pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil pengelolaan Aset sebagaimana dimaksud dalam Pasal 67 ayat (2) yang berasal dari: a. PT Bank Asiatic (Dalam Likuidasi); b. PT Bank Dagang Bali (Dalam Likuidasi); dan PT Bank Global Internasional Tbk (Dalam Likuidasi), c. setelah diperhitungkan dengan biaya pengelolaan Aset dan pembayaran Nasabah Penyimpan Dana, merupakan hak pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-70/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hasil pengelolaan Aset sebagaimana dimaksud dalam e. (Dalam Pasal 67 ayat (3) yang berasal dari: a. b. c. d. PT Bank Anrico (Dalam Likuidasi); PT Bank Guna Internasional (Dalam Likuidasi); PT Bank Harapan Sentosa (Dalam Likuidasi); PT Bank Citrahasta Dhanamanunggal Likuidasi); PT Bank Kosagraha Semesta Sejahtera (Dalam Likuidasi); PT Bank Mataram Dhanarta (Dalam Likuidasi); PT Bank Pasific (Dalam Likuidasi); PT Sejahtera Bank Umum (Dalam Likuidasi); PT South East Asia Bank (Dalam Likuidasi); PT Bank Dwipa Semesta (Dalam Likuidasi); PT Astria Raya Bank (Dalam Likuidasi); PT Bank Pinaesaan (Dalam Likuidasi); f. g. h. 1. J. k. 1.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-170-tahun-2023/pasal-70/ayat-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "PT Bank Industri (Dalam Likuidasi); dan n. merupakan hak pemerintah. PT Bank Prasidha Utama (Dalam Likuidasi),",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-70/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil pengelolaan Aset sebagaimana dimaksud dalam Pasal 67 ayat (3) yang berasal dari: PT Bank Asiatic (Dalam Likuidasi); a. PT Bank Dagang Bali (Dalam Likuidasi); dan b. c. PT Bank Global Internasional Tbk (Dalam Likuidasi), setelah diperhitungkan dengan pembayaran kepada Nasabah Penyimpan Dana merupakan hak pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "Hak pemerintah sebagaimana dimaksud dalam Pasal 69 dan sebagai pengurang piutang Pasal 70 diperhitungkan pemerintah pada BDL yang tercantum dalam Laporan Keuangan Pemerintah Pusat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "Biaya pengelolaan Aset, hak pemerintah, dan dana pembayaran Nasabah Penyimpan Dana dari hasil pengelolaan Aset yang berupa uang tunai disetor ke kas negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "Nasabah Penyimpan Dana sebagaimana dimaksud dalam Pasal 70 ayat (2) merupakan Nasabah Penyimpan Dana yang masih memiliki hak atas hasil pengelolaan Aset yang besarannya .,,,- ditetapkan oleh Tim Likuidasi dan disetujui oleh Otoritas Jasa Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-74/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri selaku Bendahara Umum Negara adalah PA pembayaran Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-74/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri menunjuk untuk melaksanakan fungsi PA atas pembayaran Nasabah Penyimpan Dana. Jenderal Direktur",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-74/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri selaku PA menunjuk Direktur selaku KPA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-74/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penunjukan KPA sebagaimana dimaksud pada ayat (3) bersifat ex-officio.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-75/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "KPA bertanggung jawab atas pelaksanaan kegiatan pembayaran Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-75/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melaksanakan tanggung jawab, KPA menetapkan: a. b. PPK; dan PPSPM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penetapan PPK sebagaimana dimaksud dalam Pasal 75 ayat (2) huruf a dilakukan untuk mengajukan permintaan pembayaran Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan PPK tidak terikat tahun anggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-77/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penetapan PPSPM sebagaimana dimaksud dalam Pasal 75 ayat (2) huruf b dilakukan untuk pengujian permintaan pembayaran, pembebanan, dan penerbitan perintah pembayaran Nasabah Penyimpan Dana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-77/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan PPSPM tidak terikat tahun anggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-78/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembayaran Nasabah Penyimpan Dana dilakukan ke rekening pada bank yang ditunjuk oleh Otoritas Jasa Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-78/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembayaran sebagaimana dimaksud pada ayat (1) sesuai dengan realisasi dana pembayaran Nasabah Penyimpan Dana pada kas negara pada tahun sebelumnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "sebagaimana Pembayaran Nasabah Penyimpan Dana dimaksud dalam Pasal 78 dilaksanakan setiap tahun yang besaran nilai pembayarannya didasarkan pada Laporan Keuangan BUN audited tahun sebelumnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "(1) (2) Direktur Jenderal menetapkan keputusan mengenai besaran pembayaran Nasabah Penyimpan Dana untuk masing-masing BDL berdasarkan data realisasi dana pembayaran Nasabah Penyimpan Dana pada kas negara tahun sebelumnya. Keputusan ditetapkan setiap tahun. sebagaimana dimaksud pada ayat (1)",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-80/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besaran nilai pembayaran Nasabah Penyimpan Dana yang ditetapkan dalam keputusan sebagaimana dimaksud pada ayat (1) didasarkan pada Laporan Keuangan BUN audited tahun sebelumnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "Berdasarkan keputusan Direktur Jenderal sebagaimana ( 1) mengenai be saran dimaksud dalam Pasal 80 ayat pembayaran Nasabah Penyimpan Dana untuk masing-masing BDL, KPA menerbitkan SKP.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "sebagaimana dimaksud",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan SKP dalam Pasal 81, PPK menerbitkan SPP untuk pembayaran Nasabah Penyimpan Dana ke rekening sebagaimana dimaksud dalam Pasal 78.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "PPK menyampaikan SPP kepada PPSPM dengan melampirkan SKP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Berdasarkan SPP, PPSPM melakukan pemeriksaan dan pengujian SPP beserta lampirannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal pemeriksaan dan pengujian SPP telah memenuhi ketentuan peraturan perundang-undangan mengenai tata cara pelaksanaan Anggaran Pendapatan dan Belanja Negara, PPSPM menerbitkan SPM Nasabah Penyimpan Dana untuk pembayaran Nasabah Penyimpan Dana ke rekening sebagaimana dimaksud dalam Pasal 78 (tiga) dengan peruntukan sebagai dalam rangkap 3 berikut: a. b. lembar ke-1 dan lembar ke-2 untuk KPPN; dan lembar ke-3 untuk pertinggal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal pemeriksaan dan pengujian SPP tidak sesuai dengan ketentuan peraturan perundang-undangan mengenai tata cara pelaksanaan Anggaran Pendapatan dan Belanja Negara, PPSPM mengembalikan SPP kepada PPK untuk diperbaiki dan dilengkapi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-82/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "PPSPM menyampaikan SPM Nasabah Penyimpan Dana sebagaimana dimaksud pada ayat (4) kepada KPPN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "Berdasarkan SPM Nasabah Penyimpan Dana sebagaimana dimaksud dalam Pasal 82 ayat (6) dan SKP sebagaimana dimaksud dalam Pasal 81, KPPN menerbitkan SP2D sesuai dengan ketentuan penerbitan SP2D.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "tahun berjalan",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal pada selisih sebagaimana kelebihan/kekurangan dimaksud dalam Pasal 78 ayat (1), dapat diperhitungkan dengan pembayaran Nasabah Penyimpan Dana periode berikutnya. pembayaran terdapat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selisih kelebihan/kekurangan pembayaran Nasabah Penyimpan Dana sebagaimana dimaksud pada ayat (1), didasarkan pada hasil rekonsiliasi antara Direktorat Jenderal dan Direktorat Jenderal Perbendaharaan, yang dituangkan dalam berita acara. r",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "Pembayaran Nasabah Penyimpan Dana atas hasil pengelolaan Aset yang bukan berupa uang tunai dibebankan pada bagian anggaran Kementerian/Lembaga penerima manfaat dan dilaksanakan sesuai dengan ketentuan peraturan perundang undangan mengenai tata cara pelaksanaan Anggaran Pendapatan dan Belanja Negara. BABV PENANGANANPERKARA oleh",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-86/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penanganan perkara di lembaga peradilan atas Aset dilakukan tugas mengoordinasikan dan melaksanakan advokasi hukum pada Sekretariat Jenderal Kementerian Keuangan dengan mengikutsertakan Direktorat yang memiliki tugas dan fungsi di bidang bantuan hukum pada Direktorat Jenderal. yang mempunyai Biro",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-86/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktorat yang memiliki tugas dan fungsi di bidang bantuan hukum pada Direktorat Jenderal menyampaikan laporan perkembangan penanganan perkara tiap triwulan kepada Direktur Jenderal dengan ditembuskan kepada Direktur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-86/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk penyusunan laporan sebagaimana dimaksud pada ayat (2), Direktorat yang memiliki tugas dan fungsi di bidang bantuan hukum pada Direktorat Jenderal berkoordinasi dengan Biro yang mempunyai tugas mengoordinasikan dan melaksanakan advokasi hukum pada Sekretariat Jenderal Kementerian Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "Pengelolaan Aset yang berperkara dilakukan oleh Direktorat dengan mempertimbangkan perkara hukum atas Aset.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-89",
+     "type": "PASAL",
+     "orderIndex": 89,
+     "label": "Pasal 89",
+     "content": "Untuk pertanggungjawaban pengelolaan Aset, Direktur Jenderal menyusun sesuai dengan ketentuan peraturan perundang-undangan di bidang sistem akuntansi dan pelaporan keuangan pemerintah pusat. laporan keuangan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "MONITORING DAN EVALUASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-90",
+     "type": "PASAL",
+     "orderIndex": 90,
+     "label": "Pasal 90",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-90/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktur Jenderal melakukan monitoring dan evaluasi atas pengelolaan Aset.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-90/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hasil monitoring dan evaluasi sebagaimana dimaksud dan untuk menyempurnakan (1) pada mengoptimalkan pengelolaan Aset. ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-91",
+     "type": "PASAL",
+     "orderIndex": 91,
+     "label": "Pasal 91",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-91/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seluruh proses pengelolaan Aset oleh Kementerian Keuangan c.q. Direktorat Jenderal yang telah dilakukan sebelum berlakunya Peraturan Menteri ini dinyatakan tetap sah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-170-tahun-2023/pasal-91/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan Aset yang telah mendapatkan persetujuan Menteri dinyatakan tetap berlaku dan proses selanjutnya mengikuti ketentuan yang berlaku pada saat persetujuan Menteri diterbitkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-170-tahun-2023/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-92",
+     "type": "PASAL",
+     "orderIndex": 92,
+     "label": "Pasal 92",
+     "content": "Pada saat Peraturan Menteri ini mulai berlaku: a. Peraturan Menteri Keuangan Nomor 185/PMK.06/2019 tentang Pengelolaan Aset Eks Bank dalam Likuidasi oleh Menteri Keuangan (Berita Negara Republik Indonesia Tahun 2019 Nomor 1559), dicabut dan dinyatakan tidak berlaku;dan pengelolaan Aset yang belum mendapatkan persetujuan, selanjutnya dilaksanakan berdasarkan Peraturan Menteri 1n1. b. Peraturan Menteri mi mulai berlaku pada diundangkan. tanggal",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-170-tahun-2023/pasal-93",
+     "type": "PASAL",
+     "orderIndex": 93,
+     "label": "Pasal 93",
+     "content": "setiap orang mengetahuinya, memerintahkan Agar pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 29 Desember 2023 MENTERI KEUANGAN REPUBLIK INDONESIA, ttd. SRI MULYANI INDRAWATI Diundangkan di Jakarta pada tanggal 29 Desember 2023 DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. ASEP N. MULYANA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2023 NOMOR 1114 Salinan sesuai dengan aslinya, Kepala Biro Umum u.b. Plt. Kepala Bagian Administrasi Kementerian . [!] � . : . Ditandatangani secara elektronik DEWI SURIANI HASLAM",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..93): [44, 88]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

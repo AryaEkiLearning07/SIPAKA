@@ -1,0 +1,73 @@
+{
+ "slug": "uu-no-14-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "bahwa berlandaskan Manifesto Politik demi kenaikan produksi, perkembangan pengusahaan pertambangan minyak di Indonesia harus dipercepat untuk menyelenggarakan masalah proyek- proyek B yang tercantum dalam dasar Pembangunan Nasional Semesta Berencana Tahapan Pertama 1961 - 1969, sebagai ditetapkan dalam rencana Dewan Perancang Nasional yang garis- garis besarnya telah disahkan dengan Ketetapan M.P.R.S. No. II/MPRS/1960 tertanggal 3 Desember 1960:",
+   "bahwa hasil-hasil proyek B harus dipergunakan untuk pembiayaan rangkaian proyek A:",
+   "bahwa … PRESIDEN REPUBLIK INDONESIA - 2 -",
+   "bahwa dengan adanya Perjanjian tentang perminyakan di Tokyo antara Pemerintah Republik Indonesia dengan perusahaan- perusahaan minyak asing di Indonesia dan telah ditandatangani Perjanjian-perjanjian Karya antara P.N. Pertamin dengan P. T. Caltex Indonesia dan California Asiatic Oil Company (Calasiatic)/Texaco Overseas Petroleum Company (Topco); P.N. Permina dengan P.T. Stanvac Indonesia: P.N. Permigan dengan P.T. Shell Indonesia, maka Perjanjian perjanjian Karya tersebut sesuai dengan Undang-undang No. 44 Prp tahun 1960 perlu disahkan dengan Undang-undang,"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-14-tahun-1963",
+   "detailsId": "50663",
+   "judul": "UU No. 14 Tahun 1963 tentang Pengesahan &quot;Perjanjian Karya&quot; Antara P.N. Pertamina dengan p.t. Caltex Indonesia dan California Asiatic Oil Company (Calasiatic) Texaco Overseas Petroleum Company (Topco) ; P.N. Pertamina dengan P.T. Stanvac Indonesia, P.N. Permigan dengan P.T. Shell indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39906/UU%20Nomor%2014%20Tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:59:05.292318+00:00"
+  },
+  "sha256": "49d4e523d3a2541be17722db26bd944fc283c0cce24f293c045ae92806da5b50",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-14-tahun-1963/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1963/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Daerah-daerah bekas konsesi, kontrak 5A dan daerah-daerah bekas perusahaan-perusahaan Pertembangan yang selama ini diusahakan oleh perusahaan-perusahaan P.T. Caltex Indonesia, P.T. Stanvac Indonesia dan P.T. Shell Indonesia dengan berlakunya Undang- undang ini. dinyatakan telah dikembalikan kepada Pemerintah Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1963/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penunjukan wilayah-wilayah kuasa pertambangan untuk P.N. Pertamin, P.N. Permina dan P.N. Permigan sebagaimana di maksudkan dalam pasal 1 Undang-undang ini, akan diatur lebih lanjut dengan Keputusan Presiden. Pasal 3. Undang-undang ini mulai berlaku pada hari diundangkannya. Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran- Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 28 Nopember 1963. Presiden Republik Indonesia. ttd SUKARNO. Diundangkan di Jakarta pada tanggal 28 Nopember 1963. Sekretaris Negara, ttd MOHD. ICHSAN. LEMBARAN NEGARA TAHUN 1963 NOMOR 110 MEMORI",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-43-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "perlu meninjau kembali Peraturan Pemerintah No. 34 tahun 1962 tentang Pendirian Perusahaan Negara Tambang Batubara Sebuku (Lembaran-Negara tahun 1962 No. 89);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-43-tahun-1963",
+   "detailsId": "72304",
+   "judul": "PP No. 43 Tahun 1963 tentang Perubahan dan Tambahan Peraturan Pemerintah No. 34 Tahun 1962 Tentang Pendirian Perusahaan Negara Tambang Batubara Sebuku - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62784/pp%20no%20043%20tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:59.105152+00:00"
+  },
+  "sha256": "7cec73916caa40e22223562db9c3415efc9a535887f9a26026098a724a2e0cc1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

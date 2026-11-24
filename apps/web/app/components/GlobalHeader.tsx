@@ -17,6 +17,11 @@ interface NavItem {
 const NAV_ITEMS: NavItem[] = [
   { label: 'Beranda', href: '/', exact: true },
   { label: 'Pencarian UU', href: '/katalog' },
+  { label: 'Forum Kasus', href: '/forum' },
+  { label: 'Repositori', href: '/repositori' },
+  { label: 'Glosarium Latin', href: '/glosarium' },
+  { label: 'Asisten AI', href: '/asisten-ai' },
+  { label: 'Peta Pipeline', href: '/pipeline' },
 ];
 
 export default function GlobalHeader() {
@@ -96,9 +101,7 @@ export default function GlobalHeader() {
     pathname === '/masuk' ||
     pathname.startsWith('/masuk/') ||
     pathname === '/admin' ||
-    pathname.startsWith('/admin/') ||
-    pathname === '/pipeline' ||
-    pathname.startsWith('/pipeline/')
+    pathname.startsWith('/admin/')
   ) {
     return null;
   }
@@ -179,9 +182,9 @@ export default function GlobalHeader() {
             <div className="flex items-center gap-3">
               {currentUser ? (
                 <Link
-                  href="/masuk"
+                  href="/profil"
                   className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-300 text-xs font-semibold text-slate-800 transition-colors"
-                  title={`Masuk sebagai ${currentUser.name}`}
+                  title={`Buka Profil ${currentUser.name}`}
                 >
                   <div className="w-5 h-5 rounded-full bg-[#94191C] text-white flex items-center justify-center text-[10px]">
                     {currentUser.name.charAt(0).toUpperCase()}

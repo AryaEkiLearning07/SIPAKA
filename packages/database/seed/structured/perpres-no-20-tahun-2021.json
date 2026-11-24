@@ -1,0 +1,198 @@
+{
+ "slug": "perpres-no-20-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-20-tahun-2021",
+   "detailsId": "164850",
+   "judul": "PERPRES No. 20 Tahun 2021 tentang Hak Keuangan dan Fasilitas Bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/157727/Perpres%20Nomor%2020%20Tahun%202021.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-110-tahun-2006"
+   ],
+   "scrapedAt": "2026-10-06T06:15:29.861366+00:00"
+  },
+  "sha256": "c9a38159dc535a1eca82e89ce80211bd07c95b522a147db784fb50d3bd25da90",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 6,
+  "ayat_angka": 3,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Hak keuangan dan fasilitas bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi terdiri atas: a. honorarium; dan b. fasilitas biaya perjalanan dinas. Pasal 2 . SK No 038456 A REPUBLIK INDONESIA",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Honorarium bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertilikasi Profesi sebagaimana dimaksud dalam Pasal 1 diberikan setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Honorarium sebagaimana dimaksud pada ayat (1) yaitu:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Ketua, sebesar Rp36.00O.0OO,OO (tiga puluh enam juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Wakil Ketua, sebesar Rp33.687.500,00 (tiga puluh tiga juta enam ratus delapan puluh tujuh ribu lima ratus rupiah); dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Anggota, sebesar Rp30.000.000,00 (tiga puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-2/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Honorarium sebagaimana dimaksud pada ayat (21 dikenakan pajak penghasilan sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Fasilitas biaya perjalanan dinas bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi sebagaimana dimaksud dalam Pasal 1 diberikan dalam bentuk biaya perjalanan dinas, apabila melakukan perjalanan dinas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Fasilitas biaya perjalanan dinas bagi jabatan Ketua sebagaimana dimaksud pada ayat (1) diberikan setara dengan biaya perjalanan dinas Jabatan Pimpinan Tinggi Utama.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-20-tahun-2021/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Fasilitas biaya perjalanan dinas bagi jabatan Wakil Ketua dan Anggota sebagaimana dimaksud pada ayat (1) diberikan setara dengan biaya perjalanan dinas Jabatan Pimpinan Tinggi Madya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "SK No 038457 A REPUBLTK TNDONESIA Ketua, Wakil Ketua, atau Anggota Badan Nasional Sertifikasi Profesi yang berstatus sebagai Pegawai Negeri Sipil dan mendapatkan gaji sebagai Pegawai Negeri Sipil maka honorarium sebagaimana dimaksud dalam Pasal 2 dibayarkan sebesar selisih antara honorarium dengan gaji dan tunjangan sebagai Pegawai Negeri Sipil.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Tata cara pembayaran dan penghentian pembayaran hak keuangan dan fasilitas bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi dilaksanakan sesuai dengan ketentuan peraturan perLlndang-undangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Pada saat Peraturan Presiden ini mulai berlaku, semua peraturan perundang-undangan atau ketentuan yang merupakan pelaksanaan dari Peraturan Presiden Nomor 11O Tahun 2006 tentang Honorarium bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi, dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Pada saat Peraturan Presiden ini mulai berlaku, Peraturan Presiden Nomor 11O Tahun 2006 tentang Honorarium bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi, dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-2021/pasal-8",
+   "type": "PASAL",
+   "orderIndex": 8,
+   "label": "Pasal 8",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar. . . SK No 038458 A PRESIOEN REPUBLIK INOONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Maret 2O2l PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 6 April 2O2l MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2I NOMOR 89 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Deputi Bidang Perundang-undangan istrasi Hukum, na Djaman SK No 016809 A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

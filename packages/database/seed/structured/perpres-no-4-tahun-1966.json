@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-4-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Presiden Republik Indonesia Nomor 20 Tahun 1965 tentang Premi Ekspor Perlu lebih disesuaikan lagi dengan keadaan dewasa ini;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-4-tahun-1966",
+   "detailsId": "42534",
+   "judul": "PERPRES No. 4 Tahun 1966 tentang Bonus Ekspor - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73302/Perpres%20No.%204%20Tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:00.536400+00:00"
+  },
+  "sha256": "77efc20855e61fde0c565fe33f55dbc5893acf901d993cc76b4a7493e65eeecb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,2498 @@
+{
+ "slug": "perbup-kab-indramayu-no-153-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perbup-kab-indramayu-no-153-tahun-2024",
+   "detailsId": "344630",
+   "judul": "Perbup Kab. Indramayu No. 153 Tahun 2024 tentang Organisasi Dan Tata Kerja Dinas Pekerjaan Umum Dan Penataan Ruang Kabupaten Indramayu - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/407896/Perbup%20Indramayu%20No%20153%20Tahun%202024%20ocr.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perbup-kab-indramayu-no-22-tahun-2022"
+   ],
+   "scrapedAt": "2026-10-06T13:35:26.145686+00:00"
+  },
+  "sha256": "6a0af4a557815ccd3e35c65661b50f7783f1eaee76df1b7bc924889137810579",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 26,
+  "ayat_angka": 107,
+  "huruf": 125
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "DINAS PEKERJAAN UMUM DAN PENATAAN RUANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Bupati ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah Kabupaten adalah Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah Kabupaten adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Urusan Pemerintahan adalah kekuasaan pemerintahan yang menjadi kewenangan presiden yang pelaksanaannya dilakukan oleh kementerian negara dan penyelenggara pemerintahan daerah untuk melindungi, melayani, memberdayakan, dan menyejahterakan masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Perangkat Daerah adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan urusan pemerintahan yang menjadi kewenangan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Gubernur adalah Gubernur Jawa Barat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Bupati adalah Bupati Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Sekretaris Daerah yang selanjutnya disingkat Sekda adalah Sekretaris Daerah Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Dinas Tipe A adalah unsur pelaksana urusan pemerintahan yang menjadi kewenangan Daerah, yang terdiri atas 1 (satu) Sekretariat dan paling banyak 4 (empat) Bidang, Sekretariat terdiri atas paling banyak 2 (dua) Sub Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Dinas adalah Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kepala Dinas adalah Kepala Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Sekretariat adalah Sekretariat pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Sekretaris adalah Sekretaris Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Bidang adalah Bidang pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Kepala Bidang adalah Kepala Bidang pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Sub Bagian adalah Sub Bagian pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kepala Sub Bagian adalah Kepala Sub Bagian pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Jabatan Pimpinan Tinggi adalah Jabatan Manajerial tingkat tinggi beranggung jawab dan berperan dalam mengelola, memotivasi, dan mendukung pengembangan Pegawai ASN, mendayagunakan sumber daya serta mengambil keputusan menurut tingkatan jabatannya, untuk mencapai tujuan organisasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Jabatan Administrator adalah Jabatan Manajerial tingkat menengah yang bertanggung jawab dan berperan dalam mengelola, memotivasi, dan mendukung dan mengoordinasikan pelaksanaan strategi pencapaian tujuan organisasi serta pelayanan publik dan administrasi; ASN, memimpin pengembangan Pegawai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Jabatan Pengawas adalah Jabatan Manajerial tingkat dasar yang bertanggung jawab dan berperan dalam mengelola, memotivasi, dan dan mendukung mengoordinasikan pelaksanaan strategi pencapaian tujuan organisasi serta pelayanan publik dan administrasi; ASN, memimpin pengembangan Pegawai",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Jabatan Fungsional adalah Jabatan yang bertanggung jawab memberikan pelayanan dan melaksanakan pekerjaan sesuai dengan keahlian dan/atau keterampilan tertentu;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Jabatan Pelaksana adalah Jabatan yang bertanggung jawab memberikan pelayanan dan melaksanakan pekerjaan yang bersifat rutin dan sederhana;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Unit Pelaksana Teknis Daerah yang selanjutnya disingkat UPTD adalah unsur pelaksana teknis pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu yang melaksanakan kegiatan teknis operasional dan/atau kegiatan teknis penunjang tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Kelompok Jabatan Fungsional adalah kelompok pegawai negeri sipil yang diberi tugas, wewenang, dan hak secara penuh oleh pejabat yang berwenang untuk melaksanakan kegiatan yang sesuai dengan profesinya dalam rangka mendukung kelancaran tugas Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Sistem Kerja adalah serangkaian prosedur dan tata kerja yang membentuk suatu proses aktivitas pelaksanaan tugas dan fungsi organisasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Unit Organisasi adalah bagian dari struktur organisasi yang dapat dipimpin oleh Pejabat Pimpinan Tinggi Pratama, Pejabat Administrator, Pejabat Pengawas atau Pejabat Fungsional yang diangkat untuk memimpin suatu unit kerja mandiri berdasarkan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Pimpinan Unit Organisasi adalah Pejabat Pimpinan Tinggi Pratama, Pejabat Administrator, Pejabat Pengawas atau Pejabat Fungsional yang diangkat untuk memimpin suatu unit organisasi tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Pejabat Penilai Kinerja adalah atasan langsung dengan ketentuan paling rendah Pejabat Pengawas atau Pejabat lain yang diberikan pendelegasian kewenangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-28",
+       "type": "ANGKA",
+       "orderIndex": 28,
+       "label": "Angka 28",
+       "content": "Tim Kerja adalah Tim/Kelompok yang terdiri dari satu jenis atau lebih Jabatan Fungsional atau Pelaksana yang dapat berasal dari lintas unit organisasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-29",
+       "type": "ANGKA",
+       "orderIndex": 29,
+       "label": "Angka 29",
+       "content": "Ketua Tim adalah Pejabat Fungsional atau pelaksana yang diberi peran untuk mengoordinasikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-1/angka-30",
+       "type": "ANGKA",
+       "orderIndex": 30,
+       "label": "Angka 30",
+       "content": "Tugas Pembantuan adalah penugasan dari pemerintah pusat kepada daerah otonom untuk melaksanakan sebagian urusan pemerintahan yang menjadi kewenangan pemerintah pusat atau dari pemerintah daerah provinsi kepada daerah kabupaten/kota untuk melaksanakan sebagian urusan pemerintahan yang menjadi kewenangan daerah provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEDUDUKAN, TUGAS, DAN FUNGSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas adalah unsur pelaksana urusan pemerintahan yang menjadi kewenangan Daerah di bidang pekerjaan umum dan penataan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dinas dipimpin oleh seorang Kepala yang berada di bawah dan bertanggung jawab kepada Bupati melalui Sekda. Bagian Kedua Tugas dan Fungsi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas mempunyai tugas membantu Bupati dalam melaksanakan urusan pemerintahan yang menjadi kewenangan Daerah dan Tugas Pembantuan yang diberikan kepada Daerah di bidang pekerjaan umum dan penataan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (1), Dinas mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pelaksanaan administrasi Dinas di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelaksanaan pengelolaan UPTD;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-3/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Bupati terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dinas adalah Dinas Tipe A.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Susunan organisasi Dinas sebagaimana dimaksud pada ayat (1) terdiri dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kepala.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Sekretariat, membawahkan :",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Sub Bagian Umum dan Kepegawaian, membawahkan Kelompok Jabatan Fungsional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Sub Bagian Keuangan, membawahkan Kelompok Jabatan Fungsional;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Kelompok Jabatan Fungsional.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Bidang Sumber Daya Air, membawahkan Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Bidang Bina Marga, membawahkan Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Bidang Bangunan dan Bina Konstruksi, membawahkan Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "Bidang Tata Ruang, membawahkan Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "UPTD.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/angka-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bagan struktur organisasi Dinas sebagaimana tercantum dalam lampiran, merupakan bagian yang tidak terpisahkan dari Peraturan Bupati ini. Bagian Ketiga Bidang Tugas Unsur-unsur Organisasi Paragraf 1 Kepala",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Dinas mempunyai tugas memimpin, mengoordinasikan, dan mengendalikan Dinas dalam melaksanakan urusan pemerintahan Daerah dan Tugas Pembantuan yang diberikan kepada Daerah di bidang pekerjaan umum dan penataan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (1), Kepala Dinas mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pelaksanaan administrasi Dinas di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyelenggaraan koordinasi, konsultasi, dan kerjasama di bidang pekerjaan umum dan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pelaksanaan pengelolaan UPTD;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-5/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Bupati terkait dengan tugas dan fungsinya. Paragraf 2 Sekretariat",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat dipimpin oleh seorang Sekretaris.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretaris mempunyai tugas membantu Kepala dalam memimpin, mengoordinasikan, dan mengendalikan tugas-tugas di bidang umum dan kepegawaian, keuangan, serta perencanaan dan evaluasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Sekretaris mempunyai fungsi : a. penyiapan bahan perumusan kebijakan rencana dan program kerja, kesekretariatan; teknis, penyusunan serta pengelolaan pelayanan b. c. d. e. f. g. perumusan kebijakan teknis dan pengoordinasian penyusunan rencana dan program kerja Dinas; penyusunan rencana strategis, rencana kerja, dan perjanjian kinerja Dinas; pengoordinasian penyusunan rencana anggaran Dinas; penyelenggaraan dan pengelolaan tata usaha, kearsipan, perpustakaan, kerumahtanggaan, kepegawaian, keuangan, dan perlengkapan; penyelenggaraan kehumasan dan keprotokolan lingkup Dinas; pelaksanaan evaluasi dan pelaporan tugas pengelolaan pelayanan kesekretariatan; h. pelaksanaan monitoring, evaluasi, dan pelaporan pelaksanaan tugas Dinas; i. penyusunan bahan laporan penyelenggaraan pemerintahan daerah, laporan pertanggungjawaban laporan akuntabilitas kinerja, dan Bupati;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "pengoordinasian penyusunan laporan keuangan Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "pengoordinasian dan fasilitasi kegiatan Bidang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Kepala Dinas terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sekretariat, membawahkan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sub Bagian Umum dan Kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Sub Bagian Keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-6/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Kelompok Jabatan Fungsional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sub Bagian Umum dan Kepegawaian dipimpin oleh seorang Kepala Sub Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Sub Bagian Umum dan Kepegawaian mempunyai tugas tata usaha, menyiapkan bahan dan melaksanakan pengelolaan kearsipan, perpustakaan, kehumasan, keprotokolan, kerumahtanggaan, kepegawaian, dan perlengkapan lingkup Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Sub Bagian Umum dan Kepegawaian mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyiapan bahan penyusunan rencana dan program kerja operasional pengelolaan tata usaha, kearsipan, perpustakaan, kehumasan, keprotokolan, kerumahtanggaan, kepegawaian, dan perlengkapan lingkup Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengelolaan tata usaha, kearsipan, dan perpustakaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyelenggaraan kehumasan dan keprotokolan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyiapan bahan pembinaan dan pengelolaan administrasi kepegawaian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pengelolaan administrasi perlengkapan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pengelolaan dan pengendalian administrasi perjalanan dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "penyelenggaraan kerumahtanggaan, meliputi pelayanan akomodasi, pemeliharaan, kebersihan, serta keamanan dan ketertiban;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Sekretaris terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sub Bagian Umum dan Kepegawaian, membawahkan Kelompok Jabatan Fungsional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sub Bagian Keuangan dipimpin oleh seorang Kepala Sub Bagian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Sub Bagian Keuangan mempunyai tugas menyiapkan bahan dan melaksanakan pengelolaan keuangan Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Sub Bagian Keuangan mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyiapan bahan penyusunan rencana dan program kerja operasional pengelolaan keuangan Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan penatausahaan keuangan Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelaksanaan penyiapan Surat Permintaan Pembayaran (SPP) dan Surat Perintah Membayar (SPM) Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penelitian pengujian kebenaran, kelengkapan dan keabsahan surat pertanggungjawaban (SPJ) atau tanda bukti pengeluaran uang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyelenggaraan akuntansi dan penyusunan laporan keuangan Dinas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Sekretaris terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sub Bagian Keuangan, membawahkan Kelompok Jabatan Fungsional. Paragraf 3 Bidang Sumber Daya Air",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Sumber Daya Air dipimpin oleh seorang Kepala Bidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Bidang Sumber Daya Air mempunyai tugas merumuskan dan melaksanakan kebijakan teknis di bidang irigasi, konversi sumber daya air dan sungai, serta pengembangan dan pengelolaan air baku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Bidang Sumber Daya Air mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang irigasi, konversi sumber daya air dan sungai, serta pengembangan dan pengelolaan air baku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan teknis di bidang irigasi, konversi sumber daya air dan sungai, serta pengembangan dan pengelolaan air baku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembinaan teknis di bidang irigasi, konversi sumber daya air dan sungai, serta pengembangan dan pengelolaan air baku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengelolaan sumber daya air dan bangunan pengaman pantai pada wilayah sungai dalam Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyediaan air baku untuk kebutuhan masyarakat pada sumber air yang menjadi kewenangan Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "penyediaan bangunan pengaman pantai pada wilayah sungai sesuai kewenangan Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelaksanaan pengelolaan kawasan lindung sumber daya air pada wilayah sungai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pelaksanaan pendayagunaan sumber daya air pada wilayah sungai, rawa, dan pantai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "pelaksanaan kebijakan pengendalian banjir dan kekeringan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "pelaksanaan koordinasi pengendalian banjir dan kekeringan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "pelaksanaan pengelolaan data dan informasi banjir dan kekeringan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pelaksanaan pemantauan dan pengendalian di bidang pengelolaan sungai dan pantai, pengembangan dan pengelolaan air baku, serta penanggulangan dan pelestarian sumber daya air;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "pelaksanaan koordinasi, konsultasi, dan kerjasama di bidang pengelolaan sungai dan pantai, pengembangan dan pengelolaan air baku, serta penanggulangan dan pelestarian sumber daya air;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang pengelolaan sungai dan pantai, pengembangan dan pengelolaan air baku, serta penanggulangan dan pelestarian sumber daya air;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "pengembangan dan pengelolaan sistem irigasi primer dan sekunder dan pemberdayaan para pemilik kepentingan dalam pengelolaan sumber air irigasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "pelaksanaan bina operasi, pemeliharaan dan rehabilitasi pada daerah irigasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-3/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Kepala Dinas terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidang Sumber Daya Air, membawahkan Kelompok Jabatan Fungsional. Paragraf 4 Bidang Bina Marga",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Bina Marga dipimpin oleh seorang Kepala Bidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Bidang Bina Marga mempunyai tugas merumuskan dan melaksanakan kebijakan teknis di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan dan rehabilitasi jalan dan jembatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Bidang Tata Teknis Irigasi mempunyai fungsi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan dan rehabilitasi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan teknis di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan dan rehabilitasi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembinaan teknis di bidang perencanaan jalan dan jembatan, jembatan, serta pengembangan dan peningkatan jalan dan pemeliharaan dan rahabilitasi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyediaan masyarakat; jalan dan jembatan untuk memenuhi kebutuhan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyusunan rumusan kebijakan perencanaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "penyusunan perencanaan kegiatan pengumpulan data dan analisa harga, perhitungan volume, dan pembuatan rencana anggaran biaya pekerjaan pembangunan, penggantian, peningkatan, rehabilitasi, dan pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelaksanaan kegiatan pengukuran teknik, pembuatan desain teknik, dan pengolahan data jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pelaksanaan pengelolaan dan pengawasan rehabilitasi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "perumusan dan pengaturan teknis pengendalian pelaksanaan kegiatan pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "pelaksanaan kegiatan pengumpulan dan pengolahan data kondisi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "pelaksanaan pengelolaan operasional dan pengendalian kegiatan pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "penyiapan bahan pelaksanaan kegiatan pemberian bantuan sarana dan prasarana jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "penyiapan bahan pelaksanaan kegiatan penanggulangan bencana alam di bidang jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "perencanaan teknis, pemrograman dan penganggaran, pengadaan lahan, serta pelaksanaan konstruksi jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "pelaksanaan pemantauan dan pengendalian di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "pelaksanaan koordinasi, konsultasi, dan kerjasama di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang perencanaan jalan dan jembatan, pengembangan dan peningkatan jalan dan jembatan, serta pemeliharaan jalan dan jembatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-3/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Kepala Dinas terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidang Bina Marga, membawahkan Kelompok Jabatan Fungsional. Paragraf 5 Bidang Bangunan dan Bina Konstruksi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Bangunan dan Bina Konstruksi dipimpin oleh seorang Kepala Bidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Bidang Bangunan dan Konstruksi mempunyai tugas merumuskan dan melaksanakan kebijakan teknis di bidang bangunan gedung, pembinaan dan penyelenggaraan jasa konstruksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Bidang Bangunan dan Bina Konstruksi mempunyai fungsi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang bangunan gedung dan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan teknis di bidang bangunan gedung dan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembinaan teknis di bidang bangunan gedung dan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyelenggaraan bangunan gedung di wilayah Daerah, termasuk persetujuan teknis pemberian Persetujuan Bangunan Gedung (PBG) dan Sertifikat Laik Fungsi (SLF) bangunan gedung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penyelenggaraan penataan bangunan dan lingkungannya di Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "penyediaan sistem data dan informasi penyelenggaraan bangunan gedung, penataan bangunan dan lingkungannya yang menjadi kewenangan Daerah, termasuk persetujuan teknis pemberian Izin Mendirikan Bangunan (IMB) dan sertifikasi laik fungsi bangunan gedung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "penetapan persyaratan administrasi dan teknis bangunan gedung adat, semi permanen, darurat dan bangunan gedung yang dibangun di lokasi bencana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pelaksanaan kegiatan penaksiran penilaian bangunan untuk keperluan pembebasan bangunan kegiatan/proyek;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "pelaksanaan pengusutan bangunan yang tidak sesuai dengan aturan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "pelaksanaan penyegelan dan pembongkaran bangunan yang tidak sesuai dengan aturan serta penyelesaian sengketa bangunan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "pelaksanaan pengendalian bangunan yang tidak sesuai dengan ketentuan peraturan perundang-undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pembinaan dan pemberdayaan kepada masyarakat dalam penyelenggaraan bangunan gedung dan lingkungan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "pelaksanaan pembangunan dan pengelolan bangunan gedung dan rumah negara yang menjadi aset pemerintah Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "penetapan status gedung dan lingkungan yang dilindungi dan dilestarikan yang berskala lokal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "pelaksanaan pemberian advis teknis dan bantuan pengelola teknis kepada perangkat daerah/instansi vertikal terkait perencanaan dan penaksiran bangunan gedung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "penyediaan pelatihan tenaga terampil konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "penyediaan layanan informasi jasa konstruksi tingkat Daerah pada sistem informasi pembina jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "penyediaan layanan tertib usaha, monitoring dan evaluasi, tertib penyelengaraan kontruksi, dan tertib pemanfaatan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-s",
+         "type": "HURUF",
+         "orderIndex": 19,
+         "label": "Huruf s",
+         "content": "pelaksanaan pemantauan dan pengendalian di bidang bangunan gedung, pembinaan dan penyelenggaraan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-t",
+         "type": "HURUF",
+         "orderIndex": 20,
+         "label": "Huruf t",
+         "content": "pelaksanaan koordinasi, konsultasi, dan kerjasama di bidang bangunan gedung, pembinaan dan penyelenggaraan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-u",
+         "type": "HURUF",
+         "orderIndex": 21,
+         "label": "Huruf u",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang bangunan gedung, pembinaan dan penyelenggaraan jasa konstruksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-3/huruf-v",
+         "type": "HURUF",
+         "orderIndex": 22,
+         "label": "Huruf v",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Kepala Dinas terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidang Bangunan dan Bina Konstruksi, membawahkan Kelompok Jabatan Fungsional. Paragraf 6 Bidang Tata Ruang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidang Tata Ruang dipimpin oleh seorang Kepala Bidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Bidang Tata Ruang mempunyai tugas merumuskan dan melaksanakan kebijakan teknis di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menyelenggarakan tugas sebagaimana dimaksud pada ayat (2), Kepala Bidang Penataan Ruang mempunyai fungsi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perumusan kebijakan teknis di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan kebijakan teknis di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pembinaan teknis di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pelaksanaan penyusunan pedoman penataan ruang kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelaksanaan koordinasi penyelenggaraan penataan ruang kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pelaksanaan sosialisasi peraturan perundangan bidang penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelaksanaan pengembangan kesadaran dan tanggung jawab masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pelaksanaan penyusunan rencana tata ruang wilayah kabupaten, rencana tata ruang kawasan strategis kabupaten, dan rencana detail tata ruang kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "pelaksanaan sinkronisasi program pembangunan dan penataan ruang kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "pelaksanaan penyusunan ketentuan peraturan zonasi sistem kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "pelaksanaan penyusunan perangkat insentif dan disinsentif tingkat kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "pelaksanaan pemberian izin pemanfaatan ruang tingkat kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "pelaksanaan pemberian sanksi pelanggaran penataan ruang tingkat kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "pelaksanaan evaluasi pemanfaatan ruang tingkat kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "pelaksanaan penyusunan peraturan daerah tentang rencana tata ruang kabupaten;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "pelaksanaan pengembangan data dan informasi bidang penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "pelaksanaan penataan dan penyiapan peta untuk perencanaan tata ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "pelaksanaan penetapan kriteria penentuan dan perubahan fungsi ruang kawasan/lahan wilayah dalam rangka penyelenggaraan penataan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-s",
+         "type": "HURUF",
+         "orderIndex": 19,
+         "label": "Huruf s",
+         "content": "pelaksanaan pemantauan dan pengendalian di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-t",
+         "type": "HURUF",
+         "orderIndex": 20,
+         "label": "Huruf t",
+         "content": "pelaksanaan koordinasi, konsultasi, dan kerjasama di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-u",
+         "type": "HURUF",
+         "orderIndex": 21,
+         "label": "Huruf u",
+         "content": "pelaksanaan evaluasi dan pelaporan di bidang perencanaan tata ruang, pemanfaatan ruang, pengendalian dan pengawasan ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-3/huruf-v",
+         "type": "HURUF",
+         "orderIndex": 22,
+         "label": "Huruf v",
+         "content": "pelaksanaan fungsi lain yang diberikan oleh Kepala Dinas terkait dengan tugas dan fungsinya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidang Tata Ruang, membawahkan Kelompok Jabatan Fungsional. Paragraf 7 Unit Pelaksana Teknis",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UPTD adalah unsur pelaksana teknis pada Dinas yang melaksanakan kegiatan teknis operasional dan/atau kegiatan teknis penunjang tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "UPTD dipimpin oleh seorang Kepala UPTD yang berada di bawah dan bertanggung jawab kepada Kepala Dinas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pembentukan, susunan organisasi, tugas dan fungsi, serta tata kerja UPTD sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati. Paragraf 8 Kelompok Jabatan Fungsional",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kelompok Jabatan Fungsional mempunyai tugas pokok melaksanakan sebagian kegiatan Dinas secara profesional sesuai dengan kebutuhan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kelompok Jabatan Fungsional sebagaimana dimaksud pada ayat (1), dalam melaksanakan tugas pokoknya bertanggungjawab kepada Kepala unit organisasi atau atasan langsung yang sesuai dengan bidangnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kelompok Jabatan Fungsional sebagaimana dimaksud pada ayat (1) terdiri dari sejumlah tenaga dalam jenis dan jenjang Jabatan Fungsional yang terbagi dalam berbagai kelompok sesuai dengan bidang keahliannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Jumlah Jabatan Fungsional sebagaimana dimaksud pada ayat (1), ditentukan sifat, jenis, kebutuhan dan beban kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-14/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pembinaan terhadap tenaga fungsional dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TATA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan tugasnya, setiap Jabatan Pimpinan Tinggi Pratama, Jabatan Administrator, Jabatan Pengawas, Jabatan Pelaksana dan Jabatan Fungsional wajib menerapkan prinsip koordinasi, integrasi, sinkronisasi, dan simplikasi baik secara vertikal, diagonal maupun horizontal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pejabat Fungsional dan Pejabat Pelaksana dapat ditugaskan secara perorangan dan/atau dalam tim kerja oleh pimpinan unit organisasi, melalui: huruf b dilakukan dengan mekanisme pengajuan permohonan kepada pimpinan unit organisasi yang dituju.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penunjukan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengajuan sukarela.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penugasan melalui penunjukan sebagaimana dimaksud pada ayat (2) huruf a dilakukan dengan mekanisme pengajuan permohonan dari pimpinan unit organisasi kepada pejabat penilai kinerja yang dituju atau penunjukan secara langsung oleh pimpinan unit organisasi kepada pejabat fungsional dan pelaksana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penugasan melalui pengajuan sukarela sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penugasan Pejabat Fungsional dan Pejabat Pelaksana dalam tim kerja sebagaimana ayat (2) dapat melibatkan 1 (satu) atau lebih jenis jabatan dan dapat berasal dari dalam unit organisasi, lintas unit organisasi dan lintas Perangkat Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-15/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan mengenai Tata Kerja diatur lebih lanjut dengan Peraturan Bupati tersendiri. Bagian Kedua Pelaporan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Pimpinan Unit Organisasi wajib mengikuti dan mematuhi petunjuk-petunjuk dan bertanggung jawab kepada atasannya serta menyampaikan laporan tepat waktunya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap laporan yang diterima oleh Pimpinan Unit Organisasi dari bawahannya, wajib diolah dan dipergunakan sebagai penyusunan laporan lebih lanjut dan untuk memberikan petunjuk kepada bawahannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam menyampaikan atasan masing-masing sebagaimana dimaksud pada ayat (2), tembusannya disampaikan kepada satuan unit organisasi lainnya yang secara fungsional mempunyai hubungan kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Peraturan mengenai laporan dan cara penyampaiannya laporan kepada teknis berpedoman pada ketentuan peraturan perundang-undangan. Bagian Ketiga Hal Mewakili",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Kepala Dinas berhalangan menjalankan tugasnya, Kepala dapat menunjuk Sekretaris atau salah seorang Kepala Bidang sesuai dengan bidang tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Sekretaris atau Kepala Bidang berhalangan menjalankan tugasnya, Sekretaris atau Kepala Bidang dapat menunjuk salah seorang Kepala Sub Bagian, atau Ketua Tim sesuai dengan bidang tugasnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KEPEGAWAIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Dinas merupakan jabatan eselon IIb atau jabatan pimpinan tinggi pratama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretaris merupakan jabatan eselon IIIa atau jabatan administrator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kepala Bidang merupakan jabatan eselon IIIb atau jabatan administrator.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kepala Sub Bagian merupakan merupakan jabatan eselon IVa atau jabatan pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain jabatan sebagaimana dimaksud pada Pasal 18, pada Dinas terdapat jabatan pelaksana dan jabatan fungsional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah dan jenis jabatan pelaksana dan jabatan fungsional sebagaimana dimaksud pada ayat (1) ditentukan berdasarkan analisis jabatan dan analisis beban kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jabatan pada Dinas diisi oleh pegawai aparatur sipil negara sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pegawai aparatur sipil negara yang menduduki jabatan pimpinan tinggi, jabatan pengawas pada Dinas wajib jabatan administrator, dan memenuhi persyaratan kompetensi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teknis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "manajerial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sosial kultural.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Selain memenuhi kompetensi sebagaimana dimaksud pada ayat (2), pegawai aparatur sipil negara yang menduduki jabatan pimpinan tinggi, jabatan pengawas pada Dinas harus jabatan administrator, dan memenuhi kompetensi pemerintahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kompetensi teknis sebagaimana dimaksud pada ayat (2) huruf a diukur dari tingkat dan spesialisasi pendidikan, pelatihan teknis fungsional, dan pengalaman bekerja secara teknis yang dibuktikan dengan sertifikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kompetensi manajerial sebagaimana dimaksud pada ayat (2) huruf b diukur dari tingkat pendidikan, pelatihan struktural atau manajemen, dan pengalaman kepemimpinan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Kompetensi sosial kultural sebagaimana dimaksud pada ayat (2) huruf c diukur dari pengalaman kerja berkaitan dengan masyarakat majemuk dalam hal agama, suku, dan budaya sehingga memiliki wawasan kebangsaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Kompetensi pemerintahan sebagaimana dimaksud pada ayat (3) antara lain kompetensi pengetahuan, sikap, dan keterampilan yang terkait dengan kebijakan desentralisasi, hubungan pemerintah pusat dengan daerah, pemerintahan umum, pengelolaan keuangan daerah, urusan pemerintahan yang menjadi kewenangan daerah, hubungan pemerintah daerah dengan DPRD, serta etika pemerintahan, yang dibuktikan dengan sertifikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-20/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Kompetensi sebagaimana dimaksud pada ayat (2) ditetapkan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat aparatur sipil negara pada Dinas diangkat dan diberhentikan oleh Bupati sesuai dengan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Dinas diangkat dan diberhentikan oleh Bupati atas persetujuan Gubernur dari pegawai aparatur sipil negara setelah memenuhi syarat administrasi dan kualifikasi berdasarkan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan-ketentuan lain mengenai kepegawaian diatur sesuai ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PEMBIAYAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Pembiayaan Dinas bersumber dari Anggaran Pendapatan dan Belanja Daerah Kabupaten Indramayu dan penerimaan sumber lain yang sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Pada saat Peraturan Bupati ini mulai berlaku, pejabat yang ada tetap melaksanakan tugasnya sampai dilantik dan/atau dikukuhkannya pejabat yang baru.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Pada saat Peraturan Bupati ini mulai berlaku, maka UPTD pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu yang dibentuk dengan Peraturan Bupati Indramayu Nomor 40 Tahun 2022 tentang Pembentukan, Susunan Organisasi dan Tata Kerja Unit Pelaksana Teknis Daerah di Pada Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu tetap melaksanakan tugasnya sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Dengan berlakunya Peraturan Bupati ini, maka Peraturan Bupati Indramayu Nomor 22 Tahun 2022 tentang Organisasi dan Tata Kerja Dinas Pekerjaan Umum dan Penataan Ruang Kabupaten Indramayu (Berita Daerah Kabupaten Indramayu Tahun 2022 Nomor 22) dicabut dan dinyatakan tidak berlaku. Peraturan Bupati ini mulai berlaku pada Tahun 2025.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perbup-kab-indramayu-no-153-tahun-2024/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Indramayu. Ditetapkan di Indramayu pada tanggal 30 Agustus 2024 BUPATI INDRAMAYU, CaCap/Ttd NINA AGUSTINA Diundangkan di Indramayu pada tanggal 30 Agustus 2024 anuari SEKRETARIS DAERAH KABUPATEN INDRAMAYU, Cap/Ttd AEP SURAHMAN BERITA DAERAH KABUPATEN INDRAMAYU TAHUN 2024 NOMOR 1532 Salinan Sesuai Dengan Aslinya KEPALA BAGIAN HUKUM KABUPATEN INDRAMAYU, JA’FAR ABDULLAH, S.H., M.H. Pembina Tk.I NIP. 19770406 200604 1 009 BAGAN STRUKTUR ORGANISASI DINAS PEKERJAAN UMUM DAN PENATAAN RUANG KABUPATEN INDRAMAYU =============================================",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

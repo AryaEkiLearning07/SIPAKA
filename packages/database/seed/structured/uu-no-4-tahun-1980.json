@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-4-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Negara Tahun 1969/1970 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-1980",
+   "detailsId": "47127",
+   "judul": "UU No. 4 Tahun 1980 tentang Perhitungan Anggaran Negara Tahun 1969/1970 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35994/UU%20Nomor%204%20Tahun%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:51:04.055759+00:00"
+  },
+  "sha256": "e1f3324aee811a48d09fa098d786baf78756e72f2c2e7ab19d06fc28ccf8773b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-1980/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-1980/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penerimaan Negara dalam Tahun Anggaran 1969/1970 adalah sebesar Rp.328.291.970.610,99 (tiga ratus dua puluh delapan milyar dua ratus sembilan puluh satu juta sembilan ratus tujuh puluh ribu enam ratus sepuluh sembilan puluh sembilan perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1980/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengeluaran Negara dalam Tahun Anggaran 1969/1970 adalah sebesar Rp.323.003.369.900,88 (tiga ratus dua puluh tiga milyar tiga juta tiga ratus enam puluh sembilan ribu sembilan ratus delapan puluh delapan perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1980/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa lebih Perhitungan Anggaran Negara Tahun 1969/1970 adalah sebesar Rp.5.288.600.710,11 (lima milyar dua ratus delapan puluh delapan juta enam ratus ribu tujuh ratus sepuluh sebelas perseratus rupiah). Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 5 Juli 1980 PRESIDEN REPUBLIK INDONESIA, ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 5 Juli 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. SUDHARMONO, SH",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

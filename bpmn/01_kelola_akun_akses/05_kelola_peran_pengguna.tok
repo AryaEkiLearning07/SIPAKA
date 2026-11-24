@@ -1,0 +1,34 @@
+tok 1.0 "Kelola Peran Pengguna (Kelola Akun & Akses)"
+
+pool p "Kelola Peran Pengguna" process=kelola_peran_pengguna
+  store d_peran "Peran Pengguna"
+  store d_sesi "Sesi"
+  start mulai "Permintaan ubah peran diterima" message="Permintaan ubah peran"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor aksi "Aksi yang diminta?"
+  service tetapkan "Tetapkan Peran Pengguna"
+  service cabut "Cabut Peran Pengguna"
+  xor gabung
+  service sinkron "Perbarui hak akses pada sesi aktif pengguna"
+  end selesai "Peran pengguna diperbarui" message="Konfirmasi perubahan peran"
+
+pool admin "Admin"
+
+flow mulai -> auth -> izin
+flow izin -> aksi "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow aksi -> tetapkan "tetapkan" when="aksi = \"tetapkan\""
+flow aksi -> cabut "cabut" default
+flow tetapkan -> gabung
+flow cabut -> gabung
+flow gabung -> sinkron -> selesai
+
+writes tetapkan d_peran
+writes cabut d_peran
+writes sinkron d_sesi
+
+message admin -> mulai "Permintaan ubah peran"
+message tolak -> admin "Akses ditolak"
+message selesai -> admin "Konfirmasi perubahan peran"

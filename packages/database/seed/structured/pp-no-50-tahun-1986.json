@@ -1,0 +1,436 @@
+{
+ "slug": "pp-no-50-tahun-1986",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-50-tahun-1986",
+   "detailsId": "71331",
+   "judul": "PP No. 50 Tahun 1986 tentang Penyediaan dan Penggunaan Tanah Serta Ruang Udara di Sekitar Bandar Udara&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61762/PP%20NO%2050%20TH%201986.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:13:35.776433+00:00"
+  },
+  "sha256": "3a9414a1ea64c280195e7fd07c2dd82db8569e150c0af60fe439e3fe5090783d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 14,
+  "ayat_angka": 22,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENYEDIAAN DAN PENGGUNAAN TANAH SERTA RUANG UDARA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Lapangan terbang adalah tiap-tiap bagian darat ataupun perairan yang termasuk wilayah Republik Indonesia yang menurut Keputusan Menteri ditunjuk dipergunakan untuk keperluan penerbangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Bandar Udara adalah lapangan terbang yang dipergunakan untuk lepas landas dan/atau mendarat pesawat udara, naik dan turunnya penumpang, membongkar dan/atau memuat pos, barang, hewan dan tanaman, termasuk segala fasilitas penunjang penyelengaraan kegiatannya, fasilitas keselamatan penerbangan, dan usaha penunjang penerbangan lainnya. djpp.depkumham.go.id",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Penghalang adalah semua benda yang bersifat tetap atau sementara, bergerak maupun tidak bergerak yang letaknya pada suatu kawasan atau tempat atau menonjol di atas suatu permukaan tertentu di atas dan/atau di sekitar Bandar Udara yang dapat membahayakan pergerakan pesawat udara dan/atau keselamatan operasi penerbangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Kawasan Pendekatan dan Lepas Landas adalah suatu kawasan perpanjangan kedua ujung landasan, di bawah lintasan pesawat udara setelah lepas landas atau akan mendarat, yang dibatasi oleh ukuran panjang dan lebar tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Kawasan Kemungkinan Bahaya Kecelakaan adalah sebagian dari kawasan pendekatan yang berbatasan langsung dengan ujung-ujung landasan dan mempunyai ukuran tertentu yang dapat menimbulkan kemungkinan terjadinya kecelakaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Permukaan Horizontal-Dalam adalah bidang datar di atas dan di sekitar Bandar Udara yang dibatasi oleh radius dan ketinggian dengan ukuran tertentu untuk kepentingan pesawat udara melakukan terbang rendah pada waktu akan mendarat atau setelah lepas landas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Permukaan Horozontal-Luar adalah bidang datar di sekitar bandar udara yang dibatasi oleh garis perpotongan dengan Permukaan-Horizontal-Dalam dan bagian atasnya dibatasi oleh garis perpotongan dengan Permukaan-Horizontal- Luar, masing-masing dengan radius dan ketinggian tertentu dihitung dari titik referensi yang ditentukan. dibatasi oleh radius dan ketinggian dengan ukuran tertentu untuk kepentingan keselamatan dan efisiensi operasi penerbangan antara lain pada waktu pesawat melakukan pendekatan untuk mendarat dan gerakan setelah tinggal landas atau gerakan dalam hal mengalami kegagalan dalam pendaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Permukaan Kerucut adalah bidang dari suatu kerucut yang bagian bawahnya",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Permukaan Transisi adalah bidang dengan kemiringan tertentu sejajar dengan dan bedarak tertentu dari as landasan, pada bagian bawah dibatasi oleh titik perpotongan dengan garis-garis datar yang ditarik tegak lurus pada as landasan dan pada bagian atas dibatasi oleh garis perpotongan dengan Permukaan- Horizontal-Dalam.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Kawasan Keselamatan Operasi Penerbangan adalah kawasan di sekitar bandar udara yang penggunaannya harus memenuhi persyaratan guna menjamin keselamatan penerbangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Menteri adalah Menteri yang bertanggung jawab dalam bidang perhubungan udara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PERENCANAAN, PENYEDIAAN, SERTA PENGGUNAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menyelenggarakan kegiatan pelayanan dan pembinaan Bandar Udara serta pengembangannya, perlu disediakan tanah dan ruang udara untuk pelayanan keselamatan operasi penerbangan, pelayanan umum, dan fasilitas penunjang penyelenggaraan kegiatan tersebut maupun untuk semua fasilitas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyediaan tanah dan ruang udara sebagaimana dimaksud dalam ayat (1) harus didasarkan pada rencana penggunaan tanah dan ruang udara yang menjamin keserasian dan keseimbangan dengan usaha-usaha dalam bidang lain di kawasan letak Bandar Udara bersangkutan. djpp.depkumham.go.id Negeri kepada Menteri dengan hak pengelolaan. Udara ditetapkan oleh Menteri. Dalam Negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tanah-tanah yang terletak di Bandar Udara diserahkan oleh Menteri Dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri dapat menunjuk pejabat tertentu atau badan usaha milik Negara untuk menjalankan hak pengelolaan sebagaimana dimaksud dalam ayat (1)dan memberikan izin membuat bangunan kepada pihak ke tiga dengan standar bangunan yang berlaku serta dengan memperhatikan pertimbangan Gubernur Kepala Daerah yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hak pengelolaan sebagaimana dimaksud dalam ayat (1) wajib didaftarkan pada Kantor Pendaftaran Tanah menurut peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KAWASAN-KAWASAN DI SEKITAR BANDAR UDARA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kawasan di sekitar Bandar Udara yaitu Kawasan Pendekatan dan Lepas Landas, Kawasan Kemungkinan Bahaya Kecelakaan, Kawasan Di atas Permukaan Horizontal-Dalam, Permukaan Kerucut, dan Permukaan Transisi dengan batas-batas tertentu harus bebas dari penghalang. untuk tiap-tiap Bandar Udara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri menetapkan batas-batas kawasan sebagaimana dimaksud dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Tanah dan ruang udara di sekitar Bandar Udara yang merupakan Kawasan Pendekatan dan Lepas Landas, Kawasan Kemungkinan Bahaya Kecelakaan, Kawasan Di bawah Permukaan Horizontal-Dalam, Permukaan Horizontal-Luar, Permukaan Kerucut, dan Permukaan Transisi serta Kawasan di sekitar penempatan alat bantu navigasi udara dapat dipergunakan oleh umum dengan memenuhi persyaratan keselamatan operasi penerbangan yang ditetapkan oleh Menteri. Penggunaan tanah dan ruang udara yang bertentangan dengan persyaratan yang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "djpp.depkumham.go.id",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "ditetapkan oleh Menteri sebagaimana dimaksud dalam Pasal 5 dan Pasal 6, dilarang.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tingkat kebisingan di kawasan di sekitar Bandar Udara ditetapkan oleh Menteri, dengan memperhatikan pertimbangan Menteri yang bertanggung jawab dalam bidang lingkungan hidup. Barang siapa melanggar ketentuan sebagaimana dimaksud dalam Pasal 5, Pasal 6, dan Pasal 7 dipidana dengan pidana kurungan selama-lamanya 3 (tiga) bulan atau denda setinggi-tingginya Rp. 5.000,- (lima ribu rupiah) dan harus mengembalikannya kepada keadaan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perencanaan dan penetapan penggunaan tanah yang terletak di sekitar Bandar Udara dilakukan dengan memperhatikan tingkat kebisingan yang disebabkan oleh kebisingan pesawat udara. Perbuatan sebagaimana dimaksud dalam ayat (1) adalah pelanggaran. Selain ancaman pidana sebagaimana dimaksud dalam Pasal 9, kepada palanggar dikenakan pula tindakan berdasarkan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Pada saat mulai berlakunya Peraturan Pemerintah ini, peraturan perundang-undangan yang telah dikeluarkan berdasarkan Undang-undang Nomor 83 Tahun 1958 tetap berlaku, sepanjang tidak bertentangan dengan Peraturan Pemerintah ini atau belum diubah atau diganti berdasarkan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Keadaan yang bertentangan dengan Pasal 5, Pasal 6, dan Pasal 7, pelaksanaan penyesuaiannya dilakukan berdasarkan ketentuan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-50-tahun-1986/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Keputusan Menteri. djpp.depkumham.go.id Diundangkan di Jakarta pada tanggal 23 Desember 1986 MENTERI/SEKRETARIS NEGARA ttd",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-50-tahun-1986/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut dengan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-50-tahun-1986/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Khusus untuk penetapan pengendalian penggunaan tanah dan ruang udara di sekitar Bandar Udara Internasional Jakarta Soekarno-Hatta diatur dengan Keputusan Presiden. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 23 Desember 1986 ttd. SOEHARTO SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1986 NOMOR 3343",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 3 (['pp-no-50-tahun-1986/pasal-3', 'pp-no-50-tahun-1986/pasal-10', 'pp-no-50-tahun-1986/pasal-8'])"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

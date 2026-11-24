@@ -1,0 +1,80 @@
+{
+ "slug": "pp-no-52-tahun-1993",
+ "preamble": {
+  "menimbang": [
+   "bahwa kekayaan Negara berupa tanah, bangunan, kendaraan dan fasilitas pendukung lainnya yang pada saat ini digunakan oleh Perusahaan Perseroan (PERSERO) PT. Taman Wisata Candi Borobudur, Prambanan dan Ratu Boko dapat ditetapkan untuk dijadikan tambahan penyertaan modal Negara ke dalam modal saham Perusahaan Perseroan (PERSERO) PT. Taman Wisata Candi Borobudur, Prambanan dan Ratu Boko;",
+   "bahwa penambahan penyertaan modal Negara tersebut, perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 11 Nopember 1993 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1993 NOMOR 92",
+ "source": {
+  "url": {
+   "slug": "pp-no-52-tahun-1993",
+   "detailsId": "57618",
+   "judul": "PP No. 52 Tahun 1993 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT. Taman Wisata Candi Borobudur, Prambanan Dan Ratu Boko - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47082/PP%20No.%2052%20Th%201993.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:45:22.297426+00:00"
+  },
+  "sha256": "77f2a52246803193249ef3b0d8a2235e0cda87432ae198066f0f860b401f9a34",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-52-tahun-1993/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENAMBAHAN PENYERTAAN MODAL NEGARA REPUBLIK INDONESIA KE DALAM MODAL SAHAM PERUSAHAAN PERSEROAN (PERSERO) TAMAN WISATA CANDI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-52-tahun-1993/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Persero (PERSERO) PT. Taman Wisata Candi Borobudur, Prambanan dan Ratu Boko yang didirikan berdasarkan Peraturan Pemerintah Nomor 7 tahun 1980.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-52-tahun-1993/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-52-tahun-1993/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 berupa tanah, bangunan, kendaraan dan fasilitas pendukung lainnya sebagaimana tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

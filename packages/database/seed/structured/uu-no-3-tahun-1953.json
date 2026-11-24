@@ -1,0 +1,77 @@
+{
+ "slug": "uu-no-3-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "bahwa sangat perlu mengadakan peraturan sementara tentang penempatan apotik-apotik, di samping peraturan tentang hal ini dalam \"Reglement op den Dienst van de Volksgezondheid\" (Staatsblad 1882 Nomor 97, jang telah diubah dan ditambah. paling akhir dengan Staatsblad 1949 Nomor 228);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-3-tahun-1953",
+   "detailsId": "45267",
+   "judul": "UU No. 3 Tahun 1953 tentang Pembukaan Apotik - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33756/UU%20Nomor%203%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:44:02.946214+00:00"
+  },
+  "sha256": "52e5f71081e93630c8762e82d6445667db82ae43107c673f88a7a2fd92e87252",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-3-tahun-1953/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1953/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dilarang membuka apotik termasuk juga membuka kembali apotik jang telah menghentikan pekerjaannya sekurang-kurangnya selama setahun di tempat-tempat atau/dan daerah-daerah jang ditetapkan oleh Menteri Kesehatan, kecuali bila diizinkan. Barang siapa jang melanggar larangan jang tersebut dalam Pasal 1, dihukum dengan hukuman kurungan selama-lamanya tiga bulan atau dengan denda. sebanyak-banyaknya sepuluh ribu rupiah. Perbuatan (hal) jang diancam hukuman dalam Pasal 3 dianggap sebagai pelanggaran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1953/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Larangan di atas tidak berlaku bagi apotik jang akan dibuka atau/dan jang akan dibuka kembali oleh Penguasa militer atau sipil. Pasal 2. … Pasal 2. Dalam tiap-tiap surat-izin, sebagaimana dimaksud dalam Pasal 1, ditentukan jangka waktu, jang menetapkan bilamana apotik itu harus memulai menjalankan pekerjaannya. Pasal 3. Bilamana hal jang diancam hukuman tersebut dalam ayat (1) dilakukan oleh atau atas nama sesuatu badan hukum, maka pengusutan hukum dan hukumannya sendiri dijatuhkan kepada pengurus atau wakil badan hukum itu di daerah/tempat itu. Untuk mengusut perbuatan (hal) jang diancam dengan hukuman menurut Undang-undang ini, juga turut berkewadjiban pegawai jang bertugas mengawas-awasi keadaan kesehatan rakjat. Pasal 5. Undang-undang ini mulai berlaku pada hari diundangkan. Agar … Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta, pada tanggal 2 Pebruari 1953. Wakil Presiden Republik Indonesia, ttd MOHAMMAD HATTA. Menteri Kesehatan, ttd J. LEIMENA. Diundangkan, pada tanggal 21 Pebruari 1953. Menteri Kehakiman, ttd LOEKMAN WIRIADINATA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1953 NOMOR 18",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1953/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Hal jang ditentukan dalam ayat (2) di atas, berlaku pada terhadap badan hukum jang bertindak sebagai pengurus atau wakil dari pada badan hukum lain. Pasal 4.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

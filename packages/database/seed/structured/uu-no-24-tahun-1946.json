@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-24-tahun-1946",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan pengeluaran uang Republik Indonesia dan pembatalan uang yang sebelum waktu itu berlaku di Jawa dan Madura perlu diadakan tindakan untuk mencegah mengalirnya uang yang tersebut terachir ke daerah-daerah di luar Jawa dan Madura;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-24-tahun-1946",
+   "detailsId": "25199",
+   "judul": "UU No. 24 Tahun 1946 tentang Pengesahan Peraturan Pemerintah Pengganti Undang-Undang Tahun 1946 Nomor 10 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/13994/UU%20Nomor%2024%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:11:35.932970+00:00"
+  },
+  "sha256": "52083b586e807802b577a5389ff7affade17bf15e7683df7530cabb294a26e91",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-212-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "bahwa kedudukan keuangan Ketua, Wakil Ketua, Anggota dan Sekretaris Jenderal/Sekretaris Dewan Perancang Nasional perlu mendapat perbaikan."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-212-tahun-1961",
+   "detailsId": "75785",
+   "judul": "PP No. 212 Tahun 1961 tentang Kedudukan Keuangan Ketua, Wakil Ketua, Anggota Dan Sekretaris&#xD;&#xA; Jenderal/Sekretaris Dewan Perancang Nasional&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66537/pp%20no%20212%20tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-58-tahun-1959"
+   ],
+   "scrapedAt": "2026-10-06T06:04:38.546126+00:00"
+  },
+  "sha256": "71451e5d36650fdf04484af95f7cd3c4d9ea054cd7aa90ae7da559410fc3c9f7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

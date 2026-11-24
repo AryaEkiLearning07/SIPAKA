@@ -1,0 +1,135 @@
+{
+ "slug": "perwali-kota-pontianak-no-90-tahun-2025",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 51 ayat (5) Peraturan Pemerintah Nomor 12 Tahun 2019 tentang Pengelolaan Keuangan Daerah, perlu menetapkan Peraturan Wali Kota tentang Standar Harga Satuan Barang Tahun Anggaran 2026;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perwali-kota-pontianak-no-90-tahun-2025",
+   "detailsId": "346429",
+   "judul": "Perwali Kota Pontianak No. 90 Tahun 2025 tentang STANDAR HARGA SATUAN BARANG TAHUN ANGGARAN 2026 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/409847/2025perwa090.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:14:20.998441+00:00"
+  },
+  "sha256": "a323f2b9053a4d096180a92d138c914e88a7300e7179f07640b1df6597d4cc6e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Wali Kota ini, yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Daerah adalah Kota Pontianak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pemerintah Daerah adalah sebagai unsur penyelenggara Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan Kota Pontianak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Wali Kota adalah Wali Kota Pontianak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Standar Harga Satuan Barang adalah penetapan besaran harga barang resmi berdasarkan jenis, spesifikasi dan kualitas dalam 1 (satu) priode tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Perencanaan Kebutuhan adalah kegiatan merumuskan rincian kebutuhan barang milik daerah untuk menghubungkan pengadaan barang yang telah lalu dengan keadaan yang sedang berjalan sebagai dasar dalam melakukan tindakan pemenuhan kebutuhan yang akan datang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Harga Pasar adalah harga wajar yang terbentuk berdasarkan hasil survei terhadap harga yang berlaku di pasaran atas barang sejenis pada waktu dan tempat tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "STANDAR HARGA SATUAN BARANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perwali-kota-pontianak-no-90-tahun-2025/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Standar Harga Satuan Barang Tahun Anggaran 2026 tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,353 @@
+{
+ "slug": "uu-no-10-tahun-1970",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-10-tahun-1970",
+   "detailsId": "47632",
+   "judul": "UU No. 10 Tahun 1970 tentang Perubahan dan Tambahan Ordonansi Pajak Dividen 1959 Undang-Undang. Pajak dividen 1959. Perubahan dan Tambahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36632/UU%20Nomor%2010%20Tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:49:05.255241+00:00"
+  },
+  "sha256": "c322a0f33757d139b29f1052aace0778c12748444d7307c03bc20c71ceba2ead",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 13,
+  "ayat_angka": 16,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-10-tahun-1970/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Undang-undang Pajak Dividen 1959 yang diubah terakhir dengan Peraturan Pemerintah Pengganti Undang-undang No. 2 tahun 1965 yang telah disahkan menjadi Undang-undang dengan Undang-undang No. 7 tahun 1969, diubah dan ditambah sehingga berbunyi sebagai berikut: I. Konsiderans ditambah dengan huruf e sampai dengan huruf g yang berbunyi sebagai berikut: e. bahwa atas hasil-hasil berupa bunga dan royalty yang dijabarkan oleh orang-orang dan badan-badan yang bertempat tinggal/berkedudukan di Indonesia kepada orang-orang dan badan-badan yang bertempat tinggal/berkedudukan diluar negeri menurut sistim pemungutan pajak yang berlaku dewasa ini tidak dipungut pajak; f. bahwa terhadap orang-orang dan badan-badan yang bertempat tinggal/berkedudukan didalam negeri pemungutan pajak atas hasil-hasil berupa bunga dan royalty yang diterima dari orang- orang dan badan-badan yang bertempat tinggal/berkedudukan di Indonesia dapat dilakukan lebih efisien; g. bahwa berhubung dengan itu disamping pemungutan pajak atas hasil-hasil saham, dirasa perlu mengadakan pungutan pajak pada sumbernya atas hasil-hasil berupa bunga. dan royalty\" II. Pasal 1 diubah seluruhnya sehingga berbunyi sebagai berikut: Dengan nama pajak atas bunga, dividen dan royalty dipungut pajak dari hasil, dengan nama atau dalam bentuk apapun, yang di peroleh dari: a. peminjaman uang kepada:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Badan- ... Badan-badan, yang berkedudukan dan melakukan perusahaan di Indonesia,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Orang-orang yang bertempat tinggal dan melakukan perusahaan di Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "\"Pendirian tetap\" yang melakukan perusahaan di Indonesia;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Pemerintah Republik Indonesia baik Pusat maupun Daerah dalam bentuk obligasi dan kertas perbendaharaan Negara;",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-4/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "saham-saham, tanda-tanda laba dan obligasi yang ikut dalam pembagian laba dari perseroan-perseroan terbatas, perseroan komanditer atas saham dan perseroan-perseroan lainnya yang modalnya seluruhnya atau sebagian terbagi atas saham-saham, yang berkedudukan di Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-4/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "pengikut-sertaan sebagai anggota ataupun sebagai yang berhak atas laba dari badan-badan yang tidak termasuk dalam huruf b tetapi merupakan subyek pajak perseroan seperti dimaksud dalam Ordonansi Pajak Perseroan 1925;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-1/angka-4/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "paten/oktroi, lisensi, merk dagang serta hak-hak lainnya dan dari penyelewengan alat-alat serta perlengkapan perindustrian, perniagaan atau ilmu pengetahuan\". III. Pasal 2 diubah seluruhnya sehingga berbunyi sebagai berikut: \"Apakah badan-badan ataupun orang-orang dimaksud dalam pasal 1 berkedudukan atau bertempat tinggal di Indonesia ditentukan menurut keadaan\". IV. Pasal 3 diubah seluruhnya menjadi pasal 3, pasal 3a, pasal 3b dan pasal 3c sehingga berbunyi sebagai berikut;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1970/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan hasil termaksud dalam pasal 1 huruf a dimaksudkan bunga dan/atau imbalan lainnya, baik yang dijanjikan maupun tidak, sehubungan dengan peminjaman uang. Pasal 3a ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1970/pasal-3a",
+   "type": "PASAL",
+   "orderIndex": 3.1,
+   "label": "Pasal 3a",
+   "content": "Dengan hasil termaksud dalam pasal 1 huruf b dimaksudkan antara lain: a. pembagian laba baik secara langsung maupun tidak langsung dengan nama atau dalam bentuk apapun; b. pembayaran kembali karena likwidasi yang melebihi jumlah modal yang telah disetorkan; c. d. f. pemberian saham bonus yang dilakukan tanpa penyetoran; pencacatan tambahan modal yang dilakukan tanpa penyetoran; pembayaran kembali seluruhnya atau sebagian dari modal yang telah disetorkan, jika dalam tahun-tahun yang lampau diperoleh keuntungan, kecuali jika pembayaran kembali itu adalah akibat dari pengecilan modal statuter yang dilakukan secara sah. g. pembayaran atas tanda-tanda laba, termasuk apa yang diterima sebagai penebusan tanda-tanda tersebut; h. laba dari obligasi yang ikut serta dalam pembagian laba.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1970/pasal-3b",
+   "type": "PASAL",
+   "orderIndex": 3.1,
+   "label": "Pasal 3b",
+   "content": "Dengan hasil termaksud dalam pasal 1 huruf c dimaksudkan antara lain: a. jumlah keuntungan tahunan, yang diambil oleh para persero/anggota, yang melebihi jumlah yang ditentukan setiap tahun menurut tabel sebagaimana dimaksud dalam pasal 4a Ordonansi Pajak Perseroan 1925; b. pembayaran keuntungan tahunan, baik secara langsung maupun tidak langsung, oleh suatu pendirian tetap di Indonesia kepada perusahaan yang berhak diluar negeri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1970/pasal-3c",
+   "type": "PASAL",
+   "orderIndex": 3.1,
+   "label": "Pasal 3c",
+   "content": "Dengan hasil termaksud dalam pasal 1 huruf d dimaksudkan pembayaran royalty dan/atau setiap pembayaran lainnya yang diterimakan sebagai balas jasa untuk: a. menggunakan ... a. menggunakan atau hak menggunakan paten/oktroi, lisensi, merk dagang, pola atau model, rencana, rahasia perusahaan cara pengerjaan, hak penarang dan hak cipta mengenai sesuatu kerja dibidang kesusastraan, kesenian atau ilmiah termasuk karya film sinematografi; b. menggunakan atau hak untuk menggunakan alat-alat dan perlengkapan perindustrian, perniagaan dan ilmu pengetahuan; c. mendapatkan bahan-bahan dan informasi yang diperlukan mengenai usaha dan investasi pada umumnya, pengalaman dibidang industri, perniagaan dan ilmu pengetahuan pada khususnya\". V. Pasal 4 diubah seluruhnya sehingga berbunyi sebagai berikut: Pajak tidak terhutang atas hasil yang diperoleh:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Bank-bank berupa bunga;",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "dari para nasabahnya sehubungan dengan pemberian pinjaman uang;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "sehubungan dengan tagihan-tagihan antara bank;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Seseorang berupa bunga sepanjang tidak melebihi batas jumlah yang ditetapkan secara berkala oleh Menteri Keuangan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Berupa bunga dan royalty, sepanjang bunga dan royalty itu bagi sipemberi hasil tidak merupakan biaya perusahaan yang dapat dipotong dari laba, sebagai termaksud dalam pasal 5 ayat (2) ke- 3 Ordonansi Pajak Perseroan 1925.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Berupa dividen, oleh badan yang berkedudukan di Indonesia atau \"pendirian tetap\" yang melakukan perusahaan di Indonesia, sepanjang perolehan dividen termaksud selaku pemegang saham atau pemegang tanda turut berhak berupa sara-sara (deelneming) sebagai\" termaksud dalam pasal 9 ayat (2) Ordonansi Pajak Perseroan 1925;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Para pemegang sertifikat dari kantor-kantor administrasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Para ... Para pemegang salam yang bertempat tinggal/berkedudukan di Indonesia berupa pemberian saham-saham bonus atau pencacatan tambahan modal pada saham-saham tanpa penyetoran sesuatu, sepanjang pemberian saham-sahan bonus atau pencacatan tambahan modal termaksud dilakukan oleh Perseroan yang bersangkutan dalam rangka memperbesar jumlah modalnya sehubungan dengan penilaian kembali aktiva tetap yang diatur dalam pasal 3a Ordonansi Pajak Perseroan 1925\". VI. Pasal 4a dihapuskan. VII. Pasal 5 ayat (5) diubah seluruhnya sehingga berbunyi sebagai berikut: \"Hasil yang diperoleh dalam bentuk natura atau bentuk lainnya yang bernilai uang dinilai menurut harga yang wajar dalam dunia niaga\". VIII Pasal 6 ayat (2) huruf e dihapuskan. IX. Pasal 8 ayat (2): kata-kata \"dividen\" bagian keuntungan atau bunga obligasi\" diganti dengan perkataan \"hasil\". X. Pasal 9 diubah seluruhnya sehingga berbunyi sebagai berikut: \"(1) Pajak atas bunga, dividen dan royalty diperhitungkan dengan pajak pendapatan atau pajak perseroan, yang dikenakan kepada sipenerima hasil untuk tahun dimana hasil itu dibayarkan atau disediakan untuk dibayarkan, sepanjang:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-7/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "hasil-hasil itu telah dimasukkan dalam pendapatan atau laba yang dikenakan pajak pendapatan atau pajak perseroan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/angka-7/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "sipenerima hasil bertempat tinggal atau berkedudukan di Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Untuk dapat memperhitungkan pajak tersebut pada ayat (1) pasal ini yang bersangkutan diwajibkan melampirkan pada surat pemberitahuan pajak pendapatan atau pajak perseroan suatu keterangan tentang pemotongan pajak termaksud\". XI. Pasal 11 dihidupkan kembali dengan perubahan sehingga berbunyi sebagai berikut: “Badan ... \"Badan/orang yang memberikan hasil atau badan-badan maupun kantor-kantor administrasi, bank-bank yang melakukan pembayaran hasil untuk dan atas nama pemberi hasil, berkewajiban memberikan suatu keterangan tentang adanya pemotongan pajak, jika diminta oleh penerima hasil. Keterangan tersebut harus memuat:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "nama dan tempat tinggal yang menerima hasil;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "hari dan tanggal hasil itu disediakan untuk dibayarkan atau dibayarkan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "jumlah hasil, bilamana perlu setelah dinaikkan menurut pasal 5 ayat (4);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "jumlah pajak yang terhutang/disetorkan kepada Kas Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-2/huruf-e",
+       "type": "HURUF",
+       "orderIndex": 5,
+       "label": "Huruf e",
+       "content": "tanggal pembayaran dan tanda tangan yang memberi surat keterangan tersebut\". XII. A. Pasal 10 ayat (1) dan ayat (2) kata-kata: \"pajak dividen\" diganti dengan kata-kata \"pajak atas bunga, dividen dan royalty\". B. Pasal 10 ayat (4) kata-kata: \"dividen, bagian keuntungan atau bunga obligasi\" diganti dengan perkataan \"hasil\". XIII Pasal 12 ayat (1) kata-kata: \"Pajak dividen\" dan \"nota dividen\" masing-masing diganti dengan kata-kata \"pajak atas bunga, dividen dan royalty\" dan \"surat keterangan\". Ayat (3) perkataan:\"dividen\" diganti dengan perkataan : \"hasil\". XIV Pasal 16 ayat (1) diantara kata-kata \"badan\" dan \"yang\" disisipkan \"/orang\". XV. Pasal 20 ayat (1) kata-kata: \"nota dividen\" dan \"pajak dividen\" masing-masing diganti dengan kata-kata: \"surat keterangan\" dan \"pajak atas bunga, dividen dan royalty\". Ayat (2) kata-kata: \"nota dividen\" dan \"nota\" kedua-duanya diganti dengan kata-kata: surat keterangan\". Ayat (3) ... Ayat (3) perkataan: \"penghukum\" diganti dengan perkataan: \"hukuman\". XVI Pasal 24 \"ayat (1) kata-kata\". \"pajak dividen\" diganti dengan kata-kata: \"pajak atas bunga, dividen dan royalty\". Ayat (2) kata-kata: \"nota dividen\" diganti dengan kata-kata: \"surat keterangan\" dan diantara kata-kata' \"badan\" dan \"yang\" disisipkan perkataan: \"/orang\". Ayat (3) perkataan: \"Inspektur\" diganti dengan kata-kata: \"Kepala Inspeksi Pajak\" dan diantara kata-kata: \"badan\" dan \"yang\" disisipkan perkataan: \"/orang\". Ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-5",
+     "type": "AYAT",
+     "orderIndex": 5,
+     "label": "Ayat (5)",
+     "content": "diantara kata-kata: \"badan\" dan \"yang\" disisipkan perkataan: \"orang\". XVII Pasal 26 diubah seluruhnya sehingga berbunyi sebagai berikut: Menteri Keuangan berhak menetapkan peraturan yang perlu untuk menjalankan Undang-undang ini serta untuk memudahkan pemungutan pajak atau pemilikan atas pemungutan pajak\". XVIII Pasal 28 diubah seluruhnya sehingga berbunyi sebagai berikut: \"Undang-undang ini disebut Undang-undang Pajak atas Bunga, Dividen dan Royalty 1970\". XIX. Kata-kata:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-5/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "\"Peraturan Pemerintah Pengganti Undang-undang\", \"Undang-undang\",",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-5/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "\"Menteri Iuran Negara\", \"Menteri Keuangan\",",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-5/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Kepala Inspeksi Keuangan\", yang terdapat dalam Undang- undang ini masing-masing diubah menjadi: \"Direktur Jenderal Pajak\",",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-10-tahun-1970/pasal-3c/ayat-5/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "\"Kepala Inspeksi Pajak\". Undang-undang ini mulai berlaku pada hari diundangkan. Agar ... Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 7 Agustus 1970. PRESIDEN REPUBLIK INDONESIA, SOEHARTO Jenderal TNI Diundangkan di Jakarta pada tanggal 7 Agustus 1970. SEKRETARIS NEGARA REPUBLIK INDONESIA, ALAMSJAH Mayor Jenderal T.N.I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..3): [2]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

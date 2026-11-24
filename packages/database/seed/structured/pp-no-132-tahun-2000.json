@@ -1,0 +1,98 @@
+{
+ "slug": "pp-no-132-tahun-2000",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 4 ayat (1) dan ayat (2) Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-undang Nomor 17 Tahun 2000 dan dalam rangka meningkatkan penerimaan Negara dari sektor pajak khususnya pajak atas hadiah undian, perlu menetapkan Peraturan Pemerintah tentang Pajak Penghasilan atas Hadiah Undian;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-132-tahun-2000",
+   "detailsId": "53963",
+   "judul": "PP No. 132 Tahun 2000 tentang Pajak Penghasilan Atas Hadiah Undian - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/43366/PP%20No.132%20TH%202000.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-42-tahun-1994"
+   ],
+   "scrapedAt": "2026-10-06T00:45:19.096851+00:00"
+  },
+  "sha256": "c63e6f2535a8c98c9b45c4cbb532613a48a8ccd8882ac12526ca21e214400aaf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Atas penghasilan berupa hadiah undian dengan nama dan dalam bentuk apapun dipotong atau dipungut Pajak Penghasilan yang bersifat final.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya Pajak Penghasilan yang wajib dipotong atau dipungut atas penghasilan sebagaimana dimaksud dalam Pasal 1 adalah 25% (dua puluh lima persen) dari jumlah bruto hadiah undian.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pasal 3 … Penyelenggara undian wajib memotong atau memungut Pajak Penghasilan sebagaimana dimaksud dalam Pasal 1 dan Pasal 2.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini ditetapkan oleh Menteri Keuangan dengan memperhatikan rekomendasi dari instansi yang terkait.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan Pemerintah Nomor 42 Tahun 1994 tentang Pajak Penghasilan atas Hadiah Undian (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 71, Tambahan Lembaran Negara Nomor 3575) dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-132-tahun-2000/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 2001. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 15 Desember 2000 a.n PRESIDEN REPUBLIK INDONESIA WAKIL PRESIDEN REPUBLIK INDONESIA, ttd. MEGAWATI SOEKARNOPUTRI Diundangkan di Jakarta pada tanggal 15 Desember 2000 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd DJOHAN EFFENDI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 237",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

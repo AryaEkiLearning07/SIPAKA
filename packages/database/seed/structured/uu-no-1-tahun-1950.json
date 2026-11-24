@@ -1,0 +1,54 @@
+{
+ "slug": "uu-no-1-tahun-1950",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan Pasal-pasal 113 dan 114, dan apa yang dikehendaki oleh sebagian dari Pasal 149 Konstitusi Sementara Republik Indonesia Serikat, maka perlu diadakan peraturan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-1-tahun-1950",
+   "detailsId": "25969",
+   "judul": "UU No. 1 Tahun 1950 tentang Susunan, Kekuasaan, dan Jalan-Pengadilan Mahkamah Agung Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/14771/UU%20Nomor%201%20Tahun%201950.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-1-tahun-1945"
+   ],
+   "scrapedAt": "2026-10-05T17:58:27.495322+00:00"
+  },
+  "sha256": "350a2f6c0d35285eaeaa23fc5acad842dd8d8e33ec6f52028070012b9874a45a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-1-tahun-1950/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "JALAN-PENGADILAN DALAM PERKARA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

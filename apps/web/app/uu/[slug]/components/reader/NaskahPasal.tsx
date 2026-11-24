@@ -47,21 +47,29 @@ export default function NaskahPasal(p: NaskahPasalProps) {
   const fsCls = fontSizeClass(p.fontSize);
   const ffCls = p.fontType === 'serif' ? 'font-serif' : 'font-sans';
 
+  // Normalisasi: Apakah dokumen memiliki BAB atau langsung daftar PASAL
+  const isDirectArticles = p.currentDoc.nodes.length > 0 && p.currentDoc.nodes[0].type === 'PASAL';
+  const chapters = isDirectArticles
+    ? [{ canonicalPath: 'root-pasal', label: '', title: '', children: p.currentDoc.nodes }]
+    : p.currentDoc.nodes;
+
   return (
     <div className="space-y-10">
-      {p.currentDoc.nodes.map((chapter) => (
+      {chapters.map((chapter) => (
         <div key={chapter.canonicalPath} className="space-y-5">
-          {/* Judul BAB Resmi */}
-          <div className="my-10 pt-8 border-t border-slate-200 text-center space-y-1">
-            <span className="font-sans font-bold text-xs uppercase tracking-widest text-[#94191C] block">
-              {chapter.label}
-            </span>
-            {chapter.title && (
-              <h3 className="font-sans font-extrabold text-base sm:text-lg text-slate-900 uppercase tracking-wide">
-                {chapter.title}
-              </h3>
-            )}
-          </div>
+          {/* Judul BAB Resmi (Hanya tampil jika ada label BAB) */}
+          {chapter.label && (
+            <div className="my-10 pt-8 border-t border-slate-200 text-center space-y-1">
+              <span className="font-sans font-bold text-xs uppercase tracking-widest text-[#94191C] block">
+                {chapter.label}
+              </span>
+              {chapter.title && (
+                <h3 className="font-sans font-extrabold text-base sm:text-lg text-slate-900 uppercase tracking-wide">
+                  {chapter.title}
+                </h3>
+              )}
+            </div>
+          )}
 
           {/* Pasal-Pasal */}
           {chapter.children?.map((pasal) => {
@@ -69,11 +77,15 @@ export default function NaskahPasal(p: NaskahPasalProps) {
             const isNewInsert = pasalOps.some((o) => o.operationType === 'ADD_PROVISION');
             const isAmended = pasalOps.some((o) => o.operationType === 'REPLACE_PROVISION' || o.operationType === 'PARTIAL_REPEAL');
             const isRepealed = pasal.isRepealed || pasalOps.some((o) => o.operationType === 'REPEAL_PROVISION');
-            const hasMk = false; // anotasi putusan MK: data belum ada (belum terdigitasi)
-            const hasAnyMutation = isNewInsert || isAmended || isRepealed;
+            const mkAnnotations = [
+              ...(pasal.judicialAnnotations || []),
+              ...((pasal.children || []).flatMap((c) => c.judicialAnnotations || [])),
+            ];
+            const hasMk = mkAnnotations.length > 0;
+            const hasAnyMutation = isNewInsert || isAmended || isRepealed || hasMk;
             const isSelected = p.activeNodePath === pasal.canonicalPath || p.activeNodePath.startsWith(pasal.canonicalPath + '/');
 
-            // Penanda visual: Hanya disematkan jika pasal tersebut memiliki riwayat perubahan/amandemen
+            // Penanda visual: Hanya disematkan jika pasal tersebut memiliki riwayat perubahan/amandemen atau putusan MK
             const borderClass = !p.showAnnotations || !hasAnyMutation
               ? 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent'
               : isRepealed
@@ -88,7 +100,11 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                     ? (isSelected
                         ? 'border-l-4 border-amber-500 bg-amber-50/60 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl'
                         : 'border-l-4 border-amber-400 bg-amber-50/30 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl')
-                    : 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent';
+                    : hasMk
+                      ? (isSelected
+                          ? 'border-l-4 border-purple-600 bg-purple-50/60 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl'
+                          : 'border-l-4 border-purple-400 bg-purple-50/30 pl-3 sm:pl-4 pr-2 py-2.5 rounded-r-xl')
+                      : 'pl-3 sm:pl-4 pr-2 py-2 border-l-4 border-transparent';
 
             // Efek seleksi: Untuk pasal tanpa perubahan, TIDAK PERLU kotak/ring merah sama sekali
             const activeClass = isSelected
@@ -125,8 +141,11 @@ export default function NaskahPasal(p: NaskahPasalProps) {
                       </span>
                     )}
                     {p.showAnnotations && hasMk && (
-                      <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-purple-100 text-purple-800 border border-purple-300 shadow-2xs">
-                        ⚖️ Putusan MK
+                      <span
+                        title={mkAnnotations.map((m) => `${m.caseNumber}: ${m.effect} - ${m.ratioDecidendi || ''}`).join('\n')}
+                        className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-md bg-purple-100 text-purple-900 border border-purple-300 shadow-2xs inline-flex items-center gap-1"
+                      >
+                        ⚖️ Putusan MK No. {mkAnnotations[0]?.caseNumber} ({mkAnnotations[0]?.effect === 'KONSTITUSIONAL_BERSYARAT' ? 'Bersyarat' : mkAnnotations[0]?.effect === 'INKONSTITUSIONAL_BERSYARAT' ? 'Inkonstitusional' : mkAnnotations[0]?.effect})
                       </span>
                     )}
                   </div>

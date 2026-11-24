@@ -1,0 +1,57 @@
+{
+ "slug": "pp-no-33-tahun-2001",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan perbaikan gaji pokok Anggota Kepolisian Negara Republik Indonesia yang berlaku terhitung mulai tanggal 1 Januari 2001 sebagaimana ditetapkan dengan Peraturan Pemerintah Nomor 29 Tahun 2001 tentang Peraturan Gaji Anggota Kepolisian Negara Republik Indonesia, maka terdapat perbedaan Pensiun/Tunjangan Pokok antara yang dipensiun sejak bulan Januari 2001 dengan yang dipensiun sebelumnya;",
+   "bahwa berhubung dengan itu, dipandang perlu menetapkan kembali pensiun/tunjangan pokok Purnawirawan/Warakawuri atau Duda, Tunjangan Anak Yatim/Piatu dan Tunjangan Anak Yatim-Piatu Anggota Kepolisian Negara Republik Indonesia, yang dipensiun sebelum dan setelah berlakunya Peraturan Pemerintah Nomor 29 Tahun 2001 tentang Peraturan Gaji Anggota Kepolisian Negara Republik Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 18 Mei 2001 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. DJOHAN EFFENDI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2001 NOMOR 56",
+ "source": {
+  "url": {
+   "slug": "pp-no-33-tahun-2001",
+   "detailsId": "52829",
+   "judul": "PP No. 33 Tahun 2001 tentang Penetapan Pensiun Pokok Purnawirawan/Warakawuri Atau Duda, Tunjangan Anak Yatim/Piatu Dan Anak Yatim-Piatu Anggota Kepolisian Negara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42203/PP%20NO%2033%20TH%202001.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-31-tahun-1997",
+    "pp-no-22-tahun-1994",
+    "pp-no-21-tahun-1985",
+    "pp-no-32-tahun-1977"
+   ],
+   "scrapedAt": "2026-10-05T18:14:40.419545+00:00"
+  },
+  "sha256": "a152d218de53f1f3b15a016052fe9f8a25385a587d755b91e0b6d604a0cf7fee",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-33-tahun-2001/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Terhitung mulai tanggal 1 Januari 2001, pensiun pokok Purnawirawan/Warakawuri atau Duda, Tunjangan Anak Yatim/Piatu dan Anak Yatim-Piatu Anggota Kepolisian Negara Republik Indonesia ditetapkan sebagaimana dimaksud dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

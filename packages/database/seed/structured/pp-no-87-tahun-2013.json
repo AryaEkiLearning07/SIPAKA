@@ -1,0 +1,2321 @@
+{
+ "slug": "pp-no-87-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 47 ayat (2) dan Pasal 50 ayat (2) Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional dan Pasal 41 ayat (3), Pasal 43 ayat (3), dan Pasal 45 ayat (2) Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial, perlu menetapkan Peraturan Pemerintah tentang Pengelolaan Aset Jaminan Sosial Kesehatan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-87-tahun-2013",
+   "detailsId": "5423",
+   "judul": "PP No. 87 Tahun 2013 tentang Pengelolaan Aset Jaminan Sosial Kesehatan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33911/PP%20Nomor%2087%20Tahun%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:01:09.245870+00:00"
+  },
+  "sha256": "8a4decd69237aa4848d8e5e5f47341788b3c237691f3c8ee32e64551f6157915",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 49,
+  "ayat_angka": 113,
+  "huruf": 77
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini, yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Badan Penyelenggara Jaminan Sosial Kesehatan yang selanjutnya disebut BPJS Kesehatan adalah badan hukum yang dibentuk untuk menyelenggarakan program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Jaminan Kesehatan adalah jaminan berupa perlindungan kesehatan agar peserta memperoleh manfaat pemeliharaan kesehatan dan perlindungan dalam memenuhi kebutuhan dasar kesehatan yang diberikan kepada setiap orang yang iurannya dibayar oleh telah membayar pemerintah. iuran atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Bank adalah bank umum sebagaimana dimaksud dalam Undang-Undang mengenai perbankan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Surplus tahun berjalan yang selanjutnya disebut Surplus adalah kelebihan pendapatan atas pengeluaran dalam satu tahun buku yang dicatat sesuai dengan prinsip akuntansi yang berlaku umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Aset Bersih adalah selisih total aset atas total liabilitas pada waktu tertentu yang dicatat sesuai dengan standar akuntansi keuangan yang berlaku di Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Dewan Jaminan Sosial Nasional yang selanjutnya disingkat DJSN adalah dewan yang berfungsi untuk membantu Presiden dalam perumusan kebijakan umum dan sinkronisasi penyelenggaraan sistem jaminan sosial nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Badan Usaha Milik Negara, yang selanjutnya disebut BUMN, adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh negara melalui penyertaan secara langsung yang berasal dari kekayaan negara yang dipisahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan. Pasal 2 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Pengelolaan aset Jaminan Sosial Kesehatan dilakukan secara optimal dengan mempertimbangkan likuiditas, solvabilitas, kehati-hatian, keamanan dana, dan hasil yang memadai. aspek",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan mengelola aset Jaminan Sosial Kesehatan yang terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "aset BPJS Kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "aset Dana Jaminan Sosial Kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "BPJS Kesehatan dalam melaksanakan pengelolaan aset Jaminan Sosial Kesehatan sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perencanaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaksanaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-3/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengawasan dan evaluasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PERENCANAAN PENGELOLAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Perencanaan pengelolaan aset Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a disusun sesuai dengan tahapan yang ditetapkan dalam standar perencanaan yang berlaku secara nasional yang mencakup: a. inventarisasi data dan informasi aset Jaminan Sosial Kesehatan; dan b. penyusunan rancangan pengelolaan aset Jaminan Sosial Kesehatan. dan penetapan rencana Bagian . . . Bagian Kedua Inventarisasi Data dan Informasi Aset Jaminan Sosial Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Inventarisasi aset Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 4 huruf a ditujukan untuk mengumpulkan data dan informasi aset liabilitas Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengumpulan data dan informasi sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sumber aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "liabilitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penggunaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-5/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengembangan. Bagian Ketiga Penyusunan Rancangan dan Penetapan Rencana Pengelolaan Aset Jaminan Sosial Kesehatan Paragraf 1 Umum",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Rancangan rencana pengelolaan aset Jaminan Sosial Kesehatan sebagaimana dimksud dalam Pasal 4 huruf b paling sedikit memuat rencana pengelolaan: a. aset dan liabilitas BPJS Kesehatan; dan b. aset dan liabilitas Dana Jaminan Sosial Kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Rancangan Kesehatan sebagaimana dimaksud dalam Pasal 6 terdiri atas: rencana pengelolaan aset Jaminan Sosial a. rancangan rencana strategis; dan b. rancangan . . . b. rancangan rencana kerja anggaran tahunan. Paragraf 2 Rancangan Rencana Strategis",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rancangan rencana strategis sebagaimana dimaksud dalam Pasal 7 huruf a disusun oleh direksi BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rancangan rencana strategis sebagaimana dimaksud pada ayat (1) memuat arah kebijakan pengelolaan aset Jaminan Sosial Kesehatan termasuk rancangan rencana strategis investasi. paling sedikit sebagaimana dimaksud pada ayat memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "profil aset dan liabilitas Jaminan Sosial Kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kesesuaian antara durasi aset dan durasi liabilitas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kebijakan dan rancangan rencana strategis investasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rancangan rencana strategis sebagaimana dimaksud pada ayat (1) ditetapkan oleh dewan pengawas BPJS Kesehatan menjadi rencana strategis program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Rencana strategis Kesehatan sebagaimana dimaksud pada ayat (4) ditetapkan untuk jangka waktu 5 (lima) tahun. Jaminan program",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai penyusunan rancangan rencana strategis diatur dengan peraturan direksi BPJS Kesehatan. Paragraf 3 Rancangan Rencana Kerja Anggaran Tahunan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rancangan rencana kerja anggaran tahunan sebagaimana dimaksud dalam Pasal 7 huruf b disusun oleh direksi BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rancangan rencana kerja anggaran tahunan sebagaimana dimaksud pada ayat (1) disusun dengan mengacu pada rencana strategis program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rancangan . . . Rancangan rencana kerja anggaran tahunan sebagaimana dimaksud pada ayat (2) ditetapkan oleh dewan pengawas BPJS Kesehatan menjadi rencana kerja anggaran tahunan Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rencana kerja anggaran tahunan Jaminan Sosial Kesehatan sebagaimana dimaksud pada ayat (3) menjadi pedoman dalam pelaksanaan pengelolaan aset dan liabilitas Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PELAKSANAAN PENGELOLAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Pelaksanaan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf b meliputi: a. sumber aset; b. liabilitas; c. penggunaan; d. pengembangan; e. kesehatan keuangan; dan f. pertanggungjawaban. Bagian Kedua Sumber Aset Paragraf 1 Umum",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Sumber aset sebagaimana dimaksud dalam Pasal 10 huruf a terdiri atas sumber: a. aset BPJS Kesehatan; dan b. aset Dana Jaminan Sosial Kesehatan. Paragraf 2 . . . Paragraf 2 Sumber Aset BPJS Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber aset BPJS Kesehatan sebagaimana dimaksud dalam Pasal 11 huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "modal awal dari Pemerintah yang merupakan kekayaan negara yang dipisahkan dan tidak terbagi atas saham;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hasil pengalihan aset BUMN yang menyelenggarakan program Jaminan Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "hasil pengembangan aset BPJS Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dana operasional yang diambil dari Dana Jaminan Sosial Kesehatan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset BPJS Kesehatan yang bersumber dari modal awal sebagaimana dimaksud pada ayat (1) huruf a, merupakan kekayaan negara yang dipisahkan dan tidak terbagi atas saham.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aset BPJS Kesehatan yang bersumber dari hasil pengalihan aset BUMN yang menyelenggarakan program Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf b, merupakan hasil pengalihan aset lembaga dari PT Askes (Persero).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Aset BPJS Kesehatan yang bersumber dari hasil pengembangan sebagaimana dimaksud pada ayat (1) huruf c, berasal dari semua penambahan aset BPJS Kesehatan yang merupakan hasil dari penempatan investasi maupun bukan investasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Aset BPJS Kesehatan yang bersumber dari dana operasional yang diambil dari Dana Jaminan Sosial Kesehatan sebagaimana dimaksud pada ayat (1) huruf d, merupakan dana yang disediakan untuk membiayai kegiatan operasional penyelenggaraan program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Aset . . . Aset BPJS Kesehatan yang bersumber dari sumber lain yang sah sesuai dengan ketentuan peraturan perundang- undangan sebagaimana dimaksud pada ayat (1) huruf e, merupakan dana yang berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Surplus kegiatan BPJS Kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hibah dan/atau bantuan yang tidak mengikat sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Aset BPJS Kesehatan yang bersumber dari hibah dan/atau bantuan yang tidak mengikat sebagaimana dimaksud pada ayat (6) huruf b dapat berupa uang, barang, dan/atau jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-12/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Aset BPJS Kesehatan wajib dinilai sesuai dengan standar akuntansi keuangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dana operasional yang dapat diambil dari Dana Jaminan Sosial Kesehatan oleh BPJS Kesehatan sebagaimana dimaksud dalam Pasal 12 ayat (5) paling tinggi 10% (sepuluh persen) dari total iuran yang telah diterima oleh BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besaran persentase dana operasional sebagaimana dimaksud pada ayat (1) ditetapkan setiap tahun oleh Menteri setelah berkoordinasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan dan DJSN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam dana penentuan operasional persentase sebagaimana dimaksud dalam Pasal 13 ayat (2), BPJS Kesehatan mengajukan usulan besaran persentase dana operasional kepada Menteri paling lambat 3 (tiga) bulan sebelum tahun anggaran yang bersangkutan dengan melampirkan rencana kerja anggaran tahunan BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri menetapkan besaran persentase dana operasional sebagaimana dimaksud pada ayat (1) paling lambat 1 (satu) bulan sebelum tahun anggaran yang bersangkutan berjalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besaran . . . Besaran persentase dana operasional sebagaimana dimaksud pada ayat (2) untuk tahun 2014 ditetapkan oleh Menteri paling lambat tanggal 31 Desember 2013. Paragraf 3 Sumber Aset Dana Jaminan Sosial Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber Jaminan aset Dana Sosial Kesehatan sebagaimana dimaksud dalam Pasal 11 huruf b terdiri atas: huruf d, merupakan dana yang berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "iuran Jaminan Kesehatan termasuk bantuan iuran; Surplus aset Dana Jaminan Sosial Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "hasil pengembangan Dana Jaminan Sosial Kesehatan; Surplus aset BPJS Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "aset program Jaminan Kesehatan yang menjadi hak peserta dari BUMN yang menjalankan program Jaminan Kesehatan; dan dana talangan dari BPJS Kesehatan untuk pembayaran manfaat; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sumber lain yang sah sesuai dengan peraturan perundang-undangan. hibah dan/atau bantuan lain yang sah dan tidak peraturan dengan ketentuan mengikat perundang-undangan. sesuai",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang bersumber dari iuran iuran Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf a, berasal dari iuran program Jaminan Kesehatan sesuai dengan ketentuan peraturan perundang-undangan. termasuk bantuan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang bersumber dari hasil pengembangan sebagaimana dimaksud pada ayat (1) huruf b, berasal dari semua penambahan aset Dana Jaminan Sosial Kesehatan yang merupakan hasil dari penempatan investasi maupun bukan investasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Aset program Jaminan Kesehatan yang menjadi hak peserta dari BUMN yang menjalankan program Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf c merupakan hasil pengalihan aset lembaga PT Askes (Persero) dan aset program Jaminan Pemeliharaan Kesehatan PT Jamsostek (Persero) yang berupa uang tunai, surat berharga, piutang iuran, dan uang muka pelayanan kesehatan. sebesar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "utang klaim pelayanan kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "klaim . . . klaim pelayanan kesehatan yang masih dalam proses;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "klaim pelayanan kesehatan yang belum ditagihkan oleh fasilitas kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "cadangan premi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang menjadi hak peserta yang dialihkan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang bersumber dari sumber lain yang sah sesuai dengan ketentuan peraturan perundang-undangan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-15/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang bersumber dari hibah dan/atau bantuan lain yang sah dan tidak mengikat sebagaimana dimaksud pada ayat (6) huruf d dapat berupa uang, barang, dan/atau jasa. Bagian Ketiga Liabilitas Paragraf 1 Umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Liabilitas sebagaimana dimaksud dalam Pasal 10 huruf b terdiri atas: a. liabilitas BPJS Kesehatan; dan b. liabilitas Dana Jaminan Sosial Kesehatan. Paragraf 2 Liabilitas BPJS Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Liabilitas BPJS Kesehatan sebagaimana dimaksud dalam liabilitas terkait Pasal 16 huruf a meliputi seluruh pengelolaan Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Liabilitas . . . Liabilitas BPJS Kesehatan sebagaimana dimaksud pada ayat (1) wajib dinilai sesuai dengan standar akuntansi keuangan yang berlaku. Paragraf 3 Liabilitas Dana Jaminan Sosial Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Liabilitas Dana Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 16 huruf b merupakan seluruh kewajiban pembayaran manfaat kepada peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Liabilitas Dana Jaminan Sosial Kesehatan sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "utang klaim;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "akumulasi iuran yang belum dapat diidentifikasi pesertanya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "cadangan teknis; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "liabilitas lainnya sesuai dengan standar akuntansi keuangan yang berlaku dan terkait dengan aktivitas program Jaminan Kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Utang klaim sebagaimana dimaksud pada ayat (2) huruf a dihitung berdasarkan klaim yang telah dilaporkan dan disetujui namun belum dibayar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penilaian liabilitas Dana Jaminan Sosial Kesehatan berupa akumulasi iuran sebagaimana dimaksud pada ayat (2) huruf b wajib dilakukan sesuai dengan standar akuntansi keuangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Cadangan teknis sebagaimana dimaksud pada ayat (2) huruf c, terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "cadangan atas pendapatan; iuran yang belum merupakan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "cadangan klaim dalam proses penyelesaian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "cadangan klaim yang sudah terjadi namun belum dilaporkan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Cadangan atas iuran yang belum merupakan pendapatan sebagaimana dimaksud pada ayat (5) huruf a dihitung berdasarkan proporsi iuran secara harian untuk masa proteksi yang belum dijalani.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Cadangan . . . Cadangan klaim dalam proses penyelesaian sebagaimana dimaksud pada ayat (5) huruf b dihitung berdasarkan klaim yang telah dilaporkan namun masih dalam proses verifikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-18/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Cadangan klaim yang sudah terjadi namun belum dilaporkan sebagaimana dimaksud pada ayat (5) huruf c dihitung menggunakan prinsip dan metode aktuaria yang berlaku umum. Bagian Keempat Penggunaan Paragraf 1 Umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Penggunaan aset sebagaimana dimaksud dalam Pasal 10 huruf c terdiri atas: a. penggunaan aset BPJS Kesehatan; dan b. penggunaaan aset Dana Jaminan Sosial Kesehatan. Paragraf 2 Penggunaan Aset BPJS Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan aset BPJS Kesehatan sebagaimana dimaksud dalam Pasal 19 huruf a dapat dilakukan untuk: huruf d, dilakukan melalui Paragraf 3 Penggunaan aset Dana Jaminan Sosial Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "biaya operasional penyelenggaraan program Jaminan Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "biaya pengadaan barang dan jasa yang digunakan operasional penyelenggaraan untuk mendukung Jaminan Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "biaya untuk meningkatkan kapasitas pelayanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "investasi dalam instrumen investasi sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset . . . Aset BPJS Kesehatan yang digunakan untuk biaya operasional penyelenggaraan program Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf a terdiri atas biaya personel dan biaya non personel yang jenis dan besarannya ditetapkan oleh direksi BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aset BPJS Kesehatan yang digunakan untuk biaya jasa yang digunakan untuk pengadaan barang dan Jaminan mendukung Kesehatan sebagaimana dimaksud pada ayat (1) huruf b ditetapkan oleh direksi BPJS Kesehatan sesuai standar akuntansi keuangan yang berlaku. penyelenggaraan operasional",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Aset BPJS Kesehatan yang digunakan untuk biaya peningkatan kapasitas pelayanan sebagaimana dimaksud pada ayat (1) huruf c ditetapkan oleh direksi BPJS Kesehatan sesuai standar akuntansi keuangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Aset BPJS Kesehatan yang digunakan untuk investasi dalam instrumen investasi sebagaimana dimaksud pada ayat investasi pada instrumen investasi pasar uang, pasar modal, dan investasi langsung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan aset Dana Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 19 huruf b dapat dilakukan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pembayaran manfaat atau pembiayaan layanan Jaminan Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dana operasional penyelenggaraan program Jaminan Kesehatan; dan c. investasi dalam instrumen investasi sesuai dengan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset . . . Aset Dana Jaminan Sosial Kesehatan yang digunakan untuk pembayaran manfaat atau pembiayaan layanan Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf a berupa pembayaran untuk pelayanan kesehatan perseorangan yang bersifat promotif, preventif, kuratif, dan rehabilitatif, termasuk obat dan bahan medis habis pakai yang diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang digunakan untuk dana operasional penyelenggaraan program Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf b berupa dana yang dialokasikan untuk operasionalisasi penyelenggaraan Jaminan Kesehatan oleh BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Aset Dana Jaminan Sosial Kesehatan yang digunakan untuk investasi dalam instrumen investasi sebagaimana dimaksud pada ayat (1) huruf c dilakukan melalui investasi pada instrumen sesuai dengan ketentuan dalam Peraturan Pemerintah ini. Bagian Kelima Pengembangan Paragraf 1 Umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Pengembangan aset sebagaimana dimaksud dalam Pasal 10 huruf d terdiri atas: a. pengembangan aset BPJS Kesehatan; dan b. pengembangan aset Dana Jaminan Sosial Kesehatan. Paragraf 2 Pengembangan Aset BPJS Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan aset BPJS Kesehatan sebagaimana dimaksud dalam Pasal 22 huruf a dilakukan dalam bentuk investasi yang dikembangkan melalui penempatannya pada instrumen investasi dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instrumen . . . Instrumen investasi dalam negeri sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "deposito berjangka termasuk deposit on call dan deposito yang berjangka waktu kurang dari atau sama dengan 1 (satu) bulan serta sertifikat deposito yang tidak dapat diperdagangkan (non negotiable certificate deposit) pada Bank;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat berharga yang diterbitkan Negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat berharga yang diterbitkan Bank Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "surat korporasi yang dan luas dalam Bursa Efek tercatat utang diperjualbelikan secara Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "saham yang tercatat dalam Bursa Efek Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "reksadana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "efek beragun aset yang diterbitkan berdasarkan kontrak investasi kolektif efek beragun aset;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "dana investasi real estate;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-23/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "penyertaan langsung; dan/atau j. tanah, bangunan, atau tanah dengan bangunan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa surat utang korporasi yang tercatat dan diperjualbelikan secara luas dalam Bursa Efek Indonesia sebagaimana dimaksud dalam Pasal 23 ayat (2) huruf d harus paling kurang memiliki peringkat A- atau yang setara dari perusahaan pemeringkat efek yang telah memperoleh izin dari lembaga pengawas di bidang pasar modal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa reksadana sebagaimana dimaksud dalam Pasal 23 ayat (2) huruf f merupakan produk reksadana yang telah terdaftar pada lembaga pengawas di bidang pasar modal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengembangan . . . Pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa efek beragun aset yang diterbitkan berdasarkan kontrak investasi kolektif efek beragun aset dan dana investasi real estate sebagaimana dimaksud dalam Pasal 23 ayat (2) huruf g dan huruf h harus memenuhi ketentuan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "telah mendapat pernyataan efektif dari lembaga pengawas di bidang pasar modal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "paling kurang memiliki peringkat A- atau yang setara dari perusahaan pemeringkat efek yang telah memperoleh izin dari lembaga pengawas di bidang pasar modal; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dilakukan melalui penawaran umum sebagaimana diatur dalam peraturan perundang-undangan dibidang pasar modal.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa penyertaan langsung sebagaimana dimaksud pada Pasal 23 ayat (2) huruf i hanya dapat dilakukan pada badan usaha dengan kriteria sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bergerak di bidang yang mendukung pelaksanaan tugas BPJS Kesehatan dalam menyelenggarakan program jaminan sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tidak berpotensi menimbulkan benturan kepentingan dalam melakukan kerjasama; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tidak bergerak di bidang usaha yang permodalannya diatur secara ketat sehingga berpotensi menimbulkan kewajiban untuk memenuhi kebutuhan permodalan secara berkelanjutan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa tanah, bangunan, atau tanah dengan bangunan sebagaimana dimaksud dalam Pasal 23 ayat 2 huruf j harus memenuhi ketentuan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dilengkapi dengan bukti kepemilikan atas nama BPJS Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan penghasilan ke BPJS Kesehatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-24/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tidak . . . tidak ditempatkan pada tanah, bangunan, atau tanah dengan bangunan yang sedang diagunkan, dalam sengketa, atau diblokir pihak lain.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Instrumen investasi sebagaimana dimaksud pada Pasal 23 ayat (2) dibatasi dengan ketentuan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "investasi berupa deposito berjangka termasuk deposit on call dan deposito yang berjangka waktu kurang dari atau sama dengan 1 (satu) bulan serta sertifikat (non deposito yang negotiable certificate deposit) pada Bank, paling tinggi 15% (lima belas persen) dari jumlah investasi untuk setiap Bank; tidak dapat diperdagangkan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "investasi berupa surat utang korporasi yang tercatat dan diperjualbelikan secara luas dalam Bursa Efek Indonesia untuk setiap emiten paling tinggi 5% (lima persen) dari jumlah investasi dan seluruhnya paling tinggi 50% (lima puluh persen) dari jumlah investasi; c. investasi berupa saham yang tercatat dalam Bursa Efek Indonesia, untuk setiap emiten paling tinggi 5% (lima persen) dari jumlah investasi dan seluruhnya paling tinggi 50% (lima puluh persen) dari jumlah investasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "investasi berupa reksadana, untuk setiap Manajer Investasi paling tinggi 15% (lima belas persen) dari jumlah investasi dan seluruhnya paling tinggi 50% (lima puluh persen) dari jumlah investasi; e. f. investasi berupa efek beragun aset yang diterbitkan berdasarkan kontrak investasi kolektif efek beragun aset untuk setiap Manajer Investasi paling tinggi 10% (sepuluh persen) dari jumlah investasi dan seluruhnya paling tinggi 20% (dua puluh persen) dari jumlah investasi; investasi berupa dana investasi real estate, untuk setiap Manajer Investasi paling tinggi 10% (sepuluh persen) dari jumlah investasi dan seluruhnya paling tinggi 20% (dua puluh persen) dari jumlah investasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "investasi . . . g. investasi berupa penyertaan langsung, untuk setiap pihak tidak melebihi 1% (satu persen) dari jumlah investasi dan seluruhnya paling tinggi 5% (lima persen) dari jumlah investasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "investasi berupa tanah tanah, bangunan, atau tanah dengan bangunan, seluruhnya paling tinggi 5% (lima persen) dari jumlah investasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengembangan aset BPJS Kesehatan berupa investasi sebagaimana dimaksud pada Pasal 23 ayat (2) huruf b dan huruf c jumlah dan persentase. tidak dikenakan pembatasan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Selain harus memenuhi ketentuan sebagaimana dimaksud dalam Pasal 23 ayat (2), BPJS Kesehatan dalam melakukan investasi aset BPJS Kesehatan dilarang menempatkan dana pada perusahaan yang sahamnya dimiliki anggota direksi, anggota dewan pengawas, pegawai BPJS Kesehatan, pegawai lembaga pengawas BPJS, anggota DJSN, atau pihak yang mempunyai hubungan keluarga karena perkawinan dan keturunan sampai derajat ketiga dengan anggota direksi, anggota dewan pengawas, anggota DJSN, pegawai BPJS, dan pegawai lembaga pengawas BPJS.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "BPJS Kesehatan dilarang melakukan transaksi derivatif atau memiliki instrumen derivatif untuk aset BPJS Kesehatan, kecuali efek beragun aset dan turunan surat berharga yang diperoleh sebagai bagian yang melekat pada suatu surat berharga yang tercatat di bursa efek di Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "BPJS Kesehatan dilarang melakukan pengembangan aset BPJS Kesehatan dalam bentuk investasi berupa saham dan surat utang korporasi sebagaimana dimaksud dalam Pasal 23 ayat (2) huruf d yang emitennya merupakan badan hukum asing. Pasal 29 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melakukan Investasi, BPJS Kesehatan wajib menerapkan manajemen risiko.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai manajemen risiko sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Direksi BPJS Kesehatan. Paragraf 3 Pengembangan Aset Dana Jaminan Sosial Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan aset Dana Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 22 huruf b dilakukan dalam bentuk investasi yang dikembangkan melalui penempatannya pada instrumen investasi dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Instrumen investasi dalam negeri sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "deposito berjangka pada Bank, termasuk deposit on call dan deposito yang berjangka waktu kurang dari atau sama dengan 3 (tiga) bulan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat berharga yang diterbitkan oleh Negara Republik Indonesia; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat berharga yang diterbitkan oleh Bank Indonesia.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Investasi berupa deposito berjangka pada Bank, termasuk deposit on call dan deposito yang berjangka waktu kurang dari atau sama dengan 3 (tiga) bulan sebagaimana dimaksud pada ayat (2) huruf a, paling tinggi 15% (lima belas persen) dari jumlah investasi untuk setiap Bank.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengembangan aset BPJS Kesehatan berupa investasi sebagaimana dimaksud pada ayat (2) huruf b dan huruf c tidak dikenakan pembatasan jumlah dan persentase.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal jumlah investasi melebihi batasan sebagaimana dimaksud dalam Pasal 25 ayat (1) karena terjadi kenaikan dan/atau penurunan nilai surat berharga, BPJS Kesehatan wajib menyesuaikan kembali jumlah investasi tersebut dalam jangka waktu 6 (enam) bulan sejak terjadinya kelebihan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . Dalam hal jumlah investasi melebihi batasan sebagaimana dimaksud dalam Pasal 30 ayat (3) karena terjadi kenaikan dan/atau penurunan nilai surat berharga yang diterbitkan Pemerintah, BPJS Kesehatan wajib menyesuaikan kembali jumlah investasi tersebut dalam jangka waktu paling lama 3 (tiga) bulan sejak terjadinya kelebihan tersebut. Bagian Keenam Kesehatan Keuangan Paragraf 1 Umum",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Kesehatan keuangan sebagaimana dimaksud dalam Pasal 10 huruf e terdiri atas kesehatan keuangan: a. aset BPJS Kesehatan; dan b. aset Dana Jaminan Sosial Kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Kesehatan keuangan sebagaimana dimaksud dalam Pasal 32 terdiri atas: a. Surplus; b. nilai negatif; dan c. likuiditas. Paragraf 2 Kesehatan Keuangan BPJS Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kesehatan keuangan aset BPJS Kesehatan sebagaimana dimaksud dalam Pasal 33 huruf a yang mengalami Surplus pada suatu tahun sebagaimana dimaksud dalam Pasal 33 huruf a digunakan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menambah aset bersih BPJS Kesehatan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memperkuat aset Dana Jaminan Sosial Kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penentuan . . . Penentuan besaran alokasi Surplus aset BPJS Kesehatan sebagaimana dimaksud pada ayat (1) harus mendapatkan persetujuan dari dewan pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Ketentuan lebih lanjut mengenai standar kesehatan keuangan aset BPJS Kesehatan diatur dalam peraturan Menteri. Paragraf 3 Kesehatan Keuangan Aset Dana Jaminan Sosial Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Kesehatan keuangan aset Dana Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 32 huruf b yang mengalami Surplus pada suatu tahun sebagaimana dimaksud dalam Pasal 33 huruf a digunakan untuk menambah aset bersih Dana Jaminan Sosial Kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kesehatan keuangan aset Dana Jaminan Sosial Kesehatan sebagaimana dimaksud Pasal 36 diukur berdasarkan aset bersih Dana Jaminan Sosial Kesehatan dengan ketentuan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "paling sedikit harus mencukupi estimasi pembayaran klaim untuk setengah bulan ke depan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "paling banyak sebesar estimasi pembayaran klaim untuk 6 (enam) bulan ke depan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Estimasi pembayaran klaim sebagaimana dimaksud pada ayat (1) dihitung berdasarkan rata-rata klaim bulanan selama 12 (dua belas) bulan terakhir sejak tanggal pelaporan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal pelaporan disusun per tanggal 31 Desember tahun berjalan, estimasi klaim bulanan dihitung berdasarkan total klaim dari 1 Januari sampai dengan 31 Desember tahun berjalan dan kemudian dibagi 12 (dua belas).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan . . . Ketentuan batasan paling sedikit harus mencukupi estimasi pembayaran klaim sebagaimana dimaksud pada ayat (1) huruf a berlaku paling lambat pada tanggal 31 Desember 2016 sejak BPJS Kesehatan beroperasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal aset bersih Dana Jaminan Sosial Kesehatan per akhir tahun tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), paling sedikit dapat dilakukan tindakan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyesuaian dana operasional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyesuaian besaran iuran; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-37/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyesuaian manfaat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal aset Dana Jaminan Sosial Kesehatan bernilai negatif sebagaimana dimaksud dalam Pasal 33 huruf b, Pemerintah dapat melakukan tindakan khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tindakan khusus sebagaimana dimaksud pada ayat (1) paling sedikit dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-38/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyesuaian besaran iuran sesuai dengan ketentuan peraturan perundang-undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-38/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemberian suntikan dana tambahan untuk kecukupan Dana Jaminan Sosial sesuai dengan ketentuan peraturan perundang-undangan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-38/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyesuaian manfaat sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kesulitan likuiditas aset Dana Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 33 huruf c dapat berupa kewajiban pembayaran kepada penyedia layanan kesehatan yang tidak dapat dilakukan sesuai dengan perjanjian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal terjadi kesulitan likuiditas sebagaimana (1), BPJS Kesehatan dapat dimaksud pada ayat memberikan dana talangan kepada aset Dana Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dana . . . Dana talangan sebagaimana dimaksud pada ayat (2) paling banyak 10% (sepuluh persen) dari aset BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-39/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penggantian pinjaman dilakukan setelah aset bersih Dana Jaminan Sosial Kesehatan bernilai positif dan penggantian tersebut tidak mengakibatkan aset bersih Dana Jaminan Sosial Kesehatan kembali bernilai negatif. dapat dilakukan secara bertahap. Bagian Ketujuh Pertanggungjawaban",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-39/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penggantian pinjaman sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan wajib menyusun:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-40/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "laporan pengelolaan program dan laporan keuangan tahunan BPJS Kesehatan dan laporan keuangan tahunan Dana Jaminan Sosial Kesehatan untuk periode 1 Januari sampai dengan 31 Desember; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-87-tahun-2013/pasal-40/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "laporan pengelolaan program dan laporan keuangan semesteran BPJS Kesehatan dan laporan keuangan semesteran Dana Jaminan Sosial Kesehatan yang berakhir pada 30 Juni.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai bentuk dan isi laporan pengelolaan (1) sesuai dengan ketentuan peraturan sebagaimana dimaksud pada ayat program dilaksanakan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan keuangan tahunan sebagaimana dimaksud pada ayat (1) termasuk laporan aktuaris yang wajib disusun sesuai dengan standar akuntansi keuangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan wajib menyampaikan laporan sebagaimana dimaksud dalam Pasal 40 ayat (1) huruf a tahun yang berikutnya kepada Presiden setelah mendapatkan persetujuan dewan pengawas. telah diaudit, paling lambat 30 Juni",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan sebagaimana kepada (1) ditembuskan yang menyelenggarakan urusan pemerintahan di bidang kesehatan, Otoritas Jasa Keuangan, Badan Pemeriksa Keuangan, dan DJSN. dimaksud Menteri, menteri pada ayat Pasal 42 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Presiden sewaktu-waktu dapat meminta laporan keuangan dan laporan kinerja BPJS Kesehatan sebagai bahan pertimbangan dalam pengambilan kebijakan Pemerintah yang berkaitan dengan penyelenggaraan Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "BPJS Kesehatan dalam waktu paling lama 15 (lima belas) hari kerja sejak permintaan Presiden diterima harus menyampaikan laporan sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan wajib mengumumkan laporan pengelolaan program dan laporan keuangan tahunan yang telah diaudit sebagaimana dimaksud dalam Pasal 41 ayat dalam bentuk ringkasan pada situs (website) BPJS dan (dua) media massa cetak melalui paling sedikit 2 berbahasa Indonesia yang memiliki peredaran luas secara nasional, paling lambat tanggal 31 Juli tahun berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jangka waktu pengumuman pada situs (website) sebagaimana dimaksud pada ayat (1), dilakukan paling singkat sampai dengan terbitnya laporan pengelolaan program dan laporan keuangan tahunan berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-43/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai bentuk dan isi ringkasan atas laporan keuangan tahunan sebagaimana dimaksud pada ayat (1), ditetapkan oleh direksi BPJS Kesehatan setelah mendapat persetujuan dewan pengawas BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENGAWASAN PENGELOLAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Pengawasan pengelolaan aset Jaminan Sosial Kesehatan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf c dilakukan melalui pengawasan: a. internal; dan b. eksternal. Pasal 45 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Pengawasan internal terhadap penyelenggaraan program Jaminan Kesehatan sebagaimana dimaksud dalam Pasal 44 huruf a dilakukan oleh dewan pengawas BPJS Kesehatan dan satuan pengawas internal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan Eksternal penyelenggaraan program Jaminan Kesehatan sebagaimana dimaksud dalam Pasal 44 huruf b dilakukan oleh DJSN dan lembaga pengawas independen. dilakukan oleh Otoritas Jasa Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawasan independen sebagaimana dimaksud pada ayat dan ayat Pemeriksa",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tertentu sesuai dengan kewenangannya, Badan Pemeriksa Keuangan dapat melakukan pemeriksaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-46/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengawasan eksternal oleh DJSN, dilakukan terhadap kinerja BPJS Kesehatan dalam penyelenggaraan program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-46/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengawasan eksternal oleh Otoritas Jasa Keuangan dan Keuangan Badan oleh pemeriksaan sebagaimana dimaksud pada ayat (3) dilakukan sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "MONITORING DAN EVALUASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "DJSN melakukan monitoring dan evaluasi kondisi kesehatan keuangan aset BPJS Kesehatan dan aset Dana Jaminan Sosial Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "DJSN wajib menyampaikan hasil monitoring dan evaluasi kondisi kesehatan keuangan sebagaimana dimaksud pada ayat (1) kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-47/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "DJSN menyelenggarakan koordinasi untuk menyampaikan hasil monitoring dan evaluasi kondisi kesehatan keuangan sebagaimana dimaksud pada ayat (1) dengan menteri terkait paling sedikit 6 (enam) bulan sekali. rapat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-47/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam . . . Dalam hal hasil monitoring dan evaluasi kondisi kesehatan keuangan sebagaimana dimaksud pada ayat (2) dinilai berpotensi menimbulkan risiko fiskal dalam penyelenggaraan program Jaminan Kesehatan, Menteri berkoordinasi dengan DJSN dan pihak terkait untuk melakukan tindak lanjut atas hasil monitoring dan evaluasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-48/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, BPJS investasi yang Kesehatan wajib menyesuaikan berasal dari pengalihan aset PT Askes (Persero) sebagaimana diatur dalam Peraturan Pemerintah ini paling lama 1 (satu) tahun sejak Peraturan Pemerintah ini mulai berlaku. jenis",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-87-tahun-2013/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku untuk surat utang korporasi yang telah dimiliki dan dimaksudkan untuk dimiliki sampai dengan jatuh tempo sebelum Peraturan Pemerintah ini berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-87-tahun-2013/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-87-tahun-2013/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 2014. Agar . . . Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 24 Desember 2014 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 24 Desember 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA, REPUBLIK INDONESIA, ttd AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 239",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

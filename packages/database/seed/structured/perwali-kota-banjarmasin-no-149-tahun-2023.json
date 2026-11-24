@@ -1,0 +1,84 @@
+{
+ "slug": "perwali-kota-banjarmasin-no-149-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "bahwa pembangunan rumah susun sederhana sewa bertujuan untuk pemenuhan kebutuhan rumah layak huni dan terjangkau bagi masyarakat berpenghasilan rendah dengan kemudahan dari Pemerintah khususnya di Kota Banjarmasin;",
+   "bahwa rumah susun sederhana sewa merupakan barang milik daerah yang mernerlukan pengelolaan agar dapat menunjang kinerja pemerintah daerah dalam mengoptimalkan pemanfaatan aset daerah sehingga dapat meningkatkan pendapatan asli daerah;",
+   "bahwa untuk menindaklanjuti ketenluan dalam Pasal 58 ayat (4) Peraturan Daerah Kota Banjarmasin Nomor 1 Tahun 2023 ten tang Penyelenggaraan Perumahan dan Kawasan Permukiman;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, huruf b, dan huruf c, perlu menetapkan Pcraturan Wall Kota len lang Pengelolaan Rumah Susun Sederhana Sewa Milik Pemerintah Kota Banjarrnasin;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan pada tanggal di Banjarmasin 2 Dcsember 2C:::3 KOTA BANJARMASIN, IKHSAN BUDIMAN BERITA DAERAH KOTABANJARMASINTAHUN 2023 NOMOR 149 LAMPlRAN I PERATURANWALl KOTA BANJARMASIN NOMOR 149 TAHUN 2023 TENTANG PENGELOLAAN SUSUN SEDERHANA SEWA MILIK PEMERINTAH KOTA BANJARMASIN RUMAH Format I. Pendaftaran Calon Penghuni Rusunawa No. formulir I I I I FORMULIRPENDAFrARAN Permohonan Menghuni Rumah Susun Sederhana Sewa Yang bertanda tangan di bawah ini: Nama NIK Tempatytanggal lahir Alamat temp at tinggal Status tempat tinggal sekarang : Sewa ....1_ ___. Kontrak .__I _--' Numpang .__I Jumlah Keluarga/Pengikut : Orang Fasilitas Perusahaan ....1_---' Lain-lain .__I _--' _--' Pekerjaan Alamat Pekerjaan No. Telepon/HP Bersama ini kami mengajukan permohonan untuk menyewa satuan rumah susun sederhana sewa Tipe: __ Lantai __ Kami telah melengkapi permohonan ini berupa: D Surat pemyataan D Data pemohon dan kependudukan D Surat keterangan bekerja dan belum memiliki rumah Pemohon: .................................................. Format II. Pernyataan Calon Penghuni Rusunawa SURATPERNYATAAN Pada hari ini, hari , tanggal , bulan , tahun --- Saya yang bertanda tangan di bawah ini : Nama NIK Tempa",
+ "source": {
+  "url": {
+   "slug": "perwali-kota-banjarmasin-no-149-tahun-2023",
+   "detailsId": "288173",
+   "judul": "PERWALI Kota Banjarmasin No. 149 Tahun 2023 tentang Pengelolaan Rumah Susun Sederhana Sewa Milik Pemerintah Kota Banjarmasin - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/347405/PERWAL%20NO%20149%20TAHUN%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:17:20.737083+00:00"
+  },
+  "sha256": "c883ba6869b032b0db7495effad772553667d0c2c69601b1bda05d3df031ff0c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perwali-kota-banjarmasin-no-149-tahun-2023/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KEGIATANFISIK BANGUNAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perwali-kota-banjarmasin-no-149-tahun-2023/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perwali-kota-banjarmasin-no-149-tahun-2023/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Masyarakat yang memenuhi persyaratan sebagaimana dimaksud dalam Pasal 10 darr/atau Pasal 11 dapat melakukan pendaftaran menjadi calon Penghuni.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perwali-kota-banjarmasin-no-149-tahun-2023/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bentuk formulir pendaftaran permohonan menjadi calon Penghuni sebagaimana dimaksud pada ayat (1) tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..12): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

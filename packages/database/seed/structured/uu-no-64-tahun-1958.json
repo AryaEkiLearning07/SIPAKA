@@ -1,0 +1,101 @@
+{
+ "slug": "uu-no-64-tahun-1958",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan berlakunya Undang-undang No.1 tahun 1957 tentang Pokok-pokok Pemerintahan Daerah untuk seluruh wilayah Republik Indonesia sejak tanggal 18 Januari 1957, perlu segera dibentuk daerah-daerah atas dasar Undang- undang tersebut;",
+   "bahwa setelah mendengar dan mempertimbangkan sedalam- dalamnya pendapat dari Panitia Pembagian Daerah yang dibentuk dengan Keputusan Presiden No. 202/1956 perihal Nusa Tenggara dan laporan peninjauan Menteri Dalam Negeri tentang daerah itu serta memperhatikan kehendak masyarakat di Nusa Tenggara, Pemerintah berpendapat sudah tiba saatnya untuk membagi daerah Propinsi Nusa Tenggara termaksud dalam Peraturan Pemerintah Republik Indonesia Serikat No. 21 tahun 1950 (Lembaran Negara Republik Indonesia Serikat tahun 1950 No. 59) menjadi tiga daerah-daerah tingkat I dimaksud oleh Undang- undang No. 1 tahun 1957;",
+   "bahwa isi otonomi yang diberikan kepada daerah-daerah tingkat I dimaksud dalam sub b di atas tidak mengurangi otonomi yang mengingat sejarah perkembangannya dimiliki oleh daerah tingkat bawahannya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "52333",
+   "slug": "uu-no-64-tahun-1958",
+   "nomor": 64,
+   "tahun": 1958,
+   "jenis": "UU",
+   "judul": "UU No. 64 Tahun 1958 tentang Pembentukan Daerah-Daerah Tingkat I Bali, Nusa Tenggara barat dan Nusa Tenggara Timur&#xD;&#xA; - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/41664/UU%20Nomor%2064%20Tahun%201958.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-20-tahun-2022"
+   ],
+   "scrapedAt": "2026-09-30T01:18:39.227736+00:00"
+  },
+  "sha256": "f4f64aba168beaad18b307d2663b36c1077e5206ff91edcf321abfa3feb4e8ea",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-64-tahun-1958/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-64-tahun-1958/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TENTANG URUSAN RUMAH TANGGA DAERAH DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-64-tahun-1958/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TENTANG HAL-HAL YANG BERSANGKUTAN DENGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-64-tahun-1958/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-64-tahun-1958/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1958 NOMOR 115",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

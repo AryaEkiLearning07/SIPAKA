@@ -1,0 +1,42 @@
+{
+ "slug": "perpres-no-3-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   "3. 4."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-3-tahun-1966",
+   "detailsId": "42537",
+   "judul": "PERPRES No. 3 Tahun 1966 tentang Pengamanan Bidang Iuran Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73301/Perpres%20No.%203%20Tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:01.365550+00:00"
+  },
+  "sha256": "e2d65c6da40ec5e286bb7231a9c9b9b09610302c15d3279981dc697a4a825837",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

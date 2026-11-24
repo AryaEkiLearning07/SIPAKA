@@ -1,0 +1,65 @@
+{
+ "slug": "uu-no-12-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa Undang-undang No. 17 Tahun 1964 tentang Larangan Penarikan Cek Kosong pada kenyataannya menghambat kelancaran lalu-lintas perekonomian pada umumnya dan dunia perbankan pada khususnya;",
+   "bahwa untuk meniadakan hambatan tersebut, maka Undang-undang No. 17 Tahun 1964 itu perlu dicabut;",
+   "bahwa karena keadaan mendesak Presiden atas dasar ketentuan yang termasuk dalam pasal 22 ayat (1) Undang-undang Dasar 1945 telah menetapkan Peraturan Pemerintah Pengganti Undang-undang No.1 Tahun 1971, tentang Pencabutan Undang-undang No. 17 Tahun 1964 tentang Larangan Penarikan Cek Kosong;",
+   "bahwa Peraturan Pemerintah Pengganti Undang-undang tersebut perlu ditetapkan menjadi Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-12-tahun-1971",
+   "detailsId": "47608",
+   "judul": "UU No. 12 Tahun 1971 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang No. 1 Tahun 1971 tentang Pencabutan Undang-Undang No. 17 Tahun 1964 tentang Larangan Penarikan Cek Kosong Menjadi Undang-Undang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36601/UU%20Nomor%2012%20Tahun%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-17-tahun-1964"
+   ],
+   "scrapedAt": "2026-10-05T17:55:08.385176+00:00"
+  },
+  "sha256": "d51b5437a9c056e8a38d3945b99ffa4af1d17f94d2ace1ead6b0baa32b91db91",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-12-tahun-1971/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Pengganti Undang-undang No.1 Tahun 1971 tentang Pencabutan Undang-undang No. 17 Tahun 1964 tentang Larangan Penarikan Cek Kosong ditetapkan menjadi Undang-undang.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-12-tahun-1971/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran- Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 16 Oktober 1971 Presiden Republik Indonesia, SOEHARTO Jenderal TNI Diundangkan di Jakarta pada tanggal 16 Oktober 1971 Sekretaris Negara Republik Indonesia, ALAMSJAH Letnan Jenderal TNI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

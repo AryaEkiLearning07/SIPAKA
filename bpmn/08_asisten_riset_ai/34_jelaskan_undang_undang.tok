@@ -1,0 +1,54 @@
+tok 1.0 "Jelaskan Undang-Undang (Asisten Riset AI)"
+
+pool p "Jelaskan Undang-Undang" process=jelaskan_undang_undang
+  store d_uu "Undang-Undang"
+  start mulai "Permintaan penjelasan diterima" message="Pasal atau linimasa yang dijelaskan"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor jenis "Jenis penjelasan?"
+  service makna "Jelaskan Makna Pasal"
+  sub ringkas "Ringkas Linimasa Amandemen"
+    start r1 "Mulai meringkas linimasa"
+    call r2 "Kelompokkan Amandemen per Tahun" process=lacak_amandemen doc="Langkah 'Kelompokkan Amandemen per Tahun' pada proses Lacak Amandemen"
+    call r3 "Ambil Riwayat Perubahan" process=lacak_amandemen doc="Langkah 'Ambil Riwayat Perubahan' pada proses Lacak Amandemen"
+    end r4 "Bahan linimasa siap"
+    flow r1 -> r2 -> r3 -> r4
+  xor gabung
+  call ai "Tangani Permintaan AI" process=tangani_permintaan_ai
+  xor berhasil "Respons AI berhasil?"
+  end gagal "Penjelasan gagal dibuat" message="Pesan penjelasan gagal"
+  send hasil "Kirim penjelasan AI" message="Penjelasan AI"
+  eventgw tunggu
+  catch simpan "Pengguna meminta simpan ke repositori" message="Permintaan simpan ke repositori"
+  catch tutup "Pengguna selesai membaca" message="Selesai membaca"
+  call repo "Tambah Entri Repositori" process=tambah_entri_repositori
+  end tersimpan "Penjelasan tersimpan di repositori"
+  end selesai "Penjelasan telah dibaca"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> jenis "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow jenis -> makna "makna pasal" when="jenis = \"pasal\""
+flow jenis -> ringkas "linimasa amandemen" default
+flow makna -> gabung
+flow ringkas -> gabung
+flow gabung -> ai -> berhasil
+flow berhasil -> hasil "ya" when="aiBerhasil"
+flow berhasil -> gagal "tidak" default
+flow hasil -> tunggu
+flow tunggu -> simpan
+flow tunggu -> tutup
+flow simpan -> repo -> tersimpan
+flow tutup -> selesai
+
+reads makna d_uu
+
+message user -> mulai "Pasal atau linimasa yang dijelaskan"
+message tolak -> user "Akses ditolak"
+message gagal -> user "Pesan penjelasan gagal"
+message hasil -> user "Penjelasan AI"
+message user -> simpan "Permintaan simpan ke repositori"
+message user -> tutup "Selesai membaca"

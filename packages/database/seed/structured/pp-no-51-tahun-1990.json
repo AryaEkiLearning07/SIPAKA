@@ -1,0 +1,114 @@
+{
+ "slug": "pp-no-51-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal di atas, dipandang perlu mengubah prosentasi tunjangan perbaikan penghasilan pensiun sebagaimana ditetapkan dalam Peraturan Pemerintah Nomor 17 Tahun 1989;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-51-tahun-1990",
+   "detailsId": "63563",
+   "judul": "PP No. 51 Tahun 1990 tentang Perubahan Atas Peraturan Pemerintah Nomor 17 Tahun 1989 Tentang Pemberian Tunjangan Perbaikan Penghasilan Pensiun Bagi Bagi Penerima Pensiun/Tunjangan Yang Bersifat Pensiun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53762/PP%20NO%2051%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:47:15.298480+00:00"
+  },
+  "sha256": "131a4bc02c8bf9bef743eac098c7c4ea2386fdcedfae3cbec44c1aa0466a1736",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 3,
+  "ayat_angka": 4,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-51-tahun-1990/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepada penerima pensiun, beserta janda/dudanya, diberikan tunjangan perbaikan penghasilan setiap bulan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Besarnya tunjangan perbaikan penghasilan sebagaimana dimaksud dalam ayat (1) ialah 25% (dua puluh lima perseratus) dari penghasilan;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penghasilan sebagaimana dimaksud dalam ayat (2) terdiri atas:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-3/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pensiun pokok;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-3/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Tunjangan isteri/suami;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-3/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Tunjangan anak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-51-tahun-1990/pasal-1/ayat-3/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Tunjangan peralihan/tunjangan penghasilan minimum.\" Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 1 Januari 1990. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 29 September 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 29 September 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

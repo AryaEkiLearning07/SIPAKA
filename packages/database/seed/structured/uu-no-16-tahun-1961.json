@@ -1,0 +1,71 @@
+{
+ "slug": "uu-no-16-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-16-tahun-1961",
+   "detailsId": "51240",
+   "judul": "UU No. 16 Tahun 1961 tentang Pembentukan Kejaksaan Tinggi &#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40494/UU%20Nomor%2016%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:44:37.839465+00:00"
+  },
+  "sha256": "de4d217772d6a0ed2fe5aae04370da7c2ddeb3fd309d2567a0be0d35387a810b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-16-tahun-1961/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "(2)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-1961/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": ". Para Jaksa Tinggi dan Jaksa Tinggi Pengganti harus berdiam dalam daerah-hukumnya masing-masing, kecuali jika Menteri dalam keadaan yang memaksa menetapkan lain. Pasal 3. Pembagian pekerjaan antara para Jaksa Tinggi Pengganti pada suatu Kejaksaan Tinggi diatur oleh Kepala Kejaksaan Tinggi. Pasal 4. Untuk dapat menjadi Jaksa Tinggi dan Jaksa Tinggi Pengganti orang harus mempunyai ijazah penghabisan dari Perguruan Tinggi bagian Hukum dan/atau memenuhi syarat- syarat lain, yang ditetapkan dengan peraturan Menteri. BAB II. WEWENANG DAN KEWAJIBAN Pasal 5. (1) (2) (3) Jaksa Tinggi/Jaksa Tinggi Pengganti melakukan wewenang Kejaksaan di daerah hukumnya. Jaksa Tinggi/Jaksa Tinggi Pengganti memimpin dan mengawasi para Jaksa di daerah hukumnya dalam melaksanakan tugas mereka. Jaksa Tinggi/Jaksa Tinggi Pengganti dalam daerah hukumnya melaksanakan tugas-tugas lain yang diberikan kepadanya oleh suatu peraturan Negara. Pasal 6. (1) Jaksa Tinggi/Jaksa Tinggi Pengganti wajib dengan teliti mengadakan pembukuan mengenai: a. semua perkara yang diurus oleh Kejaksaan-kejaksaan dalam daerah- hukumnya, dengan tiada kecualinya, dengan dijelaskan tentang orang-orang yang tersangkut perkara, siapa yang mengurus perkara dan lain-lain hal yang perlu untuk penjelasan lebih lanjut; tindakan-tindakan yang diambil, b. semua orang tahanan didalam rumah-rumah penjara dari lain-lain tempat dalam daerah-hukumnya, dengan dijelaskan siapa yang memerintahkan penahanan itu: c.barang-barang bukti. (2) Jaksa Tinggi/Jaksa Tinggi Pengganti harus memberikan laporan mengenai hal-hal tersebut pada ayat (1) di atas kepada Jaksa Agung pada tiap-tiap tiga bulan sekali atau tiap kali diminta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-1961/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": ". Jaksa Tinggi/Jaksa Tinggi Pengganti menyampaikan laporannya dan mengajukan tuntutan kepada Pengadilan Tinggi mengenai perkara perlawanan (requisitoir verzet) terhadap penetapan Pengadilan Negeri, yang diajukan oleh Jaksa. Pasal 8. Jaksa Tinggi/Jaksa Tinggi Pengganti melakukan pengawasan dan pencegahan terhadap penyalahgunaan wewenang para Jaksa di dalam daerah-hukumnya. BAB III. PERATURAN PERALIHAN. Pasal 9. Perkara-perkara perlawanan terhadap penetapan Pengadilan Negeri, yang pada saat berlakunya undang-undang ini masih ada pada Kejaksaan Agung selanjutnya diurus oleh Jaksa Tinggi untuk dilanjutkan kepada Pengadilan Tinggi. BAB IV. PASAL PENUTUP. Pasal 10. Undang-undang ini mulai berlaku pada hari diundangkan. Agar setiap orang dapat mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta, pada tanggal 30 Juni 1961. Pejabat Presiden Republik JUANDA Indonesia, Diundangkan di Jakarta, pada tanggal 30 Juni 1961. Pejabat Sekretaris Negara, SANTOSO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1961 NOMOR 255",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..7): [1, 3, 4, 5, 6]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

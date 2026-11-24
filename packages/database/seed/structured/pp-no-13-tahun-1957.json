@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-13-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "1. 2. 3. 2."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1957",
+   "detailsId": "76673",
+   "judul": "PP No. 13 Tahun 1957 tentang Pengubahan Peraturan Pemerintah Tentang Penunjukan Penguasa-Penguasa Militer - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67583/PP%20No.%20013%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:59.463097+00:00"
+  },
+  "sha256": "ee7b14003d463394307bed850798cbfb282d5b5a7b95f01d701f90ec71d846d7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

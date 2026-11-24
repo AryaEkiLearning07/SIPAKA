@@ -1,0 +1,87 @@
+tok 1.0 "Lacak Amandemen (Pelacak Dokumen Hukum)"
+
+pool p "Lacak Amandemen" process=lacak_amandemen
+  store d_riw "Riwayat Perubahan UU"
+  store d_uu "Undang-Undang"
+  start mulai "Permintaan lacak amandemen diterima" message="Permintaan lacak amandemen"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  and pisah
+  sub linimasa "Tampilkan Linimasa Amandemen"
+    start l1 "Mulai linimasa"
+    service l2 "Kelompokkan Amandemen per Tahun"
+    send l3 "Tampilkan linimasa per tahun" message="Linimasa amandemen"
+    end l4 "Linimasa tampil"
+    flow l1 -> l2 -> l3 -> l4
+  sub warna "Terapkan Penandaan Warna Perubahan"
+    start w1 "Mulai penandaan"
+    service w2 "Tandai Teks Dihapus"
+    service w3 "Tandai Teks Disisipkan atau Direvisi"
+    send w5 "Tampilkan teks berwarna" message="Teks berwarna"
+    end w4 "Teks berwarna"
+    flow w1 -> w2 -> w3 -> w5 -> w4
+  and gabung
+  xor loop
+  eventgw tunggu
+  catch tahun "Pengguna memilih tahun linimasa" message="Pilih tahun linimasa"
+  catch teks "Pengguna mengklik teks berwarna" message="Klik teks berwarna"
+  catch graf "Pengguna membuka graf relasi" message="Buka graf relasi"
+  catch tutup "Pengguna menutup mode lacak" message="Tutup mode lacak"
+  send versi "Tampilkan Teks Versi Terpilih" message="Teks versi terpilih"
+  sub sidebar "Tampilkan Sidebar Detail Perubahan"
+    start s1 "Teks berwarna diklik"
+    service s2 "Ambil Riwayat Perubahan"
+    call s3 "Tampilkan Sumber UU Pengubah" process=lihat_detail_undang_undang doc="Memanggil proses Lihat Detail Undang-Undang untuk UU pengubah"
+    sub s4 "Bandingkan Versi Pasal"
+      start b1 "Mulai perbandingan"
+      service b2 "Hitung Selisih Teks"
+      send b3 "Tampilkan Tampilan Berdampingan" message="Tampilan berdampingan"
+      end b4 "Perbandingan tampil"
+      flow b1 -> b2 -> b3 -> b4
+    end s5 "Sidebar tampil"
+    flow s1 -> s2 -> s3 -> s4 -> s5
+  sub grafrel "Visualisasikan Relasi Undang-Undang"
+    start g1 "Mulai visualisasi"
+    service g2 "Bangun Graf Relasi"
+    send g3 "Tampilkan Graf Relasi" message="Graf relasi UU"
+    end g4 "Graf tampil"
+    flow g1 -> g2 -> g3 -> g4
+  end selesai "Selesai melacak amandemen"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> pisah "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow pisah -> linimasa -> gabung
+flow pisah -> warna -> gabung
+flow gabung -> loop -> tunggu
+flow tunggu -> tahun
+flow tunggu -> teks
+flow tunggu -> graf
+flow tunggu -> tutup
+flow tahun -> versi -> loop
+flow teks -> sidebar -> loop
+flow graf -> grafrel -> loop
+flow tutup -> selesai
+
+reads l2 d_riw
+reads w2 d_riw
+reads w3 d_riw
+reads versi d_uu
+reads s2 d_riw
+reads b2 d_uu
+reads g2 d_riw
+
+message user -> mulai "Permintaan lacak amandemen"
+message tolak -> user "Akses ditolak"
+message l3 -> user "Linimasa amandemen"
+message w5 -> user "Teks berwarna"
+message user -> tahun "Pilih tahun linimasa"
+message user -> teks "Klik teks berwarna"
+message user -> graf "Buka graf relasi"
+message user -> tutup "Tutup mode lacak"
+message versi -> user "Teks versi terpilih"
+message b3 -> user "Tampilan berdampingan"
+message g3 -> user "Graf relasi UU"

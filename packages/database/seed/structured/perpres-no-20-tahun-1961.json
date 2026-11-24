@@ -1,0 +1,62 @@
+{
+ "slug": "perpres-no-20-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "Perpustakaan dalam lingkungan Pemerintah; keseragaman dalam sistem, metodik dan teknik Dokumentasi dan Perpustakaan serta keseragaman dalam istilah-istilah yang bersangkutan.",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-20-tahun-1961",
+   "detailsId": "69428",
+   "judul": "PERPRES No. 20 Tahun 1961 tentang Tugas-Kewajiban Dan Lapangan Pekerjaan Dokumentasi dan Perpustakaan Dalam Lingkungan Pemerintah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/76248/Perpres%20No.20%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:32.199942+00:00"
+  },
+  "sha256": "dddb212c4946b19c991ead13ed22290aea1b0f725f2014766e14040f2531ae88",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-20-tahun-1961/pasal-10",
+   "type": "PASAL",
+   "orderIndex": 10,
+   "label": "Pasal 10",
+   "content": "Sistem, metodik dan teknik Perpusatakaan dilakukan secara seragam menurut ketentuan-ketentuan yang akan ditetapkan lebih lanjut oleh Menteri Pertama. Pasal 11. Pinjam antar perpustakaan dilakukan menurut ketentuan-ketentuan yang akan ditetapkan lebih lanjut oleh Menteri Pertama. Pasal 12. Sepanjang bukan untuk keperluan dinas. bahan-bahan Perpustakaan dapat dipinjamkan kepada pihak luar dengan dipungut pembayaran biaya yang besarnya akan ditetapkan lebih lanjut oleh Menteri Pertama.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-20-tahun-1961/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

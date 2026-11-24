@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-13-tahun-1983",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1983",
+   "detailsId": "64939",
+   "judul": "PP No. 13 Tahun 1983 tentang Perubahan Atas Peraturan Pemerintah Nomor 18 Tahun 1977 Tentang Peraturan Gaji Anggota Angkatan Bersenjata Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/55233/PP%20NO.%2013%20TH%201983.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:45:52.666611+00:00"
+  },
+  "sha256": "ea4d42fbe6436aa0b450d5df2b6f26383b036dcb505e72104bd8806a08bd411d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

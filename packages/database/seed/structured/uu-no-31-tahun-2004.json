@@ -1,0 +1,3916 @@
+{
+ "slug": "uu-no-31-tahun-2004",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan pembangunan nasional berdasarkan Wawasan Nusantara, pengelolaan sumber daya ikan perlu dilakukan sebaik-baiknya berdasarkan keadilan dan pemerataan dalam pemanfaatannya dengan mengutamakan perluasan kesempatan kerja dan peningkatan taraf hidup bagi nelayan, pembudi daya ikan, dan/atau pihak-pihak yang terkait dengan kegiatan perikanan, serta terbinanya kelestarian sumber daya ikan dan lingkungannya;",
+   "bahwa Undang-Undang Nomor 9 Tahun 1985 tentang Perikanan yang berlaku hingga sekarang belum menampung semua aspek pengelolaan sumber daya ikan dan kurang mampu mengantisipasi perkembangan kebutuhan hukum serta perkembangan teknologi dalam rangka pengelolaan sumber daya ikan, dan oleh karena itu perlu diganti;",
+   "bahwa ... PRESIDEN REPUBLIK INDONESIA - 2 -",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Perikanan untuk mengganti Undang-Undang Nomor 9 Tahun 1985 tentang Perikanan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "40763",
+   "slug": "uu-no-31-tahun-2004",
+   "nomor": 31,
+   "tahun": 2004,
+   "jenis": "UU",
+   "judul": "UU No. 31 Tahun 2004 tentang Perikanan - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/30499/UU%20Nomor%2031%20Tahun%202004.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-9-tahun-1985"
+   ],
+   "scrapedAt": "2026-09-30T01:42:19.474675+00:00"
+  },
+  "sha256": "c4054bce57b2f200cceb6c4abc029d91f2dc4acd3148f2846cc3570a9fd0e6d7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 17,
+  "pasal": 111,
+  "ayat_angka": 213,
+  "huruf": 77
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Perikanan adalah semua kegiatan yang berhubungan dengan pengelolaan dan pemanfaatan sumber daya ikan dan lingkungannya mulai dari praproduksi, produksi, pengolahan sampai dengan pemasaran, yang dilaksanakan dalam suatu sistem bisnis perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Sumber daya ikan adalah potensi semua jenis ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Lingkungan sumber daya ikan adalah perairan tempat kehidupan sumber daya ikan, termasuk biota dan faktor alamiah sekitarnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Ikan ... ekosistem, jenis, dan genetik untuk menjamin keberadaan, ketersediaan, dan kesinambungannya dengan tetap memelihara dan meningkatkan kualitas nilai dan keanekaragaman Ikan adalah segala jenis organisme yang seluruh atau sebagian dari siklus hidupnya berada di dalam lingkungan perairan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Penangkapan ikan adalah kegiatan untuk memperoleh ikan di perairan yang tidak dalam keadaan dibudidayakan dengan alat atau cara apa pun, termasuk kegiatan yang menggunakan kapal untuk memuat, mengangkut, menyimpan, mendinginkan, menangani, mengolah, dan/atau mengawetkannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pembudidayaan ikan adalah kegiatan untuk memelihara, membesarkan, dan/atau membiakkan ikan serta memanen hasilnya dalam lingkungan yang terkontrol, termasuk kegiatan yang menggunakan kapal untuk memuat, mengangkut, menyimpan, mendinginkan, menangani, mengolah, dan/atau mengawetkannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pengelolaan perikanan adalah semua upaya, termasuk proses yang terintegrasi dalam pengumpulan informasi, analisis, perencanaan, konsultasi, pembuatan keputusan, alokasi sumber daya ikan, dan implementasi serta penegakan hukum dari peraturan perundang-undangan di bidang perikanan, yang dilakukan oleh pemerintah atau otoritas lain yang diarahkan untuk mencapai kelangsungan produktivitas sumber daya hayati perairan dan tujuan yang telah disepakati.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Konservasi sumber daya ikan adalah upaya perlindungan, pelestarian, dan pemanfaatan sumber daya ikan, termasuk sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Kapal perikanan adalah kapal, perahu, atau alat apung lain yang dipergunakan untuk melakukan penangkapan ikan, mendukung operasi penangkapan ikan, pembudidayaan ikan, pengangkutan ikan, pengolahan ikan, pelatihan perikanan, dan penelitian/ eksplorasi perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Nelayan ... Nelayan adalah orang yang mata pencahariannya melakukan penangkapan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Nelayan kecil adalah orang yang mata pencahariannya melakukan penangkapan ikan untuk memenuhi kebutuhan hidup sehari- hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Pembudi daya ikan adalah orang yang mata pencahariannya melakukan pembudidayaan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pembudi daya-ikan kecil adalah orang yang mata pencahariannya melakukan pembudidayaan ikan untuk memenuhi kebutuhan hidup sehari-hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Setiap orang adalah orang perseorangan atau korporasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Korporasi adalah kumpulan orang dan/atau kekayaan yang terorganisasi baik merupakan badan hukum maupun bukan badan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Surat izin usaha perikanan, yang selanjutnya disebut SIUP, adalah izin tertulis yang harus dimiliki perusahaan perikanan untuk melakukan usaha perikanan dengan menggunakan sarana produksi yang tercantum dalam izin tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Surat izin penangkapan ikan, yang selanjutnya disebut SIPI, adalah izin tertulis yang harus dimiliki setiap kapal perikanan untuk melakukan penangkapan ikan yang merupakan bagian tidak terpisahkan dari SIUP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Surat izin kapal pengangkut ikan, yang selanjutnya disebut SIKPI, adalah izin tertulis yang harus dimiliki setiap kapal perikanan untuk melakukan pengangkutan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Laut teritorial Indonesia adalah jalur laut selebar 12 (dua belas) mil laut yang diukur dari garis pangkal kepulauan Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Perairan Indonesia adalah laut teritorial Indonesia beserta perairan kepulauan dan perairan pedalamannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Zona ... Zona ekonomi eksklusif Indonesia, yang selanjutnya disebut ZEEI, adalah jalur di luar dan berbatasan dengan laut teritorial Indonesia sebagaimana ditetapkan berdasarkan undang-undang yang berlaku tentang perairan Indonesia yang meliputi dasar laut, tanah di bawahnya, dan air di atasnya dengan batas terluar 200 (dua ratus) mil laut yang diukur dari garis pangkal laut teritorial Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Laut lepas adalah bagian dari laut yang tidak termasuk dalam ZEEI, laut teritorial Indonesia, perairan kepulauan Indonesia, dan perairan pedalaman Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Pelabuhan perikanan adalah tempat yang terdiri atas daratan dan perairan di sekitarnya dengan batas-batas tertentu sebagai tempat kegiatan pemerintahan dan kegiatan sistem bisnis perikanan yang dipergunakan sebagai tempat kapal perikanan bersandar, berlabuh, dan/atau bongkar muat ikan yang dilengkapi dengan fasilitas keselamatan pelayaran dan kegiatan penunjang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Menteri adalah menteri yang bertanggung jawab di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Pemerintah adalah Pemerintah Pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Pemerintah Daerah adalah Pemerintah Provinsi dan/atau Pemerintah Kabupaten/Kota. Bagian Kedua Asas dan Tujuan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Pengelolaan perikanan dilakukan berdasarkan asas manfaat, keadilan, kemitraan, pemerataan, keterpaduan, keterbukaan, efisiensi, dan kelestarian yang berkelanjutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pengelolaan perikanan dilaksanakan dengan tujuan: a. meningkatkan ... a. meningkatkan taraf hidup nelayan kecil dan pembudi daya-ikan kecil; b. meningkatkan penerimaan dan devisa negara; c. mendorong perluasan dan kesempatan kerja; d. meningkatkan ketersediaan dan konsumsi sumber protein ikan; e. mengoptimalkan pengelolaan sumber daya ikan; f. meningkatkan produktivitas, mutu, nilai tambah, dan daya saing; g. meningkatkan ketersediaan bahan baku untuk industri pengolahan ikan; h. mencapai pemanfataan sumber daya ikan, lahan pembudidayaan ikan, dan lingkungan sumber daya ikan secara optimal; dan i. menjamin kelestarian sumber daya ikan, lahan pembudidayaan ikan, dan tata ruang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "RUANG LINGKUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Undang-Undang ini berlaku untuk: a. setiap orang, baik warga negara Indonesia maupun warga negara asing dan badan hukum Indonesia maupun badan hukum asing, yang melakukan kegiatan perikanan di wilayah pengelolaan perikanan Republik Indonesia; b. setiap kapal perikanan berbendera Indonesia dan kapal perikanan berbendera asing, yang melakukan kegiatan perikanan di wilayah pengelolaan perikanan Republik Indonesia; c. setiap kapal perikanan berbendera Indonesia yang melakukan penangkapan ikan di luar wilayah pengelolaan perikanan Republik Indonesia; dan d. setiap kapal perikanan berbendera Indonesia yang melakukan penangkapan ikan, baik sendiri-sendiri maupun bersama-sama, dalam bentuk kerja sama dengan pihak asing. BAB III ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "WILAYAH PENGELOLAAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wilayah pengelolaan perikanan Republik Indonesia untuk penangkapan ikan dan/atau pembudidayaan ikan meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perairan Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ZEEI; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sungai, danau, waduk, rawa, dan genangan air lainnya yang dapat diusahakan serta lahan pembudidayaan ikan yang potensial di wilayah Republik Indonesia.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan perikanan di luar wilayah pengelolaan perikanan Republik Indonesia, sebagaimana dimaksud pada ayat (1), diselenggarakan berdasarkan peraturan perundang-undangan, persyaratan, dan/atau standar internasional yang diterima secara umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENGELOLAAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan perikanan dalam wilayah pengelolaan perikanan Republik Indonesia dilakukan untuk tercapainya manfaat yang optimal dan berkelanjutan, serta terjaminnya kelestarian sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengelolaan perikanan untuk kepentingan penangkapan ikan dan pembudidayaan ikan harus mempertimbangkan hukum adat dan/atau kearifan lokal serta memperhatikan peran serta masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka mendukung kebijakan pengelolaan sumber daya ikan, Menteri menetapkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rencana ... rencana pengelolaan perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "potensi dan alokasi sumber daya ikan di wilayah pengelolaan perikanan Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "jumlah tangkapan yang diperbolehkan di wilayah pengelolaan perikanan Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "potensi dan alokasi lahan pembudidayaan ikan di wilayah pengelolaan perikanan Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "potensi dan alokasi induk serta benih ikan tertentu di wilayah pengelolaan perikanan Republik Indonesia; f. jenis, jumlah, dan ukuran alat penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "jenis, jumlah, ukuran, dan penempatan alat bantu penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "daerah, jalur, dan waktu atau musim penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "persyaratan atau standar prosedur operasional penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "sistem pemantauan kapal perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "jenis ikan baru yang akan dibudidayakan; l. jenis ikan dan wilayah penebaran kembali serta penangkapan ikan berbasis budi daya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "pembudidayaan ikan dan perlindungannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "pencegahan pencemaran dan kerusakan sumber daya ikan serta lingkungannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-o",
+         "type": "HURUF",
+         "orderIndex": 15,
+         "label": "Huruf o",
+         "content": "rehabilitasi dan peningkatan sumber daya ikan serta lingkungannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-p",
+         "type": "HURUF",
+         "orderIndex": 16,
+         "label": "Huruf p",
+         "content": "ukuran atau berat minimum jenis ikan yang boleh ditangkap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-q",
+         "type": "HURUF",
+         "orderIndex": 17,
+         "label": "Huruf q",
+         "content": "suaka perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-r",
+         "type": "HURUF",
+         "orderIndex": 18,
+         "label": "Huruf r",
+         "content": "wabah dan wilayah wabah penyakit ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-1/huruf-s",
+         "type": "HURUF",
+         "orderIndex": 19,
+         "label": "Huruf s",
+         "content": "jenis ikan yang dilarang untuk diperdagangkan, dimasukkan, dan dikeluarkan ke dan dari wilayah Republik Indonesia; dan t. jenis ikan yang dilindungi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap ... Setiap orang yang melakukan usaha dan/atau kegiatan pengelolaan perikanan wajib mematuhi ketentuan sebagaimana dimaksud pada ayat (1) mengenai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jenis, jumlah, dan ukuran alat penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "jenis, jumlah, ukuran, dan penempatan alat bantu penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "daerah, jalur, dan waktu atau musim penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "persyaratan atau standar prosedur operasional penangkapan ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "sistem pemantauan kapal perikanan; f. jenis ikan baru yang akan dibudidayakan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "jenis ikan dan wilayah penebaran kembali serta penangkapan ikan berbasis budi daya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pembudidayaan ikan dan perlindungannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "pencegahan pencemaran dan kerusakan sumber daya ikan serta lingkungannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "ukuran atau berat minimum jenis ikan yang boleh ditangkap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "suaka perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "wabah dan wilayah wabah penyakit ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "jenis ikan yang dilarang untuk diperdagangkan, dimasukkan, dan dikeluarkan ke dan dari wilayah Republik Indonesia; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-2/huruf-n",
+         "type": "HURUF",
+         "orderIndex": 14,
+         "label": "Huruf n",
+         "content": "jenis ikan yang dilindungi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri menetapkan potensi dan jumlah tangkapan yang diperbolehkan sebagaimana dimaksud pada ayat (1) huruf b dan huruf c setelah mempertimbangkan rekomendasi dari komisi nasional yang mengkaji sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Komisi nasional sebagaimana dimaksud pada ayat (3) dibentuk oleh Menteri dan beranggotakan para ahli di bidangnya yang berasal dari lembaga terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Menteri ... Menteri menetapkan jenis ikan dan kawasan perairan yang masing-masing dilindungi, termasuk taman nasional laut, untuk kepentingan ilmu pengetahuan, kebudayaan, pariwisata, dan/atau kelestarian sumber daya ikan dan/atau lingkungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam rangka mempercepat pembangunan perikanan, pemerintah membentuk dewan pertimbangan pembangunan perikanan nasional yang diketuai oleh Presiden, yang anggotanya terdiri atas menteri terkait, asosiasi perikanan, dan perorangan yang mempunyai kepedulian terhadap pembangunan perikanan. ditetapkan dengan Keputusan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-7/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan lebih lanjut mengenai susunan organisasi dan tata kerja dewan pertimbangan pembangunan perikanan nasional sebagai-mana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nakhoda atau pemimpin kapal perikanan, ahli penangkapan ikan, dan anak buah kapal yang melakukan penangkapan ikan dilarang menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/ atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemilik ... Pemilik kapal perikanan, pemilik perusahaan perikanan, penanggung jawab perusahaan perikanan, dan/atau operator kapal perikanan dilarang menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemilik perusahaan pembudidayaan ikan, kuasa pemilik perusahaan pembudidayaan ikan, dan/atau penanggung jawab perusahaan pembudidayaan ikan yang melakukan usaha pembudidayaan ikan dilarang menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penggunaan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan untuk penangkapan ikan dan/atau pembudidayaan ikan sebagaimana dimaksud pada ayat (1), diperbolehkan hanya untuk penelitian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai penggunaan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan sebagaimana dimaksud pada ayat (5), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Setiap orang dilarang memiliki, menguasai, membawa, dan/atau menggunakan di kapal penangkap ikan di wilayah pengelolaan perikanan Republik Indonesia: a. alat penangkapan ikan dan/atau alat bantu penangkapan ikan yang tidak sesuai dengan ukuran yang ditetapkan; b. alat penangkapan ikan yang tidak sesuai dengan persyaratan atau standar yang ditetapkan untuk tipe alat tertentu; dan/atau b. alat ... a. alat penangkapan ikan yang dilarang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan kerja sama internasional, Pemerintah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dapat memublikasikan secara berkala hal-hal yang berkenaan dengan langkah konservasi dan pengelolaan sumber daya ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bekerja sama dengan negara tetangga atau dengan negara lain dalam rangka konservasi dan pengelolaan sumber daya ikan di laut lepas, laut lepas yang bersifat tertutup, atau semi tertutup dan wilayah kantong;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-10/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberitahukan serta menyampaikan bukti-bukti terkait kepada negara bendera asal kapal yang dicurigai melakukan kegiatan yang dapat menimbulkan hambatan dalam konservasi dan pengelolaan sumber daya ikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah ikut serta secara aktif dalam keanggotaan badan/ lembaga/organisasi regional dan internasional dalam rangka kerja sama pengelolaan perikanan regional dan internasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan kelestarian sumber daya ikan dan pemanfaatan lahan pembudidayaan ikan, Menteri menetapkan suatu keadaan kritis yang membahayakan atau dapat membahayakan sediaan ikan, spesies ikan, atau lahan pembudidayaan ikan dalam wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri mengumumkan dan menyebarluaskan langkah-langkah keadaan kritis sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang melakukan perbuatan yang mengakibatkan pencemaran dan/atau kerusakan sumber daya ikan dan/atau lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang dilarang membudidayakan ikan yang dapat membahayakan sumber daya ikan, lingkungan sumber daya ikan, dan/atau kesehatan manusia di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang dilarang membudidayakan ikan hasil rekayasa genetika yang dapat membahayakan sumber daya ikan, lingkungan sumber daya ikan, dan/atau kesehatan manusia di wilayah pengelolaan perikanan Republik Indonesia. Setiap orang dilarang menggunakan obat-obatan dalam pembudidayaan ikan yang dapat membahayakan sumber daya ikan, lingkungan sumber daya ikan, dan/atau kesehatan manusia di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai hal-hal sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pengelolaan sumber daya ikan, dilakukan upaya konservasi ekosistem, konservasi jenis ikan, dan konservasi genetika ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai konservasi ekosistem, konservasi jenis ikan, dan konservasi genetika ikan sebagaimana dimaksud pada ayat (1), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah mengatur dan/atau mengembangkan pemanfaatan plasma nutfah yang berkaitan dengan sumber daya ikan dalam rangka pelestarian ekosistem dan pemuliaan sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang wajib melestarikan plasma nutfah yang berkaitan dengan sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemerintah mengendalikan pemasukan ikan jenis baru dari luar negeri dan/atau lalu lintas antarpulau untuk menjamin kelestarian plasma nutfah yang berkaitan dengan sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Setiap orang dilarang merusak plasma nutfah yang berkaitan dengan sumber daya ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-14/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai pemanfaatan dan pelestarian plasma nutfah sumber daya ikan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pemerintah mengatur pemasukan dan/atau pengeluaran, jenis calon induk, induk, dan/atau benih ikan ke dalam dan dari wilayah pengelolaan perikanan Republik Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang memasukkan, mengeluarkan mengadakan, mengedarkan, dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumber daya ikan, dan/atau lingkungan sumber daya ikan ke dalam dan/atau ke luar wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai pemasukan, pengeluaran, pengadaan, pengedaran, dan/atau pemeliharaan ikan sebagaimana dimaksud pada ayat (1), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Pemerintah mengatur dan mengembangkan penggunaan sarana dan prasarana pembudidayaan ikan dalam rangka pengembangan pembudidayaan ikan. Pasal 18 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah mengatur dan membina tata pemanfaatan air dan lahan pembudidayaan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengaturan dan pembinaan tata pemanfaatan air dan lahan pembudidayaan ikan, sebagaimana dimaksud pada ayat (1), dilakukan dalam rangka menjamin kuantitas dan kualitas air untuk kepentingan pembudidayaan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menetapkan persyaratan dan standar alat pengangkut, unit penyimpanan hasil produksi budi daya ikan, dan unit pengelolaan kesehatan ikan dan lingkungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah melakukan pengawasan terhadap alat pengangkut, unit penyimpanan hasil produksi budi daya ikan, dan unit pengelolaan kesehatan ikan dan lingkungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah dan masyarakat melaksanakan pengelolaan kesehatan ikan dan lingkungannya sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai persyaratan dan standar serta pengawasan alat pengangkut, unit penyimpanan hasil produksi budi daya ikan, dan unit pengelolaan kesehatan ikan dan lingkungannya, sebagaimana dimaksud pada ayat (1) dan ayat (2) serta pelaksanaan pengelolaan kesehatan ikan dan lingkungannya sebagaimana dimaksud pada ayat (3), diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Proses pengolahan ikan dan produk perikanan wajib memenuhi persyaratan kelayakan pengolahan ikan, sistem jaminan mutu, dan keamanan hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem jaminan mutu dan keamanan hasil perikanan sebagaimana dimaksud pada ayat (1), terdiri atas subsistem:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengawasan ... pengawasan dan pengendalian mutu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengembangan dan penerapan persyaratan atau standar bahan baku, persyaratan atau standar sanitasi dan teknik penanganan serta pengolahan, persyaratan atau standar mutu produk, persyaratan atau standar sarana dan prasarana, serta persyaratan atau standar metode pengujian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sertifikasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang yang melakukan penanganan dan pengolahan ikan wajib memenuhi dan menerapkan persyaratan kelayakan pengolahan ikan, sistem jaminan mutu, dan keamanan hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang yang memenuhi dan menerapkan persyaratan kelayakan pengolahan ikan, sebagaimana dimaksud pada ayat (3), memperoleh Sertifikat Kelayakan Pengolahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Setiap orang yang memenuhi dan menerapkan persyaratan penerapan sistem jaminan mutu hasil perikanan, sebagaimana dimaksud pada ayat (3), memperoleh Sertifikat Penerapan Program Manajemen Mutu Terpadu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ikan hasil penangkapan dan/atau pembudidayaan harus memenuhi standar mutu dan keamanan hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Produk hasil pengolahan perikanan harus memenuhi persyaratan dan/atau standar mutu dan keamanan hasil perikanan sebagaimana dimaksud pada ayat (2) huruf b.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-20/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Industri pengolahan ikan yang tidak diatur dalam Undang- Undang ini dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Setiap orang yang melakukan pemasukan atau pengeluaran ikan dan/atau hasil perikanan dari dan/atau ke wilayah Republik Indonesia harus melengkapinya dengan sertifikat kesehatan untuk konsumsi manusia. Pasal 22 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Ketentuan lebih lanjut mengenai sistem jaminan mutu dan keamanan hasil perikanan, sertifikat kelayakan pengolahan, sertifikat penerapan manajemen mutu terpadu sebagaimana dimaksud dalam Pasal 20, dan sertifikat kesehatan sebagaimana dimaksud dalam Pasal 21, diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang menggunakan bahan baku, bahan tambahan makanan, bahan penolong, dan/atau alat yang membahayakan kesehatan manusia dan/atau lingkungan dalam melaksanakan penanganan dan pengolahan ikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah menetapkan bahan baku, bahan tambahan makanan, bahan penolong, dan/atau alat yang membahayakan kesehatan manusia dan/atau lingkungan sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah mendorong peningkatan nilai tambah produk hasil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah dapat membatasi ekspor bahan baku industri pengolahan ikan untuk menjamin ketersediaan bahan baku tersebut di dalam negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai peningkatan nilai tambah produk hasil perikanan sebagaimana dimaksud pada ayat (1), dan jaminan ketersediaan bahan baku industri pengolahan ikan di dalam negeri serta pembatasan ekspor bahan baku sebagaimana dimaksud pada ayat (2), diatur dengan Peraturan Pemerintah. BAB V ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "USAHA PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Usaha perikanan dilaksanakan dalam sistem bisnis perikanan yang meliputi praproduksi, produksi, pengolahan, dan pemasaran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang melakukan usaha perikanan di bidang penangkapan, pembudidayaan, pengangkutan, pengolahan, dan pemasaran ikan di wilayah pengelolaan perikanan Republik Indonesia wajib memiliki SIUP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kewajiban memiliki SIUP sebagaimana dimaksud pada ayat (1), tidak berlaku bagi nelayan kecil dan/atau pembudi daya-ikan kecil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera Indonesia yang dipergunakan untuk melakukan penangkapan ikan di wilayah pengelolaan perikanan Republik Indonesia dan/atau laut lepas wajib memiliki SIPI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing yang dipergunakan untuk melakukan penangkapan ikan di wilayah pengelolaan perikanan Republik Indonesia wajib memiliki SIPI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "SIPI sebagaimana dimaksud pada ayat (1) diterbitkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-27/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kapal penangkap ikan berbendera Indonesia yang melakukan penangkapan ikan di wilayah yurisdiksi negara lain harus terlebih dahulu mendapatkan persetujuan dari Pemerintah. Pasal 28 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal pengangkut ikan di wilayah pengelolaan perikanan Republik Indonesia wajib memiliki SIKPI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "SIKPI sebagaimana dimaksud pada ayat (1) diterbitkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Usaha perikanan di wilayah pengelolaan perikanan Republik Indonesia hanya boleh dilakukan oleh warga negara Republik Indonesia atau badan hukum Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengecualian terhadap ketentuan sebagaimana dimaksud pada ayat (1) diberikan kepada orang atau badan hukum asing yang melakukan usaha penangkapan ikan di ZEEI, sepanjang hal tersebut menyangkut kewajiban Negara Republik Indonesia berdasarkan persetujuan internasional atau ketentuan hukum internasional yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberian surat izin usaha perikanan kepada orang dan/atau badan hukum asing yang beroperasi di ZEEI harus didahului dengan perjanjian perikanan, pengaturan akses, atau pengaturan lainnya antara Pemerintah Republik Indonesia dan pemerintah negara bendera kapal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perjanjian perikanan yang dibuat antara Pemerintah Republik Indonesia dan pemerintah negara bendera kapal sebagaimana dimaksud pada ayat (1), harus mencantumkan kewajiban pemerintah negara bendera kapal untuk bertanggung jawab atas kepatuhan orang atau badan hukum negara bendera kapal untuk mematuhi perjanjian perikanan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah ... Pemerintah menetapkan pengaturan mengenai pemberian izin usaha perikanan kepada orang dan/atau badan hukum asing yang beroperasi di ZEEI, perjanjian perikanan, pengaturan akses, atau pengaturan lainnya antara Pemerintah Republik Indonesia dan pemerintah negara bendera kapal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap kapal perikanan yang dipergunakan untuk menangkap ikan di wilayah pengelolaan perikanan Republik Indonesia wajib dilengkapi SIPI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap kapal perikanan yang dipergunakan untuk mengangkut ikan di wilayah pengelolaan perikanan Republik Indonesia wajib dilengkapi SIKPI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Ketentuan lebih lanjut mengenai tata cara dan syarat-syarat pemberian SIUP, SIPI, dan SIKPI diatur dengan Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "Ketentuan lebih lanjut mengenai penangkapan ikan dan/atau pembudidayaan ikan di wilayah pengelolaan perikanan Republik Indonesia yang bukan untuk tujuan komersial diatur dengan Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kapal perikanan berdasarkan fungsinya meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kapal penangkap ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kapal pengangkut ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kapal pengolah ikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kapal latih perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "kapal penelitian/eksplorasi perikanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "kapal ... kapal pendukung operasi penangkapan ikan dan/atau pembudidayaan ikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai kapal perikanan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang membangun, mengimpor, atau memodifikasi kapal perikanan wajib terlebih dahulu mendapat persetujuan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembangunan atau modifikasi kapal perikanan sebagaimana dimaksud pada ayat (1) dapat dilakukan, baik di dalam maupun di luar negeri, setelah mendapat pertimbangan teknis laik berlayar dari Menteri yang bertanggung jawab di bidang pelayaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kapal perikanan milik orang Indonesia yang dioperasikan di wilayah pengelolaan perikanan Republik Indonesia wajib didaftarkan terlebih dahulu sebagai kapal perikanan Indonesia. dilengkapi dengan dokumen yang berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bukti kepemilikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "identitas pemilik; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat ukur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendaftaran kapal perikanan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pendaftaran kapal perikanan yang dibeli atau diperoleh dari luar negeri dan sudah terdaftar di negara asal untuk didaftar sebagai kapal perikanan Indonesia, selain dilengkapi dengan dokumen sebagaimana dimaksud pada ayat (2) harus dilengkapi pula dengan surat keterangan penghapusan dari daftar kapal yang diterbitkan oleh negara asal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan ... Ketentuan lebih lanjut mengenai pendaftaran sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-36/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kapal perikanan yang telah terdaftar sebagaimana dimaksud pada ayat (1), diberikan surat tanda kebangsaan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Setiap kapal perikanan Indonesia diberi tanda pengenal kapal perikanan berupa tanda selar, tanda daerah penangkapan ikan, tanda jalur penangkapan ikan, dan/atau tanda alat penangkapan ikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap kapal penangkap ikan berbendera asing yang tidak memiliki izin penangkapan ikan selama berada di wilayah pengelolaan perikanan Republik Indonesia wajib menyimpan alat penangkapan ikan di dalam palka.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap kapal penangkap ikan berbendera asing yang telah memiliki izin penangkapan ikan dengan 1 (satu) jenis alat penangkapan ikan tertentu pada bagian tertentu di ZEEI dilarang membawa alat penangkapan ikan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-38/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap kapal penangkap ikan berbendera asing yang telah memiliki izin penangkapan ikan wajib menyimpan alat penangkapan ikan di dalam palka selama berada di luar daerah penangkapan ikan yang diizinkan di wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Kapal penangkap ikan berbendera Indonesia dengan ukuran dan jenis tertentu dimungkinkan menggunakan 2 (dua) jenis alat penangkapan ikan yang diizinkan secara bergantian berdasarkan musim dan daerah operasi penangkapan. Pasal 40 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Ketentuan lebih lanjut mengenai membangun, mengimpor, memodifikasi kapal, pendaftaran, pengukuran kapal perikanan, pemberian tanda pengenal kapal perikanan, serta penggunaan 2 (dua) jenis alat penangkapan ikan secara bergantian sebagaimana dimaksud dalam Pasal 35, Pasal 36, Pasal 37, Pasal 38, dan Pasal 39 diatur dengan Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menyelenggarakan dan membina pelabuhan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri menetapkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rencana induk pelabuhan perikanan secara nasional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "klasifikasi pelabuhan perikanan dan suatu tempat yang merupakan bagian perairan dan daratan tertentu yang menjadi wilayah kerja dan pengoperasian pelabuhan perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "persyaratan dan/atau standar teknis dan akreditasi kompetensi dalam perencanaan, pembangunan, operasional, pembinaan, dan pengawasan pelabuhan perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "wilayah kerja dan pengoperasian pelabuhan perikanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelabuhan perikanan yang tidak dibangun oleh Pemerintah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap kapal penangkap ikan dan kapal pengangkut ikan harus mendaratkan ikan tangkapan di pelabuhan perikanan yang ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-41/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan dan/atau kapal pengangkut ikan yang tidak melakukan bongkar muat ikan tangkapan di pelabuhan perikanan yang ditetapkan sebagaimana dimaksud pada ayat (3) dikenakan sanksi administratif berupa peringatan, pembekuan izin, atau pencabutan izin. Pasal 42...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka keselamatan pelayaran, ditunjuk syahbandar di pelabuhan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap kapal perikanan yang akan berlayar dari pelabuhan perikanan wajib memiliki surat izin berlayar kapal perikanan yang dikeluarkan oleh syahbandar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Selain menerbitkan surat izin berlayar, syahbandar di pelabuhan perikanan sebagaimana dimaksud pada ayat (1) mempunyai kewenangan lain, yakni:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memeriksa ulang kelengkapan dan keabsahan dokumen kapal perikanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memeriksa ulang alat penangkapan ikan yang ada di kapal perikanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-42/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Syahbandar di pelabuhan perikanan sebagaimana dimaksud pada ayat (1) diangkat oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Setiap kapal perikanan yang akan melakukan kegiatan perikanan wajib memiliki surat laik operasi kapal perikanan dari pengawas perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Surat izin berlayar sebagaimana dimaksud dalam Pasal 42 ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "dikeluarkan oleh syahbandar setelah kapal perikanan mendapatkan surat laik operasi. Surat laik operasi sebagaimana dimaksud pada ayat (1) dikeluarkan oleh pengawas perikanan setelah dipenuhi persyaratan administrasi dan kelayakan teknis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan ... Ketentuan lebih lanjut mengenai persyaratan administrasi dan kelayakan teknis sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Dalam hal kapal perikanan berada dan/atau berpangkalan di luar pelabuhan perikanan, surat izin berlayar diterbitkan oleh syahbandar setempat setelah diperoleh surat laik operasi dari pengawas perikanan yang ditugaskan pada pelabuhan setempat. SISTEM INFORMASI DAN DATA STATISTIK PERIKANAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "SISTEM INFORMASI DAN DATA STATISTIK PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menyusun dan mengembangkan sistem informasi dan data statistik perikanan serta menyelenggarakan pengumpulan, pengolahan, analisis, penyimpanan, penyajian, dan penyebaran data potensi, sarana dan prasarana, produksi, penanganan, pengolahan dan pemasaran ikan, serta data sosial ekonomi yang terkait dengan pelaksanaan pengelolaan sumber daya ikan dan pengembangan sistem bisnis perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah mengadakan pusat data dan informasi perikanan untuk menyelenggarakan sistem informasi dan data statistik perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah membangun jaringan informasi perikanan dengan lembaga lain, baik di dalam maupun di luar negeri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sistem informasi dan data statistik perikanan harus dapat diakses dengan mudah dan cepat oleh seluruh pengguna data statistik dan informasi perikanan. BAB VII ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PUNGUTAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-48/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memperoleh manfaat langsung dari sumber daya ikan dan lingkungannya di wilayah pengelolaan perikanan Republik Indonesia dikenakan pungutan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pungutan perikanan sebagaimana dimaksud pada ayat (1) tidak dikenakan bagi nelayan kecil dan pembudi daya-ikan kecil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Setiap orang asing yang mendapat izin penangkapan ikan di ZEEI dikenakan pungutan perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Pungutan perikanan sebagaimana dimaksud dalam Pasal 48 dan Pasal 49 dipergunakan untuk pembangunan perikanan serta kegiatan pelestarian sumber daya ikan dan lingkungannya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Ketentuan lebih lanjut mengenai pungutan perikanan dan penggunaan pungutan perikanan sebagaimana dimaksud dalam Pasal 48, Pasal 49, dan Pasal 50 diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PENELITIAN DAN PENGEMBANGAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Pemerintah mengatur, mendorong, dan/atau menyelenggarakan penelitian dan pengembangan perikanan untuk menghasilkan pengetahuan dan teknologi yang dibutuhkan dalam pengembangan usaha perikanan agar lebih efektif, efisien, ekonomis, berdaya saing tinggi, dan ramah lingkungan, serta menghargai kearifan tradisi/ budaya lokal. Pasal 53 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penelitian dan pengembangan perikanan dapat dilaksanakan oleh perorangan, perguruan tinggi, lembaga swadaya masyarakat, dan/atau lembaga penelitian dan pengembangan milik pemerintah dan/atau swasta. dapat melakukan kerja sama dengan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaksana penelitian dan pengembangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelaku usaha perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "asosiasi perikanan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "lembaga penelitian dan pengembangan milik asing.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-53/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perorangan, perguruan tinggi, lembaga swadaya masyarakat, dan/atau lembaga penelitian dan pengembangan milik pemerintah dan/atau swasta sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Hasil penelitian bersifat terbuka untuk semua pihak, kecuali hasil penelitian tertentu yang oleh Pemerintah dinyatakan tidak untuk dipublikasikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang asing yang melakukan penelitian perikanan di wilayah pengelolaan perikanan Republik Indonesia wajib terlebih dahulu memperoleh izin dari Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penelitian yang dilakukan oleh orang asing dan/atau badan hukum asing sebagaimana dimaksud pada ayat (1) harus mengikutsertakan peneliti Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-55/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang asing yang melakukan penelitian perikanan di wilayah pengelolaan perikanan Republik Indonesia harus menyerahkan hasil penelitiannya kepada Pemerintah. Pasal 56 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "Ketentuan lebih lanjut mengenai penyelenggaraan penelitian dan pengembangan perikanan sebagaimana dimaksud dalam Pasal 52, Pasal 53, Pasal 54, dan Pasal 55 diatur dengan Peraturan Pemerintah. PENDIDIKAN, PELATIHAN, DAN PENYULUHAN PERIKANAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PENDIDIKAN, PELATIHAN, DAN PENYULUHAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menyelenggarakan pendidikan, pelatihan, dan penyuluhan perikanan untuk meningkatkan pengembangan sumber daya manusia di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah menyelenggarakan sekurang-kurangnya 1 (satu) satuan pendidikan dan/atau pelatihan perikanan untuk dikembangkan menjadi satuan pendidikan dan/atau pelatihan yang bertaraf internasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Pemerintah dapat bekerja sama dengan lembaga terkait, baik di tingkat nasional maupun di tingkat internasional, dalam menyelenggarakan pendidikan, pelatihan, dan penyuluhan perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Ketentuan lebih lanjut mengenai penyelenggaraan pendidikan, pelatihan, dan penyuluhan perikanan sebagaimana dimaksud dalam Pasal 57 dan Pasal 58 diatur dengan Peraturan Pemerintah. BAB X ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PEMBERDAYAAN NELAYAN KECIL DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-60/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah memberdayakan nelayan kecil dan pembudi daya- ikan kecil melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-60/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyediaan skim kredit bagi nelayan kecil dan pembudi daya- ikan kecil, baik untuk modal usaha maupun biaya operasional dengan cara yang mudah, bunga pinjaman yang rendah, dan sesuai dengan kemampuan nelayan kecil dan pembudi daya- ikan kecil;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-60/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyelenggaraan pendidikan, pelatihan, dan penyuluhan bagi nelayan kecil serta pembudi daya-ikan kecil untuk meningkatkan pengetahuan dan keterampilan di bidang penangkapan, pembudidayaan, pengolahan, dan pemasaran ikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-60/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penumbuhkembangan kelompok nelayan kecil, kelompok pembudi daya-ikan kecil, dan koperasi perikanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-60/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberdayaan nelayan kecil dan pembudi daya-ikan kecil sebagaimana dimaksud pada ayat (1) dapat juga dilakukan oleh masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Nelayan kecil bebas menangkap ikan di seluruh wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembudi daya-ikan kecil dapat membudidayakan komoditas ikan pilihan di seluruh wilayah pengelolaan perikanan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-61/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nelayan kecil dan pembudi daya-ikan kecil sebagaimana dimaksud pada ayat (1) dan ayat (2) wajib menaati ketentuan konservasi dan ketentuan lain yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-61/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Nelayan ... Nelayan kecil atau pembudi daya-ikan kecil harus ikut serta menjaga kelestarian lingkungan perikanan dan keamanan pangan hasil perikanan sesuai dengan ketentuan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-61/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Nelayan kecil dan pembudi daya-ikan kecil harus mendaftarkan diri, usaha, dan kegiatannya kepada instansi perikanan setempat, tanpa dikenakan biaya, yang dilakukan untuk keperluan statistik serta pemberdayaan nelayan kecil dan pembudi daya-ikan kecil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Pemerintah menyediakan dan mengusahakan dana untuk memberdayakan nelayan kecil dan pembudi daya-ikan kecil, baik dari sumber dalam negeri maupun sumber luar negeri, sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Pengusaha perikanan mendorong kemitraan usaha yang saling menguntungkan dengan kelompok nelayan kecil atau pembudi daya- ikan kecil dalam kegiatan usaha perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Ketentuan lebih lanjut mengenai pemberdayaan nelayan kecil dan pembudi daya-ikan kecil sebagaimana dimaksud dalam Pasal 60, Pasal 61, Pasal 62, dan Pasal 63 diatur dengan Peraturan Pemerintah. PENYERAHAN URUSAN DAN TUGAS PEMBANTUAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "PENYERAHAN URUSAN DAN TUGAS PEMBANTUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyerahan sebagian urusan perikanan dari Pemerintah kepada Pemerintah Daerah dan penarikannya kembali ditetapkan dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah ... Pemerintah dapat menugaskan kepada Pemerintah Daerah untuk melaksanakan urusan tugas pembantuan di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "PENGAWASAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-66/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan perikanan dilakukan oleh pengawas perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-66/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawas perikanan sebagaimana dimaksud pada ayat (1) bertugas untuk mengawasi tertib pelaksanaan peraturan perundang-undangan di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-66/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengawas perikanan sebagaimana dimaksud pada ayat (1) terdiri atas penyidik pegawai negeri sipil perikanan dan nonpenyidik pegawai negeri sipil perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "Masyarakat dapat diikutsertakan dalam membantu pengawasan perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "Pemerintah mengadakan sarana dan prasarana pengawasan perikanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-69/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawas perikanan sebagaimana dimaksud dalam Pasal 66 ayat (1), dalam melaksanakan tugas dapat dilengkapi dengan senjata api dan/atau alat pengaman diri lainnya serta didukung dengan kapal pengawas perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kapal pengawas perikanan sebagaimana dimaksud pada ayat (1), berfungsi melaksanakan pengawasan dan penegakan hukum di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-69/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kapal ... Kapal pengawas perikanan dapat menghentikan, memeriksa, membawa, dan menahan kapal yang diduga atau patut diduga melakukan pelanggaran di wilayah pengelolaan perikanan Republik Indonesia ke pelabuhan terdekat untuk pemrosesan lebih lanjut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-69/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kapal pengawas perikanan sebagaimana dimaksud pada ayat (1), dapat dilengkapi dengan senjata api.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "Ketentuan lebih lanjut mengenai pengawasan perikanan, keikutsertaan masyarakat dalam membantu pengawasan perikanan, kapal pengawas perikanan, senjata api, dan/atau alat pengaman diri lainnya, yang digunakan oleh pengawas perikanan dan/atau yang dipasang di atas kapal pengawas perikanan sebagaimana dimaksud dalam Pasal 66 ayat (1) dan ayat (2), Pasal 67, Pasal 68, Pasal 69 ayat (1), ayat (2), dan ayat (4), diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "PENGADILAN PERIKANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dengan Undang-Undang ini dibentuk pengadilan perikanan yang berwenang memeriksa, mengadili, dan memutus tindak pidana di bidang perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengadilan perikanan sebagaimana dimaksud pada ayat (1) berada di lingkungan peradilan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk pertama kali pengadilan perikanan sebagaimana dimaksud pada ayat (1) dibentuk di Pengadilan Negeri Jakarta Utara, Medan, Pontianak, Bitung, dan Tual.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Daerah ... Daerah hukum pengadilan perikanan sebagaimana dimaskud pada ayat (3) sesuai dengan daerah hukum pengadilan negeri yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengadilan perikanan sebagaimana dimaksud pada ayat (3) paling lambat 2 (dua) tahun terhitung sejak tanggal Undang-Undang ini mulai berlaku, sudah melaksanakan tugas dan fungsinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-71/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pembentukan pengadilan perikanan sebagaimana dimaksud pada ayat (1) dilakukan secara bertahap sesuai dengan kebutuhan yang ditetapkan dengan Keputusan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xiv",
+   "type": "BAB",
+   "orderIndex": 14,
+   "label": "BAB XIV",
+   "title": "PENYIDIKAN, PENUNTUTAN, DAN PEMERIKSAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "Penyidikan dalam perkara tindak pidana di bidang perikanan, dilakukan berdasarkan hukum acara yang berlaku, kecuali ditentukan lain dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyidikan tindak pidana di bidang perikanan dilakukan oleh Penyidik Pegawai Negeri Sipil Perikanan, Perwira TNI AL, dan Pejabat Polisi Negara Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyidik sebagaimana dimaksud pada ayat (1) dapat melakukan koordinasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk melakukan koordinasi dalam penanganan tindak pidana di bidang perikanan, Menteri dapat membentuk forum koordinasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyidik sebagaimana dimaksud pada ayat (1) berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berwenang ... menerima laporan atau pengaduan dari seseorang tentang adanya tindak pidana di bidang perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memanggil dan memeriksa tersangka dan/atau saksi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "membawa dan menghadapkan seorang sebagai tersangka dan/atau saksi untuk didengar keterangannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menggeledah sarana dan prasarana perikanan yang diduga dipergunakan dalam atau menjadi tempat melakukan tindak pidana di bidang perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menghentikan, memeriksa, menangkap, membawa, dan/atau menahan kapal dan/atau orang yang disangka melakukan tindak pidana di bidang perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memeriksa kelengkapan dan keabsahan dokumen usaha perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "memotret tersangka dan/atau barang bukti tindak pidana di bidang perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "mendatangkan orang ahli yang diperlukan dalam hubungannya dengan tindak pidana di bidang perikanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "membuat dan menandatangani berita acara pemeriksaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "melakukan penyitaan terhadap barang bukti yang digunakan dan/atau hasil tindak pidana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "melakukan penghentian penyidikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-4/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "mengadakan tindakan lain menurut hukum yang bertanggung jawab.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penyidik sebagaimana dimaksud pada ayat (4) memberitahukan dimulainya penyidikan dan menyampaikan hasil penyidikan kepada penuntut umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Untuk kepentingan penyidikan, penyidik dapat menahan tersangka paling lama 20 (dua puluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Jangka ... Jangka waktu sebagaimana dimaksud pada ayat (6), apabila diperlukan untuk kepentingan pemeriksaan yang belum selesai, dapat diperpanjang oleh penuntut umum paling lama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (6) dan ayat (7) tidak menutup kemungkinan tersangka dikeluarkan dari tahanan sebelum berakhir waktu penahanan tersebut, jika kepentingan pemeriksaan sudah terpenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-73/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Setelah waktu 30 (tiga puluh) hari tersebut, penyidik harus sudah mengeluarkan tersangka dari tahanan demi hukum. Bagian Kedua Penuntutan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "Penuntutan dalam perkara tindak pidana di bidang perikanan dilakukan berdasarkan hukum acara yang berlaku, kecuali ditentukan lain dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penuntutan terhadap tindak pidana di bidang perikanan dilakukan oleh penuntut umum yang ditetapkan oleh Jaksa Agung dan/atau pejabat yang ditunjuk. harus memenuhi persyaratan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berpengalaman menjadi penuntut umum sekurang-kurangnya 5 (lima) tahun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "telah mengikuti pendidikan dan pelatihan teknis di bidang perikanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "cakap dan memiliki integritas moral yang tinggi selama menjalankan tugasnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penuntut umum perkara tindak pidana di bidang perikanan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-75/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persyaratan ... Persyaratan sebagaimana dimaksud pada ayat (2) huruf b pelaksanaannya harus sudah diterapkan paling lambat 3 (tiga) tahun terhitung sejak tanggal Undang-Undang ini diundangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penuntut umum setelah menerima hasil penyidikan dari penyidik wajib memberitahukan hasil penelitiannya kepada penyidik dalam waktu 5 (lima) hari terhitung sejak tanggal diterimanya berkas penyidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal hasil penyidikan yang disampaikan tidak lengkap, penuntut umum harus mengembalikan berkas perkara kepada penyidik yang disertai petunjuk tentang hal-hal yang harus dilengkapi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam waktu paling lama 10 (sepuluh) hari terhitung sejak tanggal penerimaan berkas, penyidik harus menyampaikan kembali berkas perkara tersebut kepada penuntut umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyidikan dianggap telah selesai apabila dalam waktu 5 (lima) hari penuntut umum tidak mengembalikan hasil penyidikan atau apabila sebelum batas waktu tersebut berakhir sudah ada pemberitahuan tentang hal itu dari penuntut umum kepada penyidik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal penuntut umum menyatakan hasil penyidikan tersebut lengkap dalam waktu paling lama 10 (sepuluh) hari terhitung sejak tanggal penerimaan berkas dari penyidik dinyatakan lengkap, penuntut umum harus melimpahkan perkara tersebut kepada pengadilan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Untuk kepentingan penuntutan, penuntut umum berwenang melakukan penahanan atau penahanan lanjutan selama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Jangka ... Jangka waktu sebagaimana dimaksud pada ayat (6), apabila diperlukan guna kepentingan pemeriksaan yang belum selesai, dapat diperpanjang oleh Ketua Pengadilan Negeri yang berwenang paling lama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-76/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (6) dan ayat (7) tidak menutup kemungkinan tersangka dikeluarkan dari tahanan sebelum jangka waktu penahanan berakhir jika kepentingan pemeriksaan sudah terpenuhi. Bagian Ketiga Pemeriksaan di Sidang Pengadilan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "Pemeriksaan di sidang pengadilan dalam perkara tindak pidana di bidang perikanan dilakukan berdasarkan hukum acara yang berlaku, kecuali ditentukan lain dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-78/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hakim pengadilan perikanan terdiri atas hakim karier dan hakim ad hoc.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-78/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Susunan majelis hakim terdiri atas 2 (dua) hakim ad hoc dan 1 (satu) hakim karier.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-78/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hakim karier sebagaimana dimaksud pada ayat (1), ditetapkan berdasarkan Keputusan Ketua Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-78/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hakim ad hoc sebagaimana dimaksud pada ayat (1), diangkat dan diberhentikan oleh Presiden atas usul Ketua Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "Pemeriksaan di sidang pengadilan dapat dilaksanakan tanpa kehadiran terdakwa. Pasal 80 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-80/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak tanggal penerimaan pelimpahan perkara dari penuntut umum, hakim harus sudah menjatuhkan putusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-80/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Putusan perkara sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh hakim tanpa kehadiran terdakwa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-81",
+     "type": "PASAL",
+     "orderIndex": 81,
+     "label": "Pasal 81",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-81/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan pemeriksaan, hakim di sidang pengadilan berwenang menetapkan penahanan selama 20 (dua puluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-81/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jangka waktu penahanan sebagaimana dimaksud pada ayat (1), apabila diperlukan guna kepentingan pemeriksaan yang belum selesai, dapat diperpanjang oleh Ketua Pengadilan Negeri yang bersangkutan paling lama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-81/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak menutup kemungkinan terdakwa dikeluarkan dari tahanan sebelum jangka waktu penahanan berakhir jika kepentingan pemeriksaan sudah terpenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-82",
+     "type": "PASAL",
+     "orderIndex": 82,
+     "label": "Pasal 82",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-82/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal putusan pengadilan dimohonkan banding ke pengadilan tinggi, perkara tersebut diperiksa dan diputus dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak tanggal berkas perkara diterima oleh pengadilan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-82/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk kepentigan pemeriksaan, hakim di sidang pengadilan tinggi berwenang menetapkan penahanan selama 20 (dua puluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-82/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jangka waktu penahanan sebagaimana dimaksud pada ayat (2), apabila diperlukan guna kepentingan pemeriksaan yang belum selesai, dapat diperpanjang oleh Ketua Pengadilan Tinggi yang bersangkutan paling lama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-82/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan ... Ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) tidak menutup kemungkinan terdakwa dikeluarkan dari tahanan sebelum jangka waktu penahanan berakhir jika kepentingan pemeriksaan sudah terpenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-83",
+     "type": "PASAL",
+     "orderIndex": 83,
+     "label": "Pasal 83",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-83/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal putusan pengadilan tinggi dimohonkan kasasi ke Mahkamah Agung, perkara tersebut diperiksa dan diputus dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak tanggal berkas perkara diterima oleh Mahkamah Agung.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-83/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk kepentingan pemeriksaan, hakim di sidang Mahkamah Agung berwenang menetapkan penahanan selama 20 (dua puluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-83/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jangka waktu penahanan sebagaimana dimaksud pada ayat (2), apabila perlukan guna kepentingan pemeriksaan yang belum selesai, dapat diperpanjang oleh Ketua Mahkamah Agung paling lama 10 (sepuluh) hari.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-83/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (2) dan (3), tidak menutup kemungkinan terdakwa dikeluarkan dari tahanan sebelum jangka waktu penahanan berakhir jika kepentingan pemeriksaan sudah terpenuhi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xv",
+   "type": "BAB",
+   "orderIndex": 15,
+   "label": "BAB XV",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-84",
+     "type": "PASAL",
+     "orderIndex": 84,
+     "label": "Pasal 84",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-84/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan ... bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya sebagaimana dimaksud dalam Pasal 8 ayat (1), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp1.200.000.000,00 (satu miliar dua ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-84/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nakhoda atau pemimpin kapal perikanan, ahli penangkapan ikan, dan anak buah kapal yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya sebagaimana dimaksud dalam Pasal 8 ayat (2), dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak Rp1.200.000.000,00 (satu miliar dua ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-84/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemilik kapal perikanan, pemilik perusahaan perikanan, penanggung jawab perusahaan perikanan, dan/atau operator kapal perikanan yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan usaha penangkapan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya sebagaimana dimaksud dalam Pasal 8 ayat (3), dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-84/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemilik perusahaan pembudidayaan ikan, kuasa pemilik perusahaan pembudidayaan ikan, dan/atau penanggung jawab perusahaan pembudidayaan ikan yang dengan sengaja melakukan usaha pembudidayaan ikan di wilayah pengelolaan perikanan Republik Indonesia menggunakan bahan kimia, bahan biologis, bahan ... bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya sebagaimana dimaksud dalam Pasal 8 ayat (4), dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-85",
+     "type": "PASAL",
+     "orderIndex": 85,
+     "label": "Pasal 85",
+     "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia memiliki, menguasai, membawa, dan/atau menggunakan alat penangkapan ikan dan/atau alat bantu penangkapan ikan yang berada di kapal penangkap ikan yang tidak sesuai dengan ukuran yang ditetapkan, alat penangkapan ikan yang tidak sesuai dengan persyaratan, atau standar yang ditetapkan untuk tipe alat tertentu dan/atau alat penangkapan ikan yang dilarang sebagaimana dimaksud dalam Pasal 9, dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-86",
+     "type": "PASAL",
+     "orderIndex": 86,
+     "label": "Pasal 86",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-86/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan perbuatan yang mengakibatkan pencemaran dan/atau kerusakan sumber daya ikan dan/atau lingkungannya sebagaimana dimaksud dalam Pasal 12 ayat (1), dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-86/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia membudidayakan ikan yang dapat membahayakan sumber daya ikan dan/atau lingkungan sumber daya ... daya ikan dan/atau kesehatan manusia sebagaimana dimaksud dalam Pasal 12 ayat (2), dipidana dengan pidana penjara paling lama (enam) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-86/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia membudidayakan ikan hasil rekayasa genetika yang dapat membahayakan sumber daya ikan dan/atau lingkungan sumber daya ikan dan/atau kesehatan manusia sebagaimana dimaksud dalam Pasal 12 ayat (3), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-86/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia menggunakan obat-obatan dalam pembudidayaan ikan yang dapat membahayakan sumber daya ikan dan/atau lingkungan sumber daya ikan dan/atau kesehatan manusia sebagaimana dimaksud dalam Pasal 12 ayat (4), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-87",
+     "type": "PASAL",
+     "orderIndex": 87,
+     "label": "Pasal 87",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-87/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia merusak plasma nutfah yang berkaitan dengan sumber daya ikan sebagaimana dimaksud dalam Pasal 14 ayat (4), dipidana dengan pidana penjara paling lama 2 (dua) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-87/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang karena kelalaiannya di wilayah pengelolaan perikanan Republik Indonesia mengakibatkan rusaknya plasma nutfah yang berkaitan dengan sumber daya ikan sebagaimana dimaksud ... dimaksud dalam Pasal 14 ayat (4), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-88",
+     "type": "PASAL",
+     "orderIndex": 88,
+     "label": "Pasal 88",
+     "content": "Setiap orang yang dengan sengaja memasukkan, megeluarkan, mengadakan, mengedarkan, dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumber daya ikan, dan/atau lingkungan sumber daya ikan ke dalam dan/atau ke luar wilayah pengelolaan perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 16 ayat (1), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-89",
+     "type": "PASAL",
+     "orderIndex": 89,
+     "label": "Pasal 89",
+     "content": "Setiap orang yang melakukan penanganan dan pengolahan ikan yang tidak memenuhi dan tidak menerapkan persyaratan kelayakan pengolahan ikan, sistem jaminan mutu, dan keamanan hasil perikanan sebagaimana dimaksud dalam Pasal 20 ayat (3), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-90",
+     "type": "PASAL",
+     "orderIndex": 90,
+     "label": "Pasal 90",
+     "content": "Setiap orang yang dengan sengaja melakukan pemasukan atau pengeluaran ikan dan/atau hasil perikanan dari dan/atau ke wilayah Republik Indonesia yang tidak dilengkapi sertifikat kesehatan untuk konsumsi manusia sebagaimana dimaksud dalam Pasal 21, dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah). Pasal 91 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-91",
+     "type": "PASAL",
+     "orderIndex": 91,
+     "label": "Pasal 91",
+     "content": "Setiap orang yang dengan sengaja menggunakan bahan baku, bahan tambahan makanan, bahan penolong, dan/atau alat yang membahayakan kesehatan manusia dan/atau lingkungan dalam melaksanakan penanganan dan pengolahan ikan sebagaimana dimaksud dalam Pasal 23 ayat (1), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-92",
+     "type": "PASAL",
+     "orderIndex": 92,
+     "label": "Pasal 92",
+     "content": "Setiap orang yang dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan usaha perikanan di bidang penangkapan, pembudidayaan, pengangkutan, pengolahan, dan pemasaran ikan, yang tidak memiliki SIUP sebagaimana dimaksud dalam Pasal 26 ayat (1), dipidana dengan pidana penjara paling lama 8 (delapan) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-93",
+     "type": "PASAL",
+     "orderIndex": 93,
+     "label": "Pasal 93",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-93/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera Indonesia melakukan penangkapan ikan di wilayah pengelolaan perikanan Republik Indonesia dan/atau di laut lepas, yang tidak memiliki SIPI sebagaimana dimaksud dalam Pasal 27 ayat (1), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-93/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di wilayah pengelolaan perikanan Republik Indonesia, yang tidak memiliki SIPI sebagaimana dimaksud dalam Pasal 27 ayat (2), dipidana dengan pidana penjara paling lama 6 (enam) tahun dan denda paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah). Pasal 94 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-94",
+     "type": "PASAL",
+     "orderIndex": 94,
+     "label": "Pasal 94",
+     "content": "Setiap orang yang memiliki dan/atau mengoperasikan kapal pengangkut ikan di wilayah pengelolaan perikanan Republik Indonesia yang melakukan pengangkutan ikan atau kegiatan yang terkait yang tidak memiliki SIKPI sebagaimana dimaksud dalam Pasal 28 ayat (1), dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-95",
+     "type": "PASAL",
+     "orderIndex": 95,
+     "label": "Pasal 95",
+     "content": "Setiap orang yang membangun, mengimpor, atau memodifikasi kapal perikanan yang tidak mendapat persetujuan terlebih dahulu sebagaimana dimaksud dalam Pasal 35 ayat (1), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp600.000.000,00 (enam ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-96",
+     "type": "PASAL",
+     "orderIndex": 96,
+     "label": "Pasal 96",
+     "content": "Setiap orang yang mengoperasikan kapal perikanan di wilayah pengelolaan perikanan Republik Indonesia yang tidak mendaftarkan kapal perikanannya sebagai kapal perikanan Indonesia sebagaimana dimaksud dalam Pasal 36 ayat (1), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-97",
+     "type": "PASAL",
+     "orderIndex": 97,
+     "label": "Pasal 97",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-97/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Nakhoda yang mengoperasikan kapal penangkap ikan berbendera asing yang tidak memiliki izin penangkapan ikan, yang selama berada di wilayah pengelolaan perikanan Republik Indonesia tidak menyimpan alat penangkapan ikan di dalam palka sebagaimana dimaksud dalam Pasal 38 ayat (1), dipidana dengan pidana denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-97/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nakhoda .. Nakhoda yang mengoperasikan kapal penangkap ikan berbendera asing yang telah memiliki izin penangkapan ikan dengan 1 (satu) jenis alat penangkapan ikan tertentu pada bagian tertentu di ZEEI yang membawa alat penangkapan ikan lainnya sebagaimana dimaksud dalam Pasal 38 ayat (2), dipidana dengan pidana denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-97/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nakhoda yang mengoperasikan kapal penangkap ikan berbendera asing yang telah memiliki izin penangkapan ikan, yang tidak menyimpan alat penangkapan ikan di dalam palka selama berada di luar daerah penangkapan ikan yang diizinkan di wilayah pengelolaan perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 38 ayat (3), dipidana dengan pidana denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-98",
+     "type": "PASAL",
+     "orderIndex": 98,
+     "label": "Pasal 98",
+     "content": "Nakhoda yang berlayar tidak memiliki surat izin berlayar kapal perikanan yang dikeluarkan oleh syahbandar sebagaimana dimaksud dalam Pasal 42 ayat (2), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-99",
+     "type": "PASAL",
+     "orderIndex": 99,
+     "label": "Pasal 99",
+     "content": "Setiap orang asing yang melakukan penelitian perikanan di wilayah pengelolaan perikanan Republik Indonesia yang tidak memiliki izin dari Pemerintah sebagaimana dimaksud dalam Pasal 55 ayat (1), dipidana dengan pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-100",
+     "type": "PASAL",
+     "orderIndex": 100,
+     "label": "Pasal 100",
+     "content": "Setiap orang yang melanggar ketentuan yang ditetapkan sebagaimana dimaksud dalam Pasal 7 ayat (2) dipidana dengan pidana denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah). Pasal 101 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-101",
+     "type": "PASAL",
+     "orderIndex": 101,
+     "label": "Pasal 101",
+     "content": "Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 84 ayat (1), Pasal 85, Pasal 86, Pasal 87, Pasal 88, Pasal 89, Pasal 90, Pasal 91, Pasal 92, Pasal 93, Pasal 94, Pasal 95, dan Pasal 96 dilakukan oleh korporasi, tuntutan dan sanksi pidananya dijatuhkan terhadap pengurusnya dan pidana dendanya ditambah 1/3 (sepertiga) dari pidana yang dijatuhkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-102",
+     "type": "PASAL",
+     "orderIndex": 102,
+     "label": "Pasal 102",
+     "content": "Ketentuan tentang pidana penjara dalam Undang-Undang ini tidak berlaku bagi tindak pidana di bidang perikanan yang terjadi di wilayah pengelolaan perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf b, kecuali telah ada perjanjian antara Pemerintah Republik Indonesia dengan pemerintah negara yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-103",
+     "type": "PASAL",
+     "orderIndex": 103,
+     "label": "Pasal 103",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-103/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tindak pidana sebagaimana dimaksud dalam Pasal 84, Pasal 85, Pasal 86, Pasal 88, Pasal 91, Pasal 92, Pasal 93, dan pasal 94 adalah kejahatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-103/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tindak pidana sebagaimana dimaksud dalam Pasal 87, Pasal 89, Pasal 90, Pasal 95, Pasal 96, Pasal 97, Pasal 98, Pasal 99, dan Pasal 100 adalah pelanggaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-104",
+     "type": "PASAL",
+     "orderIndex": 104,
+     "label": "Pasal 104",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-104/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Permohonan untuk membebaskan kapal dan/atau orang yang ditangkap karena melakukan tindak pidana di wilayah pengelolaan perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf b, dapat dilakukan setiap waktu sebelum ada keputusan dari pengadilan perikanan dengan menyerahkan sejumlah uang jaminan yang layak, yang penetapannya dilakukan oleh pengadilan perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-104/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Benda ... Benda dan/atau alat yang dipergunakan dalam dan/atau yang dihasilkan dari tindak pidana perikanan dapat dirampas untuk negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-105",
+     "type": "PASAL",
+     "orderIndex": 105,
+     "label": "Pasal 105",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-105/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Benda dan/atau alat yang dirampas dari hasil tindak pidana perikanan sebagaimana dimaksud dalam Pasal 104 dilelang untuk negara. diberikan insentif yang disisihkan dari hasil lelang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-105/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepada aparat penegak hukum yang berhasil menjalankan tugasnya dengan baik dan pihak-pihak yang berjasa dalam upaya penyelamatan kekayaan negara sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-31-tahun-2004/pasal-105/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pemberian insentif diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xvi",
+   "type": "BAB",
+   "orderIndex": 16,
+   "label": "BAB XVI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-106",
+     "type": "PASAL",
+     "orderIndex": 106,
+     "label": "Pasal 106",
+     "content": "Selama belum dibentuk pengadilan perikanan selain pengadilan perikanan sebagaimana dimaksud dalam Pasal 71 ayat (3), perkara tindak pidana di bidang perikanan yang terjadi di luar daerah hukum pengadilan perikanan sebagaimana dimaksud dalam Pasal 71 ayat (3) tetap diperiksa, diadili, dan diputus oleh pengadilan negeri yang berwenang. Pasal 107 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-107",
+     "type": "PASAL",
+     "orderIndex": 107,
+     "label": "Pasal 107",
+     "content": "Penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan bagi perkara tindak pidana di bidang perikanan yang diperiksa, diadili, dan diputus oleh pengadilan negeri dilakukan sesuai dengan hukum acara yang diatur dalam Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-108",
+     "type": "PASAL",
+     "orderIndex": 108,
+     "label": "Pasal 108",
+     "content": "Pada saat Undang-Undang ini mulai berlaku: a. perkara tindak pidana di bidang perikanan yang terjadi di daerah hukum pengadilan perikanan sebagaimana dimaksud dalam Pasal 71 ayat (3) yang masih dalam tahap penyidikan atau penuntutan tetap diberlakukan hukum acara yang berlaku sebelum berlakunya Undang-Undang ini; b. perkara tindak pidana di bidang perikanan yang terjadi di daerah hukum pengadilan perikanan sebagaimana dimaksud dalam Pasal 71 ayat (3) yang sudah diperiksa tetapi belum diputus oleh pengadilan negeri tetap diperiksa dan diputus oleh pengadilan negeri yang bersangkutan sesuai dengan hukum acara yang berlaku sebelum berlakunya Undang-Undang ini; dan c. perkara tindak pidana di bidang perikanan yang terjadi di daerah hukum pengadilan perikanan sebagaimana dimaksud dalam Pasal 71 ayat (3) yang sudah dilimpahkan ke pengadilan negeri tetapi belum mulai diperiksa dilimpahkan kepada pengadilan perikanan yang berwenang. Pasal 109 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-109",
+     "type": "PASAL",
+     "orderIndex": 109,
+     "label": "Pasal 109",
+     "content": "Pada saat Undang-Undang ini mulai berlaku semua peraturan pelaksanaan Undang-Undang Nomor 9 Tahun 1985 tentang Perikanan masih tetap berlaku sepanjang tidak bertentangan atau belum diganti berdasarkan Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-31-tahun-2004/bab-xvii",
+   "type": "BAB",
+   "orderIndex": 17,
+   "label": "BAB XVII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-110",
+     "type": "PASAL",
+     "orderIndex": 110,
+     "label": "Pasal 110",
+     "content": "Pada saat Undang-Undang ini mulai berlaku: a. Undang-Undang Nomor 9 Tahun 1985 tentang Perikanan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 46, Tambahan Lembaran Negara Republik Indonesia Nomor 3299); dan b. ketentuan tentang pidana denda dalam Pasal 16 ayat (1) Undang- Undang Nomor 5 Tahun 1983 tentang Zona Ekonomi Eksklusif Indonesia (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 44, Tambahan Lembaran Negara Republik Indonesia Nomor 3260) khususnya yang berkaitan dengan tindak pidana di bidang perikanan, dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-31-tahun-2004/pasal-111",
+     "type": "PASAL",
+     "orderIndex": 111,
+     "label": "Pasal 111",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar ... Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 6 Oktober 2004 PRESIDEN REPUBLIK INDONESIA, ttd. MEGAWATI SOEKARNOPUTRI Diundangkan di Jakarta pada tanggal 6 Oktober 2004 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. BAMBANG KESOWO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 118. Salinan sesuai dengan aslinya Deputi Sekretaris Kabinet Bidang Hukum dan Perundang-undangan, ttd Lambock V. Nahattands",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "pp-no-45-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai penghargaan jasa-jasa seluruh Veteran Pejuang terhadap Kemerdekaan Republik Indonesia, perlu diadakan peraturan tentang pemberian tunjangan kepada Veteran Pejuang Kemerdekaan Republik Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-45-tahun-1960",
+   "detailsId": "75012",
+   "judul": "PP No. 45 Tahun 1960 tentang Pemberian Tunjangan Kepada Veteran Pejuang Kemerdekaan Republik Indonesia yang Berhubung Perikehidupannya Membutuhkan Bantuan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65530/pp%20no%20045%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:33.007485+00:00"
+  },
+  "sha256": "db77e8686476039a9d710819121282f321d31b145efdf3ea78776992c16d7ecd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-45-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "(1)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-45-tahun-1960/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENGHENTIAN DAN PENGHAPUSAN TUNJANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-45-tahun-1960/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "(1)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

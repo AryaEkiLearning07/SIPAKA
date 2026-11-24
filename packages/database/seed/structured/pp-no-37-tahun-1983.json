@@ -1,0 +1,61 @@
+{
+ "slug": "pp-no-37-tahun-1983",
+ "preamble": {
+  "menimbang": [
+   "bahwa usaha-usaha untuk mengikutsertakan seluruh rakyat Indonesia dalam pembangunan antara lain melalui upaya pemupukan dana dalam bentuk deposito berjangka dan tabungan-tabungan lainnya, selama ini telah menunjukkan hasil yang patut untuk terus ditumbuhkan, dimantapkan, dan dibina;",
+   "bahwa untuk lebih mendorong masyarakat guna ikut serta dalam upaya pemupukan dana melalui deposito berjangka dan tabungan-tabungan lainnya, dan sesuai dengan ketentuan Pasal 4 ayat (2) Undang-undang Pajak Penghasilan 1984, dipandang perlu menangguhkan pelaksanaan pengenaan pajak atas bunga deposito berjangka dan tabungan-tabungan lainnya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-37-tahun-1983",
+   "detailsId": "71911",
+   "judul": "PP No. 37 Tahun 1983 tentang Pajak atas Bunga Deposito Berjangka dan Tabungan-Tabungan Lainnya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62363/PP%20NO.%2037%20TH%201983.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:13:50.369643+00:00"
+  },
+  "sha256": "017ff5be266dbc20314ebf01c718473dd72b51a973428078eed8c4e9f7b09bc2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-37-tahun-1983/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pelaksanaan pengenaan pajak penghasilan atas bunga deposito berjangka dan tabungan-tabungan lainnya milik penduduk Indonesia, ditangguhkan sampai saat yang ditentukan kemudian oleh Pemerintah. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-37-tahun-1983/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Desember 1983 PRESIDEN REPUBLIK INDONESIA. SOEHARTO Diundangkan di Jakarta pada tanggal 31 Desember 1983 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 54",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

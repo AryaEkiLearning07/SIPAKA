@@ -236,18 +236,39 @@ export const ITE_CHANGESET_2024: ChangeSetPayload = {
   title: 'Perubahan Kedua Atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik',
   operations: [
     {
-      id: 'op-2024-pasal-27-repeal-3',
+      id: 'op-2024-pasal-27-ayat-1-replace',
       orderInSet: 1,
+      operationType: 'REPLACE_PROVISION',
+      sourceReference: 'Pasal I angka 1 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-27/ayat-1',
+      previousContent:
+        'Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan.',
+      newContent:
+        'Setiap Orang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum.',
+      newExplanation:
+        'Dikecualikan bagi perbuatan untuk kepentingan umum, pembelaan diri, atau karya seni/ilmiah. Catatan Relasi: Ketentuan ini dicabut dan dinyatakan tidak berlaku oleh Pasal 622 ayat (1) huruf r UU No. 1 Tahun 2023 (KUHP) terhitung sejak 2 Januari 2026.',
+    },
+    {
+      id: 'op-2024-pasal-27-repeal-3',
+      orderInSet: 2,
       operationType: 'REPEAL_PROVISION',
-      sourceReference: 'Pasal I angka 2 UU No. 1 Tahun 2024',
+      sourceReference: 'Pasal I angka 1 UU No. 1 Tahun 2024',
       targetCanonicalPath: 'uu-11-2008/pasal-27/ayat-3',
-      repealNote: 'Ketentuan ayat (3) Pasal 27 dihapus.',
+      repealNote: 'Ketentuan ayat (3) Pasal 27 dihapus dan dipindahkan menjadi delik khusus pada Pasal 27A.',
+    },
+    {
+      id: 'op-2024-pasal-27-repeal-4',
+      orderInSet: 3,
+      operationType: 'REPEAL_PROVISION',
+      sourceReference: 'Pasal I angka 1 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-27/ayat-4',
+      repealNote: 'Ketentuan ayat (4) Pasal 27 dihapus dan dialihkan pengaturannya ke Pasal 27B.',
     },
     {
       id: 'op-2024-pasal-27a-add',
-      orderInSet: 2,
+      orderInSet: 4,
       operationType: 'ADD_PROVISION',
-      sourceReference: 'Pasal I angka 3 UU No. 1 Tahun 2024',
+      sourceReference: 'Pasal I angka 2 UU No. 1 Tahun 2024',
       targetCanonicalPath: 'uu-11-2008/pasal-27a',
       parentCanonicalPath: 'uu-11-2008/bab-vi',
       newNode: {
@@ -264,9 +285,9 @@ export const ITE_CHANGESET_2024: ChangeSetPayload = {
     },
     {
       id: 'op-2024-pasal-27b-add',
-      orderInSet: 3,
+      orderInSet: 5,
       operationType: 'ADD_PROVISION',
-      sourceReference: 'Pasal I angka 3 UU No. 1 Tahun 2024',
+      sourceReference: 'Pasal I angka 2 UU No. 1 Tahun 2024',
       targetCanonicalPath: 'uu-11-2008/pasal-27b',
       parentCanonicalPath: 'uu-11-2008/bab-vi',
       newNode: {
@@ -277,6 +298,62 @@ export const ITE_CHANGESET_2024: ChangeSetPayload = {
         title: 'Ancaman Pencemaran & Pemerasan Khusus',
         content:
           'Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik dengan maksud untuk menguntungkan diri sendiri atau orang lain secara melawan hukum, memaksa orang dengan ancaman pencemaran atau kekerasan.',
+        versionTag: 'AMENDMENT_2024',
+        children: [],
+      },
+    },
+    {
+      id: 'op-2024-pasal-28-ayat-1-replace',
+      orderInSet: 6,
+      operationType: 'REPLACE_PROVISION',
+      sourceReference: 'Pasal I angka 3 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-28/ayat-1',
+      previousContent:
+        'Setiap Orang dengan sengaja dan tanpa hak menyebarkan berita bohong dan menyesatkan yang mengakibatkan kerugian konsumen dalam Transaksi Elektronik.',
+      newContent:
+        'Setiap Orang dengan sengaja mendistribusikan dan/atau mentransmisikan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi pemberitahuan bohong atau informasi menyesatkan yang mengakibatkan kerugian materiil bagi konsumen dalam Transaksi Elektronik.',
+      newExplanation:
+        'Transaksi Elektronik mencakup seluruh transaksi perdagangan barang dan jasa yang dilakukan melalui sarana media elektronik.',
+    },
+    {
+      id: 'op-2024-pasal-28-ayat-2-replace',
+      orderInSet: 7,
+      operationType: 'REPLACE_PROVISION',
+      sourceReference: 'Pasal I angka 3 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-28/ayat-2',
+      previousContent:
+        'Setiap Orang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA).',
+      newContent:
+        'Setiap Orang dengan sengaja dan tanpa hak menyebarkan Informasi Elektronik dan/atau Dokumen Elektronik yang sifatnya menghasut, mengajak, atau memengaruhi orang lain sehingga menimbulkan rasa kebencian atau permusuhan terhadap individu dan/atau kelompok masyarakat tertentu berdasarkan suku, agama, ras, dan antargolongan.',
+      newExplanation:
+        'Catatan Relasi: Ketentuan ini dicabut dan dinyatakan tidak berlaku oleh Pasal 622 ayat (1) huruf r UU No. 1 Tahun 2023 (KUHP) terhitung sejak 2 Januari 2026 dan beralih ke delik Pasal 242-243 KUHP.',
+    },
+    {
+      id: 'op-2024-pasal-45-replace',
+      orderInSet: 8,
+      operationType: 'REPLACE_PROVISION',
+      sourceReference: 'Pasal I angka 6 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-45/ayat-1',
+      previousContent:
+        'Setiap Orang yang dengan sengaja dan tanpa hak mendistribusikan muatan kesusilaan dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah). Sedangkan ancaman pidana Pasal 27 ayat (3) dipotong menjadi pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah).',
+      newContent:
+        'Setiap Orang yang dengan sengaja dan tanpa hak menyiarkan, mempertunjukkan, mendistribusikan, mentransmisikan, dan/atau membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan untuk diketahui umum sebagaimana dimaksud dalam Pasal 27 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).',
+    },
+    {
+      id: 'op-2024-pasal-45a-add',
+      orderInSet: 9,
+      operationType: 'ADD_PROVISION',
+      sourceReference: 'Pasal I angka 7 UU No. 1 Tahun 2024',
+      targetCanonicalPath: 'uu-11-2008/pasal-45a',
+      parentCanonicalPath: 'uu-11-2008/bab-xi',
+      newNode: {
+        canonicalPath: 'uu-11-2008/pasal-45a',
+        type: 'PASAL',
+        orderIndex: 45.1,
+        label: 'Pasal 45A',
+        title: 'Pidana Penyebaran Berita Bohong & Keonaran',
+        content:
+          'Setiap Orang yang dengan sengaja mendistribusikan dan/atau mentransmisikan Informasi Elektronik yang berisi pemberitahuan bohong mengakibatkan kerugian materiil konsumen dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00.',
         versionTag: 'AMENDMENT_2024',
         children: [],
       },

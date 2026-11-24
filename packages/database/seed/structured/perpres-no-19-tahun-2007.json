@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-19-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka lebih meningkatkan efektifitas pelaksanaan tugas Sekretariat Kabinet, dipandang perlu mengubah Peraturan Presiden Nomor 31 Tahun 2005 tentang Sekretariat Negara dan Sekretariat Kabinet;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-19-tahun-2007",
+   "detailsId": "68825",
+   "judul": "PERPRES No. 19 Tahun 2007 tentang Perubahan atas Peraturan Presiden Nomor 31 Tahun 2005 tentang Sekretariat Negara dan Sekretariat Kabinet - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59243/PERPRES%20NO%2019%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:14:51.331151+00:00"
+  },
+  "sha256": "79f6a1161ef12136e0b6e1b55ce0ea79abf4a291c6368d274b077af2c6d75b90",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

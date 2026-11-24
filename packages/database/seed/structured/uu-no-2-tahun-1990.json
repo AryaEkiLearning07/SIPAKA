@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-2-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan ditjen Peraturan Perundang-undangan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 19 Juli 1990 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA MOERDIONO www.djpp.depkumham.go.id PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 2 TAHUN 1990 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1989/1990 UMUM ditjen Peraturan Perundang-undangan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1989/1990 merupakan pelaksanaan tahun pertama Rencana Pembangunan Lima Tahun Ke V. Didasarkan atas perkembangan ekonomi.dalam dan luar negeri, yang mempengaruhi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1989/1990 diperlukan beberapa tambahan dan perubahan. Dalam Tahun Anggaran 1989/1990, realisasi pendapatan negara diperkirakan lebih besar dari jumlah yang direncanakan. Lebih besarnya pendapatan negara tersebut di samping disebabkan oleh lebih tingginya pendapatan dalam negeri dari sektor minyak bumi dan gas alam, juga disebabkan oleh berhasilnya usaha pengerahan dana dari sumber-sumber dalam negeri di luar minyak bumi dan gas alam mencapai yang direncanakan, walaupun realisasi pendapatan pembangunan diperkirakan lebih rendah dari yang direncanakan karena ",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1990",
+   "detailsId": "46704",
+   "judul": "UU No. 2 Tahun 1990 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1989/1990 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35449/UU%20Nomor%202%20Tahun%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:45:26.373884+00:00"
+  },
+  "sha256": "360b703e026bded0f93cd4f2ee78033f326a2c64376a5e6b644affde1290d3f2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1990/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-1990/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1989/1990 diperkirakan bertambah dengan Rp 1.594.176.000.000,00 (satu trilyun lima ratus sembilan puluh empat milyar seratus tujuh puluh enam juta rupiah) yang terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-1990/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp 3.489.975.000.000,00 (tiga trilyun empat ratus delapan puluh sembilan milyar sembilan ratus tujuh puluh lima juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-1990/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan berkurang dengan Rp 1.895.799.000.000,00 (satu trilyun delapan ratus sembilan puluh lima milyar tujuh ratus sembilan puluh sembilan juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-1990/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "slug": "permenaker-no-3-tahun-2026",
+ "preamble": {
+  "menimbang": [
+   "bahwa ……………………………………………………………………;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-3-tahun-2026",
+   "detailsId": "347418",
+   "judul": "Permenaker No. 3 Tahun 2026 tentang Tata Naskah Dinas Kementerian Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/410930/permenaker-no-3-tahun-2026.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "permenaker-no-3-tahun-2019"
+   ],
+   "scrapedAt": "2026-10-06T13:55:41.882114+00:00"
+  },
+  "sha256": "db19895e142e29a3251eefe71d40b647813af190bc29c47408c32a71bf6c0cb8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

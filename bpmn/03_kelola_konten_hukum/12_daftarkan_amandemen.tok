@@ -1,0 +1,52 @@
+tok 1.0 "Daftarkan Amandemen (Kelola Konten Hukum)"
+
+pool p "Daftarkan Amandemen" process=daftarkan_amandemen
+  store d_riw "Riwayat Perubahan UU"
+  store d_uu "Undang-Undang"
+  start mulai "UU induk dan UU pengubah diterima" message="UU induk dan UU pengubah"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service tautkan "Tautkan UU Pengubah"
+  sub identifikasi "Identifikasi Ketentuan Baru"
+    start i1 "Mulai identifikasi"
+    call i2 "Hitung Selisih Teks" process=lacak_amandemen doc="Langkah 'Hitung Selisih Teks' pada proses Lacak Amandemen (Bandingkan Versi Pasal)"
+    service i3 "Kelompokkan ketentuan: ditambah, diubah, dicabut"
+    end i4 "Ketentuan teridentifikasi"
+    flow i1 -> i2 -> i3 -> i4
+  xor ada "Ada ketentuan yang berubah?"
+  end nihil "Tidak ada perubahan untuk didaftarkan" message="Tidak ada perubahan"
+  service susun "Susun Teks Konsolidasi"
+  send tinjau "Kirim hasil konsolidasi untuk ditinjau" message="Hasil konsolidasi"
+  eventgw tunggu
+  catch setuju "Admin menyetujui hasil" message="Persetujuan konsolidasi"
+  catch koreksi "Admin mengoreksi ketentuan" message="Koreksi ketentuan"
+  service status "Perbarui Status Keberlakuan"
+  end selesai "Amandemen terdaftar" message="Konfirmasi amandemen terdaftar"
+
+pool admin "Admin"
+
+flow mulai -> auth -> izin
+flow izin -> tautkan "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow tautkan -> identifikasi -> ada
+flow ada -> susun "ya" when="adaPerubahan"
+flow ada -> nihil "tidak" default
+flow susun -> tinjau -> tunggu
+flow tunggu -> setuju
+flow tunggu -> koreksi
+flow setuju -> status -> selesai
+flow koreksi -> susun
+
+writes tautkan d_riw
+reads susun d_riw
+writes susun d_uu
+writes status d_uu
+
+message admin -> mulai "UU induk dan UU pengubah"
+message tolak -> admin "Akses ditolak"
+message nihil -> admin "Tidak ada perubahan"
+message tinjau -> admin "Hasil konsolidasi"
+message admin -> setuju "Persetujuan konsolidasi"
+message admin -> koreksi "Koreksi ketentuan"
+message selesai -> admin "Konfirmasi amandemen terdaftar"

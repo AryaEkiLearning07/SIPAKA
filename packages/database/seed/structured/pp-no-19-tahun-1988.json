@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-19-tahun-1988",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-1988",
+   "detailsId": "63887",
+   "judul": "PP No. 19 Tahun 1988 tentang Perubahan Peraturan Pemerintah Nomor 36 Tahun 1977 Tentang Pengakhiran Kegiatan Usaha Asing Dalam Bidang Perdagangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54096/PP%20NO%2019%20TH%201988.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:28.944955+00:00"
+  },
+  "sha256": "bc51b96c6bc4debb6c03c57524bf412338a62738f88ea9ca04200fd89b83f854",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

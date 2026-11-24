@@ -1,0 +1,43 @@
+tok 1.0 "Temukan Kasus Serupa (Asisten Riset AI)"
+
+pool p "Temukan Kasus Serupa" process=temukan_kasus_serupa
+  store d_thread "Thread Diskusi"
+  start mulai "Deskripsi kasus diterima" message="Deskripsi kasus"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service fakta "Ekstrak Fakta Kasus"
+  call ai "Tangani Permintaan AI" process=tangani_permintaan_ai
+  xor berhasil "Respons AI berhasil?"
+  end gagal "Pencarian kasus serupa gagal" message="Pesan pencarian kasus gagal"
+  service paralel "Ambil Kasus Paralel"
+  send riwayat "Tampilkan Riwayat Penanganan Kasus" message="Kasus serupa dan riwayat penanganannya"
+  eventgw tunggu
+  catch simpan "Pengguna meminta simpan ke repositori" message="Permintaan simpan ke repositori"
+  catch tutup "Pengguna selesai belajar" message="Selesai membaca"
+  call repo "Tambah Entri Repositori" process=tambah_entri_repositori
+  end tersimpan "Hasil tersimpan di repositori"
+  end selesai "Studi kasus selesai"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> fakta "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow fakta -> ai -> berhasil
+flow berhasil -> paralel "ya" when="aiBerhasil"
+flow berhasil -> gagal "tidak" default
+flow paralel -> riwayat -> tunggu
+flow tunggu -> simpan
+flow tunggu -> tutup
+flow simpan -> repo -> tersimpan
+flow tutup -> selesai
+
+reads paralel d_thread
+
+message user -> mulai "Deskripsi kasus"
+message tolak -> user "Akses ditolak"
+message gagal -> user "Pesan pencarian kasus gagal"
+message riwayat -> user "Kasus serupa dan riwayat penanganannya"
+message user -> simpan "Permintaan simpan ke repositori"
+message user -> tutup "Selesai membaca"

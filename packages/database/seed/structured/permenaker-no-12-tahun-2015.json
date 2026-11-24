@@ -1,0 +1,562 @@
+{
+ "slug": "permenaker-no-12-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-12-tahun-2015",
+   "detailsId": "145984",
+   "judul": "Permenaker No. 12 Tahun 2015 tentang Keselamatan dan Kesehatan Kerja Listrik di Tempat Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/251846/Kemnaker%20No.%2012%20Tahun%202015.PDF",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:55:01.492054+00:00"
+  },
+  "sha256": "74aa66e7c75361bf9fde1e8e9f3f30ae683fea0c6327e54b39053b08aa1f251b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 9,
+  "ayat_angka": 29,
+  "huruf": 14
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-12-tahun-2015/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN MENTERI KETENAGAKERJAAN TENTANG KESELAMATAN DAN KESEHATAN KERJA LISTRIK DI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Keselamatan dan Kesehatan Kerja yang selanjutnya disingkat K3 adalah segala kegiatan dan kesehatan tenaga kerja melalui upaya pencegahan kecelakaan kerja dan penyakit akibat kerja. untuk menjamin dan melindungi keselamatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Tempat kerja adalah tiap ruangan atau lapangan, tertutup atau terbuka, bergerak atau tetap, dimana tenaga kerja bekerja, atau sering dimasuki sumber tenaga kerja untuk keperluan suatu usaha dan dimana terdapat bahaya, lapangan, halaman dan sekelilingnya yang merupakan bagian-bagian atau yang berhubungan dengan tempat kerja tersebut. termasuk tempat kerja ialah semua ruangan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Perusahaan adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "setiap bentuk usaha yang berbadan hukum atau tidak, milik orang atau milik badan hukum, baik milik pekerja Zburuh perseorangan, milik persekutuan, swasta maupun milik negara yang mempekerjakan dengan membayar upah atau imbalan dalam bentuk lain;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "usaha-usaha sosial dan usaha-usaha lain yang mempunyai pengurus dan mempekerjakan orang lain dengan membayar upah atau imbalan dalam bentuk lain.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pembangkitan adalah membangkitkan tenaga listrik dari berbagai sumber tenaga. kegiatan Listrik untuk memproduksi dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Transmisi Listrik adalah kegiatan penyaluran tenaga listrik dari tempat pembangkit tenaga listrik sampai ke saluran distribusi listrik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Distribusi Listrik adalah kegiatan menyalurkan tenaga listrik dari sumber daya listrik besar sampai ke pemanfaat listrik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemanfaatan Listrik adalah kegiatan mengubah energi listrik menjadi energi bentuk lain. PJK3 Jasa Keselamatan B. Perusahaan disebut dan keselamatan syarat-syarat pemenuhan dengan peraturan perundang-undangan. kerja keselamatan Perusahaan kesehatan adalah yang dan Kesehatan Kerja yang selanjutnya di bidang jasa pelaksanaan sesuai kerja usahanya untuk membantu kesehatan dan 9. Listrik adalah Instalasi memakai, membangkitkan, mengumpulkan atau membagikan tenaga listrik. mengubah, jaringan perlengkapan mengatur, listrik yang mengalihkan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Perlengkapan pembangkitan, keperluan pemanfaatan energi listrik. Listrik adalah setiap konversi, bend a yang transmisi, digunakan distribusi untuk atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Peralatan Listrik adalah barang pemanfaatan listrik yang merupakan unit lengkap dan dapat mengubah energi listrik menjadi energi bentuk lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Pegawai Pengawas Ketenagakerjaan yang selanjutnya disebut Pengawas dan sesuai Ketenagakerjaan ditugaskan dalam jabatan fungsional Pengawas Ketenagakerjaan dengan ketentuan peraturan perundang-undangan. Pegawai Negeri Sipil yang diangkat adalah",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pengawas Ketenagakerjaan Spesialis K3 Listrik Pengawas Ketenagakerjaan yang mempunyai keahlian khusus di bidang K3 listrik pemeriksaan, yang berwenang untuk melakukan dan pengujian dan pengembangan dengan peraturan perundang-undangan. kegiatan pembinaan, pengawasan, ketenagakerjaan bidang sistem pengawasan pembinaan, sesuai adalah listrik serta",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Pengurus adalah orang yang mempunyai tugas memimpin langsung sesuatu tempat kerja atau bagiannya yang berdiri sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Pengusaha adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-15/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "orang atau menjalankan suatu Perusahaan milik sendiri; perseorangan, persekutuan, badan hukum yang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-15/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "orang perseorangan,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-15/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "orang perseorangan, persekutuan, berdiri sendiri menjalankan Perusahaan bukan miliknya; persekutuan, atau badan hukum yang berada di Indonesia mewakili Perusahaan sebagaimana dimaksud dalam huruf a dan b yang berkedudukan di luar wilayah Indonesia. atau badan hukum yang secara",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Ahli Keselamatan dan Kesehatan Kerja bidang Listrik yang selanjutnya disebut Ahli K3 bidang Listrik adalah tenaga teknis dari luar instansi yang membidangi ketenagakerjaan yang mempunyai keahlian di bidang K3 listrik yang ditunjuk oleh Menteri atau pejabat yang ditunjuk.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Teknisi Keselamatan dan Kesehatan Kerja Listrik yang selanjutnya disebut Teknisi K3 Listrik adalah yang mempunyai keterampilan di bidang K3 listrik dan memiliki lisensi dari Menteri atau pejabat yang ditunjuk. tenaga teknis lB. Dinas Provinsi adalah instansi yang bertanggung jawab di bidang ketenagakerjaan di provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan. Pasa12 Pengusaha dan/ atau Pengurus wajib melaksanakan K3 listrik di tempat kerja. Pasa13 Pelaksanaan K3 listrik sebagaimana dimaksud dalam Pasal 2 bertujuan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-19/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melindungi keselamatan dan kesehatan tenaga kerja dan orang lain yang berada di dalam lingkungan tempat kerja dari potensi bahaya listrik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-19/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menciptakan instalasi listrik yang aman, handal dan memberikan keselamatan bangunan beserta isinya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-1/angka-19/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menciptakan tempat kerja yang selamat dan sehat untuk mendorong produktivitas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-12-tahun-2015/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "RUANG LINGKUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "permenaker-no-12-tahun-2015/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PERENCANAAN, PEMASANGAN, PENGGUNAAN,",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Untuk perusahaan ratus) kilo Volt-Ampere wajib mempunyai Ahli K3 bidang Listrik. yang memiliki pembangkitan listrik lebih dari 200 (dua Pasal8 Ketentuan dan tata cara penunjukan PJK3, Ahli K3 bidang Listrik dan Teknisi K3 Listrik sebagaimana dimaksud dalam Pasal 6 dan Pasal 7 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. BABIV PEMERIKSAANDANPENGUJIAN Pasal9 (1)Pemeriksaan sebagaimana dimaksud dalam Pasal 4 ayat merupakan perlengkapan standar bidang kelistrikan dan ketentuan peraturan perundang-undangan pengukuran listrik untuk memastikan kegiatan dan penilaian peralatan terhadap dan",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "huruf b instalasi, terpenuhinya huruf dimaksud ketentuan standar bidang dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengujian sebagaimana b merupakan kegiatan penilaian, perhitungan, pengetesan dan pengukuran terhadap instalasi, perlengkapan dan peralatan listrik untuk memastikan peraturan terpenuhinya perundang-undangan. dalam Pasal 4 ayat kelistrikan wajib perubahan, distribusi dan pemanfaatan listrik. pemasangan, pada mengacu kepada standar bidang kelistrikan dan peraturan perundang undangan sebagaimana dimaksud dalam Pasa15.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (1) dan ayat penggunaan, transmisi, dilakukan perencanaan, dan pemeliharaan untuk kegiatan pembangkitan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (1) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemeriksaan dan pengujian sebagaimana dimaksud dalam Pasal 9 ayat (1) dan ayat (2) dilakukan oleh: huruf a dan huruf c digunakan sebagai bahan dimaksud pada ayat pertimbangan dan/ atau tindakan hukum. pengesahan pembinaan penerbitan dan/ atau huruf b digunakan Perusahaan sebagai bahan pertimbangan pembinaan dan/ atau tindakan hukum oleh Pengawas Ketenagakerjaan. sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pengawas Ketenagakerjaan Spesialis K3 Listrik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Ahli K3 bidang Listrik pada Perusahaan; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Ahli K3 bidang Listrik pada PJK3. dan pengujian",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan dilakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sebelum penyerahan kepada pemilik/pengguna;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "setelah ada perubahan Zperbaikan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "secara berkala. sebagaimana dimaksud pada ayat (1)",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (2) a dan huruf b yang dilakukan oleh Pengawas Ketenagakerjaan huruf Spesialis K3 Listrik dan Ahli K3 bidang Listrik pada PJK3 sebagaimana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (2) huruf a dan huruf b yang dilakukan oleh Ahli K3 bidang Listrik pada",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengesahan sebagaimana dimaksud pada ayat (3) diterbitkan oleh Kepala Dinas Provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemeriksaan secara berkala sebagaimana dimaksud dalam Pasal 10 ayat (2) huruf c dilakukan paling sedikit 1 (satu) tahun sekali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengujian secara berkala sebagaimana dimaksud dalam Pasal 10 ayat (2) huruf c dilakukan paling sedikit 5 (lima) tahun sekali. digunakan ayat tindakan hukum oleh Pengawas Ketenagakerjaan pembinaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (1) dan ayat (2) harus dilaporkan kepada Kepala Dinas Provinsi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-12-tahun-2015/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil pemeriksaan dan pengujian sebagaimana dimaksud pada ayat (1) dan dan/ atau sebagai bahan pertimbangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Perusahaan menggunakan sertifikat yang diterbitkan oleh lembaga atau instansi yang berwenang. yang menggunakan perlengkapan listrik wajib listrik yang telah mempunyai dan peralatan dan peralatan perlengkapan BABV PENGAWASAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Pengawasan pelaksanaan Pengawas Ketenagakerjaan. K3 listrik di tempat kerja dilaksanakan oleh BABVI SANKSI",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "dan/ atau Pengusaha Peraturan Menteri 1 Tahun Tahun 2003 tentang Ketenagakerjaan. pengurus ini dikenakan 1970 tentang Keselamatan Kerja dan Undang-Undang yang tidak memenuhi dalam sanksi sesuai dengan Undang-Undang Nomor Nomor 13 ketentuan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-12-tahun-2015/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pada saat Peraturan Menteri Kerja dan Transmigrasi Standar Nasional Umum Instalasi dinyatakan tidak berlaku. ini mulai berlaku, Keputusan Menteri Tenaga Nomor KEP.75/MEN/2002 Pemberlakuan Indonesia Nomor SNI 04-0225-2000 mengenai Persyaratan dan Listrik 2000 (PUlL 2000) di Tempat Kerja, dicabut tentang Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-12-tahun-2015/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Agar setiap orang mengetahuinya, memerintahkan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. pengundangan Peraturan Ditetapkan di Jakarta pada tanggal 9 April 2015 MENTERIKETENAGAKERJAAN REPUBLIK INDONESIA, ttd. M. HANIF DHAKIRI Diundangkan pada tanggal 16 April 2015 di Jakarta MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNAH. LAOLY BERITA NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 540",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..16): [2, 3, 4, 5, 6, 8, 9]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

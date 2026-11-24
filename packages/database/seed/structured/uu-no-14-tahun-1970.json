@@ -1,0 +1,497 @@
+{
+ "slug": "uu-no-14-tahun-1970",
+ "preamble": {
+  "menimbang": [
+   "bahwa Undang-undang No. 19 tahun 1964 tentang Ketentuan- ketentuan Pokok Kekuasaan Kehakiman (Lembaran-Negara tahun 1964 No. 107) tidak merupakan pelaksanaan murni dan pasal 24 Undang-undang Dasar 1945, karena memuat ketentuan-ketentuan yang bertentangan dengan Undang-undang Dasar 1945,",
+   "bahwa Undang-undang No. 19 tahun 1964 tentang Ketentuan- ketentuan Pokok Kekuasaan Kehakiman (Lembaran-Negara tahun 1964 No. 107) telah dinyatakan tidak berlaku dengan undang- undang No. 6 tahun 1969 tetapi saat tidak berlakunya Undang- undang tersebut ditetapkan pada saat Undang-undang yang menggantikannya mulai berlaku;",
+   "bahwa berhubung dengan hal-hal tersebut diatas perlu ditetapkan Undang undang baru mengenai Ketentuan-ketentuan Pokok Kekuasaan Kehakiman yang sesuai dengan Pancasila dan Undang- Undang Dasar 1945;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-14-tahun-1970",
+   "detailsId": "47929",
+   "judul": "UU No. 14 Tahun 1970 tentang Ketentuan-Ketentuan Pokok Kekuasaan Kehakiman - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36982/UU%20Nomor%2014%20Tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-19-tahun-1964"
+   ],
+   "scrapedAt": "2026-10-05T17:55:28.077584+00:00"
+  },
+  "sha256": "dd333ee42223e3beafa4a6ee58be7e784ea5f2416be19a28a2257435f6bb7216",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 14,
+  "pasal": 23,
+  "ayat_angka": 11,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Tiada seorang juapun dapat dikenakan penangkapan, penahanan, penggeledahan dan pensitaan, selain atas perintah tertulis oleh kekuasaan yang sah dalam hal-hal menurut cara-cara yang diatur dengan Undang- undang. Pasal 8 ... Pasal 8. Setiap orang yang disangka, ditangkap, ditahan, dituntut dan/atau dihadapkan didepan Pengadilan, wajib dianggap tidak bersalah sebelum adanya putusan Pengadilan yang menyatakan kesalahannya dan memperoleh kekuatan hukum yang tetap. Pasal 9. (1) Seorang yang ditangkap, ditahan, dituntut ataupun diadili tanpa alasan yang berdasarkan Undang-undang atau karena kekeliruan mengenai orangnya atau hukum yang diterapkannya, berhak menuntut ganti kerugian dan rehabilitasi. (2) Pejabat yang dengan sengaja melakukan perbuatan sebagaimana tersebut dalam ayat (1) dapat dipidana.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Cara-cara untuk menuntut ganti kerugian, rehabilitasi dan pembebasan ganti kerugian diatur lebih anjut dengan Undang- undang. BAB II. BADAN-BADAN PERADILAN DAN AZAS-AZASNYA. Pasal 10. Terhadap putusan-putusan yang diberikan tingkat terakhir oleh Pengadilan-pengadilan lain dari pada Mahkamah Agung, kasasi dapat diminta kepada Mahkamah Agung. Sidang ... (3) Sidang dibantu oleh seorang Panitera atau seorang yang ditugaskan melakukan pekerjaan panitera. Rapat permusyawaratan Hakim, bersifat rahasia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kekuasaan Kehakiman dilakukan oleh Pengadilan dalam lingkungan; Badan-badan yang melakukan peradilan tersebut pasal 10 ayat (1) organisatoris, administratif dan finansil ada dibawah kekuasaan masing-masing Departemen yang bersangkutan. mengakibatkan batalnya putusan menurut hukum.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Peradilan Umum;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Peradilan Agama;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Peradilan Militer;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Peradilan Tata Usaha Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Mahkamah Agung adalah Pengadilan Negara Tertinggi. Mahkamah Agung mempunyai organisasi, administrasi dan keuangan tersendiri. Pasal 12. Susunan, Kekuasaan serta Acara dari Badan-badan Peradilan seperti tersebut dalam pasal 10 ayat (1) diatur dalam Undang-undang tersendiri. Pasal 13. Badan-badan Peradilan khusus disamping Badan-badan Peradilan yang sudah ada, hanya dapat diadakan dengan Undang-undang. Pasal 14. (1) Pengadilan tidak boleh menolak untuk memeriksa dan mengadili sesuatu perkara yang diajukan dalih bahwa hukum tidak atau kurang jelas, melainkan wajib untuk memeriksa dan mengadilinya. Ketentuan dalam ayat (1) tidak menutup kemungkinan untuk usaha penyelesaian perkara perdata secara perdamaian. Pasal 15. (1) Semua Pengadilan memeriksa dan memutus dengan sekurang- kurangnya tiga orang Hakim, kecuali apabila Undang-undang menentukan lain. Diantara para Hakim tersebut dalam ayat (1) seorang bertindak sebagai Ketua, dan lainnya sebagai Hakim anggota sidang. Tidak dipenuhinya ketentuan dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-7/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Mahkamah Agung ... Mahkamah Agung melakukan pengawasan tertinggi atas perbuatan Pengadilan yang lain, menurut ketentuan yang ditetapkan dengan Undang-undang. Pasal 11. Dalam perkara pidana wajib hadir pula seorang Penuntut Umum, kecuali apabila ditentukan lain dengan Undang-undang. Pasal 17. (1) Sidang pemeriksaan Pengadilan adalah terbuka untuk umum, kecuali apabila Undang-undang menentukan lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-18",
+   "type": "PASAL",
+   "orderIndex": 18,
+   "label": "Pasal 18",
+   "content": "Semua putusan Pengadilan hanya sah dan mempunyai kekuatan hukum apabila diucapkan dalam sidang terbuka untuk umum.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-19",
+   "type": "PASAL",
+   "orderIndex": 19,
+   "label": "Pasal 19",
+   "content": "Atas semua putusan Pengadilan tingkat pertama, yang tidak merupakan pembebasan dari tuduhan, dapat dimintakan banding oleh pihak-pihak yang bersangkutan, kecuali apabila Undang-undang menentukan lain.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-20",
+   "type": "PASAL",
+   "orderIndex": 20,
+   "label": "Pasal 20",
+   "content": "Atas putusan Pengadilan dalam tingkat banding dapat dimintakan kasasi kepada Mahkamah Agung oleh pihak-pihak yang berkepentingan yang diatur dalam Undang-undang.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-21",
+   "type": "PASAL",
+   "orderIndex": 21,
+   "label": "Pasal 21",
+   "content": "Apabila terdapat hal-hal atau keadaan-keadaan yang ditentukan dengan Undang-undang, terhadap putusan Pengadilan, yang telah memperoleh kekuatan hukum yang tetap dapat dimintakan peninjauan kembali kepada Mahkamah Agung, dalam perkara perdata dan pidana oleh pihak-pihak yang berkepentingan. Pasal 22 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-22",
+   "type": "PASAL",
+   "orderIndex": 22,
+   "label": "Pasal 22",
+   "content": "Tindak pidana yang dilakukan bersama-sama oleh mereka yang termasuk lingkungan Peradilan Umum dan lingkungan Peradilan Militer, diperiksa dan diadili oleh Pengadilan dalam lingkungan Peradilan Umum, kecuali jika menurut keputusan Menteri Pertahanan/Keamanan dengan persetujuan Menteri Kehakiman perkara itu harus diperiksa dan diadili oleh Pengadilan dalam lingkungan Peradilan Militer.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-23",
+   "type": "PASAL",
+   "orderIndex": 23,
+   "label": "Pasal 23",
+   "content": "(1) Segala putusan Pengadilan selain harus memuat alasan-alasan dan dasar-dasar putusan itu, juga harus memuat pula pasal-pasal tertentu dari peraturan-peraturan yang bersangkutan atau sumber hukum tak tertulis yang dijadikan dasar untuk mengadili.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-23/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tiap putusan Pengadilan ditanda-tangani oleh Ketua serta Hakim- hakim yang memutus dan Panitera yang ikut serta bersidang. (3) Penetapan-penetapan, ikhtiar-ikhtiar rapat permusyawaratan dan berita-berita acara tentang pemeriksaan sidang ditanda-tangani oleh Ketua dan Panitera.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/pasal-24",
+   "type": "PASAL",
+   "orderIndex": 24,
+   "label": "Pasal 24",
+   "content": "Untuk kepentingan peradilan semua Pengadilan wajib saling memberi bantuan yang diminta. HUBUNGAN PENGADILAN DAN LEMBAGA NEGARA",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "HUBUNGAN PENGADILAN DAN LEMBAGA NEGARA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Semua Pengadilan dapat memberi keterangan, pertimbangan dan nasehat- nasehat tentang soal-soal hukum kepada Lembaga Negara lainnya apabila diminta. Pasal 26 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahkamah Agung berwenang untuk menyatakan tidak sah semua peraturan-peraturan dari tingkat yang lebih rendah dari Undang- undang atas alasan bertentangan dengan peraturan perundang- undangan yang lebih tinggi. (2) Putusan tentang pernyataan tidak sahnya peraturan perundang- undangan tersebut dapat diambil berhubung dengan pemeriksaan dalam tingkat kasasi. Pencabutan dari peraturan perundangan yang dinyatakan tidak sah tersebut, dilakukan oleh instansi yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "HAKIM DAN KEWAJIBANNYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hakim sebagai penegak hukum dan keadilan wajib menggali, mengikuti dan memahami nilai-nilai hukum yang hidup dalam masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam mempertimbangkan berat ringannya pidana, Hakim wajib memperhatikan pula sifat-sifat yang baik dan yang jahat dari tertuduh.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "(1) Pihak yang diadili mempunyai hak ingkar terhadap Hakim yang mengadili perkaranya. Hak ingkar ialah hak seseorang yang diadili untuk mengajukan keberatan-keberatan yang disertai dengan alasan-alasan terhadap seorang Hakim yang akan mengadili perkaranya. Putusan mengenai hal tersebut dilakukan oleh Pengadilan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila ... Apabila seorang hakim masih terikat hubungan keluarga sedarah sampai sederajat ketiga atau semenda dengan Ketua, salah seorang Hakim anggota, Jaksa, Penasehat Hukum atau Panitera dalam suatu perkara tertentu, ia wajib mengundurkan diri dari pemeriksaan perkara itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-28/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Begitu pula apabila Ketua, Hakim anggota, Jaksa atau Panitera masih terikat dalam hubungan keluarga sedarah sampai derajat ketiga atau semenda dengan yang diadili, ia wajib mengundurkan diri dari pemeriksaan perkara itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Semua melakukan jabatannya, Hakim, Panitera Pengganti dan Jurusita untuk masing-masing lingkungan peradilan harus bersumpah atau berjanji menurut agamanya, yang berbunyi sebagai berikut: \"Saya bersumpah/menerangkan dengan sungguh-sungguh bahwa saya, untuk memperoleh jabatan saya ini, langsung atau tak langsung, dengan menggunakan nama atau cara apapun juga, tiada memberikan atau menjanjikan barang sesuatu kepada siapapun juga\". \"Saya bersumpah/berjanji bahwa saya, untuk melakukan atau tidak melakukan sesuatu dalam jabatan ini, tiada sekali-kali akan menerima langsung atau tidak langsung dari siapapun juga sesuatu janji atau pemberian\". \"Saya bersumpah/berjanji bahwa saya akan setia kepada dan akan mempertahankan serta mengamalkan Pancasila sebagai Dasar dan Ideologi Negara, Undang-undang Dasar 1945, dan segala Undang-undang serta peraturan-peraturan lain yang berlaku bagi Negara Republik Indonesia\". ”Saya ... \"Saya bersumpah/berjanji bahwa saya senantiasa akan menjalankan jabatan saya ini dengan jujur, saksama dan dengan tidak membeda- bedakan orang dan akan berlaku dalam melaksanakan kewajiban saya sebaik-baiknya dan seadil-adilnya seperti selayaknya bagi seorang Hakim/Panitera/Panitera Pengganti/Jurusita yang berbudi baik dan jujur dalam menegakkan hukum dan keadilan\".",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KEDUDUKAN PEJABAT PERADILAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Syarat-syarat untuk dapat diangkat dan diberhentikan sebagai Hakim dan tata-cara pengangkatannya dan pemberhentiannya ditentukan dengan Undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Hakim diangkat dan diberhentikan oleh Kepala Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Hal-hal yang mengenai pangkat, gaji dan tunjangan Hakim diatur dengan peraturan tersendiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELAKSANAAN PUTUSAN PENGADILAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "(1) Pelaksanaan putusan Pengadilan dalam perkara pidana dilakukan oleh Jaksa. (2) Pengawasan pelaksanaan putusan Pengadilan tersebut ayat (1) oleh Ketua Pengadilan yang bersangkutan, diatur lebih lanjut dengan Undang-undang.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan ... (3) Pelaksanaan putusan Pengadilan dalam perkara perdata dilakukan oleh Panitera dan Jurusita dipimpin oleh Ketua Pengadilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-14-tahun-1970/pasal-33/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam melaksanakan putusan Pengadilan diusahakan supaya perikemanusiaan dan perikeadilan tetap dipelihara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Pelaksanaan putusan Pengadilan diatur lebih lanjut dengan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Setiap orang yang tersangkut perkara berhak memperoleh bantuan hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Dalam perkara pidana seorang tersangka terutama sejak saat dilakukan penangkapan dan/atau penahanan berhak menghubungi dan meminta bantuan Penasehat Hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Dalam memberi bantuan hukum tersebut pada pasal 36 diatas, Penasehat Hukum membantu melancarkan penyelesaian perkara dengan menjunjung tinggi Pancasila, hukum dan keadilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Ketentuan-ketentuan dalam pasal-pasal 35, 36 dan 37 tersebut diatas diatur lebih lanjut dengan Undang-undang. BAB VIII …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-14-tahun-1970/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Penghapusan Pengadilan Adat dan Swapraja dilakukan oleh Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Semua peraturan-peraturan yang mengatur ketentuan-ketentuan pokok Kekuasaan Kehakiman yang bertentangan dengan Undang-undang ini dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Undang-undang ini dinamakan UNDANG-UNDANG KEKUASAAN KEHAKIMAN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-14-tahun-1970/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 17 Desember 1970. Presiden Republik Indonesia, SOEHARTO Jenderal TNI Diundangkan di Jakarta Pada tanggal 17 Desember 1970. Sekretaris Negara Republik Indonesia, ALAMSJAH Mayor Jenderal TNI",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..42): [1, 2, 3, 4, 5, 6, 8, 9, 10, 11]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

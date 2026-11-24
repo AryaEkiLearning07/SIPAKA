@@ -1,0 +1,52 @@
+{
+ "slug": "pp-no-45-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa mengingat kemungkinan dalam hal pelaksanaan penyerahan sebagian dari tugas Pemerintah Pusat mengenai urusan sosial kepada Pemerintah Daerah, penyerahan itu perlu dilakukan berangsur-angsur sebagai diatur dalam Peraturan Pemerintah ini;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-45-tahun-1952",
+   "detailsId": "78130",
+   "judul": "PP No. 45 Tahun 1952 tentang Pelaksanaan Penyerahan Sebagian Dari Urusan Pemerintah Pusat &#xD;&#xA;Dalam Lapangan Sosial Kepada Propinsi&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69583/PP%20No.%20045%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:27.584972+00:00"
+  },
+  "sha256": "4941fe07786e6e576f41de9ec88ed1734d5b4cf7af6a2219f8d24bc62f2df2b9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-45-tahun-1952/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

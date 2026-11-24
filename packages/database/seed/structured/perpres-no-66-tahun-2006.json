@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-66-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka meningkatkan kinerja Departemen Keuangan, dipandang perlu mengubah Peraturan Presiden Nomor 10 Tahun 2005 tentang Unit Organisasi dan Tugas Eselon I Kementerian Negara Republik Indonesia sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 80 Tahun 2005;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-66-tahun-2006",
+   "detailsId": "42002",
+   "judul": "PERPRES No. 66 Tahun 2006 tentang Perubahan Keempat atas Peraturan Presiden Nomor 10 Tahun 2005 Tentang Unit Organisasi dan Tugas Eselon I Kementerian Negara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/71038/PERPRES%20No.66%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:44.929332+00:00"
+  },
+  "sha256": "43a899e545c7b669ca07df4c06ed5cb23c1095c9f9a20afdacdd4565e158ae08",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

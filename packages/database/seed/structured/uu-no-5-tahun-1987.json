@@ -1,0 +1,86 @@
+{
+ "slug": "uu-no-5-tahun-1987",
+ "preamble": {
+  "menimbang": [
+   "bahwa perhitungan Anggaran Negara Tahun Anggaran 1983/1984 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 25 Juli 1987 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1987 NOMOR 32 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 5 TAHUN 1987 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1983/1984 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1983/1984 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1983/1984, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang- undang Nomor 2 Tahun 1983 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1983/ 1984. PASAL DEMI PASAL Pasal 1 Ayat (1) Cukup jelas Ayat (2) Cukup jelas Ayat (3) Cukup jelas Ayat (4) Yang dimaksudkan lampiran Undang-undang ini ialah Lampiran tentang : - Perhitungan Anggaran Negara Tahun Anggaran 1983/ 1984. - Perhitungan Anggaran Pendapatan Rutin Tahun Anggaran 1983/1984. - Perhitungan Anggaran Pendapatan Pembangunan Tahun Anggaran 1983/1984. - Perhitungan Anggaran Belanja Rutin Tahun Anggaran 1983/1984. - Perhitungan Anggaran Bela",
+ "source": {
+  "url": {
+   "slug": "uu-no-5-tahun-1987",
+   "detailsId": "46822",
+   "judul": "UU No. 5 Tahun 1987 tentang Perhitungan Anggaran Negara Tahun Anggaran 1983/1984 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35596/UU%20Nomor%205%20Tahun%201987.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:47:04.095921+00:00"
+  },
+  "sha256": "6989a1ab468bf6303a6ccf1ec7186236a8604b6e3a4ca7fc4ee534753d9fb9bc",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-5-tahun-1987/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-5-tahun-1987/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Penerimaan Negara dalam Tahun Anggaran 1983/1984 adalah sebesar Rp 18.909.833.307.411,93 (delapan belas trilyun sembilan ratus sembilan milyar delapan ratus tiga puluh tiga juta tiga ratus tujuh ribu empat ratus sebelas sembilan puluh tiga perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-1987/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Pengeluaran Negara dalam Tahun Anggaran 1983/1984 adalah sebesar Rp 18.772.230.424.373,42 (delapan belas trilyun tujuh ratus tujuh puluh dua milyar dua ratus tiga puluh juta empat ratus dua puluh empat ribu tiga ratus tujuh puluh tiga empat puluh dua perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-1987/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Saldo-anggaran-lebih Perhitungan Anggaran Tahun Anggaran 1983/1984 adalah sebesar Rp 137.602.883.038,51 (seratus tiga puluh tujuh milyar enam ratus dua juta delapan ratus delapan puluh tiga ribu tiga puluh delapan lima puluh satu perseratus rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-5-tahun-1987/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian penerimaan, pengeluaran, dan saldo-anggaran-lebih sebagaimamana dimaksud dalam ayat (1) sampai dengan ayat (3), adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

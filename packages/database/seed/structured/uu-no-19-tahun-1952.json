@@ -1,0 +1,69 @@
+{
+ "slug": "uu-no-19-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Republik Philipina disetujui dengan Undang-undang :"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-19-tahun-1952",
+   "detailsId": "40265",
+   "judul": "UU No. 19 Tahun 1952 tentang Persetujuan Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Republik Philipina - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29905/UU%20Nomor%2019%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:06:38.444878+00:00"
+  },
+  "sha256": "407765695415c7cada8b032752a550227fea75e1d0835fc893b0d56fe2e78929",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-19-tahun-1952/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Perjanjian Persahabatan antara Negara Republik Indonesia dan Negara Republik Philipina tertanggal dua puluh satu (21) bulan Juni 1951 yang salinannya dilampirkan pada Undang-undang ini, dengan ini disetujui.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-19-tahun-1952/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Perjanjian Persahabatan tersebut diatas mulai berlaku pada tanggal pertukaran surat- surat pengesahan di Manila. Undang-undang ini mulai berlaku pada hari diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-19-tahun-1952/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Agar Undang-undang ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 2 Oktober 1952. Wakil Presiden Republik Indonesia, MOHAMMAD HATTA. Menteri Luar Negeri, MUKARTO NOTOWIDIGDO. Diundangkan pada tanggal 7 Oktober 1952. Menteri Kehakiman, LOEKMAN WIRIADINATA. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1952 NOMOR 71",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

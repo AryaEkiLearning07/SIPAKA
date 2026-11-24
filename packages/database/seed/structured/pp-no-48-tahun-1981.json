@@ -1,0 +1,61 @@
+{
+ "slug": "pp-no-48-tahun-1981",
+ "preamble": {
+  "menimbang": [
+   "bahwa perkembangan dan kemajuan di Wilayah Kecamatan Bekasi dan sebagian Wilayah Kecamatan Tambun telah menunjukkan ciri dan sifat penghidupan perkotaan yang memerlukan pembinaan serta pengaturan penyelenggaraan pemerintahan secara khusus;",
+   "bahwa berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 72 ayat (4) Undang-undang Nomor 5 Tahun 1974 tentang Pokok-pokok Pemerintahan Di Daerah, pembentukan Kota Administratif Bekasi perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 12 Desember 1981 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1981 NOMOR 68",
+ "source": {
+  "url": {
+   "slug": "pp-no-48-tahun-1981",
+   "detailsId": "66437",
+   "judul": "PP No. 48 Tahun 1981 tentang Pembentukan Kota Administratif Bekasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56770/PP%20NO%2048%20TH%201981.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:49:29.298647+00:00"
+  },
+  "sha256": "06a941c7362626d436622ecc9bbad4431c1ac9789343886a44076164f5412e36",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-48-tahun-1981/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-48-tahun-1981/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan : a. Daerah adalah Daerah Otonom sebagaimana dimaksud dalam ketentuan Undang-undang Nomor 5 Tahun 1974 tentang Pokok- pokok Pemerintahan Di Daerah Lembaran Negara Tahun 1974 Nomor 38, Tambahan Lembaran Negara Nomor 3037); b. Wilayah Administratif adalah wilayah sebagaimana dimaksud dalam Pasal 72 ayat (4) Undang-undang Nomor 5 Tahun 1974 tentang Pokok-pokok Pemerintahan Di Daerah (Lembaran Negara Tahun 1974 Nomor 38, Tambahan Lembaran Negara Nomor 3037); c. Wilayah Kecamatan Bekasi dan Wilayah Kecamatan Tambun adalah sebagaimana dimaksud dalam daftar",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

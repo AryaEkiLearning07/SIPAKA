@@ -7,7 +7,7 @@ import {
   LogIn, UserPlus, CheckCircle2, AlertCircle,
   BookOpen, LogOut, Lock, Mail, User as UserIcon,
   Eye, EyeOff, GraduationCap, Scale,
-  Bookmark, MessageSquare, ExternalLink, Loader2
+  Bookmark, MessageSquare, ExternalLink, Loader2, ShieldCheck
 } from 'lucide-react';
 import { API_BASE, PublicUser, ROLE_LABEL } from './auth-shared';
 
@@ -102,12 +102,72 @@ export default function MasukAuthCard({ user, onAuthSuccess, onLogout }: MasukAu
   };
 
   return (
-    <main className="flex-1 max-w-md w-full mx-auto px-4 -mt-16 sm:-mt-20 pb-16 relative z-10">
-      <div className="bg-white rounded-3xl border border-slate-200 shadow-2xl overflow-hidden">
-        {/* Card Accent Top Bar */}
-        <div className="h-1.5 bg-gradient-to-r from-[#94191C] via-[#861619] to-amber-500" />
+    <main className={`flex-1 w-full mx-auto px-4 -mt-16 sm:-mt-20 pb-16 relative z-10 ${user ? 'max-w-2xl' : 'max-w-5xl'}`}>
+      <div className={user ? '' : 'grid grid-cols-1 lg:grid-cols-12 gap-8 items-start'}>
+        {!user && (
+          /* Kolom Kiri: Transparansi Nilai & Fitur Ruang Kerja Akademik */
+          <div className="lg:col-span-6 bg-gradient-to-br from-[#94191C] via-[#7d1417] to-[#4d0c0e] rounded-3xl p-6 sm:p-8 text-white shadow-xl space-y-6 border border-red-900/40">
+            <div className="space-y-2">
+              <span className="px-2.5 py-1 rounded-md bg-white/15 text-amber-300 font-mono text-[10.5px] font-bold uppercase tracking-wider border border-white/20 inline-block">
+                Ruang Kerja Riset Hukum
+              </span>
+              <h1 className="font-sans font-extrabold text-2xl sm:text-3xl text-white tracking-tight leading-snug">
+                Mengapa Memerlukan Akun SIPAKA?
+              </h1>
+              <p className="text-xs text-white/80 leading-relaxed">
+                Seluruh naskah undang-undang dan pelacakan amandemen dapat diakses 100% bebas tanpa login. Pembuatan akun ditujukan untuk fasilitas kurasi dan riset mandiri:
+              </p>
+            </div>
 
-        <div className="p-6 sm:p-8">
+            <div className="space-y-4 pt-2">
+              <div className="flex items-start gap-3.5 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-xs">
+                <div className="w-9 h-9 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center shrink-0 border border-amber-300/30">
+                  <Bookmark className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="font-sans font-bold text-sm text-white">Markah Pasal &amp; Indeks Khusus</h3>
+                  <p className="text-xs text-white/75 mt-0.5 leading-relaxed">
+                    Simpan pasal-pasal krusial dari berbagai undang-undang ke dalam folder kajian Anda untuk rujukan kilat saat penyusunan skripsi, tesis, atau berkas persidangan.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3.5 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-xs">
+                <div className="w-9 h-9 rounded-xl bg-emerald-400/20 text-emerald-300 flex items-center justify-center shrink-0 border border-emerald-300/30">
+                  <MessageSquare className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="font-sans font-bold text-sm text-white">Buku Catatan Doktrinal &amp; Kasus</h3>
+                  <p className="text-xs text-white/75 mt-0.5 leading-relaxed">
+                    Tulis catatan anotasi, interpretasi gramatikal/historis, atau tautan yurisprudensi langsung di samping norma pasal bersangkutan.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3.5 p-3 rounded-2xl bg-white/10 border border-white/10 backdrop-blur-xs">
+                <div className="w-9 h-9 rounded-xl bg-purple-400/20 text-purple-300 flex items-center justify-center shrink-0 border border-purple-300/30">
+                  <Scale className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="font-sans font-bold text-sm text-white">Matriks Amandemen &amp; Legal Opinion</h3>
+                  <p className="text-xs text-white/75 mt-0.5 leading-relaxed">
+                    Akses ringkasan rekonstruksi point-in-time dan ekspor tabel komparasi naskah lama versus naskah terkini secara komprehensif.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-black/20 border border-white/10 text-xs text-white/70 flex items-center gap-2.5">
+              <ShieldCheck className="w-5 h-5 text-amber-300 shrink-0" />
+              <span>Prinsip Open Science: Data riset Anda privat, naskah hukum tetap 100% milik publik.</span>
+            </div>
+          </div>
+        )}
+
+        {/* Kolom Kanan / Kartu Utama */}
+        <div className={`${user ? 'w-full' : 'lg:col-span-6'} bg-white rounded-3xl border border-slate-200 shadow-2xl overflow-hidden`}>
+          <div className="h-1.5 bg-gradient-to-r from-[#94191C] via-[#861619] to-amber-500" />
+          <div className="p-6 sm:p-8">
           {user ? (
             /* State: Sesi Sudah Aktif */
             <div>
@@ -468,6 +528,7 @@ export default function MasukAuthCard({ user, onAuthSuccess, onLogout }: MasukAu
           )}
         </div>
       </div>
-    </main>
-  );
+    </div>
+  </main>
+);
 }

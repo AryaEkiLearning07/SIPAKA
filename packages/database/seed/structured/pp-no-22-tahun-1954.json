@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-22-tahun-1954",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-22-tahun-1954",
+   "detailsId": "77449",
+   "judul": "PP No. 22 Tahun 1954 tentang Pengubahan Peraturan Pemerintah No. 15 Tahun 1953 Tentang Pemberian Istirahat Dalam Negeri (Lembaran-Negara 1953 No. 26) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68488/PP%20No.%20022%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:51:27.084588+00:00"
+  },
+  "sha256": "6c179c5b04f1e4549cd9f36ab3681f8dd12503c8f588ed51401d3ce5d96e818c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

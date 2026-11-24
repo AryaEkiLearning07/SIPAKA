@@ -1,0 +1,61 @@
+{
+ "slug": "pp-no-18-tahun-2001",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk meningkatkan Penerimaan Negara Bukan Pajak, aset pergudangan yang dimiliki Badan Urusan Logistik (BULOG) di seluruh Indonesia perlu dioptimalkan pemanfaatannya dengan cara disewakan;",
+   "bahwa sehubungan dengan tersebut dan sebagai pelaksanaan ketentuan mengenai penetapan jenis dan tarif Penerimaan Negara Bukan Pajak dalam Undang-undang Nomor 20 Tahun 1997 tentang Penerimaan Negara Bukan Pajak, perlu menetapkan Peraturan Pemerintah tentang Tarif atas Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Badan Urusan Logistik (BULOG);"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-18-tahun-2001",
+   "detailsId": "52758",
+   "judul": "PP No. 18 Tahun 2001 tentang Tarif Atas Jenis Penerimaan Negara Bukan Pajak Yang Berlaku Pada Badan Urusan Logistik - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42131/PP%20NO%2018%20TH%202001.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:39:02.053389+00:00"
+  },
+  "sha256": "958e334bd0ecb0be59d114e66832b18b1ba3ea8b653979ef782058b2f36317a0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-18-tahun-2001/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan: 1. 2. Penerimaan Negara Bukan Pajak adalah seluruh penerimaan Pemerintah Pusat yang tidak berasal dari penerimaan perpajakan. Ruang gudang yang akan disewakan adalah bangunan gudang milik BULOG di seluruh Indonesia yang sedang tidak dimanfaatkan dan atau dalam waktu pendek tidak akan dimanfaatkan oleh BULOG. 3. Gudang Bulog Modern (GBM) adalah gudang yang dibangun menggunakan konstruksi baja dengan perkiraan luas lantai antara 2.800 m2 sampai dengan 4.140 m2 dan mempunyai fasilitas bongkar muat dalam gudang. 4. Gudang Bulog Baru (GBB) adalah gudang yang dibangun menggunakan konstruksi baja dengan perkiraan luas lantai antara 480 m2 sampai dengan 1.440 m2 dan mempunyai fasilitas bongkar muat di luar gudang. 5. Gudang Semi Permanen (GSP) adalah gudang yang dibangun menggunakan konstruksi baja atau kayu dengan perkiraan luas lantai antara 276 m2 sampai dengan 960 m2 dan mempunyai fasilitas bongkar muat di luar gudang. 6. Gudang Bulog Lama (GBL) adalah gudang yang dibangun atau diperoleh dari pihak ke tiga dengan konstruksi baja atau kayu dengan luas yang bervariasi dan mempunyai fasilitas bongkar muat di luar gudang, di beberapa tempat dapat melaksanakan bongkar muat di dalam gudang. 7. Gudang Daerah Terpencil (GDT) adalah gudang yang dibangun di daerah terpencil menggunakan konstruksi kayu dengan perkiraan luas lantai antara 100 m2 sampai dengan 480 m2 mempunyai fasilitas bongkar muat di luar gudang.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-2001/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "1. 2. Jenis Penerimaan Negara Bukan Pajak yang berlaku pada BULOG berasal dari penerimaan hasil penyewaan gudang milik BULOG di seluruh Indonesia dan penerimaan sewa forklif. Tarif atas jenis Penerimaan Negara Bukan Pajak yang berlaku pada BULOG sebagaimana dimaksud dalam ayat (1) ditetapkan dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

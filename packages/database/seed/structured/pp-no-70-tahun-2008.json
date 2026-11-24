@@ -1,0 +1,81 @@
+{
+ "slug": "pp-no-70-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan keputusan Rapat Umum Pemegang Saham Luar Biasa Perusahaan Perseroan (Persero) PT Industri Soda Indonesia Nomor Ris-19/D2.MBU/2007 tanggal 9 Oktober 2007 telah ditetapkan pembubaran dan status Perusahaan Perseroan (Persero) PT Industri Soda Indonesia sebagai perusahaan dalam likuidasi, yang berlaku efektif terhitung sejak ditetapkannya pembubaran Perusahaan Perseroan Industri Soda (Persero) PT Indonesia dengan Peraturan Pemerintah;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah tentang Pembubaran Perusahaan Perseroan (Persero) PT Industri Soda Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-70-tahun-2008",
+   "detailsId": "4887",
+   "judul": "PP No. 70 Tahun 2008 tentang Pembubaran Perusahaan Perseroan Persero PT Industri Soda Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/37428/PP%2070%20Tahun%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-32-tahun-1978"
+   ],
+   "scrapedAt": "2026-10-06T00:50:48.393502+00:00"
+  },
+  "sha256": "1df8ff9c1d9c9d0a382061945f9d970ce512dac1f409f3a4b8e39ed5eab718e6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-70-tahun-2008/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "ini, Terhitung sejak berlakunya Peraturan Pemerintah Perusahaan Negara Soda yang didirikan berdasarkan Peraturan Pemerintah Nomor 32 Tahun 1978 tentang Pengalihan Bentuk Perusahaan Negara Soda menjadi Perusahan Perseroan (Persero) (Lembaran Negara Republik Indonesia Tahun 1978 Nomor 47) dibubarkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-70-tahun-2008/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "rangka likuidasi pembubaran dalam Pelaksanaan Perusahaan Perseroan (Persero) PT Industri Soda Indonesia sebagaimana dimaksud dalam Pasal 1 dilakukan oleh Menteri Negara Badan Usaha Milik Negara sesuai dengan ketentuan Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas, dan peraturan perundang-undangan lainnya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-70-tahun-2008/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Semua kekayaan sisa hasil likuidasi Perusahaan Perseroan (Persero) PT Industri Soda Indonesia sebagaimana dimaksud dalam Pasal 2, disetorkan ke Kas Negara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-70-tahun-2008/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar … orang mengetahuinya, memerintahkan Agar setiap pengundangan dengan penempatannya dalam Lembaran Negara Republik Indonesia. Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 4 November 2008 PRESIDEN REPUBLIK INDONESIA, DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 4 November 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 163",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

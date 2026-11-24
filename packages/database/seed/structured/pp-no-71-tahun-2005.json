@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-71-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan adanya perbaikan gaji pokok Hakim yang berlaku tanggal 1 Januari 2006, sebagaimana dimaksud dalam Peraturan Pemerintah Nomor 70 Tahun 2005 tentang Perubahan Ketiga Atas Peraturan Pemerintah Nomor 8 Tahun 2000 tentang Peraturan Gaji Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama, perlu menetapkan besaran pensiun pokok pensiunan Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama serta Janda/Dudanya dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 28 Desember 2005 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA AD INTERIM, ttd YUSRIL IHZA MAHENDRA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2005 NOMOR 156 Salinan sesuai dengan aslinya DEPUTI MENTERI SEKRETARIS NEGARA BIDANG PERUNDANG-UNDANGAN, ttd ABDUL WAHID",
+ "source": {
+  "url": {
+   "slug": "pp-no-71-tahun-2005",
+   "detailsId": "49850",
+   "judul": "PP No. 71 Tahun 2005 tentang Penetapan Pensiun Pokok Pensiunan Hakim Peradilan Umum, Peradilan Tata Usaha Negara, Dan Peradilan Agama Serta Janda/Dudanya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39128/PP%20NO%2071%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:38:24.594894+00:00"
+  },
+  "sha256": "aa1a4b3f61cca7645e453ed053ded0e53c50185b0aa15e215f6aef54d82ac2de",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-71-tahun-2005/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-71-tahun-2005/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pensiunan Hakim dan pensiunan Janda/Dudanya yang dipensiun setelah berlakunya Peraturan Pemerintah Nomor 70 Tahun 2005 tentang Perubahan Ketiga Atas Peraturan Pemerintah Nomor 8 Tahun 2000 tentang Peraturan Gaji Hakim Peradilan Umum, Peradilan Tata Usaha Negara, dan Peradilan Agama, pensiun pokoknya ditetapkan menjadi sebagai berikut :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-71-tahun-2005/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "bagi pensiunan Hakim yang perhitungan pensiun pokoknya sebagaimana tersebut dalam lajur 2, ditetapkan menjadi sebagaimana tersebut dalam lajur 3 Daftar I – A sampai dengan Daftar I – I",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

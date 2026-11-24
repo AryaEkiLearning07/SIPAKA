@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-2-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan keadaan, dianggap perlu mengubah susunan tarip uang tera yang berlaku dengan tidak menyimpang dari dasar- dasar semula;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-2-tahun-1967",
+   "detailsId": "70746",
+   "judul": "PP No. 2 Tahun 1967 tentang Tarif Uang Tera - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61209/pp%20no%20002%20tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-8-tahun-1966"
+   ],
+   "scrapedAt": "2026-10-06T06:02:19.573993+00:00"
+  },
+  "sha256": "560ba79b1241d588905b5e3cc765175eaab5a9989865d7aa46413d3bcaec4ef1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

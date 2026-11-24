@@ -1,0 +1,911 @@
+{
+ "slug": "uu-no-16-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa negara menjamin hak konstitusional setiap jaminan, orang untuk mendapatkan pengakuan, perlindungan, dan kepastian hukum yang adil serta perlakuan yang sama di hadapan hukum sebagai sarana perlindungan hak asasi manusia;",
+   "bahwa negara bertanggung jawab terhadap pemberian bantuan hukum bagi orang miskin sebagai perwujudan akses terhadap keadilan;",
+   "bahwa pengaturan mengenai bantuan hukum yang diselenggarakan oleh negara harus berorientasi pada terwujudnya perubahan sosial yang berkeadilan;",
+   "bahwa berdasarkan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Bantuan Hukum; pertimbangan"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-16-tahun-2011",
+   "detailsId": "39234",
+   "judul": "UU No. 16 Tahun 2011 tentang Bantuan Hukum - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28661/UU%2016%20Tahun%202011.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T16:49:49.794712+00:00"
+  },
+  "sha256": "24f4e4a7de57ff9a65a1a70f3edaee9ba9fb63679cf406d7b023e99fdbdb1835",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 25,
+  "ayat_angka": 35,
+  "huruf": 21
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Bantuan Hukum adalah jasa hukum yang diberikan oleh Pemberi Bantuan Hukum secara cuma-cuma kepada Penerima Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Penerima Bantuan Hukum adalah orang atau kelompok orang miskin.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pemberi Bantuan Hukum adalah lembaga bantuan hukum atau organisasi kemasyarakatan yang memberi layanan Bantuan Hukum berdasarkan Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Standar Bantuan Hukum adalah pedoman pelaksanaan pemberian Bantuan Hukum yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kode Etik Advokat adalah kode etik yang ditetapkan oleh organisasi profesi advokat yang berlaku bagi Advokat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Bantuan Hukum dilaksanakan berdasarkan asas: a. keadilan; b. persamaan kedudukan di dalam hukum; c. keterbukaan; d. efisiensi; e. efektivitas; dan f. akuntabilitas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penyelenggaraan Bantuan Hukum bertujuan untuk: a. menjamin dan memenuhi hak bagi Penerima Bantuan Hukum untuk mendapatkan akses keadilan; b. mewujudkan hak konstitusional segala warga negara sesuai dengan prinsip persamaan kedudukan di dalam hukum; c. menjamin . . . c. menjamin kepastian penyelenggaraan Bantuan Hukum dilaksanakan secara merata di seluruh wilayah Negara Republik Indonesia; dan d. mewujudkan peradilan yang efektif, efisien, dan dapat dipertanggungjawabkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "RUANG LINGKUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan Hukum diberikan kepada Penerima Bantuan Hukum yang menghadapi masalah hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bantuan Hukum sebagaimana dimaksud pada ayat (1) meliputi masalah hukum keperdataan, pidana, dan tata usaha negara baik litigasi maupun nonlitigasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bantuan Hukum sebagaimana dimaksud pada ayat (1) meliputi menjalankan kuasa, mendampingi, mewakili, membela, dan/atau melakukan tindakan hukum lain untuk kepentingan hukum Penerima Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penerima Bantuan Hukum sebagaimana dimaksud dalam Pasal 4 ayat (1) meliputi setiap orang atau kelompok orang miskin yang tidak dapat memenuhi hak dasar secara layak dan mandiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hak dasar sebagaimana dimaksud pada ayat (1) meliputi hak atas pangan, sandang, layanan kesehatan, layanan pendidikan, pekerjaan dan berusaha, dan/atau perumahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENYELENGGARAAN BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan Hukum diselenggarakan untuk membantu penyelesaian permasalahan hukum yang dihadapi Penerima Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberian . . . Pemberian Bantuan Hukum kepada Penerima Bantuan Hukum diselenggarakan oleh Menteri dan dilaksanakan oleh Pemberi Bantuan Hukum berdasarkan Undang- Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri sebagaimana dimaksud pada ayat (2) bertugas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menyusun dan penyelenggaraan Bantuan Hukum; menetapkan kebijakan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyusun dan menetapkan Standar Bantuan Hukum berdasarkan asas-asas pemberian Bantuan Hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menyusun rencana anggaran Bantuan Hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengelola anggaran Bantuan Hukum secara efektif,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-6/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyusun dan efisien, transparan, dan akuntabel; dan menyampaikan laporan penyelenggaraan Bantuan Hukum kepada Dewan tahun Perwakilan Rakyat pada setiap akhir anggaran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk melaksanakan tugas sebagaimana dimaksud dalam Pasal 6 ayat (3), Menteri berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengawasi dan memastikan penyelenggaraan Bantuan Hukum dan pemberian Bantuan Hukum dijalankan sesuai asas dan tujuan yang ditetapkan dalam Undang-Undang ini; dan bantuan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan verifikasi dan akreditasi terhadap organisasi lembaga atau kelayakan kemasyarakatan untuk memenuhi sebagai Pemberi Bantuan Hukum berdasarkan Undang-Undang ini. hukum",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk melakukan verifikasi dan akreditasi sebagaimana dimaksud pada ayat (1) huruf b, Menteri membentuk panitia yang unsurnya terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "akademisi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tokoh masyarakat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "lembaga . . . lembaga atau organisasi yang memberi layanan Bantuan Hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Verifikasi dan akreditasi sebagaimana dimaksud pada ayat (1) huruf b dilakukan setiap 3 (tiga) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara verifikasi dan akreditasi sebagaimana dimaksud pada ayat (1) huruf b diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMBERI BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan Bantuan Hukum dilakukan oleh Pemberi syarat telah memenuhi Bantuan Hukum yang berdasarkan Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Syarat-syarat Pemberi Bantuan Hukum sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berbadan hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "terakreditasi berdasarkan Undang-Undang ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki kantor atau sekretariat yang tetap;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memiliki pengurus; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-8/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "memiliki program Bantuan Hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Pemberi Bantuan Hukum berhak: a. melakukan rekrutmen terhadap advokat, paralegal, dosen, dan mahasiswa fakultas hukum; b. melakukan pelayanan Bantuan Hukum; c. menyelenggarakan penyuluhan hukum, konsultasi hukum, dan program kegiatan lain yang berkaitan dengan penyelenggaraan Bantuan Hukum; d. menerima anggaran dari negara untuk melaksanakan Bantuan Hukum berdasarkan Undang-Undang ini; e. mengeluarkan pendapat atau pernyataan dalam membela perkara yang menjadi tanggung jawabnya di dalam sidang pengadilan sesuai dengan ketentuan peraturan perundang-undangan; f. mendapatkan . . . f. mendapatkan informasi dan data lain dari pemerintah ataupun instansi lain, untuk kepentingan pembelaan perkara; dan g. mendapatkan hukum, keamanan, dan keselamatan selama menjalankan pemberian Bantuan Hukum. perlindungan jaminan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Pemberi Bantuan Hukum berkewajiban untuk: a. melaporkan kepada Menteri tentang program Bantuan Hukum; b. melaporkan setiap penggunaan anggaran negara yang pemberian Bantuan Hukum digunakan untuk berdasarkan Undang-Undang ini; c. menyelenggarakan pendidikan dan pelatihan Bantuan Hukum bagi advokat, paralegal, dosen, mahasiswa fakultas hukum yang direkrut sebagaimana dimaksud dalam Pasal 9 huruf a; d. menjaga kerahasiaan data, informasi, dan/atau keterangan yang diperoleh dari Penerima Bantuan Hukum berkaitan dengan perkara yang sedang ditangani, kecuali ditentukan lain oleh undang-undang; dan e. memberikan Bantuan Hukum kepada Penerima Bantuan Hukum berdasarkan syarat dan tata cara yang sampai ditentukan perkaranya selesai, kecuali ada alasan yang sah secara hukum. dalam Undang-Undang ini",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Pemberi Bantuan Hukum tidak dapat dituntut secara perdata maupun pidana dalam memberikan Bantuan Hukum yang menjadi tanggung jawabnya yang dilakukan dengan iktikad baik di dalam maupun di luar sidang pengadilan sesuai Standar Bantuan Hukum berdasarkan peraturan perundang-undangan dan/atau Kode Etik Advokat. BAB V . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "HAK DAN KEWAJIBAN PENERIMA BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Penerima Bantuan Hukum berhak: a. mendapatkan Bantuan Hukum hingga masalah hukumnya telah dan/atau mempunyai kekuatan hukum tetap, selama Penerima Bantuan Hukum yang bersangkutan tidak mencabut surat kuasa; perkaranya selesai b. mendapatkan Bantuan Hukum sesuai dengan Standar Bantuan Hukum dan/atau Kode Etik Advokat; dan c. mendapatkan informasi dan dokumen yang berkaitan dengan pelaksanaan pemberian Bantuan Hukum sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Penerima Bantuan Hukum wajib: a. menyampaikan bukti, informasi, dan/atau keterangan perkara secara benar kepada Pemberi Bantuan Hukum; b. membantu kelancaran pemberian Bantuan Hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "SYARAT DAN TATA CARA PEMBERIAN BANTUAN HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk memperoleh Bantuan Hukum, pemohon Bantuan Hukum harus memenuhi syarat-syarat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-14/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengajukan permohonan secara tertulis yang berisi sekurang-kurangnya identitas pemohon dan uraian singkat mengenai pokok persoalan yang dimohonkan Bantuan Hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-14/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menyerahkan dokumen yang berkenaan dengan perkara; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-14/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melampirkan surat keterangan miskin dari lurah, kepala desa, atau pejabat yang setingkat di tempat tinggal pemohon Bantuan Hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . Dalam hal pemohon Bantuan Hukum tidak mampu menyusun permohonan secara tertulis, permohonan dapat diajukan secara lisan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemohon Bantuan Hukum mengajukan permohonan Bantuan Hukum kepada Pemberi Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberi Bantuan Hukum dalam jangka waktu paling lama 3 (tiga) hari kerja setelah permohonan Bantuan Hukum dinyatakan lengkap harus memberikan jawaban menerima atau menolak permohonan Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal permohonan Bantuan Hukum diterima, Pemberi Bantuan Hukum memberikan Bantuan Hukum berdasarkan surat kuasa khusus dari Penerima Bantuan Hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal permohonan Bantuan Hukum ditolak, Pemberi Bantuan Hukum mencantumkan alasan penolakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-15/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai syarat dan tata cara pemberian Bantuan Hukum diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PENDANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendanaan Bantuan Hukum yang diperlukan dan digunakan untuk penyelenggaraan Bantuan Hukum sesuai dengan Undang-Undang ini dibebankan kepada Anggaran Pendapatan dan Belanja Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain pendanaan sebagaimana dimaksud pada ayat (1), sumber pendanaan Bantuan Hukum dapat berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-16/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "hibah atau sumbangan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-16-tahun-2011/pasal-16/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sumber pendanaan lain yang sah dan tidak mengikat. Pasal 17 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "wajib",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dana penyelenggaraan Bantuan Hukum dalam Anggaran Pendapatan dan Belanja Negara. mengalokasikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendanaan penyelenggaraan Hukum sebagaimana dimaksud pada ayat (1) dialokasikan pada anggaran kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum dan hak asasi manusia. Bantuan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Ketentuan lebih lanjut mengenai tata cara penyaluran dana Bantuan Hukum sebagaimana dimaksud dalam Pasal 16 ayat (1) kepada Pemberi Bantuan Hukum diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "dapat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Daerah anggaran penyelenggaraan Bantuan Hukum dalam Anggaran Pendapatan dan Belanja Daerah. mengalokasikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai penyelenggaraan Bantuan Hukum sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "LARANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Pemberi Bantuan Hukum dilarang menerima atau meminta pembayaran dari Penerima Bantuan Hukum dan/atau pihak lain yang terkait dengan perkara yang sedang ditangani Pemberi Bantuan Hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Pemberi Bantuan Hukum yang terbukti menerima atau meminta pembayaran dari Penerima Bantuan Hukum dan/atau pihak lain yang terkait dengan perkara yang sedang ditangani sebagaimana dimaksud dalam Pasal 20, dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah). BAB X . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Penyelenggaraan dan anggaran Bantuan Hukum yang diselenggarakan oleh dan berada di Mahkamah Agung Republik Indonesia, Kepolisian Negara Republik Indonesia, Kejaksaan Republik Indonesia, dan instansi lainnya pada saat Undang-Undang ini mulai berlaku, tetap dilaksanakan sampai berakhirnya tahun anggaran yang bersangkutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberian Bantuan Hukum yang sedang diproses tetap tahun sebelum Undang-Undang dilaksanakan sampai dengan berakhirnya anggaran yang bersangkutan. ini mulai berlaku",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-16-tahun-2011/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal pemberian Bantuan Hukum belum selesai tahun anggaran yang bersangkutan pada akhir sebagaimana dimaksud pada ayat (1), pemberian Bantuan Hukum selanjutnya dilaksanakan berdasarkan Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-16-tahun-2011/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang mengatur mengenai Bantuan Hukum dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang- Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-16-tahun-2011/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Undang-Undang diundangkan. ini mulai berlaku pada tanggal Agar . . . setiap Agar orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 31 Oktober 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 2 November 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 104 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA RI Asisten Deputi Perundang-undangan Bidang Politik dan Kesejahteraan Rakyat, Wisnu Setiawan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -58,3 +58,32 @@ body {
 .tabular {
   font-variant-numeric: tabular-nums;
 }
+
+/* ───────────────────────────────────────────────────────────
+   Design Engineering Standards (Emil Kowalski Philosophy)
+   Tactile micro-interactions, responsive physics, typography polish
+   ─────────────────────────────────────────────────────────── */
+
+/* Micro-interaction: tactile click scaling on buttons & interactive badges */
+button:active:not(:disabled),
+a[role="button"]:active,
+.btn-interactive:active {
+  transform: scale(0.975);
+  transition: transform 100ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Tight tracking for high-impact legal-tech editorial headings */
+h1, h2, .heading-tight {
+  letter-spacing: -0.025em;
+}
+
+/* Ensure numerical legal references remain aligned */
+.num-align {
+  font-variant-numeric: tabular-nums;
+}
+
+/* High-performance hardware accelerated transition utilities */
+.motion-gpu {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}

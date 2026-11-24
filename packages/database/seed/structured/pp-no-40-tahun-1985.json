@@ -1,0 +1,75 @@
+{
+ "slug": "pp-no-40-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan Undang-undang Pajak Penghasilan 1984, penghasilan berupa gaji, honorarium, uang pensiun, dan tunjangan-tunjangan lainnya yang dibebankan kepada Keuangan Negara yang diterima atau diperoleh Pejabat Negara, Pegawai Negeri Sipil, anggota Angkatan Bersenjata Republik Indonesia, dan para Pensiunan adalah obyek Pajak Penghasilan;",
+   "bahwa tingkat penggajian yang berlaku sekarang belum memungkinkan bagi Pejabat Negara, Pegawai Negeri Sipil, anggota Angkatan Bersenjata Republik Indonesia, dan para Pensiunan memikul beban Pajak Penghasilan tersebut;",
+   "bahwa ketentuan dalam Peraturan Pemerintah Nomor 4 Tahun 1964 tentang Pajak Pendapatan dari gaji Pegawai Negeri dalam Mata Uang Rupiah yang dibebankan kepada Keuangan Umum Indonesia tidak sesuai lagi dengan peraturan perundang-undangan pajak yang baru;",
+   "bahwa … PRESIDEN REPUBLIK INDONESIA - 2 -",
+   "bahwa oleh karena itu dipandang perlu mengatur pemberian Tunjangan Pajak Penghasilan bagi Pejabat Negara, Pegawai Negeri Sipil, anggota Angkatan Bersenjata Republik Indonesia, dan para Pensiunan atas pembayaran gaji, honorarium, uang pensiun, dan tunjangan-tunjangan lainnya yang dibebankan kepada Keuangan Negara, dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-40-tahun-1985",
+   "detailsId": "64678",
+   "judul": "PP No. 40 Tahun 1985 tentang Tunjangan Pajak Penghasilan Bagi Pejabat Negara, Pegawai Negeri Sipil, Anggota Angkatan Bersenjata Republik Indonesia, Dan Para Pensiunan Atas Penghasilan Berupa Gaji, Honorarium, Uang Pensiun, Dan Tunjangan-Tunjangan Lainnya Yang Dibebankan Kepada Keuangan Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54893/PP%20NO%2040%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-4-tahun-1964"
+   ],
+   "scrapedAt": "2026-10-06T00:45:06.695748+00:00"
+  },
+  "sha256": "b8ae7d6ac569ceeaf4f1c5d37ea21c88db4c68dc3ef25610757688344b4d0c8d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-40-tahun-1985/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Kepada Pejabat Negara, Pegawai Negeri Sipil, anggota Angkatan Bersenjata Republik Indonesia, dan para Pensiunan termasuk Janda dan Duda dan/atau anak-anaknya, diberikan tunjangan pajak sebesar Pajak Penghasilan yang terhutang atas penghasilan berupa gaji, honorarium, uang pensiun, dan tunjangan-tunjangan lainnya yang dibebankan kepada Keuangan Negara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-40-tahun-1985/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-40-tahun-1985/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan pertama kali diberlakukan untuk Tahun Pajak 1984. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 6 September 1985 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 6 September 1985 MENTERI/SEKRETARIS NEGARA ttd SUDHARMONO,S.H.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

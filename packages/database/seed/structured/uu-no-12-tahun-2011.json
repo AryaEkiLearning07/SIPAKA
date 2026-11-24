@@ -1,0 +1,80 @@
+{
+ "slug": "uu-no-12-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa …;",
+   "dan seterusnya …;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "39188",
+   "slug": "uu-no-12-tahun-2011",
+   "nomor": 12,
+   "tahun": 2011,
+   "jenis": "UU",
+   "judul": "UU No. 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28610/UU%2012%20Tahun%202011.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-10-tahun-2004"
+   ],
+   "scrapedAt": "2026-09-30T01:10:15.712347+00:00"
+  },
+  "sha256": "539b705040f263ebf933b0ab739868a227e94932691407852e95aa0eaa05c8db",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-12-tahun-2011/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-12-tahun-2011/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-12-tahun-2011/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "NAMA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 1 (['uu-no-12-tahun-2011/pasal-1'])"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-48-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa Bank Negara Indonesia perlu ditunjuk sebagai Bank dimana effek-effek guna keperluan registrasi, sebagaimana telah diterangkan dalam Peraturan Devisen (Staatsblad Indonesia 1940 Nr 291) dapat disimpan atau digadaikan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-48-tahun-1952",
+   "detailsId": "78135",
+   "judul": "PP No. 48 Tahun 1952 tentang Pengubahan Peraturan Devisen 1940 (Staatsblad Nr 291) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69596/PP%20No.%20048%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:17.120111+00:00"
+  },
+  "sha256": "fb3224a389375c5c4ad49cb27e358766a53fcbdfa096d9c1ad462fe98a7ba13e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

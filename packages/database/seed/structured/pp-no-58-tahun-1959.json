@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-58-tahun-1959",
+ "preamble": {
+  "menimbang": [
+   "2."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-58-tahun-1959",
+   "detailsId": "76173",
+   "judul": "PP No. 58 Tahun 1959 tentang Kedudukan Keuangan Ketua, Wakil Ketua, Anggota dan Sekretaris Jenderal/Sekretaris Dewan Perancang Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66998/PP%20No%20058%20Tahun%201959.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:37.271450+00:00"
+  },
+  "sha256": "31bb652c5ce39b0a451e817efaa423653c780f6fcb06e5533ef8d2b5867014cf",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "slug": "pp-no-89-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mensinkronisasi penyelenggaraan jaminan kesehatan bagi pegawai negeri sipil, penerima veteran, perintis kemerdekaan beserta pensiun, keluarganya sesuai dengan Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional, perlu mencabut Peraturan Pemerintah Nomor 69 Tahun 1991 tentang Pemeliharaan Kesehatan Pegawai Negeri Sipil, Penerima Pensiun, Veteran, Perintis Kemerdekaan Beserta Keluarganya;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah tentang Pencabutan Peraturan Pemerintah Nomor 69 Tahun 1991 tentang Pemeliharaan Kesehatan Pegawai Negeri Sipil, Penerima Pensiun, Veteran, Perintis Kemerdekaan Beserta Keluarganya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-89-tahun-2013",
+   "detailsId": "5425",
+   "judul": "PP No. 89 Tahun 2013 tentang Pencabutan Peraturan Pemerintah Nomor 69 Tahun 1991 Tentang Pemeliharaan Kesehatan Pegawai Negeri Sipil Penerima Pensiun Veteran Perintis Kemerdekaan Beserta Keluarganya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33918/PP%20Nomor%2089%20Tahun%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-69-tahun-1991"
+   ],
+   "scrapedAt": "2026-10-06T00:46:41.823957+00:00"
+  },
+  "sha256": "1881b61202c51cc9ece3d720db5c8c6fe2d0ac6d62da93bc642a447379992a22",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-89-tahun-2013/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Pemerintah Nomor 69 Tahun 1991 tentang Pemeliharaan Kesehatan Pegawai Negeri Sipil, Penerima Pensiun, Veteran, Perintis Kemerdekaan Beserta Keluarganya (Lembaran Negara Republik Indonesia Tahun 1991 Nomor 90, Tambahan Nomor 3456), dicabut dan dinyatakan tidak berlaku. Lembaran Republik Negara Indonesia",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-89-tahun-2013/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah 1 Januari 2014. ini mulai berlaku pada tanggal Agar . . . Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 24 Desember 2013 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 24 Desember 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 241",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

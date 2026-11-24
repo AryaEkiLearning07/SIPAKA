@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-8-tahun-1949",
+ "preamble": {
+  "menimbang": [
+   "bahwa pasal 1 Undang-Undang Nomor 9 Tahun 1948 tidak dapat meliputi anggauta-anggauta Komite Nasional Pusat yang memangku jabatan seperti tersebut dalam ayat 1 pasal 1 yang bukan jabatan Republik Indonesia, maka pasal itu perlu ditambah dengan ayat 1a;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-8-tahun-1949",
+   "detailsId": "33405",
+   "judul": "UU No. 8 Tahun 1949 tentang Perubahan Undang-Undang No. 9 Tahun 1948 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/22459/UU%20Nomor%208%20Tahun%201949.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:09:56.815938+00:00"
+  },
+  "sha256": "9e60945e52b8383c9d6a3bc5fa9107625a374881118ad2f56fc1966253657fd1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

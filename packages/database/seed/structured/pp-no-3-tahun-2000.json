@@ -1,0 +1,49 @@
+{
+ "slug": "pp-no-3-tahun-2000",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-3-tahun-2000",
+   "detailsId": "53142",
+   "judul": "PP No. 3 Tahun 2000 tentang Perubahan Atas Peraturan Pemerintah Nomor 40 Tahun 1995 Tentang Angkutan Udara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42520/PP%20No.3%20TH%202000.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:44:04.387141+00:00"
+  },
+  "sha256": "3d44905c140dc851f019500ae479cc4d59af24c2d1b914fe7b43fe32b3e11d47",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-3-tahun-2000/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Pasal 6 … (1) (2) (3) Perusahaan angkutan udara asing yang melakukan kegiatan ke dan dari (1), wajib Indonesia sebagaimana dimaksud dalam Pasal 5 ayat menempatkan atau menunjuk perwakilannya di Indonesia untuk mengurus kepentingan di bidang operasi dan administrasi. Untuk melakukan penjualan dan pemasaran jasa angkutan udara dari dan ke luar negeri, perusahaan angkutan udara asing sebagaimana dimaksud dalam Pasal 5 ayat (1), dapat menunjuk agen di Indonesia untuk mewakili kepentingannya. Ketentuan lebih lanjut mengenai penentuan atau penunjukan perwakilan, dan penjualan agen di Indonesia sebagaimana dimaksud dalam ayat (1) dan ayat (2), diatur oleh Menteri\". Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Januari 2000 PRESIDEN REPUBLIK INDONESIA, ttd. ABDURRAHMAN WAHID Diundangkan di Jakarta pada tanggal 28 Januari 2000 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. ALIRAHMAN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 7",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "slug": "uu-no-7-tahun-1993",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan itu Perhitungan Anggaran Negara Tahun Anggaran 1990/1991 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta Pada tanggal 3 Agustus 1993 PRESIDEN REPUBLIK INDONESIA ttd. S O E H A R T O Diundangkan di Jakarta Pada tanggal 2 Agustus 1993 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd. M O E R D I O N O LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1993 NOMOR 69 Salinan sesuai dengan aslinya SEKRETARAT KABINET Kepala Biro Hukum dan Perundang-undangan, Bambang Kesowo, S.H., LL.M. PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 7 TAHUN 1993 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1990/1991 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1990/1991 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/1991, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang-undang Nomor 1 Tahun 1990 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/1991. PASAL DEMI PASAL Pasal 1 Ayat (1) Cukup jelas Ayat (2) Cukup jelas Ayat (3) Dalam jumlah Sisa-anggaran-lebih sebesar Rp. 3.202.644.970.477,- (tiga trilyun dua ratus dua milyar enam ratus empat puluh empat juta sembilan ratu",
+ "source": {
+  "url": {
+   "judul": "test"
+  },
+  "sha256": "dummy",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1993/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-7-tahun-1993/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara sebesar Rp. 50.574.505.230.207,- (lima puluh trilyun lima ratus tujuh puluh empat milyar lima ratus lima juta dua ratus tiga puluh ribu dua ratus tujuh rupiah). dalam Tahun Anggaran 1990/1991 adalah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1993/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Belanja Negata dalam Tahun Anggaran 1990/1991 adalah sebesar Rp. 47.371.860.259.730,- (empat puluh tujuh trilyun tiga ratus tujuh puluh satu milyar delapan ratus enam puluh juta dua ratus lima puluh sembilan ribu tujuh ratus tiga puluh rupiah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1993/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa-anggaran-lebih Perhitungan Anggaran Negara Tahun Anggaran 1990/1991 adalah sebesar Rp. 3.202.644.970.477,- (tiga trilyun dua ratus dua milyar enam ratus empat puluh empat juta sembilan ratus tujuh puluh ribu empat ratus tujuh puluh tujuh rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1993/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian Pendapatan, belanja, dan sisa-anggaran- lebih sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

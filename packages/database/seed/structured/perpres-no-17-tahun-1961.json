@@ -1,0 +1,54 @@
+{
+ "slug": "perpres-no-17-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "bahwa penghasilan dan keuntungan-keuntungan lainnya Kepala Daerah, Kepala Daerah/Wakil Kepala Daerah Istimewa Yogyakarta dan Wakil Kepala Daerah tingkat I perlu diperbaiki;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-17-tahun-1961",
+   "detailsId": "69424",
+   "judul": "PERPRES No. 17 Tahun 1961 tentang Kedudukan Hukum, Nama Jabatan, Gelar, Penghasilan dan Keuntungan-Keuntungan Lainnya Kepala Daerah, Kepala Daerah/Wakil Kepala Daerah Istimewa Yogyakarta dan Wakil Kepala Daerah Tingkat I - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/76241/Perpres%20No.17%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-2-tahun-1960",
+    "perpres-no-5-tahun-1959"
+   ],
+   "scrapedAt": "2026-10-06T06:16:33.939728+00:00"
+  },
+  "sha256": "25e9bba91d630b21608a50b225b8fb3ef91487bed2a08137474c65a1f0c78bf1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-17-tahun-1961/pasal-11",
+   "type": "PASAL",
+   "orderIndex": 11,
+   "label": "Pasal 11",
+   "content": "Pelaksanaan Peraturan Presiden ini diatur dan diselenggarakan oleh Menteri Dalam Negeri dan Otonomi Daerah. Pasal 12. Peraturan Presiden ini berlaku mulai pada hari diundangkan dan mempunyai daya surut sampai tanggal 1 Januari 1961. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 21 September 1961. Pejabat Presiden Republik Indonesia, ttd. J. LEIMENA Diundangkan di Jakarta pada tanggal 21 September 1961 Pejabat Sekretaris Negara, ttd. A.W. SURJOADININGRAT. I.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

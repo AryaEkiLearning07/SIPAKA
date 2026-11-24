@@ -1,0 +1,47 @@
+{
+ "slug": "uu-no-13-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "bahwa...;",
+   "dan seterusnya...;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "212810",
+   "slug": "uu-no-13-tahun-2022",
+   "nomor": 13,
+   "tahun": 2022,
+   "jenis": "UU",
+   "judul": "UU No. 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-Undangan - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/207035/UU%20Nomor%2013%20Tahun%202022.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:09:02.885322+00:00"
+  },
+  "sha256": "1feca7ed8b1bdf635b9e332df8fd21d03bed7e44d280e9adf083f77f03b352ae",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

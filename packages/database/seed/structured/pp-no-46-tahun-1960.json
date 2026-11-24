@@ -1,0 +1,82 @@
+{
+ "slug": "pp-no-46-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai penghargaan terhadap jasa-jasa seluruh Veteran Pejuang Kemerdekaan Republik Indonesia yang telah gugur atau meninggal dunia dalam atau karena menunaikan kewajibannya terhadap Bangsa dan Negara, perlu diadakan peraturan tentang pemberian bantuan kepada janda dan anak yatim/yatim-piatu dari Veteran Pejuang Kemerdekaan Republik Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-46-tahun-1960",
+   "detailsId": "75015",
+   "judul": "PP No. 46 Tahun 1960 tentang Pemberian Tunjangan Kepada Janda dan Anak Yatim/Yatim Piatu dari Veteran Pejuang Kemerdekaan Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65533/pp%20no%20046%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:32.617817+00:00"
+  },
+  "sha256": "b6139c77629c951f8541953c33c9dfa7847494542ea56dc84c341af7a1e5618c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-46-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "JANDA DAN ANAK YATIM/YATIM-PIATU DARI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-46-tahun-1960/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "(1)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-46-tahun-1960/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "(1)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-46-tahun-1960/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "(1)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

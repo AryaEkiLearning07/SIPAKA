@@ -1,0 +1,213 @@
+{
+ "slug": "pp-no-56-tahun-1970",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-56-tahun-1970",
+   "detailsId": "70185",
+   "judul": "PP No. 56 Tahun 1970 tentang Pengalihan Bentuk Perusahaan Bangunan Negara &quot;Amarta Karya&quot; Menjadi Perusahaan Perseroan (Persero) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60613/pp%20no%20056%20tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-9-tahun-1962"
+   ],
+   "scrapedAt": "2026-10-06T06:01:55.364356+00:00"
+  },
+  "sha256": "6e4135e5e7426b9d9a7f70161be0179a87e90b4c6011aeb4e5f47bd455c4b555",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 5,
+  "ayat_angka": 9,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-56-tahun-1970/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENGALIHAN BENTUK DAN PEMBUBARAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-56-tahun-1970/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Bangunan Negara \"Amarta Karya\", selanjutnya disebut PN. \"Amarta Karya\" yang didirikan dengan Peraturan Pemerintah Nomor 9 tahun 1962. (Lembaran Negara Republik Indonesia tahun 1962 Nomor 37) dialihkan bentuknya menjadi Perusahaan Perseroan (PERSERO) sebagaimana yang dimaksudkan dalam pasal 2 ayat (3) Undang-undang Nomor 9 tahun 1969 (Lembaran Negara Republik Indonesia tahun 1969 Nomor 40).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dengan dialihkannya bentuk PN. \"Amarta Karya\" menjadi PERSERO sebagaimana yang dimaksudkan dalam ayat (1) pasal ini, PN. \"Amarta Karya\" dinyatakan bubar pada saat pendirian PERSERO tersebut. pasal ini, akan diatur lebih lanjut oleh Menteri Pekerjaan Umum dan Tenaga Listrik berdasarkan peraturan perundangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-1/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Semua hal-hal yang bertalian dengan pelaksanaan pembubaran PN. \"Amarta Karya\" sebagaimana yang dimaksudkan dalam ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-56-tahun-1970/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "MODAL PERUSAHAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-56-tahun-1970/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Modal dari PERSERO tersebut dalam ayat (1) pasal 1 Peraturan Pemerintah ini berasal dari kekayaan Negara yang tertanam sebagai modal dalam PN. \"Amarta Karya\" sampai saat pembubarannya, yang jumlahnya akan ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Modal PERSERO tersebut dalam ayat (1) pasal ini terbagi atas saham prioritas dan saham biasa dengan ketentuan bahwa pada saat pendirian PERSERO termaksud seluruh saham-sahamnya dimiliki oleh Negara Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Neraca pembukaan PFRSERO ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-56-tahun-1970/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PELAKSANAAN PENDIRIAN PERSERO",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-56-tahun-1970/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pelaksanaan pendirian PERSERO tersebut dalam ayat (1) pasal 1 Peraturan Pemerintah ini dilakukan menurut ketentuan-ketentuan Kitab Undang-undang Hukum Dagang Stbl. 1847 : 23 sebagaimana yang telah beberapa kali dirubah dan ditambah dengan memperhatikan ketentuan-ketentuan yang termaktub dalam Peraturan Pemerintah Nomor 12 tahun 1969 (Lembaran Negara Republik Indonesia tahun 1969 Nomor 21).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-56-tahun-1970/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelesaian pendirian PERSERO sebagaimana yang dimaksudkan dalam pasal 3 Peraturan Pemerintah ini dikuasakan kepada Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri Keuangan dapat menyerahkan kekuasaan tersebut dalam ayat (1) pasal ini, dengan disertai hak subtitusi, kepada Menteri Pekerjaan Umum dan Tenaga Listrik, dengan ketentuan bahwa Rancangan Anggaran PERSERO tersebut harus mendapat persetujuan terlebih dahulu dari Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-56-tahun-1970/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kepada Menteri Pekerjaan Umum dan Tenaga Listrik diberikan kekuasaan untuk menunjuk seseorang untuk ikut serta mendirikan PERSERO tersebut, sesuai dengan ketentuan yang termaktub dalam pasal 6 Peraturan Pemerintah Nomor 12 tahun 1969 (Lembaran Negara Republik Indonesia tahun 1969 Nomor 21).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-56-tahun-1970/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-56-tahun-1970/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Terhitung mulai saat berdirinya PERSERO serta dibubarkannya PN. \"Amarta Karya\" sebagaimana yang dimaksudkan dalam ayat (2) pasal 1 Peraturan Pemerintah ini, Peraturan Pemerintah Nomor 9 tahun 1969 Nomor 37. Ditetapkan di Jakarta. pada tanggal 30 Desember 1970 Presiden Republik Indonesia, SOEHARTO. Jenderal TNI Diundangkan di Jakarta, pada tanggal 30 Desember 1970. Sekretaris Negara Republik Indonesia, ALAMSJAH. Mayor Jenderal TNI Kutipan: LEMBARAN NEGARA TAHUN 1970 YANG TELAH DICETAK ULANG Sumber: LN 1970/76",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

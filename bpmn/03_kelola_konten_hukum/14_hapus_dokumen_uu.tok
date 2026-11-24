@@ -1,0 +1,44 @@
+tok 1.0 "Hapus Dokumen UU (Kelola Konten Hukum)"
+
+pool p "Hapus Dokumen UU" process=hapus_dokumen_uu
+  store d_uu "Undang-Undang"
+  store d_anot "Anotasi"
+  store d_thread "Thread Diskusi"
+  store d_riw "Riwayat Perubahan UU"
+  start mulai "Permintaan hapus UU diterima" message="Permintaan hapus UU"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service cek "Periksa keterkaitan dokumen (amandemen, anotasi, rujukan forum)"
+  send minta "Minta konfirmasi penghapusan" message="Permintaan konfirmasi hapus"
+  eventgw tunggu
+  catch ya "Admin mengonfirmasi hapus" message="Konfirmasi hapus"
+  catch tidak "Admin membatalkan hapus" message="Batal hapus"
+  service hapus "Hapus Dokumen UU"
+  service relasi "Perbarui relasi UU yang terkait"
+  end selesai "Dokumen UU dihapus" message="Konfirmasi UU dihapus"
+  end batal "Penghapusan dibatalkan"
+
+pool admin "Admin"
+
+flow mulai -> auth -> izin
+flow izin -> cek "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow cek -> minta -> tunggu
+flow tunggu -> ya
+flow tunggu -> tidak
+flow ya -> hapus -> relasi -> selesai
+flow tidak -> batal
+
+reads cek d_uu
+reads cek d_anot
+reads cek d_thread
+writes hapus d_uu
+writes relasi d_riw
+
+message admin -> mulai "Permintaan hapus UU"
+message tolak -> admin "Akses ditolak"
+message minta -> admin "Permintaan konfirmasi hapus"
+message admin -> ya "Konfirmasi hapus"
+message admin -> tidak "Batal hapus"
+message selesai -> admin "Konfirmasi UU dihapus"

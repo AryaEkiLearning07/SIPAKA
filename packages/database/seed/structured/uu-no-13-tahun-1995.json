@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-13-tahun-1995",
+ "preamble": {
+  "menimbang": [
+   "bahwa terdapat realisasi belanja Tahun Anggaran 1992/93 yang belum dibukukan dalam Perhitungan Anggaran Negara Tahun Anggaran 1992/93;",
+   "bahwa berhubung dengan itu Perhitungan Anggaran Negara Tahun Anggaran 1993/94 perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 30 Desember 1995 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 84 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 13 TAHUN 1995 TENTANG PERHITUNGAN ANGGARAN NEGARA TAHUN ANGGARAN 1993/94 UMUM Perhitungan Anggaran Negara Tahun Anggaran 1993/94 diajukan oleh Pemerintah kepada Dewan Perwakilan Rakyat untuk memenuhi kewajiban mengadakan perhitungan dan pertanggungjawaban tentang pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1993/94, sebagaimana dimaksud dalam Pasal 6 ayat (1) Undang-undang Nomor 3 Tahun 1993 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1993/94. Perhitungan Anggaran Negara ini merupakan tahap terakhir dari rangkaian siklus anggaran negara yang berkaitan erat dengan pelaksanaan kebijaksanaan anggaran berimbang yang dinamis sebagaimana diamanatkan dalam Garis-garis Besar Haluan Negara. Dalam Perhitungan Anggaran Negara Tahun Anggaran 1993/94 tersebut terdapat Sisa Anggaran Kurang sebesar Rp 1.852.394.926.191,00 (satu triliun delapan ratus lima puluh dua miliar tiga ratus sembilan puluh empat ju",
+ "source": {
+  "url": {
+   "slug": "uu-no-13-tahun-1995",
+   "detailsId": "46207",
+   "judul": "UU No. 13 Tahun 1995 tentang Perhitungan Anggaran Negara Tahun Anggaran 1993/94 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34769/UU%20Nomor%2013%20Tahun%201995.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:10:45.703427+00:00"
+  },
+  "sha256": "d719371b1118722d7db7b1f6d4e4d887c53c0b7dfb87d203367b5e1ed6462a78",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-13-tahun-1995/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-13-tahun-1995/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara dalam Tahun Anggaran 1993/94 adalah sebesar Rp 66.865.602.180.127,00 (enam puluh enam triliun delapan ratus enam puluh lima miliar enam ratus dua juta seratus delapan puluh ribu seratus dua puluh tujuh rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1995/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Belanja Negara Tahun Anggaran 1993/94 adalah sebesar Rp 68.717.997.106.318,00 (enam puluh delapan triliun tujuh ratus tujuh belas miliar sembilan ratus sembilan puluh tujuh juta seratus enam ribu tiga ratus delapan belas rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1995/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Sisa... - - Sisa Anggaran Kurang Perhitungan Anggaran Negara Tahun Anggaran 1993/94 adalah sebesar Rp 1.852.394.926.191,00 (satu triliun delapan ratus lima puluh dua miliar tiga ratus sembilan puluh empat juta sembilan ratus dua puluh enam ribu seratus sembilan puluh satu rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-13-tahun-1995/pasal-1/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Perincian Perhitungan Pendapatan Negara, Belanja Negara dan Sisa Anggaran Kurang sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) adalah seperti tersebut pada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

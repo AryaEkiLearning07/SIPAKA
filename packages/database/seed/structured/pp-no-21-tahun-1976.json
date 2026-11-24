@@ -1,0 +1,604 @@
+{
+ "slug": "pp-no-21-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa usaha-usaha di bidang pertambangan tersebut, selain memerlukan penanaman modal yang besar serta pengetahuan yang khusus, mengandung pula unsur risiko yang lebih besar daripada usaha-usaha di bidang lain;",
+   "bahwa sekalipun terdapat kekhususan sifat usaha bidang pertambangan, dipandang perlu untuk tidak memberikan pembebasan pajak perseroan kepada perusahaan-perusahaan pertimbangan;",
+   "bahwa berhubung dengan faktor-faktor khusus dalam pengusahaan bidang pertambangan tersebut dan untuk keseragaman dalam pengaturan pungutan, perlu diadakan pengaturan khusus mengenai perpajakan dan pungutan-pungutan lain untuk usaha pertambangan bukan minyak dan gas bumi;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-21-tahun-1976",
+   "detailsId": "67559",
+   "judul": "PP No. 21 Tahun 1976 tentang Perpajakan Dan Pungutan-Pungutan Lain Atas Usaha Pertambangan Bukan Minyak Dan Gas Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57898/PP%20NO%2021%20TH%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:51:38.369055+00:00"
+  },
+  "sha256": "7bc829ac6bce6d4dd306c3bf0760e1946d9882e60b9fd6ea496a3970e9a3067a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 14,
+  "ayat_angka": 25,
+  "huruf": 16
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-21-tahun-1976/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan yang berusaha di bidang pertambangan bukan minyak dan gas bumi dengan suatu Kuasa Pertambangan/Hak Menambang berdasarkan Undang-undang Nomor 11 Tahun 1967, selanjutnya dalam Peraturan Pemerintah ini disebut Perusahaan, wajib membayar pajak-pajak dan pungutan-pungutan tersebut dibawah ini:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pajak Perseroan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pajak atas Bunga, Dividen dan Royalty;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pajak Penjualan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Bea Materai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Bea Balik Nama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "Bea Masuk;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "Cukai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "Pungutan-pungutan yang berhubungan dengan Kuasa Pertambangan/Hak Menambang; yakni : h.1. luran Tetap; h.2. luran Eksplorasi dan atau luran Eksploitasi; i. Iuran Pembangunan Daerah (IPEDA);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "Pajak dan pungutan Daerah yang telah mendapatkan pengesahan oleh Pemerintah Pusat sesuai dengan peraturan perundang-undangan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "Pungutan administrasi umum untuk sesuatu fasilitas atau pelayanan yang diberikan oleh Pemerintah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-l",
+         "type": "HURUF",
+         "orderIndex": 12,
+         "label": "Huruf l",
+         "content": "Pungutan sehubungan dengan penggunaan permukaan tanah untuk bangunan, pabrik atau fasilitas lain di luar Daerah Pertambangan, seperti dimaksud dalam Pasal 7;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-1/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "Pungutan atas hasil penjualan devisa umum sehubungan dengan pelaksanaan ekspor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan … Pelaksanaan pemungutan iuran, pajak dan pungutan tersebut pada huruf i, j, dan 1 ayat (1) dapat disatukan dalam suatu jumlah pembayaran tetap (lumpsum payment) yang besarnya ditetapkan dalam Kontrak Karya atau Izin Penanaman Modal yang bersangkutan setelah mendengar pertimbangan Menteri Keuangan dan Menteri Dalam Negeri, dengan ketentuan bahwa pelaksanaan pembayaran sedemikian itu dapat diberlakukan sebagai pengganti dan merupakan pembayaran atas semua iuran, pajak dan pungutan daerah lainnya termaksud.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepada Perusahaan yang menanamkan modalnya berdasarkan Undang-undang Nomor 1 Tahun 1967 jo. Undang-undang Nomor 11 Tahun 1970 atau Undang-undang Nomor 6 Tahun 1968 jo. Undang-undang Nomor 12 Tahun 1970 diberikan kelonggaran perpajakan dan pungutan-pungutan lain serta perangsang penanaman modal sebagaimana diatur dalam Pasal 3 sampai dengan Pasal 11.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepada Perusahaan yang tidak termasuk dalam golongan Perusahaan termaksud pada ayat (1) diberikan kelonggaran perpajakan dan pungutan-pungutan lain sebagaimana diatur dalam Pasal 7, 8, 9, dan Pasal 10 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1976/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KELONGGARAN PERPAJAKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam jangka waktu 10 (sepuluh) tahun pertama sejak galian pertama mulai berproduksi, Perusahaan dikenakan Pajak Perseroan sebesar 35% (tiga puluh lima persen) dari laba kena pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setelah … Setelah jangka waktu 10 (sepuluh) tahun sebagaimana dimaksud pada ayat (1) berakhir, Perusahaan dikenakan Pajak Perseroan sebesar,45% (empat puluh lima persen) dari laba kena pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kepada Perusahaan tidak diberikan masa bebas pajak sebagaimana dimaksud dalam Pasal 1a ayat (1) Ordonansi Pajak Perseroan 1925.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Selama jangka waktu berlakunya Kuasa Pertambangan/Hak Menambang, akan tetapi tidak lebih lama dari 30 (tiga puluh) tahun terhitung dari saat mulai berproduksi, Perusahaan wajib memungut Pajak atas Bunga, Dividen dan Royalty sebesar 50% (lima puluh persen) dari tarip yang berlaku dan menyetorkannya kepada Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Kepada Perusahaan diberikan pembebasan Bea Meterai Modal atas penempatan/penyetoran modalnya untuk jangka waktu terhitung mulai dari saat didirikannya Perusahaan sampai dengan berakhirnya Kuasa Pertambangan/ Hak Menambang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan dapat mengimpor bebas dari Bea Masuk dan Pajak Penjualan (impor) dalam jangka waktu sampai dengan tahun kesepuluh setelah saat mulainya berproduksi, alat-alat dan bahan- bahan yang diperlukan untuk menjalankan Perusahaan, sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mesin, unit-unit mesin, alat-alat serta bagian-bagiannya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kendaraan bermotor (kecuali kendaraan sedan dan sedan station wagon), pesawat terbang, kapal dan alat pengangkutan lainnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bahan baku (untuk produksi ekspor), bahan bangunan untuk pabrik, kantor, perumahan pegawai, sekolah, dan rumah sakit, dan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "alat-alat perlengkapan dan mesin kantor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bagi … Bagi semua barang yang diimpor oleh Perusahaan tersebut pada ayat (1) berlaku ketentuan-ketentuan sebagai berikut : a. tidak boleh dipergunakan di Indonesia selain untuk dan dalam hubungan langsung dengan operasi Perusahaan; b. tidak boleh dijual di dalam wilayah Republik Indonesia kecuali setelah mendapat izin dari Direktur Jenderal Bea dan Cukai atau pejabat penggantinya yang akan menetapkan syarat- syarat yang diperlukan sesuai dengan peraturan-peraturan dan ketentuan-ketentuan Bea Cukai dan Impor yang berlaku pada saat penjualan itu, dan c. apabila tidak diperlukan lagi oleh Perusahaan, dapat dijual di luar wilayah Republik Indonesia dan dire-ekspor bebas dari bea dan pungutan pabean, setelah mendapat izin dari Menteri Perdagangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kecuali untuk pemakaian permukaan tanah bagi bangunan- bangunan dan atau fasilitas-fasilitas yang terbuka untuk umum, Perusahaan wajib membayar IPEDA dan pungutan-pungutan sehubungan dengan penggunaan permukaan tanah untuk bangunan- bangunan, pabrik-pabrik dalam wilayah kontrak karya, kuasa pertambangan dan wilayah izin pertambangan lainnya sesuai dengan undang-undang dan peraturan-peraturan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk penggunaan permukaan tanah yang telah dikenakan pungutan luran Tetap dan luran Pembangunan Daerah (IPEDA), masing-masing sesuai dengan ketentuan peraturan perundang- undangan yang berlaku, tidak dikenakan lagi pungutan lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kecuali ditetapkan lain sesuai dengan ketentuan Pasal 1 ayat (2), tatacara pengenaan pungutan luran Tetap dan luran Pembangunan Daerah (IPEDA) diatur sesuai dengan ketentuan peraturan perundang-undangan yang berlaku. Pasal 8 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan tunduk pada ketentuan-ketentuan lalu-lintas devisa yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dengan persetujuan Direksi Bank Indonesia, Perusahaan dapat dikecualikan dari kewajiban untuk menjual kepada Bank Indonesia seluruh devisa yang diperoleh dari hasil ekspor produksinya berdasarkan ketentuan ayat (1), dengan ketentuan bahwa pengecualian tersebut diberikan berdasarkan pertimbangan atas sifat usaha, jenis produksi, permodalan dan pemasaran dari proyek yang bersangkutan serta harus dicantumkan dalam Kontrak Karya atau Izin Penanaman Modal yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persetujuan Direksi Bank Indonesia sebagaimana dimaksud dalam ayat (2) dilakukan setelah mendengar pertimbangan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan ekspor hasil produksinya, Perusahaan tunduk kepada ketentuan-ketentuan ekspor yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap hasil ekspor yang diperoleh perusahaan dikenakan pungutan Pajak Ekspor sesuai dengan ketentuan peraturan perundang-undangan yang berlaku, kecuali hasil ekspor yang diperoleh dari pengeksporan hasil produksinya berupa hasil tambang yang sebagian atau seluruhnya sudah diolah sebagaimana ditetapkan oleh Menteri Perdagangan atas usul Menteri Pertambangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1976/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KELONGGARAN DAN PERANGSANG TAMBAHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kerugian-kerugian yang diderita oleh Perusahaan selama 5 (lima) tahun pertama sejak mulai berproduksi dapat dikurangkan dari laba kena pajak dari tahun-tahun berikutnya tanpa batas waktu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika … (2) Jika dalam suatu tahun setelah jangka waktu yang dimaksud pada ayat (1), diderita kerugian, maka kerugian tersebut dapat dikurangkan dari laba kena pajak dari 4 (empat) tahun berikutnya dimulai dengan tahun pertama dari tahun-tahun itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam menentukan laba kena pajak untuk sesuatu tahun, dikurangkan lebih dahulu kerugian sebagaimana dimaksud pada ayat (2), kemudian sepanjang laba kena pajak tersebut masih mencukupi baru dikurangkan kerugian sebagaimana dimaksudkan pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepada Perusahaan diberikan kelonggaran untuk melakukan penghapusan sebesar 10% (sepuluh persen) sampai 121/2% (dua belas setengah persen) setahunnya atas pengeluaran-pengeluaran yang dapat dihapuskan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perusahaan dapat melakukan penghapusan dipercepat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kepada Perusahaan diizinkan untuk melakukan pemotongan perangsang penanaman sejumlah seluruhnya 20% (dua puluh persen) dari jumlah pengeluaran-pengeluaran untuk penanaman, pemotongan mana untuk setiap tahunnya berjumlah 5% (lima persen).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1976/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepada Perusahaan yang telah memperoleh Kuasa Pertambangan/Hak Menambang sebelum berlakunya Peraturan Pemerintah ini, dapat diberikan kesempatan untuk menyesuaikan dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1976/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penye Penyesuaian seperti dimaksud pada ayat (1) hanya dapat diizinkan sepanjang penyesuaian itu mencakup keseluruhan isi Peraturan Pemerintah ini serta ketentuan-ketentuan lainnya yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Hal-hal yang tidak secara khusus diatur dalam Peraturan Pemerintah ini dilaksanakan sesuai dengan Undang-undang dan Peraturan-peraturan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1976/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1976/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 23 Agustus 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 23 Agustus 1976 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

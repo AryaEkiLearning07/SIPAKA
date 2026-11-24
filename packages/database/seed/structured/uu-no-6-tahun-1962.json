@@ -1,0 +1,178 @@
+{
+ "slug": "uu-no-6-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan Undang-undang tentang Pokok- pokok Kesehatan dianggap perlu ditetapkan Undang-undang tentang Wabah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-6-tahun-1962",
+   "detailsId": "50678",
+   "judul": "UU No. 6 Tahun 1962 tentang Wabah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39921/UU%20Nomor%206%20Tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:48:27.888469+00:00"
+  },
+  "sha256": "354a8ef91abf4d0c48ae3769175992ad4297b932c65c2a1efbdf87c42ec8f400",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 3,
+  "ayat_angka": 4,
+  "huruf": 2
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-6-tahun-1962/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1962/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENETAPAN DAN PENCABUTAN PENETAPAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1962/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-6-tahun-1962/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pelaksanaan ketentuan-ketentuan dalam pasal 5 dan pasal 6 diatur lebih lanjut dengan Peraturan Pemerintah atau Peraturan Menteri Kesehatan. BAB V …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1962/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-6-tahun-1962/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Tindakan-tindakan tersebut dalam pasal 8 dilakukan dengan mengikut- sertakan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-6-tahun-1962/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-6-tahun-1962/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barangsiapa dengan sengaja tidak melakukan atau menghalang- halangi terlaksananya usaha-usaha dan kewajiban-kewajiban tersebut dalam pasal 5 dan pasal 6 ayat (1), dipidana dengan pidana penjara selama-lamanya 6 bulan dan/atau pidana denda sebanyak-banyaknya Rp. 10.000,- (sepuluh ribu rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dipidana … Dipidana dengan pidana kurungan selama-lamanya 3 bulan dan/atau pidana denda sebanyak-banyaknya Rp. 5.000,- (lima ribu rupiah) :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "petugas, yang berdasarkan Undang-undang ini melalaikan kewajibannya tersebut dalam pasal 5 dan pasal 6 ayat (1);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "petugas kesehatan yang karena kesalahannya menyebabkan tidak terlaksananya usaha-usaha dan kewajiban-kewajiban tersebut dalam pasal 5 dan pasal 6 ayat (1).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peraturan Pemerintah yang melaksanakan Undang-undang ini dapat memuat ancaman pidana terhadap pelanggaran ketentuan- ketentuannya, yaitu: pidana kurungan selama-lamanya 3 bulan dan/atau denda setinggi-tingginya Rp. 5.000,- (lima ribu rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-6-tahun-1962/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Tindak pidana tersebut dalam ayat (1) adalah kejahatan. Tindak pidana tersebut dalam ayat (2) dan (3) adalah pelanggaran. Pasal 11. Undang-undang ini dapat disebut: \"Undang-undang Wabah\". Pasal 12. Undang-undang ini mulai berlaku pada hari diundangkan. Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 5 Maret 1962. Presiden Republik Indonesia, ttd SUKARNO. Diundangkan di Jakarta pada tanggal 5 Maret 1962. Sekretaris Negara, ttd MOHD. ICHSAN. LEMBARAN NEGARA TAHUN 1962 NOMOR 12",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..10): [1, 2, 3, 4, 5, 6, 8]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

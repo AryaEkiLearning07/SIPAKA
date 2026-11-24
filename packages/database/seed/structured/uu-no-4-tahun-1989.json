@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-4-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 20 Juli 1989 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1989 NOMOR 22 www.djpp.depkumham.go.id PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 4 TAHUN 1989 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1988/1989 UMUM Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1988/1989 merupakan pelaksanaan tahun kelima Rencana Pembangunan Lima Tahun ke IV. Didasarkan atas perkembangan ekonomi dalam dan luar negeri, yang mempengaruhi pelaksanaannya, maka terhadap Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1988/1989 diperlukan beberapa tambahan dan perubahan. Dalam Tahun Anggaran 1988/1989, realisasi pendapatan negara diperkirakan lebih besar dari jumlah yang direncanakan. Lebih besarnya pendapatan negara tersebut di samping disebabkan oleh lebih tingginya penerimaan minyak bumi dan gas alam, juga disebabkan oleh berhasilnya usaha pengerahan dana dari sumber-sumber dalam negeri di luar minyak bumi dan gas alam melampaui yang direncanakan. Di samping itu pendapatan pembangunan juga melampaui yang direncanakan karena lebih besarnya reali",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-1989",
+   "detailsId": "46800",
+   "judul": "UU No. 4 Tahun 1989 tentang Tambahan dan Perubahan Atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1988/1989 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35572/UU%20Nomor%204%20Tahun%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:45:35.805286+00:00"
+  },
+  "sha256": "7cfc19fd1413a4ea5d66823dedd904affca55bc7cd516c65fac0d0def0b75d07",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-1989/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-1989/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1988/1989 diperkirakan bertambah dengan Rp 4.031.417.000.000,00 (empat trilyun tiga puluh satu milyar empat ratus tujuh belas juta rupiah) yang terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-1989/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp 1.201.341.000.000,00 (satu trilyun dua ratus satu milyar tiga ratus empat puluh satu juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-1989/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan bertambah dengan Rp 2.830.076.000.000,00 (dua trilyun delapan ratus tiga puluh milyar tujuh puluh enam juta rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1989/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian pendapatan tambahan dan perubahan sebagaimana dimaksud dalam ayat (1) huruf a dan huruf b pasal ini masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

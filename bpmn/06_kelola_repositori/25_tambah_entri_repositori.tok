@@ -1,0 +1,39 @@
+tok 1.0 "Tambah Entri Repositori (Kelola Repositori)"
+
+pool p "Tambah Entri Repositori" process=tambah_entri_repositori
+  store d_entri "Entri Repositori"
+  start mulai "Data entri diterima" message="Data entri repositori"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service kasus "Buat Entri Studi Kasus"
+  xor catat "Melampirkan catatan pasal?"
+  call anotasi "Tampilkan Anotasi Pasal" process=anotasi_teks_undang_undang doc="Langkah 'Tampilkan Anotasi Pasal' pada proses Anotasi Teks Undang-Undang"
+  service lampirc "Lampirkan Catatan Pasal"
+  xor m1
+  xor analisis "Melampirkan analisis hukum?"
+  service lampira "Lampirkan Analisis Hukum"
+  xor m2
+  service simpan "Simpan entri repositori"
+  end selesai "Entri tersimpan di repositori" message="Konfirmasi entri tersimpan"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> kasus "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow kasus -> catat
+flow catat -> anotasi "ya" when="lampirkanCatatan"
+flow catat -> m1 "tidak" default
+flow anotasi -> lampirc -> m1
+flow m1 -> analisis
+flow analisis -> lampira "ya" when="lampirkanAnalisis"
+flow analisis -> m2 "tidak" default
+flow lampira -> m2
+flow m2 -> simpan -> selesai
+
+writes simpan d_entri
+
+message user -> mulai "Data entri repositori"
+message tolak -> user "Akses ditolak"
+message selesai -> user "Konfirmasi entri tersimpan"

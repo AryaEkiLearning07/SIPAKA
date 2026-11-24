@@ -1,0 +1,62 @@
+{
+ "slug": "pp-no-13-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa perlu segera melaksanakan Undang-undang Nomor 19 Prp. Tahun 1960 tentang Perusahaan Negara terhadap perusahaan milik Negara yang berada di dalam lingkungan Departemen Keuangan; bahwa berhubung dengan itu perlu dibentuk suatu Badan Pimpinan Umum yang diserahi tugas mengadakan kerja-sama dan kesatuan tindakan dalam mengurus Perusahaan Negara yang berusaha dalam lapangan perasuransian serta mengawasi pekerjaan menguasai dan mengurus Perusahaan Negara tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1961",
+   "detailsId": "72706",
+   "judul": "PP No. 13 Tahun 1961 tentang Pembentukan Badan Pimpinan Umum Asuransi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/63189/pp%20no%20013%20tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:28.269219+00:00"
+  },
+  "sha256": "921b7d82988455bb57496f1f3e17c6fe8865fea65a52ae67ba5b09c7745ad6c3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-13-tahun-1961/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PEMERINTAH TENTANG PEMBENTUKAN BADAN PIMPINAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-13-tahun-1961/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ANGGARAN DASAR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,1763 @@
+{
+ "slug": "pp-no-90-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-90-tahun-2019",
+   "detailsId": "129234",
+   "judul": "PP No. 90 Tahun 2019 tentang Tata Cara Permohonan, Pemeriksaan, dan Penyelesaian Banding pada Komisi Banding Merek - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/120148/PP%20Nomor%2090%20Tahun%202019.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-51-tahun-2007",
+    "pp-no-7-tahun-2005",
+    "perpres-no-20-tahun-2005"
+   ],
+   "scrapedAt": "2026-10-06T00:30:35.002009+00:00"
+  },
+  "sha256": "3c6fd7e223817f251c12db6a069a7dd906e8d06a9878f2259b0874be661ecb8c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 37,
+  "ayat_angka": 93,
+  "huruf": 48
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Merek adalah tanda yang dapat ditampilkan secara grafis berupa gambar, logo, nama, kata, huruf, angka, susunan warna, dalam bentuk 2 (dua) dimensi dan/atau 3 (tiga) dimensi, suara, hologram, atau kombinasi dari 2 (dua) atau tebitr unsur tersebut untuk membedakan barang dan/atau jasa yang diproduksi oleh orang atau badan hukum dalam kegiatan perdagangan barang dan/atau jasa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Indikasi. . . SK No 018032 A PRES IDEN REPUBLIK INDONESIA Indikasi Geografis adalah suatu tanda yang menunjukkan daerah asal suatu barang dan/atau produk yang karena faktor lingkungan geogralis termasuk faktor alam, faktor manusia atau kombinasi dari kedua faktor tersebut memberikan reputasi, kualitas, dan karakteristik tertentu pada barang dan/atau produk yang dihasilkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Permohonan adalah permintaan pendaftaran Merek atau pendaftaran Indikasi Geografis yang diajukan kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemohon adalah pihak yang mengajukan permohonan Merek atau Indikasi Geografis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Permohonan Banding adalah upaya hukum yang diajukan oleh Pemohon terhadap penolakan Permohonan Merek atau Indikasi Geografis yang diajukan kepada Komisi Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pemohon Banding adalah Pemohon atau Kuasanya yang mengajukan Permohonan Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemeriksa adalah pemeriksa Merek sebagai pejabat fungsional yang karena keahliannya diangkat dan diberhentikan oleh Menteri untuk melakukan pemeriksaan substantif terhadap Permohonan pendaftaran Merek.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Pemeriksa Senior adalah Pemeriksa yang telah memiliki pengalaman dalam melaksanakan pemeriksaan permohonan Merek dan mempunyai jabatan paling rendah Pemeriksa Merek Madya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Komisi Banding Merek yang selanjutnya disebut Komisi Banding adalah badan khusus independen yang berada di lingkungan kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Majelis Komisi Banding yang selanjutnya disebut Majelis adalah anggota Komisi Banding yang ditunjuk oleh ketua Komisi Banding untuk menyelesaikan Permohonan Banding. 1 1. Kuasa adalah konsultan kekayaan intelektual yang bertempat tinggal atau berkedudukan tetap di wilayah Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Direktorat Jenderal adalah direktorat jenderal yang mempunyai tugas di bidang kekayaan intelektual yang berada di bawah kementerian yang dipimpin oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Direktur Jenderal adalah direktur jenderal pada Direktorat Jenderal. 15.Undang-Undang... SK No 018033 A REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Undang-Undang adalah Undang-Undang Nomor 20 Tahun 2016 tentang Merek dan Indikasi Geografus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Hari adalah hari kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "SUSUNAN ORGANISASI, TUGAS, DAN FUNGSI KOMISI BANDING",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi Banding terdiri atas: berjumlah paling banyak 3O (tiga puluh) orang yang terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "seorang ketua merangkap anggota; 15 (lima belas) orang Pemeriksa Senior; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "seorang wakil ketua merangkap anggota; 15 (lima belas) orang ahli di bidang Merek.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "ahli di bidang Merek sebagai anggota; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pemeriksa Senior sebagai anggota.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota Komisi Banding sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Komisi Banding sebagaimana dimaksud pada ayat (1) bekerja berdasarkan keahlian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Komisi Banding sebagaimana dimaksud dalam Pasal 2 ayat (1) harus memenuhi persyaratan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "warga negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bertempat tinggal di wilayah negara Republik Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bertakwa kepada Tuhan Yang Maha Esa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "sehat jasmani dan rohani;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mempunyai kecakaparr berbahasa Inggris;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memiliki pengetahuan, pemahaman, dan keahlian di bidang Merek; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "berumur paling tinggi 65 (enam puluh lima) tahun pada saat pengangkatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain. . . SK No 018034 A PRES IDEN REPUBLIK INDONESIA Selain memenuhi persyaratan sebagaimana dimaksud pada ayat (1), Pemeriksa Senior yang dapat diangkat menjadi anggota Komisi Banding adalah Pemeriksa Merek pada Direktorat Jenderal yang mempunyai jabatan paling rendah Pemeriksa Merek Madya dengan pangkat Pembina/ Golongan IY la.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Anggota Komisi Banding yang telah memenuhi persyaratan sebagaimana dimaksud pada ayat (1) dan ayat(21diusulkan oleh Direktur Jenderal kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota Komisi Banding diangkat dan diberhentikan oleh Menteri atas usul Direktur Jenderal. {21 Masa jabatan anggota Komisi Banding sebagaimana dimaksud pada ayat (1) selama 3 (tiga) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketua dan wakil ketua dipilih dari dan oleh anggota Komisi Banding. (41 Pemilihan ketua dan wakil ketua Komisi Banding sebagaimana dimaksud pada ayat (3) dilakukan secara musyawarah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Jika musyawarah sebagaimana dimaksud pada ayat (4) tidak tercapai kesepakatan, pemilihan dilakukan dengan pemungutan suara terbanyak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-4/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketua dan wakil ketua Komisi Banding yang dipilih sebagaimana dimaksud pada ayat (3) ditetapkan dengan Keputusan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keanggotaan Komisi Banding berhenti, jika:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "meninggal dunia; danf atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "berakhirnya masa jabatan keanggotaan Komisi Banding.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keanggotaan Komisi Banding diberhentikan oleh Menteri, jika:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengundurkan diri atas permintaan sendiri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bertempat tinggal tetap di luar wilayah Republik Indonesia; SK No 018035 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sakit REPUBLIK INDONESIA sakit jasmani dan/atau rohani secara terus-menerus selama 6 (enam) bulan yang dibuktikan dengan surat keterangan dokter;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "diberhentikan karena tidak dapat menjalankan tugasnya atau melakukan perbuatan tercela; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-5/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "dipidana karena melakukan tindak pidana dengan ancaman pidana penjara paling singkat 5 (lima) tahun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal ketua Komisi Banding meninggal dunia, mengundurkan diri, tidak mampu menjalankan tugasnya sebagai ketua, atau diberhentikan sebelum masa jabatannya berakhir, wakil ketua Komisi Banding menggantikan ketua Komisi Banding tersebut untuk jangka waktu sisa masa jabatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jika pada saat yang bersamaan ket dan wakil ketua Komisi Banding meninggal dunia, mengundurkan diri, tidak mampu menjalankan tugasnya, atau diberhentikan sebelum masa jabatannya berakhir, anggota Komisi Banding segera memilih dan mengusulkan pengganti ketua dan wakil ketua Komisi Banding untuk jangka waktu sisa masa jabatannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemilihan dan penetapan ketua dan/atau wakil ketua Komisi Banding sebagaimana dimaksud pada ayat (1) dan ayat (2) berlaku ketentuan sebagaimana dimaksud dalam Pasal 4 ayat (3), ayat (4), dan ayat (5).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Ketentuan lebih lanjut mengenai pengangkatan, pemberhentian, dan penggantian ketua, wakil ketua, dan anggota Komisi Banding diatur dengan Peraturan Menteri. Bagian Kedua Tugas dan Fungsi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Komisi Banding mempunyai tugas menyelenggarakan pengadministrasian, pemeriksaan, pengkaliarr, dan penilaian terhadap Permohonan Banding. Pasal 9 . SK No 018036 A PRES IDEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 8, Komisi Banding menyelenggarakan fungsi: a. menerima, memeriksa, dan menyelesaikan Permohonan Banding terhadap penolakan permohonan pendaftaran Merek berdasarkan alasan yang bersifat substantif; b. menerima, memeriksa, dan menyelesaikan Permohonan Banding terhadap keberatan atas penolakan permohonan perpanjangan Merek; c. memberikan rekomendasi terhadap penghapusan Merek terdaftar atas prakarsa Menteri; dan d. menerima, memeriksa, dan menyelesaikan Permohonan Banding terhadap penolakan permohonan pendaftaran Indikasi Geografis. Pasal 1O",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melaksanakan tugasnya, Komisi Banding dibantu sekretariat yang dipimpin oleh seorang sekretaris.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretaris sebagaimana dimaksud pada ayat (1) secara ex-officio dijabat oleh seorang pejabat struktural pada Direktorat Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam melaksanakan tugasnya, sekretaris dibantu oleh pejabat pelaksana pada Direktorat Jenderal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tata kerja dan tugas sekretariat Komisi Banding ditetapkan oleh ketua Komisi Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TATA CARA PERMOHONAN, PEMERIKSAAN, DAN PENYELESAIAN BANDING",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Permohonan Banding terhadap penolakan permohonan pendaftaran Merek berdasarkan alasan yang bersifat substantif, keberatan atas penolakan permohonan perpanjangan Merek, dan penolakan permohonan pendaftaran Indikasi Geografis diajukan dalam jangka waktu paling lama 90 (sembilan puluh) Hari terhitung sejak tanggal pengiriman surat pemberitahuan penolakan Permohonan. (21 Dalam hal Permohonan Banding sebagaimana dimaksud pada ayat (1) tidak diajukan, penolakan permohonan pendaftaran Merek berdasarkan alasan yang bersifat substantif, keberatan atas penolakan permohonan perpanjangan Merek, dan penolakan permohonan pendaftaran Indikasi Geografis dianggap diterima oleh Pemohon.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Permohonan Banding diajukan melampaui jangka waktu sebagaimana dimaksud pada ayat (1), sekretaris Komisi Banding memberitahukan secara tertulis kepada Pemohon atau Kuasanya bahwa Permohonan Banding tidak dapat diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Permohonan Banding sebagaimana dimaksud dalam Pasal 12 ayat (1) diajukan secara tertulis dalam bahasa Indonesia oleh Pemohon atau Kuasanya kepada Komisi Banding dengan tembusan yang disampaikan kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan Banding sebagaimana dimaksud pada ayat (1) dikenai biaya sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Biaya... SK No 018038 A REPUBLIK INDONESIA Biaya sebagaimana dimaksud pada ayat (2) dibayarkan melalui kas negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Permohonan Banding sebagaimana dimaksud pada ayat (1) dapat diajukan secara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "elektronik; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-13/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nonelektronik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "(1f Dalam pengajuan Permohonan Banding, Pemohon Banding harus mengisi formulir Permohonan Banding.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Formulir Permohonan Banding sebagaimana dimaksud pada ayat (1) paling sedikit memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tanggal, bulan, dan tahun surat Permohonan Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nama, alamat lengkap, dan kewarganegaraan Pemohon;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "nama dan alamat lengkap Kuasa, jika Permohonan Banding diajukan melalui Kuasa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Merek atau Indikasi Geografis yang dimohonkan Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "nomor dan tanggal keputusan penolakan permohonan pendaftaran Merek, permohonan pendaftaran Indikasi Geografis, atau permohonan perpanjangan Merek;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "alamat surat elektronik Pemohon;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "alamat surat elektronik Kuasa, jika Permohonan Banding diajukan melalui Kuasa; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "alasan perrgajuan Permohonan Banding yang memuat uraian secara lengkap mengenai keberatan terhadap keputusan penolakan permohonan pendaftaran Merek, permohonan pendaftaran Indikasi Geografis, atau permohonan perpanjangan Merek.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Terhadap Permohonan Banding atas penolakan permohonan pendaftaran Merek atau permohonan pendaftaran Indikasi Geografis, alasan sebagaimana dimaksud pada ayat (2) huruf h tidak merupakan perbaikan, penyempurnaan, atau pemenuhan kekurangan persyaratan permohonan pendaftaran Merek atau permohonan pendaftaran Indikasi Geografis yang ditolak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Selain mengisi formulir sebagaimana dimaksud pada ayat (1), Pemohon Banding harus melampirkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "salinan surat pemberitahuan penolakan:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "permohonan pendaftaran Merek;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "permohonan . SK No 018039 A REPUBLIK INDONESIA permohonan pendaftaran Indikasi Geografis; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-14/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "permohonan perpanjangan Merek;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bukti pembayaran Permohonan Banding; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-14/angka-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat kuasa, jika Permohonan Banding diajukan oleh Kuasa. Bagian Kedua Pemeriksaan Paragraf 1 Umum",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Permohonan Banding wajib dilakukan pemeriksaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan sebagaimana dimaksud pada ayat (1) meliputi",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemeriksaan administratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemeriksaan substantif. Paragraf 2 Pemeriksaan Administratif",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemeriksaan administratif sebagaimana dimaksud dalam Pasal 15 ayat (2) huruf a dilakukan terhadap kelengkapan dokumen persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan administratif sebagaimana dimaksud pada ayat (1) dilakukan oleh sekretaris Komisi Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemeriksaan sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 1 (satu) bulan terhitung sejak Permohonan Banding diterima dari Pemohon Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal terdapat kekuranglengkapan dokumen persyaratan sebagaimana dimaksud dalam Pasal 16 ayat (1), sekretaris Komisi Banding memberitahukan secara tertulis kepada Pemohon Banding untuk melengkapi dokumen persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kelengkapan. . . SK No 018040 A REPUBLIK INDONESIA Kelengkapan dokumen persyaratan sebagaimana dimaksud pada ayat (1) harus dipenuhi paling lambat 2 (dua) bulan terhitung sejak tanggal pengiriman surat pemberitahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila batas waktu sebagaimana dimaksud pada ayat (2) terlampaui dan dokumen persyaratan tidak terpenuhi, Permohonan Banding tidak dapat diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal Permohonan Banding tidak dapat diterima sebagaimana dimaksud pada ayat (3), sekretaris Komisi Banding memberitahukan secara tertulis kepada Pemohon Banding bahwa Permohonan Banding tidak dapat diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Permohonan Banding yang tidak dapat diterima sebagaimana dimaksud pada ayat (3) tidak dapat diajukan kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-17/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal Permohonan Banding tidak dapat diterima, biaya yang telah dibayarkan sebagaimana dimaksud dalam Pasal 13 ayat (3) tidak dapat ditarik kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Permohonan Banding telah memenuhi kelengkapan dokumen persyaratan sebagaimana dimaksud dalam Pasal 16 ayat (1), Permohonan Banding dicatat dalam buku khusus Permohonan Banding dan diberikan tanggal penerimaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Permohonan Banding yang telah dicatat dan diberikan tanggal penerimaan sebagaimana dimaksud pada ayat (1) diberitahukan secara tertulis kepada Pemohon Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Berkas Permohonan Banding yang telah dicatat dan diberikan tanggal penerimaan sebagaimana dimaksud pada ayat (1) disampaikan oleh sekretaris Komisi Banding kepada ketua Komisi Banding. Paragraf 3 Penarikan Kembali Permohonan Banding",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemohon Banding dapat menarik kembali Permohonan Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penarikan SK No 018041 A REPUBLIK INDONESIA Penarikan kembali sebagaimana dimaksud pada ayat (1) dilakukan terhadap Permohonan Banding yang belum mendapat keputusan Komisi Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal penarikan kembali sebagaimana dimaksud pada ayat (1) dilakukan oleh Kuasanya harus dilengkapi dengan surat kuasa khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-19/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Permohonan Banding yang telah ditarik kembali sebagaimana dimaksud pada ayat (21tidak dapat diajukan kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal Permohonan Banding telah ditarik kembali, biaya yang telah dibayarkan sebagaimana dimaksud dalam Pasal 13 ayat (3) tidak dapat ditarik kembali. Paragraf 4 Pemeriksaan Substantif",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketua Komisi Banding mengatur persidangan pemeriksaan banding sesuai dengan nomor urut Permohonan Banding yang telah dicatat dalam buku khusus sebagaimana dimaksud dalam Pasal 18 ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persidangan pemeriksaan banding dilakukan terhadap berkas Permohonan Banding yang disampaikan oleh sekretaris Komisi Banding sebagaimana dimaksud dalam Pasal 18 ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persidangan pemeriksaan substantif Permohonan Banding dilakukan secara terbuka untuk umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melakukan pemeriksaan Permohonan Banding, ketua Komisi Banding membentuk Majelis yang berjumlah ganjil paling sedikit 3 (tiga) orang, 1 (satu) di antaranya adalah seorang Pemeriksa Senior yang tidak melakukan pemeriksaan substantif terhadap Permohonan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keanggotaan. SK No 018042 A REPUBLIK INDONESIA -t2- (21 Keanggotaan Majelis sebagaimana dimaksud pada ayat (1) dibentuk dengan mempertimbangkan keterwakilan masing- masing unsur sebagaimana dimaksud dalam Pasal 2 ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam melakukan pemeriksaan Permohonan Banding sebagaimana dimaksud pada ayat (1), ketua dan anggota Majelis ditunjuk oleh ketua Komisi Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan pemeriksaan banding, Majelis dapat memanggil dan mendengar keterangan dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pemohon Banding; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tenaga ahli yang dianggap perlu.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Permohonan Banding diajukan terhadap penolakan permohonan pendaftaran Merek, selain dapat memanggil pihak sebagaimana dimaksud pada ayat (1), Majelis dapat memanggil dan mendengar keterangan Pemeriksa yang melakukan pemeriksaan substantif terhadap permohonan pendaftaran Merek.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Permohonan Banding diajukan terhadap penolakan permohonan pendaftaran Indikasi Geografis, selain memanggil pihak sebagaimana dimaksud pada ayat (1), Majelis dapat memanggil dan mendengar keterangan tim ahli Indikasi Geografis yang melakukan pemeriksaan substantif terhadap permohonan pendaftaran Indikasi Geografis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal dianggap perlu, Majelis dapat melakukan penelitian lapangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-22/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pemohon Banding dapat mengajukan permintaan untuk menyampaikan pendapatnya di hadapan Majelis melalui ketua Komisi Banding. Bagian Ketiga Penyelesaian Permohonan Banding",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Keputusan Komisi Banding diberikan dalam waktu paling lama 3 (tiga) bulan terhitung sejak tanggal penerimaan Permohonan Banding sebagaimana dimaksud dalam Pasal 18. Pasal 24 . SK No 018043 A REPUBLIK INDONESIA _13_",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Keputusan Komisi Banding dibuat secara tertulis dan ditandatangani oleh ketua dan anggota Majelis yang memeriksa dan memutus Permohonan Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal salah satu dari anggota Majelis tidak dapat menandatangani keputusan sebagaimana dimaksud pada ayat (1), ketua Komisi Banding memberi catatan yang menjelaskan alasan anggota Majelis tersebut tidak dapat menandatangani keputusan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keputusan Komisi Banding sebagaimana dimaksud pada ayat (1) paling sedikit memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "hari, tanggal, bulan, dan tahun keputusan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nama dan tanda tangan ketua dan anggota Majelis yang memeriksa dan memutus Permohonan Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "nama dan alamat lengkap Pemohon Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Merek atau Indikasi Geografis yang dimintakan banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pokok alasan dalam pengajuan Permohonan Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "dasar hukum yang menjadi dasar keputusan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "amar keputusan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Amar keputusan sebagaimana dimaksud pada ayat (3) huruf g dapat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengabulkan seluruh Permohonan Banding;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengabulkan sebagian Permohonan Banding; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menolak Permohonan Banding.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-24/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Keputusan Komisi Banding sebagaimana dimaksud pada ayat (1) memuat pertimbangan masing-masing anggota Majelis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Ketua Komisi Banding menyampaikan keputusan Komisi Banding dengan surat resmi kepada Direktorat Jenderal dan Pemohon Banding dalam jangka waktu paling lama 30 (tiga puluh) Hari terhitung sejak tanggal keputusan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "SK No 018044 A REPUBLIK INDONESIA Dalam hal Komisi Banding mengabulkan Permohonan Banding terhadap penolakan permohonan pendaftaran Merek, Menteri menerbitkan dan memberikan sertifikat Merek kepada Pemohon atau Kuasanya sesuai dengan ketentuan Undang- Undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Dalam hal Komisi Banding mengabulkan Permohonan Banding terhadap keberatan atas penolakan permohonan perpanjangan Merek, Menteri menerbitkan dan memberikan surat pencatatan perpanjangan Merek kepada Pemohon atau Kuasanya sesuai dengan ketentuan Undang-Undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Dalam hal Komisi Banding mengabulkan Permohonan Banding terhadap penolakan permohonan pendaftaran Indikasi Geografis, Menteri menerbitkan dan memberikan sertifikat Indikasi Geografis kepada Pemohon atau Kuasanya sesuai dengan ketentuan Undang-Undang.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Komisi Banding menolak Permohonan Banding, Pemohon atau Kuasanya dapat mengajukan gugatan atas keputusan penolakan Permohonan Banding kepada Pengadilan Niaga paling lama 3 (tiga) bulan terhitung sejak tanggal diterimanya keputusan penolakan Permohonan Banding.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal keputusan Komisi Banding digugat ke Pengadilan Niaga, anggota Komisi Banding yang memeriksa Permohonan Banding mewakili Komisi Banding untuk menghadiri sidang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengadilan Niaga memeriksa dan memutuskan gugatan sebagaimana dimaksud dalarn Pasal 29 ayat (1) sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap putusan Pengadilan Niaga sebagaimana dimaksud pada ayat (1) hanya dapat diajukan kasasi. SK No 018045 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi Banding memberikan rekomendasi terhadap penghapusan Merek terdaftar atas prakarsa Menteri berdasarkan permintaan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam memberikan rekomendasi sebagaimana dimaksud pada ayat (1), Komisi Banding melakukan pemeriksaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam melakukan pemeriksaan sebagaimana dimaksud da.lam Pasal 31, Komisi Banding melakukan kajian terhadap Merek terdaftar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 3 (tiga) bulan terhitung sejak permintaan Menteri diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Komisi Banding memberikan rekomendasi kepada Menteri untuk dilakukan penghapusan Merek terdaftar dalam hal hasil pemeriksaan menunjukkan Merek:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-33/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki persamaan pada pokoknya dan/atau keseluruhannya dengan Indikasi Geogralis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-33/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bertentangan dengan ideologi negara, peraturan perundang-undangan, moralitas, agama, kesusilaan, dan ketertiban umum; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-90-tahun-2019/pasal-33/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki kesamaan pada keseluruhannya dengan ekspresi budaya tradisional, warisan budaya takbenda, atau nama atau logo yang sudah merupakan tradisi turun temurun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal hasil perneriksaan Merek tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), Komisi Banding memberikan rekomendasi kepada Menteri untuk tidak dilakukan penghapusan Merek terdaftar. BAT} V SK No 018046 A REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Segala pendanaan yang diperlukan dalam penyelenggaraan tugas dan fungsi Komisi Banding dibebankan kepada Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka melaksanakan tugas, fungsi, dan wewenang, anggota Komisi Banding diberikan honorarium.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-90-tahun-2019/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Honorarium sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri setelah mendapatkan persetujuan menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Pada saat Peraturan Pemerintah ini mulai berlaku: a. ketua, wakil ketua, dan anggota Komisi Banding yang ditetapkan oleh Menteri berdasarkan Peraturan Pemerintah Nomor 7 Tahun 2005 tentang Susunan Organisasi, Tugas, dan Fungsi Komisi Banding Merek, tetap menjalankan tugas dan fungsinya sampai jangka waktu masa jabatannya berakhir; dan b. Permohonan Banding yang telah diajukan sebelum Peraturan Pemerintah ini mulai berlaku, pemeriksaan dan penyelesaiannya tetap dilaksanakan berdasarkan Peraturan Presiden Nomor 20 Tahun 2005 tentang Tata Cara Permohonan, Pemeriksaan, dan Penyelesaian Banding Merek. BABVII ... SK No 018047 A REPUBLIK INDONESIA -t7-",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-90-tahun-2019/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Pada saat Peraturan Pemerintah ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Peraturan Pemerintah Nomor 7 Tahun 2005 tentang Susunan Organisasi, Tugas, dan Fungsi Komisi Banding Merek (Lembaran Negara Republik Indonesia Tahun 2005 Nomor 23, Tambahan Lembaran Negara Republik Indonesia Nomor 4481ll dan Peraturan Presiden Nomor 20 Tahun 2OO5 tentang Tata Cara Permohonan, Pemeriksaan, dan Penyelesaian Banding Merek, dinyatakan tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Pada saat Peraturan Pemerintah ini mulai berlaku: a. Peraturan Pemerintah Nomor 7 Tahun 2005 tentang Susunan Organisasi, Tugas, dan Fungsi Komisi Banding Merek (Lembaran Negara Republik Indonesia Tahun 2005 Nomor 23, Tambahan Lembaran Negara Republik Indonesia Nomor aaSll;' b. Peraturan Pemerintah Nomor 51 Tahun 2OO7 tentang Indikasi-Geografis (Lembaran Negara Republik Indonesia Tahun 2OO7 Nomor 1 15, Tambahan Lembaran Negara Republik Indonesia Nomor 4763) terkait ketentuan mengenai Permohonan Banding Indikasi Geografis; dan c. Peraturan Presiden Nomor 20 Tahun 2OO5 tentang Tata Cara Permohonan, Pemeriksaan, dan Penyelesaian Banding Merek, dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-90-tahun-2019/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar SK No 018048 A REPUBLIK INDONESIA _18_ Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 3O Desember 2019 PRESIDEN REPUBLIK INDONESTA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 31 Desember 2019 MENTERI HUKUM DAN HAK ASAST MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 259 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Bidang Hukum dan ang-undangan, anna Djaman SK No 018049 A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..39): [10, 11]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

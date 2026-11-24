@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-12-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa ketentuan-ketentuan dalam Peraturan Pemerintah No. 61 tahun 1954 perlu disesuaikan dengan perkembangan masyarakat dan perekonomian di Indonesia pada waktu ini, sehingga pekerjaan bongkar/muat kapal dan penimbunan serta pengangkutan barang dipelabuhan dapat dijalankan secara lancar;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-12-tahun-1962",
+   "detailsId": "72362",
+   "judul": "PP No. 12 Tahun 1962 tentang Perusahaan Muatan Kapal Laut 1962 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62842/pp%20no%20012%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:46.236007+00:00"
+  },
+  "sha256": "e58ae126a9536279a4729f2bba48d1bfecf520fa4f58eadc9ccb669e1e06ea09",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

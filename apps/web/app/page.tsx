@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import MockupPreview from './components/home/MockupPreview';
+import SearchAutocompleteDropdown from './components/SearchAutocompleteDropdown';
 import {
   Search, ArrowRight, Network, CheckCircle2,
   ShieldCheck, LogIn
@@ -16,16 +17,22 @@ export default function HomePage() {
   const router = useRouter();
   const [searchKeyword, setSearchKeyword] = useState('');
   const [currentUser, setCurrentUser] = useState<{ id: string; name: string; email: string; role: string } | null>(null);
+  const [laws, setLaws] = useState<any[]>([]);
 
   useEffect(() => {
     (async () => {
       try {
-        const res = await fetch(`${API_BASE}/api/v1/auth/me`, { credentials: 'include' });
-        if (res.ok) {
-          const json = await res.json();
-          if (json.user) {
-            setCurrentUser(json.user);
-          }
+        const [meRes, lawsRes] = await Promise.all([
+          fetch(`${API_BASE}/api/v1/auth/me`, { credentials: 'include' }).catch(() => null),
+          fetch(`${API_BASE}/api/v1/instruments?all=true`).catch(() => null),
+        ]);
+        if (meRes && meRes.ok) {
+          const json = await meRes.json();
+          if (json.user) setCurrentUser(json.user);
+        }
+        if (lawsRes && lawsRes.ok) {
+          const json = await lawsRes.json();
+          if (Array.isArray(json?.data)) setLaws(json.data);
         }
       } catch {
         // Tamu / belum login
@@ -72,29 +79,22 @@ export default function HomePage() {
               Disajikan rapi layaknya dokumen naskah hukum asli dengan penanda warna amandemen yang bersih.
             </p>
 
-            {/* Hero Search Box Putih Bersih dengan Tombol Merah Marun */}
-            <form onSubmit={handleHeroSearch} className="mt-6 max-w-2xl mx-auto relative flex items-center">
-              <Search className="w-5 h-5 absolute left-4 text-slate-400" />
-              <input
-                type="text"
+            {/* Hero Search Box Cerdas dengan Autocomplete & Typo Tolerance */}
+            <div className="mt-6 max-w-2xl mx-auto">
+              <SearchAutocompleteDropdown
                 value={searchKeyword}
-                onChange={(e) => setSearchKeyword(e.target.value)}
-                placeholder="Cari undang-undang, nomor, tahun, atau topik delik hukum…"
-                className="w-full pl-12 pr-28 py-3.5 rounded-2xl bg-white border border-white/40 shadow-2xl text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-4 focus:ring-amber-300/30 focus:border-[#94191C] transition-all font-medium"
+                onChange={setSearchKeyword}
+                onSubmit={handleHeroSearch}
+                laws={laws}
+                placeholder="Cari undang-undang, nomor, tahun, atau topik hukum… (mis. KUHP, ITE, Cipta Kerja)"
+                showQuickPills={true}
               />
-              <button
-                type="submit"
-                className="absolute right-2 top-2 bottom-2 px-5 bg-[#94191C] hover:bg-[#861619] text-white rounded-xl text-xs font-bold flex items-center gap-1.5 transition-colors cursor-pointer shadow-md"
-              >
-                <span>Cari</span>
-                <ArrowRight className="w-3.5 h-3.5" />
-              </button>
-            </form>
+            </div>
 
-            {/* Shortcut Chips Langsung di Bawah Kotak Pencarian */}
+            {/* Shortcut Kategori Hukum Langsung di Bawah Kotak Pencarian */}
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto text-xs font-medium">
               <span className="text-white/70 text-[11px] font-semibold uppercase tracking-wider mr-1">
-                Pintasan Cepat:
+                Kategori Populer:
               </span>
               {[
                 { label: 'Hukum Pidana', query: 'pidana' },

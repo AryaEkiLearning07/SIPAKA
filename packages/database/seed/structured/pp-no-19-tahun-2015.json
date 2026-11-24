@@ -1,0 +1,91 @@
+{
+ "slug": "pp-no-19-tahun-2015",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan untuk melaksanakan ketentuan Pasal 2 ayat (2) dan ayat (3) serta Pasal 3 ayat (2) Undang-Undang Nomor 20 Tahun 1997 tentang Penerimaan Negara Bukan Pajak, perlu menetapkan Peraturan Pemerintah tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Agama;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 6 April 2015 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 78 PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 19 TAHUN 2015 TENTANG JENIS DAN TARIF ATAS JENIS PENERIMAAN NEGARA BUKAN PAJAK YANG BERLAKU PADA KEMENTERIAN AGAMA I. UMUM Untuk mengoptimalkan Penerimaan Negara Bukan Pajak guna menunjang pembangunan nasional, Penerimaan Negara Bukan Pajak pada Kementerian Agama sebagai salah satu sumber penerimaan negara, perlu dikelola dan dimanfaatkan untuk peningkatan pelayanan kepada masyarakat. jenis dan tarif atas Kementerian Agama telah memiliki jenis Penerimaan Negara Bukan Pajak sebagaimana diatur dalam Peraturan Pemerintah Nomor 47 Tahun 2004 tentang Tarif atas Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Departemen Agama sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 48 Tahun 2014 tentang Perubahan atas Peraturan Pemerintah Nomor 47 Tahun 2004 tentang Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Departemen Agama, namun guna melakukan penyesuaian jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak pada",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-2015",
+   "detailsId": "5583",
+   "judul": "PP No. 19 Tahun 2015 tentang Jenis Dan Tarif Atas Jenis Penerimaan Negara Bukan Pajak Yang Berlaku Pada Kementerian Agama - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28689/PP%20Nomor%2019%20Tahun%202015.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-48-tahun-2014",
+    "pp-no-48-tahun-2014",
+    "pp-no-47-tahun-2004"
+   ],
+   "scrapedAt": "2026-10-06T06:00:57.187505+00:00"
+  },
+  "sha256": "7c008f60ffa944cf7bd411bbc9b563f5cf7e494941bdc84bd18f31af9e73691e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-19-tahun-2015/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-2015/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Jenis Penerimaan Negara Bukan Pajak yang berlaku pada Kementerian Agama meliputi kegiatan yang berasal dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-2015/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Perguruan Tinggi Agama Negeri; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-2015/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Kantor Urusan Agama Kecamatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-2015/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Jenis dan tarif atas jenis Penerimaan Negara Bukan Pajak sebagaimana dimaksud pada ayat (1) ditetapkan dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

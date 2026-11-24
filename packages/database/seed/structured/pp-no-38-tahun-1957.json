@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-38-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan terbentuknya Konstituante dipandang perlu ketentuan mengenai pemberian istirahat Dalam Negeri ditambah."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1957",
+   "detailsId": "76737",
+   "judul": "PP No. 38 Tahun 1957 tentang Menambah Peraturan Pemerintah No. 15 Tahun 1953 Tentang Pemberian Istirahat dalam Negeri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67682/PP%20No.%2038%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:51:27.682331+00:00"
+  },
+  "sha256": "d8f82a5f8c81d5e8b241786419f20c0af711d24e2cde504663cc0918d385f3e8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-38-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pasal 3 ayat (1) Peraturan Pemerintah No. 15 tahun 1953 ditambah dengan sub g, yang berbunyi, \"Ketua Konstituante, yang mengenai pegawai yang dipekerjakan pada Konstituante itu\".",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada hari diundangkan dan berlaku surut sampai tanggal 23 Nopember 1956. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 11 September 1957 PRESIDEN REPUBLIK INDONESIA, ttd. (SUKARNO) WAKIL PERDANA MENTERI I, ttd. (HARDI) Diundangkan pada tanggal 21 September 1957 MENTERI KEHAKIMAN, ttd. (G.A. MAENGKOM) LEMBARAN NEGARA TAHUN 1957 NOMOR 92",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

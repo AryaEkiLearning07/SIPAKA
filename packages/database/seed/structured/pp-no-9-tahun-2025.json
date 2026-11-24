@@ -1,0 +1,968 @@
+{
+ "slug": "pp-no-9-tahun-2025",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-9-tahun-2025",
+   "detailsId": "314626",
+   "judul": "PP No. 9 Tahun 2025 tentang Besaran dan Penggunaan Iuran Badan Usaha dalam Kegiatan Usaha Minyak dan Gas Bumi pada Badan Pengatur Hilir Minyak dan Gas Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/375606/PP%20Nomor%209%20Tahun%202025.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-48-tahun-2019",
+    "pp-no-49-tahun-2012",
+    "pp-no-67-tahun-2002"
+   ],
+   "scrapedAt": "2026-10-06T00:39:49.823434+00:00"
+  },
+  "sha256": "f95da68649cb5e1b8c332e1491f31f72df6b9ac6f2f79a51f07be343f72d1ed5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 23,
+  "ayat_angka": 40,
+  "huruf": 26
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEWAJIBAN PEMBAYARAN IURAN OLEH BADAN USAHA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan Usaha yang melakukan kegiatan penyediaan dan pendistribusian Bahan Bakar Minyak dan/atau Niaga Bahan Bakar Minyak wajib membayar Iuran kepada Badan Pengatur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan Usaha yang melakukan kegiatan: merupakan jenis PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pengangkutan Gas Bumi Melalui Pipa; dan/ atau SK No250749A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "usaha . . . REPUELIK INDONESIA usaha Niege Gas Bumi melalui pipa yang memiliki fasilitas jaringan distribusi, wajib membayar Iuran kepada Badan Pengatur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Badan Usaha yang wajib Iuran sebagaimana dimaksud pada ayat (l) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Badan Usaha pemegang lzin Usaha Niaga Umum (ttlolesale) Bahan Bakar Minyak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Badan Usaha pemegang lzin Usaha Niaga Terbatas (trading)Bahan Bakar Minyak; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Badan Usaha pemegang Izin Usaha Pengolahan yang menghasilkan Bahan Bakar Minyak dan melakukan Niaga Bahan Bakar Minyak kepada konsumen akJ:;fu (end user/ sebagai kelanjutan kegiatan usaha Pengolahannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Badan Usaha yang wajib membayar luran dalam Gas Bumi melalui Pipa dan/atau kegiatan usaha Niaga Gas Bumi melalui pipa ssfagaimana dimaksud pada ayat (2) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Badan Usaha pemegang Izin Usaha Pengangkutan Minyak dan Gas Bumi untuk kegiatan usaha Gas Bumi melalui Pipa pada Ruas Transmisi dan/ atau Wilayah Jaringan Distribusi yang telah memiliki Hak Khusus; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Badan Usaha pemegang Izin Usaha Niaga Minyak dan Gas Bumi untuk kegiatan usaha Niaga Gas Bumi yang memiliki fasilitas dan jaringan distribusi Gas Bumi pada Wilayah Jaringan Distribusi yang telah memiliki Hak Khusus.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-2/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Iuran sebagaimana dimaksud pada ayat (l) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "(l) Iuran yang dibayar oleh Badan Usaha sebagaimana dimaksud dalam Pasal 2 ayat (3) huruf a dan huruf b dikenakan berdasarkan pada volume Bahan Bakar Minyak yang dijual.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Iuran . . . SK No250750A REPUBLIK INDONESIA l2l Iuran yang dibayar oleh Badan Usaha sebagaimana dimaksud dalam Pasal 2 ayat (3) huruf c dikenakan berdasarkan pada volume Bahan Bakar Minyak yang dijual kepada konsumen akl:ir (end usey' sebagai kelanjutan kegiatan usaha Pengolahannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jenis Bahan Bakar Minyak sebagaimana dimaksud pada ayat (1) dan ayat (21meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "avgas lauiation gasoline);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "avnlr laviationturbinel;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bensin (gasolinel;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "minyak solar (gas oil);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "minyak tanah (lcerosenel;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mediumdistillatefuel; dan C. minyak bakar lf,uel oit1, sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Iuran yang dibayar oleh Badan Usaha sebagaimana dimaksud dalam Pasal 2 ayat (41 huruf a dikenakan berdasarkan pada volume Gas Bumi yang diangkut melalui pipa pada Ruas Tlansmisi maupun Wilayah Jaringan Distribusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Iuran yang dibayar oleh Badan Usaha dimaksud dalam Pasal 2 ayar (41 huruf b dikenakan berdasarkan pada volume Gas Bumi yang dijual pada Wilayah Jaringan Distribusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Iuran yang dibayar oleh Badan Usaha sebagaimana dimaksud pada ayat (l), ayat (21, ayat (4), dan ayat (5) merupakan PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Seluruh PNBP sebagaimana dimaksud dalam Pasal 2 ayat (5) dan Pasal 3 ayat (6) wajib disetor ke Kas Negara. BABIII ... SK No250751A REPUBL]K INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "BESARAN IURAN DAN MEKANISME PEMBAYARAN IURAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "(l) Besaran Iuran yang wajib dibayar oleh Badan Usaha sebagaimana dimaksud dalam Pasal 3 ayat (1) dan ayat (21 didasarkan pada perkalian realisasi jumlah volume per jenis Bahan Bakar Minyak yang dijual per bulan, dengan harga jual Bahan Bakar Minyak dan hasilnya dikalikan dengan tarif Iuran sebesar 0,25olo (nol koma dua lima persen). (21 Harga jual Bahan Bakar Minyak sebagaimana dimaksud pada ayat (l): a. mengacu pada harga jual yang tercantum dalam inuoie yang dikeluarkan oleh Badan Usaha pemegang izin; dan b. tidak termasuk pajak sesuai dengan ketentuan peraturan perundang-undangan. a",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Besaran Iuran yang wajib dibayar oleh Badan Usaha yang melakukan kegiatan usaha Pengangkutan Gas Bumi melalui Pipa pada Ruas Transmisi dan/ atau pada Wilayah Jaringan Distribusi sebagaimana dimaksud dalam Pasal 3 ayat (4) didasarkan pada perkalian realisasi jumlah volume Gas Bumi yang diangkut melalui pipa per bulan dengan tarif pengangkutan Gas Bumi per seribu standar kaki kubik (Mil Standard Cubic Feet) dan hasilnya dikalikan dengan tarif Iuran sebesar 2,507o (dua koma lima nol persen). (21 Besaran tarif pengangkutan Gas Bumi sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan Pengatur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "(l) Besaran luran yang wajib dibayar oleh Badan Usaha yang melakukan kegiatan usaha Niaga Gas Bumi sebagaimana dimaksud dalam Pasal 3 ayat (5) didasarkan pada perkdian realisasi jumlah volume atau jumlah energi Gas Bumi yang dijual per bulan dengan tarif Iuran sebesar O,25o/o lnol koma dua lima persen) dari harga jual Gas Bumi. SK No250752A",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jumlah. . . REPUELIK INDONESIA (21 Jumlah volume atau jumlah energi sebagaimana dimaksud pada ayat (l) dinyatakan dalam satuan per seribu standar kal<i kubik (Mil Standard Atbic Feet), satu juta British Tlermal Unit (Million British Thermal Unit), meter kubik, atau satuan volume atau energi lainnya yang setara sesuai transaksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Harga jual Gas Bumi sebagaimana dimaksud pada ayat (l) merupakan harga jual pada saat transaksi tidak termasuk pajak sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Dalam hal harga jual per jenis Bahan Bakar Minyak per liter sebasaimana dimalsud dalam Pasal 5, tarif pengangkutan Gas Bumi sebagaimana dimaksud dalam Pasal 6, dan/ atau harga jual Gas Bumi sebagaimana dimaksud dalam Pasal 7 dalam valuta asing, pembayaran Iuran dilakukan dalam Rupiah berdasarkan nilai tukar sesuai rata-rata kurs tengah Bank lndonesia pada bulan berkenaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembayaran Iuran sebagaimana dimaksud dalam Pasal 5, Pasal 6, dan Pasal 7 dilakukan setiap bulan berdasarkan realisasi. (21 Jatuh tempo pembayaran Iuran untuk bulan yang bersangkutan yaitu tanggal 25 (dua puluh lima) bulan berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal tanggal jatuh tempo sebagaimana dimaksud dengan hari libur, Iuran dilakukan pada hari kerja pada ayat l2l berikutnya. Pasal 1O Iuran oleh Badan Usaha Kewajiban sebagaimana dimaksud dalam Pasal 2 ayat l3l dan ayat (4) dikecualikan untuk jenis Bahan Bakar Minyak tertentu, jenis Bahan Bakar Minyak khusus penugasan, Gas Bumi melalui pipa untuk rumah tangga dan pelanggan kecil, dan Gas Bumi untuk bahan bakar gas (transportasi). Pasal11... SK No 250753 A REPUELIK INDONESIA - lo-",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-1l",
+     "type": "PASAL",
+     "orderIndex": 1.1,
+     "label": "Pasal 1l",
+     "content": "(l) Dengan pertimbangan tertentu, tarif atas luran sebagaimana dimaksud dalam Pasal 5 ayat (1), Pasal 6 ayat (1), dan Pasal 7 ayat (1) dapat ditetapkan sampai dengan RpO,OO (nol rupiah) atau Oo/o (nol persen). l2l Ketentuan mengenai besaran, p€rsyaratan, dan tata cara pengenaEm tarif atas Iuran sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Badan Pengatur.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-1l/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besaran, persyaratan, dan tata cara pengenaan tarif atas Iuran sebagaimana dimaksud pada ayat (2) harus terlebih dahulu mendapatkan persetujuan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PELAPORAN IURAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan Usaha sebagaimana dimaksud dalam Pasal 2 ayat (3) dan ayat (4) wajib men3rusun dan menyampaikan laporan bulanan dalam rangka Iuran kepada Badan Pengatur. l2l Laporan bulanan dalam rangka Iuran sebagaimana dimaksud pada ayat (l) paling sedikit memuat volume, harga jual atau tarif nilai penjualan sesuai dengan transaksi (inuoie) penjualan yang realisasi Iuran, dan ditagthkan kePada Iuran terutang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan sebagaimana dimaksud pada ayat l2l disampaikan paling lambat tanggaJ25 (dua puluh lima) bulan berikutnya. 14) Berdasarkan laporan sebagaimana dimaksud pada ayat (21, Badan Pengatur wajib melakukan verifikasi atas pembayaran Iuran setiap triwulan sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penyampaian laporan dan verifrkasi Iuran sebagaimana dimaksud pada ayat (2) dan ayat (4) dilaksanakan melalui sistem informasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-12/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai penyampaian laporan dan verilikasi pembayaran Iuran diatur dengan Peraturan Badan Pengatur. SK No250754A Pasal 13. . . REPUBLIK INDONESIA - tl-",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan hasil verifrkasi sebagaimana dimaksud dalam Pasal 12, Badan Pengatur:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan PNBP terutang dengan menerbitkan dan menyampaikan surat tagihan PNBP kepada Badan Usaha dalam hal terdapat kurang bayar; atau temuan dari hasil pengawasan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menerbitkan surat pemberitahuan kepada Badan Usaha dalam hal terdapat lebih bayar atau nihil. l2l Dalam hal terdapat: revisi laporan bulanan Badan Usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kekeliruan perhitungan dalam verifikasi luran; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "perubahankeb[jakanpemerintah, Badan Pengatur dapat melakukan verifikasi ulang.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Atas verifikasi ulang sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan Pengatur dapat melakukan pembetulan surat tagihan atau surat pemberitahuan. l4l Penetapan PNBP terutang dan penerbitan surat pemberitahuan sebagaimana dimaksud pada ayat (l) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-14/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "surat tagihan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-14/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "suratpemberitahuan, Badan Usaha dapat atau pengembalian PNBP. (2t pengajuan keringanan atau pengembalian PNBP sebagaimana dimaksud pada ayat (l) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP. Pasal 15. . . SK No250755A REPUBLIK INDONESIA",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "(l) Dalam hal terdapat kelebihan pembayaran Iuran, Usaha dapat mengajukan permohonan pengembalian atas kelebihan pembayaran Iuran. (2t atas kelebihan pembayaran Iuran sebagaimana dimaksud pada ayat (1) diperhitungkan sebagai pembayaran di muka atas jumlah Iuran berikutnya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam kondisi tertentu, pengembalian atas kelebihan pembayaran Iuran sebasaimana dimaksud pada ayat (21 dapat diberikan secara langsung melalui bukuan. (4) sebagaimana dimaksud pada ayat (1), ayat l2l, dan ayat (3) sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PEMERIKSAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Badan Pengatur dapat meminta badan yang menyelenggarakan urusan pemerintahan di bidang pengawasan keuangan dan pembangunan untuk melakukan pemeriksaan kepada Badan Usaha dalam rangka pemenuhan kewajiban Iuran dan/atau kepatuhan terhadap ketentuan peraturan perundang- undangan di bidang PNBP. l2l Pemeriksaan kepada Badan Usaha dalam rangka pemenuhan kewajiban Iuran dan/atau kepatuhan terhadap ketentuan peraturan perundang-undangan di bidang PNBP sebagaimana dimaksud pada ayat (l) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Berdasarkan sebagaimana dimaksud pada ayat (l), Kepala Badan Pengatur menerbitkan Surat Ketetapan PNBP Kurang Bayar, Surat Ketetapan PNBP Lebih Bayar, atau Surat Ketetapan PNBP Nihil paling lambat lO (sepuluh) hari kerja sejak laporan hasil pemeriksaan diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Berdasarkan . . . SK No250756A REPUBLIK INDONESIA Berdasarkan Surat Ketetapan PNBP Kurang Bayar, Surat Ketetapan PNBP kbih Bayar, atau Surat Ketetapan PNBP Nihil sebagaimana dimaksud pada ayat (3), Badan Usaha dapat mengajukan permohonan keberatan, keringanan, dan pengembalian PNBP sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP. PERENCANAAN BESARAN DAN PENGGUNAAN IURAN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PERENCANAAN BESARAN DAN PENGGUNAAN IURAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Perencanaan PNBP pada Badan Pengatur dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang PNBP.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepala Badan Pengatur sesuai dengan dapat mengusulkan penggunaan dana PNBP. (21 Penggunaan dana PNBP sebagaimana dimaksud pada ayat (l) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": ".rnggaran biaya operasional; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kegiatan lainnya untuk mendukung pelaksanaan tugas dan fungsi Badan Pengatur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penggunaan dana PNBP dapat ditujukan untuk unit kerja lain di lingkungan kementerian yang urusan pemerintahan di bidang energi dan sumber daya mineral dalam rangka penyediaan dan mendukung pendistribusian Bahan Bakar Minyak dan Pengangkutan Gas Bumi melalui Pipa.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Usulan penggunaan sslagaimana dimaksud pada ayat (l) dan penggunaan dana PNBP sebagaimana dimaksud pada ayat (2) dan ayat (3) dilaksanalan sesuai dengan ketentuan peraturan perundang- undangan di bidang PNBP. BABVII ... SK No250757A FR,ESIDEN REPUBLIK INDONESIA -t4-",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "SANKSI ADMINISTRATIF",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Badan Usaha tidak menyampaikan laporan sebagaimana dimaksud dalam Pasal 12, Badan Pengatur mengenakan sanksi administratif berupa: Dalam hal terdapat kekurangan dan/atau keterlambatan pembayaran luran, Badan Usaha dikenakan sanksi administratif berupa denda sebesar 2o/o (dua persen) per bulan dari bagian yang terutang dan bagan dari bulan dihitung 1 (satu) bulan penuh paling lama 24 (dua puluh empat) bulan. SK No250758A",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran tertulis; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pencabutan Nomor Registrasi Us$a Badan Usaha atau Hak Khusus Badan Usaha. l2l Teguran tertulis sebagaimana dimaksud pada ayat (l) diberikan paling banyak 3 (tiga) kali untuk jangka waktu paling lama masing-masing 1 (satu) bulan kepada Badan Usaha.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila Badan Usaha yang mendapat sanksi teguran tertulis setelah berakhirnya jangka waktu teguran tertulis ketiga sebogaimana dimaksud pada ayat (21 kewaj ibannya, Badan Pengatur belum sanksi administratif berupa dapat Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha. (41 Pengenaan sanksi administratif berupa pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha sebagaimana dimaksud pada ayat (3) disertai usulan Kepala Badan Pengatur kepada menteri yang menyelenggarakan urusan pemerintahan di bidang energi dan sumber daya mineral untuk pencabutan perizinan berusaha. Tata cara penagihan Iuran dilaksanakan sesuai di dengan ketentuan peraturan bidang PNBP.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pencabutan perizrnan berusaha sebagaimana dimaksud pada ayat (4) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Pasal 2O",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan. . . REPUBUK INDONESIA (21 Badan Pengatur melakukan penagihan terhadap Badan Usaha atas kekurangan dan/atau keterlambatan pembayaran Iuran dan denda sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Badan Usaha tidak membayar kewajiban Iuran sebagaimana dimaksud dalam Pasal 2 terhitung 24 (dua puluh empat) bulan sejak jatuh terutang, Badan Pengatur dapat tempo mengenakan sanksi administratif berupa pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha. l2l Pengenaan sanksi administratif berupa pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha sebagaimana dimaksud pada ayat (1) disertai usulan Kepala Badan Pengatur kepada menteri yang menyelenggarakan urusan pemerintahan di bidang energi dan sumber daya mineral untuk mengenakan sanksi pencabutan perizinan berusaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pencabutan perizinan berusaha sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KEWAJIBAN DAN TANGGUNG JAWAB BADAN USAHA ATAS PENGENAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Sanksi administratif berupa pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha sebagaimana dimaksud dalam Pasal 19 ayat (a) dan Pasal 2L ayat l2l tidak kewajiban pembayaran Iuran terutang pada Badan Usaha. Pasal 23... SK No250759A REPUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Segala kerugian yang timbul sebagai akibat diberikannya sanksi administratif berupa teguran tertulis dan/ atau pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha dan pencabutan perizinan berusaha sebagaimana dimaksud dalam Pasal 19, denda sebagaimana dimaksud dalam Pasal 20, dan pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha dan pencabutan perizinan berusaha sebagaimana dimaksud dalam Pasal 21 menjadi beban dan tanggungjawab Badan Usaha yang bersangkutan. Pasa724",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kewajiban Badan Usaha yang timbul berdasarkan Peraturan Pemerintah Nomor I Tahun 2OO6 tentang Besaran dan Penggunaan Iuran Badan Usaha dalam Kegiatan Usaha Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Pengangkutan Gas Bumi melalui Pipa, diselesaikan berdasarkan Peraturan Pemerintah Nomor I Tahun 2O06 tentang Besaran dan Penggunaan Iuran Badan Usaha ddam Kegiatan Usaha Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Pengangkutan Gas Bumi melalui Pipa. t2t kewajiban sebagaimana dimaksud pada ayat (l) dilakukan paling lama 6 (enam) bulan sejak Peraturan Pemerintah ini berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal kewajiban Badan Usaha belum diselesaikan dalam jangka waktu sebagaimana dimaksud pada ayat (2):",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-23/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Badan Usaha dikenakan sanksi administratif berupa pencabutan Nomor Registrasi Usaha Badan Usaha atau Hak Khusus Badan Usaha oleh Badan Pengatur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-23/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Badan Pengatur mengusulkan kepada menteri yang menyelenggarakan urusan pemerintahan di bidang energi dan sumber daya mineral untuk pencabutan perizinan berusaha.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-9-tahun-2025/pasal-23/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pengurusan piutang Badan Usaha wajib diserahkan oleh Badan Pengatur kepada instansi yang berwenang mengurus piutang negara. Pasal 25. . . SK No250750A REPUBLIK INDONESIA -t7-",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-9-tahun-2025/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kewajiban Peraturan Besaran dan Pemerin Usaha yang tah Nomor 48 timbul berdasarkan Tahun 2019 tentang Iuran Badan Usaha dalam dan Pendistribusian Gas Bumi dilakukan Nomor 48 berdasarkan Peraturan Pemerintah U Minyak dan Pengangkutan Gas Bumi melalui Pipa. t2l (3) (4) negara. Pengatur. Pada saat Badan Pengatur utang kepada instansi negara se",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-9-tahun-2025/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "pengurusan mengurus saha Badan oleh Badan pengurus€rn mengurus Pada saat Peraturan Pemerintah ini mulai berlaku, semua blik Indonesia Nomor 6364), dinyatalan masih tangan dengan Peraturan tidak berten Pemerin PasaT 27 ... SK No250751A IIEPIJELIK INDONESIA Pasal27 Pada saat Peraturan Pemerintah ini mulai berlaku: a. Ketentuan Pasal 33 ayat (6) Peraturan Pemerintah Nomor 67 Tahun 2002 tentang Badan Pengatur Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Kegiatan Usaha Pengangkutan Gas Bumi melalui Pipa (kmbaran Negara Republik Indonesia Tahun 2OO2 Nomor l4l, Tambahan l,embaran Negara Republik Indonesia Nomor 4253) sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 49 Tahun 2012 tentang Perubahan atas Peraturan Pemerintah Nomor 67 Tahun 2OO2 tentang Badan Pengatur Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Kegiatan Usaha Pengangkutan Gas Bumi melalui Pipa (l,embaran Negara Republik Indonesia Tahun 2Ol2 Nomor 95, Tambahan Lembaran Negara Republik Indonesia Nomor 5308); dan b. Peraturan Pemerintah Nomor 48 Tahun 2Ol9 tentang Besaran dan Penggunaan Iuran Badan Usaha dalam Kegiatan Usaha Penyediaan dan Pendistribusian Bahan Bakar Minyak dan Pengangkutan Gas Bumi melalui Pipa (Lembaran Negara Republik Indonesia Tahun 2019 Nomor L22, Tamba}:an Lembaran Negara Republik Indonesia Nomor 6364), dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-9-tahun-2025/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Peraturan 3O (tiga puluh) hari terhitung sejak tanggal diundangkan. ini mulai berlaku setelah Agar SK No250762A dalam kmbaran Negara Republik tnr Ditetapkan di Jalerta pada tanggal 20 Februari 2025 ttd. s pada tanggal 20 Februari 2025 REPUBLIK INDONESI.A, ttd. I REPUBLTK INDONESIATAHUN 2025 NOMOR 24 Salinan scsuai dengan aslinya KEMENTERI.AN SEKRETARTAT NEGARA SK No235757A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..28): [1, 10, 11, 20, 24, 27]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

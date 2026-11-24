@@ -1,0 +1,78 @@
+{
+ "slug": "uu-no-10-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa Anggaran Moneter tahun anggaran 1966 sebagaimana ditetapkan dengan Undang-undang No. 22 tahun 1965 (Lembaran Negara Republik Indonesia tahun 1965 No. 117) dan telah diubah dan ditambah dengan Undang-undang No. 13 tahun 1966 (Lembaran Negara Republik Indonesia tahun 1966 No. 43), perlu diubah dan ditambah untuk kedua kalinya disesuaikan dengan kebijaksanaan Pemerintah tanggal 3 Oktober 1966."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-10-tahun-1967",
+   "detailsId": "49583",
+   "judul": "UU No. 10 Tahun 1967 tentang Perubahan dan Tambahan Atas Perubahan dan Tambahan Anggaran Moneter Tahun Anggaran 1966 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/38861/UU%20Nomor%2010%20Tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:56:52.718190+00:00"
+  },
+  "sha256": "0de6cf99b4e84c73694499997787946e2de949bcdfa89ea7437f723d9d462d5c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-10-tahun-1967/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "1 / 5 (2) (3) (4) (5) b. Belanja Routine lainnya ditambah dengan 4.328.000.000 rupiah baru. Anggaran Belanja untuk membiayai proyek-proyek pembangunan dari Departemen-departemen dan Lembaga-lembaga Negara ditambah dengan 222.000.000 rupiah baru. Subsidi untuk Pembangunan Daerah ditambah dengan 8.000.000 rupiah baru. Anggaran Belanja Khusus ditambah dengan 1.107.000.000 rupiah baru. Jumlah kenaikan kredit atas beban Anggaran Kredit pada akhir tahun anggaran 1966 dikurangi dengan 51.900.000 rupiah baru. Penerimaan Negara untuk tahun 1966 ditambah dengan 5.592.000.000 rupiah baru.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1967/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan-ketentuan dalam Undang-undang Perbendaharaan Negara (I.C.W.) yang bertentangan dengan bentuk dan susunan Undang-undang ini tidak berlaku lagi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1967/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan mempunyai daya surut sampai dengan tanggal 1 Januari 1966. Agar supaya setiap orang mengetahuinya memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-10-tahun-1967/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Disahkan Di Jakarta, Pada Tanggal 11 Oktober 1967 PD. PRESIDEN REPUBLIK INDONESIA, JENDERAL T.N.I. Ttd. SOEHARTO Diundangkan Di Jakarta, Pada Tanggal 11 Oktober 1967 PRESIDIUM KABINET AMPERA, SEKRETARIS, BRIG. JEN. T.N.I Ttd. SUDHARMONO S.H. 2 / 5",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

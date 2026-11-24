@@ -1,0 +1,98 @@
+{
+ "slug": "perpres-no-13-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu menentukan garis kebijaksanaan terhadap pemberontak dan gerombolan yang menyerah tanpa syarat dan kembali kepangkuan Republik Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-13-tahun-1961",
+   "detailsId": "69416",
+   "judul": "PERPRES No. 13 Tahun 1961 tentang Garis Kebijaksanaan Terhadap Pemberontak Dan Gerombolan yang Menyerah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/76237/Perpres%20No.13%20Tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:16:39.812106+00:00"
+  },
+  "sha256": "c59a2c930c29bb20d16784ca3e67d24764a70cca51dd71ba7be246e6b971e9ca",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-13-tahun-1961/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-13-tahun-1961/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pemerintah akan berusaha menyalurkan pemberontakan dan gerombolan yang dimaksud dalam pasal 1 Peraturan Presiden ini, kepelbagai lapangan hidup yang bermanfaat bagi Negara dan Bangsa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-13-tahun-1961/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Dalam penyaluran itu, Pemerintah mengindahkan keseimbangan susunan sosial dari masyarakat yang selalu setia kepada revolusi dan Pemimpin Besar Revolusi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-13-tahun-1961/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pemerintah akan memberikan indoktrinasi kepada pemberontak dan gerombolan yang dimaksudkan dalam pasal 1 Peraturan Presiden ini, mengenai perjuangan Bangsa Indonesia yang berdasarkan atas revoulusi, Manifesto Politik dan satu pimpinan nasional, yaitu Pemimpin Besar Revolusi. Petunjuk pelaksanaan dari pada Peraturan Presiden ini, akan diatur tersendiri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-13-tahun-1961/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-13-tahun-1961/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Presiden ini mulai berlaku pada hari diundangkan. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Juli 1961 ttd. SOEKARNO Diundangkan di Jakarta pada tanggal 1 Agustus 1961. Sekretaris Negara, ttd. MOCH. IHCSAN. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1961 NOMOR 265",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 80,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..5): [1]",
+   "PASAL KOSONG: 1 (['perpres-no-13-tahun-1961/pasal-4'])"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "slug": "pp-no-100-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa perlu segera melaksanakan Undang-undang Nomor 19 Prp Tahun 1960 (Lembaran Negara Tahun 1960 Nomor 59) terhadap Perusahaan Negara yang berada dibawah lingkungan Departemen Perindustrian Dasar/Pertambangan; bahwa berhubung dengan itu perlu didirikan suatu Badan Pimpinan Umum yang diserahi tugas menjalankan tugas menyelenggarakan sebagian dari pekerjaan menguasai dan mengurus Perusahaan Negara yang berusaha dalam lapangan perindustrian dasar."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-100-tahun-1961",
+   "detailsId": "73020",
+   "judul": "PP No. 100 Tahun 1961 tentang Pendirian Badan Pimpinan Umum Industri Kimia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/63522/pp%20no%20100%20tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:05.857514+00:00"
+  },
+  "sha256": "42e2b7b1719a33ff07416b86dd45c7cf2ec1448fa9e487611ecdddeb18c7a13c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-100-tahun-1961/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PEMERINTAH TENTANG PENDIRIAN BADAN PIMPINAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-100-tahun-1961/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ANGGARAN DASAR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Jelajahi Repositori (Kelola Repositori)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Filter_dan_kata_kunci_repositori" name="Filter dan kata kunci repositori" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Daftar_entri_repositori" name="Daftar entri repositori" />
+  <bpmn:message id="Message_Pesan_tidak_ada_entri" name="Pesan tidak ada entri" />
+  <bpmn:dataStore id="d_entri-store" name="Entri Repositori" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Jelajahi Repositori" processRef="jelajahi_repositori" />
+    <bpmn:participant id="user" name="Pengguna" />
+    <bpmn:messageFlow id="m-user-mulai" name="Filter dan kata kunci repositori" sourceRef="user" targetRef="mulai" messageRef="Message_Filter_dan_kata_kunci_repositori" />
+    <bpmn:messageFlow id="m-tolak-user" name="Akses ditolak" sourceRef="tolak" targetRef="user" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-tampil-user" name="Daftar entri repositori" sourceRef="tampil" targetRef="user" messageRef="Message_Daftar_entri_repositori" />
+    <bpmn:messageFlow id="m-kosong-user" name="Pesan tidak ada entri" sourceRef="kosong" targetRef="user" messageRef="Message_Pesan_tidak_ada_entri" />
+  </bpmn:collaboration>
+  <bpmn:process id="jelajahi_repositori" name="Jelajahi Repositori (Kelola Repositori)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Filter dan kata kunci diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Filter_dan_kata_kunci_repositori" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="saring" name="Saring Entri Repositori">
+      <bpmn:ioSpecification id="saring-io">
+        <bpmn:dataInput id="saring-in-1" name="Entri Repositori" />
+        <bpmn:inputSet id="saring-inputs">
+          <bpmn:dataInputRefs>saring-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="saring-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="saring-dia-1">
+        <bpmn:sourceRef>d_entri</bpmn:sourceRef>
+        <bpmn:targetRef>saring-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="ada" name="Ada entri yang cocok?" default="f-ada-kosong" />
+    <bpmn:sendTask id="tampil" name="Tampilkan daftar entri (milik sendiri dan yang dibagikan)" messageRef="Message_Daftar_entri_repositori" />
+    <bpmn:endEvent id="selesai" name="Daftar entri terkirim" />
+    <bpmn:sendTask id="kosong" name="Tampilkan pesan tidak ada entri" messageRef="Message_Pesan_tidak_ada_entri" />
+    <bpmn:endEvent id="nihil" name="Tidak ada entri yang cocok" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-saring" name="ya" sourceRef="izin" targetRef="saring">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-saring-ada" sourceRef="saring" targetRef="ada" />
+    <bpmn:sequenceFlow id="f-ada-tampil" name="ya" sourceRef="ada" targetRef="tampil">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">jumlahEntri &gt; 0</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ada-kosong" name="tidak" sourceRef="ada" targetRef="kosong" />
+    <bpmn:sequenceFlow id="f-tampil-selesai" sourceRef="tampil" targetRef="selesai" />
+    <bpmn:sequenceFlow id="f-kosong-nihil" sourceRef="kosong" targetRef="nihil" />
+    <bpmn:dataStoreReference id="d_entri" name="Entri Repositori" dataStoreRef="d_entri-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="870" height="370" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="user_di" bpmnElement="user" isHorizontal="true">
+        <dc:Bounds x="0" y="410" width="870" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="84" y="91" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="327" y="98" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="428" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="451" y="169" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="saring_di" bpmnElement="saring">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ada_di" bpmnElement="ada" isMarkerVisible="true">
+        <dc:Bounds x="546" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="576" y="98" width="62" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tampil_di" bpmnElement="tampil">
+        <dc:Bounds x="646" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="796" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="780" y="93" width="68" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="kosong_di" bpmnElement="kosong">
+        <dc:Bounds x="646" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="nihil_di" bpmnElement="nihil">
+        <dc:Bounds x="796" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="772" y="223" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_entri_di" bpmnElement="d_entri">
+        <dc:Bounds x="421" y="290" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="328" y="310" width="90" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-user-mulai_di" bpmnElement="m-user-mulai">
+        <di:waypoint x="78" y="410" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="237" width="90" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-user_di" bpmnElement="m-tolak-user">
+        <di:waypoint x="462" y="208" />
+        <di:waypoint x="478" y="208" />
+        <di:waypoint x="478" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="475" y="196" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tampil-user_di" bpmnElement="m-tampil-user">
+        <di:waypoint x="746" y="78" />
+        <di:waypoint x="766" y="78" />
+        <di:waypoint x="766" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="771" y="382" width="68" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-kosong-user_di" bpmnElement="m-kosong-user">
+        <di:waypoint x="696" y="240" />
+        <di:waypoint x="696" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="607" y="314" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="saring-dia-1_di" bpmnElement="saring-dia-1">
+        <di:waypoint x="446" y="290" />
+        <di:waypoint x="446" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-saring_di" bpmnElement="f-izin-saring">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="428" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-saring-ada_di" bpmnElement="f-saring-ada">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-tampil_di" bpmnElement="f-ada-tampil">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="604" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-kosong_di" bpmnElement="f-ada-kosong">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="200" />
+        <di:waypoint x="646" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="579" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tampil-selesai_di" bpmnElement="f-tampil-selesai">
+        <di:waypoint x="746" y="70" />
+        <di:waypoint x="796" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-kosong-nihil_di" bpmnElement="f-kosong-nihil">
+        <di:waypoint x="746" y="200" />
+        <di:waypoint x="796" y="200" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

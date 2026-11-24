@@ -1,0 +1,54 @@
+{
+ "slug": "pp-no-33-tahun-1970",
+ "preamble": {
+  "menimbang": [
+   "b. Hutan Perencanaan bahwa untuk menjamin diperolehnya manfaat yang sebesar- besarnya dari Hutan Serba Guna dan Lestari perlu didahulukan dengan peruntukan, penyediaan, pengadaan dan penggunaan hutan, bahwa untuk memperoleh keseragaman, ketertiban dan kepastian hukum dalam bidang Perencanaan Hutan serta sebagai pelaksanaan Undang-undang Nomor 5 tahun 1967 tentang Ketentuan-ketentuan Pokok Kehutanan khususnya ketentuan pasal 5, 6, 7 dan 8 dipandang perlu menetapkan ketentuan-ketentuan tentang Perencanaan Hutan dalam suatu Peraturan Pemerintah; meliputi yang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-33-tahun-1970",
+   "detailsId": "70105",
+   "judul": "PP No. 33 Tahun 1970 tentang Perencanaan Hutan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60537/pp%20no%20033%20tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-64-tahun-1957"
+   ],
+   "scrapedAt": "2026-10-06T06:05:02.969514+00:00"
+  },
+  "sha256": "7897283e5a036680740a394bc97b540f4f5483d4b8d940ee9e090985b6a61536",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-33-tahun-1970/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

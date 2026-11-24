@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-18-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa perubahan tersebut di atas perlu dilakukan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-18-tahun-1990",
+   "detailsId": "60490",
+   "judul": "PP No. 18 Tahun 1990 tentang Perubahan Peraturan Pemerintah Nomor 33 Tahun 1977 Tentang Asuransi Sosial Tenaga Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/50313/PP%20NO%2018%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:40.237371+00:00"
+  },
+  "sha256": "1ff6f5d133c2ba803452650d2c99a4b8c22b9c7de7574a99feb5635395815813",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

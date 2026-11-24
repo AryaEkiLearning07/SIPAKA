@@ -1,0 +1,43 @@
+{
+ "slug": "perbup-kab-indramayu-no-79-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perbup-kab-indramayu-no-79-tahun-2022",
+   "detailsId": "263823",
+   "judul": "PERBUP Kab. Indramayu No. 79 Tahun 2022 tentang Organisasi dan Tata Kerja Dinas Pendidikan dan Kebudayaan Kabupaten Indramayu - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/320943/2356-PERBUP%20NOMOR%2079%20TAHUN%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perbup-kab-indramayu-no-5-tahun-2022"
+   ],
+   "scrapedAt": "2026-10-06T13:36:07.249198+00:00"
+  },
+  "sha256": "ae0afbb2e178a09ed79aea275ec9c21bf5778c36cda78f33a61644c5ff224be1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

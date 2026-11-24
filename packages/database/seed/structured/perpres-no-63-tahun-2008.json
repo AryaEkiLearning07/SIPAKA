@@ -1,0 +1,80 @@
+{
+ "slug": "perpres-no-63-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu mengesahkan Persetujuan tersebut dengan Peraturan Presiden."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-63-tahun-2008",
+   "detailsId": "42277",
+   "judul": "PERPRES No. 63 Tahun 2008 tentang Pengesahan International Coffee Agreement 2007 (Persetujuan Kopi Internasional 2007) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70724/PERPRES%20NO%2063%20TH%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "keppres-no-32-tahun-2002"
+   ],
+   "scrapedAt": "2026-10-06T06:08:11.860762+00:00"
+  },
+  "sha256": "19d90a85fa026c69b97d3b2c2044edc5e126b951a6b805f5f5992efd180ed2a4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-63-tahun-2008/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan International Coffee Agreement 2007 (Persetujuan Kopi Internasional 2007) yang telah ditandatangani pada tanggal 28 September 2007 di London, Inggris yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-63-tahun-2008/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Persetujuan dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, yang berlaku adalah naskah aslinya dalam Bahasa Inggris.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-63-tahun-2008/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan berlakunya Peraturan Presiden ini, Keputusan Presiden Nomor 32 Tahun 2002 tentang Pengesahan International Coffee Agreement 2001 (Persetujuan Kopi Internasional 2001) (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 60) dicabut dan dinyatakan tidak berlaku lagi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-63-tahun-2008/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Agar . . . - 3 - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 Oktober 2008 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 19 Oktober 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 152",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

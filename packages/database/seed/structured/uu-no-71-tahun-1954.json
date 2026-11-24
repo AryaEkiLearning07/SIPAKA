@@ -1,0 +1,58 @@
+{
+ "slug": "uu-no-71-tahun-1954",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-71-tahun-1954",
+   "detailsId": "50973",
+   "judul": "UU No. 71 Tahun 1954 tentang Penetapan Bagian I.B.W. XV (Perusahaan Batu Bara Bukit Asam) dari Anggaran Republik Indonesia Untuk Tahun-Tahun Dinas 1952 dan 1953 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40222/UU%20Nomor%2071%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:05:39.469643+00:00"
+  },
+  "sha256": "46251fb85fa5fd691d7ad8a416e955a953df20906ac0d4fb400de02f3467d288",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-71-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Bagian IBW. XV (Perusahaan Batu Bara Bukit Asam) dari anggaran Republik Indonesia untuk tahun-tahun dinas 1952 dan 1953 ditetapkan seperti yang dinyatakan pada lampiran-lampiran undang -undang ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-71-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan berlaku surut sampai pada tanggal 1 Januari 1952. Agar… - - Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 29 Nopember 1954. PRESIDEN REPUBLIK INDONESIA, ttd SOEKARNO. MENTERI PEREKONOMIAN, ttd ROOSSENO. Diundangkan pada tanggal 31 Desember 1954. MENTERI KEHAKIMAN, ttd DJODY GONDOKUSUMO. LEMBARAN NEGARA NOMOR 142 TAHUN 1954",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "slug": "perpres-no-110-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka meningkatkan mutu, prestasi, pengabdian, dan hasil kerja di bidang sertifikasi kompetensi kerja sesuai dengan standar kinerja yang berlaku, dipandang perlu memberikan honorarium bagi Ketua, Wakil Ketua dan Anggota Badan Nasional Sertifikasi Profesi dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-110-tahun-2006",
+   "detailsId": "42039",
+   "judul": "PERPRES No. 110 Tahun 2006 tentang Honorarium Bagi Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/72199/PRPS%20NO%20110%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:29.918681+00:00"
+  },
+  "sha256": "b601fb9a5e5601b6642e39f7acc2b21d71be629df75cb6a2e607f11c832527b6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-110-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-110-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya honorarium bagi Ketua, Wakil Ketua dan Anggota Badan Nasional Sertifikasi Profesi sebagaimana dimaksud dalam Pasal 1 adalah sebagai berikut : a. Ketua sebesar Rp 11.500.000,00 (sebelas juta lima ratus ribu rupiah); b. Wakil Ketua sebesar Rp 11.500.000,00 (sebelas juta lima ratus ribu rupiah); c. Anggota sebesar Rp 9.200.000,00 (sembilan juta dua ratus ribu rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-110-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Honorarium bagi Ketua, Wakil Ketua dan Anggota Badan Nasional Sertifikasi Profesi sebagaimana dimaksud dalam Pasal 2, diberikan sejak yang bersangkutan dikukuhkan sebagai Ketua, Wakil Ketua, dan Anggota Badan Nasional Sertifikasi Profesi sesuai dengan ketentuan peraturan perundang- undangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-110-tahun-2006/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini diatur oleh Menteri Keuangan dan/atau Menteri Tenaga Kerja dan Transmigrasi, baik secara bersama-sama maupun sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-110-tahun-2006/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

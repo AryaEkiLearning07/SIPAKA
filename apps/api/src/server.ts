@@ -11,6 +11,10 @@ import { registerBookmarkRoutes } from './routes/bookmarks';
 import { registerNoteRoutes } from './routes/notes';
 import { registerAiRoutes } from './routes/ai';
 import { registerAdminRoutes } from './routes/admin';
+import { registerForumRoutes } from './routes/forum';
+import { registerProfileRoutes } from './routes/profile';
+import { registerRepositoryRoutes } from './routes/repository';
+import { registerGlossaryRoutes } from './routes/glossary';
 
 export async function buildServer(): Promise<FastifyInstance> {
   const server = Fastify({
@@ -50,6 +54,10 @@ export async function buildServer(): Promise<FastifyInstance> {
   registerNoteRoutes(server);
   registerAiRoutes(server);
   registerAdminRoutes(server);
+  registerForumRoutes(server);
+  registerProfileRoutes(server);
+  registerRepositoryRoutes(server);
+  registerGlossaryRoutes(server);
 
   return server;
 }

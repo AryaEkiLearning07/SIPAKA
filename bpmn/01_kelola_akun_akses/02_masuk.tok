@@ -1,0 +1,34 @@
+tok 1.0 "Masuk (Kelola Akun & Akses)"
+
+pool p "Masuk" process=masuk
+  store d_akun "Akun Pengguna"
+  store d_sesi "Sesi"
+  start mulai "Kredensial diterima" message="Kredensial login"
+  service verif "Verifikasi Kredensial"
+  xor benar "Kredensial benar?"
+  service sesi "Buat Sesi"
+  end sukses "Pengguna masuk ke beranda" message="Sesi dan beranda"
+  send gagal "Tampilkan pesan kredensial salah" message="Pesan kredensial salah"
+  xor batas "Percobaan masih di bawah batas?"
+  receive ulang "Terima kredensial ulang" message="Kredensial ulang"
+  end kunci "Login ditolak sementara" message="Akun dikunci sementara"
+
+pool user "Pengguna"
+
+flow mulai -> verif -> benar
+flow benar -> sesi "ya" when="kredensialBenar"
+flow benar -> gagal "tidak" default
+flow sesi -> sukses
+flow gagal -> batas
+flow batas -> ulang "ya" when="percobaan < batasPercobaan"
+flow batas -> kunci "tidak" default
+flow ulang -> verif
+
+reads verif d_akun
+writes sesi d_sesi
+
+message user -> mulai "Kredensial login"
+message sukses -> user "Sesi dan beranda"
+message gagal -> user "Pesan kredensial salah"
+message user -> ulang "Kredensial ulang"
+message kunci -> user "Akun dikunci sementara"

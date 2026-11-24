@@ -1,0 +1,61 @@
+{
+ "slug": "uu-no-1-tahun-1988",
+ "preamble": {
+  "menimbang": [
+   "bahwa Angkatan Bersenjata Republik Indonesia perlu menyediakan kesempatan seluas-luasnya kepada warga negara yang memenuhi persyaratan untuk ikut serta dalam usaha pembelaan negara, baik secara sukarela maupun wajib;",
+   "bahwa persyaratan untuk menjadi anggota Angkatan Bersenjata Republik Indonesia Sukarela, anggota Angkatan Bersenjata Republik lndonesia Wajib, dan anggota Cadangan Tentara Nasional Indonesia sebagaimana dimaksud Pasal 21 dan Pasal 22 Undang-undang Nomor 20 Tahun 1982, berdasarkan pengalaman dalam praktek sulit dilaksanakan dan merupakan kendala baik bagi warga negara untuk menjadi anggota Angkatan Bersenjata Republik Indonesia maupun bagi Angkatan Bersenjata Republik Indonesia untuk memperoleh calon anggota Angkatan Bersenjata Republik Indonesia, oleh karena itu, perlu dilakukan perubahan dan penyempurnaan seperlunya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-1-tahun-1988",
+   "detailsId": "46807",
+   "judul": "UU No. 1 Tahun 1988 tentang Perubahan atas Undang-Undang Nomor 20 Tahun 1982 tentang Ketentuan-Ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35580/UU%20Nomor%201%20Tahun%201988.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:46:39.939912+00:00"
+  },
+  "sha256": "e5756bbe4346c6499b025fda08f1d6bdbf399f4baf0a5d671dc9ef0d4fca93fa",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-1-tahun-1988/pasal-21",
+   "type": "PASAL",
+   "orderIndex": 21,
+   "label": "Pasal 21",
+   "content": "(1) Anggota Angkatan Bersenjata diperoleh secara sukarela dan wajib dari warga negara yang memenuhi persyaratan. (2) Ketentuan-ketentuan tentang anggota Angkatan Bersenjata sebagaimana dimaksud ayat (1) pasal ini diatur lebih lanjut dengan undang-undang.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-1-tahun-1988/pasal-22",
+   "type": "PASAL",
+   "orderIndex": 22,
+   "label": "Pasal 22",
+   "content": "(1) Anggota Cadangan Tentara Nasional Indonesia diperoleh secara sukarela dan wajib dari : a. anggota Angkatan Bersenjata yang telah menyelesaikan masa dinasnya sebagai anggota Angkatan Bersenjata; b. warga negara yang memenuhi persyaratan. (2) Ketentuan-ketentuan tentang anggota Cadangan Tentara Nasional Indonesia sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan undang- undang. Pasal II Undang-undang ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 1 Maret 1988 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 1 Maret 1988 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd SUDHARMONO, S.H. LEMBARAN NEGARA NOMOR 3 TAHUN 1988",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

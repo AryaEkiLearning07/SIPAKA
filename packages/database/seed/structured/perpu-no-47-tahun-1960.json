@@ -1,0 +1,93 @@
+{
+ "slug": "perpu-no-47-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan Manifesto Politik Republik Indonesia tanggal 17 Agustus 1959 untuk kelancaran jalannya pemerintahan didaerah-daerah tingkat II yang telah dibentuk di Sulawesi dan untuk mencapai bentuk susunan ketatanegaraan yang seragam diseluruh wilayah Negara kedua daerah propinsi administratif yang dimaksud pada Peraturan Presiden No. 5 tahun 1960 perlu segera diubah masing-masing menjadi Daerah tingkat I;",
+   "bahwa karena keadaan memaksa soal tersebut diatur dengan Peraturan Pemerintah Pengganti Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpu-no-47-tahun-1960",
+   "detailsId": "53591",
+   "judul": "PERPU No. 47 Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Selatan Tenggara Dan Daerah Tingkat I Sulawesi Utara-Tengah&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42975/perpu%20047%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T07:38:10.292887+00:00"
+  },
+  "sha256": "3dbfcb9eebd8bead76c2b820efc9a79edf8c6a04b542edabcd33f9a8acdbb2a7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpu-no-47-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpu-no-47-tahun-1960/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TENTANG URUSAN RUMAH TANGGA DAERAH DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpu-no-47-tahun-1960/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "TENTANG HAL-HAL YANG BERSANGKUTAN DENGAN KEWENANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpu-no-47-tahun-1960/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN - PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpu-no-47-tahun-1960/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

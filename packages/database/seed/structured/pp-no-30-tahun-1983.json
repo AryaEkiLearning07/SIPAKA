@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-30-tahun-1983",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih meningkatkan pemberian perlindungan kepada tenaga kerja yang tertimpa kecelakaan kerja, dipandang perlu untuk menambah jaminan kecelakaan kerja sebagaimana dimaksud dalam Peraturan Pemerintah Nomor 33 Tahun 1977 tentang Asuransi Sosial Tenaga Kerja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-30-tahun-1983",
+   "detailsId": "71894",
+   "judul": "PP No. 30 Tahun 1983 tentang Perubahan atas Peraturan Pemerintah Nomor 33 Tahun 1977 Tentang Asuransi Sosial Tenaga Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62346/PP%20NO.%2030%20TH%201983.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:40.466809+00:00"
+  },
+  "sha256": "7ceccf53c090d73deff3f288aad211e5bd3b14975eecaee41282bc99f7d21a43",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-30-tahun-1983/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Ketentuan Pasal 7 ayat (2) diubah sehingga berbunyi sebagai berikut \"(2) Jaminan kecelakaan kerja yang dimaksud dalam ayat (1) ialah : a. Biaya pengangkutan tenaga kerja yang mendapat kecelakaan ke rumahnya atau ke rumah sakit; b. Biaya pengobatan dan perawatan di rumah sakit bagi tenaga kerja yang tertimpa kecelakaan kerja, termasuk juga biaya pertolongan pertama pada kecelakaan; c. Biaya pembelian alat bantu/prothese bagi tenaga kerja yang anggota badannya hilang atau tidak berfungsi akibat kecelakaan kerja; d. Tunjangan sementara tidak mampu bekerja, tunjangan cacad tetap, dan uang tunjangan kematian akibat kecelakaan kerja\". Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-30-tahun-1983/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 September 1983 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 27 September 1983 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 41",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-46-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka pelaksanaan ketentuan Pasal 6 ayat (4) Undang- undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan, dipandang perlu menetapkan besarnya persentase Nilai Jual Kena Pajak dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-46-tahun-1985",
+   "detailsId": "64685",
+   "judul": "PP No. 46 Tahun 1985 tentang Penetapan Besarnya Persentase Nilai Jual Kena Pajak Pada Pajak Bumi dan Bangunan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54900/PP%20NO%2046%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:48:05.830359+00:00"
+  },
+  "sha256": "467496fe36263ba81f717544462011a13ade64f2c29d701df6a451d432e654ec",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-46-tahun-1985/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Besarnya persentase Nilai Jual Kena Pajak sebagai dasar penghitungan pajak yang terhutang adalah sebesar 20% (dua puluh persen) dari Nilai Jual Obyek Pajak sebagaimana dimasud dalam Pasal 6 ayat (2) Undang- undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan. Pasal 2 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-46-tahun-1985/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1986. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 1985 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 27 Desember 1985 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1985 NOMOR 70",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "slug": "pp-no-63-tahun-2017",
+ "preamble": {
+  "menimbang": [
+   "b. 1. 2."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-63-tahun-2017",
+   "detailsId": "96735",
+   "judul": "PP No. 63 Tahun 2017 tentang Penambahan Penyertaan Modal Negara Republik Indonesia&#xD;&#xA;Ke Dalam Modal Perusahaan Umum (PERUM)&#xD;&#xA;Pengangkutan Penumpang Djakarta&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/87304/PP%20Nomor%2063%20Tahun%202017.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:32:40.494395+00:00"
+  },
+  "sha256": "f5c65da2dc2b8f0001125b18ccec55c1ffed26f68623e02d7d38c074ec7a1c02",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-63-tahun-2017/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal Perusahaan Umum iferuml pengangkutan Penumpang Djakarta yang ditetapkan terdasarkan- Peiaturan Pemerintah Nomor 91 Tahun 2000 tentang Perusahaan Umum (Perum) Pengangkutan Penumpang Djakarta.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-63-tahun-2017/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-63-tahun-2017/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan - modal negara sebagaimana dimaksud dalam Pasal 1 sebesar npt0s.8o9.300.016,00(seratustigamiliardelapan ratus enam puluh sembilan juta tiga ratus ribu enam belas ruPiah). (2\\ Penambahan penyertaan modal negara sebagaimana dimaksudpadaayat(1)berasaldaripengalihanbarang milik ,r.g^i\" prd. Kementerian perhubungan dengan rincian:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-63-tahun-2017/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "10 (sepuluh) unit Bus Besar program Bus Rapid Transii (BRTj Tipe Euro II Engine Model 2 (dua) Piltu dengan' nilai Rp10.g7g.100.000,00 (sepuluh miliar ratus tutuh puluh sembilan juta seratus \"\"*bil.r, ribu rupiah) yang pengadaannya bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2O13; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-63-tahun-2017/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "78 (tujuh puluh delapan) unit Bus- Besar program Aglomerasi Tipe Euro II Engine Model 2 (dua) Pilty dengan nilai hpg2.ggo.2oo.016,00 (sembilan puluh dua miliar delapan ratus sembilan puluh juta dua ratus ribu enam belas rupiah) yang pengadaannya bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2014'",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-63-tahun-2017/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar... R E P u J,-T': t,',35f; * . r, o Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 29 Desember 2Ol7 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 29 Desember 2Ol7 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2OI7 NOMOR 314 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Asisten Deputi Bidang Perekonomian, ti Bidang Hukum dan ndang-undangan, '7D a filu\"rr.r. Djaman I",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

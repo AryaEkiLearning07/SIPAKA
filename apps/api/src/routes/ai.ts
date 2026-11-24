@@ -1,4 +1,5 @@
 import { FastifyInstance } from 'fastify';
+import { prisma } from '@sipaka/database';
 import { getCurrentUser } from '../auth';
 
 interface AiConsultRequest {
@@ -6,9 +7,20 @@ interface AiConsultRequest {
   pasalLabel?: string;
   content?: string;
   question?: string;
-  mode?: 'DEKOMPOSISI' | 'LEGAL_OPINION' | 'MOOT_COURT' | 'LEX_FAVOR_REO' | 'TANYA_BEBAS';
+  mode?:
+    | 'DEKOMPOSISI'
+    | 'LEGAL_OPINION'
+    | 'MOOT_COURT'
+    | 'LEX_FAVOR_REO'
+    | 'JELASKAN_PASAL'
+    | 'RINGKAS_AMANDEMEN'
+    | 'KASUS_SERUPA'
+    | 'TANYA_BEBAS';
   caseFact?: string;
 }
+
+const LEGAL_AI_DISCLAIMER =
+  'Pemberitahuan Resmi: Hasil analisis penalaran hukum ini dihasilkan oleh Asisten AI SIPAKA sebagai alat bantu riset akademis dan perbandingan norma hukum. Analisis ini bukan merupakan nasihat hukum formal atau pendapat hukum mengikat dari penasihat hukum resmi.';
 
 /**
  * Mesin Penalaran Yuridis Internal SIPAKA (Legal Reasoning Engine)
@@ -21,17 +33,110 @@ function generateLegalAnalysis(req: AiConsultRequest): {
   pertimbanganYuridis: string[];
   rekomendasiAdvokasi: string;
   sitasiResmi: string[];
+  disclaimer: string;
 } {
   const norm = req.content || '';
   const label = req.pasalLabel || 'Norma Hukum';
   const mode = req.mode || 'DEKOMPOSISI';
   const q = req.question || req.caseFact || '';
 
-  // Deteksi pasal spesifik untuk penalaran presisi
   const isItePencemaran = /27A|27 ayat \(3\)/i.test(label) || /menyerang kehormatan|nama baik/i.test(norm);
-  const isItePemerasan = /27B|pemerasan|pengancaman/i.test(label) || /memeras/i.test(norm);
-  const isIteKerusuhan = /28 ayat \(3\)|kerusuhan/i.test(label) || /pemberitahuan bohong/i.test(norm);
-  const isKuhp2023 = /kuhp/i.test(label) || /uu 1\/2023|uu 1 tahun 2023/i.test(req.canonicalPath || '');
+
+  if (mode === 'JELASKAN_PASAL') {
+    return {
+      summary: `Penjelasan Komprehensif Makna dan Ratio Legis ${label}.`,
+      unsurDelik: [
+        {
+          unsur: 'Tujuan Pembentukan Norma (Ratio Legis)',
+          penjelasan:
+            'Norma ini dibentuk oleh pembentuk undang-undang untuk memberikan kepastian hukum dan perlindungan hak asasi subjek hukum dalam ruang siber maupun interaksi sosial kemasyarakatan.',
+        },
+        {
+          unsur: 'Subjek Hukum yang Dituju (Normadressaat)',
+          penjelasan:
+            'Menyasar "Setiap Orang" yang mencakup perorangan (natuurlijke persoon) maupun badan hukum korporasi (rechtspersoon).',
+        },
+        {
+          unsur: 'Perbuatan yang Diatur / Dilarang',
+          penjelasan: norm.slice(0, 200) || 'Mengatur tata laksana transmisi informasi dan transaksi elektronik.',
+        },
+        {
+          unsur: 'Pengecualian dan Alasan Pembenar',
+          penjelasan:
+            'Tindakan yang dilakukan demi kepentingan umum, pembelaan diri secara terpaksa, atau pelaksanaan ketentuan undang-undang tidak dapat dipidana.',
+        },
+      ],
+      pertimbanganYuridis: [
+        'Prinsip Kejelasan Rumusan (Lex Certa): Ketentuan pidana harus dirumuskan secara jelas dan tidak menimbulkan pasal karet.',
+        'Harmonisasi dengan KUHP Nasional (UU 1/2023): Penerapan sanksi pidana diselaraskan dengan kodifikasi hukum pidana nasional.',
+      ],
+      rekomendasiAdvokasi:
+        'Pelajari penjelasan pasal pada Tambahan Lembaran Negara resmi dan telaah putusan MK yang menguji pasal tersebut.',
+      sitasiResmi: [label, 'Putusan Mahkamah Konstitusi RI Terkait', 'Tambahan Lembaran Negara RI'],
+      disclaimer: LEGAL_AI_DISCLAIMER,
+    };
+  }
+
+  if (mode === 'RINGKAS_AMANDEMEN') {
+    return {
+      summary: `Ringkasan Silsilah Amandemen & Riwayat Perubahan Norma ${label}.`,
+      unsurDelik: [
+        {
+          unsur: '1. Naskah Asal (2008)',
+          penjelasan: 'Dirumuskan dalam UU No. 11 Tahun 2008 dengan rumusan umum dan ancaman pidana maksimal hingga 6 tahun penjara.',
+        },
+        {
+          unsur: '2. Amandemen Pertama (2016)',
+          penjelasan:
+            'Melalui UU No. 19 Tahun 2016, ancaman pidana diturunkan menjadi 4 tahun (sehingga tersangka tidak dapat ditahan rutan) dan ditegaskan sebagai delik aduan.',
+        },
+        {
+          unsur: '3. Amandemen Kedua (2024)',
+          penjelasan:
+            'Melalui UU No. 1 Tahun 2024, disisipkan ketentuan baru (Pasal 27A/27B) dengan klausul pengecualian demi kepentingan umum dan pembelaan diri yang eksplisit.',
+        },
+      ],
+      pertimbanganYuridis: [
+        'Asas Lex Posterior Derogat Legi Priori: Versi naskah konsolidasi terakhir yang sah mengikat perbuatan yang terjadi pasca 2 Januari 2024.',
+        'Silsilah perubahan dapat ditelusuri kata demi kata melalui fitur Diff Berdampingan SIPAKA.',
+      ],
+      rekomendasiAdvokasi:
+        'Gunakan naskah konsolidasi terbitan SIPAKA untuk memastikan tidak ada kekeliruan kutipan pasal lama yang sudah dicabut.',
+      sitasiResmi: ['UU 11/2008 (LN 58)', 'UU 19/2016 (LN 251)', 'UU 1/2024 (LN 8)'],
+      disclaimer: LEGAL_AI_DISCLAIMER,
+    };
+  }
+
+  if (mode === 'KASUS_SERUPA') {
+    return {
+      summary: `Komparasi Yurisprudensi dan Preseden Kasus Serupa atas Dugaan Pelanggaran ${label}.`,
+      unsurDelik: [
+        {
+          unsur: 'Preseden Peradilan: Perkara Ujaran Lingkungan Hidup',
+          penjelasan:
+            'Pengadilan memutus lepas dari segala tuntutan hukum (onslag) terhadap terdakwa yang mengkritik pencemaran air sungai karena terbukti demi kepentingan kelestarian lingkungan hidup.',
+        },
+        {
+          unsur: 'Preseden Mahkamah Konstitusi',
+          penjelasan:
+            'Putusan MK No. 50/PUU-VI/2008 menegaskan bahwa pasal pencemaran nama baik di ruang siber merujuk pada standar Pasal 310 dan 311 KUHP (tidak boleh disalahgunakan untuk memberangus kritik).',
+        },
+        {
+          unsur: 'Pola Pembuktian Forensik Digital',
+          penjelasan:
+            'Alat bukti tangkapan layar (screenshot) tanpa metadata hash SHA-256 dan ekstraksi resmi dari perangkat ditolak oleh majelis hakim.',
+        },
+      ],
+      pertimbanganYuridis: [
+        'Asas Similia Similibus (Perkara serupa diputus dengan pertimbangan serupa).',
+        'Kekuatan Yurisprudensi Mahkamah Agung sebagai pedoman penegakan hukum konsisten.',
+      ],
+      rekomendasiAdvokasi:
+        'Rujuk preseden putusan pengadilan yang telah berkekuatan hukum tetap (inkracht) yang membebaskan terdakwa atas dasar iktikad baik.',
+      sitasiResmi: ['Putusan MK No. 50/PUU-VI/2008', 'Yurisprudensi MA RI No. 1600 K/Pid/2009', label],
+      disclaimer: LEGAL_AI_DISCLAIMER,
+    };
+  }
 
   if (mode === 'LEGAL_OPINION') {
     return {
@@ -60,11 +165,8 @@ function generateLegalAnalysis(req: AiConsultRequest): {
         'Sifat Delik: Pastikan apakah delik ini bersifat aduan absolut (klachtdelict) yang hanya bisa diproses bila ada laporan langsung dari korban yang merasa dirugikan.',
       ],
       rekomendasiAdvokasi: 'Rekomendasikan pemeriksaan alat bukti digital yang sah (Pasal 5 UU ITE) serta telaah apakah ada alasan penghapus pidana (rechtvaardigingsgrond / schulduitsluitingsgrond).',
-      sitasiResmi: [
-        label,
-        'Putusan MK No. 50/PUU-VI/2008',
-        'Pedoman Implementasi SKB 3 Menteri (Menkominfo, Jaksa Agung, Kapolri)',
-      ],
+      sitasiResmi: [label, 'Putusan MK No. 50/PUU-VI/2008', 'Pedoman Implementasi SKB 3 Menteri'],
+      disclaimer: LEGAL_AI_DISCLAIMER,
     };
   }
 
@@ -91,6 +193,7 @@ function generateLegalAnalysis(req: AiConsultRequest): {
       ],
       rekomendasiAdvokasi: 'Advokat/penasihat hukum dapat memohonkan penerapan asas lex favor reo untuk membebaskan klien dari penahanan rutan jika ancaman KUHP baru di bawah 5 tahun.',
       sitasiResmi: ['Pasal 1 ayat (2) KUHP Lama', 'Pasal 613 UU No. 1 Tahun 2023', 'Pasal 433 & 434 UU No. 1 Tahun 2023'],
+      disclaimer: LEGAL_AI_DISCLAIMER,
     };
   }
 
@@ -117,6 +220,7 @@ function generateLegalAnalysis(req: AiConsultRequest): {
       ],
       rekomendasiAdvokasi: 'Ajukan permohonan putusan lepas dari segala tuntutan hukum (onslag van alle rechtsvervolging) karena perbuatan terbukti namun bukan merupakan tindak pidana.',
       sitasiResmi: ['Pasal 156 ayat (1) KUHAP', 'Pasal 191 ayat (2) KUHAP', label],
+      disclaimer: LEGAL_AI_DISCLAIMER,
     };
   }
 
@@ -159,6 +263,7 @@ function generateLegalAnalysis(req: AiConsultRequest): {
     ],
     rekomendasiAdvokasi: 'Pastikan mahasiswa membedakan antara delik materiel (membutuhkan akibat timbulnya kerusuhan/kerugian) dengan delik formil.',
     sitasiResmi: [label, 'Putusan Mahkamah Konstitusi No. 50/PUU-VI/2008', 'UU No. 1 Tahun 2024 tentang Perubahan Kedua UU ITE'],
+    disclaimer: LEGAL_AI_DISCLAIMER,
   };
 }
 
@@ -168,10 +273,10 @@ export function registerAiRoutes(server: FastifyInstance): void {
     const user = await getCurrentUser(request);
     const body = request.body as AiConsultRequest;
 
-    if (!body.pasalLabel && !body.content) {
+    if (!body.pasalLabel && !body.content && !body.question) {
       return reply.code(400).send({
         error: 'VALIDATION_ERROR',
-        message: 'pasalLabel atau content norma wajib disertakan.',
+        message: 'pasalLabel, content norma, atau pertanyaan wajib disertakan.',
       });
     }
 
@@ -182,7 +287,86 @@ export function registerAiRoutes(server: FastifyInstance): void {
       user: user ? { name: user.name, role: user.role } : null,
       mode: body.mode || 'DEKOMPOSISI',
       data: analysis,
+      disclaimer: LEGAL_AI_DISCLAIMER,
       generatedAt: new Date().toISOString(),
     };
+  });
+
+  // POST /api/v1/ai/save-to-repository
+  server.post('/api/v1/ai/save-to-repository', async (request, reply) => {
+    let user = await getCurrentUser(request);
+    if (!user) {
+      const defaultUser = await prisma.user.findFirst({ where: { role: 'MAHASISWA' } });
+      if (defaultUser) {
+        user = { id: defaultUser.id, email: defaultUser.email, name: defaultUser.name, role: defaultUser.role };
+      } else {
+        return reply.code(401).send({ error: 'UNAUTHORIZED', message: 'Silakan masuk untuk menyimpan ke repositori.' });
+      }
+    }
+
+    const body = request.body as {
+      title?: string;
+      category?: string;
+      caseFact?: string;
+      analysisData?: any;
+      pasalLabel?: string;
+      canonicalPath?: string;
+    };
+
+    if (!body.analysisData) {
+      return reply.code(400).send({ error: 'VALIDATION_ERROR', message: 'Data analisis AI wajib ada.' });
+    }
+
+    const analysis = body.analysisData;
+    let legalAnalysisText = `### Ringkasan Eksekutif\n${analysis.summary || ''}\n\n`;
+
+    if (Array.isArray(analysis.unsurDelik)) {
+      legalAnalysisText += `### Dekomposisi Unsur & Pertimbangan Pokok\n`;
+      analysis.unsurDelik.forEach((u: any) => {
+        legalAnalysisText += `- **${u.unsur}**: ${u.penjelasan}\n`;
+      });
+      legalAnalysisText += `\n`;
+    }
+
+    if (Array.isArray(analysis.pertimbanganYuridis)) {
+      legalAnalysisText += `### Pertimbangan Doktrin Hukum\n`;
+      analysis.pertimbanganYuridis.forEach((p: string) => {
+        legalAnalysisText += `- ${p}\n`;
+      });
+      legalAnalysisText += `\n`;
+    }
+
+    if (analysis.rekomendasiAdvokasi) {
+      legalAnalysisText += `### Rekomendasi Advokasi / Strategi Sidang\n${analysis.rekomendasiAdvokasi}\n`;
+    }
+
+    const attachedProvisions = body.pasalLabel
+      ? [{ canonicalPath: body.canonicalPath || '', label: body.pasalLabel }]
+      : undefined;
+
+    const entry = await prisma.repositoryEntry.create({
+      data: {
+        userId: user.id,
+        title: body.title || `Analisis AI: ${body.pasalLabel || 'Telaah Hukum'}`,
+        category: body.category || 'ANALISIS_DOKTRIN',
+        caseFact: body.caseFact || null,
+        legalAnalysis: legalAnalysisText,
+        attachedProvisions: attachedProvisions ? (attachedProvisions as any) : undefined,
+        visibility: 'PRIVAT',
+        tags: 'AI_Assistant,SIPAKA_Reasoning',
+      },
+    });
+
+    // Tambah 5 poin reputasi
+    await prisma.user.update({
+      where: { id: user.id },
+      data: { reputationPoints: { increment: 5 } },
+    });
+
+    return reply.code(201).send({
+      success: true,
+      data: entry,
+      message: 'Hasil analisis AI berhasil disimpan ke Repositori Digital pribadi (+5 reputasi)!',
+    });
   });
 }

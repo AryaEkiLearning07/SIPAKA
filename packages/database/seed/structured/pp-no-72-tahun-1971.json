@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-72-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "b. 3."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-72-tahun-1971",
+   "detailsId": "69563",
+   "judul": "PP No. 72 Tahun 1971 tentang Pelaksanaan Berlakunya Undang-Undang Nomor 8 Tahun 1971 Secara Effektif - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60015/PP%20NO%2072%20TH%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-27-tahun-1968"
+   ],
+   "scrapedAt": "2026-10-06T06:01:36.538839+00:00"
+  },
+  "sha256": "0e83be39be5963db9227a1bd2c5b4c1cf72543624c473683e36f966117bcfe30",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

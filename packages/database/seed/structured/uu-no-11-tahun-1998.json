@@ -1,0 +1,64 @@
+{
+ "slug": "uu-no-11-tahun-1998",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan Pasal 199 Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan, Undang-undang tersebut berlaku mulai tanggal 1 Oktober 1998;",
+   "bahwa perkembangan keadaan politik, ekonomi dan sosial dewasa ini melahirkan nilai dan aspirasi baru dalam masyarakat khususnya di bidang ketenagakerjaan perlu diakomodasikan melalui perubahan dan penyempurnaan Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan;",
+   "bahwa untuk melakukan perubahan, penyempurnaan dan penyusunan peraturan perundangan-undangan yang diamanatkan oleh Undang-undang Nomor 25 Tahun 1997 dibutuhkan waktu, maka dipandang perlu untuk mengubah berlakunya Undang-undang Nomor 25 Tahun 1997;",
+   "bahwa untuk itu perlu ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-1998",
+   "detailsId": "45490",
+   "judul": "UU No. 11 Tahun 1998 tentang Perubahan Berlakunya Undang-Undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/34007/UU%20Nomor%2011%20Tahun%201998.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:06:57.673144+00:00"
+  },
+  "sha256": "a230f7906694cc7f7499e7063e1f9b1ab0ab57cbb1e19e0e35d7f2946d32c55a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-1998/pasal-199",
+   "type": "PASAL",
+   "orderIndex": 199,
+   "label": "Pasal 199",
+   "content": "Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan mulai berlaku pada tanggal 1 Oktober 2000.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-1998/pasal-199/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Dengan berlakunya Undang-undang tentang Perubahan Berlakunya Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan, semua peraturan perundang-undangan yang dinyatakan tidak berlaku sebagaimana dimaksud dalam Pasal 198 Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan, tetap berlaku. Pasal II Undang-undang ini mulai berlaku pada tanggal diundangkan. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 10 Nopember 1998 PRESIDEN REPUBLIK INDONESIA, ttd. BACHARUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 10 Nopember 1998 MENTERI NEGARA SEKRETARIS NEGARA ttd. AKBAR TANDJUNG LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1998 NOMOR 184",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..199): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]…"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

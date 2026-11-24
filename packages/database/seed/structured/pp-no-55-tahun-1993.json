@@ -1,0 +1,89 @@
+{
+ "slug": "pp-no-55-tahun-1993",
+ "preamble": {
+  "menimbang": [
+   "bahwa kekayaan Negara yang digunakan oleh Perusahaan Perseroan (PERSERO) PT. Pengembangan Pariwisata Bali untuk pembangunan dan pengembangan Kawasan Nusa Dua Bali, dapat ditetapkan menjadi tambahan penyertaan modal Negara ke dalam modal saham Perusahaan Perseroan (PERSERO) PT. Pengembangan Pariwisata Bali;",
+   "bahwa penambahan penyertaan modal Negara tersebut, perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-55-tahun-1993",
+   "detailsId": "57626",
+   "judul": "PP No. 55 Tahun 1993 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT. Pengembangan Pariwisata Bali - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47089/PP%20No.%2055%20Th%201993.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:12:46.571575+00:00"
+  },
+  "sha256": "6407449faff7da6b3a4f5074ba53e3a26240f2f12e07240c9def5dc136683df9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-55-tahun-1993/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENAMBAHAN PENYERTAAN MODAL NEGARA REPUBLIK INDONESIA KE DALAM MODAL SAHAM PERUSAHAAN PERSEROAN (PERSERO) PT. PENGEMBANGAN PARIWISATA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-55-tahun-1993/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (PERSERO) PT. Pengembangan Pariwisata Bali yang didirikan berdasarkan Peraturan Pemerintah Nomor 27 Tahun 1972.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-55-tahun-1993/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-55-tahun-1993/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 berasal dari kekayaan Negara yang digunakan oleh Perusahaan Perseroan (PERSERO) PT. Pengembangan Pariwisata Bali untuk pembangunan dan pengembangan Kawasan Nusa Dua Bali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-55-tahun-1993/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam ayat (1) sebesar Rp. 10.511.983.643,00 (sepuluh milyar lima ratus sebelas juta sembilan ratus delapan puluh tiga ribu enam ratus empat puluh tiga rupiah) dengan perincian sebagaimana tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

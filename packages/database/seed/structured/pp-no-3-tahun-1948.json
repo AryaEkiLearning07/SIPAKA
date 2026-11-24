@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-3-tahun-1948",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan perubahan yang terkhir dalam Peraturan pemerintah No. 7 tahun 1947 (Berita Negara 1947 No. 14) tentang permohonan grasi, yaitu dengan peraturan pemerintah No. 26 tahun 1947 (Berita Negara 1947 No. 64) perlu diubah pasal 5 ayat 3;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-3-tahun-1948",
+   "detailsId": "63006",
+   "judul": "PP No. 3 Tahun 1948 tentang Permohonan Grasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53220/PP%20No%203%20Tahun%201948.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:36.356914+00:00"
+  },
+  "sha256": "cc5c88c501e1eff2f058b1997a4d39b67660eaa6e3288659a9e2dd7ffbe4ce12",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

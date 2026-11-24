@@ -1,0 +1,70 @@
+{
+ "slug": "pp-no-38-tahun-1974",
+ "preamble": {
+  "menimbang": [
+   "bahwa tempat kedudukan Pemerintah Daerah Kabupaten Surabaya adalah di Gresik, sehingga dengan demikian ada perbedaan nama (Surabaya) dengan nama ibukotanya (Gresik) yang secara psikhologis dirasakan sebagai sesuatu yang kurang serasi/tepat;",
+   "bahwa berhubung dengan itu dianggap perlu untuk menyamakan nama Kabupaten dengan nama ibukotanya yaitu Gresik."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1974",
+   "detailsId": "67960",
+   "judul": "PP No. 38 Tahun 1974 tentang Perubahan Nama Kabupaten Surabaya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58326/PP%20NO%2038%20TH%201974.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:47.327947+00:00"
+  },
+  "sha256": "15228aad9853933b56dc20105d3e76fb19b4a11812cfd8af11e7c96c066612ac",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-38-tahun-1974/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Merubah nama Kabupaten Surabaya menjadi Kabupaten Gresik.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1974/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Segala sesuatu yang berkenaan dengan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Dalam Negeri dengan memperhatikan ketentuan.peraturan perundang-undangan yang berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1974/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkannya. Agar … Agar supaya setiap orang dapat mengetahuinya, memerintahkan peng undangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta, pada tanggal 1 Nopember 1974 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 1 Nopember 1974 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 52",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

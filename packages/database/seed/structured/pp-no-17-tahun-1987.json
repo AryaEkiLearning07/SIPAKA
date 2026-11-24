@@ -1,0 +1,68 @@
+{
+ "slug": "pp-no-17-tahun-1987",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan ketentuan Pasal 4 ayat (1) Undang-undang Nomor 1 Tahun 1986 (tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1986/1987 dan Pasal 3 ayat (1) UndangÄundang Nomor 4 Tahun 1987 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1986/1987, sisa kredit anggaran yang masih diperlukan untuk menyelesaikan proyek tersebut dapat dipindahkan ke Tahun Anggaran 1987/1988;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 11 Agustus 1987 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1987 NOMOR 36 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 17 TAHUN 1987 TENTANG PEMINDAHAN SISA KREDIT ANGGARAN PEMBANGUNAN TAHUN ANGGARAN 1986/1987 KE TAHUN ANGGARAN 1987/1988 1. UMUM Pelaksanaan tahun ketiga Pelita IV, yaitu Tahun Anggaran 1986/ 1987 masih sebagaimana tahun-tahun terdahulu memerlukan pula penyesuaian karena rencana pekerjaan yang telah ditetapkan dalam DIP (Daftar Isian Proyek) dari masing-masing proyek belum dapat diselesaikan seluruhnya pada akhir Tahun Anggaran 1986/1987. Guna menjamin kontinuitas pelaksanaan pembangunan, maka dalam ketentuan Pasal 4 ayat (1) Undang-undang Nomor I Tahun 1986 dan Pasal 3 ayat (1) Undang-undang Nomor 4 Tahun 1987 ditetapkan, bahwa sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1986/ 1987 yang terdapat pada akhir Tahun Anggaran itu dan masih diperlukan untuk penyelesaian proyek dapat dipindahkan ke Tahun Anggaran 1987/ 1988 atau tahun ke empat Pelita IV, yang pengaturannya ditetapkan dengan Peraturan",
+ "source": {
+  "url": {
+   "slug": "pp-no-17-tahun-1987",
+   "detailsId": "64188",
+   "judul": "PP No. 17 Tahun 1987 tentang Pemindahan Sisa Kredit Anggaran Pembangunan Tahun Anggaran 1986/1987 Ke Tahun Anggaran 1987/1988 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54399/PP%20NO%2017%20TH%201987.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:47:45.515260+00:00"
+  },
+  "sha256": "1402b34eb97cd07b9d02caebe826de6b07dd0491baf70ae9c61a72877a0255c1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-17-tahun-1987/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-17-tahun-1987/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Sisa kredit anggaran proyek pada Anggaran Pembangunan Tahun Anggaran 1986/1987 sebesar Rp 64.990.350.000,00 yang terdapat pada akhir Tahun Anggaran 1986/1987 dan masih diperlukan untuk penyelesaian proyek dipindahkan ke Tahun Anggaran 1987/1988.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-17-tahun-1987/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian sisa kredit anggaran tersebut dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

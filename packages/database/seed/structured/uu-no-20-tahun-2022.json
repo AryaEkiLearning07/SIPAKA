@@ -1,0 +1,81 @@
+{
+ "slug": "uu-no-20-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa pembangunan Provinsi Nusa secara berkelanjutan diselenggarakan wilayah untuk mencapai kesejahteraan masyarakat Nusa Tenggara Barat;",
+   "bahwa Undang-Undang Nomor 64 Tahun Tenggara Barat dalam satu kesatuan Provinsi Pembentukan Daerah-Daerah Tingkat Barat dan Nusa Tenggara Timur dengan perkembangan sudah hukum sehingga perlu diganti; 1958 tentang I Bali, Nusa Tenggara lagi tidak sesuai",
+   "bahwa berdasarkan dalam huruf Undang-Undang pertimbangan dimaksud a, huruf b, dan huruf c, perlu membentuk tentang Provinsi Nusa Tenggara Barat; sebagaimana"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "217804",
+   "slug": "uu-no-20-tahun-2022",
+   "nomor": 20,
+   "tahun": 2022,
+   "jenis": "UU",
+   "judul": "UU No. 20 Tahun 2022 tentang Provinsi Nusa Tenggara Barat - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/224677/UU%20Nomor%2020%20Tahun%202022-.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-64-tahun-1958"
+   ],
+   "scrapedAt": "2026-09-30T01:21:14.376964+00:00"
+  },
+  "sha256": "9a60e8e8f74fc1a66122a022d34e559f6da76f1215cfc641212ea277f1004a5a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-20-tahun-2022/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUANUMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-20-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "CAKUPANWILAYAH,IBU KOTA,DANKARAKTERISTIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-20-tahun-2022/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KETENTUANPENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

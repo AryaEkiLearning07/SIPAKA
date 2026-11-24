@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-23-tahun-1975",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam pelaksanaan anggaran pembangunan tahun 1974/1975 pada akhir Maret 1975 ternyata terdapat proyek- proyek yang menunjukkan adanya sisa kredit anggaran yang telah ditetapkan dalam Undang-undang Nomor 2 Tahun 1974 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1974/1975 jo. Keputusan Presiden Nomor 48 Tahun 1974 tentang Perincian Anggaran Belanja Negara Pembangunan Tahun 1974/1975;",
+   "bahwa berdasarkan ayat (1) Pasal 4 Undang-undang Nomor 2 Tahun 1974 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1974/1975 Serta ayat (1) Pasal 3 Undang- undang Nomor 2 Tahun 1975 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1974/1975, sisa kredit anggaran tersebut dapat dipindahkan dan ditambahkan kepada Tahun Anggaran 1975/1976;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 25 Juni 1975 MENTERI/SEKRETARIS NEGARA PRESIDEN REPUBLIK INDONESIA - 4 - REPUBLIK INDONESIA, TTD SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1975 NOMOR 31 PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 23 TAHUN 1975 TENTANG PEMINDAHAN SISA ANGGARAN PEMBANGUNAN TAHUN ANGGARAN 1974/1975 KEPADA TAHUN ANGGARAN 1975/1976 PENJELASAN UMUM Pelaksanaan Tahun pertama Pelita II ialah Tahun Anggaran 1974/1975 masih sebagaimana tahun-tahun terdahulu memerlukan pula penyesuaian sehingga rencana pekerjaan yang telah ditetapkan dalam DIP (Daftar Isian Proyek) dari masing-masing proyek, belum dapat terselesaikan seluruhnya pada akhir Tahun Anggaran 1974/1975. Guna menjamin kontinuitas pelaksanaan pembangunan, maka dalam ayat (1) Pasal 4 Undang-undang Nomor 2 Tahun 1974 ditetapkan, bahwa sisa kredit anggaran proyek- proyek pada Anggaran Pembangunan Tahun 1974/1975 yang terdapat pada akhir tahun anggaran itu dapat dipindahkan dan ditambahkan pada Anggaran Pembangunan Tahun Anggaran 1975/1976 atau tahun ke-dua Pelita II, yang pengaturannya ditetapkan dengan suatu Peraturan Pemerintah. Dalam pada itu berdasarkan",
+ "source": {
+  "url": {
+   "slug": "pp-no-23-tahun-1975",
+   "detailsId": "67755",
+   "judul": "PP No. 23 Tahun 1975 tentang Pemindahan Sisa Anggaran Pembangunan Tahun Anggaran 1974/1975 Kepada Tahun Anggaran 1975/1976 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/58105/PP%20NO%2023%20TH%201975.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:51:51.957128+00:00"
+  },
+  "sha256": "35beadf079d1b61e69af29b1720028b50399cf23d566bc91c1f1cd5fe9c91691",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-23-tahun-1975/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-23-tahun-1975/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1974/1975 sebesar Rp. 214.065.248.756,21 yang terdapat pada akhir Tahun Anggaran 1974/1975 dipindahkan kepada Tahun Anggaran 1975/1976.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-23-tahun-1975/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian sisa-sisa kredit anggaran tersebut dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

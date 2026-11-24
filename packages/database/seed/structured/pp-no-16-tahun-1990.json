@@ -1,0 +1,107 @@
+{
+ "slug": "pp-no-16-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai pelaksanaan Pasal 18 ayat (4) Undang-undang Nomor 8 Tahun 1971. dianggap perlu untuk mengatur kembali uang jasa para Anggota dan Sekretaris Dewan Komisaris Pemerintah untuk Perusahaan Pertambangan Minyak dan Gas Bumi Negara (PERTAMINA) dalam suatu Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1990",
+   "detailsId": "58863",
+   "judul": "PP No. 16 Tahun 1990 tentang Uang Jasa Para Anggota Dan Sekretaris Dewan Komisaris Pemerintah Untuk Pertamina - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/48386/PP%20NO%2016%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-35-tahun-1972"
+   ],
+   "scrapedAt": "2026-10-05T18:15:30.198464+00:00"
+  },
+  "sha256": "c091d35ffc31bbee90b581985b036aef431e66aeb1b500968de62a74ee6641c3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Uang jasa Ketua, Wakil Ketua, Anggota dan Sekretaris Dewan Komisaris Pemerintah untuk PERTAMINA sebagaimana dimaksud dalam Pasal 16 ayat (3), ayat (4) dan Pasal 18 ayat (2) Undang-undang Nomor 8 Tahun 1971 ditetapkan oleh Menteri Pertambangan dan Energi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Uang jasa sebagaimana dimaksud dalam Pasal 1 adalah jumlah bersih setelah dikurangi dengan Pajak Penghasilan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketua, Wakil Ketua, Anggota dan Sekretaris Dewan Komisaris Pemerintah yang melakukan perjalanan dinas untuk keperluan PERTAMINA mendapat biaya perjalanan dinas sesuai peraturan yang berlaku bagi Direksi PERTAMINA.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Uang jasa, pajak penghasilan dan biaya perjalanan dinas sebagaimana dimaksud dalam Pasal 1, Pasal 2 dan Pasal 3 dibebankan pada anggaran PERTAMINA.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Uang jasa para Staf Sekretariat Dewan Komisaris Pemerintah untuk PERTAMINA sebagaimana dimaksud dalam Pasal 18 ayat (1) Undang-undang Nomor 8 Tahun 1971 ditetapkan oleh Menteri Pertambangan dan Energi selaku Ketua Dewan Komisaris Pemerintah untuk PERTAMINA.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini diatur oleh Menteri Pertambangan dan Energi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1990/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "setiap Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. dapat mengetahuinya, memerintahkan Agar pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. orang Ditetapkan di Jakarta pada tanggal 28 Mei 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 28 Mei 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

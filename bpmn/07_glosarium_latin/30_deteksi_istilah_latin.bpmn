@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Deteksi Istilah Latin (Glosarium Latin)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:dataStore id="d_istilah-store" name="Istilah Latin" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Deteksi Istilah Latin" processRef="deteksi_istilah_latin" />
+  </bpmn:collaboration>
+  <bpmn:process id="deteksi_istilah_latin" name="Deteksi Istilah Latin (Glosarium Latin)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Teks UU atau thread siap ditampilkan" />
+    <bpmn:serviceTask id="pindai" name="Pindai Teks untuk Istilah Glosarium">
+      <bpmn:ioSpecification id="pindai-io">
+        <bpmn:dataInput id="pindai-in-1" name="Istilah Latin" />
+        <bpmn:inputSet id="pindai-inputs">
+          <bpmn:dataInputRefs>pindai-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="pindai-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="pindai-dia-1">
+        <bpmn:sourceRef>d_istilah</bpmn:sourceRef>
+        <bpmn:targetRef>pindai-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="ada" name="Ditemukan istilah Latin?" default="f-ada-nihil" />
+    <bpmn:serviceTask id="sorot" name="Sorot Istilah Latin" />
+    <bpmn:endEvent id="selesai" name="Istilah Latin tersorot dan dapat diklik" />
+    <bpmn:endEvent id="nihil" name="Tidak ada istilah Latin pada teks" />
+    <bpmn:sequenceFlow id="f-mulai-pindai" sourceRef="mulai" targetRef="pindai" />
+    <bpmn:sequenceFlow id="f-pindai-ada" sourceRef="pindai" targetRef="ada" />
+    <bpmn:sequenceFlow id="f-ada-sorot" name="ya" sourceRef="ada" targetRef="sorot">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">adaIstilah</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ada-nihil" name="tidak" sourceRef="ada" targetRef="nihil" />
+    <bpmn:sequenceFlow id="f-sorot-selesai" sourceRef="sorot" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_istilah" name="Istilah Latin" dataStoreRef="d_istilah-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="620" height="240" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="24" y="93" width="108" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pindai_di" bpmnElement="pindai">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ada_di" bpmnElement="ada" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="326" y="98" width="52" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sorot_di" bpmnElement="sorot">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="546" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="513" y="93" width="102" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="nihil_di" bpmnElement="nihil">
+        <dc:Bounds x="428" y="167" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="398" y="208" width="96" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_istilah_di" bpmnElement="d_istilah">
+        <dc:Bounds x="171" y="160" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="159" y="215" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="pindai-dia-1_di" bpmnElement="pindai-dia-1">
+        <di:waypoint x="196" y="160" />
+        <di:waypoint x="196" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-pindai_di" bpmnElement="f-mulai-pindai">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pindai-ada_di" bpmnElement="f-pindai-ada">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-sorot_di" bpmnElement="f-ada-sorot">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ada-nihil_di" bpmnElement="f-ada-nihil">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="185" />
+        <di:waypoint x="428" y="185" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="170" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-sorot-selesai_di" bpmnElement="f-sorot-selesai">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

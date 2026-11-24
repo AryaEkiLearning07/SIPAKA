@@ -1,0 +1,124 @@
+{
+ "slug": "pp-no-23-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka nivelering penghasilan pegawai Perusahaan Negara (yang dibentuk menurut Undang-undang Nomor 19 Prp tahun 1960) dan Pegawai Negeri, Pemerintah memandang perlu untuk menggunakan pola dasar kebijaksanaan yang sama di bidang penggajian; bahwa penggajian di Perusahaan Negara seperti diatur menurut Peraturan Pemerintah Nomor 14 tahun 1962 ternyata dalam pelaksanaannya untuk sebagian Perusahaan-perusahaan Negara tidak dapat dilaksanakan ataupun pelaksanaannya sangat berbeda-beda; bahwa berhubung dengan itu dipandang perlu untuk mengadakan perubahan dalam sistim penggajian pegawai di Perusahaan Negara sehingga Peraturan Pemerintah Nomor 14 tahun 1962 perlu dicabut dan diganti dengan Peraturan Gaji Baru."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-23-tahun-1967",
+   "detailsId": "70803",
+   "judul": "PP No. 23 Tahun 1967 tentang Ketentuan-Ketentuan Pokok Penggajian Pegawai Perusahaan Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61266/pp%20no%20023%20tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-14-tahun-1962"
+   ],
+   "scrapedAt": "2026-10-06T06:02:30.127576+00:00"
+  },
+  "sha256": "097745e1c535ddeb4add816933ef7a2738b091f51cf38a1ebd5f37d4809d92d7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-23-tahun-1967/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "SOEHARTO",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

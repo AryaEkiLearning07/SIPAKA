@@ -1,0 +1,889 @@
+{
+ "slug": "pp-no-22-tahun-1984",
+ "preamble": {
+  "menimbang": [
+   "bahwa penyelenggaraan jaminan pemeliharaan kesehatan sebagaimana dimaksud dalam huruf a, ditujukan bagi Pegawai Negeri Sipil dan Penerima Pensiun beserta anggota keluarganya;",
+   "bahwa ketentuan tentang peraturan pemeliharaan kesehatan Pegawai Negeri Sipil dan Penerima Pensiun beserta anggota keluarganya sebagaimana ditetapkan dalam Keputusan Presiden Nomor 230 Tahun 1968 sebagaimana telah diubah dengan Keputusan Presiden Nomor 13 Tahun 1981, sudah tidak sesuai lagi dengan perkembangan keadaan, oleh karena itu perlu ditinjau dan diatur kembali dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-22-tahun-1984",
+   "detailsId": "71376",
+   "judul": "PP No. 22 Tahun 1984 tentang Pemeliharaan Kesehatan Pegawai Negeri Sipil dan Penerima Pensiun Beserta Anggota Keluarganya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61806/PP%20NO%2022%20TH%201984.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:41.844748+00:00"
+  },
+  "sha256": "82c873f626479122a0adffea8a2b015b6fedee7bdff97352818b62d8057a7431",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 21,
+  "ayat_angka": 36,
+  "huruf": 23
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEGAWAI NEGERI SIPIL DAN PENERIMA PENSIUN BESERTA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Presiden adalah Presiden Republik Indonesia;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Menteri adalah Menteri yang bertanggung jawab dalam bidang kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Peserta adalah Pegawai Negeri Sipil dan Penerima Pensiun yang penghasilannya dipotong untuk pemeliharaan kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pegawai Negeri Sipil adalah calon Pegawai Negeri Sipil, Pegawai Negeri Sipil, dan Pejabat Negara sebagaimana dimaksud dalam Undang-undang Nomor 8 Tahun 1974 tentang Pokok-pokok Kepegawaian (Lembaran Negara Tahun 1974 Nomor 55, Tambahan Lembaran Negara Nomor 3041);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Penerima Pensiun adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pegawai Negeri Sipil yang berhenti dengan hak pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Anggota Angkatan Bersenjata Republik Indonesia dan Pegawai Negeri Sipil di lingkungan Departemen Pertahanan Keamanan yang berhenti dengan hak pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pejabat Negara yang berhenti dengan hak pensiun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Keluarga adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Isteri atau suami yang sah dari Pegawai Negeri Sipil atau Penerima Pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Anak yang sah dan/atau seorang anak angkat yang mendapat tunjangan keluarga sebagaimana diatur dalam peraturan perundang-undangan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Janda atau Duda dan/atau anak yatim piatu dari Peserta;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pemeliharaan Kesehatan adalah upaya kesehatan yang meliputi peningkatan, pencegahan, penyembuhan, dan pemulihan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Badan adalah Badan Pertimbangan Pemeliharaan Kesehatan Pegawai Negeri Sipil, Penerima Pensiun beserta anggota keluarganya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PESERTA DAN PENYERTAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Setiap Pegawai Negeri Sipil dan Penerima Pensiun wajib menjadi Peserta dari penyelenggaraan pemeliharaan kesehatan sebagaimana dimaksud dalam Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Saat menjadi Peserta bagi Pegawai Negeri Sipil ialah sejak tanggal pengangkatannya sebagai calon Pegawai Negeri Sipil dan/atau Pegawai Negeri Sipil.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Saat menjadi Peserta bagi Pejabat Negara ialah sejak tanggal pengangkatannya menjadi Pejabat Negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Saat menjadi Peserta bagi Penerima Pensiun ialah sejak tanggal pemberian pensiunnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KEWAJIBAN PESERTA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta wajib membayar iuran setiap bulan yang besarnya serta tata cara pemungutannya ditetapkan dengan Keputusan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Iuran wajib sebagaimana dimaksud dalam ayat (1), pemotongannya dilakukan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta wajib memberikan keterangan yang lengkap dan benar tentang dirinya beserta anggota keluarganya yang diperlukan untuk bahan penyusunan data Peserta dan tanda pengenal diri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keterangan sebagaimana dimaksud dalam ayat (1) dipersiapkan dan dikirimkan oleh instansi tempat Peserta bekerja terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peserta dan anggota keluarganya wajib mengetahui dan mentaati peraturan penyelenggaraan pemeliharaan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "HAK PESERTA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Peserta dan anggota keluarganya mempunyai hak dan kesempatan yang sama dalam pemeliharaan kesehatan, sesuai dengan kebutuhan medis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peserta dan anggota keluarganya berhak memperoleh pemeliharaan kesehatan dan/atau penggantian biaya untuk pemeliharaan kesehatan yang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengobatan/perawatan/immunisasi:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "dokter/dokter gigi/dokter spesialis; ii. balai pengobatan, puskesmas atau rumah sakit; keluarga berencana, kesegaran jasmani dan kegiatan lain untuk penyembuhan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemeriksaan laboratorium dan pemeriksaan lainnya untuk menegakkan diagnose;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tindakan gawat darurat dan tindakan lain untuk penyembuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pertolongan/perawatan persalinan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "obat-obatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "alat-alat perawatan yang mempunyai khasiat memulihkan kesehatan menurut saran dokter;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pembelian kacamata yang sangat perlu digunakan demi kesehatan menurut resep dokter;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "prothese gigi dan prothese lainnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besarnya penggantian guna pembiayaan-pembiayaan sebagaimana dimaksud dalam ayat (2) ialah sebesar jumlah uang yang diperlukan untuk membayar biaya menurut harga/tarif yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Biaya pemeliharaan kesehatan sebagaimana dimaksud dalam Pasal 6 ayat (2) dibayar sesuai dengan standar pelayanan yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Semua biaya yang melebihi standar yang ditetapkan oleh Menteri, menjadi beban dan tanggung jawab Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Dengan memperhatikan ketentuan sebagaimana dimaksud dalam Pasal 7 ayat (1) maka: a. untuk perawatan penyakit kronis, berlaku ketentuan sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-8/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "6(enam) bulan pertama dibayar penuh; persalinan kesatu dan kedua diganti 100% (seratus persen) sesuai standar yang berlaku;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-8/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "6(enam) bulan kedua dibayar 60% (enam puluh persen); persalinan ketiga diganti 50% (lima puluh persen) sesuai standar yang berlaku;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-8/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "6(enam) bulan ketiga dan seterusnya, dibayar 30% (tiga puluh persen), persalinan keempat dan seterusnya tidak mendapat penggantian.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-8/angka-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Untuk persalinan berlaku ketentuan sebagai berikut:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Peserta berhak memperoleh penjelasan tentang penyelenggaraan pemeliharaan kesehatan bagi dirinya dan anggota keluarganya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "BADAN PENYELENGGARA DAN JAMINAN NEGARA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menyelenggarakan pemeliharaan kesehatan Peserta dan anggota keluarganya didirikan 1 (satu) Badan Usaha berbentuk Perusahaan Umum sebagaimana dimaksud dalam Undang-undang Nomor 9 Tahun 1969 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1969 (Lembaran Negara Tahun 1969 Nomor 16, Tambahan Lembaran Negara Nomor 2890) tentang Bentuk-Bentuk Usaha Negara menjadi Undang-undang (Lembaran Negara Tahun 1969 Nomor 40, Tambahan Lembaran Negara Nomor 2904).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendirian Perusahaan Umum sebagaimana dimaksud dalam ayat (1) dilakukan sesuai dengan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Perusahaan Umum sebagaimana dimaksud dalam Pasal 10 tidak dapat memenuhi kewajiban-kewajiban keuangan sebagaimana ditetapkan dalam Peraturan Pemerintah ini, maka Negara menjamin hak Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengaturan lebih lanjut atas ketentuan jaminan terhadap pemenuhan kewajiban keuangan ini diatur oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PELAKSANA PELAYANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Umum wajib menjalankan kegiatannya sebesar-besarnya untuk kepentingan peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk menyelenggarakan pelaksanaan pelayanan kesehatan, Perusahaan Umum menunjuk sarana pelayanan kesehatan sesuai dengan kebijaksanaan yang ditetapkan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Perusahaan Umum berkewajiban mengembangkan sistem atau pendekatan yang dapat menjamin peningkatan pemeliharaan kesehatan Peserta dan anggota keluarganya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "BADAN PERTIMBANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menetapkan kebijaksanaan umum mengenai penyelenggaraan pemeliharaan kesehatan Peserta dan anggota keluarganya Menteri dibantu oleh suatu Badan yang anggota- anggotanya diwakili masing-masing seorang dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Korps Pegawai Republik Indonesia (KORPRI);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Persatuan Wredatama Republik Indonesia (PWRI);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Persatuan Purnawirawan Angkatan Bersenjata Republik Indonesia (PEPABRI);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Departemen Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Departemen Keuangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "Departemen Dalam Negeri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "Badan Administrasi Kepegawaian Negara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Anggota Badan sebagaimana dimaksud dalam ayat (1) diangkat dan diberhentikan oleh Menteri setelah mendengar pendapat/usul dari organisasi/instansi yang bersangkutan. Menteri menunjuk salah seorang anggota Badan menjadi Ketua.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Masa jabatan anggota Badan ialah 5 (lima) tahun dan dapat diangkat kembali sesuai dengan tata cara sebagaimana dimaksud dalam ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Badan tersebut bertugas memberikan pendapat dan saran kepada Menteri dalam merumuskan kebijaksanaan umum program pemeliharaan kesehatan bagi Peserta dan anggota keluarganya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Tata kerja Badan diatur oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1984/pasal-14/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pembiayaan Badan dibebankan pada Perusahaan Umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, maka ketentuan mengenai kegiatan penyelenggaraan pemeliharaan kesehatan Pegawai Negeri Sipil dan Penerima Pensiun beserta anggota keluarganya sebagaimana diatur dalam Keputusan Presiden Nomor 230 Tahun 1968 sebagaimana telah diubah dengan Keputusan Presiden Nomor 13 Tahun 1981 tetap berlaku, sepanjang belum terselesaikannya pembentukan badan usaha yang bertugas menyelenggarakan pemeliharaan kesehatan Pegawai Negeri Sipil dan Penerima Pensiun beserta anggota keluarganya sebagaimana dimaksud dalam Pasal 10.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN-KETENTUAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Pegawai Negeri Sipil Departemen Pertahanan Keamanan tidak termasuk Peserta menurut Peraturan Pemerintah ini. Pegawai Negeri Sipil yang belum dikenakan kewajiban sebagaimana dimaksud dalam Pasal 4, akan diatur kemudian oleh Menteri, setelah mendengar pertimbangan Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Seorang Peserta dianggap bukan Peserta lagi apabila yang bersangkutan diberhentikan tanpa hak pensiun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pemeliharaan kesehatan sebagaimana dimaksud dalam Peraturan Pemerintah ini, hanya berlaku bagi Peserta dan anggota keluarganya di dalam negeri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1984/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, maka Keputusan Presiden Nomor 230 Tahun 1968 dan Keputusan Presiden Nomor 13 Tahun 1981 sepanjang mengenai pemeliharaan kesehatan Pegawai Negeri Sipil dan Penerima Pensiun beserta anggota keluarganya, dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1984/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Agustus 1984 SOEHARTO Diundangkan di Jakarta pada tanggal 30 Agustus 1984 MENTERI/SEKRETARIS NEGARA SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1984 NOMOR 33",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 1 (['pp-no-22-tahun-1984/pasal-17'])"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

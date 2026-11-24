@@ -1,0 +1,591 @@
+{
+ "slug": "pp-no-36-tahun-1983",
+ "preamble": {
+  "menimbang": [
+   "Bahwa pelaksanaan Pasal 9 ayat (1) huruf b dan huruf d, Pasal 21, Pasal 22, Pasal 23 ayat (3), Pasal 25, Pasal 27, dan Pasal 35 Undang-undang tentang Pajak Penghasilan perlu diatur lebih lanjut dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-36-tahun-1983",
+   "detailsId": "71910",
+   "judul": "PP No. 36 Tahun 1983 tentang Pelaksanaan Undang-Undang Pajak Penghasilan 1984 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62362/PP%20NO.%2036%20TH%201983.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:48:09.306588+00:00"
+  },
+  "sha256": "91d0b83833108d64cbb91821742772ec43d75e15bb4fff8d45eedaabdc9c806c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 20,
+  "ayat_angka": 26,
+  "huruf": 5
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "DANA CADANGAN KHUSUS DAN FAKTOR PENYESUAIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk menghitung penghasilan netto pada usaha bank dan asuransi diperbolehkan dikurangkan sebagai biaya, penyisihan untuk keperluan pembentukan dan pemupukan dana cadangan khusus. Dasar penghitungan pajak bagi:",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dana cadangan khusus sebagaimana dimaksud dalam ayat (1) terdiri dari :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dana cadangan penghapusan piutang ragu-ragu untuk jenis usaha bank;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dana cadangan premi untuk jenis usaha asuransi jiwa;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dana cadangan premi dan cadangan kerugian untuk jenis usaha asuransi kerugian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-1/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besarnya dana cadangan khusus serta hal-hal lain yang bersangkutan dengan pembentukan dan pemupukan dana cadangan khusus sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur lebih lanjut oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "a. penghasilan dari penjualan atau pengalihan harta yang tidak dipergunakan dalam perusahaan dan telah dimiliki sebelum tanggal 1 Januari 1984, adalah selisih antara harga penjualan atau nilai pengalihan dengan perolehan harta pada tanggal 1 Januari 1984; b. penghasilan dari penjualan atau pengalihan harta yang tidak dipergunakan dalam perusahaan yang dimiliki setelah tanggal 31 Desember 1983, adalah selisih antara harga penjualan atau nilai pengalihan pada saat terjadinya transaksi dengan harga atau nilai perolehan harta tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nilai perolehan harta pada tanggal 1 Januari 1984 sebagaimana dimaksud dalam ayat (1) huruf a dan harga atau nilai perolehan harta sebagaimana dimaksud dalam ayat (1) huruf b harus terlebih dahulu dikalikan dengan suatu faktor penyesuaian yang besarnya akan ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TARIF EFEKTIF RATA-RATA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Atas penghasilan dari penjualan atau pengalihan harta yang tidak dipergunakan dalam perusahaan atau penghasilan beberapa tahun yang diterima atau diperoleh sekaligus, dikenakan Pajak Penghasilan dengan cara menerapkan tarif efektif rata-rata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tarif efektif rata-rata sebagaimana dimaksud dalam ayat (1) diperoleh dengan cara menerapkan Pasal 17 Undang-undang Pajak Penghasilan 1984 atas suatu jumlah penghasilan yang terdiri dari penghasilan teratur ditambah dengan penghasilan beberapa tahun yang diterima atau diperoleh sekaligus yang dibagi dengan banyaknya tahun pajak yang berkenaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk Wajib Pajak orang pribadi atau perseorangan jumlah penghasilan sebagaimana dimaksud dalam ayat (2) dikurangi terlebih dahulu dengan penghasilan tidak kena pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Tarif efektif rata-rata yang dihasilkan dari penghitungan sebagaimana dimaksud dalam ayat (2), dibulatkan ke bawah apabila angka di belakang koma 5 atau kurang, dan dibulatkan ke atas apabila angka di belakang koma lebih dari 5.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penghasilan teratur sebagaimana dimaksud dalam ayat (2) adalah penghasilan yang pada umumnya secara berkala diterima atau diperoleh dalam setiap masa atau tahun pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Untuk uang tebusan pensiun yang diterima atau diperoleh sekaligus banyaknya tahun pajak yang berkenaan dihitung sebanyak 10 (sepuluh) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PELUNASAN PAJAK DALAM TAHUN BERJALAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemotongan dan pemungutan Pajak Penghasilan oleh pihak-pihak sebagaimana dimaksud dalam Pasal 21 ayat (1) dan Pasal 22 ayat (1) Undang-undang Pajak Penghasilan 1984 terhutang pada saat pembayaran atau saat lain yang ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemotongan Pajak Penghasilan atas penghasilan dari modal dan jasa-jasa oleh pihak-pihak sebagaimana dimaksud dalam Pasal 23 dan Pasal 26 Undang-undang Pajak Penghasilan 1984 terhutang pada saat pembayaran atau pada saat terhutangnya penghasilan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Hal-hal yang bersangkutan dengan pelaksanaan pemotongan Pajak Penghasilan oleh pihak-pihak sebagaimana dimaksud dalam Pasal 21 Undang-undang Pajak Penghasilan 1984 atas penghasilan pegawai atau karyawan harian dan mingguan serta atas penghasilan berupa honorarium yang tidak termasuk pembayaran yang teratur, dan pelaksanaan pemungutan Pajak Penghasilan oleh pihak- pihak sebagaimana dimaksud dalam Pasal 22 Undang-undang Pajak Penghasilan 1984, diatur lebih lanjut oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dividen dari saham yang diperdagangkan melalui Pasar Modal dan dividen dari sertifikat yang jumlahnya tidak melebihi suatu jumlah tertentu, tidak dikenakan pemotongan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 23 Undang-undang Pajak Penghasilan 1984.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Batas jumlah tertentu sebagaimana dimaksud dalam ayat (1) ditetapkan sebesar Rp. 960.000,- (sembilan ratus enam puluh ribu rupiah) untuk setiap tahun atau Rp. 480.000,- (empat ratus delapan puluh ribu rupiah) untuk 6 (enam) bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besarnya batas jumlah sebagaimana dimaksud dalam ayat (2) akan disesuaikan dengan suatu faktor penyesuaian yang ditetapkan dengan Keputusan Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PELUNASAN PAJAK DALAM TAHUN BERJALAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dasar perhitungan Pajak Penghasilan yang harus dibayar sendiri oleh Wajib Pajak dalam tahun berjalan sebagaimana dimaksud dalam Pasal 25 Undang-undang Pajak Penghasilan 1984 yang selanjutnya disingkat PPh Pasal 25, dalam hal terdapat sisa kerugian yang belum dikompensasikan adalah Pajak Penghasilan yang dihitung atas dasar penghasilan netto menurut Surat Pemberitahuan Tahunan terakhir, kecuali apabila pajak yang ditetapkan terakhir oleh Direktur Jenderal Pajak jumlahnya lebih besar dikurangi dengan jumlah sisa kerugian yang belum dikompensasikan tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dasar penghitungan PPh Pasal 25 setelah tahun pelaksanaan kompensasi kerugian berakhir, adalah Pajak Penghasilan yang dihitung atas dasar penghasilan netto menurut Surat Pemberitahuan Tahunan terakhir, kecuali apabila pajak yang ditetapkan terakhir oleh Direktur Jenderal Pajak jumlahnya lebih besar, maka kompensasi kerugian tidak diperhitungkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Besarnya angsuran PPh Pasal 25 setiap bulan bagi : a. jenis usaha bank dan lembaga keuangan lainnya serta badan-badan lain yang ditunjuk oleh Direktur Jenderal Pajak, adalah jumlah Pajak Penghasilan yang terhutang atas penghasilan kena pajak berdasarkan laporan keuangan triwulanan terakhir yang dijadikan 1 (satu) tahun, dibagi 12 (dua belas); b. badan usaha milik Negara dan Daerah dengan nama dan dalam bentuk apapun, adalah jumlah Pajak Penghasilan yang terhutang atas penghasilan kena pajak berdasarkan Rencana Anggaran Pendapatan dan Belanja (RAPB) yang telah selesai disusun pada awal tahun pajak dikurangi kredit pajak tahun pajak sebelumnya, dibagi 12 (dua belas).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penghasilan teratur sebagaimana dimaksud dalam Pasal 3 ayat (5) yang dijadikan dasar penghitungan PPh Pasal 25 atas penghasilan dari penjualan atau pengalihan harta, atau penghasilan beberapa tahun yang diterima atau diperoleh sekaligus adalah penghasilan teratur",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "berdasarkan Surat Pemberitahuan Tahunan terakhir, kecuali apabila pajak yang ditetapkan terakhir oleh Direktur Jenderal Pajak jumlahnya lebih besar.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "PPh Pasal 25 sebagaimana dimaksud dalam ayat (1) merupakan kredit pajak untuk Pajak Penghasilan yang terhutang dari tahun pajak yang bersangkutan. Apabila dasar penghitungan PPh Pasal 25 mengandung penghasilan sebagaimana dimaksud dalam Pasal 3 ayat (1), maka penghasilan tersebut dikurangkan terlebih dahulu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Besarnya angsuran PPh Pasal 25 setiap bulan bagi Wajib Pajak baru yang wajib menyelenggarakan pembukuan, adalah jumlah yang dihasilkan dari penerapan tarif menurut Pasal 17 Undang-undang Pajak Penghasilan 1984 atas penghasilan netto berdasarkan pembukuannya yang dijadikan 1 (satu) tahun dibagi 12 (dua belas).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besarnya angsuran PPh Pasal 25 setiap bulan bagi Wajib Pajak baru dengan peredaran atau penerimaan bruto yang berjumlah kurang dari Rp. 60.000.000,- (enam puluh juta rupiah) yang tidak wajib menyelenggarakan pembukuan, adalah jumlah yang dihasilkan dari penerapan tarif 15% (lima belas persen) atas persentase penghasilan netto berdasarkan Norma Penghitungan dikalikan peredaran atau penerimaan bruto dibagi 12 (dua belas).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak yang dapat menunjukkan bahwa Pajak Penghasilan yang akan terhutang pada akhir tahun Pajak kurang dari dari Pajak Penghasilan yang menjadi dasar penghitungan besarnya angsuran PPh Pasal 25, dapat mengajukan permintaan pengurangan besarnya angsuran kepada Direktur Jenderal Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam pengajuan permintaan pengurangan angsuran sebagaimana dimaksud dalam ayat (1), Wajib Pajak harus menyebutkan jumlah pajak dan angsuran pajak yang menurut penghitungannya seharusnya terhutang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila dalam jangka waktu 3 (tiga) bulan sejak tanggal penerimaan surat permintaan pengurangan angsuran sebagaimana dimaksud dalam ayat (1) Direktur Jenderal Pajak tidak memberi keputusan, maka permintaan pengurangan tersebut dianggap diterima dan Wajib Pajak dapat melakukan angsuran sesuai dengan penghitungannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Penyusutan dan amortisasi dimulai pada tahun pengeluaran, kecuali untuk harta yang masih dalam proses pengerjaan, penyusutan dan amortisasi dimulai pada tahun selesainya pengerjaan harta tersebut, dan untuk harta dalam usaha leasing penyusutan dimulai pada tahun harta yang bersangkutan dileasingkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pengeluaran yang merupakan biaya untuk mendapatkan, menagih, dan memelihara penghasilan sehubungan dengan pekerjaan, dapat dikurangkan dari penghasilan bruto, yang besarnya ditetapkan oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pihak-pihak yang berkewajiban untuk melakukan pemotongan pajak sebagaimana dimaksud dalam Pasal 21 ayat (1) huruf d Undang- undang Pajak Penghasilan 1984 antara lain yayasan, badan usaha milik Negara dan Daerah dengan nama dan dalam bentuk apapun, badan Pemerintah Republik Indonesia, badan perwakilan negara asing, badan perwakilan organisasi internasional, dan badan atau organisasi lain dengan sifat dan dalam bentuk apapun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dasar penghitungan Pajak Penghasilan yang harus dibayar sendiri oleh Wajib Pajak untuk tahun 1984 dan selanjutnya sampai dengan diketahuinya Pajak Penghasilan yang terhutang sebagaimana dimaksud dalam Pasal 25 Undang-undang Pajak Penghasilan 1984",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-36-tahun-1983/pasal-16/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bagi Wajib Pajak badan, adalah jumlah Pajak Perseroan menurut Surat Ketetapan Pajak Pajak Perseroan terakhir dikurangi pemotongan dan pemungutan pajak untuk tahun yang bersangkutan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-36-tahun-1983/pasal-16/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bagi Wajib Pajak orang pribadi atau perseorangan, adalah jumlah Pajak Pendapatan menurut Surat Ketetapan Pajak Pajak Pendapatan terakhir dikurangi pemotongan dan pemungutan pajak untuk tahun yang bersangkutan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-36-tahun-1983/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemotongan dan pemungutan pajak oleh pihak ketiga yang diperbolehkan dikurangkan sebagaimana dimaksud dalam ayat (1), hanya pemungutan pajak yang dilakukan oleh Direktorat Jenderal Bea dan Cukai dan bendaharawan Pemerintah Pusat dan Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Pembayaran dalam bentuk natura dan kenikmatan lainnya oleh perusahaan penambangan minyak dan gas bumi serta perusahaan penambangan lainnya sehubungan dengan Kontrak Karya dan Kontrak Bagi Hasil yang masih berlaku pada saat berlakunya Undang-undang Pajak Penghasilan 1984, diperbolehkan dikurangkan sebagai biaya dan bagi pihak yang menerima atau memperoleh merupakan penghasilan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Penghasilan kena pajak yang diterima atau diperoleh dalam bidang penambangan minyak dan gas bumi sehubungan dengan Kontrak Bantuan Teknik (Technical Assistance Contract), Kontrak Risiko Pinjaman (Loan Risk Contract), Kontrak Usaha Bersama (Joint Venture Contract) dan kontrak-kontrak lainnya yang serupa, yang masih berlaku pada saat berlakunya Undang-undang Pajak Penghasilan 1984, dipersamakan dengan penghasilan kena pajak yang diterima atau diperoleh sehubungan dengan Kontrak Bagi Hasil sebagaimana diatur dalam Pasal 33 ayat (3) Undang- undang Pajak Penghasilan 1984.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-36-tahun-1983/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Hal-hal yang belum cukup diatur dalam Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Keuangan. Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-36-tahun-1983/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Desember 1983 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 31 Desember 1983 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA. SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 53",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 1 (['pp-no-36-tahun-1983/pasal-10'])"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

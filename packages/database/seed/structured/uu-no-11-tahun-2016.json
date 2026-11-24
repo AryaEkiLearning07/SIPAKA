@@ -1,0 +1,2056 @@
+{
+ "slug": "uu-no-11-tahun-2016",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk memenuhi kebutuhan penerimaan pajak yang terus meningkat, diperlukan kesadaran dan kepatuhan masyarakat dengan mengoptimalkan semua potensi dan sumber daya yang ada;",
+   "bahwa kesadaran dan kepatuhan masyarakat dalam melaksanakan perlu ditingkatkan karena terdapat Harta, baik di dalam maupun di luar negeri yang belum atau belum seluruhnya dilaporkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan; perpajakannya masih kewajiban",
+   "bahwa untuk meningkatkan penerimaan negara dan pertumbuhan perekonomian serta kesadaran dan kepatuhan masyarakat dalam pelaksanaan kewajiban perpajakan, perlu menerbitkan kebijakan Pengampunan Pajak;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu membentuk Undang-Undang tentang Pengampunan Pajak;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-2016",
+   "detailsId": "37480",
+   "judul": "UU No. 11 Tahun 2016 tentang Pengampunan Pajak - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/26573/UU%20Nomor%2011%20Tahun%202016.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T16:44:37.793871+00:00"
+  },
+  "sha256": "5d5eea3d2ef84d8be6abe4223a0f51aed5dc3d0d8f89b3c6ff08a4e414951a6d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 13,
+  "pasal": 25,
+  "ayat_angka": 105,
+  "huruf": 72
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pengampunan Pajak adalah penghapusan pajak yang seharusnya terutang, tidak dikenai sanksi administrasi perpajakan dan sanksi pidana di bidang perpajakan, dengan cara mengungkap Harta dan membayar Uang Tebusan sebagaimana diatur dalam Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Wajib Pajak adalah orang pribadi atau badan yang mempunyai hak dan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Harta adalah akumulasi tambahan kemampuan ekonomis berupa seluruh kekayaan, baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, baik yang digunakan untuk usaha maupun bukan untuk usaha, yang berada di dalam dan/atau di luar wilayah Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Utang adalah jumlah pokok utang yang belum dibayar yang berkaitan langsung dengan perolehan Harta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender, kecuali jika Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Tunggakan . . . Tunggakan Pajak adalah jumlah pokok pajak yang belum dilunasi berdasarkan Surat Tagihan Pajak yang di dalamnya terdapat pokok pajak yang terutang, Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Putusan Banding, dan Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah termasuk pajak yang seharusnya tidak dikembalikan, sebagaimana diatur dalam Undang-Undang tentang Ketentuan Umum dan Tata Cara Perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Uang Tebusan adalah sejumlah uang yang dibayarkan ke kas negara untuk mendapatkan Pengampunan Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Tindak Pidana di Bidang Perpajakan adalah tindak pidana sebagaimana diatur dalam Undang-Undang mengenai Ketentuan Umum dan Tata Cara Perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Surat Pernyataan Harta untuk Pengampunan Pajak yang selanjutnya disebut Surat Pernyataan adalah surat yang digunakan oleh Wajib Pajak untuk mengungkapkan Harta, Utang, nilai Harta bersih, serta penghitungan dan pembayaran Uang Tebusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Surat Keterangan Pengampunan Pajak yang selanjutnya disebut Surat Keterangan adalah surat yang diterbitkan oleh Menteri sebagai bukti pemberian Pengampunan Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Surat Pemberitahuan Tahunan Pajak Penghasilan Terakhir yang selanjutnya disebut SPT PPh Terakhir adalah:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-12/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Surat Pemberitahuan Tahunan Pajak Penghasilan untuk Tahun Pajak 2015 bagi Wajib Pajak yang akhir tahun bukunya berakhir pada periode 1 Juli 2015 sampai dengan 31 Desember 2015; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-12/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Surat Pemberitahuan Tahunan Pajak Penghasilan untuk Tahun Pajak 2014 bagi Wajib Pajak yang akhir tahun bukunya berakhir pada periode 1 Januari 2015 sampai dengan 30 Juni 2015.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Manajemen Data dan Informasi adalah sistem administrasi data dan informasi Wajib Pajak yang berkaitan dengan Pengampunan Pajak yang dikelola oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Bank . . . Bank Persepsi adalah bank umum yang ditunjuk oleh Menteri untuk menerima setoran penerimaan negara dan berdasarkan Undang-Undang ini ditunjuk untuk menerima setoran Uang Tebusan dan/atau dana yang dialihkan ke dalam wilayah Negara Kesatuan Republik rangka pelaksanaan Pengampunan Pajak. Indonesia dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Tahun Pajak Terakhir adalah Tahun Pajak yang berakhir pada jangka waktu 1 Januari 2015 sampai dengan 31 Desember 2015.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ASAS DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengampunan Pajak dilaksanakan berdasarkan asas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kepastian hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keadilan; c. kemanfaatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kepentingan nasional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengampunan Pajak bertujuan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mempercepat pertumbuhan dan restrukturisasi ekonomi lain akan melalui pengalihan Harta, yang antara berdampak terhadap peningkatan likuiditas domestik, perbaikan nilai tukar Rupiah, penurunan suku bunga, dan peningkatan investasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mendorong reformasi perpajakan menuju sistem perpajakan yang lebih berkeadilan serta perluasan basis data perpajakan yang lebih valid, komprehensif, dan terintegrasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "meningkatkan penerimaan pajak, yang antara lain akan digunakan untuk pembiayaan pembangunan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "SUBJEK DAN OBJEK PENGAMPUNAN PAJAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Wajib Pajak berhak mendapatkan Pengampunan Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengampunan . . . Pengampunan Pajak sebagaimana dimaksud pada ayat (1) diberikan kepada Wajib Pajak melalui pengungkapan Harta yang dimilikinya dalam Surat Pernyataan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1), yaitu Wajib Pajak yang sedang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "dilakukan penyidikan dan berkas penyidikannya telah dinyatakan lengkap oleh Kejaksaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dalam proses peradilan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menjalani hukuman pidana, atas Tindak Pidana di Bidang Perpajakan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengampunan Pajak sebagaimana dimaksud pada ayat (1) meliputi pengampunan atas kewajiban perpajakan sampai dengan akhir Tahun Pajak Terakhir, yang belum atau belum sepenuhnya diselesaikan oleh Wajib Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kewajiban perpajakan sebagaimana dimaksud pada ayat (4) terdiri atas kewajiban:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pajak Penghasilan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-3/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TARIF DAN CARA MENGHITUNG UANG TEBUSAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tarif Uang Tebusan atas Harta yang berada di dalam wilayah Negara Kesatuan Republik Indonesia atau Harta yang berada di luar wilayah Negara Kesatuan Republik Indonesia yang dialihkan ke dalam wilayah Negara Kesatuan Republik Indonesia dan diinvestasikan di dalam wilayah Negara Kesatuan Republik Indonesia dalam jangka waktu paling singkat 3 (tiga) tahun terhitung sejak dialihkan, adalah sebesar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "2% (dua persen) untuk periode penyampaian Surat Pernyataan pada bulan pertama sampai dengan akhir bulan ketiga terhitung sejak Undang-Undang ini mulai berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "3% . . . 3% (tiga persen) untuk periode penyampaian Surat Pernyataan pada bulan keempat terhitung sejak Undang- Undang ini mulai berlaku sampai dengan tanggal 31 Desember 2016; dan c. 5% (lima persen) untuk periode penyampaian Surat Pernyataan terhitung sejak tanggal 1 Januari 2017 sampai dengan tanggal 31 Maret 2017.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tarif Uang Tebusan atas Harta yang berada di luar wilayah Negara Kesatuan Republik Indonesia dan tidak dialihkan ke dalam wilayah Negara Kesatuan Republik Indonesia adalah sebesar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "4% (empat persen) untuk periode penyampaian Surat Pernyataan pada bulan pertama sampai dengan akhir bulan ketiga terhitung sejak Undang-Undang ini mulai berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "6% (enam persen) untuk periode penyampaian Surat Pernyataan pada bulan keempat terhitung sejak Undang- Undang ini mulai berlaku sampai dengan tanggal 31 Desember 2016; dan c. 10% (sepuluh persen) untuk periode penyampaian Surat Pernyataan terhitung sejak tanggal 1 Januari 2017 sampai dengan tanggal 31 Maret 2017.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tarif Uang Tebusan bagi Wajib Pajak yang peredaran usahanya sampai dengan Rp4.800.000.000,00 (empat miliar delapan ratus juta rupiah) pada Tahun Pajak Terakhir adalah sebesar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "0,5% (nol koma lima persen) bagi Wajib Pajak yang dengan (sepuluh miliar rupiah) dalam sampai mengungkapkan Rp10.000.000.000,00 Surat Pernyataan; atau Harta nilai",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-4/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "2% (dua persen) bagi Wajib Pajak yang mengungkapkan nilai Harta lebih dari Rp10.000.000.000,00 (sepuluh miliar rupiah) dalam Surat Pernyataan, untuk periode penyampaian Surat Pernyataan pada bulan pertama sejak Undang-Undang ini mulai berlaku sampai dengan tanggal 31 Maret 2017. Pasal 5 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Besarnya Uang Tebusan dihitung dengan cara mengalikan tarif sebagaimana dimaksud dalam Pasal 4 dengan dasar pengenaan Uang Tebusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dasar pengenaan Uang Tebusan sebagaimana dimaksud pada ayat (1) dihitung berdasarkan nilai Harta bersih yang belum atau belum seluruhnya dilaporkan dalam SPT PPh Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nilai Harta bersih sebagaimana dimaksud pada ayat (2) merupakan selisih antara nilai Harta dikurangi nilai Utang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Nilai Harta yang diungkapkan dalam Surat Pernyataan meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nilai Harta yang telah dilaporkan dalam SPT PPh Terakhir; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nilai Harta tambahan yang belum atau belum seluruhnya dilaporkan dalam SPT PPh Terakhir.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nilai Harta yang telah dilaporkan sebagaimana dimaksud pada ayat (1) huruf a ditentukan dalam mata uang Rupiah berdasarkan nilai yang dilaporkan dalam SPT PPh Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Wajib Pajak diwajibkan menyampaikan Surat Pemberitahuan Tahunan Pajak Penghasilan menggunakan satuan mata uang selain Rupiah, nilai Harta yang telah dilaporkan sebagaimana dimaksud pada ayat (1) huruf a ditentukan dalam mata uang Rupiah berdasarkan kurs yang ditetapkan oleh Menteri untuk keperluan penghitungan pajak pada tanggal akhir tahun buku sesuai dengan SPT PPh Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Nilai Harta tambahan yang belum atau belum seluruhnya dilaporkan sebagaimana dimaksud pada ayat (1) huruf b ditentukan dalam mata uang Rupiah berdasarkan nilai nominal untuk Harta berupa kas atau nilai wajar untuk Harta selain kas pada akhir Tahun Pajak Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam . . . Dalam hal nilai Harta tambahan menggunakan satuan mata uang selain Rupiah, nilai Harta tambahan ditentukan dalam mata uang Rupiah berdasarkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nilai nominal untuk Harta berupa kas; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-6/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nilai wajar pada akhir Tahun Pajak Terakhir untuk Harta selain kas, dengan menggunakan kurs yang ditetapkan oleh Menteri untuk keperluan penghitungan pajak pada akhir Tahun Pajak Terakhir.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Nilai Utang yang diungkapkan dalam Surat Pernyataan meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "nilai Utang yang telah dilaporkan dalam SPT PPh Terakhir; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nilai Utang yang berkaitan dengan Harta tambahan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf b.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk penghitungan dasar pengenaan Uang Tebusan, besarnya nilai Utang yang berkaitan secara langsung dengan perolehan Harta tambahan yang dapat diperhitungkan sebagai pengurang nilai Harta bagi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Wajib Pajak badan paling banyak sebesar 75% (tujuh puluh lima persen) dari nilai Harta tambahan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wajib Pajak orang pribadi paling banyak sebesar 50% (lima puluh persen) dari nilai Harta tambahan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nilai Utang yang telah dilaporkan sebagaimana dimaksud pada ayat (1) huruf a ditentukan dalam mata uang Rupiah berdasarkan nilai yang dilaporkan dalam SPT PPh Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal Wajib Pajak diwajibkan menyampaikan Surat Pemberitahuan Tahunan Pajak Penghasilan menggunakan satuan mata uang selain Rupiah, nilai Utang sebagaimana dimaksud pada ayat (3) ditentukan dalam mata uang Rupiah berdasarkan kurs yang ditetapkan oleh Menteri untuk keperluan penghitungan pajak pada tanggal akhir tahun buku sesuai dengan SPT PPh Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Nilai Utang yang berkaitan dengan Harta tambahan sebagaimana dimaksud pada ayat (1) huruf b ditentukan dalam mata uang Rupiah berdasarkan nilai yang dilaporkan dalam daftar Utang pada akhir Tahun Pajak Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-7/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam . . . Dalam hal nilai Utang yang berkaitan dengan Harta tambahan sebagaimana dimaksud pada ayat (1) huruf b ditentukan dalam mata uang selain Rupiah, nilai Utang ditentukan dalam mata uang Rupiah berdasarkan kurs yang ditetapkan oleh Menteri untuk keperluan penghitungan pajak pada akhir Tahun Pajak Terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "TATA CARA PENYAMPAIAN SURAT PERNYATAAN, PENERBITAN SURAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk memperoleh Pengampunan Pajak, Wajib Pajak harus menyampaikan Surat Pernyataan kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Surat Pernyataan sebagaimana dimaksud pada ayat (1) ditandatangani oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Wajib Pajak orang pribadi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemimpin tertinggi berdasarkan akta pendirian badan atau dokumen lain yang dipersamakan, bagi Wajib Pajak badan; atau c. penerima kuasa, dalam hal pemimpin sebagaimana dimaksud pada huruf b berhalangan. tertinggi",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wajib Pajak sebagaimana dimaksud pada ayat (1) harus memenuhi persyaratan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki Nomor Pokok Wajib Pajak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "membayar Uang Tebusan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melunasi seluruh Tunggakan Pajak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melunasi pajak yang tidak atau kurang dibayar atau melunasi pajak yang seharusnya tidak dikembalikan bagi Wajib Pajak yang sedang dilakukan pemeriksaan bukti permulaan dan/atau penyidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyampaikan SPT PPh Terakhir bagi Wajib Pajak yang kewajiban menyampaikan Surat telah memiliki Pemberitahuan Tahunan Pajak Penghasilan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "mencabut . . . mencabut permohonan:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "pengembalian kelebihan pembayaran pajak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "pengurangan atau penghapusan sanksi administrasi perpajakan dalam Surat Ketetapan Pajak dan/atau Surat Tagihan Pajak yang di dalamnya terdapat pokok pajak yang terutang;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "pengurangan atau pembatalan ketetapan pajak yang tidak benar;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "keberatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "pembetulan atas surat ketetapan pajak dan surat keputusan; gugatan; dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "banding; 7.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "peninjauan kembali, dalam hal Wajib Pajak sedang mengajukan permohonan dan belum diterbitkan surat keputusan atau putusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Uang Tebusan sebagaimana dimaksud pada ayat (3) huruf b harus dibayar lunas ke kas negara melalui Bank Persepsi. menggunakan surat setoran pajak yang berfungsi sebagai bukti pembayaran Uang Tebusan setelah mendapatkan validasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pembayaran Uang Tebusan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal Wajib Pajak bermaksud mengalihkan Harta ke dalam wilayah Negara Kesatuan Republik Indonesia, selain memenuhi persyaratan sebagaimana dimaksud pada ayat (3), Wajib Pajak harus mengalihkan Harta ke dalam wilayah Negara Kesatuan Republik Indonesia dan menginvestasikan Harta dimaksud di dalam wilayah Negara Kesatuan Republik Indonesia paling singkat selama jangka waktu 3 (tiga) tahun: a. b. sebelum 31 Desember 2016 bagi Wajib Pajak yang memilih menggunakan tarif Uang Tebusan sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a dan huruf b; dan/atau sebelum 31 Maret 2017 bagi Wajib Pajak yang memilih menggunakan sebagaimana tarif Uang Tebusan dimaksud dalam Pasal 4 ayat (1) huruf c.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-8/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Dalam . . . Dalam hal Wajib Pajak mengungkapkan Harta yang berada dan/atau ditempatkan di dalam wilayah Negara Kesatuan Republik persyaratan sebagaimana dimaksud pada ayat (3), Wajib Pajak tidak dapat mengalihkan Harta ke luar wilayah Negara Kesatuan Republik Indonesia paling singkat selama jangka waktu 3 (tiga) tahun terhitung sejak diterbitkannya Surat Keterangan. selain memenuhi Indonesia,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Surat Pernyataan sebagaimana dimaksud dalam Pasal 8 ayat memuat paling sedikit informasi mengenai identitas Wajib Pajak, Harta, Utang, nilai Harta bersih, dan penghitungan Uang Tebusan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Surat Pernyataan sebagaimana dimaksud pada ayat (1) harus dilampiri dengan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bukti pembayaran Uang Tebusan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bukti pelunasan Tunggakan Pajak bagi Wajib Pajak yang memiliki Tunggakan Pajak; c. daftar rincian Harta beserta informasi kepemilikan Harta yang dilaporkan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "daftar Utang serta dokumen pendukung; e. bukti pelunasan pajak yang tidak atau kurang dibayar atau pajak yang seharusnya tidak dikembalikan bagi Wajib Pajak yang sedang dilakukan pemeriksaan bukti permulaan atau penyidikan; f. g. fotokopi SPT PPh Terakhir; dan surat pernyataan mencabut permohonan sebagaimana dimaksud dalam Pasal 8 ayat (3) huruf f.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Wajib Pajak bermaksud mengalihkan Harta ke dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Pasal 8 ayat (6), selain melampirkan dokumen sebagaimana dimaksud pada ayat (2), Wajib Pajak harus melampirkan surat pernyataan mengalihkan dan menginvestasikan Harta ke dalam wilayah Negara Kesatuan Republik Indonesia paling singkat selama jangka waktu 3 (tiga) tahun terhitung sejak dialihkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam . . . Dalam hal Wajib Pajak mengungkapkan Harta yang berada dan/atau ditempatkan di dalam wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Pasal 8 ayat (7), selain melampirkan dokumen sebagaimana dimaksud pada ayat (2), Wajib Pajak harus melampirkan surat pernyataan tidak mengalihkan Harta ke luar wilayah Negara Kesatuan Republik Indonesia paling singkat selama jangka waktu 3 (tiga) tahun terhitung sejak diterbitkannya Surat Keterangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-9/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Bagi Wajib Pajak yang peredaran usahanya sampai dengan Rp4.800.000.000,00 (empat miliar delapan ratus juta rupiah) pada Tahun Pajak Terakhir sebagaimana dimaksud dalam Pasal 4 ayat (3), selain melampirkan dokumen sebagaimana dimaksud pada ayat (2) dan ayat (4), Wajib Pajak dimaksud harus melampirkan surat pernyataan mengenai besaran peredaran usaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Surat Pernyataan disampaikan ke kantor Direktorat Jenderal Pajak tempat Wajib Pajak terdaftar atau tempat lain yang ditentukan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sebelum menyampaikan Surat Pernyataan dan lampirannya sebagaimana dimaksud dalam Pasal 9, Wajib Pajak meminta penjelasan mengenai pengisian dan pemenuhan kelengkapan dokumen yang harus dilampirkan dalam Surat Pernyataan ke kantor Direktorat Jenderal Pajak atau tempat lain yang ditentukan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Berdasarkan penjelasan sebagaimana dimaksud pada ayat (2), Wajib Pajak membayar Uang Tebusan dan menyampaikan Surat Pernyataan beserta lampirannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Menteri atau pejabat yang ditunjuk atas nama Menteri menerbitkan Surat Keterangan dalam jangka waktu paling lama 10 (sepuluh) hari kerja terhitung sejak tanggal diterima Surat Pernyataan beserta lampirannya dan mengirimkan Surat Keterangan kepada Wajib Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam . . . Dalam hal jangka waktu 10 (sepuluh) hari kerja sebagaimana dimaksud pada ayat (4) Menteri atau pejabat yang ditunjuk atas nama Menteri belum menerbitkan Surat Keterangan, sebagai Surat Surat Pernyataan dianggap diterima Keterangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Menteri atau pejabat yang ditunjuk atas nama Menteri dapat menerbitkan surat pembetulan atas Surat Keterangan dalam hal terdapat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kesalahan tulis dalam Surat Keterangan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kesalahan hitung dalam Surat Keterangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Wajib Pajak dapat menyampaikan Surat Pernyataan paling banyak 3 (tiga) kali dalam jangka waktu terhitung sejak Undang-Undang ini mulai berlaku sampai dengan tanggal 31 Maret 2017.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Wajib Pajak dapat menyampaikan Surat Pernyataan kedua atau ketiga sebelum atau setelah Surat Keterangan atas Surat Pernyataan yang pertama atau kedua diterbitkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "Dalam hal Wajib Pajak menyampaikan Surat Pernyataan yang kedua atau ketiga, penghitungan dasar pengenaan Uang Tebusan dimaksud memperhitungkan dasar pengenaan Uang Tebusan yang telah dicantumkan dalam Surat Keterangan atas Surat Pernyataan sebelumnya. Pernyataan dalam Surat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-10",
+       "type": "AYAT",
+       "orderIndex": 10,
+       "label": "Ayat (10)",
+       "content": "Dalam hal terdapat kelebihan pembayaran Uang Tebusan yang disebabkan oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-10/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "diterbitkannya surat pembetulan karena kesalahan hitung sebagaimana dimaksud pada ayat (6) huruf b; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-10/ayat-10/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disampaikannya Surat Pernyataan kedua atau ketiga sebagaimana dimaksud pada ayat (8), atas kelebihan pembayaran dimaksud harus dikembalikan dan/atau diperhitungkan dengan kewajiban perpajakan lainnya dalam jangka waktu paling lama 3 (tiga) bulan terhitung sejak diterbitkannya surat pembetulan atau disampaikannya Surat Pernyataan kedua atau ketiga dimaksud. Pasal 11 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak yang telah menyampaikan Surat Pernyataan sebagaimana dimaksud dalam Pasal 8 ayat dan lampirannya sebagaimana dimaksud dalam Pasal 9, diberi tanda terima sebagai bukti penerimaan Surat Pernyataan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wajib Pajak yang telah memperoleh tanda terima sebagaimana dimaksud pada ayat (1) tidak dilakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemeriksaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemeriksaan bukti permulaan; dan/atau c. untuk masa pajak, bagian Tahun Pajak, atau Tahun Pajak sampai dengan akhir Tahun Pajak Terakhir. penyidikan Tindak Pidana di Bidang Perpajakan, penyidikan Tindak Pidana di Bidang Perpajakan,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Wajib Pajak yang telah memperoleh tanda terima sebagaimana dimaksud pada ayat (1) sedang dilakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemeriksaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemeriksaan bukti permulaan; dan/atau c. untuk masa pajak, bagian Tahun Pajak, atau Tahun Pajak sampai dengan akhir Tahun Pajak Terakhir, terhadap pemeriksaan, pemeriksaan bukti permulaan, dan/atau penyidikan Tindak Pidana di Bidang Perpajakan dimaksud ditangguhkan Surat dengan Keterangan. diterbitkannya sampai",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemeriksaan, pemeriksaan bukti permulaan, dan/atau penyidikan Tindak Pidana di Bidang Perpajakan sebagaimana dimaksud pada ayat (3) dihentikan dalam hal Menteri atau pejabat yang ditunjuk atas nama Menteri menerbitkan Surat Keterangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Wajib Pajak yang telah diterbitkan Surat Keterangan, memperoleh fasilitas Pengampunan Pajak berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penghapusan pajak terutang yang belum diterbitkan ketetapan pajak, tidak dikenai sanksi administrasi perpajakan, dan tidak dikenai sanksi pidana di bidang perpajakan, untuk kewajiban perpajakan dalam masa pajak, bagian Tahun Pajak, dan Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penghapusan . . . penghapusan sanksi administrasi perpajakan berupa bunga, atau denda, untuk kewajiban perpajakan dalam masa pajak, bagian Tahun Pajak, dan Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir; c. tidak dilakukan pemeriksaan pajak, pemeriksaan bukti permulaan, dan penyidikan Tindak Pidana di Bidang Perpajakan, atas kewajiban perpajakan dalam masa pajak, bagian Tahun Pajak, dan Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penghentian pemeriksaan pajak, pemeriksaan bukti permulaan, dan penyidikan Tindak Pidana di Bidang Perpajakan, dalam hal Wajib Pajak sedang dilakukan pemeriksaan pajak, pemeriksaan bukti permulaan, dan penyidikan Tindak Pidana di Bidang Perpajakan atas kewajiban perpajakan, sampai dengan akhir Tahun Pajak Terakhir, ditangguhkan sebagaimana dimaksud dalam Pasal 11 ayat (3), sebelumnya telah yang yang berkaitan dengan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 ayat (5).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-11/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Penghentian penyidikan sebagaimana dimaksud pada ayat (5) huruf d dilakukan oleh pejabat di lingkungan Direktorat Jenderal Pajak yang melaksanakan fungsi penyidikan sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan. tugas dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KEWAJIBAN INVESTASI ATAS HARTA YANG DIUNGKAPKAN DAN PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak yang menyatakan mengalihkan dan menginvestasikan Harta sebagaimana dimaksud dalam Pasal 8 ayat (6) harus mengalihkan Harta dimaksud melalui Bank Persepsi yang ditunjuk secara khusus untuk itu paling lambat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tanggal 31 Desember 2016 bagi Wajib Pajak yang menyatakan mengalihkan dan menginvestasikan Harta sebagaimana dimaksud dalam Pasal 8 ayat (6) huruf a; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tanggal . . . tanggal 31 Maret 2017 bagi Wajib Pajak yang menyatakan mengalihkan dan menginvestasikan Harta sebagaimana dimaksud dalam Pasal 8 ayat (6) huruf b.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jangka waktu investasi paling singkat 3 (tiga) tahun sebagaimana dimaksud dalam Pasal 8 ayat (6) terhitung sejak tanggal dialihkannya Harta ke dalam wilayah Negara Kesatuan Republik Indonesia. (3) Investasi sebagaimana dimaksud pada ayat (1) dilakukan dalam bentuk: a. b. c. d. e. f. g. surat berharga Negara Republik Indonesia; obligasi Badan Usaha Milik Negara; obligasi Pemerintah; lembaga pembiayaan yang dimiliki oleh investasi keuangan pada Bank Persepsi; obligasi perusahaan swasta yang perdagangannya diawasi oleh Otoritas Jasa Keuangan; investasi infrastruktur melalui kerja sama Pemerintah dengan badan usaha; investasi ditentukan oleh Pemerintah; dan/atau sektor riil berdasarkan prioritas yang",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-12/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "bentuk investasi lainnya yang sah sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak atau kuasa yang ditunjuk harus menyampaikan laporan kepada Menteri atau pejabat yang ditunjuk atas nama Menteri mengenai: a. realisasi pengalihan dan investasi atas Harta tambahan yang diungkapkan dalam Surat Pernyataan untuk Harta tambahan yang dialihkan ke dalam wilayah Negara Kesatuan Republik Indonesia, bagi Wajib Pajak yang harus mengalihkan sebagaimana dimaksud dalam Pasal 8 ayat (6); dan/atau",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penempatan . . . penempatan atas Harta tambahan yang diungkapkan dalam Surat Pernyataan untuk Harta tambahan yang berada di dalam wilayah Negara Kesatuan Republik tidak dapat Indonesia, bagi Wajib Pajak yang mengalihkan Harta ke luar wilayah Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Pasal 8 ayat (7).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Berdasarkan laporan sebagaimana dimaksud pada ayat (1), Menteri atau pejabat yang ditunjuk atas nama Menteri dapat menerbitkan dan mengirimkan surat peringatan setelah batas akhir periode penyampaian Surat Pernyataan dalam hal:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Wajib Pajak yang menyatakan mengalihkan dan menginvestasikan Harta ke dalam wilayah Negara Kesatuan Republik Indonesia tetapi tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 8 ayat (6); dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wajib Pajak yang menyatakan tidak mengalihkan Harta ke luar wilayah Negara Kesatuan Republik Indonesia tetapi sebagaimana dimaksud dalam Pasal 8 ayat (7). tidak memenuhi ketentuan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wajib Pajak harus menyampaikan tanggapan atas surat peringatan sebagaimana dimaksud pada ayat (2) dalam jangka waktu paling lama 14 (empat belas) hari kerja terhitung sejak tanggal kirim.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal berdasarkan tanggapan Wajib Pajak diketahui bahwa Wajib Pajak tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 8 ayat (6) dan/atau Pasal 8 ayat (7), berlaku ketentuan: a. terhadap Harta bersih tambahan yang tercantum dalam Surat Keterangan diperlakukan sebagai penghasilan pada Tahun Pajak 2016 dan atas penghasilan dimaksud dikenai pajak dan sanksi sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan; dan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Uang Tebusan yang telah dibayar oleh Wajib Pajak diperhitungkan sebagai pengurang pajak sebagaimana dimaksud pada huruf a.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-13/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Terhadap . . . Terhadap Wajib Pajak sebagaimana dimaksud pada ayat (4) tetap berlaku ketentuan mengenai perlakuan khusus dalam rangka Pengampunan Pajak sebagaimana dimaksud dalam Pasal 11.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PERLAKUAN PERPAJAKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bagi Wajib Pajak yang diwajibkan menyelenggarakan pembukuan menurut ketentuan Undang-Undang mengenai Ketentuan Umum dan Tata Cara Perpajakan, harus membukukan selisih antara nilai Harta bersih sebagaimana dimaksud dalam Pasal 5 ayat (3) yang disampaikan dalam Surat Pernyataan dikurangi dengan nilai Harta bersih yang telah dilaporkan oleh Wajib Pajak dalam SPT PPh Terakhir sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf a, sebagai tambahan atas saldo laba ditahan dalam neraca.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Harta tambahan yang diungkapkan dalam Surat Pernyataan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf b yang berupa aktiva tidak berwujud, tidak dapat diamortisasi untuk tujuan perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Harta tambahan yang diungkapkan dalam Surat Pernyataan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf b yang berupa aktiva berwujud, tidak dapat disusutkan untuk tujuan perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak yang telah memperoleh Surat Keterangan dan membayar Uang Tebusan atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Harta tidak bergerak berupa tanah dan/atau bangunan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Harta berupa saham, yang belum dibaliknamakan atas nama Wajib Pajak, harus melakukan pengalihan hak menjadi atas nama Wajib Pajak.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengalihan . . . Pengalihan hak sebagaimana dimaksud pada ayat (1) huruf a dibebaskan dari pengenaan Pajak Penghasilan, dalam hal:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "permohonan pengalihan hak; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penandatanganan surat pernyataan oleh kedua belah pihak di hadapan notaris yang menyatakan bahwa Harta sebagaimana dimaksud pada ayat (1) huruf a adalah benar milik Wajib Pajak yang menyampaikan Surat Pernyataan, dalam hal Harta dimaksud belum dapat diajukan permohonan pengalihan hak, dilakukan dalam jangka waktu paling lambat tanggal 31 Desember 2017.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengalihan hak sebagaimana dimaksud pada ayat (1) huruf b dibebaskan dari pengenaan Pajak Penghasilan dalam hal terdapat perjanjian pengalihan hak dalam jangka waktu paling lambat tanggal 31 Desember 2017.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Apabila sampai dengan tanggal 31 Desember 2017, Wajib Pajak tidak mengalihkan hak sebagaimana dimaksud pada ayat (1), atas pengalihan hak yang dilakukan dikenai pajak sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai Pajak Penghasilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Wajib Pajak yang menyampaikan Surat Pernyataan, tidak berhak:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengompensasikan kerugian surat pemberitahuan untuk bagian Tahun Pajak atau Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir, ke bagian Tahun Pajak atau Tahun Pajak berikutnya; fiskal dalam",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengompensasikan kelebihan pembayaran pajak dalam surat pemberitahuan atas jenis pajak sebagaimana dimaksud dalam Pasal 3 ayat (5) untuk masa pajak pada akhir Tahun Pajak Terakhir, ke masa pajak berikutnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengajukan . . . mengajukan permohonan pengembalian kelebihan pembayaran pajak dalam surat pemberitahuan atas jenis pajak sebagaimana dimaksud dalam Pasal 3 ayat (5) untuk masa pajak, bagian Tahun Pajak, atau Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melakukan pembetulan surat pemberitahuan atas jenis pajak sebagaimana dimaksud dalam Pasal 3 ayat (5) untuk masa pajak, bagian Tahun Pajak, atau Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir, setelah Undang-Undang ini diundangkan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setelah Undang-Undang ini diundangkan, pembetulan surat pemberitahuan untuk masa pajak, bagian Tahun Pajak, atau Tahun Pajak, sampai dengan akhir Tahun Pajak Terakhir yang disampaikan oleh Wajib Pajak yang menyampaikan Surat Pernyataan dianggap tidak disampaikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Surat Ketetapan Pajak, Surat Keputusan Pengembalian Pendahuluan Kelebihan Pembayaran Pajak, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, Surat Keputusan Keberatan, Putusan Banding, Putusan Gugatan, Putusan Peninjauan Kembali, untuk masa pajak, bagian Tahun Pajak, dan Tahun Pajak sebelum akhir Tahun Pajak Terakhir, yang terbit sebelum Wajib Pajak menyampaikan Surat Pernyataan, tetap dijadikan dasar bagi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Direktorat Jenderal Pajak untuk melakukan penagihan pajak dan/atau pengembalian kelebihan pembayaran pajak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wajib Pajak untuk mengompensasikan kerugian fiskal; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Wajib Pajak untuk mengompensasikan kelebihan pembayaran pajak, sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Surat . . . Surat Ketetapan Pajak, Surat Keputusan Pengembalian Pendahuluan Kelebihan Pembayaran Pajak, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembataln Ketetapan Pajak, Surat Keputusan Keberatan, Putusan Banding, Putusan Gugatan, Putusan Peninjauan Kembali, untuk masa pajak, bagian Tahun Pajak, dan Tahun Pajak sebelum akhir Tahun Pajak Terakhir, yang terbit setelah Wajib Pajak menyampaikan Surat Pernyataan, tidak dapat dijadikan dasar bagi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Direktorat Jenderal Pajak untuk melakukan penagihan pajak dan/atau pengembalian kelebihan pembayaran pajak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wajib Pajak untuk mengompensasikan kerugian fiskal; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Wajib Pajak untuk mengompensasikan kelebihan pembayaran pajak.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal terdapat Surat Ketetapan Pajak, Surat Keputusan Pengembalian Pendahuluan Kelebihan Pembayaran Pajak, Surat Keputusan Pembetulan, Surat Keputusan Pengurangan Ketetapan Pajak, Surat Keputusan Pembatalan Ketetapan Pajak, Surat Keputusan Pengurangan Sanksi Administrasi, Surat Keputusan Penghapusan Sanksi Administrasi, Surat Keputusan Keberatan, Putusan Banding, Putusan Peninjauan Kembali, untuk masa pajak, bagian Tahun Pajak, dan Tahun Pajak sebelum akhir Tahun Pajak Terakhir, yang terbit sebelum Wajib Pajak menyampaikan Surat Pernyataan yang mengakibatkan timbulnya kewajiban pembayaran imbalan bunga bagi Direktorat Jenderal Pajak, atas kewajiban dimaksud menjadi hapus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PERLAKUAN ATAS HARTA YANG BELUM ATAU KURANG DIUNGKAP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Wajib Pajak telah memperoleh Surat Keterangan informasi kemudian ditemukan adanya data dan/atau mengenai Harta yang belum atau kurang diungkapkan dalam Surat Pernyataan, atas Harta dimaksud dianggap sebagai tambahan penghasilan yang diterima atau diperoleh Wajib Pajak pada saat ditemukannya data dan/atau informasi mengenai Harta dimaksud. dikenai Pajak Penghasilan sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Penghasilan dan ditambah dengan sanksi administrasi perpajakan berupa kenaikan sebesar 200% (dua ratus persen) dari Pajak Penghasilan yang tidak atau kurang dibayar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam . . . Dalam hal: dikenai pajak dan sanksi sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Wajib Pajak tidak menyampaikan Surat Pernyataan sampai dengan periode Pengampunan Pajak berakhir; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Direktur Jenderal Pajak menemukan data dan/atau informasi mengenai Harta Wajib Pajak yang diperoleh sejak tanggal 1 Januari 1985 sampai dengan 31 Desember 2015 dan belum dilaporkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan, atas Harta dimaksud dianggap sebagai tambahan penghasilan yang diterima atau diperoleh Wajib Pajak pada saat ditemukannya data dan/atau informasi mengenai Harta dimaksud, paling lama 3 (tiga) tahun terhitung sejak Undang- Undang ini mulai berlaku.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Atas tambahan penghasilan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Atas tambahan penghasilan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "UPAYA HUKUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Segala sengketa yang berkaitan dengan pelaksanaan Undang- Undang ini hanya dapat diselesaikan melalui pengajuan gugatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Gugatan sebagaimana dimaksud pada ayat (1) hanya dapat diajukan pada badan peradilan pajak. BAB X . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "MANAJEMEN DATA DAN INFORMASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Data dan informasi yang bersumber dari Surat Pernyataan dan lampirannya yang diadministrasikan oleh Kementerian Keuangan atau pihak lain yang berkaitan dengan pelaksanaan Undang- Undang ini tidak dapat dijadikan sebagai dasar penyelidikan, penyidikan, dan/atau penuntutan pidana terhadap Wajib Pajak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri menyelenggarakan Manajemen Data dan Informasi dalam rangka pelaksanaan Undang-Undang ini.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri, Wakil Menteri, pegawai Kementerian Keuangan, dan pihak lain yang berkaitan dengan pelaksanaan Pengampunan Pajak, dilarang membocorkan, menyebarluaskan, dan/atau memberitahukan data dan informasi yang diketahui atau diberitahukan oleh Wajib Pajak kepada pihak lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Data dan informasi yang disampaikan Wajib Pajak dalam rangka Pengampunan Pajak tidak dapat diminta oleh siapapun atau diberikan kepada pihak manapun berdasarkan peraturan perundang-undangan lain, kecuali atas persetujuan Wajib Pajak sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Data dan informasi yang disampaikan Wajib Pajak digunakan sebagai basis data perpajakan Direktorat Jenderal Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Menteri, Wakil Menteri, pegawai Kementerian Keuangan, dan pihak lain yang berkaitan dengan pelaksanaan Pengampunan Pajak, tidak dapat dilaporkan, digugat, dilakukan penyelidikan, dilakukan penyidikan, atau dituntut, baik secara perdata maupun pidana jika dalam melaksanakan tugas didasarkan pada iktikad baik dan sesuai dengan ketentuan peraturan perundang-undangan. BAB XI . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 21 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2016/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penuntutan terhadap tindak pidana sebagaimana dimaksud pada ayat (1) hanya dilakukan atas pengaduan orang yang kerahasiaannya dilanggar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PELAKSANAAN PENGAMPUNAN PAJAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Ketentuan lebih lanjut mengenai: a. pelaksanaan Pengampunan Pajak; b. penunjukan Bank Persepsi yang menerima pengalihan Harta; c. d. penyampaian laporan sebagaimana dimaksud dalam Pasal 13 prosedur dan tata cara investasi; ayat (1); dan e. penunjukan pejabat yang berwenang untuk melaksanakan ketentuan sebagaimana dimaksud dalam Pasal 10 ayat (4), Pasal 10 ayat (5), Pasal 10 ayat (6), Pasal 11 ayat (4), Pasal 13 ayat (1), dan Pasal 13 ayat (2), diatur dengan Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2016/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2016/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 1 Juli 2016 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 1 Juli 2016 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 131",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

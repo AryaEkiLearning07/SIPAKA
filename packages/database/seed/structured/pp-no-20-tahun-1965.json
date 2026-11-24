@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-20-tahun-1965",
+ "preamble": {
+  "menimbang": [
+   "b. 3. 4."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-20-tahun-1965",
+   "detailsId": "71334",
+   "judul": "PP No. 20 Tahun 1965 tentang Perubahan Dan Tambahan Peraturan Pemerintah No 19 Tahun 1962, &#xD;&#xA;Tentang Pendirian Perusahaan Negara Perhubungan Udara Daerah&#xD;&#xA;Dan Penerbangan Serba Guna &quot;Merpati Nusantara&quot; &#xD;&#xA;(Lembaran-Negara Tahun 1962 No. 66)&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61782/pp%20no%20020%20tahun%201965.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:01:44.506235+00:00"
+  },
+  "sha256": "9c06e6cb7309d15edd28d60c15b0f95b5b3c63ec63d4ff6d8bcd27afecf0be73",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

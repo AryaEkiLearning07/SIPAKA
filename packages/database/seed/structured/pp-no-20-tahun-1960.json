@@ -1,0 +1,44 @@
+{
+ "slug": "pp-no-20-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa dianggap perlu untuk membuka kemungkinan bagi penghargaan waktu bekerja swasta yang pernah dialami oleh seorang pegawai Negeri untuk menentukan pensiun;",
+   "bahwa oleh karena itu penghargaan masa-kerja bagi penentapan pensiun seperti diatur dalam Peraturan Pemerintah No. 64 tahun 1954 perlu diubah dan ditinjau kembali;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-20-tahun-1960",
+   "detailsId": "74589",
+   "judul": "PP No. 20 Tahun 1960 tentang Masa Kerja yang Dihitung untuk Pensiun, Seperti dimaksud dalam Pasal 2 Ayat (2)&#xD;&#xA;Undang-Undang No. 20 Tahun 1952&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65088/pp%20no%20020%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-64-tahun-1954"
+   ],
+   "scrapedAt": "2026-10-05T18:15:39.573627+00:00"
+  },
+  "sha256": "6705002295814c8ab36872f5ee07e3c7f458a8b8002e8da9f28f95291c6acb8f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

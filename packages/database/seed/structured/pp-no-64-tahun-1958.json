@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-64-tahun-1958",
+ "preamble": {
+  "menimbang": [
+   "Bahwa untuk melancarkan usaha penyelenggaraan keselamatan, kesejahteraan dan keamanan Negara Republik Indonesia perlu dibentuk suatu badan yang bertugas menyelenggarakan koordinasi antara badan-badan intelligence;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-64-tahun-1958",
+   "detailsId": "76637",
+   "judul": "PP No. 64 Tahun 1958 tentang Badan Koordinasi Inteligence - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67533/PP%20No.%20064%20Tahun%201958.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:50.954259+00:00"
+  },
+  "sha256": "c38159990dbc9414a6668dd3f95da89bc4e1ec185a911b36e2378e55072f7f69",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

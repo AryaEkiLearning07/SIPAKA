@@ -1,0 +1,201 @@
+{
+ "slug": "pp-no-21-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai sumber utama penerimaan Negara, pengelolaan pajak perlu terus dikembangkan dan ditingkatkan sesuai dengan perkembangan kemampuan riil masyarakat dan laju pembangunan nasional;",
+   "bahwa dalam rangka pengelolaan pajak, diperlukan pula adanya perlakuan yang sama di antara berbagai piranti pengerahan dana masyarakat melalui perbankan;",
+   "bahwa sehubungan dengan hal di atas, dipandang perlu mengatur kembali pengenaan Pajak Penghasilan atas bunga deposito berjangka, sertifikat deposito dan tabungan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-21-tahun-1989",
+   "detailsId": "63644",
+   "judul": "PP No. 21 Tahun 1989 tentang Pajak Penghasilan Atas Bunga Deposito Berjangka, Sertifikat Deposito Dan Tabungan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53849/PP%20NO%2021%20TH%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-13-tahun-1988"
+   ],
+   "scrapedAt": "2026-10-05T18:13:15.820888+00:00"
+  },
+  "sha256": "4c7c48902a128977705be19d254470a4cc218b1ad96df8da155df98ab1705a96",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 8,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Atas penghasilan berupa bunga deposito berjangka, sertifikat deposito dan tabungan dikenakan Pajak Penghasilan sebesar 15% (lima belas persen) dan bersifat final.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Untuk keperluan pemotongan Pajak Penghasilan sebagaimana dimaksud dalam ayat (1) Bank dan Lembaga Keuangan Bukan Bank adalah wajib potong.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Dikecualikan dari pemotongan pajak dan masih tetap ditangguhkan pengenaan pajaknya adalah bunga atas deposito berjangka, sertifikat deposito dan tabungan yang nilai seluruh deposito dan tabungannya untuk setiap deposan dan/atau penabung tidak melebihi jumlah tertentu yang ditetapkan oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Dikecualikan dari pemotongan bersifat final sebagaimana dimaksud dalam Pasal 1 ayat (1) adalah bunga deposito berjangka, sertifikat deposito dan tabungan yang diterima oleh :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Yayasan sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf j Undang-undang Pajak Penghasilan 1984; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Perorangan yang seluruh penghasilannya termasuk penghasilan berupa bunga yang diterimanya tidak melebihi Penghasilan Tidak Kena Pajak (PTKP).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Bank tetap memotong pajak atas penghasilan berupa bunga deposito berjangka, sertifikat deposito dan tabungan milik Yayasan atau perorangan sebagaimana dimaksud pada ayat (1) sebesar 15% (lima belas persen).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Yayasan dan perorangan yang penghasilannya dipotong sebagaimana dimaksud dalam ayat (2) dapat mengajukan restitusi atas pemotongan pajak tersebut. diatur lebih lanjut oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-3/ayat-4",
+     "type": "AYAT",
+     "orderIndex": 4,
+     "label": "Ayat (4)",
+     "content": "Tata cara pengajuan restitusi sebagaimana dimaksud dalam ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-4/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bank dan Lembaga Keuangan Bukan Bank sebagai wajib potong melakukan penyetoran hasil pemotongan pajak secara kolektif tanpa menyebut nama atau keterangan lain yang menyangkut pemilik deposito berjangka, sertifikat deposito dan tabungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-21-tahun-1989/pasal-4/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Jumlah deposito berjangka, sertifikat deposito, dan tabungan sebagaimana dimaksud dalam Pasal 1 dan Pasal 2 serta bunganya tidak dicantumkan dalam Surat Pemberitahuan Tahunan Pajak (SPT Tahunan PPh), kecuali untuk Yayasan Penghasilan sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf a.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Pelaksanaan teknis lebih lanjut Peraturan Pemerintah ini diatur oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Dengan berlakunya Peraturan Pemerintah ini, Peraturan Pemerintah Nomor 13 Tahun 1988 tentang Pajak Atas Bunga Deposito Berjangka, Sertifikat Deposito dan Tabungan dinyatakan tidak berlaku lagi.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-21-tahun-1989/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Desember 1989. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Desember 1989 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 1 Desember 1989 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

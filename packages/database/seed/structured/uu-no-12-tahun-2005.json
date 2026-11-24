@@ -1,0 +1,81 @@
+{
+ "slug": "uu-no-12-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa bangsa Indonesia sebagai bagian dari masyarakat internasional, menghormati, menghargai, dan menjunjung tinggi prinsip dan tujuan Piagam Perserikatan Bangsa- Bangsa serta Deklarasi Universal Hak-hak Asasi Manusia;",
+   "bahwa Majelis Umum Perserikatan Bangsa-Bangsa, dalam sidangnya tanggal 16 Desember 1966 telah mengesahkan International Covenant on Civil and Political Rights (Kovenan Internasional tentang Hak-hak Sipil dan Politik);",
+   "bahwa instrumen internasional sebagaimana dimaksud pada huruf c pada dasarnya tidak bertentangan dengan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, sesuai dengan sifat negara Republik yang menjunjung tinggi harkat dan martabat manusia yang menjamin persamaan kedudukan semua warga negara di dalam hukum, dan keinginan bangsa Indonesia untuk secara terus-menerus memajukan dan melindungi hak asasi manusia dalam kehidupan berbangsa dan bernegara; sebagai negara hukum Indonesia",
+   "bahwa . . . PRESIDEN REPUBLIK INDONESIA - 2 -",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d perlu Pengesahan membentuk International Covenant on Civil and Political Rights (Kovenan Internasional tentang Hak-hak Sipil dan Politik). Undang-Undang tentang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-12-tahun-2005",
+   "detailsId": "40261",
+   "judul": "UU No. 12 Tahun 2005 tentang Pengesahan International Covenant on Civil and Political Rights (Kovenan Internasional Tentang Hak-Hak Sipil dan Politik) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29901/UU%20Nomor%2012%20Tahun%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T16:56:45.544668+00:00"
+  },
+  "sha256": "de82e382dc09b846f397377ff31883f4243c6dfdce12bfe761fd5c5afb9cca05",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-12-tahun-2005/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-12-tahun-2005/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Mengesahkan International Covenant on Civil and Political Rights (Kovenan Internasional tentang Hak-hak Sipil dan Politik) dengan Declaration (Pernyataan) terhadap Pasal 1.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-12-tahun-2005/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Salinan naskah asli International Covenant on Civil and Political Rights (Kovenan Internasional tentang Hak-hak Sipil dan Politik) dan Declaration (Pernyataan) terhadap Pasal 1 dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir merupakan bagian yang tidak terpisahkan dari Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-12-tahun-2005/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar . . . setiap Agar orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia, Disahkan di Jakarta pada tanggal 28 Oktober 2005 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 28 Oktober 2005 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd HAMID AWALUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2005 NOMOR 119",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

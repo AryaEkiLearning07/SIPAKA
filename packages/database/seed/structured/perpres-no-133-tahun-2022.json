@@ -1,0 +1,939 @@
+{
+ "slug": "perpres-no-133-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-133-tahun-2022",
+   "detailsId": "233384",
+   "judul": "PERPRES No. 133 Tahun 2022 tentang Hak Keuangan dan Fasilitas Pejabat Struktural Bank Tanah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/283158/Perpres%20Nomor%20133%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:09:13.719293+00:00"
+  },
+  "sha256": "7f3a38223aadbe7f8bbaa7b736e787b49727ed66a2cdbbe6d81b5b29443206c6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 23,
+  "ayat_angka": 43,
+  "huruf": 25
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-133-tahun-2022/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Badan Bank Tanah yang selanjutnya disebut Bank Tanah adalah badan khusus lsui genens) yang merupakan badan hukum Indonesia yang dibentuk oleh pemerintah pusat yang diberi kewenangan khusus untuk mengelola tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Komite Bank Tanah yang selanjutnya disebut Komite adalah Komite yang bertugas untuk menetapkan kebijakan strategis Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Dewan Pengawas adalah orga,n Bank Tanah yang memiliki tugas untuk mengawasi seluruh kegiatan Bank Tanah serta menya.mpaikan rekomendasi atas pelaksanaan kebijakan penyelenggaraan Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Badan Pelaksana adalah orgErn Bank Tanah terdiri atas Kepala dan Deputi yang berwenang dan bertanggung jawab penuh atas penyelenggaraan Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Pejabat Struktural Bank Tanah adalah Komite, Sekretaris Komite, Dewan Pengawas, Sekretaris Dewan Pengawas, Kepala dan Deputi Badan Pelaksana Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Gaji adalah penghasilan tetap berupa uang yang diterima setiap bulan yang diberikan kepada Kepala dan Deputi Badan Pelaksana Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Honorarium adalah penghasilan tetap berupa uang yang diberikan setiap bulan kepada Komite, Sekretaris Komite, Dewan Pengawas, dan Sekretaris Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "T\\rnjangan adalah penghasilan berupa ua.ng atau yang dapat dinilai dengan uang yang diterima pada waktu tertentu selain Gaji atau Honorarium.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Fasilitas adalah sarana, kemanfaatan, dan/atau penjaminan yang digunakan atau dimanfaatkan dalam rangka pelaksanaan tugas, fungsi, wewenErng, kewajiban, dan tanggung jawab sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Insentif Kinerja adalah penghasilan tambahan sebagai penghargaan yang diberikan kepada Sekretaris Komite, Dewan Pengawas, Sekretaris Dewan Pengawas, Kepala dan Deputi Badan Pelaksana Bank Tanah apabila terjadi peningkatan kinerja. SK No 155361 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-133-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat Struktural Bank Tanah memperoleh hak keuangan dan Fasilitas dalam rangka menjalankan tugas dan wewenang secara proporsional berdasarkan tata kelola yang baik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Hak keuangan dan Fasilitas sebagaimana dimaksud pada ayat (1) ditetapkan dengan memperhatikan tingkat kewajaran yang berlaku dan mempertimbangkan faktor kondisi kekayaan Bank Tanah. Bagran Kedua Jenis dan Besaran Hak Keuangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Jenis hak keuangan Pejabat Struktural Bank sebagaimana dimaksud dalam Pasal 2 ayat (1) berupa: a. Gaji atau Honorarium; b. Tunjangan; dan/atau c. Insentif Kinerja. Tanah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gaji sebagaimana dimaksud dalam Pasal 3 huruf a diberikan kepada: Honorarium sebagaimana dimaksud dalam Pasal 3 huruf a",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kepala Badan Pelaksana; dan Kepala Badan Pelaksana sebesar TOOyo (seratus persen); dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Deputi Badan Pelaksana. (21 Besaran Gaji sebagaimana dimaksud pada ayat (1) sebagai berikut: Deputi Badan Pelaksana sebesar 9oo/o (sembilan puluh persen) dari Gaji Kepala Badan Pelaksana. SK No 155362 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "caji... REPUBLIK INDONESIA Gaji sebagaimana dimaksud pada ayat (2) diberikan setiap bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Gqji Kepala Badan Pelaksana sebagaimana dimaksud pada ayat (2) huruf a ditetapkan sebesar Rp.135.0OO.00O,0O (seratus tiga puluh lima juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Perubahan besaran Gaji Kepala Badan Pelaksana sebagaimana dimaksud pada ayat (41 ditetapkan oleh Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "diberikan kepada: a. Komite; b. Sekretaris Komite; c. Dewan Pengawas; dan d. Sekretaris Dewan Pengawas.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besaran Honorarium sebagaimana dimaksud pada ayat (1) sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Ketua Komite sebesar 60% (enam puluh persen) dari Gqji Kepala Badan Pelaksana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Anggota Komite sebesar 55% (lima puluh lima persen) dari Gqii Kepala Badan Pelaksana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Sekretaris Komite sebesar 4Ooh (empat puluh persen) dari Gaji Kepala Badan Pelaksana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Ketua Dewan Pengawas sebesar 50% (lima puluh persen) dari Gaji Kepala Badan Pelaksana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Anggota Dewan Pengawas sebesar 90% (sembilan puluh persen) dari Honorarium Ketua Dewan Pengawas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "Sekretaris Dewan Pengawas paling banyak 2O%o ldua puluh persen) dari Gaji Kepala Badan Pelaksana yang pelaksanaannya ditetapkan dengan keputusan Dewan Pengawas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Honorarium sebagaimana dimaksud pada ayat (21diberikan setiap bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Tunjangan sebagaimana dimaksud dalam Pasal 3 huruf b terdiri atas Tunjangan: a. hari raya; b. komunikasi; c. transportasi; d. perumahan; dan e. purna jabatan. Pasal7... SK No 155363 A",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tunjangan hari raya sebagaimana dimaksud dalam Pasal REPUBLIK INCTONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "6 huruf a diberikan kepada: a. Sekretaris Komite; b. Dewan Pengawas; c. Sekretaris Dewan Pengawas; d. Kepala Badan Pelaksana; dan e. Deputi Badan Pelaksana.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "T\\rnjangan hari raya sebagaimana dimaksud pada ayat (1) diberikan sebesar 1 (satu) kali dari Gaji atau Honorarium.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "T\\.rnjangan hari raya sebagaimana dimaksud pada ayat (2) diberikan setiap hari raya Idul Fitri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tunjangan komunikasi sebagaimana dimaksud dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Pasal 6 huruf b diberikan kepada: a. Kepala Badan Pelaksana; dan b. Deputi Badan Pelaksana.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "TUnjangan komunikasi sebagaimana dimaksud pada ayat (1) diberikan sebesar biaya yang dikeluarkan sesuai dengan bukti pengeluaran yang sah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "T\\rnjangan transportasi sebagaimana dimaksud dalam Pasal 6 huruf c diberikan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretaris Komite;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Dewan Pengawas; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Sekretaris Dewan Pengawas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tunjangan transportasi sebagaimana dimaksud pada ayat (1) diberikan paling banyak 2Oo/o (dua puluh persen) dari Honorarium.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "T\\rnjangan transportasi sebagaimana dimaksud pada ayat (21diberikan setiap bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tunjangan perumahan sebagaimana dimaksud dalam Pasal 6 huruf d diberikan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kepala Badan Pelaksana; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Deputi Badan Pelaksana.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tunjangan... SK No 155370A (21 Tlrnjangan perumahan sebagaimana dimaksud pada ayat (1) diberikan paling banyak sebesar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "25o/o (dua puluh lima persen) dari Gaji Kepala Badan Pelaksana untuk Kepala Badan Pelaksana; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "25%o (dua puluh lima persen) dari G4ii Deputi Badan Pelaksana untuk Deputi Badan Pelaksana.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tunjangan perumahan sebagaimana dimaksud pada ayat (2) diberikan setiap bulan dalam bentuk uang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "T\\rnjangan purna jabatan sebagaimana dimaksud dalam Pasal 6 huruf e diberikan kepada: Insentif Kineq'a sebagaimana dimaksud dalam Pasal 3",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretaris Komite;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Dewan Pengawas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Sekretaris Dewan Pengawas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Kepala Badan Pelaksana; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Deputi Badan Pelaksana. (21 Ttrnjangan purna jabatan sebagaimana dimaksud pada ayat (1) diberikan sebesar 25o/o (dua puluh lima persen) dari Gaji atau Honorarium masing-masing yang dibayarkan oleh Bank Tanah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tlrnjangan purna jabatan sebagaimana dimaksud pada ayat (1) dan ayat (2) dibayarkan pada saat purna jabatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Mekanisme pembayaran Tunjangan purna jabatan sebagaimana dimaksud pada ayat (2) dilaksanakan melalui lembaga keuangan/asuransi yang ditunjuk oleh Kepala Badan Pelaksana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "huruf c dapat diberikan kepada: a. Sekretaris Komite; b. Dewan Pengawas; c. Sekretaris Dewan Pengawas; d. Kepala Badan Pelaksana; dan e. Deputi Badan Pelaksana. (21 Insentif Kineq'a sebagaimana dimaksud pada ayat (1) diberikan setelah dilakukan evaluasi capaian kine{a pada akhir tahun oleh Komite.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Besaran dan mekanisme pemberian Insentif Kine{a sebagaimana dimaksud pada ayat (1) ditetapkan oleh Komite berdasarkan usulan Kepala Badan Pelaksana dengan pertimbangan Dewan Pengawas. SK No 155371 A BagianKetiga... Bagian Ketiga Fasilitas",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Fasilitas sebagaimana dimaksud dalam Pasal 2 ayat (1) berupa: a. kendaraan; b. jaminan kesehatan; c. keanggotaan; dan d. bantuan hukum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas kendaraan sebagaimana dimaksud dalam Pasal 13 huruf a disediakan bagi Kepala dan Deputi Badan Pelaksana dalam bentuk kendaraan roda 4 (empat). (21 Fasilitas kendaraan sebagaimana dimaksud pada ayat (1) termasuk biaya pemeliharaan dan operasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jaminan kesehatan sebagaimana dimaksud dalam Pasal 13 huruf b diberikan kepada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Sekretaris Komite;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Dewan Pengawas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Sekretaris Dewan Pengawas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Kepala Badan Pelaksana; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Deputi Badan Pelaksana. (21 Jaminan kesehatan sebagaimana dimaksud pada ayat (1) berupa jaminan kesehatan yang diselenggarakan Badan Penyelenggffa Jaminan Sosial Kesehatan sesuai dengan ketentuan peraturan perundang-undangan dan asuransi kesehatan tambahan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jaminan kesehatan sebagaimana dimaksud pada ayat (21 diberikan kepada suami/istri dan paling banyak 3 (tiga) orang anak yang belum mencapai usia 25 (dua puluh lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal anak yang belum berusia 25 (dua puluh lima) tahun sebagaimana dimaksud pada ayat (3) menikah maka yang bersangkutan tidak mendapat jaminan kesehatan. Pasal 16. . . SK No 155366 A FRES IDEN REPUBLIK TNDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Fasilitas keanggotaan sebagaimana dimaksud dalam Pasal 13 huruf c diberikan kepada Kepala dan Deputi Badan Pelaksana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas bantuan hukum sebagaimana dimaksud dalam Pasal 13 huruf d diberikan kepada Pejabat Struktural Bank Tanah sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberian Fasilitas bantuan hukum sebagaimana dimaksud pada ayat (1) harrrs mendapatkan persetujuan Dewan Pengawas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Hak keuangan dan Fasilitas Pejabat Struktural Bank Tanah diberikan sejak Pejabat Struktural Bank Tanah diangkat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pejabat Struktural Bank Tanah yang diberhentikan sementara dari jabatannya sesuai dengan ketentuan peraturan perundang-undangan memperoleh penghasilan sebesar 5Oo/o (lima puluh persen) dari Gaji atau Honorarium bulan terakhir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penghasilan sebagaimana dimaksud pada ayat (1) dibayarkan setiap bulan, selama diberhentikan sementara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pajak atas Gaji dan Honorarium sebagaimana dimaksud dalam Pasal 4 dan Pasal 5 ditanggung dan menjadi beban Bank Tanah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-133-tahun-2022/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pajak penghasilan atas Insentif Kinerja sebagaimana dimaksud dalam Pasal 12 ditanggung oleh Sekretaris Komite, Dewan Pengawas, Sekretaris Dewan Pengawas, Kepala dan Deputi Badan Pelaksana. Pasal2L... SK No 155367A REPUBLIK INDONESIA Pasal 2 1 Ketentuan lebih lanjut mengenai mekanisme dan tata cara pemberian hak keuangan dan Fasilitas Pejabat Struktural Bank Tanah diatur dengan Peraturan Kepala Badan Pelaksana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-133-tahun-2022/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENDANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Pendanaan yang digunakan untuk hak keuangan dan Fasilitas Pejabat Struktural Bank Tanah bersumber dari kekayaan Bank Tanah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-133-tahun-2022/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Organ pendukung Dewan Pengawas dan org€rn pendukung Sekretariat Komite diberikan Honorarium paling banyak 2O%o (dua puluh persen) dari Gaji Kepala Badan Pelaksana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-133-tahun-2022/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-133-tahun-2022/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Peraturan Presiden ini mulai diundangkan. berlaku pada tanggal Agar SK No 155368 A REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 21 Desember 2022 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 21 Desember 2022 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2022 NOMOR 235 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Perundang-undangan Hukum, Djaman SK No 155470 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..24): [21]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

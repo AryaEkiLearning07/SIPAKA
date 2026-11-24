@@ -1,0 +1,41 @@
+{
+ "slug": "perda-prov-nusa-tenggara-timur-no-3-tahun-tah",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perda-prov-nusa-tenggara-timur-no-3-tahun-tah",
+   "detailsId": "335778",
+   "judul": "Perda Prov. Nusa Tenggara Timur No. 3 Tahun Tahun 2025 tentang Penyelenggaraan Penanaman Modal - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/398371/Perda%20NTT%20No.%203%20Tahun%202025.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perda-prov-nusa-tenggara-timur-no-1-tahun-201"
+   ],
+   "scrapedAt": "2026-10-06T08:13:59.111380+00:00"
+  },
+  "sha256": "4c1cf866d443433bb037e2a6c7f37a49b884c4e21829c063e9cb791fef93d74c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

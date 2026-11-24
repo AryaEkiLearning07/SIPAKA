@@ -1,0 +1,69 @@
+{
+ "slug": "uu-no-77-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu Persetujuan mengenai warganegara yang berada secara tidak sah di daerah Republik Indonesia dan Republik Pilipina disetujui dengan undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-77-tahun-1957",
+   "detailsId": "52763",
+   "judul": "UU No. 77 Tahun 1957 tentang Pesetujuan Mengenai Warga Negara yang Berada Secara Tidak Sah di Daerah Republik Indonesia dan Republik Pilipina&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/42136/UU%20Nomor%2077%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:03:54.198862+00:00"
+  },
+  "sha256": "d714348c20f0214963abc0d4bb54f0d76a62f5c30817f1de88c9c10901b2a91d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-77-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Persetujuan mengenai warganegara yang berada secara tidak sah di daerah Republik Indonesia dan Republik Pilipina tertanggal empat (4) bulan Juli tahun seribu sembilan ratus lima puluh enam (1956) yang salinannya dilampirkan pada undang-undang ini, dengan ini disetujui.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-77-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Persetujuan mengenai warganegara yang berada secara tidak sah di daerah Republik Indonesia dan Republik Pilipina tersebut di atas mulai berlaku setelah pertukaran piagam pengesahan di Manila.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-77-tahun-1957/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar… - - Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 19 Desember 1957. PRESIDEN REPUBLIK INDONESIA, ttd SOEKARNO Diundangkan pada tanggal 23 Desember 1957. MENTERI KEHAKIMAN, ttd G.A. MAENGKOM MENTERI LUAR NEGERI, ttd SUBANDRIO LEMBARAN NEGARA NOMOR TAHUN MEMORI",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

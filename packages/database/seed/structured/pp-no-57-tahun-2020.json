@@ -1,0 +1,89 @@
+{
+ "slug": "pp-no-57-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "a b SK No 043155 A PRES IDEN REPUELIK INDONESIA -2- c bahwa berdasarkan pertirnbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah tentang Perubahan Kedua Atas Peraturan Pemerintah Nomor 5 Tahun 2005 tentang Penyertaan Modal Negara Republik Indonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Sekunder Perumahan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-57-tahun-2020",
+   "detailsId": "148479",
+   "judul": "PP No. 57 Tahun 2020 tentang Perubahan Kedua atas Peraturan Pemerintah Nomor 5 Tahun 2005 Tentang Penyertaan Modal Negara Republik Indonesia Untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Pembiayaan Sekunder Perumahan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/140473/PP%20Nomor%2057%20Tahun%202020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:35:01.149448+00:00"
+  },
+  "sha256": "a3d86b3c4303396f8e0d578e8586febe9333c8e2c954d4d9d587c2ff6968dce7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-57-tahun-2020/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-57-tahun-2020/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Persero sebagaimana dimaksud dalam Pasal 1 mempunyai maksud dan tujuan untuk: Penugasan sebagaimana dimaksud dalam Pasal 2 ayat (I) huruf b dapat dilaksanakan oleh Persero setelah memperoleh persetujuan dari Rapat Umum Pemegang Saham. (21 Untuk melaksanakg.n penugasan Pemerintah sebagaimana dimaksud pada ayat (1), Persero dapat memperoleh dukungan Pemerintah bempa jaminan atas kecukupan permodalan dan/atau dukungan lainnya sesuai dengan ketentuan peraturan perundang-undangan. Pasal II Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar SK No 043158 A REPUBLIK INDONESIA Agar setiap pengundangan penempatannya Indonesia. orang mengetahuinya, memerintahkan Peraturan Pemerintah ini dengan dalam Lembaran Negara Republik Ditetapkan di Jakarta pada tanggal 8 Oktober 2O2O PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 12 Oktober 2O2O MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2O NOMOR 229 Salinan sesuai dengan aslinya KEMENTERTAN SEKRETARIAT NEGARA REPUBLTK INDONESIA ti Bidang Hukum dan undangan, na Djaman SK No 043159 A",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-57-tahun-2020/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "membangun dan mengembangkan pasar pembiayaan sekunder perumahan dalam rangka meningkatkan kapasitas dan kesinambungan pembiayaan kepemilikan, kepenghunian, dan ketersediaan perumahan dan permukiman yang terjangkau oleh masyarakat; da,n",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-57-tahun-2020/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "melaksanakan pembiayaan primer perumahan dan permukiman berdasarkan penugasan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-57-tahun-2020/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Untuk... SK No 043157 A REPUBLIK INDONESIA Untuk mencapai maksud dan tujuan sebagaimana dimaksud pada ayat (1), Persero melakukan kegiatan usaha sesuai dengan ketentuan peraturan perundang-undangan. Diantara Pasal 2 dan Pasal 3 disisipkan 1 (satu) pasal, yakni Pasal 2A sehingga berbunyi sebagai berikut: Pasal 2A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..2): [1]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

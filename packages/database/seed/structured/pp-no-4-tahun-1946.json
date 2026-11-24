@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-4-tahun-1946",
+ "preamble": {
+  "menimbang": [
+   "perlu mengadakan peraturan tentang perusahaan perkebunan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-4-tahun-1946",
+   "detailsId": "62772",
+   "judul": "PP No. 4 Tahun 1946 tentang Pembentukan Pusat Perkebunan Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/66083/PP%20No.%204%20%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:53.106871+00:00"
+  },
+  "sha256": "7c55504190762d01a678bde31fd912a3a8f0b6689f458de8869374bca40ecebb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

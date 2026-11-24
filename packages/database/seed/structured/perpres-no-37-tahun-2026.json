@@ -1,0 +1,39 @@
+{
+ "slug": "perpres-no-37-tahun-2026",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-37-tahun-2026",
+   "detailsId": "351523",
+   "judul": "Perpres No. 37 Tahun 2026 tentang Rencana Induk Ekonomi Kreatif Tahun 2026-2045 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/415303/Perpres%20No.%2037%20Tahun%202026.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:03.006464+00:00"
+  },
+  "sha256": "09c76afcfc2ce1f2a9c7b8caa3735625ae77f074f4db337aa27a8a74f91f7e5c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "slug": "pp-no-16-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu menyempurnakan cara permintaan dan pelaksanaan bantuan militer, sebagaimana telah diatur dalam Peraturan Pemerintah No. 63 tahun 1954 (Lembaran-Negara tahun 1954 No. 149) dan menyesuaikan dengan ketentuan-ketentuan yang tercantum dalam Peraturan Pemerintah Pengganti Undang-undang No. 23 tahun 1959 (Lembaran-Negara tahun 1959 No. 139) tentang Keadaan Bahaya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1960",
+   "detailsId": "74569",
+   "judul": "PP No. 16 Tahun 1960 tentang Permintaan dan Pelaksanaan Bantuan Militer - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65068/pp%20no%20016%20tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-63-tahun-1954"
+   ],
+   "scrapedAt": "2026-10-06T06:05:42.034292+00:00"
+  },
+  "sha256": "9a6a281ba1ee48bb457f5e7487351be53a56445050d3bb49749983f20de63273",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-16-tahun-1960/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1960/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1960/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-16-tahun-1960/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "DJUANDA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

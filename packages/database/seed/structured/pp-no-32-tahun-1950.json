@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-32-tahun-1950",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-32-tahun-1950",
+   "detailsId": "77210",
+   "judul": "PP No. 32 Tahun 1950 tentang Penghapusan Kantor Urusan Pegawai Yogjakarta Dan Jawatan&#xD;&#xA;Urusan Umum Pegawai Jakarta Serta Pembentukan Kantor&#xD;&#xA;Urusan Pegawai Yang Baru&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68213/PP%20No%2032%20th%201950.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:53:14.708921+00:00"
+  },
+  "sha256": "29457353e1f651dbf0100a23ff9b8372bcb713b5172026909466f3d70acaf934",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,756 @@
+{
+ "slug": "pp-no-22-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa dengan penetapan saat berlakunya Undang-undang Pajak Pertambahan Nilai 1984 pada tanggal 1 April 1985 sebagaimana ditetapkan dalam Peraturan Pemerintah Nomor 1 Tahun 1985, maka ketentuan pelaksanaan yang ditetapkan dalam Peraturan Pemerintah Nomor 38 Tahun 1983, perlu ditinjau kembali dan disesuaikan dengan kebutuhan dan keadaan yang dapat lebih menjamin kelancaran pelaksanaan Undang-undang tersebut, dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-22-tahun-1985",
+   "detailsId": "64580",
+   "judul": "PP No. 22 Tahun 1985 tentang Pelaksanaan Undang-Undang Pajak Pertambahan Nilai 1984 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54795/PP%20NO%2022%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-38-tahun-1983"
+   ],
+   "scrapedAt": "2026-10-05T18:13:06.841473+00:00"
+  },
+  "sha256": "b2124e141df4b2904bdb85d7791bc4ec3dc62c7790c6ba0b1c6277cdcb133ea8",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 7,
+  "pasal": 28,
+  "ayat_angka": 41,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan : (1) Importir adalah Pengusaha yang dalam lingkungan perusahaan atau pekerjaannya mengimpor Barang Kena Pajak; (2) Indentor adalah Pengusaha yang dalam lingkungan perusahaan atau pekerjaannya menyuruh Importir mengimpor Barang Kena Pajak untuk dan atas kepentingannya;",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Eksportir adalah Pengusaha yang dalam lingkungan perusahaan atau pekerjaannya mengekspor Barang Kena Pajak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pabrikan adalah Pengusaha yang dalam lingkungan perusahaan atau pekerjaannya menghasilkan Barang Kena Pajak sebagaimana dimaksud dalam Pasal 1 huruf c dan huruf m Undang-undang Pajak Pertambahan Nilai 1984, termasuk pengusaha Real Estate dan Industrial Estate;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penyalur ... Penyalur Utama atau Agen Utama sebagaitnana dimaksud dalam Pasal 4 ayat (1) huruf a angka 4 Undang-undang Pajak Pertambahan Nilai 1984 adalah Pengusaha yang dalam lingkungan perusahaan atau pekerjaannya, yang berdasarkan perjanjian dengan Pabrikan atau Importir, mempunyai hak atau kuasa untuk memasarkan Barang Kena Pajak yang dihasilkan atau di impor oleh Pabrikan atau Importir tersebut;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pemegang Hak Paten atau Pemegang Hak Merek Dagang sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a angka 5 Undang-undang Pajak Pertambahan Nilai 1984 adalah Pengusaha yang memiliki atau menjadi pemegang suatu Hak Paten dan Merek Dagang dari Barang Kena Pajak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Pemegang hak menggunakan Paten atau Merek Dagang sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a angka 5 Undang-undang Pajak Pertambahan Nilai 1984 adalah Pengusaha yang berdasarkan suatu perjanjian dengan Pemegang Hak Paten atau Merek Dagang mempunyai hak atau kuasa untuk menghasilkan dan/atau memasarkan Barang Kena Pajak dengan menggunakan Paten atau Hak Merek Dagang yang dimiliki atau dipegang oleh Pemegang Hak Paten atau Merek Dagang dari Barang Kena Pajak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-1/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Pemborong atau Kontraktor adalah pengusaha yang dalam lingkungan perusahaan atau pekerjaannya melakukan pembangunan, perbaikan, atau pemugaran bangunan atau barang tidak bergerak lainnya, baik untuk kepentingan sendiri maupun atas suruhan pihak lain, dengan atau tanpa perjanjian tertulis. BAB II ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENGUKUHAN PENGUSAHA KENA PAJAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Tempat melaporkan bagi Bentuk Usaha Tetap yang dikenakan pajak berdasarkan Undang-undang Pajak Pertambahan Nilai 1984 untuk dikukuhkan menjadi Pengusaha Kena Pajak adalah Kantor Direktorat Jenderal Pajak yang ditunjuk atau Kantor Direktorat Jenderal Pajak yang wilayah kerjanya meliputi tempat Bentuk Usaha Tetap tersebut melakukan kegiatan usaha.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Jangka waktu bagi Pengusaha untuk melaporkan usahanya kepada Direktorat Jenderal Pajak untuk dikukuhkan menjadi Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 3 ayat (1) Undang-undang Pajak Pertambahan Nilai 1984 ditentukan sebagai berikut : a) untuk Pengusaha sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a dan huruf d Undang-undang Pajak Pertambahan Nilai 1984 yang sudah atau belum mempunyai Nomor Pokok Wajib Pajak dan sudah mulai menjalankan usahanya pada tanggal 1 Maret 1985, adalah selambat-lambatnya tanggal 31 Maret 1985; b) untuk Pengusaha sebagaimana dimaksud dalam huruf a yang sudah atau belum mempunyai Nomor Pokok Wajib Pajak dan baru mulai menjalankan usahanya pada tanggal 1 Maret 1985 atau sesudahnya adalah selambat-lambatnya 30 (tiga puluh) hari setelah saat usahanya mulai dijalankan. Pasal 4 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha dapat melaporkan usahanya untuk dikukuhkan menjadi Pengusaha Kena Pajak sebelum usahanya mulai dijalankan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Saat usaha mulai dijalankan adalah saat pendirian atau saat usaha nyata-nyata mulai dijalankan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha sebagaimana dimaksud dalam Pasal 3 yang akan melaporkan usahanya wajib mengisi formulir Surat Permohonan untuk dikukuhkan menjadi Pengusaha Kena Pajak, yang disediakan oleh Direktorat Jenderal Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Formulir Surat Permohonan sebagaimana dimaksud dalam ayat (1) dapat diisi dan ditanda tangani sendiri oleh Pengusaha atau oleh orang lain Yang diberi kuasa khusus untuk itu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Formulir Surat Permohonan sebagaimana dimaksud dalam ayat (2) disampaikan dalam jangka waktu sebagaimana diatur dalam Pasal 3.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Pengusaha yang memilih untuk dikukuhkan menjadi Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf b Undang- undang Pajak Pertambahan Nilai 1984, dapat mengajukan permohonan tertulis kepada Kantor Direktorat Jenderal Pajak yang wilayah kerjanya meliputi tempat tinggal atau tempat kedudukan Pengusaha yang bersangkutan, dengan cara sebagaimana diatur dalam Pasal 5. Pasal 7 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Atas permohonan sebagaimana dimaksud dalam Pasal 5 ayat (1), Direktur Jenderal Pajak mengeluarkan Surat Keputusan tentang pengukuhan Pengusaha menjadi Pengusaha Kena Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keputusan Direktur Jenderal Pajak sebagaimana dimaksud dalam ayat (1) diberikan dalam jangka waktu 7 (tujuh) hari setelah tanggal diterimanya Formulir Surat Permohonan Pengusaha sebagaimana dimaksud dalam Pasal 5 ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keputusan Direktur Jenderal Pajak sebagaimana dimaksud dalam ayat (2) bagi pengusaha yang memilih untuk dikukuhkan menjadi Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 6 berlaku untuk 3 (tiga) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "OBYEK PAJAK DAN KEWAJIBAN PENCATATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Jenis jasa yang dikenakan Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf b Undang-undang Pajak Pertambahan Nilai 1984, adalah jasa yang dilakukan oleh Pemborong atau Kontraktor.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tindakan penyerahan Barang atau Jasa yang merupakan penyerahan kena pajak adalah : (a) penyerahan ... (a) penyerahan Barang Kena Pajak atau Jasa Kena Pajak kepada pihak manapun yang dilakukan oleh Pabrikan, Penyalur Utama atau Agen Utama, Importir, Indentor, Pemegang Hak Paten atau Pemegang Hak Merek Dagang, Pemegang Hak Menggunakan Paten dan/atau Merek Dagang dari Barang Kena Pajak atau oleh Pengusaha Jasa sebaga- mana dimaksud dalam Pasal 8. (b) penyerahan Barang Kena Pajak kepada Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf b Undang- undang Pajak Pertambahan Nilai 1984.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap penyerahan kena pajak sebagaimana dimaksud dalam ayat (1) dikenakan pajak menurut Undang-undang Pajak Pertambahan Nilai 1984.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Atas Impor Barang Kena Pajak dan Impor Barang Mewah yang berdasarkan ketentuan Perundang-undangan dibidang Pabean dibebaskan dari pungutan Bea Masuk, maka terhadap Impor Barang Kena Pajak dan Impor Barang Mewah tersebut juga tidak dipungut Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan ketentuan sebagaimana dimaksud dalam ayat (1), ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Termasuk dalam pengertian memetik hasil pertanian atau memelihara hewan dan menangkap atau memelihara ikan serta mengeringkan atau menggarami makanan sebagaimana dimaksud dalam Pasal 1 huruf m angka ke 1, ke 2 dan ke 3 Undang-undang Pajak Pertambahan Nilai 1984 adalah : (a) kegiatan ... (a) kegiatan menuai, memungut, mengupas, membersihkan, menyortir, menguliti, merajang, memotong, merangkai, mengeringkan dan mengawetkan untuk sementara barang-barang hasil pertanian, perkebunan dan kehutanan baik yang dikerjakan dengan tangan maupun dengan cara lainnya. (b) kegiatan memelihara, menangkap, menyortir, menguliti, memotong, memerah atau mengeringkan dan mengawetkan untuk sementara barang-barang hasil peternakan, perikanan dan hasil laut lainnya baik yang dikerjakan dengan tangan maupun dengan cara lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Barang-barang yang dihasilkan dari kegiatan sebagaimana dimaksud dalam ayat (1) adalah bukan Barang Kena Pajak sehingga atas penyerahan atau pengimporannya tidak terhutang Pajak Pertambahan Nilai.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Kegiatan menambang yang termasuk dalam pengertian menghasilkan sebagaimana dimaksud dalam Pasal 1 huruf m Undang-undang Pajak Pertambahan Nilai 1994 adalah kegiatan pada tingkat pengolahan dan pemurnian dalam rangka usaha pertambangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Pencatatan dalam pembukuan sebagaimana dimaksud dalam Pasal 6 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "dan ayat (2) Undang-undang Pajak Pertambahan Nilai 1984, selain memuat harga perolehan dan penyerahan Barang atau Jasa, juga harus mencantumkan nama barang dan satuan (kuantum)nya. BAB IV ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TARIF PAJAK DAN CARA PENGHITUNGAN PAJAK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Dalam hal Pajak Pertambahan Nilai telah menjadi bagian dari harga atau pembayaran atas penyerahan Barang Kena Pajak, tarif efektif untuk menghitung pajak yang terhutang menurut Pasal 7 ayat (1) Undang- undang Pajak Pertambahan Nilai 1984 adalah 10/110 bagian dari harga atau pembayaran itu.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Pengenaan Pajak Pertambahan Nilai dengan tarif 0% (nol persen) atas ekspor barang sebagaimana dimaksud dalam Pasal 7 ayat (2) Undang- undang Pajak Pertambahan Nilai 1984, berlaku bagi ekspor Barang Kena Pajak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kelompok Barang mewah yang terkena tarif 10% (sepuluh persen) sebagaimana dimaksud dalam Pasal 8 ayat (1) Undang-undang Pajak Pertambahan Nilai 1984, adalah : (a) minuman yang tidak mengandung alkohol yang diproduksi dengan menggunakan cara pengolahan serba otomatis; (b) kendaraan bermotor beroda dua tertentu baik menggunakan kereta pasangan sisi atau tidak; (c) kendaraan bermotor jenis kombi dan minibus, kecuali untuk angkutan umum; (d) alat- ... (d) alat-alat fotografi, pesawat rekam dan reproduksi suara beserta perlengkapannya; (e) alat-alat mewah dengan tenaga listrik, baterei dan gas untuk rumah tangga dan hiburan; (f) alat keperluan untuk olah raga tertentu dan untuk permainan; (g) barang-barang saniter dan perlengkapannya; (h) permadani yang dibuat dari jenis bahan tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "kelompok barang mewah yang terkena tarif 20% (dua puluh persen) sebagaimana dimaksud dalam Pasal 8 ayat (1) Undang-undang Pajak Pertambahan Nilai 1984, adalah : a) minuman yang mengandung alkohol; b) kendaraan bermotor jenis sedan, jeep, mobil balap, station wagon, dan van (kecuali untuk angkutan barang); c) kapal, bahtera dan kendaraan air tertentu kecuali yang digunakan untuk keperluan negara; d) pesawat udara, kecuali yang digunakan untuk keperluan negara atau angkutan umum; e) senjata api, angin dan gas serta pelurunya kecuali yang digunakan untuk keperluan negara; f) perlengkapan untuk permainan dalam ruangan, diatas meja dan dalam taman hiburan untuk orang dewasa dan kanak-kanak; g) barang-barang yang sebagian atau seluruhnya terbuat dari kristal, batu pualam dan atau onnyx; h) pesawat penerima dan pesawat pengirim penerima, kecuali yang digunakan untuk keperluan negara. Macam dan jenis barang mewah yang termasuk dalam kelompok sebagaimana dimaksud dalam ayat (1) dan (2) ditetapkan oleh Menteri Keuangan. Pasal 17 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah atas penyerahan Barang Kena Pajak atau Barang Mewah yang dikembalikan (retur) dapat dikurangkan dari pajak terhutang dalam Masa Pajak pada saat pengembalian Barang Kena Pajak tersebut dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara pengurangan Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah sebagaimana dimaksud dalam ayat (1) diatur oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha Kena Pajak yang tidak dapat mengkreditkan Pajak Masukan terhadap Pajak Keluaran sesuai dengan ketentuan Pasal 9 ayat (2) Undang-undang Pajak Pertambahan Nilai 1984 karena Masa Pajaknya tidak sama, dapat mengajukan permohonan pengkreditan Pajak Masukan kepada Direktur Jenderal Pajak, disertai alasan mengenai sebab terjadinya perbedaan Masa Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Direktur Jenderal Pajak dapat menerima atau menolak permohonan sebagaimana dimaksud dalam ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal permohonan sebagaimana dimaksud dalam ayat (1) diterima, Direktur Jenderal Pajak memberitahukan dengan disertai cara pengkreditannya, dan dalam hal permohonan ditolak, menberitahukan alasan- alasannya. Pasal 19 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal ekspor Pajak Masukan yang dapat dikreditkan oleh Pengusaha sebagaimana dimaksud dalam Pasal 3 ayat (2) Undang- undang Pajak Pertambahan Nilai 1984 hanyalah sebesar Pajak Masukan yang telah dibayar pada waktu perolehan Barang Kena Pajak yang diekspor tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pajak Penjualan Atas Barang Mewah yang dibayar atas ekspor Barang Mewah oleh Pengusaha sebagaimana dimaksud dalam Pasal 3 ayat (1) dan ayat (2) Undang-undang Pajak Pertambahan Nilai 1984 dapat diminta kembali.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "SAAT DAN TEMPAT PAJAK TERHUTANG DAN LAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Saat pajak terhutang atas : a) penyerahan barang bergerak adalah pada saat barang tersebut diserahkan kepada pembeli atau pihak ketiga untuk dan atas nama pembeli, atau pada saat barang diserahkan kepada juru kirim, pengusaha jasa angkutan atau pengangkut; b) penyerahan barang tidak bergerak adalah pada saat terjadinya penyerahan hak untuk menggunakan atau menguasai barang tidak bergerak tersebut baik secara hukum atau secara nyata kepada pihak pembeli atau penerima barang tidak bergerak; c) penyerahan Jasa Kena Pajak adalah pada saat penyerahan sebagian atau seluruh penyelesaian pekerjaan Jasa Kena Pajak; d) impor ... d) impor Barang Kena Pajak adalah pada saat barang itu dimasukkan ke dalam Daerah Pabean.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tempat pajak terhutang atas : a) penyerahan barang bergerak, barang tidak bergerak dan/atau Jasa Kena Pajak yang dilakukan oleh Pengusaha Kena Pajak adalah ditempat Pengusaha Kena Pajak itu dikukuhkan; b) impor Barang Kena Pajak adalah ditempat barang itu dimasukkan kedalam Daerah Pabean.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Apabila permohonan Pengusaha Kena Pajak untuk meniilih satu tempat usaha sebagai tempat pajak terhutang sebagaimana dimaksud dalam Pasal 12 ayat (2) Undang-undang Pajak Pertambahan Nilai 1984 disetujui oleh Direktorat Jenderal Pajak, maka pajak terhutang ditempat usaha yang telah disetujui tersebut.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Direktorat Jenderal Bea dan Cukai memungut pajak yang terhutang menurut Undang-undang Pajak Pertambahan Nilai 1984 atas pemasukan Barang Kena Pajak dan/atau Barang Mewah bersamaan dengan saat pemungutan Bea masuk.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sebagai bukti pemungutan Pajak pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah, Direktorat Jenderal Bea dan Cukai membuat Faktur Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tata cara pemungutan, pembuatan Faktur Pajak serta penyetoran dan pelaporan Pajak Pertambahan Nilai sebagaimana dimaksud dalam ayat (1) dan ayat (2) ditetapkan oleh Menteri Keuangan. Pasal 23 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk setiap penyerahan Barang Kena Pajak atau Jasa Kena Pajak atau penerimaan pembayaran sebagaimana dimaksud dalam Pasal 13 ayat (1) dan ayat (2) Undang-undang Pajak Pertambahan Nilai 1984 harus dibuat Faktur Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengusaha Kena Pajak dapat mengajukan permohonan tertulis kepada Direktur Jenderal Pajak untuk membuat satu Faktur Pajak Gabungan yang meliputi semua penyerahan Barang Kena Pajak atau Jasa Kena Pajak dari Pembeli atau penerima jasa yang sama yang dilakukan dalam satu Masa Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-23/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Faktur Pajak yang dibuat oleh Pengusaha Kena Pajak atau Direktorat Jenderal Bea dan Cukai merupakan bukti pemungutan pajak yang sah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Faktur Pajak atas penyerahan Baring Kena Pajak harus dibuat dalam jangka waktu yang ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Faktur Pajak atas penyerahan Jasa Kena Pajak harus dibuat sesuai dengan jangka waktu sebagaimana dimaksud dalam ayat (1) setelah saat: a) diterimanya pembayaran atas sebagian penyelesian pekerjaan Jasa Kena Pajak; b) penyerahan seluruh penyelesaian pekerjaan Jasa Kena Pajak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-22-tahun-1985/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Faktur Pajak Gabungan harus dibuat pada akhir Masa Pajak yang bersangkutan, atau dalam jangka waktu lain yang ditetapkan oleh Menteri Keuangan. Pasal 25 ...",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Kelebihan pembayaran pajak sebagaimana dimaksud dalam Pasal 16 Undang-undang Pajak Pertambahan Nilai 1984 adalah kelebihan pembayaran Pajak Pertambahan Nilai maupun Pajak Penjualan Atas Barang Mewah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Semua peraturan pelaksanaan yang telah ditetapkan berdasarkan Peraturan Pemerintah Nomor 38 Tahun 1983, dinyatakan masih tetap berlaku sepanjang belum dikeluarkan ketentuan yang baru berdasarkan Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-22-tahun-1985/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Hal-hal yang berkenaan dengan pelaksanaan Peraturan Pemerintah ini diatur lebih lanjut oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-22-tahun-1985/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 April 1985. Agar ... Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Maret 1985 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 13 Maret 1985 MENTERI/SEKRETARIS NEGARA ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1985 NOMOR 28",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

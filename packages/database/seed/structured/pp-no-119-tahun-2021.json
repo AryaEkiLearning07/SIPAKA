@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-119-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   ". . ."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-119-tahun-2021",
+   "detailsId": "196148",
+   "judul": "PP No. 119 Tahun 2021 tentang Penambahan Penyertaan Modal Negara Republik lndonesia ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Kereta Api Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/189997/PP%20Nomor%20119%20Tahun%20%202021.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:30:03.532043+00:00"
+  },
+  "sha256": "d21aa9727bfa06eefe972000cb13d6e6a1f179a5564b05e40c90c68dad6a9c04",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-119-tahun-2021/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Kereta Api Indonesia yang statusnya sebagai Perusahaan Perseroan (Persero) ditetapkan berdasarkan Peraturan Pemerintah Nomor 19 Tahun 1998 tentang Pengalihan Bentuk Pemsahaan Umum (Perum) Kereta Api menjadi Perusahaan Perseroan (Persero).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-119-tahun-2021/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-119-tahun-2021/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp6.900.000.00O.000,00 (enam triliun sembilan ratus miliar rupiah). (21 Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2O2l sebagaimana ditetapkan kembali dalam Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2021.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-119-tahun-2021/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar. . . SK No 114225 A PRESIOEN Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 2O2l PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 27 Desember 2O2l MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2I NOMOR 281 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Perundang-undangan dan Hukum, d ITJY * SK No 114226 A Djaman",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

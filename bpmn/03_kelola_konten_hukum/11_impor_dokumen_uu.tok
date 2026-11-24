@@ -1,0 +1,53 @@
+tok 1.0 "Impor Dokumen UU (Kelola Konten Hukum)"
+
+pool p "Impor Dokumen UU" process=impor_dokumen_uu
+  store d_uu "Undang-Undang"
+  start mulai "Berkas PDF UU diterima" message="Berkas PDF UU"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service urai "Uraikan PDF UU"
+  xor terbaca "PDF berhasil diuraikan?"
+  send gagalbaca "Kirim pesan PDF tidak terbaca" message="Pesan PDF tidak terbaca"
+  eventgw tunggu1
+  catch ulang "Admin mengunggah ulang PDF" message="PDF diunggah ulang"
+  catch batal "Admin membatalkan impor" message="Batal impor"
+  end dibatalkan "Impor dibatalkan"
+  service struktur "Ekstrak Struktur Dokumen"
+  service valid "Validasi Metadata UU"
+  xor metaok "Metadata valid dan lengkap?"
+  send salah "Kirim daftar kesalahan metadata" message="Daftar kesalahan metadata"
+  receive koreksi "Terima metadata yang diperbaiki" message="Metadata diperbaiki"
+  service terbit "Terbitkan Dokumen UU"
+  end selesai "Dokumen UU tersedia bagi pengguna" message="Konfirmasi publikasi UU"
+
+pool admin "Admin"
+
+flow mulai -> auth -> izin
+flow izin -> urai "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow urai -> terbaca
+flow terbaca -> struktur "ya" when="pdfTerbaca"
+flow terbaca -> gagalbaca "tidak" default
+flow gagalbaca -> tunggu1
+flow tunggu1 -> ulang
+flow tunggu1 -> batal
+flow ulang -> urai
+flow batal -> dibatalkan
+flow struktur -> valid -> metaok
+flow metaok -> terbit "ya" when="metadataValid"
+flow metaok -> salah "tidak" default
+flow salah -> koreksi -> valid
+flow terbit -> selesai
+
+reads valid d_uu
+writes terbit d_uu
+
+message admin -> mulai "Berkas PDF UU"
+message tolak -> admin "Akses ditolak"
+message gagalbaca -> admin "Pesan PDF tidak terbaca"
+message admin -> ulang "PDF diunggah ulang"
+message admin -> batal "Batal impor"
+message salah -> admin "Daftar kesalahan metadata"
+message admin -> koreksi "Metadata diperbaiki"
+message selesai -> admin "Konfirmasi publikasi UU"

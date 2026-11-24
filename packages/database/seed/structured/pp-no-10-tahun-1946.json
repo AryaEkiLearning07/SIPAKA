@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-10-tahun-1946",
+ "preamble": {
+  "menimbang": [
+   "Bahwa perlu diadakan kantor untuk menjalankan administrasi Pemilihan Dewan Perwakilan Rakyat."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-10-tahun-1946",
+   "detailsId": "62770",
+   "judul": "PP No. 10 Tahun 1946 tentang Pembentukan Kantor Pusat Pemilihan Untuk Menjalankan Administrasi Pemilihan Dewan Perwakilan Rakyat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/52978/PP%20No.%2010%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:49.690431+00:00"
+  },
+  "sha256": "c3b34259439ef213aa9ae9c1de34c7ff4d3910d91f8c0e4cdac9f38a3f561d4b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

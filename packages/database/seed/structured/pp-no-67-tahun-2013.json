@@ -1,0 +1,484 @@
+{
+ "slug": "pp-no-67-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 66 ayat (2) Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi, perlu menetapkan Peraturan Pemerintah tentang Statuta Universitas Gadjah Mada;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 14 Oktober 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 165 PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 67 TAHUN 2013 TENTANG STATUTA UNIVERSITAS GADJAH MADA I. UMUM Penyelenggaraan pendidikan tinggi sebagai bagian yang tak terpisahkan dari penyelenggaraan pendidikan nasional, tidak dapat dilepaskan dari amanat Pasal 31 ayat (3) Undang-Undang Dasar Negara Republik itu, dalam rangka menghadapi perkembangan dunia yang makin mengutamakan basis ilmu pengetahuan, pendidikan tinggi diharapkan mampu menjalankan peran strategis dalam memajukan peradaban dan kesejahteraan umat manusia. Indonesia Tahun 1945. Di samping Perguruan Tinggi sebagai lembaga yang menyelenggarakan pendidikan tinggi, penelitian dan pengabdian kepada masyarakat, harus memiliki otonomi dalam mengelola sendiri lembaganya. Hal itu diperlukan agar dalam pengembangan ilmu pengetahuan dan teknologi di perguruan tinggi berlaku kebebasan akademik dan mimbar akademik, serta otonomi keilmuan. Dengan demikian perguruan tinggi dapat mengembangkan budaya akademik bagi sivitas akademika yang ",
+ "source": {
+  "url": {
+   "slug": "pp-no-67-tahun-2013",
+   "detailsId": "5402",
+   "judul": "PP No. 67 Tahun 2013 tentang Statuta Universitas Gadjah Mada - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33695/PP%20Nomor%2067%20Tahun%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-153-tahun-2000"
+   ],
+   "scrapedAt": "2026-10-06T00:40:55.165359+00:00"
+  },
+  "sha256": "42f2e28867251a18ff8fbbaf2a35f4bfa6ec4ab8e71c55af32146f1bc77e9001",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 12,
+  "ayat_angka": 28,
+  "huruf": 6
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-67-tahun-2013/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEMERINTAH TENTANG STATUTA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Universitas . . . Universitas Gadjah Mada yang selanjutnya disingkat UGM adalah perguruan tinggi negeri badan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Statuta UGM adalah peraturan dasar pengelolaan UGM yang digunakan sebagai landasan penyusunan peraturan dan prosedur operasional di UGM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Majelis Wali Amanat yang selanjutnya disingkat MWA adalah organ UGM yang menyusun dan menetapkan kebijakan umum UGM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Rektor adalah organ UGM yang memimpin penyelenggaraan dan pengelolaan UGM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Senat Akademik yang selanjutnya disingkat SA adalah organ UGM yang menyusun kebijakan, memberikan pertimbangan, dan melakukan pengawasan di bidang akademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Komite Audit yang selanjutnya disingkat KA adalah perangkat MWA yang secara independen berfungsi melakukan evaluasi hasil audit internal dan eksternal atas penyelenggaraan UGM untuk dan atas nama MWA.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Dewan Guru Besar selanjutnya disingkat DGB adalah perangkat UGM yang berfungsi sebagai pemberi nasihat, penjaga integritas moral dan etika sivitas akademika serta mengembangkan pemikiran dan pandangan terkait dengan isu strategis nasional dan/atau internasional dalam rangka mendukung peran dan kontribusi UGM bagi kesejahteraan bangsa dan umat manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Fakultas adalah himpunan sumber daya pendukung, yang dapat dikelompokkan menurut jurusan/departemen, yang menyelenggarakan dan mengelola pendidikan akademik, vokasi, atau profesi dalam satu rumpun disiplin ilmu pengetahuan, teknologi, dan/atau seni.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Sekolah . . . Sekolah adalah unsur pelaksana akademik setingkat Fakultas yang bertugas menyelenggarakan dan/atau mengoordinasikan program diploma atau program pascasarjana (S2 dan/atau S3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Departemen/Jurusan adalah unsur dari Fakultas/Sekolah yang menyelenggarakan pendidikan akademik, vokasi, dan/atau profesi untuk jenjang sarjana (S1) dan/atau pascasarjana (S2 dan/atau S3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Senat Fakultas selanjutnya disingkat SF adalah badan yang memiliki wewenang untuk menjabarkan kebijakan dan Peraturan MWA dalam lingkungan Fakultas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Program Studi adalah kesatuan kegiatan pendidikan dan pembelajaran yang memiliki kurikulum dan metode pembelajaran tertentu dalam satu jenis pendidikan akademik, pendidikan profesi, dan/atau pendidikan vokasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Dekan adalah pimpinan Fakultas atau Sekolah di lingkungan UGM yang berwenang dan bertanggung jawab terhadap penyelenggaraan pendidikan di masing- masing Fakultas atau Sekolah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Dosen adalah pendidik profesional dan ilmuwan dengan tugas utama mentransformasikan, mengembangkan, dan menyebarluaskan ilmu pengetahuan dan teknologi melalui pendidikan, penelitian, dan pengabdian kepada masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Profesor yang selanjutnya disebut Guru Besar adalah jabatan fungsional tertinggi bagi Dosen di UGM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Mahasiswa adalah peserta didik pada jenjang Pendidikan Tinggi di UGM.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Rencana . . . Rencana Induk Kampus selanjutnya disingkat RIK adalah instrumen perencanaan yang merupakan bagian dari kebijakan umum UGM dan digunakan sebagai dasar dalam menetapkan kebijakan, prosedur, dan penyelenggaraan tugas-tugas Tridharma Perguruan Tinggi yang disusun secara terencana, terpadu, dan sistematis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang pendidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Kementerian adalah perangkat pemerintah yang membidangi urusan pemerintahan di bidang pendidikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UGM mempunyai visi sebagai pelopor perguruan tinggi nasional berkelas dunia yang unggul dan inovatif, mengabdi kepada kepentingan bangsa dan kemanusiaan dijiwai nilai-nilai budaya bangsa berdasarkan Pancasila.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "UGM mempunyai misi melaksanakan pendidikan, penelitian, dan pengabdian kepada masyarakat serta pelestarian dan pengembangan ilmu yang unggul dan bermanfaat bagi masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penyelenggaraan UGM berlandaskan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta kebudayaan indonesia yang diwujudkan dalam dasar kerohanian, dasar nasional, dasar demokrasi, dasar kemasyarakatan, dan dasar kekeluargaan. Pasal 4 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "UGM bertujuan: a. mewujudkan UGM sebagai lembaga nasional ilmu pengetahuan, kebudayaan, dan pendidikan tinggi yang menanamkan dan mengajarkan ilmu pengetahuan dan kebudayaan kepada Mahasiswa demi kelangsungan dan kehidupan manusia pada umumnya, demi perkembangan bangsa dan rakyat pada khususnya sebagai penjelmaan dan pelaksanaan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta demi tercapainya cita-cita Proklamasi Kemerdekaan sebagaimana ditentukan dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan b. membentuk manusia susila yang mempunyai keinsafan bertanggung jawab atas kesejahteraan Indonesia khususnya dan dunia umumnya, dalam arti berjiwa bangsa Indonesia, manusia budaya Indonesia, yang mempunyai dasar keinsafan hidup berketuhanan Yang Maha Esa, berperikemanusiaan yang adil dan beradab, demokratis, diliputi oleh kenyataan dan kebenaran, cerdas, kreatif, terampil, mampu berkomunikasi dan berkesadaran lingkungan untuk melaksanakan tanggung jawabnya terhadap pembangunan, pemeliharaan dan pengembangan kebudayaan, hidup kemasyarakatan, serta masa depan bangsa dan negara Indonesia khususnya dan umat manusia pada umumnya. BAB II . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-67-tahun-2013/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "IDENTITAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "UGM merupakan perguruan tinggi negeri badan hukum yang mengelola bidang akademik dan nonakademik secara otonom.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "UGM berkedudukan di Yogyakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Tanggal 19 (sembilan belas) Desember 1949 merupakan hari jadi UGM.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "UGM mempunyai jati diri sebagai: a. universitas nasional; b. universitas perjuangan; c. universitas Pancasila; d. universitas kerakyatan; dan e. universitas pusat kebudayaan. Pasal 9 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UGM berkomitmen pada:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pembentukan dan pengembangan kepribadian serta kemampuan manusia seutuhnya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembinaan ilmu pengetahuan, teknologi, dan seni; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelestarian, pemeliharaan, dan pengembangan secara ilmiah unsur-unsur dan keseluruhan kebudayaan Indonesia serta lingkungan hidup dan lingkungan alaminya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Komitmen sebagaimana dimaksud pada ayat (1) dilaksanakan dalam rangka pembangunan bangsa dan negara, sebagai penjelmaan dan pelaksanaan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UGM memiliki otonomi untuk mengelola sendiri lembaganya sebagai pusat penyelenggaraan Tridharma dan kegiatan lainnya secara terintegrasi, harmonis, dan berkelanjutan, baik di dalam maupun di luar kedudukan UGM. meliputi bidang akademik dan nonakademik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Otonomi pengelolaan UGM sebagaimana dimaksud pada ayat meliputi penetapan norma dan kebijakan operasional UGM serta pelaksanaan organisasi, keuangan, kemahasiswaan, kepegawaian, sarana, dan prasarana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Otonomi pengelolaan di bidang akademik sebagaimana dimaksud pada ayat (2) meliputi penetapan norma dan kebijakan operasional UGM serta pelaksanaan Tridharma.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Otonomi . . . Otonomi pengelolaan di bidang nonakademik sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Otonomi pengelolaan UGM sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan prinsip:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "akuntabilitas; b. transparan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "nirlaba;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-67-tahun-2013/pasal-10/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penjaminan mutu; dan e. efektivitas dan efisiensi. Bagian Kedua Lambang, Bendera, Atribut, Himne, dan Bahasa Universitas",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "UGM mempunyai lambang, bendera, atribut, himne, dan bahasa pengantar yang berfungsi sebagai sarana pemersatu, identitas, dan wujud eksistensi UGM, serta manifestasi kebudayaan yang berakar pada sejarah dan cita-cita UGM.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-67-tahun-2013/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Lambang sebagaimana dimaksud dalam Pasal 11 tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

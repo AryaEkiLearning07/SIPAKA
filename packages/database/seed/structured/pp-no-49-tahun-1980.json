@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-49-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan perkembangan keadaan, maka dipandang perlu memberikan tunjangan tambahan penghasilan bagi pensiun janda/duda Pegawai Negeri Sipil/Pensiunan Pegawai Negeri Sipil;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-49-tahun-1980",
+   "detailsId": "66657",
+   "judul": "PP No. 49 Tahun 1980 tentang Pemberian Tunjangan Tambahan Penghasilan Bagi Pensiun Janda/Duda Pegawai Negeri Sipil - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56985/PP%20NO%2049%20TH%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:49:59.802654+00:00"
+  },
+  "sha256": "c8c0965d1bdd1bc4cc26b55516fe4ea445d248fc32d8b770015779a4f7b7d598",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-49-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terdapat lebih dari seorang isteri yang berhak menerima pensiun janda, maka tunjangan tambahan penghasilan pensiun sebagaimana dimaksud dalam Pasal I dibagi rata diantara janda yang sah dari almarhum Pegawai Negeri Sipil/Pensiunan Pegawai Negeri Sipil.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-49-tahun-1980/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan-ketentuan teknis pelaksanaan Peraturan Pemerintah ini ditetapkan oleh Menteri Keuangan dan Kepala Badan Administrasi Kepegawaian Negara baik secara bersama-sama maupun secara sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-49-tahun-1980/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1981. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 1980. PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 27 Desember 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

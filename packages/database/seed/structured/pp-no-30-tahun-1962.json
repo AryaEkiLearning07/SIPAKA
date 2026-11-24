@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-30-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu merubah dan menambah Peraturan Pemerintah No. 88 tahun 1961 tentang Pendirian Badan Pimpinan Umum Perusahaan Tambang Umum Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-30-tahun-1962",
+   "detailsId": "72484",
+   "judul": "PP No. 30 Tahun 1962 tentang Perubahan dan Penambahan Peraturan Pemerintah No. 88 Tahun 1961 Tentang Pendirian Badan Pimpinan Umum Perusahaan Tambang Umum Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62964/pp%20no%20030%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:07.341438+00:00"
+  },
+  "sha256": "a88a3b4b46d26e9451841d2b909ecd112b6f450c97b6f5f32c25021f5c554019",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-30-tahun-1962/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada hari diundangkan. Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Nopember 1962 Pd. Presiden Republik Indonesia, DJUANDA Diundangkan di Jakarta pada tanggal 13 Nopember 1962 Pd. Sekretaris Negara, A.W. SURJODININGRAT (S.H.) -------------------------------- CATATAN Kutipan: LEMBARAN NEGARA TAHUN 1962 YANG TELAH DICETAK ULANG Sumber: LN 1962/84",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

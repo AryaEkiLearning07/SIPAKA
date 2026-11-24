@@ -1,0 +1,39 @@
+{
+ "slug": "uu-no-1-tahun-1951",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-1-tahun-1951",
+   "detailsId": "39807",
+   "judul": "UU No. 1 Tahun 1951 tentang Pernyataan Berlakunya Undang-Undang Kerja Tahun 1948 Nr. 12 dari Republik Indonesia untuk Seluruh Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29390/UU%20Nomor%201%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:09:28.510021+00:00"
+  },
+  "sha256": "d3052bf524fb429cf5c9eca2fcaf78797d42b0170b8dcd21a805f06b106a3b18",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

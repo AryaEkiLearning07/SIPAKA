@@ -1,0 +1,80 @@
+{
+ "slug": "perpres-no-78-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu mengesahkan Persetujuan tersebut dengan Peraturan Presiden."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-78-tahun-2008",
+   "detailsId": "42286",
+   "judul": "PERPRES No. 78 Tahun 2008 tentang Pengesahan International Tropical Timber Agreement, 2006 (Persetujuan Kayu Tropis Internasional, 2006) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70750/PERPRES%20NO%2078%20TH%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "keppres-no-4-tahun-1995"
+   ],
+   "scrapedAt": "2026-10-06T06:15:11.586747+00:00"
+  },
+  "sha256": "90942ddae27ea60354c573e41052cbb56cea7efc266e1e531363e8262eabc261",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-78-tahun-2008/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan International Tropical Timber Agreement, (Persetujuan Kayu Tropis Internasional, 2006) yang dibuat pada tanggal 27 Januari 2006 di Jenewa, Swiss sebagai hasil perundingan Delegasi-delegasi Negara Anggota Organisasi Kayu Tropis Internasional dalam Konferensi Perserikatan Bangsa-Bangsa mengenai Perundingan Persetujuan Pengganti ITTA 1994 yang diselenggarakan dari tanggal 16 sampai dengan tanggal 27 Januari 2006, yang naskah aslinya dalam Bahasa Inggris dan terjemahannya dalam Bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-78-tahun-2008/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Apabila terjadi perbedaan penafsiran antara naskah terjemahan Persetujuan dalam Bahasa Indonesia dengan naskah aslinya dalam Bahasa Inggris sebagaimana dimaksud dalam Pasal 1, maka yang berlaku adalah naskah aslinya dalam Bahasa Inggris.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-78-tahun-2008/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Dengan berlakunya Peraturan Presiden ini, Keputusan Presiden Nomor 4 Tahun 1995 tentang Pengesahan International Tropical Timber Agreement, 1994 (Persetujuan Kayu Tropis Internasional, 1994) (Lembaran Negara Republik Indonesia Tahun 1995 Nomor 4) dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-78-tahun-2008/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Agar . . . - 3 - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2008 PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 30 Desember 2008 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 208",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

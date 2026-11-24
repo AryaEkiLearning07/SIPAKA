@@ -1,0 +1,71 @@
+{
+ "slug": "perpres-no-62-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut pada huruf a dan dalam rangka meningkatkan kesejahteraan dan produktivitas kerja Pegawai Negeri Sipil yang bersangkutan, dipandang perlu mengatur Tunjangan Jabatan Fungsional Pengantar Kerja dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-62-tahun-2007",
+   "detailsId": "42118",
+   "judul": "PERPRES No. 62 Tahun 2007 tentang Tunjangan Jabatan Fungsional Pengantar Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70780/PERPRES%20NO%2062%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-55-tahun-2006-tunjangan-jabatan-fungsional-pengantar-kerja"
+   ],
+   "scrapedAt": "2026-10-06T06:10:15.611709+00:00"
+  },
+  "sha256": "528a50b01cadef7d790c8517d2d3869e5a52f2909e4af2b35fba5de25a659977",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-62-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Presiden ini yang dimaksud dengan Tunjangan Jabatan Fungsional Pengantar Kerja, yang selanjutnya disebut dengan Tunjangan Pengantar Kerja adalah tunjangan jabatan fungsional yang diberikan kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Pengantar Kerja sesuai dengan ketentuan peraturan perundang-undangan. Pasal 2 ...",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-62-tahun-2007/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan secara penuh dalam Jabatan Fungsional Pengantar Kerja, diberikan tunjangan Pengantar Kerja setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-62-tahun-2007/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Besarnya tunjangan Pengantar Kerja sebagaimana dimaksud dalam Pasal 2 adalah sebagaimana tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

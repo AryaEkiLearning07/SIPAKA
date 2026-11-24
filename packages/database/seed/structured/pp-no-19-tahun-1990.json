@@ -1,0 +1,291 @@
+{
+ "slug": "pp-no-19-tahun-1990",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut di atas, pengalihan bentuk Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja menjadi (PERSERO), perlu ditetapkan dengan Perusahaan Perseroan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-19-tahun-1990",
+   "detailsId": "60492",
+   "judul": "PP No. 19 Tahun 1990 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Asuransi Sosial Tenaga Kerja Menjadi Perusahaan Perseroan (Persero) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/50315/PP%20NO%2019%20TH%201990.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-34-tahun-1977"
+   ],
+   "scrapedAt": "2026-10-05T18:14:30.139463+00:00"
+  },
+  "sha256": "3bb8f4494b478bceb642256d1466c62a5b63133e65ce8170527c16516b9edf64",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 8,
+  "ayat_angka": 10,
+  "huruf": 3
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-19-tahun-1990/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "BENTUK PERUSAHAAN UMUM (PERUM) ASURANSI SOSIAL TENAGA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja yang didirikan dengan Peraturan Pemerintah Nomor 34 Tahun 1977 dialihkan bentuknya menjadi Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam Undang-undang Nomor 9 Tahun 1969.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-1/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dengan dialihkannya bentuk Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja menjadi Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam ayat (1), Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja dinyatakan bubar pada saat pendirian Perusahaan Perseroan (PERSERO) tersebut dengan ketentuan bahwa segala hak dan kewajiban, kekayaan serta pegawai dari Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja yang ada pada saat pembubarannya beralih kepada PERSERO yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1990/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "MAKSUD DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Maksud dan tujuan Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam Pasal 1 adalah untuk menyelenggarakan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-2/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Usaha Asuransi Sosial Tenaga Kerja yang meliputi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-19-tahun-1990/pasal-2/angka-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Asuransi kecelakaan kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-19-tahun-1990/pasal-2/angka-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Asuransi hari tua;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-19-tahun-1990/pasal-2/angka-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Asuransi kematian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-2/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Usaha-usaha lain dalam rangka perlindungan dan kesejahteraan tenaga kerja dengan persetujuan Menteri Tenaga Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1990/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "MODAL PERSERO",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Modal Perusahaan Perseroan (PERSERO) yang ditempatkan dan disetor pada saat pendiriannya berasal dari kekayaan Negara yang tertanam dalam Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nilai kekayaan Negara sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Menteri Keuangan berdasarkan hasil perhitungan bersama oleh Departemen Keuangan dan Departemen Tenaga Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan-ketentuan lain mengenai permodalan Perusahaan Perseroan (PERSERO) diatur dalam Anggaran Dasarnya. termasuk ketentuan mengenai modal dasar PERSERO yang terbagi atas saham-saham sesuai dengan ketentuan Peraturan Pemerintah Nomor 12 Tahun 1969 sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 14 Tahun 1972.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Neraca Pembukaan Perusahaan Perseroan (PERSERO) ditetapkan oleh Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1990/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PELAKSANAAN PENDIRIAN PERSERO",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Pelaksanaan pendirian Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam Pasal 1 dilakukan menurut ketentuan Kitab Undang-undang Hukum Dagang (Staatsblad Tahun 1847 Nomor 23) sebagaimana terakhir dengan Undang-undang Nomor 4 Tahun 1971 dengan memperhatikan ketentuan-ketentuan yang tercantum dalam Peraturan Pemerintah Nomor 12 Tahun 1969 sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 24 Tahun 1972. telah beberapa kali diubah,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelesaian pendirian Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam Pasal 4 dikuasakan kepada Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-19-tahun-1990/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri Keuangan dapat menyerahkan kekuasaan sebagaimana dimaksud dalam ayat (1) dengan disertai hak substitusi kepada Menteri Tenaga Kerja dengan ketentuan bahwa Rancangan Anggaran Dasar Perusahaan Perseroan (PERSERO) harus mendapat persetujuan terlebih dahulu dari Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-19-tahun-1990/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Terhitung sejak berdirinya Perusahaan Perseroan (PERSERO) dan dibubarkannya Perusahaan Umum (PERUM) Asuransi Sosial Tenaga Kerja, Peraturan Pemerintah Nomor 34 Tahun 1977 dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini diatur oleh Menteri Keuangan dan Menteri Tenaga Kerja baik secara bersama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing masing.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-19-tahun-1990/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Mei 1990 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 30 Mei 1990 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

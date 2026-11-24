@@ -1,0 +1,96 @@
+{
+ "slug": "uu-no-19-tahun-1982",
+ "preamble": {
+  "menimbang": [
+   "bahwa guna peningkatan pelayananhukum kepada masyarakat dalam rangka pemerataan kesempatan memperoleh keadilan dan untuk tercapainya penyelesaian perkara secara sederhana, cepat dan biaya ringan serta berhubung dengan perkembangan ketatanegaraan, perlu dibentuk Pengadilan Tinggi Sulawesi Tenggara di Kendari;",
+   "bahwa berhubung dengan huruf a, perlu mengadakan perubahan wilayah hukum Pengadilan Tinggi Ujung Pandang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-19-tahun-1982",
+   "detailsId": "47030",
+   "judul": "UU No. 19 Tahun 1982 tentang Pembentukan Pengadilan Tinggi Sulawesi Tenggara di Kendari dan Perubahan Wilayah Hukum Pengadilan Tinggi Ujung Pandang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35860/UU%20Nomor%2019%20Tahun%201982.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:49:45.433871+00:00"
+  },
+  "sha256": "f20bb723e0b859f20a9bd438688b9f65a7a520f46461e8c8470c4c91f56c5860",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-19-tahun-1982/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-19-tahun-1982/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Membentuk Pengadilan Tinggi Sulawesi Tenggara yang berkedudukan di Kendari.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-19-tahun-1982/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Wilayah hukum pengadilan tinggi sebagaimana dimaksud dalam ayat (1) meliputi I wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat Sulawesi Tenggara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-19-tahun-1982/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Wilayah hukum Pengadilan Tinggi Ujung Pandang dikurangi dengan wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Tingkat I Sulawesi Tenggara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-19-tahun-1982/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Perkara-perkara yang berasal dari pengadilan negeri dalam Propinsi Daerah Tingkat I Sulawesi Tenggara, yang pada saat mulai berlakunya undang-undang ini, belum diputus tetap didaftar, diperiksa dan diputus oleh oleh Pengadilan Tinggi Ujung Pandang, Pengadilan Tinggi Ujung Pandang sampai saat diresmikannya Pengadilan Tinggi Sulawesi Tenggara. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-19-tahun-1982/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 20 Agustus 1982 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 20 Agustus 1982 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1982 NOMOR 46",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

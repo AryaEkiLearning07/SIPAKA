@@ -1,0 +1,87 @@
+{
+ "slug": "perpres-no-76-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang Banten merupakan pengalihan dari Sekolah Tinggi Agama Buddha Tangerang Banten yang dikelola oleh Yayasan Sriwijaya Tangerang Banten yang pengalihan asetnya telah dilakukan oleh Yayasan Sriwijaya Tangerang Banten kepada Pemerintah yang dalam hal ini diwakili oleh Pejabat yang berwenang di lingkungan Departemen Agama sesuai dengan ketentuan peraturan perundang-undangan yang berlaku;",
+   "bahwa sehubungan dengan hal-hal tersebut sebagaimana dimaksud dalam huruf a dan huruf b, dipandang perlu menetapkan Peraturan Presiden tentang Pendirian Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang Banten;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-76-tahun-2005",
+   "detailsId": "42602",
+   "judul": "PERPRES No. 76 Tahun 2005 tentang Pendirian Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang Banten - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73278/PERPRES%20NO%2076%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:51.443994+00:00"
+  },
+  "sha256": "62da2cbd11b69f8f20a3ba63aa0e21f8e95b15c27596b5bbee5854c25ab0ecdb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-76-tahun-2005/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-76-tahun-2005/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Mendirikan Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang Banten.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-76-tahun-2005/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Sekolah Tinggi Agama Buddha Negeri Sriwijaya Tangerang Banten merupakan perguruan tinggi di lingkungan Departemen Agama.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-76-tahun-2005/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini, diatur oleh Menteri Pendidikan Nasional dan Menteri Agama, baik secara bersama-sama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing-masing dengan memperhatikan ketentuan peraturan perundang-undangan yang berlaku. Pasal 3 . . .",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-76-tahun-2005/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 29 Desember 2005 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Sekretaris Kabinet Bidang Hukum, ttd Lambock V. Nahattands",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

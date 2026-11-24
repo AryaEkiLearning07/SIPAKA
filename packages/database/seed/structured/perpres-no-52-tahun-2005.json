@@ -1,0 +1,41 @@
+{
+ "slug": "perpres-no-52-tahun-2005",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka mendukung terselenggaranya tertib administrasi pemerintahan dan peningkatan kinerja Kabinet Indonesia Bersatu, dipandang perlu menyempurnakan Keputusan Presiden Nomor 110 Tahun 2001 tentang Unit Organisasi dan Tugas Eselon I Lembaga Pemerintah Non Departemen sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Presiden Nomor 12 Tahun 2005;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-52-tahun-2005",
+   "detailsId": "42581",
+   "judul": "PERPRES No. 52 Tahun 2005 tentang Perubahan Ketujuh atas Keputusan Presiden Nomor 110 Tahun 2001 Tentang Unit Organisasi dan Tugas Eselon I Lembaga Pemerintah Non Departemen - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73244/PERPRES%20NO%2052%20TH%202005.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:12:36.947718+00:00"
+  },
+  "sha256": "b509db956dd2a5f7c7f7a51f3f46b19be1e68cd8bc7094074e03cacd080671e4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

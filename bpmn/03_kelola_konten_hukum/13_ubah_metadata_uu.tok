@@ -1,0 +1,36 @@
+tok 1.0 "Ubah Metadata UU (Kelola Konten Hukum)"
+
+pool p "Ubah Metadata UU" process=ubah_metadata_uu
+  store d_uu "Undang-Undang"
+  store d_riw "Riwayat Perubahan UU"
+  start mulai "Perubahan metadata diterima" message="Perubahan metadata UU"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service valid "Validasi perubahan metadata"
+  xor ok "Metadata valid?"
+  service simpan "Simpan perubahan metadata"
+  service riwayat "Catat riwayat perubahan metadata"
+  end selesai "Metadata UU diperbarui" message="Konfirmasi metadata diperbarui"
+  send pesan "Kirim daftar kesalahan metadata" message="Daftar kesalahan metadata"
+  receive perbaiki "Terima metadata yang diperbaiki" message="Metadata diperbaiki"
+
+pool admin "Admin"
+
+flow mulai -> auth -> izin
+flow izin -> valid "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow valid -> ok
+flow ok -> simpan "ya" when="metadataValid"
+flow ok -> pesan "tidak" default
+flow pesan -> perbaiki -> valid
+flow simpan -> riwayat -> selesai
+
+writes simpan d_uu
+writes riwayat d_riw
+
+message admin -> mulai "Perubahan metadata UU"
+message tolak -> admin "Akses ditolak"
+message selesai -> admin "Konfirmasi metadata diperbarui"
+message pesan -> admin "Daftar kesalahan metadata"
+message admin -> perbaiki "Metadata diperbaiki"

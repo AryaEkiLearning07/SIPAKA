@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-8-tahun-1960",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu dibuat Perjanjian Persahabatan antara Republik Indonesia dan Kerajaan Kamboja;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-8-tahun-1960",
+   "detailsId": "51319",
+   "judul": "UU No. 8 Tahun 1960 tentang Pembuatan Perjanjian Persahabatan Antara Republik Indonesia dan Kerajaan Kamboja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/40580/UU%20Nomor%208%20Tahun%201960.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:00:13.102367+00:00"
+  },
+  "sha256": "07c88fee9194caf0746b88072be6a0a6f1ba9a5050219b4a53de6a5f3828ed51",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

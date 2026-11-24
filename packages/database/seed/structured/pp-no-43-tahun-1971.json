@@ -1,0 +1,84 @@
+{
+ "slug": "pp-no-43-tahun-1971",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perusahaan Negara Industri Urusan Mekanisasi (P.N.P.R. Daya Yasa) yang didirikan dengan Peraturan Pemerintah No. 193 tahun 1961 (Lembaran-Negara Republik Indonesia tahun 1961 No. 230) dan yang dengan Surat Keputusan Ketua Badan Pimpinan Umum Perusahaan- perusahaan Negara Perindustrian Rakyat No. 142/SEK.BPU/61 tertanggal 8 Juli 1961, namanya dirobah menjadi P.N.P.R. Daya Yasa, setelah melalui penelitian dan penilaian, dapat memenuhi ketentuan- ketentuan untuk dialihkan bentuknya menjadi Perusahaan Perseroan (PERSERO) sebagaimana termaktub dalam Peraturan Pemerintah No. 12 tahun 1969 (Lembaran-Negara Republik Indonesia tahun 1969 No. 21; Tambahan Lembaran-Negara Republik Indonesia No. 2894)."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-43-tahun-1971",
+   "detailsId": "69496",
+   "judul": "PP No. 43 Tahun 1971 tentang Pengalihan Bentuk Perusahaan Negara Industri Urusan mekanisme (P.N.R.Daya Yasa) Menjadi Perusahaan Perseroan (Persero) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/59937/PP%20NO%2043%20TH%201971.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-193-tahun-1961"
+   ],
+   "scrapedAt": "2026-10-06T00:47:37.762506+00:00"
+  },
+  "sha256": "31944463e2d7fe08a6f6ceb61496b4d15755ff800cda23d46890ec4ff69300ec",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-43-tahun-1971/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENGALIHAN BENTUK DAN PEMBUBARAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1971/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "MODAL PERUSAHAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1971/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PELAKSANAAN PENDIRIAN PERUSAHAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1971/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

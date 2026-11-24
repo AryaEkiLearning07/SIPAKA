@@ -1,0 +1,44 @@
+{
+ "slug": "perbup-kab-gowa-no-7-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perbup-kab-gowa-no-7-tahun-2023",
+   "detailsId": "274403",
+   "judul": "PERBUP Kab. Gowa No. 7 Tahun 2023 tentang Peraturan Pelaksanaan Peraturan Daerah Nomor 06 Tahun 2017 tentang Hak Keuangan dan Administratif Pimpinan dan Anggota Dewan Perwakilan Rakyat Daerah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/332775/PERBUP%20NOMOR%2007%20TAHUN%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perbup-kab-gowa-no-24b-tahun-2017",
+    "perbup-kab-gowa-no-24-tahun-2017"
+   ],
+   "scrapedAt": "2026-10-06T13:36:18.637154+00:00"
+  },
+  "sha256": "9de32942bb635b44175e52ef38f05c26020d03bb917a04312cf0a3b3625b7907",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

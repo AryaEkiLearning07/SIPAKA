@@ -1,0 +1,106 @@
+{
+ "slug": "pp-no-3-tahun-1977",
+ "preamble": {
+  "menimbang": [
+   "bahwa di dalam perusahaan P.T. PELITA BAHARI yang didirikan dengan akta Notaris Raden Soerojo Wongsowidjojo Nomor 4 tanggal 5 Mei 1964 dengan nama P.T. CARYA PUTRA terdapat penyertaan modal Negara yang berasal dari pemasukan barang- barang dari instansi Angkatan Laut Republik Indonesia (ALRI);",
+   "bahwa dalam rangka penyesuaian status hukum P.T. PELITA BAHARI tersebut ke dalam bentuk Perusahaan Perseroan (PERSERO) sebagaimana dimaksud dalam Peraturan Pemerintah Nomor 12 Tahun 1969, maka perlu mengatur penyertaan modal Negara dimaksud dalam suatu Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-3-tahun-1977",
+   "detailsId": "67300",
+   "judul": "PP No. 3 Tahun 1977 tentang Penyertaan Modal Negara Republik Indonesia Dalam Perseroan Terbatas Pelita Bahari - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57639/PP%20NO%203%20TH%201977.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:52.859159+00:00"
+  },
+  "sha256": "a1a4b868714125020d755c14f12cb6600a0aae5ebbdc5e2cc3204959475fbf65",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 3,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-3-tahun-1977/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1977/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Memisahkan sebagian dari kekayaan Negara yang semula berada dibawah pengurusan dan penguasaan Angkatan Laut Republik Indonesia (ALRI) serta kemudian telah dipergunakan dalam kegiatan usaha P.T. PELITA BAHARI sesuai dengan keadaannya pada saat penyesuaiannya menjadi PERSERO untuk digunakan sebagai penyertaan Negara dalam modal saham P.T. PELITA BAHARI.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-3-tahun-1977/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Nilai ... Nilai dari kekayaan tersebut dalam ayat (1) sebagaimana tercantum dalam lampiran Peraturan Pemerintah ini ditetapkan oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1977/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pelaksanaan segala sesuatu yang berhubungan dengan penyertaan Negara dalam Modal Saham P.T. PELITA BAHARI tersebut dalam ayat",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-3-tahun-1977/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pasal 1, termasuk perubahan/penyesuaian dari badan hukum yang bersangkutan kepada ketentuan-ketentuan Peraturan Pemerintah Nomor 12 Tahun 1969 sebagaimana yang telah diubah dengan Peraturan Pemerintah Nomor 24 Tahun 1972, dilakukan oleh Menteri Keuangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1977/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Hal-hal yang belum atau belum cukup diatur dalam Peraturan Pemerintah ini akan diatur tersendiri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-3-tahun-1977/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar … Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 2 Pebruari 1977 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 2 Pebruari 1977 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1977 NOMOR 4",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

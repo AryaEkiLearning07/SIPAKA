@@ -1,0 +1,60 @@
+{
+ "slug": "pp-no-1-tahun-1954",
+ "preamble": {
+  "menimbang": [
+   "bahwa setelah ditinjau kembali ternyata, bahwa keadaan di daerah, yang ditunjuk dengan Peraturan Pemerintah No. 44 tahun 1952 sebagai daerah di Indonesia dimana uang asing dapat diterima sebagai alat pembayar yang sah dengan menyampingkan alat pembayar Indonesia yang sah, belum mengizinkan Pemerintah memasukkan uang rupiah di daerah termaksud; bahwa berhubung dengan itu dianggap perlu untuk memperpanjang waktu berlakunya Peraturan Pemerintah No. 44 tahun 1952 dengan satu tahun yaitu sampai akhir Desember 1954;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-1-tahun-1954",
+   "detailsId": "77221",
+   "judul": "PP No. 1 Tahun 1954 tentang Memperpanjang Waktu Berlakunya Peraturan Pemerintah No. 44 Tahun 1952 (Lembaran-Negara No. 72 Tahun 1952), Mengenai Penunjukan Daerah di Indonesia, dimana Uang Asing dapat diterima Sebagai Alat Pembayaran yang Sah dengan Menyampingkan Alat Pembayaran Indonesia yang Sah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68224/54pp001.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:30.078658+00:00"
+  },
+  "sha256": "e3bdd4e4c1aab16f5b392a68c0cc708829b5bed1038adb65eeef4d11dcb8ef62",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-1-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Memperpanjang waktu termaksud dalam pasal 3 Peraturan Pemerintah No. 44 tahun 1952 dengan satu tahun, yaitu sampai akhir Desember 1954.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada akhir Desember 1953. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Desember 1953. PRESIDEN REPUBLIK INDONESIA, Ttd. SOEKARNO. PERDANA MENTERI MEWAKILI MENTERI KEUANGAN, Ttd. ALI SASTROAMIDJOJO. Diundangkan pada tanggal 4 Januari 1954. MENTERI KEHAKIMAN, Ttd. DJODY GONDOKUSUMO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

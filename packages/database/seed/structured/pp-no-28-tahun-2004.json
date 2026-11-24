@@ -1,0 +1,2480 @@
+{
+ "slug": "pp-no-28-tahun-2004",
+ "preamble": {
+  "menimbang": [
+   "bahwa masyarakat perlu dilindungi dari pangan yang dapat merugikan dan/atau membahayakan kesehatan;",
+   "bahwa atas dasar hal-hal tersebut di atas dan untuk melaksanakan ketentuan Undang-Undang Nomor 7 Tahun 1996 tentang Pangan, dipandang perlu untuk menetapkan Peraturan Pemerintah tentang Keamanan, Mutu dan Gizi Pangan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-28-tahun-2004",
+   "detailsId": "65674",
+   "judul": "PP No. 28 Tahun 2004 tentang Keamanan, Mutu Dan Gizi Pangan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/55984/PP%20No.28%20TH%202004.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:30:52.623772+00:00"
+  },
+  "sha256": "c891a1f55410b6899e7c1451788bdf1898a1c051988bf8ca87df9bea3852d773",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 54,
+  "ayat_angka": 148,
+  "huruf": 53
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Pemerintah ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pangan adalah segala sesuatu yang berasal dari sumber hayati dan air, baik yang diolah maupun yang tidak diolah, yang diperuntukkan sebagai makanan atau minuman bagi konsumsi manusia, termasuk bahan tambahan pangan, bahan baku pangan dan bahan lain yang digunakan dalam proses penyiapan, pengolahan, dan/atau pembuatan makanan atau minuman.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pangan segar adalah pangan yang belum mengalami pengolahan yang dapat dikonsumsi langsung dan/atau yang dapat menjadi bahan baku pengolahan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pangan olahan adalah makanan atau minuman hasil proses dengan cara atau metode tertentu, dengan atau tanpa bahan tambahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pangan olahan tertentu adalah pangan olahan untuk konsumsi bagi kelompok tertentu dalam upaya memelihara dan meningkatkan kualitas kesehatan kelompok tersebut. 5. Sistem pangan adalah segala sesuatu yang berhubungan dengan pengaturan, pembinaan, dan/atau pengawasan terhadap kegiatan atau proses produksi pangan dan peredaran pangan sampai dengan siap dikonsumsi manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pangan … - - Pangan siap saji adalah makanan dan/atau minuman yang sudah diolah dan siap untuk langsung disajikan di tempat usaha atau di luar tempat usaha atas dasar pesanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Keamanan pangan adalah kondisi dan upaya yang diperlukan untuk mencegah pangan dari kemungkinan cemaran biologis, kimia dan benda lain yang dapat mengganggu, merugikan, dan membahayakan kesehatan manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Persyaratan keamanan pangan adalah standar dan ketentuan- ketentuan lain yang harus dipenuhi untuk mencegah pangan dari kemungkinan adanya bahaya, baik karena cemaran biologis, kimia dan benda lain yang dapat mengganggu, merugikan, dan membahayakan kesehatan manusia. 9. Sanitasi pangan adalah upaya untuk pencegahan terhadap kemungkinan bertumbuh dan berkembang biaknya jasad renik pembusuk dan patogen dalam makanan, minuman, peralatan dan bangunan yang dapat merusak pangan dan membahayakan manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Persyaratan sanitasi adalah standar kebersihan dan kesehatan yang harus dipenuhi sebagai upaya mematikan atau mencegah hidupnya jasad renik patogen dan mengurangi jumlah jasad renik lainnya agar pangan yang dihasilkan dan dikonsumsi tidak membahayakan kesehatan dan jiwa manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Produksi pangan adalah kegiatan atau proses menghasilkan, menyiapkan, mengolah, membuat, mengawetkan, mengemas, mengemas kembali, dan/atau mengubah bentuk pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Peredaran pangan adalah setiap kegiatan atau serangkaian kegiatan dalam rangka penyaluran pangan kepada masyarakat, baik untuk diperdagangkan maupun tidak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Perdagangan … - - Perdagangan pangan adalah setiap kegiatan atau serangkaian kegiatan dalam rangka penjualan dan/atau pembelian pangan, termasuk penawaran untuk menjual pangan, dan kegiatan lain yang berkenaan dengan pemindahtanganan pangan dengan memperoleh imbalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Penyimpanan pangan adalah proses, cara dan/atau kegiatan menyimpan pangan baik di sarana produksi maupun distribusi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Pengangkutan pangan adalah setiap kegiatan atau serangkaian kegiatan dalam rangka memindahkan pangan dari satu tempat ke tempat lain dengan cara atau sarana angkutan apapun dalam rangka produksi, peredaran dan/atau perdagangan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Industri rumah tangga pangan adalah perusahaan pangan yang memiliki tempat usaha di tempat tinggal dengan peralatan pengolahan pangan manual hingga semi otomatis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Bahan tambahan pangan adalah bahan yang ditambahkan ke dalam pangan untuk mempengaruhi sifat atau bentuk pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Pangan produk rekayasa genetika adalah pangan yang diproduksi atau menggunakan bahan baku, bahan tambahan pangan, dan/atau bahan lain yang dihasilkan dari proses rekayasa genetika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Iradiasi pangan adalah metode penyinaran terhadap pangan, baik dengan menggunakan zat radioaktif maupun akselerator untuk mencegah terjadinya pembusukan dan kerusakan serta membebaskan pangan dari jasad renik patogen.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Kemasan pangan adalah bahan yang digunakan untuk mewadahi dan/atau membungkus pangan, baik yang bersentuhan langsung dengan pangan maupun tidak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Mutu … - - Mutu pangan adalah nilai yang ditentukan atas dasar kriteria keamanan pangan, kandungan gizi, dan standar perdagangan terhadap bahan makanan, makanan dan minuman.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Standar adalah spesifikasi atau persyaratan teknis yang dibakukan, termasuk tata cara dan metode yang disusun berdasarkan konsensus semua pihak yang terkait dengan memperhatikan syarat-syarat keselamatan, keamanan, kesehatan, lingkungan hidup, perkembangan ilmu pengetahuan dan teknologi, serta pengalaman perkembangan masa kini dan masa yang akan datang untuk memperoleh manfaat yang sebesar-besarnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Gizi pangan adalah zat atau senyawa yang terdapat dalam pangan yang terdiri atas karbohidrat, protein, lemak, vitamin dan mineral serta turunannya yang bermanfaat bagi pertumbuhan dan kesehatan manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-24",
+       "type": "ANGKA",
+       "orderIndex": 24,
+       "label": "Angka 24",
+       "content": "Sertifikasi mutu pangan adalah rangkaian kegiatan penerbitan sertifikat terhadap pangan yang telah memenuhi persyaratan yang ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-25",
+       "type": "ANGKA",
+       "orderIndex": 25,
+       "label": "Angka 25",
+       "content": "Sertifikat mutu pangan adalah jaminan tertulis yang diberikan oleh lembaga sertifikasi/laboratorium yang telah diakreditasi yang menyatakan bahwa pangan tersebut telah memenuhi kriteria tertentu dalam standar mutu pangan yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-26",
+       "type": "ANGKA",
+       "orderIndex": 26,
+       "label": "Angka 26",
+       "content": "Setiap orang adalah orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun tidak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-1/angka-27",
+       "type": "ANGKA",
+       "orderIndex": 27,
+       "label": "Angka 27",
+       "content": "Badan adalah badan yang bertanggung jawab di bidang pengawasan obat dan makanan. BAB II … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "- -",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang bertanggung jawab dalam penyelenggaraan kegiatan pada rantai pangan yang meliputi proses produksi, penyimpanan, pengangkutan, dan peredaran pangan wajib memenuhi persyaratan sanitasi sesuai ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan sanitasi sebagaimana dimaksud pada ayat (1) diatur lebih lanjut oleh Menteri yang bertanggung jawab di bidang kesehatan yang meliputi antara lain :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "sarana dan/atau prasarana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyelenggaraan kegiatan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "orang perseorangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pemenuhan persyaratan sanitasi di seluruh kegiatan rantai pangan dilakukan dengan cara menerapkan pedoman cara yang baik yang meliputi : a. Cara Budidaya yang Baik; b. Cara Produksi Pangan Segar yang Baik; c. Cara Produksi Pangan Olahan yang Baik; d. Cara Distribusi Pangan yang Baik; e. Cara Ritel Pangan yang Baik; dan f. Cara Produksi Pangan Siap Saji yang Baik. Pasal 4 … - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Budidaya yang Baik sebagaimana dimaksud dalam Pasal 3 huruf a adalah cara budidaya yang memperhatikan aspek keamanan pangan, antara lain dengan cara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mencegah penggunaan lahan dimana lingkungannya mempunyai potensi mengancam keamanan pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengendalikan cemaran biologis, hama dan penyakit hewan dan tanaman yang mengancam keamanan pangan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menekan seminimal mungkin, residu kimia yang terdapat dalam bahan pangan sebagai akibat dari penggunaan pupuk, obat pengendali hama dan penyakit, bahan pemacu pertumbuhan dan obat hewan yang tidak tepat guna.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman Cara Budidaya yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang bertanggung jawab di bidang pertanian, perikanan atau kehutanan sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Produksi Pangan Segar yang Baik sebagaimana dimaksud dalam Pasal 3 huruf b adalah cara penanganan yang memperhatikan aspek-aspek keamanan pangan, antara lain dengan cara :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mencegah tercemarnya pangan segar oleh cemaran biologis, kimia dan benda lain yang mengganggu, merugikan dan membahayakan kesehatan dari udara, tanah, air, pakan, pupuk, pestisida, obat hewan atau bahan lain yang digunakan dalam produksi pangan segar; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengendalikan … - - mengendalikan kesehatan hewan dan tanaman agar tidak mengancam keamanan pangan atau tidak berpengaruh negatif terhadap pangan segar.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman Cara Produksi Pangan Segar yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang bertanggung jawab di bidang pertanian atau perikanan sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Produksi Pangan Olahan yang Baik sebagaimana dimaksud dalam Pasal 3 huruf c adalah cara produksi yang memperhatikan aspek keamanan pangan, antara lain dengan cara :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mencegah tercemarnya pangan olahan oleh cemaran biologis, kimia dan benda lain yang dapat mengganggu, merugikan dan membahayakan kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mematikan atau mencegah hidupnya jasad renik patogen, serta mengurangi jumlah jasad renik lainnya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengendalikan proses, antara lain pemilihan bahan baku, penggunaan bahan tambahan pangan, pengolahan, pengemasan, penyimpanan atau pengangkutan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman Cara Produksi Pangan Olahan yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang bertanggung jawab di bidang perindustrian atau perikanan sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pedoman Cara Produksi Pangan Olahan yang Baik sebagaimana dimaksud pada ayat (1) untuk pangan olahan tertentu ditetapkan oleh Kepala Badan. Pasal 7 … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Distribusi Pangan yang Baik sebagaimana dimaksud dalam Pasal 3 huruf d adalah cara distribusi yang memperhatikan aspek keamanan pangan, antara lain dengan cara :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan cara bongkar muat pangan yang tidak menyebabkan kerusakan pada pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengendalikan kondisi lingkungan, distribusi dan penyimpanan pangan khususnya yang berkaitan dengan suhu, kelembaban, dan tekanan udara; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengendalikan sistem pencatatan yang menjamin penelusuran kembali pangan yang didistribusikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman Cara Distribusi Pangan yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang bertanggung jawab di bidang perindustrian, pertanian atau perikanan sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Ritel Pangan yang Baik sebagaimana dimaksud dalam Pasal 3 huruf e adalah cara ritel yang memperhatikan aspek keamanan pangan, antara lain dengan cara :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengatur cara penempatan pangan dalam lemari gerai dan rak penyimpanan agar tidak terjadi pencemaran silang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengendalikan stok penerimaan dan penjualan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengatur rotasi stok pangan sesuai dengan masa kedaluwarsanya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "mengendalikan kondisi lingkungan penyimpanan pangan khususnya yang berkaitan dengan suhu, kelembaban, dan tekanan udara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman ... - - Pedoman Cara Ritel Pangan yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan sesuai dengan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pedoman Cara Produksi Pangan Siap Saji yang Baik sebagaimana dimaksud dalam Pasal 3 huruf f adalah cara produksi yang memperhatikan aspek keamanan pangan, antara lain dengan cara :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mencegah tercemarnya pangan siap saji oleh cemaran biologis, kimia dan benda lain yang mengganggu, merugikan dan membahayakan kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mematikan atau mencegah hidupnya jasad renik patogen, serta mengurangi jumlah jasad renik lainnya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-9/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengendalikan proses antara lain pemilihan bahan baku, penggunaan bahan tambahan pangan, pengolahan, pengemasan, penyimpanan dan pengangkutan serta cara penyajian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pedoman Cara Produksi Pangan Siap Saji yang Baik sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri yang bertanggung jawab di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan, kehutanan, perindustrian, kesehatan atau Kepala Badan sesuai dengan bidang tugas dan kewenangan masing-masing dapat menetapkan pedoman cara yang baik sebagaimana dimaksud dalam Pasal 3 untuk diterapkan secara wajib. Bagian … - - Bagian Kedua Bahan Tambahan Pangan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan untuk diedarkan dilarang menggunakan bahan apapun sebagai bahan tambahan pangan yang dinyatakan terlarang. ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bahan yang dinyatakan terlarang sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan dengan menggunakan bahan tambahan pangan untuk diedarkan wajib menggunakan bahan tambahan pangan yang diizinkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Nama dan golongan bahan tambahan pangan yang diizinkan, tujuan penggunaan dan batas maksimal penggunaannya menurut jenis pangan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bahan yang akan digunakan sebagai bahan tambahan pangan tetapi belum diketahui dampaknya bagi kesehatan manusia, wajib terlebih dahulu diperiksa keamanannya, dan dapat digunakan dalam kegiatan atau proses produksi pangan untuk diedarkan setelah memperoleh persetujuan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan dan tata cara memperoleh persetujuan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan. Bagian … - - Bagian Ketiga Pangan Produk Rekayasa Genetika",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan atau menggunakan bahan baku, bahan tambahan pangan, dan/atau bahan bantu lain dalam kegiatan atau proses produksi pangan yang dihasilkan dari proses rekayasa genetika wajib terlebih dahulu memeriksakan keamanan pangan tersebut sebelum diedarkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan keamanan pangan produk rekayasa genetika sebagaimana dimaksud pada ayat (1) meliputi : a. informasi genetika, antara lain deskripsi umum pangan produk rekayasa genetika dan deskripsi inang serta penggunaanya sebagai pangan;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "deskripsi organisme donor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "deskripsi modifikasi genetika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "karakterisasi modifikasi genetika; dan e. informasi keamanan pangan, antara lain kesepadanan substansial, perubahan nilai gizi, alergenitas dan toksisitas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemeriksaan keamanan pangan produk rekayasa genetika sebagaimana dimaksud pada ayat (1) dilaksanakan oleh komisi yang menangani keamanan pangan produk rekayasa genetika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Persyaratan dan tata cara pemeriksaan keamanan pangan produk rekayasa genetika sebagaimana dimaksud pada ayat (3) ditetapkan oleh komisi yang menangani keamanan pangan produk rekayasa genetika.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-14/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kepala ... - - Kepala Badan menetapkan bahan baku, bahan tambahan pangan, dan/atau bahan bantu lain hasil proses rekayasa genetika yang dinyatakan aman sebagai pangan dengan memperhatikan rekomendasi dari komisi yang menangani keamanan pangan produk rekayasa genetika. Bagian Keempat Iradiasi Pangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas iradiasi yang digunakan dalam kegiatan atau proses produksi pangan untuk diedarkan harus mendapatkan izin pemanfaatan tenaga nuklir dan didaftarkan kepada Kepala badan yang bertanggung jawab di bidang pengawasan tenaga nuklir.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap pangan yang diproduksi dengan menggunakan teknik dan/atau metode iradiasi untuk diedarkan harus memenuhi ketentuan tentang pangan iradiasi yang ditetapkan oleh Kepala Badan. Bagian Kelima Kemasan Pangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan untuk diedarkan dilarang menggunakan bahan apapun sebagai kemasan pangan yang dinyatakan terlarang dan/atau yang dapat melepaskan cemaran yang merugikan atau membahayakan kesehatan manusia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bahan yang dilarang digunakan sebagai kemasan pangan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan. Pasal 17 ... - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan untuk diedarkan wajib menggunakan bahan kemasan yang diizinkan. ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bahan kemasan yang diizinkan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bahan selain yang dimaksud dalam Pasal 16 ayat (2) dan Pasal 17 ayat (2) hanya boleh digunakan sebagai bahan kemasan pangan setelah diperiksa keamanannya dan mendapat persetujuan dari Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan dan tata cara memperoleh persetujuan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang melakukan produksi pangan yang akan diedarkan wajib melakukan pengemasan pangan secara benar untuk menghindari terjadinya pencemaran terhadap pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara pengemasan pangan secara benar sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang dilarang membuka kemasan akhir pangan untuk dikemas kembali dan diperdagangkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan … - - Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku terhadap pangan yang pengadaannya dalam jumlah besar dan lazim dikemas kembali dalam jumlah kecil untuk diperdagangkan lebih lanjut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang yang mengemas kembali pangan sebagaimana dimaksud pada ayat (2) wajib melakukan pengemasan pangan secara benar untuk menghindari terjadinya pencemaran terhadap pangan. Bagian Keenam Jaminan Mutu Pangan dan Pemeriksaan Laboratorium",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang memproduksi pangan untuk diperdagangkan bertanggung jawab menyelenggarakan sistem jaminan mutu sesuai dengan jenis pangan yang diproduksi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan, kehutanan, perindustrian, kesehatan atau Kepala Badan berwenang mewajibkan penerapan standar atau persyaratan lain yang berkenaan dengan sistem jaminan mutu sebagaimana dimaksud pada ayat (1) sesuai dengan bidang tugas masing-masing. dapat dilakukan secara bertahap dengan memperhatikan kesiapan dan kebutuhan sistem pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penetapan standar atau persyaratan lain sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam menetapkan standar dan persyaratan lain sebagaimana dimaksud pada ayat (3), Menteri yang bertanggung jawab di bidang pertanian, perikanan, kehutanan, perindustrian, kesehatan atau Kepala Badan wajib memperhatikan perjanjian TBT/SPS WTO atau perjanjian yang telah diratifikasi Pemerintah. Pasal 22 … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri yang bertanggung jawab di bidang pertanian atau perikanan sesuai dengan bidang tugas dan kewenangan masing- masing, berwenang menetapkan jenis pangan segar yang wajib diuji secara laboratoris sebelum diedarkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Badan berwenang menetapkan jenis pangan olahan yang wajib diuji secara laboratoris sebelum diedarkan. dilakukan di laboratorium pemerintah atau laboratorium lain yang telah diakreditasi oleh Komite Akreditasi Nasional atau Lembaga Akreditasi lain yang diakui oleh Komite Akreditasi Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengujian secara laboratoris sebagaimana dimaksud pada ayat (1) dan ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-22/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penetapan dan penerapan persyaratan pengujian secara laboratoris sebagaimana dimaksud pada ayat (1) dan (2) dilakukan secara bertahap dengan memperhatikan kesiapan dan kebutuhan sistem pangan. Bagian Ketujuh Pangan Tercemar",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Setiap orang dilarang mengedarkan : a. pangan yang mengandung bahan beracun, berbahaya atau yang dapat merugikan atau membahayakan kesehatan atau jiwa manusia; b. pangan yang mengandung cemaran yang melampaui ambang batas maksimal yang ditetapkan; c. pangan yang mengandung bahan yang dilarang digunakan dalam kegiatan atau proses produksi pangan; d. pangan ... - - d. pangan yang mengandung bahan yang kotor, busuk, tengik, terurai, atau mengandung bahan nabati atau hewani yang berpenyakit atau berasal dari bangkai sehingga menjadikan pangan tidak layak dikonsumsi manusia; atau e. pangan yang sudah kedaluwarsa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan atau Kepala Badan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menetapkan bahan yang dilarang digunakan dalam kegiatan atau proses produksi pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menetapkan ambang batas maksimal cemaran yang diperbolehkan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "mengatur dan/atau menetapkan persyaratan bagi penggunaan cara, metode, dan/atau bahan tertentu dalam kegiatan atau proses produksi, pengolahan, penyimpanan, pengangkutan, dan/atau peredaran pangan yang dapat memiliki risiko merugikan dan/atau membahayakan kesehatan manusia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menetapkan bahan yang dilarang digunakan dalam memproduksi peralatan pengolahan, penyiapan, pemasaran dan/atau penyajian pangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) untuk pangan segar ditetapkan oleh Menteri yang bertanggung jawab di bidang pertanian atau perikanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) untuk pangan olahan ditetapkan oleh Kepala Badan. Pasal 25 … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap orang yang mengetahui adanya keracunan pangan akibat pangan tercemar wajib melaporkan kepada unit pelayanan kesehatan terdekat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Unit pelayanan kesehatan sebagaimana dimaksud pada ayat (1) wajib segera melakukan tindakan pertolongan kepada korban.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal menurut unit pelayanan kesehatan sebagaimana dimaksud pada ayat (2) terdapat indikasi Kejadian Luar Biasa (KLB) keracunan pangan, unit pelayanan kesehatan tersebut wajib segera mengambil contoh pangan yang dicurigai sebagai penyebab keracunan dan memberikan laporan kepada dinas Kabupaten/Kota yang bertanggung jawab di bidang kesehatan dan Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Berdasarkan hasil laporan sebagaimana dimaksud pada ayat (3), Badan melakukan pemeriksaan/penyelidikan dan pengujian laboratorium terhadap contoh pangan untuk menentukan penyebab keracunan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dinas Kabupaten/Kota yang bertanggung jawab di bidang kesehatan yang menerima laporan sebagaimana dimaksud pada ayat (3) wajib melakukan pengkajian terhadap laporan dan menetapkan kasus keracunan pangan merupakan KLB keracunan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-25/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dinas Kabupaten/Kota yang bertanggung jawab di bidang kesehatan sebagaimana dimaksud pada ayat (5) wajib melakukan pemeriksaan dan penanggulangan KLB keracunan pangan serta melaporkan kepada dinas Propinsi yang bertanggung jawab di bidang kesehatan dan Badan. Pasal 26 … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal KLB keracunan pangan terjadi pada lintas Kabupaten/Kota atau ada permintaan dari Pemerintah Daerah Kabupaten/Kota, Pemerintah Daerah Propinsi wajib melaksanakan pemeriksaan dan penanggulangan KLB keracunan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal KLB keracunan pangan terjadi pada lintas Propinsi, atau ada permintaan dari Pemerintah Daerah Propinsi, Pemerintah Pusat wajib melaksanakan pemeriksaan dan penanggulangan KLB keracunan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Dalam hal berdasarkan hasil pemeriksaan terhadap KLB keracunan pangan patut diduga merupakan tindak pidana, segera dilakukan tindakan penyidikan oleh Penyidik Pegawai Negeri Sipil Badan dan/atau penyidik lainnya berdasarkan peraturan perundang- undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan lebih lanjut mengenai tindakan pertolongan kepada korban, pengambilan contoh spesimen dan pengujian spesimen serta pelaporan KLB keracunan pangan ditetapkan oleh Menteri yang bertanggung jawab di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara pengambilan contoh pangan, pengujian laboratorium dan pelaporan penyebab keracunan ditetapkan oleh Kepala Badan. BAB III … - -",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "- -",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Kepala badan yang bertanggung jawab di bidang standardisasi nasional menetapkan standar mutu pangan yang dinyatakan sebagai Standar Nasional Indonesia sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Standar Nasional Indonesia sebagaimana dimaksud dalam Pasal 29 dapat diberlakukan secara wajib dengan mempertimbangkan keselamatan, keamanan, kesehatan masyarakat atau pelestarian lingkungan hidup dan/atau pertimbangan ekonomis harus memenuhi standar mutu tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberlakuan Standar Nasional Indonesia secara wajib sebagaimana dimaksud pada ayat (1) dilakukan oleh Menteri yang bertanggung jawab di bidang perindustrian, pertanian, perikanan, atau Kepala Badan sesuai dengan bidang tugas dan kewenangan masing-masing berkoordinasi dengan Kepala badan yang bertanggung jawab di bidang standardisasi nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hal-hal yang berkaitan dengan penerapan dan penilaian kesesuaian terhadap Standar Nasional Indonesia yang diberlakukan secara wajib sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-30/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap … - - Setiap orang yang memproduksi atau mengedarkan jenis pangan sebagaimana dimaksud pada ayat (1) wajib memenuhi Standar Nasional Indonesia sesuai dengan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan, atau Kepala Badan sesuai bidang tugas dan kewenangan masing-masing dapat menetapkan ketentuan mutu pangan di luar Standar Nasional Indonesia sebagaimana dimaksud dalam Pasal 29 bagi pangan yang mempunyai tingkat risiko keamanan pangan yang tinggi. Bagian Kedua Sertifikasi Mutu Pangan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sertifikasi dan penandaan yang menyatakan kesesuaian pangan terhadap Standar Nasional Indonesia sebagaimana dimaksud dalam Pasal 29 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan, atau Kepala Badan sesuai bidang tugas dan kewenangan masing- masing menetapkan persyaratan dan tata cara sertifikasi mutu pangan yang mempunyai tingkat risiko keamanan pangan yang tinggi sebagaimana dimaksud dalam Pasal 31.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sertifikasi sebagaimana dimaksud pada ayat (1) terhadap Standar Nasional Indonesia yang diberlakukan wajib atau terhadap persyaratan ketentuan mutu sebagaimana dimaksud dalam Pasal 31 merupakan bagian dari pengawasan pangan sebelum diedarkan. Bagian ... - - Bagian Ketiga Gizi Pangan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri yang bertanggung jawab di bidang kesehatan menetapkan standar status gizi masyarakat dan melakukan pemantauan dan evaluasi status gizi masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri yang bertanggung jawab di bidang kesehatan, pertanian, perikanan, perindustrian atau Kepala Badan sesuai bidang tugas dan kewenangan masing-masing mengupayakan terpenuhinya kecukupan gizi, melindungi masyarakat dari gangguan gizi dan membina masyarakat dalam upaya perbaikan status gizi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri yang bertanggung jawab di bidang kesehatan, pertanian, perikanan, perindustrian atau Kepala Badan bersama-sama Pemerintah Daerah Propinsi, Kabupaten/Kota serta masyarakat melakukan penanganan terhadap terjadinya gangguan gizi masyarakat yang tidak sesuai dengan standar status gizi masyarakat sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Menteri yang bertanggung jawab di bidang kesehatan menetapkan Angka Kecukupan Gizi yang ditinjau secara berkala.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal terjadi kekurangan dan/atau penurunan status gizi masyarakat perlu dilakukan upaya perbaikan gizi melalui pengayaan dan/atau fortifikasi gizi pangan tertentu yang diedarkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri … - - Menteri yang bertanggung jawab di bidang kesehatan menetapkan jenis dan jumlah zat gizi yang akan ditambahkan serta jenis-jenis pangan yang dapat ditingkatkan nilai gizinya melalui pengayaan dan/atau fortifikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Menteri yang bertanggung jawab di bidang perindustrian menetapkan jenis-jenis pangan yang wajib diperkaya dan/atau difortifikasi sebagaimana dimaksud pada ayat (2) dan tata cara pengayaan dan/atau fortifikasi gizi pangan tertentu sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-35/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang yang memproduksi pangan yang harus diperkaya dan/atau difortifikasi untuk diedarkan wajib memenuhi ketentuan dan tata cara pengayaan dan/atau fortifikasi gizi sebagaimana dimaksud pada ayat (3).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-35/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pangan sebagaimana dimaksud pada ayat (4) wajib memiliki surat persetujuan pendaftaran dari Kepala Badan. PEMASUKAN DAN PENGELUARAN PANGAN KE DALAM DAN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMASUKAN DAN PENGELUARAN PANGAN KE DALAM DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Setiap pangan yang dimasukkan ke dalam wilayah Indonesia untuk diedarkan wajib memenuhi ketentuan peraturan perundang-undangan di bidang keamanan, mutu dan gizi pangan dan ketentuan peraturan perundang-undangan lain yang berlaku. Pasal 37 … - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Terhadap pangan segar yang akan dimasukkan ke dalam wilayah Indonesia untuk diedarkan, Menteri yang bertanggung jawab di bidang pertanian atau perikanan sesuai dengan bidang tugas dan kewenangan masing-masing dapat menetapkan persyaratan bahwa : dan ayat (2), Menteri atau Kepala Badan memperhatikan perjanjian TBT/SPS WTO atau perjanjian yang telah diratifikasi Pemerintah. Pasal 38 … - -",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pangan telah diuji, diperiksa dan/atau dinyatakan lulus dari segi keamanan, mutu dan/atau gizi oleh instansi yang berwenang di negara asal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pangan telah memenuhi ketentuan sebagaimana dimaksud dalam Pasal 21;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pangan dilengkapi dengan dokumen hasil pengujian dan/atau pemeriksaan sebagaimana dimaksud pada huruf a; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pangan terlebih dahulu diuji dan/atau diperiksa di Indonesia dari segi keamanan, mutu dan/atau gizi sebelum peredarannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Terhadap pangan olahan yang akan dimasukkan ke dalam wilayah Indonesia untuk diedarkan, Kepala Badan dapat menetapkan persyaratan bahwa :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pangan telah diuji dan/atau diperiksa serta dinyatakan lulus dari segi keamanan, mutu dan/atau gizi oleh instansi yang berwenang di negara asal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pangan telah memenuhi ketentuan sebagaimana dimaksud dalam Pasal 21;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pangan dilengkapi dengan dokumen hasil pengujian dan/atau pemeriksaan sebagaimana dimaksud pada huruf a; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pangan terlebih dahulu diuji dan/atau diperiksa di Indonesia dari segi keamanan, mutu dan/atau gizi sebelum peredarannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam menetapkan persyaratan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal pangan yang dimasukkan ke dalam wilayah Indonesia terlebih dahulu harus diuji dan/atau diperiksa sebagaimana dimaksud dalam Pasal 37 ayat (1) huruf c, maka pengeluarannya dari pabean hanya dapat dilakukan setelah mendapatkan persetujuan pemasukan pangan yang dikeluarkan oleh Menteri yang bertanggung jawab di bidang pertanian atau perikanan sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal pangan yang dimasukkan ke dalam wilayah Indonesia terlebih dahulu diuji dan/atau diperiksa sebagaimana dimaksud dalam Pasal 37 ayat (2) huruf c, maka pengeluarannya dari pabean hanya dapat dilakukan setelah mendapatkan persetujuan pemasukan pangan yang dikeluarkan Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Setiap orang yang memasukkan pangan ke dalam wilayah Indonesia untuk diedarkan bertanggung jawab atas keamanan, mutu dan gizi pangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Ketentuan lebih lanjut mengenai pemasukan pangan ke dalam wilayah Indonesia untuk diedarkan diatur oleh Menteri yang bertanggung jawab di bidang pertanian, perikanan, perdagangan atau Kepala Badan sesuai dengan bidang tugas dan kewenangan masing-masing. Bagian Kedua Pengeluaran Pangan dari Wilayah Indonesia",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap pangan yang dikeluarkan dari wilayah Indonesia wajib memenuhi persyaratan keamanan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri … - - Menteri yang bertanggung jawab di bidang pertanian, perikanan, atau Kepala Badan sesuai dengan bidang tugas dan kewenangan masing-masing dapat menetapkan persyaratan agar pangan yang dikeluarkan dari wilayah Indonesia untuk diedarkan terlebih dahulu diuji dan/atau diperiksa dari segi keamanan, mutu, persyaratan label dan/atau gizi pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-41/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap orang yang mengeluarkan pangan dari wilayah Indonesia bertanggung jawab atas keamanan, mutu dan gizi pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-41/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Menteri yang bertanggung jawab di bidang pertanian, perikanan, atau Kepala Badan berkoordinasi dengan Kepala badan yang bertanggung jawab di bidang standardisasi nasional untuk mengupayakan saling pengakuan pelaksanaan penilaian kesesuaian dalam memenuhi persyaratan negara tujuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENGAWASAN DAN PEMBINAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pengawasan keamanan, mutu dan gizi pangan, setiap pangan olahan baik yang diproduksi di dalam negeri atau yang dimasukkan ke dalam wilayah Indonesia untuk diperdagangkan dalam kemasan eceran sebelum diedarkan wajib memiliki surat persetujuan pendaftaran. diterbitkan oleh Kepala Badan berdasarkan hasil penilaian keamanan, mutu dan gizi pangan olahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pangan olahan yang wajib memiliki surat persetujuan pendaftaran sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Surat ... - - Surat persetujuan pendaftaran sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penilaian keamanan, mutu dan gizi pangan olahan sebagaimana dimaksud pada ayat (3) dilaksanakan oleh Kepala Badan sesuai dengan kriteria dan tatalaksana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kriteria dan tatalaksana sebagaimana dimaksud pada ayat (4) ditetapkan oleh Kepala Badan dengan mengacu kepada persyaratan keamanan, mutu dan gizi pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-42/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Persyaratan dan tata cara memperoleh surat persetujuan pendaftaran sebagaimana dimaksud dalam ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dikecualikan dari ketentuan sebagaimana dimaksud dalam Pasal 42 ayat (1) untuk pangan olahan yang diproduksi oleh industri rumah tangga. wajib memiliki sertifikat produksi pangan industri rumah tangga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pangan olahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-43/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sertifikat produksi pangan industri rumah tangga sebagaimana dimaksud pada ayat (2) diterbitkan oleh Bupati/Walikota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-43/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kepala Badan menetapkan pedoman pemberian sertifikat produksi pangan industri rumah tangga sebagaimana dimaksud pada ayat (1), yang meliputi antara lain :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-43/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "jenis … - - a. jenis pangan; b. tata cara penilaian; dan c. tata cara pemberian sertifikat produksi pangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Pangan olahan yang dibebaskan dari kewajiban memiliki surat persetujuan pendaftaran sebagaimana dimaksud dalam Pasal 42 atau sertifikat produksi pangan industri rumah tangga sebagaimana dimaksud dalam Pasal 43, yaitu pangan yang : a. mempunyai masa simpan kurang dari 7 (tujuh) hari pada suhu kamar; dan/atau b. dimasukkan ke dalam wilayah Indonesia dalam jumlah kecil untuk keperluan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-44/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "permohonan surat persetujuan pendaftaran;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-44/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "penelitian; atau",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-44/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "konsumsi sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan berwenang melakukan pengawasan keamanan, mutu dan gizi pangan yang beredar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan fungsi pengawasan sebagaimana dimaksud pada ayat (1), Badan berwenang untuk :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "mengambil contoh pangan yang beredar; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pengujian terhadap contoh pangan sebagaimana dimaksud pada ayat (2) butir a.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hasil pengujian sebagaimana dimaksud pada ayat (2) butir b : Hasil ... - -",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk pangan segar disampaikan kepada dan ditindaklanjuti oleh instansi yang bertanggung jawab di bidang pertanian, perikanan atau kehutanan sesuai dengan bidang tugas dan kewenangan masing-masing;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "untuk pangan olahan disampaikan dan ditindaklanjuti oleh instansi yang bertanggung jawab di bidang perikanan, perindustrian atau Badan sesuai dengan bidang tugas dan kewenangan masing-masing;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "untuk pangan olahan tertentu ditindaklanjuti oleh Badan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-45/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "untuk pangan olahan hasil industri rumah tangga pangan dan pangan siap saji disampaikan kepada dan ditindaklanjuti oleh Pemerintah Daerah Kabupaten/Kota.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Gubernur atau Bupati/Walikota berwenang melakukan pemeriksaan dalam hal terdapat dugaan terjadinya pelanggaran hukum di bidang pangan segar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kepala Badan berwenang melakukan pemeriksaan dalam hal terdapat dugaan terjadinya pelanggaran hukum di bidang pangan olahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bupati/Walikota berwenang melakukan pemeriksaan dalam hal terdapat dugaan terjadinya pelanggaran hukum di bidang pangan siap saji dan pangan olahan hasil industri rumah tangga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam … - - Dalam melaksanakan fungsi pemeriksaan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3), Gubernur, Bupati/Walikota atau Kepala Badan berwenang :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memasuki setiap tempat yang diduga digunakan dalam kegiatan atau proses produksi, penyimpanan, pengangkutan, dan perdagangan pangan untuk memeriksa, meneliti, dan mengambil contoh pangan dan segala sesuatu yang diduga digunakan dalam kegiatan produksi, penyimpanan, pengangkutan, dan/atau perdagangan pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menghentikan, memeriksa, dan mencegah setiap sarana angkutan yang diduga atau patut diduga digunakan dalam pengangkutan pangan serta mengambil dan memeriksa contoh pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "membuka dan meneliti setiap kemasan pangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memeriksa setiap buku, dokumen, atau catatan lain yang diduga memuat keterangan mengenai kegiatan produksi, penyimpanan, pengangkutan, dan/atau perdagangan pangan, termasuk menggandakan atau mengutip keterangan tersebut; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "memerintahkan untuk memperlihatkan izin usaha dan/atau dokumen lain sejenis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam rangka melaksanakan pemeriksaan sebagaimana dimaksud pada ayat (1), ayat (2) dan ayat (3), Gubernur, Bupati/Walikota atau Kepala Badan sesuai dengan bidang tugas dan kewenangan masing-masing menunjuk pejabat untuk melakukan pemeriksaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-46/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pejabat yang ditunjuk untuk melakukan pemeriksaan sebagaimana dimaksud pada ayat (5), dilengkapi dengan surat perintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Pasal 47 … - -",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal berdasarkan hasil pengujian sebagaimana dimaksud dalam Pasal 45 ayat (3) dan/atau hasil pemeriksaan sebagaimana dimaksud dalam Pasal 46 terjadi pelanggaran, Gubernur, Bupati/Walikota atau Kepala Badan, berwenang mengambil tindakan administratif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tindakan administratif sebagaimana dimaksud pada ayat (1) meliputi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peringatan secara tertulis; b. larangan mengedarkan untuk sementara waktu dan/atau perintah menarik produk pangan dari peredaran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pemusnahan pangan, jika terbukti membahayakan kesehatan dan jiwa manusia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penghentian produksi untuk sementara waktu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pengenaan denda paling tinggi sebesar Rp. 50.000.000,00 (lima puluh juta rupiah); dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pencabutan izin produksi, izin usaha, persetujuan pendaftaran atau sertifikat produksi pangan industri rumah tangga.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengenaan tindakan administratif sebagaimana dimaksud pada ayat (2) dilaksanakan berdasarkan risiko yang diakibatkan oleh pelanggaran yang dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-47/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelaksanaan tindakan administratif sebagaimana dimaksud pada ayat (2) huruf f dilakukan oleh pejabat penerbit izin produksi, izin usaha, persetujuan pendaftaran atau sertifikat produksi pangan industri rumah tangga yang bersangkutan sesuai dengan bidang tugas kewenangan masing-masing. Pasal 48 …",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "- -",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-48/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penarikan dan/atau pemusnahan pangan sebagaimana dimaksud dalam Pasal 47 dilaksanakan oleh setiap orang yang memproduksi atau yang memasukkan pangan ke dalam wilayah Indonesia dan dilaksanakan sesuai dengan pedoman penarikan dan pemusnahan pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap pihak yang terlibat dalam peredaran pangan wajib membantu pelaksanaan penarikan dan/atau pemusnahan pangan sebagaimana dimaksud pada ayat (1).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-48/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penarikan dan/atau pemusnahan pangan sebagaimana dimaksud pada ayat (1) untuk pangan segar dilaksanakan atas perintah Gubernur, Bupati/Walikota sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-48/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penarikan dan/atau pemusnahan pangan sebagaimana dimaksud pada ayat (1) untuk pangan olahan dilaksanakan atas perintah Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-48/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pedoman penarikan dan/atau pemusnahan pangan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Dalam hal berdasarkan hasil pemeriksaan sebagaimana dimaksud dalam Pasal 46, patut diduga merupakan tindak pidana di bidang pangan, segera dilakukan tindakan penyidikan oleh penyidik berdasarkan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Badan dapat mengumumkan kepada masyarakat hasil pengujian dan/atau hasil pemeriksaan produk pangan melalui media massa. Bagian … Bagian Kedua Pembinaan - -",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembinaan terhadap produsen pangan segar dilaksanakan oleh Menteri yang bertanggung jawab di bidang pertanian, perikanan atau kehutanan sesuai bidang tugas dan kewenangan masing- masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan terhadap produsen pangan olahan dilaksanakan oleh Menteri yang bertanggung jawab di bidang perindustrian, pertanian atau perikanan sesuai bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-51/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembinaan terhadap produsen pangan olahan tertentu dilaksanakan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-51/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pembinaan terhadap produsen pangan siap saji dan industri rumah tangga pangan dilaksanakan oleh Bupati/Walikota.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-51/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pembinaan terhadap Pemerintah Daerah dan masyarakat di bidang pengawasan pangan dilaksanakan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PERAN SERTA MASYARAKAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-52/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka penyempurnaan dan peningkatan keamanan, mutu dan gizi pangan, masyarakat dapat menyampaikan permasalahan, masukan dan/atau cara pemecahan mengenai hal-hal di bidang pangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian permasalahan, masukan dan/atau cara pemecahan sebagaimana dimaksud pada ayat (1) dapat dilakukan secara Penyampaian … - - langsung atau tidak langsung kepada Menteri yang bertanggung jawab di bidang pertanian, perikanan, kesehatan, perindustrian, Kepala Badan, Gubernur atau Bupati/Walikota sesuai dengan bidang tugas dan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-28-tahun-2004/pasal-52/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tata cara penyampaian permasalahan, masukan dan/atau cara pemecahan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, maka semua ketentuan mengenai keamanan, mutu dan gizi pangan yang diatur dengan peraturan perundang-undangan di bawah Undang-Undang masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Pemerintah ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-28-tahun-2004/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-28-tahun-2004/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar ... - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 5 Oktober 2004 PRESIDEN REPUBLIK INDONESIA, ttd MEGAWATI SOEKARNOPUTRI Diundangkan di Jakarta pada tanggal 5 Oktober 2004 SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd BAMBANG KESOWO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2004 NOMOR 107.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

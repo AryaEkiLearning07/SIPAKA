@@ -1,0 +1,39 @@
+{
+ "slug": "uu-no-9-tahun-1974",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-9-tahun-1974",
+   "detailsId": "47418",
+   "judul": "UU No. 9 Tahun 1974 tentang Pengesahan Perjanjian antara Pemerintah Republik Indonesia dan Pemerintah Malaysia mengenai Ekstradisi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/224663/UU%20Nomor%209%20Tahun%201974-.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:53:21.896336+00:00"
+  },
+  "sha256": "a77ee8294622df54222ad8fa649f1415958bd86404a0c2a0177977c583fca199",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

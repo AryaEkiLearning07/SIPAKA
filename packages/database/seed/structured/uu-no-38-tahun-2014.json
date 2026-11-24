@@ -1,0 +1,1936 @@
+{
+ "slug": "uu-no-38-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "38782",
+   "slug": "uu-no-38-tahun-2014",
+   "nomor": 38,
+   "tahun": 2014,
+   "jenis": "UU",
+   "judul": "UU No. 38 Tahun 2014 tentang Keperawatan - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/28111/UU%20Nomor%2038%20Tahun%202014.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:16:13.894662+00:00"
+  },
+  "sha256": "54f94d67134e51d596ef20a0e9a5e939652bb0d1d5eff1c4683dfc2b4de526cd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 13,
+  "pasal": 62,
+  "ayat_angka": 66,
+  "huruf": 62
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan: I . Keperawatan adalah kegiatan pemberian asuhan kepada individu, keluarga, kelompok, atau masyarakat, baik dalam keadaan sakit maupun sehat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Perawat adalah seseorang yang telah lulus pendidikan tinggi Keperawatan, baik di dalam maupun di Iuar negeri yang diakui oleh Pemerintah sesuai dengan ketentuan Peraturan Perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pelayanan Keperawatan adalah suatu bentuk pelayanan profesional yang merupakan bagian integral dari pelayanan kesehatan yang didasarkan pada ilmu dan kiat Keperawatan ditujukan kepada individu, keluarga, kelompok, atau masyarakat, baik sehat maupun sakit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Praktik Keperawatan adalah pelayanan yang diselenggarakan oleh Perawat dalam bentuk Asuhan Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Asuhan R EPIJBL IK IN DONES IA -.)- Asuhan Keperawatan adalah rangkaian interaksi Perawat dengan Klien dan Iingkungannya untuk mencapai tujuan pemenuhan kebutuhan dan kemandirian Klien dalam merawat dirinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Uji Kompetensi adalah proses pengukuran pengetahuan, keterampilan, dan perilaku peserta didik pada perguruan tinggi yang menyelenggarakan program studi Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Sertihkat Kompetensi adalah surat tanda pengakuan terhadap kompetensi Perawat yang telah lulus Uji Kompetensi untuk melakukan Praktik Keperawatan'",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Sertifikat Profesi adalah surat tanda pengakuan untuk melakukan praktik Keperawatan yang diperoleh lulusan pendidikan profesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Registrasi adalah pencatatan resmi terhadap Perawat yang telah memiliki Sertifikat Kompetensi atau Sertifikat Profesi dan telah mempunyai kualifikasi tertentu lainnya serta telah diakui secara hukum untuk menjalankan Praktik Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Surat Tanda Registrasi yang selanjutnya disingkat STR adalah bukti tertulis yang diberikan oleh Konsil Keperawatan kepada Perawat yang telah diregistrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Surat lzin Praktik Perawat yang selanjutnya disingkat SIPP adalah bukti tertulis yang diberikan oleh Pemerintah Daerah kabupaten/kota kepada Perawat sebagai pemberian kewenangan untuk menjalankan Praktik Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Fasilitas Pelayanan Kesehatan adalah alat dan/atau tempat yang digunakan untuk menyelenggarakan upaya pelayanan kesehatan, baik promotif, preventif, kuratif, maupun rehabilitatif yang dilakukan oleh Pemerintah, Pemerintah Daerah, dan/atau masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Perawat R EP UBLIK IND ONES IA Perawat Warga Negara Asing adalah Perawat yang bukan berstatus Warga Negara Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Klien adalah perseorangan, keluarga, kelompok, atau masyarakat yang menggunakan jasa Pelayanan Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Organisasi Profesi Perawat adaiah wadah yang menghimpun Perawat secara nasional dan berbadan hukum sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Kolegium Keperawatan adalah badan yang dibentuk oleh Organisasi Profesi Perawat untuk setiap cabang disiplin ilmu Keperawatan yang bertugas mengampu dan meningkatkan mutu pendidikan cabang disiplin ilmu tersebut. l7. Konsil Keperawatan adalah lembaga yang melakukan tugas secara independen. 18.lnstitusi Pendidikan adalah perguruan tinggi yang menyelenggarakan pendidikan Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Wahana Pendidikan Keperawatan yang selanjutnya disebut wahana pendidikan adalah fasilitas, selain perguruan tinggi, yang digunakan sebagai tempat penyelenggaraan pendidikan Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintah ne gara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Pemerintah Daerah adalah Gubernur, Bupati, dan Wali Kota serta perangkat daerah sebagai unsur penyelenggara pemerintahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Menteri Ea(tg.* PRESIOEN R EP UBLIK INO ONES IA Menteri adalah Menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Praktik Keperawatan berasaskan: a, perikemanusiaan; b. nilai ilmiah; c. etika dan profesionalitas; d. manfaat; e. keadilan; f. pelindungan; dan g. kesehatan dan keselamatan Klien.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pengaturan Keperawatan bertujuan : a. meningkatkan mutu Perawat; b. meningkatkan mutu Pelayanan Keperawatan; c. memberikan pelindungan dan kepastian hukum kepada Perawat dan Klien; dan d. meningkatkan derajat kesehatan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "JENIS PERAWAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jenis Perawat terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Perawat profesi; dan ners; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Perawat i,D R EPUBL IK INDONES IA Perawat vokasi. (2)Perawat profesi sebagaimana dimaksud pada ayat (1) huruf a terdiri atas: ners spesialis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai jenis Perawat sebagaimana dimaksud pada ayat ( i ) dan ayat (2\\ diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENDIDIKAN TINGGI KEPERAWATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Pendidikan tinggi Keperawatan terdiri atas: a. pendidikan vokasi; b. pendidikan akademik; dan c. pendidikan profesi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "(1) (2t Pendidikan vokasi sebagaimana Pasal 5 huruf a merupakan Keperawatan. Pendidikan vokasi sebagaimana Pasal 5 huruf a paling rendah Diploma Tiga Keperawatan. dimaksud dalam program diploma dimaksud dalam adalah program",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "R E PUBLIK IN DONE S IA ,-l- Pendidikan akademik sebagaimana dimaksud dalam Pasal 5 hurufb terdiri atas: a, b. c. program sarj ana Keperawatan ; program magister Keperawatan; dan program doktor Keperawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Pendidikan profesi sebagaimana dimaksud dalam Pasal 5 huruf c terdiri atas: a. program profesi Keperawatan; dan b. program spesialis Keperawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "( 1) Pendidikan Tinggi Keperawatan sebagaimana dimaksud dalam Pasal 5 diselenggarakan oleh perguruan tinggi izin penyelenggaraan sesuai dengan ketentuan Peraturan Perundang-undangan. yang memiliki",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perguruan tinggi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "dapat berbentuk universitas, institut, sekolah tinggi, politeknik, atau akademi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perguruan tinggi dalam menyelenggarakan Pendidikan Tinggi Keperawatan sebagaimana dimaksud pada ayat (1) harus menyediakan Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan serta berkoordinasi dengan Organisasi Profesi Perawat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyediaan R EPUBLIK INO ONES IA (4) Penyediaan Fasilitas Pelayanan Kesehatan sebagaimana dimaksud pada ayat (3) dapat dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kepemilikan; atau (s) (6)",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-9/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kerja sama. Fasilitas Pelayanan Kesehatan sebagaimana dimaksud pada ayat (3) merupakan rumah sakit dan Fasilitas Pelayanan Kesehatan tingkat pertama yang memenuhi persyaratan, termasuk jejaring dan komunitas di dalam wilayah binaannya. Ketentuan lebih lanjut mengenai persyaratan Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan diatur dengan Peraturan Menteri yang menyelenggarakan urusan pemerintahan di bidang pendidikan setelah berkoordinasi dengan Menteri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "(1) (2\\ Perguruan tinggi Keperawatan diselenggarakan oleh Pemerintah atau masyarakat sesuai dengan ketentuan Peraturan Perundan g-undangan. Perguruan tinggi Keperawatan sebagaimana dimaksud pada ayat (1) melaksanakan tridarma perguruan tinggi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "(1) (21 Penyelenggaraan Pendidikan Tinggi Keperawatan harus memenuhi Standar Nasional Pendidikan Keperawatan. Standar Nasional Pendidikan Keperawatan sebagaimana dimaksud pada ayat (1) mengacu pada Standar Nasional Pendidikan Tinggi.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Standar R E P UBLIK INOONESIA Standar Nasional Pendidikan Keperawatan sebagaimana dimaksud pada ayat ( 1) disusun secara bersama oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang kesehatan, kementerian yang menyelenggarakan urusan pemerintahan di bidang pendidikan, asosiasi institusi pendidikan, dan Organisasi Profesi Perawat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Standar Nasional Pendidikan Keperawatan sebagaimana dimaksud pada ayat (1) ditetapkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang pendidikan. Pasai 12 (1) (2) Dalam rangka menjamin mutu lulusan, penyelenggara pendidikan tinggi Keperawatan hanya dapat menerima mahasiswa sesuai dengan kuota nasional. Ketentuan mengenai kuota nasional penerimaan mahasiswa diatur dengan Peraturan Mente ri yang menyelenggarakan urusan pemerintahan di bidang pendidikan setelah berkoordinasi dengan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Institusi Pendidikan tinggi Keperawatan wajib memiliki dosen dan tenaga kependidikan. (2\\ (3) Dosen sebagaimana dimaksud pada ayat (1) dapat berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-13/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perguruan tinggi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-13/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wahana Pendidikan Keperawatan. Dosen sebagaimana dimaksud pada ayat ( 1) diangkat dan diberhentikan oleh pejabat yang berwenang sesuai dengan ketentuan Peraturan Perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dosen REPUBLIK INDONESIA Dosen sebagaimana dimaksud pada ayat (1) mempunyai hak dan kewajiban sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "(1)Dosen pada Wahana Pendidikan Keperawatan memberikan pendidikan serta melakukan penelitian dan pengabdian kepada masyarakat dan pelayanan kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dosen pada Wahana Pendidikan Keperawatan memiliki kesetaraan, pengakuan, dan angka kredit yang memperhitungkan kegiatan pelayanan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai kesetaraan, pengakuan, dan angka kredit dosen pada Wahana Pendidikan Keperawatan sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "(1) (2t Tenaga kependidikan sebagaimana dimaksud dalam Pasal 13 ayat (1) dapat berasal dari pegawai negeri dan/atau nonpegawai negeri. Tenaga kependidikan sebagaimana dimaksud pada ayat (1) diangkat dan diberhentikan sesuai dengan ketentuan Peraturan Perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "( 1) Mahasiswa Keperawatan pada akhir masa pendidikan vokasi dan profesi harus mengikuti Uji Kompetensi secara nasional.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "uji R EPUBLIK INDONESIA (2t (3) (4) (s) (6) (7) Uji Kompetensi sebagaimana dimaksud pada ayat (l) diselenggarakan oleh perguruan tinggi bekerja sama dengan Organisasi Profesi Perawat, lembaga pelatihan, atau lembaga sertifikasi yang terakreditasi. Uji Kompetensi sebagaimana dimaksud pada ayat (21 ditujukan untuk mencapai standar kompetensi Iulusan yang memenuhi standar kompetensi kerja. Standar kompetensi kerja sebagaimana dimaksud pada ayat (3) disusun oleh Organisasi Profesi Perawat dan Konsil Keperawatan dan ditetapkan oleh Menteri. Mahasiswa pendidikan vokasi Keperawatan yang lulus Uji Kompetensi diberi Sertifikat Kompetensi yang diterbitkan oleh perguruan tinggi. Mahasiswa pendidikan profesi Keperawatan yang Iulus Uji Kompetensi diberi Sertiltkat Profesi yang diterbitkan oleh perguruan tinggi. Ketentuan lebih lanjut mengenai tata cara pelaksanaan Uji Kompetensi diatur dengan Peraturan Menteri yang menyelenggarakan urusan pemerintahan di bidang pendidikan. REGISTRASI, IZIN PRAKTIK, DAN REGISTRASI ULANG",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "REGISTRASI, IZIN PRAKTIK, DAN REGISTRASI ULANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Untuk melindungi masyarakat penerima jasa pelayanan kesehatan dan meningkatkan mutu pelayanan kesehatan yang diberikan oleh Perawat, Menteri dan Konsil Keperawatan bertugas melakukan pembinaan dan pengawasan mutu Perawat sesuai dengan kewenangan masing-masing. Bagian Kedua BEQ {* REPUBLIK IND ONES IA -L2- Bagian Kedua Registrasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "( 1) Perawat yang menjalankan Praktik Keperawatan wajib memiliki STR.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "STR sebagaimana dimaksud pada ayat (1) diberikan oleh Konsil Keperawatan setelah memenuhi persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persyaratan sebagaimana dimaksud pada ayat (2) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki ijazah pendidikan tinggi Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki Sertifikat Kompetensi atau Sertifikat Profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki surat keterangan sehat hsik dan mental;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memiliki surat pernyataan telah mengucapkan sumpah/janji profesi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "membuat pernyataan mematuhi dan melaksanakan ketentuan etika profesi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "STR berlaku selama 5 (lima) tahun dan dapat diregistrasi ulang setiap 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Persyaratan untuk Registrasi ulang sebagaimana dimaksud pada ayat (4) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki STR lama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki Sertifikat Kompetensi atau Sertifikat Profesi; c. d. memiliki surat keterangan sehat fisik dan mental; membuat pernyataan mematuhi dan melaksanakan ketentuan etika profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "teiah R EPUBL IK IN DONES IA telah mengabdikan diri sebagai tenaga profesi atau vokasi di bidangnya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-18/ayat-5/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memenuhi kecukupan dalam kegiatan pelayanan, pendidikan, pelatihan, dan/atau kegiatan ilmiah lainnya. (6) (71 Ketentuan lebih lanjut mengenai persyaratan sebagaimana dimaksud pada ayat (5) huruf e dan huruf f diatur oleh Konsil Keperawatan. Ketentuan lebih lanjut mengenai tata cara Registrasi dan Registrasi ulang diatur dalam peraturan konsil keperawatan. Bagian Ketiga Izin Praktik",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "(1) (2) (s) Perawat yang menjalankan Praktik Keperawatan wajib memiliki izin. Izin sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk SIPP. SIPP sebagaimana dimaksud pada ayat (2) diberikan oleh Pemerintah Daerah kabupaten/ kota atas rekomendasi pejabat kesehatan yang berwenang di kabupaten/kota tempat Perawat menjalankan praktiknya. (41 Untuk mendapatkan SIPP sebagaimana dimaksud pada ayat (1) dan (2), Perawat harus melampirkan: a. salinan STR yang masih berlaku; b. rekomendasi dari Organisasi Profesi Perawat; dan c. surat R EP UBL IK IND ONES IA -t4- c. surat pernyataan memiliki tempat praktik atau surat keterangan dari pimpinan Fasilitas Pelayanan Kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-19/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "SIPP masih berlaku apabila:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-19/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "STR masih berlaku; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-19/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Perawat berpraktik di tempat sebagaimana tercantum dalam SIPP.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "(1) SIPP hanya berlaku untuk 1 (satu) tempat praktik. (2\\ SIPP sebagaimana dimaksud pada ayat (1) diberikan kepada Perawat paling banyak untuk 2 (dua) tempat. Pasal 2 1 Perawat yang menjalankan praktik mandiri harus memasang papan nama Praktik Keperawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "SIPP tidak berlaku apabila: a. dicabut berdasarkan ketentuan Peraturan Perundang-undangan; b. habis masa berlakunya; c. atas permintaan Perawat; atau d. Perawat meninggal dunia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "R E PUBL IK IN DONES IA _ 15_ Ketentuan lebih lanjut mengenai perizinan diatur dalam Peraturan Menteri",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perawat Warga Negara Asing yang akan menjalankan praktik di Indonesia harus mengikuti evaluasi kompetensi. Perawat Warga Negara Asing harus memenuhi persyaratan lain sesuai dengan ketentuan Peraturan Perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Evaluasi kompetensi sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian kelengkapan administratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penilaian kemampuan untuk melakukan praktik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kelengkapan administratif sebagaimana dimaksud pada ayat (2) huruf a paling sedikit terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian keabsahan ijasah oleh menteri yang menyelenggarakan urr-tsan pemerintahan di bidang pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat keterangan sehat fisik dan mental; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat pernyataan untuk mematuhi dan melaksanakan ketentuan etika profesi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penilaian kemampuan untuk melakukan praktik sebagaimana dimaksud pada ayat (2) huruf b dinyatakan dengan surat keterangan telah mengikuti program evaluasi kompetensi dan Sertif-rkat Kompeten si.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-24/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Selain ketentuan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "REPUBLIK IN D ONES IA (1) (2\\ (3) (4) (s) Perawat Warga Negara Asing yang sudah mengikuti proses evaluasi kompetensi dan yang akan melakukan praktik di Indonesia harus memiliki STR Sementara dan SIPP. STR sementara bagi Perawat Warga Negara Asing sebagaimana dimaksud pada ayat ( 1) berlaku selama 1 (satu) tahun dan dapat diperpanjang hanya untuk 1 (satu) tahun berikutnya. Perawat Warga Negara Asing sebagaimana dimaksud pada ayat (1) melakukan Praktik Keperawatan di Indonesia berdasarkan atas permintaan pengguna Perawat Warga Negara Asing. Praktik Perawat Warga Negara Asing sebagaimana dimaksud pada ayat (3) ditujukan untuk meningkatkan kapasitas Perawat Indonesia. SIPP bagi Perawat Warga Negara Asing berlaku selama 1 (satu) tahun dan dapat diperpanjang hanya untuk I (satu) tahun berikutnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Ketentuan lebih lanjut mengenai pendayagunaan dan praktik Perawat Warga Negara Asing diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perawat warga negara Indonesia lulusan luar negeri yang akan melakukan Praktik Keperawatan di Indonesia harus mengikuti proses evaluasi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Proses REPUBLIK IND ON ES IA -t7- Proses evaluasi kompetensi sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian kelengkapan administratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penilaian kemampuan untuk melakukan Praktik Keperawatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kelengkapan administratif sebagaimana dimaksud pada ayat (2) huruf a paling sedikit terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian keabsahan ijasah oleh menteri yang bertanggung jawab di bidang pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat keterangan sehat lisik dan mental; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-27/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat pernyataan untuk mematuhi dan melaksanakan ketentuan etika profesi. Penilaian kemampuan untuk melakukan praktik sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui Uji Kompetensi sesuai dengan ketentuan Peraturan Perundang-undangan. Perawat warga negara Indonesia lulusan Iuar negeri yang telah lulus Uji Kompetensi dan akan melakukan Praktik Keperawatan di Indonesia memperoleh STR. STR sebagaimana dimaksud pada ayat (5) diberikan oleh Konsil Keperawatan sesuai dengan ketentuan Peraturan Perundang-undangan. Perawat warga negara Indonesia lulusan luar negeri yang akan melakukan Praktik Keperawatan sebagaimana dimaksud pada ayat (5) wajib memiliki SIPP sesuai dengan ketentuan undang-undang ini. Ketentuan lebih lanjut mengenai tata cara proses evaluasi kompetensi bagi Perawat warga negara Indonesia lulusan luar negeri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri. (4) (s) (6) (71 (8)",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "(6) (71 (8)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "( 1) Praktik Keperawatan dilaksanakan di Fasilitas Pelayanan Kesehatan dan tempat lainnya sesuai dengan Klien sasarannya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Praktik Keperawatan sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-28/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Praktik Keperawatan mandiri; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-28/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Praktik Keperawatan di Fasilitas Pelayanan Kesehatan. (3) (4) (s) Praktik Keperawatan sebagaimana dimaksud pada ayat (1) harus didasarkan pada kode etik, standar pelayanan, standar profesi, dan standar prosedur operasional. Praktik Keperawatan sebagaimana dimaksud pada ayat (21 didasarkan pada prinsip kebutuhan pelayanan kesehatan dan/atau Keperawatan masyarakat dalam suatu wilayah. Ketentuan lebih lanjut mengenai kebutuhan pelayanan kesehatan dan/atau Keperawatan dalam suatu wilayah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Menteri. Bagian Kedua E,NQg* REPUELIK IN DONES IA Bagian Kedua Ttrgas dan Wewenang",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menyelenggarakan Praktik Keperawatan, Perawat bertugas sebagai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemberi Asuhan Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyuluh dan konselor bagi Klien;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengelola Pelayanan Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pe neliti Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelaksana tugas berdasarkan pelimpahan wewenang; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pelaksana tugas dalam keadaan keterbatasan tertentu.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tugas sebagaimana dimaksud pada ayat (l) dapat dilaksanakan secara bersama ataupun sendiri- sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan tugas Perawat sebagaimana dimaksud pada ayat (1) harus dilaksanakan secara bertanggung jawab dan akuntabel.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menjalankan tugas sebagai pemberi Asuhan Keperawatan di bidang upaya kesehatan perorangan, Perawat berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pengkajian Keperawatan secara holistik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menetapkan diagnosis Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "merencanakan tindakan Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "melaksanakan tindakan Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mengevaluasi R EP UBL IK INO ONES IA mengevaluasi hasil tindakan Keperawatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melakukan rujukan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "memberikan tindakan pada keadaan gawat darurat sesuai dengan kompetensi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "memberikan konsultasi Keperawatan dan berkolaborasi dengan dokter; i, melakukan peny'uluhan kesehatan dan konseling; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-1/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "melakukan penatalaksanaan pemberian obat kepada Klien sesuai dengan resep tenaga medis atau obat bebas dan obat bebas terbatas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam menjalankan tugas sebagai pemberi Asuhan Keperawatan di bidang upaya kesehatan masyarakat, Perawat berwenang: a.melakukan pengkajian Keperawatan kesehatan masyarakat di tingkat keluarga dan kelompok masyarakat;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menetapkan permasalahan Keperawatan kesehatan masyarakat; melakukan pemberdayaan masyarakat; merencanakan, melaksanakan, dan mengevaluasi Pelayanan Keperawatan; dan (3) menggunakan sumber daya pada Fasilitas Pelayanan Kesehatan atas izin pimpinan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "membantu penemuan kasus penyakit; melaksanakan advokasi dalam perawatan kesehatan masyarakat; mengelola kasus. Dalam menjalankan tugasnya sebagai peneliti Keperawatan, Perawat berwenan g: menggunakan pasien sebagai subjek penelitian sesuai dengan etika profesi dan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "merencanakan tindakan Keperawatan kesehatan masyarakat; menjalin kemitraan dalam perawatan kesehatan masyarakat; dan t2l",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melaksanakan tindakan Keperawatan kesehatan masyarakat; melakukan penyuluhan kesehatan dan konseling. Dalam menjalankan tugasnya sebagai pengelola Pelayanan Keperawatan, Perawat berwenang:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melakukan rujukan kasus;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "mengevaluasi hasil tindakan Keperawatan kesehatan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "melakukan pemberdayaan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "melaksanakan advokasi dalam perawatan kesehatan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-j",
+         "type": "HURUF",
+         "orderIndex": 10,
+         "label": "Huruf j",
+         "content": "menjalin kemitraan dalam perawatan kesehatan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-k",
+         "type": "HURUF",
+         "orderIndex": 11,
+         "label": "Huruf k",
+         "content": "melakukan R EP I.JBL IK IND ONES IA melakukan penyuluhan kesehatan dan konseling; L mengelola kasus; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-m",
+         "type": "HURUF",
+         "orderIndex": 13,
+         "label": "Huruf m",
+         "content": "melakukan penatalaksanaan Keperawatan komplementer dan alternatif. Pasal 3 1 (1) Dalam menjalankan tugas sebagai penyuluh dan konselor bagi Klien, Perawat berwenang:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-30/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pengkajian Keperawatan secara holistik di tingkat individu dan keluarga serta di tingkat kelompok masyarakat; melakukan pengkajian dan menetapkan permasalahan; melakukan penelitian sesuai dengan standar dan etika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "REPUBLIK IN DONES IA",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan tugas berdasarkan pelimpahan wewenang sebagaimana dimaksud dalam Pasal 29 ayat (1) huruf e hanya dapat diberikan secara tertulis oleh tenaga medis kepada Perawat untuk melakukan sesuatu tindakan medis dan melakukan evaluasi pelaksanaannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelimpahan wewenang sebagaimana dimaksud pada ayat (1) dapat dilakukan secara delegatif atau mandat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelimpahan wewenang secara delegatif untuk melakukan sesuatu tindakan medis diberikan oleh tenaga medis kepada Perawat dengan disertai , pelimpahan tanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelimpahan wewenang secara delegatif sebagaimana dimaksud pada ayat (3) hanya dapat diberikan kepada Perawat profesi atau Perawat vokasi terlatih yang memiliki kompetensi yang diperlukan. (6)",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pelimpahan wewenang secara mandat diberikan oleh tenaga medis kepada Perawat untuk melakukan sesuatu tindakan medis di bawah pengawasan. Tanggung jawab atas tindakan medis pada pelimpahan wewenang mandat sebagaimana dimaksud pada ayat (5) berada pada pemberi pelimpahan wewenang. Dalam melaksanakan tugas berdasarkan pelimpahan wewenang sebagaimana dimaksud pada ayat ( 1), Perawat berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan tindakan medis yang sesuai dengan kompetensinya atas pelimpahan wewenang delegatif tenaga medis; (7\\",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan FRESIOEN REPUBLIK INDONESIA -2.)- melakukan tindakan medis di bawah pengawasan atas pelimpahan wewenang mandat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-32/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberikan pelayanan kesehatan sesuai dengan program Pemerintah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "(1) (2) (3) (4) Pelaksanaan tugas dalam keadaan keterbatasan tertentu sebagaimana dimaksud dalam Pasal 29 ayat (1) huruf f merupakan penugasan Pemerintah yang dilaksanakan pada keadaan tidak adanya tenaga medis dan/atau tenaga kefarmasian di suatu wilayah tempat Perawat bertugas. Keadaan tidak adanya tenaga medis dan/atau tenaga kefarmasian di suatu wilayah tempat Perawat bertugas sebagaimana dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "ditetapkan oleh kepala Satuan Kerja Perangkat Daerah yang menye lenggarakan urusan pemerintahan di bidang kesehatan setempal. Pelaksanaan tugas pada keadaan keterbatasan tertentu sebagaimana dimaksud pada ayat (l) dilaksanakan dengan memperhatikan kompetensi Perawat. Dalam melaksanakan tugas pada keadaan keterbatasan tertentu sebagaimana dimaksud pada ayat (1), Perawat berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-33/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pengobatan dalam hal tidak terdapat",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-33/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "merujuk pasien sesuai sistem rujukan; dan untuk penyakit umum tenaga medis; dengan ketentuan pada",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-38-tahun-2014/pasal-33/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melakukan pelayanan kefarmasian secara terbatas dalam ha1 tidak terdapat tenaga kefarmasian. Pasai 34 g1(rQ$* FRESIDEN REPUBLIK INDONESIA",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Ketentuan lebih Ianjut mengenai tugas dan \\\\'e\\venang Perawat diatur dengan Peraturan Menteri,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "( 1) Dalam keadaan darurat untuk memberikan pertolongan pertama, Perawat dapat melakukan tindakan medis dan pemberian obat sesuai dengan kompe ten sinya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pertolongan pertama sebagaimana dimaksud pada ayat ( I ) bertujuan untuk menyelamatkan nyawa Klien dan mencegah kecacatan lebih lanjut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keadaan darurat sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "merupakan keadaan yang mengancam nyawa atau kecacatan Klien. ditetapkan oleh Perawat sesuai dengan hasil evaluasi berdasarkan keilmuannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-35/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Keadaan darurat sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-35/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai keadaan darurat sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "HAK DAN KEWAJIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Perawat dalam melaksanakan Praktik Keperawalan berhak: a. memperoleh #,s REF,UELIK INDONESIA _25_ a. memperoleh pelindungan hukum sepanjang melaksanakan tugas sesuai dengan standar pelayanan, standar profesi, standar prosedur operasional, dan ketentuan Peraturan Perundang- undangan; b. memperoleh informasi yang benar, jelas, dan jujur dari Klien dan/alau keluarganya. c. menerima imbalan jasa atas Pelayanan Keperawatan yang telah diberikan; d. menolak keinginan Klien atau pihak lain yang bertentangan dengan kode etik, standar pelayanan, standar profesi, standar prosedur operasional, atau ketentuan Peraturan Perundang-undangan; dan e. memperoleh fasilitas kerja sesuai dengan standar.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Perawat dalam melaksanakan Praktik Keperawatan berkewaj iban: a. melengkapi sarana dan prasarana Pelayanan Keperawatan sesuai dengan standar Pelayanan Keperawatan dan ketentuan Peraturan Perundang- undangan; b. memberikan Pelayanan Keperawatan sesuai dengan kode etik, standar Pelayanan Keperawatan, standar profesi, standar prosedur operasional, dan ketentuan Peraturan Perundang-undangan; c. merujuk Klien yang tidak dapat ditangani kepada Perawat atau tenaga kesehatan lain yang lebih tepat sesuai dengan lingkup dan tingkat kompetensinya; d.mendokumentasikan Asuhan Keperawalan sesuai dengan standar; e. memberikan R EPUBLIK INDONESIA. e. f. memberikan informasi yang lengkap, jujur, benar, jelas, dan mudah dimengerti mengenai tindakan Keperawatan kepada Klien dan/atau keluarganya sesuai dengan batas kewenangannya; melaksanakan tindakan pelimpahan wewenang dari tenaga kesehatan lain yang sesuai dengan kompetensi Perawat; dan melaksanakan penugasan khusus yang ditetapkan oleh Pemerintah. Bagian Kedua Hak dan Kewajiban Klien",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Dalam Praktik Keperawatan, Klien berhak: a. mendapatkan informasi secara, benar, jelas, dan jujur tentang tindakan Keperawatan yang akan dilakukan; b. meminta pendapat Perawat lain dan/atau tenaga kesehatan lainnya; c. mendapatkan Pelayanan Keperawatan sesuai dengan kode etik, standar Pelayanan Keperawatan, standar prolesi, standar prosedur operasional, dan ketentuan Peraturan Pe rundang-u ndangan; d. memberi persetujuan atau penolakan tindakan Keperawatan yang akan diterimanya; dan e.memperoleh keterjagaan kerahasiaan kondisi kesehatan nva.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "REPUELIK INDONESIA (1) Pengungkapan rahasia kesehatan Klien sebagaimana dimaksud dalam Pasal 38 huruf e dilakukan atas dasar: a. kepentingan kesehatan Klien; b. pemenuhan permintaan aparatur penegak hukum dalam rangka penegakan hukum; c. persetujuan Klien sendiri; d. kepentingan pendidikan dan penelitian; dan e. ketentuan Peraturan Perundang-undangan. (2\\ Ketentuan lebih lanjut mengenai rahasia kesehatan Klien diatur dalam Peraturan Menleri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Dalam Praktik Keperawatan, Klien berkervajiban: a. memberikan informasi yang benar, jeias, dan jujur tentang masalah kesehatannya; b. mematuhi nasihat dan petunjuk Perawat; c. mematuhi ketentuan yang berlaku di Fasilitas Pelayanan Kesehatan; dan d. memberikan imbalan jasa atas pelayanan yang diterima.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "ORGANISASI PROFESI PERAWAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Organisasi Profesi Perawat berfungsi sebagai pemersatu, pembina, pengembang, dan pengawas Keperawatan di Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Organisasi Profesi Perawat berlokasi di ibukota negara Republik Indonesia dan dapat membentuk perwakilan di daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KOLEGIUM KEPERAWATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "(1) (2) Kolegium Keperawatan merupakan badan otonom di dalam Organisasi Profesi Perawat. Kolegium Keperawatan bertanggung jarvab kepada Organisasi Profesi Perawat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Kolegium Keperawatan berfungsi mengembangkan cabang disiplin ilmu Keperawatan dan standar pendidikan tinggi bagi Perawat profesi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "REPUELIK INDONESIA Ketentuan Iebih lanjut mengenai Kolegium Keperawatan diatur oleh Organisasi Profesi Perawat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KONSIL KEPERAWATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "(1) Untuk meningkatkan mutu Praktik Keperawatan dan untuk memberikan pelindungan serta kepastian hukum kepada Perawal dan masyarakat, dibentuk Konsil Keperawatan. (2) Konsil Keperawatan sebagaimana dimaksud pada ayat (1) merupakan bagian dari Konsil Tenaga Kesehatan Indonesia,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Konsil Keperawatan sebagai mana dimaksud dalam Pasal 47 berkedudukan di ibukota negara Republik I ndonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "(1) Konsil Keperawatan mempunyai fungsi pengaturan, penetapan, dan pembinaan Perawat dalam menjalankan Praktik Keperawatan. (2t Dalam menjalankan fungsi sebagaimana dimaksud pada ayat (1), Konsil Keperawatan memiliki tugas: a. melakukan REPUBLIK IND ON ES IA a. melakukan Registrasi Perawat; b. melakukan pembinaan Perawat dalam menjalankan Praktik Keperawatan; c. menyusun standar pendidikan tinggi Keperawatan; d. meny'usun standar praktik dan slandar kompetensi Perawat; dan e. menegakkan disiplin Praktik Keperawatan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-49/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pelaksanaan fungsi dan tugas sebagaimana dimaksud pada ayat (1) dan ayat (21 diatur dengan Peraturan Konsil Keperawatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Dalam menjalankan tugas sebagaimana dimaksud dalam Pasal 49, Konsil Keperawatan mempunyai wewenang: a. menyetujui atau menolak permohonan Registrasi Perawat, termasuk Perawat Warga Negara Asing; b. menerbilkan atau mencabut STR; c. menyelidiki dan menangani masalah yang berkaitan dengan pelanggaran disiplin profesi Perawat; d. menetapkan dan memberikan sanksi disiplin profesi Perarvat; dan e. memberikan pertimbangan pendirian atau penutupan Institusi Pendidikan Keperawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Pendanaan untuk pelaksanaan kegiatan Konsil Keperawatan dibebankan kepada anggaran pendapatan dan belanja negara dan sumber lain yang tidak mengikat sesuai dengan ketentuan Peraturan Perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "m R EP UBL IK IND ONES IA (1) (2) (3) Keanggotaan Konsil Keperawatan terdiri atas unsur Pemerintah, Organisasi Profesi Keperawatan, Kolegium Keperawatan, asosiasi Institusi Pendidikan Keperawatan, asosiasi Fasilitas Pelayanan Kesehatan, dan tokoh masyarakat. Jumlah anggota Konsil Keperawatan paling banyak 9 (sembilan) orang. Ketentuan lebih lanjut mengenai susunan organisasi, pengangkatan, pemberhentian, dan keanggotaan Konsil Keperawatan diatur dengan Peraturan Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PENGEMBANGAN, PEMBINAAN, DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "(1) (2\\ (3) (4) Pengembangan Praktik Keperawatan dilakukan melalui pendidikan formal dan pendidikan nonformal atau pendidikan berkelanjutan. Pengembangan Praktik Keperawatan bertujuan untuk mempertahankan atau meningkatkan keprofesionalan Perawat. Pendidikan nonformal atau pendidikan berkelanjutan sebagaimana dimaksud pada a1'at ( 1) ditempuh setelah menyelesaikan pendidikan Keperawatan. Dalam hal meningkatkan keprofesionalan Perawal sebagaimana dimaksud pada ayat (2) dan dalam memenuhi kebutuhan pelayanan, pemilik atau pengelola Fasilitas Pelayanan Kesehatan harus memfasilitasi Perawat untuk mengikuti pendidikan berkelanjutan.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-53/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pendiclikan R E P UBLIK IND ON ES IA -JZ- Pendidikan atau nonformal pend idikan berkelanjutan dapat diselenggarakan oleh Pemerintah, Pemerintah Daerah, Organisasi Profesi Perawat, atau lembaga lain yang terakreditasi sesuai dengan ketentuan Peraturan Perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-53/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pendidikan nonformal atau pe ndidikan berkelanjutan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan kebutuhan Praktik Keperawatan yang didasarkan pada standar pelayanan, standar profesi, dan standar prosedur operasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Pendidikan Keperawatan dibina oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang pendidikan dan berkoordinasi dengan kementerian yang menyelenggarakan urusan pemerinlahan di bidang kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Pemerintah, Pemerintah Daerah, Konsil Keperaq'atan, dan Organisasi Profesi membina dan mengau,asi Praktik Keperawatan sesuai dengan fungsi dan tugas masing- masing.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "REPUE]LIK INDONESIA -JJ- Pembinaan dan pengawasan sebagaimana dimaksud dalam untuk: Praktik Keperawatan Pasal 55 diarahkan a. b. C. meningkatkan mutu Pelayanan Keperawatan; melindungi masyarakat atas tindakan Perilwat yang tidak sesuai dengan standar; dan memberikan kepastian hukum bagi Perawat dan masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "Ketentuan lebih lanjut mengenai pembinaan dan pengawasan Praktik Keperawatan yang dilakr,rkan oleh Pemerintah, Pemerintah Daerah, Konsil Keperawatan, dan Organisasi Profesi sebagaimana dimaksud pada Pasal 55 diatur dalam Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "SANKSI ADMINISTRATIF",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "(1) Setiap orang yang melanggar ketentuan Pasal 18 ayat (1), Pasal 21, Pasal 24 ayat (1), dan Pasal 27 ayat ( 1) dikenai sanksi administratif. (2) Sanksi administratif sebagaimana dimaksud pada ayat ( 1) dapat berupa: a. teguran lisan; b. peringatan tertulis; c. dcnda RftrI-]BLlK INDONESIA .A- J'_t - c. denda administrati[; dan/atau d. pencabutan izin.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-38-tahun-2014/pasal-58/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai cata pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerin tah. tata",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "STR dan SIPP yang telah dimiliki oleh Perau,at sebelum Undang-Undang ini diundangkan dinyatakan tetap berlaku sampai jangka waktu STR dan SIPP bcrakhir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Selama Konsil Keperawatan belum terbentuk, permohonan untuk memperoleh STR yang masih dalam proses diselesaikan dengan prosedur yang berlaku sebelum Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Perawat lulusan sekolah perawat kesehatan yang telah melakukan Praktik Keperawatan sebelum Undang- Undang ini diundangkan masih diberikan kewenangan melakukan Praktik Keperawatan untuk jangka waktu 6 (enam) tahun setelah Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-38-tahun-2014/bab-xiii",
+   "type": "BAB",
+   "orderIndex": 13,
+   "label": "BAB XIII",
+   "title": "REPUBLIK IN O ONES IA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "lnstitusi Pendidikan Keperawatan yang telah ada sebelum Undang-Undang ini diundangkan harus menyesuaikan persyaratan sebagaimana dimaksud dalam Pasal 9 paling Iama 3 (tiga) tahun setelah Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Konsil Keperawatan dibentuk paling lama 2 (dua) tahun sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, semua Peraturan Perundang-undangan yang mengatur mengenai Keperawatan dinyatakan masih tetap berlaku sepanjang tidak bertentangan atau belum diganti berdasarkan Undan g-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-38-tahun-2014/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "U ndang-undang diundangkan. mulai berlaku pada tanggal Agar q.D PRESIOEN R EPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 17 Oktober 2014 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H, SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 17 Oktober 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 307 Salinan sesuai dengan aslinya AN SEKRETARIAT NEGARA RI Perundang-undangan, Sapta Murti REtrUBt, I11 INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..66): [12, 21, 31, 41]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

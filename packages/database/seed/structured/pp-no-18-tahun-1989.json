@@ -1,0 +1,114 @@
+{
+ "slug": "pp-no-18-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa dipandang perlu untuk meningkatkan penghasilan Perintis Pergerakan Kebangsaan/Kemerdekaan, bekas Anggota Komite Nasional Indonesia Pusat, dan Penerima Tunjangan Veteran dalam batas-batas kemampuan keuangan Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-18-tahun-1989",
+   "detailsId": "63639",
+   "judul": "PP No. 18 Tahun 1989 tentang Pemberian Tunjangan Perbaikan Penghasilan Bagi Perintis Pergerakan Kebangsaan/Kemerdekaan, Bekas Anggota Komite Nasional Indonesia, Dan Penerima Tunjangan Veteran - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53843/PP%20NO%2018%20TH%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:47:09.497099+00:00"
+  },
+  "sha256": "7014562aeff0da7b4f4a09d5d10157a4545acafc95a3f5c6eb90ae628c975a22",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-18-tahun-1989/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-18-tahun-1989/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepada Perintis Pergerakan Kebangsaan/Kemerdekaan, bekas Indonesia Pusat, dan penerima Anggota Komite Nasional Tunjangan Veteran serta Janda/Dudanya diberikan tunjangan perbaikan penghasilan setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-18-tahun-1989/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Besarnya tunjangan perbaikan penghasilan bagi Perintis Pergerakan Kebangsaan/Kemerdekaan, bekas Anggota Komite Nasional Indonesia Pusat, dan penerima Tunjangan Veteran serta Janda/Dudanya sebagaimana dimaksud dalam ayat (1) ialah :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-18-tahun-1989/pasal-1/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Untuk bulan Januari sampai dengan bulan Maret 1989, sebesar 10% (sepuluh perseratus) dari penghasilan ;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-18-tahun-1989/pasal-1/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Untuk badan April dan seterusnya, sebesar 15% (lima belas perseratus) dari penghasilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-1989/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "perbaikan penghasilan Pergerakan Tunjangan Kebangsaan/Kemerdekaan, bekas Anggota Komite Nasional Indonesia Pusat, dan penerima Tunjangan Veteran serta Janda/Dudanya sebagaimana dimaksud dalam Pasal 1 dibayarkan bersama-sama dengan pembayaran tunjangan setiap bulan. Perintis bagi",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-1989/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan pelaksanaan Peraturan Pemerintah ini ditetapkan lebih lanjut oleh Menteri Keuangan, Menteri Pertahanan Keamanan, dan Kepala Badan Administrasi Kepegawaian Negara, baik secara bersama-sama atau secara sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-18-tahun-1989/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 1 Januari 1989. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Oktober 1989 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 28 Oktober 1989 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

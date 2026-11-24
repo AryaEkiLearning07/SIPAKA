@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-17-tahun-1946",
+ "preamble": {
+  "menimbang": [
+   "bahwa uang yang dikeluarkan oleh Pemerintah asing perlu diganti dengan uang Republik Indonesia sendiri; bahwa jumlah uang yang ada dalam peredaran pada waktu sekarang oleh karena besarnya tidak sesuai dengan kemungkinan untuk menggunakannya."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-17-tahun-1946",
+   "detailsId": "25178",
+   "judul": "UU No. 17 Tahun 1946 tentang Pengeluaran Uang Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/13973/UU%20Nomor%2017%20Tahun%201946.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:11:56.634555+00:00"
+  },
+  "sha256": "39861f20b76bf763deec48b6948a1d9b8337f912851e777c1f4be28e81576489",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

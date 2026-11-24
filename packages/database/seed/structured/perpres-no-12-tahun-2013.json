@@ -1,0 +1,2557 @@
+{
+ "slug": "perpres-no-12-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka melaksanakan ketentuan Pasal 13 ayat (2), Pasal 21 ayat (4), Pasal 22 ayat (3), Pasal 23 ayat (5), Pasal 26, Pasal 27 ayat (5), dan Pasal 28 ayat (2) Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional, dan ketentuan Pasal 15 ayat (3) dan Pasal 19 ayat (5) huruf a Undang-Undang Nomor 24 Tahun 2011 tentang Badan Penyelenggara Jaminan Sosial, perlu menetapkan Peraturan Presiden tentang Jaminan Kesehatan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-12-tahun-2013",
+   "detailsId": "40156",
+   "judul": "PERPRES No. 12 Tahun 2013 tentang Jaminan Kesehatan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/261824/PERPRES%2012%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:13:00.158642+00:00"
+  },
+  "sha256": "58d10192a146c4523b6d18210b268e0c85f691083e9759ab98f6993f14eaeb17",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 12,
+  "pasal": 47,
+  "ayat_angka": 165,
+  "huruf": 47
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Jaminan Kesehatan adalah jaminan berupa perlindungan kesehatan agar peserta memperoleh manfaat pemeliharaan kesehatan dan perlindungan dalam memenuhi kebutuhan dasar kesehatan yang diberikan kepada setiap orang yang telah membayar iuran atau iurannya dibayar oleh pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Badan Penyelenggara Jaminan Sosial Kesehatan yang selanjutnya disingkat BPJS Kesehatan adalah badan hukum yang dibentuk untuk menyelenggarakan program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Penerima Bantuan Iuran Jaminan Kesehatan yang selanjutnya disebut PBI Jaminan Kesehatan adalah fakir miskin dan orang tidak mampu sebagai peserta program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Peserta … PRE SI DEN REPUBLIK INDONESIA Peserta adalah setiap orang, termasuk orang asing yang bekerja paling singkat 6 (enam) bulan di Indonesia, yang telah membayar iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Manfaat adalah faedah jaminan sosial yang menjadi hak Peserta dan/atau anggota keluarganya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pekerja adalah setiap orang yang bekerja dengan menerima gaji, upah, atau imbalan dalam bentuk lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pekerja Penerima Upah adalah setiap orang yang bekerja pada pemberi kerja dengan menerima gaji atau upah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Pekerja Bukan Penerima Upah adalah setiap orang yang bekerja atau berusaha atas risiko sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Pemberi Kerja adalah orang perseorangan, pengusaha, badan hukum atau badan lainnya yang mempekerjakan tenaga kerja, atau penyelenggara negara yang mempekerjakan pegawai negeri dengan membayar gaji, upah, atau imbalan dalam bentuk lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Gaji atau Upah adalah hak Pekerja yang diterima dan dinyatakan dalam bentuk uang sebagai imbalan dari Pemberi Kerja kepada Pekerja yang ditetapkan dan dibayar menurut suatu perjanjian kerja, kesepakatan, atau peraturan perundang-undangan, termasuk tunjangan bagi Pekerja dan keluarganya atas suatu pekerjaan dan/atau jasa yang telah atau akan dilakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Pemutusan … PRE SI DEN REPUBLIK INDONESIA Pemutusan Hubungan Kerja yang selanjutnya disingkat PHK adalah pengakhiran hubungan kerja karena suatu hal tertentu yang mengakibatkan berakhirnya hak dan kewajiban antara Pekerja/buruh dan Pemberi Kerja berdasarkan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Cacat Total Tetap adalah cacat yang mengakibatkan ketidakmampuan seseorang untuk melakukan pekerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Iuran Jaminan Kesehatan adalah sejumlah uang yang dibayarkan secara teratur oleh Peserta, Pemberi Kerja dan/atau Pemerintah untuk program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Fasilitas Kesehatan adalah fasilitas pelayanan kesehatan yang digunakan untuk menyelenggarakan upaya pelayanan kesehatan perorangan, baik promotif, preventif, kuratif maupun rehabilitatif yang dilakukan oleh Pemerintah, Pemerintah Daerah, dan/atau Masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Pejabat Negara adalah pimpinan dan anggota lembaga negara sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945 dan Pejabat Negara yang ditentukan oleh Undang-Undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Pegawai … PRE SI DEN REPUBLIK INDONESIA Pegawai Pemerintah Non Pegawai Negeri adalah pegawai tidak tetap, pegawai honorer, staf khusus dan pegawai lain yang dibayarkan oleh Anggaran Pendapatan dan Belanja Negara atau Anggaran Pendapatan dan Belanja Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Anggota Tentara Nasional Indonesia yang selanjutnya disebut Anggota TNI adalah personil/prajurit alat negara di bidang pertahanan yang melaksanakan tugasnya secara matra di bawah pimpinan Kepala Staf Angkatan atau gabungan di bawah Pimpinan Panglima TNI.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Anggota Kepolisian Negara Republik Indonesia yang selanjutnya disebut Anggota Polri adalah pegawai negeri pada Kepolisian Negara Republik Indonesia yang melaksanakan fungsi kepolisian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Veteran adalah Veteran Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Nomor 15 Tahun 2012 tentang Veteran Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Perintis Kemerdekaan adalah Perintis Kemerdekaan sebagaimana dimaksud dalam Undang-Undang Nomor 5 Prps Tahun 1964 tentang Pemberian Penghargaan/ Tunjangan kepada Perintis Pergerakan Kebangsaan/ Kemerdekaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Pemerintah … PRE SI DEN REPUBLIK INDONESIA Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan Negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-22",
+       "type": "ANGKA",
+       "orderIndex": 22,
+       "label": "Angka 22",
+       "content": "Pemerintah Daerah adalah Gubernur, Bupati, atau Walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-1/angka-23",
+       "type": "ANGKA",
+       "orderIndex": 23,
+       "label": "Angka 23",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PESERTA DAN KEPESERTAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Peserta Jaminan Kesehatan meliputi: a. PBI Jaminan Kesehatan; dan b. bukan PBI Jaminan Kesehatan. Pasal 3 … PRE SI DEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta PBI Jaminan Kesehatan sebagaimana dimaksud dalam Pasal 2 huruf a meliputi orang yang tergolong fakir miskin dan orang tidak mampu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan Peserta PBI Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta bukan PBI Jaminan Kesehatan sebagaimana dimaksud dalam Pasal 2 huruf b merupakan Peserta yang tidak tergolong fakir miskin dan orang tidak mampu yang terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pekerja Penerima Upah dan anggota keluarganya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pekerja Bukan Penerima Upah dan anggota keluarganya; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bukan Pekerja dan anggota keluarganya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pekerja Penerima Upah sebagaimana dimaksud pada ayat (1) huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pegawai Negeri Sipil;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Anggota TNI;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Anggota Polri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Pejabat Negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Pegawai Pemerintah Non Pegawai Negeri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pegawai … PRE SI DEN REPUBLIK INDONESIA pegawai swasta; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "Pekerja yang tidak termasuk huruf a sampai dengan huruf f yang menerima Upah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pekerja Bukan Penerima Upah sebagaimana dimaksud pada ayat (1) huruf b terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pekerja di luar hubungan kerja atau Pekerja mandiri; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pekerja yang tidak termasuk huruf a yang bukan penerima Upah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bukan Pekerja sebagaimana dimaksud pada ayat (1) investor; huruf c terdiri atas: a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pemberi Kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penerima pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Veteran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Perintis Kemerdekaan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-4/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "bukan Pekerja yang tidak termasuk huruf a sampai dengan huruf e yang mampu membayar iuran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penerima pensiun sebagaimana dimaksud pada ayat (4) huruf c terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pegawai Negeri Sipil yang berhenti dengan hak pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Anggota TNI dan Anggota Polri yang berhenti dengan hak pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Pejabat Negara yang berhenti dengan hak pensiun;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penerima pensiun selain huruf a, huruf b, dan huruf c; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-5/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "janda … PRE SI DEN REPUBLIK INDONESIA e. janda, duda, atau anak yatim piatu dari penerima pensiun sebagaimana dimaksud pada huruf a sampai dengan huruf d yang mendapat hak pensiun.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pekerja sebagaimana dimaksud pada ayat (1) huruf a dan huruf b termasuk warga negara asing yang bekerja di Indonesia paling singkat 6 (enam) bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-4/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Jaminan Kesehatan bagi Pekerja warga negara Indonesia yang bekerja di luar negeri diatur dengan ketentuan peraturan perundang-undangan tersendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Anggota keluarga sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a meliputi: a.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "anak kandung, anak tiri dan/atau anak angkat istri atau suami yang sah dari Peserta; dan yang sah dari Peserta, dengan kriteria:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-5/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "tidak atau belum pernah menikah atau tidak mempunyai penghasilan sendiri; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-5/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "belum berusia 21 (dua puluh satu) tahun atau belum berusia 25 (dua puluh lima) tahun yang masih melanjutkan pendidikan formal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peserta bukan PBI Jaminan Kesehatan dapat mengikutsertakan anggota keluarga yang lain. Bagian … PRE SI DEN REPUBLIK INDONESIA Bagian Kedua Kepesertaan Jaminan Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepesertaan Jaminan Kesehatan bersifat wajib dan dilakukan secara bertahap sehingga mencakup seluruh penduduk.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pentahapan sebagaimana dimaksud pada ayat (1) dilakukan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Tahap pertama mulai tanggal 1 Januari 2014, paling sedikit meliputi :",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "PBI Jaminan Kesehatan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Anggota TNI/Pegawai Negeri Sipil di lingkungan Kementerian Pertahanan dan anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Anggota Polri/Pegawai Negeri Sipil di lingkungan Polri dan anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Peserta asuransi kesehatan Perusahaan Persero (Persero) Asuransi Kesehatan Indonesia (ASKES) dan anggota keluarganya; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Peserta Jaminan Pemeliharaan Kesehatan Perusahaan Persero (Persero) Jaminan Sosial Tenaga Kerja (JAMSOSTEK) dan anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-6/angka-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Tahap kedua meliputi seluruh penduduk yang belum masuk sebagai Peserta BPJS Kesehatan paling lambat pada tanggal 1 Januari 2019. Bagian ... PRE SI DEN REPUBLIK INDONESIA Bagian Ketiga Peserta yang Mengalami Pemutusan Hubungan Kerja dan Cacat Total Tetap",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta sebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a yang mengalami PHK tetap memperoleh hak Manfaat Jaminan Kesehatan paling lama 6 (enam) bulan sejak di PHK tanpa membayar iuran. dan ayat (2) tidak bekerja kembali dan tidak mampu, berhak menjadi Peserta PBI Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peserta sebagaimana dimaksud pada ayat (1) yang telah bekerja kembali wajib memperpanjang status kepesertaannya dengan membayar iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Peserta sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta bukan PBI Jaminan Kesehatan yang mengalami Cacat Total Tetap dan tidak mampu, berhak menjadi Peserta PBI Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan Cacat Total Tetap sebagaimana dimaksud pada ayat (1) dilakukan oleh dokter yang berwenang. Bagian ... PRE SI DEN REPUBLIK INDONESIA Bagian Keempat Perubahan Status Kepesertaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perubahan status kepesertaan dari Peserta PBI Jaminan Kesehatan menjadi bukan Peserta PBI Jaminan Kesehatan dilakukan melalui pendaftaran ke BPJS Kesehatan dengan membayar iuran pertama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perubahan status kepesertaan sebagaimana dimaksud pada ayat (1) tidak mengakibatkan terputusnya Manfaat Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perubahan status kepesertaan dari bukan Peserta PBI Jaminan Kesehatan menjadi Peserta PBI Jaminan Kesehatan dilakukan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENDAFTARAN PESERTA DAN PERUBAHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah mendaftarkan PBI Jaminan Kesehatan sebagai Peserta kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendaftaran Peserta PBI Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan. Pasal 11 … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Pemberi Kerja wajib mendaftarkan dirinya dan Pekerjanya sebagai peserta Jaminan Kesehatan kepada BPJS Kesehatan dengan membayar iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Pemberi Kerja secara nyata-nyata tidak mendaftarkan Pekerjanya kepada BPJS Kesehatan, Pekerja yang bersangkutan berhak mendaftarkan dirinya sebagai Peserta Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Setiap Pekerja Bukan Penerima Upah wajib mendaftarkan dirinya dan anggota keluarganya secara sendiri-sendiri atau berkelompok sebagai Peserta Jaminan Kesehatan pada BPJS Kesehatan dengan membayar iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Setiap orang bukan Pekerja wajib mendaftarkan dirinya dan anggota keluarganya sebagai Peserta Jaminan Kesehatan kepada BPJS Kesehatan dengan membayar iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Peserta yang telah terdaftar pada BPJS Kesehatan berhak mendapatkan identitas Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Identitas Peserta sebagaimana dimaksud pada ayat (1) paling sedikit memuat nama dan nomor identitas Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Nomor … PRE SI DEN REPUBLIK INDONESIA Nomor identitas Peserta sebagaimana dimaksud pada ayat (2) merupakan nomor identitas tunggal yang berlaku untuk semua program jaminan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta Pekerja Penerima Upah wajib menyampaikan perubahan data kepesertaan kepada Pemberi Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberi Kerja wajib melaporkan perubahan data kepesertaan sebagaimana dimaksud pada ayat (1) kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal Pemberi Kerja secara nyata-nyata tidak melaporkan perubahan data kepesertaan kepada BPJS Kesehatan, Pekerja yang bersangkutan dapat melaporkan perubahan data kepesertaan secara langsung kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Peserta Pekerja Bukan Penerima Upah dan bukan Pekerja wajib menyampaikan perubahan data kepesertaan kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Peserta yang pindah kerja wajib melaporkan data kepesertaannya dan identitas Pemberi Kerja yang baru kepada BPJS Kesehatan dengan menunjukkan identitas Peserta. Pasal 15… PRE SI DEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Ketentuan lebih lanjut mengenai prosedur pendaftaran, verifikasi kepesertaan, perubahan data kepesertaan, dan identitas Peserta sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13, dan Pasal 14 diatur dengan Peraturan BPJS Kesehatan setelah berkoordinasi dengan kementerian/lembaga terkait.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "IURAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Iuran Jaminan Kesehatan bagi Peserta PBI Jaminan Kesehatan dibayar oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Iuran Jaminan Kesehatan bagi Peserta Pekerja Penerima Upah dibayar oleh Pemberi Kerja dan Pekerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Iuran Jaminan Kesehatan bagi Peserta Pekerja Bukan Penerima Upah dan peserta bukan Pekerja dibayar oleh Peserta yang bersangkutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai besaran Iuran Jaminan Kesehatan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan Presiden. Bagian ... PRE SI DEN REPUBLIK INDONESIA Bagian Kedua Pembayaran Iuran",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberi Kerja wajib membayar Iuran Jaminan Kesehatan seluruh Peserta yang menjadi tanggung jawabnya pada setiap bulan yang dibayarkan paling lambat tanggal 10 (sepuluh) setiap bulan kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila tanggal 10 (sepuluh) sebagaimana dimaksud pada ayat (1) jatuh pada hari libur, maka iuran dibayarkan pada hari kerja berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembayaran Iuran Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) sudah termasuk iuran yang menjadi tanggung jawab Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Keterlambatan pembayaran Iuran Jaminan Kesehatan sebagaimana dimaksud pada ayat (1), dikenakan denda administratif sebesar 2% (dua persen) per bulan dari total iuran yang tertunggak dan dibayar oleh Pemberi Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Peserta Pekerja Bukan Penerima Upah dan Peserta bukan Pekerja wajib membayar Iuran Jaminan Kesehatan pada setiap bulan yang dibayarkan paling lambat tanggal 10 (sepuluh) setiap bulan kepada BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pembayaran Iuran Jaminan Kesehatan dapat dilakukan diawal untuk lebih dari 1 (satu) bulan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-17/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan … PRE SI DEN REPUBLIK INDONESIA Ketentuan lebih lanjut mengenai tata cara pengenaan denda administratif diatur dengan Peraturan BPJS Kesehatan. Bagian Ketiga Kelebihan dan Kekurangan Iuran",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan menghitung kelebihan atau kekurangan Iuran Jaminan Kesehatan sesuai dengan Gaji atau Upah Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal terjadi kelebihan atau kekurangan pembayaran iuran sebagaimana dimaksud pada ayat (1), BPJS Kesehatan memberitahukan secara tertulis kepada Pemberi Kerja dan/atau Peserta paling lambat 14 (empat belas) hari kerja sejak diterimanya iuran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kelebihan atau kekurangan pembayaran iuran sebagaimana dimaksud pada ayat (2) diperhitungkan dengan pembayaran iuran bulan berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Ketentuan lebih lanjut mengenai tata cara pembayaran iuran diatur dengan Peraturan BPJS Kesehatan setelah berkoordinasi dengan kementerian/lembaga terkait. BAB V … PRE SI DEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PRE SI DEN REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Peserta berhak memperoleh Manfaat Jaminan Kesehatan yang bersifat pelayanan kesehatan perorangan, mencakup pelayanan promotif, preventif, kuratif, dan rehabilitatif termasuk pelayanan obat dan bahan medis habis pakai sesuai dengan kebutuhan medis yang diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Manfaat Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) terdiri atas Manfaat medis dan Manfaat non medis. meliputi Manfaat akomodasi dan ambulans.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Manfaat medis sebagaimana dimaksud pada ayat (2) tidak terikat dengan besaran iuran yang dibayarkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Manfaat non medis sebagaimana dimaksud pada ayat ditentukan berdasarkan skala besaran iuran yang dibayarkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Manfaat akomodasi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-20/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ambulans sebagaimana dimaksud pada ayat (4) hanya diberikan untuk pasien rujukan dari Fasilitas Kesehatan dengan kondisi tertentu yang ditetapkan oleh BPJS Kesehatan. Pasal 21 … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Manfaat pelayanan promotif dan preventif meliputi pemberian pelayanan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyuluhan kesehatan perorangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "imunisasi dasar;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "keluarga berencana; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "skrining kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyuluhan kesehatan perorangan sebagaimana dimaksud pada ayat (1) huruf a meliputi paling sedikit penyuluhan mengenai pengelolaan faktor risiko penyakit dan perilaku hidup bersih dan sehat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelayanan imunisasi dasar sebagaimana dimaksud pada ayat (1) huruf b meliputi Baccile Calmett Guerin (BCG), Difteri Pertusis Tetanus dan Hepatitis-B (DPT- HB), Polio, dan Campak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelayanan keluarga berencana sebagaimana dimaksud pada ayat (1) huruf c meliputi konseling, kontrasepsi dasar, vasektomi dan tubektomi bekerja sama dengan lembaga yang membidangi keluarga berencana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Vaksin untuk imunisasi dasar dan alat kontrasepsi dasar sebagaimana dimaksud pada ayat (3) dan ayat (4) disediakan oleh Pemerintah dan/atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Pelayanan … PRE SI DEN REPUBLIK INDONESIA Pelayanan skrining kesehatan sebagaimana dimaksud pada ayat (1) huruf d diberikan secara selektif yang ditujukan untuk mendeteksi risiko penyakit dan mencegah dampak lanjutan dari risiko penyakit tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-21/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan mengenai tata cara pemberian pelayanan skrining kesehatan jenis penyakit, dan waktu pelayanan skrining kesehatan sebagaimana dimaksud pada ayat (6) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelayanan kesehatan yang dijamin terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelayanan kesehatan tingkat pertama, meliputi pelayanan kesehatan non spesialistik yang mencakup:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "administrasi pelayanan; rawat jalan yang meliputi: a) administrasi pelayanan; b) pemeriksaan, pengobatan dan konsultasi spesialistik oleh dokter spesialis dan subspesialis; c) tindakan medis spesialistik sesuai dengan indikasi medis; d) pelayanan obat dan bahan medis habis pakai; e) pelayanan alat kesehatan implan; f) pelayanan penunjang diagnostik lanjutan sesuai dengan indikasi medis; g) rehabilitasi medis; h) pelayanan darah; i) pelayanan kedokteran forensik; dan j) pelayanan jenazah di Fasilitas Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "pelayanan promotif dan preventif; rawat inap yang meliputi: a) perawatan inap non intensif; dan b) perawatan inap di ruang intensif.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelayanan kesehatan lain yang ditetapkan oleh Menteri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "pemeriksaan, pengobatan, dan konsultasi medis;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "tindakan medis non spesialistik, baik operatif maupun non operatif;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "pelayanan obat dan bahan medis habis pakai;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "transfusi darah sesuai dengan kebutuhan medis;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "pemeriksaan … PRE SI DEN REPUBLIK INDONESIA pemeriksaan penunjang diagnostik laboratorium tingkat pratama; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "rawat inap tingkat pertama sesuai dengan indikasi.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/angka-8/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pelayanan kesehatan rujukan tingkat lanjutan, meliputi pelayanan kesehatan yang mencakup:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam … PRE SI DEN REPUBLIK INDONESIA Dalam hal pelayanan kesehatan lain sebagaimana dimaksud pada ayat (1) huruf c telah ditanggung dalam program pemerintah, maka tidak termasuk dalam pelayanan kesehatan yang dijamin.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal diperlukan, selain pelayanan kesehatan sebagaimana dimaksud pada ayat (1) Peserta juga berhak mendapatkan pelayanan berupa alat bantu kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-22/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Jenis dan plafon harga alat bantu kesehatan sebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Manfaat akomodasi sebagaimana dimaksud dalam Pasal 20 ayat (5) berupa layanan rawat inap sebagai berikut: a. ruang perawatan kelas III bagi:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Peserta PBI Jaminan Kesehatan; dan Pegawai Negeri Sipil dan penerima pensiun Pegawai Negeri Sipil golongan ruang I dan golongan ruang II beserta anggota keluarganya; Pejabat Negara dan anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Peserta Pekerja Bukan Penerima Upah dan Peserta bukan Pekerja dengan iuran untuk Manfaat pelayanan di ruang perawatan kelas III. Anggota … PRE SI DEN REPUBLIK INDONESIA Anggota TNI dan penerima pensiun Anggota TNI yang setara Pegawai Negeri Sipil golongan ruang I dan golongan ruang II beserta anggota keluarganya; Pegawai Negeri Sipil dan penerima pensiun pegawai negeri sipil golongan ruang III dan golongan ruang IV beserta anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ruang perawatan kelas II bagi:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Anggota Polri dan penerima pensiun Anggota Polri yang setara Pegawai Negeri Sipil golongan ruang I dan golongan ruang II beserta anggota keluarganya; Anggota TNI dan penerima pensiun Anggota TNI yang setara Pegawai Negeri Sipil golongan ruang III dan golongan ruang IV beserta anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pegawai Pemerintah Non Pegawai Negeri yang setara Pegawai Negeri Sipil golongan ruang I dan golongan ruang II beserta anggota keluarganya; Anggota Polri dan penerima pensiun Anggota Polri yang setara Pegawai Negeri Sipil golongan ruang III dan golongan ruang IV beserta anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Peserta Pekerja Penerima Upah bulanan sampai dengan 2 (dua) kali penghasilan tidak kena pajak dengan status kawin dengan 1 (satu) anak, beserta anggota keluarganya; dan Pegawai … PRE SI DEN REPUBLIK INDONESIA Pegawai Pemerintah Non Pegawai Negeri yang setara Pegawai Negeri Sipil golongan ruang III dan golongan ruang IV beserta anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Peserta Pekerja Bukan Penerima Upah dan Peserta bukan Pekerja dengan iuran untuk Manfaat pelayanan di ruang perawatan kelas II; Veteran dan Perintis Kemerdekaan beserta anggota keluarganya;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "ruang perawatan kelas I bagi:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Peserta Pekerja Penerima Upah bulanan lebih dari 2 (dua) kali penghasilan tidak kena pajak dengan status kawin dengan 1 (satu) anak, beserta anggota keluarganya; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-23/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Peserta Pekerja Bukan Penerima Upah dan Peserta bukan Pekerja dengan iuran untuk Manfaat pelayanan di ruang perawatan kelas I.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Peserta yang menginginkan kelas perawatan yang lebih tinggi dari pada haknya, dapat meningkatkan haknya dengan mengikuti asuransi kesehatan tambahan, atau membayar sendiri selisih antara biaya yang dijamin oleh BPJS Kesehatan dengan biaya yang harus dibayar akibat peningkatan kelas perawatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Pelayanan kesehatan yang tidak dijamin meliputi: a. pelayanan kesehatan yang dilakukan tanpa melalui prosedur sebagaimana diatur dalam peraturan yang berlaku; b. pelayanan ... PRE SI DEN REPUBLIK INDONESIA b. pelayanan kesehatan yang dilakukan di Fasilitas Kesehatan yang tidak bekerjasama dengan BPJS Kesehatan, kecuali untuk kasus gawat darurat; c. pelayanan kesehatan yang telah dijamin oleh program jaminan kecelakaan kerja terhadap penyakit atau cedera akibat kecelakaan kerja atau hubungan kerja; d. pelayanan kesehatan yang dilakukan di luar negeri; e. pelayanan kesehatan untuk tujuan estetik; f. pelayanan untuk mengatasi infertilitas; g. pelayanan meratakan gigi (ortodonsi); h. gangguan kesehatan/penyakit akibat ketergantungan obat dan/atau alkohol; i. gangguan kesehatan akibat sengaja menyakiti diri sendiri, atau akibat melakukan hobi yang membahayakan diri sendiri; j. pengobatan komplementer, alternatif dan tradisional, termasuk akupuntur, shin she, chiropractic, yang belum dinyatakan efektif berdasarkan penilaian teknologi kesehatan (health technology assessment); k. pengobatan dan tindakan medis yang dikategorikan sebagai percobaan (eksperimen); l. alat kontrasepsi, kosmetik, makanan bayi, dan susu; m. perbekalan kesehatan rumah tangga; n. pelayanan kesehatan akibat bencana pada masa tanggap darurat, kejadian luar biasa/wabah; dan o. biaya pelayanan lainnya yang tidak ada hubungan dengan Manfaat Jaminan Kesehatan yang diberikan. Pasal 26 ... PRE SI DEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan penggunaan teknologi dalam Manfaat Jaminan Kesehatan harus disesuaikan dengan kebutuhan medis sesuai hasil penilaian teknologi kesehatan (health technology assessment). ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penggunaan hasil penilaian teknologi dalam Manfaat Jaminan Kesehatan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-26/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tata cara penggunaan hasil penilaian teknologi (health technology assessment) sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KOORDINASI MANFAAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta Jaminan Kesehatan dapat mengikuti program asuransi kesehatan tambahan. dapat melakukan koordinasi dalam memberikan Manfaat untuk Peserta Jaminan Kesehatan yang memiliki hak atas perlindungan program asuransi kesehatan tambahan. Pasal 28 … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "BPJS Kesehatan dan penyelenggara program asuransi kesehatan tambahan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Ketentuan mengenai tata cara koordinasi Manfaat sebagaimana dimaksud dalam Pasal 27 diatur dalam perjanjian kerjasama antara BPJS Kesehatan dengan penyelenggara program asuransi kesehatan tambahan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PENYELENGGARAAN PELAYANAN KESEHATAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk pertama kali setiap Peserta didaftarkan oleh BPJS Kesehatan pada satu Fasilitas Kesehatan tingkat pertama yang ditetapkan oleh BPJS Kesehatan setelah mendapat rekomendasi dinas kesehatan kabupaten/kota setempat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam jangka waktu paling sedikit 3 (tiga) bulan selanjutnya Peserta berhak memilih Fasilitas Kesehatan tingkat pertama yang diinginkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peserta harus memperoleh pelayanan kesehatan pada Fasilitas Kesehatan tingkat pertama tempat Peserta terdaftar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam keadaan tertentu, ketentuan sebagaimana dimaksud pada ayat (3) tidak berlaku bagi Peserta yang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berada … PRE SI DEN REPUBLIK INDONESIA berada di luar wilayah Fasilitas Kesehatan tingkat pertama tempat Peserta terdaftar; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dalam keadaan kegawatdaruratan medis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam hal Peserta memerlukan pelayanan kesehatan tingkat lanjutan, Fasilitas Kesehatan tingkat pertama harus merujuk ke Fasilitas Kesehatan rujukan tingkat lanjutan terdekat sesuai dengan sistem rujukan yang diatur dalam ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-29/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai pelayanan kesehatan tingkat pertama dan pelayanan kesehatan rujukan tingkat lanjutan diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fasilitas Kesehatan wajib menjamin Peserta yang dirawat inap mendapatkan obat dan bahan medis habis pakai yang dibutuhkan sesuai dengan indikasi medis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Fasilitas Kesehatan rawat jalan yang tidak memiliki sarana penunjang, wajib membangun jejaring dengan Fasilitas Kesehatan penunjang untuk menjamin ketersediaan obat, bahan medis habis pakai, dan pemeriksaan penunjang yang dibutuhkan. Pasal 31 … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Ketentuan lebih lanjut mengenai prosedur pelayanan kesehatan sebagaimana dimaksud dalam Pasal 29 dan Pasal 30 diatur dengan Peraturan Menteri dan Peraturan BPJS Kesehatan sesuai dengan kewenangannya. Bagian Kedua Pelayanan Obat dan Bahan Medis Habis Pakai",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelayanan obat dan bahan medis habis pakai untuk Peserta Jaminan Kesehatan pada Fasilitas Kesehatan berpedoman pada daftar dan harga obat, dan bahan medis habis pakai yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Daftar dan harga obat dan bahan medis habis pakai sebagaimana dimaksud pada ayat (1) ditinjau kembali paling lambat 2 (dua) tahun sekali. Bagian Ketiga Pelayanan Dalam Keadaan Gawat Darurat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Peserta yang memerlukan pelayanan gawat darurat dapat langsung memperoleh pelayanan di setiap Fasilitas Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peserta … PRE SI DEN REPUBLIK INDONESIA Peserta yang menerima pelayanan kesehatan di Fasilitas Kesehatan yang tidak bekerjasama dengan BPJS Kesehatan, harus segera dirujuk ke Fasilitas Kesehatan yang bekerjasama dengan BPJS Kesehatan setelah keadaan gawat daruratnya teratasi dan pasien dalam kondisi dapat dipindahkan. Bagian Keempat Pelayanan Dalam Keadaan Tidak Ada Fasilitas Kesehatan Yang Memenuhi Syarat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal di suatu daerah belum tersedia Fasilitas Kesehatan yang memenuhi syarat guna memenuhi kebutuhan medis sejumlah Peserta, BPJS Kesehatan wajib memberikan kompensasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kompensasi sebagaimana dimaksud pada ayat (1) dapat berupa :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penggantian uang tunai;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengiriman tenaga kesehatan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyediaan Fasilitas Kesehatan tertentu.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penggantian uang tunai sebagaimana dimaksud pada ayat (2) huruf a digunakan untuk biaya pelayanan kesehatan dan transportasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-34/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai pemberian kompensasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Menteri. BAB VIII … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PRE SI DEN REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan Pemerintah Daerah bertanggung jawab atas ketersediaan Fasilitas Kesehatan dan penyelenggaraan pelayanan kesehatan untuk pelaksanaan program Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemerintah dan Pemerintah Daerah dapat memberikan kesempatan kepada swasta untuk berperan serta memenuhi ketersediaan Fasilitas Kesehatan dan penyelenggaraan pelayanan kesehatan. Bagian Kedua Penyelenggara Pelayanan Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara pelayanan kesehatan meliputi semua Fasilitas Kesehatan yang menjalin kerjasama dengan BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Fasilitas Kesehatan milik Pemerintah dan Pemerintah Daerah yang memenuhi persyaratan wajib bekerjasama dengan BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Fasilitas ... PRE SI DEN REPUBLIK INDONESIA Fasilitas Kesehatan milik swasta yang memenuhi persyaratan dapat menjalin kerjasama dengan BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kerjasama sebagaimana dimaksud pada ayat (2) dan ayat (3) dilaksanakan dengan membuat perjanjian tertulis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-36/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Persyaratan sebagaimana dimaksud pada ayat (2) dan ayat (3) diatur dengan Peraturan Menteri. Bagian Ketiga Besaran dan Waktu Pembayaran",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Besaran pembayaran kepada Fasilitas Kesehatan ditentukan berdasarkan kesepakatan BPJS Kesehatan dengan asosiasi Fasilitas Kesehatan di wilayah tersebut dengan mengacu pada standar tarif yang ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal tidak ada kesepakatan atas besaran pembayaran sebagaimana dimaksud pada ayat (1), Menteri memutuskan besaran pembayaran atas program Jaminan Kesehatan yang diberikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Asosiasi Fasilitas Kesehatan sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri. Pasal 38 … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "BPJS wajib membayar Fasilitas Kesehatan atas pelayanan yang diberikan kepada Peserta paling lambat 15 (lima belas) hari sejak dokumen klaim diterima lengkap. Bagian Keempat Cara Pembayaran Fasilitas Kesehatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "BPJS Kesehatan melakukan pembayaran kepada Fasilitas Kesehatan tingkat pertama secara praupaya berdasarkan kapitasi atas jumlah Peserta yang terdaftar di Fasilitas Kesehatan tingkat pertama.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Fasilitas Kesehatan tingkat pertama di suatu daerah tidak memungkinkan pembayaran berdasarkan kapitasi sebagaimana dimaksud pada ayat (1), BPJS Kesehatan diberikan kewenangan untuk melakukan pembayaran dengan mekanisme lain yang lebih berhasil guna.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "BPJS Kesehatan melakukan pembayaran kepada Fasilitas Kesehatan rujukan tingkat lanjutan berdasarkan cara Indonesian Case Based Groups (INA- CBG’s).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-39/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Besaran ... PRE SI DEN REPUBLIK INDONESIA Besaran kapitasi dan Indonesian Case Based Groups (INA-CBG’s) ditinjau sekurang-kurangnya setiap 2 (dua) tahun sekali oleh Menteri setelah berkoordinasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelayanan gawat darurat yang dilakukan oleh Fasilitas Kesehatan yang tidak menjalin kerjasama dengan BPJS Kesehatan dibayar dengan penggantian biaya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Biaya sebagaimana dimaksud pada ayat (1) ditagihkan langsung oleh Fasilitas Kesehatan kepada BPJS Kesehatan. setara dengan tarif yang berlaku di wilayah tersebut. tidak diperkenankan menarik biaya pelayanan kesehatan kepada Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "BPJS Kesehatan memberikan pembayaran kepada Fasilitas Kesehatan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-40/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Fasilitas Kesehatan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-40/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai penilaian kegawatdaruratan dan prosedur penggantian biaya pelayanan gawat darurat diatur dengan Peraturan BPJS Kesehatan. BAB IX … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PRE SI DEN REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-41/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Menteri menetapkan standar tarif pelayanan kesehatan yang menjadi acuan bagi penyelenggaraan Jaminan Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-41/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan standar tarif pelayanan kesehatan sebagaimana dimaksud pada ayat (1) dilaksanakan dengan memperhatikan ketersediaan Fasilitas Kesehatan, indeks harga konsumen, dan indeks kemahalan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelayanan kesehatan kepada Peserta Jaminan Kesehatan harus memperhatikan mutu pelayanan, berorientasi pada aspek keamanan pasien, efektifitas tindakan, kesesuaian dengan kebutuhan pasien, serta efisiensi biaya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penerapan sistem kendali mutu pelayanan Jaminan Kesehatan dilakukan secara menyeluruh meliputi pemenuhan standar mutu Fasilitas Kesehatan, memastikan proses pelayanan kesehatan berjalan sesuai standar yang ditetapkan, serta pemantauan terhadap luaran kesehatan Peserta.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan ... PRE SI DEN REPUBLIK INDONESIA Ketentuan mengenai penerapan sistem kendali mutu pelayanan Jaminan Kesehatan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan BPJS.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka menjamin kendali mutu dan biaya, Menteri bertanggung jawab untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian teknologi kesehatan (health technology assessment);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pertimbangan klinis (clinical advisory) dan Manfaat Jaminan Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "perhitungan standar tarif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "monitoring evaluasi dan penyelenggaraan pelayanan Jaminan Kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan monitoring dan evaluasi penyelenggaraan pelayanan Jaminan Kesehatan sebagaimana dimaksud pada ayat (1) huruf d, Menteri berkoordinasi dengan Dewan Jaminan Sosial Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan dan pengembangan sistem kendali mutu pelayanan sebagaimana dimaksud dalam Pasal 42 serta penjaminan kendali mutu dan kendali biaya sebagaimana dimaksud dalam Pasal 43 diatur dengan Peraturan Menteri. BAB X … PRE SI DEN REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PRE SI DEN REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal Peserta tidak puas terhadap pelayanan Jaminan Kesehatan yang diberikan oleh Fasilitas Kesehatan yang bekerjasama dengan BPJS Kesehatan, Peserta dapat menyampaikan pengaduan kepada Fasilitas Kesehatan dan/atau BPJS Kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal Peserta dan/atau Fasilitas Kesehatan tidak mendapatkan pelayanan yang baik dari BPJS Kesehatan, dapat menyampaikan pengaduan kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyampaian pengaduan sebagaimana dimaksud pada ayat (1) dan ayat (2) harus memperoleh penanganan dan penyelesaian secara memadai dan dalam waktu yang singkat serta diberikan umpan balik ke pihak yang menyampaikan. dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. BAB XI … PRE SI DEN REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-45/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyampaian pengaduan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "PRE SI DEN REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sengketa antara:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Peserta dengan Fasilitas Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Peserta dengan BPJS Kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "BPJS Kesehatan dengan Fasilitas Kesehatan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "BPJS Kesehatan dengan asosiasi Fasilitas Kesehatan; diselesaikan dengan cara musyawarah oleh para pihak yang bersengketa.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal sengketa tidak dapat diselesaikan secara musyawarah, sengketa diselesaikan dengan cara mediasi atau melalui pengadilan. dilaksanakan sesuai ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-12-tahun-2013/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Cara penyelesaian sengketa melalui mediasi atau melalui pengadilan sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-12-tahun-2013/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-12-tahun-2013/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Peraturan Presiden ini mulai berlaku pada tanggal 1 Januari 2014. Agar … PRE SI DEN REPUBLIK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Januari 2013 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 23 januari 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 29 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Bidang Kesejahteraan Rakyat, Siswanto Roesyidi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

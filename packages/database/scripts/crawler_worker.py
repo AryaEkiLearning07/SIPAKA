@@ -77,6 +77,18 @@ logger = logging.getLogger("CrawlerWorker")
 
 # ─── Flag Pengendalian Graceful Shutdown ─────────────────────────────────────
 SHUTDOWN_REQUESTED = False
+STOP_FLAG_FILE = DATABASE_PKG / "crawler_stop_requested.flag"
+
+
+def is_shutdown_requested() -> bool:
+    global SHUTDOWN_REQUESTED
+    if SHUTDOWN_REQUESTED:
+        return True
+    if STOP_FLAG_FILE.exists():
+        logger.info("File stop flag terdeteksi (crawler_stop_requested.flag). Mengatur graceful shutdown...")
+        SHUTDOWN_REQUESTED = True
+        return True
+    return False
 
 
 def sig_handler(signum, frame):
@@ -127,10 +139,29 @@ def update_status(
         logger.warning(f"Gagal menulis status: {e}")
 
 
+def is_pid_alive(pid: Optional[int]) -> bool:
+    if not pid:
+        return False
+    try:
+        import ctypes
+        kernel32 = ctypes.windll.kernel32
+        handle = kernel32.OpenProcess(0x1000, False, int(pid))
+        if handle:
+            kernel32.CloseHandle(handle)
+            return True
+        return False
+    except Exception:
+        return False
+
+
 def get_status() -> Dict[str, Any]:
     if STATUS_FILE.exists():
         try:
-            return json.loads(STATUS_FILE.read_text(encoding="utf-8"))
+            st = json.loads(STATUS_FILE.read_text(encoding="utf-8"))
+            if st.get("state") == "RUNNING" and not is_pid_alive(st.get("pid")):
+                st["state"] = "STOPPED"
+                st["phase"] = "STOPPED_SAFELY"
+            return st
         except Exception:
             pass
     return {"state": "STOPPED", "lastHeartbeat": None}
@@ -309,22 +340,40 @@ def parse_and_validate_ast(pdf_path: Path, slug: str, metadata: Dict[str, Any], 
 # ─── Modul Ingest Database MariaDB ───────────────────────────────────────────
 def ingest_ast_to_database(slug: str, force: bool = False) -> bool:
     try:
-        # Jalankan seeder generik via container sipaka-api yang memiliki Prisma Client lengkap
-        cmd = ["docker", "exec", "sipaka-api", "node", "apps/api/node_modules/tsx/dist/cli.mjs", "packages/database/seed/ingest-json.ts"]
+        # Cek apakah container docker sipaka-api berjalan atau gunakan pnpm lokal
+        use_docker = False
+        try:
+            d_check = subprocess.run(["docker", "ps", "--filter", "name=sipaka-api"], capture_output=True, timeout=2)
+            use_docker = (d_check.returncode == 0 and b"sipaka-api" in d_check.stdout)
+        except Exception:
+            use_docker = False
+
+        if use_docker:
+            cmd = ["docker", "exec", "sipaka-api", "node", "apps/api/node_modules/tsx/dist/cli.mjs", "packages/database/seed/ingest-json.ts"]
+        else:
+            # Mode lokal Windows / Dev: gunakan pnpm tsx
+            cmd = ["pnpm", "--filter", "@sipaka/api", "exec", "tsx", str(SEED / "ingest-json.ts")]
+
         if force:
             cmd.append("--force")
         cmd.append(slug)
         res = subprocess.run(
             cmd,
+            cwd=str(ROOT),
             capture_output=True,
             text=True,
             timeout=120,
+            shell=(os.name == "nt" and not use_docker),
         )
-        if res.returncode == 0:
+        out_text = (res.stdout or "") + (res.stderr or "")
+        if res.returncode == 0 and "MASUK " in out_text:
             logger.info(f"  [DB Ingest] Sukses ingest {slug} ke MariaDB{' (--force)' if force else ''}.")
             return True
+        elif res.returncode == 0 and "LEWATI " in out_text:
+            logger.info(f"  [DB Ingest] Dilewati: {out_text.strip()}")
+            return False
         else:
-            logger.warning(f"  [DB Ingest] Gagal ingest {slug}: {res.stderr or res.stdout}")
+            logger.warning(f"  [DB Ingest] Gagal ingest {slug}: {out_text.strip()}")
             return False
     except Exception as e:
         logger.error(f"  [DB Ingest] Error proses ingest: {e}")
@@ -348,7 +397,7 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY, jenis:
 
     # Sinkronisasi otomatis dengan basis data MariaDB agar tidak mendownload/memproses ulang yang sudah aktif di DB
     try:
-        api_port = os.environ.get("SIPAKA_API_PORT", "4080")
+        api_port = os.environ.get("SIPAKA_API_PORT", "4000")
         req = requests.get(f"http://localhost:{api_port}/api/v1/instruments", timeout=5)
         if req.status_code == 200:
             for item in req.json().get("data", []):
@@ -400,7 +449,7 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY, jenis:
 
     count = 0
     for entry in pending_entries:
-        if SHUTDOWN_REQUESTED or count >= batch_limit:
+        if is_shutdown_requested() or count >= batch_limit:
             break
 
         slug = entry.get("slug")
@@ -473,9 +522,17 @@ def run_worker_cycle(batch_limit: int = 10, delay: float = DEFAULT_DELAY, jenis:
         update_status("RUNNING", phase="WEAVING_RELATIONS", stats=stats)
         weave_relations()
 
-    state = "STOPPED" if SHUTDOWN_REQUESTED else "IDLE"
-    update_status(state, phase="COMPLETED", stats=stats)
-    logger.info(f"\nSiklus Batch Tuntas: {stats['processed']} diproses ({stats['published']} published, {stats['quarantined']} karantina, {stats['errors']} error).")
+    if is_shutdown_requested():
+        if STOP_FLAG_FILE.exists():
+            try:
+                STOP_FLAG_FILE.unlink()
+            except Exception:
+                pass
+        update_status("STOPPED", phase="STOPPED_SAFELY", stats=stats)
+        logger.info("\nWorker dihentikan dengan aman (Graceful Shutdown). Seluruh checkpoint dan database tersimpan.")
+    else:
+        update_status("IDLE", phase="IDLE", stats=stats)
+        logger.info(f"\nSiklus Batch Tuntas: {stats['processed']} diproses ({stats['published']} published, {stats['quarantined']} karantina, {stats['errors']} error).")
     return stats
 
 
@@ -487,9 +544,25 @@ def main():
     parser.add_argument("--sleep-interval", type=int, default=300, help="Jeda tidur antar siklus daemon (detik)")
     parser.add_argument("--delay", type=float, default=DEFAULT_DELAY, help="Jeda etis antar panggilan BPK (detik)")
     parser.add_argument("--status", action="store_true", help="Cek status live telemetri worker")
+    parser.add_argument("--stop", action="store_true", help="Kirim sinyal graceful shutdown ke worker yang sedang berjalan")
     parser.add_argument("--reset-checkpoint", action="store_true", help="Reset checkpoint pengerjaan")
 
     args = parser.parse_args()
+
+    if args.stop:
+        STOP_FLAG_FILE.write_text(f"STOP_REQUESTED_AT={datetime.now(timezone.utc).isoformat()}\n", encoding="utf-8")
+        st = get_status()
+        st["state"] = "STOPPING"
+        st["phase"] = "STOP_REQUESTED"
+        try:
+            STATUS_FILE.write_text(json.dumps(st, indent=2, ensure_ascii=False), encoding="utf-8")
+        except Exception:
+            pass
+        print("=" * 60)
+        print("[OK] Sinyal henti aman (Graceful Shutdown) telah dikirim!")
+        print("Worker akan menuntaskan dokumen aktif, menyimpan ke database & checkpoint, lalu berhenti aman.")
+        print("=" * 60)
+        return
 
     if args.status:
         st = get_status()
@@ -517,20 +590,33 @@ def main():
             print("Checkpoint berhasil di-reset.")
         return
 
+    # Pastikan file stop flag lama dibersihkan saat start baru
+    if STOP_FLAG_FILE.exists():
+        try:
+            STOP_FLAG_FILE.unlink()
+        except Exception:
+            pass
+
     jenis_filter = None if args.jenis.upper() in ["ALL", "SEMUA"] else args.jenis
     logger.info(f"Memulai Worker Crawler SIPAKA (PID: {os.getpid()}, Delay Etis: {args.delay}s, Target: {args.jenis})...")
 
     if args.continuous:
         logger.info(f"Mode DAEMON aktif. Worker akan berjalan terus-menerus (jeda siklus: {args.sleep_interval}s).")
-        while not SHUTDOWN_REQUESTED:
+        while not is_shutdown_requested():
             run_worker_cycle(batch_limit=args.batch, delay=args.delay, jenis=jenis_filter)
-            if SHUTDOWN_REQUESTED:
+            if is_shutdown_requested():
                 break
             logger.info(f"Menunggu {args.sleep_interval} detik sebelum memeriksa antrean berikutnya...")
             for _ in range(args.sleep_interval):
-                if SHUTDOWN_REQUESTED:
+                if is_shutdown_requested():
                     break
                 time.sleep(1)
+        if STOP_FLAG_FILE.exists():
+            try:
+                STOP_FLAG_FILE.unlink()
+            except Exception:
+                pass
+        update_status("STOPPED", phase="STOPPED_SAFELY")
         logger.info("Worker daemon dihentikan dengan aman (Graceful Shutdown).")
     else:
         run_worker_cycle(batch_limit=args.batch, delay=args.delay, jenis=jenis_filter)

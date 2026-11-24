@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-31-tahun-1968",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka usaha penertiban, penyempurnaan dan penyederhanaan aparatur Pemerintahan pada umumnya, Perusahaan- perusahaan Negara pada khususnya yang diarahkan kepada pelaksanaan azas decontrol dan debirokratisasi, dianggap perlu untuk membubarkan Badan Pimpinan Umum Minyak dan Gas Bumi yang didirikan berdasarkan Peraturan Pemerintah Nomor 103 tahun 1961."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-31-tahun-1968",
+   "detailsId": "70606",
+   "judul": "PP No. 31 Tahun 1968 tentang Pembubaran B.P.U. Minjak Dan Gas Bumi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61058/pp%20no%20031%20tahun%201968.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-103-tahun-1961"
+   ],
+   "scrapedAt": "2026-10-06T06:02:46.757019+00:00"
+  },
+  "sha256": "4139017df820878fd6a554b0bc5264eb3d89c43c95d27616edb989ae53ef90f2",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

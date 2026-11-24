@@ -1,0 +1,72 @@
+{
+ "slug": "perpres-no-77-tahun-2007",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan Pasal 12 ayat (4) dan Pasal 13 ayat (1) Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal perlu menetapkan Peraturan Presiden tentang Daftar Bidang Usaha yang Tertutup dan Bidang Usaha yang Terbuka dengan Persyaratan Di Bidang Penanaman Modal;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-77-tahun-2007",
+   "detailsId": "42133",
+   "judul": "PERPRES No. 77 Tahun 2007 tentang Daftar Bidang Usaha yang Tertutup dan Bidang Usaha yang Terbuka dengan Persyaratan di Bidang Penanaman Modal - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70822/PERPRES%20NO%2077%20TH%202007.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "keppres-no-127-tahun-2001-bidangjenis-usaha-yang-dicadangkan-untuk-usaha-kecil-d",
+    "keppres-no-96-tahun-2000",
+    "keppres-no-118-tahun-2000"
+   ],
+   "scrapedAt": "2026-10-06T06:15:20.349274+00:00"
+  },
+  "sha256": "6e6d949e7b14aa2c2ca1d12f66c7253962c50d9c5bba9979a3aaa77551fa08c6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-77-tahun-2007/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-77-tahun-2007/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bidang usaha yang tertutup merupakan bidang usaha tertentu yang dilarang diusahakan sebagai kegiatan penanaman modal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-77-tahun-2007/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Daftar bidang usaha yang tertutup sebagaimana dimaksud dalam ayat (1) adalah sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

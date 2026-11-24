@@ -1,0 +1,2025 @@
+{
+ "slug": "uu-no-11-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk mewujudkan kehidupan yang layak dan bermartabat, serta untuk memenuhi hak atas kebutuhan dasar warga negara demi tercapainya kesejahteraan sosial, negara menyelenggarakan pelayanan dan pengembangan kesejahteraan sosial secara terencana, terarah, dan berkelanjutan;",
+   "bahwa Undang-Undang Nomor 6 Tahun 1974 tentang Ketentuan-Ketentuan Pokok Kesejahteraan Sosial sudah tidak sesuai dengan perkembangan kehidupan bermasyarakat, berbangsa, dan bernegara sehingga perlu diganti;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Kesejahteraan Sosial; Mengingat: . . . - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-11-tahun-2009",
+   "detailsId": "38601",
+   "judul": "UU No. 11 Tahun 2009 tentang Kesejahteraan Sosial - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/27869/UU%20Nomor%2011%20Tahun%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-6-tahun-1974"
+   ],
+   "scrapedAt": "2026-10-05T17:53:49.990544+00:00"
+  },
+  "sha256": "e80aeb92e86526bb02255d78c58658cd27a344bebe1b7fa032049feee165310c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 11,
+  "pasal": 60,
+  "ayat_angka": 75,
+  "huruf": 67
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksudkan dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kesejahteraan Sosial adalah kondisi terpenuhinya kebutuhan material, spiritual, dan sosial warga negara agar dapat hidup layak dan mampu mengembangkan diri, sehingga dapat melaksanakan fungsi sosialnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Penyelenggaraan Kesejahteraan Sosial adalah upaya yang terarah, terpadu, dan berkelanjutan yang dilakukan Pemerintah, pemerintah daerah, dan masyarakat dalam bentuk pelayanan sosial guna memenuhi kebutuhan dasar setiap warga negara, yang meliputi rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan perlindungan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Tenaga . . . Tenaga Kesejahteraan Sosial adalah seseorang yang dididik dan dilatih secara profesional untuk melaksanakan tugas-tugas pelayanan dan penanganan masalah sosial dan/atau seseorang yang bekerja, baik di lembaga pemerintah maupun swasta yang ruang lingkup kegiatannya di bidang kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pekerja Sosial Profesional adalah seseorang yang bekerja, baik di lembaga pemerintah maupun swasta yang memiliki kompetensi dan profesi pekerjaan sosial, dan kepedulian dalam pekerjaan sosial yang diperoleh melalui pendidikan, pelatihan, dan/atau pengalaman praktek pekerjaan sosial untuk melaksanakan tugas-tugas pelayanan dan penanganan masalah sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Relawan Sosial adalah seseorang dan/atau kelompok masyarakat, baik yang berlatar belakang pekerjaan sosial maupun bukan berlatar belakang pekerjaan sosial, tetapi melaksanakan kegiatan penyelenggaraan di bidang sosial bukan di instansi sosial pemerintah atas kehendak sendiri dengan atau tanpa imbalan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pelaku Penyelenggaraan Kesejahteraan Sosial adalah individu, kelompok, lembaga kesejahteraan sosial, dan masyarakat yang terlibat dalam penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Lembaga Kesejahteraan Sosial adalah organisasi sosial atau perkumpulan sosial yang melaksanakan penyelenggaraan kesejahteraan sosial yang dibentuk oleh masyarakat, baik yang berbadan hukum maupun yang tidak berbadan hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Rehabilitasi Sosial adalah proses refungsionalisasi dan pengembangan untuk memungkinkan seseorang mampu melaksanakan fungsi sosialnya secara wajar dalam kehidupan masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Perlindungan . . . Perlindungan Sosial adalah semua upaya yang diarahkan untuk mencegah dan menangani risiko dari guncangan dan kerentanan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Pemberdayaan Sosial adalah semua upaya yang diarahkan untuk menjadikan warga negara yang mengalami masalah sosial mempunyai daya, sehingga mampu memenuhi kebutuhan dasarnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Jaminan Sosial adalah skema yang melembaga untuk menjamin seluruh rakyat agar dapat memenuhi kebutuhan dasar hidupnya yang layak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Warga Negara adalah warga negara Republik Indonesia yang ditetapkan berdasarkan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Pemerintah Pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Pemerintah Daerah adalah gubernur, bupati, atau walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Menteri adalah menteri yang membidangi urusan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ASAS DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyelenggaraan kesejahteraan sosial dilakukan berdasarkan asas: a. kesetiakawanan; b. keadilan . . . b. keadilan; c. kemanfaatan; d. keterpaduan; e. kemitraan; f. keterbukaan; g. akuntabilitas; h. partisipasi; i. j. profesionalitas; dan keberlanjutan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penyelenggaraan kesejahteraan sosial bertujuan: a. meningkatkan taraf kesejahteraan, kualitas, dan kelangsungan hidup; b. memulihkan fungsi sosial dalam rangka mencapai kemandirian; c. meningkatkan ketahanan sosial masyarakat dalam mencegah dan menangani masalah kesejahteraan sosial; d. meningkatkan kemampuan, kepedulian dan tanggungjawab sosial dunia usaha dalam penyelenggaraan kesejahteraan sosial secara melembaga dan berkelanjutan; e. meningkatkan kemampuan dan kepedulian masyarakat dalam penyelenggaraan kesejahteraan sosial secara melembaga dan berkelanjutan; dan f. meningkatkan kualitas manajemen penyelenggaraan kesejahteraan sosial. BAB III . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENYELENGGARAAN KESEJAHTERAAN SOSIAL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Negara bertanggung jawab atas penyelenggaraan kesejahteraan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan kesejahteraan sosial ditujukan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "kepada: a. perseorangan; b. keluarga; c. kelompok; dan/atau d. masyarakat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan kesejahteraan sosial sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "diprioritaskan kepada mereka yang memiliki kehidupan yang tidak layak secara kemanusiaan dan memiliki kriteria masalah sosial:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kemiskinan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ketelantaran;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kecacatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "keterpencilan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "ketunaan sosial dan penyimpangan perilaku; f. korban bencana; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-5/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "korban tindak kekerasan, eksploitasi dan diskriminasi. Pasal 6 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Penyelenggaraan kesejahteraan sosial meliputi: a. rehabilitasi sosial; b. jaminan sosial; c. pemberdayaan sosial; dan d. perlindungan sosial. Bagian Kedua Rehabilitasi Sosial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rehabilitasi sosial dimaksudkan untuk memulihkan dan mengembangkan kemampuan seseorang yang mengalami disfungsi sosial agar dapat melaksanakan fungsi sosialnya secara wajar. dapat dilaksanakan secara persuasif, motivatif, koersif, baik dalam keluarga, masyarakat maupun panti sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Rehabilitasi sosial sebagaimana dimaksud pada ayat diberikan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "motivasi dan diagnosis psikososial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perawatan dan pengasuhan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelatihan vokasional dan pembinaan kewirausahaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "bimbingan mental spiritual;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "bimbingan fisik; f. bimbingan sosial dan konseling psikososial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pelayanan aksesibilitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "bantuan dan asistensi sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "bimbingan . . . i. j. bimbingan resosialisasi; bimbingan lanjut; dan/atau k. rujukan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rehabilitasi sosial sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan rehabilitasi sosial diatur dalam Peraturan Pemerintah. Bagian Ketiga Jaminan Sosial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jaminan sosial dimaksudkan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menjamin fakir miskin, anak yatim piatu terlantar, lanjut usia terlantar, penyandang cacat fisik, cacat mental, cacat fisik dan mental, eks penderita penyakit kronis yang mengalami masalah ketidakmampuan sosial-ekonomi agar kebutuhan dasarnya terpenuhi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menghargai pejuang, perintis kemerdekaan, dan keluarga pahlawan atas jasa-jasanya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jaminan sosial sebagaimana dimaksud pada ayat (1) huruf a diberikan dalam bentuk asuransi kesejahteraan sosial dan bantuan langsung berkelanjutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Jaminan sosial sebagaimana dimaksud pada ayat (1) huruf b diberikan dalam bentuk tunjangan berkelanjutan. Pasal 10 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Asuransi kesejahteraan sosial diselenggarakan untuk melindungi warga negara yang tidak mampu membayar premi agar mampu memelihara dan mempertahankan taraf kesejahteraan sosialnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Asuransi kesejahteraan sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk bantuan iuran oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan jaminan sosial diatur dalam Peraturan Pemerintah. Bagian Keempat Pemberdayaan Sosial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemberdayaan sosial dimaksudkan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memberdayakan seseorang, keluarga, kelompok, dan masyarakat yang mengalami masalah kesejahteraan sosial agar mampu memenuhi kebutuhannya secara mandiri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "meningkatkan peran serta lembaga dan/atau perseorangan sebagai potensi dan sumber daya dalam penyelenggaraan kesejahteraan sosial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemberdayaan sosial sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peningkatan kemauan dan kemampuan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penggalian potensi dan sumber daya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penggalian nilai-nilai dasar;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pemberian . . . pemberian akses; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pemberian bantuan usaha.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemberdayaan sosial sebagaimana dimaksud pada ayat (1) huruf a dilakukan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "diagnosis dan pemberian motivasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelatihan keterampilan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pendampingan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pemberian stimulan modal, peralatan usaha, dan tempat usaha;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "peningkatan akses pemasaran hasil usaha; f. supervisi dan advokasi sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "penguatan keserasian sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "penataan lingkungan; dan/atau i. bimbingan lanjut.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pemberdayaan sosial sebagaimana dimaksud pada ayat (1) huruf b dilakukan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "diagnosis dan pemberian motivasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penguatan kelembagaan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kemitraan dan penggalangan dana; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-12/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pemberian stimulan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan pemberdayaan sosial diatur dalam Peraturan Pemerintah. Bagian Kelima . . . Bagian Kelima Perlindungan Sosial",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perlindungan sosial dimaksudkan untuk mencegah dan menangani risiko dari guncangan dan kerentanan sosial seseorang, keluarga, kelompok, dan/atau masyarakat agar kelangsungan hidupnya dapat dipenuhi sesuai dengan kebutuhan dasar minimal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perlindungan sosial sebagaimana dimaksud pada ayat (1) dilaksanakan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-14/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bantuan sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-14/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "advokasi sosial; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-14/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bantuan hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan sosial dimaksudkan agar seseorang, keluarga, kelompok, dan/atau masyarakat yang mengalami guncangan dan kerentanan sosial dapat tetap hidup secara wajar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bantuan sosial sebagaimana dimaksud pada ayat (1) bersifat sementara dan/atau berkelanjutan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-15/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bantuan langsung;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-15/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyediaan aksesibilitas; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-15/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penguatan kelembagaan. Pasal 16 . . .",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Advokasi sosial dimaksudkan untuk melindungi dan membela seseorang, keluarga, kelompok, dan/atau masyarakat yang dilanggar haknya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Advokasi sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk penyadaran hak dan kewajiban, pembelaan, dan pemenuhan hak.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bantuan hukum diselenggarakan untuk mewakili yang menghadapi kepentingan warga negara masalah hukum dalam pembelaan atas hak, baik di dalam maupun di luar pengadilan. diberikan dalam bentuk pembelaan dan konsultasi hukum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bantuan hukum sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Ketentuan lebih lanjut mengenai pelaksanaan perlindungan sosial diatur dalam Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENANGGULANGAN KEMISKINAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Penanggulangan kemiskinan merupakan kebijakan, program, dan kegiatan yang dilakukan terhadap orang, keluarga, kelompok dan/atau masyarakat yang tidak mempunyai atau mempunyai sumber mata pencaharian dan tidak dapat memenuhi kebutuhan yang layak bagi kemanusiaan. Pasal 20 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Penanggulangan kemiskinan ditujukan untuk: a. meningkatkan kapasitas dan mengembangkan kemampuan dasar serta kemampuan berusaha masyarakat miskin; b. memperkuat peran masyarakat miskin dalam pengambilan keputusan kebijakan publik yang menjamin penghargaan, perlindungan, dan pemenuhan hak-hak dasar; c. mewujudkan kondisi dan lingkungan ekonomi, politik, dan sosial yang memungkinkan masyarakat miskin dapat memperoleh kesempatan seluas- luasnya dalam pemenuhan hak-hak dasar dan peningkatan taraf hidup secara berkelanjutan; dan d. memberikan rasa aman bagi kelompok masyarakat miskin dan rentan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Penanggulangan kemiskinan dilaksanakan dalam bentuk: a. penyuluhan dan bimbingan sosial; b. pelayanan sosial; c. penyediaan akses kesempatan kerja dan berusaha; d. penyediaan akses pelayanan kesehatan dasar; e. penyediaan akses pelayanan pendidikan dasar; f. penyediaan akses pelayanan perumahan dan permukiman; dan/atau g. penyediaan akses pelatihan, modal usaha, dan pemasaran hasil usaha. Pasal 22 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Pelaksanaan penanggulangan kemiskinan sebagaimana dimaksud dalam Pasal 19 menjadi tanggung jawab Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Ketentuan lebih lanjut mengenai penanggulangan kemiskinan diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "TANGGUNG JAWAB DAN WEWENANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan kesejahteraan sosial menjadi tanggung jawab:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pemerintah; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pemerintah daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tanggung jawab penyelenggaraan kesejahteraan sosial sebagaimana dimaksud pada ayat (1) huruf a dilaksanakan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tanggung . . . Tanggung jawab penyelenggaraan kesejahteraan sosial sebagaimana dimaksud pada ayat (1) huruf b dilaksanakan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk tingkat provinsi oleh gubernur;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-24/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "untuk tingkat kabupaten/kota oleh bupati/walikota. Bagian Kedua Pemerintah",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Tanggung jawab Pemerintah dalam menyelenggarakan kesejahteraan sosial meliputi: a. merumuskan kebijakan dan program penyelenggaraan kesejahteraan sosial; b. menyediakan akses penyelenggaraan kesejahteraan sosial; c. melaksanakan rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan perlindungan sosial sesuai dengan ketentuan peraturan perundang-undangan; d. memberikan bantuan sosial sebagai stimulan kepada masyarakat yang menyelenggarakan kesejahteraan sosial; e. mendorong dan memfasilitasi masyarakat serta dunia usaha dalam melaksanakan tanggung jawab sosialnya; f. meningkatkan kapasitas kelembagaan dan sumber daya manusia di bidang kesejahteraan sosial; g. menetapkan . . . g. menetapkan standar pelayanan, registrasi, akreditasi, dan sertifikasi pelayanan kesejahteraan sosial; h. melaksanakan analisis dan audit dampak sosial terhadap kebijakan dan aktivitas pembangunan; i. menyelenggarakan pendidikan dan penelitian kesejahteraan sosial; j. melakukan pembinaan dan pengawasan serta pemantauan dan evaluasi terhadap penyelenggaraan kesejahteraan sosial; k. mengembangkan jaringan kerja dan koordinasi lintas pelaku penyelenggaraan kesejahteraan sosial tingkat nasional dan internasional dalam penyelenggaraan kesejahteraan sosial; l. memelihara taman makam pahlawan dan makam pahlawan nasional; m. melestarikan nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial; dan n. mengalokasikan anggaran untuk penyelenggaraan kesejahteraan sosial dalam Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Wewenang Pemerintah dalam penyelenggaraan kesejahteraan sosial meliputi: a. penetapan kebijakan dan program penyelenggaraan kesejahteraan sosial selaras dengan kebijakan pembangunan nasional; b. penetapan . . . b. penetapan standar pelayanan minimum, registrasi, akreditasi, dan sertifikasi pelayanan kesejahteraan sosial; c. koordinasi pelaksanaan program penyelenggaraan kesejahteraan sosial; d. pelaksanaan kerja sama dalam penyelenggaraan kesejahteraan sosial dengan negara lain, dan lembaga kesejahteraan sosial, baik nasional maupun internasional; e. pemberian izin dan pengawasan pengumpulan sumbangan dan penyaluran bantuan sosial; f. pendayagunaan dana yang berasal dari dunia usaha dan masyarakat; g. pemeliharaan taman makam pahlawan dan makam pahlawan nasional; dan h. pelestarian nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial. Bagian Ketiga Pemerintah Daerah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Tanggung jawab pemerintah provinsi dalam menyelenggarakan kesejahteraan sosial meliputi: a. mengalokasikan anggaran untuk penyelenggaraan kesejahteraan sosial dalam anggaran pendapatan dan belanja daerah; b. melaksanakan penyelenggaraan kesejahteraan sosial lintas kabupaten/kota, termasuk dekonsentrasi dan tugas pembantuan; c. memberikan . . . c. memberikan bantuan sosial sebagai stimulan kepada masyarakat yang menyelenggarakan kesejahteraan sosial; d. memelihara taman makam pahlawan; dan e. melestarikan nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Wewenang pemerintah provinsi dalam penyelenggaraan kesejahteraan sosial meliputi: a. penetapan kebijakan penyelenggaraan kesejahteraan sosial yang bersifat lintas kabupaten/kota selaras dengan kebijakan pembangunan nasional di bidang kesejahteraan sosial; b. penetapan kebijakan kerja sama dalam penyelenggaraan kesejahteraan sosial dengan lembaga kesejahteraan sosial nasional; c. pemberian izin dan pengawasan pengumpulan sumbangan dan penyaluran bantuan sosial sesuai dengan kewenangannya; d. koordinasi pelaksanaan program penyelenggaraan kesejahteraan sosial; e. pemeliharaan taman makam pahlawan; dan f. pelestarian nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Tanggung jawab pemerintah kabupaten/kota dalam menyelenggarakan kesejahteraan sosial meliputi: a. mengalokasikan . . . a. mengalokasikan anggaran untuk penyelenggaraan kesejahteraan sosial dalam anggaran pendapatan dan belanja daerah; b. melaksanakan penyelenggaraan kesejahteraan sosial di wilayahnya/bersifat lokal, termasuk tugas pembantuan; c. memberikan bantuan sosial sebagai stimulan kepada masyarakat yang menyelenggarakan kesejahteraan sosial; d. memelihara taman makam pahlawan; dan e. melestarikan nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Wewenang pemerintah kabupaten/kota dalam penyelenggaraan kesejahteraan sosial meliputi: a. penetapan kebijakan penyelenggaraan kesejahteraan sosial yang bersifat lokal selaras dengan kebijakan pembangunan nasional dan provinsi di bidang kesejahteraan sosial; b. koordinasi pelaksanaan program penyelenggaraan kesejahteraan sosial di wilayahnya; c. pemberian izin dan pengawasan pengumpulan sumbangan dan penyaluran bantuan sosial sesuai dengan kewenangannya; d. pemeliharaan taman makam pahlawan; dan e. pelestarian nilai kepahlawanan, keperintisan, dan kesetiakawanan sosial. Pasal 31 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Pemerintah dan pemerintah daerah melakukan koordinasi dalam perencanaan, pelaksanaan, dan pengendalian penyelenggaraan kesejahteraan sosial. SUMBER DAYA PENYELENGGARAAN KESEJAHTERAAN",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "SUMBER DAYA PENYELENGGARAAN KESEJAHTERAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Sumber daya penyelenggaraan kesejahteraan sosial meliputi: a. sumber daya manusia; b. sarana dan prasarana; serta c. sumber pendanaan. Bagian Kedua Sumber Daya Manusia",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber daya manusia sebagaimana dimaksud dalam Pasal 32 huruf a terdiri atas: a. tenaga kesejahteraan sosial;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pekerja sosial profesional;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "relawan . . . c. relawan sosial; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penyuluh sosial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tenaga kesejahteraan sosial, pekerja sosial profesional, dan penyuluh sosial sebagaimana dimaksud pada ayat (1) huruf a, huruf b, dan huruf d sekurang-kurangnya memiliki kualifikasi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendidikan di bidang kesejahteraan sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelatihan dan keterampilan pelayanan sosial; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-33/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengalaman melaksanakan pelayanan sosial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Tenaga kesejahteraan sosial, pekerja sosial profesional, dan penyuluh sosial sebagaimana dimaksud dalam Pasal 33 ayat (1) huruf a, huruf b, dan huruf d dapat memperoleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelatihan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "promosi; d. tunjangan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penghargaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Bagian Ketiga . . . Bagian Ketiga Sarana dan Prasarana",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sarana dan prasarana sebagaimana dimaksud dalam Pasal 32 huruf b meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "panti sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pusat rehabilitasi sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pusat pendidikan dan pelatihan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pusat kesejahteraan sosial; e. f. rumah singgah; rumah perlindungan sosial.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sarana dan prasarana sebagaimana dimaksud pada ayat (1) memiliki standar minimum yang ditetapkan oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai standar sarana dan prasarana sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah. Bagian Keempat Sumber Pendanaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sumber pendanaan sebagaimana dimaksud dalam Pasal 32 huruf c meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Anggaran Pendapatan dan Belanja Negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "anggaran pendapatan dan belanja daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sumbangan . . . c. sumbangan masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "dana yang disisihkan dari badan usaha sebagai kewajiban dan tanggung jawab sosial dan lingkungan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "bantuan asing sesuai dengan kebijakan Pemerintah dan peraturan perundang- undangan; serta f. sumber pendanaan yang sah berdasarkan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengalokasian sumber pendanaan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengumpulan dan penggunaan sumber pendanaan sebagaimana dimaksud pada ayat (1) huruf c, huruf d, huruf e, dan huruf f dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Usaha pengumpulan dan penggunaan sumber pendanaan yang berasal dari masyarakat bagi kepentingan kesejahteraan sosial selain sebagaimana ditetapkan dalam Pasal 36 ayat (3) dilaksanakan oleh Menteri, gubernur, bupati/walikota sesuai dengan kewenangannya. BAB VII . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PERAN MASYARAKAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Masyarakat mempunyai kesempatan yang seluas- luasnya untuk berperan dalam penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peran sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perseorangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keluarga; c. organisasi keagamaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "organisasi sosial kemasyarakatan; e. f. lembaga swadaya masyarakat; organisasi profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "badan usaha; h. lembaga kesejahteraan sosial; dan i. lembaga kesejahteraan sosial asing.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-38/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peran sebagaimana dimaksud pada ayat (2) dilakukan untuk mendukung keberhasilan penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Organisasi profesi sebagaimana dimaksud dalam Pasal 38 ayat (2) huruf f, terdiri atas : a. b. c. ikatan pekerja sosial profesional; lembaga pendidikan pekerjaan sosial; dan lembaga kesejahteraan sosial. menetapkan kode etik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk . . . Untuk menjaga dan menegakkan profesionalisme, organisasi profesi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Peran badan usaha sebagaimana dimaksud dalam Pasal 38 huruf g dalam penyelenggaraan kesejahteraan sosial dilakukan sebagai tanggung jawab sosial dan lingkungan sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Pemerintah memberikan penghargaan dan dukungan kepada masyarakat yang berperan dalam penyelenggaraan kesejahteraan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk melaksanakan peran masyarakat dalam penyelenggaraan kesejahteraan sosial dapat dilakukan koordinasi antar lembaga/organisasi sosial. diwujudkan dengan membentuk suatu lembaga koordinasi kesejahteraan sosial nonpemerintah dan bersifat terbuka, independen, serta mandiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelaksanaan koordinasi peyelenggaraan kesejahteraan sosial oleh masyarakat sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Lembaga . . . Lembaga koordinasi kesejahteraan sosial nonpemerintah, sebagaimana dimaksud pada ayat (2), dibentuk pada tingkat nasional, provinsi, dan kabupaten/kota. bersifat otonom, dan bukan merupakan lembaga yang mempunyai hubungan hierarki.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-42/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Lembaga koordinasi kesejahteraan sosial baik pada tingkat nasional, provinsi, maupun kabupaten/kota sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Lembaga koordinasi kesejahteraan sosial mempunyai tugas: a. mengkoordinasikan organisasi/lembaga sosial; b. membina organisasi/lembaga sosial; c. mengembangkan model pelayanan kesejahteraan sosial; d. menyelenggarakan forum komunikasi dan konsultasi penyelenggaraan kesejahteraan sosial; dan e. melakukan advokasi sosial dan advokasi anggaran terhadap lembaga/organisasi sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Pembentukan lembaga koordinasi sebagaimana dimaksud dalam Pasal 42 ayat (4) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Pasal 45 . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Ketentuan lebih lanjut mengenai peran masyarakat diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "PENDAFTARAN DAN PERIZINAN LEMBAGA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap lembaga yang menyelenggarakan kesejahteraan sosial wajib mendaftar kepada kementerian atau instansi di bidang sosial sesuai dengan wilayah kewenangannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pendaftaran sebagaimana dimaksud pada ayat (1) dilaksanakan dengan cepat, mudah, dan tanpa biaya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Pemerintah dan pemerintah daerah wajib mendata lembaga yang menyelenggarakan kesejahteraan sosial.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Lembaga kesejahteraan sosial asing dalam melakukan penyelenggaraan kesejahteraan sosial sebagaimana dimaksud dalam Pasal 38 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-48/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "huruf i wajib memperoleh izin dan melaporkan kegiatannya kepada Menteri, gubernur, dan bupati/walikota sesuai dengan kewenangannya. Pasal 49 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 46 ayat (1) dan Pasal 48 dikenai sanksi administratif berupa: a. peringatan tertulis; b. penghentian sementara dari kegiatan; c. pencabutan izin; dan/atau d. denda administratif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Ketentuan lebih lanjut mengenai tata cara pendaftaran bagi lembaga yang menyelenggarakan kesejahteraan sosial sebagaimana dimaksud dalam Pasal 46, dan pemberian izin penyelenggaraan kesejahteraan sosial bagi lembaga kesejahteraan sebagaimana dimaksud dalam Pasal 48, serta mekanisme pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 49 diatur dengan Peraturan Pemerintah. sosial asing",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "AKREDITASI DAN SERTIFIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-51/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Akreditasi dilakukan terhadap lembaga di bidang kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-51/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Akreditasi sebagaimana dimaksud pada ayat (1) dilaksanakan untuk menentukan tingkat kelayakan dan standardisasi penyelenggaraan kesejahteraan sosial. Pasal 52 . . .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sertifikasi dilakukan untuk menentukan kualifikasi dan kompetensi yang sesuai di bidang penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sertifikasi sebagaimana dimaksud pada ayat (1) berbentuk sertifikat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Sertifikat sebagaimana dimaksud pada ayat (2) diberikan kepada pekerja sosial profesional dan tenaga kesejahteraan sosial yang telah menyelesaikan suatu pendidikan dan/atau pelatihan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Sertifikat kompetensi sebagaimana dimaksud pada ayat (2) diberikan kepada pekerja sosial profesional dan tenaga kesejahteraan sosial oleh lembaga sertifikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pemberian sertifikat sebagaimana dimaksud pada ayat (4) dilakukan atas rekomendasi organisasi profesi sesuai dengan kewenangannya sebagai pengakuan terhadap kompetensi melakukan praktek pekerjaan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-52/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Sertifikat sebagaimana dimaksud pada ayat (4) diberikan setelah lulus uji kompetensi sebagai pengakuan terhadap kompetensi dalam melakukan penyelenggaraan kesejahteraan sosial tertentu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Ketentuan lebih lanjut mengenai akreditasi dan sertifikasi diatur dalam Peraturan Menteri. BAB X . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PEMBINAAN DAN PENGAWASAN SERTA PEMANTAUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan pemerintah daerah melakukan pembinaan dan pengawasan terhadap aktivitas pelaku penyelenggaraan kesejahteraan sosial sesuai dengan kewenangannya masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Masyarakat dapat melakukan pembinaan dan pengawasan terhadap aktivitas pelaku penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah dan pemerintah daerah melakukan pemantauan dan evaluasi terhadap penyelenggaraan kesejahteraan sosial sesuai dengan kewenangannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-11-tahun-2009/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemantauan dan evaluasi sebagaimana dimaksud pada ayat (1) dilakukan sebagai bentuk akuntabilitas dan pengendalian mutu penyelenggaraan kesejahteraan sosial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "Pembinaan dan pengawasan, serta pemantauan dan evaluasi sebagaimana dimaksud dalam Pasal 54 dan Pasal 55 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. BAB XI . . .",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-11-tahun-2009/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "ini, Pada saat mulai berlakunya Undang-Undang tentang Undang-Undang Nomor 6 Tahun 1974 Sosial Ketentuan-Ketentuan (Lembaran Negara Republik Indonesia Tahun 1974 Nomor 53, Tambahan Lembaran Negara Republik Indonesia Nomor 3039) dicabut dan dinyatakan tidak berlaku. Pokok Kesejahteraan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Peraturan pelaksanaan dari Undang-Undang Nomor 6 tentang Ketentuan-Ketentuan Pokok Tahun 1974 Kesejahteraan Sosial (Lembaran Negara Republik Indonesia Tahun 1974 Nomor 53, Tambahan Lembaran Negara Republik Indonesia Nomor 3039) yang ada pada saat diundangkannya Undang-Undang ini, masih tetap berlaku sepanjang tidak bertentangan atau diganti berdasarkan Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Peraturan pelaksanaan Undang-Undang ini harus sudah ditetapkan paling lambat 1 (satu) tahun sejak diundangkannya Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-11-tahun-2009/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Undang-Undang ini mulai berlaku pada tanggal diundangkan. Agar. . . Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 16 Januari 2009 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 16 Januari 2009 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. ANDI MATTALATTA LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 12 Salinan sesuai dengan aslinya SEKRETARIAT NEGARA RI Kepala Biro Peraturan Perundang-undangan Bidang Politik dan Kesejahteraan Rakyat, Wisnu Setiawan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

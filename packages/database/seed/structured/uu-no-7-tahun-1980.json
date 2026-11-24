@@ -1,0 +1,95 @@
+{
+ "slug": "uu-no-7-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan sub a, perlu mengadakan perubahan wilayah hukum Pengadilan Tinggi Semarang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-7-tahun-1980",
+   "detailsId": "47135",
+   "judul": "UU No. 7 Tahun 1980 tentang Pembentukan Pengadilan Tinggi Yogyakarta dan Perubahan Wilayah Hukum Pengadilan Tinggi Semarang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36002/UU%20Nomor%207%20Tahun%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:55.392180+00:00"
+  },
+  "sha256": "a6152b388b964e628dfcd3d9f8133b791f8b662e82c63d87867697dbb3b5b9eb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-7-tahun-1980/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-7-tahun-1980/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "membentuk Pengadilan Tinggi Yogyakarta yang berkedudukan di Yogyakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-7-tahun-1980/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Wilayah hukum pengadilan tinggi tersebut pada ayat (1) meliputi wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Istimewa Yogyakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1980/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Wilayah hukum Pengadilan Tinggi Semarang dikurangi wilayah hukum semua pengadilan negeri dalam Propinsi Daerah Istimewa Yogyakarta.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1980/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Perkara-perkara yang berasal dari pengadilan negeri dalam Propinsi Daerah Istimewa Yogyakarta, yang pada saat mulai berlakunya Undang-undang ini, belum diputus oleh Pengadilan Tinggi Semarang tetap didaftar, diperiksa dan diputus oleh Pengadilan Tinggi Semarang sampai saat diresmikannya Pengadilan Tinggi Yogyakarta. Undang-undang ini mulai berlaku pada tanggal diundangkannya.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-7-tahun-1980/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 29 Juli 1980 PRESIDEN REPUBLIK INDONESIA, SOEHARTO Diundangkan di Jakarta pada tanggal 29 Juli 1980 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

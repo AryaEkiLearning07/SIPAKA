@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Ubah Metadata UU (Kelola Konten Hukum)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Perubahan_metadata_UU" name="Perubahan metadata UU" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Konfirmasi_metadata_diperbarui" name="Konfirmasi metadata diperbarui" />
+  <bpmn:message id="Message_Daftar_kesalahan_metadata" name="Daftar kesalahan metadata" />
+  <bpmn:message id="Message_Metadata_diperbaiki" name="Metadata diperbaiki" />
+  <bpmn:dataStore id="d_uu-store" name="Undang-Undang" />
+  <bpmn:dataStore id="d_riw-store" name="Riwayat Perubahan UU" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Ubah Metadata UU" processRef="ubah_metadata_uu" />
+    <bpmn:participant id="admin" name="Admin" />
+    <bpmn:messageFlow id="m-admin-mulai" name="Perubahan metadata UU" sourceRef="admin" targetRef="mulai" messageRef="Message_Perubahan_metadata_UU" />
+    <bpmn:messageFlow id="m-tolak-admin" name="Akses ditolak" sourceRef="tolak" targetRef="admin" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-selesai-admin" name="Konfirmasi metadata diperbarui" sourceRef="selesai" targetRef="admin" messageRef="Message_Konfirmasi_metadata_diperbarui" />
+    <bpmn:messageFlow id="m-pesan-admin" name="Daftar kesalahan metadata" sourceRef="pesan" targetRef="admin" messageRef="Message_Daftar_kesalahan_metadata" />
+    <bpmn:messageFlow id="m-admin-perbaiki" name="Metadata diperbaiki" sourceRef="admin" targetRef="perbaiki" messageRef="Message_Metadata_diperbaiki" />
+  </bpmn:collaboration>
+  <bpmn:process id="ubah_metadata_uu" name="Ubah Metadata UU (Kelola Konten Hukum)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Perubahan metadata diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Perubahan_metadata_UU" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="valid" name="Validasi perubahan metadata" />
+    <bpmn:exclusiveGateway id="ok" name="Metadata valid?" default="f-ok-pesan" />
+    <bpmn:serviceTask id="simpan" name="Simpan perubahan metadata">
+      <bpmn:ioSpecification id="simpan-io">
+        <bpmn:dataOutput id="simpan-out-1" name="Undang-Undang" />
+        <bpmn:inputSet id="simpan-inputs" />
+        <bpmn:outputSet id="simpan-outputs">
+          <bpmn:dataOutputRefs>simpan-out-1</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="simpan-doa-1">
+        <bpmn:sourceRef>simpan-out-1</bpmn:sourceRef>
+        <bpmn:targetRef>d_uu</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="riwayat" name="Catat riwayat perubahan metadata">
+      <bpmn:ioSpecification id="riwayat-io">
+        <bpmn:dataOutput id="riwayat-out-2" name="Riwayat Perubahan UU" />
+        <bpmn:inputSet id="riwayat-inputs" />
+        <bpmn:outputSet id="riwayat-outputs">
+          <bpmn:dataOutputRefs>riwayat-out-2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="riwayat-doa-2">
+        <bpmn:sourceRef>riwayat-out-2</bpmn:sourceRef>
+        <bpmn:targetRef>d_riw</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="selesai" name="Metadata UU diperbarui">
+      <bpmn:messageEventDefinition id="selesai-def" messageRef="Message_Konfirmasi_metadata_diperbarui" />
+    </bpmn:endEvent>
+    <bpmn:sendTask id="pesan" name="Kirim daftar kesalahan metadata" messageRef="Message_Daftar_kesalahan_metadata" />
+    <bpmn:receiveTask id="perbaiki" name="Terima metadata yang diperbaiki" messageRef="Message_Metadata_diperbaiki" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-valid" name="ya" sourceRef="izin" targetRef="valid">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-valid-ok" sourceRef="valid" targetRef="ok" />
+    <bpmn:sequenceFlow id="f-ok-simpan" name="ya" sourceRef="ok" targetRef="simpan">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">metadataValid</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-ok-pesan" name="tidak" sourceRef="ok" targetRef="pesan" />
+    <bpmn:sequenceFlow id="f-pesan-perbaiki" sourceRef="pesan" targetRef="perbaiki" />
+    <bpmn:sequenceFlow id="f-perbaiki-valid" sourceRef="perbaiki" targetRef="valid" />
+    <bpmn:sequenceFlow id="f-simpan-riwayat" sourceRef="simpan" targetRef="riwayat" />
+    <bpmn:sequenceFlow id="f-riwayat-selesai" sourceRef="riwayat" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_uu" name="Undang-Undang" dataStoreRef="d_uu-store" />
+    <bpmn:dataStoreReference id="d_riw" name="Riwayat Perubahan UU" dataStoreRef="d_riw-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="1020" height="370" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="admin_di" bpmnElement="admin" isHorizontal="true">
+        <dc:Bounds x="0" y="410" width="1020" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="52" y="14" width="52" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="327" y="98" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="428" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="367" y="221" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="valid_di" bpmnElement="valid">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ok_di" bpmnElement="ok" isMarkerVisible="true">
+        <dc:Bounds x="546" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="576" y="98" width="46" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="simpan_di" bpmnElement="simpan">
+        <dc:Bounds x="646" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="riwayat_di" bpmnElement="riwayat">
+        <dc:Bounds x="796" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="946" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="933" y="26" width="62" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pesan_di" bpmnElement="pesan">
+        <dc:Bounds x="646" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="perbaiki_di" bpmnElement="perbaiki">
+        <dc:Bounds x="796" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_uu_di" bpmnElement="d_uu">
+        <dc:Bounds x="671" y="290" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="659" y="345" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_riw_di" bpmnElement="d_riw">
+        <dc:Bounds x="821" y="290" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="798" y="345" width="96" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-admin-mulai_di" bpmnElement="m-admin-mulai">
+        <di:waypoint x="78" y="410" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="237" width="102" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-admin_di" bpmnElement="m-tolak-admin">
+        <di:waypoint x="446" y="218" />
+        <di:waypoint x="446" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="451" y="302" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-selesai-admin_di" bpmnElement="m-selesai-admin">
+        <di:waypoint x="964" y="88" />
+        <di:waypoint x="964" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="903" y="94" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-pesan-admin_di" bpmnElement="m-pesan-admin">
+        <di:waypoint x="746" y="208" />
+        <di:waypoint x="772" y="208" />
+        <di:waypoint x="772" y="410" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="677" y="382" width="90" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-admin-perbaiki_di" bpmnElement="m-admin-perbaiki">
+        <di:waypoint x="916" y="410" />
+        <di:waypoint x="916" y="208" />
+        <di:waypoint x="896" y="208" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="855" y="382" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="simpan-doa-1_di" bpmnElement="simpan-doa-1">
+        <di:waypoint x="696" y="110" />
+        <di:waypoint x="696" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="riwayat-doa-2_di" bpmnElement="riwayat-doa-2">
+        <di:waypoint x="846" y="110" />
+        <di:waypoint x="846" y="290" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-valid_di" bpmnElement="f-izin-valid">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="428" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-valid-ok_di" bpmnElement="f-valid-ok">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ok-simpan_di" bpmnElement="f-ok-simpan">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="604" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ok-pesan_di" bpmnElement="f-ok-pesan">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="200" />
+        <di:waypoint x="646" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="579" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pesan-perbaiki_di" bpmnElement="f-pesan-perbaiki">
+        <di:waypoint x="746" y="200" />
+        <di:waypoint x="796" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-perbaiki-valid_di" bpmnElement="f-perbaiki-valid">
+        <di:waypoint x="846" y="160" />
+        <di:waypoint x="846" y="130" />
+        <di:waypoint x="446" y="130" />
+        <di:waypoint x="446" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-simpan-riwayat_di" bpmnElement="f-simpan-riwayat">
+        <di:waypoint x="746" y="70" />
+        <di:waypoint x="796" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-riwayat-selesai_di" bpmnElement="f-riwayat-selesai">
+        <di:waypoint x="896" y="70" />
+        <di:waypoint x="946" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

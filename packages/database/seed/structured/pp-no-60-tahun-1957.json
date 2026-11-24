@@ -1,0 +1,53 @@
+{
+ "slug": "pp-no-60-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "bahwa, berhubung dengan berlakunya Undang-undang keadaan Bahaya 1957, perlu mencabut Peraturan Pemerintah No. 55 tahun 1954 dan semua Keputusan Presiden serta semua Keputusan Menteri penunjukkan/pengangkatan penguasa-penguasa militer sebagai yang dimaksud dalam Regeling of de Staat van Oorlog en van Beleg yang dengan undang-undang Keadaan Bahaya tersebut telah dicabut; Pertahanan tentang Mengingat : 1. 2. 3. Pasal 7 juncto pasal 60 Undang-undang Keadaan Bahaya 1957 (Undang-undang No. 74 tahun 1957, Lembaran Negara tahun 1957 No. 160); Peraturan Pemerintah No. 55 tahun 1954 (Lembaran Negara tahun 1954 No. 96), segala Keputusan Presiden dan tentang Keputusan penunjukan/pengangkatan penguasa-penguasa militer; Keputusan Presiden No. 225 tanggal 17 Desember 1957 tentang pernyataan seluruh wilayah Negara Indonesia dalam keadaan perang menurut Republik Undang-undang Keadaan Bahaya 1957; tahun 1957 Pertahanan Menteri"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-60-tahun-1957",
+   "detailsId": "76902",
+   "judul": "PP No. 60 Tahun 1957 tentang Pencabutan Peraturan Pemerintah No. 55 Tahun 1954 (Lembaran Negara Tahun 1954 Nomor 96), Keputusan-Keputusan Presiden dan Keputusan-Keputusan Menteri Pertahanan Tentang Penunjukan/Pengangkatan Penguasa-Penguasa Militer - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67893/PP%20No.%2060%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-55-tahun-1954"
+   ],
+   "scrapedAt": "2026-10-06T06:05:08.417758+00:00"
+  },
+  "sha256": "64613473ee55e00877e68e56a7d66a371d82cd32a918ba54a2e6f860f05fb9bd",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-60-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 17 Desember 1957. Agar Supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 17 Desember 1957. PRESIDEN REPUBLIK INDONESIA, ttd. SOEKARNO PERDANA MENTERI/MENTERI PERTAHANAN, ttd. DJUANDA Diundangkan pada tanggal 17 Desember 1957. MENTERI KEHAKIMAN, ttd. G.A. MAENGKOM",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

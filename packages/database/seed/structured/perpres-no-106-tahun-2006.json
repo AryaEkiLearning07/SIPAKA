@@ -1,0 +1,79 @@
+{
+ "slug": "perpres-no-106-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka memenuhi tenaga terdidik serta guna mewujudkan sumber daya manusia berkualitas di bidang ilmu pengetahuan Agama Islam, dipandang perlu mendirikan Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala Langsa sebagai perguruan tinggi di lingkungan Departemen Agama;",
+   "bahwa Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala Langsa merupakan pengalihan dari Sekolah Tinggi Agama Islam Zawiyah Cot Kala Langsa yang dikelola oleh Yayasan Perguruan Islam Zawiyah Cot Kala Langsa yang pengalihan asetnya telah dilakukan oleh Yayasan Perguruan Islam Zawiyah Cot Kala Langsa kepada Pemerintah yang dalam hal ini diwakili oleh Pejabat yang berwenang di lingkungan Departemen Agama sesuai dengan ketentuan peraturan perundang-undangan;",
+   "bahwa sehubungan dengan hal-hal tersebut sebagaimana dimaksud dalam huruf a dan huruf b, dipandang perlu menetapkan Peraturan Presiden tentang Pendirian Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala Langsa;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-106-tahun-2006",
+   "detailsId": "42035",
+   "judul": "PERPRES No. 106 Tahun 2006 tentang Pendirian Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala Langsa - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/72194/PRPS%20NO%20106%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:30.228345+00:00"
+  },
+  "sha256": "88c04ed9c27d088056fd1600c72babc457e529cde97d41a9792ba52d3e840916",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-106-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-106-tahun-2006/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Mendirikan Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala (2) Langsa. Sekolah Tinggi Agama Islam Negeri Zawiyah Cot Kala Langsa merupakan perguruan tinggi di lingkungan Departemen Agama.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-106-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Presiden ini, diatur oleh Menteri Pendidikan Nasional dan Menteri Agama, baik secara bersama-sama maupun sendiri-sendiri sesuai dengan bidang tugasnya masing- masing dengan memperhatikan ketentuan peraturan perundang-undangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-106-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal 28 Desember 2006 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

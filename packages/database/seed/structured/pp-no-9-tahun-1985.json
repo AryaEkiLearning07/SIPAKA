@@ -1,0 +1,44 @@
+{
+ "slug": "pp-no-9-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa gaji pokok Menteri Negara Republik Indonesia sebagaimana ditetapkan dalam Peraturan Pemerintah Nomor 10 Tahun 1977 dipandang tidak sesuai lagi dengan perkembangan keadaan, dan oleh sebab itu perlu diperbaiki;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-9-tahun-1985",
+   "detailsId": "64461",
+   "judul": "PP No. 9 Tahun 1985 tentang Perubahan Peraturan Pemerintah Nomor 50 Tahun 1980 Tentang Hak Keuangan/Administratif Menteri Negara Dan Bekas Menteri Negara Serta Janda/Dudanya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54676/PP%20NO%209%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-10-tahun-1977",
+    "pp-no-50-tahun-1980"
+   ],
+   "scrapedAt": "2026-10-06T00:49:55.855582+00:00"
+  },
+  "sha256": "b2801d1e373ebe6dcdc59c2e1a6b35eee1fa7505d1d9dbf82a7507a05a88c8a3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

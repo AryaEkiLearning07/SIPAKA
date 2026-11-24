@@ -1,0 +1,1990 @@
+{
+ "slug": "uu-no-36-tahun-1999",
+ "preamble": {
+  "menimbang": [
+   "bahwa tujuan adalah mewujudkan masyarakat adil dan makmur yang merata meteriil dan spiritual berdasarkan Pancasila dan Undang-Undang Dasar 1945; pembangunan nasional",
+   "bahwa penyelenggaraan telekomunikasi mempunyai arti strategis dalam upaya memperkukuh persatuan dan kesatuan bangsa, memperlancar kegiatan pemerintahan, mendukung terciptanya tujuan pemerataan pembangunan dan hasil-hasilnya, serta meningkatkan hubungan antar bangsa;",
+   "bahwa pengaruh globalisasi teknologi telekomukasi yang sangat pesat telah mengakibatkan perubahan yang mendasar dalam penyelenggaraan dan cara pandang terhadap telekomunikasi; perkembangan dan",
+   "bahwa segala sesuatu yang berkaitan dengan perubahan mendasar dalam penyelenggaraan dan cara pandang terhadap telekomunikasi tersebut, perlu dilakukan penataan dan pengaturan kembali penyelenggaraan telekomunikasi nasional;",
+   "bahwa sehubungan dengan hal-hal atas, maka Undang-Undang Nomor 3 Tahun 1989 tentang Telekomunikasi dipandang tidak sesuai lagi, sehingga perlu diganti. tersebut di"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "45357",
+   "slug": "uu-no-36-tahun-1999",
+   "nomor": 36,
+   "tahun": 1999,
+   "jenis": "UU",
+   "judul": "UU No. 36 Tahun 1999 tentang Telekomunikasi - JDIH BPK",
+   "lnNumber": null,
+   "tlnNumber": null,
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33857/UU%20Nomor%2036%20Tahun%201999.pdf",
+   "diubahOleh": [],
+   "mencabut": [
+    "uu-no-3-tahun-1989"
+   ],
+   "scrapedAt": "2026-10-05T15:57:48.672607+00:00"
+  },
+  "sha256": "a451093ca2a41f608083822de3826fa73a5e54949d11fb1e9e44197e8e77da1c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 9,
+  "pasal": 64,
+  "ayat_angka": 94,
+  "huruf": 42
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Telekomunikasi adalah setiap pemancaran, pengiriman dan atau penerimaan dari hasil informasi dalam bentuk tanda-tanda, isyarat, tulisan, gambar, suara dan bunyi melalui sistem kawat, optik, radio, atau sistem elektromagnetik lainnya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Alat telekomunikasi adalah setiap alat perlengkapan yang digunakan dalam bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Perangkat telekomunikasi adalah sekelompok alat telekomunikasi yang memungkinkan bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Sarana dan prasarana telekomunikasi adalah segala sesuatu yang memungkinkan dan mendukung berfungsinya telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Pemancar radio adalah alat telekomunikasi yang menggunakan dan memancarkan gelombang radio;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Jaringan telekomunikasi adalah rangkaian telekomunikasi dan kelengkapannya yang digunakan dalam bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Jasa telekomunikasi adalah layanan telekomunikasi untuk memenuhi jaringan dengan menggunakan bertelekomunikasi kebutuhan telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Penyelanggara telekomunikasi adalah perseroan, koperasi, Badan Usaha Milik Daerah (BUMD), Badan Usaha Milik Negara (BUMN), badan usaha swasta, instansi pemerintah, dan instansi pertahanan keamanan negara;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Pelanggan adalah perseorangan, badan hukum, instansi pemerintah jasa telekomunikasi jaringan atau dan yang menggunakan telekomunikasi berdasarkan kontrak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Pemakai adalah perseorangan, badan hukum, instansi pemerintah jasa yang menggunakan telekomunikasi yang tidak berdasarkan kontrak; telekomunikasi jaringan atau dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-11",
+       "type": "ANGKA",
+       "orderIndex": 11,
+       "label": "Angka 11",
+       "content": "Pengguna adalah pelanggan dan pemakai;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Penyelenggaraan telekomunikasi adalah kegiatan penyediaan dan pelayanan telekomunikasi sehingga memungkinkan terselenggaranya telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Penyelenggaraan dan penyediaan memungkinkan terselenggaranya telekomunikasi; jaringan atau telekomunikasi pelayanan jasa adalah telekomunikasi kegiatan yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Penyelenggaraan jasa telekomunikasi adalah kegiatan penyediaan dan atau pelayanan jasa telekomunikasi yang memungkinkan terselenggaranya telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Penyelenggaraan telekomunikasi khusus adalah penyelenggaraan telekomunikasi yang sifat, peruntukan, dan pengoperasiannya khusus;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Interkoneksi adalah keterhubungan antar jaringan telekomunikasi dari penyelenggara jaringan telekomunikasi yang berbeda;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Menteri ruang tanggungjawabnya di bidang telekomunikasi. adalah Menteri yang lingkup tugas dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ASAS DAN TUJUAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Telekomunikasi diselenggarakan berdasarkan asas manfaat, adil dan merata, kepastian hukum, keamanan, kemitraan, etika dan kepercayaan pada diri sendiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Telekomunikasi diselenggarakan dengan tujuan untuk mendukung persatuan dan kesatuan bangsa, meningkatkan kesejahteraan dan kemakmuran rakyat secara adil dan merata, mendukung kehidupan ekonomi dan kegiatan pemerintahan, serta meningkatkan hubungan antarbangsa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PEMBINAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Telekomunikasi dikuasai oleh Negara dan pembinaannya dilakukan oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembinaan telekomunikasi untuk meningkatkan penyelenggaraan telekomunikasi yang meliputi penetapan kebijakan, pengaturan, pengawasan dan pengendalian. diarahkan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam penetapan kebijakan, dan pengendalian di bidang telekomunikasi, sebagaimana dimaksud pada ayat (2), dilakukan secara menyeluruh dan terpadu dengan memperhatikan pemikiran dan pandangan yang berkembang dalam masyarakat serta perkembangan global. pengawasan pengaturan,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pelaksanan pembinaan telekomunikasi sebagaimana dimaksud dalam Pasal 4, Pemerintahan melibatkan peran serta masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Peran serta masyarakat sebagaimana dimaksud pada ayat (1), berupa penyampaian pemikiran dan pandangan yang berkembang dalam masyarakat mengenai arah pengembangan pertelekomunikasian dalam rangka penetapan kebijakan, pengaturan, pengendalian dan pengawasan di bidang telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan peran serta masyarakat sebagaimana dimaksud pada ayat (2), diselenggarakan oleh lembaga mandiri yang dibentuk untuk maksud tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-5/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Lembaga sebagaimana dimaksud pada ayat (3) keanggotaannya terdiri dari asosiasi yang bergerak di bidang usaha telekomunikasi, asosiasi peralatan telekomunikasi, asosiasi pengguna jaringan, dan jasa telekomunikasi intelektual di bidang telekomunikasi. komunikasi, produsen asosiasi profesi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-5/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan mengenai cara peran serta masyarakat dan pembetulan lembaga sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Pemerintah. tata",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Menteri telekomunikasi Indonesia. bertindak sebagai penanggung jawab administrasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENYELENGGARAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan telekomunikasi meliputi :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyelenggaraan jaringan telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penyelenggaraan jasa telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyelenggaraan telekomunikasi khusus.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam penyelenggaraan telekomunikasi, diperhatikan hal-hal sebagai berikut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melindungi kepentingan dan keamanan negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "mengantisipasi perkembangan teknologi dan tuntutan global;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dilakukan secara profesional dan dapat dipertanggungjawabkan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-7/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "peran serta masyarakat. Bagian Kedua Penyelenggara",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan jaringan telekomunikasi dan atau penyelenggaraan jasa telekomunikasi sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf a dan huruf b, dapat dilakukan oleh badan hukum yang didirikan peraturan tersebut untuk maksud perundang-undangan yang berlaku, yaitu : berdasarkan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Badan Usaha Milik Negara (BUMN);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Badan Usaha Milik Daerah (BUMD);",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Badan Usaha Swasta; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "koperasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan telekomunikasi khusus sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf c, dapat dilakukan oleh :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perseorangan; b. instansi pemerintah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "badan hukum selain penyelenggara jaringan telekomunikasi dan atau penyelenggara jasa telekomunikasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai penyelenggaraan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara jaringan telekomunikasi sebagaimana dimaksud dalam Pasal 8 ayat (1) dapat menyelenggarakan jasa telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggara jasa telekomunikasi sebagaimana dimaksud dalam Pasal 8 ayat (1) dalam menyelenggarakan jasa telekomunikasi, menggunakan dan atau menyewa jaringan telekomunikasi milik penyelenggara jaringan telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyelenggara telekomunikasi khusus sebagaimana dimaksud dalam Pasal 8 ayat (2), dapat menyelenggarakan telekomunikasi untuk :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "keperluan sendiri;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keperluan pertahanan keamanan negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "keperluan penyiaran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyelenggaraan telekomunikasi khusus sebagaimana dimaksud pada ayat (3) huruf a, tersendiri dari penyelenggaraan telekomunikasi untuk keperluan :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perseorangan; b. instansi pemerintah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "dinas khusus;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "badan hukum.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-9/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan mengenai persyaratan penyelenggaraan telekomunikasi sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3) dan ayat (4) diatur dengan Peraturan Pemerintah. Bagian Ketiga Larangan Praktek Monopoli",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam penyelenggaraan dilarang melakukan kegiatan yang dapat mengakibatkan terjadiya praktek monopoli dan penyelenggara sehat persaingan telekomunikasi. telekomunikasi antara usaha tidak di sesuai dengan Bagian Keempat Perizinan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Larangan sebagaimana dimaksud pada ayat peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan telekomunikasi sebagaimana dalam Pasal 7 dapat diselenggarakan setelah mendapat izin dari Menteri. diberikan dengan memperhatikan : a. tata cara yang sederhana;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-11/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "proses yang transparan, adil dan tidak diskriminatif; serta",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-11/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyelesaian dalam waktu yang singkat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Izin sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai perizinan penyelenggaraan telekomunikasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah. Bagian Kelima Hak dan Kewajiban Penyelenggara dan Masyarakat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pembangunan, pengoperasian, dan atau pemeliharaan jaringan dapat memanfaatkan atau melintasi tanah negara dan atau bangunan yang dimiliki atau dikuasai Pemerintah. telekomunikasi, telekomunikasi penyelenggara",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemanfaatan atau pelintasan tanah negara dan atau bangunan sebagaimana dimaksud pada ayat (1), berlaku pula terhadap sungai, danau, atau laut, baik permukaan maupun dasar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pembangunan, pengoperasian dan atau pemeliharaan jaringan telekomunikasi sebagaimana dimaksud pada ayat (1), dilaksanakan instansi pemerintah yang setelah mendapatkan persetujuan dari bertanggung peraturan dengan jawab perundang-undangan yang berlaku. memperhatikan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Penyelenggara telekomunikasi dapat memanfaatkan atau melintasi tanah dan atau bangunan milik perseorangan untuk tujuan pembangunan, pengoperasian atau pemeliharaan jaringan telekomunikasi setelah terdapat persetujuan di antara para pihak.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Setiap pengguna telekomunikasi mempunyai hak yang sama untuk menggunakan jaringan telekomunikasi dan jasa telekomunikasi dengan memperhatikan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Atas kesalahan dan atau kelalaian penyelenggara telekomunikasi yang menimbulkan kerugian, maka pihak-pihak yang dirugikan berhak mengajukan tuntutan ganti rugi kepada penyelenggara telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggara telekomunikasi wajib memberikan rugi sebagaimana dimaksud pada ayat (1), kecuali penyelenggara telekomunikasi dapat membuktikan bahwa kerugian tersebut bukan diakibatkan oleh kesalahan dan atau kelalainnya. ganti",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tata cara pengajuan dan penyelesaian ganti rugi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap penyelenggara atau penyelenggara jasa telekomunikasi wajib memberikan kontribusi dalam pelayanan universal. telekomunikasi jaringan dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kontribusi pelayanan universal sebagaimana dimaksud pada ayat (1) berbentuk penyediaan sarana dan prasarana telekomunikasi dan atau kompensasi lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan kontribusi pelayanan universal sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Penyelenggaraan jaringan telekomunikasi dan atau penyelenggaraan jasa telekomunikasi wajib menyediakan telekomunikasi berdasarkan prinsip : pelayanan a. perlakuan yang sama dan pelayanan yang sebaik-baiknya bagi semua pengguna; b. peningkatan efisiensi dalam penyelenggaraan telekomunikasi; dan c. pemenuhan standar pelayanan serta standar penyediaan sarana dan prasarana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara jasa telekomunikasi wajib mencatat/merekam secara rinci pemakaian jasa telekomunikasi yang digunakan oleh pengguna telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila pengguna memerlukan catatan/rekaman pemakaian jasa telekomunikasi sebagaimana dimaksud pada ayat (1), penyelenggara telekomunikasi wajib memberikannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai jasa telekomunikasi sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. pencatatan/perekaman pemakaian",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Penyelenggara jaringan telekomunikasi wajib menjamin kebebasan penggunanya memilih jaringan telekomunikasi lain untuk pemenuhan kebutuhan telekomunikasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Setiap penyelenggara telekomunikasi wajib memberikan prioritas untuk pengiriman, penyaluran dan penyampaian informasi penting yang menyangkut : a. keamanan negara; b. keselamatan jiwa manusia dan harta benda; c. bencana alam; d. marabahaya; dan atau e. wabah penyakit;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Penyelenggara telekomunikasi dilarang melakukan kegiatan usaha penyelenggaraan telekomunikasi yang bertentangan dengan kepentingan umum, kesusilaan, keamanan atau ketertiban umum.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Setiap orang dilarang melakukan perbuatan tanpa hak, tidak sah atau memanipulasi : a. akses ke jaringan telekomunikasi; dan atau b. akses ke jasa telekomunikasi; dan atau c. akses ke jaringan telekomunikasi khusus. Bagian Keenam Penomoran",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "(1) (2) Dalam penyelenggaraan jaringan telekomunikasi dan jasa telekomunikasi ditetapkan dan digunakan sistem penomoran. Sistem penomoran sebagaimana dimaksud pada ditetapkan oleh Menteri. ayat (1)",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Permintaan penomoran oleh penyelenggara jaringan telekomunikasi dan atau penyelenggara jasa telekomunikasi diberikan berdasarkan sistem penomoran sebagaimana dimaksud dalam Pasal 23. Bagian Ketujuh Interkoneksi dan Biaya Hak Penyelenggaraan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap penyelenggara jaringan telekomunikasi berhak mendapatkan telekomunikasi lainnya. interkoneksi dari penyelenggara untuk jaringan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Setiap penyelenggara jaringan telekomunikasi wajib menyediakan jaringan penyelenggara diminta oleh apabila interkoneksi telekomunikasi lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan hak dan kewajiban sebagaimana dimaksud pada yat (1) dan ayat (2) dilakukan berdasarkan prinsip :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemanfaatan sumber daya secara efisien;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keserasian sistem dan perangkat telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "peningkatan mutu pelayanan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "persaingan sehat yang tidak saling merugikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-25/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan mengenai interkoneksi jaringan telekomunikasi, hak dan kewajiban sebagaimana dimaksud pada ayat (1), ayat (2) dan ayat (3) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-26/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap penyelenggara atau penyelenggara jasa telekomunikasi wajib membayar biaya hak penyelenggaraan telekomunikasi yang diambil dari prosentase pendapatan. telekomunikasi jaringan dan diatur dengan Peraturan sebagaimana dimaksud pada ayat Pemerintah. Bagian Kedelapan Tarif",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-26/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai biaya hak penyelenggaraan telekomunikasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Susunan tarif penyelenggaraan jaringan telekomunikasi dan atau tarif Peraturan penyelenggaraan Pemerintah. telekomunikasi dengan diatur jasa",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Besaran tarif penyelenggaraan jaringan telekomunikasi dan atau jasa telekomunikasi ditetapkan oleh penyelenggara jaringan telekomunikasi dan atau jasa telekomunikasi dengan berdasarkan formula yang ditetapkan oleh Pemerintah. Bagian Kesembilan Telekomunikasi Khusus",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-29/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan telekomunikasi khusus sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf a dan huruf b, dilarang disambungkan ke jaringan penyelenggara telekomunikasi lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-29/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyelenggaraan telekomunikasi khusus sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf c, dapat disambungkan ke jaringan penyelenggara telekomunikasi lainnya sepanjang digunakan untuk keperluan penyiaran.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal penyelenggaraan jaringan telekomunikasi dan atau penyelenggara jasa telekomunikasi belum dapat menyediakan akses di daerah tertentu, maka penyelenggara telekomunikai khusus sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf a, dapat menyelenggarakan jasa telekomunikasi dan atau jasa telekomunikasi sebagaimana dimaksud dalam Pasal 7 ayat (1) huruf a dan huruf b setelah mendapat izin Menteri. telekomunikasi jaringan atau dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam hal penyelenggara jaringan telekomunikasi dan atau penyelenggara jasa telekomunikasi sudah dapat menyediakan akses di daerah sebagaimana dimaksud pada ayat (1), maka penyelenggara dapat melakukan telekomunikasi dimaksud jasa atau dan penyelenggaraan telekomunikasi. tetap telekomunikasi jaringan khusus",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Syarat-syarat untuk mendapatkan izin sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam keadaan penyelenggara telekomunikasi khusus untuk keperluan pertahanan keamanan negara sebagaimana dimaksud dalam Pasal 9 ayat (3) huruf b belum atau tidak mampu mendukung kegiatannya, penyelenggara telekomunikasi khusus dimaksud dapat menggunakan atau memanfaatkan jaringan telekomunikasi yang dimiliki dan atau digunakan oleh penyelenggara telekomunikasi lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. Bagian Kesepuluh Perangkat Telekomunikasi Spektrum, Frekuensi Radio, dan Orbit Satelit",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat telekomunikasi yang diperdagangkan, dibuat,dirakit, dimasukkan dan atau digunakan di wilayah Republik Indonesia wajib memperhatikan persyaratan teknis dan berdasarkan izin sesuai dengan peraturan perundang-undangan yang berlaku. diatur dengan Peraturan sebagaimana dimaksud pada ayat Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-32/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan mengenai persyaratan teknis perangkat telekomunikasi",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan spektrum frekuensi mendapatkan izin Pemerintah. radio dan orbit satelit wajib",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penggunaan spektrum frekuensi radio dan orbit satelit harus sesuai dengan peruntukannya dan tidak saling mengganggu.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pemerintah melakukan pengawasan dan pengendalian penggunaan spektrum frekuensi radio dan orbit satelit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-33/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan penggunaan spektrum frekuensi radio dan orbit satelit yang digunakan dalam penyelenggaraan telekomunikasi diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengguna spektrum frekuensi radio wajib membayar biaya penggunaan, frekuensi yang besarannya didasarkan atas penggunaan jenis dan lebar pita frekuensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-34/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penggunaan orbit satelit wajib membayar biaya hak penggunaan orbit satelit.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai biaya sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat telekomunikasi yang digunakan oleh kapal berbendera asing dari dan ke wilayah perairan Indonesia dan atau yang dioperasikan di wilayah perairan Indonesia, tidak diwajibkan memenuhi persyaratan teknis sebagaimana dimaksud dalam Pasal 32.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Spektrum frekuensi radio dilarang digunakan oleh kapal berbendera luar asing yang berada di wilayah perairan Indonesia di peruntukannya, kecuali : diatur dengan Peraturan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk kepentingan keamanan negara, keselamatan jiwa manusia dan harta benda, bencana alam, keadaan marabahaya, wabah, navigasi dan keamanan lalu lintas pelayaran; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disambungkan ke jaringan telekomunikasi yang dioperasikan oleh penyelenggara telekomunikasi; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "merupakan bagian yang penggunaannya sesuai dengan ketentuan yang berlaku dalam penyelenggaraan telekomunikasi dinas bergerak pelayaran. sistem komunikasi satelit dari",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai penggunaan sebagaimana dimaksud pada ayat Pemerintah. spektrum frekuensi radio",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perangkat telekomunikasi yang digunakan oleh pesawat udara sipil asing dari dan ke wilayah udara Indonesia diwajibkan memenuhi persyaratan teknis sebagaimana dimaksud dalam Pasal 32.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Spektrum frekuensi radio dilarang digunakan oleh pesawat udara luar asing dari dan ke wilayah udara Indonesia di sipil peruntukkannya, kecuali : diatur dengan Peraturan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "untuk kepentingan keamanan negara, keselamatan jiwa manusia dan harta benda, bencana alam, keadaan marabahaya, wabah, navigasi dan keselamatan lalu lintas penerbangan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disambungkan ke jaringan telekomunikasi yang dioperasikan oleh penyelenggara telekomunikasi; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "merupakan bagian yang penggunaannya sesuai dengan ketentuan yang berlaku dalam penyelenggaraan telekomunikasi dinas bergerak penerbangan. sistem komunikasi satelit dari",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai penggunaan sebagaimana dimaksud pada ayat Pemerintah. spektrum frekuensi radio",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "izin Pemberian yang menggunakan spektrum frekuensi radio untuk perwakilan diplomatik di Indonesia dilakukan dengan memperhatikan asas timbal balik. telekomunikasi penggunaan perangkat Bagian Kesebelas Pengamanan Telekomunikasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Setiap orang dilarang melakukan perbuatan yang dapat menimbulkan penyelenggaraan fisik gangguan telekomunikasi. elektromagnetik terhadap dan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara telekomunikasi wajib melakukan pengamanan dan perlindungan terhadap instalasi dalam jaringan telekomunikasi yang digunakan untuk penyelenggaraan telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan pengamanan dan perlindungan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Setiap orang dilarang melakukan kegiatan penyadapan atas informasi yang disalurkan melalui jaringan telekomunikasi dalam bentuk apapun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Dalam rangka telekomunikasi pembuktian kebenaran atas permintaan pengguna pemakaian jasa fasilitas telekomunikas, jasa penyelenggara telekomunikasi wajib melakukan perekaman pemakaian fasilitas telekomunikasi yang digunakan oleh pengguna jasa telekomunikasi dan dapat melakukan perekaman informasi sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara jasa telekomunikasi wajib merahasiakan informasi yang dikirim dan atau diterima, oleh pelanggan jasa telekomunikasi melalui jaringan telekomunikasi dan atau jasa telekomunikasi yang diselenggarakannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk keperluan proses peradilan pidana, penyelenggara jasa telekomunikasi dapat merekam informasi yang dikirim dan atau diterima oleh penyelenggara jasa telekomunikasi serta dapat memberikan informasi yang diperlukan atas : diatur dengan informasi sebagaimana dimaksud pada ayat Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-42/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "permintaan tertulis Jaksa Agung dan atau Kepala Kepolisian Republik Indonesia untuk tindak pidana tertentu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-42/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "permintaan penyidik untuk tindak pidana tertentu sesuai dengan Undang-undang yang berlaku.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-42/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tata cara permintaan dan pemberian rekaman",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Pemberian rekaman informasi oleh penyelenggara jasa telekomunikasi kepada pengguna jasa telekomunikasi sebagaimana dimaksud dalam Pasal 41 dan untuk kepentingan proses peradilan pidana sebagaimana dimaksud dalam Pasal 42 ayat (2), tidak merupakan pelanggaran Pasal 40.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENYIDIKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain Penyidik Pejabat Polisi Negara Republik Indonesia, juga Pejabat Pegawai Negeri Sipil tertentu di lingkungan Departemen yang bidang lingkup penyidik telekomunikasi, sebagaimana dimaksud dalam Undang-undang Hukum Acara Pidana untuk melakukan bidang telekomunikasi. tugas dan diberi wewenang penyidikan jawabnya tanggung sebagai khusus pidana tindak di di",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyidik Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana bidang telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melakukan pemeriksaan terhadap orang dan atau badan hukum yang diduga melakukan tindak pidana di bidang telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "menghentikan penggunaan alat dan atau perangkat telekomunikasi yang menyimpang dari ketentuan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memanggil orang untuk didengar dan diperiksa sebagai saksi atau tersangka;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan pemeriksaan alat dan atau perangkat telekomunikasi yang diduga digunakan atau diduga berkaitan dengan tindak pidana di bidang telekomunikasi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "menggeledah tempat yang digunakan untuk melakukan tindak pidana di bidang telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "menyegel dan atau menyita alat dan atau perangkat yang digunakan atau diduga berkaitan dengan tindak pidana di bidang telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang telekomunikasi dan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-2/huruf-i",
+         "type": "HURUF",
+         "orderIndex": 9,
+         "label": "Huruf i",
+         "content": "mengadakan penghentian penyidikan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kewenangan penyidikan sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan Undang-undang Hukum Acara Pidana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "SANKSI ADMINISTRASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Barang siapa melanggar ketentuan Pasal 16 ayat (1), Pasal 18 ayat (2), Pasal 19, Pasal 21, Pasal 25 ayat (2), Pasal 26 ayat (1), Pasal 29 ayat (1), Pasal 29 ayat (2), Pasal 33 ayat (1), Pasal 33 ayat (2), Pasal 34 ayat (1), atau Pasal 34 ayat (2) dikenai sanksi administrasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sanksi administrasi sebagaimana dimaksud dalam Pasal 45 berupa pencabutan izin.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-46/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pencabutan izin sebagaimana dimaksud pada ayat (1) dilakukan setelah diberi peringatan tertulis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "Barang siapa yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11 ayat (1), dipidana dengan pidana penjara paling lama 6 (enam) tahun datau denda paling banyak Rp. 600.000.000,00 (enam ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Penyelenggara jaringan telekomunikasi yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 19 dipidana dengan pidana penjara paling lama 1 (satu) tahun dan atau denda paling banyak Rp. 100.000.000,00 (seratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Penyelenggara telekomunikasi yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 20, dipidana dengan pidana penjara paling lama 2 (dua) tahun dan atau denda paling banyak Rp. 200.000.000,00 (dua ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Barang siapa melanggar ketentuan sebagaimana dimaksud dalam Pasal 22, dipidana dengan pidana penjara paling lama 6 (enam) tahun dan atau denda paling banyak Rp. 600.000.000,00(enam ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "telekomunikasi khusus yang melanggar ketentuan Penyelenggara sebagaimana dimaksud dalam Pasal 29 ayat (1) atau Pasal 29 (ayat 2), dipidana dengan pidana penjara paling lama 4 (empat) tahun dan atau denda paling banyak Rp. 400.000.000,00 (empat ratus juta rupiah)",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Barang siapa memperdagangkan, membuat, merakit, memasukkan atau menggunakan perangkat telekomunikasi di wilayah Negara Republik Indonesia yang tidak sesuai dengan persyaratan teknis sebagaimana dimaksud dalam Pasal 32 ayat (1), dipidana dengan pidana paling lama 1 (satu) tahun dan atau denda paling banyak Rp. 100.000.000,00 (seratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-53/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barang siapa yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 33 ayat (1) atau Pasal 33 ayat (2) dipidana dengan pidana penjara paling lama 4 (empat) tahun dan atau denda paling banyak Rp. 400.000.000,00 (empat ratus juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-53/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "apabila tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan matinya seseorang, dipidana dengan pidana penjara paling lama 15 (lima belas) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "Barang siapa yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 35 ayat (2) atau Pasal 36 ayat (2), dipidana dengan pidana penjara tahun dan atau denda paling banyak Rp. paling lama 2 (dua) 200.000.000,00 (dua ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "Barang siapa yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 38, dipidana dengan pidana penjara paling lama 6 (enam) tahun dan atau denda paling banyak Rp. 600.000.000,00 (enam ratus juta rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "]Barang siapa yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 40, dipidana dengan pidana penjara paling lama 15 (lima belas) tahun.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "jasa telekomunikasi Penyelenggara ketentuan sebagaimana dimaksud dalam Pasal 42 ayat (1), dipidana dengan pidana penjara paling lama 2 (dua) tahun dan atau denda paling banyak Rp. 200.000.000,00 (dua ratus juta rupiah). yang melanggar",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Alat dan perangkat telekomunikasi yang digunakan dalam tindak pidana sebagaimana dimaksud dalam Pasal 17, Pasal 48, Pasal 52 atau Pasal 56 dirampas untuk negara dan atau dimusnahkan sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "Perbuatan sebagaimana dimaksud dalam Pasal 47, Pasal 48, Pasal 49, Pasal 50, Pasal 51, Pasal 52, Pasal 53, Pasal 54, Pasal 55, Pasal 56 dan Pasal 57 adalah kejahatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Pasa saat berlakunya Undang-undang ini, penyelenggara telekomunikasi sebagaimana dimaksud dalam Undang-undang Nomor 3 Tahun 1989 tentang Telekomunikasi, tetap dapat menjalankan kegiatannya dengan tahun sejak ketentuan dalam waktu selambat-lambatnya 1 (satu) Undang-undang ini dinyatakan berlaku wajib menyesuaikan dengan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-61/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dengan berlakunya Undang-undang ini, hak-hak tertentu yang telah diberikan oleh Pemerintah kepada Badan Penyelenggara untuk jangka waktu tertentu berdasarkan Undang-undang Nomor 3 Tahun 1989 masih berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-36-tahun-1999/pasal-61/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Jangka waktu hak tertentu sebagaimana dimaksud pada ayat (1), dapat dipersingkat sesuai dengan kesepakatan antara Pemerintah dan Badan Penyelenggara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Pada saat Undang-undang ini berlaku, semua peraturan pelaksanaan Undang-undang Nomor 3 Tahun 1989 tentang Telekomunikasi (Lembaran Negara Tahun 1989 Nomor 11, Tambahan Lembaran Negara Nomor 3391) masih tetap berlaku sepanjang tidak bertentangan dan atau belum diganti dengan peraturan baru berdasarkan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-36-tahun-1999/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "Dengan berlakunya Undang-undang ini, Undang-undang Nomor 3 Tahun 1989 tentang Telekomunikasi dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-36-tahun-1999/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Undang-undang ini mulai berlaku 1 (satu) tahun terhitung sejak tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 8 September 1999 ttd. BACHARUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 8 September 1999 MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. MULADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 154",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

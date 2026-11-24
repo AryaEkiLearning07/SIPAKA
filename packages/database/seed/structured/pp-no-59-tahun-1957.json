@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-59-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "1."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-59-tahun-1957",
+   "detailsId": "76900",
+   "judul": "PP No. 59 Tahun 1957 tentang Penyerahan Tugas Mengenai Menyewa Rumah-Rumah/Pekarangan-Pekarangan Milik Partikelir yang diperlukan Oleh Instansi Pemerintah Sipil kepada Masing-Masing&#xD;&#xA;Kementerian yang Bersangkutan&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67891/PP%20No.%2059%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:10.458152+00:00"
+  },
+  "sha256": "d163f4870a8abd22bfc8cfc6eda03fc0f03aaee87fdded87378071f77435dedb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-59-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Pemerintah Sipil kepada masing-masing Menteri yang bersangkutan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-59-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Menteri-menteri yang bersangkutan menyelenggarakan tata-usaha dan keuangan tentang tugas termaksud dalam Pasal 1.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-59-tahun-1957/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1958. Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta; pada tanggal 12 Nopember 1957. PRESIDEN REPUBLIK INDONESIA, ttd. (SUKARNO) MENTERI PEKERJAAN UMUM DAN TENAGA, ttd. (PANGERAN MOH. NOOR) Diundangkan pada tanggal 26 Nopember 1957. MENTERI KEHAKIMAN, ttd. G.A. MAENGKOM",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

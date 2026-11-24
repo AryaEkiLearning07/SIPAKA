@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-16-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "b. 3."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-16-tahun-1963",
+   "detailsId": "72141",
+   "judul": "PP No. 16 Tahun 1963 tentang Pembentukan Badan Pimpinan Umum Tabungan Dan Asuransi Pegawai Negeri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62623/pp%20no%20016%20tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:25.189246+00:00"
+  },
+  "sha256": "54bd212370cc6f256ae7a46702e499558289f39829f1f3d171059f2c2d75b041",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "pp-no-4-tahun-1984",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut di atas dipandang perlu mencabut Peraturan Pemerintah Nomor 32 Tahun 1972 tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-4-tahun-1984",
+   "detailsId": "71344",
+   "judul": "PP No. 4 Tahun 1984 tentang Pencabutan atas Peraturan Pemerintah Nomor 32 Tahun 1972 tentang Badan Administrasi Kepegawaian Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61785/PP%20NO%204%20TH%201984.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-32-tahun-1972"
+   ],
+   "scrapedAt": "2026-10-06T00:53:14.602329+00:00"
+  },
+  "sha256": "6e8b750f5dee18d62ffaccf863c65e7cd26ff954679e656f0a9e882020697bf7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-4-tahun-1984/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mencabut Peraturan Pemerintah Nomor 32 Tahun 1972 tentang Badan Administrasi Kepegawaian Negara (Lembaran Negara Tahun 1972 Nomor 42).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-4-tahun-1984/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Kedudukan, tugas, fungsi dan organisasi Badan Administrasi Kepegawaian Negara diatur lebih lanjut dengan Keputusan Presiden.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-4-tahun-1984/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 4 Pebruari 1984 PRESIDEN REPUBLIK INDONESIA, Diundangkan di Jakarta pada tanggal 4 Pebruari 1984 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, S.H. SOEHARTO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1984 NOMOR 4",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

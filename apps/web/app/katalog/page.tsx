@@ -7,8 +7,13 @@ import {
   Search, BookOpen, ArrowRight,
   AlertTriangle, RotateCcw, Calendar,
   FileText, History, Gavel, ChevronDown, Check, SlidersHorizontal,
-  X, Layers, Clock, Sparkles, Download
+  X, Layers, Clock, Sparkles, Download, CheckCircle2
 } from 'lucide-react';
+import {
+  POPULAR_LEGAL_ALIASES,
+  checkAliasAndTypo,
+  calculateRelevanceScore,
+} from '@/app/utils/smart-search';
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || '';
 
@@ -138,6 +143,7 @@ function CatalogContent() {
   const [selectedEra, setSelectedEra] = useState<string>('SEMUA');
   const [customYearMin, setCustomYearMin] = useState<string>('');
   const [customYearMax, setCustomYearMax] = useState<string>('');
+  const [selectedFormat, setSelectedFormat] = useState<string>('SEMUA');
   const [sortBy, setSortBy] = useState<'relevan' | 'terbaru' | 'terlama' | 'pasal_terbanyak'>('relevan');
   const [laws, setLaws] = useState<LawItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -145,6 +151,12 @@ function CatalogContent() {
   const [searchMode, setSearchMode] = useState<'METADATA' | 'PROVISIONS'>('METADATA');
   const [provisionResults, setProvisionResults] = useState<any[]>([]);
   const [isSearchingProvisions, setIsSearchingProvisions] = useState<boolean>(false);
+
+  // Deteksi typo dan alias hukum populer dari query pencarian
+  const { matchedAlias, suggestedCorrection } = useMemo(
+    () => checkAliasAndTypo(query),
+    [query]
+  );
 
   // Debounced search isi pasal (full-text provision search)
   useEffect(() => {
@@ -193,6 +205,7 @@ function CatalogContent() {
   const [openSections, setOpenSections] = useState({
     type: true,
     status: true,
+    format: true,
     consolidation: true,
     field: true,
     era: false,
@@ -209,7 +222,7 @@ function CatalogContent() {
     setIsLoading(true);
     (async () => {
       try {
-        const res = await fetch(`${API_BASE}/api/v1/instruments`);
+        const res = await fetch(`${API_BASE}/api/v1/instruments?all=true`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const json = await res.json();
         if (!cancelled) {
@@ -255,6 +268,16 @@ function CatalogContent() {
     return { SEMUA: laws.length, AMENDED_ONLY: amended, ORIGINAL_ONLY: original };
   }, [laws]);
 
+  const countByFormat = useMemo(() => {
+    let digital = 0;
+    let pdfOnly = 0;
+    for (const l of laws) {
+      if ((l.totalArticles || 0) > 0) digital++;
+      else pdfOnly++;
+    }
+    return { SEMUA: laws.length, DIGITAL: digital, PDF_ONLY: pdfOnly };
+  }, [laws]);
+
   const countByField = useMemo(() => {
     const map: Record<string, number> = { SEMUA: laws.length };
     for (const l of laws) {
@@ -289,15 +312,14 @@ function CatalogContent() {
       return provisionMatched;
     }
 
-    const result = laws.filter((item) => {
-      // 1. Search Query
-      const matchQuery = !q
-        || item.title.toLowerCase().includes(q)
-        || (item.shortTitle?.toLowerCase().includes(q) ?? false)
-        || String(item.number).includes(q)
-        || String(item.year).includes(q)
-        || (item.description?.toLowerCase().includes(q) ?? false)
-        || (item.field?.toLowerCase().includes(q) ?? false);
+    const scored = laws.map((item) => {
+      const relevance = calculateRelevanceScore(item, query, matchedAlias);
+      return { item, relevance };
+    });
+
+    const result = scored.filter(({ item, relevance }) => {
+      // 1. Search Query & Relevansi Cerdas
+      const matchQuery = !q || relevance > 0;
 
       // 2. Type / Hierarchy
       const matchType = selectedType === 'SEMUA'
@@ -309,19 +331,25 @@ function CatalogContent() {
       // 3. Status
       const matchStatus = selectedStatus === 'SEMUA' || item.status === selectedStatus;
 
-      // 4. Consolidation History
+      // 4. Format Naskah
+      const hasArticles = (item.totalArticles || 0) > 0;
+      const matchFormat = selectedFormat === 'SEMUA'
+        || (selectedFormat === 'DIGITAL' && hasArticles)
+        || (selectedFormat === 'PDF_ONLY' && !hasArticles);
+
+      // 5. Consolidation History
       const hasAm = (item.amendedBy && item.amendedBy.length > 0) || item.status === 'DIUBAH';
       const matchConsolidation = selectedConsolidation === 'SEMUA'
         || (selectedConsolidation === 'AMENDED_ONLY' && hasAm)
         || (selectedConsolidation === 'ORIGINAL_ONLY' && !hasAm);
 
-      // 5. Legal Field
+      // 6. Legal Field
       const inferredField = inferLegalField(item);
       const matchField = selectedField === 'SEMUA'
         || inferredField.toLowerCase() === selectedField.toLowerCase()
         || (item.field?.toLowerCase() === selectedField.toLowerCase());
 
-      // 6. Era & Year Range
+      // 7. Era & Year Range
       let matchEra = true;
       if (selectedEra === '5_TAHUN') matchEra = item.year >= 2021;
       else if (selectedEra === 'REFORMASI') matchEra = item.year >= 1998;
@@ -332,19 +360,23 @@ function CatalogContent() {
       if (minYr !== null && !isNaN(minYr) && item.year < minYr) matchCustomYear = false;
       if (maxYr !== null && !isNaN(maxYr) && item.year > maxYr) matchCustomYear = false;
 
-      return matchQuery && matchType && matchStatus && matchConsolidation && matchField && matchEra && matchCustomYear;
+      return matchQuery && matchType && matchStatus && matchFormat && matchConsolidation && matchField && matchEra && matchCustomYear;
     });
 
-    if (sortBy === 'terbaru') return [...result].sort((a, b) => b.year - a.year || Number(b.number) - Number(a.number));
-    if (sortBy === 'terlama') return [...result].sort((a, b) => a.year - b.year || Number(a.number) - Number(b.number));
-    if (sortBy === 'pasal_terbanyak') return [...result].sort((a, b) => (b.totalArticles || 0) - (a.totalArticles || 0));
-    return result;
-  }, [laws, query, searchMode, provisionsBySlug, selectedType, selectedStatus, selectedConsolidation, selectedField, selectedEra, customYearMin, customYearMax, sortBy]);
+    if (sortBy === 'relevan' && q) {
+      return [...result].sort((a, b) => b.relevance - a.relevance).map(({ item }) => item);
+    }
+    if (sortBy === 'terbaru') return [...result].sort((a, b) => b.item.year - a.item.year || Number(b.item.number) - Number(a.item.number)).map(({ item }) => item);
+    if (sortBy === 'terlama') return [...result].sort((a, b) => a.item.year - b.item.year || Number(a.item.number) - Number(b.item.number)).map(({ item }) => item);
+    if (sortBy === 'pasal_terbanyak') return [...result].sort((a, b) => (b.item.totalArticles || 0) - (a.item.totalArticles || 0)).map(({ item }) => item);
+    return [...result].sort((a, b) => b.relevance - a.relevance).map(({ item }) => item);
+  }, [laws, query, matchedAlias, searchMode, provisionsBySlug, selectedType, selectedStatus, selectedFormat, selectedConsolidation, selectedField, selectedEra, customYearMin, customYearMax, sortBy]);
 
   const resetAllFilters = () => {
     setQuery('');
     setSelectedType('SEMUA');
     setSelectedStatus('SEMUA');
+    setSelectedFormat('SEMUA');
     setSelectedConsolidation('SEMUA');
     setSelectedField('SEMUA');
     setSelectedEra('SEMUA');
@@ -357,6 +389,7 @@ function CatalogContent() {
     query ||
     selectedType !== 'SEMUA' ||
     selectedStatus !== 'SEMUA' ||
+    selectedFormat !== 'SEMUA' ||
     selectedConsolidation !== 'SEMUA' ||
     selectedField !== 'SEMUA' ||
     selectedEra !== 'SEMUA' ||
@@ -394,6 +427,43 @@ function CatalogContent() {
                 </button>
               )}
             </form>
+
+            {/* Rekomendasi Typo ala Search Engine Modern */}
+            {suggestedCorrection && suggestedCorrection.toLowerCase() !== query.trim().toLowerCase() && (
+              <div className="mt-2.5 px-3.5 py-2 bg-amber-100 border border-amber-300 rounded-xl text-xs text-amber-950 flex items-center justify-between gap-2 shadow-xs">
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-4 h-4 text-amber-700 shrink-0" />
+                  <span>
+                    Maksud Anda: <strong className="underline decoration-amber-500 font-bold">{suggestedCorrection}</strong>?
+                  </span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setQuery(suggestedCorrection)}
+                  className="px-2.5 py-1 bg-amber-200 hover:bg-amber-300 rounded-lg font-bold text-[11px] text-amber-950 transition-colors cursor-pointer"
+                >
+                  Terapkan Koreksi
+                </button>
+              </div>
+            )}
+
+            {/* Quick Recommendation Pills */}
+            <div className="mt-3 flex items-center gap-1.5 flex-wrap">
+              <span className="text-xs text-white/70 font-medium mr-1 flex items-center gap-1">
+                <Sparkles className="w-3.5 h-3.5 text-amber-300" />
+                <span>Pencarian Cepat:</span>
+              </span>
+              {POPULAR_LEGAL_ALIASES.slice(0, 7).map((alias) => (
+                <button
+                  key={alias.id}
+                  type="button"
+                  onClick={() => setQuery(alias.searchKeywords[0])}
+                  className="px-2.5 py-1 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-semibold transition-all cursor-pointer hover:border-amber-300 hover:text-amber-200"
+                >
+                  {alias.popularName.split('(')[0].trim()}
+                </button>
+              ))}
+            </div>
 
             {/* Toggle Mode Pencarian: Judul vs Isi Pasal */}
             <div className="flex flex-wrap items-center gap-2 mt-3 text-xs">
@@ -537,6 +607,50 @@ function CatalogContent() {
                         <span className="text-[10px] font-mono text-slate-400">({opt.count || 0})</span>
                       </span>
                       {selectedStatus === opt.value && <Check className="w-3.5 h-3.5 text-[#94191C]" />}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* Ketersediaan Naskah Digital */}
+            <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs">
+              <button
+                type="button"
+                onClick={() => toggleSection('format')}
+                className="w-full px-3.5 py-2.5 flex items-center justify-between text-left hover:bg-slate-50 transition-colors cursor-pointer"
+              >
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-[#94191C]" />
+                  <span className="text-xs font-bold text-slate-800 uppercase tracking-wide">Ketersediaan Teks</span>
+                  {selectedFormat !== 'SEMUA' && (
+                    <span className="text-[10px] font-bold px-1.5 rounded bg-red-100 text-[#94191C] font-mono">1 Aktif</span>
+                  )}
+                </div>
+                <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${openSections.format ? 'rotate-180' : ''}`} />
+              </button>
+              {openSections.format && (
+                <div className="p-2 pt-0 space-y-1 text-xs border-t border-slate-100 mt-1">
+                  {[
+                    { value: 'SEMUA', label: 'Semua Naskah', count: countByFormat.SEMUA },
+                    { value: 'DIGITAL', label: '🟢 Naskah Digital Lengkap', count: countByFormat.DIGITAL },
+                    { value: 'PDF_ONLY', label: '📄 Dokumen PDF Otentik', count: countByFormat.PDF_ONLY },
+                  ].map((opt) => (
+                    <button
+                      key={opt.value}
+                      type="button"
+                      onClick={() => setSelectedFormat(opt.value)}
+                      className={`w-full text-left px-3 py-2 rounded-lg flex items-center justify-between transition-all cursor-pointer ${
+                        selectedFormat === opt.value
+                          ? 'bg-red-50/90 text-[#94191C] font-bold border border-red-200/80'
+                          : 'text-slate-600 hover:bg-slate-50 font-medium'
+                      }`}
+                    >
+                      <span className="flex items-center gap-1.5">
+                        <span>{opt.label}</span>
+                        <span className="text-[10px] font-mono text-slate-400">({opt.count || 0})</span>
+                      </span>
+                      {selectedFormat === opt.value && <Check className="w-3.5 h-3.5 text-[#94191C]" />}
                     </button>
                   ))}
                 </div>

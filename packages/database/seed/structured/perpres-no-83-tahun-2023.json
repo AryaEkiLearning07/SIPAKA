@@ -1,0 +1,1434 @@
+{
+ "slug": "perpres-no-83-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "bahwa kebun raya sebagai kawasan konservasi tumbuhan secara ex sifu berperan untuk mengurangi laju degradasi keanekaragaman tumbuhan sehingga perlu ditingkatkan pembangunan dan pengelolaannya;",
+   "bahwa untuk meningkatkan pembangunan dan pengelolaan kebun raya yang dilaksanakan secara terencana dan terkoordinasi, perlu melibatkan kementerian/lembaga, pemerintah daerah, badan usaha, dan perguruan tinggi;",
+   "bahwa Peraturan Presiden Nomor 93 Tahun 2Ol1 tentang Kebun Raya sudah tidak sesuai lagi dengan perkembangan hukum dan kebutuhan masyarakat sehingga perlu untuk diganti;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu menetapkan Peraturan Presiden tentang Penyelenggaraan Kebun Raya;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-83-tahun-2023",
+   "detailsId": "274235",
+   "judul": "PERPRES No. 83 Tahun 2023 tentang Penyelenggaraan Kebun Raya - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/332597/Perpres%20Nomor%2083%20Tahun%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-93-tahun-2011"
+   ],
+   "scrapedAt": "2026-10-06T06:08:48.366148+00:00"
+  },
+  "sha256": "79f54da7e3f10b8b7c395cc34d8024a99f79ced390955cecc43b256bc78a6a55",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 10,
+  "pasal": 41,
+  "ayat_angka": 51,
+  "huruf": 47
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kebun Raya adalah kawasan konservasi tumbuhan secara er situ yang memiliki koleksi tumbuhan terdokumentasi dan ditata berdasarkan pola klasifikasi taksonomi, bioregion, tematik, atau kombinasi dari pola tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pembangunan Kebun Raya adalah kegiatan mendirikan Kebun Raya baru dan/ atau merevitalisasi Kebun Raya yang sudah ada.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pengelolaan Kebun Raya adalah kegiatan pemeliharaan dan pemanfaatan Kebun Raya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Ekoregion adalah wilayah geografis yang memiliki kesamaan ciri iklim, tanah, air, tumbuhan, dan satwa asli, serta pola interaksi manusia dengan alam yang menggambarkan integritas sistem alam dan lingkungan hidup.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Konservasi T\\rmbuhan Secara Ex Situ adalah upaya pelestarian, penelitian, dan pemanfaatan tumbuhan secara berkelanjutan yang dilakukan di luar habitat alaminya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Infrastruktur Pendukung adalah bangunan fisik yang merupakan penunjang terselenggaranya fungsi Kebun Raya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Badan adalah lembaga pemerintah yang berada di bawah dan bertanggung jawab kepada Presiden dalam menyelenggarakan penelitian, pengembangan, pengkajian, dan penerapan, serta invensi dan inovasi, dan penyelenggaraan penyelenggaraan keantariks€ran yang terintegrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Badan . . . SK No 059906 A REPUBUK INDONESIA Badan Riset dan Inovasi Daerah yang selanjutnya disingkat BRIDA adalah perangkat daerah yang penelitian, pengembangan, pengkajian, dan penerapan, serta invensi dan inovasi yang terintegrasi di daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Badan Usaha adalah badan hukum yang menjalankan jenis usaha bersifat tetap, terus menerus dan didirikan sesuai dengan ketentuan peraturan perundang-undangan serta berkedudukan dalam wilayah Negara Kesatuan Republik Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyelenggaraan Kebun Raya meliputi: a. b. Kebun Raya; pen5rusun€rn rencana pengembangan Kebun Raya; c. d. Pengelolaan Kebun Raya; dan pembinaan dan pengawasan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Fungsi Kebun Raya terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "konservasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penelitian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "wisata; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "jasa lingkungan. (21 F\\rngsi konservasi sebagaimana dimaksud pada ayat (l) huruf a ditqiukan untuk mengurangi jumlah tumbuhan Indonesia yang terancam kelangkaan secara signifikan dan mengeluarkannya dari status terancam.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Fungsi penelitian sebagaimana dimaksud pada ayat (1) huruf b ditujukan untuk mendukung upaya Konservasi T\\rmbuhan Secara Ex Situ dan mendorong pemanfaatan tumbuhan Indonesia secara berkelanjutan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Fungsi . . . SK No 059907 A FRESIDEN REFI.TBIJK INDONESIA Fungsi pendidikan sebagaimana dimaksud pada ayat (1) huruf c ditujukan untuk membangun pengetahuan, kesadaran, dan kepedulian masyarakat terkait manfaat pentingnya keanekaragaman tumbuhan Indonesia sebagai salah satu sumber daya strategis nasional dan kebutuhan untuk",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Fungsi wisata sebagaimana dimaksud pada ayat (1) huruf d ditujukan untuk wisata yang berbasis pada konservasi tumbuhan, lingkungan, botani, dan perkebunrayaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Fungsi jasa lingkungan sebagaimana dimaksud pada ayat (1) huruf e berkaitan dengan peran ekologis Kebun Raya dan ditujukan untuk turut serta menjaga kualitas lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "JENIS DAN KATEGORI KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Jenis Kebun Raya terdiri atas: a. Kebun Raya yang menjadi kewenangan Badan; b. Kebun Raya yang menjadi kewenangan kementerian/ lembaga; c. Kebun Raya yang menjadi kewenangan pemerintah daerah provinsi; d. Kebun Raya yang menjadi kewenangan pemerintah daerah kabupaten/ kota; e. Kebun Raya yang menjadi kewenangan Badan Usaha; dan f. Kebun Raya yang menjadi kewenangan perguman tinggr. Pasal 5... SK No 059908 A REPUBUK INDONES",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Kebun Raya yang menjadi kewenangan Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, atau perguruan tinggi sebagaimana dimaksud dalam Pasal 4 dibagi dalam 3 (tiga) kategori berdasarkan kelas: a. Kebun Raya kelas A; b. Kebun Raya kelas B; dan c. Kebun Raya kelas C.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Kebun Raya kelas A sebagaimana dimaksud dalam Pasal 5 huruf a merupakan Kebun Raya yang sudah diresmikan dan memenuhi kriteria: a. memiliki lahan yang sudah ditetapkan sebagai Kebun Raya dan tidak dalam keadaan sengketa serta tidak b. menjalankan 5 (lima) fungsi Kebun Raya; c. memiliki infrastruktur minimal pada znna penerima, zona pengelola, dan z,ona koleksi; d. memiliki lembaga pengelola yang definitif; e. memiliki katalog koleksi yang dimutakhirkan secara berkala; f. memiliki pangkalan data koleksi Kebun Raya yang terintegrasi dengan sistem informasi elektronik yang dibangun oleh Badan; dan g. melakukan kegiatan penambahan koleksi tumbuhan hidup secara mandiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Kebun Raya kelas B sebagaimana dimaksud dalam Pasal 5 huruf b merupakan Kebun Raya yang sudah diresmikan dan memenuhi kriteria: SK No 059909 A a. memiliki . . . REPUEUK INDONESTA a. memiliki lahan yang sudah ditetapkan sebagai Kebun Raya dan tidak dalam keadaan sengketa serta tidak b. menjalankan 5 (lima) fungsi Kebun Raya; c. memiliki infrastruktur minimal pada zona penerima, zona pengelola, dan znna koleksi; dan d. memiliki lembaga pengelola yang defrnitif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Kebun Raya kelas C sebagaimana dimaksud dalam Pasal 5 huruf c merupakan Kebun Raya yang memenuhi kriteria: a. memiliki lahan yang sudah ditetapkan sebagai Kebun Raya dan tidak dalam keadaan sengketa serta tidak dialihfungsikan; dan b. masih dalam proses memenuhi kriteria sebagaimana dimaksud dalam Pasal 7 huruf b sampai dengan huruf d.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "(l) Kebun Raya kelas A sebagaimana dimaksud dalam Pasal 6 diturunkan menjadi Kebun Raya kelas B dalam hal tidak memenuhi kriteria sebagaimana dimaksud dalam Pasal 6 huruf e, huruf f, atau huruf g. (21 Kebun Raya kelas A sebagaimana dimaksud dalam Pasal 6 dan Kebun Raya kelas B sebagaimana dimaksud dalam Pasal 7 diturunkan menjadi Kebun Raya kelas C dalam hal tidak memenuhi kriteria: a. menjalankan 5 (lima) fungsi Kebun Raya; b. memiliki infrastruktur minimal pada zona penerima, zona pengelola, dan znna koleksi; atau c. memiliki lembaga pengelola yang definitif. SK No059910A Pasal 1O. . . BUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Selain memenuhi kriteria sebagaimana dimaksud dalam Pasal 6 sampai dengan Pasal 8, Kebun Raya yang menjadi kewenangan Badan harus memiliki infrastruktur penelitian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "Penetapan kategori berdasarkan kelas sebagaimana dimaksud dalam Pasal 5 dilakukan oleh Kepala Badan berdasarkan hasil pengawasan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Rencana pengembangan Kebun Raya berisi penetapan lokasi prioritas Kebun Raya yang disusun sebagai pedoman bagi Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, dan perguruan tinggi dalam rangka Pembangunan Kebun Raya di Indonesia. (21 Rencana pengembangan Kebun Raya sebagaimana dimaksud pada ayat (1) disusun dengan mempertimbangkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "keterwakilan tipe Ekoregion di Indonesia;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "jenis tumbuhan prioritas yang perlu dikon servasi secara ex sifu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tekanan dan ancaman terhadap habitat alami;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "kesesuaian dengan rencana tata ruang;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "kelayakan calon lokasi; dan f. kesiapan serta komitmen pihak pengusul. SK No 059911 A (3)Tipe... REPUEUK INDONESTA",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tipe Ekoregion sebagaimana dimaksud pada ayat (2) huruf a dibagi berdasarkan cakupan wilayah administratif.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penyusunan rencana pengembangan Kebun Raya sebagaimana dimaksud pada ayat (1) dapat melibatkan pihak terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Rencana pengembangan Kebun Raya sebagaimana dimaksud pada ayat (1) disusun untuk jangka waktu 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Rencana pengembangan Kebun Raya sebagaimana dimaksud pada ayat (5) dapat ditinjau sewaktu-waktu apabila diperlukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-12/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Rencana pengembangan Kebun Raya sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PEMBANGUNAN KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembangunan Kebun Raya harus memenuhi persyaratan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki lahan yang sudah ditetapkan sebagai Kebun Raya dan tidak dalam keadaan sengketa serta tidak dialihfungsikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "dapat diakses oleh masyarakat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki koleksi tumbuhan terdokumentasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memiliki koleksi tumbuhan yang ditata berdasarkan pola klasifrkasi taksonomi, bioregion, tematik, atau kombinasi dari pola tersebut. SK No 059912 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lahan. . . REPUEUK INDONESIA (21 Lahan sebagaimana dimaksud pada ayat (1) huruf a dapat berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kawasan hutan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bukan kawasan hutan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penetapan lahan Kebun Raya yang berupa kawasan hutan sebagaimana dimaksud pada ayat (21 huruf a dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Penetapan lahan Kebun Raya yang berupa bukan kawasan hutan sebagaimana dimaksud pada ayat l2l huruf b dilakukan oleh pimpinan Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, atau perguruan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-13/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Koleksi tumbuhan terdokumentasi sebagaimana dimalsud pada ayat (1) huruf c merupakan koleksi tumbuhan Kebun Raya yang datanya tercatat dan terkelola dalam pangkalan data koleksi Kebun Raya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pembangunan Kebun Raya dilakukan melalui tahapan: a. perencanaan; dan b. pelaksanaan. Bagian Kedua Perencanaan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perencanaan sebagaimana dimaksud dalam Pasal 14 huruf a dilakukan melalui kegiatan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "usulan Pembangunan Kebun Raya yang disampaikan menteri/kepala lembaga, kepala daerah, pimpinan Badan Usaha, atau pimpinan perguruan tinggi kepada Kepala Badan; SK No 059913 A kondisi saat ini;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kajian . . . REPUEIJK INDONESIA _10_ kajian terhadap usulan berdasarkan kesesuaian dengan rencana pengembangan Kebun Raya dan rencana tata ruang; analisisbiogeofisik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kajian kelayakan lokasi meliputi kajian atas status lahan, kesesuaian lahan, penentuan lokasi yang mengacu pada rencana tata ruang, dan aksesibilitas lokasi; dan analisis sosial dan budaya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penJrusunErn rencana induk meliputi kegiatan inventarisasi dan analisis sumber daya yang ada, inventarisasi kebutuhan Infrastruktur Pendukung, analisis data, dan konsep perencanaan. (21 Rencana induk sebagaimana dimaksud pada ayat (1) huruf d paling sedikit memuat: zonasi Kebun Raya;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "rencana tapak dan rencana utilitas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pentahapan pembangunan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-1/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "rencana pembiayaan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perencanaan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten / kota, Badan Usaha, atau perguruan tinggr. (41 Perencanaan yang dilaksanakan oleh kementerian/ lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, atau perguruan tinggi harus mendapat pertimbangan teknis dari Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-15/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai pertimbangan teknis sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Badan. SK No 059914 A Bagian REPUBUK INDONES Bagian Ketiga Pelaksanaan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Pelaksanaan sebagaimana dimaksud dalam Pasal 14 huruf b meliputi: a. penataan kawasan Kebun Raya; b. pengembangan koleksi tumbuhan; dan c. pembangunan Infrastruktur Pendukung.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penataan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 16 huruf a dilakukan melalui penentuan zona. (21 Zona sebagaimana dimaksud pada ayat (1) paling sedikit mencakup:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "zona penerima;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "zona pengelola; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "zona koleksi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Zona penerima sebagaimana dimaksud pada ayat (2) huruf a memiliki infrastruktur minimal yang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "gerbang utama; kantor pengelola;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "loket; pembibitan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pusat informasi; dan sarana penelitian minimal.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "fasilitas penunjang untuk pengunjung. (41 Zona pengelola sebagaimana dimaksud pada ayat (2) huruf b memiliki infrastruktur minimal yang meliputi:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Zona koleksi sebagaimana dimaksud pada ayat (2) huruf c memiliki infrastruktur minimal yang meliputi petak koleksi tumbuhan yang ditata berdasarkan pola klasifikasi taksonomi, bioregion, tematik, atau kombinasi dari pola tersebut. SK No 059915 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-17/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Penataan . . . FRESTDEN REPUEUK INDONES -L2- Penataan kawasan Kebun Raya sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, atau perguruan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengembangan koleksi tumbuhan sebagaimana dimaksud dalam Pasa1 16 huruf b dilakukan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pengadaan dan peningkatan jumlah jenis koleksi tumbuhan; dan eksplorasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peningkatan kualitas koleksi tumbuhan. (21 Pengadaan dan peningkatan jumlah jenis koleksi tumbuhan sebagaimana dimaksud pada ayat (1) huruf a dilakukan melalui kegiatan: pertukaran spesimen; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "sumbangan material tumbuhan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Peningkatan kualitas koleksi tumbuhan sebagaimana dimaksud pada ayat (1) huruf b meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "peningkatan kesintasan koleksi tumbuhan; dan asal-usul koleksi yang terdiri atas:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kelengkapan dan akurasi data koleksi tumbuhan. 14) Kelengkapan dan akurasi data koleksi tumbuhan sebagaimana dimaksud pada ayat (3) huruf b paling sedikit meliputi:",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "tanggal koleksi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "nomor kolektor;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "habitat asal;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "lokasi asal;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "kondisi populasi alami; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "data pendukungnya;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "nomor akses;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tanggal ... SK No 059916 A BUK INDONESIA _13_ tanggal dan lokasi tanam di kebun; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/angka-6/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "nama jenis.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-18/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pengembangan koleksi tumbuhan dilaksanakan oleh Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten / kota, Badan Usaha, atau perguruan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "(l) Pembangunan Infrastruktur Pendukung Kebun Raya sebagaimana dimaksud dalam Pasal 16 huruf c dilakukan dengan prinsip efrsiensi dan efektivitas serta memperhatikan aspek sosial, budaya, kearifan lokal, keamanan, ketertiban, kenyamanan, estetika, daya dukung kawasan, dan dampak lingkungan. (21 Infrastruktur Pendukung Kebun Raya sebagaimana dimaksud pada ayat (1) berupa infrastruktur sumber daya air, jalan, bangunan gedung, drainase, air bersih, pengelolaan air limbah, dan/ atau Infrastruktur Pendukung Kebun Raya lainnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "(l) Pembangunan Infrastruktur Pendukung Kebun Raya dilaksanakan oleh Badan, kementerian/lembaga, pemerintah daerah provinsi, pemerintah daerah kabupaten/kota, Badan Usaha, atau perguruan tinggi sesuai dengan kewenangannya. (21 Badan dapat mengajukan permohonan dukungan pembangunan Infrastruktur Pendukung Kebun Raya yang menjadi kewenangan Badan kepada kementerian yang urusan pemerintahan di bidang pekerjaan umum dan rakyat sesuai dengan rencana pengembangan Kebun Raya.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Infrastruktur Pendukung Kebun Raya sebagaimana dimaksud pada ayat (21 yurg telah selesai dibangun dialihstatuskan kepada Badan sesuai dengan ketentuan peraturan perundang-undangan. SK No059917A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pembangunan . . . BLIK INDONES (41 Pembangunan Infrastruktur Pendukung Kebun Raya dilaksanakan sesuai dengan kemampuan keuangan negara dan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENGELOLAAN KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengelolaan Kebun Raya meliputi kegiatan: a. b. c. pemeliharaan kawasan Kebun Raya; koleksi tumbuhan; Infrastruktur Pendukung; f. e. d. pemanfaatan kawasan Kebun Raya; pemanfaatan koleksi tumbuhan; dan pemanfaatan Infrastruktur Pendukung. (21 Pemanfaatan kawasan Kebun Raya, pemanfaatan koleksi tumbuhan, dan pemanfaatan Infrastruktur Pendukung sebagaimana dimaksud pada ayat (1) huruf d, huruf e, dan huruf f dapat dilakukan sepanjang tidak bertentangan dengan fungsi Kebun Raya. Pasal22 Pemeliharaan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 2l ayat (1) huruf a dilaksanakan melalui kegiatan perawatan dan penataan lingkungan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Pemeliharaan koleksi tumbuhan sebagaimana dimaksud dalam Pasal 2I ayat (l) huruf b dilaksanakan melalui kegiatan perbanyakan, perawatan, dan pendokumentasian data koleksi tumbuhan. SK No 059918 A Pasal24 . . . REPUBLTK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Pemeliharaan Infrastruktur Pendukung sebagaimana dimaksud dalam Pasal 2l ayat (1) huruf c dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Pemanfaatan kawasan Kebun Raya sebagaimana dimaksud dalam Pasal 2l ayat (1) huruf d dilalsanakan melalui kegiatan pendidikan, wisata, dan jasa lingkungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Pemanfaatan koleksi tumbuhan sebagaimana dimaksud dalam Pasal 2L ayat (1) huruf e dilaksanakan melalui kegiatan: a. konservasi tumbuhan; b. penelitian; c. pendidikan; d. wisata; dan e. jasa lingkungan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Pemanfaatan Infrastruktur Pendukung sebagaimana dimaksud dalam Pasal 2l ayat (1) huruf f dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Ketentuan lebih lanjut mengenai Pengelolaan Kebun Raya sebagaimana dimaksud dalam Pasal 21 diatur dengan Peraturan Badan. SK No 059919 A BABVI ... REPUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "REPUBUK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Badan melakukan pembinaan dan pengawasan Pembangunan Kebun Raya dan Pengelolaan Kebun Raya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pembinaan sebagaimana dimaksud dalam Pasal 29 ditujukan untuk kualitas Pembangunan Kebun Raya dan Pengelolaan Kebun Raya. (21 Pembinaan sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-30/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendampingan dan bimbingan teknis; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-30/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penciptaan iklim yang kondusif bagi Pembangunan Kebun Raya dan Pengelolaan Kebun Raya dengan dukungan dan keterlibatan pemangku kepentingan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan sebagaimana dimaksud dalam Pasal 29 dilaksanakan untuk menjamin kualitas Pembangunan Kebun Raya dan Pengelolaan Kebun Raya. (21 Pengawasan sebagaimana dimalsud pada ayat (1) dilaksanakan dalam bentuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-31/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemantauan dan evaluasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-31/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penilaian. Pasa-l 32 Ketentuan lebih lanjut mengenai pembinaan dan pengawasan sebagaimana dimaksud dalam Pasal 29 diatur dengan Peraturan Badan. SK No 059920 A BABVII ... REPUEUK INDONESIA -t7-",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "PENYELENGGARA KEBUN RAYA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kebun Raya yang menjadi kewenangan Badan diselenggarakan oleh unit keda Badan. (21 Kebun Raya yang menjadi kewenangan kementerian/ lembaga diselenggarakan oleh unit ke{a kementerian/ lembaga.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-33/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kebun Raya yang menjadi kewenangan pemerintah daerah provinsi dan pemerintah daerah kabupaten/ kota diselenggarakan oleh BRIDA atau perangkat daerah yang menyelenggarakan urusan pemerintahan daerah provinsi dan pemerintahan daerah kabupaten/ kota di bidang penelitian dan pengembangan. (41 Kebun Raya yang menjadi kewenangan Badan Usaha diselenggarakan oleh Badan Usaha.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-33/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Kebun Raya yang menjadi kewenangan perguruan tinggi diselenggarakan oleh perguruan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "SISTEM INFORMASI ELEKTRONIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Badan menggunakan dan mengembangkan sistem informasi elektronik dan pangkalan data koleksi Kebun Raya secara terintegrasi dan terpusat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sistem informasi elektronik dan pangkalan data koleksi Kebun Raya dikembangkan dan dikelola oleh: SK No 059921A",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kebun . . . EUK INDONES Kebun Raya yang menjadi kewenangan kementerian/lembaga;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kebun Raya yang menjadi kewenangan pemerintah daerah provinsi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Kebun Raya yang menjadi kewenangan pemerintah daerah kabupaten/kota;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Kebun Raya yang menjadi kewenangan Badan Usaha; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "Kebun Raya yang menjadi kewenangan perguruan tinggi. (21 Pangkalan data koleksi Kebun Raya sebagaimana dimaksud pada ayat (1) wajib diintegrasikan dengan pangkalan data yang dibangun dan dikelola oleh Badan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-83-tahun-2023/pasal-35/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pengelolaan sistem informasi elektronik dan pangkalan data koleksi Kebun Raya diatur dengan Peraturan Badan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PENDANAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "Pendanaan penyelenggaraan Kebun Raya yang menjadi kewenangan Badan, kementerian/lembaga, pemerintah daerah provinsi, dan pemerintah daerah kabupaten/ kota bersumber dari: a. anggaran pendapatan dan belanja negara; b. anggaran pendapatan dan belanja daerah; dan/ atau c. sumber lain yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang-undangan. SK No 059922 A Pasal 37... REFUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Pendanaan penyelenggaraan Kebun Raya yang menjadi kewenangan Badan Usaha bersumber dari anggaran Badan Usaha.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "Pendanaan penyelenggaraan Kebun Raya yang menjadi kewenangan perguruan tinggi bersumber dari anggaran perguruan tinggi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Penerimaan Pengelolaan Kebun Raya yang menjadi kewenangan Badan dan kementerian/lembaga merupakan penerimaan negara bukan pajak. Pasal 4O Penerimaan Pengelolaan Kebun Raya yang menjadi kewenangan pemerintah daerah provinsi dan pemerintah daerah kabupaten/ kota merupakan lain-lain pendapatan asli daerah yang sah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-83-tahun-2023/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Penyelenggaraan Kebun Raya yang telah ditetapkan sebelum Peraturan Presiden ini mulai berlaku harus disesuaikan dengan ketentuan dalam Peraturan Presiden ini paling larna 2 (dua) tahun sejak Peraturan Presiden ini diundangkan. Pasal 42. .. SK No 059923 A REPUBUK INDONESIA Pasai 42 Dalam hal belum terbentuk BRIDA atau perangkat daerah yang menyelenggarakan urusan pemerintahan daerah di bidang penelitian dan pengembangan, penyelenggaraan Kebun Raya dilaksanakan oleh perangkat daerah yang urusan pemerintahan di bidang lingkungan hidup. BABxI KETENTUAN PENUTUP",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Peraturan Presiden Nomor 93 Tahun 2O11 tentang Kebun Raya (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 143), dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, Peraturan Presiden Nomor 93 Tahun 2O11 tentang Kebun Raya (Lembaran Negara Republik Indonesia Tahun 2OLl Nomor 143), dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-83-tahun-2023/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. SK No 059924 A Agar FRESIDEN REPUBLIK TNDONES]A -2L- Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 2023 PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 27 Desember 2023 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2023 NOMOR 161 Salinan sesuai dengan aslinya KEMENTEzuAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Plh. Perundang-undangan istrasi Hukum, ihwati Lestari SK No 059925 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..45): [22, 32, 40, 42]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

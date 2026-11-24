@@ -1,0 +1,44 @@
+{
+ "slug": "perpres-no-5-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "bahwa dipandang perlu untuk meninjau kembali dan menyesuaikan ketentuan- ketentuan yang termaksud dalam Peraturan Presiden No. 20 tahun 1960 sebagaimana kemudian diubah dan ditambah dengan Peraturan Presiden No. 15 tahun 1961 tentang Pemberian Penghargaan/Tunjangan kepada Perintis Pergerakan Kebangsaan/Kemerdekaan dengan keadaan sekarang karena diantara mereka banyak yang telah lanjut usianya dan hidup dalam keadaan sukar, sehingga perlu diberi jaminan yang layak;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-5-tahun-1964",
+   "detailsId": "42486",
+   "judul": "PERPRES No. 5 Tahun 1964 tentang Pemberian Penghargaan/Tunjangan Kepada Perintis Pergerakan Kebangsaan/Kemerdekaan&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73348/Perpres%20No.5%20Tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-15-tahun-1961",
+    "perpres-no-20-tahun-1960"
+   ],
+   "scrapedAt": "2026-10-06T06:16:36.792816+00:00"
+  },
+  "sha256": "cda81aceceb49a5d0e7e391465ef202472a43b93c15c3ed6d618eae697db9760",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "slug": "pp-no-1-tahun-1945",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-1-tahun-1945",
+   "detailsId": "77857",
+   "judul": "PP No. 1 Tahun 1945 tentang Tentang Dan Mulai Berlakunja &#xD;&#xA;Undang-Undang Dan Peraturan Pemerintah&#xD;&#xA;&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69137/PP%20No.1%20Tahun%201945.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:15:48.637500+00:00"
+  },
+  "sha256": "72a2b763e61c2b5cd1ee847ed4d7add6825959103ed5bc0da845d85cf306efff",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-1-tahun-1945/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Segala Undang-Undang dan Peraturan Presiden diumumkan oleh Presiden dan ditanda tangani oleh Sekretaris Negara.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1945/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Untuk sementra waktu pengumuman dilakukan dengan menempelkan undang- undang atau peraturan presiden itu di papan pengumuman di muka gedung komite nasional pusat.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1945/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Djikalau perlu, supaja penduduk selekas mungkin mengetahuinja maka pengumuman itu disiarkan dengan perantara surat kabar, radio atau penjiaran lainnja.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-1-tahun-1945/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Undang-undang dan peraturan presiden mulai berlaku pada hari diumumkan,ketjuali djika dalam Undang-Undang atau Peraturan Presiden itu ditetapkan lain. Djakarta, tanggal 10 Oktober 1945, ttd SOEKARNO Diumumkan, Pada tanggal 10 Oktober 1945, SEKRETARIS NEGARA, ttd A.G. PRINGGODIGDO,-",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

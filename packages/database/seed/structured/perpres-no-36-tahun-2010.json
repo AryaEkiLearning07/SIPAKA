@@ -1,0 +1,72 @@
+{
+ "slug": "perpres-no-36-tahun-2010",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   "bahwa untuk melaksanakan Pasal 12 ayat (4) dan Pasal 13 ayat (1) Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal telah ditetapkan Peraturan Presiden Nomor 77 Tahun 2007 tentang Daftar Bidang Usaha yang Tertutup dan Bidang Usaha yang Terbuka Dengan Persyaratan di Bidang Penanaman Modal sebagaimana telah diubah dengan Peraturan Presiden Nomor 111 Tahun 2007; bahwa untuk lebih meningkatkan kegiatan penanaman modal di Indonesia dan dalam rangka pelaksanaan komitmen Indonesia dalam kaitannya dengan Association of Southeast Asian Nations/ASEAN Economic Community (AEC), dipandang perlu mengganti ketentuan mengenai daftar bidang usaha yang tertutup dan bidang usaha yang terbuka dengan persyaratan di bidang penanaman modal; bahwa sehubungan dengan hal sebagaimana dimaksud pada huruf a dan huruf b di atas, perlu menetapkan Peraturan Presiden tentang Daftar Bidang Usaha yang Tertutup dan Bidang Usaha yang Terbuka Dengan Persyaratan di Bidang Penanaman Modal;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-36-tahun-2010",
+   "detailsId": "40390",
+   "judul": "PERPRES No. 36 Tahun 2010 tentang Daftar Bidang Usaha yang Tertutup dan Bidang Usaha yang Terbuka dengan Persyaratan di Bidang Penanaman Modal - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/30051/PERPRES%20Nomor%2036%20Tahun%202010.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-77-tahun-2007",
+    "perpres-no-111-tahun-2007"
+   ],
+   "scrapedAt": "2026-10-06T06:15:13.666095+00:00"
+  },
+  "sha256": "52490dd778abd7529c92bf477bca866210f9be65011a512d388bed0f32d7a3f0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-36-tahun-2010/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-36-tahun-2010/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Bidang usaha yang tertutup merupakan bidang usaha tertentu yang dilarang diusahakan sebagai kegiatan penanaman modal.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-36-tahun-2010/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Daftar bidang usaha yang tertutup sebagaimana dimaksud pada ayat (1) adalah sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

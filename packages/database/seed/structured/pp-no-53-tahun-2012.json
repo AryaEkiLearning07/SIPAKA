@@ -1,0 +1,73 @@
+{
+ "slug": "pp-no-53-tahun-2012",
+ "preamble": {
+  "menimbang": [
+   "bahwa sejak ditetapkannya Peraturan Pemerintah Nomor 14 Tahun 1993 tentang Penyelenggaraan Program Jaminan Sosial Tenaga Kerja sampai saat ini belum pernah dilakukan perubahan terhadap dasar perhitungan iuran Jaminan Pemeliharaan Kesehatan;",
+   "bahwa biaya pelayanan kesehatan telah mengalami peningkatan yang cukup signifikan, sehingga batas atas upah sebesar Rp1.000.000,00 (satu juta rupiah) sebagai Jaminan perhitungan Pemeliharaan Kesehatan sudah tidak sesuai lagi dengan kondisi saat ini; dasar iuran",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c menetapkan tentang Perubahan Kedelapan Atas Peraturan Pemerintah Nomor 14 Tahun 1993 tentang Penyelenggaraan Program Jaminan Sosial Tenaga Kerja; Pemerintah Peraturan Mengingat . . . - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 23 April 2012 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 106 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA RI Asisten Deputi Perundang-undangan Bidang Politik dan Kesejahteraan Rakyat, Wisnu Setiawan PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 53 TAHUN 2012 TENTANG PERUBAHAN KEDELAPAN ATAS PERATURAN PEMERINTAH NOMOR 14 TAHUN 1993 TENTANG PENYELENGGARAAN PROGRAM JAMINAN SOSIAL TENAGA KERJA I. UMUM Program Jaminan Sosial Tenaga Kerja merupakan program perlindungan dasar bagi tenaga kerja dan keluarganya, oleh karena itu perlu selalu diupayakan peningkatan jaminan dan manfaatnya bagi pekerja/buruh beserta keluarganya. Untuk memberikan manfaat program Jaminan Sosial Tenaga Kerja yang lebih baik bagi tenaga kerja dan keluarganya dilakukan peningkatan manfaat Jaminan Kematian dan kemudahan pelayanan bagi tenaga kerja dan keluarganya. Sejak tahun 1993 sampai saat ini telah terjadi peningkatan biaya pengobatan dan perawatan yang signifikan sehingga besarnya iuran tidak dapat mengimbangi perkembangan biaya pelayanan kesehatan. Kondisi ini ",
+ "source": {
+  "url": {
+   "slug": "pp-no-53-tahun-2012",
+   "detailsId": "5266",
+   "judul": "PP No. 53 Tahun 2012 tentang Perubahan Kedelapan Atas Peraturan Pemerintah Nomor 14 Tahun 1993 Tentang Penyelenggaraan Program Jaminan Sosial Tenaga Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35167/PP%20Nomor%2053%20Tahun%202012.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:37:24.984226+00:00"
+  },
+  "sha256": "d1c5b866f3f2ae57322fd489d3b9e88ced77f349cab0e67472b54a40425e18c3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-53-tahun-2012/pasal-9",
+   "type": "PASAL",
+   "orderIndex": 9,
+   "label": "Pasal 9",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-53-tahun-2012/pasal-9/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Besarnya iuran program jaminan sosial tenaga kerja adalah sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-53-tahun-2012/pasal-9/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Jaminan Kecelakaan Kerja yang perincian besarnya iuran berdasarkan kelompok jenis usaha sebagaimana tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..9): [1, 2, 3, 4, 5, 6, 7, 8]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

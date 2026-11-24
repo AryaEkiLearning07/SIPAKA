@@ -1,0 +1,79 @@
+{
+ "slug": "pp-no-75-tahun-1992",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai realisasi dari keputusan tersebut, Negara Republik Indonesia sebagai anggota Islamic Development Bank dipandang perlu untuk ikut serta sebagai pendiri perusahaan tcrsebut dengan melakukan penyertaan modal saham;",
+   "bahwa penyertaan modal Ncgara Republik Indonesia dalam pendirian perusahaan tersebut pada dasarnya merupakan salah satu bentuk pemisahan kekayaan Negara yang disertakan dalam modal saham perusahaan tersebut dan perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-75-tahun-1992",
+   "detailsId": "57934",
+   "judul": "PP No. 75 Tahun 1992 tentang Penyertaan Modal Negara Republik Indonesia Dalam Pendirian Perusahaan Asuransi Investasi Dan Kredit Ekspor - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47403/PP%20NO%2075%20TH%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:12.933631+00:00"
+  },
+  "sha256": "7d8925078dcb8a82be8cfc6f08f68e76880078cabe9a6fac9dd8af1e27812898",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-75-tahun-1992/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penyertaan modal dalam pendirian perusahaan asuransi investasi dan kredit ekspor.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-75-tahun-1992/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Nilai penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar ID 250.000.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-75-tahun-1992/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pelaksanaan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 2 dilakukan oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-75-tahun-1992/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 9 Nopember 1992 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 9 Nopember 1992 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

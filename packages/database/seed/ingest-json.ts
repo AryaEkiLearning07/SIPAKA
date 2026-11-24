@@ -16,7 +16,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { prisma } from '../src/index';
-import type { ProvisionNode } from '@sipaka/types';
+import type { ProvisionNode, InstrumentType } from '@sipaka/types';
 
 const STRUCT = path.join(__dirname, '..', 'seed', 'structured');
 const RICH   = path.join(__dirname, '..', 'seed', 'structured', 'catalog-rich.jsonl');
@@ -105,22 +105,87 @@ async function ingest(slug: string, force: boolean, rich: ReturnType<typeof load
   }
   if (slug === 'ite') return 'LEWATI ite (keluarga pilot via seed utama)';
 
-  const m = slug.match(/^uu-(?:no-)?(\d+)(?:-tahun)?-(\d{4})$/);
-  if (!m) return `LEWATI ${slug} (slug tidak berpola UU)`;
-  const nomor = parseInt(m[1], 10);
-  const tahun = parseInt(m[2], 10);
+  // Parsing Pola Regulasi Nasional & Daerah (UU, PP, Perpres, Perppu, Permen, Perda, Pergub, Perbup, Perwali)
+  let instType: InstrumentType = 'UU';
+  let nomor = 0;
+  let tahun = 2000;
+  let typeLabel = 'Peraturan';
+
+  const mNas = slug.match(/^(uu|pp|perpres|perpu|perppu)-(?:no-)?(\d+)(?:-tahun)+-(\d{3,4})/i);
+  const mPermen = slug.match(/^(permen[a-z]*|perma|pojk|pbi|pmk)-(?:no-)?(\d+)(?:-tahun)+-(\d{3,4})/i);
+  const mPergub = slug.match(/^pergub(?:-[a-z0-9-]+)?-(?:no-)?(?:nomor-)?(\d+)-(?:tahun-)+(\d{3,4})/i);
+  const mPerkada = slug.match(/^(perbup|perwali)(?:-[a-z0-9-]+)?-(?:no-)?(?:nomor-)?(\d+)-(?:tahun-)+(\d{3,4})/i);
+  const mPerda = slug.match(/^(perda|qanun)(?:-[a-z0-9-]+)?-(?:no-)?(?:nomor-)?(\d+)-(?:tahun-)+(\d{3,4})/i);
+  const mGen = slug.match(/(?:no-)?(?:nomor-)?(\d+)-(?:tahun-)+(\d{3,4})/i) || slug.match(/(\d+)-(\d{3,4})/);
+
+  if (mNas) {
+    const raw = mNas[1].toLowerCase();
+    nomor = parseInt(mNas[2], 10);
+    tahun = parseInt(mNas[3], 10);
+    if (raw === 'uu') { instType = 'UU'; typeLabel = 'Undang-Undang'; }
+    else if (raw === 'pp') { instType = 'PP'; typeLabel = 'Peraturan Pemerintah'; }
+    else if (raw === 'perpres') { instType = 'PERPRES'; typeLabel = 'Peraturan Presiden'; }
+    else if (raw === 'perpu' || raw === 'perppu') { instType = 'PERPPU'; typeLabel = 'Peraturan Pemerintah Pengganti Undang-Undang'; }
+  } else if (mPermen) {
+    nomor = parseInt(mPermen[2], 10);
+    tahun = parseInt(mPermen[3], 10);
+    instType = 'PERMEN';
+    typeLabel = slug.toLowerCase().startsWith('pmk-') ? 'Peraturan Menteri Keuangan' : 'Peraturan Menteri';
+  } else if (mPergub) {
+    nomor = parseInt(mPergub[1], 10);
+    tahun = parseInt(mPergub[2], 10);
+    instType = 'PERGUB';
+    typeLabel = 'Peraturan Gubernur';
+  } else if (mPerkada) {
+    nomor = parseInt(mPerkada[2], 10);
+    tahun = parseInt(mPerkada[3], 10);
+    instType = mPerkada[1].toLowerCase() === 'perbup' ? 'PERBUP' : 'PERWALI';
+    typeLabel = mPerkada[1].toLowerCase() === 'perbup' ? 'Peraturan Bupati' : 'Peraturan Walikota';
+  } else if (mPerda) {
+    nomor = parseInt(mPerda[2], 10);
+    tahun = parseInt(mPerda[3], 10);
+    const isProv = slug.includes('prov') || slug.includes('dki') || slug.includes('diy');
+    instType = mPerda[1].toLowerCase() === 'qanun' ? 'QANUN' : (isProv ? 'PERDA_PROV' : 'PERDA_KABKOT');
+    typeLabel = mPerda[1].toLowerCase() === 'qanun' ? 'Qanun' : (isProv ? 'Peraturan Daerah Provinsi' : 'Peraturan Daerah Kabupaten/Kota');
+  } else if (mGen) {
+    nomor = parseInt(mGen[1], 10);
+    tahun = parseInt(mGen[2], 10);
+    if (slug.startsWith('pp-')) { instType = 'PP'; typeLabel = 'Peraturan Pemerintah'; }
+    else if (slug.startsWith('perpres-')) { instType = 'PERPRES'; typeLabel = 'Peraturan Presiden'; }
+    else if (slug.startsWith('perpu-') || slug.startsWith('perppu-')) { instType = 'PERPPU'; typeLabel = 'Perpu'; }
+    else if (slug.startsWith('permen-')) { instType = 'PERMEN'; typeLabel = 'Peraturan Menteri'; }
+    else if (slug.includes('prov') || slug.includes('pergub')) { instType = 'PERGUB'; typeLabel = 'Peraturan Gubernur'; }
+    else if (slug.includes('kab') || slug.includes('perbup')) { instType = 'PERBUP'; typeLabel = 'Peraturan Bupati'; }
+    else if (slug.includes('kota') || slug.includes('perwali')) { instType = 'PERWALI'; typeLabel = 'Peraturan Walikota'; }
+    else { instType = 'UU'; typeLabel = 'Peraturan'; }
+  } else {
+    // Fallback darurat: deteksi dari jenis awal slug
+    if (slug.startsWith('pergub-')) { instType = 'PERGUB'; typeLabel = 'Peraturan Gubernur'; }
+    else if (slug.startsWith('perbup-')) { instType = 'PERBUP'; typeLabel = 'Peraturan Bupati'; }
+    else if (slug.startsWith('perwali-')) { instType = 'PERWALI'; typeLabel = 'Peraturan Walikota'; }
+    else if (slug.startsWith('perda-')) { instType = 'PERDA_KABKOT'; typeLabel = 'Peraturan Daerah'; }
+    else { instType = 'UU'; typeLabel = 'Peraturan'; }
+  }
+
+  // Jika tahun terpotong (misal 3 digit '201') atau 0, pulihkan dari metadata judul dokumen
+  const srcTitle = typeof doc.source?.url === 'object' ? (doc.source.url as any)?.judul : (doc.source as any)?.judul;
+  if (tahun < 1900 || tahun > 2030) {
+    const mYear = (srcTitle || '').match(/Tahun\s+(\d{4})/i) || (doc.source?.url ? String(doc.source.url).match(/(\d{4})/i) : null);
+    if (mYear) tahun = parseInt(mYear[1], 10);
+    else if (tahun >= 200 && tahun <= 203) tahun = tahun * 10 + 5; // Estimasi aman dekade
+  }
 
   // Ambil metadata dari catalog-rich bila tersedia
-  const meta = rich.get(slug) || rich.get(`uu-${nomor}-${tahun}`) || rich.get(`uu-no-${nomor}-tahun-${tahun}`) || {};
+  const meta = rich.get(slug) || rich.get(`${instType.toLowerCase()}-${nomor}-${tahun}`) || rich.get(`${instType.toLowerCase()}-no-${nomor}-tahun-${tahun}`) || {};
   let judul = meta.judul;
-  if (!judul || judul.match(/^Undang-Undang Nomor \d+ Tahun \d+$/i)) {
+  if (!judul || judul.match(new RegExp(`^${typeLabel} Nomor \\d+ Tahun \\d+$`, 'i'))) {
     if (meta.tentang) {
-      judul = `Undang-Undang Nomor ${nomor} Tahun ${tahun} tentang ${meta.tentang}`;
+      judul = `${typeLabel} Nomor ${nomor} Tahun ${tahun} tentang ${meta.tentang}`;
     } else {
-      judul = `Undang-Undang Nomor ${nomor} Tahun ${tahun}`;
+      judul = `${typeLabel} Nomor ${nomor} Tahun ${tahun}`;
     }
   }
-  const shortTitle = `UU No. ${nomor} Tahun ${tahun}`;
+  const shortTitle = `${instType} No. ${nomor} Tahun ${tahun}`;
   const lnNumber  = meta.lnNumber  ? parseInt(meta.lnNumber, 10)  : null;
   const tlnNumber = meta.tlnNumber ? parseInt(meta.tlnNumber, 10) : null;
   const enactedAt = meta.enactedAt ? new Date(meta.enactedAt) : new Date(`${tahun}-01-01`);
@@ -140,7 +205,7 @@ async function ingest(slug: string, force: boolean, rich: ReturnType<typeof load
   if (bySlug) toDelete.push(bySlug.id);
 
   const byNumYear = await prisma.legalInstrument.findFirst({
-    where: { type: 'UU', number: nomor, year: tahun },
+    where: { type: instType, number: nomor, year: tahun },
     select: { id: true, slug: true },
   });
   if (byNumYear && !toDelete.includes(byNumYear.id)) {
@@ -153,6 +218,12 @@ async function ingest(slug: string, force: boolean, rich: ReturnType<typeof load
   }
 
   for (const id of toDelete) {
+    await prisma.changeOperation.deleteMany({
+      where: { changeSet: { OR: [{ targetInstrumentId: id }, { amendingInstrumentId: id }] } },
+    }).catch(() => null);
+    await prisma.changeSet.deleteMany({
+      where: { OR: [{ targetInstrumentId: id }, { amendingInstrumentId: id }] },
+    }).catch(() => null);
     await prisma.provision.deleteMany({ where: { legalInstrumentId: id } });
     await prisma.legalInstrument.delete({ where: { id } });
   }
@@ -160,7 +231,7 @@ async function ingest(slug: string, force: boolean, rich: ReturnType<typeof load
   const instrument = await prisma.legalInstrument.create({
     data: {
       slug,
-      type: 'UU',
+      type: instType,
       number: nomor,
       year: tahun,
       title: judul,

@@ -1,0 +1,43 @@
+{
+ "slug": "perpres-no-15-tahun-1964",
+ "preamble": {
+  "menimbang": [
+   "bahwa peraturan perjalanan dinas dalam negeri yang ditetapkan dalam Peraturan Pemerintah No. 33 tahun 1955 (Lembaran-Negara tahun 1955 No. 77) dipandang tidak sesuai lagi dengan perkembangan serta pertumbuhan keadaan pada waktu sekarang; Memperhatikan: Saran-saran dari Panitya Retooling Aparatur Negara dan Panitya Khusus Pembantu Wakil Perdana Menteri;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-15-tahun-1964",
+   "detailsId": "42489",
+   "judul": "PERPRES No. 15 Tahun 1964 tentang Penetapan Peraturan Perjalanan Dinas Dalam Negeri Bagi Pegawai Negeri&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/73361/Perpres%20No.15%20Tahun%201964.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-33-tahun-1955"
+   ],
+   "scrapedAt": "2026-10-06T06:08:01.325016+00:00"
+  },
+  "sha256": "e2660222937e194af8259823c5bc23f4082c4fc932dcc9cc6434eecd2ad21e01",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "slug": "perpres-no-90-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk melaksanakan ketentuan Pasal 13 ayat ( 1 ) Peraturan Pemerintah Nomor 1 Tahun 2010 tentang Dewan Gelar, Tanda Jasa, dan Tanda Kehormatan, perlu menetapkan Peraturan Presiden tentang Hak Keuangan Ketua, Wakil Ketua, dan Anggota Dewan Gelar, Tanda Jasa, dan Tanda Kehormatan;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-90-tahun-2011",
+   "detailsId": "41192",
+   "judul": "PERPRES No. 90 Tahun 2011 tentang Hak Keuangan Ketua, Wakil Ketua, dan Anggota Dewan Gelar, Tanda Jasa, dan Tanda Kehormatan&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69678/Perpres_no_90_2011.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:14:37.855129+00:00"
+  },
+  "sha256": "6854d472e19d2cb4c253620dfd73b7216df64f41f44861ac9c0b6df3c51086c4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya honorarium sebagaimana dimaksud dalam Pasal 1 adalah sebagai berikut: a. Ketua : Rp. 5.000.000,00 (lima juta rupiah); b. Wakil Ketua : Rp. 4.500.000,00 (empat juta lima ratus ribu rupiah); : Rp. 4.000.000,00 (empat juta rupiah). c. Anggota",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Honorarium bagi Ketua, Wakil Ketua, dan Anggota Dewan Gelar, Tanda Jasa, dan Tanda Kehormatan sebagaimana dimaksud dalam Pasal 1 dan Pasal 2 diberikan terhitung sejak ditetapkannya Peraturan Presiden ini.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraruran Presiden ini, diatur oleh Menteri Keuangan dan/atau Menteri Sekretaris Negara, baik secara bersama-sama maupun sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Dengan berlakunya Peraturan Presiden ini, maka Ketua, Wakil Ketua, dan Anggota Dewan Gelar, Tanda Jasa, dan Tanda Kehormatan tidak menerima lagi uang kehormatan berdasarkan Keputusan Presiden Nomor 148 Tahun 2000 tentang Uang Kehormatan Bagi Ketua, Anggota, dan Sekretaris Jenderal Dewan Tanda-Tanda Kehormatan Republik Indonesia serta Honorarium Bagi Kepala dan Anggota Sekretariat Biro Dewan Tanda-Tanda Kehormatan Repubiik Indonesia. Peraturan Presiden ini mulai berlaku sejak tanggal ditetapkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-90-tahun-2011/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Ditetapkan di Jakarta pada tanggal 6 Desember 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

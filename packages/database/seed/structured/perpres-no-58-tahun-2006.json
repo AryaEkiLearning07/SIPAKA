@@ -1,0 +1,226 @@
+{
+ "slug": "perpres-no-58-tahun-2006",
+ "preamble": {
+  "menimbang": [
+   "bahwa Pegawai Negeri Sipil yang diangkat dan ditugaskan sebagai Tenaga Kependidikan sesuai ketentuan peraturan perundang- undangan, perlu diberikan tunjangan yang sesuai dengan beban kerja dan tanggung jawab pekerjaannya;",
+   "bahwa sehubungan dengan hal tersebut pada huruf a dan dalam rangka meningkatkan kesejahteraan dan produktivitas kerja Pegawai Negeri Sipil yang bersangkutan serta sambil menunggu ditatanya jabatan fungsional Tenaga Kependidikan secara menyeluruh sesuai dengan ketentuan peraturan perundang- undangan, dipandang perlu mengatur Tunjangan Tenaga Kependidikan dengan Peraturan Presiden;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-58-tahun-2006",
+   "detailsId": "41994",
+   "judul": "PERPRES No. 58 Tahun 2006 tentang Tunjangan Tenaga Kependidikan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/71027/PERPRES%20No.58%20TH%202006.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "keppres-no-3-tahun-2003-tunjangan-tenaga-kependidikan"
+   ],
+   "scrapedAt": "2026-10-06T06:15:20.897211+00:00"
+  },
+  "sha256": "f69a6982d4de87d85f3334e863c4438ee6e2bb53fffbd6e9372becfcbb2c1286",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 10,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-58-tahun-2006/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Presiden ini yang dimaksud dengan Tenaga Kependidikan adalah :",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Guru yang ditugaskan pada :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Taman Kanak-kanak, Raudlatul Athfal/Bustanul Athfal, dan yang sederajat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Sekolah Dasar, Sekolah Dasar Luar Biasa, Madrasah Ibtidaiyah, dan yang sederajat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Sekolah Lanjutan Tingkat Pertama, Madrasah Tsanawiyah, dan yang sederajat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-1/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "Sekolah Menengah, Sekolah Luar Biasa, Madrasah Aliyah, dan yang sederajat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Pamong ... - - Pamong Belajar yang ditugaskan pada :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Sanggar Kegiatan Belajar; dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Balai Pengembangan Kegiatan Belajar.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Penilik yang diberi tugas secara penuh untuk melakukan kegiatan penilikan Pendidikan Luar Sekolah pada Dinas Pendidikan Kabupaten/Kota atau Dinas yang bertanggung jawab di bidang Pendidikan Luar Sekolah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Guru yang diberi tugas tambahan sebagai Kepala Taman Kanak- kanak, Raudlatul Athfal/Bustanul Athfal, dan yang sederajat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Guru yang diberi tugas tambahan sebagai Kepala Sekolah Dasar, Sekolah Dasar Luar Biasa, Madrasah Ibtidaiyah, dan yang sederajat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Guru yang diberi tugas tambahan sebagai Kepala Sekolah Lanjutan Tingkat Pertama, Madrasah Tsanawiyah, dan yang sederajat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Guru yang diberi tugas tambahan sebagai Kepala Sekolah Menengah, Sekolah Luar Biasa, Madrasah Aliyah, dan yang sederajat;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-8",
+     "type": "ANGKA",
+     "orderIndex": 8,
+     "label": "Angka 8",
+     "content": "Pengawas Sekolah dan Pengawas Mata Pelajaran Pendidikan Agama pada Taman Kanak-kanak, Raudlatul Athfal/Bustanul Athfal, Sekolah Dasar, Sekolah Dasar Luar Biasa, Madrasah Ibtidaiyah, dan yang sederajat;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-9",
+     "type": "ANGKA",
+     "orderIndex": 9,
+     "label": "Angka 9",
+     "content": "Pengawas Mata Pelajaran/Rumpun Mata Pelajaran dan Pengawas Bimbingan dan Konseling pada Sekolah Lanjutan Tingkat Pertama, Madrasah Tsanawiyah, Sekolah Menengah, Madrasah Aliyah, dan yang sederajat;",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-58-tahun-2006/pasal-1/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Pengawas … - - Pengawas Pendidikan Luar Biasa pada Sekolah Luar Biasa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-58-tahun-2006/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Kepala Sekolah dalam jabatan Tenaga Kependidikan, bukan jabatan struktural.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-58-tahun-2006/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Kepada Pegawai Negeri Sipil yang diangkat dan ditugaskan sebagai Tenaga Kependidikan, diberikan tunjangan Tenaga Kependidikan setiap bulan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-58-tahun-2006/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Besarnya tunjangan Tenaga Kependidikan sebagaimana dimaksud dalam Pasal 3, adalah sebagaimana tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

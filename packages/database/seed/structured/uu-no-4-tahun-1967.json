@@ -1,0 +1,77 @@
+{
+ "slug": "uu-no-4-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa pasal 21 Bab X Penutup Undang-undang No. 11 tahun 1966 tentang Ketentuan-ketentuan Pokok Pers perlu ditambah dengan satu ayat untuk lebih menegaskan pelaksanaan diktum pertama dari Undang- undang tersebut;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-4-tahun-1967",
+   "detailsId": "49551",
+   "judul": "UU No. 4 Tahun 1967 tentang Penambahan Undang-Undang Nomor 11 Tahun 1966 Tentang Ketentuan-Ketentuan Pokok Pers - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/38830/UU%20Nomor%204%20Tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:49:36.757058+00:00"
+  },
+  "sha256": "e756289e9a327ab82607dbf478688107ebd50ae5f29e37c82059c2b7d34fc249",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-1967/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-1967/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pasal 21 Bab X Penutup Undang-undang No.11 tahun 1966 tentang Ketentuan-ketentuan Pokok Pers ditambah dengan ayat (2) baru, yang berbunyi sebagai berikut: Dengan berlakunya Undang-undang ini maka tidak berlaku ketentuan-ketentuan dalam Penetapan Presiden No. 4 tahun 1963 tentang Pengamanan terhadap barang-barang cetakan yang isinya dapat mengganggu ketertiban umum, khususnya mengenai bulletin- bulletin, surat-surat kabar harian, majalah-majalah dan penerbitan- penerbitan berkala.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-1967/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Ayat (2) Pasal 21 Undang-undang No. 11 tahun 1966 tentang Ketentuan-ketentuan Pokok Pers menjadi ayat (3).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-1967/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar... - - Agar supaya setiap orang mengetahuinya memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran-Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 6 Mei 1967. Pd. Presiden Republik Indonesia, ttd SOEHARTO. Jenderal TNI. Diundangkan di Jakarta pada tanggal 6 Mei 1967. A.n. Sekretaris Negara. Sekretaris Presidium Kabinet, ttd SUDHARMONO SH. Brig. Jen. TNI. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1967 NOMOR 7",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

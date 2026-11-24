@@ -1,0 +1,69 @@
+{
+ "slug": "perpres-no-51-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa Anggaran Belanja Pemerintah Pusat Tahun 2010 sebagaimana dimaksud dalarn Pasal 6 ayat (6) Undang-Undang Nomor 4 7 Tahun 2009 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2010 perlu dirinci rnenurut organisasi, . . fungsi, dan jenis belanja yang diatur lebih lanjut dalam Peraturan Presiden; .",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu menetapkan Peraturan Presiden tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2010. / -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-51-tahun-2009",
+   "detailsId": "42321",
+   "judul": "PERPRES No. 51 Tahun 2009 tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2010 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/258345/PERPRES%20No.51%20TH%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:02.061322+00:00"
+  },
+  "sha256": "7b4df98b78b6d7dc8e38c30ab6320de6e12ae726b165be1501c5355e1ac22292",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-51-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-51-tahun-2009/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Belanja Pernerintah Pusat Tahun Anggaran 2010, dirinci rnenurut bagian anggarari/unit organisasi, fungsi/sub fungsi, program, kegiatan, lokasi, satu.an kerja., dan jenis belanja.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-51-tahun-2009/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Rincian Anggaran Belanja Pernerintah Pusat sebagaimana dimaksud pada ayat (1) ditetapkan dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

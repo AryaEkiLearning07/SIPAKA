@@ -1,0 +1,179 @@
+{
+ "slug": "pp-no-17-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa dipandang perlu untuk memberikan tunjangan perbaikan penghasilan pensiun bagi penerima pensiun/tunjangan yang bersifat pensiun dalam batas-batas kemampuan keuangan Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-17-tahun-1989",
+   "detailsId": "63638",
+   "judul": "PP No. 17 Tahun 1989 tentang Pemberian Tunjangan Perbaikan Penghasilan Bagi Penerima Pensiun/Tunjangan Yang Bersifat Pensiun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/53841/PP%20NO%2017%20TH%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:47:10.051142+00:00"
+  },
+  "sha256": "f240eb301f5ce0768cc7a47d71133a1c60f6ec7d364e531bb65057ce291e4e8a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 5,
+  "ayat_angka": 6,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-17-tahun-1989/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Kepada penerima pensiun, beserta janda/dudanya, diberikan tunjangan perbaikan penghasilan setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Besarnya tunjangan perbaikan penghasilan sebagaimana dimaksud dalam ayat (1) ialah :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Untuk bulan Januari sampai dengan bulan Maret 1989, sebesar 10% (sepuluh perseratus) dari penghasilan;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Untuk bulan April 1989 dan seterusnya sebesar 15% (lima belas perseratus) dari penghasilan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Penghasilan sebagaimana dimaksud dalam ayat (2) terdiri dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-3/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "pensiun pokok;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-3/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "tunjangan isteri/suami;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-3/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "tunjangan anak;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-17-tahun-1989/pasal-1/ayat-3/huruf-d",
+       "type": "HURUF",
+       "orderIndex": 4,
+       "label": "Huruf d",
+       "content": "tunjangan peralihan/tunjangan penghasilan minimum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-17-tahun-1989/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-17-tahun-1989/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Tunjangan perbaikan penghasilan pensiun sebagaimana dimaksud dalam Pasal 1 dibayarkan bersama-sama dengan pembayaran pensiun setiap bulan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-17-tahun-1989/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Tunjangan perbaikan penghasilan pensiun sebagaimana dimaksud dalam Pasal 1, dibulatkan ke atas menjadi ratusan rupiah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-17-tahun-1989/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Ketentuan pelaksanaan Peraturan Pemerintah ini ditetapkan lebih lanjut oleh Menteri Keuangan, Menteri Dalam Negeri, Menteri Pertahanan Keamanan, dan Kepala Badan Administrasi Kepegawaian Negara, baik secara bersama-sama atau secara sendiri-sendiri menurut bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-17-tahun-1989/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 1 Januari 1989. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 28 Oktober 1989 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 28 Oktober 1989 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

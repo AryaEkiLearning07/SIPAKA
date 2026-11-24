@@ -1,0 +1,77 @@
+{
+ "slug": "pp-no-79-tahun-2020",
+ "preamble": {
+  "menimbang": [
+   "..."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-79-tahun-2020",
+   "detailsId": "156780",
+   "judul": "PP No. 79 Tahun 2020 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke dalam Modal Saham Perusahaan Perseroan (Persero) PT Penjamin Infrastruktur Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/149210/PP%20Nomor%2079%20Tahun%202020.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:30:18.546772+00:00"
+  },
+  "sha256": "b97e7f224ae5c259267b318d0bf400b5e08e16453ffd7da771ddb882409f7342",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-79-tahun-2020/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham PT penjaminan Infrastruktur Indonesia (Persero) yang didirikan berdasarkan Peraturan Pemerintah Nomor 35 Tahun 2OO9 tentang Penyertaan Modal Negara Republik lndonesia untuk Pendirian Perusahaan Perseroan (Persero) di Bidang Penjaminan Infrastruktur sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Pemerintah. Nomor 55 Tahun 2O2O tentang Perubahan Kedua Atas peraturan Pemerintah Nomor 35 Tahun 2OOg tentang penyertaan Modal Negara Republik Indonesia untuk pendirian Perusahaan Perseroan (Persero) di Bidang penjaminan Infrastruktur.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-79-tahun-2020/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-79-tahun-2020/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal negara sebagaimana dimaksud dalam pasal 1 sebesar Rp1.57O.0OO.00O.OO0,0O (satu triliun lima ratus tujuh puluh miliar rupiah). (21 Penambahan penyertaan modal negara sebagaimana. dimaksud pada ayat (1) bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2O2O sebagaimana ditetapkan kembali dalam Perubahan Postur dan Rincian Anggaran pendapatan dan Belanja Negara Tahun 2O2O.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-79-tahun-2020/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai diundangkan. berlaku pada tanggal SK No 0621l3 A Agar REPUBUK INDONESIA Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 30 Desember 2O2O PRESIDEN REPUBT,IK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 3O Desember 2O2O MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2O2O NOMOR 306 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Bidang Hukum dan dang-undangan, Djaman SK No 062114 A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

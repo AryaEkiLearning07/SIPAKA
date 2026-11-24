@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-10-tahun-1984",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-10-tahun-1984",
+   "detailsId": "64853",
+   "judul": "PP No. 10 Tahun 1984 tentang Perubahan Atas Peraturan Pemerintah Nomor 16 Tahun 1980 Tentang Pemberian Tunjangan Perbaikan Penghasilan Bagi Perintis Pergerakan Kebangsaan/Kemerdekaan Dan Bekas Anggota Komite Nasional Indonesia Pusat Sebagaimana Telah Diubah Dengan Peraturan Pemerintah Nomor 46 Tahun 1980 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/55125/PP%20NO%2010%20TH%201984.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:50:10.008625+00:00"
+  },
+  "sha256": "54cc1fadea507a1d2b7bf23f20e9b315ba162877140f1e23129946178f7679f4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

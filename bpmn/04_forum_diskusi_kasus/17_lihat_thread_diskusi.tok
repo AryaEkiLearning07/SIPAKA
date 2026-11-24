@@ -1,0 +1,47 @@
+tok 1.0 "Lihat Thread Diskusi (Forum Diskusi Kasus)"
+
+pool p "Lihat Thread Diskusi" process=lihat_thread_diskusi
+  store d_thread "Thread Diskusi"
+  store d_komen "Komentar"
+  start mulai "Permintaan buka thread diterima" message="Permintaan buka thread"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  send isi "Tampilkan Isi Thread" message="Isi thread"
+  and pisah
+  service urut "Urutkan Komentar"
+  send lencana "Tampilkan Lencana Verifikasi" message="Lencana verifikasi"
+  call latin "Deteksi Istilah Latin" process=deteksi_istilah_latin
+  and gabung
+  xor loop
+  eventgw tunggu
+  catch istilah "Pengguna mengklik istilah Latin" message="Klik istilah Latin"
+  catch tutup "Pengguna menutup thread" message="Tutup thread"
+  call popup "Tampilkan Popup Istilah" process=tampilkan_popup_istilah
+  end selesai "Selesai membaca thread"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> isi "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow isi -> pisah
+flow pisah -> urut -> gabung
+flow pisah -> lencana -> gabung
+flow pisah -> latin -> gabung
+flow gabung -> loop -> tunggu
+flow tunggu -> istilah
+flow tunggu -> tutup
+flow istilah -> popup -> loop
+flow tutup -> selesai
+
+reads isi d_thread
+reads urut d_komen
+reads lencana d_komen
+
+message user -> mulai "Permintaan buka thread"
+message tolak -> user "Akses ditolak"
+message isi -> user "Isi thread"
+message lencana -> user "Lencana verifikasi"
+message user -> istilah "Klik istilah Latin"
+message user -> tutup "Tutup thread"

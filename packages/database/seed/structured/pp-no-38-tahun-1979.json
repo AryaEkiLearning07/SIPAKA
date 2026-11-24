@@ -1,0 +1,87 @@
+{
+ "slug": "pp-no-38-tahun-1979",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1979",
+   "detailsId": "66843",
+   "judul": "PP No. 38 Tahun 1979 tentang Pemberian Pensiun Tambahan Dalam Tahun Anggaran 1979/1980 Kepada Para Penerima Pensiun/Tunjangan Yang Bersifat Pensiun - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57174/PP%20NO%2038%20TH%201979.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:14:06.064218+00:00"
+  },
+  "sha256": "fde6e280720c63e29abe5256da59dff3828ca05fd5d9af5028771b74379745c1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-38-tahun-1979/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1) (2) Kepada Penerima Pensiun/Tunjangan yang bersifat pensiun diberikan pensiun tambahan dalam Tahun Anggaran 1979/1980. Dalam pengertian Penerima Pensiun/Tunjangan yang bersifat pensiun tersebut dalam ayat (1) termasuk penerima uang tunggu.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1979/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Besarnya pensiun tambahan sebagaimana dimaksud dalam Pasal 1 adalah sebesar penghasilan pensiun bersih/uang tunggu bersih sebulan berdasarkan peraturan tidak termasuk pensiun/tunjangan yang bersifat pensiun/uang tunggu yang berlaku, tunjangan beras. Pasal 3 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1979/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pensiun tambahan tersebut dalam Pasal 1 dibayarkan bersama-sama dengan pembayaran pensiun bulan Januari 1980.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1979/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan teknis tentang pelaksanaan Peraturan Pemerintah ini ditetapkan lebih lanjut oleh Menteri Keuangan, Menteri Dalam Negeri, Menteri Pertahanan-Keamanan, dan Kepala Badan Administrasi Kepegawaian Negara, baik secara bersama-sama ataupun secara sendiri-sendiri sesuai dengan bidang tugasnya masing-masing.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-38-tahun-1979/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 27 Desember 1979 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 27 Desember 1979 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1979 NOMOR 60",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

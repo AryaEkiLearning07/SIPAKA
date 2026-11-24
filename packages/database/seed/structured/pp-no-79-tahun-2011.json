@@ -1,0 +1,86 @@
+{
+ "slug": "pp-no-79-tahun-2011",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a serta untuk melaksanakan ketentuan Pasal 4 ayat (4) Undang-Undang Nomor 19 Tahun 2003 tentang Badan Usaha Milik Negara, perlu menetapkan Peraturan Pemerintah tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Pelabuhan Indonesia I;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-79-tahun-2011",
+   "detailsId": "5212",
+   "judul": "PP No. 79 Tahun 2011 tentang Penambahan Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Perusahaan Perseroan Persero PT Pelabuhan Indonesia I - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35813/PP%2079%20Tahun%202011.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:34:53.958867+00:00"
+  },
+  "sha256": "ce603cf1192e45ab845336726edae31c7040b6cc1e0f07e97fd05a1299f67f3e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-79-tahun-2011/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Indonesia melakukan Negara Republik penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Pelabuhan Indonesia I yang didirikan berdasarkan Peraturan Pemerintah Nomor 56 Tahun 1991 tentang Pengalihan Bentuk Perusahaan Umum (Perum) Pelabuhan I Menjadi Perusahaan Perseroan (Persero).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-79-tahun-2011/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-79-tahun-2011/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Nilai penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp48.167.600.000,00 (empat puluh delapan miliar seratus enam puluh tujuh juta enam ratus ribu rupiah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-79-tahun-2011/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud pada ayat (1) berasal dari pengalihan barang milik Negara pada Kementerian Perhubungan berupa dermaga, trestel, dan sarana bantu navigasi di Pelabuhan Malahayati Banda Aceh yang merupakan hasil kegiatan Badan Rehabilitasi dan Rekonstruksi Nanggroe Aceh Darussalam-Nias yang pengadaannya berasal dari dana Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2006.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-79-tahun-2011/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah diundangkan. ini mulai berlaku pada tanggal Agar . . . RPMK - PMN Agar setiap pengundangan penempatannya dalam Lembaran Negara Republik Indonesia. orang mengetahuinya, memerintahkan dengan Pemerintah Peraturan ini Ditetapkan di Jakarta pada tanggal 29 Desember 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 29 Desember 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 167 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA Asisten Deputi Perundang-undangan Bidang Perekonomian, SETIO SAPTO NUGROHO SETIO SAPTO NUGROHO RPMK - PMN",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,27 @@
+tok 1.0 "Tampilkan Popup Istilah (Glosarium Latin)"
+
+pool p "Tampilkan Popup Istilah" process=tampilkan_popup_istilah
+  store d_istilah "Istilah Latin"
+  start mulai "Klik istilah Latin diterima" message="Klik istilah Latin"
+  service cari "Cari Definisi Istilah"
+  xor ada "Definisi ditemukan?"
+  service susun "Susun Popup Istilah"
+  send tampil "Kirim popup definisi istilah" message="Popup definisi istilah"
+  send kosong "Tampilkan pesan definisi belum tersedia" message="Pesan definisi belum tersedia"
+  xor gabung
+  end selesai "Popup istilah ditampilkan"
+
+pool user "Pengguna"
+
+flow mulai -> cari -> ada
+flow ada -> susun "ya" when="definisiAda"
+flow ada -> kosong "tidak" default
+flow susun -> tampil -> gabung
+flow kosong -> gabung
+flow gabung -> selesai
+
+reads cari d_istilah
+
+message user -> mulai "Klik istilah Latin"
+message tampil -> user "Popup definisi istilah"
+message kosong -> user "Pesan definisi belum tersedia"

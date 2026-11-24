@@ -1,0 +1,131 @@
+{
+ "slug": "uu-no-15-tahun-1953",
+ "preamble": {
+  "menimbang": [
+   "bahwa berhubung dengan perkembangan dan pembangunan Angkatan Perang diperlukan penerimaan anggota baru di samping anggota tetap yang telah diterima berdasarkan Undang-undang Nomor 12 tahun 1953 tentang penetapan peraturan dalam Undang-undang Darurat Nomor 4 tahun 1950 sebagai Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-15-tahun-1953",
+   "detailsId": "45303",
+   "judul": "UU No. 15 Tahun 1953 tentang Penerimaan Anggota Angkatan Perang Sukarela - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33803/UU%20Nomor%2015%20Tahun%201953.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:46:31.663347+00:00"
+  },
+  "sha256": "552ec9154f999085d3090da3e74e6e17dfeb825951443ae73cedf9f237be3031",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 4,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-15-tahun-1953/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-15-tahun-1953/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "SYARAT-SYARAT PENERIMAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-15-tahun-1953/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENYELENGGARAAN PENERIMAAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-15-tahun-1953/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penerimaan anggota diselenggarakan oleh Menteri Pertahanan di dalam rangka sesuatu rencana yang telah ditetapkan dengan undang-undang. Pasal 4 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-15-tahun-1953/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Peraturan Pemerintah mengatur tentang penyelenggaraan penerimaan mengenai: a. badan-badan Pemerintah atau Pembesar-pembesar yang diberi kewajiban untuk menyelenggarakan penerimaan; b. ikatan dinas yang bersifat sementara atau tetap; c. akibat-akibat daripada ikatan dinas tersebut pada huruf b yang berhubungan dengan kedudukan hukum anggota; d. cara-cara penyelenggaraan penerimaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-15-tahun-1953/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "HAK UNTUK MEMINTA KETERANGAN TENTANG",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-15-tahun-1953/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Calon anggota yang merasa memenuhi syarat-syarat yang tersebut pada Pasal 2, tetapi tidak diterima, berhak membanding keputusan badan Pemerintah yang tersebut pada Pasal 4 huruf a kepada Menteri Pertahanan dan keputusan Menteri Pertahanan adalah keputusan yang terakhir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-15-tahun-1953/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-15-tahun-1953/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Undang-undang ini mulai berlaku pada hari diundangkan dan mempunyai daya surut hingga 1 Januari 1953. Agar … Agar supaja setiap orang dapat mengetahuinja, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Disahkan di Djakarta pada tanggal 20 Mei 1953 WAKIL PRESIDEN REPUBLIK INDONESIA, ttd MOHAMMAD HATTA MENTERI PERTAHANAN ai. ttd WILOPO Diundangkan pada tanggal 11 Juni 1953 MENTERI KEHAKIMAN, ttd LOEKMAN WIRIADINATA LEMBARAN NEGARA NOMOR 45 TAHUN 1953",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..6): [1, 2]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

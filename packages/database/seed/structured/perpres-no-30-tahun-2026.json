@@ -1,0 +1,77 @@
+{
+ "slug": "perpres-no-30-tahun-2026",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-30-tahun-2026",
+   "detailsId": "349428",
+   "judul": "Perpres No. 30 Tahun 2026 tentang Pengesahan International Coffee Agreement 2022 (Persetujuan Kopi Internasional 2022) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/413117/Perpres%20No.%2030%20Tahun%202026.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-63-tahun-2008"
+   ],
+   "scrapedAt": "2026-10-06T06:08:11.620120+00:00"
+  },
+  "sha256": "3b193bab50bf7a2d7cc1e9596bef023a537dbf53fd51222455a16793ca32b429",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-30-tahun-2026/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-30-tahun-2026/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Mengesahkan International Coffee Agreement 2022 (Persetujuan Kopi Internasional 20221 yang telah ditandatangani oleh Pemerintah Republik Indonesia pada tanggal 8 Maret 2023 di London, Inggris. (21 Salinan naskah asli Intemational Coffee Agreem.ent 2022 (Persetujuan Kopi Internasional 20221 dilam bahasa Inggris, bahasa Prancis, bahasa Portugis, dan bahasa Spanyol, serta terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-30-tahun-2026/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pada saat Peraturan Presiden ini mulai berlaku, Peraturan Presiden Nomor 63 Tahun 2008 tentang Pengesahan Intemational Coffee Agreement 2OO7 (Persetujuan Kopi Internasional 20O7) (Lembaran Negara Republik Indonesia Tahun 2OO8 Nomor 152), dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-30-tahun-2026/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar SK No 229755 A Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal l2'Mei 2026 PRESIDEN REPUBLIK INDONESIA, ttd PRABOWO SUBIANTO Diundangkan di Jakarta pada tanggal 12 Mei 2026 MENTERI SEKREfARIS NEGARA REPUBLIK INDONESIA, ttd. PRASETYO HADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2026 NOMOR 55 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan trasi Hukum, Djaman SK No 163228A",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

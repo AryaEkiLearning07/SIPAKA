@@ -1,0 +1,87 @@
+{
+ "slug": "uu-no-9-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 4 September 1963. Sekretaris Negara, TTD A.W. SURJOADININGRAT (S.H.). LEMBARAN NEGARA TAHUN 1963 NOMOR 91",
+ "source": {
+  "url": {
+   "slug": "uu-no-9-tahun-1963",
+   "detailsId": "50651",
+   "judul": "UU No. 9 Tahun 1963 tentang Anggaran Pendapatan dan Belanja Negara Tahun 1963 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39894/UU%20Nomor%209%20Tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:58:36.803335+00:00"
+  },
+  "sha256": "fb24be886a7c93539e50ee38a574c1b9910eb17c1aa488c3c0a00deae9ac9aff",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-9-tahun-1963/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-9-tahun-1963/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara tahun 1963 menurut perkiraan berjumlah Rp. 271.030.413.700,- terdiri atas:.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-9-tahun-1963/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "penerimaan biasa Rp. 212.863.998.700,- dan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-9-tahun-1963/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "penerimaan luar biasa Rp. 59.166,415.000,-.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-9-tahun-1963/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian … Perincian penerimaan-penerimaan dimaksud pada ayat (1) dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -17,6 +17,75 @@ export function registerSearchRoutes(server: FastifyInstance): void {
     const limit = Math.min(parseInt(query.limit ?? '40', 10) || 40, 100);
 
     try {
+      // 1. Coba FULLTEXT search berkecepatan tinggi via index MATCH...AGAINST
+      const cleanTerms = q
+        .split(/\s+/)
+        .map((t) => t.replace(/[^\w]/g, ''))
+        .filter((t) => t.length > 0);
+
+      if (cleanTerms.length > 0) {
+        try {
+          const booleanQuery = cleanTerms.map((t) => `+${t}*`).join(' ');
+          const naturalQuery = cleanTerms.join(' ');
+
+          let sql = `
+            SELECT 
+              pr.id, pr.content, pr.versionTag,
+              p.canonicalPath, p.label, p.title as provisionTitle,
+              li.slug as instrumentSlug, li.title as instrumentTitle, li.shortTitle as instrumentShortTitle,
+              li.type as instrumentType, li.number as instrumentNumber, li.year as instrumentYear, li.status as instrumentStatus,
+              MATCH(pr.content) AGAINST(? IN BOOLEAN MODE) as score
+            FROM provision_revisions pr
+            JOIN provisions p ON pr.provisionId = p.id
+            JOIN legal_instruments li ON p.legalInstrumentId = li.id
+            WHERE MATCH(pr.content) AGAINST(? IN BOOLEAN MODE)
+              AND pr.effectiveUntil IS NULL
+          `;
+          const params: unknown[] = [naturalQuery, booleanQuery];
+
+          if (query.slug) {
+            sql += ` AND li.slug = ?`;
+            params.push(query.slug);
+          }
+
+          sql += ` ORDER BY score DESC LIMIT ?`;
+          params.push(limit);
+
+          const rawResults = (await (prisma as any).$queryRawUnsafe(sql, ...params)) as any[];
+
+          if (Array.isArray(rawResults) && rawResults.length > 0) {
+            const results = rawResults.map((r) => ({
+              id: r.id,
+              canonicalPath: r.canonicalPath,
+              label: r.label,
+              title: r.provisionTitle,
+              content: r.content,
+              versionTag: r.versionTag,
+              score: Number(r.score) || 0,
+              instrument: {
+                slug: r.instrumentSlug,
+                title: r.instrumentTitle,
+                shortTitle: r.instrumentShortTitle,
+                type: r.instrumentType,
+                number: r.instrumentNumber,
+                year: r.instrumentYear,
+                status: r.instrumentStatus,
+              },
+            }));
+
+            return {
+              query: q,
+              mode: 'FULLTEXT_INDEX',
+              total: results.length,
+              results,
+            };
+          }
+        } catch (ftErr) {
+          server.log.warn({ err: ftErr }, 'FULLTEXT query fallback to Prisma contains');
+        }
+      }
+
+      // 2. Fallback aman jika FULLTEXT tidak mengembalikan hasil atau kata terlalu pendek
       const whereClause: Record<string, unknown> = {
         content: { contains: q },
         effectiveUntil: null,
@@ -61,6 +130,7 @@ export function registerSearchRoutes(server: FastifyInstance): void {
           title: rev.provision.title,
           content: rev.content,
           versionTag: rev.versionTag,
+          score: 1.0,
           instrument: {
             slug: inst.slug,
             title: inst.title,
@@ -75,6 +145,7 @@ export function registerSearchRoutes(server: FastifyInstance): void {
 
       return {
         query: q,
+        mode: 'PRISMA_CONTAINS_FALLBACK',
         total: results.length,
         results,
       };

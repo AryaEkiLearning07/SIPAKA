@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-35-tahun-1962",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-35-tahun-1962",
+   "detailsId": "72529",
+   "judul": "PP No. 35 Tahun 1962 tentang Penambahan dan Perubahan Peraturan Pemerintah No. 100 Tahun 1961 (Lembaran-Negara Tahun 1961 No. 124) Tentang Pendirian Badan Pimpinan Umum Industri Kimia (Penjelasan dalam Tambahan Lembaran-Negara No. 2520) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/63009/pp%20no%20035%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:04.403812+00:00"
+  },
+  "sha256": "7324dbfce340799eb3cb7f0557714a8c408f0daaf5b545d7033da87ffa197f86",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-12-tahun-1954",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam Negara Kesatuan Republik Indonesia perlu segera ditetapkan suatu undang-undang tentang dasar-dasar pendidikan dan pengajaran di sekolah yang berlaku untuk seluruh Indonesia; bahwa untuk itu, sambil menunggu undang-undang tentang dasar- dasar pendidikan dan pengajaran yang lebih sempurna, dapat dipergunakan Undang-undang Nr 4 tahun 1950 dari Republik Indonesia dahulu; Mengingat : Undang-undang No 4 tahun 1950 Republik Indonesia dahulu tentang dasar-dasar pendidikan dan pengajaran di sekolah jo pasal 89 Undang- undang Dasar Sementara Republik Indonesia;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-12-tahun-1954",
+   "detailsId": "47953",
+   "judul": "UU No. 12 Tahun 1954 tentang Pernyataan Berlakunya Undang-Undang Nr 4 Tahun 1950 dari Republik Indonesia Dahulu tentang Dasar-Dasar Pendidikan dan Pengajaran di Sekolah Untuk Seluruh Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/37006/UU%20Nomor%2012%20Tahun%201954.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:45:54.345410+00:00"
+  },
+  "sha256": "8145a8a0d95bc4ab86c892e3f00ac7ae6e60326d8d07f64cbe722e35ebf93396",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-12-tahun-1954/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Menyatakan berlaku untuk seluruh Indonesia Undang-undang No. 4 tahun 1950 dari Republik Indonesia dahulu tentang dasar-dasar pendidikan dan pengajaran di sekolah.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-12-tahun-1954/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Undang-undang ini mulai berlaku pada hari diundangkan. Agar... - - supaya setiap orang dapat mengetahuinya, memerintahkan Agar pengundangan undang-undang ini dengan penempatan dalam Lembaran- Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 12 Maret 1954 PRESIDEN REPUBLIK INDONESIA, ttd SUKARNO MENTERI PENDIDIKAN, PENGAJARAN DAN KEBUDAYAAN, ttd MUHAMMAD YAMIN Diundangkan pada tanggal 18 Maret 1954 MENTERI KEHAKIMAN, ttd DJODY GONDOKUSUMO LEMBARAN NEGARA NO 38 TAHUN 1954",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

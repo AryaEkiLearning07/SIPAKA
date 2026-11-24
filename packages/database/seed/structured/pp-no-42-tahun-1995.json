@@ -1,0 +1,96 @@
+{
+ "slug": "pp-no-42-tahun-1995",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut, dipandang perlu mengatur tentang Bea Masuk, Bea Masuk Tambahan, Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah dan Pajak Penghasilan dalam rangka pelaksanaan Proyek Pemerintah yang dibiayai dengan hibah atau dana pinjaman luar negeri dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-42-tahun-1995",
+   "detailsId": "57102",
+   "judul": "PP No. 42 Tahun 1995 tentang Bea Masuk, Bea Masuk Tambahan, Pajak Pertambahan Nilai Dan Pajak Penjualan Atas Barang Mewah Dan Pajak Penghasilan Dalam Rangka Pelaksanaan Proyek Pemerintah Yang Dibiayai Dengan Hibah Atau Dana Pinjaman Luar Negeri - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/46556/PP%20No.%2042%20Th%201995.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:43:55.194987+00:00"
+  },
+  "sha256": "0678d292e57e1d5c1a0c9d0df60355b49b230c29f644bee5a202e478c9b192b0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Bea Masuk dan Bea Masuk Tambahan yang terutang sejak tanggal 1 April 1995 atas impor dalam rangka pelaksanaan Proyek Pemerintah yang dibiayai dengan hibah atau dana pinjaman luar negeri, dibebaskan. - -",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pasal 2… Pajak Pertambahan Nilai dan Pajak Penjualan Atas Barang Mewah yang terutang sejak tanggal 1 April 1995 atas impor serta penyerahan Barang dan Jasa dalam rangka pelaksanaan Proyek Pemerintah yang dibiayai dengan hibah atau dana pinjaman luar negeri, tidak dipungut.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Pajak Penghasilan yang terutang sejak tanggal 1 April 1995 oleh kontraktor, konsultan dan pemasok (supplier) atas penghasilan yang diterima atau diperoleh karena pekerjaan yang dilakukan dalam rangka pelaksanaan Proyek Pemerintah yang dibiayai dengan hibah atau dana pinjaman dari luar negeri, ditanggung oleh Pemerintah.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Ketentuan lebih lanjut yang diperlukan bagi pelaksanaan Peraturan Pemerintah ini diatur oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Dengan berlakunya Peraturan Pemerintah ini, Keputusan Presiden No. 13 Tahun 1995 dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-42-tahun-1995/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal ditetapkan dan mempunyai daya laku surut sejak tanggal 1 April 1995. - - Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Agar… Ditetapkan di Jakarta pada tanggal 29 Agustus 1995 PRESIDEN REPUBLIK INDONESIA, ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 30 Nopember 1995 MENTERI NEGARA SEKRETARIS NEGARA ttd MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 70",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

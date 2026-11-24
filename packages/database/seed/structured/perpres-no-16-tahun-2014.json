@@ -1,0 +1,71 @@
+{
+ "slug": "perpres-no-16-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu mencabut Peraturan Presiden Nomor 105 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Menteri dan Pejabat Tertentu;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-16-tahun-2014",
+   "detailsId": "41499",
+   "judul": "PERPRES No. 16 Tahun 2014 tentang Pencabutan Peraturan Presiden Nomor 105 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Menteri dan Pejabat Tertentu - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/65963/Perpres%20Nomor%2016%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-105-tahun-2013"
+   ],
+   "scrapedAt": "2026-10-06T06:13:14.058813+00:00"
+  },
+  "sha256": "8c5874292b2585a6e478be4cd42a2d466df355ea9a92b3721c6f98befb2b5002",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-16-tahun-2014/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan Presiden Nomor 105 Tahun 2013 tentang Jaminan Pemeliharaan Kesehatan Menteri dan Pejabat Tertentu (Lembaran Negara Republik Indonesia Tahun 2013 Nomor 227) dicabut dan dinyatakan tidak berlaku.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-16-tahun-2014/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Dengan berlakunya Peraturan Presiden ini, pelayanan kesehatan bagi Menteri dan Pejabat Tertentu yang telah dialokasikan pendanaannya dalam Anggaran Pendapatan dan Belanja Negara Tahun 2013 dan perubahannya, tetap dilaksanakan oleh penyelenggara jaminan kesehatan bagi Pegawai Negeri Sipil sampai dengan tanggal 31 Desember 2013.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-16-tahun-2014/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal diundangkan dan mempunyai daya laku surut sejak tanggal 1 Januari 2014. Agar … Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Februari 2014 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 21 Februari 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 39 Salinan sesuai dengan aslinya SEKRETARIAT KABINET RI Deputi Bidang Kesejahteraan Rakyat, Siswanto Roesyidi",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

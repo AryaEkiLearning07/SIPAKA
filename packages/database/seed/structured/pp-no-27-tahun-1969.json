@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-27-tahun-1969",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu diadakan peraturan untuk melaksanakan Undang-undang Nomor 7 tahun 1969 tentang penetapan berbagai Peraturan Pemerintah Pengganti Undang-undang menjadi Undang-undang."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-27-tahun-1969",
+   "detailsId": "70236",
+   "judul": "PP No. 27 Tahun 1969 tentang Pelaksanaan Undang-Undang Nomor 7 Tahun 1969 Tentang Penetapan &#xD;&#xA;Berbagai Peraturan Pemerintah Pengganti Undang-Undang Menjadi&#xD;&#xA;Undang-Undang&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60665/pp%20no%20027%20tahun%201969.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:21.027123+00:00"
+  },
+  "sha256": "2bb24fe2e91e96f2af0595291da8c5a2a3dc323e93582a4ada9c9d9ed328c3ea",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

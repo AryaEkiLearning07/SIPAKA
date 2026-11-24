@@ -21,6 +21,10 @@ enum InstrumentType {
   PERMEN
   PERDA_PROV
   PERDA_KABKOT
+  PERGUB
+  PERBUP
+  PERWALI
+  QANUN
 }
 
 enum InstrumentStatus {
@@ -69,6 +73,7 @@ model LegalInstrument {
   updatedAt       DateTime         @updatedAt
 
   @@unique([type, number, year])
+  @@index([year, type, status])
   @@map("legal_instruments")
 }
 
@@ -143,6 +148,7 @@ model Provision {
 
   @@unique([legalInstrumentId, canonicalPath])
   @@index([canonicalPath])
+  @@index([legalInstrumentId, type, orderIndex])
   @@map("provisions")
 }
 
@@ -163,6 +169,8 @@ model ProvisionRevision {
 
   createdAt       DateTime        @default(now())
 
+  @@index([provisionId])
+  @@index([effectiveUntil])
   @@map("provision_revisions")
 }
 
@@ -322,9 +330,19 @@ model User {
   role         UserRole @default(MAHASISWA)
   isDemo       Boolean  @default(false) // akun demo seeded (ditandai agar mudah dihapus)
 
-  sessions    Session[]
-  bookmarks   UserBookmark[]
-  annotations UserAnnotation[]
+  bio              String?  @db.Text
+  institution      String?  // Contoh: "Fakultas Hukum Universitas Indonesia"
+  reputationPoints Int      @default(0)
+
+  sessions          Session[]
+  bookmarks         UserBookmark[]
+  annotations       UserAnnotation[]
+  forumThreads      ForumThread[]
+  forumComments     ForumComment[]
+  threadUpvotes     ThreadUpvote[]
+  commentUpvotes    CommentUpvote[]
+  repositoryEntries RepositoryEntry[]
+  userBadges        UserBadge[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -460,5 +478,156 @@ model AuditLog {
   @@index([createdAt])
   @@map("audit_logs")
 }
+
+// -------------------------------------------------------------
+// 12. FORUM DISKUSI KASUS HUKUM (MODUL 2)
+// -------------------------------------------------------------
+
+model ForumThread {
+  id              String         @id @default(cuid())
+  userId          String
+  user            User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  title           String
+  content         String         @db.Text
+  category        String         // PIDANA | PERDATA | TATA_NEGARA | ITE | KETENAGAKERJAAN | UMUM
+  type            String         @default("KASUS") // KASUS | TANYA_PASAL | ANALISIS
+  
+  // Rujukan Norma Hukum (Opsional)
+  canonicalPath   String?        // contoh: "ite/bab-vi/pasal-27/ayat-3"
+  pasalLabel      String?        // contoh: "Pasal 27 ayat (3) UU ITE"
+  tags            String?        // Komma atau JSON string
+  
+  upvotesCount    Int            @default(0)
+  commentsCount   Int            @default(0)
+  isResolved      Boolean        @default(false)
+
+  comments        ForumComment[]
+  upvotes         ThreadUpvote[]
+
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@index([userId])
+  @@index([category])
+  @@index([type])
+  @@index([createdAt])
+  @@map("forum_threads")
+}
+
+model ForumComment {
+  id               String          @id @default(cuid())
+  threadId         String
+  thread           ForumThread     @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  
+  userId           String
+  user             User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  content          String          @db.Text
+  upvotesCount     Int             @default(0)
+  
+  // Verifikasi Argumen Hukum oleh Dosen/Kurator
+  isVerified       Boolean         @default(false)
+  verifiedBy       String?         // Nama atau gelar verifikator
+  verificationNote String?         @db.Text
+  verifiedAt       DateTime?
+
+  upvotes          CommentUpvote[]
+
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+
+  @@index([threadId])
+  @@index([userId])
+  @@map("forum_comments")
+}
+
+model ThreadUpvote {
+  id        String      @id @default(cuid())
+  threadId  String
+  thread    ForumThread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime    @default(now())
+
+  @@unique([threadId, userId])
+  @@map("thread_upvotes")
+}
+
+model CommentUpvote {
+  id        String       @id @default(cuid())
+  commentId String
+  comment   ForumComment @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime     @default(now())
+
+  @@unique([commentId, userId])
+  @@map("comment_upvotes")
+}
+
+// -------------------------------------------------------------
+// 13. PROFIL & LENCANA PRESTASI REPUTASI (MODUL 3)
+// -------------------------------------------------------------
+
+model UserBadge {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  badgeName   String   // "Pakar Diskusi", "Argumen Terverifikasi", "Analis Kasus", "Peneliti Teladan"
+  description String?
+  icon        String?  // icon key
+  awardedAt   DateTime @default(now())
+
+  @@index([userId])
+  @@map("user_badges")
+}
+
+// -------------------------------------------------------------
+// 14. REPOSITORI DIGITAL RISET & STUDI KASUS (MODUL 3)
+// -------------------------------------------------------------
+
+model RepositoryEntry {
+  id                 String   @id @default(cuid())
+  userId             String
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  title              String
+  category           String   @default("STUDI_KASUS") // STUDI_KASUS | ANALISIS_DOKTRIN | MEMORANDUM_HUKUM | TELAAH_AMANDEMEN
+  caseFact           String?  @db.Text // Kasus posisi / fakta peristiwa hukum
+  legalAnalysis      String   @db.Text // Analisis yuridis komprehensif
+  attachedProvisions Json?    // Array rujukan pasal: [{ canonicalPath, label, content }]
+  
+  visibility         String   @default("PRIVAT") // PUBLIK | PRIVAT
+  tags               String?
+  
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([userId])
+  @@index([category])
+  @@index([visibility])
+  @@map("repository_entries")
+}
+
+// -------------------------------------------------------------
+// 15. GLOSARIUM LATIN HUKUM INDONESIA
+// -------------------------------------------------------------
+
+model LatinGlossary {
+  id                 String   @id @default(cuid())
+  term               String   @unique // contoh: "Lex Specialis Derogat Legi Generali"
+  literalTranslation String   // "Hukum khusus mengesampingkan hukum umum"
+  legalDefinition    String   @db.Text // Penjelasan doktrin dan ratio legis
+  contextExample     String?  @db.Text // Contoh dalam perundang-undangan RI atau putusan MK/MA
+  category           String?  // ASAS_HUKUM | HUKUM_ACARA | HUKUM_PIDANA | HUKUM_PERDATA
+  
+  createdAt          DateTime @default(now())
+
+  @@index([term])
+  @@map("latin_glossary")
+}
+
 
 

@@ -1,0 +1,1340 @@
+{
+ "slug": "uu-no-3-tahun-1989",
+ "preamble": {
+  "menimbang": [
+   "bahwa telekomunikasi merupakan cabang produksi yang penting bagi Negara dan yang menguasai hajat hidup orang banyak sehingga perlu dikuasai oleh Negara demi terwujudnya tujuan pembangunan nasional;",
+   "bahwa penyelenggaraan telekomunikasi mempunyai arti strategis dalam upaya memperkuat dan meningkatkan persatuan dan kesatuan bangsa, meningkatkan kesejahteraan umum dan kemakmuran rakyat, memperlancar kegiatan pemerintahan dan pemerataan pembangunan, mendorong pertumbuhan ekonomi, memantapkan stabilitas nasional yang sehat dan dinamis, serta mempererat hubungan antarbangsa dan, oleh karena itu, penyediaan, pemanfaatan, dan pengelolaannya perlu ditingkatkan;",
+   "bahwa dalam rangka peningkatan penyelenggaraan telekomunikasi diperlukan upaya yang berkelanjutan serta andal dan peran serta masyarakat guna menjamin penyediaan jasa telekomunikasi secara optimal bagi masyarakat dan selalu mampu mengikuti perkembangan teknologi;",
+   "bahwa berdasarkan hal-hal tersebut di atas dan dalam usaha memberikan landasan yang lebih kukuh bagi perwujudan cita-cita dimaksud, maka Undang-undang Nomor 5 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 6 Tahun 1963 tentang Telekomunikasi menjadi Undang-undang (Lembaran Negara Tahun 1964 Nomor 59, Tambahan Lembaran Negara Nomor 2657) dipandang tidak sesuai lagi dengan kemajuan teknologi dan tuntutan kebutuhan masyarakat sehingga perlu disusun Undang-undang yang baru; www.djpp.depkumham.go.id"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-3-tahun-1989",
+   "detailsId": "46798",
+   "judul": "UU No. 3 Tahun 1989 tentang Telekomunikasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35570/UU%20Nomor%203%20Tahun%201989.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "uu-no-5-tahun-1964"
+   ],
+   "scrapedAt": "2026-10-05T17:45:39.758659+00:00"
+  },
+  "sha256": "ebe932aff0d4d3009de7d5d0978572d29b0a1f172c46d1e529acb05b489719ec",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 12,
+  "pasal": 43,
+  "ayat_angka": 63,
+  "huruf": 20
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-undang ini yang dimaksud dengan :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Telekomunikasi adalah setiap pemancaran, pengiriman, atau penerimaan tiap jenis tanda, gambar, suara, dan informasi dalam bentuk apa pun melalui sistem kawat, optik, radio, atau sistem elektromagnetik lainnya;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Alat telekomunikasi adalah setiap alat perlengkapan yang digunakan dalam bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Perangkat telekomunikasi adalah sekelompok alat telekomunikasi yang memungkinkan bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pemancar radio adalah alat telekomunikasi yang menggunakan dan memancarkan gelombang radio;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Jaringan telekomunikasi adalah rangkaian perangkat telekomunikasi dan kelengkapannya yang digunakan dalam rangka bertelekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Penyelenggaraan telekomunikasi adalah kegiatan penyediaan dan pelayanan sarana dan/atau fasilitas telekomunikasi sehingga memungkinkan terselenggaranya telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Penyelenggaraan jasa telekomunasi adalah penyelenggaraan telekomunikasi untuk memenuhi kebutuhan masyarakat;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Penyelenggaraan telekomunikasi untuk keperluan khusus adalah penyelenggaraan telekomunikasi yang dilakukan oleh instansi pemerintah tertentu, perseorangan, atau badan hukum untuk keperluan khusus atau untuk keperluan sendiri;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Jasa telekomunikasi adalah jasa yang disediakan oleh badan penyelenggara atau badan lain bagi masyarakat untuk memenuhi kebutuhan bertelekomunikasi dengan menggunakan fasilitas telekomunikasi; 10. Badan penyelenggara adalah badan usaha milik negara yang bentuk usahanya sesuai dengan peraturan perundang- undangan yang berlaku, yang bertindak sebagai pemegang kuasa penyelenggaraan jasa telekomunikasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Badan lain adalah badan hukum di luar badan penyelenggara berbentuk koperasi, badan usaha milik daerah, dan badan usaha swasta nasional, yang berusaha dalam penyelenggaraan jasa telekomunikasi; 12. Menteri adalah menteri yang bertanggung jawab di bidang telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "TUJUAN ASAS PENYELENGGARAAN TELEKOMUNIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyelenggaraan telekomunikasi bertujuan untuk mendukung persatuan dan kesatuan bangsa, meningkatkan kesejahteraan dan kemakmuran rakyat secara adil dan merata, mendukung kehidupan ekonomi dan kegiatan pemerintahan, serta meningkatkan hubungan antarbangsa.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Penyelenggaraan telekomunikasi dilakukan dengan berlandaskan asas manfaat, asas adil dan merata, dan asas kepercayaan pada diri sendiri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PEMBINAAN TELEKOMUNIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Telekomunikasi dikuasai oleh Negara dan pembinaannya dilakukan oleh Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Tata cara pembinaan sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah menetapkan kebijaksanaan di bidang telekomunikasi secara menyeluruh dan terpadu dengan memperhatikan pemikiran dan pandangan yang hidup dalam masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kebijaksanaan di bidang telekomunikasi sebagaimana dimaksud dalam ayat (1) meliputi kegiatan pengaturan, pengarahan, dan pembinaan berbagai sarana, prasarana, dan jenis penyelenggaraan telekomunikasi yang saling menunjang untuk menjamin kelancaran dan kesinambungan penyelenggaraan jasa telekomunikasi sehingga tercapai satu keterpaduan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Menteri bertindak sebagai penanggung jawab administrasi telekomunikasi Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Penggunaan spektrum frekuensi radio dan orbit geostasioner yang merupakan sumber daya alam yang terbatas dalam penyelenggaraan telekomunikasi diatur dengan Peraturan Pemerintah.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penggunaan perangkat telekomunikasi yang menggunakan gelombang radio dan gelombang elektromagnetik lainnya dilakukan berdasarkan prinsip tidak saling mengganggu dan sesuai dengan peruntukannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam rangka pengendalian penggunaan gelombang radio dan gelombang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "elektromagnetik lainnya, perangkat telekomunikasi harus memenuhi persyaratan teknis yang ditetapkan oleh Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-8/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perangkat telekomunikasi yang diperdagangkan, dibuat, dirakit, dan dimasukkan ke dalam wilayah Indonesia harus memperhatikan persyaratan teknis sebagaimana dimaksud dalam ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-8/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara, syarat-syarat, dan perizinan tentang penggunaan perangkat telekomunikasi termasuk pengusahaan, pemilikan, dan pemasangan yang menggunakan gelombang radio dan gelombang elektromagnetik lainnya diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Pemberian izin penggunaan perangkat telekomunikasi yang menggunakan gelombang radio dan gelombang elektromagnetik lainnya untuk perwakilan diplomatik di Indonesia dilakukan dengan memperhatikan asas timbal balik.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kapal atau kendaraan air berbendera asing yang berada di wilayah perairan Indonesia tidak diwajibkan memenuhi persyaratan teknis yang ditetapkan oleh Menteri bagi perangkat telekomunikasi yang digunakannya, kecuali apabila kapal atau kendaraan air tersebut diusahakan di wilayah perairan Indonesia, maka ketentuan sebagaimana dimaksud dalam Pasal 8 diberlakukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kapal atau kendaraan air berbendera nasional dan yang berbendera asing yang ada di daerah perairan pelabuhan dilarang menggunakan pemancar radio atau gelombang elektromagnetik lainnya, kecuali bila pemancar tersebut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "digunakan untuk kepentingan dan keselamatan negara, keselamatan jiwa manusia dan harta benda, bencana alam, keadaan marabahaya, wabah, dan keamanan lalu lintas pelayaran; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disambungkan ke jaringan telekomunikasi yang dioperasikan oleh badan penyelenggara; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "merupakan bagian dari sistem komunikasi satelit yang penggunaannya sesuai dengan ketentuan yang berlaku dalain penyelenggaraan telekomunikasi dinas bergerak pelayaran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut tentang penggunaan gelombang radio dan gelombang elektromagnetik sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pesawat udara asing yang berada di wilayah Indonesia tidak diwajibkan mengikuti persyaratan teknis yang ditetapkan Menteri untuk perangkat telekomunikasi yang digunakannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pesawat udara sipil Indonesia dan pesawat udara asing selama berada di wilayah Indonesia dilarang menggunakan pemancar radio atau gelombang elektromagnetik lainnya, kecuali bila pemancar tersebut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "digunakan untuk navigasi dan pengamanan lalu lintas udara; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "disambungkan ke jaringan telekomunikasi yang dioperasikan oleh badan penyelenggara; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "merupakan bagian dari sistem komunikasi satelit yang penggunaannya sesuai dengan ketentuan yang berlaku dalam penyelenggaraan telekomunikasi dinas bergerak penerbangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut tentang penggunaan gelombang radio dan gelombang elektromagnetik lainnya sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PENYELENGGARAAN TELEKOMUNIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan telekomunikasi dilaksanakan oleh pemerintah, yang selanjutnya untuk penyelenggaraan jasa telekomunikasi dapat dilimpahkan kepada badan penyelenggara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan lain selain badan penyelenggara sebagaimana dimaksud dalam ayat (1) dapat menyelenggarakan jasa telekomunikasi dasar atas dasar kerja sama dengan badan penyelenggara, sedangkan untuk menyelenggarakan jasa telekomunikasi bukan dasar badan lain dapat melaksanakannya tanpa kerja sama dengan badan penyelenggara,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyelenggaraan telekomunikasi untuk keperluan khusus dapat dilakukan oleh instansi pemerintah tertentu, perseorangan, atau badan hukum selain badan penyelenggara dan badan lain sebagaimana dimaksud dalam ayat (1) dan ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan jasa telekomunikasi oleh badan lain selain badan penyelenggara sebagaimana dimaksud dalam Pasal 12 ayat (2) dan penyelenggaraan telekomunikasi untuk keperluan khusus sebagaimana dimaksud dalam Pasal 12 ayat (3) dilaksanakan berdasarkan izin.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan dan tata cara permintaan izin sebagaimana dimaksud dalam ayat (1) diatur lebih lanjut dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Dengan tetap memperhatikan peraturan perundang-undangan yang berlaku dan dengan persetujuan Menteri, badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) dapat mengadakan perjanjian baik dengan organisasi internasional maupun dengan penyelenggara telekomunikasi negara lain.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggaraan telekomunikasi bagi keperluan pertahanan keamanan negara dapat menggunakan dan memanfaatkan jasa telekomunikasi yang disediakan badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat dan ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Alokasi frekuensi radio untuk keperluan penyelenggaraan telekomunikasi bagi pertahanan keamanan negara ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai persyaratan teknis perangkat telekomunikasi dan penyelenggaraan telekomunikasi untuk keperluan pertahanan keamanan negara diatur tersendiri dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal penyelenggaraan jasa telekomunikasi yang dilaksanakan oleh badan penyelenggara sebagaimana dimaksud dalam Pasal 12 ayat (1) atau badan lain sebagaimana dimaksud dalam Pasal 12 ayat (2) belum dapat menjangkau wilayah tertentu, maka penyelenggara telekomunikasi untuk keperluan khusus sebagaimana dimaksud dalam Pasal 12 ayat (3) dengan izin Menteri dapat menyelenggarakan jasa telekomunikasi untuk kepentingan umum.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan lebih lanjut mengenai pelaksanaan penyelenggaraan jasa telekomunikasi sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah. Susunan tarif jasa telekomunikasi diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan penyelenggara dan badan lain, instansi pemerintah tertentu, perseorangan, dan badan hukum sebagaimana dimaksud dalam Pasal 12 ayat (1), ayat (2), dan ayat (3) wajib memberikan prioritas pengiriman, penyaluran, dan penyampaian berita yang menyangkut :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kepentingan dan keselamatan negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "keselamatan jiwa manusia dan harta benda;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "bencana alam;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "marabahaya,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "wabah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-18/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penetapan lebih lanjut prioritas pengiriman, penyaluran, dan penyampaian berita selain berita sebagaimana dimaksud dalam ayat (1) dilakukan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan umum, badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) dalam melaksanakan usaha penyelenggaraan jasa telekomunikasi diberi kewenangan memasang jaringan telekomunikasi dengan : dan ayat (2) diberi kewenangan untuk :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "melintasi sungai atau danau baik di atas maupun di bawah permukaan; masuk ke tempat umum atau perseorangan dan menggunakannya untuk sementara waktu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melintasi laut baik di atas maupun di bawah permukaan; menggunakan tanah, melintas di atas atau di dalam tanah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melintasi jalan umum, tempat umum, dan jalan kereta api. melintas di atas atau di bawah bangunan yang dibangun di atas atau di dalam tanah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menebang atau memotong tumbuh-tumbuhan yang menghalanginya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sepanjang tidak bertentangan dan dengan memperhatikan peraturan perundang- undangan yang berlaku, dalam melaksanakan usaha untuk kepentingan umum, badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-19/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam melaksanakan usaha penyediaan dan peningkatan pelayanan jasa telekomunikasi, badan penyelenggara dan badan lain sebagaimana di maksud dalam Pasal 12 ayat (1) dan ayat (2) diberi kewenangan untuk memasukkan, menguasai, dan memiliki alat telekomunikasi untuk dipakai dalam penyelenggaraan jasa telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk kepentingan umum, pihak yang berhak atas tanah, bangunan, dan tumbuh- tumbuhan wajib mengizinkan badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) untuk melaksanakan kewenangan sebagaimana dimaksud dalam Pasal 19 ayat (2) dengan mendapatkan pembayaran ganti rugi yang layak apabila hal tersebut mengakibatkan pemindahan bangunan dan pencabutan hak atas tanah dan benda yang ada diatasnya. dan ayat (2) tidak diperkenankan melakukan pekerjaannya sebelum ganti rugi sebagaimana dimaksud dalam ayat (1) diselesaikan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pembayaran ganti rugi sebagaimana dimaksud dalam ayat (1) tidak berlaku untuk tanah yang langsung dikuasai oleh negara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-20/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ganti rugi sebagaimana dimaksud dalam ayat (1) dibebankan kepada badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-20/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Penetapan dan tata cara pembayaran ganti rugi sebagaimana dimaksud dalam Pasal 20 dilakukan sesuai dengan dan dengan memperhatikan ketentuan peraturan perundang-undangan yang berlaku. Kewajiban untuk memberikan ganti rugi sebagaimana dimaksud dalam Pasal 20 tidak berlaku terhadap mereka yang mendirikan bangunan, menanam tumbuh-tumbuhan, dan lain-lain dengan tujuan untuk memperoleh ganti rugi di atas tanah yang sudah dibebaskan untuk usaha penyelenggaraan jasa telekomunikasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PENCEGAHAN GANGGUAN, PERLINDUNGAN, DAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sarana dan prasarana telekomunikasi untuk penyelenggaraan telekomunikasi mendapat perlindungan dan pengamanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bentuk dan tata cara perlindungan dan pengamanan sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "HUBUNGAN ANTARA BADAN PENYELENGGARA, BADAN LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Badan penyelenggara sebagaimana dimaksud dalam Pasal 12 ayat (1) adalah pemegang kuasa penyelenggaraan jasa telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan lain di luar badan penyelenggara sebagaimana dimaksud dalam Pasal 12 ayat (2) dan perseorangan atau badan hukum sebagaimana dimaksud dalam Pasal 12 ayat (3) adalah mitra usaha badan penyelenggara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) wajib menjamin kelancaran penyelenggaraan jasa telekomunikasi dengan menyediakan fasilitas telekomunikasi yang baik dan dapat diandalkan, serta memberikan pelayanan yang sebaik-baiknya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "Badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) dalam menyelenggarakan jasa telekomunikasi wajib memberikan pelayanan dan perlakuan yang sama kepada setiap pemakai dan calon pemakai jasa telekomunikasi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "Setiap orang, badan negara, dan instansi pemerintah atau pun swasta pada dasarnya mempunyai hak yang sama untuk menggunakan jasa telekomunikasi dengan memperhatikan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Dalam rangka pembuktian kebenaran pemakaian fasilitas telekomunikasi, badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) atas permintaan pemakai jasa telekomunikasi yang bersangkutan wajib melakukan perekaman pemakaian fasilitas telekomunikasi yang digunakan oleh pemakai jasa telekomunikasi, dan dapat melakukan perekaman berita sesuai dengan peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "(1)Pemakai jasa telekomunikasi berhak mengajukan tuntutan ganti rugi yang layak atas kerugian dari penggunaan jasa telekomunikasi sepanjang dapat dibuktikan bahwa kerugian tersebut disebabkan oleh kesalahan badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2).",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-30/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku terhadap kerugian yang timbul karena sebab di luar kemampuan badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tata cara pengajuan dan penyelesaian ganti rugi sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "RAHASIA BERITA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Badan penyelenggara dan badan lain sebagaimana dimaksud dalam Pasal 12 ayat (1) dan ayat (2) wajib menjamin kerahasiaan berita yang dikirim dan diterima dengan menggunakan jasa telekomunikasi. Penyampaian rekaman berita oleh badan penyelenggara dan badan lain kepada pemakai jasa telekomunikasi untuk keperluan pembuktian sebagaimana dimaksud dalam Pasal 29 tidak merupakan pelanggaran ketentuan Pasal 31.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "BADAN PERTIMBANGAN TELEKOMUNIKASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pelaksanaan Undang-undang ini dan sejalan dengan perkembangan teknologi di bidang telekomunikasi serta dinamika masyarakat, dengan Keputusan Presiden dibentuk Badan Pertimbangan Telekomunikasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Badan Pertimbangan Telekomunikasi sebagaimana dimaksud dalam ayat (1) merupakan forum koordinasi yang bertugas memberikan pertimbangan, saran, dan pendapat untuk merumuskan kebijaksanaan di bidang telekomunikasi serta membahas masalah telekomunikasi yang sifatnya strategis. Susunan, pengangkatan, dan pemberhentian anggota Badan Pertimbangan Telekomunikasi ditetapkan dengan Keputusan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "KETENTUAN PIDANA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "Setiap perbuatan yang dilakukan tanpa hak dan dengan sengaja untuk mengubah jaringan telekomunikasi dan/atau memanipulasi penyelenggaraan telekomunikasi sehingga menimbulkan kerugian pada penyelenggara atau pun pemakai jasa telekomunikasi merupakan tindak pidana.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Barangsiapa dengan sengaja melanggar ketentuan mengenai penggunaan perangkat telekomunikasi yang menggunakan gelombang radio dan gelombang elektromagnetik lainnya sebagaimana dimaksud dalam Pasal 8 ayat (1) dan Pasal 13 ayat (1) diancam dengan pidana penjara selamalamanya 4 (empat) tahun atau denda setinggi-tingginya Rp 40.000.000,- (empat puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Barangsiapa dengan sengaja melakukan perbuatan yang mengakibatkan gangguan penyelenggaraan telekomunikasi sebagaimana dimaksud dalam Pasal 23 diancam dengan pidana penjara selama-lamanya 4 (empat) tahun atau denda sctinggi- tingginya Rp 40.000.000,- (empat puluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Apabila tindak pidana sebagaitnana dimaksud dalam ayat (1) dan ayat (2) mengakibatkan matinya seseorang, diancam dengan pidana penjara selama- lamanya 7 (tujuh) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Barangsiapa karena kelalaiannya mengakibatkan gangguan penyelenggaraan telekomunikasi sebagaimana dimaksud dalam Pasal 8 ayat (1) dan Pasal 23 diancam dengan pidana penjara selama-lamanya 1 (satu) tahun atau denda setinggi-tingginya Rp 10.000.000,- (sepuluh juta rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-36/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Apabila kelalaian sebagaimana dimaksud dalam ayat (4) mengakibatkan matinya seseorang, diancam dengan pidana penjara selama-lamanya 5 (lima) tahun.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Barangsiapa melanggar ketentuan mengenai pengusahaan, pemilikan, atau pemasangan pemancar radio sebagaimana dimaksud dalam Pasal 8 ayat (4) diancam dengan pidana penjara selama-lamanya 1 (satu) tahun atau denda setinggi-tingginya Rp 10.000.000,. (sepuluh juta rupiah). Barangsiapa memasukkan pemancar radio ke dalam wilayah Indonesia, memperdagangkan, membuat, atau merakit pemancar radio yang akan digunakan di dalam negeri tidak memenuhi persyaratan teknis sebagaimana dimaksud dalam Pasal 8 ayat (3) diancam dengan pidana penjara selama-lamanya 1 (satu) tahun atau denda setinggi-tingginya Rp 10.000.000,- (sepuluh juta rupiah). Barangsiapa melanggar ketentuan sebagaimana dimaksud dalam Pasal 10 ayat (2) dan Pasal 11 ayat (2) diancam dengan pidana penjara selamalamanya 1 (satu) tahun atau denda setinggi-tingginya Rp 10.000.000,- (sepuluh juta rupiah). Barangsiapa melanggar ketentuan sebagaimana dimaksud dalam Pasal 31 diancam pidana sesuai dengan ketentuan Kitab Undang-undang Hukum Pidana.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Jika tindak pidana sebagaimana dimaksud dalam Pasal 35, Pasal 36, Pasal 37, dan Pasal 38 dilakukan oleh atau atas tanggung jawab suatu badan hukum, penuntutan dilakukan dan pidana dijatuhkan terhadap pengurus atau penanggung jawab kecuali apabila pengurus atau penanggung jawab tersebut dapat membuktikan bahwa hal tersebut tidak karena kesalahannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-39/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Semua alat telekomunikasi dan barang-barang lainnya yang digunakan untuk melakukan tindak pidana sebagaimana dimaksud dalam Pasal 35, Pasal 36, Pasal 37, dan Pasal 38 dapat disita dan dirampas untuk negara dan diserahkan kepada Departemen yang bertanggung jawab di bidang telekomunikasi untuk keperluan negara atau segera dimusnahkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-39/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Tindak pidana sebagaimana dimaksud dalam Pasal 35, Pasal 36, Pasal 37, dan Pasal 38 adalah kejahatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PENYIDIKAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Selain oleh pejabat penyidik umum yang bertugas menyidik tindak pidana, penyidikan atas tindak pidana yang dimaksudkan dalam Undang-undang ini serta peraturan pelaksanaannya dapat juga dilakukan oleh pejabat pegawai negeri sipil tertentu sesuai dengan peraturan perundang- undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam melaksanakan tugas penyidikan, penyidik pegawai negeri sipil berwenang antara lain :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menghentikan penggunaan peralatan telekomunikasi yang menyimpang dari ketentuan yang berlaku;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memanggil orang untuk didengar dan diperiksa sebagai saksi atau tersangka;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "melakukan pemeriksaan prasarana telekomunikasi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "menggeledah tempat yang diduga digunakan melakukan tindak pidana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "menyegel dan/atau menyita alat-alat telekomunikasi yang digunakan untuk melakukan tindak pidana.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-3-tahun-1989/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan kewenangan dimaksud dalam ayat (2) dilakukan sesuai dengan peraturan perundang-undangan yang berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-41",
+     "type": "PASAL",
+     "orderIndex": 41,
+     "label": "Pasal 41",
+     "content": "Segala peraturan pelaksanaan yang berlaku berdasarkan Undang-undang Nomor 5 Tahun 1964 dinyatakan tetap berlaku sepanjang tidak bertentangan atau belum diadakan yang baru berdasarkan Undang-undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-3-tahun-1989/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "Dengan berlakunya Undang-undang ini, Undang-undang Nomor 5 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 6 Tahun 1963 tentang Telekomunikasi (Lembaran Negara Tahun 1963 Nomor 66) menjadi Undang- undang (Lembaran Negara Tahun 1964 Nomor 59, Tambahan Lembaran Negara Nomor 2657) dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-3-tahun-1989/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "Undang-undang ini disebut Undang-undang Telekomunikasi dan mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 April 1989 SOEHARTO Diundangkan di Jakarta pada tanggal 1 April 1989 MENTERI/SEKRETARIS NEGARA MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN1989 NOMOR 11",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 95,
+  "keputusan": "PASS",
+  "issues": [
+   "PASAL KOSONG: 6 (['uu-no-3-tahun-1989/pasal-17', 'uu-no-3-tahun-1989/pasal-22', 'uu-no-3-tahun-1989/pasal-24']…)"
+  ],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

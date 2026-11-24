@@ -1,0 +1,89 @@
+{
+ "slug": "uu-no-2-tahun-1977",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk lebih menyesuaikan dan menyempurnakan pelaksanaan program Pemerintah dalam tahun anggaran 1976/1977 diperlukan tambahan-tambahan dan perubahan-perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1976/1977 dimaksud dalam Undang-undang Nomor 1 Tahun 1976;",
+   "bahwa untuk lebih menjaga kelangsungan jalannya pembangunan perlu saldo-anggaran-lebih dan sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun 1976/1977 ditambahkan kepada kredit anggaran tahun 1977/1978",
+   "bahwa-tambahan dan perubahan dimaksud perlu diatur dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 30 Juni 1977 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, SH. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1974 NOMOR 44 PRESIDEN REPUBLIK INDONESIA - 5 - PENJELASAN ATAS UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 2 TAHUN 1977 TENTANG TAMBAHAN DAN PERUBAHAN ATAS ANGGARAN PENDAPATAN DAN BELANJA NEGARA TAHUN ANGGARAN 1976 / 1977 UMUM. Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1976/1977 adalah Anggaran Pendapatan dan Belanja Negara tahun ke tiga dalam rangka pelaksanaan Pelita II. Disebabkan oleh berbagai perkembangan keadaan, antara lain perkembangan ekonomi dalam dan luar negeri yang mengiringi pelaksanaannya, maka Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1976/1977 ini masih menghadapi hal-hal yang mengharuskan adanya tambahan dan perubahan. Walaupun penerimaan pajak langsung tidak mencapai jumlah seperti yang direncanakan semula, akan tetapi dengan meningkatnya penerimaan pajak tidak langsung dan penerimaan bukan pajak, maka secara keseluruhan penerimaan dalam negeri masih melampaui jumlah yang direncanakan. Disamping itu kenaikan penerimaan pembangunan disebabkan oleh karena adanya realisasi bantuan proyek yang ",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1977",
+   "detailsId": "47198",
+   "judul": "UU No. 2 Tahun 1977 tentang Tambahan dan Perubahan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1976/1977 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/36118/UU%20Nomor%202%20Tahun%201977.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:51:56.370624+00:00"
+  },
+  "sha256": "c4ebd5bcf5a86350f81da5852b1fb5b459a948ce97c90d2ae5535e6c63cb187b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1977/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-2-tahun-1977/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Pendapatan Negara Tahun Anggaran 1976/1977 diperkirakan bertambah dengan Rp. 169.190.000.000,00 yang terdiri dari : huruf a dan b pasal ini masing-masing dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-2-tahun-1977/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pendapatan Rutin bertambah dengan Rp. 102.790.000.000,00,",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-2-tahun-1977/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pendapatan Pembangunan bertambah dengan Rp. 66.400.000.000,00.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-2-tahun-1977/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian Pendapatan Tambahan dan Perubahan dimaksud pada ayat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

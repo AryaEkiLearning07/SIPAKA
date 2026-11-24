@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-64-tahun-1951",
+ "preamble": {
+  "menimbang": [
+   "Bahwa dianggap perlu mengadakan perubahan dalam Peraturan Pemerintah No. 17 tahun 1951 (Lembaran Negara No. 29) mengenai ketentuan tentang arti anak-angkat; Membaca : Surat Menteri Urusan Pegawai tanggal 22 Oktober 1951 No. 1812/M/5 1;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-64-tahun-1951",
+   "detailsId": "77780",
+   "judul": "PP No. 64 Tahun 1951 tentang Mengubah Peraturan Pemerintah Nomor 17 Tahun 1951 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69031/PP%20No.%2064%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:44.682399+00:00"
+  },
+  "sha256": "f1a84a2ea1d54902e7a26e196231af4a5c36ca560db61f0459683d48779ce7e6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

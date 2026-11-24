@@ -1,0 +1,41 @@
+{
+ "slug": "pp-no-53-tahun-1980",
+ "preamble": {
+  "menimbang": [
+   "bahwa oleh karena itu perlu mengadakan perubahan atas Nomor 22 Tahun 1974 tentang Peraturan Pemerintah Telekomunikasi Untuk Umum;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-53-tahun-1980",
+   "detailsId": "66665",
+   "judul": "PP No. 53 Tahun 1980 tentang Perubahan Atas Peraturan Pemerintah Nomor 22 Tahun 1974 Tentang Telekomunikasi Untuk Umum - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/56994/PP%20NO%2053%20TH%201980.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:49:42.776643+00:00"
+  },
+  "sha256": "d81c56a2f0bc712385dbd1d5ba23971094c70722c7f053e1c12c8b2cd51cd59e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

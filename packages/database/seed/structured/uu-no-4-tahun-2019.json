@@ -1,0 +1,2729 @@
+{
+ "slug": "uu-no-4-tahun-2019",
+ "preamble": {
+  "menimbang": [
+   "bahwa SK No 004078 A Mengingat. . . PRESIDEN REPUBLIK INDONESIA -2-"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "detailsId": "104274",
+   "slug": "uu-no-4-tahun-2019",
+   "nomor": 4,
+   "tahun": 2019,
+   "jenis": "UU",
+   "judul": "UU No. 4 Tahun 2019 tentang Kebidanan - JDIH BPK",
+   "lnNumber": "56",
+   "tlnNumber": "6325",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/94989/UU%20Nomor%204%20Tahun%202019.pdf",
+   "diubahOleh": [],
+   "mencabut": [],
+   "scrapedAt": "2026-09-30T01:15:47.267649+00:00"
+  },
+  "sha256": "79956789fd91fcf99b5887a1f1dc4a92d456e77da53c82c55c606b0a801241e5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 12,
+  "pasal": 77,
+  "ayat_angka": 126,
+  "huruf": 73
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Undang-Undang ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kebidanan adalah segala sesuatu yang berhubungan dengan bidan dalam memberikan pelayanan kebidanan kepada perempuan selama masa sebelum hamil, masa kehamilan, persalinan, pascapersalinan, masa nifas, bayi baru lahir, bayi, balita, dan anak prasekolah, termasuk kesehatan reproduksi perempuan dan keluarga berencana sesuai dengan tugas dan wewenangnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pelayanan Kebidanan adalah suatu bentuk pelayanan profesional yang merupakan bagian integral dari sistem pelayanan kesehatan yang diberikan oleh bidan secara mandiri, kolaborasi, dan/atau rujukan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Bidan SK No 004079 A REPUBLIK INDONESIA Bidan adalah seorang perempuan yang telah menyelesaikan program pendidikan Kebidanan baik di dalam negeri maupun di luar negeri yang diakui secara sah oleh Pemerintah Pusat dan telah memenuhi persyaratan untuk melakukan praktik Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Praktik Kebidanan adalah kegiatan pemberian pelayanan yang dilakukan oleh Bidan dalam bentuk asuhan kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Asuhan Kebidanan adalah rangkaian kegiatan yang didasarkan pada proses pengambilan keputusan dan tindakan yang dilakukan oleh Bidan sesuai dengan wewenang dan ruang lingkup praktiknya berdasarkan ilmu dan kiat Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Kompetensi Bidan adalah kemampuan yang dimiliki oleh Bidan yang meliputi pengetahuan, keterampilan, dan sikap untuk memberikan Pelayanan Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Uji Kompetensi adalah proses pengukuran pengetahuan, keterampilan, dan perilaku peserta didik pada perguruan tinggi yang menyelenggarakan program studi Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Sertifikat Kompetensi adalah surat tanda pengakuan terhadap Kompetensi Bidan yang telah lulus Uji Kompetensi untuk melakukan Praktik Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Sertifikat Profesi adalah surat tanda pengakuan untuk melakukan Praktik Kebidanan yang diperoleh lulusan pendidikan profesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Registrasi adalah pencatatan resmi terhadap Bidan yang telah memiliki Sertifikat Kompetensi atau Sertifikat Profesi dan telah mempunyai kualifikasi tertentu lain serta mempunyai pengakuan secara hukum untuk menjalankan praktik Kebidanan. I 1. Surat Tanda Registrasi yang selanjutnya disingkat STR adalah bukti tertulis yang diberikan oleh konsil Kebidanan kepada Bidan yang telah diregistrasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-12",
+       "type": "ANGKA",
+       "orderIndex": 12,
+       "label": "Angka 12",
+       "content": "Surat SK No 004080 A REPUBLIK INDONESIA Surat lzin Praktik Bidan yang selanjutnya disingkat SIPB adalah bukti tertulis yang diberikan oleh Pemerintah Daerah kabupaten/kota kepada Bidan sebagai pemberian kewenangan untuk menjalankan Praktik Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-13",
+       "type": "ANGKA",
+       "orderIndex": 13,
+       "label": "Angka 13",
+       "content": "Fasilitas Pelayanan Kesehatan adalah suatu alat dan/atau tempat yang digunakan untuk menyelenggarakan upaya pelayanan kesehatan baik promotif, preventif, kuratif, dan rehabilitatif yang pelayanannya dilakukan oleh pemerintah dan/atau masyarakat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-14",
+       "type": "ANGKA",
+       "orderIndex": 14,
+       "label": "Angka 14",
+       "content": "Tempat Praktik Mandiri Bidan adalah Fasilitas Pelayanan Kesehatan yang diselenggarakan oleh Bidan lulusan pendidikan profesi untuk memberikan pelayanan langsung kepada klien.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-15",
+       "type": "ANGKA",
+       "orderIndex": 15,
+       "label": "Angka 15",
+       "content": "Bidan Warga Negara Asing adalah Bidan yang berstatus bukan Warga Negara Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-16",
+       "type": "ANGKA",
+       "orderIndex": 16,
+       "label": "Angka 16",
+       "content": "Klien adalah perseorangan, keluarga, atau kelompok yang melakukan konsultasi kesehatan untuk memperoleh pelayanan kesehatan yang diperlukan secara langsung maupun tidak langsung oleh Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-17",
+       "type": "ANGKA",
+       "orderIndex": 17,
+       "label": "Angka 17",
+       "content": "Organisasi Profesi Bidan adalah wadah yang menghimpun Bidan secara nasional dan berbadan hukum sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-18",
+       "type": "ANGKA",
+       "orderIndex": 18,
+       "label": "Angka 18",
+       "content": "Konsil Kebidanan yang selanjutnya disebut Konsil adalah bagian dari Konsil Tenaga Kesehatan Indonesia yang tugas, fungsi, wewenang, dan keanggotaannya sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-19",
+       "type": "ANGKA",
+       "orderIndex": 19,
+       "label": "Angka 19",
+       "content": "Wahana Pendidikan Kebidanan adalah Fasilitas Pelayanan Kesehatan yang digunakan sebagai tempat penyelenggaraan pendidikan Kebidanan. 20.Pernerintah... SK No 004081 A REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-20",
+       "type": "ANGKA",
+       "orderIndex": 20,
+       "label": "Angka 20",
+       "content": "Pemerintah Pusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-1/angka-21",
+       "type": "ANGKA",
+       "orderIndex": 21,
+       "label": "Angka 21",
+       "content": "Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom. 22.Menterr adalah menteri yang menyelenggarakan urusan pemerintahan di bidang kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Penyelenggaraan Kebidanan berasaskan a. perikemanusiaan; b. nilai ilmiah; c. etika dan profesionalitas; d. manfaat; e. keadilan; f. pelindungan; dan g. keselamatan Klien.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Pengaturan penyelenggaraan Kebidanan bertujuan: a. meningkatkan mutu pendidikan Bidan; b. meningkatkan mutu Pelayanan Kebidanan; c. memberikan pelindungan dan kepastian hukum kepada Bidan dan Klien; dan d. meningkatkan derajat kesehatan masyarakat, terutama kesehatan ibu, bayi baru lahir, bayi, balita, dan anak prasekolah. SK No 004145 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Pendidikan Kebidanan terdiri atas: a. pendidikan akademik; b. pendidikan vokasi; dan c. pendidikan profesi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendidikan akademik sebagaimana dimaksud dalam Pasal 4 huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "program sarJana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "program magister; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-5/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "program doktor.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Lulusan pendidikan akademik sebagaimana dimaksud pada ayat (1) huruf a dapat melanjutkan program pendidikan profesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendidikan vokasi sebagaimana dimaksud dalam Pasal 4 huruf b merupakan program diploma tiga kebidanan. (21 Lulusan pendidikan vokasi sebagaimana dimaksud pada ayat (1) yang akan menjadi Bidan lulusan pendidikan profesi harus melanjutkan program pendidikan setara sarjana ditambah pendidikan profesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pendidikan profesr sebagaimana dimaksud dalam Pasal 4 huruf c merupakan program lanjutan dari program pendidikan setara sarjana atau program sarjana. SK No 004083 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "REPUBLIK INDONESIA Lulusan pendidikan akademik, vokasi, dan profesi sebagaimana dimaksud dalam Pasal 4 mendapatkan gelar sesuai dengan ketentuan peraturan perundang- undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pendidikan Kebidanan sebagaimana dimaksud dalam Pasal 4 diselenggarakan oleh perguruan tinggi sesuai dengan ketentuan peraturan perundang-undangan. Penyelenggaraan pendidikan Kebidanan harus memenuhi Standar Nasional Pendidikan Kebidanan. (21 Standar Nasional Pendidikan Kebidanan sebagaimana dimaksud pada ayat (1) mengacu pada Standar Nasional Pendidikan Tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Perguruan tinggi dalam menyelenggarakan pendidikan Kebidanan sebagaimana dimaksud pada ayat (1) harus menyediakan Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyediaan Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan Kebidanan sebagaimana dimaksud pada ayat (21dapat dilakukan melalui: Standar Nasional Pendidikan Kebidanan sebagaimana dimaksud pada ayat (1) disusun secara bersama oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang kesehatan, kementerian yang menyelenggarakan tugas pemerintahan di bidang pendidikan tinggi, asosiasi institusi pendidikan, dan Organisasi Profesi Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kepemilikan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kerja sama.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan Kebidanan sebagaimana dimaksud pada ayat (21 merupakan Fasilitas Pelayanan Kesehatan yang memenuhi persyaratan. Ketentuan mengenai Standar Nasional Pendidikan Kebidanan sebagaimana dimaksud pada ayat (l) diatur dengan Peraturan Menteri yang menyelenggarakan tugas pemerintahan di bidang pendidikan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-9/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ketentuan lebih lanjut mengenai Fasilitas Pelayanan Kesehatan sebagai Wahana Pendidikan Kebidanan sebagaimana dimaksud pada ayat (21sampai dengan ayat (4) diatur dengan Peraturan Menteri. Pasal 1O Perguruan tinggi yang menyelenggarakan pendidikan Kebidanan diselenggarakan oleh Pemerintah Pusat atau masl'arakat sesuai dengan ketentuan peraturan perundang-undangan. Pasal 11... SK No 004084A Pasal 1 1",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "( 1) Dalam rangka menjamin mutu lulusan, penyelenggara pendidikan Kebidanan hanya dapat menerima mahasiswa sesuai dengan kuota nasional.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kuota nasional sebagaimana dimaksud pada ayat (1) didasarkan pada kebutuhan Bidan di daerah masing- masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-12/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai kuota nasional penerimaan mahasiswa sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri yang menyelenggarakan tugas pemerintahan di bidang pendidikan tinggi setelah berkoordinasi dengan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "SK No 004085 A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Perguruan tinggi yang menyelenggarakan pendidikan Kebidarran harus memiliki dosen dan tenaga kependidikan sesuai dengan ketentuan peraturan pemndang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dosen sebagaimana dimaksud pada ayat (1) berasal dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-13/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perguruan tinggi; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-13/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Wahana Pendidikan Kebidanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dosen sebagaimana dimaksud pada ayat (1) mempunyai hak dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dosen yang berasal dari Wahana Pendidikan Kebidanan sebagaimana dimaksud dalam Pasal 13 ayat (2) huruf b melakukan pendidikan, penelitian, pengabdian kepada masyarakat, dan pelayanan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dosen yang berasal dari Wahana Pendidikan Kebidanan sebagaimana dimaksud dalam Pasal 13 ayat (21huruf b memiliki kesetaraan, pengakuan, dan angka kredit yang memperhitungkan kegiatan pelayanan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai kesetaraan, pengakuan, dan angka kredit dosen yang berasal dari Wahana Pendidikan Kebidanan sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Tenaga kependidikan sebagaimana dimaksud dalam pasal 13 ayat (1) dapat bcrasal dari pegawai negeri sipil atau nonpegar,vai negeri sipil sesuai dengan ketentuan peraturan perundang-und angan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "SK No 004086 A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahasiswa Kebidanan pada akhir masa pendidikan vokasi atau pendidikan profesi harus mengikuti Uji Kompetensi yang bersifat nasional. (21 Uji Kompetensi sebagaimana dimaksud pada ayat (1) merupakan syarat kelulusan pendidikan vokasi atau pendidikan profesi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Uji Kompetensi sebagaimana dimaksud dalam Pasal 16 diselenggarakan oleh perguruan tinggi bekerja sama dengan Organisasi Profesi Bidan, lembaga pelatihan tenaga kesehatan, atau lembaga sertifikasi profesi tenaga kesehatan yang terakreditasi. (21 Uji Kompetensi sebagaimana dimaksud pada ayat (1) ditujukan untuk mencapai standar kompetensi Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-18/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Standar kompetensi Bidan sebagaimana dimaksud dalam Pasal 17 ayat (2) disusun oleh Organisasi Profesi Bidan dan Konsil berkoordinasi dengan Konsil Tenaga Kesehatan Indonesia. (21 Standar kompetensi Bidan sebagaimana dimaksud pada ayat (1) merupakan bagian dari standar profesi Bidan yang disahkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-19/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Mahasiswa pendidikan vokasi Kebidanan yang lulus Uji Kompetensi memperoleh Sertilikat Kompetensi yang diterbitkan oleh perguruan tinggi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-19/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Mahasiswa pendidikan profesi Kebidanan yang lulus Uji Kompetensi memperoleh Sertifikat profesi yang diterbitkan oleh perguruan tinggi. Pasal20... SK No 004087 A REPUBLIK INDONESIA - 1 1-",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "Tata cara Uji Kompetensi dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "REGISTRASI DAN IZIN PRAKTIK",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Bidan yang akan menjalankan Praktik Kebidanan wajib memiliki STR.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "STR sebagaimana dimaksud pada ayat (1) diberikan oleh Konsil kepada Bidan yang memenuhi persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Persyaratan sebagaimana dimaksud pada ayat (2) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki rjazah dari perguruan tinggi yang menyelenggarakan pendidikan Kebidanan sesuai dengan ketentuan peraturan perundang- undangan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki Sertifikat Kompetensi atau Sertifikat Profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki surat keterangan sehat fisik dan mental;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memiliki surat pernyataan telah mengucapkan sumpah/janji profesi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-21/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "membuat pernyataan tertulis untuk mematuhi dan melaksanakan ketentuan etika profesi. Pasal22... SK No 004088 A REPUBLIK INDONESIA -t2-",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "STR berlaku selama 5 (lima) tahun dan dapat diregistrasi ulang setelah memenuhi persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Persyaratan untuk Registrasi ulang sebagaimana dimaksud pada ayat (1) meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memiliki STR lama;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memiliki Sertifikat Kompetensi atau Sertifikat Profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memiliki surat keterangan sehat fisik dan mental;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "membuat pernyataan tertulis mematuhi dan melaksanakan ketentuan etika profesi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "telah mengabdikan diri sebagai tenaga profesi atau vokasi; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-22/ayat-2/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memenuhi kecukupan dalam kegiatan pelayanan, pendidikan, pelatihan, danlatau kegiatan ilmiah lainnya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "Konsil harus menerbitkan STR paling lama 3O (tiga puluh) hari kerja terhitung sejak pengajuan STR diterima.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Ketentuan lebih lanjut mengenai tata cara Registrasi dan Registrasi ulang sebagaimana dimaksud dalam Pasal 2l sampai dengan Pasal 23 diatur dalam Peraturan Konsil. Bagian Kedua Izin Praktik",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan yang akan menjalankan Praktik Kebidanan wajib memiliki izin praktik.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "rzin. . SK No 004146 A REPUBLIK INDONESIA _ 13_ (21 lzin praktik sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk SIPB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "SIPB sebagaimana dimaksud pada ayat (21diberikan oleh Pemerintah Daerah kabupaten/kota atas rekomendasi pejabat kesehatan yang berwenang di kabupaten/kota tempat Bidan menjalankan praktiknya. (41 Pemerintah Daerah kabupaten/kota sebagaimana dimaksud pada ayat (3) harus menerbitkan SIPB paling lama 15 (lima belas) hari kerja sejak pengajuan SIPB diterima.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Untuk mendapatkan SIPB sebagaimana dimaksud pada ayat (3), Bidan harus memiliki:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "STR yang masih berlaku; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "tempat praktik.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "SIPB berlaku apabila:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "STR masih berlaku; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-25/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Bidan berpraktik di tempat sebagaimana tercantum dalam SIPB.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "(1) (21 Bidan paling banyak mendapatkan 2 (dua) SIPB. SIPB sebagaimana dimaksud pada ayat (1) berlaku untuk: a. 1 (satu) di Tempat Praktik Mandiri Bidan dan 1 (satu) di Fasilitas Pelayanan Kesehatan selain dr Tempat Praktik Mandiri Bidan; atau b. 2 (dua) Praktik Kebidanan di Fasilitas pelayanan Kesehatan selain di Tempat Praktik Mandiri Bidan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "SK No 004090 A SIPB tidak berlaku apabila: a. Bidan meninggal dunia; b. habis masa berlakunya; c. dicabut berdasarkan ketentuan perundang-undangan ; atau d. atas permintaan sendiri. peraturan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap Bidan harus menjalankan Praktik Kebidanan di tempat praktik yang sesuai dengan SIPB. (21 Bidan yang menjalankan Praktik Kebidanan di tempat praktik yang tidak sesuai dengan SIPB sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-28/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-28/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penghentian sementara kegiatan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-28/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pencabutan tzin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Ketentuan lebih lanjut mengenai izin praktik Bidan sebagaimana dimaksud dalam Pasal 25 sampai dengan Pasal 28 diatur dengan Peraturan Menteri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-30/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara Fasilitas Pelayanan Kesehatan harus mendayagunakan Bidan yang memiliki STR dan SIPB. (21 Penyelenggara Fasilitas Pelayanan Kesehatan yang mendayagunakan Bidan yang tidak memiliki STR dan SIPB sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa: a.teguran... SK No 004091 A REPUBLIK INDONESIA 1E - r rJ-",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-30/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-30/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penghentian sementara kegiatan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-30/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pencabutan izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-30/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih laniut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "BIDAN WARGA NEGARA INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-31/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan warga negara Indonesia lulusan luar negeri yang akan menjalankan Praktik Kebidanan di Indonesia wajib memiliki STR dan SIPB.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-31/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "STR dan SIPB sebagaimana dimaksud pada ayat (1), diperoleh setelah Bidan warga negara Indonesia lulusan luar negeri mengikuti evaluasi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Evaluasi kompetensi sebagaimana dimaksud dalam Pasal 31 ayat (2) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian kelengkapan administratif; dan penilaian keabsahan dan penyetaraan ijazah oleh menteri yang menyelenggarakan tugas pemerintahan di bidang pendidikan tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penilaian kemampuan melakukan praktik Kebidanan. (21 Penilaian kelengkapan administratif sebagaimana dimaksud pada ayat (1) huruf a meliputi: surat keterangan sehat fisik dan rnental; dan SK No 004092 A c.surat... REPUBLIK INDONESIA",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat pernyataan tertulis untuk mematuhi dan melaksanakan ketentuan etika profesi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penilaian kemampuan melakukan Praktik Kebidanan sebagaimana dimaksud pada ayat (1) huruf b drlakukan melalui Uji Kompetensi sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidan warga negara Indonesia lulusan luar negeri yang telah memenuhi penilaian kelengkapan administratif dan lulus penilaian kemampuan melakukan Praktik Kebidanan memperoleh surat keterangan lulus evaluasi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Bidan warga negara Indonesia lulusan luar negeri yang telah memperoleh surat keterangan sebagaimana dimaksud pada ayat (41 dapat rnemperoleh STR.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "STR sebagaimana dimaksud pada ayat (5) diberikan oleh Konsil setelah memenuhi persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-32/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Ketentuan lebih lanjut mengenai evaluasi kompetensi sebagaimana dimaksud pada ayat (1) sampai dengan ayat (41diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan mengenai tata cara Registrasi, masa berlaku STR, dan Registrasi ulang STR bagi Bidan warga negara Indonesia lulusan luar negeri berlaku secara mutatis mutandis sesuai Pasal 2I sampai dengan Pasal 23. (21 Ketentuan mengenai izin Praktik Kebidanan bagi Bidan warga negara Indonesia lulusan luar negeri berlaku secara mutatis mutandis sesuai Pasal 25 sampai dengan Pasal 30. SK No 004093 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-34/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan Warga Negara Asing dapat menjalankan Indonesia berdasarkan Praktik Kebidanan di permintaan pengguna Bidan Warga Negara Asing. (21 Penggunaan Bidan Warga Negara Asing harus mendapatkan rzin Pemerintah Pusat dengan mempertimbangkan ketersediaan Bidan yang ada di Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-34/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Izin sebagaimana dimaksud pada ayat (21 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan di bidang ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-34/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidan Warga Negara Asing yang menyelenggarakan Praktik Kebidanan di Indonesia sebagaimana dimaksud pada ayat (1) hanya dilakukan untuk alih teknologi dan/atau ilmu pengetahuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-35/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan Warga Negara Asing yang akan menjalankan Praktik Kebidanan di Indonesia wajib memiliki STR sementara dan SIPB. (21 STR sementara dan SIPB sebagaimana dimaksud pada ayat (1), diperoleh setelah Bidan Warga Negara Asing mengikuti evaluasi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Evaluasi kompetensi sebagaimana dimaksud dalam Pasal 35 ayat (2) dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian kelengkapan administratif; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penilaian kemampuan melakukan praktik Kebidanan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penilaian. . . SK No 004147 A SK No 004079 A REPUBLIK INDONESTA _ 18_ Penilaian kelengkapan administratif sebagaimana dimaksud pada ayat (1) huruf a meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penilaian keabsahan dan kesetaraan ijazah oleh menteri yang menyelenggarakan tugas pemerintahan di bidang pendidikan tinggi;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "surat keterangan sehat fisik dan mental; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "surat pernyataan tertulis untuk mematuhi dan melaksanakan ketentuan etika profesi.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penilaian kemampuan melakukan Praktik Kebidanan sebagaimana dimaksud pada ayat (1) huruf b dilakukan melalui Uji Kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Bidan Warga Negara Asing yang telah memenuhi penilaian kelengkapan administratif dan lulus penilaian kemampuan melakukan Praktik Kebidanan memperoleh surat keterangan lulus evaluasi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Selain mengikuti evaluasi kompetensi, Bidan Warga Negara Asing harus memenuhi persyaratan lain sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-36/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Ketentuan lebih lanjut mengenai evaluasi kompetensi sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dengan Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-37/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan yang telah memperoleh surat keterangan lulus evaluasi kompetensi sebagaimana dimaksud dalam Pasal 36 ayat (4) dapat mengajukan permohonan STR sementara.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-37/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "STR sementara sebagaimana dimaksud pada ayat (1) diberikan oleh Konsil setelah memenuhi persyaratan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-37/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "STR sementara sebagaimana dimaksud pada ayat (21 merupakan persyaratan untuk memperoleh SIPB. SK No 004095 A Pasal 38. . . REPUBLIK INDONESIA _19_",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "STR sementara bagi Bidan Warga Negara Asing berlaku paling lama 1 (satu) tahun dan dapat diperpanjang hanya untuk 1 (satu) tahun berikutnya. (21 SIPB bagi Bidan Warga Negara Asing berlaku paling lama 1 (satu) tahun dan dapat diperpanjang hanya untuk 1 (satu) tahun berikutnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-39/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Ketentuan lebih lanjut mengenai tata cara Registrasi STR sementara dan Registrasi ulang STR sementara bagi Bidan Warga Negara Asing diatur dalam Peraturan Konsil. (21 Ketentuan lebih lanjut mengenai SIPB bagi Bidan Warga Negara Asing diatur dalam Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-40/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penyelenggara Fasilitas Pelayanan Kesehatan dapat rnendayagunakan Bidan Warga Negara Asing yang telah memiliki:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-40/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "STR sementara; teguran tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-40/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "SIPB; dan penghentian sementara kegiatan; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-40/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "tzin sesuai dengan ketentuan peraturan perundang-undangan di bidang ketenagakerjaan. (21 Penvelenggara Fasilitas Pelayanan Kesehatan yang mendayagunakan Bidan Warga Negara Asing yang tidak sesuai dengan ketentuan sebagaimana dimaksud pada ayat (i) dikenai sanksi administratif berupa: pencabutan izin. SK No 004096A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-40/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan REPUBLIK INDONESIA _20_ Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (21diatur dalam Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PRAKTIK KEBIDANAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengaturan, penetapan dan pembinaan Praktik Kebidanan dilaksanakan oleh Konsil. (21 Konsil sebagaimana dimaksud pada ayat (1) merupakan bagian dari Konsil Tenaga Kesehatan Indonesia yang diatur dengan Peraturan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan lulusan pendidikan diploma tiga hanya dapat melakukan Praktik Kebidanan di Fasilitas pelayanan Kesehatan. SK No 004097 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bidan REPUBLIK INDONESIA (21 Bidan lulusau pendidikan profesi dapat melakukan Praktik Kebidanan di Tempat Praktik Mandiri Bidan dan di Fasilitas Pelayanan Kesehatan lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-43/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Praktik Mandiri Bidan sebagaimana dimaksud pada ayat (2) dilakukan hanya pada 1 (satu) Tempat Praktik Mandiri Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan lulusan pendidikan profesi yang menjalankan Praktik Kcbidanan di Tempat Praktik Mandiri Bidan wajib memasang papan nama praktik. (21 Ketcntuan mengenai papan nama praktik sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Bidan yang tidak memasang papan nama praktik sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "tcguran lisan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "perir.rgatan tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "denda administratif; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-44/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pencabutan izin. (4\\ Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Menteri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan yang menjalankan Praktik Kebidanan di Tempat Praktik Mandiri Bidan wajib melengkapi sarana dan prasarana pelayanan sesuai dengan standar pelayanan dan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Bidan... SK No 004148 A REPUBLIK INDONESIA (21 Bidan yang tidak melengkapi sarana dan prasarana pelayanan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "teguran lisan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "peringatan tertulis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "denda administratif; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pencabutan izin.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-45/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (21 diatur dengan Peraturan Menteri. Bagian Kedua T\\rgas dan Wewenang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menyelenggarakan Praktik Kebidanan, Bidan bertugas memberikan pelayanan yang meliputi: dilaksanakan secara bertanggung jawab dan akuntabel. SK No 004099 A Pasal 47 . -23",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelayanan kesehatan ibu;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pelayanan kesehatan anak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pelayanan kesehatan reproduksi perempuan dan keluarga berencana;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pelaksanaan tugas berdasarkan pelimpahan wewenang; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pelaksanaan tugas dalam keadaan keterbatasan tertentu. (21 Tugas Bidan sebagaimana dimaksud pada ayat (1) dapar dilaksanakan secara bersama atau sendiri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-46/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan tugas sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam menyelenggarakan Praktik Kebidanan, Bidan dapat berperan sebagai:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemberi Pelayanan Kebidanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengelola Pelayanan Kebidanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penyuluh dan konselor;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pendidik, pembimbing, dan fasilitator klinik;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penggerak peran serta masyarakat dan pemberdayaan perempuan; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-47/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "peneliti. (21 Peran Bidan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Bidan dalam penyelenggaraan Praktik Kebidanan sebagaimana dimaksud dalam Pasal 46 dan Pasal 47, harus sesuai dengan kompetensi dan kewenangannya. Paragraf 1 Pelayanan Kesehatan Ibu",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Dalam menjalankan tugas memberikan pelayanan kesehatan ibu sebagaimana dimaksud dalam pasal 46 ayat",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "huruf a, Bidan berwenang:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "memberikan Asuhan Kebidanan pada masa sebelum hamil; SK No 004149 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "memberikan memberikan Asuhan Kebidanan pada masa kehamilan normal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberikan Asuhan Kebidanan pada masa persalinan dan menolong persalinan normal;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "memberikan Asuhan Kebidanan pada masa nifas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "melakukan pertolongan pertama kegawatdaruratan ibu hamil, bersalin, nifas, dan rujukan; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-49/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "melakukan deteksi dini kasus risiko dan komplikasi pada masa kehamilan, masa persalinan, pascapersalinan, masa nifas, serta asuhan pascakeguguran dan dilanjutkan dengan rujukan. Paragraf 2 Pelayanan Kesehatan Anak",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Dalam menjalankan tugas memberikan pelayanan kesehatan anak sebagaimana dimaksud dalam Pasal 46 ayat (1) huruf b, Bidan berwenang: a. memberikan Asuhan Kebidanan pada bayi baru lahir, bayi, balita, dan anak prasekolah; b. memberikan imunisasi sesuai program Pemerintah Pusat; c. melakukan pemantauan tumbuh kembang pada bayi, balita, dan anak prasekolah serta deteksi dini kasus penyulit, gangguan tumbuh kembang, dan rujukan; dan d. memberikan pertolongan pertama kegawatdaruratan pada bayi baru lahir dilanjutkan dengan rujukan. Paragraf 3 SK No 004150 A REPUBLIK INDONESIA Paragraf 3 Pelayanan Kesehatan Reproduksi Perempuan dan Keluarga Berencana",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Dalam menjalankan tugas memberikan pelayanan kesehatan reproduksi perempuan dan keluarga berencana sebagaimana dimaksud dalam Pasal 46 ayat (1) huruf c, Bidan berwenang melakukan komunikasi, informasi, edukasi, konseling, dan memberikan pelayanan kontrasepsi sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Ketentuan lebih lanjut mengenai pelayanan kesehatan ibu, pelayanan kesehatan anak, dan pelayanan kesehatan reproduksi perempuan dan keluarga berencana sebagaimana dimaksud dalam Pasal 49 sampai dengan Pasal 51 diatur dengan Peraturan Menteri. Paragraf 4 Pelimpahan Wewenang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-53",
+     "type": "PASAL",
+     "orderIndex": 53,
+     "label": "Pasal 53",
+     "content": "Pelimpahan wewenang sebagaimana dimaksud dalam Pasal 46 ayat (1) huruf d terdiri atas: a. pelimpahan secara mandat; dan b. pelimpahan secara delegatif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-54",
+     "type": "PASAL",
+     "orderIndex": 54,
+     "label": "Pasal 54",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-54/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelimpahan wewenang secara mandat sebagaimana dimaksud dalam Pasal 53 huruf a diberikan oleh dokter kepada Bidan sesuai kompetensinya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-54/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelimpahan wewenang secara mandat sebagaimana dimaksud pada ayat (1) harus dilakukan secara tertulis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-54/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelimpahan... SK No 004102 A REPUBLIK INDONESIA _26_ Pelimpahan wewenang secara mandat sebagaimana dimaksud pada ayat (1) dengan tanggung jawab berada pada pemberi pelimpahan wewenang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-54/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dokter yang memberikan pelimpahan wewenang sebagaimana dimaksud pada ayat (1) harus melakukan pengawasan dan evaluasi secara berkala.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-55",
+     "type": "PASAL",
+     "orderIndex": 55,
+     "label": "Pasal 55",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-55/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelimpahan wewenang secara delegatif sebagaimana dimaksud dalam Pasal 53 huruf b diberikan oleh Pemerintah Pusat atau Pemerintah Daerah kepada Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-55/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pelimpahan wewenang secara delegatif sebagaimana dimaksud pada ayat (1) yang diberikan oleh Pemerintah Pusat atau Pemerintah Daerah dalam rangka:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-55/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaksanaan tugas dalam keadaan keterbatasan tertentu; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-55/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "program pemerintah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-55/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelirnpahan wewenang sebagaimana dimaksud pada ayat (1) diberikan dengan disertai pelimpahan tanggung jawab.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-56",
+     "type": "PASAL",
+     "orderIndex": 56,
+     "label": "Pasal 56",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-56/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan tugas dalam keadaan keterbatasan tertentu sebagaimana dimaksud dalam Pasal 46 ayat huruf e merupakan penugasan pemerintah yang dilaksanakan pada keadaan tidak adanya tenaga medis dan/atau tenaga kesehatan lain di suatu wilayah tempat Bidan bertugas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-56/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Keadaan tidak adanya tenaga medis dan/atau tenaga kesehatan lain sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Daerah. SK No 004103 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-56/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan . REPUELIK INDONESIA Pelaksanaan tugas dalam keadaan keterbatasan tertentu sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Bidan yang telah mengikuti pelatihan dengan memperhatikan Kompetensi Bidan. (41 Pelatihan sebagaimana dimaksud pada ayat (3) dilakukan oleh Pemerintah Pusat dan/atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-56/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam rrrenyelenggarakan pelatihan sebagaimana dimaksud pada ayat (4), Pemerintah Pusat dan/atau Pemerintah Daerah dapat melibatkan Organisasi Profesi Bidan dan/atau organisasi profesi terkait yang diselenggarakan oleh telah terakreditasi. lembaga yang",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-57",
+     "type": "PASAL",
+     "orderIndex": 57,
+     "label": "Pasal 57",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-57/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Program pemerintah sebagaimana dimaksud dalam Pasal 55 ayat (21 huruf b merupakan penugasan Pemerintah Pusat atau Pemerintah Daerah untuk melaksanakan program pemerintah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-57/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Program pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan .",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-57/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pelaksanaan program pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Bidan yang telah mengikuti pelatihan dengan memperhatikan Kompetensi Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-57/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pelatihan sebagaimana dimaksud pada ayat (3) dilakukan oleh Pemerintah Pusat dan/atau Pemerintah Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-57/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam menyelenggarakan pelatihan sebagaimana dimaksud pada ayat (4), Pemerintah Pusat dan/atau Pemerintah Daerah dapat melibatkan Organisasi Profesi Bidan dan/atau organisasi profesi terkait yang diselenggarakan oleh telah terakreditasi. lembaga yang SK No 004151 A Pasal58... REPUBLIK INDONESTA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-58",
+     "type": "PASAL",
+     "orderIndex": 58,
+     "label": "Pasal 58",
+     "content": "Ketentuan lebih lanjut mengenai pelimpahan wewenang sebagaimana dimaksud dalam Pasal 53 sampai dengan Pasal 57 diatur dengan Peraturan Menteri. Paragraf 5 Keadaan Gawat Darurat",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-59",
+     "type": "PASAL",
+     "orderIndex": 59,
+     "label": "Pasal 59",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-59/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam keadaan gawat darurat untuk pemberian pertolongan pertama, Bidan dapat melakukan pelayanan kesehatan di luar kewenangan sesuai dengan kompetensinya. (21 Pertolongan pertama sebagaimana dimaksud pada ayat (1) bertujuan untuk menyelamatkan nyawa Klien.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-59/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Keadaan gawat darurat sebagaimana dimaksud pada ayat (1) merupakan keadaan yang mengancam nyawa Klien. (41 Keadaan gawat darurat sebagaimana dimaksud pada ayat (1) ditetapkan oleh Bidan sesuai dengan hasil evaluasi berdasarkan keilmuannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-59/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penanganan keadaan gawat darurat sebagaimana dimaksud pada ayat (1) sampai dengan ayat l4l dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "HAK DAN KEWAJIBAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-60",
+     "type": "PASAL",
+     "orderIndex": 60,
+     "label": "Pasal 60",
+     "content": "Bidan dalam melaksanakan Praktik Kebidanan berhak: a. bcd e f memperoleh pelindungan hukum sepanjang melaksanakan tugas sesuai dengan kompetensi, kewenangan, dan mematuhi kode etik, standar profesi, standar pelayanan profesi, dan standar prosedur operasional; memperoleh informasi yang benar, jelas, jujur, dan lengkap dari Klien dan/atau keluarganya; menolak keinginan Klien atau pihak lain yang bertentangan dengan kode etik, standar profesi, standar pelayanan, standar prosedur operasional, dan ketentuan peraturan perundang-undangan; menerima imbalan jasa atas Pelayanan Kebidanan yang telah diberikan; memperoleh fasilitas kerja sesuai dengan standar; dan mendapatkan kesempatan untuk mengembangkan profesi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-61",
+     "type": "PASAL",
+     "orderIndex": 61,
+     "label": "Pasal 61",
+     "content": "Bidan dalam melaksanakan Praktik Kebidanan berkewajiban: a. memberikan Pelayanan Kebidanan sesuai dengan kompetensi, kewenangan, dan mematuhi kode etik, standar profesi, standar pelayanan profesi, standar prosedur operasional; b. memberikan informasi yang benar, jelas, dan lengkap mengenai tindakan Kebidanan kepada Klien dan/atau keluarganya sesuai kewenangannya; c. memperoleh persetujuan dari Klien atau keluarganya atas tindakan yang akan diberikan; d. merujuk. . . SK No 004106 A REPUBLIK INDONESIA _30_ d. merujuk Klien yang tidak dapat ditangani ke dokter atau Fasilitas Pelayanan Kesehatan; e. mendokumentasikan Asuhan Kebidanan sesuai dengan standar; f. menjaga kerahasiaan kesehatan Klien; g. menghormati hak Klien; h. melaksanakan tindakan pelimpahan wewenang dari dokter sesuai dengan Kompetensi Bidan; i. melaksanakan penugasan khusus yang ditetapkan oleh Pemerintah Pusat; j. meningkatkan mutu Pelayanan Kebidanan; k. mempertahankan dan meningkatkan pengetahuan dan/atau keterampilannya melalui pendidikan dan/atau pelatihan; dan/ atau",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-61/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "melakukan pertolongan gawat darurat. Bagian Kedua Hak dan Kewajiban Klien",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-62",
+     "type": "PASAL",
+     "orderIndex": 62,
+     "label": "Pasal 62",
+     "content": "Dalam Praktik Kebidanan, Klien berhak: a. memperoleh Pelayanan Kebidanan sesuai dengan kompetensi, kode etik, standar profesi, standar pelayanan, dan standar operasional prosedur; b. memperoleh inforrnasi secara benar dan jelas mengenai kesehatan Klien, termasuk resume isi rekam medis jika diperlukan; c. meminta pendapat Bidan lain; d. memberi persetujuan atau penolakan tindakan Kebidanan yang akan dilakukan; dan e. memperoleh jaminan kerahasiaan kesehatan Klien. SK No 004107 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-63",
+     "type": "PASAL",
+     "orderIndex": 63,
+     "label": "Pasal 63",
+     "content": "-3 1-",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengungkapan rahasia kesehatan Klien hanya dilakukan atas dasar:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kepentingan kesehatan Klien;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "permintaan aparatur penegak hukum dalam rangka penegakan hukum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "persetujuan Klien sendiri; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-1/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "ketentuan peraturan perLlndang-undangan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengungkapan rahasia kesehatan Klien sebagaimana dimaksud pada ayat (1) terbatas pada tindakan yang dilakukan oleh Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-63/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai pengungkapan rahasia kesehatan Klien diatur dalam Peraturan Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-64",
+     "type": "PASAL",
+     "orderIndex": 64,
+     "label": "Pasal 64",
+     "content": "Dalam Praktik Kebidanan, Klien berkewajiban: a. memberikan informasi yang benar, jelas, dan jujur mengenai kondisi kesehatannya; b. mematuhi nasihat dan petunjuk Bidan; c. mematuhi ketentuan yang berlaku di Fasilitas Pelayanan Kesehatan; dan d. memberi imbalan jasa atas Pelayanan Kebidanan yang diterima.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "ORGANISASI PROFESI BIDAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-65",
+     "type": "PASAL",
+     "orderIndex": 65,
+     "label": "Pasal 65",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-65/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Bidan berhimpun dalam satu wadah Organisasi Profesi Bidan. SK No 004108 A",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-65/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Organisasi... REPUBLIK INDONESIA (21 Organisasi Profesi Bidan berfungsi untuk meningkatkan dan/atau mengembangkan pengetahuan dan keterampilan, martabat, dan etika profesi Kebidanan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-66",
+     "type": "PASAL",
+     "orderIndex": 66,
+     "label": "Pasal 66",
+     "content": "Organisasi Profesi Bidan bertujuan untuk mempersatukan, membina, dan memberdayakan Bidan dalam rangka menunjang pembangunan kesehatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-67",
+     "type": "PASAL",
+     "orderIndex": 67,
+     "label": "Pasal 67",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-67/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk mengembangkan cabang ilmu dan standar pendidikan Kebidanan, Organisasi Profesi Bidan dapat membentuk kolegium Kebidanan. (21 Kolegium Kebidanan sebagaimana dimaksud pada ayat (1) merupakan badan otonom di dalam Organisasi Profesi Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-67/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan lebih lanjut mengenai kolegium Kebidanan sebagaimana dimaksud pada ayat (21 diatur oleh Organisasi Profesi Bidan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-ix",
+   "type": "BAB",
+   "orderIndex": 9,
+   "label": "BAB IX",
+   "title": "PENDAYAGUNAAN BIDAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-68",
+     "type": "PASAL",
+     "orderIndex": 68,
+     "label": "Pasal 68",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-68/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pemerataan dan pemenuhan kebutuhan Pelayanan Kebidanan, Pemerintah Pusat, Pemerintah Daerah, dan/atau masyarakat melakukan pendayagunaan Bidan sesuai dengan tugas dan fungsi masing-masing. (21 Pendayagunaan Bidan sebagaimana dimaksud pada ayat (1) memperhatikan aspek pemerataan, pemanfaatan, dan pengembangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-68/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pendayagunaan SK No 004109 A REPUBLIK INDONESIA -cJ- Pendayagunaan Bidan sebagaimana dimaksud pada ayat (1) dan ayat(2) terdiri atas pendayagunaan Bidan di dalam dan luar negeri. (41 Pendayagunaan Bidan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (3) dilaksanakan melalui penempatan sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-x",
+   "type": "BAB",
+   "orderIndex": 10,
+   "label": "BAB X",
+   "title": "PEMBINAAN DAN PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-69",
+     "type": "PASAL",
+     "orderIndex": 69,
+     "label": "Pasal 69",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-69/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah Pusat dan Pemerintah Daerah melakukan pembinaan dan pengawasan Bidan dengan melibatkan Konsil dan Organisasi Profesi Bidan sesuai dengan kewenangan masing-masing.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-69/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pernbinaan dan pengawasan sebagaimana dimaksud pada ayat (1) diarahkan untuk:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-69/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "meningkatkan mutu Pelayanan Kebidanan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-69/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "melindungi masyarakat dari tindakan Bidan yang tidak sesuai standar; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "uu-no-4-tahun-2019/pasal-69/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "memberikan kepastian hukum bagi Bidan dan masyarakat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-70",
+     "type": "PASAL",
+     "orderIndex": 70,
+     "label": "Pasal 70",
+     "content": "Pembinaan dan pengawasan sebagaimana dimaksud dalam Pasal 69 dilaksanakan sesuai dengan ketentuan peratura n perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-xi",
+   "type": "BAB",
+   "orderIndex": 11,
+   "label": "BAB XI",
+   "title": "KETENTUAN PERALIHAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-71",
+     "type": "PASAL",
+     "orderIndex": 71,
+     "label": "Pasal 71",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, setiap orang yang sedang mengikuti pendidikan Kebidanan diploma empat dapat berpraktik sebagai Bidan lulusan diploma empat di Fasilitas Pelayanan Kesehatan setelah lulus pendidikan kecuali praktik mandiri Bidan. SK No 004115 A Pasal72... REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-72",
+     "type": "PASAL",
+     "orderIndex": 72,
+     "label": "Pasal 72",
+     "content": "Bidan lulusan pendidikan diploma empat sebelum Undang-Undang ini mulai berlaku dapat berpraktik di Fasilitas Pelayanan Kesehatan kecuali praktik mandiri Bidan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-73",
+     "type": "PASAL",
+     "orderIndex": 73,
+     "label": "Pasal 73",
+     "content": "STR dan SIPB yang telah dimiliki oleh Bidan sebelum Undang-Undang ini diundangkan, dinyatakan tetap berlaku sampai jangka waktu STR dan SIPB berakhir.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-74",
+     "type": "PASAL",
+     "orderIndex": 74,
+     "label": "Pasal 74",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, penerbitan STR yang masih dalam proses, diselesaikan berdasarkan prosedur sebelum Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-75",
+     "type": "PASAL",
+     "orderIndex": 75,
+     "label": "Pasal 75",
+     "content": "Bidan lulusan pendidikan Kebidanan di bawah diploma tiga Kebidanan yang telah melakukan Praktik Kebidanan sebelum Undang-Undang ini diundangkan masih tetap dapat melakukan Praktik Kebidanan untuk jangka waktu paling lama Bulan Oktober Tahun 2O2O.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-76",
+     "type": "PASAL",
+     "orderIndex": 76,
+     "label": "Pasal 76",
+     "content": "(I) Bidan lulusan pendidikan diploma tiga dan Bidan lulusan pendidikan diploma empat yang telah melaksanakan Praktik Kebidanan secara mandiri di Tempat Praktik Mandiri Bidan sebelum Undang- Undang ini diundangkan, dapat melaksanakan Praktik Kebidanan secara mandiri di Tempat praktik Mandiri Bi,lan untuk jangka waktu paling lama T (tujuh) tahun setelah Undang-Undang ini diundangkan. (21 Dalam... SK No 00411I A REPUBLIK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-76/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam jangka waktu sebagaimana dimaksud pada ayat (1), Bidan lulusan pendidikan diploma tiga yang melaksanakan praktik mandiri Bidan dapat mengikuti penyetaraan Bidan lulusan pendidikan profesi melalui rekognisi pembelajaran lampau.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-4-tahun-2019/pasal-76/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Rekognisi pembelajaran lampau sebagaimana dimaksud pada ayat (21 dilaksanakan sesuai dengan ketentuan peraturan perllndang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-77",
+     "type": "PASAL",
+     "orderIndex": 77,
+     "label": "Pasal 77",
+     "content": "Pelaksanaan Registrasi ulang untuk Bidan yang lulus pendidikan sebelum Tahun 2Ol3 melampirkan ljazah sebagai pengganti Sertifikat Kompetensi atau Sertifikat Profesi.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-4-tahun-2019/bab-xii",
+   "type": "BAB",
+   "orderIndex": 12,
+   "label": "BAB XII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-78",
+     "type": "PASAL",
+     "orderIndex": 78,
+     "label": "Pasal 78",
+     "content": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-79",
+     "type": "PASAL",
+     "orderIndex": 79,
+     "label": "Pasal 79",
+     "content": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang mengatur mengenai Kebidanan, dinyatakan masih tetap berlaku sepanjang tidak bertentangan berdasarkan Undang-Undang ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "uu-no-4-tahun-2019/pasal-80",
+     "type": "PASAL",
+     "orderIndex": 80,
+     "label": "Pasal 80",
+     "content": "ini mulai berlaku pada tanggal Undang-Undang diundangkan. Agar SK No 004112 A -36 Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 13 Maret 2019 PRESI DEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal l5 Maret 2Ol9 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 20I9 NOMOR 56 Salinan sesuai clengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Deputi Bidang Pcmbangunan Manusia dan Kebudayaan, Bidang I{ukum dan -undangan, ung Cahyono SK No 004073 A REPUBLIK INDONESTA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..80): [10, 11, 41]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

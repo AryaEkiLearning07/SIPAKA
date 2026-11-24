@@ -1,0 +1,49 @@
+{
+ "slug": "perpres-no-118-tahun-2025",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 28 November 2025 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRASEIYO HADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR 186 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan dan trasi H Djaman SK No275660A",
+ "source": {
+  "url": {
+   "slug": "perpres-no-118-tahun-2025",
+   "detailsId": "341138",
+   "judul": "Perpres No. 118 Tahun 2025 tentang Rincian Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2026 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/404242/Perpres%20Nomor%20118%20Tahun%202025.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:11.935165+00:00"
+  },
+  "sha256": "35b5950db5c0970a8d8726d9963fe65b6ed649bf9899f6c1a677d088935d53cb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-118-tahun-2025/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Rincian Anggaran Pendapatan Negara sebagaimana dimaksud dalam Pasal I huruf a terdiri atas rincian: a. Penerimaan Perpajakan tercantum dalam l,ampiran I yang merupakan bagran tidak terpisahkan dari Peraturan Presiden ini; dan b, Penerimaan Negara Bukan Pajak tercantum dalam",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

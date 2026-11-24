@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Kelola Reputasi (Kelola Profil)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:dataStore id="d_poin-store" name="Poin Reputasi" />
+  <bpmn:dataStore id="d_lencana-store" name="Lencana" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Kelola Reputasi" processRef="kelola_reputasi" />
+  </bpmn:collaboration>
+  <bpmn:process id="kelola_reputasi" name="Kelola Reputasi (Kelola Profil)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Aktivitas berpoin terjadi (thread, komentar, upvote, verifikasi)" />
+    <bpmn:serviceTask id="hitung" name="Hitung Nilai Poin" />
+    <bpmn:serviceTask id="tambah" name="Tambahkan poin ke total reputasi penulis">
+      <bpmn:ioSpecification id="tambah-io">
+        <bpmn:dataInput id="tambah-in-1" name="Poin Reputasi" />
+        <bpmn:dataOutput id="tambah-out-2" name="Poin Reputasi" />
+        <bpmn:inputSet id="tambah-inputs">
+          <bpmn:dataInputRefs>tambah-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="tambah-outputs">
+          <bpmn:dataOutputRefs>tambah-out-2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="tambah-dia-1">
+        <bpmn:sourceRef>d_poin</bpmn:sourceRef>
+        <bpmn:targetRef>tambah-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+      <bpmn:dataOutputAssociation id="tambah-doa-2">
+        <bpmn:sourceRef>tambah-out-2</bpmn:sourceRef>
+        <bpmn:targetRef>d_poin</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="evaluasi" name="Evaluasi Kelayakan Lencana">
+      <bpmn:ioSpecification id="evaluasi-io">
+        <bpmn:dataInput id="evaluasi-in-3" name="Poin Reputasi" />
+        <bpmn:dataInput id="evaluasi-in-4" name="Lencana" />
+        <bpmn:inputSet id="evaluasi-inputs">
+          <bpmn:dataInputRefs>evaluasi-in-3</bpmn:dataInputRefs>
+          <bpmn:dataInputRefs>evaluasi-in-4</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="evaluasi-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="evaluasi-dia-3">
+        <bpmn:sourceRef>d_poin</bpmn:sourceRef>
+        <bpmn:targetRef>evaluasi-in-3</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+      <bpmn:dataInputAssociation id="evaluasi-dia-4">
+        <bpmn:sourceRef>d_lencana</bpmn:sourceRef>
+        <bpmn:targetRef>evaluasi-in-4</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="layak" name="Memenuhi syarat lencana baru?" default="f-layak-tetap" />
+    <bpmn:serviceTask id="beri" name="Berikan Lencana Prestasi">
+      <bpmn:ioSpecification id="beri-io">
+        <bpmn:dataOutput id="beri-out-5" name="Lencana" />
+        <bpmn:inputSet id="beri-inputs" />
+        <bpmn:outputSet id="beri-outputs">
+          <bpmn:dataOutputRefs>beri-out-5</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="beri-doa-5">
+        <bpmn:sourceRef>beri-out-5</bpmn:sourceRef>
+        <bpmn:targetRef>d_lencana</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="selesai" name="Reputasi diperbarui dan lencana diberikan" />
+    <bpmn:endEvent id="tetap" name="Reputasi diperbarui tanpa lencana baru" />
+    <bpmn:sequenceFlow id="f-mulai-hitung" sourceRef="mulai" targetRef="hitung" />
+    <bpmn:sequenceFlow id="f-hitung-tambah" sourceRef="hitung" targetRef="tambah" />
+    <bpmn:sequenceFlow id="f-tambah-evaluasi" sourceRef="tambah" targetRef="evaluasi" />
+    <bpmn:sequenceFlow id="f-evaluasi-layak" sourceRef="evaluasi" targetRef="layak" />
+    <bpmn:sequenceFlow id="f-layak-beri" name="ya" sourceRef="layak" targetRef="beri">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">layakLencana</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-layak-tetap" name="tidak" sourceRef="layak" targetRef="tetap" />
+    <bpmn:sequenceFlow id="f-beri-selesai" sourceRef="beri" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_poin" name="Poin Reputasi" dataStoreRef="d_poin-store" />
+    <bpmn:dataStoreReference id="d_lencana" name="Lencana" dataStoreRef="d_lencana-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="920" height="240" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="30" y="93" width="96" height="47" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="hitung_di" bpmnElement="hitung">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tambah_di" bpmnElement="tambah">
+        <dc:Bounds x="296" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="evaluasi_di" bpmnElement="evaluasi">
+        <dc:Bounds x="446" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="layak_di" bpmnElement="layak" isMarkerVisible="true">
+        <dc:Bounds x="596" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="556" y="19" width="130" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="beri_di" bpmnElement="beri">
+        <dc:Bounds x="696" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="846" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="810" y="93" width="108" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tetap_di" bpmnElement="tetap">
+        <dc:Bounds x="728" y="167" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="692" y="208" width="108" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_poin_di" bpmnElement="d_poin">
+        <dc:Bounds x="321" y="160" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="309" y="215" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_lencana_di" bpmnElement="d_lencana">
+        <dc:Bounds x="471" y="160" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="476" y="215" width="40" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="tambah-dia-1_di" bpmnElement="tambah-dia-1">
+        <di:waypoint x="346" y="160" />
+        <di:waypoint x="346" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="tambah-doa-2_di" bpmnElement="tambah-doa-2">
+        <di:waypoint x="346" y="110" />
+        <di:waypoint x="346" y="160" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="evaluasi-dia-3_di" bpmnElement="evaluasi-dia-3">
+        <di:waypoint x="371" y="166" />
+        <di:waypoint x="446" y="108" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="evaluasi-dia-4_di" bpmnElement="evaluasi-dia-4">
+        <di:waypoint x="496" y="160" />
+        <di:waypoint x="496" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="beri-doa-5_di" bpmnElement="beri-doa-5">
+        <di:waypoint x="696" y="93" />
+        <di:waypoint x="521" y="174" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-hitung_di" bpmnElement="f-mulai-hitung">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-hitung-tambah_di" bpmnElement="f-hitung-tambah">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tambah-evaluasi_di" bpmnElement="f-tambah-evaluasi">
+        <di:waypoint x="396" y="70" />
+        <di:waypoint x="446" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-evaluasi-layak_di" bpmnElement="f-evaluasi-layak">
+        <di:waypoint x="546" y="70" />
+        <di:waypoint x="596" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-layak-beri_di" bpmnElement="f-layak-beri">
+        <di:waypoint x="646" y="70" />
+        <di:waypoint x="696" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="654" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-layak-tetap_di" bpmnElement="f-layak-tetap">
+        <di:waypoint x="621" y="95" />
+        <di:waypoint x="621" y="185" />
+        <di:waypoint x="728" y="185" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="629" y="170" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-beri-selesai_di" bpmnElement="f-beri-selesai">
+        <di:waypoint x="796" y="70" />
+        <di:waypoint x="846" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

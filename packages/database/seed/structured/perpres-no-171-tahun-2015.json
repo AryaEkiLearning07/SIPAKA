@@ -1,0 +1,39 @@
+{
+ "slug": "perpres-no-171-tahun-2015",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-171-tahun-2015",
+   "detailsId": "41930",
+   "judul": "PERPRES No. 171 Tahun 2015 tentang Pengesahan Asian Infrastructure Investment Bank Articles Of Agreement (Pasal Persetujuan Bank Investasi Infrastruktur Asia) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35142/Perpres%20Nomor%20171%20Tahun%202015%20-%20Lampiran%20English.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:12:08.200916+00:00"
+  },
+  "sha256": "77c0cc5e897e9bc220ccae326458e5e30c5cd738ade92fd81bb96ba02b3cfdc6",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

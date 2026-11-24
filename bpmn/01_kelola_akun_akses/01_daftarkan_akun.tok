@@ -1,0 +1,28 @@
+tok 1.0 "Daftarkan Akun (Kelola Akun & Akses)"
+
+pool p "Daftarkan Akun" process=daftarkan_akun
+  store d_akun "Akun Pengguna"
+  start mulai "Data registrasi diterima" message="Data registrasi"
+  service val "Validasi Data Registrasi"
+  xor valid "Data valid dan belum terdaftar?"
+  service buat "Buat Akun Pengguna"
+  call peran "Tetapkan Peran Pengguna" process=kelola_peran_pengguna doc="Langkah 'Tetapkan Peran Pengguna' pada proses Kelola Peran Pengguna (peran awal akun baru)"
+  end sukses "Akun berhasil dibuat" message="Konfirmasi akun dibuat"
+  send pesan "Tampilkan pesan kesalahan validasi" message="Pesan kesalahan validasi"
+  receive ulang "Terima data registrasi yang diperbaiki" message="Data registrasi diperbaiki"
+
+pool calon "Calon Pengguna"
+
+flow mulai -> val -> valid
+flow valid -> buat "ya" when="dataValid"
+flow valid -> pesan "tidak" default
+flow pesan -> ulang -> val
+flow buat -> peran -> sukses
+
+reads val d_akun
+writes buat d_akun
+
+message calon -> mulai "Data registrasi"
+message sukses -> calon "Konfirmasi akun dibuat"
+message pesan -> calon "Pesan kesalahan validasi"
+message calon -> ulang "Data registrasi diperbaiki"

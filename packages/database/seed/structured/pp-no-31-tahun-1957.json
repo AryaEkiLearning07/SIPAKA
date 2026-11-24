@@ -1,0 +1,58 @@
+{
+ "slug": "pp-no-31-tahun-1957",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-31-tahun-1957",
+   "detailsId": "76723",
+   "judul": "PP No. 31 Tahun 1957 tentang Perubahan Peraturan Pemerintah No. 44, 45, 46, 65 Tahun 1951, No. 45, 51 Tahun 1952, No. 18 Tahun 1953 dan No. 12 Tahun 1954 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67666/PP%20No.%20031%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:18.370093+00:00"
+  },
+  "sha256": "ceffba111200afb655c1f4064820ed93646661703f641fd6f90f1bc290fd6285",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-31-tahun-1957/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Peraturan-peraturan Pemerintah No. 44, 45, 46, 65 tahun 1951, No. 45, 51 tahun 1952, No. 18 tahun 1953 dan NO. 12 tahun 1954 naskahnya diubah sedemikian hingga di mana disebut \"Propinsi Sumatera-Tengah\" atau \"Propinsi\" maka dibaca, \"Daerah-daerah tingkat I Sumatera-Barat, Riau dan Jambi\". Peraturan Pemerintah ini mulai berlaku pada hari diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-31-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Denpasar pada tanggal 9 Agustus 1957 PRESIDEN REPUBLIK INDONESIA, ttd. (SUKARNO) MENTERI DALAM NEGERI, ttd. (SANOESI HARJADINATA) Diundangkan pada tanggal 10 Agustus 1957 MENTERI KEHAKIMAN, ttd. (G.A. MAENGKOM) LEMBARAN NEGARA TAHUN 1957 NOMOR 78",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

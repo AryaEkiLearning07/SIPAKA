@@ -1,0 +1,33 @@
+tok 1.0 "Jelajahi Diskusi (Forum Diskusi Kasus)"
+
+pool p "Jelajahi Diskusi" process=jelajahi_diskusi
+  store d_thread "Thread Diskusi"
+  start mulai "Pilihan kategori diterima" message="Pilihan kategori hukum"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  service saring "Saring Berdasarkan Kategori Hukum"
+  xor ada "Ada diskusi?"
+  send daftar "Tampilkan Daftar Diskusi" message="Daftar diskusi"
+  end selesai "Daftar diskusi terkirim"
+  send kosong "Tampilkan pesan belum ada diskusi" message="Pesan belum ada diskusi"
+  end nihil "Tidak ada diskusi pada kategori ini"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> saring "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow saring -> ada
+flow ada -> daftar "ya" when="jumlahDiskusi > 0"
+flow ada -> kosong "tidak" default
+flow daftar -> selesai
+flow kosong -> nihil
+
+reads saring d_thread
+reads daftar d_thread
+
+message user -> mulai "Pilihan kategori hukum"
+message tolak -> user "Akses ditolak"
+message daftar -> user "Daftar diskusi"
+message kosong -> user "Pesan belum ada diskusi"

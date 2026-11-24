@@ -1,0 +1,190 @@
+{
+ "slug": "uu-no-8-tahun-1998",
+ "preamble": {
+  "menimbang": [
+   "bahwa Perhitungan Anggaran Negara sebagai tahap terakhir dari rangkaian siklus anggaran Negara merupakan pertanggungjawaban konstitusional atas pelaksanaan Anggaran Pendapatan dan Belanja Negara;",
+   "bahwa berhubung dengan itu Perhitungan Anggaran Negara Tahun Anggaran 1996/1997 ditetapkan dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-8-tahun-1998",
+   "detailsId": "45473",
+   "judul": "UU No. 8 Tahun 1998 tentang Perhitungan Anggaran Negara Tahun Anggaran 1997/1998 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33990/UU%20Nomor%208%20Tahun%201998.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:07:15.657904+00:00"
+  },
+  "sha256": "b5c6fb69eca752cb07ec4526d547196c79841a59cf19f9db505d7f34e3ca80eb",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 5,
+  "ayat_angka": 7,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-8-tahun-1998/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pendapatan Negara Tahun Anggaran 1997/1997 adalah sebesar Rp 99.530.343.714.069 (sembilan puluh sembilan triliun lima ratus tiga puluh miliar tiga ratus empat puluh tiga juta tujuh ratus empat belas ribu enam puluh sembilan rupiah) terdiri dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Penerimaan Dalam Negeri sebesar Rp 87.630.256.978.561 (delapan puluh tujuh triliun enam ratus tiga puluh miliar dua ratus lima puluh enam juta sembilan ratus tujuh puluh delapan ribu lima ratus enam puluh satu rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Penerimaan Pembangunan sebesar Rp 11.900.086.735.508 (sebelas triliun sembilan ratus miliar delapan puluh enam juta tujuh ratus tiga puluh lima ribu lima ratus delapan rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penerimaan Dalam Negeri sebesar Rp 87.630.256.978.561 (delapan puluh tujuh triliun enam ratus tiga puluh miliar dua ratus lima puluh enam juta sembilan ratus tujuh puluh delapan ribu lima ratus enam puluh satu) terdiri dari :",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-2/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Penerimaan pajak sebesar Rp 57.339.900.457.441 (lima puluh tujuh triliun tiga ratus tiga puluh sembilan miliar sembilan ratus juta empat ratus lima puluh tujuh ribu empat ratus empat puluh satu rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-2/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Penerimaan dari sektor minyak bumi dan gas alam Rp 20.137.068.462.051 (dua puluh triliun seratus tiga puluh tujuh miliar enam puluh delapan juta empat ratus enam puluh dua ribu lima puluh satu rupiah);",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-2/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Penerimaan negara bukan pajak sebesar Rp 10.153.288.059.069 (sepuluh triliun seratus lila puluh tiga miliar dua ratus delapan puluh delapan juta lima puluh sembilan ribu enam puluh sembilan rupiah).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-1998/pasal-1/ayat-3",
+     "type": "AYAT",
+     "orderIndex": 3,
+     "label": "Ayat (3)",
+     "content": "Rincian pendapatan negara sebagaimana dimaksud pada ayat (1) dan ayat (2) adalah seperti tersebut dalam penjelasan pasal ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-1998/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "uu-no-8-tahun-1998/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Belanja Negara Tahun Anggaran 1996/1997 adalah sebesar Rp. 98.512.826.986.335 (sembilan puluh delapan triliun lima ratus dua belas miliar delapan ratus dua puluh enam juta sembilan ratus delapan puluh enam ribu tiga ratus tiga puluh lima rupiah) terdiri dari:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Pengeluaran rutin sebesar Rp 62.561.086.530.199 (enam puluh dua triliun lima ratus enam puluh satu miliar delapan puluh enam juta lima ratus tiga puluh ribu seratus sembilan puluh sembilan rupiah) dirinci menurut sektor: 01 SEKTOR INDUSTRI 02 SEKTOR PERTANIAN DAN KEHUTANAN 03 SEKTOR PENGAIRAN 04 SEKTOR TENAGA KERJA 05 SEKTOR PERDAGANGAN, PENGEMBANGAN USAHA NASIONAL, KEUANGAN DAN Rp Rp Rp Rp 54.467.377.929 469.879.299.493 26.226.914.356 117.411.196.055 KOPERASI Rp 35.299.326.741.669 06 SEKTOR TRANSPORTASI, METEOROLOGI DAN GEOFISIKA Rp 254.604.190.913 07 SEKTOR PERTAMBANGAN DAN ENERGI Rp 114.430.166.451 08 SEKTOR PARIWISATA, POS DAN TELEKOMUNIKASI Rp 48.529.248.656 09 SEKTOR PEMBANGUNAN DAERAH DAN TRANSMIGRASI Rp 9.523.302.041.842 10 SEKTOR LINGKUNGAN HIDUP DAN TATA RUANG Rp 179.961.043.942 11 SEKTOR PENDIDIKAN, KEBUDAYAAN NASIONAL, KEPERCAYAAN TERHADAP TUHAN YANG MAHA ESA, PEMUDA DAN OLAH RAGA Rp 3.692.139.219.853 12 SEKTOR KEPENDUDUKAN DAN KELUARGA SEJAHTERA Rp 238.778.014.178 13 SEKTOR KESEJAHTERAAN SOSIAL, KESEHATAN, PERANAN WANITA, ANAK DAN REMAJA 14 SEKTOR PERUMAHAN DAN PERMUKIMAN 15 SEKTOR AGAMA 16 SEKTOR ILMU PENGETAHUAN DAN Rp Rp Rp 518.331.153.211 11.671.113.232 995.693.207.027 TEKNOLOGI 17 SEKTOR HUKUM 18 SEKTOR APARATUR NEGARA DAN Rp Rp 307.343.742.134 550.669.463.771 PENGAWASAN Rp 3.809.080.858.416 19 SEKTOR POLITIK, HUBUNGAN LUAR NEGERI, PENERANGAN, KOMUNIKASI DAN MEDIA MASSA Rp 1.099.507.893.068 20 SEKTOR PERTAHANAN DAN KEAMANAN Rp 5.249.733.644.000",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "uu-no-8-tahun-1998/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Pengeluaran pembangunan sebesar Rp 35.951.740.456.136 (tiga puluh lima triliun sembilan ratus lima puluh satu miliar tujuh ratus empat puluh juta empat ratus lima puluh enam ribu seratus tiga puluh enam rupiah), dirinci menurut sektor: 01 SEKTOR INDUSTRI Rp 1.133.343.841.473 02 SEKTOR PERTANIAN DAN KEHUTANAN Rp 1.308.337.575.033 03 SEKTOR PENGAIRAN 04 SEKTOR TENAGA KERJA Rp 2.101.635.614.237 Rp 197.140.678.594 05 SEKTOR PERDAGANGAN, PENGEMBANGAN USAHA NASIONAL, KEUANGAN DAN KOPERASI Rp 1.680.743.373.163 06 SEKTOR TRANSPORTASI, METEOROLOGI DAN GEOFISIKA Rp 5.655.449.321.603 07 SEKTOR PERTAMBANGAN DAN ENERGI Rp 3.252.272.271.093 08 SEKTOR PARIWISATA, POS DAN TELEKOMUNIKASI Rp 570.877.880.422 09 SEKTOR PEMBANGUNAN DAERAH DAN TRANSMIGRASI Rp 7.156.401.320.958 10 SEKTOR LINGKUNGAN HIDUP DAN TATA RUANG Rp 564.512.320.756 11 SEKTOR PENDIDIKAN, KEBUDAYAAN NASIONAL, KEPERCAYAAN TERHADAP TUHAN YANG MAHA ESA, PEMUDA DAN OLAH RAGA Rp 3.849.211.636.884 12 SEKTOR KEPENDUDUKAN DAN KELUARGA SEJAHTERA Rp 332.692.258.142 13 SEKTOR KESEJAHTERAAN SOSIAL, KESEHATAN, PERANAN WANITA, ANAK DAN REMAJA Rp 1.277.568.563.697 14 SEKTOR PERUMAHAN DAN PERMUKIMAN Rp 1.365.837.073.398 15 SEKTOR AGAMA Rp 281.967.467.000 16 SEKTOR ILMU PENGETAHUAN DAN TEKNOLOGI 17 SEKTOR HUKUM 18 SEKTOR APARATUR NEGARA DAN Rp Rp 554.837.671.129 150.836.177.000 PENGAWASAN Rp 836.812.324.808 19 SEKTOR POLITIK, HUBUNGAN LUAR NEGERI, PENERANGAN, KOMUNIKASI DAN MEDIA MASSA Rp 184.349.463.568 20 SEKTOR PERTAHANAN DAN KEAMANAN Rp 3.496.913.623.174",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "uu-no-8-tahun-1998/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Rincian Belanja Negara sebagaimana dimaksud pada ayat (1) adalah seperti tersebut dalam penjelasan pasal ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-1998/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Sisa Anggaran Lebih Perhitungan Anggaran Negara Tahun Anggaran 1996/1997 adalah sebesar Rp 1.017.516.727.734 (satu triliun tujuh belas miliar lima ratus enam belas juta tujuh ratus dua puluh tujuh ribu tujuh ratus tiga puluh empat rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-8-tahun-1998/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Undang-undang ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 1 Oktober 1998 ttd. BACHARUDDIN JUSUF HABIBIE Diundangkan di Jakarta pada tanggal 1 Oktober 1998 MENTERI NEGARA SEKRETARIS NEGARA ttd. AKBAR TANJUNG LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1998 NOMOR 176",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

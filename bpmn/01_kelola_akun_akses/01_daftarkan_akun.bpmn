@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Daftarkan Akun (Kelola Akun &amp; Akses)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Data_registrasi" name="Data registrasi" />
+  <bpmn:message id="Message_Konfirmasi_akun_dibuat" name="Konfirmasi akun dibuat" />
+  <bpmn:message id="Message_Pesan_kesalahan_validasi" name="Pesan kesalahan validasi" />
+  <bpmn:message id="Message_Data_registrasi_diperbaiki" name="Data registrasi diperbaiki" />
+  <bpmn:dataStore id="d_akun-store" name="Akun Pengguna" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Daftarkan Akun" processRef="daftarkan_akun" />
+    <bpmn:participant id="calon" name="Calon Pengguna" />
+    <bpmn:messageFlow id="m-calon-mulai" name="Data registrasi" sourceRef="calon" targetRef="mulai" messageRef="Message_Data_registrasi" />
+    <bpmn:messageFlow id="m-sukses-calon" name="Konfirmasi akun dibuat" sourceRef="sukses" targetRef="calon" messageRef="Message_Konfirmasi_akun_dibuat" />
+    <bpmn:messageFlow id="m-pesan-calon" name="Pesan kesalahan validasi" sourceRef="pesan" targetRef="calon" messageRef="Message_Pesan_kesalahan_validasi" />
+    <bpmn:messageFlow id="m-calon-ulang" name="Data registrasi diperbaiki" sourceRef="calon" targetRef="ulang" messageRef="Message_Data_registrasi_diperbaiki" />
+  </bpmn:collaboration>
+  <bpmn:process id="daftarkan_akun" name="Daftarkan Akun (Kelola Akun &amp; Akses)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Data registrasi diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Data_registrasi" />
+    </bpmn:startEvent>
+    <bpmn:serviceTask id="val" name="Validasi Data Registrasi">
+      <bpmn:ioSpecification id="val-io">
+        <bpmn:dataInput id="val-in-1" name="Akun Pengguna" />
+        <bpmn:inputSet id="val-inputs">
+          <bpmn:dataInputRefs>val-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="val-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="val-dia-1">
+        <bpmn:sourceRef>d_akun</bpmn:sourceRef>
+        <bpmn:targetRef>val-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:exclusiveGateway id="valid" name="Data valid dan belum terdaftar?" default="f-valid-pesan" />
+    <bpmn:serviceTask id="buat" name="Buat Akun Pengguna">
+      <bpmn:ioSpecification id="buat-io">
+        <bpmn:dataOutput id="buat-out-2" name="Akun Pengguna" />
+        <bpmn:inputSet id="buat-inputs" />
+        <bpmn:outputSet id="buat-outputs">
+          <bpmn:dataOutputRefs>buat-out-2</bpmn:dataOutputRefs>
+        </bpmn:outputSet>
+      </bpmn:ioSpecification>
+      <bpmn:dataOutputAssociation id="buat-doa-2">
+        <bpmn:sourceRef>buat-out-2</bpmn:sourceRef>
+        <bpmn:targetRef>d_akun</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:callActivity id="peran" name="Tetapkan Peran Pengguna" calledElement="kelola_peran_pengguna">
+      <bpmn:documentation>Langkah 'Tetapkan Peran Pengguna' pada proses Kelola Peran Pengguna (peran awal akun baru)</bpmn:documentation>
+    </bpmn:callActivity>
+    <bpmn:endEvent id="sukses" name="Akun berhasil dibuat">
+      <bpmn:messageEventDefinition id="sukses-def" messageRef="Message_Konfirmasi_akun_dibuat" />
+    </bpmn:endEvent>
+    <bpmn:sendTask id="pesan" name="Tampilkan pesan kesalahan validasi" messageRef="Message_Pesan_kesalahan_validasi" />
+    <bpmn:receiveTask id="ulang" name="Terima data registrasi yang diperbaiki" messageRef="Message_Data_registrasi_diperbaiki" />
+    <bpmn:sequenceFlow id="f-mulai-val" sourceRef="mulai" targetRef="val" />
+    <bpmn:sequenceFlow id="f-val-valid" sourceRef="val" targetRef="valid" />
+    <bpmn:sequenceFlow id="f-valid-buat" name="ya" sourceRef="valid" targetRef="buat">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">dataValid</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-valid-pesan" name="tidak" sourceRef="valid" targetRef="pesan" />
+    <bpmn:sequenceFlow id="f-pesan-ulang" sourceRef="pesan" targetRef="ulang" />
+    <bpmn:sequenceFlow id="f-ulang-val" sourceRef="ulang" targetRef="val" />
+    <bpmn:sequenceFlow id="f-buat-peran" sourceRef="buat" targetRef="peran" />
+    <bpmn:sequenceFlow id="f-peran-sukses" sourceRef="peran" targetRef="sukses" />
+    <bpmn:dataStoreReference id="d_akun" name="Akun Pengguna" dataStoreRef="d_akun-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="770" height="270" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="calon_di" bpmnElement="calon" isHorizontal="true">
+        <dc:Bounds x="0" y="310" width="770" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="84" y="91" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="val_di" bpmnElement="val">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="valid_di" bpmnElement="valid" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="293" y="7" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="buat_di" bpmnElement="buat">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="peran_di" bpmnElement="peran">
+        <dc:Bounds x="546" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sukses_di" bpmnElement="sukses">
+        <dc:Bounds x="696" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="719" y="91" width="46" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pesan_di" bpmnElement="pesan">
+        <dc:Bounds x="396" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ulang_di" bpmnElement="ulang">
+        <dc:Bounds x="546" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_akun_di" bpmnElement="d_akun">
+        <dc:Bounds x="171" y="175" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="159" y="230" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-calon-mulai_di" bpmnElement="m-calon-mulai">
+        <di:waypoint x="78" y="310" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="294" width="84" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-sukses-calon_di" bpmnElement="m-sukses-calon">
+        <di:waypoint x="714" y="88" />
+        <di:waypoint x="714" y="310" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="653" y="94" width="56" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-pesan-calon_di" bpmnElement="m-pesan-calon">
+        <di:waypoint x="446" y="240" />
+        <di:waypoint x="446" y="310" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="451" y="246" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-calon-ulang_di" bpmnElement="m-calon-ulang">
+        <di:waypoint x="596" y="310" />
+        <di:waypoint x="596" y="240" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="601" y="282" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="val-dia-1_di" bpmnElement="val-dia-1">
+        <di:waypoint x="196" y="175" />
+        <di:waypoint x="196" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="buat-doa-2_di" bpmnElement="buat-doa-2">
+        <di:waypoint x="396" y="96" />
+        <di:waypoint x="221" y="187" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-val_di" bpmnElement="f-mulai-val">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-val-valid_di" bpmnElement="f-val-valid">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-valid-buat_di" bpmnElement="f-valid-buat">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-valid-pesan_di" bpmnElement="f-valid-pesan">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="396" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pesan-ulang_di" bpmnElement="f-pesan-ulang">
+        <di:waypoint x="496" y="200" />
+        <di:waypoint x="546" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-ulang-val_di" bpmnElement="f-ulang-val">
+        <di:waypoint x="596" y="160" />
+        <di:waypoint x="596" y="130" />
+        <di:waypoint x="196" y="130" />
+        <di:waypoint x="196" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-buat-peran_di" bpmnElement="f-buat-peran">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-peran-sukses_di" bpmnElement="f-peran-sukses">
+        <di:waypoint x="646" y="70" />
+        <di:waypoint x="696" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

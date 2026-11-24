@@ -1,0 +1,65 @@
+{
+ "slug": "pp-no-13-tahun-1963",
+ "preamble": {
+  "menimbang": [
+   "mengadakan kerja sama dan kesatuan tindakan dalam mengurus Perusahaan-perusahaan Mekanisasi Pertanian Negara; menyelenggarakan sebagian dari pekerjaan menguasai dan mengurus Perusahan-perusahaan Mekanisasi Pertanian Negara tersebut; mengawasi pekerjaan menguasai dan mengurus Perusahaan- perusahaan Negara itu;",
+   "c."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-13-tahun-1963",
+   "detailsId": "72134",
+   "judul": "PP No. 13 Tahun 1963 tentang Pendirian Badan Pimpinan Umum Perusahaan Mekanisasi Pertanian Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/62616/pp%20no%20013%20tahun%201963.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-32-tahun-1961"
+   ],
+   "scrapedAt": "2026-10-06T00:53:28.237497+00:00"
+  },
+  "sha256": "2a0cc35dbc29b34ca0b258116d6af3d8745cb8eaa84e13a54375ac1e306e23fe",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-13-tahun-1963/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENDIRIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-13-tahun-1963/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "(2) (3)",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

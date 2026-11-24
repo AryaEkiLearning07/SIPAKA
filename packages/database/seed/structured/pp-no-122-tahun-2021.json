@@ -1,0 +1,68 @@
+{
+ "slug": "pp-no-122-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "Menimbang SK No 114321 A"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 29 Desember 2021 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2021 NOMOR 285 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA undangan dan Hukum, Djaman SK No 114124 A",
+ "source": {
+  "url": {
+   "slug": "pp-no-122-tahun-2021",
+   "detailsId": "195698",
+   "judul": "PP No. 122 Tahun 2021 tentang Penambahan Penyertaan Modal Negara Republik Indonesia ke Dalam Modal Saham Perusahaan Perseroan (Persero) PT Perusahaan Listrik Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/189522/PP%20Nomor%20122%20Tahun%202021.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:29:58.653311+00:00"
+  },
+  "sha256": "dbab517cb6c30fa8d1cf305d2554c93da782e35786a78e4935c0311325b9c5b0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-122-tahun-2021/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Negara Republik Indonesia melakukan penambahan penyertaan modal ke dalam modal saham Perusahaan Perseroan (Persero) PT Perusahaan Listrik Negara yang statusnya sebagai Perusahaan Perseroan (Persero) ditetapkan berdasarkan Peraturan Pemerintah Nomor 23 Tahun 1994 tentang Pengalihan Bentuk Perusahaan Umum (PERUM) Listrik Negara menjadi Perusahaan Perseroan (PERSERO).",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-122-tahun-2021/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(l) Nilai penyertaan modal negara sebagaimana dimaksud dalam Pasal 1 sebesar Rp4.273.L96.368.879,O0 (empat triliun dua ratus tujuh puluh tiga miliar seratus sembilan puluh enam juta tiga ratus enam puluh delapan ribu delapan ratus tqiuh puluh sembilan rupiah).",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-122-tahun-2021/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal negara sebagaimana dimaksud pada ayat (1) berasal dari pengalihan Barang Milik Negara pada Kementerian Energi dan Sumber Daya Mineral yang pengadaannya bersumber dari Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2OO9, 2OLO, 20ll, 2012, 2OL3, dart 2OL4 dengan rincian sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

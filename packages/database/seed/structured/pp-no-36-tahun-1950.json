@@ -1,0 +1,43 @@
+{
+ "slug": "pp-no-36-tahun-1950",
+ "preamble": {
+  "menimbang": [
+   "bahwa perlu diadakan aturan-aturan untuk menyelenggarakan Undang-Undang No.7 tahun 1950;"
+  ],
+  "mengingat": [
+   "pasal 5 ayat (2) Undang-Undang Dasar dan pasal 95 Undang- Undang~o. 7 tahun 1950;"
+  ]
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-36-tahun-1950",
+   "detailsId": "77275",
+   "judul": "PP No. 36 Tahun 1950 tentang Pemilihan Anggauta Dewan Perwakilan Rakyat Daerah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/68279/PP%20No%2036%20th%201950.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:57.518184+00:00"
+  },
+  "sha256": "700ace4c7d584d362995115b9a61cfd71eacd6b0b7989d4224227e54bad86449",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

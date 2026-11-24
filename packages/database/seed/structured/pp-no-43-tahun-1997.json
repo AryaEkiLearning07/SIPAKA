@@ -1,0 +1,70 @@
+{
+ "slug": "pp-no-43-tahun-1997",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka peningkatan daya saing produk ekspor, dipandang perlu mengubah Peraturan Pemerintah Nomor 33 Tahun 1996 tentang Tempat Penimbunan Berikat;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-43-tahun-1997",
+   "detailsId": "56379",
+   "judul": "PP No. 43 Tahun 1997 tentang Perubahan Atas Peraturan Pemerintah Nomor 33 Tahun 1996 Tentang Tempat Penimbunan Berikat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/45880/PP%20No.%2043%20Th%201997.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:43:07.827340+00:00"
+  },
+  "sha256": "0c9a3bdc3e3b081902a851df44a317f937deedbec882d3bc3a0d045f10d813fa",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-43-tahun-1997/pasal-7",
+   "type": "PASAL",
+   "orderIndex": 7,
+   "label": "Pasal 7",
+   "content": "(1)Penetapan suatu kawasan atau tempat sebagai Kawasan Berikat (KB) serta pemberian izin Penyelenggara Kawasan Berikat (PKB) dilakukan dengan Keputusan Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-43-tahun-1997/pasal-7/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Menambah Pasal baru menjadi Pasal 7a, yang berbunyi sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-43-tahun-1997/pasal-7a",
+   "type": "PASAL",
+   "orderIndex": 7.1,
+   "label": "Pasal 7a",
+   "content": "Di dalam Kawasan Berikat dapat dilakukan kegiatan usaha pergudangan atau penimbunan barang. Pasal II… - - Pasal II Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 1 Nopember 1997 ttd. SOEHARTO Diundangkan di Jakarta pada tanggal 1 Nopember 1997 MENTERI NEGARA SEKRETARIS NEGARA ttd. MOERDIONO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 90.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..7): [1, 2, 3, 4, 5, 6]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

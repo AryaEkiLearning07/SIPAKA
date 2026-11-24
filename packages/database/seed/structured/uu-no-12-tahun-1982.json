@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-12-tahun-1982",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-12-tahun-1982",
+   "detailsId": "47008",
+   "judul": "UU No. 12 Tahun 1982 tentang Perhitungan Anggaran Negara Tahun 1978/1979 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35833/UU%20Nomor%2012%20Tahun%201982.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:50:04.147457+00:00"
+  },
+  "sha256": "7c9f5ca65a134680276e272b94418e5bad1c6a1397e1b45de146a8d31ae5d5e7",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-12-tahun-1982/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "(1) (2) (3) Penerimaan Negara dalam Tahun Anggaran 1978/1979 adalah sebesar Rp 4.6814.903.272.224,93 (empat trilyun enam ratus delapan puluh empat milyar sembilan ratus tiga juta dua ratus tujuh puluh dua ribu dua, ratus dua puluh empat sembilan puluh tiga perseratus rupiah). Pengeluaran Negara dalam Tahun Anggaran 1978/1979 adalah sebesar Rp 4.618.492,903.455,20 (empat trilyun enam ratus delapan belas milyar empat ratus sembilan puluh dua juta sembilan ratus tiga ribu empat ratus lima puluh lima dua puluh perseratus rupiah). Sisa lebih Perhitungan Anggaran Negara Tahun 1978/1979 adalah sebesar Rp 66.410.368.769,73 (enam puluh enam milyar empat ratus sepuluh juta tiga ratus enam puluh delapan ribu tujuh ratus enam puluh sembilan tujuh puluh tiga perseratus rupiah). Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-12-tahun-1982/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang mengetahuinya, memerintahkan pengundangan Undang- undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 29 Juni 1982 PRESIDEN REPUBLIK INDONESIA, ttd SOEHARTO Diundangkan di Jakarta pada tanggal 29 Juni 1982 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1982 NOMOR 34",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

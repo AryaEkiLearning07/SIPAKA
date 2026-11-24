@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-76-tahun-1948",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-76-tahun-1948",
+   "detailsId": "63987",
+   "judul": "PP No. 76 Tahun 1948 tentang Surat Tanda Penerimaan Uang, Perubahan Dalam Peraturan Pemerintah Tahun 1948 Nomor 19, Dari Hal, Surat Tanda Penerimaan Uang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54203/PP%20No%2076%20Tahun%201948kumham.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:07:22.009409+00:00"
+  },
+  "sha256": "a7c502213ca802f8135b599f2e8e2f025186a0a0385990a7326f87b464266ec1",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

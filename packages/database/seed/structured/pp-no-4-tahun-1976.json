@@ -1,0 +1,162 @@
+{
+ "slug": "pp-no-4-tahun-1976",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Pemerintah Nomor 41 Tahun 1952, tentang Kedudukan Pegawai Negeri Selama Menjalankan Sesuatu Kewajiban Negara di Luar lingkungan Jabatan yang Dipangkunya (Lembaran Negara Tahun 1952 Nomor 63, Tambahan Lembaran Negara Nomor 281), sebagaimana telah beberapa kali ditambah dan diubah terakhir dengan Peraturan Pemerintah Nomor 18 Tahun 1960 (Lembaran Negara Tahun 1960 Nomor 47, Tambahan Lembaran Negara Nomor 1973), dianggap tidak sesuai lagi dengan perkembangan keadaan dewasa ini, sehingga oleh sebab itu perlu diganti;",
+   "bahwa berhubung dengan itu dipandang perlu menetapkan Peraturan Pemerintah yang mengatur tentang Pegawai Negeri yang diangkat menjadi Pejabat Negara;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-4-tahun-1976",
+   "detailsId": "67419",
+   "judul": "PP No. 4 Tahun 1976 tentang Pegawai Negeri Yang Menjadi Pejabat Negara - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/57758/PP%20NO%204%20TH%201976.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pp-no-18-tahun-1960",
+    "pp-no-37-tahun-1956",
+    "pp-no-41-tahun-1952"
+   ],
+   "scrapedAt": "2026-10-06T06:05:17.130588+00:00"
+  },
+  "sha256": "494d4d0e82272507d1fb8069e06862461d60660c5533f669838a7329b891a80b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 7,
+  "ayat_angka": 1,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-4-tahun-1976/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PEGAWAI NEGERI SIPIL YANG DIANGKAT",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "(1) Pegawai Negeri Sipil yang diangkat menjadi Pejabat Negara dapat dinaikkan pangkatnya tanpa terikat pada formasi apabila telah memenuhi syarat-syarat untuk itu. (2) Pegawai Negeri Sipil yang diangkat menjadi Pejabat Negara berhak atas kenaikan gaji berkala menurut peraturan perundang-undangan yang berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "(1) Pegawai Negeri Sipil yang diangkat menjadi Pejabat Negara menerima penghasilan menurut ketentuan yang berlaku bagi Pejabat Negara itu.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-4-tahun-1976/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Apabila penghasilan yang dimaksud dalam ayat (1) lebih kecil dibandingkan dengan penghasilan sebagai Pegawai Negeri Sipil, maka Pegawai Negeri Sipil yang bersangkutan menerima selisih penghasilan itu dari instansi induknya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-4-tahun-1976/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ANGGOTA ANGKATAN BERSENJATA REPUBLIK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "Ketentuan tentang kenaikan pangkat, penghasilan, hak-hak kepegawaian, dan lain-lainnya, bagi anggota Angkatan Bersenjata Republik Indonesia yang diangat menjadi Pejabat Negara, diatur lebih lanjut oleh Menteri Pertahanan Keamanan/Panglima Angkatan Bersenjata, dengan memperhatikan ketentuan-ketentuan Peraturan Pemerintah ini. BAB III ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-4-tahun-1976/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "KETENTUAN LAIN-LAIN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Selama menjadi Pejabat Negara, masa kerja Pegawai Negeri diperhitungkan penuh.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "Pegawai Negeri yang berhenti sebagai Pejabat Negara kembali ke instansi induknya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-4-tahun-1976/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Dengan berlakunya Peraturan Pemerintah ini, dinyatakan tidak berlaku lagi : a. Peraturan Pemerintah Nomor 41 Tahun 1952 tentang Kedudukan Pegawai Negeri selama menjalankan sesuatu Kewajiban Negara di Luar Lingkungan Jabatan yang dipangkunya (Lembaran Negara Tahun 1952 Nomor 63, Tambahan Lembaran Negara Nomor 281); b. Peraturan Pemerintah Nomor 37 Tahun 1956, tentang Perubahan Peraturan Pemerintah Nomor 41 Tahun 1952 (Lembaran Negara Tahun 1956 Nomor 81, Tambahan Lembaran Negara Nomor 1145); C. Peraturan Pemerintah Nomor 18 Tahun 1960 tentang Perubahan Peraturan Pemerintah Nomor 41 Tahun 1952 (Lembaran Negara Tahun 1960 Nomor 47, Tambahan Lembaran Negara Nomor 1973).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-4-tahun-1976/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar ... Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 18 Pebruari 1976 PRESIDEN REPUBLIK INDONESIA, SOEHARTO JENDERAL TNI. Diundangkan di Jakarta pada tanggal 18 Pebruari 1976 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA, SUDHARMONO, SH.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

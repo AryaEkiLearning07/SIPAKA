@@ -1,0 +1,135 @@
+{
+ "slug": "perpres-no-5-tahun-2013",
+ "preamble": {
+  "menimbang": [
+   "bahwa hak keuangan Hakim Ad Hoc sebagai pejabat yang melaksanakan kekuasaan kehakiman perlu diatur secara khusus di dalam peraturan perundang-undangan;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Presiden tentang Hak Keuangan dan Fasilitas Hakim Ad Hoc;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 11 Januari 2013 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. AMIR SYAMSUDIN LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 13",
+ "source": {
+  "url": {
+   "slug": "perpres-no-5-tahun-2013",
+   "detailsId": "41375",
+   "judul": "PERPRES No. 5 Tahun 2013 tentang Hak Keuangan dan Fasilitas Hakim Ad Hoc - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67625/Perpres%2005%202013.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-20-tahun-2011",
+    "perpres-no-87-tahun-2010",
+    "perpres-no-86-tahun-2010",
+    "perpres-no-23-tahun-2008",
+    "perpres-no-96-tahun-2006",
+    "perpres-no-49-tahun-2005"
+   ],
+   "scrapedAt": "2026-10-06T06:14:38.476992+00:00"
+  },
+  "sha256": "ea1b8922266955ace10b017ef3a5fd0c1d7e1798c700b56564549a6b631ec3d4",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 3,
+  "ayat_angka": 4,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-5-tahun-2013/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-5-tahun-2013/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-5-tahun-2013/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Hakim Ad Hoc adalah hakim yang memiliki keahlian dan pengalaman di bidang tertentu untuk memeriksa, mengadili, dan memutus suatu perkara yang diangkat untuk jangka waktu tertentu dan pengangkatannya diatur dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-5-tahun-2013/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Pengadilan adalah pengadilan pertama, pengadilan tingkat banding, dan pengadilan tingkat kasasi di lingkungan peradilan khusus.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-5-tahun-2013/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "HAK KEUANGAN DAN FASILITAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-5-tahun-2013/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "Hakim Ad Hoc memiliki hak keuangan dan fasilitas sebagai berikut: a. tunjangan; b. rumah negara; c. fasilitas transportasi; d. jaminan kesehatan; e. jaminan keamanan dalam menjalankan tugasnya; f. biaya perjalanan dinas; dan g. uang penghargaan. Pasal 3 ...",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-5-tahun-2013/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-5-tahun-2013/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kepada Hakim Ad Hoc diberikan tunjangan setiap bulannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-5-tahun-2013/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besaran tunjangan Hakim Ad Hoc pada setiap Pengadilan tercantum dalam",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

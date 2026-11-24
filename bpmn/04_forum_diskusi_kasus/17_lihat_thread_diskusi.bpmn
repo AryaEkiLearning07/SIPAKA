@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="definitions" name="Lihat Thread Diskusi (Forum Diskusi Kasus)" targetNamespace="http://bpmn.io/schema/bpmn" exporter="tok" exporterVersion="1.0">
+  <bpmn:message id="Message_Permintaan_buka_thread" name="Permintaan buka thread" />
+  <bpmn:message id="Message_Akses_ditolak" name="Akses ditolak" />
+  <bpmn:message id="Message_Isi_thread" name="Isi thread" />
+  <bpmn:message id="Message_Lencana_verifikasi" name="Lencana verifikasi" />
+  <bpmn:message id="Message_Klik_istilah_Latin" name="Klik istilah Latin" />
+  <bpmn:message id="Message_Tutup_thread" name="Tutup thread" />
+  <bpmn:dataStore id="d_thread-store" name="Thread Diskusi" />
+  <bpmn:dataStore id="d_komen-store" name="Komentar" />
+  <bpmn:collaboration id="collaboration">
+    <bpmn:participant id="p" name="Lihat Thread Diskusi" processRef="lihat_thread_diskusi" />
+    <bpmn:participant id="user" name="Pengguna" />
+    <bpmn:messageFlow id="m-user-mulai" name="Permintaan buka thread" sourceRef="user" targetRef="mulai" messageRef="Message_Permintaan_buka_thread" />
+    <bpmn:messageFlow id="m-tolak-user" name="Akses ditolak" sourceRef="tolak" targetRef="user" messageRef="Message_Akses_ditolak" />
+    <bpmn:messageFlow id="m-isi-user" name="Isi thread" sourceRef="isi" targetRef="user" messageRef="Message_Isi_thread" />
+    <bpmn:messageFlow id="m-lencana-user" name="Lencana verifikasi" sourceRef="lencana" targetRef="user" messageRef="Message_Lencana_verifikasi" />
+    <bpmn:messageFlow id="m-user-istilah" name="Klik istilah Latin" sourceRef="user" targetRef="istilah" messageRef="Message_Klik_istilah_Latin" />
+    <bpmn:messageFlow id="m-user-tutup" name="Tutup thread" sourceRef="user" targetRef="tutup" messageRef="Message_Tutup_thread" />
+  </bpmn:collaboration>
+  <bpmn:process id="lihat_thread_diskusi" name="Lihat Thread Diskusi (Forum Diskusi Kasus)" isExecutable="false">
+    <bpmn:startEvent id="mulai" name="Permintaan buka thread diterima">
+      <bpmn:messageEventDefinition id="mulai-def" messageRef="Message_Permintaan_buka_thread" />
+    </bpmn:startEvent>
+    <bpmn:callActivity id="auth" name="Otorisasi Akses" calledElement="otorisasi_akses" />
+    <bpmn:exclusiveGateway id="izin" name="Akses diizinkan?" default="f-izin-tolak" />
+    <bpmn:endEvent id="tolak" name="Akses ditolak">
+      <bpmn:messageEventDefinition id="tolak-def" messageRef="Message_Akses_ditolak" />
+    </bpmn:endEvent>
+    <bpmn:sendTask id="isi" name="Tampilkan Isi Thread" messageRef="Message_Isi_thread">
+      <bpmn:ioSpecification id="isi-io">
+        <bpmn:dataInput id="isi-in-1" name="Thread Diskusi" />
+        <bpmn:inputSet id="isi-inputs">
+          <bpmn:dataInputRefs>isi-in-1</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="isi-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="isi-dia-1">
+        <bpmn:sourceRef>d_thread</bpmn:sourceRef>
+        <bpmn:targetRef>isi-in-1</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:sendTask>
+    <bpmn:parallelGateway id="pisah" />
+    <bpmn:serviceTask id="urut" name="Urutkan Komentar">
+      <bpmn:ioSpecification id="urut-io">
+        <bpmn:dataInput id="urut-in-2" name="Komentar" />
+        <bpmn:inputSet id="urut-inputs">
+          <bpmn:dataInputRefs>urut-in-2</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="urut-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="urut-dia-2">
+        <bpmn:sourceRef>d_komen</bpmn:sourceRef>
+        <bpmn:targetRef>urut-in-2</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:serviceTask>
+    <bpmn:sendTask id="lencana" name="Tampilkan Lencana Verifikasi" messageRef="Message_Lencana_verifikasi">
+      <bpmn:ioSpecification id="lencana-io">
+        <bpmn:dataInput id="lencana-in-3" name="Komentar" />
+        <bpmn:inputSet id="lencana-inputs">
+          <bpmn:dataInputRefs>lencana-in-3</bpmn:dataInputRefs>
+        </bpmn:inputSet>
+        <bpmn:outputSet id="lencana-outputs" />
+      </bpmn:ioSpecification>
+      <bpmn:dataInputAssociation id="lencana-dia-3">
+        <bpmn:sourceRef>d_komen</bpmn:sourceRef>
+        <bpmn:targetRef>lencana-in-3</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:sendTask>
+    <bpmn:callActivity id="latin" name="Deteksi Istilah Latin" calledElement="deteksi_istilah_latin" />
+    <bpmn:parallelGateway id="gabung" />
+    <bpmn:exclusiveGateway id="loop" />
+    <bpmn:eventBasedGateway id="tunggu" />
+    <bpmn:intermediateCatchEvent id="istilah" name="Pengguna mengklik istilah Latin">
+      <bpmn:messageEventDefinition id="istilah-def" messageRef="Message_Klik_istilah_Latin" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:intermediateCatchEvent id="tutup" name="Pengguna menutup thread">
+      <bpmn:messageEventDefinition id="tutup-def" messageRef="Message_Tutup_thread" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:callActivity id="popup" name="Tampilkan Popup Istilah" calledElement="tampilkan_popup_istilah" />
+    <bpmn:endEvent id="selesai" name="Selesai membaca thread" />
+    <bpmn:sequenceFlow id="f-mulai-auth" sourceRef="mulai" targetRef="auth" />
+    <bpmn:sequenceFlow id="f-auth-izin" sourceRef="auth" targetRef="izin" />
+    <bpmn:sequenceFlow id="f-izin-isi" name="ya" sourceRef="izin" targetRef="isi">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">aksesDiizinkan</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="f-izin-tolak" name="tidak" sourceRef="izin" targetRef="tolak" />
+    <bpmn:sequenceFlow id="f-isi-pisah" sourceRef="isi" targetRef="pisah" />
+    <bpmn:sequenceFlow id="f-pisah-urut" sourceRef="pisah" targetRef="urut" />
+    <bpmn:sequenceFlow id="f-urut-gabung" sourceRef="urut" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-pisah-lencana" sourceRef="pisah" targetRef="lencana" />
+    <bpmn:sequenceFlow id="f-lencana-gabung" sourceRef="lencana" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-pisah-latin" sourceRef="pisah" targetRef="latin" />
+    <bpmn:sequenceFlow id="f-latin-gabung" sourceRef="latin" targetRef="gabung" />
+    <bpmn:sequenceFlow id="f-gabung-loop" sourceRef="gabung" targetRef="loop" />
+    <bpmn:sequenceFlow id="f-loop-tunggu" sourceRef="loop" targetRef="tunggu" />
+    <bpmn:sequenceFlow id="f-tunggu-istilah" sourceRef="tunggu" targetRef="istilah" />
+    <bpmn:sequenceFlow id="f-tunggu-tutup" sourceRef="tunggu" targetRef="tutup" />
+    <bpmn:sequenceFlow id="f-istilah-popup" sourceRef="istilah" targetRef="popup" />
+    <bpmn:sequenceFlow id="f-popup-loop" sourceRef="popup" targetRef="loop" />
+    <bpmn:sequenceFlow id="f-tutup-selesai" sourceRef="tutup" targetRef="selesai" />
+    <bpmn:dataStoreReference id="d_thread" name="Thread Diskusi" dataStoreRef="d_thread-store" />
+    <bpmn:dataStoreReference id="d_komen" name="Komentar" dataStoreRef="d_komen-store" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="collaboration">
+      <bpmndi:BPMNShape id="p_di" bpmnElement="p" isHorizontal="true">
+        <dc:Bounds x="0" y="0" width="1320" height="500" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="user_di" bpmnElement="user" isHorizontal="true">
+        <dc:Bounds x="0" y="540" width="1320" height="70" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="mulai_di" bpmnElement="mulai">
+        <dc:Bounds x="60" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="91" width="62" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="auth_di" bpmnElement="auth">
+        <dc:Bounds x="146" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="izin_di" bpmnElement="izin" isMarkerVisible="true">
+        <dc:Bounds x="296" y="45" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="327" y="98" width="56" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tolak_di" bpmnElement="tolak">
+        <dc:Bounds x="428" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="367" y="169" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="isi_di" bpmnElement="isi">
+        <dc:Bounds x="396" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="pisah_di" bpmnElement="pisah">
+        <dc:Bounds x="546" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="urut_di" bpmnElement="urut">
+        <dc:Bounds x="646" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="lencana_di" bpmnElement="lencana">
+        <dc:Bounds x="646" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="latin_di" bpmnElement="latin">
+        <dc:Bounds x="646" y="290" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="gabung_di" bpmnElement="gabung">
+        <dc:Bounds x="796" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="loop_di" bpmnElement="loop" isMarkerVisible="true">
+        <dc:Bounds x="896" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tunggu_di" bpmnElement="tunggu">
+        <dc:Bounds x="996" y="45" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="istilah_di" bpmnElement="istilah">
+        <dc:Bounds x="1096" y="52" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1091" y="93" width="46" height="47" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="tutup_di" bpmnElement="tutup">
+        <dc:Bounds x="1096" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1063" y="221" width="46" height="35" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="popup_di" bpmnElement="popup">
+        <dc:Bounds x="1182" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="selesai_di" bpmnElement="selesai">
+        <dc:Bounds x="1214" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1190" y="223" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_thread_di" bpmnElement="d_thread">
+        <dc:Bounds x="421" y="305" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="339" y="325" width="80" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="d_komen_di" bpmnElement="d_komen">
+        <dc:Bounds x="671" y="420" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="673" y="475" width="46" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="m-user-mulai_di" bpmnElement="m-user-mulai">
+        <di:waypoint x="78" y="540" />
+        <di:waypoint x="78" y="88" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="83" y="302" width="84" height="23" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-tolak-user_di" bpmnElement="m-tolak-user">
+        <di:waypoint x="462" y="208" />
+        <di:waypoint x="478" y="208" />
+        <di:waypoint x="478" y="540" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="399" y="524" width="74" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-isi-user_di" bpmnElement="m-isi-user">
+        <di:waypoint x="496" y="78" />
+        <di:waypoint x="516" y="78" />
+        <di:waypoint x="516" y="540" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="522" y="524" width="56" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-lencana-user_di" bpmnElement="m-lencana-user">
+        <di:waypoint x="746" y="208" />
+        <di:waypoint x="772" y="208" />
+        <di:waypoint x="772" y="540" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="777" y="524" width="102" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-user-istilah_di" bpmnElement="m-user-istilah">
+        <di:waypoint x="1152" y="540" />
+        <di:waypoint x="1152" y="78" />
+        <di:waypoint x="1130" y="78" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1157" y="297" width="102" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="m-user-tutup_di" bpmnElement="m-user-tutup">
+        <di:waypoint x="1114" y="540" />
+        <di:waypoint x="1114" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1041" y="524" width="68" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="isi-dia-1_di" bpmnElement="isi-dia-1">
+        <di:waypoint x="446" y="305" />
+        <di:waypoint x="446" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="urut-dia-2_di" bpmnElement="urut-dia-2">
+        <di:waypoint x="696" y="420" />
+        <di:waypoint x="696" y="110" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="lencana-dia-3_di" bpmnElement="lencana-dia-3">
+        <di:waypoint x="696" y="420" />
+        <di:waypoint x="696" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-mulai-auth_di" bpmnElement="f-mulai-auth">
+        <di:waypoint x="96" y="70" />
+        <di:waypoint x="146" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-auth-izin_di" bpmnElement="f-auth-izin">
+        <di:waypoint x="246" y="70" />
+        <di:waypoint x="296" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-isi_di" bpmnElement="f-izin-isi">
+        <di:waypoint x="346" y="70" />
+        <di:waypoint x="396" y="70" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="354" y="55" width="12" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-izin-tolak_di" bpmnElement="f-izin-tolak">
+        <di:waypoint x="321" y="95" />
+        <di:waypoint x="321" y="200" />
+        <di:waypoint x="428" y="200" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="329" y="185" width="28" height="11" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-isi-pisah_di" bpmnElement="f-isi-pisah">
+        <di:waypoint x="496" y="70" />
+        <di:waypoint x="546" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-urut_di" bpmnElement="f-pisah-urut">
+        <di:waypoint x="596" y="70" />
+        <di:waypoint x="646" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-urut-gabung_di" bpmnElement="f-urut-gabung">
+        <di:waypoint x="746" y="70" />
+        <di:waypoint x="796" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-lencana_di" bpmnElement="f-pisah-lencana">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="200" />
+        <di:waypoint x="646" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-lencana-gabung_di" bpmnElement="f-lencana-gabung">
+        <di:waypoint x="746" y="200" />
+        <di:waypoint x="821" y="200" />
+        <di:waypoint x="821" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-pisah-latin_di" bpmnElement="f-pisah-latin">
+        <di:waypoint x="571" y="95" />
+        <di:waypoint x="571" y="330" />
+        <di:waypoint x="646" y="330" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-latin-gabung_di" bpmnElement="f-latin-gabung">
+        <di:waypoint x="746" y="330" />
+        <di:waypoint x="821" y="330" />
+        <di:waypoint x="821" y="95" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-gabung-loop_di" bpmnElement="f-gabung-loop">
+        <di:waypoint x="846" y="70" />
+        <di:waypoint x="896" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-loop-tunggu_di" bpmnElement="f-loop-tunggu">
+        <di:waypoint x="946" y="70" />
+        <di:waypoint x="996" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tunggu-istilah_di" bpmnElement="f-tunggu-istilah">
+        <di:waypoint x="1046" y="70" />
+        <di:waypoint x="1096" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tunggu-tutup_di" bpmnElement="f-tunggu-tutup">
+        <di:waypoint x="1021" y="95" />
+        <di:waypoint x="1021" y="200" />
+        <di:waypoint x="1096" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-istilah-popup_di" bpmnElement="f-istilah-popup">
+        <di:waypoint x="1132" y="70" />
+        <di:waypoint x="1182" y="70" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-popup-loop_di" bpmnElement="f-popup-loop">
+        <di:waypoint x="1232" y="30" />
+        <di:waypoint x="1232" y="25" />
+        <di:waypoint x="921" y="25" />
+        <di:waypoint x="921" y="45" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="f-tutup-selesai_di" bpmnElement="f-tutup-selesai">
+        <di:waypoint x="1132" y="200" />
+        <di:waypoint x="1214" y="200" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

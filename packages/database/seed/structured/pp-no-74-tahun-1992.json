@@ -1,0 +1,116 @@
+{
+ "slug": "pp-no-74-tahun-1992",
+ "preamble": {
+  "menimbang": [
+   "bahwa sebagai anggota Islamic Development Bank, Negara Republik Indonesia mempunyai kewajiban menyetor sejumlah dana sebagai penyertaan modal Negara pada Islamic Development Bank,",
+   "bahwa dalam usaha mempcrtahankan besarnya prosentase saham Negara Republik Indonesia dalam modal saham Islamic Development Bank, dipandang perlu menambah penyertaan modal Negara ke dalam modal saham Bank tersebut;",
+   "bahwa pemilikan modal saham Negara Republik Indonesia dalam modal saham Islamic Development Bank pada dasarnya merupakan salah satu bentuk pemisahan sebagian kekayaan Negara yang disertakan dalam modal saham Bank tersebut dan perlu ditetapkan dengan Peraturan Pemerintah;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-74-tahun-1992",
+   "detailsId": "57931",
+   "judul": "PP No. 74 Tahun 1992 tentang Penyertaan Modal Negara Republik Indonesia Ke Dalam Modal Saham Islamic Development Bank (IDB) - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/47400/PP%20NO%2074%20TH%201992.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:46:12.874758+00:00"
+  },
+  "sha256": "0b5bea4e13c6ea870e433e0427d3dc3929a86f96f90f093668f79a9cc6eca91b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 2,
+  "ayat_angka": 3,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-74-tahun-1992/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-74-tahun-1992/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Negara Republik Indonesia melakukan penyertaan modal ke dalam modal saham Islamic Development Bank (IDB) sebesar ID 81.448.000 dan seluruhnya merupakan kekayaan Negara yang dipisahkan, dengan perincian sebagai berikut:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-74-tahun-1992/pasal-1/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "penyertaan modal Negara pada Tahun 1975 sebesar ID 25.000.000.-;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1992/pasal-1/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "penambahan penyertaan modal Negara pada Tahun 1981-1985 sebesar ID 38.100.000,-;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-74-tahun-1992/pasal-1/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "penambahan 18.348.000.-. penyertaan modal negara sebesar ID",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pp-no-74-tahun-1992/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Penambahan penyertaan modal Negara sebagaimana dimaksud dalam ayat (1) huruf c dilakukan secara bertahap dimulai pada Tahun 1992.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1992/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Pelaksanaan penambahan penyertaan modal Negara sebagaimana dimaksud dalam Pasal 1 ayat (2) dilakukan oleh Menteri Keuangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-74-tahun-1992/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan. pengundangan Peraturan Pemerintah ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 9 Nopember 1992 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 9 Nopember 1992 MENTERI/SEKRETARIS NEGARA ttd MOERDIONO",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,36 @@
+tok 1.0 "Upvote Komentar (Forum Diskusi Kasus)"
+
+pool p "Upvote Komentar" process=upvote_komentar
+  store d_upvote "Upvote"
+  start mulai "Permintaan upvote diterima" message="Permintaan upvote"
+  call auth "Otorisasi Akses" process=otorisasi_akses
+  xor izin "Akses diizinkan?"
+  end tolak "Akses ditolak" message="Akses ditolak"
+  xor sendiri "Komentar milik pengguna sendiri?"
+  end tolaksendiri "Upvote ditolak" message="Upvote ditolak"
+  service alih "Alihkan Status Upvote"
+  xor baru "Upvote ditambahkan (bukan dicabut)?"
+  call poin "Beri Poin Reputasi" process=kelola_reputasi doc="Langkah 'Beri Poin Reputasi' pada proses Kelola Reputasi (untuk penulis komentar)"
+  end selesai "Status upvote diperbarui" message="Status upvote"
+  end selesai2 "Upvote dicabut" message="Status upvote dicabut"
+
+pool user "Pengguna"
+
+flow mulai -> auth -> izin
+flow izin -> sendiri "ya" when="aksesDiizinkan"
+flow izin -> tolak "tidak" default
+flow sendiri -> tolaksendiri "ya" when="komentarSendiri"
+flow sendiri -> alih "tidak" default
+flow alih -> baru
+flow baru -> poin "ya" when="upvoteBaru"
+flow baru -> selesai2 "tidak" default
+flow poin -> selesai
+
+reads alih d_upvote
+writes alih d_upvote
+
+message user -> mulai "Permintaan upvote"
+message tolak -> user "Akses ditolak"
+message tolaksendiri -> user "Upvote ditolak"
+message selesai -> user "Status upvote"
+message selesai2 -> user "Status upvote dicabut"

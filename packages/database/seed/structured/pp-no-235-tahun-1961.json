@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-235-tahun-1961",
+ "preamble": {
+  "menimbang": [
+   "b. 4. 5."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-235-tahun-1961",
+   "detailsId": "76758",
+   "judul": "PP No. 235 Tahun 1961 tentang Penentuan Perusahaan-Perusahaan Farmasi Milik Belanda Yang Dikenakan Nasionalisasi - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67741/pp%20no%20235%20tahun%201961.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:04:20.983536+00:00"
+  },
+  "sha256": "ecf7cf8931dcd41bb35ccb6e71052cd87cb428e608685e7c46f648c686b29256",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-235-tahun-1961/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "hingga tanggal 3 Desember 1957. Agar setiap orang dapat mengetahuinya memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 20 Nopember 1961. Presiden Republik Indonesia, SOEKARNO. Diundangkan di Jakarta pada tanggal 20 Nopember 1961. Sekretaris Negara, MOHD. ICHSAN",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

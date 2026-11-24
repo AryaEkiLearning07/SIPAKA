@@ -1,0 +1,69 @@
+{
+ "slug": "perpres-no-72-tahun-2008",
+ "preamble": {
+  "menimbang": [
+   "bahwa Anggaran Belanja Pemerintah Pusat Tahun 2009 sebagaimana dimaksud dalam Pasal 6 ayat (6) Undang-Undang Nomor 41 Tahun 2008 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2009 perlu dirinci menurut bagian anggaran/unit organisasi, fungsi/sub fungsi, program, kegiatan, lokasi dan jenis belanja yang diatur lebih lanjut dalam Peraturan Presiden;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a, perlu menetapkan Peraturan Presiden tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2009."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-72-tahun-2008",
+   "detailsId": "42236",
+   "judul": "PERPRES No. 72 Tahun 2008 tentang Rincian Anggaran Belanja Pemerintah Pusat Tahun Anggaran 2009 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70739/PERPRES%20NO%2072%20TH%202008.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:13.198338+00:00"
+  },
+  "sha256": "211d4a5070bec9874ca0aaf121e3fece9d1ff52856afe41af7760de5b04b165f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-72-tahun-2008/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-72-tahun-2008/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Anggaran Belanja Pemerintah Pusat sebagaimana dimaksud dalam Pasal 6 ayat (6) Undang-Undang Nomor 41 Tahun 2008 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2009, dirinci menurut bagian anggaran/unit organisasi, fungsi/sub fungsi, program, kegiatan, satuan kerja, lokasi dan jenis belanja.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-72-tahun-2008/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Rincian Anggaran Belanja Pemerintah Pusat sebagaimana dimaksud pada ayat (1) ditetapkan dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

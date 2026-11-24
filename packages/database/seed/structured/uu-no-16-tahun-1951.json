@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-16-tahun-1951",
+ "preamble": {
+  "menimbang": [
+   "bahwa Dewan Perwakilan Rakyat menyetujui isi Undang-undang Darurat itu dengan beberapa perubahan dan tambahan yang dimajukan oleh Pemerintah dan oleh Dewan Perwakilan Rakyat;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-16-tahun-1951",
+   "detailsId": "39893",
+   "judul": "UU No. 16 Tahun 1951 tentang Penetapan Undang-Undang Darurat Nr 22 Tahun 1950 tentang Penurunan Cukai Tembakau Sebagai Undang-Undang - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29484/UU%20Nomor%2016%20Tahun%201951.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T18:07:22.060241+00:00"
+  },
+  "sha256": "dd68917dac80af19731228164b6eeae80198188389d4a448372150f854c3336e",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

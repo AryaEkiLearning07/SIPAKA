@@ -1,0 +1,418 @@
+{
+ "slug": "permenaker-no-19-tahun-2021",
+ "preamble": {
+  "menimbang": [
+   "bahwa Peraturan Menteri Tenaga Kerja dan Transmigrasi PER.18/MEN/V/2006 tentang Tata Cara Pindah Pegawai Negeri Sipil Departemen Tenaga Kerja dan Transmigrasi atas Permintaan Sendiri sudah tidak sesuai dengan perkembangan dan kebutuhan organisasi sehingga perlu diganti;",
+   "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Menteri Ketenagakerjaan tentang Tata Cara Mutasi Pegawai Negeri Sipil di Kementerian Ketenagakerjaan; - 2 -"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-19-tahun-2021",
+   "detailsId": "195989",
+   "judul": "Permenaker No. 19 Tahun 2021 tentang Tata Cara Mutasi Pegawai Negeri Sipil di Kementerian Ketenagakerjaan - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/189828/Permenaker%20Nomor%2019%20Tahun%202021.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:01:25.177160+00:00"
+  },
+  "sha256": "89852283e6df30b5e961acdb760ed9356f47b3eee743fdf0c28431569ab4a58c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 5,
+  "pasal": 15,
+  "ayat_angka": 16,
+  "huruf": 4
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-19-tahun-2021/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "TENTANG TATA CARA MUTASI PEGAWAI NEGERI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Pegawai Negeri Sipil yang selanjutnya disingkat PNS adalah warga negara Indonesia yang memenuhi syarat tertentu, diangkat sebagai pegawai aparatur sipil negara secara tetap oleh pejabat pembina kepegawaian untuk menduduki jabatan pemerintahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Mutasi adalah perpindahan tugas dan/atau lokasi dalam 1 (satu) Instansi Pusat, antar-Instansi Pusat, 1 (satu) Instansi Daerah, antar-Instansi Daerah, antar- Instansi Pusat dan Instansi Daerah, dan ke perwakilan Negara Indonesia di luar negeri serta atas permintaan sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Pejabat Pembina Kepegawaian yang selanjutnya disingkat PPK adalah pejabat yang mempunyai kewenangan menetapkan pengangkatan, pemindahan, dan pemberhentian pegawai aparatur sipil negara dan pembinaan manajemen aparatur sipil negara di instansi pemerintah sesuai dengan ketentuan peraturan perundang-undangan. 4. Instansi Pusat adalah kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, dan kesekretariatan lembaga nonstruktural. 5. Instansi Daerah adalah perangkat daerah provinsi dan perangkat daerah kabupaten/kota yang meliputi sekretariat daerah, sekretariat dewan perwakilan rakyat daerah, dinas daerah, dan lembaga teknis daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Badan Kepegawaian Negara yang selanjutnya disingkat BKN adalah lembaga pemerintah nonkementerian yang diberi kewenangan melakukan pembinaan dan menyelenggarakan manajemen aparatur sipil negara secara nasional sebagaimana diatur dalam undang-undang.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Kementerian adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-19-tahun-2021/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "JENIS MUTASI PEGAWAI NEGERI SIPIL",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "a. Mutasi dari unit atau satuan kerja ke unit atau satuan kerja lain di dalam Kementerian; b. Mutasi dari Instansi Pusat atau Instansi Daerah lain ke dalam Kementerian; dan c. Mutasi dari Kementerian ke Instansi Pusat atau Instansi Daerah lain. Mutasi PNS sebagaimana dimaksud dalam Pasal 2",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "dilakukan atas dasar: a. kebutuhan organisasi; atau b. atas permintaan sendiri. Mutasi sebagaimana dimaksud dalam Pasal 3 harus",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "memperhatikan aspek: a. kompetensi; b. kebutuhan PNS dalam jabatan; c. pola karier; d. pemetaan pegawai; e. f. kelompok rencana suksesi; perpindahan dan pengembangan karier; g. penilaian prestasi kerja/kinerja dan perilaku kerja; h. kebutuhan organisasi; dan/atau i. sifat pekerjaan teknis atau kebijakan tergantung pada klasifikasi jabatan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-19-tahun-2021/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "SYARAT PENGAJUAN MUTASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "PNS yang mengajukan Mutasi atas dasar kebutuhan organisasi atau permintaan sendiri sebagaimana dimaksud dalam Pasal 3 harus memenuhi syarat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-19-tahun-2021/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "berstatus PNS; b. c. d. lulus seleksi administrasi; lulus seleksi kompetensi; telah menduduki jabatan paling singkat 2 (dua) tahun dan bertugas di unit kerja paling singkat 3 (tiga) tahun; e. tidak sedang dalam proses penjatuhan hukuman disiplin atau tidak pernah dijatuhi hukuman disiplin paling tinggi tingkat sedang dalam 2 (dua) tahun terakhir;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-19-tahun-2021/pasal-5/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "memiliki prestasi kinerja paling rendah bernilai baik dalam 2 (dua) tahun terakhir; dan g. sehat jasmani dan rohani.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Selain memenuhi syarat sebagaimana dimaksud pada ayat (1), Mutasi PNS harus mengikuti ketentuan yang diatur oleh Instansi Pusat atau Instansi Daerah tujuan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Pengajuan Mutasi PNS dari unit atau satuan kerja ke unit atau satuan kerja lain di dalam Kementerian sebagaimana dimaksud dalam Pasal 2 huruf a harus dilengkapi dengan dokumen: a. fotokopi surat keputusan kepangkatan terakhir dilegalisir cap basah; b. fotokopi surat keputusan jabatan terakhir dilegalisir cap basah; dan c. fotokopi penilaian prestasi kinerja 2 (dua) tahun terakhir dilegalisir cap basah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pengajuan Mutasi PNS dari Instansi Pusat atau Instansi Daerah lain ke dalam Kementerian atau dari Kementerian ke Instansi Pusat atau Instansi Daerah lain sebagaimana dimaksud dalam Pasal 2 huruf b dan huruf c harus dilengkapi dengan dokumen: a. fotokopi surat keputusan calon PNS dilegalisir cap basah; b. c. fotokopi surat keputusan PNS dilegalisir cap basah; fotokopi surat keputusan kepangkatan terakhir dilegalisir cap basah; d. fotokopi surat keputusan jabatan terakhir dilegalisir cap basah; e. f. fotokopi kartu pegawai yang dilegalisir cap basah; ijazah dan transkrip nilai yang dikeluarkan oleh pejabat yang berwenang dilegalisir cap basah; g. fotokopi penilaian prestasi kinerja 2 (dua) tahun terakhir dilegalisir cap basah; h. surat keterangan sehat jasmani dan rohani yang dikeluarkan oleh rumah sakit pemerintah; i. surat permohonan pindah terbaru PNS yang bersangkutan; j. daftar riwayat hidup sesuai dengan keputusan Kepala BKN; k. surat pernyataan/keterangan yang ditandatangani oleh PPK Instansi Pusat atau Instansi Daerah asal/unit kerja asal, yaitu: 1. surat pernyataan lolos butuh dari PPK Instansi Pusat atau Instansi Daerah asal; 2. surat keterangan tidak sedang dalam proses dan/atau menjalani hukuman disiplin; 3. surat keterangan tidak sedang menjalani tugas belajar/ikatan dinas; 4. surat pernyataan bebas temuan yang dikeluarkan oleh aparat pengawasan intern pemerintah Instansi Pusat atau Instansi Daerah asal; dan",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-7/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "analisis jabatan dan analisis beban kerja yang ditandatangani PPK Instansi Pusat atau Instansi Daerah asal, dan l. dokumen terkait yang berhubungan dengan alasan pengajuan Mutasi PNS.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-19-tahun-2021/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TATA CARA PENGAJUAN MUTASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "Mutasi PNS dari unit atau satuan kerja ke unit atau satuan kerja lain di dalam Kementerian sebagaimana dimaksud dalam Pasal 2 huruf a atas permintaan sendiri dilakukan dengan ketentuan sebagai berikut: a. PNS yang akan mengajukan Mutasi harus mengunjungi laman e-Mutasi Kementerian untuk mengecek ketersediaan formasi jabatan pada unit kerja yang dituju; b. jika formasi jabatan tersedia maka PNS tersebut dapat mengajukan Mutasi; c. PNS yang mengajukan Mutasi wajib memenuhi seluruh persyaratan kelengkapan administrasi berupa dokumen yang dibutuhkan; dan d. PNS yang telah memenuhi seluruh persyaratan Mutasi diberikan surat keputusan Mutasi PNS. Bagian Kedua Mutasi dari Instansi Pusat atau Instansi Daerah ke Dalam Kementerian",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Mutasi PNS dari Instansi Pusat atau Instansi Daerah lain ke dalam Kementerian sebagaimana dimaksud dalam Pasal 2 huruf b dilakukan dengan ketentuan sebagai berikut: a. PNS yang akan mengajukan Mutasi harus mengunjungi laman e-Mutasi Kementerian untuk mengecek ketersediaan formasi jabatan di Kementerian; b. jika formasi jabatan tersedia maka PNS tersebut dapat mengajukan permohonan Mutasi; c. PNS yang mengajukan Mutasi wajib mengikuti seleksi Mutasi PNS; d. proses seleksi dilaksanakan 2 (dua) kali dalam 1 (satu) tahun; e. pengumuman PNS yang lolos seleksi akan diberitahukan melalui Instansi Pusat atau Instansi Daerah asal; dan f. penetapan surat keputusan Mutasi PNS oleh Kepala BKN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Seleksi Mutasi PNS sebagaimana dimaksud dalam Pasal 9 huruf c dilaksanakan oleh PPK. terdiri atas seleksi administrasi dan seleksi kompetensi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Seleksi Mutasi PNS sebagaimana dimaksud pada ayat dilakukan dengan meneliti dan memeriksa kelengkapan administrasi dan keabsahan persyaratan serta kualifikasi PNS pemohon Mutasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Seleksi administrasi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "PNS pemohon Mutasi yang telah dinyatakan lulus seleksi administrasi selanjutnya dilakukan seleksi kompetensi. terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "uji kompetensi manajerial dan sosial kultural melalui metode computerized test; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "uji kompetensi teknis melalui metode wawancara.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Seleksi kompetensi sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Hasil seleksi Mutasi PNS sebagaimana dimaksud dalam Pasal 10 disampaikan kepada Instansi Pusat atau Instansi Daerah asal.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "PNS yang dinyatakan lulus seleksi direkomendasikan untuk diproses sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-19-tahun-2021/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Berkas administrasi permohonan pengajuan Mutasi PNS yang dinyatakan tidak lulus seleksi, menjadi arsip Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Jika proses seleksi Mutasi PNS sebagaimana dimaksud dalam Pasal 11 telah selesai, PNS akan diangkat di jabatan yang dituju dengan mekanisme sebagai berikut: a. PPK memproses usulan Mutasi PNS yang telah dinyatakan lulus seleksi kepada Kepala BKN untuk mendapatkan penetapan Mutasi; dan b. setelah mendapatkan penetapan Mutasi, PPK mengangkat PNS yang bersangkutan dalam jabatan sesuai dengan formasi yang tersedia. Bagian Ketiga Mutasi dari Kementerian ke Instansi Pusat atau Instansi Daerah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Mutasi PNS dari Kementerian ke Instansi Pusat atau Instansi Daerah lain sebagaimana dimaksud dalam Pasal 2 huruf c dilakukan dengan ketentuan sebagai berikut: a. PNS yang akan mengajukan Mutasi harus mengunjungi laman e-Mutasi Kementerian; b. PNS yang mengajukan Mutasi wajib memenuhi persyaratan kelengkapan administrasi berupa dokumen yang dibutuhkan; dan c. PPK Kementerian mengajukan Mutasi PNS ke Instansi Pusat atau Instansi Daerah tujuan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-19-tahun-2021/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Tenaga Kerja dan Transmigrasi PER.18/MEN/V/2006 tentang Tata Cara Pindah Pegawai Negeri Sipil Departemen Tenaga Kerja dan Transmigrasi atas Permintaan Sendiri, dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-19-tahun-2021/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 19 Oktober 2021 MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA, ttd. IDA FAUZIYAH Diundangkan di Jakarta pada tanggal 19 Oktober 2021 DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. BENNY RIYANTO BERITA NEGARA REPUBLIK INDONESIA TAHUN 2021 NOMOR 1173 SALINAN SESUAI DENGAN ASLINYA KEPALA BIRO HUKUM, RENI MURSIDAYANTI NIP 19720603 199903 2 001",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

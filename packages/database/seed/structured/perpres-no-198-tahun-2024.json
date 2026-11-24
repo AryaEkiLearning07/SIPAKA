@@ -1,0 +1,999 @@
+{
+ "slug": "perpres-no-198-tahun-2024",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-198-tahun-2024",
+   "detailsId": "306951",
+   "judul": "Perpres No. 198 Tahun 2024 tentang Kementerian Pariwisata - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/367272/Perpres%20Nomor%20198%20Tahun%202024.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "perpres-no-97-tahun-2019",
+    "perpres-no-96-tahun-2019"
+   ],
+   "scrapedAt": "2026-10-06T06:08:47.984890+00:00"
+  },
+  "sha256": "99126c45a5dcadbaf20363163692956e494b72feea8989ee07967b0af1b5453a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 8,
+  "pasal": 49,
+  "ayat_angka": 39,
+  "huruf": 6
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PERATURAN PRESIDEN TENTANG KEMENTERIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Kementerian Pariwisata yang selanjutnya disebut Kementerian adalah kementerian yang menyelenggarakan urusan pemerintahan di bidang pariwisata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang pariwisata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "KEDUDUKAN, TUGAS, DAN FUNGSI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian berada di bawah dan bertanggung jawab kepada Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kementerian dipimpin oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam memimpin Kementerian, Menteri dapat dibantu oleh wakil menteri sesuai dengan penunjukan Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Wakil menteri diangkat dan diberhentikan oleh Presiden.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Wakil menteri berada di bawah dan bertanggung jawab kepada Menteri. (a) Wakil menteri mempunyai tugas membantu Menteri dalam memimpin pelaksanaan tugas Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Ruang lingkup bidang tugas wakil menteri sebagaimana dimaksud pada ayat (41, meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "membantu Menteri dalam perLlmusan dan/atau pelaksanaan kebijakan Kementerian; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-3/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "membantu Menteri dalam mengoordinasikan pencapaian kebijakan strategis lintas unit organisasi jabatan pimpinan tinggi madya atau jabatan struktural eselon I di lingkungan Kementerian.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Menteri dan wakil menteri merupakan satu kesatuan unsur pemimpin dalam Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "SK No 222994 A REPUBL!K INDONESIA Kementerian mempunyai tugas menyelenggarakan urusan pemerintahan di bidang pariwisata untuk membantu Presiden dalam menyelenggarakan pemerintahan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 5, Kementerian menyelenggarakan fungsi: a. perumusan dan penetapan kebijakan di bidang sumber daya dan kelembagaan, pengembangan destinasi dan infrastruktur, industri dan investasi, pemasaran, serta pengembangan penyelenggara kegiatan (euentsl ; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang sumber daya dan kelembagaan, pengembangan destinasi dan infrastruktur, industri dan investasi, pemasaran, serta pengembangan penyelenggara kegiatan (euentsl; c. pen5rusunan rencana induk pembangunan kepariwisataan nasional; d. koordinasi pelaksanaan tugas, pembinaan, dan pemberian dukungan administrasi kepada seluruh unsur organisasi di lingkungan Kementerian; e. pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawab Kementerian; f. pengawasan atas pelaksanaan tugas di lingkungan Kementerian; dan g. pelaksanaan fungsi lain yang diberikan oleh Presiden.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Susunan organisasi Kementerian terdiri atas: a. Sekretariat Kementerian; b. Deputi Bidang Sumber Daya dan Kelembagaan; c. Deputi Bidang Pengembangan Destinasi Infrastruktur; d. Deputi Bidang Industri dan Investasi; e. Deputi Bidang Pemasaran; dan SK No 222995 A f.Deputi... REPUBLIK INDONESII\\ f. Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl; g. Staf Ahli Bidang Reformasi Birokrasi dan Regulasi; h. Staf Ahli Bidang Pembangunan Berkelanjutan dan Konservasi; i. Staf Ahli Bidang Transformasi Digital dan Inovasi Pariwisata; j. Staf Ahli Bidang Manajemen Krisis; dan k. Staf Ahli Bidang Sinergi Kawasan Pariwisata. Bagian Kedua Sekretariat Kementerian",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretariat Kementerian berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Sekretariat Kementerian dipimpin oleh Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "Sekretariat Kementerian mempunyai tugas menyelenggarakan koordinasi pelaksanaan tugas, pembinaan, dan pemberian dukungan administrasi kepada seluruh unsur organisasi di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 9, Sekretariat Kementerian menyelenggarakan fungsi: a. koordinasi kegiatan Kementerian; b. koordinasi dan pen)rusunan rencana, program, dan anggaran Kementerian; c. pembinaan dan pemberian dukungan administrasi yang meliputi ketatausahaan, sumber daya manusia, keuangan, kerumahtanggaan, kerja sama, hubungan masyarakat, arsip, dan dokumentasi Kementerian; d. pembinaan dan penataan organisasi dan tata laksana; e. koordinasi dan penJrusunan peraturan perundang- undangan serta pelaksanaan advokasi hukum; f. koordinasi dan penyelenggaraan pengelolaan barang milik/kekayaan negara dan pengelolaan pengadaan barang/jasa; g. pengelolaan data dan informasi; dan h. pelaksanaan fungsi lain yang diberikan oleh Menteri. SK No 222996 A Bagian Ketiga REPUBLIK INDONESIA Bagian Ketiga Deputi Bidang Sumber Daya dan Kelembagaan Pasal 1 1",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Sumber Daya dan Kelembagaan berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Sumber Daya dan Kelembagaan dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Deputi Bidang Sumber Daya dan Kelembagaan mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan sumber daya dan kelembagaan pariwisata.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 12, Deputi Bidang Sumber Daya dan Kelembagaan menyelenggarakan fungsi: a. perumusan kebijakan di bidang peningkatan kapasitas sumber daya dan kelembagaan pariwisata; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang peningkatan kapasitas sumber daya dan kelembagaan pariwisata; c. pen5rusunan norma, standar, prosedur, dan kriteria di bidang peningkatan kapasitas sumber daya dan kelembagaan pariwisata; d. pemberian bimbingan teknis dan supervisi di bidang peningkatan kapasitas sumber daya dan kelembagaan pariwisata; e. pelaksanaan pemantatlan, analisis, evaluasi, dan pelaporan di bidang peningkatan kapasitas sumber daya dan kelembagaan pariwisata; f. pelaksanaan administrasi Deputi; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Keempat Deputi Bidang Pengembangan Destinasi dan Infrastruktur",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Pengembangan Destinasi dan Infrastruktur berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Pengembangan Destinasi dan Infrastruktur dipimpin oleh Deputi. SK No 222997 A Pasal 15. . . REPUBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Deputi Bidang Pengembangan Destinasi dan Infrastruktur mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan destinasi dan infrastruktur pariwisata.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 15, Deputi Bidang Pengembangan Destinasi dan Infrastruktur menyelenggarakan fungsi : a. perllmusan kebijakan di bidang pengembangan destinasi dan infrastruktur pariwisata; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan destinasi dan infrastruktur pariwisata; c. penyusunan norma, standar, prosedur, dan kriteria di bidang pengembangan destinasi dan infrastruktur pariwisata; d. pemberian bimbingan teknis dan supervisi di bidang pengembangan destinasi dan infrastruktur pariwisata; e. pelaksanaan pemantauan, analisis, evaluasi, dan pelaporan di bidang pengembangan destinasi dan infrastruktur pariwisata; f. pelaksanaan administrasi Deputi; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Kelima Deputi Bidang Industri dan Investasi",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Industri dan Investasi berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Industri dan Investasi dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Deputi Bidang Industri dan Investasi mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan industri dan investasi pariwisata.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "SK No 222998 A REPUBLIK INDONESIA Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 18, Deputi Bidang Industri dan Investasi menyelenggarakan fungsi : a. perumusan kebijakan di bidang pengembangan industri dan investasi pariwisata; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan industri dan investasi pariwisata; c. pen5rusunan norma, standar, prosedur, dan kriteria di bidang pengembangan industri dan investasi pariwisata; d. pemberian bimbingan teknis dan supervisi di bidang pengembangan industri dan investasi pariwisata; e. pelaksanaan pemantalran, analisis, evaluasi, dan pelaporan di bidang pengembangan industri dan investasi pariwisata; f. pelaksanaan administrasi Deputi; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Keenam Deputi Bidang Pemasaran",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-20",
+     "type": "PASAL",
+     "orderIndex": 20,
+     "label": "Pasal 20",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-20/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Pemasaran berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-20/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Pemasaran dipimpin oleh Deputi. Pasal 2 1 Deputi Bidang Pemasaran mempunyai tugas menyelenggarakan perumusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pemasaran pariwisata.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-22",
+     "type": "PASAL",
+     "orderIndex": 22,
+     "label": "Pasal 22",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 21, Deputi Bidang Pemasaran menyelenggarakan fungsi: a. perulmusan kebijakan di bidang pemasaran pariwisata; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pemasaran pariwisata; c. pen5rusunan norma, standar, prosedur, dan kriteria di bidang pemasaran pariwisata; d. pemberian bimbingan teknis dan supervisi di bidang pemasaran pariwisata; e. pelaksanaan . SK No 222999 A REPUBLIK INDONESIA e. pelaksanaan pemantarlan, analisis, evaluasi, dan pelaporan pelaksanaan kebijakan di bidang pemasaran pariwisata; f. pelaksanaan administrasi Deputi; dan g. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Ketujuh Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-23",
+     "type": "PASAL",
+     "orderIndex": 23,
+     "label": "Pasal 23",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-23/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl berada di bawah dan bertanggung jawab kepada Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-23/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl dipimpin oleh Deputi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-24",
+     "type": "PASAL",
+     "orderIndex": 24,
+     "label": "Pasal 24",
+     "content": "Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl mempunyai tugas menyelenggarakan perllmusan kebijakan serta koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan penyelenggara kegiatan (euentsl pariwisata.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-25",
+     "type": "PASAL",
+     "orderIndex": 25,
+     "label": "Pasal 25",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 24, Deputi Bidang Pengembangan Penyelenggara Kegiatan (Euentsl menyelenggarakan fungsi: a. perumusan kebijakan di bidang pengembangan penyelen ggar a kegiatan (euentsl pariwisata; b. koordinasi dan sinkronisasi pelaksanaan kebijakan di bidang pengembangan penyelenggara kegiatan (euents) pariwisata; c. pelaksanaan pemantatran, analisis, evaluasi, dan pelaporan di bidang pengembangan penyelenggara kegiatan (euentsl pariwisata; d. pelaksanaan administrasi Deputi; dan e. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Kedelapan Staf Ahli",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-26",
+     "type": "PASAL",
+     "orderIndex": 26,
+     "label": "Pasal 26",
+     "content": "Staf ahli berada di bawah dan bertanggung jawab kepada Menteri dan dikoordinasikan oleh Sekretaris Kementerian. Pasal27... SK No 223000 A REPUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-27",
+     "type": "PASAL",
+     "orderIndex": 27,
+     "label": "Pasal 27",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-27/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Staf Ahli Bidang Reformasi Birokrasi dan Regulasi mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang reformasi birokrasi dan regulasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-27/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Staf Ahli Bidang Pembangunan Berkelanjutan dan Konservasi mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang pembangunan berkelanjutan dan konservasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-27/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Staf Ahli Bidang Transformasi Digital dan Inovasi Pariwisata mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang transformasi digital dan inovasi pariwisata. (a) Staf Ahli Bidang Manajemen Krisis mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang manajemen krisis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-27/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Staf Ahli Bidang Sinergi Kawasan Pariwisata mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada Menteri terkait dengan bidang sinergi kawasan pariwisata. Bagian Kesembilan Inspektorat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-28",
+     "type": "PASAL",
+     "orderIndex": 28,
+     "label": "Pasal 28",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-28/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Inspektorat berada di bawah dan bertanggung jawab kepada Menteri melalui Sekretaris Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-28/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Inspektorat dipimpin oleh Inspektur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-29",
+     "type": "PASAL",
+     "orderIndex": 29,
+     "label": "Pasal 29",
+     "content": "Inspektorat mempunyai tugas menyelenggarakan pengawasan intern di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-30",
+     "type": "PASAL",
+     "orderIndex": 30,
+     "label": "Pasal 30",
+     "content": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 29, Inspektorat menyelenggarakan fungsi: a. penyusunan kebijakan teknis pengawasan intern di lingkungan Kementerian; b. pelaksanaan pengawasan intern terhadap kinerja dan keuangan melalui audit, reviu, evaluasi, pemantauan, dan kegiatan pengawasan lainnya di lingkungan Kementerian; c. pelaksanaan pengawasan untuk tujuan tertentu atas penugasan Menteri; SK No 246794 A d. penyusunan . REPUBUK INDONESIA d. pen5rusunan laporan hasil pengawasan di lingkungan Kementerian; e. pelaksanaan administrasi Inspektorat; dan f. pelaksanaan fungsi lain yang diberikan oleh Menteri. Bagian Kesepuluh Jabatan Fungsional dan Jabatan Pelaksana",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-31",
+     "type": "PASAL",
+     "orderIndex": 31,
+     "label": "Pasal 31",
+     "content": "Jabatan fungsional dan jabatan pelaksana dapat ditetapkan di lingkungan Kementerian sesuai dengan kebutuhan, yang pelaksanaannya sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TATA KERJA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-32",
+     "type": "PASAL",
+     "orderIndex": 32,
+     "label": "Pasal 32",
+     "content": "Menteri dalam memimpin pelaksanaan tugas dan fungsinya menerapkan sistem akuntabilitas kinerja pemerintah, manajemen risiko pembangunan nasional, dan transformasi digital nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-33",
+     "type": "PASAL",
+     "orderIndex": 33,
+     "label": "Pasal 33",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-33/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam mendukung optimalisasi pelaksanaan tugas dan fungsi secara terpadu antarunit organisasi di lingkungan Kementerian didasarkan pada proses bisnis yang menggambarkan tata hubungan kerja yang efektif dan efisien dengan menerapkan prinsip koordinasi, integrasi, sinkronisasi, dan kolaborasi antarunit organisasi di lingkungan Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-33/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Proses bisnis antarunit organisasi di lingkungan Kementerian sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-34",
+     "type": "PASAL",
+     "orderIndex": 34,
+     "label": "Pasal 34",
+     "content": "Menteri menyampaikan laporan kepada Presiden mengenai hasil pelaksanaan urusan pemerintahan di bidang pariwisata secara berkala dan sewaktu-waktu sesuai kebutuhan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-35",
+     "type": "PASAL",
+     "orderIndex": 35,
+     "label": "Pasal 35",
+     "content": "SK No 246795 A REPUBLIK IHDONESIA Kementerian men)rusun analisis jabatan, peta jabatan, analisis beban kerja, dan uraian tugas terhadap seluruh jabatan di lingkungan Kementerian.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-36",
+     "type": "PASAL",
+     "orderIndex": 36,
+     "label": "Pasal 36",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-36/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap unsur di lingkungan Kementerian dalam melaksanakan tugas dan fungsi menerapkan prinsip koordinasi, integrasi, sinkronisasi, dan kolaborasi di lingkungan Kementerian, antarinstansi pemerintah, dan dengan lembaga lain yang terkait.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-36/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Prinsip koordinasi, integrasi, sinkronisasi, dan kolaborasi sebagaimana dimaksud pada ayat (1) didukung dengan melakukan interoperabilitas data dan informasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-37",
+     "type": "PASAL",
+     "orderIndex": 37,
+     "label": "Pasal 37",
+     "content": "Semua unsur di lingkungan Kementerian menerapkan sistem pengendalian intern pemerintah sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-38",
+     "type": "PASAL",
+     "orderIndex": 38,
+     "label": "Pasal 38",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-38/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap pimpinan unit organisasi bertanggung jawab memimpin dan mengoordinasikan bawahan dan memberikan pengarahan serta petunjuk bagi pelaksanaan tugas sesuai dengan uraian tugas yang telah ditetapkan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-38/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengarahan dan petunjuk sebagaimana dimaksud pada ayat (1) diikuti dan dipatuhi oleh bawahan secara bertanggung jawab serta dilaporkan secara berkala sesuai dengan ketentuan peraturan perundang- undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-39",
+     "type": "PASAL",
+     "orderIndex": 39,
+     "label": "Pasal 39",
+     "content": "Dalam melaksanakan tugas, setiap pimpinan unit organisasi melakukan pembinaan dan pengawasan terhadap unit organisasi di bawahnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "REPUBUK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-40",
+     "type": "PASAL",
+     "orderIndex": 40,
+     "label": "Pasal 40",
+     "content": "Pembinaan dan pengelolaan sumber daya manusia, keuangan, perlengkapan, kearsipan, dokumentasi, dan persandian diselenggarakan oleh Kementerian dengan menerapkan sistem pemerintahan berbasis elektronik dalam rangka mendukung transformasi digital. Pasal 4 1 Pendanaan dalam pelaksanaan tugas dan fungsi Kementerian bersumber dari Anggaran Pendapatan dan Belanja Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PENATAAN ORGANISASI",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-42",
+     "type": "PASAL",
+     "orderIndex": 42,
+     "label": "Pasal 42",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-42/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penataan organisasi Kementerian ditetapkan dengan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-42/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Peraturan Presiden atas usul menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara untuk jabatan pimpinan tinggi madya atau jabatan struktural eselon I; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-42/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Peraturan Menteri setelah mendapat persetujuan tertulis dari menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara, untuk jabatan pimpinan tinggi pratama atau jabatan struktural eselon II ke bawah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-42/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penataan organisasi sebagaimana dimaksud pada ayat (1) dilakukan dengan mengacu pada sistem akuntabilitas kinerja pemerintah sesuai dengan ketentuan peraturan perundang-undangan dan proses bisnis antarunit organisasi di lingkungan Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-43",
+     "type": "PASAL",
+     "orderIndex": 43,
+     "label": "Pasal 43",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-43/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Besaran organisasi Kementerian ditentukan berdasarkan karakteristik tugas dan fungsi serta beban kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-43/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Besaran organisasi sebagaimana dimaksud pada ayat (1) juga mempertimbangkan mandat konstitusi, visi dan misi Presiden, tantangan utama bangsa, keterkaitan dengan agenda prioritas nasional, asas desentralisasi, dan peran pemerintah. BABVII ... SK No 246797 A REFUBUK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "REFUBUK INDONESIA",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-44",
+     "type": "PASAL",
+     "orderIndex": 44,
+     "label": "Pasal 44",
+     "content": "Seluruh jabatan yang ada beserta pejabat yang memangku jabatan di Kementerian Pariwisata dan Ekonomi Kreatifl Badan Pariwisata dan Ekonomi Kreatif berdasarkan: a. Peraturan Presiden Nomor 96 Tahun 2OI9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembararl Negara Republik Indonesia Tahun 2Ol9 Nomor 2691; dan b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 27O), tetap melaksanakan tugas dan fungsinya sampai dengan dibentuknya jabatan baru dan diangkat pejabat baru berdasarkan Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-45",
+     "type": "PASAL",
+     "orderIndex": 45,
+     "label": "Pasal 45",
+     "content": "Pelaksanaan tugas dan fungsi di bidang ekonomi kreatif yang dilaksanakan oleh Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif berdasarkan: a. Peraturan Presiden Nomor 96 Tahun 2Ol9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembarar. Negara Republik Indonesia Tahun 2Ol9 Nomor 269); dan b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OI9 Nomor 2701, diintegrasikan menjadi tugas dan fungsi Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-46",
+     "type": "PASAL",
+     "orderIndex": 46,
+     "label": "Pasal 46",
+     "content": "Pelaksanaan tugas dan fungsi Kementerian dan Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif, tetap menggunakan sumber daya manusia, aset, anggaran, dan dokumen pada Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif berdasarkan: a. Peraturan Presiden Nomor 96 Tahun 2Ol9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 2691; dan b. Peraturan . SK No 246798 A REPUEUK INDONESIA -t4- b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 27O), berdasarkan tugas dan fungsi sesuai dengan ketentuan peraturan perundang-undangan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-47",
+     "type": "PASAL",
+     "orderIndex": 47,
+     "label": "Pasal 47",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-47/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Sekretaris Kementerian pada Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif yang diangkat dan dilantik berdasarkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-47/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Peraturan Presiden Nomor 96 Tahun 2019 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 2691; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-198-tahun-2024/pasal-47/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Peraturan Presiden Nomor 97 Tah:un 2019 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 2701, dialihkan, ditetapkan, dan/atau diangkat menjadi Sekretaris Kementerian berdasarkan Peraturan Presiden ini.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-47/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Dalam rangka kelancaran penyelenggaraan tugas dan fungsi di lingkungan Kementerian Ekonomi Kreatifl Badan Ekonomi Kreatif, Sekretaris Kementerian sebagaimana dimaksud pada ayat (1)juga melaksanakan tugas dan fungsi Sekretariat Kementerian pada Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif sampai dengan ditetapkan dan diangkatnya pejabat baru berdasarkan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-198-tahun-2024/pasal-47/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Ketentuan sebagaimana dimaksud pada ayat (21 juga berlaku bagi sumber daya manusia di lingkungan Sekretariat Kementerian.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-198-tahun-2024/bab-viii",
+   "type": "BAB",
+   "orderIndex": 8,
+   "label": "BAB VIII",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-48",
+     "type": "PASAL",
+     "orderIndex": 48,
+     "label": "Pasal 48",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, pelaksanaan tugas dan fungsi di bidang ekonomi kreatif berdasarkan: a. Peraturan Presiden Nomor 96 Tahun 2Ol9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 269\\; dan b. Peraturan . SK No 246799 A REPUBUK INDONESIA b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OIg Nomor 2701, dialihkan menjadi tugas dan fungsi Kementerian Ekonomi Kreatif/ Badan Ekonomi Kreatif.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-49",
+     "type": "PASAL",
+     "orderIndex": 49,
+     "label": "Pasal 49",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku: a. seluruh sumber daya manusia yang menduduki jabatan sesuai dengan nomenklatur jabatannya yang berkaitan dengan tugas dan fungsi di bidang ekonomi kreatif pada Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif berdasarkan: 1) Peraturan Presiden Nomor 96 Tahun 2olg tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 2691; dan 2) Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 2TO), dialihkan menjadi sumber daya manusia Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif; b. aset, anggaran, dan dokumen yang berkaitan dengan tugas dan fungsi di bidang ekonomi kreatif pada Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif berdasarkan: l)Peraturan Presiden Nomor 96 Tahun 2OIg tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OIg Nomor 269); dan 2) Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 27O), dialihkan menjadi aset, anggaran, dan dokumen Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif; dan c. pengalihan sumber daya manusia, aset, anggaran, dan dokumen sebagaimana dimaksud dalam huruf a dan huruf b dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. Pasal 50. . . SK No 242751 A REPUBUK INDONESIA",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-50",
+     "type": "PASAL",
+     "orderIndex": 50,
+     "label": "Pasal 50",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari: a. Peraturan Presiden Nomor 96 Tahun 2Ol9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2Ol9 Nomor 269); dan b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OI9 Nomor 2701, dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-51",
+     "type": "PASAL",
+     "orderIndex": 51,
+     "label": "Pasal 51",
+     "content": "Pada saat Peraturan Presiden ini mulai berlaku: a. Peraturan Presiden Nomor 96 Tahun 2Ol9 tentang Kementerian Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OI9 Nomor 2691 dan b. Peraturan Presiden Nomor 97 Tahun 2Ol9 tentang Badan Pariwisata dan Ekonomi Kreatif (Lembaran Negara Republik Indonesia Tahun 2OI9 Nomor 2701, dicabut dan dinyatakan tidak berlaku.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-198-tahun-2024/pasal-52",
+     "type": "PASAL",
+     "orderIndex": 52,
+     "label": "Pasal 52",
+     "content": "Peraturan Presiden diundangkan. ini mulai berlaku pada tanggal Agar SK No 246801 A REPUBLIK INDONESIA -t7- Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Presiden ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 8 November 2024 PRESIDEN REPUBLIK INDONESIA, ttd PRABOWO SUBIANTO Diundangkan di Jakarta pada tanggal 8 November 2024 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRASETYO HADI LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR 395 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Bidang Perundang-undangan Administrasi Hukum S na Djaman l( IilD SK No 242666 A",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..52): [11, 21, 41]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

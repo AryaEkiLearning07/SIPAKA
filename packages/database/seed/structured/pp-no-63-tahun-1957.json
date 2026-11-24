@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-63-tahun-1957",
+ "preamble": {
+  "menimbang": [
+   "Presiden Republik Indonesia, bahwa oleh karena sampai kini belum juga didapat kepastian untuk menghilangkan keganjilan di sebagian wilayah Republik Indonesia dimana uang asing beredar sebagai alat pembayaran yang sah, dianggap perlu untuk memperpanjang lagi waktu berlakunya Peraturan Pemerintah No. 44 tahun 1952, yang telah diperpanjang untuk keempat kali, terakhir sampai akhir Desember 1957 dengan Peraturan Pemerintah No. 16 tahun 1957;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-63-tahun-1957",
+   "detailsId": "76910",
+   "judul": "PP No. 63 Tahun 1957 tentang Memperpanjang Waktu Berlakunya Peraturan Pemerintah No.44 Tahun 1952 Mengenai Penunjukan Daerah Indonesia, dimana Uang Asing dapat diterima Sebagai Alat Pembayaran yang Sah dengan Menyampingkan Alat Pembayaran Indonesia yang Sah - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/67901/PP%20No.%2063%20Tahun%201957.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:05:04.249857+00:00"
+  },
+  "sha256": "a1e37d0bd5d277acd871f24e3d978f3560ff8a8b5916d96e5eb349d558bbbd29",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-63-tahun-1957/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatan dalam Lembaran Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 13 Desember 1957. PRESIDEN REPUBLIK INDONESIA, ttd. (SOEKARNO) MENTERI KEUANGAN, ttd. (SOETIKNO SLAMET) Diundangkan pada tanggal 20 Desember 1957. MENTERI KEHAKIMAN, ttd. (G.A. MAENGKOM)",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

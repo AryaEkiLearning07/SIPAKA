@@ -1,0 +1,1789 @@
+{
+ "slug": "pmk-no-173-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "b.",
+   "bahwa sehubungan dengan perkembangan transaksi, proses bisnis pengelolaan uang negara, dan evaluasi atas pelaksanaan sistem akuntansi dan pelaporan keuangan pusat, perlu mengganti Peraturan Menteri Keuangan Nomor 262/PMK.05/2014 tentang Sistem Akuntansi dan Pelaporan Keuangan Pusat sebagaimana telah diubah dengan Peraturan Menteri Keuangan Nomor 218/PMK.05/2016 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 262/PMK.05/2014 tentang Sistem Akuntansi dan Pelaporan Keuangan Pusat; bahwa berdasarkan Pasal 7 ayat (2) huruf o Undang Undang Nomor 1 Tahun 2004 tentang Perbendaharaan Negara, Menteri Keuangan selaku Bendahara Umum sistem Negara akuntansi dan pelaporan keuangan negara; bahwa sebagaimana dimaksud dalam huruf a dan huruf b, perlu tentang menetapkan Peraturan Menteri Keuangan Sistem Akuntansi dan Pelaporan Keuangan Pusat; untuk menetapkan pertimbangan berdasarkan berwenang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 29 Desember 2023 DIREKTUR JENDERAL PERATURAN PERUNDANG-UNDANGAN KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. ASEP N. MULYANA BERITA NEGARA REPUBLIK INDONESIA TAHUN 2023 NOMOR 1117 Salinan sesuai dengan aslinya, Kepala Biro Umum u.b. Plt. Kepala Bagian Administrasi Kementerian Ditandatangani secara elektronik DEWI SURIANI HASLAM www.jdih.kemenkeu.go.id - 16 - LAMPIRAN PERATURAN MENTER! KEUANGAN REPUBLIK INDONESIA NOMOR 17 3 TAHUN 2023 TENTANG SISTEM AKUNTANSI DAN PELAPORAN KEUANGAN PUSAT MODUL SISTEM AKUNTANSI DAN PELAPORAN KEUANGAN PUSAT www.jdih.kemenkeu.go.id - 17 - DAFTARISI Halaman Muka . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Daftar Isi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Pendahuluan ............................................................................ BAB I A. Latar Belakang . . . . . . . . . . . . . . . . . . . . . . . . . . . . ",
+ "source": {
+  "url": {
+   "slug": "pmk-no-173-tahun-2023",
+   "detailsId": "284848",
+   "judul": "PMK No. 173 Tahun 2023 tentang Sistem Akuntansi dan Pelaporan Keuangan Pusat - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/343921/2023pmkeuangan173.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [
+    "pmk-no-262pmk052014"
+   ],
+   "scrapedAt": "2026-10-06T13:51:42.290869+00:00"
+  },
+  "sha256": "e94f70044f115bfffab7580d4adbcfadeb47435e6ee135a7b12b398f8c12a0f3",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 45,
+  "ayat_angka": 73,
+  "huruf": 65
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-1",
+     "type": "ANGKA",
+     "orderIndex": 1,
+     "label": "Angka 1",
+     "content": "Bendahara Umum Negara yang selanjutnya disingkat BUN adalah pejabat yang diberi tugas menjalankan fungsi Bendahara Umum Negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Sistem Akuntansi dan Pelaporan Keuangan Pusat yang selanjutnya disingkat SiAP serangkaian prosedur manual maupun terkomputerisasi mulai dari pengumpulan data, pencatatan, pengikhtisaran sampai dengan pelaporan posisi keuangan, dan operasi keuangan pada Kementerian Keuangan selaku Kuasa BUN. adalah",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-3",
+     "type": "ANGKA",
+     "orderIndex": 3,
+     "label": "Angka 3",
+     "content": "Sistem Akuntansi dan Pelaporan Keuangan Bendahara Umum Negara yang selanjutnya disingkat SABUN adalah serangkaian prosedur manual maupun terkomputerisasi mulai dari pengumpulan data, pencatatan, pengikhtisaran sampai dengan pelaporan pos1s1 keuangan, dan operasi keuangan yang dilaksanakan oleh Menteri Keuangan selaku BUN dan pengguna anggaran bagian anggaran BUN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-4",
+     "type": "ANGKA",
+     "orderIndex": 4,
+     "label": "Angka 4",
+     "content": "Kuasa BUN adalah pejabat yang memperoleh kewenangan untuk dan atas nama BUN melaksanakan fungsi pengelolaan uang negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-5",
+     "type": "ANGKA",
+     "orderIndex": 5,
+     "label": "Angka 5",
+     "content": "Direktorat Jenderal Perbendaharaan yang selanjutnya disebut DJPb adalah unit eselon I pada Kementerian Keuangan yang mempunyai tugas merumuskan serta melaksanakan ke bij akan dan standardisasi teknis di bidang perbendaharaan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-6",
+     "type": "ANGKA",
+     "orderIndex": 6,
+     "label": "Angka 6",
+     "content": "Direktorat Akuntansi dan Pelaporan Keuangan yang selanjutnya disebut Dit. APK adalah unit eselon II pada kantor pusat DJPb yang bertugas untuk merumuskan serta melaksanakan kebijakan dan standardisasi teknis di bidang akuntansi dan pelaporan keuangan yang berada di bawah dan bertanggungjawab langsung kepada Direktur Jenderal Perbendaharaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-7",
+     "type": "ANGKA",
+     "orderIndex": 7,
+     "label": "Angka 7",
+     "content": "Direktorat Pengelolaan Kas Negara yang selanjutnya disebut Dit. PKN adalah unit eselon II pada kantor pusat DJPb yang bertugas untuk merumuskan serta melaksanakan ke bij akan dan standardisasi teknis di bidang pengelolaan kas negara yang berada di bawah dan bertanggungjawab langsung kepada Direktur Jenderal Perbendaharaan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-8",
+     "type": "ANGKA",
+     "orderIndex": 8,
+     "label": "Angka 8",
+     "content": "Kantor Wilayah DJPb yang selanjutnya disebut Kanwil DJPb adalah instansi vertikal DJPb yang bertugas untuk melaksanakan koordinasi, pembinaan, supervisi, teknis, asistensi, monitoring, evaluasi, analisis, kajian, penyusunan bidang laporan, dan perbendaharaan dan Jenderal bertanggungjawab Perbendaharaan. pertanggungjawaban berada dan di Direktur di bawah bimbingan dukungan kepada teknis,",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-9",
+     "type": "ANGKA",
+     "orderIndex": 9,
+     "label": "Angka 9",
+     "content": "Kantor Pelayanan Perbendaharaan Negara yang selanjutnya disingkat KPPN adalah instansi vertikal DJPb yang bertugas untuk melaksanakan kewenangan perbendaharaan dan BUN, penyaluran pembiayaan atas beban anggaran, serta penatausahaan penerimaan dan pengeluaran anggaran melalui dan dari kas negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-10",
+     "type": "ANGKA",
+     "orderIndex": 10,
+     "label": "Angka 10",
+     "content": "Rekening Kuasa BUN Daerah adalah rekening milik BUN pada bank/ pos mitra KPPN selaku Kuasa BUN di daerah.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-11",
+     "type": "ANGKA",
+     "orderIndex": 11,
+     "label": "Angka 11",
+     "content": "Rekening Kuasa BUN Pusat adalah rekening milik BUN pada bank mitra Dit. PKN selaku Kuasa BUN Pusat.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-12",
+     "type": "ANGKA",
+     "orderIndex": 12,
+     "label": "Angka 12",
+     "content": "Laporan Keuangan adalah bentuk pertanggungjawaban pelaksanaan anggaran pendapatan dan belanja negara yang disusun oleh pemerintah berdasarkan standar akuntansi pemerintahan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-13",
+     "type": "ANGKA",
+     "orderIndex": 13,
+     "label": "Angka 13",
+     "content": "Laporan Arus Kas yang selanjutnya disebut LAK adalah laporan yang menyajikan informasi arus masuk dan keluar yang diklasifikasikan operasi, investasi, pendanaan, dan transitoris. berdasarkan aktivitas tertentu periode selama kas",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-14",
+     "type": "ANGKA",
+     "orderIndex": 14,
+     "label": "Angka 14",
+     "content": "Laporan Perubahan Ekuitas yang selanjutnya disebut LPE adalah informasi kenaikan atau penurunan ekuitas tahun pelaporan dibandingkan dengan tahun sebelumnya. laporan yang menyajikan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-15",
+     "type": "ANGKA",
+     "orderIndex": 15,
+     "label": "Angka 15",
+     "content": "Neraca adalah laporan yang menyajikan informasi posisi keuangan pemerintah yaitu aset, utang, dan ekuitas pada tanggal tertentu.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-16",
+     "type": "ANGKA",
+     "orderIndex": 16,
+     "label": "Angka 16",
+     "content": "Catatan atas Laporan Keuangan yang selanjutnya disebut CaLK adalah laporan yang menyajikan informasi tentang penjelasan atau daftar terinci atau analisis atas nilai suatu pos yang disajikan dalam laporan realisasi anggaran, neraca, laporan arus kas, laporan operasional, laporan perubahan ekuitas, dan laporan perubahan saldo anggaran pengungkapan yang memadai. lebih untuk laporan yang menyajikan 1 7. Laporan Realisasi Anggaran yang selanjutnya disingkat LRA adalah informasi realisasi pendapatan, belanja, transfer, surplus/ defisit dan pembiayaan, dan sisa lebih/kurang pembiayaan anggaran diperbandingkan dengan anggarannya dalam satu periode. yang masing-masing",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-18",
+     "type": "ANGKA",
+     "orderIndex": 18,
+     "label": "Angka 18",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan BUN yang selanjutnya disingkat UABUN adalah unit akuntansi pada Kementerian Keuangan yang melakukan koordinasi dan pembinaan atas akuntansi dan pelaporan keuangan tingkat unit akuntansi dan pelaporan keuangan pembantu BUN dan sekaligus melakukan penggabungan Laporan Keuangan seluruh unit akuntansi dan pelaporan keuangan pembantu BUN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-19",
+     "type": "ANGKA",
+     "orderIndex": 19,
+     "label": "Angka 19",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan Kuasa BUN Tingkat KPPN yang selanjutnya disebut UAKBUN Daerah adalah unit akuntansi Kuasa BUN yang melakukan pelaporan keuangan tingkat KPPN. akuntansi dan kegiatan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-20",
+     "type": "ANGKA",
+     "orderIndex": 20,
+     "label": "Angka 20",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan Koordinator Kuasa BUN Tingkat Kantor Wilayah yang selanjutnya disebut UAKKBUN-Kanwil adalah unit akuntansi yang mengoordinasikan dan membina akuntansi dan pelaporan keuangan Kuasa BUN Daerah/KPPN dan menggabungkan laporan keuangan seluruh Kuasa BUN Daerah/KPPN.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-21",
+     "type": "ANGKA",
+     "orderIndex": 21,
+     "label": "Angka 21",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan Kuasa BUN Tingkat Pusat yang selanjutnya disingkat UAKBUN Pusat adalah unit akuntansi Kuasa BUN yang pelaporan kegiatan melakukan keuangan tingkat Kuasa BUN Pusat. akuntansi dan dan keuangan pelaporan",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-22",
+     "type": "ANGKA",
+     "orderIndex": 22,
+     "label": "Angka 22",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan Pembantu BUN yang selanjutnya disingkat UAP BUN adalah unit akuntansi pada unit eselon I Kementerian Keuangan yang melakukan koordinasi dan pembinaan atas akuntansi sekaligus melakukan penggabungan laporan keuangan tingkat unit akuntansi dan pelaporan keuangan di bawahnya.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-23",
+     "type": "ANGKA",
+     "orderIndex": 23,
+     "label": "Angka 23",
+     "content": "Unit Akuntansi dan Pelaporan Keuangan Pembantu BUN Akuntansi Pusat yang selanjutnya disebut UAP BUN AP adalah unit akuntansi pada unit eselon I Kementerian Keuangan yang menggabungkan Laporan Keuangan Kuasa BUN Pusat, koordinator Kuasa BUN kantor wilayah, dan Kuasa BUN Daerah (KPPN khusus penerimaan dan KPPN khusus pinjaman dan hi bah).",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-24",
+     "type": "ANGKA",
+     "orderIndex": 24,
+     "label": "Angka 24",
+     "content": "Rekonsiliasi adalah proses pencocokkan data transaksi keuangan beberapa di proses sistem/ subsistem yang berbeda berdasarkan dokumen sumber yang sama. dengan yang",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-25",
+     "type": "ANGKA",
+     "orderIndex": 25,
+     "label": "Angka 25",
+     "content": "Aparat Pengawas Intern Pemerintah yang selanjutnya Jenderal/ disingkat APIP Inspektorat Umum/ Inspektorat atau nama lain yang secara fungsional melaksanakan pengawasan intern Inspektorat adalah yang menteri/pimpinan lembaga. bertanggung jawab langsung kepada",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-26",
+     "type": "ANGKA",
+     "orderIndex": 26,
+     "label": "Angka 26",
+     "content": "Sistem Aplikasi Terintegrasi adalah sistem aplikasi yang mengintegrasikan seluruh proses yang terkait dengan pengelolaan dan pelaksanaan pendapatan dan belanja negara dimulai dari proses penganggaran, pelaksanaan, dan pelaporan pada BUN dan kementerian/lembaga.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-27",
+     "type": "ANGKA",
+     "orderIndex": 27,
+     "label": "Angka 27",
+     "content": "Surat Perintah Membayar yang selanjutnya disingkat SPM adalah dokumen yang diterbitkan oleh pejabat penanda tangan surat perintah membayar untuk mencairkan dana yang bersumber dari daftar isian pelaksanaan anggaran.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-28",
+     "type": "ANGKA",
+     "orderIndex": 28,
+     "label": "Angka 28",
+     "content": "Surat Perintah Pencairan Dana yang selanjutnya disingkat SP2D adalah surat perintah yang diterbitkan oleh KPPN selaku kuasa BUN untuk pelaksanaan pengeluaran atas beban anggaran pendapatan dan belanja negara berdasarkan SPM.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-1/angka-29",
+     "type": "ANGKA",
+     "orderIndex": 29,
+     "label": "Angka 29",
+     "content": "Pengendalian Intern atas Pelaporan Keuangan yang selanjutnya disingkat PIPK adalah pengendalian yang secara untuk memberikan keyakinan yang memadai bahwa Laporan Keuangan yang dihasilkan merupakan laporan yang andal dan disusun akuntansi pemerintahan. dirancang standar spesifik dengan sesua1",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "UNIT AKUNTANSI DAN PELAPORAN KEUANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "SiAP merupakan subsistem dari SABUN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk pelaksanaan SiAP sebagaimana dimaksud pada ayat (1), dibentuk unit akuntansi dan pelaporan keuangan yang terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "KPPN selaku UAKBUN-Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kanwil DJPb selaku UAKKBUN-Kanwil;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Dit. PKN selaku UAKBUN-Pusat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-2/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "DJPb selaku UAP BUN AP.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "KPPN sebagaimana dimaksud pada ayat (2) huruf a tidak termasuk KPPN Khusus Investasi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "UAP BUN AP sebagaimana dimaksud pada ayat (2) huruf d dilaksanakan oleh Dit. APK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penanggung jawab unit akuntansi dan pelaporan keuangan sebagaimana dimaksud pada ayat (2) diatur dengan ketentuan sebagai berikut:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Kepala KPPN, untuk UAKBUN-Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Kepala Kanwil DJPb, untuk UAKKBUN-Kanwil;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "Direktur Pengelolaan Kas Negara, untuk UAKBUN Pusat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-5/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "Direktur Jenderal Perbendaharaan, untuk UAP BUN AP.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "SiAP sebagaimana (1) dilaksanakan untuk penyusunan dan penyampaian Laporan Keuangan Kuasa BUN dengan menggunakan Sistem Aplikasi Terintegrasi. dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-7",
+       "type": "AYAT",
+       "orderIndex": 7,
+       "label": "Ayat (7)",
+       "content": "Laporan Keuangan Kuasa BUN sebagaimana dimaksud pada ayat (6) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-7/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-7/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "LAK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-7/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "LPE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-7/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "CaLK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-8",
+       "type": "AYAT",
+       "orderIndex": 8,
+       "label": "Ayat (8)",
+       "content": "Selain Laporan Keuangan Kuasa BUN sebagaimana dimaksud pada ayat (6), unit akuntansi dan pelaporan keuangan sebagaimana dimaksud pada ayat (2) dapat menghasilkan LRA sebagai laporan manajerial.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-2/ayat-9",
+       "type": "AYAT",
+       "orderIndex": 9,
+       "label": "Ayat (9)",
+       "content": "LRA sebagaimana dimaksud pada ayat (8) merupakan LRA satuan kerja mitra kerja masing-masing unit akuntansi dan pelaporan keuangan sebagaimana dimaksud pada ayat (2).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "AKUNTANSI DAN PELAPORAN KEUANGAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKBUN-Daerah memproses data transaksi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerimaan dan pengeluaran kas yang melalui Rekening Kuasa BUN Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penerimaan dan pengeluaran kas yang tidak melalui Rekening Kuasa BUN Daerah namun menurut ketentuan perundang-undangan yang berlaku harus mendapatkan penihilan/ pengesahan dari KPPN; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penerimaan dan pengeluaran kas yang tidak melalui rekening Kuasa BUN Daerah namun mempengaruhi Neraca UAKBUN-Daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (1) huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerimaan kas yang melalui rekening Kuasa BUN Daerah yang dapat berupa pendapatan negara, pengembalian penenmaan pembiayaan; belanja, dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengeluaran kas penyaluran dana SP2D untuk belanja, pengeluaran pembiayaan, dan pengeluaran non anggaran melalui Rekening Kuasa BUN Daerah; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penerimaan non anggaran dan pengeluaran non anggaran yang dapat berupa penerimaan kiriman uang atau pengeluaran kiriman uang atau pengeluaran kiriman uang untuk pemindahbukuan dana antar rekening kas negara dan penerimaan retur.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (1) hurufb terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerimaan dan potongan pada SPM dengan jumlah yang sama sehingga jumlah pembayarannya nihil;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pendapatan dan belanja pada satuan kerja badan layanan umum;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pendapatan dan belanja yang bersumber dari hibah pada bentuk uang langsung kemen terian / lembaga; dalam",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pendapatan/ penerimaan pembiayaan dan belanja yang bersumber dari hibah atau pinjaman dalam/ luar negeri yang oleh pihak pemberi pinjaman dan hibah dalam/luar negeri tidak disalurkan melalui rekening milik BUN namun langsung digunakan untuk mendanai pengeluaran satuan kerja; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penerimaan dan pengeluaran lainnya yang menurut ketentuan perundang-undangan harus mendapat pengesahan dari KPPN.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (1) huruf c terdiri atas: a. transaksi pengeluaran transitoris atas SP2D uang persediaan/ tambahan uang persediaan yang mempengaruhi Kas di Bendahara Pengeluaran UAKBUN-Daerah; c. penerimaan",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "transaksi penerimaan pengembalian dana uang persediaan /tambahan uang persediaan yang disetor melalui modul penerimaan negara yang mempengaruhi kas di bendahara pengeluaran UAKBUN-Daerah; dan/ atau transitoris/pengeluaran transaksi transitoris atas SP2D retur yang mempengaruhi utang pihak ketiga pada UAKBUN-Daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (4) huruf c terjadi pada UAKBUN merupakan transaksi yang Daerah yang tidak mengelola rekening retur.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (5) disajikan sebagai utang pihak ketiga UAKBUN-Daerah. J enis transaksi penerimaan dan pengeluaran kas sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendapatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "belanja; c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penerimaan pembiayaan; transfer ke daerah; pengeluaran pembiayaan dan (7)",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penerimaan transitoris dan pengeluaran transitoris;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pengembalian; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-3/ayat-6/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "selisih kurs.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Transaksi penerimaan dan pengeluaran sebagaimana dimaksud dalam Pasal 3 ayat ( 1) dicatat secara bruto sebesar nilai yang tercantum dalam dokumen sumber pada saat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kas diterima di Rekening Kuasa BUN Daerah;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "kas keluar dari Rekening Kuasa BUN Daerah; c. terbit dokumen pengesahan transaksi penerimaan dan pengeluaran oleh KPPN; terbit SP2D untuk SPM dengan potongan yang jumlah pembayarannya nihil; d.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-1/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "kas keluar dari rekening Kuasa BUN Pusat, untuk pengeluaran yang melalui Rekening Kuasa BUN Pusat namun mempengaruhi Neraca UAKBUN Daerah; atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-1/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "kas masuk ke Rekening Kuasa BUN Pusat atau Kuasa BUN Daerah lainnya, untuk penerimaan yang tidak melalui rekening Kuasa BUN Daerah bersangkutan namun mempengaruhi Neraca UAKBUN-Daerah.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengaruh terhadap aset, kewajiban, dan ekuitas yang timbul akibat transaksi penerimaan dan pengeluaran sebagaimana dimaksud pada ayat (1) disajikan di dalam Neraca UAKBUN-Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-4/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyajian dalam Neraca UAKBUN-Daerah sebagaimana dimaksud pada ayat (2) tidak termasuk pengaruh transaksi penerimaan dan pengeluaran yang melalui terhadap Neraca rekening Kuasa BUN Daerah UAKBUN-Pusat atau UAKBUN-Daerah lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKBUN-Daerah menyusun Laporan Keuangan tingkat UAKBUN-Daerah data berdasarkan transaksi sebagaimana dimaksud dalam Pasal 3 ayat (1) dan Pasal 4 ayat ( 1). pemrosesan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan Keuangan sebagaimana dimaksud pada ayat ( 1) disusun setelah dilakukan Rekonsiliasi dan analisis atau telaah Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal UAKBUN-Daerah belum dapat melakukan rekonsiliasi eksternal dengan UAKPA pada periode berjalan, UAKBUN-Daerah tetap dapat menyusun Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Laporan Keuangan tingkat UAKBUN-Daerah sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "LAK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "LPE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "CaLK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Rekonsiliasi sebagaimana dimaksud pada ayat (2) berpedoman pada Peraturan Menteri Keuangan mengenai sistem akuntansi dan pelaporan keuangan pemerintah pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-5/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Analisis atau telaah Laporan Keuangan sebagaimana dimaksud pada ayat (2) berpedoman pada ketentuan yang mengatur mengenai analisis atau telaah Laporan Keuangan di lingkup sistem akuntansi dan pelaporan keuangan pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKBUN-Daerah menyampaikan Laporan Keuangan sebagaimana dimaksud dalam Pasal 5 ayat (4) kepada UAKKBUN-Kanwil setiap bulan, semesteran, dan tahunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "UAKBUN-Daerah KPPN khusus penerimaan dan UAKBUN-Daerah KPPN khusus pinjaman dan hibah menyampaikan Laporan Keuangan sebagaimana dimaksud dalam Pasal 5 ayat (4) kepada UAP BUN AP setiap bulan, semesteran, dan tahunan. t",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penyampaian sebagaimana Laporan Keuangan dimaksud pada ayat (1) dan ayat (2) berpedoman pada Peraturan Menteri Keuangan mengenai tata cara penyusunan dan penyampaian Laporan Keuangan BUN. Bagian Kedua Unit Akuntansi dan Pelaporan Keuangan Koordinator Kuasa Bendahara Umum Negara Tingkat Kantor Wilayah",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKKBUN-Kanwil menyusun Laporan Keuangan tingkat hasil pemrosesan data gabungan dan Laporan Keuangan tingkat UAKBUN-Daerah di wilayah kerjanya. UAKKBUN-Kanwil berdasarkan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan Keuangan UAKKBUN-Kanwil sebagaimana dimaksud pada ayat (1) disusun setelah dilakukan Rekonsiliasi dan analisis atau telaah LaporanKeuangan. tingkat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dalam hal UAKBUN-Daerah belum dapat melakukan Rekonsiliasi eksternal dengan U AKPA pada periode berjalan, UAKKBUN-Kanwil sebagaimana dimaksud pada ayat ( 1) tetap dapat menyusun Laporan Keuangan. • UAKKBUN-Kanwil",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Laporan Keuangan tingkat sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "LAK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "LPE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "CaLK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Rekonsiliasi sebagaimana dimaksud pada ayat (2) berpedoman pada Peraturan Menteri Keuangan mengenai sistem akuntansi dan pelaporan keuangan pemerintah pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-7/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Analisis atau telaah Laporan Keuangan sebagaimana dimaksud pada ayat (2) berpedoman pada ketentuan yang mengatur mengenai analisis atau telaah Laporan Keuangan di lingkup sistem akuntansi dan pelaporan keuangan pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk penyusunan Laporan Keuangan konsolidasian tingkat UAP BUN AP, UAKKBUN-Kanwil menyampaikan Laporan Keuangan sebagaimana dimaksud dalam Pasal 7 ayat (4) kepada UAP BUN AP setiap triwulan, semesteran, dan tahunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian sebagaimana Laporan Keuangan dimaksud pada ayat ( 1) berpedoman pada Peraturan Menteri Keuangan mengenai tata cara penyusunan dan penyampaian Laporan Keuangan BUN. Bagian Ketiga Unit Akuntansi dan Pelaporan Keuangan Kuasa Bendahara Umum Negara Tingkat Pusat \\",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk penyusunan Laporan Keuangan, UAKBUN-Pusat memproses data transaksi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerimaan dan pengeluaran kas yang melalui rekening Kuasa BUN Pusat; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "penerimaan dan pengeluaran pada SPM atau dokumen yang dipersamakan, dengan potongan, yang pembayarannya melalui rekening Kuasa BUN Pusat.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Transaksi sebagaimana dimaksud pada ayat (1) huruf a terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penerimaan kas melalui Rekening Kuasa BUN Pusat;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pengeluaran kas penyaluran dana SP2D untuk pembiayaan, belanja, pengeluaran non anggaran melalui rekening Kuasa BUN Pusat; dan/ atau pengeluaran transfer,",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-2/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penerimaan non anggaran atau pengeluaran non anggaran.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Transaksi penerimaan non anggaran atau pengeluaran non anggaran sebagaimana dimaksud pada ayat (2) huruf c meliputi: a. transaksi untuk dropping;",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "transaksi untuk penihilan; c. d. e. transaksi untuk optimalisasi kas; transaksi untuk pemenuhan dana SAL; transaksi atas reimbursement pengeluaran kas di rekening kas umum negara; dan/atau transaksi replenishment atas pengisian kas di rekening kas umum negara. (penggantian) f.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Transaksi penerimaan dan pengeluaran sebagaimana transfer ke daerah; dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pendapatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "belanja; c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penerimaan dan pengeluaran pembiayaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "penerimaan dan pengeluaran transitoris;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "pengembalian; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-9/ayat-4/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "selisih kurs.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "( 1) Transaksi penerimaan dan pengeluaran kas pada UAKBUN-Pusat dicatat secara bruto sebesar nilai yang tercantum dalam dokumen sumber pada saat: a. kas diterima di rekening Kuasa BUN Pusat; atau b. kas keluar dari rekening Kuasa BUN Pusat.",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Transaksi pada penerimaan UAKBUN-Pusat sebagaimana dimaksud pada ayat (1) dikecualikan dicatat sebesar bruto dalam hal proses untuk menghasilkan pendapatan belum selesai, yang dapat berupa transaksi setoran pendapatan atas penerimaan negara bukan pajak minyak dan gas bumi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengecualian atas transaksi penerimaan negara bukan pajak minyak dan gas bumi sebagaimana dimaksud pada ayat (2) berpedoman pada Peraturan Menteri teknis akuntansi Keuangan mengenai petunjuk penerimaan bukan pajak dari kegiatan usaha hulu minyak dan gas bumi.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-10/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengaruh terhadap aset, kewajiban, dan ekuitas yang timbul akibat transaksi penerimaan dan pengeluaran sebagaimana dimaksud pada ayat (1) disajikan di dalam Neraca UAKBUN-Pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-10/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Penyajian dalam Neraca UAKBUN-Pusat sebagaimana dimaksud pada ayat (4) tidak termasuk pengaruh transaksi penerimaan dan pengeluaran yang melalui rekening Kuasa BUN Pusat terhadap Neraca UAKBUN Daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKBUN-Pusat menyusun Laporan Keuangan tingkat UAKBUN-Pusat data berdasarkan transaksi sebagaimana dimaksud dalam Pasal 9 dan Pasal 10.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan UAKBUN-Pusat se bagaimana dimaksud pada ayat ( 1) disusun setelah dilakukan Rekonsiliasi dan analisis atau telaah Laporan Keuangan. pemrosesan Keuangan tingkat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan Keuangan sebagaimana dimaksud pada ayat ( 1), terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "LAK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "LPE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "CaLK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rekonsiliasi sebagaimana dimaksud pada ayat (2) berpedoman pada Peraturan Menteri Keuangan mengenai sistem akuntansi. dan pelaporan keuangan pemerintah pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-11/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Analisis atau telaah Laporan Keuangan sebagaimana dimaksud pada ayat (2) berpedoman pada ketentuan yang mengatur mengenai analisis atau telaah Laporan Keuangan di lingkup sistem akuntansi dan pelaporan keuangan pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-12/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAKBUN-Pusat menyampaikan Laporan Keuangan sebagaimana dimaksud dalam Pasal 11 ayat (3) kepada UAP BUN AP setiap semesteran dan tahunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-12/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian sebagaimana Laporan Keuangan dimaksud pada ayat ( 1) berpedoman pada Peraturan Menteri Keuangan mengenai tata cara penyusunan dan penyampaian Laporan Keuangan BUN. Bagian Keempat Unit Akuntansi dan Pelaporan Keuangan Pembantu Bendahara Umum Negara Akuntansi Pusat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "UAP BUN AP menyusun Laporan Keuangan tingkat UAP BUN AP berdasarkan data gabungan dan informasi Laporan Keuangan dari UAKBUN-Daerah KPPN Khusus Penerimaan, UAKBUN-Daerah Khusus Pinjaman dan Hibah, UAKKBUN-Kanwil, dan UAKBUN-Pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Laporan Keuangan tingkat UAP BUN AP sebagaimana dimaksud pada ayat (1) disusun setelah dilakukan Rekonsiliasi dan analisis atau telaah Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Laporan Keuangan tingkat UAP BUN AP sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Neraca;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "LAK;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "LPE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "CaLK.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Rekonsiliasi sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai ketentuan dalam Peraturan Menteri Keuangan mengenai sistem akuntansi dan pelaporan keuangan pemerintah pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Analisis atau telaah Laporan Keuangan sebagaimana dimaksud pada ayat (2) berpedoman pada ketentuan yang mengatur mengenai analisis atau telaah Laporan Keuangan di lingkup sistem akuntansi dan pelaporan keuangan pusat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Dalam hal :",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-6/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "UAKBUN-Daerah belum dapat menyusun LPE sebagaimana dimaksud dalam Pasal 5 ayat (4) huruf c;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-6/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "UAKKBUN-Kanwil belum dapat menyusun LPE sebagaimana dimaksud dalam Pasal 7 ayat (4) huruf c; dan/atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "pmk-no-173-tahun-2023/pasal-13/ayat-6/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "UAKBUN-Pusat belum dapat menyusun LPE sebagaimana dimaksud dalam Pasal 11 ayat (3) huruf c; LPE disusun oleh UAP BUN AP.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-14/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk penyusunan Laporan Keuangan konsolidasian tingkat UABUN, UAP BUN AP menyampaikan Laporan Keuangan sebagaimana dimaksud dalam Pasal 13 ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-14/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "kepada UABUN setiap semesteran dan tahunan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-14/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penyampaian sebagaimana Laporan Keuangan dimaksud pada ayat ( 1) berpedoman pada Peraturan Menteri Keuangan mengenai tata cara penyusunan dan penyampaian Laporan Keuangan BUN.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "TRANSAKSI DALAM MATA UANG ASING",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-15/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kuasa BUN menyajikan transaksi dalam mata uang asing pada Laporan Keuangan dengan menggunakan mata uang rupiah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-15/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Aset dan kewajiban moneter dalam mata uang asing disajikan menggunakan kurs tengah Bank Indonesia pada tanggal pelaporan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-15/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kuasa BUN menyajikan dan mengungkapkan pengaruh selisih kurs di dalam Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-15/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pengaruh selisih kurs sebagaimana dimaksud pada ayat (3) berpedoman pada ketentuan yang mengatur mengenai perlakuan akuntansi atas selisih kurs pada rekening milik BUN. BABV PENGENDALIAN INTERN ATAS PELAPORAN KEUANGAN",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Untuk memberikan keyakinan memadai bahwa dengan keuangan pelaporan pengendalian setiap unit intern yang memadai, akuntansi dan pelaporan keuangan menerapkan PIPK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penerapan PIPK sebagaimana dimaksud pada ayat (1) dilaksanakan pada lingkup Sistem Akuntansi dan Pelaporan Keuangan Pusat. dilaksanakan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Untuk menjaga PIPK efektivitas sebagaimana dimaksud pada ayat (1), dilakukan penilaian PIPK yang dilaksanakan oleh tim penilai pada setiap unit akuntansi dan pelaporan keuangan. penerapan dituangkan dalam laporan hasil penilaian PIPK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Hasil penilaian PIPK sebagaimana dimaksud pada ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Untuk memberikan keyakinan terbatas kepada pimpinan mengenai efektivitas penerapan PIPK sebagaimana dimaksud pada ayat (1), APIP melakukan reviu penerapan PIPK berdasarkan laporan hasil penilaian PIPK.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-16/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Penerapan, penilaian, dan reviu PIPK dilaksanakan dengan berpedoman pada Peraturan Menteri Keuangan mengenai pedoman penerapan, penilaian, dan reviu pengendalian keuangan atas pemerintah pusat. pelaporan intern",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "PERNYATMN TANGGUNG JAWAB",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-17/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Setiap unit akuntansi dan pelaporan keuangan pada SiAP sebagaimana dimaksud dalam Pasal 2 ayat (2) membuat pernyataan tanggung jawab atas Laporan Keuangan yang disusunnya dan dilampirkan pada saat penyampaian Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-17/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pernyataan tanggung jawab sebagaimana dimaksud pada ayat (1) ditandatangani oleh penanggungjawab unit akuntansi dan pelaporan keuangan sebagaimana dimaksud dalam Pasal 2 ayat (4).",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-17/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pernyataan tanggung jawab sebagaimana dimaksud pada ayat ( 1) memuat pernyataan bahwa pengelolaan anggaran pendapatan dan belanja negara telah diselenggarakan berdasarkan sistem pengendalian internal yang memadai dan akuntansi keuangan telah diselenggarakan sesuai dengan standar akuntansi pemerintahan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pmk-no-173-tahun-2023/pasal-17/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Pernyataan tanggung jawab sebagaimana dimaksud pada ayat (1) dapat diberikan paragraf penjelasan atas suatu kejadian yang belum termuat dalam Laporan Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pmk-no-173-tahun-2023/bab-vii",
+   "type": "BAB",
+   "orderIndex": 7,
+   "label": "BAB VII",
+   "title": "MODUL SISTEM AKUNTANSI DAN PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pmk-no-173-tahun-2023/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "SiAP dilaksanakan sesuai dengan Modul Sistem Akuntansi dan Pelaporan Keuangan Pusat sebagaimana tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

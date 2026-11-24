@@ -1,0 +1,105 @@
+{
+ "slug": "perpres-no-84-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "Menimbang SK No 190263 A REPUELIK INDONESIA -2-"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 29 Desember 2023 MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd. PRATIKNO LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2023 NOMOR 173 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA INDONESIA Hukum, - dan Djaman SK No 190252 A",
+ "source": {
+  "url": {
+   "slug": "perpres-no-84-tahun-2023",
+   "detailsId": "274751",
+   "judul": "PERPRES No. 84 Tahun 2023 tentang Pemutakhiran Rencana Kerja Pemerintah Tahun 2024 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/333180/Perpres%20Nomor%2084%20Tahun%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:48.008089+00:00"
+  },
+  "sha256": "5531fa4d3998e2168b0319eb7f38364a09ec1d5879280785ab8ffb86dda14f69",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 2,
+  "ayat_angka": 3,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-84-tahun-2023/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Dokumen pemutakhiran Rencana Kerja Pemerintah Tahun 2024 merupakan bagian dari dokumen sebagaimana diatur dalam Peraturan Presiden Nomor 52 Tahun 2023 tentang Rencana Kerja Pemerintah Tahun 2024, yang telah dimutakhirkan berdasarkan Undang-Undang Nomor 19 Tahun 2023 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2024.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-84-tahun-2023/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-84-tahun-2023/pasal-2/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Pemutakhiran Rencana Kerja Pemerintah Tahun 2024 sebagaimana dimaksud dalam Pasal 1, memuat pemutakhiran:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-84-tahun-2023/pasal-2/ayat-1/huruf-a",
+       "type": "HURUF",
+       "orderIndex": 1,
+       "label": "Huruf a",
+       "content": "Narasi;",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-84-tahun-2023/pasal-2/ayat-1/huruf-b",
+       "type": "HURUF",
+       "orderIndex": 2,
+       "label": "Huruf b",
+       "content": "Matriks Pembangunan yang memuat Prioritas Nasional, Program Prioritas, Kegiatan Prioritas, dan Proyek Prioritas dengan penjabaran sasaran, indikator, target, dan alokasi pendanaannya serta instansi pelaksana; dan c.Matriks... SK No 190259A REPTJBLIK INDONESIA",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-84-tahun-2023/pasal-2/ayat-1/huruf-c",
+       "type": "HURUF",
+       "orderIndex": 3,
+       "label": "Huruf c",
+       "content": "Matriks Proyek Prioritas Strategis lMajor Projectyang memuat Proyek Prioritas Strategis lMajor hoject pada Prioritas Nasional beserta alokasi pendanaannya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-84-tahun-2023/pasal-2/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Ketentuan mengenai pemutakhiran Narasi Rencana Kerja Pemerintah Tahun 2024 sebagaimana dimaksud pada ayat (1) huruf a tercantum dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

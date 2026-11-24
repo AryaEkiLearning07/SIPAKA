@@ -1,0 +1,51 @@
+{
+ "slug": "perpres-no-99-tahun-2016",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-99-tahun-2016",
+   "detailsId": "41003",
+   "judul": "PERPRES No. 99 Tahun 2016 tentang Perubahan Atas Peraturan Presiden Nomor 27 Tahun 2010 Tentang Hak Keuangan Dan Fasilitas Bagi Ketua Harian Dan Anggota Dewan Energi Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/33148/Perpres%20Nomor%2099%20Tahun%202016.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:09:07.091991+00:00"
+  },
+  "sha256": "4a681415bc519d11f14912a9818936f012c1f42ed25ff71acc1ae61d82c0eb5b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-99-tahun-2016/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "(1) (2) Hak keuangan bagi Ketua Harian dan Anggota Dewan Energi Nasional sebagaimana dimaksud dalam Pasal 1 diberikan dalam bentuk honorarium setiap bulan. Besarnya honorarium sebagaimana dimaksud pada ayat (1) adalah sebagai berikut: a. Ketua Harian sebesar Rp10.600.000,00 (sepuluh juta enam ratus ribu rupiah); b. Anggota yang berasal dari Menteri maupun Pejabat Pemerintah lainnya sebesar Rp9.500.000,00 (sembilan juta lima ratus ribu rupiah); c. Anggota yang berasal dari unsur pemangku kepentingan sebesar Rp29.600.000,00 (dua puluh sembilan juta enam ratus ribu rupiah). Pasal II Peraturan Presiden ini mulai berlaku pada tanggal diundangkan. Agar . REFUBLIK INDONESIA orang mengetahuinya, memerintahkan Peraturan Presiden ini dengan dalam Lembaran Negara Republik Agar setiap pengundangan penempatannya Indonesia. Ditetapkan di Jakarta pada tanggal 30 November 2016 PRESIDEN REPUBLIK INDONESIA, ttd. JOKO WIDODO Diundangkan di Jakarta pada tanggal 30 November 2016 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 255 Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Asisten Politik, Hukum, dan Bidang Hukum dan undangan, :okib",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

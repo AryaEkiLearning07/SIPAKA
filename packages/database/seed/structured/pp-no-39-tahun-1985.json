@@ -1,0 +1,69 @@
+{
+ "slug": "pp-no-39-tahun-1985",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam pelaksanaan Anggaran Belanja Pembangunan Tahun Anggaran 1984/1985 pada akhir Maret 1985 ternyata terdapat proyek-proyek yang menunjukkan adanya sisa kredit anggaran yang telah ditetapkan berdasarkan Undang-undang Nomor 1 Tahun 1984 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985;",
+   "bahwa berdasarkan ketentuan Pasal 4 ayat (1) Undang-undang Nomor 1 Tahun 1984 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985 serta ketentuan Pasal 3 ayat (1) Undang-undang Nomor 7 Tahun 1985 tentang Tambahan dan Perubahan atas Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985, sisa kredit anggaran tersebut dapat dipindahkan kepada Tahun Anggaran 1985/1986;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "Diundangkan di Jakarta pada tanggal 30 Agustus 1985 MENTERI/SEKRETARIS NEGARA REPUBLIK INDONESIA ttd SUDHARMONO, S.H. PRESIDEN REPUBLIK INDONESIA PENJELASAN ATAS PERATURAN PEMERINTAH REPUBLIK INDONESIA NOMOR 39 TAHUN 1985 TENTANG PEMINDAHAN SISA ANGGARAN PEMBANGUNAN TAHUN ANGGARAN 1984/1985 KEPADA TAHUN ANGGARAN 1985/1986 UMUM Dalam rangka pelaksanaan tahun pertama PELITA IV yaitu Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1984/1985 khususnya yang berkaitan dengan Anggaran Pembangunan masih sebagaimana tahun-tahun terdahulu memerlukan pula penyesuaian, karena rencana pekerjaan yang ditetapkan dalam DIP (Daftar Isian Proyek) dari masing- masing proyek belum dapat terselesaikan seluruhnya pada akhir Tahun Anggaran 1984/1985. Guna menjamin kontinuitas pelaksanaan pembangunan, maka dalam ketentuan Pasal 4 ayat (1) Undang-undang Nomor 1 Tahun 1984 ditetapkan, bahwa sisa kredit anggaran proyek-proyek pada Anggaran Pembangunan Tahun Anggaran 1985/1986 yang terdapat pada akhir tahun anggaran itu dapat dipindahkan dan ditambahkan pada Anggaran Pembangunan Tahun Anggaran 1985/1986 atau tahun kedua PELITA IV, yang pengaturannya ditetapkan dengan suatu Peraturan Pemerintah. Dalam pa",
+ "source": {
+  "url": {
+   "slug": "pp-no-39-tahun-1985",
+   "detailsId": "64677",
+   "judul": "PP No. 39 Tahun 1985 tentang Pemindahan Sisa Anggaran Pembangunan Tahun Anggaran 1984/1985 Kepada Tahun Anggaran 1985/1986 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/54892/PP%20NO%2039%20TH%201985.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:48:15.939123+00:00"
+  },
+  "sha256": "ab19fd96874e57e468d3f99ab53487604550565d6426d2b7d658ee54a983644d",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-39-tahun-1985/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-39-tahun-1985/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Sisa kredit anggaran proyek pada Anggaran Pembangunan Tahun 1984/ 1985 sebesar Rp. 2.787.797.778.104,18 yang terdapat pada akhir Tahun Anggaran 1984/1985 dipindahkan kepada Tahun Anggaran 1985/1986.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "pp-no-39-tahun-1985/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Perincian sisa kredit anggaran tersebut dimuat dalam",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

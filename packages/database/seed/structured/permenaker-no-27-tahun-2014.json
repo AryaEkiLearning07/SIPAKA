@@ -1,0 +1,59 @@
+{
+ "slug": "permenaker-no-27-tahun-2014",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-27-tahun-2014",
+   "detailsId": "146433",
+   "judul": "Permenaker No. 27 Tahun 2014 tentang Perubahan atas Peraturan Menteri Tenaga Kerja dan Transmigrasi Nomor 19 Tahun 2012 tentang Syarat-Syarat Penyerahan Sebagian Pelaksanaan Pekerjaan Kepada Perusahaan Lain - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/138258/Kemnaker%20No.%2027%20Tahun%202014.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:00:25.070591+00:00"
+  },
+  "sha256": "eb22f5081b2969211be37c4060b0e30b83f726d39ab3af361fe56c3c2f28758a",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 1,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-27-tahun-2014/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "5a. Penanam modal asing adalah perseorangan warga negara asing, badan usaha asing, dan/atau pemerintah asing yang melakukan penanaman modal di wilayah Negara Republik Indonesia.",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-27-tahun-2014/pasal-1/angka-2",
+     "type": "ANGKA",
+     "orderIndex": 2,
+     "label": "Angka 2",
+     "content": "Di antara Pasal 25 dan Pasal 26 disisipkan 1 (satu) Pasal, yakni Pasal 25A sehingga berbunyi sebagai berikut: Pasal 25A Dalam hal perusahaan penyedia jasa pekerja/buruh merupakan penanam modal asing, maka izin operasional sebagaimana dimaksud dalam Pasal 25, diterbitkan oleh Badan Koordinasi Penanaman Modal. Pasal II Peraturan Menteri ini mulai berlaku pada tanggal diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 31 Desember 2014 MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA, ttd. M. HANIF DHAKIRI Diundangkan di Jakarta pada tanggal 31 Desember 2014 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY BERITA NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 2098",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "slug": "uu-no-2-tahun-1966",
+ "preamble": {
+  "menimbang": [
+   "Bahwa dalam rangka pelaksanaan Undang-undang tentang Pokok-pokok Kesehatan perlu ditetapkan Undang-undang tentang Hygiene,"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1966",
+   "detailsId": "49780",
+   "judul": "UU No. 2 Tahun 1966 tentang Hygiene - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/39058/UU%20Nomor%202%20Tahun%201966.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:43:45.271581+00:00"
+  },
+  "sha256": "d41c380ddba4ff5e9bb5fb1a803d0bc2e5f0d2d7a1cbdd5ba72fd17b394cfb1b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

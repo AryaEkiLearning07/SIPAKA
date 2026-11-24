@@ -1,0 +1,63 @@
+{
+ "slug": "pp-no-14-tahun-1967",
+ "preamble": {
+  "menimbang": [
+   "bahwa peraturan Gaji Militer yang dimuat dalam Peraturan Pemerintah Nomor 26 tahun 1957 (Lembaran-Negara tahun 1957 Nomor 68) sebagaimana telah ditambah dan diubah kemudian dengan Peraturan Pemerintah Nomor 210 tahun 1961 (Lembaran- Negara tahun 1961 Nomor 251) dan Peraturan Gaji Pegawai Polisi Negara R.I. yang dimuat dalam Peraturan Pemerintah Nomor 202 tahun 1961 (Lembaran-Negara tahun 1961 Nomor 241), ternyata tidak sesuai lagi dengan keadaan; bahwa berdasarkan Undang-undang Nomor 13 tahun 1961 tentang Ketentuan-ketentuan Pokok Kepolisian Negara, anggota-anggota Angkatan Kepolisian adalah Anggota Angkatan Bersenjata, maka kedua Peraturan Gaji tersebut diatas perlu dicabut, untuk diganti dengan satu Peraturan Gaji Baru yang berlaku bagi semua Anggota Angkatan Bersenjata;",
+   ""
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-14-tahun-1967",
+   "detailsId": "70794",
+   "judul": "PP No. 14 Tahun 1967 tentang Peraturan Gaji Anggota Angkatan Bersenjata Republik Indonesia - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/61257/pp%20no%20014%20tahun%201967.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:03:07.445359+00:00"
+  },
+  "sha256": "0afe6244ff19bd91b00313ac6672e56be4b762b26ca02c44d7c203dd87ee97c5",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-14-tahun-1967/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-14-tahun-1967/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "SOEHARTO",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

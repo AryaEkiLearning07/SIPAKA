@@ -1,0 +1,946 @@
+{
+ "slug": "perpres-no-82-tahun-2023",
+ "preamble": {
+  "menimbang": [
+   "Menimbang"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-82-tahun-2023",
+   "detailsId": "273981",
+   "judul": "PERPRES No. 82 Tahun 2023 tentang Percepatan Transformasi Digital dan Keterpaduan Layanan Digital Nasional - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/332325/Perpres%20Nomor%2082%20Tahun%202023.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:08:54.648041+00:00"
+  },
+  "sha256": "0b2d71b86c9ccc51dd1a79472904d5553dc6e84f9d2fd02006a0e4bc1245cbac",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 18,
+  "ayat_angka": 31,
+  "huruf": 42
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "REPUALIK INDONESIA -2",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Presiden ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Sistem Pemerintahan Berbasis Elektronik yang selanjutnya disingkat SPBE adalah penyelenggaraan pemerintahan yang memanfaatkan teknologi informasi dan komunikasi untuk memberikan layanan kepada pengguna SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Satu Data Indonesia adalah kebijakan tata kelola data pemerintah sebagaimana dimaksud dalam Peraturan Presiden mengenai Satu Data Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Layanan SPBE adalah keluaran yang dihasilkan oleh I (satu) atau beberapa fungsi aplikasi SPBE dan yang memiliki nilai manfaat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Pengguna SPBE adalah instansi pusat, pemerintah daerah, pegawai Aparatur Sipil Negara, perorangan, masyarakat, pelaku usaha, dan pihak lain yang memanfaatkan Layanan SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Aplikasi SPBE adalah satu atau sekumpulan program komputer dan prosedur yang dirancang untuk melakukan tugas atau fungsi Layanan SPBE.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Aplikasi SPBE Prioritas adalah Aplikasi SPBE yang berdampak luas dan merupakan perwujudan nyata dari Layanan SPBE yang berkualitas dan tepercaya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Infrastruktur SPBE adalah semua perangkat keras, perangkat lunak, dan fasilitas yang menjadi penunjang utama untuk menjalankan sistem, aplikasi, komunikasi data, pengolahan dan penyimpanan data, perangkat integrasi/penghubung, dan perangkat elektronik lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Tim Koordinasi SPBE Nasional adalah penyelenggara SPBE yang mempunyai tugas melakukan koordinasi dan penerapan kebijakan SPBE pada instansi pusat dan pemerintah daerah.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-9",
+       "type": "ANGKA",
+       "orderIndex": 9,
+       "label": "Angka 9",
+       "content": "Forum Satu Data Indonesia adalah wadah komunikasi dan koordinasi instansi pusat dan/ atau instansi daerah untuk penyelenggaraan Satu Data Indonesia.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-1/angka-10",
+       "type": "ANGKA",
+       "orderIndex": 10,
+       "label": "Angka 10",
+       "content": "Perusahaan . . . SK No 132282 A REPUBLIK INDONESIA Perusahaan Umum Percetakan Uang Republik Indonesia yang selanjutnya disebut Perum Peruri adalah badan usaha milik negara yang seluruh modalnya dimiliki negara berupa kekayaan negara yang dipisahkan dan tidak terbagi atas saham, yang menyelenggarakan usaha pencetakan uang, pembuatan dokumen sekuriti untuk negara dan dokumen sekuriti lainnya, jasa digital sekuriti, serta usaha lainnya yang dapat menunjang tercapainya maksud dan tujuan perusahaan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "APLIKASI SISTEM PEMERINTAHAN BERBASIS ELEKTRONIK PRIORITAS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka mencapai keterpaduan layanan digital nasional, Pemerintah melakukan percepatan transformasi digital melalui penyelenggaraan Aplikasi SPBE Prioritas dengan mengutamakan integrasi dan interoperabilitas. (21 Aplikasi SPBE Prioritas dapat berupa:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Aplikasi SPBE yang baru akan beroperasi atau akan dibangun; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Aplikasi SPBE yang telah beroperasi atau akan dikembangkan, yang memiliki minimal 200.000 (dua ratus ribu) Pengguna SPBE atau target Pengguna SPBE.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Aplikasi SPBE Prioritas diselenggarakan untuk mendukung:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "layanan pendidikan terintegrasi, dengan penanggung urusan jawab menteri yang pemerintahan di bidang pendidikan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "layanan kesehatan terintegrasi, dengan penElnggung urusan jawab menteri yang pemerintahan di bidang kesehatan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "layanan bantuan sosial terintegrasi, dengan penanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang sosial;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "layanan administrasi kependudukan yang terintegrasi dengan layanan identitas kependudukan digitat, dengan penanggung jawab menteri yang urusan pemerintahan dalam negeru",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "layanan . . . SK No 132283 A -4 f. layanan transaksi keuangan negara sebagai layanan pembayaran terpadu yang terintegrasi dengan seluruh penyedia layanan jasa keuangan, dengan penanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara; layanan administrasi pemerintahan di bidang aparatur negara yang terintegrasi dengan layanan dasar kepegawaian, dengan penanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "layanan portal pelayanan publik, layanan singLe sign on nasional, layanan identitas digital terpadu, dan Iayanan Infrastruktur SPBE terintegrasi termasuk pusat data nasional, jaringan intra pemerintah, sistem penghubung layanan pemerintah, dan komputasi awan, dengan penanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "layanan Satu Data Indonesia, dengan penanggung jawab menteri yang menyelenggarakan urusan pemerintahan di bidang perencanaan pembangunan nasional; dan layanan kepolisian yang terintegrasi meliputi penerbitan surat izin mengemudi dan izin keramaian, dengan penanggung jawab Kepala Kepolisian Negara Republik Indonesia. i.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Aplikasi SPBE Prioritas sebagaimana dimaksud pada ayat (2) huruf a telah diintegrasikan dan diluncurkan secara terpadu untuk pertama kalinya paling lambat pada triwulan III tahun 2024.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Aplikasi SPBE Prioritas sebagaimana dimaksud pada ayat (21 huruf b telah diintegrasikan dan diluncurkan secara terpadu sebagai versi lebih lanjut paling lambat pada triwulan lll tahun 2024.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-2/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Aplikasi SPBE Prioritas sebagaimana dimaksud pada ayat l4l dan ayat (5) tetap dikembangkan secara berkesinambungan setelah peluncuran. BABIII ... SK No 132284A REPUBLIK INDONESIA 5-",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "REPUBLIK INDONESIA 5-",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pemerintah sebagaimana dimaksud dalam Pasal 2 ayat (1) menugaskan Perum Peruri untuk penyelenggaraan Aplikasi SPBE Prioritas. (21 Dalam melaksanalan penugasan sebagaimana dimaksud pada ayat (1), Perum Peruri wajib melakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "identifrkasi permasalahan penyelenggaraan Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pendalaman kebutuhan Pengguna SPBE; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "perancangan solusi tepat guna.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Dengan memperhatikan peruulcangan solusi tepat guna sebagaimana dimaksud pada ayat (2) huruf c, penugas€rn sebagaimana dimaksud pada ayat (1) terdiri atas:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "perencanaan penyelenggaraan Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pembangunan dan/ atau pengembangan Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "pengintegrasian Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "pengoperasian Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "keamanan Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-f",
+         "type": "HURUF",
+         "orderIndex": 6,
+         "label": "Huruf f",
+         "content": "distribusi dan/atau diseminasi Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pemeliharaan Aplikasi SPBE Prioritas; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "pengelolaan Infrastruktur SPBE yang mendukung Aplikasi SPBE Prioritas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Kementerian/lembaga pen€mggung jawab Aplikasi SPBE Prioritas menentukan paling sedikit 1 (satu) cakupan penugasan sebagaimana dimaksud pada ayat (3), dengan memperhatikan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-4/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "kebutuhan kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-4/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "ketersediaanpendanaan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-4/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kapabilitas Perum Peruri; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-4/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "potensi ketercapaian target peluncuran Aplikasi SPBE Prioritas sebagaimana dimaksud dalam Pasal 2 ayat (4) dan ayat (5).",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Dalam . . . SK No 132285 A K INDONESIA Dalam hal kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas sed€rng dalam proses melakukan pembangunan Aplikasi SPBE Prioritas, selain penugasan sebagaimana dimaksud pada ayat (2), Perum Peruri melakukan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-5/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pelaksanaan kendali mutu penyelenggaraan Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-5/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pendampingan teknis penyelenggaraan Aplikasi SPBE Prioritas; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-5/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "fasilitasi pengintegrasian Aplikasi SPBE Prioritas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-3/ayat-6",
+       "type": "AYAT",
+       "orderIndex": 6,
+       "label": "Ayat (6)",
+       "content": "Cakupan penugasan sebagaimana dimaksud pada ayat (21, ayat (3), dan ayat (5) tidak mengambil alih peran kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas untuk mengendalikan data dan informasi, Aplikasi SPBE, Infrastruktur SPBE, dan keamanan SPBE untuk penyelenggaraan Aplikasi SPBE Prioritas.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-4/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam pelaksanaan penugasan penyelenggaraan Aplikasi SPBE Prioritas oleh Perum Peruri sebageimana dimaksud dalam Pasal 3 ayat (1), Tim Koordinasi SPBE Nasional melakukan koordinasi, penyelarasan, pengawalan, dan pengarahan untuk memastikan pencapaian tujuan dari penugasan Perum Peruri. (21 Dalam melaksanakan koordinasi, penyelarasan, pengawalan, dan pengarahan sebagaimana dimaksud pada ayat (1), Tim Koordinasi SPBE Nasional melibatkan:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-4/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "menteri/kepala lemb\"ga penanggung jawab Aplikasi SPBE Prioritas;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-4/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "menteri yang urusan pemerintahan di bidang badan usaha milik negara; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-4/ayat-1/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "kepala lembaga yang urusan pemerintahan di bidang pengawasan keuangan negara dan pembangunan nasional.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam rangka pelaksanaan penugasan sebasaimana dimaksud dalam Pasal 3 ayat (1), Perum Peruri dapat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "bekerja sama . . . SK No 132286 A REPUBLIK INDONESIA bekerja sama dengan badan usaha milik negara, anak perusahaan badan usaha milik negara, dan badan usaha lainnya sesuai dengan kaidah bisnis dan tata kelola perusahaan yang baik; dan b. jasa dan/atau sumber daya manusia sektor teknologi yang mumpuni dan sumber daya manusia sektor lainnya sebagai pendukung, sesuai dengan referensi harga yang ditetapkan oleh kementerian yang urusan pemerintahan di bidang komunikasi dan informatika. (21 Kerja sama sebagaimana dimaksud pada ayat (1) huruf a dilakukan dengan tqiuan meningkatkan kemanfaatan dan efisiensi penyelenggaraan Aplikasi SPBE Prioritas.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Referensi harga sebagaimana dimaksud pada ayat (1) huruf b ditetapkan dengan keputusan menteri yang urusan pemerintahan di bidang komunikasi dan informatika paling lambat 30 (tiga puluh) hari sejak Peraturan Presiden ini berlaku.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas dapat melakukan pengakhiran Aplikasi SPBE yang telah beroperasi sebelum Peraturan Presiden ini diundangkan. (21 Pengakhiran Aplikasi SPBE sebagaimana dimaksud pada ayat (1) bertujuan untuk meningkatkan efektivitas dan/ atau efisiensi penyelenggaraan SPBE. Pendanaan untuk penugasan Perum Peruri sebagaimana dimaksud dalam Pasal 3 ayat (1) bersumber dari:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "anggaran . . . SK No 132287A REPIIBLIK INDONESIA anggaran pendapatan dan belanja negara; dan/ atau",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sumber-sumber lain yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang- undangan. (21 Pendanaan sebagaimana dimaksud pada ayat (1) huruf a dialokasikan pada anggaran pendapatan dan belanja negara kementerian/lembaga penzrnggung jawab Aplikasi SPBE Prioritas yang diprioritaskan untuk digunakan secara khusus sebagai pembayaran pelaksanaan penugasan Perum Peruri.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengakhiran Aplikasi SPBE sebagaimana dimaksud pada ayat (1) dilaksanakan berdasarkan: Pendanaan sebagaimana dimaksud pada ayat (2) dapat dilakukan secara tahun jamak sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "rancangan solusi tepat guna sebagaimana dimaksud dalam Pasal 3 ayat(2) hurufc; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-6/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "rekomendasi dari lembaga yang menyelenggarakan urusan pemerintahan di bidang pengawasan keuangan negara dan pembangunan nasional. Pasa77",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Dalam hal terdapat potensi penerimaan negara yang perlu dalam penyelenggaraan Aplikasi SPBE Prioritas maka Perum Peruri dapat ditunjuk sebagai mitra instansi pengelola penerimaan negara bukan pajak. (21 Penunjukan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan peraturan undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan penugasan Perum Peruri sebagaimana dimaksud dalam Pasal 3 ayal (21, ayat (3), dan/atau ayat",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "dituangkan dalam perjanjian pelaksanaan penugasan antara kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas dengan Perum Peruri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Perjanjian pelaksanaan penugasan sebagaimana dimaksud pada ayat (1) paling sedikit memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "ruang lingkup perjanjian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "bentuk dukungan kementerian / lembaga terkait;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "hak dan kewajiban para pihak;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "jumlah pendanaan pelaksanaan penugasan;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "mekanisme pembayaran pelaksanaan penugasan; f. sifat kerahasiaan pelaksanaan perjanjian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-g",
+         "type": "HURUF",
+         "orderIndex": 7,
+         "label": "Huruf g",
+         "content": "pengakhiranperjanjian;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "perpres-no-82-tahun-2023/pasal-9/ayat-3/huruf-h",
+         "type": "HURUF",
+         "orderIndex": 8,
+         "label": "Huruf h",
+         "content": "penyelesaian sengketa; dan i. keadaan kahar. Pasal 1O. . . SK No 132288 A",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas merupakan pemegang hak kekayaan intelektual atas Aplikasi SPBE Prioritas yang dibangun dan dikembangkan dalam rangka pelaksanaan penugasan sebagaimana dimaksud dalam Pasal 3 ayat (1). (21 Aplikasi SPBE Prioritas merupakan barang milik negara pada kementerian/lembaga penanggung jawab Aplikasi SPBE Prioritas dan dikelola berdasarkan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "perpres-no-82-tahun-2023/pasal-10/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Hak kekayaan intelektual yang timbul dalam masa penugasan dapat diatur lebih lanjut dalam perjanjian pelaksanaan penugasan sebagaimana dimaksud dalam Pasal 9 ayat (1) antara kementerian/ lembaga penanggung jawab Aplikasi SPBE Prioritas dan Perum Peruri sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "PERAN INSTANSI PEMERINTAH",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-12",
+     "type": "PASAL",
+     "orderIndex": 12,
+     "label": "Pasal 12",
+     "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang badan usaha milik negara: a. melakukan pembinaan dan pengawasan korporasi terhadap pelaksanaan penugasan oleh Perum Peruri; dan b. mengoordinasikan badan usaha milik negara lainnya untuk mendukung pelaksanaan penugasan oleh Perum Peruri.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-13",
+     "type": "PASAL",
+     "orderIndex": 13,
+     "label": "Pasal 13",
+     "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang aparatur negara selaku ketua Tim Koordinasi SPBE Nasional melakukan: a. optimalisasi penyelenggaraan pelayanan publik berbasis digital sejalan dengan tematik layanan digital; dan b. pembinaan dan pengawasan terkait dengan pelaksanaan Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-14",
+     "type": "PASAL",
+     "orderIndex": 14,
+     "label": "Pasal 14",
+     "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika selaku anggota Tim Koordinasi SPBE Nasional melakukan koordinasi penerapan serta pembinaan dan pengawasan terhadap pelaksanaan penugasan sebagaimana dimaksud dalam Pasal 3 ayat (1) terkait dengan: a. integrasi antar Aplikasi SPBE Prioritas; b. interoperabilitas data dan informasi dalam Aplikasi SPBE Prioritas; c. integrasi antar infrastruktur pendukung Aplikasi SPBE Prioritas; d. integrasi Aplikasi SPBE Prioritas dengan pemanfaatan identitas digital; dan e. pemanfaatan Infrastruktur SPBE dalam rangka mendukung Aplikasi SPBE Prioritas.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-15",
+     "type": "PASAL",
+     "orderIndex": 15,
+     "label": "Pasal 15",
+     "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang perencanaan pembangunan nasional selaku ketua dewan pengarah penyelenggara Satu Data Indonesia dan selaku anggota Tim Koordinasi SPBE Nasional: a. memanfaatkan Forum Satu Data Indonesia untuk mendukung penyelenggaraan pertukaran data dan tata kelola data pada Aplikasi SPBE Prioritas; dan b. melakukan . . . SK No 132290A REPUELIK INDONESIA b. melakukan pembinaan dan pengawasan terkait dengan pertukaran data sejalan dengan kebijakan Satu Data Indonesia.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-16",
+     "type": "PASAL",
+     "orderIndex": 16,
+     "label": "Pasal 16",
+     "content": "Kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang pengawasan keuangan negara dan pembangunan nasional melakukan pembinaan dan pengawasan akuntabilitas keuangan dan pembangunan terhadap pelaksanaan penugasan sebagaimana diatur dalam Peraturan Presiden ini.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-17",
+     "type": "PASAL",
+     "orderIndex": 17,
+     "label": "Pasal 17",
+     "content": "Menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara selaku anggota Tim Koordinasi SPBE Nasional memberikan fasilitasi dan dukungan teknis penganggaran yang diperlukan untuk pelaksanaan penugasan sebagaimana dimaksud dalam Pasal 3 ayat (1) sesuai dengan ketentuan peraturan perundang-undangan dan kemampuan keuangan negara.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-18",
+     "type": "PASAL",
+     "orderIndex": 18,
+     "label": "Pasal 18",
+     "content": "Menteri yang menyelenggarakan koordinasi, sinkronisasi, dan pengendalian urusan kementerian dalam penyelenggaraan pemerintahan di bidang politik, hukum, dan keamanan, bidang perekonomian, bidang pembangunan manusia dan kebudayaan, dan bidang kemaritiman dan investasi: a. memantau penerapan percepatan transformasi digital dan pencapaian inisiatif strategis arsitektur SPBE nasional; dan b. penyediaan data dan informasi untuk penyiapan integrasi l,ayanan SPBE lintas sektor, pada kementerian/lembaga yang dikoordinasikan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-19",
+     "type": "PASAL",
+     "orderIndex": 19,
+     "label": "Pasal 19",
+     "content": "Pemerintah daerah mendukung dan melaksanakan penerapan percepatan transformasi digital melalui pemanfaatan Aplikasi SPBE Prioritas sebagaimana diatur dalam Peraturan Presiden ini. BABV. . . SK No 132291 A REPUBLIK INDONESIA -t2-",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-v",
+   "type": "BAB",
+   "orderIndex": 5,
+   "label": "BAB V",
+   "title": "PELAPORAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-82-tahun-2023/pasal-21",
+     "type": "PASAL",
+     "orderIndex": 21,
+     "label": "Pasal 21",
+     "content": "Menteri yang menyelenggarakan urusErn pemerintahan di bidang aparatur negara selaku ketua Tim Koordinasi SPBE Nasional, melaporkan kemajuan penerapan percepatan transformasi digital dan pencapaian inisiatif strategis arsitektur SPBE nasional, termasuk pelaksanaan penugasan sebagaimana diatur dalam Peraturan Presiden ini, kepada Fresiden secara berkala setiap 4 (empat) bulan dan/ atau sewaktu-waktu apabila diperlukan, melalui menteri yang menyelenggarakan koordinasi, sinkronisasi, dan pengendalian urusan kementerian dalam penyelenggaraan pemerintahan di bidang politik, hukum, dan keamanan.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-82-tahun-2023/bab-vi",
+   "type": "BAB",
+   "orderIndex": 6,
+   "label": "BAB VI",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..21): [7, 11, 20]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

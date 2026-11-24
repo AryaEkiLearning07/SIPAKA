@@ -1,0 +1,72 @@
+{
+ "slug": "pp-no-33-tahun-1962",
+ "preamble": {
+  "menimbang": [
+   "b. bahwa perlu melaksanakan Undang-undang No. 19 Prp tahun 1960 tentang Perusahaan Negara terhadap perusahaan-perusahaan milik negara yang berada dibawah lingkungan Departemen Perhubungan Udara; bahwa berhubung dengan itu dianggap perlu untuk menjadikan Lapangan Udara Kemayoran di Jakarta sebagai suatu perusahaan negara seperti yang dimaksudkan dalam Undang-undang No. 19 Prp tahun 1960;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-33-tahun-1962",
+   "detailsId": "72524",
+   "judul": "PP No. 33 Tahun 1962 tentang Pendirian Perusahaan Negara Angkasa Pura Kemayoran - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/63004/pp%20no%20033%20tahun%201962.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T00:52:49.837553+00:00"
+  },
+  "sha256": "f5c723d3324cd156e72fc9dd41aac84ef670bf0b8fc173263256e01dbeb9cc38",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 3,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-33-tahun-1962/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "PENDIRIAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-33-tahun-1962/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "ANGGARAN DASAR",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-33-tahun-1962/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "--------------------------------",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

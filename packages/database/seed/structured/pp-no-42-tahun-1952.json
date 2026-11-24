@@ -1,0 +1,39 @@
+{
+ "slug": "pp-no-42-tahun-1952",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-42-tahun-1952",
+   "detailsId": "78100",
+   "judul": "PP No. 42 Tahun 1952 tentang Berlakunya Peraturan Pemerintah Nr 25 Tahun 1952 &#xD;&#xA;(Lembaran Negara Nr 34 Tahun 1952) Bagi Para Anggota&#xD;&#xA;Angkatan Perang Yang Digaji Menurut Peraturan Pemerintah &#xD;&#xA;Nr 50 Tahun 1951&#xD;&#xA; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/69557/PP%20No.%20042%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:06:35.113588+00:00"
+  },
+  "sha256": "9f430588124b2db8c981e9ac611b27620f3306e38b0f083a7a01d5dcece70fa0",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

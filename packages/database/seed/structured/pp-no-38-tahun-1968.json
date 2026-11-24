@@ -1,0 +1,51 @@
+{
+ "slug": "pp-no-38-tahun-1968",
+ "preamble": {
+  "menimbang": [
+   "bahwa dipandang perlu segera menetapkan kapal-kapal yang sekarang telah di dalam penguasaan dan diusahakan oleh Perusahaan Negara Pelayaran Nasional Indonesia, sebagai kekayaan Negara yang disisihkan dan dijadikan penambahan modal kepada Perusahaan Negara tersebut."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-38-tahun-1968",
+   "detailsId": "71956",
+   "judul": "PP No. 38 Tahun 1968 tentang Penambahan Modal Perusahaan Negara &quot;Pelayaran Nasional Indonesia&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/75315/pp%20no%20038%20tahun%201968.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:32.839351+00:00"
+  },
+  "sha256": "72c5522fb8d604ed68d1a9907c697eaa94c94d8b0c684a5ca036f9038a878d74",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 1,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-38-tahun-1968/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Sejak berlakunya Peraturan Pemerintah ini, sejumlah kapal- kapal seperti tersebut dalam lampiran Peraturan Pemerintah ini dinyatakan sebagai kekayaan Negara yang disisihkan dan hak milik atas kapal-kapal tersebut diserahkan kepada Perusahaan Negara Pelayaran Nasional Indonesia sebagai tambahan modal Perusahaan Negara Pelayaran Nasional Indonesia. Pasal 2. Nilai (uang) daripada kapal-kapal tersebut ditentukan bersama oleh Menteri Perhubungan dengan Menteri Keuangan berdasarkan hasil penilaian suatu Panitia, yang dibentuk oleh Menteri Keuangan dengan mengikut-sertakan wakil-wakil dari Departemen Perhubungan. Pasal 3. Peraturan Pemerintah ini mulai berlaku pada hari tanggal ditetapkan. Agar supaya setiap orang dapat mengetahuinya memerintahkan pengundangan Peraturan Pemerintah ini dengan penempatannya, dalam Lembaran-Negara Republik Indonesia. Ditetapkan di Jakarta, pada tanggal 10 Desember 1968. Presiden Republik Indonesia, SOEHARTO. Jenderal T.N.I. Diundangkan di Jakarta, pada tanggal 10 Desember 1968. Sekretaris Negara R.I., ALAMSJAH. Major Jenderal T.N.I. -------------------------------- CATATAN Di dalam dokumen ini terdapat lampiran dalam format gambar.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

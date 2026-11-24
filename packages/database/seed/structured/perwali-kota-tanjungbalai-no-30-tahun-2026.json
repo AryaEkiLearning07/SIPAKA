@@ -1,0 +1,39 @@
+{
+ "slug": "perwali-kota-tanjungbalai-no-30-tahun-2026",
+ "preamble": {
+  "menimbang": [],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perwali-kota-tanjungbalai-no-30-tahun-2026",
+   "detailsId": "354197",
+   "judul": "Perwali Kota Tanjungbalai No. 30 Tahun 2026 tentang Rencana Kerja Pemerintah Daerah Kota Tanjungbalai Tahun 2027 - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/418151/Perwal%20Tanjung%20Balai%20No%2030%20Tahun%202026.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T14:11:24.334619+00:00"
+  },
+  "sha256": "53c18c1a2b1e57376ef945e708d8493af053f33dcf6e5f290982df21b0612b2f",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

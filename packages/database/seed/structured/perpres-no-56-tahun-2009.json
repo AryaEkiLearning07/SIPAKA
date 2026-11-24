@@ -1,0 +1,113 @@
+{
+ "slug": "perpres-no-56-tahun-2009",
+ "preamble": {
+  "menimbang": [
+   "bahwa sehubungan dengan hal tersebut, dipandang perlu menetapkan Peraturan Presiden tentang Pembukaan Perutusan Tetap Republik Indonesia Untuk Association Of Southeast Asian Nations (ASEAN) di Jakarta;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "perpres-no-56-tahun-2009",
+   "detailsId": "42324",
+   "judul": "PERPRES No. 56 Tahun 2009 tentang Pembukaan Perutusan Tetap Republik Indonesia untuk Association Of Southeast Asia Nation (ASEAN) di Jakarta - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/70355/PERPRES%20No.56%20TH%202009.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:15:01.804191+00:00"
+  },
+  "sha256": "0caed482b860e1c06196640d4e2ae310241f687a383cd64c0ac4fcb88df8325c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 6,
+  "pasal": 2,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "perpres-no-56-tahun-2009/pasal-1/ayat-1",
+     "type": "AYAT",
+     "orderIndex": 1,
+     "label": "Ayat (1)",
+     "content": "Negara Republik Indonesia membuka Perutusan Tetap Republik Indonesia untuk ASEAN yang berkedudukan di Jakarta.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "perpres-no-56-tahun-2009/pasal-1/ayat-2",
+     "type": "AYAT",
+     "orderIndex": 2,
+     "label": "Ayat (2)",
+     "content": "Akreditasi Perutusan Tetap Republik Indonesia adalah Association of Southeast Asian Nations (ASEAN). Pasal 2 …",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  },
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Perutusan Tetap Republik Indonesia sebagaimana dimaksud dalam Pasal 1 adalah Perwakilan Diplomatik Negara Republik Indonesia yang bertanggung jawab kepada Presiden Republik Indonesia melalui Menteri Luar Negeri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-3",
+   "type": "PASAL",
+   "orderIndex": 3,
+   "label": "Pasal 3",
+   "content": "Formasi kepegawaian Perutusan Tetap Republik Indonesia, ditetapkan oleh Menteri Luar Negeri sesuai dengan ketentuan peraturan perundang-undangan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-4",
+   "type": "PASAL",
+   "orderIndex": 4,
+   "label": "Pasal 4",
+   "content": "Segala biaya yang diperlukan untuk Perutusan Tetap Republik Indonesia, dibebankan pada Anggaran Pendapatan dan Belanja Negara cq. anggaran Kementerian Luar Negeri.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-5",
+   "type": "PASAL",
+   "orderIndex": 5,
+   "label": "Pasal 5",
+   "content": "Ketentuan lebih lanjut mengenai tugas, fungsi, jenjang, susunan organisasi, dan tata kerja Perutusan Tetap Republik Indonesia, ditetapkan oleh Menteri Luar Negeri setelah mendapat persetujuan dari Menteri yang bertanggung jawab di bidang pendayagunaan aparatur negara dan reformasi birokrasi. Pasal 6 …",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "perpres-no-56-tahun-2009/pasal-6",
+   "type": "PASAL",
+   "orderIndex": 6,
+   "label": "Pasal 6",
+   "content": "Peraturan Presiden ini mulai berlaku pada tanggal ditetapkan. Ditetapkan di Jakarta pada tanggal PRESIDEN REPUBLIK INDONESIA, ttd DR. H. SUSILO BAMBANG YUDHOYONO Salinan sesuai dengan aslinya Wakil Sekretaris Kabinet, ttd Lambock V. Nahattands",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

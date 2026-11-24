@@ -1,0 +1,112 @@
+{
+ "slug": "pp-no-54-tahun-1970",
+ "preamble": {
+  "menimbang": [
+   "ditandatangani di Jakarta pada tanggal 20 Maret 1969 oleh Menteri Perindustrian Republik Indonesia dan Duta Besar Pemerintah Kerajaan Belanda untuk Indonesia, dalam rangka Perjanjian Kerjasama Tehnik antara Pemerintah Republik Indonesia dan Pemerintah Kerjaan Belanda, Indonesia akan mandapatkan bantuan (grant) dalam bentuk proyek-proyek dalam bidang industri teksil senilai dengan Nf. 11.400.000,- mari Pemerintah Kerajaan Belanda; bahwa dari bantuan sejumlah tersebut pada sub a di atas senilai Nf. 8.100.000,- akan disediakan untuk pendirian pabrik cambrics halus; bahwa dalam rangka memperkembangkan perindustrian tekstil di dalam negeri, pembangunan dan pengusahaan pabrik cambrics halus tersebut akan diselenggarakan berdasarkan kerjasama antara Pemerintah Republik Indonesia dengan Gabungan Koperasi Batik Indonesia (G.K.B.I.) dalam bentuk suatu badan usaha dengan status hukum Perseroan Terbatas; bahwa sesuai dengan isi dan jiwa pasal 2 ayat (3) Undang- undang Nomor 9 tahun 1969, perusahaan Perseroan Terbatas tersebut pada sub c di atas merupakan suatu usaha Negara yang berbentuk Perusahaan Perseroan (PERSERO); bahwa sesuai dengan ketentuan tersebut pada pasal 2 ayat (1) Peraturan Pemerintah Nomor 12 tahun 1969, dipandang perlu untuk mengeluarkan suatu Peraturan Pemerintah yang menetapkan penyertaan modal Negara Republik Indonesia untuk pendirian perusahaan Perseroan Terbatas termaksum;",
+   "d."
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "pp-no-54-tahun-1970",
+   "detailsId": "70182",
+   "judul": "PP No. 54 Tahun 1970 tentang Penyertaan Modal Negara Republik Indonesia Untuk Pendirian Perusahaan Perseroan Terbatas Pabrik Cambrics &quot;Primisima&quot; Disingkat P.T. &quot;Primisima&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/60610/pp%20no%20054%20tahun%201970.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T06:02:01.426329+00:00"
+  },
+  "sha256": "378aa0bd010d328878df9f8356c8a8fd6d66cd0dd0a1109e137a8d595d223c4b",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 1,
+  "ayat_angka": 2,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "pp-no-54-tahun-1970/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-1970/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-1970/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "pp-no-54-tahun-1970/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "pp-no-54-tahun-1970/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pelaksanaan pendirian perusahaan Perseroan Terbatas sebagaimana yang dimaksudkan dalam pasal 15 Peraturan Pemerintah ini dikuasakan kepada Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "pp-no-54-tahun-1970/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Menteri Keuangan dapat menyerahkan kekuasaan tersebut pada ayat (1) pasal ini, dengan hak substitusi kepada Menteri Perindustrian, dengan ketentuan bahwa Rancangan Anggaran Dasar perusahaan Perseroan Terbatas tersebut harus mendapat persetujuan terlebih dahulu dari Menteri Keuangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "pp-no-54-tahun-1970/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "LN 1970/72",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 85,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL GAP (nomor hilang dari 1..6): [1, 2, 3, 4, 5]"
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

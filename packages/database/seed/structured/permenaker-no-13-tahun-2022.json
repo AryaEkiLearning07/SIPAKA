@@ -1,0 +1,547 @@
+{
+ "slug": "permenaker-no-13-tahun-2022",
+ "preamble": {
+  "menimbang": [
+   "bahwa untuk mencegah dan mengendalikan timbulnya penyakit tuberkulosis di tempat kerja yang merupakan bagian dari upaya keselamatan dan kesehatan kerja sebagaimana diatur dalam Undang-Undang Nomor 1 Tahun 1970 tentang Keselamatan Kerja serta mendorong efektivitas penanggulangan tuberkulosis sebagaimana diatur dalam Peraturan Presiden Nomor 67 Tahun 2021 tentang Penanggulangan Tuberkulosis, dibutuhkan ketentuan yang bersifat teknis;",
+   "bahwa berdasarkan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan tentang Peraturan Penanggulangan Tuberkulosis di Tempat Kerja; Ketenagakerjaan pertimbangan Menteri"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "permenaker-no-13-tahun-2022",
+   "detailsId": "231407",
+   "judul": "Permenaker No. 13 Tahun 2022 tentang Penanggulangan Tuberkulosis di Tempat Kerja - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/264905/Permenaker%20Nomor%2013%20Tahun%202022.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-06T13:58:58.137334+00:00"
+  },
+  "sha256": "d43d49634413aeb6c1264c0e6ba62fb7d3568f7435524f3de46e879ad347a81c",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 4,
+  "pasal": 11,
+  "ayat_angka": 28,
+  "huruf": 11
+ },
+ "nodes": [
+  {
+   "canonicalPath": "permenaker-no-13-tahun-2022/bab-i",
+   "type": "BAB",
+   "orderIndex": 1,
+   "label": "BAB I",
+   "title": "KETENTUAN UMUM",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1",
+     "type": "PASAL",
+     "orderIndex": 1,
+     "label": "Pasal 1",
+     "content": "Dalam Peraturan Menteri ini yang dimaksud dengan:",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-1",
+       "type": "ANGKA",
+       "orderIndex": 1,
+       "label": "Angka 1",
+       "content": "Tuberkulosis adalah penyakit menular yang disebabkan oleh mycobacterium tuberculosis yang dapat menyerang paru dan organ lainnya.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-2",
+       "type": "ANGKA",
+       "orderIndex": 2,
+       "label": "Angka 2",
+       "content": "Penanggulangan Tuberkulosis adalah segala upaya kesehatan yang mengutamakan aspek promotif dan preventif tanpa mengabaikan aspek kuratif dan rehabilitatif untuk melindungi kesehatan masyarakat, menurunkan angka kesakitan, kecacatan atau kematian, memutuskan penularan, mencegah resistensi obat Tuberkulosis, dan mengurangi dampak negatif yang ditimbulkan akibat Tuberkulosis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-3",
+       "type": "ANGKA",
+       "orderIndex": 3,
+       "label": "Angka 3",
+       "content": "Tempat Kerja adalah tiap ruangan atau lapangan, tertutup atau terbuka, bergerak atau tetap, dimana tenaga kerja bekerja atau yang sering dimasuki tenaga kerja untuk keperluan suatu usaha dan dimana terdapat sumber atau sumber-sumber bahaya termasuk semua ruangan, lapangan, halaman dan sekelilingnya yang merupakan bagian-bagian atau yang berhubungan dengan Tempat Kerja tersebut.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-4",
+       "type": "ANGKA",
+       "orderIndex": 4,
+       "label": "Angka 4",
+       "content": "Penyakit Akibat Kerja yang selanjutnya disingkat PAK adalah penyakit yang disebabkan oleh pekerjaan dan/atau lingkungan kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-5",
+       "type": "ANGKA",
+       "orderIndex": 5,
+       "label": "Angka 5",
+       "content": "Pekerja/Buruh adalah setiap orang yang bekerja dengan menerima upah atau imbalan dalam bentuk lain.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-6",
+       "type": "ANGKA",
+       "orderIndex": 6,
+       "label": "Angka 6",
+       "content": "Pengurus adalah orang yang mempunyai tugas langsung sesuatu Tempat Kerja atau memimpin bagiannya yang berdiri sendiri.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-7",
+       "type": "ANGKA",
+       "orderIndex": 7,
+       "label": "Angka 7",
+       "content": "Pengusaha adalah: a. b. c. orang perseorangan, persekutuan, atau badan hukum yang menjalankan suatu perusahaan milik sendiri; orang perseorangan, persekutuan, atau badan hukum yang secara berdiri sendiri menjalankan perusahaan bukan miliknya; orang perseorangan, persekutuan, atau badan hukum yang berada di Indonesia mewakili perusahaan sebagaimana dimaksud dalam huruf a dan huruf b yang berkedudukan di luar wilayah Indonesia. 2022, No.967",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/angka-8",
+       "type": "ANGKA",
+       "orderIndex": 8,
+       "label": "Angka 8",
+       "content": "Pengawas Ketenagakerjaan adalah pegawai negeri sipil yang diberi tugas, tanggung jawab, wewenang dan hak secara penuh oleh pejabat yang berwenang untuk melaksanakan pemeriksaan, pengujian, penyidikan, dan pengembangan sistem pengawasan ketenagakerjaan sesuai dengan ketentuan peraturan perundang-undangan. pembinaan, kegiatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-1/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha dan Pengurus wajib melaksanakan Penanggulangan Tuberkulosis di Tempat Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2",
+     "type": "PASAL",
+     "orderIndex": 2,
+     "label": "Pasal 2",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Penanggulangan Tuberkulosis Kerja sebagaimana dimaksud pada ayat (1) merupakan upaya keselamatan dan kesehatan kerja yang diselenggarakan oleh unit pelayanan kesehatan kerja. Tempat di",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Penanggulangan Tuberkulosis di Tempat Kerja dilakukan melalui:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "penyusunan kebijakan Tuberkulosis di Tempat Kerja; Penanggulangan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "sosialisasi, penyebaran informasi dan edukasi Tuberkulosis di Tempat Kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3/huruf-c",
+         "type": "HURUF",
+         "orderIndex": 3,
+         "label": "Huruf c",
+         "content": "penemuan kasus Tuberkulosis;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3/huruf-d",
+         "type": "HURUF",
+         "orderIndex": 4,
+         "label": "Huruf d",
+         "content": "penanganan kasus Tuberkulosis; dan",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-3/huruf-e",
+         "type": "HURUF",
+         "orderIndex": 5,
+         "label": "Huruf e",
+         "content": "pemulihan kesehatan.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-2/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Dalam hal penemuan kasus Tuberkulosis dan penanganan kasus Tuberkulosis sebagaimana dimaksud pada ayat (3) huruf c dan huruf d ditemukan Tuberkulosis yang merupakan PAK maka harus ditindaklanjuti sesuai dengan ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-13-tahun-2022/bab-ii",
+   "type": "BAB",
+   "orderIndex": 2,
+   "label": "BAB II",
+   "title": "PENANGGULANGAN TUBERKULOSIS",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-3",
+     "type": "PASAL",
+     "orderIndex": 3,
+     "label": "Pasal 3",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-3/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha dan Pengurus wajib menyusun kebijakan Penanggulangan Tuberkulosis di Tempat Kerja.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-3/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Kebijakan Penanggulangan Tuberkulosis di Tempat Kerja sebagaimana dimaksud pada ayat (1) minimal memuat:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-3/ayat-2/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "komitmen dalam melakukan Penanggulangan Tuberkulosis di Tempat Kerja;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-3/ayat-2/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "program kerja Penanggulangan Tuberkulosis di c. Tempat Kerja; dan penghapusan Pekerja/Buruh yang menderita Tuberkulosis. stigma dan diskriminasi pada 2022, No.967 Bagian Kedua Sosialisasi, Penyebaran Informasi dan Edukasi Tuberkulosis di Tempat Kerja",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-4",
+     "type": "PASAL",
+     "orderIndex": 4,
+     "label": "Pasal 4",
+     "content": "Pengusaha dan Pengurus melakukan sosialisasi, penyebaran informasi, dan edukasi Tuberkulosis di Tempat Kerja kepada seluruh Pekerja/Buruh berupa: a. kebijakan Penanggulangan Tuberkulosis; b. membudayakan perilaku hidup bersih dan sehat; c. membudayakan perilaku etika batuk; d. peningkatan daya tahan tubuh melalui perbaikan gizi kerja dan peningkatan kebugaran; e. edukasi dampak penyakit penyerta terhadap perburukan Tuberkulosis; dan f. melakukan pemeliharaan dan perbaikan kualitas Tempat Kerja. Bagian Ketiga Penemuan Kasus Tuberkulosis",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5",
+     "type": "PASAL",
+     "orderIndex": 5,
+     "label": "Pasal 5",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Penemuan kasus Tuberkulosis dilakukan melalui upaya pelayanan kesehatan kerja yang meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-1/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "pemeriksaan kesehatan awal dan berkala bagi Pekerja/Buruh;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-1/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "pemeriksaan kesehatan terutama dilakukan pada Pekerja/Buruh yang termasuk dalam kelompok berisiko; dan investigasi dan pemeriksaan kasus kontak erat di Tempat Kerja. khusus, c.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pemeriksaan kesehatan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b dapat dilakukan secara mandiri atau bekerja sama dengan balai atau unit pelaksana teknis keselamatan dan kesehatan kerja serta pihak sesuai dengan ketentuan peraturan perundang-undangan. lain",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Kelompok berisiko sebagaimana dimaksud pada ayat (1) huruf b meliputi:",
+       "versionTag": "ORIGINAL",
+       "children": [
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-3/huruf-a",
+         "type": "HURUF",
+         "orderIndex": 1,
+         "label": "Huruf a",
+         "content": "Pekerja/Buruh dengan penyakit penyerta;",
+         "versionTag": "ORIGINAL",
+         "children": []
+        },
+        {
+         "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-3/huruf-b",
+         "type": "HURUF",
+         "orderIndex": 2,
+         "label": "Huruf b",
+         "content": "Pekerja/Buruh yang terpajan faktor bahaya c. lingkungan kerja; dan/atau Pekerja/Buruh yang terpajan bakteri Tuberkulosis karena pekerjaannya.",
+         "versionTag": "ORIGINAL",
+         "children": []
+        }
+       ]
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-4",
+       "type": "AYAT",
+       "orderIndex": 4,
+       "label": "Ayat (4)",
+       "content": "Selain berdasarkan upaya pelayanan kesehatan kerja sebagaimana dimaksud pada ayat (1), penemuan kasus Tuberkulosis juga dapat berdasarkan diagnosis dari fasilitas pelayanan kesehatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-5/ayat-5",
+       "type": "AYAT",
+       "orderIndex": 5,
+       "label": "Ayat (5)",
+       "content": "Pekerja/Buruh yang menderita Tuberkulosis atau yang mengetahui adanya kemungkinan kasus Tuberkulosis di Tempat Kerja wajib melaporkan kepada Pengusaha atau Pengurus untuk ditindaklanjuti dengan pemeriksaan kesehatan sesuai dengan pedoman Penanggulangan Tuberkulosis Nasional. 2022, No.967 Bagian Keempat Penanganan Kasus Tuberkulosis",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-6",
+     "type": "PASAL",
+     "orderIndex": 6,
+     "label": "Pasal 6",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-6/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Berdasarkan hasil penemuan kasus sebagaimana dimaksud dalam Pasal 5, Pengusaha dan Pengurus Pekerja/Buruh mendapatkan wajib memastikan pengobatan sesuai dengan pedoman Penanggulangan Tuberkulosis Nasional.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-6/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Untuk pencegahan penularan Tuberkulosis, Pengusaha dan Pengurus dapat memberikan istirahat sakit kepada Pekerja/Buruh sebagaimana dimaksud pada ayat (1) paling sedikit 2 tahap awal rekomendasi dokter pengobatan dan/atau sesuai perusahaan atau dokter yang merawat. (dua) minggu pada",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-6/ayat-3",
+       "type": "AYAT",
+       "orderIndex": 3,
+       "label": "Ayat (3)",
+       "content": "Pengusaha dan Pengurus melakukan pemantauan kepatuhan minum obat, kemajuan pengobatan, dan hasil pengobatan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-7",
+     "type": "PASAL",
+     "orderIndex": 7,
+     "label": "Pasal 7",
+     "content": "Pekerja/Buruh yang menderita Tuberkulosis wajib mematuhi semua tahapan dalam penanganan kasus Tuberkulosis sesuai dengan pedoman Penanggulangan Tuberkulosis Nasional.",
+     "versionTag": "ORIGINAL",
+     "children": []
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-8",
+     "type": "PASAL",
+     "orderIndex": 8,
+     "label": "Pasal 8",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-8/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha dan Pengurus melakukan pemantauan lingkungan kerja pada Tempat Kerja dengan temuan kasus Tuberkulosis.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-8/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Berdasarkan hasil pemantauan lingkungan kerja sebagaimana dimaksud pada ayat (1), Pengusaha dan Pengurus melakukan upaya pengendalian sesuai dengan ketentuan peraturan perundang-undangan. Bagian Kelima Pemulihan Kesehatan",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    },
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-9",
+     "type": "PASAL",
+     "orderIndex": 9,
+     "label": "Pasal 9",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-9/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengusaha dan Pengurus harus memberikan dukungan upaya rehabilitasi yang dibutuhkan Pekerja/Buruh setelah sesuai dengan penanganan penyakit Tuberkulosis ketentuan peraturan perundang-undangan.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-9/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pekerja/Buruh yang menderita Tuberkulosis diupayakan kembali bekerja sesuai dengan penilaian kelaikan kerja oleh dokter perusahaan atau dokter yang merawat.",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-13-tahun-2022/bab-iii",
+   "type": "BAB",
+   "orderIndex": 3,
+   "label": "BAB III",
+   "title": "PENGAWASAN",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-10",
+     "type": "PASAL",
+     "orderIndex": 10,
+     "label": "Pasal 10",
+     "content": "",
+     "versionTag": "ORIGINAL",
+     "children": [
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-10/ayat-1",
+       "type": "AYAT",
+       "orderIndex": 1,
+       "label": "Ayat (1)",
+       "content": "Pengawasan pelaksanaan Penanggulangan Tuberkulosis Pengawas di Ketenagakerjaan sesuai dengan ketentuan peraturan perundang-undangan. dilakukan Tempat Kerja oleh",
+       "versionTag": "ORIGINAL",
+       "children": []
+      },
+      {
+       "canonicalPath": "permenaker-no-13-tahun-2022/pasal-10/ayat-2",
+       "type": "AYAT",
+       "orderIndex": 2,
+       "label": "Ayat (2)",
+       "content": "Pengawasan sebagaimana dimaksud pada ayat (1) dapat berkoordinasi dengan pihak lain yang terkait. 2022, No.967",
+       "versionTag": "ORIGINAL",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "canonicalPath": "permenaker-no-13-tahun-2022/bab-iv",
+   "type": "BAB",
+   "orderIndex": 4,
+   "label": "BAB IV",
+   "title": "KETENTUAN PENUTUP",
+   "content": "",
+   "versionTag": "ORIGINAL",
+   "children": [
+    {
+     "canonicalPath": "permenaker-no-13-tahun-2022/pasal-11",
+     "type": "PASAL",
+     "orderIndex": 11,
+     "label": "Pasal 11",
+     "content": "ini mulai berlaku pada tanggal setiap Agar orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia. Ditetapkan di Jakarta pada tanggal 21 September 2022 MENTERI KETENAGAKERJAAN REPUBLIK INDONESIA, ttd. IDA FAUZIYAH Diundangkan di Jakarta pada tanggal 22 September 2022 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. YASONNA H. LAOLY",
+     "versionTag": "ORIGINAL",
+     "children": []
+    }
+   ]
+  }
+ ],
+ "validation": {
+  "skor": 100,
+  "keputusan": "PASS",
+  "issues": [],
+  "publishMode": "AUTO_PUBLISH"
+ }
+}

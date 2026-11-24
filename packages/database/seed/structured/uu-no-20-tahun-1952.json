@@ -1,0 +1,42 @@
+{
+ "slug": "uu-no-20-tahun-1952",
+ "preamble": {
+  "menimbang": [
+   "bahwa menganggap perlu mengadakan satu peraturan mengenai hal itu yang berlaku untuk semua Pegawai Negeri; Mengingat : a. Peraturan Pemerintah Republik Indonesia No. 34 tahun 1949;",
+   "Staatsblad 1926 No. 550, sebagaimana telah diubah dan ditambah kemudian;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-20-tahun-1952",
+   "detailsId": "40267",
+   "judul": "UU No. 20 Tahun 1952 tentang Pensiun Pegawai Negeri Sipil - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/29907/UU%20Nomor%2020%20Tahun%201952.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:56:06.368877+00:00"
+  },
+  "sha256": "6d368fe601a9a4071e61b4c330f461006e5f9f04a03cc0e0e033e47ec1152086",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 0,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "slug": "uu-no-2-tahun-1987",
+ "preamble": {
+  "menimbang": [
+   "bahwa dalam rangka kepentingan bersama antara kedua negara tetangga, khususnya dalam memperkokoh ketahanan nasional dan ketahanan regional serta kerjasama yang bebas dan konstruktif, dipandang perlu untuk mengesahkan perjanjian tersebut dengan Undang-undang;"
+  ],
+  "mengingat": []
+ },
+ "penutup": "",
+ "source": {
+  "url": {
+   "slug": "uu-no-2-tahun-1987",
+   "detailsId": "46818",
+   "judul": "UU No. 2 Tahun 1987 tentang Pengesahan &quot;Treaty of Mutual Respect, Friendship and Cooperation Between The Republic of Indonesia and The Independent State of Papua New Guinea&quot; - JDIH BPK",
+   "enactedAt": null,
+   "pdfUrl": "https://peraturan.bpk.go.id/Download/35592/UU%20Nomor%202%20Tahun%201987.pdf",
+   "relasiDiubah": [],
+   "relasiMencabut": [],
+   "scrapedAt": "2026-10-05T17:47:12.694542+00:00"
+  },
+  "sha256": "2ff8437c7ba2f4e1a938c0bb9a00bf4f2b038a4d092cbd753cd7db7ec6d66ea9",
+  "penerbit": "JDIH BPK (peraturan.bpk.go.id)",
+  "metode": "pdfminer.six + parser generik",
+  "status": "PARSED_AUTO_MENUNGGU_KURASI"
+ },
+ "stats": {
+  "bab": 2,
+  "pasal": 0,
+  "ayat_angka": 0,
+  "huruf": 0
+ },
+ "nodes": [
+  {
+   "canonicalPath": "uu-no-2-tahun-1987/pasal-1",
+   "type": "PASAL",
+   "orderIndex": 1,
+   "label": "Pasal 1",
+   "content": "Mengesahkan \"Treaty of Mutual Respect, Friendship and Cooperation between the Republic of Indonesia and the Independent State of Papua New Guinea\" yang ditandatangani Pemerintah kedua Negara pada tanggal 27 Oktober 1986 di Port Moresby, yang salinan naskah aslinya dalam bahasa Inggeris dilampirkan pada Undang-undang ini. Undang-undang ini mulai berlaku pada tanggal diundangkan.",
+   "versionTag": "ORIGINAL",
+   "children": []
+  },
+  {
+   "canonicalPath": "uu-no-2-tahun-1987/pasal-2",
+   "type": "PASAL",
+   "orderIndex": 2,
+   "label": "Pasal 2",
+   "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 21 Pebruari 1987 ttd SOEHARTO Diundangkan di Jakarta pada tanggal 21 Pebruari 1987 MENTERI/SEKRETARIS NEGARA ttd SUDHARMONO, S.H. LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1987 NOMOR 11",
+   "versionTag": "ORIGINAL",
+   "children": []
+  }
+ ],
+ "validation": {
+  "skor": 0,
+  "keputusan": "QUARANTINE",
+  "issues": [
+   "PASAL KOSONG TOTAL: 0 pasal terbaca dari seluruh dokumen — kemungkinan scan rusak / format tidak dikenal / bukan naskah peraturan."
+  ],
+  "publishMode": "QUARANTINE"
+ }
+}
